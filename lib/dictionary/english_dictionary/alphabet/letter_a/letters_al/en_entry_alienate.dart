@@ -122,7 +122,7 @@ class EnglishEntryalienate extends StatelessWidget {
                                             "His comments have alienated a lot of young voters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
+                                            "لێدوانەکانی ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
                                   ],
                                 ),
                               ),

@@ -363,10 +363,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cope (Derived forms: copes, coping, coped)
+- Verb: cope (derived forms: copes, coping, coped)
 1. Succeed in doing, achieving, or producing (something) with the limited or inadequate means available (= get by, make do, contend, grapple, deal, manage)
 
-- Noun: cope (Derived forms: copes)
+- Noun: cope (derived forms: copes)
 1. Brick that is laid sideways at the top of a wall (= header, coping)
  
 2. A long cloak; worn by a priest or bishop on ceremonial occasions

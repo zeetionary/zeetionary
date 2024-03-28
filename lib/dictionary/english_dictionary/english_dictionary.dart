@@ -3810,127 +3810,127 @@ class _DictionaryScreenEnglishState
     "convenient",
     "conveniently",
     "convent",
-    // "convention",
-    // "conventional",
-    // "conventionally",
-    // "converge",
-    // "convergence",
-    // "convergent",
-    // "conversation",
-    // "conversational",
-    // "converse",
-    // "conversely",
-    // "conversion",
-    // "convert",
-    // "convertible",
-    // "convex",
-    // "convey",
-    // "conveyance",
-    // "conveyancing",
-    // "conveyor",
-    // "conveyor belt",
-    // "convict",
-    // "conviction",
-    // "convince",
-    // "convincing",
-    // "convincingly",
-    // "convivial",
-    // "conviviality",
-    // "convoluted",
-    // "convolution",
-    // "convoy",
-    // "convulse",
-    // "convulsion",
-    // "convulsive",
-    // "coo",
-    // "cook",
-    // "cooker",
-    // "cookery",
-    // "cooking",
-    // "cookie",
-    // "cool",
-    // "cool-headed",
-    // "coolly",
-    // "coolness",
-    // "coop",
-    // "cooperate",
-    // "cooperation",
-    // "cooperative",
-    // "co-opt",
-    // "coordinate",
-    // "coordination",
-    // "coordinator",
-    // "cop",
-    // "cop-out",
-    // "cope",
-    // "copious",
-    // "copiously",
-    // "copper",
-    // "copse",
-    // "copulate",
-    // "copulation",
-    // "copy",
-    // "copycat",
-    // "copier",
-    // "copyright",
-    // "coral",
-    // "cord",
-    // "cordial",
-    // "cordially",
-    // "cordon",
-    // "corduroy",
-    // "core",
-    // "cork",
-    // "corkscrew",
-    // "corn",
-    // "corncob",
-    // "cornflour",
-    // "corn on the cob",
-    // "cornea",
-    // "corned beef",
-    // "corner",
-    // "cornet",
-    // "cornice",
-    // "corny",
-    // "coronary",
-    // "coronary thrombosis",
-    // "coronation",
-    // "coroner",
-    // "coronet",
-    // "corporal",
-    // "corporal punishment",
-    // "corporate",
-    // "corporation",
-    // "corps",
-    // "corpse",
-    // "corpulent",
-    // "corpuscle",
-    // "corral",
-    // "correct",
-    // "correction",
-    // "corrective",
-    // "correctly",
-    // "correctness",
-    // "correlate",
-    // "correlation",
-    // "correspond",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "convention",
+    "conventional",
+    "conventionally",
+    "converge",
+    "convergence",
+    "convergent",
+    "conversation",
+    "conversational",
+    "converse",
+    "conversely",
+    "conversion",
+    "convert",
+    "convertible",
+    "convex",
+    "convey",
+    "conveyance",
+    "conveyancing",
+    "conveyor",
+    "conveyor belt",
+    "convict",
+    "conviction",
+    "convince",
+    "convincing",
+    "convincingly",
+    "convivial",
+    "conviviality",
+    "convoluted",
+    "convolution",
+    "convoy",
+    "convulse",
+    "convulsion",
+    "convulsive",
+    "coo",
+    "cook",
+    "cooker",
+    "cookery",
+    "cooking",
+    "cookie",
+    "cool",
+    "cool-headed",
+    "coolly",
+    "coolness",
+    "coop",
+    "cooperate",
+    "cooperation",
+    "cooperative",
+    "co-opt",
+    "coordinate",
+    "coordination",
+    "coordinator",
+    "cop",
+    "cop-out",
+    "cope",
+    "copious",
+    "copiously",
+    "copper",
+    "copse",
+    "copulate",
+    "copulation",
+    "copy",
+    "copycat",
+    "copier",
+    "copyright",
+    "coral",
+    "cord",
+    "cordial",
+    "cordially",
+    "cordon",
+    "corduroy",
+    "core",
+    "cork",
+    "corkscrew",
+    "corn",
+    "corncob",
+    "cornflour",
+    "corn on the cob",
+    "cornea",
+    "corned beef",
+    "corner",
+    "cornet",
+    "cornice",
+    "corny",
+    "coronary",
+    "coronary thrombosis",
+    "coronation",
+    "coroner",
+    "coronet",
+    "corporal",
+    "corporal punishment",
+    "corporate",
+    "corporation",
+    "corps",
+    "corpse",
+    "corpulent",
+    "corpuscle",
+    "corral",
+    "correct",
+    "correction",
+    "corrective",
+    "correctly",
+    "correctness",
+    "correlate",
+    "correlation",
+    "correspond",
+    "correspondence",
+    "correspondent",
+    "corresponding",
+    "correspondingly",
+    "corridor",
+    "corroborate",
+    "corroboration",
+    "corrode",
+    "corrosion",
+    "corrosive",
+    "corrugated",
+    "corrupt",
+    "corruption",
+    "corruptly",
+    "corset",
+    "cortège",
+    // "cosh",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -4708,6 +4708,7 @@ class _DictionaryScreenEnglishState
     input = input.replaceAll('llery', 'lry');
     input = input.replaceAll('nes', 'ns');
     input = input.replaceAll('nium', 'num');
+    input = input.replaceAll('è', 'e');
 
     // Remove hyphens and convert to lowercase
     return input.replaceAll('-', ' ').toLowerCase();
@@ -20022,485 +20023,485 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-convent");
                   }
-                  // if (wordsEnglish == "convention") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convention");
-                  // }
-                  // if (wordsEnglish == "conventional") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conventional");
-                  // }
-                  // if (wordsEnglish == "conventionally") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conventionally");
-                  // }
-                  // if (wordsEnglish == "converge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-converge");
-                  // }
-                  // if (wordsEnglish == "convergence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convergence");
-                  // }
-                  // if (wordsEnglish == "convergent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convergent");
-                  // }
-                  // if (wordsEnglish == "conversation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conversation");
-                  // }
-                  // if (wordsEnglish == "conversational") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conversational");
-                  // }
-                  // if (wordsEnglish == "converse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-converse");
-                  // }
-                  // if (wordsEnglish == "conversely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conversely");
-                  // }
-                  // if (wordsEnglish == "conversion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conversion");
-                  // }
-                  // if (wordsEnglish == "convert") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convert");
-                  // }
-                  // if (wordsEnglish == "convertible") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convertible");
-                  // }
-                  // if (wordsEnglish == "convex") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convex");
-                  // }
-                  // if (wordsEnglish == "convey") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convey");
-                  // }
-                  // if (wordsEnglish == "conveyance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conveyance");
-                  // }
-                  // if (wordsEnglish == "conveyancing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conveyancing");
-                  // }
-                  // if (wordsEnglish == "conveyor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conveyor");
-                  // }
-                  // if (wordsEnglish == "conveyor belt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conveyor-belt");
-                  // }
-                  // if (wordsEnglish == "convict") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convict");
-                  // }
-                  // if (wordsEnglish == "conviction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conviction");
-                  // }
-                  // if (wordsEnglish == "convince") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convince");
-                  // }
-                  // if (wordsEnglish == "convincing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convincing");
-                  // }
-                  // if (wordsEnglish == "convincingly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convincingly");
-                  // }
-                  // if (wordsEnglish == "convivial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convivial");
-                  // }
-                  // if (wordsEnglish == "conviviality") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-conviviality");
-                  // }
-                  // if (wordsEnglish == "convoluted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convoluted");
-                  // }
-                  // if (wordsEnglish == "convolution") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convolution");
-                  // }
-                  // if (wordsEnglish == "convoy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convoy");
-                  // }
-                  // if (wordsEnglish == "convulse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convulse");
-                  // }
-                  // if (wordsEnglish == "convulsion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convulsion");
-                  // }
-                  // if (wordsEnglish == "convulsive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-convulsive");
-                  // }
-                  // if (wordsEnglish == "coo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coo");
-                  // }
-                  // if (wordsEnglish == "cook") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cook");
-                  // }
-                  // if (wordsEnglish == "cooker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cooker");
-                  // }
-                  // if (wordsEnglish == "cookery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cookery");
-                  // }
-                  // if (wordsEnglish == "cooking") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cooking");
-                  // }
-                  // if (wordsEnglish == "cool") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cool");
-                  // }
-                  // if (wordsEnglish == "cool-headed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cool-headed");
-                  // }
-                  // if (wordsEnglish == "coolly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coolly");
-                  // }
-                  // if (wordsEnglish == "coolness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coolness");
-                  // }
-                  // if (wordsEnglish == "coop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coop");
-                  // }
-                  // if (wordsEnglish == "cooperate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cooperate");
-                  // }
-                  // if (wordsEnglish == "cooperation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cooperation");
-                  // }
-                  // if (wordsEnglish == "cooperative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cooperative");
-                  // }
-                  // if (wordsEnglish == "co-opt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-co-opt");
-                  // }
-                  // if (wordsEnglish == "coordinate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coordinate");
-                  // }
-                  // if (wordsEnglish == "coordination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coordination");
-                  // }
-                  // if (wordsEnglish == "coordinator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coordinator");
-                  // }
-                  // if (wordsEnglish == "cop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cop");
-                  // }
-                  // if (wordsEnglish == "cop-out") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cop-out");
-                  // }
-                  // if (wordsEnglish == "cope") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cope");
-                  // }
-                  // if (wordsEnglish == "copious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copious");
-                  // }
-                  // if (wordsEnglish == "copiously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copiously");
-                  // }
-                  // if (wordsEnglish == "copper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copper");
-                  // }
-                  // if (wordsEnglish == "copse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copse");
-                  // }
-                  // if (wordsEnglish == "copulate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copulate");
-                  // }
-                  // if (wordsEnglish == "copulation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copulation");
-                  // }
-                  // if (wordsEnglish == "copy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copy");
-                  // }
-                  // if (wordsEnglish == "copycat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copycat");
-                  // }
-                  // if (wordsEnglish == "copier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copier");
-                  // }
-                  // if (wordsEnglish == "copyright") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-copyright");
-                  // }
-                  // if (wordsEnglish == "coral") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coral");
-                  // }
-                  // if (wordsEnglish == "cord") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cord");
-                  // }
-                  // if (wordsEnglish == "cordial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cordial");
-                  // }
-                  // if (wordsEnglish == "cordially") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cordially");
-                  // }
-                  // if (wordsEnglish == "cordon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cordon");
-                  // }
-                  // if (wordsEnglish == "corduroy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corduroy");
-                  // }
-                  // if (wordsEnglish == "core") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-core");
-                  // }
-                  // if (wordsEnglish == "cork") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cork");
-                  // }
-                  // if (wordsEnglish == "corkscrew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corkscrew");
-                  // }
-                  // if (wordsEnglish == "corn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corn");
-                  // }
-                  // if (wordsEnglish == "corncob") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corncob");
-                  // }
-                  // if (wordsEnglish == "cornflour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cornflour");
-                  // }
-                  // if (wordsEnglish == "corn on the cob") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corn-on-the-cob");
-                  // }
-                  // if (wordsEnglish == "cornea") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cornea");
-                  // }
-                  // if (wordsEnglish == "corned beef") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corned-beef");
-                  // }
-                  // if (wordsEnglish == "corner") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corner");
-                  // }
-                  // if (wordsEnglish == "cornet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cornet");
-                  // }
-                  // if (wordsEnglish == "cornice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cornice");
-                  // }
-                  // if (wordsEnglish == "corny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corny");
-                  // }
-                  // if (wordsEnglish == "coronary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coronary");
-                  // }
-                  // if (wordsEnglish == "coronary thrombosis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coronary");
-                  // }
-                  // if (wordsEnglish == "coronation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coronation");
-                  // }
-                  // if (wordsEnglish == "coroner") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coroner");
-                  // }
-                  // if (wordsEnglish == "coronet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coronet");
-                  // }
-                  // if (wordsEnglish == "corporal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corporal");
-                  // }
-                  // if (wordsEnglish == "corporal punishment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corporal-punishment");
-                  // }
-                  // if (wordsEnglish == "corporate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corporate");
-                  // }
-                  // if (wordsEnglish == "corporation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corporation");
-                  // }
-                  // if (wordsEnglish == "corps") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corps");
-                  // }
-                  // if (wordsEnglish == "corpse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corpse");
-                  // }
-                  // if (wordsEnglish == "corpulent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corpulent");
-                  // }
-                  // if (wordsEnglish == "corpuscle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corpuscle");
-                  // }
-                  // if (wordsEnglish == "corral") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corral");
-                  // }
-                  // if (wordsEnglish == "correct") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correct");
-                  // }
-                  // if (wordsEnglish == "correctly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correctly");
-                  // }
-                  // if (wordsEnglish == "correctness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correctness");
-                  // }
-                  // if (wordsEnglish == "correction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correction");
-                  // }
-                  // if (wordsEnglish == "corrective") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-corrective");
-                  // }
-                  // if (wordsEnglish == "correlate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correlate");
-                  // }
-                  // if (wordsEnglish == "correlation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correlation");
-                  // }
-                  // if (wordsEnglish == "correspond") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-correspond");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  if (wordsEnglish == "convention") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convention");
+                  }
+                  if (wordsEnglish == "conventional") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conventional");
+                  }
+                  if (wordsEnglish == "conventionally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conventionally");
+                  }
+                  if (wordsEnglish == "converge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-converge");
+                  }
+                  if (wordsEnglish == "convergence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convergence");
+                  }
+                  if (wordsEnglish == "convergent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convergent");
+                  }
+                  if (wordsEnglish == "conversation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conversation");
+                  }
+                  if (wordsEnglish == "conversational") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conversational");
+                  }
+                  if (wordsEnglish == "converse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-converse");
+                  }
+                  if (wordsEnglish == "conversely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conversely");
+                  }
+                  if (wordsEnglish == "conversion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conversion");
+                  }
+                  if (wordsEnglish == "convert") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convert");
+                  }
+                  if (wordsEnglish == "convertible") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convertible");
+                  }
+                  if (wordsEnglish == "convex") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convex");
+                  }
+                  if (wordsEnglish == "convey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convey");
+                  }
+                  if (wordsEnglish == "conveyance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conveyance");
+                  }
+                  if (wordsEnglish == "conveyancing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conveyancing");
+                  }
+                  if (wordsEnglish == "conveyor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conveyor");
+                  }
+                  if (wordsEnglish == "conveyor belt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conveyor-belt");
+                  }
+                  if (wordsEnglish == "convict") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convict");
+                  }
+                  if (wordsEnglish == "conviction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conviction");
+                  }
+                  if (wordsEnglish == "convince") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convince");
+                  }
+                  if (wordsEnglish == "convincing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convincing");
+                  }
+                  if (wordsEnglish == "convincingly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convincingly");
+                  }
+                  if (wordsEnglish == "convivial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convivial");
+                  }
+                  if (wordsEnglish == "conviviality") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-conviviality");
+                  }
+                  if (wordsEnglish == "convoluted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convoluted");
+                  }
+                  if (wordsEnglish == "convolution") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convolution");
+                  }
+                  if (wordsEnglish == "convoy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convoy");
+                  }
+                  if (wordsEnglish == "convulse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convulse");
+                  }
+                  if (wordsEnglish == "convulsion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convulsion");
+                  }
+                  if (wordsEnglish == "convulsive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-convulsive");
+                  }
+                  if (wordsEnglish == "coo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coo");
+                  }
+                  if (wordsEnglish == "cook") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cook");
+                  }
+                  if (wordsEnglish == "cooker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cooker");
+                  }
+                  if (wordsEnglish == "cookery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cookery");
+                  }
+                  if (wordsEnglish == "cooking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cooking");
+                  }
+                  if (wordsEnglish == "cool") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cool");
+                  }
+                  if (wordsEnglish == "cool-headed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cool-headed");
+                  }
+                  if (wordsEnglish == "coolly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coolly");
+                  }
+                  if (wordsEnglish == "coolness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coolness");
+                  }
+                  if (wordsEnglish == "coop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coop");
+                  }
+                  if (wordsEnglish == "cooperate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cooperate");
+                  }
+                  if (wordsEnglish == "cooperation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cooperation");
+                  }
+                  if (wordsEnglish == "cooperative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cooperative");
+                  }
+                  if (wordsEnglish == "co-opt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-co-opt");
+                  }
+                  if (wordsEnglish == "coordinate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coordinate");
+                  }
+                  if (wordsEnglish == "coordination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coordination");
+                  }
+                  if (wordsEnglish == "coordinator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coordinator");
+                  }
+                  if (wordsEnglish == "cop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cop");
+                  }
+                  if (wordsEnglish == "cop-out") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cop-out");
+                  }
+                  if (wordsEnglish == "cope") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cope");
+                  }
+                  if (wordsEnglish == "copious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copious");
+                  }
+                  if (wordsEnglish == "copiously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copiously");
+                  }
+                  if (wordsEnglish == "copper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copper");
+                  }
+                  if (wordsEnglish == "copse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copse");
+                  }
+                  if (wordsEnglish == "copulate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copulate");
+                  }
+                  if (wordsEnglish == "copulation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copulation");
+                  }
+                  if (wordsEnglish == "copy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copy");
+                  }
+                  if (wordsEnglish == "copycat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copycat");
+                  }
+                  if (wordsEnglish == "copier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copier");
+                  }
+                  if (wordsEnglish == "copyright") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-copyright");
+                  }
+                  if (wordsEnglish == "coral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coral");
+                  }
+                  if (wordsEnglish == "cord") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cord");
+                  }
+                  if (wordsEnglish == "cordial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cordial");
+                  }
+                  if (wordsEnglish == "cordially") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cordially");
+                  }
+                  if (wordsEnglish == "cordon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cordon");
+                  }
+                  if (wordsEnglish == "corduroy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corduroy");
+                  }
+                  if (wordsEnglish == "core") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-core");
+                  }
+                  if (wordsEnglish == "cork") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cork");
+                  }
+                  if (wordsEnglish == "corkscrew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corkscrew");
+                  }
+                  if (wordsEnglish == "corn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corn");
+                  }
+                  if (wordsEnglish == "corncob") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corncob");
+                  }
+                  if (wordsEnglish == "cornflour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cornflour");
+                  }
+                  if (wordsEnglish == "corn on the cob") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corn-on-the-cob");
+                  }
+                  if (wordsEnglish == "cornea") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cornea");
+                  }
+                  if (wordsEnglish == "corned beef") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corned-beef");
+                  }
+                  if (wordsEnglish == "corner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corner");
+                  }
+                  if (wordsEnglish == "cornet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cornet");
+                  }
+                  if (wordsEnglish == "cornice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cornice");
+                  }
+                  if (wordsEnglish == "corny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corny");
+                  }
+                  if (wordsEnglish == "coronary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coronary");
+                  }
+                  if (wordsEnglish == "coronary thrombosis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coronary");
+                  }
+                  if (wordsEnglish == "coronation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coronation");
+                  }
+                  if (wordsEnglish == "coroner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coroner");
+                  }
+                  if (wordsEnglish == "coronet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coronet");
+                  }
+                  if (wordsEnglish == "corporal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corporal");
+                  }
+                  if (wordsEnglish == "corporal punishment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corporal-punishment");
+                  }
+                  if (wordsEnglish == "corporate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corporate");
+                  }
+                  if (wordsEnglish == "corporation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corporation");
+                  }
+                  if (wordsEnglish == "corps") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corps");
+                  }
+                  if (wordsEnglish == "corpse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corpse");
+                  }
+                  if (wordsEnglish == "corpulent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corpulent");
+                  }
+                  if (wordsEnglish == "corpuscle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corpuscle");
+                  }
+                  if (wordsEnglish == "corral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corral");
+                  }
+                  if (wordsEnglish == "correct") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correct");
+                  }
+                  if (wordsEnglish == "correctly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correctly");
+                  }
+                  if (wordsEnglish == "correctness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correctness");
+                  }
+                  if (wordsEnglish == "correction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correction");
+                  }
+                  if (wordsEnglish == "corrective") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrective");
+                  }
+                  if (wordsEnglish == "correlate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correlate");
+                  }
+                  if (wordsEnglish == "correlation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correlation");
+                  }
+                  if (wordsEnglish == "correspond") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correspond");
+                  }
+                  if (wordsEnglish == "corresponding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corresponding");
+                  }
+                  if (wordsEnglish == "correspondingly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correspondingly");
+                  }
+                  if (wordsEnglish == "correspondence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correspondence");
+                  }
+                  if (wordsEnglish == "correspondent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-correspondent");
+                  }
+                  if (wordsEnglish == "corridor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corridor");
+                  }
+                  if (wordsEnglish == "corroborate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corroborate");
+                  }
+                  if (wordsEnglish == "corroboration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corroboration");
+                  }
+                  if (wordsEnglish == "corrode") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrode");
+                  }
+                  if (wordsEnglish == "corrosion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrosion");
+                  }
+                  if (wordsEnglish == "corrosive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrosive");
+                  }
+                  if (wordsEnglish == "corrugated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrugated");
+                  }
+                  if (wordsEnglish == "corrupt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corrupt");
+                  }
+                  if (wordsEnglish == "corruption") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corruption");
+                  }
+                  if (wordsEnglish == "corruptly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corruptly");
+                  }
+                  if (wordsEnglish == "corset") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-corset");
+                  }
+                  if (wordsEnglish == "cortège") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cortege");
+                  }
+                  // if (wordsEnglish == "cosh") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push("/english-cosh");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

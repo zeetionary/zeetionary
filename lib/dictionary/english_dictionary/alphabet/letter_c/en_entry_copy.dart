@@ -1379,7 +1379,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copy (Derived forms: copies)
+- Noun: copy (derived forms: copies)
 1. (law) a reproduction of a written record (e.g. of a legal or school record) (= transcript)
  
 2. A thing made to be similar or identical to another thing
@@ -1390,7 +1390,7 @@ ${englishMeaningConst.text}
 4. Material suitable for a journalistic account
 "catastrophes make good copy"
 
-- Verb: copy (Derived forms: copies, copied, copying)
+- Verb: copy (derived forms: copies, copied, copying)
 1. Reproduce on paper
 "The students were made to copy the alphabet over and over"
  

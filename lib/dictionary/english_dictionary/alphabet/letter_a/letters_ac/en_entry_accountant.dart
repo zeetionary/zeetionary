@@ -93,7 +93,7 @@ class EnglishEntryaccountant extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
+                          const DefinitionKurdish(text: """
 ١. کەسێک کە کاری ژمێریاری دەکات"""),
                           Row(
                             children: [

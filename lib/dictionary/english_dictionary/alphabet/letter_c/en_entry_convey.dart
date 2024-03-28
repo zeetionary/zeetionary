@@ -453,7 +453,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: convey (Derived forms: conveys, conveyed, conveying)
+- Verb: convey (derived forms: conveys, conveyed, conveying)
 1. (of information) make known; pass on
 "She conveyed the message to me"
  

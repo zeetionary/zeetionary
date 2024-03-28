@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: convulse (Derived forms: convulsed, convulses, convulsing)
+- Verb: convulse (derived forms: convulsed, convulses, convulsing)
 1. Contract involuntarily, as in a spasm
 "The muscles in her face convulsed"
  

@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conveyor (Derived forms: conveyors)
+- Noun: conveyor (derived forms: conveyors)
 1. A person who conveys (carries or transmits) (= conveyer)
 "the conveyor of good tidings";
  

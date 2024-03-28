@@ -426,7 +426,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cord (Derived forms: cords)
+- Noun: cord (derived forms: cords)
 1. A line made of twisted fibers or threads
 "the bundle was tied with a cord"
  
@@ -436,7 +436,7 @@ ${englishMeaningConst.text}
  
 4. A cut pile fabric with vertical ribs; usually made of cotton (= corduroy)
 
-- Verb: cord (Derived forms: cording, cords, corded)
+- Verb: cord (derived forms: cording, cords, corded)
 1. Stack in cords
 "cord firewood"
  

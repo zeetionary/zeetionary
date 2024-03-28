@@ -1241,7 +1241,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری چارەسەری تایبەتی بووێت"),
+                                  "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری تایبەتی بووێت"),
                           Row(
                             children: [
                               const Expanded(

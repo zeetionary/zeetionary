@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: corncob (Derived forms: corncobs)
+- Noun: corncob (derived forms: corncobs)
 1. The hard cylindrical core that bears the kernels of an ear of corn (= corn cob)
 """,
   );

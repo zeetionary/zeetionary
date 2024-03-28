@@ -363,14 +363,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convoy (Derived forms: convoys)
+- Noun: convoy (derived forms: convoys)
 1. A procession of land vehicles travelling together
  
 2. A collection of merchant ships with an escort of warships
  
 3. The act of escorting while in transit
 
-- Verb: convoy (Derived forms: convoyed, convoying, convoys)
+- Verb: convoy (derived forms: convoyed, convoying, convoys)
 1. Escort in transit
 "the trucks convoyed the cars across the battle zone"; "the warships convoyed the merchant ships across the Pacific"
 """,

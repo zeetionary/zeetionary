@@ -375,7 +375,7 @@ ${englishMeaningConst.text}
 3. Sincerely or intensely felt
 "a cordial regard for his visitor's comfort"; "a cordial abhorrence of waste"
 
-- Noun: cordial (Derived forms: cordials)
+- Noun: cordial (derived forms: cordials)
 1. Strong highly flavoured sweet liquor usually drunk after a meal (= liqueur)
  
 2. [Brit] Sweet uncarbonated fruit-flavoured soft drink (= squash [Brit])

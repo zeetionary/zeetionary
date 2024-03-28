@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copier (Derived forms: copiers)
+- Noun: copier (derived forms: copiers)
 1. Apparatus that makes copies of typed, written or drawn material (= duplicator)
 """,
   );

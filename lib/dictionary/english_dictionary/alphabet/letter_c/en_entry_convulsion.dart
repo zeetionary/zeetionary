@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convulsion (Derived forms: convulsions)
+- Noun: convulsion (derived forms: convulsions)
 1. A sudden uncontrollable attack (= paroxysm, fit)
 "convulsions of laughter";
  

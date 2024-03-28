@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 - Adjective: coral 
 1. Of a strong pink to yellowish-pink colour
 
-- Noun: coral (Derived forms: corals)
+- Noun: coral (derived forms: corals)
 1. A variable colour averaging a deep pink
  
 2. The hard stony skeleton of a Mediterranean coral that has a delicate red or pink colour and is used for jewellery (= red coral, precious coral)

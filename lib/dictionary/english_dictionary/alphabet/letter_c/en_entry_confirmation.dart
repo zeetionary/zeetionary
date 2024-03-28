@@ -209,7 +209,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                             "I'm still waiting for confirmation of the test results."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھێشتا چاوەڕێی پشتڕاستکردنەوەی ئەنجامی تاقیکردنەوەکانم."),
+                                            "ھێشتا چاوەڕێی پشت‌ڕاست‌کردنەوەی ئەنجامی تاقیکردنەوەکانم."),
                                   ],
                                 ),
                               ),
@@ -237,7 +237,8 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She nodded in confirmation."),
                                     ExampleSentenceKurdish(
-                                        text: "سەری لەقاند بۆ پشتڕاستکردنەوە."),
+                                        text:
+                                            "سەری لەقاند بۆ پشت‌ڕاست‌کردنەوە."),
                                   ],
                                 ),
                               ),
@@ -267,7 +268,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                             "The police are seeking independent confirmation of certain details of the story."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس بە شوێن پشتڕاستکردنەوەی سەربەخۆنی ژمارەیەکی دیاریکراو لە وردەکاری بابەتەکە."),
+                                            "پۆلیس بە شوێن پشت‌ڕاست‌کردنەوەی سەربەخۆنی ژمارەیەکی دیاریکراو لە وردەکاری بابەتەکە."),
                                   ],
                                 ),
                               ),
@@ -297,7 +298,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                                             "You will receive written confirmation of our decision in the next few days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پشتڕاستکردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داھاتوودا."),
+                                            "پشت‌ڕاست‌کردنەوەی نووسراومانت پێدەگات سەبارەت بە بڕیارەکەمان لە چەند ڕۆژی داھاتوودا."),
                                   ],
                                 ),
                               ),

@@ -1625,7 +1625,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: corner (Derived forms: corners)
+- Noun: corner (derived forms: corners)
 1. The point where two lines meet or intersect
 "the corners of a rectangle"
  
@@ -1659,7 +1659,7 @@ ${englishMeaningConst.text}
  
 12. A free kick from the corner awarded to the other side when a player has sent the ball behind his own goal line (= corner kick)
 
-- Verb: corner (Derived forms: cornered, cornering, corners)
+- Verb: corner (derived forms: cornered, cornering, corners)
 1. Gain control over
 "corner the gold market"
  

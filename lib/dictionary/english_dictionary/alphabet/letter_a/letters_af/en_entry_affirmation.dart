@@ -126,7 +126,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                             "We welcome the government's affirmation of its intention to act."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
+                                            "پێشوازی دەکەین لە پشت‌ڕاست‌کردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
                                   ],
                                 ),
                               ),

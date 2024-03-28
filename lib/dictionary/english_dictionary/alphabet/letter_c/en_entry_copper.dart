@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copper (Derived forms: coppers)
+- Noun: copper (derived forms: coppers)
 1. A ductile malleable reddish-brown corrosion-resistant diamagnetic metallic element; occurs in various minerals but is the only metal that occurs abundantly in large masses; used as an electrical and thermal conductor (= Cu, atomic number 29)
  
 2. A copper penny
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
  
 5. Any of various small butterflies of the family Lycaenidae having coppery wings
 
-- Verb: copper (= Derived forms: coppered, coppers, coppering)
+- Verb: copper (= derived forms: coppered, coppers, coppering)
 1. Coat with a layer of copper
 """,
   );

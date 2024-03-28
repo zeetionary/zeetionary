@@ -395,7 +395,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-1. Noun: conversion (Derived forms: conversions)
+1. Noun: conversion (derived forms: conversions)
 An event that results in a transformation (= transition, changeover)
  
 2. A change in the units or form of an expression:

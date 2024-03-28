@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cooperation (Derived forms: cooperations)
+- Noun: cooperation (derived forms: cooperations)
 1. Joint operation or action
 "their cooperation with us was essential for the success of our mission"
  

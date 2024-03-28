@@ -305,10 +305,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copycat (Derived forms: copycats)
+- Noun: copycat (derived forms: copycats)
 1. Someone who copies the words or behaviour of another (= imitator, emulator, ape, aper)
 
-- Verb: copycat (Derived forms: copycatting, copycatted, copycats)
+- Verb: copycat (derived forms: copycatting, copycatted, copycats)
 1. Copy the words or behaviour of another
 """,
   );

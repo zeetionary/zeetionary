@@ -304,11 +304,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coop (Derived forms: cooping, cooped, coops)
+- Verb: coop (derived forms: cooping, cooped, coops)
 1. Confine in or as if in a coop (= coop up, coop in)
 "she coops herself up in the library all day";
 
-- Noun: coop (Derived forms: coops)
+- Noun: coop (derived forms: coops)
 1. An enclosure made of wire or metal bars in which birds or animals can be kept (= cage)
  
 2. A farm building for housing poultry (= chicken coop, hencoop, henhouse)

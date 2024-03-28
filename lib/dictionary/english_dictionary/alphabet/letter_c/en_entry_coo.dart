@@ -394,10 +394,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coo (Derived forms: coos)
+- Noun: coo (derived forms: coos)
 1. The sound made by a pigeon
 
-- Verb: coo (Derived forms: cooing, coos, cooed)
+- Verb: coo (derived forms: cooing, coos, cooed)
 1. Speak softly or lovingly
 "The mother who held her baby was cooing softly"
  

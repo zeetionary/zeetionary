@@ -326,7 +326,7 @@ class EnglishEntrycite extends StatelessWidget {
                                             "She cited a passage from the President’s speech."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەشێک لە وتارەکەی سەرۆک وەک ئاماژە پێدەکات."),
+                                            "بەشێک لە وتارەکەی سەرۆک ئاماژە پێدەکات."),
                                   ],
                                 ),
                               ),

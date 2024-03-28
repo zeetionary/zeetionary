@@ -107,7 +107,7 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUK: /ˌkɒrəˈspɒnd/"),
         CustomIconButtonBritish(
           onPressed: () => speakcorrespond("en-GB"),
         ),
@@ -135,7 +135,7 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUS: /ˌkɔːrəˈspɑːnd/"),
         CustomIconButtonAmerican(
           onPressed: () => speakcorrespond("en-US"),
         ),
@@ -157,7 +157,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcorresponds111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "Your account and hers do not correspond."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds2(String languageCode) async {
@@ -165,7 +165,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Your account of events does not correspond with hers."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds3(String languageCode) async {
@@ -173,7 +174,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The written record of the conversation doesn't correspond to what was actually said."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds4(String languageCode) async {
@@ -181,7 +183,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Check that this number corresponds with the one on the document."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds5(String languageCode) async {
@@ -189,7 +192,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Wages did not rise to correspond with the price increases brought about by the wars."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds6(String languageCode) async {
@@ -197,7 +201,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The word corresponds roughly in meaning to our ‘homesickness’."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds7(String languageCode) async {
@@ -205,7 +210,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She corresponded regularly with her former teacher."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds8(String languageCode) async {
@@ -213,7 +219,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcorresponds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I have corresponded with him in the past."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorresponds9(String languageCode) async {
@@ -265,18 +272,19 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هاوشان بوون، ڕێک بوون، بەرامبەر بوون، یەکسان بوون، وێکچوون، نامەگۆڕینەوە، پەیوەندی کردن
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(
+              text: "١. (کردار) بوون بە هەمان شت لەگەڵ شتێکی دیکەکەدا"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "// speakcorresponds111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                        text: "Your account and hers do not correspond."),
+                    ExampleSentenceKurdish(
+                        text: "گێڕانەوەکەی تۆ و ئەوەی ئەو یەکناگرنەوە."),
                   ],
                 ),
               ),
@@ -288,6 +296,212 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcorresponds1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Your account of events does not correspond with hers."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گێڕانەوەت بۆ ڕووداوەکان لەگەڵ ئەوەی ئەو یەکناگرێتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorresponds2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorresponds2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The written record of the conversation doesn't correspond to (= is different from) what was actually said."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "تۆماری نووسراوی گفتوگۆکە یەکناگرێتەوە لەگەڵ ئەوەی لە ڕاستیدا گوترا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcorresponds3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcorresponds3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Check that this number corresponds with the one on the document."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "دڵنیابەرەوە ئەم ژمارە هاوتایە لەگەڵ لەگەڵ ئەوەی سەر بەڵگەنامەکە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcorresponds4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcorresponds4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Wages did not rise to correspond with the price increases brought about by the wars."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "کرێ بەرزنەبووەوە بۆ هاوشانبوون لەگەڵ بەرزبوونەوەی نرخ بەهۆی جەنگەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcorresponds5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcorresponds5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (کردار) بوون بە هەمان شت یان نزیک لە شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The word corresponds roughly in meaning to our ‘homesickness’."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وشەکە لە واتادا تا ڕادەیەک هاوتایە لەگەڵ 'homesickness' ـی خۆمان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorresponds6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorresponds6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (کردار) نووسین بۆ کەسێک بە نامە یان ئیمەیڵ، هتد بۆ کەسێک و بەدەست گەشتنی نامە یان ئیمەیڵ، هتد لێیانەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She corresponded regularly with her former teacher."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە بەردەوامی لە پەیوەندیدایە لەگەڵ مامۆستا کۆنەکەیەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorresponds7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorresponds7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I have corresponded with him in the past."),
+                    ExampleSentenceKurdish(
+                        text: "لە ڕابردوودا پەیوەندیم لەگەڵی هەبووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorresponds8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorresponds8("en-US"),
                   ),
                 ],
               ),
@@ -341,9 +555,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakcorrespond EnglishEntrycorrespond
-WORD_WEB correspond haʊʊʊʊʊʊʊ4
+- Verb: correspond (derived forms: corresponded, corresponding, corresponds)
+1. Be compatible, similar or consistent; coincide in their characteristics (= match, fit, check, jibe, gibe, tally, agree, marry up, marry)
+ 
+2. Be equivalent or parallel, in mathematics (= equate)
+ 
+3. Exchange messages
+"My Russian pen pal and I have been corresponding for several years"
+ 
+4. Take the place of or be parallel or equivalent to (= represent, stand for)
 """,
   );
 
@@ -376,8 +596,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'PXaLc9AYIcg',
+    startSeconds: 3195,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -401,8 +621,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'Am1lDj2mUVY',
+    startSeconds: 860,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -426,8 +646,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'DuFyGHgGIKg',
+    startSeconds: 1000,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -451,8 +671,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: '-UrdExQW0cs',
+    startSeconds: 1290,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +696,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'wh4aWZRtTwU',
+    startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +721,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'Q1bSDnuIPbo',
+    startSeconds: 800,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +746,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'BlU49dJhfcw',
+    startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,7 +771,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcorresponds111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

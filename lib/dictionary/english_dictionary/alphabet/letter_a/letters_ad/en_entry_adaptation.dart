@@ -126,7 +126,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                             "The process of adaptation to a new school is difficult for some children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە."),
+                                            "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە."),
                                   ],
                                 ),
                               ),

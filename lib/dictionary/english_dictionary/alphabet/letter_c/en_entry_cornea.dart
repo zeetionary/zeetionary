@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cornea (Derived forms: corneae, corneas)
+- Noun: cornea (derived forms: corneae, corneas)
 1. The transparent dome-shaped anterior portion of the outer covering of the eye; it covers the iris and pupil and is continuous with the sclera
 "the tissue in the eye's cornea may opacify and the patient may go blind"
 """,

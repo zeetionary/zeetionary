@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 1. Surrounding like a crown (especially of the blood vessels surrounding the heart)
 "coronary arteries"
 
-- Noun: coronary (Derived forms: coronaries)
+- Noun: coronary (derived forms: coronaries)
 1. Obstruction of blood flow in a coronary artery by a blood clot (thrombus) (= coronary thrombosis)
 """,
   );
@@ -408,7 +408,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e1PUec4i0G0',
+    videoId: 'e1PUec4i0G0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -433,7 +433,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-dJILhabG0A?t=',
+    videoId: '-dJILhabG0A',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +458,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sfemrawMfT4?t=',
+    videoId: 'sfemrawMfT4',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ycX1BPOwGwM?t=',
+    videoId: 'ycX1BPOwGwM',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c8HjmEERv1k?t=',
+    videoId: 'c8HjmEERv1k',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uEYxn-CJ0xM?t=',
+    videoId: 'uEYxn-CJ0xM',
     startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mvU3w_tUIrs?t=',
+    videoId: 'mvU3w_tUIrs',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

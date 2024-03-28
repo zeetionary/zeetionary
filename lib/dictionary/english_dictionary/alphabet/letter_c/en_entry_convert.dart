@@ -604,7 +604,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: convert (Derived forms: converted, converting, converts)
+- Verb: convert (derived forms: converted, converting, converts)
 1. Change from one system to another or to a new plan or policy (= change over)
 "We converted from 220 to 110 Volt";
  
@@ -630,7 +630,7 @@ ${englishMeaningConst.text}
 9. (chemistry) change in nature, purpose, or function; undergo a chemical change
 "The substance converts to an acid"
 
-- Noun: convert (Derived forms: converts)
+- Noun: convert (derived forms: converts)
 1. A person who has been converted to another religious or political belief
  
 2. Someone who is now in favour of something that they previously opposed or disliked

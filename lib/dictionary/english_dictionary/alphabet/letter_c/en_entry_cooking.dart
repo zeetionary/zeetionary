@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cooking (Derived forms: cookings)
+- Noun: cooking (derived forms: cookings)
 1. The skill, practice or tradition of preparing food (= cookery)
 "Indian cooking"; "he took cooking classes";
  

@@ -479,7 +479,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5151"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I'll have to clear it with the manager."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears52(String languageCode) async {
@@ -487,7 +488,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5252"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The plane had been cleared for take-off."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears53(String languageCode) async {
@@ -495,7 +497,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5353"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She hasn't been cleared by security."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears54(String languageCode) async {
@@ -503,7 +506,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5454"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Cheques usually take three working days to clear."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears55(String languageCode) async {
@@ -511,7 +515,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5555"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She cleared £1 000 on the deal."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears56(String languageCode) async {
@@ -519,7 +524,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5656"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They sold £25 million in holdings in order to clear colossal bank debts."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears57(String languageCode) async {
@@ -527,7 +533,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5757"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The horse cleared the fence easily."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears58(String languageCode) async {
@@ -535,7 +542,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5858"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Stand clear of the train doors."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears59(String languageCode) async {
@@ -543,7 +551,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears5959"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "By lap two Walker was two metres clear of the rest of the runners."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears60(String languageCode) async {
@@ -551,7 +560,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears6060"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Make sure you park clear of the kerb."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears61(String languageCode) async {
@@ -559,7 +569,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears6161"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She could see clear down the highway into the town."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears62(String languageCode) async {
@@ -567,7 +578,8 @@ class EnglishEntryclear extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakclears6262"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His parents warned him to steer clear of trouble."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclears63(String languageCode) async {
@@ -1946,7 +1958,8 @@ class EnglishEntryclear extends StatelessWidget {
                                         text:
                                             "The next day the weather cleared."),
                                     ExampleSentenceKurdish(
-                                        text: "ڕۆی دواتر کەشەکە ئارامبوویەوە."),
+                                        text:
+                                            "ڕۆژی دواتر کەشەکە ئارامبوویەوە."),
                                   ],
                                 ),
                               ),

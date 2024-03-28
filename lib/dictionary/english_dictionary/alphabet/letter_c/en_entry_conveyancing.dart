@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conveyancing (Derived forms: conveyancings)
+- Noun: conveyancing (derived forms: conveyancings)
 1. Act of transferring property title from one person to another (= conveyance, conveyance of title, conveying)
 """,
   );

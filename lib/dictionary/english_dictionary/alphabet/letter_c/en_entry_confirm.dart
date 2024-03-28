@@ -199,7 +199,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پشتڕاست کردن، قبووڵ کردن، سەلماندن، چەسپاندن، جێگر کردن
+کوردی: پشت‌ڕاست کردن، قبووڵ کردن، سەلماندن، چەسپاندن، جێگر کردن
 """),
                           const DefinitionKurdish(
                               text:
@@ -214,7 +214,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "We have yet to confirm the identities of the victims."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھێشتا خەریکین ناسنامەی قوربانییەکان پشتڕاست دەکەینەوە."),
+                                            "ھێشتا خەریکین ناسنامەی قوربانییەکان پشت‌ڕاست دەکەینەوە."),
                                   ],
                                 ),
                               ),
@@ -242,7 +242,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "She said she could not confirm or deny the allegations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوتی ناتوانێت تۆمەتەکان پشتڕاست یان ڕەتبکاتەوە."),
+                                            "گوتی ناتوانێت تۆمەتەکان پشت‌ڕاست یان ڕەتبکاتەوە."),
                                   ],
                                 ),
                               ),
@@ -270,7 +270,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "The authorities refused to confirm any details."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرپرسان ڕەتیان کردەوە ھیچ وردەکارییەک پشتڕاست بکەنەوە."),
+                                            "بەرپرسان ڕەتیان کردەوە ھیچ وردەکارییەک پشت‌ڕاست بکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -444,7 +444,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                                             "This latest tragedy merely confirms my view that the law must be tightened."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم تراژیدیایەی کۆتایی تەنھا ئەوەیە بۆچوونەکانم پشتڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە."),
+                                            "ئەم تراژیدیایەی کۆتایی تەنھا ئەوەیە بۆچوونەکانم پشت‌ڕاست دەکاتەوە کە یاساکە دەبێت توندبکرێتەوە."),
                                   ],
                                 ),
                               ),

@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coordination (Derived forms: coordinations)
+- Noun: coordination (derived forms: coordinations)
 1. The skilful and effective interaction of movements
  
 2. The regulation of diverse elements into an integrated and harmonious operation

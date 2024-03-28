@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: coordinate (Derived forms: coordinates, coordinating, coordinated)
+- Verb: coordinate (derived forms: coordinates, coordinating, coordinated)
 1. Bring order and organization to (= organize, organise [Brit])
 "Can you help me coordinate my files?";
  
@@ -472,7 +472,7 @@ ${englishMeaningConst.text}
 4. Bring into common action, movement, or condition
 "coordinate the painters, masons, and plumbers"; "coordinate his actions with that of his colleagues"; "coordinate our efforts"
 
-- Noun: coordinate (Derived forms: coordinates, co-ordinates)
+- Noun: coordinate (derived forms: coordinates, co-ordinates)
 1. A number that identifies a position relative to an axis (= co-ordinate)
 
 - Adjective: coordinate 

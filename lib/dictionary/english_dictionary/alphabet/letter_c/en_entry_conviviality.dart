@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conviviality (Derived forms: convivialities)
+- Noun: conviviality (derived forms: convivialities)
 1. A jovial nature (= joviality)
  
 2. A boisterous celebration; a merry festivity (= merrymaking, jollification)

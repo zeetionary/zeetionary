@@ -238,7 +238,7 @@ class EnglishEntryclassify extends StatelessWidget {
                                             "Patients are classified into three categories."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەخۆشییەکان بەسەر سێ پۆلدا دابەش دەکرێن."),
+                                            "نەخۆشەکان بەسەر سێ پۆلدا دابەش دەکرێن."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntryclassify extends StatelessWidget {
                                             "Would you classify it as a hard drug or a soft drug?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە مادەیەکی ھۆشبەری بەھێز یان لاواز دایدەنێیت."),
+                                            "بە مادەیەکی ھۆشبەری بەھێز یان لاواز دایدەنێیت؟"),
                                   ],
                                 ),
                               ),

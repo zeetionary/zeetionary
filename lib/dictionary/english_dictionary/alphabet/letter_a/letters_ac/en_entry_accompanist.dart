@@ -93,7 +93,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
+                          const DefinitionKurdish(text: """
 ١. کەسێک کە ئامێرێکی میوزیکی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت"""),
                           Row(
                             children: [

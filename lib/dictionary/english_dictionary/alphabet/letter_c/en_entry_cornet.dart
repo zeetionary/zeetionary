@@ -165,7 +165,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She ordered a scoop of vanilla ice cream in a cone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She ordered a scoop of vanilla ice cream in a cone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcornets3(String languageCode) async {
@@ -267,7 +268,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: کۆرنێت (= ئامێرێکی موسیقایی برنجی و فوویی‌یە لە ترومپێت دەچێ)،	بەستەنی یان دۆڵدرمەی قووچکەیی،	نانەدۆڵدرمە، نانەبەستەنی، نانەقووچکەیی
 """),
-          const DefinitionKurdish(text: "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا"),
+          const DefinitionKurdish(
+              text: "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا"),
           Row(
             children: [
               const Expanded(
@@ -276,7 +278,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "She learned to play the cornet in her school band."),
-                    ExampleSentenceKurdish(text: "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە."),
                   ],
                 ),
               ),
@@ -296,30 +300,31 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بسکیتی ئایس کریم"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "She ordered a scoop of vanilla ice cream in a cone."),
-          ExampleSentenceKurdish(
-          text: "داوای کەوچکێکی ئایس کریمی ڤانێلای کرد لە بسکیتێکدا."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcornets2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcornets2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She ordered a scoop of vanilla ice cream in a cone."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "داوای کەوچکێکی ئایس کریمی ڤانێلای کرد لە بسکیتێکدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcornets2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcornets2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -369,7 +374,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cornet (Derived forms: cornets)
+- Noun: cornet (derived forms: cornets)
 1. A brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves (= horn, trumpet, trump [archaic])
 """,
   );
@@ -403,7 +408,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3QqnhDI7VFA?t=',
+    videoId: '3QqnhDI7VFA',
     startSeconds: 1384,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -428,7 +433,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VPYhem4GRGY?t=',
+    videoId: 'VPYhem4GRGY',
     startSeconds: 2283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -453,7 +458,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JMP8_HioNqU?t=',
+    videoId: 'JMP8_HioNqU',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozt760ycV84?t=',
+    videoId: 'ozt760ycV84',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0n9ITSKRAMA?t=',
+    videoId: '0n9ITSKRAMA',
     startSeconds: 768,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +533,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d8zcOcnrKks?t=',
+    videoId: 'd8zcOcnrKks',
     startSeconds: 1038,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +558,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2gPBPPTSW3g?t=',
+    videoId: '2gPBPPTSW3g',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(

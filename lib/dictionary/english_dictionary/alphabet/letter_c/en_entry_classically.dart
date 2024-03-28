@@ -308,7 +308,7 @@ class EnglishEntryclassically extends StatelessWidget {
                                             "Kate is a classically trained violinist."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمانچەژەنێکی ڕاھێنراوە لەسەر ستایلی ڕۆژئاوا."),
+                                            "کەیت کەمانچەژەنێکی ڕاھێنراوە لەسەر ستایلی ڕۆژئاوا."),
                                   ],
                                 ),
                               ),

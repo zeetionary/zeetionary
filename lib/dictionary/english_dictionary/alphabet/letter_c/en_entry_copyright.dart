@@ -481,10 +481,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copyright (Derived forms: copyrights)
+- Noun: copyright (derived forms: copyrights)
 1. A document granting exclusive right to publish and sell literary, musical or artistic work (= right of first publication)
 
-- Verb: copyright (Derived forms: copyrighting, copyrighted, copyrights)
+- Verb: copyright (derived forms: copyrighting, copyrighted, copyrights)
 1. Secure a copyright on a written work
 "did you copyright your manuscript?"
 """,

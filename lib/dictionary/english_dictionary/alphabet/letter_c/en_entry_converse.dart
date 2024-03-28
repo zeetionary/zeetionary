@@ -425,10 +425,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: converse (Derived forms: conversed, converses, conversing)
+- Verb: converse (derived forms: conversed, converses, conversing)
 1. Carry on a conversation (= discourse)
 
-- Noun: converse (Derived forms: converses)
+- Noun: converse (derived forms: converses)
 1. A proposition obtained by conversion
 
 - Adjective: converse 

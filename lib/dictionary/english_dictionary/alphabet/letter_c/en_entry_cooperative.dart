@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 3. Done with or working with others for a common purpose or benefit
 "a cooperative effort"
 
-- Noun: cooperative (Derived forms: cooperatives)
+- Noun: cooperative (derived forms: cooperatives)
 1. A jointly owned commercial enterprise (usually organized by farmers or consumers) that produces and distributes goods and services and is run for the benefit of its owners (= co-op)
  
 2. An association formed and operated for the benefit of those using it

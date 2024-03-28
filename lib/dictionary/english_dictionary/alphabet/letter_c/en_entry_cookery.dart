@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cookery (Derived forms: cookeries)
+- Noun: cookery (derived forms: cookeries)
 1. The act of preparing something (as food) by the application of heat (= cooking, preparation)
 "people are needed who have experience in cookery";
  

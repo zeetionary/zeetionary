@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convertible (Derived forms: convertibles)
+- Noun: convertible (derived forms: convertibles)
 1. A car with a top that can be folded or removed (= soft top, ragtop [informal], cabrio [informal], cabriolet)
  
 2. A corporate security (usually bonds or preferred stock) that can be exchanged for another form of security (usually common stock) (= convertible security)

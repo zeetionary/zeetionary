@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copulation (Derived forms: copulations)
+- Noun: copulation (derived forms: copulations)
 1. Sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur (= sexual intercourse, intercourse, sex act, coitus, coition, sexual congress, sexual relation, relation, carnal knowledge)
 """,
   );

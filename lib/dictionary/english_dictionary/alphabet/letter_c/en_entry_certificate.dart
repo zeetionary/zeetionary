@@ -197,7 +197,7 @@ class EnglishEntrycertificate extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشتڕاستکردنەوەی زانیارییەکانی سەری"),
+                                  "١. (ناو) بەڵگەنامە کە دەکرێت بەکاربێت بۆ پشت‌ڕاست‌کردنەوەی زانیارییەکانی سەری"),
                           Row(
                             children: [
                               const Expanded(

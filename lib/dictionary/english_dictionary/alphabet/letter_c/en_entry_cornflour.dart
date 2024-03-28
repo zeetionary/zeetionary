@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cornflour (Derived forms: cornflours)
+- Noun: cornflour (derived forms: cornflours)
 Usage: Brit (N. Amer: cornstarch)
 1. Starch prepared from the grains of corn; used in cooking as a thickener (= cornstarch [N. Amer])
 """,

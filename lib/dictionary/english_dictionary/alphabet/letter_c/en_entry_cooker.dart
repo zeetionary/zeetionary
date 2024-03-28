@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cooker (Derived forms: cookers)
+- Noun: cooker (derived forms: cookers)
 1. A utensil for cooking
 """,
   );

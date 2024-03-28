@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convergence (Derived forms: convergences)
+- Noun: convergence (derived forms: convergences)
 1. The occurrence of two or more things coming together
  
 2. The approach of an infinite series to a finite limit (= convergency)

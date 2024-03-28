@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: convince (Derived forms: convinced, convinces, convincing)
+- Verb: convince (derived forms: convinced, convinces, convincing)
 1. Make (someone) agree, understand, or realize the truth or validity of something (= convert, win over)
 "He had finally convinced several customers of the advantages of his product";
 """,

@@ -147,7 +147,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           DividerDefinition(),
-                          KurdishVocabulary(text: """
+                          DefinitionKurdish(text: """
 ١. (ناو) بڕیارێکی نووسراو بۆ پێدانی بڕێک پارە بە کەسێک لە کاتێکی دیاریکراودا"""),
                           // Row(
                           //   children: [

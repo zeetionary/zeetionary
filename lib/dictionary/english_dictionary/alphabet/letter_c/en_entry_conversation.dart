@@ -431,7 +431,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conversation (Derived forms: conversations)
+- Noun: conversation (derived forms: conversations)
 1. The use of speech for informal exchange of views, ideas or information etc. (= convo [Austral, informal])
 """,
   );

@@ -225,7 +225,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کرداری پشتڕاستکردنەوەی ئەوەی کە دەتەوێت سەرکەویتە ناو گەشتێک لەگەڵ زانیارییە کەسییەکانت لە فڕۆکەخانەیەک یان بە کۆمپیوتەرێک"),
+                                  "٢. (ناو) کرداری پشت‌ڕاست‌کردنەوەی ئەوەی کە دەتەوێت سەرکەویتە ناو گەشتێک لەگەڵ زانیارییە کەسییەکانت لە فڕۆکەخانەیەک یان بە کۆمپیوتەرێک"),
                           Row(
                             children: [
                               const Expanded(

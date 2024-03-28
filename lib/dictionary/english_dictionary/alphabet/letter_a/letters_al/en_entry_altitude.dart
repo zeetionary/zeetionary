@@ -19,13 +19,13 @@ class EnglishEntryaltitude extends StatelessWidget {
     await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltitude(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltitude
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAltitude222(String languageCode) async {
+    // DOPSUM: CHANGE speakAltitude
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("We are flying at an altitude of 6 000 metres."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAltitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltitude
@@ -130,10 +130,10 @@ class EnglishEntryaltitude extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAltitude("en-GB"),
+                                    onPressed: () => speakAltitude222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltitude(
+                                    onPressed: () => speakAltitude222(
                                         // REPLACE: altitude /ˈæltɪtuːd/
                                         "en-US"),
                                   ),

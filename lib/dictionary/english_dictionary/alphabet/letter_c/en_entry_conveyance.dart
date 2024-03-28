@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conveyance (Derived forms: conveyances)
+- Noun: conveyance (derived forms: conveyances)
 1. (law) document effecting a property transfer
  
 2. The transmission of information (= imparting, impartation)

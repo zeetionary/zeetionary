@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cop-out (Derived forms: cop-outs)
+- Noun: cop-out (derived forms: cop-outs)
 Usage: informal
 1. A failure to face some difficulty squarely
 """,

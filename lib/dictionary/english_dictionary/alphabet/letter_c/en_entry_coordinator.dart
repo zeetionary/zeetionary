@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coordinator (Derived forms: coordinators, co-ordinators)
+- Noun: coordinator (derived forms: coordinators, co-ordinators)
 1. Someone whose task is to see that work goes harmoniously (= co-ordinator)
 """,
   );

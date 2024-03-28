@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convolution (Derived forms: convolutions)
+- Noun: convolution (derived forms: convolutions)
 1. Something that is complicated, esp. overly complicated
  
 2. The shape of something rotating rapidly (= whirl, swirl, vortex)

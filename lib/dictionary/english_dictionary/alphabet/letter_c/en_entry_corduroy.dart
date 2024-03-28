@@ -305,12 +305,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: corduroy (Derived forms: corduroys)
+- Noun: corduroy (derived forms: corduroys)
 1. A cut pile fabric with vertical ribs; usually made of cotton (= cord)
  
 2. A road made of logs laid crosswise
 
-- Verb: corduroy (Derived forms: corduroying, corduroyed, corduroys)
+- Verb: corduroy (derived forms: corduroying, corduroyed, corduroys)
 1. Build (a road) from logs laid side by side
 """,
   );

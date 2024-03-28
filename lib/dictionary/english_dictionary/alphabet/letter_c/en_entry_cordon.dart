@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cordon (Derived forms: cordons)
+- Noun: cordon (derived forms: cordons)
 1. A series of sentinels or of military posts enclosing or guarding some place or thing
  
 2. Cord or ribbon worn as an insignia of honour or rank
@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
  
 4. A line of police, troops, guards, tape, etc. around an area to prevent entry by other people
 
-- Verb: cordon (Derived forms: cordoned, cordons, cordoning)
+- Verb: cordon (derived forms: cordoned, cordons, cordoning)
 1. Separate with a line of police, troops, guards, marker objects, cord or tape
 "cordon off the area"
 """,

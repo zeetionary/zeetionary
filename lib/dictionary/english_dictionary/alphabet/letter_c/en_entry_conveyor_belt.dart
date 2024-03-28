@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conveyor belt (Derived forms: conveyor belts)
+- Noun: conveyor belt (derived forms: conveyor belts)
 1. (factory) a moving belt that transports objects (as in a factory) (= conveyer belt, conveyer, conveyor, transporter)
 """,
   );

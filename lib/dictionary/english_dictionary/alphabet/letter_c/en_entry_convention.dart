@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: convention (Derived forms: conventions)
+- Noun: convention (derived forms: conventions)
 1. A large formal assembly
 "political convention"
  

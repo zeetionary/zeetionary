@@ -194,7 +194,7 @@ class EnglishEntrycertify extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: پشتڕاستکردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواھی پێدان
+کوردی: پشت‌ڕاست‌کردنەوە، مسۆگەرکردن بڕوانامە پێدان، گەواھی پێدان
 """),
                           const DefinitionKurdish(
                               text:

@@ -1855,7 +1855,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cool (Derived forms: coolest, cooler)
+- Adjective: cool (derived forms: coolest, cooler)
 1. Neither warm nor very cold; giving relief from heat
 "a cool autumn day"; "a cool room"; "cool summer dresses"; "cool drinks"; "a cool breeze"
  
@@ -1876,7 +1876,7 @@ ${englishMeaningConst.text}
 7. Psychologically cool and unenthusiastic; unfriendly, unresponsive or showing dislike
 "relations were cool and polite"; "a cool reception"; "cool to the idea of higher taxes"
 
-- Verb: cool (Derived forms: cooling, cools, cooled)
+- Verb: cool (derived forms: cooling, cools, cooled)
 1. Make cool or cooler (= chill, cool down)
 "cool the food"; "cool down the food";
  
@@ -1886,7 +1886,7 @@ ${englishMeaningConst.text}
 3. Lose intensity (= cool off, cool down)
 "His enthusiasm cooled considerably";
 
-- Noun: cool (Derived forms: cools)
+- Noun: cool (derived forms: cools)
 1. The quality of being at a refreshingly low temperature
 "the cool of early morning"
  

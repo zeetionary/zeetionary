@@ -396,7 +396,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: converge (Derived forms: converged, converges, converging)
+- Verb: converge (derived forms: converged, converges, converging)
 1. Be adjacent or come together (= meet)
 "The lines converge at this point";
  

@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: corn (Derived forms: corns)
+- Noun: corn (derived forms: corns)
 1. Tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times (= maize, Indian corn, Zea mays)
  
 2. The dried grains or kernels or corn used as animal feed or ground for meal
@@ -384,7 +384,7 @@ ${englishMeaningConst.text}
  
 9. [Brit] Annual or biennial grass having erect flower spikes and light brown grains (= wheat)
 
-- Verb: corn (Derived forms: corns, corning, corned)
+- Verb: corn (derived forms: corns, corning, corned)
 1. Feed (cattle) with corn
  
 2. (cooking) preserve with large-grained rock salt

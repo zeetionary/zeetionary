@@ -392,11 +392,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: convict (Derived forms: convicted, convicting, convicts)
+- Verb: convict (derived forms: convicted, convicting, convicts)
 1. (law) find or declare guilty
 "The man was convicted of fraud and sentenced"
 
-- Noun: convict (Derived forms: convicts)
+- Noun: convict (derived forms: convicts)
 1. A person serving a sentence in a jail or prison (= con [informal], inmate, yard bird [N. Amer, informal], yardbird [N. Amer, informal])
  
 2. A person who has been convicted of a criminal offence

@@ -91,13 +91,13 @@ class EnglishEntryaction extends StatelessWidget {
         .speak("I like films with plenty of action."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAction55555(String languageCode) async {
+    // DOPSUM: CHANGE speakAction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Your request will be actioned."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
@@ -478,10 +478,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction35971("en-GB"),
+                                    onPressed: () => speakAction55555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction35971(
+                                    onPressed: () => speakAction55555(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],

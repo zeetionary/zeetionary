@@ -383,7 +383,7 @@ ${englishMeaningConst.text}
 2. Tending or intended to correct or counteract or restore to a normal condition
 "corrective measures"; "corrective lenses"
 
-- Noun: corrective (Derived forms: correctives)
+- Noun: corrective (derived forms: correctives)
 1. A device for treating injury or disease (= restorative)
 """,
   );
@@ -417,7 +417,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vhmtoAYVRSo?t=',
+    videoId: 'vhmtoAYVRSo',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +442,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cxn0l7ejTbc?t=',
+    videoId: 'cxn0l7ejTbc',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +467,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-wpHszfnJns?t=',
+    videoId: '-wpHszfnJns',
     startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sY8aFSY2zv4?t=',
+    videoId: 'sY8aFSY2zv4',
     startSeconds: 1056,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bmf1znpMjbI?t=',
+    videoId: 'bmf1znpMjbI',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2IOyQlZRKhQ?t=',
+    videoId: '2IOyQlZRKhQ',
     startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tYrdMjVXyNg?t=',
+    videoId: 'tYrdMjVXyNg',
     startSeconds: 6685,
     autoPlay: true,
     params: const YoutubePlayerParams(

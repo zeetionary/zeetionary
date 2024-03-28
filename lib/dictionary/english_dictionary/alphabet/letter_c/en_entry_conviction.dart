@@ -455,7 +455,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: conviction (Derived forms: convictions)
+- Noun: conviction (derived forms: convictions)
 1. An unshakable belief in something without need for proof or evidence (= strong belief, article of faith)
  
 2. (criminal law) a final judgment of guilty in a criminal case and the punishment that is imposed (= judgment of conviction, condemnation, sentence)

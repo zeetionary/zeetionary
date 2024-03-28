@@ -28,13 +28,13 @@ class EnglishEntryaggressively extends StatelessWidget {
         "Many drivers behave aggressively on the road."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAggressively(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAggressively
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aggressively"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAggressively22222(String languageCode) async {
+    // DOPSUM: CHANGE speakAggressively
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("They played more aggressively in the second half."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAggressively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAggressively
@@ -165,10 +165,10 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggressiv1458("en-GB"),
+                                        speakAggressively22222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggressiv1458(
+                                    onPressed: () => speakAggressively22222(
                                         // REPLACE: aggressively /əˈɡresɪvli/
                                         "en-US"),
                                   ),

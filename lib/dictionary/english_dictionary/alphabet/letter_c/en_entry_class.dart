@@ -39,7 +39,7 @@ class EnglishEntryclass extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She is the youngest in her class in English."); // DOPSUM: CHANGE TEXT
+        "She is the youngest in her class."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclasss3(String languageCode) async {
@@ -48,7 +48,7 @@ class EnglishEntryclass extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He came top of the class in English."); // DOPSUM: CHANGE TEXT
+        .speak("He came top of the class."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakclasss4(String languageCode) async {
@@ -554,7 +554,7 @@ class EnglishEntryclass extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "She is the youngest in her class in English."),
+                                            "She is the youngest in her class."),
                                     ExampleSentenceKurdish(
                                         text: "منداڵترینە لە پۆلەکەدا."),
                                   ],
@@ -584,7 +584,7 @@ class EnglishEntryclass extends StatelessWidget {
                                           children: [
                                             ExampleSentenceEnglish(
                                                 text:
-                                                    "He came top of the class in English."),
+                                                    "He came top of the class."),
                                             ExampleSentenceKurdish(
                                                 text:
                                                     "باشترینی پۆلەکە بوو لە ئینگلیزیدا."),

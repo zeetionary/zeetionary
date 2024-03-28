@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: co-opt (Derived forms: co-opted, co-opting, co-opts)
+- Verb: co-opt (derived forms: co-opted, co-opting, co-opts)
 1. Choose or elect as a fellow member or colleague
 "The church members co-opted individuals from similar backgrounds to replenish the congregation"
  

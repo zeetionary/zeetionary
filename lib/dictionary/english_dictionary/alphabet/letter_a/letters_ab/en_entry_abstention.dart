@@ -147,7 +147,7 @@ class EnglishEntryabstention extends StatelessWidget {
                                             "The Church insisted on abstention from all luxuries."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان."),
+                                            "کڵێساکە پێداگیری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان."),
                                   ],
                                 ),
                               ),

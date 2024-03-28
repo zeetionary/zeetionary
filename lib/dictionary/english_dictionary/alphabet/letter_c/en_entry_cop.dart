@@ -480,11 +480,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cop (Derived forms: cops)
+- Noun: cop (derived forms: cops)
 Usage: informal
 1. Uncomplimentary term for a policeman (= bull [US, informal], copper [Brit, informal], pig [informal], rozzer [Brit, informal], bizzy [UK, dialect, informal], fed [Brit, informal], peeler [Brit, archaic])
 
-- Verb: cop (Derived forms: copping, cops, copped)
+- Verb: cop (derived forms: copping, cops, copped)
 Usage: informal
 1. Take by theft (= hook [informal], snitch [informal], thieve, knock off [informal], glom [N. Amer, informal], pilfer, cabbage [informal], purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
 "Someone copped my wallet!";

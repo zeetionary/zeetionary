@@ -539,7 +539,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cook (Derived forms: cooked, cooks, cooking)
+- Verb: cook (derived forms: cooked, cooks, cooking)
 1. (of food) combine or process (e.g. heat) to make ready for eating (= fix [informal], ready, make, prepare)
 "Cook me dinner, please";
  
@@ -552,10 +552,10 @@ ${englishMeaningConst.text}
 4. [informal] Tamper, with the purpose of deception (= fudge, manipulate, fake, falsify, wangle [informal], misrepresent, spoof [informal])
 "cook the books";
 
-- Noun: cook (Derived forms: cooks)
+- Noun: cook (derived forms: cooks)
 1. Someone who cooks food
 
-- Noun: Cook (Derived forms: Cooks)
+- Noun: Cook (derived forms: Cooks)
 1. English navigator who claimed the east coast of Australia for Britain and discovered several Pacific islands (1728-1779) (= James Cook, Captain Cook, Captain James Cook)
 """,
   );

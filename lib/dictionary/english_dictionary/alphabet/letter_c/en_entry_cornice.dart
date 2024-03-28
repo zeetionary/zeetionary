@@ -341,14 +341,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cornice (Derived forms: cornices)
+- Noun: cornice (derived forms: cornices)
 1. A moulding at the corner between the ceiling and the top of a wall
  
 2. The topmost projecting part of an entablature
  
 3. An overhanging mass of packed snow on a ridge or the crest of a mountain and along the sides of gullies (= snow cornice)
 
-- Verb: cornice (Derived forms: corniced, cornices, cornicing)
+- Verb: cornice (derived forms: corniced, cornices, cornicing)
 1. (architecture) furnish with a cornice
 """,
   );
@@ -382,7 +382,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SDpCzJw2xm4?t=',
+    videoId: 'SDpCzJw2xm4',
     startSeconds: 550,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -407,7 +407,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npbj6Z-JL8U?t=',
+    videoId: 'npbj6Z-JL8U',
     startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -432,7 +432,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3ZEGG1mb3Rc?t=',
+    videoId: '3ZEGG1mb3Rc',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +457,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UWVEgoEGnkY?t=',
+    videoId: 'UWVEgoEGnkY',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +482,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f1fgzBE2Ffk?t=',
+    videoId: 'f1fgzBE2Ffk',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +507,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/56vaIvgRsTc?t=',
+    videoId: '56vaIvgRsTc',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +532,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ZhHoyqQEhA?t=',
+    videoId: '0ZhHoyqQEhA',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(

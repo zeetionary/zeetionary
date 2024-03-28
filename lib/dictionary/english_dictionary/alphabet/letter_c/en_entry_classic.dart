@@ -529,7 +529,7 @@ class EnglishEntryclassic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شتێکم بۆ نموونە جلوبەرگ یان ئۆتۆمبێل، کە جوانە و کاریگەری گۆڕانکاری سەردەمی پێوە دیار نییە"),
+                                  "٧. (ناو) شتێک، بۆ نموونە جلوبەرگ یان ئۆتۆمبێل، کە جوانە و کاریگەری گۆڕانکاری سەردەمی پێوە دیار نییە"),
                           Row(
                             children: [
                               const Expanded(

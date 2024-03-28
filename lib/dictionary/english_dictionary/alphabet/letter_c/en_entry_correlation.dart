@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: correlation (Derived forms: correlations)
+- Noun: correlation (derived forms: correlations)
 1. A statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the other (= correlational statistics)
  
 2. (statistics) a statistic representing how closely two variables co-vary; it can vary from -1 (perfect negative correlation) through 0 (no correlation) to +1 (perfect positive correlation) (= correlation coefficient, coefficient of correlation)
@@ -411,7 +411,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JY5t6iUzajk?t=',
+    videoId: 'JY5t6iUzajk',
     startSeconds: 524,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +436,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ejFccNmL15g?t=',
+    videoId: 'ejFccNmL15g',
     startSeconds: 1263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kUE2fPLOUxo?t=',
+    videoId: 'kUE2fPLOUxo',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9HabyEoLBGs?t=',
+    videoId: '9HabyEoLBGs',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B8yJeNa-bPU?t=',
+    videoId: 'B8yJeNa-bPU',
     startSeconds: 732,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQdjmGimh04?t=',
+    videoId: 'LQdjmGimh04',
     startSeconds: 731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aABFIzfg72A?t=',
+    videoId: 'aABFIzfg72A',
     startSeconds: 532,
     autoPlay: true,
     params: const YoutubePlayerParams(

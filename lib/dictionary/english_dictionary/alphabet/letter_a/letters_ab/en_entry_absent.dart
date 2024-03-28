@@ -126,34 +126,6 @@ class EnglishEntryabsent extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was absent from work for two weeks."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA3691("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA3691("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
                         ],
                       ),
                     ),

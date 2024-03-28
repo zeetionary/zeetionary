@@ -644,7 +644,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: core (Derived forms: cores)
+- Noun: core (derived forms: cores)
 1. A small group of indispensable persons or things (= nucleus, core group)
 "five periodicals make up the core of their publishing program";
  
@@ -667,7 +667,7 @@ ${englishMeaningConst.text}
  
 9. A bar of magnetic material (as soft iron) that passes through a coil and serves to increase the inductance of the coil
 
-- Verb: core (Derived forms: cored, cores, coring)
+- Verb: core (derived forms: cored, cores, coring)
 1. Remove the core or centre from
 "core an apple"
 

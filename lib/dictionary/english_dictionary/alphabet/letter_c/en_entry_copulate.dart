@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: copulate (Derived forms: copulating, copulates, copulated)
+- Verb: copulate (derived forms: copulating, copulates, copulated)
 1. Engage in sexual intercourse (= mate, pair, couple)
 "Birds copulate in the spring";
 """,

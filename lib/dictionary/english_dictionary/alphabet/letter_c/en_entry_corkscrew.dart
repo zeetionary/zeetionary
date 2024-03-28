@@ -305,10 +305,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: corkscrew (Derived forms: corkscrews)
+- Noun: corkscrew (derived forms: corkscrews)
 1. A bottle opener that pulls corks (= bottle screw)
 
-- Verb: corkscrew (Derived forms: corkscrews, corkscrewing, corkscrewed)
+- Verb: corkscrew (derived forms: corkscrews, corkscrewing, corkscrewed)
 1. Move in a spiral or zigzag course (= spiral)
 """,
   );

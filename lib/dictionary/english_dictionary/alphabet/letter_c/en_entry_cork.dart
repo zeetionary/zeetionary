@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cork (Derived forms: corks)
+- Noun: cork (derived forms: corks)
 1. Outer bark of the cork oak; used for stoppers for bottles etc.
  
 2. (botany) outer tissue of bark; a protective layer of dead cells (= phellem)
@@ -377,7 +377,7 @@ ${englishMeaningConst.text}
  
 4. A small float usually made of cork; attached to a fishing line (= bob, bobber, bobfloat)
 
-- Verb: cork (Derived forms: corks, corked, corking)
+- Verb: cork (derived forms: corks, corked, corking)
 1. Close a bottle with a cork (= cork up)
  
 2. Stuff with cork

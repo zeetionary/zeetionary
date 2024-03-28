@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: copse (Derived forms: copses)
+- Noun: copse (derived forms: copses)
 1. A small group of trees
  
 2. A dense growth of bushes and small trees (= brush, brushwood, coppice, thicket)

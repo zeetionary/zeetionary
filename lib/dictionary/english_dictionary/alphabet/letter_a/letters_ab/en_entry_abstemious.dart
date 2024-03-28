@@ -95,8 +95,11 @@ class EnglishEntryabstemious extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نەرم‌ڕەو، مام‌ناوەند، نادەسبڵاو، ئەندازەڕەو، کەم‌خۆر، پارێزگر، پارێزگار، خۆگر، بەپارێز، ئەندازەخۆر
-
-١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

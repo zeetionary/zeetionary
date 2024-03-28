@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosh extends StatelessWidget {
-  const EnglishEntrycosh({super.key});
+class EnglishEntrycosmos extends StatelessWidget {
+  const EnglishEntrycosmos({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosh");
+    return const EntryTitle(word: "cosmos");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosh(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmos(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosh"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kɒʃ/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkɒzmɒs/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcosh("en-GB"),
+          onPressed: () => speakcosmos("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosh(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmos(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosh"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kɑːʃ/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkɑːzməʊs/,  /ˈkɑːzməs/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcosh("en-US"),
+          onPressed: () => speakcosmos("en-US"),
         ),
       ],
     );
@@ -151,109 +151,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoshs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The assailant struck the victim over the head with a cosh."); // DOPSUM: CHANGE TEXT
+        "The brightest objects in the cosmos are pulsars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmoss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmoss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,10 +265,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێڵا، داردەست، گۆپاڵ
+کوردی: گەردوون، جیهان، گێتی
 """),
-          const DefinitionKurdish(
-              text: "١. (ناو) دارێکی قورسی ئەستوور کە وەک چەکێک بەکاردێت"),
+          const DefinitionKurdish(text: "١. (ناو) گەردوون، بەتایبەتی کە وەک سیستەمێکی ڕێکخراو سەیر دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -276,21 +275,19 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The assailant struck the victim over the head with a cosh."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "هێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا."),
+                            "The brightest objects in the cosmos are pulsars."),
+                    ExampleSentenceKurdish(text: "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosh", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cosmos", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoshs1("en-GB"),
+                    onPressed: () => speakcosmoss1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoshs1("en-US"),
+                    onPressed: () => speakcosmoss1("en-US"),
                   ),
                 ],
               ),
@@ -344,16 +341,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosh (Derived forms: coshes)
-Usage: Brit, informal
-1. A piece of metal covered by leather with a flexible handle; used for hitting people (= blackjack [N. Amer], sap [N. Amer, informal])
-
-- Verb: cosh (Derived forms: coshing, coshes, coshed)
-Usage: Brit, informal
-1. Hit with a cosh, usually on the head
-
-- Abbreviation: cosh 
-1. (maths) hyperbolic cosine
+- Noun: cosmos (Derived forms: cosmoses)
+1. Everything that exists anywhere (= universe, existence, creation, world, macrocosm)
+"they study the evolution of the cosmos";
+ 
+2. Any of various mostly Mexican herbs of the genus Cosmos having radiate heads of variously coloured flowers and pinnate leaves; popular fall-blooming annuals (= cosmea)
 """,
   );
 
@@ -386,8 +378,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IOJHZN9vXeQ?t=',
-    startSeconds: 1163,
+    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -411,8 +403,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2eqLZ-XDUcM?t=',
-    startSeconds: 3021,
+    videoId: 'https://youtu.be/BmUrJaOo1Lw?t=',
+    startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,8 +428,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l_ffdarcJiQ?t=',
-    startSeconds: 160,
+    videoId: 'https://youtu.be/YIXy2Kit4z4?t=',
+    startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,8 +453,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WIibcLd_oYU?t=',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/fBTjbGfHx0s?t=',
+    startSeconds: 1326,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -486,8 +478,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vlGH0OVXv8Y',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/FVVT8EBqK3g?t=',
+    startSeconds: 482,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -511,8 +503,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2wXHdoSfQeQ?t=',
-    startSeconds: 649,
+    videoId: 'https://youtu.be/TCrAqS-WRqk?t=',
+    startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +528,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/845D_K6sGkM?t=',
-    startSeconds: 2202,
+    videoId: 'https://youtu.be/Unl1jXFnzgo?t=',
+    startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

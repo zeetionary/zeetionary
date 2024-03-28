@@ -1445,7 +1445,11 @@ class EnglishEntrycome extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                       text: "I've come for my book.",
                                       note:
-                                          "You can also say: 1. \"I've come about my book.\", 2. \"I've come to get my book.\"",
+                                          """You can also say: 
+                                          
+                                          1. "I've come about my book.", 
+                                          
+                                          2. "I've come to get my book.\"""",
                                     ),
                                     ExampleSentenceKurdish(
                                         text: "بۆ کتێبەکەم ھاتووم."),
@@ -2179,7 +2183,7 @@ class EnglishEntrycome extends StatelessWidget {
                                                     "Spring came late this year."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "نەھار ئەمساڵ درەنگ ھات."),
+                                                    "بەھار ئەمساڵ درەنگ ھات."),
                                           ],
                                         ),
                                       ),

@@ -96,8 +96,11 @@ class EnglishEntryaccelerator extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (فیزیک) تاودەر (= دەزگایێ بۆ تاودانی پارچۆلکە بنەڕەتی‌یە بارگاوی‌یەکان بە خێرایی‌یێکی یەکجار زۆر)، پێداڵی گاز، گاز
-
-١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

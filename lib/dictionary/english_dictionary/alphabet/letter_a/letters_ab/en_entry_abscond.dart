@@ -94,8 +94,11 @@ class EnglishEntryabscond extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵھاتن، ڕاکردن
-
-١. ھەڵھاتن لە شوێنێک کە ڕێگەت پێنەدراوە لێی ڕابکەیت"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. ھەڵھاتن لە شوێنێک کە ڕێگەت پێنەدراوە لێی ڕابکەیت"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

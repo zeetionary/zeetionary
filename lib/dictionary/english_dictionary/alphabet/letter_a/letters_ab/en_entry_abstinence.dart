@@ -95,8 +95,11 @@ class EnglishEntryabstinence extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پارێزگرتن، پێش‌خۆگرتن، خودداری، پارێزگری، خۆڕاگری، خۆڕاگرتن، خۆلێ‌نەدان، خۆدوورگرتن، خۆلێ‌بواردن (بەتایبەت خواردن و خواردنەوە)
-
-١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

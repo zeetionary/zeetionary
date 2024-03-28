@@ -207,7 +207,7 @@ class EnglishEntrycaress extends StatelessWidget {
                                             "His fingers gently caressed her cheek."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەنجەکانی بو نەرمی ساوی بە گۆنایدا."),
+                                            "پەنجەکانی بە نەرمی ساوی بە گۆنایدا."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycaress extends StatelessWidget {
                                             "She closed her eyes, and lifted her face to the sun, enjoying its light, warm caress on her cheeks."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوی داخست، و ڕووی لە خۆرەکە بە چێژ وەرگرتن لە بەرکەوتنە گەرم و ڕۆشنەکەی بەسەر گۆنایدا."),
+                                            "چاوی داخست، و ڕووی لە خۆرەکە کرد بە چێژ وەرگرتن لە بەرکەوتنە گەرم و ڕۆشنەکەی بەسەر گۆنایدا."),
                                   ],
                                 ),
                               ),

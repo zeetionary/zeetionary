@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosh extends StatelessWidget {
-  const EnglishEntrycosh({super.key});
+class EnglishEntrycosmopolitan extends StatelessWidget {
+  const EnglishEntrycosmopolitan({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosh");
+    return const EntryTitle(word: "cosmopolitan");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosh(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitan(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosh"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cosmopolitan"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kɒʃ/"),
+        const IPAofEnglish(text: "IpaUK: /ˌkɒzməˈpɒlɪtən/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcosh("en-GB"),
+          onPressed: () => speakcosmopolitan("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosh(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitan(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosh"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cosmopolitan"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kɑːʃ/"),
+        const IPAofEnglish(text: "IpaUS: /ˌkɑːzməˈpɑːlɪtən/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcosh("en-US"),
+          onPressed: () => speakcosmopolitan("en-US"),
         ),
       ],
     );
@@ -151,109 +151,112 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoshs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans1(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Jamaica is a very cosmopolitan island."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcosmopolitans2(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The assailant struck the victim over the head with a cosh."); // DOPSUM: CHANGE TEXT
+        "She liked the cosmopolitan atmosphere of the city."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans3(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Young people today are much more cosmopolitan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans4(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Sea urchins are cosmopolitan in their distribution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans5(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's a real cosmopolitan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans6(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans7(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans8(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans9(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans10(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans11(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans12(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoshs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
+  Future<void> speakcosmopolitans13(String languageCode) async {
+    // DOPSUM: CHANGE speakcosmopolitan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoshs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosh
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoshs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcosmopolitans1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,10 +268,36 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێڵا، داردەست، گۆپاڵ
+کوردی: جیهانی، گەردوونی، هەمەڕەنگ،	جیهان‌گیر، جیهان‌داگر، جیهان‌گرەوە، جیهان‌نیشتمان،	بنیادەمی بەئەزموون، دنیادیتوو 
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) دارێکی قورسی ئەستوور کە وەک چەکێک بەکاردێت"),
+              text: "١. (ھاوەڵناو) پێکهاتوو لە خەڵکی جۆراوجۆر"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Jamaica is a very cosmopolitan island."),
+                    ExampleSentenceKurdish(
+                        text: "جامایکا دوورگەیەکی زۆر هەمەڕەنگە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "cosmopolitan", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcosmopolitans1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcosmopolitans1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -276,21 +305,106 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The assailant struck the victim over the head with a cosh."),
+                            "She liked the cosmopolitan atmosphere of the city."),
                     ExampleSentenceKurdish(
-                        text:
-                            "هێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا."),
+                        text: "حەزی بە کەشی جیهان‌گیری شارەکە بوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosh", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoshs1("en-GB"),
+                    onPressed: () => speakcosmopolitans2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoshs1("en-US"),
+                    onPressed: () => speakcosmopolitans2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ھاوەڵناو) هەبوونی ئەزموونی بەرفراوان لە زۆر وڵاتی جیاوازەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Young people today are much more cosmopolitan."),
+                    ExampleSentenceKurdish(
+                        text: "کەسانی گەنجی ئەم سەردەمە دنیادیتووترن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcosmopolitans3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcosmopolitans3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ھاوەڵناو) کە لە هەموو جیهاندا هەیە، بۆ نموونە ئاژەڵێک یان ڕووەکێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Sea urchins are cosmopolitan in their distribution."),
+                    ExampleSentenceKurdish(
+                        text: "ژیشکی دەریا لە دابەشبوونیاندا جیهان‌گیرن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcosmopolitans4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcosmopolitans4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (ناو) کەسێک کە ئەزموونی زۆری لە زۆر وڵاتی جیهانەوە هەیە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She's a real cosmopolitan."),
+                    ExampleSentenceKurdish(text: "دنیادیتوویەکی تەواوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcosmopolitans5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcosmopolitans5("en-US"),
                   ),
                 ],
               ),
@@ -344,16 +458,20 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosh (Derived forms: coshes)
-Usage: Brit, informal
-1. A piece of metal covered by leather with a flexible handle; used for hitting people (= blackjack [N. Amer], sap [N. Amer, informal])
+- Adjective: cosmopolitan 
+1. (ecology) growing or occurring in many parts of the world (= widely distributed)
+"cosmopolitan in distribution"; "a cosmopolitan herb";
+ 
+2. Composed of people from or at home in many parts of the world; especially not provincial in attitudes or interests
+"his cosmopolitan benevolence impartially extended to all races and to all creeds"; "the ancient and cosmopolitan societies of Syria and Egypt"; "that queer, cosmopolitan, rather sinister crowd found around the Marseilles docks"
+ 
+3. Of worldwide scope or applicability (= ecumenical, oecumenical [archaic], general, universal, worldwide, world-wide, global)
+"an issue of cosmopolitan import";
 
-- Verb: cosh (Derived forms: coshing, coshes, coshed)
-Usage: Brit, informal
-1. Hit with a cosh, usually on the head
-
-- Abbreviation: cosh 
-1. (maths) hyperbolic cosine
+- Noun: cosmopolitan (Derived forms: cosmopolitans)
+1. A sophisticated person who has travelled in many countries (= cosmopolite)
+ 
+2. A cocktail containing vodka, triple sec, lime juice, and cranberry juice
 """,
   );
 
@@ -386,8 +504,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IOJHZN9vXeQ?t=',
-    startSeconds: 1163,
+    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -411,8 +529,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2eqLZ-XDUcM?t=',
-    startSeconds: 3021,
+    videoId: 'https://youtu.be/COD9hcTpGWQ?t=',
+    startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,8 +554,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l_ffdarcJiQ?t=',
-    startSeconds: 160,
+    videoId: 'https://youtu.be/NVH7JewfgJg?t=',
+    startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,8 +579,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WIibcLd_oYU?t=',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/d8AKUKdCTuA?t=',
+    startSeconds: 491,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -486,8 +604,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vlGH0OVXv8Y',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/GhgmGZWGFKk?t=',
+    startSeconds: 2108,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -511,8 +629,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2wXHdoSfQeQ?t=',
-    startSeconds: 649,
+    videoId: 'https://youtu.be/crtHMGpBNUc?t=',
+    startSeconds: 1071,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +654,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/845D_K6sGkM?t=',
-    startSeconds: 2202,
+    videoId: 'https://youtu.be/ryaoMdE80FI?t=',
+    startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

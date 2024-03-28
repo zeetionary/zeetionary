@@ -96,8 +96,9 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆرینەی ڕەھا یان ئەبسولوت
-
-١. زیاتر لە نیوەی دەنگدەران"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. زیاتر لە نیوەی دەنگدەران" ""),
                           Row(
                             children: [
                               const Expanded(

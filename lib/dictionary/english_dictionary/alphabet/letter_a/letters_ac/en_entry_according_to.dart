@@ -104,8 +104,9 @@ class EnglishEntryaccordingto extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەپێی، بەگوێرەی، ل گۆرا، ل دووڤ
-
-١. بە گوێرەی شتێک یان وتەی کەسێک"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. بە گوێرەی شتێک یان وتەی کەسێک" ""),
                           Row(
                             children: [
                               const Expanded(

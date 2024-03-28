@@ -95,8 +95,11 @@ class EnglishEntryacclimatize extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خۆگونجاندن 
-
-١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

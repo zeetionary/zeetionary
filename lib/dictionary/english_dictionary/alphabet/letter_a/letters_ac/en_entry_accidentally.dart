@@ -95,8 +95,9 @@ class EnglishEntryaccidentally extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەڕێکەوت، بێ‌مەبەستانە
-
-١. بە ھەڵکەوت ڕوودان"""),
+"""),
+                          const DefinitionKurdish(
+                              text: "١. بە ھەڵکەوت ڕوودان" ""),
                           Row(
                             children: [
                               const Expanded(

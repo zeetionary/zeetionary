@@ -113,8 +113,11 @@ class EnglishEntryaccumulation extends StatelessWidget {
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خڕکردنەوە، کەڵەکەکردن، کۆمەڵ(کە)کردن، کۆمەڵ‌کردن، کەوتنەسەرک، سەریەکنان، کەڵەکەبوون، خڕبوونەوە، کۆبوونەوە
-
-١. پڕۆسەی خڕبوونەوە بەھێواشی لە ماوەیەکی درێژدا"""),
+"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. پڕۆسەی خڕبوونەوە بەھێواشی لە ماوەیەکی درێژدا"
+                                  ""),
                           Row(
                             children: [
                               const Expanded(

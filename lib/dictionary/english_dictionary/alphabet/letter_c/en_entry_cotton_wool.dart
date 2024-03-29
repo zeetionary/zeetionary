@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycotton extends StatelessWidget {
-  const EnglishEntrycotton({super.key});
+class EnglishEntrycottonwool extends StatelessWidget {
+  const EnglishEntrycottonwool({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cotton");
+    return const EntryTitle(word: "cotton wool");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcotton(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwool(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cotton wool"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɒtn/"),
+        const IPAofEnglish(text: "IpaUK: /ˌkɒtn ˈwʊl/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcotton("en-GB"),
+          onPressed: () => speakcottonwool("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcotton(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwool(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cotton wool"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɑːtn/"),
+        const IPAofEnglish(text: "IpaUS: /ˌkɑːtn ˈwʊl/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcotton("en-US"),
+          onPressed: () => speakcottonwool("en-US"),
         ),
       ],
     );
@@ -151,112 +151,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcottons1(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools1(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They grew cotton, tobacco, corn and fruit."); // DOPSUM: CHANGE TEXT
+        "She used cotton wool to apply the ointment to the wound."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons2(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools2(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sheets are 100 per cent pure cotton."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons3(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools3(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She looked pretty in a simple cotton dress."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons4(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools4(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Use a cotton ball to apply the lotion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons5(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools5(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons6(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools6(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons7(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools7(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons8(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools8(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools9(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools10(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools11(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools12(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcottonwools13(String languageCode) async {
+    // DOPSUM: CHANGE speakcottonwool
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottonwools1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -268,113 +265,33 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لۆکە، پەموو، گیالۆکە، ڕووەکی پەموو، وڕە، گیاپەموو،	دەزوو، هەودا،	چیت، تەژگ، پارچە یان بەرگی کەتانی، کوتاڵی کەتانی، جاو، پەمەیی 
+کوردی: لۆکەی برین یان پزشکی، لۆکەی خاو
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) لۆکە؛ ڕووەکێک کە لە وڵاتە گەرمەکان دەچێنرێت بۆ پەڕە نەرمە سپییەکەی کە لە دەوری تۆوەکەی گەشە دەکات و بۆ قوماش درووستکردن بەکاردێت"),
+                  "١. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "They grew cotton, tobacco, corn and fruit."),
+                        text:
+                            "She used cotton wool to apply the ointment to the wound."),
                     ExampleSentenceKurdish(
-                        text: "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن."),
+                        text:
+                            "لۆکەی بەکارهێنا بۆ لێدانی مەڵهەمەکە لە برینەکە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cotton", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cotton wool", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcottons1("en-GB"),
+                    onPressed: () => speakcottonwools1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcottons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) قوماشی درووستکراو لە لۆکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sheets are 100 per cent pure cotton."),
-                    ExampleSentenceKurdish(
-                        text: "پێخەفەکان بە تەواوی لە لۆکە درووستکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked pretty in a simple cotton dress."),
-                    ExampleSentenceKurdish(
-                        text: "جوان دیاربوو لە جلێکی سادەی لۆکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٣. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Use a cotton ball to apply the lotion."),
-                    ExampleSentenceKurdish(
-                        text: "تۆپەڵە لەفافێک بەکاربێنە بۆ لێدانی گیراوەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons4("en-US"),
+                    onPressed: () => speakcottonwools1("en-US"),
                   ),
                 ],
               ),
@@ -428,19 +345,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cotton (Derived forms: cottons)
-1. Soft silky fibers from cotton plants in their raw state (= cotton fiber [US], cotton wool [Brit, Cdn], cotton fibre [Brit, Cdn], absorbent cotton [N. Amer])
+- Noun: cotton wool (Derived forms: cotton wools)
+Usage: Brit, Cdn (US: absorbent cotton)
+1. Soft silky fibers from cotton plants in their raw state (= cotton, cotton fiber [US], cotton fibre [Brit, Cdn], absorbent cotton [N. Amer])
  
-2. Fabric woven from cotton fibers
- 
-3. Erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers (= cotton plant)
- 
-4. Thread made of cotton fibers
-
-- Verb: cotton (Derived forms: cottoned, cottons, cottoning)
-Usage: N. Amer, informal
-1. Take a liking to
-"cotton to something"
+2. Cotton made absorbent by removal of the natural wax (= absorbent cotton [N. Amer])
 """,
   );
 
@@ -473,8 +382,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/irLPpr7Nf9U?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/IuWQGpswvyY?t=',
+    startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +407,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uU3EmscMskE?t=',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/3LpLpSV0W_4?t=',
+    startSeconds: 342,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +432,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XcS2lp4-HJg?t=',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/QCKUpFMmKJw?t=',
+    startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +457,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kn2eBUPffeA?t=',
-    startSeconds: 441,
+    videoId: 'https://youtu.be/YmLE81WsfeQ?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -573,8 +482,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/83eJfEFFZ74?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/DgA1q0hJBRA?t=',
+    startSeconds: 1158,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -598,8 +507,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8nFwf5Ydp_I?t=',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/3p9K7AclXp8?t=',
+    startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -623,8 +532,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p1PEUGGTv4w?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/A6atqabfxYk?t=',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

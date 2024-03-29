@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycotton extends StatelessWidget {
-  const EnglishEntrycotton({super.key});
+class EnglishEntrycouch extends StatelessWidget {
+  const EnglishEntrycouch({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cotton");
+    return const EntryTitle(word: "couch");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcotton(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouch(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("couch"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɒtn/"),
+        const IPAofEnglish(text: "IpaUK: /kaʊtʃ/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcotton("en-GB"),
+          onPressed: () => speakcouch("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcotton(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouch(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("couch"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɑːtn/"),
+        const IPAofEnglish(text: "IpaUS: /kaʊtʃ/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcotton("en-US"),
+          onPressed: () => speakcouch("en-US"),
         ),
       ],
     );
@@ -151,112 +151,111 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcottons1(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs1(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They grew cotton, tobacco, corn and fruit."); // DOPSUM: CHANGE TEXT
+        "He was sprawled on the living-room couch watching TV."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons2(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs2(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The sheets are 100 per cent pure cotton."); // DOPSUM: CHANGE TEXT
+        "He spends several hours a week on the dentist's couch."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons3(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs3(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She looked pretty in a simple cotton dress."); // DOPSUM: CHANGE TEXT
+        "The letter was deliberately couched in very vague terms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons4(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs4(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Use a cotton ball to apply the lotion."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons5(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs5(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons6(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs6(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons7(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs7(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons8(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs8(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs9(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs10(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs11(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs12(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcottons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcotton
+  Future<void> speakcouchs13(String languageCode) async {
+    // DOPSUM: CHANGE speakcouch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcottons1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouchs1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -268,84 +267,33 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لۆکە، پەموو، گیالۆکە، ڕووەکی پەموو، وڕە، گیاپەموو،	دەزوو، هەودا،	چیت، تەژگ، پارچە یان بەرگی کەتانی، کوتاڵی کەتانی، جاو، پەمەیی 
+کوردی: قەنەفە، کەنەپە،	تەخت
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) لۆکە؛ ڕووەکێک کە لە وڵاتە گەرمەکان دەچێنرێت بۆ پەڕە نەرمە سپییەکەی کە لە دەوری تۆوەکەی گەشە دەکات و بۆ قوماش درووستکردن بەکاردێت"),
+                  "١. (ناو) قەنەفە؛ جێگایەکی دانیشتنی ئاسوودەبەخشی درێژ کە بۆ دوو کەس یان زیاترە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "They grew cotton, tobacco, corn and fruit."),
+                        text:
+                            "He was sprawled on the living-room couch watching TV."),
                     ExampleSentenceKurdish(
-                        text: "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن."),
+                        text:
+                            "لەسەر قەنەفەی دیوەخانەکە ڕاکشابوو سەیری تەلەفیزیۆنی دەکرد."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cotton", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "couch", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcottons1("en-GB"),
+                    onPressed: () => speakcouchs1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcottons1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) قوماشی درووستکراو لە لۆکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The sheets are 100 per cent pure cotton."),
-                    ExampleSentenceKurdish(
-                        text: "پێخەفەکان بە تەواوی لە لۆکە درووستکراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She looked pretty in a simple cotton dress."),
-                    ExampleSentenceKurdish(
-                        text: "جوان دیاربوو لە جلێکی سادەی لۆکەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcottons3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcottons3("en-US"),
+                    onPressed: () => speakcouchs1("en-US"),
                   ),
                 ],
               ),
@@ -354,16 +302,18 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
+                  "٢. (ناو) تەختێکی ڕاکشان کە وەک جێخەوێک وایە و زۆرجار لە ئۆفیسی پزیشکدا هەیە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Use a cotton ball to apply the lotion."),
+                        text:
+                            "He spends several hours a week on the dentist's couch."),
                     ExampleSentenceKurdish(
-                        text: "تۆپەڵە لەفافێک بەکاربێنە بۆ لێدانی گیراوەکە."),
+                        text:
+                            "چەند کاتژمێرێک لە هەفتەیەلدا بەسەر دەبات لەسەر تەختی پزیشکە ددانەکە."),
                   ],
                 ),
               ),
@@ -371,10 +321,40 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcottons4("en-GB"),
+                    onPressed: () => speakcouchs2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcottons4("en-US"),
+                    onPressed: () => speakcouchs2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (کردار) گوتن یان نووسین بەشێوەیەکی دیاریکراو"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The letter was deliberately couched in very vague terms."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نامەکە بە ئەنقەست نووسرابوو بە دەستەواژەی ناڕوونەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouchs3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouchs3("en-US"),
                   ),
                 ],
               ),
@@ -428,19 +408,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cotton (Derived forms: cottons)
-1. Soft silky fibers from cotton plants in their raw state (= cotton fiber [US], cotton wool [Brit, Cdn], cotton fibre [Brit, Cdn], absorbent cotton [N. Amer])
+- Noun: couch (Derived forms: couches)
+1. An upholstered seat for more than one person (= sofa, lounge, chesterfield [Cdn])
  
-2. Fabric woven from cotton fibers
+2. A flat coat of paint or varnish used by artists as a primer
  
-3. Erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers (= cotton plant)
- 
-4. Thread made of cotton fibers
+3. A narrow bed on which a patient lies during psychiatric or psychoanalytic treatment
 
-- Verb: cotton (Derived forms: cottoned, cottons, cottoning)
-Usage: N. Amer, informal
-1. Take a liking to
-"cotton to something"
+- Verb: couch (Derived forms: couching, couches, couched)
+1. Formulate in a particular style or language (= frame, redact, cast, put)
 """,
   );
 
@@ -473,8 +449,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/irLPpr7Nf9U?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/SvdRjPW6FUU?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -498,8 +474,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uU3EmscMskE?t=',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/-YB5-bykwyo?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -523,8 +499,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XcS2lp4-HJg?t=',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/F33rmDET71U?t=',
+    startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -548,8 +524,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kn2eBUPffeA?t=',
-    startSeconds: 441,
+    videoId: 'https://youtu.be/QzhGqjlYU14?t=',
+    startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -573,8 +549,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/83eJfEFFZ74?t=',
-    startSeconds: 7,
+    videoId: 'https://youtu.be/lrNcx2D_FZI?t=',
+    startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -598,8 +574,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8nFwf5Ydp_I?t=',
-    startSeconds: 5,
+    videoId: 'https://youtu.be/xvyj35Pd9C4?t=',
+    startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -623,8 +599,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p1PEUGGTv4w?t=',
-    startSeconds: 141,
+    videoId: 'https://youtu.be/kDnPT0MPzDg?t=',
+    startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

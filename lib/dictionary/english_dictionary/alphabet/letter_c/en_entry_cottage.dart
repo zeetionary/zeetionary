@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycostar extends StatelessWidget {
-  const EnglishEntrycostar({super.key});
+class EnglishEntrycottage extends StatelessWidget {
+  const EnglishEntrycottage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "co-star");
+    return const EntryTitle(word: "cottage");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostar(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottage(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("co-star"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cottage"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkəʊ stɑː(r)/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkɒtɪdʒ/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcostar("en-GB"),
+          onPressed: () => speakcottage("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostar(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottage(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("co-star"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cottage"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkəʊ stɑːr/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkɑːtɪdʒ/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcostar("en-US"),
+          onPressed: () => speakcottage("en-US"),
         ),
       ],
     );
@@ -151,111 +151,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostars1(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages1(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."); // DOPSUM: CHANGE TEXT
+        "James lived in a charming country cottage with roses around the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars2(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages2(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We rented a cottage for a week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars3(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages3(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The movie co-stars Jennifer Aniston and Jason Sudeikis."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars4(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages4(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars5(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages5(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars6(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages6(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars7(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages7(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars8(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages8(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars9(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages9(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars10(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages10(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars11(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages11(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars12(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages12(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars13(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottages13(String languageCode) async {
+    // DOPSUM: CHANGE speakcottage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottages1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -266,12 +265,11 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: قۆختە، کۆختە، کاز، خانوچکە، خانووی هاوینەهەواری
+"""),
           const DefinitionKurdish(
-              text:
-                  "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا هەردووکیان هەمان گرنگیان هەیە"),
+              text: "١. (ناو) خانوویەکی بچووک، بەتایبەتی لە دەرەوەی شار"),
           Row(
             children: [
               const Expanded(
@@ -279,41 +277,36 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."),
+                            "James lived in a charming country cottage with roses around the door."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و هەمپبرێی بۆگارتن."),
+                            "جەیمس لە کۆختەیەکی دڵبەری دەرەوەی شاردا دەژیا کە گوڵ لە دەوری دەرگاکەی بوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "co-star", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cottage", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcostars1("en-GB"),
+                    onPressed: () => speakcottages1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcostars1("en-US"),
+                    onPressed: () => speakcottages1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی هاوشان لەگەڵ یەکێکی دیکەدا"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton."),
+                        text: "We rented a cottage for a week."),
                     ExampleSentenceKurdish(
-                        text:
-                            "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن."),
+                        text: "کۆختەیەکمان بۆ هەفتەیەک بە کرێ گرت."),
                   ],
                 ),
               ),
@@ -321,40 +314,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcostars2("en-GB"),
+                    onPressed: () => speakcottages2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcostars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (کردار) هەبوونی دوو ئەکتەری سەرەکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie co-stars Jennifer Aniston and Jason Sudeikis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی هەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostars3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostars3("en-US"),
+                    onPressed: () => speakcottages2("en-US"),
                   ),
                 ],
               ),
@@ -408,13 +371,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: co-star (Derived forms: co-stars)
-1. One of two actors who are given equal status as stars in a play or film
+- Noun: cottage (Derived forms: cottages)
+1. A small house with a single story (= bungalow)
+"she liked the old cottage; its quaintness was appealing";
 
-- Verb: co-star (Derived forms: co-starring, co-stars, co-starred)
-1. Feature as the co-star in a performance
- 
-2. (dramaturgy) be the co-star in a performance
+- Verb: cottage (Derived forms: cottaging, cottaged, cottages)
+Usage: Brit, vulgar
+1. Have male homosexual sex in a public lavatory
 """,
   );
 
@@ -447,8 +410,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DMRMWLwvAGA?t=',
-    startSeconds: 96,
+    videoId: 'https://youtu.be/WbG8raMCgpo?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +435,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwodL8z2EtE?t=',
-    startSeconds: 2511,
+    videoId: 'https://youtu.be/5CWLahb9m_s?t=',
+    startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +460,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5_HVUS1l0Y?t=',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/w4HmK4JCN2U?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +485,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zNjO6arjuAc?t=',
-    startSeconds: 407,
+    videoId: 'https://youtu.be/CsrHrTYwrzM?t=',
+    startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -547,8 +510,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yql-9LHorTo?t=',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/mEe4fkEDis0?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -572,8 +535,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eWHN7pBRzIo?t=',
-    startSeconds: 364,
+    videoId: 'https://youtu.be/1aXeD_6smxc?t=',
+    startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -597,8 +560,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uIsg5x19Xu8?t=',
-    startSeconds: 240,
+    videoId: 'https://youtu.be/fu-cPwQj1ss?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

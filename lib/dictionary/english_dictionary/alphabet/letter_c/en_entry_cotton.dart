@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycostar extends StatelessWidget {
-  const EnglishEntrycostar({super.key});
+class EnglishEntrycotton extends StatelessWidget {
+  const EnglishEntrycotton({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "co-star");
+    return const EntryTitle(word: "cotton");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostar(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcotton(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("co-star"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkəʊ stɑː(r)/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkɒtn/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcostar("en-GB"),
+          onPressed: () => speakcotton("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostar(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcotton(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("co-star"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cotton"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkəʊ stɑːr/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkɑːtn/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcostar("en-US"),
+          onPressed: () => speakcotton("en-US"),
         ),
       ],
     );
@@ -151,111 +151,112 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcostars1(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons1(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."); // DOPSUM: CHANGE TEXT
+        "They grew cotton, tobacco, corn and fruit."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars2(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons2(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton."); // DOPSUM: CHANGE TEXT
+        "The sheets are 100 per cent pure cotton."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars3(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons3(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The movie co-stars Jennifer Aniston and Jason Sudeikis."); // DOPSUM: CHANGE TEXT
+        "She looked pretty in a simple cotton dress."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars4(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons4(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Use a cotton ball to apply the lotion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars5(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons5(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars6(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons6(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars7(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons7(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars8(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons8(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars9(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons9(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars10(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons10(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars11(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons11(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars12(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons12(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcostars13(String languageCode) async {
-    // DOPSUM: CHANGE speakcostar
+  Future<void> speakcottons13(String languageCode) async {
+    // DOPSUM: CHANGE speakcotton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcostars1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcottons1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -266,34 +267,85 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: لۆکە، پەموو، گیالۆکە، ڕووەکی پەموو، وڕە، گیاپەموو،	دەزوو، هەودا،	چیت، تەژگ، پارچە یان بەرگی کەتانی، کوتاڵی کەتانی، جاو، پەمەیی 
+"""),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا هەردووکیان هەمان گرنگیان هەیە"),
+                  "١. (ناو) لۆکە؛ ڕووەکێک کە لە وڵاتە گەرمەکان دەچێنرێت بۆ پەڕە نەرمە سپییەکەی کە لە دەوری تۆوەکەی گەشە دەکات و بۆ قوماش درووستکردن بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart."),
+                        text: "They grew cotton, tobacco, corn and fruit."),
                     ExampleSentenceKurdish(
-                        text:
-                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و هەمپبرێی بۆگارتن."),
+                        text: "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "co-star", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cotton", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcostars1("en-GB"),
+                    onPressed: () => speakcottons1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcostars1("en-US"),
+                    onPressed: () => speakcottons1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) قوماشی درووستکراو لە لۆکە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The sheets are 100 per cent pure cotton."),
+                    ExampleSentenceKurdish(
+                        text: "پێخەفەکان بە تەواوی لە لۆکە درووستکراون."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcottons2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcottons2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She looked pretty in a simple cotton dress."),
+                    ExampleSentenceKurdish(
+                        text: "جوان دیاربوو لە جلێکی سادەی لۆکەدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcottons3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcottons3("en-US"),
                   ),
                 ],
               ),
@@ -302,18 +354,16 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی هاوشان لەگەڵ یەکێکی دیکەدا"),
+                  "٣. (ناو) پارچە قوماشێکی نەرم کە بۆ پاککردنەوەی پێست و برین بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton."),
+                        text: "Use a cotton ball to apply the lotion."),
                     ExampleSentenceKurdish(
-                        text:
-                            "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن."),
+                        text: "تۆپەڵە لۆکەیەک بەکاربێنە بۆ لێدانی گیراوەکە."),
                   ],
                 ),
               ),
@@ -321,40 +371,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcostars2("en-GB"),
+                    onPressed: () => speakcottons4("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcostars2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (کردار) هەبوونی دوو ئەکتەری سەرەکی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The movie co-stars Jennifer Aniston and Jason Sudeikis."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی هەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcostars3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcostars3("en-US"),
+                    onPressed: () => speakcottons4("en-US"),
                   ),
                 ],
               ),
@@ -408,13 +428,19 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: co-star (Derived forms: co-stars)
-1. One of two actors who are given equal status as stars in a play or film
-
-- Verb: co-star (Derived forms: co-starring, co-stars, co-starred)
-1. Feature as the co-star in a performance
+- Noun: cotton (Derived forms: cottons)
+1. Soft silky fibers from cotton plants in their raw state (= cotton fiber [US], cotton wool [Brit, Cdn], cotton fibre [Brit, Cdn], absorbent cotton [N. Amer])
  
-2. (dramaturgy) be the co-star in a performance
+2. Fabric woven from cotton fibers
+ 
+3. Erect bushy mallow plant or small tree bearing bolls containing seeds with many long hairy fibers (= cotton plant)
+ 
+4. Thread made of cotton fibers
+
+- Verb: cotton (Derived forms: cottoned, cottons, cottoning)
+Usage: N. Amer, informal
+1. Take a liking to
+"cotton to something"
 """,
   );
 
@@ -447,8 +473,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DMRMWLwvAGA?t=',
-    startSeconds: 96,
+    videoId: 'https://youtu.be/irLPpr7Nf9U?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +498,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwodL8z2EtE?t=',
-    startSeconds: 2511,
+    videoId: 'https://youtu.be/uU3EmscMskE?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +523,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5_HVUS1l0Y?t=',
-    startSeconds: 302,
+    videoId: 'https://youtu.be/XcS2lp4-HJg?t=',
+    startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +548,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zNjO6arjuAc?t=',
-    startSeconds: 407,
+    videoId: 'https://youtu.be/kn2eBUPffeA?t=',
+    startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -547,8 +573,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yql-9LHorTo?t=',
-    startSeconds: 8,
+    videoId: 'https://youtu.be/83eJfEFFZ74?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -572,8 +598,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eWHN7pBRzIo?t=',
-    startSeconds: 364,
+    videoId: 'https://youtu.be/8nFwf5Ydp_I?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -597,8 +623,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uIsg5x19Xu8?t=',
-    startSeconds: 240,
+    videoId: 'https://youtu.be/p1PEUGGTv4w?t=',
+    startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

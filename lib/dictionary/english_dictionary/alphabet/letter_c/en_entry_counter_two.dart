@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycouncilhouse extends StatelessWidget {
-  const EnglishEntrycouncilhouse({super.key});
+class EnglishEntrycountertwo extends StatelessWidget {
+  const EnglishEntrycountertwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "council house");
+    return const EntryTitle(word: "counter-");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouse(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwo(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council house"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counter-"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkaʊnsl haʊs/"),
+        const IPAofEnglish(text: "IpaUK: /kaʊntə(r)/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcouncilhouse("en-GB"),
+          onPressed: () => speakcountertwo("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouse(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwo(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council house"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counter-"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkaʊnsl haʊs/"),
+        const IPAofEnglish(text: "IpaUS: /kaʊntər/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcouncilhouse("en-US"),
+          onPressed: () => speakcountertwo("en-US"),
         ),
       ],
     );
@@ -151,109 +151,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos1(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Many families rely on council houses for affordable housing."); // DOPSUM: CHANGE TEXT
+        "The general ordered a counterattack to regain control of the situation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos2(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos3(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos4(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos5(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos6(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos7(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos8(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos9(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos10(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos11(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos12(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcountertwos13(String languageCode) async {
+    // DOPSUM: CHANGE speakcountertwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountertwos1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,11 +265,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ماڵ، خانوو یان دەستەخانووی ئەنجومەن
+کوردی: دژ، لە دژی، بەپێچەوانەی
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) خانوویەک کە ئەنجوومەنی شارە بەکرێی دەدات"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
           Row(
             children: [
               const Expanded(
@@ -277,19 +275,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Many families rely on council houses for affordable housing."),
-                    ExampleSentenceKurdish(text: "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی هەرزان."),
+                            "The general ordered a counterattack to regain control of the situation."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ژەنەڕاڵەکە فەرمانی بە هێرشێکی پێچەوانە کرد بۆ بەدەستهێنانەوەی کۆنترۆڵی دۆخەکە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "council house", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "counter-", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcouncilhouses1("en-GB"),
+                    onPressed: () => speakcountertwos1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcouncilhouses1("en-US"),
+                    onPressed: () => speakcountertwos1("en-US"),
                   ),
                 ],
               ),
@@ -343,8 +343,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: council house (Derived forms: council houses)
-1. House built by the municipal council
+- Noun: counter-
+1. against; opposite
+"counter-accusations";
 """,
   );
 
@@ -377,8 +378,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ibDrnMg3mbA?t=',
-    startSeconds: 2939,
+    videoId: 'https://youtu.be/knjliFs3gR8?t=',
+    startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -402,8 +403,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/epkCrB8aKXA?t=',
-    startSeconds: 334,
+    videoId: 'https://youtu.be/C8YlGkoYXXM?t=',
+    startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -427,8 +428,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gyX3ZsyvwWM?t=',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/lGBF3h3L728?t=',
+    startSeconds: 414,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -452,8 +453,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JiXeFihP5qE?t=',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    startSeconds: 453,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -477,8 +478,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aUX_gyjDpUM?t=',
-    startSeconds: 410,
+    videoId: 'https://youtu.be/pfk4dfz5CJI?t=',
+    startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -502,8 +503,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uabiy3rTXiE?t=',
-    startSeconds: 2541,
+    videoId: 'https://youtu.be/N4k1gEC0800?t=',
+    startSeconds: 1182,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -527,8 +528,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k4sRUcRzBS8?t=',
-    startSeconds: 44,
+    videoId: 'https://youtu.be/DoxI_3RhVUg?t=',
+    startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

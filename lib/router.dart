@@ -3801,19 +3801,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_could.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council_house.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council_flat.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council_tax.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_councillor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counsel.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counselling.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counsellor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_count.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_countable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_countdown.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_countenance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter_two.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counteract.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8347,19 +8347,19 @@ final loggedInRoute = RouteMap(routes: {
   "/english-could": (_) => const MaterialPage(child: EnglishEntrycould()),
   "/english-council": (_) => const MaterialPage(child: EnglishEntrycouncil()),
   "/english-council-house": (_) => const MaterialPage(child: EnglishEntrycouncilhouse()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-council-flat": (_) => const MaterialPage(child: EnglishEntrycouncilflat()),
+  "/english-council-tax": (_) => const MaterialPage(child: EnglishEntrycounciltax()),
+  "/english-councillor": (_) => const MaterialPage(child: EnglishEntrycouncillor()),
+  "/english-counsel": (_) => const MaterialPage(child: EnglishEntrycounsel()),
+  "/english-counselling": (_) => const MaterialPage(child: EnglishEntrycounselling()),
+  "/english-counsellor": (_) => const MaterialPage(child: EnglishEntrycounsellor()),
+  "/english-count": (_) => const MaterialPage(child: EnglishEntrycount()),
+  "/english-countable": (_) => const MaterialPage(child: EnglishEntrycountable()),
+  "/english-countdown": (_) => const MaterialPage(child: EnglishEntrycountdown()),
+  "/english-countenance": (_) => const MaterialPage(child: EnglishEntrycountenance()),
+  "/english-counter": (_) => const MaterialPage(child: EnglishEntrycounter()),
+  "/english-counter-two": (_) => const MaterialPage(child: EnglishEntrycountertwo()),
+  "/english-counteract": (_) => const MaterialPage(child: EnglishEntrycounteract()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

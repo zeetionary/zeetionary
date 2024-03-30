@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycouncilhouse extends StatelessWidget {
-  const EnglishEntrycouncilhouse({super.key});
+class EnglishEntrycounsel extends StatelessWidget {
+  const EnglishEntrycounsel({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "council house");
+    return const EntryTitle(word: "counsel");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouse(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsel(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council house"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counsel"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkaʊnsl haʊs/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊnsl/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcouncilhouse("en-GB"),
+          onPressed: () => speakcounsel("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouse(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsel(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("council house"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counsel"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkaʊnsl haʊs/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊnsl/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcouncilhouse("en-US"),
+          onPressed: () => speakcounsel("en-US"),
         ),
       ],
     );
@@ -151,109 +151,115 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcouncilhouses1(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels1(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Listen to the counsel of your elders."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcounsels2(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("In the end, wiser counsels prevailed."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcounsels3(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Many families rely on council houses for affordable housing."); // DOPSUM: CHANGE TEXT
+        "He is there to give you counsel on all matters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses2(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels4(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Counsel for the claimant argued that there had been no proper investigation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses3(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels5(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police have provided experts to counsel people affected by the tragedy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses4(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels6(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most experts counsel caution in such cases."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses5(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels7(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He counselled them to give up the plan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses6(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels8(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses7(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels9(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses8(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels10(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses9(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels11(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses10(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels12(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcouncilhouses11(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
+  Future<void> speakcounsels13(String languageCode) async {
+    // DOPSUM: CHANGE speakcounsel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcouncilhouses12(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcouncilhouses13(String languageCode) async {
-    // DOPSUM: CHANGE speakcouncilhouse
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcouncilhouses1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounsels1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,11 +271,61 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ماڵ، خانوو یان دەستەخانووی ئەنجومەن
+کوردی: ڕاوێژ، شیرەت، شێور، ئامۆژگاری، نەسێحەت، پرس‌وڕا،	ڕاسپاردن،	ڕێنوێنی،	پێشنیاز،	پارێزەر، ئاوکات، بەرەڤان‌کار، دەستەی پارێزەران
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) خانوویەک کە ئەنجوومەنی شارە بەکرێی دەدات"),
+          const DefinitionKurdish(text: "١. (ناو) ڕاوێژ و ئامۆژگاری"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Listen to the counsel of your elders."),
+                    ExampleSentenceKurdish(
+                        text: "گوێ لە ڕاوێژی بەتەمەنەکانت بگرە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "counsel", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "In the end, wiser counsels prevailed."),
+                    ExampleSentenceKurdish(
+                        text: "لە کۆتاییدا، ئامۆژگارییە ژیرانەکان پەسەندکران."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -277,19 +333,136 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Many families rely on council houses for affordable housing."),
-                    ExampleSentenceKurdish(text: "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی هەرزان."),
+                            "He is there to give you counsel on all matters."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەوێیە بۆ ئەوەی ڕاوێژت لەسەر هەموو بابەتەکان پێبدات."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "council house", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcouncilhouses1("en-GB"),
+                    onPressed: () => speakcounsels3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcouncilhouses1("en-US"),
+                    onPressed: () => speakcounsels3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (ناو) پارێزەرێک یان تیمی پارێزەرانی کەسێک لە دادگادا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Counsel for the claimant argued that there had been no proper investigation."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تیمی پارێزەرانی بەرگریکار بانگەشەی نکۆڵییان لەوە کرد کە لێکۆڵینەوەی گونجاو نەکراوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (کردار) گوێگرتن لە کەسێک و پێدانی ڕاوێژ پێی کە پێویستی پێیەتی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The police have provided experts to counsel people affected by the tragedy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پۆلیس شارەزای دابینکردووە بۆ پێدانی ڕاوێژ بە ئەو کەسانەی کە بە تراژیدیاکە کاریگەر بوونە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (کردار) ڕاوێژدان بە کەسێک بۆ کردنی شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Most experts counsel caution in such cases."),
+                    ExampleSentenceKurdish(
+                        text: "زۆر شارەزا ڕاوێژی ئارامگری لەم دۆخەدا دەدەن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He counselled them to give up the plan."),
+                    ExampleSentenceKurdish(
+                        text: "ئامۆژگاری ئەوەی کردن واز لە پلانەکە بێنن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounsels7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounsels7("en-US"),
                   ),
                 ],
               ),
@@ -343,8 +516,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: council house (Derived forms: council houses)
-1. House built by the municipal council
+- Noun: counsel (Derived forms: counsels)
+1. (law) a lawyer who pleads cases in court (= advocate, counselor [US], counsellor [Brit, Cdn], counselor-at-law [US, Ireland], pleader)
+ 
+2. Direction or helpful suggestions regarding a decision or future course of action (= guidance, counseling [US], counselling [Brit, Cdn], direction)
+
+- Verb: counsel (Derived forms: counselling, counselled, counsels, counseled)
+1. Give advice to (= rede [archaic], advise)
+"The teacher counsels troubled students";
 """,
   );
 
@@ -377,8 +556,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ibDrnMg3mbA?t=',
-    startSeconds: 2939,
+    videoId: 'https://youtu.be/0PufM6dW_to?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -402,8 +581,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/epkCrB8aKXA?t=',
-    startSeconds: 334,
+    videoId: 'https://youtu.be/USL6P8haroY?t=',
+    startSeconds: 675,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -427,8 +606,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gyX3ZsyvwWM?t=',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/yTsxY0mRIGs?t=',
+    startSeconds: 1605,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -452,8 +631,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JiXeFihP5qE?t=',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/hA95iw4B2jg?t=',
+    startSeconds: 890,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -477,8 +656,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aUX_gyjDpUM?t=',
-    startSeconds: 410,
+    videoId: 'https://youtu.be/jwZBl6KQojM?t=',
+    startSeconds: 3347,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -502,8 +681,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uabiy3rTXiE?t=',
-    startSeconds: 2541,
+    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    startSeconds: 2772,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -527,8 +706,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k4sRUcRzBS8?t=',
-    startSeconds: 44,
+    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    startSeconds: 2773,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

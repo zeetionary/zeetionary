@@ -260,7 +260,7 @@ class EnglishEntryargue extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) بەڕوونت ۆیشاندانی بوونی شتێک، یان ئەوەی شتێک ڕاستە"""),
+٣. (کردار) بەڕوونی پیشاندانی بوونی شتێک، یان ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
                               const Expanded(

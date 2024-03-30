@@ -236,7 +236,7 @@ class EnglishEntryblonde extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک، بەتایبەتی ژنێک، کە قژی ئاڵتوونی کاڵی ھەیە"),
+                                  "٣. (ناو) کەسێک، بەتایبەتی ژنێک، کە قژی ئاڵتوونی کاڵی ھەیە"),
                           Row(
                             children: [
                               const Expanded(

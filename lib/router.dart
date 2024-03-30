@@ -3794,13 +3794,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cotton.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cotton_wool.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_couch.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_couchette.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cougar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_puma.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cough.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_could.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_council_house.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8340,13 +8340,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cotton": (_) => const MaterialPage(child: EnglishEntrycotton()),
   "/english-cotton-wool": (_) => const MaterialPage(child: EnglishEntrycottonwool()),
   "/english-couch": (_) => const MaterialPage(child: EnglishEntrycouch()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-couchette": (_) => const MaterialPage(child: EnglishEntrycouchette()),
+  "/english-cougar": (_) => const MaterialPage(child: EnglishEntrycougar()),
+  "/english-puma": (_) => const MaterialPage(child: EnglishEntrypuma()),
+  "/english-cough": (_) => const MaterialPage(child: EnglishEntrycough()),
+  "/english-could": (_) => const MaterialPage(child: EnglishEntrycould()),
+  "/english-council": (_) => const MaterialPage(child: EnglishEntrycouncil()),
+  "/english-council-house": (_) => const MaterialPage(child: EnglishEntrycouncilhouse()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

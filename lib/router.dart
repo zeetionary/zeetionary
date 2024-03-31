@@ -3814,8 +3814,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter_two.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counteract.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter_attack.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counterbalance.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8360,8 +8360,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-counter": (_) => const MaterialPage(child: EnglishEntrycounter()),
   "/english-counter-two": (_) => const MaterialPage(child: EnglishEntrycountertwo()),
   "/english-counteract": (_) => const MaterialPage(child: EnglishEntrycounteract()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-counter-attack": (_) => const MaterialPage(child: EnglishEntrycounterattack()),
+  "/english-counterbalance": (_) => const MaterialPage(child: EnglishEntrycounterbalance()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

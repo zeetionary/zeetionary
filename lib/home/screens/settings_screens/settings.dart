@@ -54,7 +54,7 @@ class ThemeNotifier extends StateNotifier<ThemeMode> {
 const String textSizeKey = 'textSize';
 
 class TextSizeState extends StateNotifier<double> {
-  TextSizeState() : super(15.0); // Default text size
+  TextSizeState() : super(14.0); // Default text size
 
   void updateTextSize(double newSize) {
     state = newSize;

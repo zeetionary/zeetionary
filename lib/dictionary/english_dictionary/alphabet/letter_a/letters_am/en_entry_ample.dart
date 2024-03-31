@@ -188,7 +188,7 @@ class EnglishEntryample extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) کەسێک کە جەستەیەکی گەورە و پتو و جوانی ھەیە"""),
+٢. (ھاوەڵناو) کەسێک کە جەستەیەکی گەورە و پتەو و جوانی ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

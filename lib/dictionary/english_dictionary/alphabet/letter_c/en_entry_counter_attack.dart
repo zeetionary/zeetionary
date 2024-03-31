@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycounteract extends StatelessWidget {
-  const EnglishEntrycounteract({super.key});
+class EnglishEntrycounterattack extends StatelessWidget {
+  const EnglishEntrycounterattack({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "counteract");
+    return const EntryTitle(word: "counter-attack");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcounteract(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattack(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("counteract"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counter-attack"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˌkaʊntərˈækt/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊntər ətæk/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcounteract("en-GB"),
+          onPressed: () => speakcounterattack("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcounteract(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattack(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("counteract"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("counter-attack"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˌkaʊntərˈækt/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊntər ətæk/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcounteract("en-US"),
+          onPressed: () => speakcounterattack("en-US"),
         ),
       ],
     );
@@ -151,110 +151,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcounteracts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These exercises aim to counteract the effects of stress and tension."); // DOPSUM: CHANGE TEXT
+        "Armed forces launched a counter-attack against the rebels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Drinking a lot of water counteracts the dehydrating effects of hot weather."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He led a counterattack on the enemy's supply lines."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The air force counterattacked and repelled the invasion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcounteracts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcounteract
+  Future<void> speakcounterattacks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcounterattack
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounteracts1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcounterattacks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -266,11 +265,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناکاریگەر کردن، پووچەڵ کردنەوە، دژ کردەوە نیشاندان، بەرپەرچ دانەوە
+کوردی: هێرشی پێچەوانە، دژەهێرش، پەرچەهێرش، هێرش‌دانەوە
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (کردار) کردنی شتێک کە زیانی زیانی خراپی شتێکی دیکە کەمدەکاتەوە"),
+          const DefinitionKurdish(text: "١. (ناو) هێرشێک کە وەک وەڵامی هێرشی دوژمن یان ڕکابەرە لە جەنگ، وەرزش، یان مشتومڕێکدا"),
           Row(
             children: [
               const Expanded(
@@ -278,21 +275,19 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "These exercises aim to counteract the effects of stress and tension."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم ڕاهێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە."),
+                            "Armed forces launched a counter-attack against the rebels."),
+                    ExampleSentenceKurdish(text: "هێزە سەربازییەکان پەرچەهێرشێکیان دژ بە یاخیبووان ئەنجامدا."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "counteract", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "counter-attack", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcounteracts1("en-GB"),
+                    onPressed: () => speakcounterattacks1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcounteracts1("en-US"),
+                    onPressed: () => speakcounterattacks1("en-US"),
                   ),
                 ],
               ),
@@ -300,31 +295,58 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Drinking a lot of water counteracts the dehydrating effects of hot weather."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خواردنەوەی ئاوی زۆر دژی کاریگەرییە وشککەرەوەکانی کەشی گەرم دەبێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcounteracts2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcounteracts2("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "He led a counterattack on the enemy's supply lines."),
+          ExampleSentenceKurdish(
+          text: "سەرپەرشتی هێرشێکی پێچەوانەی دژ بە هێڵەکانی ئازووقەی دوژمن کرد."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcounterattacks2("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcounterattacks2("en-US"),
+          ),
+          ],
+          ),
+          ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (کردار) ئەنجامدانی هێرشی پێچەوانە"),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "The air force counterattacked and repelled the invasion."),
+          ExampleSentenceKurdish(
+          text: "هێزی ئاسمانی پەرچەکرداری دایەوە و هێرشکارییەکەی شکستپێهێنا."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcounterattacks3("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcounterattacks3("en-US"),
+          ),
+          ],
+          ),
+          ],
           ),
         ],
       ),
@@ -374,16 +396,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: counteract (Derived forms: counteracted, counteracting, counteracts)
-1. Act in opposition to (= antagonize, antagonise [Brit])
+- Noun: counter-attack (Derived forms: counter-attacks)
+1. An attack by a defending force against an attacking enemy force in order to regain lost ground or cut off enemy advance units etc. (= countermove)
  
-2. Oppose or check by a counteraction (= countercheck)
- 
-3. Oppose and mitigate the effects of by contrary actions (= countervail, neutralize, counterbalance, neutralise [Brit])
-"This will counteract the foolish actions of my colleagues";
- 
-4. Destroy property or hinder normal operations (= sabotage, undermine, countermine, subvert, weaken)
-"The Resistance counteracted railway operations during the war";
+2. (chess) an attack that is intended to counter the opponent's advantage in another part of the board (= counterplay)
+
+- Verb: counter-attack (Derived forms: counter-attacked, counter-attacking, counter-attacks)
+1. Make a counterattack (= counterstrike)
 """,
   );
 
@@ -416,8 +435,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g-7ZWPCWv0U?t=',
-    startSeconds: 234,
+    videoId: 'https://youtu.be/SHfqtaa0VI8?t=',
+    startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -441,8 +460,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8uXhQnWgj4?t=',
-    startSeconds: 393,
+    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    startSeconds: 454,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -466,8 +485,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6etTERFUlUI?t=',
-    startSeconds: 812,
+    videoId: 'https://youtu.be/4MqK90Aq8bE?t=',
+    startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,8 +510,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L2gT8fbEq54?t=',
-    startSeconds: 422,
+    videoId: 'https://youtu.be/wpE8PyAfT6g?t=',
+    startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +535,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lwP9H9qTuUY?t=',
-    startSeconds: 335,
+    videoId: 'https://youtu.be/EDeyMeouyfY?t=',
+    startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +560,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fvu5FxKuqdQ?t=',
-    startSeconds: 644,
+    videoId: 'https://youtu.be/MQAVbwUTaYU?t=',
+    startSeconds: 459,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +585,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dP57iVGvnro?t=',
-    startSeconds: 330,
+    videoId: 'https://youtu.be/bLApZfnLJoM?t=',
+    startSeconds: 562,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

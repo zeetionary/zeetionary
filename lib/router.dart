@@ -3816,10 +3816,10 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counteract.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter_attack.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counterbalance.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counter_espionage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counterfeit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counterfeiter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_counterfoil.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8362,10 +8362,10 @@ final loggedInRoute = RouteMap(routes: {
   "/english-counteract": (_) => const MaterialPage(child: EnglishEntrycounteract()),
   "/english-counter-attack": (_) => const MaterialPage(child: EnglishEntrycounterattack()),
   "/english-counterbalance": (_) => const MaterialPage(child: EnglishEntrycounterbalance()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-counter-espionage": (_) => const MaterialPage(child: EnglishEntrycounterespionage()),
+  "/english-counterfeit": (_) => const MaterialPage(child: EnglishEntrycounterfeit()),
+  "/english-counterfeiter": (_) => const MaterialPage(child: EnglishEntrycounterfeiter()),
+  "/english-counterfoil": (_) => const MaterialPage(child: EnglishEntrycounterfoil()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

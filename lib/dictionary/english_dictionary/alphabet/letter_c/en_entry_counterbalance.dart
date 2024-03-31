@@ -174,7 +174,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcounterbalances300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A cool salad is a perfect counterbalance to the hot days of summer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcounterbalances4(String languageCode) async {
@@ -321,6 +322,37 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcounterbalances2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) شتێک کە کاریگەرییەکی هاوتا بەڵام پێچەوانەی هەیە بۆ شتێک و دەکرێت بەکاربێت بۆ سنووردارکردنی لایەنە خراپەکانی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "A cool salad is a perfect counterbalance to the hot days of summer."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زەڵاتەیەکی سارد پارسەنگێکی تەواوە بۆ ڕۆژە گەرمەکانی هاوین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcounterbalances3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcounterbalances3("en-US"),
                   ),
                 ],
               ),

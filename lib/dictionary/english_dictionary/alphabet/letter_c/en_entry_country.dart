@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycould extends StatelessWidget {
-  const EnglishEntrycould({super.key});
+class EnglishEntrycountry extends StatelessWidget {
+  const EnglishEntrycountry({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "could");
+    return const EntryTitle(word: "country");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcould(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountry(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("could"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("country"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kəd/, strong form  /kʊd/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkʌntri/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcould("en-GB"),
+          onPressed: () => speakcountry("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcould(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountry(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("could"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("country"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kəd/, strong form  /kʊd/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkʌntri/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcould("en-US"),
+          onPressed: () => speakcountry("en-US"),
         ),
       ],
     );
@@ -151,119 +151,120 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoulds1(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She said that she couldn't come."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds2(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I couldn't hear what they were saying."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds3(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could I use your phone, please?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds4(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could we stop by next week?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds5(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Could you babysit for us on Friday?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds6(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I could do it now, if you like."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoulds7(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Don't worry—they could have just forgotten to call."); // DOPSUM: CHANGE TEXT
+        "It's good to meet people from different parts of the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds8(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "You couldn't have left it on the bus, could you?"); // DOPSUM: CHANGE TEXT
+        "She didn't know what life in a foreign country would be like."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds9(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We could write a letter to the director."); // DOPSUM: CHANGE TEXT
+        "It's the most popular music festival in the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds10(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "House prices are rising across the whole country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Demonstrations were held in cities around the country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I live in the country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We spent a pleasant day in the country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("You could always try his home number."); // DOPSUM: CHANGE TEXT
+        .speak("The country air should do you good."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds11(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They could have let me know they were going to be late!"); // DOPSUM: CHANGE TEXT
+        "The town is surrounded by miles and miles of open country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds12(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoulds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Explore Thomas Hardy country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoulds13(String languageCode) async {
-    // DOPSUM: CHANGE speakcould
+  Future<void> speakcountrys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoulds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They have the support of most of the country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The whole country is depending on you."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcountrys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcountry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The rich benefited from the reforms, not the country as a whole."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -274,30 +275,34 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: وڵات، خاک،	خەڵک، جەماوەر، گەل،	نیشتمان، زێد،	لادێ، گوند،	دەرەوەی شار، دەشت، دەشت‌ودەر،	زێدوبووم، بووم
+"""),
           const DefinitionKurdish(
-              text: "١. (کاری مۆداڵ) وەک ڕابردووی can بەکاردێت"),
+              text:
+                  "١. (ناو) ناوچەیەک کە حکومەت و یاسای خۆی هەیە یان لە ڕابردوودا هەیبووە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She said that she couldn't come."),
-                    ExampleSentenceKurdish(text: "گوتی کە ناتوانێت بێت."),
+                        text:
+                            "It's good to meet people from different parts of the country."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شتێکی باشە کە خەڵکی لە بەشە جیاوازەکانی وڵاتەکەوە ببینیت."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "could", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "country", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds1("en-GB"),
+                    onPressed: () => speakcountrys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds1("en-US"),
+                    onPressed: () => speakcountrys1("en-US"),
                   ),
                 ],
               ),
@@ -310,9 +315,11 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I couldn't hear what they were saying."),
+                        text:
+                            "She didn't know what life in a foreign country would be like."),
                     ExampleSentenceKurdish(
-                        text: "نەمتوانی گوێم لێبێت چیان دەگوت."),
+                        text:
+                            "نەیدەزانی ژیان لە وڵاتێکی بیانی دەکرێت چۆن بێت."),
                   ],
                 ),
               ),
@@ -320,10 +327,101 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds2("en-GB"),
+                    onPressed: () => speakcountrys2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds2("en-US"),
+                    onPressed: () => speakcountrys2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "It's the most popular music festival in the country."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "بەناوبانگترین فیستیڤاڵی میوزیکییە لە وڵاتەکەدا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcountrys3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcountrys3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "House prices are rising across the whole country."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "نرخی خانوو لە تەواوی وڵاتەکەدا بەرزدەبێتەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcountrys4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcountrys4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Demonstrations were held in cities around the country."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "خۆپیشاندان ڕێکخرا لە شارەکانی تەواوی وڵاتەکەدا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcountrys5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcountrys5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -332,16 +430,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (کاری مۆداڵ) بەکاردێت بۆ داواکردنی ئەوەی کە دەتوانیت شتێک بکەیت"),
+                  "٢. (ناو) ناوچەی دەرەوەی شارەکان کە کێڵگە، دارستان، هتدی لێیە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text: "Could I use your phone, please?"),
-                    ExampleSentenceKurdish(
-                        text: "تکایە دەتوانم تەلەفۆنەکەت بەکاربێنم؟"),
+                    ExampleSentenceEnglish(text: "I live in the country."),
+                    ExampleSentenceKurdish(text: "لە لادێ دەژیم."),
                   ],
                 ),
               ),
@@ -349,10 +445,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds3("en-GB"),
+                    onPressed: () => speakcountrys6("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds3("en-US"),
+                    onPressed: () => speakcountrys6("en-US"),
                   ),
                 ],
               ),
@@ -364,9 +460,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Could we stop by next week?"),
+                    ExampleSentenceEnglish(
+                        text: "We spent a pleasant day in the country."),
                     ExampleSentenceKurdish(
-                        text: "دەتوانین هەفتەی داهاتوو بێین؟"),
+                        text: "ڕۆژێکی خۆشمان لە دەرەوەی شار بەسەربرد."),
                   ],
                 ),
               ),
@@ -374,27 +471,25 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds4("en-GB"),
+                    onPressed: () => speakcountrys7("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds4("en-US"),
+                    onPressed: () => speakcountrys7("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (کاری مۆداڵ) بۆ داواکردن لە کەسێک کە شتێک بکات"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Could you babysit for us on Friday?"),
+                        text: "The country air should do you good."),
                     ExampleSentenceKurdish(
-                        text: "دەتوانیت هەینی ئاگات لە منداڵەکەمان بێت؟"),
+                        text: "هەوای دەرەوەی شار دەکرێت باش بێت بۆت."),
                   ],
                 ),
               ),
@@ -402,10 +497,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds5("en-GB"),
+                    onPressed: () => speakcountrys8("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds5("en-US"),
+                    onPressed: () => speakcountrys8("en-US"),
                   ),
                 ],
               ),
@@ -414,16 +509,18 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٤. (کاری مۆداڵ) بۆ وتنی ئەوەی شتێک ڕاستە یان دەکرێت ڕووبدات"),
+                  "٣. (ناو) ناوچەیەک کە بۆ مەبەستێک گونجاوە یان پەیوەندیدارە بە کەسێکەوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I could do it now, if you like."),
+                        text:
+                            "The town is surrounded by miles and miles of open country."),
                     ExampleSentenceKurdish(
-                        text: "ئەتوانم ئێستا بیکەم، ئەگەر حەز بکەیت."),
+                        text:
+                            "شارۆچکەکە دەوردراوە بە چەندین میل لە دەشتی کراوە."),
                   ],
                 ),
               ),
@@ -431,10 +528,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds6("en-GB"),
+                    onPressed: () => speakcountrys9("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds6("en-US"),
+                    onPressed: () => speakcountrys9("en-US"),
                   ),
                 ],
               ),
@@ -447,11 +544,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Don't worry—they could have just forgotten to call."),
+                        text: "Explore Thomas Hardy country."),
                     ExampleSentenceKurdish(
-                        text:
-                            "نیگەران مەبە، دەکرێت تەنها ئەوە بێت بیریان چوو بێت پەیوەندی بکەن."),
+                        text: "بگەڕێ بە زێدی تۆماس هاردیدا."),
                   ],
                 ),
               ),
@@ -459,53 +554,26 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds7("en-GB"),
+                    onPressed: () => speakcountrys10("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "You couldn't have left it on the bus, could you?"),
-                    ExampleSentenceKurdish(
-                        text: "ناکرێت لەسەر پاسەکە جێتهێشتبێت، وایە؟."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoulds8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds8("en-US"),
+                    onPressed: () => speakcountrys10("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (کاری مۆداڵ) بۆ پێشنیازکردنی شتێک"),
+          const DefinitionKurdish(text: "٤. (ناو) خەڵکی وڵاتێک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "We could write a letter to the director."),
+                        text: "They have the support of most of the country."),
                     ExampleSentenceKurdish(
-                        text: "دەتوانین نامەیەک بۆ بەڕێوبەر بنووسین."),
+                        text: "پشتیوانی تەواوی وڵاتەکەیان هەیە."),
                   ],
                 ),
               ),
@@ -513,10 +581,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds9("en-GB"),
+                    onPressed: () => speakcountrys11("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds9("en-US"),
+                    onPressed: () => speakcountrys11("en-US"),
                   ),
                 ],
               ),
@@ -529,9 +597,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "You could always try his home number."),
+                        text: "The whole country is depending on you."),
                     ExampleSentenceKurdish(
-                        text: "هەردەم دەتوانیت ژمارەی ماڵەوەیان بەکاربێنیت."),
+                        text: "تەواوی وڵاتەکە پشتت پێ دەبەستێت."),
                   ],
                 ),
               ),
@@ -539,19 +607,16 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds10("en-GB"),
+                    onPressed: () => speakcountrys12("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds10("en-US"),
+                    onPressed: () => speakcountrys12("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٦. (کاری مۆداڵ) بۆ پیشاندانی بێزاری ئەوەی کە کەسێک شتێکی نەکرد"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -559,9 +624,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "They could have let me know they were going to be late!"),
+                            "The rich benefited from the reforms, not the country as a whole."),
                     ExampleSentenceKurdish(
-                        text: "دەیانتوانی پێم بڵێن کە درەنگ دەکەون."),
+                        text:
+                            "دەوڵەمەندەکان قازانجیان لە چاکسازییەکان کرد، نەک تەواوی وڵاتەکە."),
                   ],
                 ),
               ),
@@ -569,10 +635,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoulds11("en-GB"),
+                    onPressed: () => speakcountrys13("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoulds11("en-US"),
+                    onPressed: () => speakcountrys13("en-US"),
                   ),
                 ],
               ),
@@ -626,9 +692,21 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: could 
-1. Used to politely ask for permission to do something
-"could I have the address please?"
+- Noun: country (derived forms: countries)
+1. A politically organized body of people under a single government (= state, nation, land, commonwealth, res publica, body politic)
+"the country's largest manufacturer";
+ 
+2. The territory occupied by a nation (= state, land)
+"he visited several European countries";
+ 
+3. The people who live in a nation or country (= nation, land)
+"the whole country worshipped him";
+ 
+4. An area outside of cities and towns (= rural area)
+"his poetry celebrated the slower pace of life in the country";
+ 
+5. A particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography) (= area)
+"Bible country";
 """,
   );
 
@@ -661,8 +739,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hTqtGJwsJVE',
-    startSeconds: 1091,
+    videoId: 'fbVRnlR_6BM',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -686,8 +764,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'xkYved-ucGg',
-    startSeconds: 18,
+    videoId: '9HAD0GkuvUE',
+    startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -711,8 +789,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XZVHmRvfDHM',
-    startSeconds: 106,
+    videoId: 'F-_ffPsIcS0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -736,8 +814,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'L94M4xQcPYk',
-    startSeconds: 80,
+    videoId: 'FD5tIIkccHY',
+    startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -761,8 +839,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 81,
+    videoId: '3pbTmXsfiYk',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -786,8 +864,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kNw8V_Fkw28',
-    startSeconds: 285,
+    videoId: 'VEJ93kV6yH8',
+    startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -811,8 +889,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'WFI6Bg-zmv4',
-    startSeconds: 143,
+    videoId: 'Zwn6fqbNRLo',
+    startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

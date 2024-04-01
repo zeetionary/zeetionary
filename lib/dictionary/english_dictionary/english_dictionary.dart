@@ -3930,66 +3930,66 @@ class _DictionaryScreenEnglishState
     "corruptly",
     "corset",
     "cortège",
-    // "cosh",
-    // "cosily",
-    // "cosiness",
-    // "cosmetic",
-    // "cosmic",
-    // "cosmonaut",
-    // "cosmopolitan",
-    // "cosmos",
-    // "cost",
-    // "costly",
-    // "costing",
-    // "co-star",
-    // "costume",
-    // "cosy",
-    // "cot",
-    // "cottage",
-    // "cotton",
-    // "cotton wool",
-    // "couch",
-    // "couchette",
-    // "cougar",
-    // "cough",
-    // "could",
-    // "council",
-    // "council flat",
-    // "council house",
-    // "council tax",
-    // "councillor",
-    // "counsel",
-    // "counselling",
-    // "counsellor",
-    // "count",
-    // "countable",
-    // "countdown",
-    // "countenance",
-    // "counter",
-    // "counter-",
-    // "counteract",
-    // "counter-attack",
-    // "counterbalance",
-    // "counter-espionage",
-    // "counterfeit",
-    // "counterfeiter",
-    // "counterfoil",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "cosh",
+    "cosily",
+    "cosiness",
+    "cosmetic",
+    "cosmic",
+    "cosmonaut",
+    "cosmopolitan",
+    "cosmos",
+    "cost",
+    "costly",
+    "costing",
+    "co-star",
+    "costume",
+    "cosy",
+    "cot",
+    "cottage",
+    "cotton",
+    "cotton wool",
+    "couch",
+    "couchette",
+    "cougar",
+    "cough",
+    "could",
+    "council",
+    "council flat",
+    "council house",
+    "council tax",
+    "councillor",
+    "counsel",
+    "counselling",
+    "counsellor",
+    "count",
+    "countable",
+    "countdown",
+    "countenance",
+    "counter",
+    "counter-",
+    "counteract",
+    "counter-attack",
+    "counterbalance",
+    "counter-espionage",
+    "counterfeit",
+    "counterfeiter",
+    "counterfoil",
+    "countermand",
+    "counterpart",
+    "counterproductive",
+    "countersign",
+    "countess",
+    "countless",
+    "country",
+    // "countryman",
+    // "countryside",
+    // "county",
+    // "coup",
+    // "couple",
+    // "coupon",
+    // "courage",
+    // "courageous",
+    // "courageously",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -20498,250 +20498,249 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-cortege");
                   }
-                  // if (wordsEnglish == "cosh") {
+                  if (wordsEnglish == "cosh") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosh");
+                  }
+                  if (wordsEnglish == "cosmetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosmetic");
+                  }
+                  if (wordsEnglish == "cosmic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosmic");
+                  }
+                  if (wordsEnglish == "cosmonaut") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosmonaut");
+                  }
+                  if (wordsEnglish == "cosmopolitan") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosmopolitan");
+                  }
+                  if (wordsEnglish == "cosmos") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosmos");
+                  }
+                  if (wordsEnglish == "cost") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cost");
+                  }
+                  if (wordsEnglish == "costly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-costly");
+                  }
+                  if (wordsEnglish == "costing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-costing");
+                  }
+                  if (wordsEnglish == "co-star") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-co-star");
+                  }
+                  if (wordsEnglish == "costume") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-costume");
+                  }
+                  if (wordsEnglish == "cosy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosy");
+                  }
+                  if (wordsEnglish == "cosily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosily");
+                  }
+                  if (wordsEnglish == "cosiness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cosiness");
+                  }
+                  if (wordsEnglish == "cot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cot");
+                  }
+                  if (wordsEnglish == "cottage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cottage");
+                  }
+                  if (wordsEnglish == "cotton") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cotton");
+                  }
+                  if (wordsEnglish == "cotton wool") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cotton-wool");
+                  }
+                  if (wordsEnglish == "couch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-couch");
+                  }
+                  if (wordsEnglish == "couchette") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-couchette");
+                  }
+                  if (wordsEnglish == "cougar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cougar");
+                  }
+                  if (wordsEnglish == "puma") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-puma");
+                  }
+                  if (wordsEnglish == "cough") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cough");
+                  }
+                  if (wordsEnglish == "could") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-could");
+                  }
+                  if (wordsEnglish == "council") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-council");
+                  }
+                  if (wordsEnglish == "council house") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-council-house");
+                  }
+                  if (wordsEnglish == "council flat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-council-flat");
+                  }
+                  if (wordsEnglish == "council tax") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-council-tax");
+                  }
+                  if (wordsEnglish == "councillor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-councillor");
+                  }
+                  if (wordsEnglish == "counsel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counsel");
+                  }
+                  if (wordsEnglish == "counselling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counselling");
+                  }
+                  if (wordsEnglish == "counsellor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counsellor");
+                  }
+                  if (wordsEnglish == "count") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-count");
+                  }
+                  if (wordsEnglish == "countable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countable");
+                  }
+                  if (wordsEnglish == "countdown") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countdown");
+                  }
+                  if (wordsEnglish == "countenance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countenance");
+                  }
+                  if (wordsEnglish == "counter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counter");
+                  }
+                  if (wordsEnglish == "counter-") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counter-two");
+                  }
+                  if (wordsEnglish == "counteract") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counteract");
+                  }
+                  if (wordsEnglish == "counter-attack") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counter-attack");
+                  }
+                  if (wordsEnglish == "counterbalance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterbalance");
+                  }
+                  if (wordsEnglish == "counter-espionage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counter-espionage");
+                  }
+                  if (wordsEnglish == "counterfeit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterfeit");
+                  }
+                  if (wordsEnglish == "counterfeiter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterfeiter");
+                  }
+                  if (wordsEnglish == "counterfoil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterfoil");
+                  }
+                  if (wordsEnglish == "countermand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countermand");
+                  }
+                  if (wordsEnglish == "counterpart") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterpart");
+                  }
+                  if (wordsEnglish == "counterproductive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-counterproductive");
+                  }
+                  if (wordsEnglish == "countersign") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countersign");
+                  }
+                  if (wordsEnglish == "countess") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countess");
+                  }
+                  if (wordsEnglish == "countless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countless");
+                  }
+                  if (wordsEnglish == "country") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-country");
+                  }
+                  if (wordsEnglish == "countryman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countryman");
+                  }
+                  // if (wordsEnglish == "countryside") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosh");
+                  //   Routemaster.of(context).push("/english-countryside");
                   // }
-                  // if (wordsEnglish == "cosmetic") {
+                  // if (wordsEnglish == "county") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosmetic");
+                  //   Routemaster.of(context).push("/english-county");
                   // }
-                  // if (wordsEnglish == "cosmic") {
+                  // if (wordsEnglish == "coup") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosmic");
+                  //   Routemaster.of(context).push("/english-coup");
                   // }
-                  // if (wordsEnglish == "cosmonaut") {
+                  // if (wordsEnglish == "couple") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosmonaut");
+                  //   Routemaster.of(context).push("/english-couple");
                   // }
-                  // if (wordsEnglish == "cosmopolitan") {
+                  // if (wordsEnglish == "coupon") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosmopolitan");
+                  //   Routemaster.of(context).push("/english-coupon");
                   // }
-                  // if (wordsEnglish == "cosmos") {
+                  // if (wordsEnglish == "courage") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosmos");
+                  //   Routemaster.of(context).push("/english-courage");
                   // }
-                  // if (wordsEnglish == "cost") {
+                  // if (wordsEnglish == "courageous") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cost");
+                  //   Routemaster.of(context).push("/english-courageous");
                   // }
-                  // if (wordsEnglish == "costly") {
+                  // if (wordsEnglish == "courageously") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-costly");
-                  // }
-                  // if (wordsEnglish == "costing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-costing");
-                  // }
-                  // if (wordsEnglish == "co-star") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-co-star");
-                  // }
-                  // if (wordsEnglish == "costume") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-costume");
-                  // }
-                  // if (wordsEnglish == "cosy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosy");
-                  // }
-                  // if (wordsEnglish == "cosily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosily");
-                  // }
-                  // if (wordsEnglish == "cosiness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cosiness");
-                  // }
-                  // if (wordsEnglish == "cot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cot");
-                  // }
-                  // if (wordsEnglish == "cottage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cottage");
-                  // }
-                  // if (wordsEnglish == "cotton") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cotton");
-                  // }
-                  // if (wordsEnglish == "cotton wool") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cotton-wool");
-                  // }
-                  // if (wordsEnglish == "couch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-couch");
-                  // }
-                  // if (wordsEnglish == "couchette") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-couchette");
-                  // }
-                  // if (wordsEnglish == "cougar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cougar");
-                  // }
-                  // if (wordsEnglish == "puma") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-puma");
-                  // }
-                  // if (wordsEnglish == "cough") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cough");
-                  // }
-                  // if (wordsEnglish == "could") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-could");
-                  // }
-                  // if (wordsEnglish == "council") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-council");
-                  // }
-                  // if (wordsEnglish == "council house") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-council-house");
-                  // }
-                  // if (wordsEnglish == "council flat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-council-flat");
-                  // }
-                  // if (wordsEnglish == "council tax") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-council-tax");
-                  // }
-                  // if (wordsEnglish == "councillor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-councillor");
-                  // }
-                  // if (wordsEnglish == "counsel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counsel");
-                  // }
-                  // if (wordsEnglish == "counselling") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counselling");
-                  // }
-                  // if (wordsEnglish == "counsellor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counsellor");
-                  // }
-                  // if (wordsEnglish == "count") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-count");
-                  // }
-                  // if (wordsEnglish == "countable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-countable");
-                  // }
-                  // if (wordsEnglish == "countdown") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-countdown");
-                  // }
-                  // if (wordsEnglish == "countenance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-countenance");
-                  // }
-                  // if (wordsEnglish == "counter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counter");
-                  // }
-                  // if (wordsEnglish == "counter-") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counter-two
-                  // ");
-                  // }
-                  // if (wordsEnglish == "counteract") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counteract");
-                  // }
-                  // if (wordsEnglish == "counter-attack") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counter-attack");
-                  // }
-                  // if (wordsEnglish == "counterbalance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counterbalance");
-                  // }
-                  // if (wordsEnglish == "counter-espionage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counter-espionage");
-                  // }
-                  // if (wordsEnglish == "counterfeit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counterfeit");
-                  // }
-                  // if (wordsEnglish == "counterfeiter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counterfeiter");
-                  // }
-                  // if (wordsEnglish == "counterfoil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-counterfoil");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-courageously");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

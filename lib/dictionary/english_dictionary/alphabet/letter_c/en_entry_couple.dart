@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosmos extends StatelessWidget {
-  const EnglishEntrycosmos({super.key});
+class EnglishEntrycouple extends StatelessWidget {
+  const EnglishEntrycouple({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -67,6 +67,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
+              // const TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],
@@ -84,7 +85,18 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosmos");
+    return const EntryTitle(word: "couple");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: couple");
   }
 }
 
@@ -95,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouple(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("couple"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɒzmɒs/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkʌpl/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcosmos("en-GB"),
+          onPressed: () => speakcouple("en-GB"),
         ),
       ],
     );
@@ -123,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouple(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("couple"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɑːzməʊs/,  /ˈkɑːzməs/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkʌpl/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcosmos("en-US"),
+          onPressed: () => speakcouple("en-US"),
         ),
       ],
     );
@@ -151,109 +163,115 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmoss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples1(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I saw a couple of men get out."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcouples2(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We went there a couple of years ago."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcouples3(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The brightest objects in the cosmos are pulsars."); // DOPSUM: CHANGE TEXT
+        "I've seen her a couple of times before."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples4(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We can do it in the next couple of weeks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples5(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The royal couple will visit New Zealand next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples6(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The couple was/were married in 2022."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples7(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This energy is converted into electrical energy by a machine that is coupled to the turbine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples8(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples9(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples10(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples11(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples12(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcouples13(String languageCode) async {
+    // DOPSUM: CHANGE speakcouple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcosmoss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcosmoss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcouples1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,11 +283,116 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەردوون، جیهان، گێتی
+کوردی: ژن‌ومێرد،	دوودەزگیران، جووتەدەزووران،	جووت، جووتەک، جفت، دوانە، دوودانە،	چەند
 """),
+          const DefinitionKurdish(text: "١. (ناو) دوو کەس یان شت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I saw a couple of men get out."),
+                    ExampleSentenceKurdish(text: "دوو پیاوم دیت هاتنە دەرەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "couple", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (ناو) ژمارەیەکی کەم لە خەڵکی یان شت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "We went there a couple of years ago."),
+                    ExampleSentenceKurdish(
+                        text: "چەند ساڵێکی کەم پێش ئێستا چووینە ئەوێ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I've seen her a couple of times before."),
+                    ExampleSentenceKurdish(text: "چەند جارێک پێشتر دیومە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "We can do it in the next couple of weeks."),
+                    ExampleSentenceKurdish(
+                        text: "چەند هەفتەی دواتر دەتوانین بیکەین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گەردوون، بەتایبەتی کە وەک سیستەمێکی ڕێکخراو سەیر دەکرێت"),
+                  "٣. (ناو) دوو کەس کە پێکەوەن، بە تایبەتی کە هاوسەرگیرییان کردووە یان پەیوەندی ڕۆمانسییان هەیە"),
           Row(
             children: [
               const Expanded(
@@ -277,20 +400,77 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The brightest objects in the cosmos are pulsars."),
+                            "The royal couple will visit New Zealand next year."),
                     ExampleSentenceKurdish(
-                        text: "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن."),
+                        text:
+                            "دوو ئەویندارە شاهانەییەکە ساڵی داهاتوو سەردانی نیوزلەندا دەکەن."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmos", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcosmoss1("en-GB"),
+                    onPressed: () => speakcouples5("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcosmoss1("en-US"),
+                    onPressed: () => speakcouples5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The couple was/were married in 2022."),
+                    ExampleSentenceKurdish(
+                        text: "دوودەزگیرانەکە لە ساڵی ٢٠٢٢ هاوسەرگیرییان کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (کردار) پێکەوە بەستنی دوو بەشی شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "This energy is converted into electrical energy by a machine that is coupled to the turbine."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەم وزەیە دەگۆڕدرێت بۆ وزەی کارەبایی لەلایەن ئامێرێکەوە کە بەستراوە بە پەروانەکەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcouples7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcouples7("en-US"),
                   ),
                 ],
               ),
@@ -344,11 +524,32 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosmos (derived forms: cosmoses)
-1. Everything that exists anywhere (= universe, existence, creation, world, macrocosm)
-"they study the evolution of the cosmos";
+- Noun: couple (Derived forms: couples)
+1. A pair who associate with one another (= twosome, duo, duet)
+"the engaged couple";
  
-2. Any of various mostly Mexican herbs of the genus Cosmos having radiate heads of variously coloured flowers and pinnate leaves; popular fall-blooming annuals (= cosmea)
+2. A pair of people who are married to each other or are in a romantic relationship (= mates, match)
+"a married couple from Chicago";
+ 
+3. A small indefinite number
+"he's coming for a couple of days"
+ 
+4. Two items of the same kind (= pair, twosome, twain, brace, span, yoke, couplet, distich, duo, duet, dyad, duad)
+ 
+5. (physics) something joined by two equal and opposite forces that act along parallel lines
+
+- Verb: couple (Derived forms: coupled, couples, coupling)
+1. Bring two objects, ideas, or people together (= match, mate, pair, twin)
+"This fact is coupled to the other one";
+ 
+2. Link together (= couple on, couple up)
+"can we couple these proposals?";
+ 
+3. Form a pair or pairs (= pair, pair off, partner off)
+"The two old friends coupled off";
+ 
+4. Engage in sexual intercourse (= copulate, mate, pair)
+"Birds couple in the spring";
 """,
   );
 
@@ -381,8 +582,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4J0xFUyz1nw',
-    startSeconds: 25,
+    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -406,8 +607,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BmUrJaOo1Lw',
-    startSeconds: 625,
+    videoId: 'https://youtu.be/DTvS9lvRxZ8?t=',
+    startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -431,8 +632,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YIXy2Kit4z4',
-    startSeconds: 243,
+    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +657,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fBTjbGfHx0s',
-    startSeconds: 1326,
+    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -481,8 +682,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FVVT8EBqK3g',
-    startSeconds: 482,
+    videoId: 'https://youtu.be/irWodlcSBbQ?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,8 +707,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TCrAqS-WRqk',
-    startSeconds: 157,
+    videoId: 'https://youtu.be/HfwPL-bd_mk?t=',
+    startSeconds: 700,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,8 +732,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Unl1jXFnzgo',
-    startSeconds: 471,
+    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    startSeconds: 593,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

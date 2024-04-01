@@ -67,6 +67,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
+              // const TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],
@@ -85,6 +86,17 @@ class TitleOfEntry extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const EntryTitle(word: "dopsum1");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: dopsum1");
   }
 }
 

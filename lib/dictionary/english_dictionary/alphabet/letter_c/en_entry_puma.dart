@@ -346,7 +346,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: puma (Derived forms: pumas)
+- Noun: puma (derived forms: pumas)
 Usage: Brit (N. Amer: mountain lion)
 1. Large American feline resembling a lion (= cougar [N. Amer], catamount [N. Amer], mountain lion [N. Amer], painter [US], panther [N. Amer], Felis concolor, catamountain [N. Amer])
 """,
@@ -381,7 +381,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xaB118ym_Rg?t=',
+    videoId: 'xaB118ym_Rg',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -431,7 +431,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kT_IqC0UwfE?t=',
+    videoId: 'kT_IqC0UwfE',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -456,7 +456,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M3VGDWu7-X0?t=',
+    videoId: 'M3VGDWu7-X0',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -481,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rVD4ZJ-je0g?t=',
+    videoId: 'rVD4ZJ-je0g',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i8q2nqS7Nng?t=',
+    videoId: 'i8q2nqS7Nng',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9GxHEnQge_4?t=',
+    videoId: '9GxHEnQge_4',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(

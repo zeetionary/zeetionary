@@ -371,11 +371,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cottage (Derived forms: cottages)
+- Noun: cottage (derived forms: cottages)
 1. A small house with a single story (= bungalow)
 "she liked the old cottage; its quaintness was appealing";
 
-- Verb: cottage (Derived forms: cottaging, cottaged, cottages)
+- Verb: cottage (derived forms: cottaging, cottaged, cottages)
 Usage: Brit, vulgar
 1. Have male homosexual sex in a public lavatory
 """,
@@ -410,7 +410,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WbG8raMCgpo?t=',
+    videoId: 'WbG8raMCgpo',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5CWLahb9m_s?t=',
+    videoId: '5CWLahb9m_s',
     startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w4HmK4JCN2U?t=',
+    videoId: 'w4HmK4JCN2U',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CsrHrTYwrzM?t=',
+    videoId: 'CsrHrTYwrzM',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mEe4fkEDis0?t=',
+    videoId: 'mEe4fkEDis0',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1aXeD_6smxc?t=',
+    videoId: '1aXeD_6smxc',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fu-cPwQj1ss?t=',
+    videoId: 'fu-cPwQj1ss',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(

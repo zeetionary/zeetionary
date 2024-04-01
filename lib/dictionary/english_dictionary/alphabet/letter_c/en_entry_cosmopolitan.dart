@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
 3. Of worldwide scope or applicability (= ecumenical, oecumenical [archaic], general, universal, worldwide, world-wide, global)
 "an issue of cosmopolitan import";
 
-- Noun: cosmopolitan (Derived forms: cosmopolitans)
+- Noun: cosmopolitan (derived forms: cosmopolitans)
 1. A sophisticated person who has travelled in many countries (= cosmopolite)
  
 2. A cocktail containing vodka, triple sec, lime juice, and cranberry juice
@@ -504,7 +504,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    videoId: 'EFkyxzJtiv4',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/COD9hcTpGWQ?t=',
+    videoId: 'COD9hcTpGWQ',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NVH7JewfgJg?t=',
+    videoId: 'NVH7JewfgJg',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -579,7 +579,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d8AKUKdCTuA?t=',
+    videoId: 'd8AKUKdCTuA',
     startSeconds: 491,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -604,7 +604,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GhgmGZWGFKk?t=',
+    videoId: 'GhgmGZWGFKk',
     startSeconds: 2108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/crtHMGpBNUc?t=',
+    videoId: 'crtHMGpBNUc',
     startSeconds: 1071,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,7 +654,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ryaoMdE80FI?t=',
+    videoId: 'ryaoMdE80FI',
     startSeconds: 382,
     autoPlay: true,
     params: const YoutubePlayerParams(

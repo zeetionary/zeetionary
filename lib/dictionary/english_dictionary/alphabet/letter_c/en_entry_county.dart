@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosmos extends StatelessWidget {
-  const EnglishEntrycosmos({super.key});
+class EnglishEntrycounty extends StatelessWidget {
+  const EnglishEntrycounty({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -67,6 +67,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
+              // const TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],
@@ -84,7 +85,18 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosmos");
+    return const EntryTitle(word: "county");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: county");
   }
 }
 
@@ -95,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcounty(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("county"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɒzmɒs/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊnti/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcosmos("en-GB"),
+          onPressed: () => speakcounty("en-GB"),
         ),
       ],
     );
@@ -123,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcounty(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("county"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɑːzməʊs/,  /ˈkɑːzməs/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊnti/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcosmos("en-US"),
+          onPressed: () => speakcounty("en-US"),
         ),
       ],
     );
@@ -151,109 +163,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmoss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The brightest objects in the cosmos are pulsars."); // DOPSUM: CHANGE TEXT
+        "Originally, county boundaries often followed the course of a river."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most towns and villages throughout the county have experienced a population increase."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcounty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,11 +278,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەردوون، جیهان، گێتی
+کوردی: (بریتانیا) ستان، پارێزگا، ئەیالەت،	خەڵکی ستان،	ناوچە، هەرێم، دەڤەر
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گەردوون، بەتایبەتی کە وەک سیستەمێکی ڕێکخراو سەیر دەکرێت"),
+                  "١. (ناو) یەکێک لەو ناوچانەی کە هەندێک وڵات بەسەریدا دابەشکراوە و حکومەتی خۆجێیی خۆی هەیە"),
           Row(
             children: [
               const Expanded(
@@ -277,20 +290,49 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The brightest objects in the cosmos are pulsars."),
+                            "Originally, county boundaries often followed the course of a river."),
                     ExampleSentenceKurdish(
-                        text: "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن."),
+                        text:
+                            "لە بنەڕەت‌دا، سنووری پارێزگاکان بەپێی ڕێڕەوی ڕووبارەکان دەکێشران."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmos", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "county", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcosmoss1("en-GB"),
+                    onPressed: () => speakcountys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcosmoss1("en-US"),
+                    onPressed: () => speakcountys1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Most towns and villages throughout the county have experienced a population increase."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆرینەی شارۆچکە و گوندەکانی پارێزگاکە زۆربوونی دانیشتوانیان بەخۆوە دیوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcountys2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcountys2("en-US"),
                   ),
                 ],
               ),
@@ -344,11 +386,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosmos (derived forms: cosmoses)
-1. Everything that exists anywhere (= universe, existence, creation, world, macrocosm)
-"they study the evolution of the cosmos";
+- Noun: county (Derived forms: counties)
+1. (United Kingdom) a region created by territorial division for the purpose of local government
+"the county has a population of 12,345 people"
  
-2. Any of various mostly Mexican herbs of the genus Cosmos having radiate heads of variously coloured flowers and pinnate leaves; popular fall-blooming annuals (= cosmea)
+2. (United States) the largest administrative district within a state
+"the county plans to build a new road"
 """,
   );
 
@@ -381,8 +424,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4J0xFUyz1nw',
-    startSeconds: 25,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 854,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -406,8 +449,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BmUrJaOo1Lw',
-    startSeconds: 625,
+    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    startSeconds: 1266,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -431,8 +474,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YIXy2Kit4z4',
-    startSeconds: 243,
+    videoId: 'https://youtu.be/uN84HhcdIws?t=',
+    startSeconds: 551,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +499,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fBTjbGfHx0s',
-    startSeconds: 1326,
+    videoId: 'https://youtu.be/XEZfGlyLQnA?t=',
+    startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -481,8 +524,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FVVT8EBqK3g',
-    startSeconds: 482,
+    videoId: 'https://youtu.be/io6wi8DVZ3o?t=',
+    startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,8 +549,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TCrAqS-WRqk',
-    startSeconds: 157,
+    videoId: 'https://youtu.be/Pon4Zux5MaQ?t=',
+    startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,8 +574,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Unl1jXFnzgo',
-    startSeconds: 471,
+    videoId: 'https://youtu.be/IwJzsE8CvzQ?t=',
+    startSeconds: 467,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosmos extends StatelessWidget {
-  const EnglishEntrycosmos({super.key});
+class EnglishEntrycountersign extends StatelessWidget {
+  const EnglishEntrycountersign({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -84,7 +84,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosmos");
+    return const EntryTitle(word: "countersign");
   }
 }
 
@@ -95,21 +95,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersign(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("countersign"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɒzmɒs/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊntəsaɪn/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcosmos("en-GB"),
+          onPressed: () => speakcountersign("en-GB"),
         ),
       ],
     );
@@ -123,21 +123,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmos(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersign(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosmos"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("countersign"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɑːzməʊs/,  /ˈkɑːzməs/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊntərsaɪn/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcosmos("en-US"),
+          onPressed: () => speakcountersign("en-US"),
         ),
       ],
     );
@@ -151,109 +151,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosmoss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns1(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The brightest objects in the cosmos are pulsars."); // DOPSUM: CHANGE TEXT
+        "All orders must be countersigned by one of the directors."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns2(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I'm not prepared to countersign this report as it stands."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns3(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns4(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns5(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns6(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns7(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns8(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns9(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns10(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns11(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns12(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosmoss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosmos
+  Future<void> speakcountersigns13(String languageCode) async {
+    // DOPSUM: CHANGE speakcountersign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosmoss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcountersigns1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -265,11 +266,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گەردوون، جیهان، گێتی
+کوردی: مۆرسەلماندن، باوەڕی‌پێدان بە ئیمزا، ئیمزای دووەم،	وشەی نهێنی، وشەی تێپەڕین
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) گەردوون، بەتایبەتی کە وەک سیستەمێکی ڕێکخراو سەیر دەکرێت"),
+                  "١. (کردار) واژۆکردن یان مۆرکردنی بەڵگەنامەیەک کە پێشووتر لەلایەن کەسێکی دیکەوە واژۆ یان مۆرکراوە"),
           Row(
             children: [
               const Expanded(
@@ -277,20 +278,49 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The brightest objects in the cosmos are pulsars."),
+                            "All orders must be countersigned by one of the directors."),
                     ExampleSentenceKurdish(
-                        text: "درەوشاوەترین تەنەکانی گەردوون پرتەئەستێرەکانن."),
+                        text:
+                            "هەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosmos", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "countersign", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcosmoss1("en-GB"),
+                    onPressed: () => speakcountersigns1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcosmoss1("en-US"),
+                    onPressed: () => speakcountersigns1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I'm not prepared to countersign this report as it stands."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئامادەنیم دووەم واژۆی ئەم ڕاپۆرتە بکەم بەو شێوەیەی ئێستا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcountersigns2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcountersigns2("en-US"),
                   ),
                 ],
               ),
@@ -344,11 +374,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosmos (derived forms: cosmoses)
-1. Everything that exists anywhere (= universe, existence, creation, world, macrocosm)
-"they study the evolution of the cosmos";
+- Noun: countersign (derived forms: countersigns)
+1. A secret word or phrase known only to a restricted group (= password, watchword, word, parole)
+"he forgot the countersign";
  
-2. Any of various mostly Mexican herbs of the genus Cosmos having radiate heads of variously coloured flowers and pinnate leaves; popular fall-blooming annuals (= cosmea)
+2. A second confirming signature endorsing a document already signed (= countersignature)
+
+- Verb: countersign (derived forms: countersigned, countersigning, countersigns)
+1. Add one's signature to after another's to attest authenticity
+"You must countersign on this line of the contract"
 """,
   );
 
@@ -381,8 +415,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4J0xFUyz1nw',
-    startSeconds: 25,
+    videoId: 'XDlF14_Jtbc',
+    startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -406,8 +440,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'BmUrJaOo1Lw',
-    startSeconds: 625,
+    videoId: 'jtdmzpHixnU',
+    startSeconds: 981,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -431,8 +465,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YIXy2Kit4z4',
-    startSeconds: 243,
+    videoId: 'anHYrNhmNT8',
+    startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -456,8 +490,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'fBTjbGfHx0s',
-    startSeconds: 1326,
+    videoId: 'kl2J0BsUjPY',
+    startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -481,8 +515,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FVVT8EBqK3g',
-    startSeconds: 482,
+    videoId: 'TOhijgk5M10',
+    startSeconds: 1037,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -506,8 +540,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TCrAqS-WRqk',
-    startSeconds: 157,
+    videoId: 'cgjX6gQSc6U',
+    startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,8 +565,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Unl1jXFnzgo',
-    startSeconds: 471,
+    videoId: '43skQhYTLM0',
+    startSeconds: 1677,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

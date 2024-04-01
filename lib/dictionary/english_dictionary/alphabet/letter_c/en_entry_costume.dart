@@ -461,7 +461,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: costume (Derived forms: costumes)
+- Noun: costume (derived forms: costumes)
 1. The attire worn in a play or at a fancy dress ball
 "he won the prize for best costume"
  
@@ -473,7 +473,7 @@ ${englishMeaningConst.text}
 4. The attire characteristic of a country or a time or a social class
 "he wore his national costume"
 
-- Verb: costume (Derived forms: costuming, costumed, costumes)
+- Verb: costume (derived forms: costuming, costumed, costumes)
 1. Dress in a costume (= dress up)
  
 2. (performing arts) furnish with costumes; as for a film or play
@@ -509,7 +509,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    videoId: '4J0xFUyz1nw',
     startSeconds: 273,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1572,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEFD9TSHg_A?t=',
+    videoId: 'DEFD9TSHg_A',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +584,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/89SetE9kwjk?t=',
+    videoId: '89SetE9kwjk',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -609,7 +609,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1kpuvpMc8nc?t=',
+    videoId: '1kpuvpMc8nc',
     startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -634,7 +634,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OWyCcObW_0c?t=',
+    videoId: 'OWyCcObW_0c',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -659,7 +659,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BllhM_zOF-Y?t=',
+    videoId: 'BllhM_zOF-Y',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -33,6 +33,7 @@ import 'package:zeetionary/theme/pallete.dart';
 // flutter run --release (release mode)
 // flutter build apk
 // flutter build apk --release (to get release build on your storage)
+// flutter build apk --release --target-platform=android-arm64 (personnal: https://chat.openai.com/c/bdfb4143-cb74-41c8-8d40-89ad7ee74cf3)
 // flutter run --profile
 
 void main() async {

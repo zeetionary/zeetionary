@@ -406,14 +406,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: counterbalance (Derived forms: counterbalances)
+- Noun: counterbalance (derived forms: counterbalances)
 1. A weight that balances another weight (= counterweight, counterpoise, balance, equalizer, equaliser [Brit])
  
 2. Equality of distribution (= balance, equilibrium, equipoise)
  
 3. A compensating equivalent (= offset)
 
-- Verb: counterbalance (Derived forms: counterbalanced, counterbalances, counterbalancing)
+- Verb: counterbalance (derived forms: counterbalanced, counterbalances, counterbalancing)
 1. Adjust for (= compensate, correct, make up, even out, even off, even up)
 "engineers will work to counterbalance the effects of air resistance";
  
@@ -453,7 +453,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dJOz8SYbN28?t=',
+    videoId: 'dJOz8SYbN28',
     startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -478,7 +478,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -503,7 +503,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -528,7 +528,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xJ636Y8N6E8?t=',
+    videoId: 'xJ636Y8N6E8',
     startSeconds: 361,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -553,7 +553,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MaUi4OWQ9s?t=',
+    videoId: '6MaUi4OWQ9s',
     startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -578,7 +578,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ipXa9vSFHnM?t=',
+    videoId: 'ipXa9vSFHnM',
     startSeconds: 713,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -603,7 +603,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P71m2pc0-80?t=',
+    videoId: 'P71m2pc0-80',
     startSeconds: 378,
     autoPlay: true,
     params: const YoutubePlayerParams(

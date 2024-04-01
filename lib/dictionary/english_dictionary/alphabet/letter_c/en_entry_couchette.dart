@@ -265,9 +265,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) تەختێکی خەوتن کە لە شەمەندەفەردایە و بە دیواراکەوە قەد دەکرێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) تەختێکی خەوتن کە لە شەمەندەفەردایە و بە دیواراکەوە قەد دەکرێت"),
           Row(
             children: [
               const Expanded(
@@ -276,7 +278,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The train had comfortable couchettes for passengers."),
-                    ExampleSentenceKurdish(text: "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران هەبوو."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران هەبوو."),
                   ],
                 ),
               ),
@@ -341,7 +345,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: couchette (Derived forms: couchettes)
+- Noun: couchette (derived forms: couchettes)
 1. A compartment on a European passenger train; contains 4 to 6 berths for sleeping
  
 2. A sleeping berth in a couchette compartment.
@@ -377,7 +381,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sRjzcHOWWCA?t=',
+    videoId: 'sRjzcHOWWCA',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -402,7 +406,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_bAeyA_azKs?t=',
+    videoId: '_bAeyA_azKs',
     startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -427,7 +431,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zsJQW4Nk14A?t=',
+    videoId: 'zsJQW4Nk14A',
     startSeconds: 546,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -452,7 +456,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uz0UCZkPqbA?t=',
+    videoId: 'uz0UCZkPqbA',
     startSeconds: 1422,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -477,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oxGF0UlWPWE?t=',
+    videoId: 'oxGF0UlWPWE',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +506,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2jax-4ScqNk?t=',
+    videoId: '2jax-4ScqNk',
     startSeconds: 6732,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +531,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qGw662-ONdA?t=',
+    videoId: 'qGw662-ONdA',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(

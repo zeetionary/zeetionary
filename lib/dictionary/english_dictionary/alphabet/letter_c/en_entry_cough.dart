@@ -515,11 +515,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cough (Derived forms: coughed, coughing, coughs)
+- Verb: cough (derived forms: coughed, coughing, coughs)
 1. Exhale abruptly, as when one has a chest cold or congestion
 "The smoker coughs all day"
 
-- Noun: cough (Derived forms: coughs)
+- Noun: cough (derived forms: coughs)
 1. A sudden noisy expulsion of air from the lungs that clears the air passages; a common symptom of upper respiratory infection, bronchitis, pneumonia or tuberculosis (= coughing)
  
 2. A condition that causes coughing; a tendency to cough
@@ -555,7 +555,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bp6kmcno9SI?t=',
+    videoId: 'bp6kmcno9SI',
     startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QKIobyk6Isc?t=',
+    videoId: 'QKIobyk6Isc',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VJTQ9yhAxIc?t=',
+    videoId: 'VJTQ9yhAxIc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tUXF-hggzh4?t=',
+    videoId: 'tUXF-hggzh4',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -655,7 +655,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EXPADk2pv3s?t=',
+    videoId: 'EXPADk2pv3s',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -680,7 +680,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VX1y7p3CFUw?t=',
+    videoId: 'VX1y7p3CFUw',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -705,7 +705,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fpprTvr5HuU',
+    videoId: 'fpprTvr5HuU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

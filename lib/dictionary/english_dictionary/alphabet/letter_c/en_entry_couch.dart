@@ -408,14 +408,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: couch (Derived forms: couches)
+- Noun: couch (derived forms: couches)
 1. An upholstered seat for more than one person (= sofa, lounge, chesterfield [Cdn])
  
 2. A flat coat of paint or varnish used by artists as a primer
  
 3. A narrow bed on which a patient lies during psychiatric or psychoanalytic treatment
 
-- Verb: couch (Derived forms: couching, couches, couched)
+- Verb: couch (derived forms: couching, couches, couched)
 1. Formulate in a particular style or language (= frame, redact, cast, put)
 """,
   );
@@ -449,7 +449,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SvdRjPW6FUU?t=',
+    videoId: 'SvdRjPW6FUU',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-YB5-bykwyo?t=',
+    videoId: '-YB5-bykwyo',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F33rmDET71U?t=',
+    videoId: 'F33rmDET71U',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QzhGqjlYU14?t=',
+    videoId: 'QzhGqjlYU14',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lrNcx2D_FZI?t=',
+    videoId: 'lrNcx2D_FZI',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xvyj35Pd9C4?t=',
+    videoId: 'xvyj35Pd9C4',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kDnPT0MPzDg?t=',
+    videoId: 'kDnPT0MPzDg',
     startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(

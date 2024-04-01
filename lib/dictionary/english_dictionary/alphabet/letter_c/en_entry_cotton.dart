@@ -428,7 +428,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cotton (Derived forms: cottons)
+- Noun: cotton (derived forms: cottons)
 1. Soft silky fibers from cotton plants in their raw state (= cotton fiber [US], cotton wool [Brit, Cdn], cotton fibre [Brit, Cdn], absorbent cotton [N. Amer])
  
 2. Fabric woven from cotton fibers
@@ -437,7 +437,7 @@ ${englishMeaningConst.text}
  
 4. Thread made of cotton fibers
 
-- Verb: cotton (Derived forms: cottoned, cottons, cottoning)
+- Verb: cotton (derived forms: cottoned, cottons, cottoning)
 Usage: N. Amer, informal
 1. Take a liking to
 "cotton to something"
@@ -473,7 +473,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/irLPpr7Nf9U?t=',
+    videoId: 'irLPpr7Nf9U',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uU3EmscMskE?t=',
+    videoId: 'uU3EmscMskE',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XcS2lp4-HJg?t=',
+    videoId: 'XcS2lp4-HJg',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kn2eBUPffeA?t=',
+    videoId: 'kn2eBUPffeA',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/83eJfEFFZ74?t=',
+    videoId: '83eJfEFFZ74',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8nFwf5Ydp_I?t=',
+    videoId: '8nFwf5Ydp_I',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p1PEUGGTv4w?t=',
+    videoId: 'p1PEUGGTv4w',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(

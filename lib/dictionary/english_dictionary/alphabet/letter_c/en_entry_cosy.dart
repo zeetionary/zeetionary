@@ -465,7 +465,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cosy (Derived forms: cosier, cosiest)
+- Adjective: cosy (derived forms: cosier, cosiest)
 Usage: Brit, Cdn (US: cozy)
 1. Enjoying or affording comforting warmth and shelter especially in a small space (= cozy [N. Amer], snug)
 "a cosy nook near the fire";
@@ -476,11 +476,11 @@ Usage: Brit, Cdn (US: cozy)
 3. Suggesting connivance (= cozy [N. Amer])
 "a cosy arrangement with the police";
 
-- Noun: cosy (Derived forms: cosies)
+- Noun: cosy (derived forms: cosies)
 Usage: Brit, Cdn (US: cozy)
 1. A padded cloth covering to keep a teapot warm (= tea cosy [Brit, Cdn], cozy [N. Amer], tea cozy [N. Amer])
 
-- Verb: cosy (Derived forms: cosies, cosied, cosying)
+- Verb: cosy (derived forms: cosies, cosied, cosying)
 Usage: Brit, Cdn (US: cozy)
 1. Move or arrange oneself in a comfortable and cosy position (= cuddle, snuggle, nestle, nest, nuzzle, draw close, cozy [N. Amer], cozy up [N. Amer], cosy up [Brit, Cdn])
 "We cosied against each other to keep warm";
@@ -516,7 +516,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzSktgpfD84?t=',
+    videoId: 'MzSktgpfD84',
     startSeconds: 1352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vmsTcj3WuoE?t=',
+    videoId: 'vmsTcj3WuoE',
     startSeconds: 985,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nm6iISd3GwQ?t=',
+    videoId: 'nm6iISd3GwQ',
     startSeconds: 524,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C51TRmdX_Yw?t=',
+    videoId: 'C51TRmdX_Yw',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5FSyTuY1rGg?t=',
+    videoId: '5FSyTuY1rGg',
     startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6tjAgZvrx1k?t=',
+    videoId: '6tjAgZvrx1k',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qMVTUv6f16Q?t=',
+    videoId: 'qMVTUv6f16Q',
     startSeconds: 665,
     autoPlay: true,
     params: const YoutubePlayerParams(

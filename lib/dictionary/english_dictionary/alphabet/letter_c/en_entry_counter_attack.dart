@@ -404,12 +404,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: counter-attack (Derived forms: counter-attacks)
+- Noun: counter-attack (derived forms: counter-attacks)
 1. An attack by a defending force against an attacking enemy force in order to regain lost ground or cut off enemy advance units etc. (= countermove)
  
 2. (chess) an attack that is intended to counter the opponent's advantage in another part of the board (= counterplay)
 
-- Verb: counter-attack (Derived forms: counter-attacked, counter-attacking, counter-attacks)
+- Verb: counter-attack (derived forms: counter-attacked, counter-attacking, counter-attacks)
 1. Make a counterattack (= counterstrike)
 """,
   );
@@ -443,7 +443,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SHfqtaa0VI8?t=',
+    videoId: 'SHfqtaa0VI8',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 454,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4MqK90Aq8bE?t=',
+    videoId: '4MqK90Aq8bE',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wpE8PyAfT6g?t=',
+    videoId: 'wpE8PyAfT6g',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EDeyMeouyfY?t=',
+    videoId: 'EDeyMeouyfY',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MQAVbwUTaYU?t=',
+    videoId: 'MQAVbwUTaYU',
     startSeconds: 459,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bLApZfnLJoM?t=',
+    videoId: 'bLApZfnLJoM',
     startSeconds: 562,
     autoPlay: true,
     params: const YoutubePlayerParams(

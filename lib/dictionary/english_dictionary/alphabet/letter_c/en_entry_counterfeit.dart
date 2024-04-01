@@ -407,10 +407,10 @@ ${englishMeaningConst.text}
 1. Not genuine; imitating something superior (= imitative)
 "counterfeit money"; "a counterfeit prince"; "counterfeit emotion";
 
-- Noun: counterfeit (Derived forms: counterfeits)
+- Noun: counterfeit (derived forms: counterfeits)
 1. A copy that is represented as the original (= forgery)
 
-- Verb: counterfeit (Derived forms: counterfeited, counterfeits, counterfeiting)
+- Verb: counterfeit (derived forms: counterfeited, counterfeits, counterfeiting)
 1. Make a copy of with the intent to deceive (= forge, fake)
 "they counterfeited dollar bills";
 """,
@@ -445,7 +445,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LfeEu4_vtfQ?t=',
+    videoId: 'LfeEu4_vtfQ',
     startSeconds: 1127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XXhc5UTxv5I?t=',
+    videoId: 'XXhc5UTxv5I',
     startSeconds: 1135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vsMydMDi3rI?t=',
+    videoId: 'vsMydMDi3rI',
     startSeconds: 1952,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vA_j6rjsBec?t=',
+    videoId: 'vA_j6rjsBec',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8474PcH-eXY?t=',
+    videoId: '8474PcH-eXY',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3eDnKct5XAw?t=',
+    videoId: '3eDnKct5XAw',
     startSeconds: 715,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-4vgLF7eFEQ?t=',
+    videoId: '-4vgLF7eFEQ',
     startSeconds: 931,
     autoPlay: true,
     params: const YoutubePlayerParams(

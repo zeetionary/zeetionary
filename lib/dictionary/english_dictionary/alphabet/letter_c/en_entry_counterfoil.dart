@@ -107,7 +107,7 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊntəfɔɪl/"),
         CustomIconButtonBritish(
           onPressed: () => speakcounterfoil("en-GB"),
         ),
@@ -135,7 +135,7 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊntərfɔɪl/"),
         CustomIconButtonAmerican(
           onPressed: () => speakcounterfoil("en-US"),
         ),
@@ -157,7 +157,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcounterfoils111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "After paying the bill, she tore off the counterfoil."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcounterfoils2(String languageCode) async {
@@ -265,9 +265,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بنەچەک، کنگەچەک، بنک، بنەقەبز
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) بەشێکی چەکێکی بانکی، بلیتێک، هتد کە دەیهێڵیتەوە لە کاتێکدا بەشەکەی دیکەی دەدەیت بە کەسێک "),
           Row(
             children: [
               const Expanded(
@@ -275,8 +277,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "// speakcounterfoils111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                            "After paying the bill, she tore off the counterfoil."),
+                    ExampleSentenceKurdish(
+                        text: "لە دوای دانەوەی خەرجییەکان، بنەچەکەکەی دڕاند."),
                   ],
                 ),
               ),
@@ -341,9 +344,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakcounterfoil EnglishEntrycounterfoil
-WORD_WEB counterfoil haʊʊʊʊʊʊʊ4
+- Noun: counterfoil (derived forms: counterfoils)
+Usage: Brit
+1. The part of a check that is retained as a record (= stub, check stub [US], cheque stub [Brit, Cdn]) 
 """,
   );
 
@@ -376,8 +379,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: '2DkyahZplFo',
+    startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -401,8 +404,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'bP2rObVK1zg',
+    startSeconds: 1024,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -426,8 +429,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'FfG079Vo28k',
+    startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -451,8 +454,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'NEK7lMTEDaM',
+    startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +479,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'xsWb_GwSQNs',
+    startSeconds: 2423,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +504,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'bT79aPDaBYI',
+    startSeconds: 3545,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +529,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'NYIh9WxVbwA',
+    startSeconds: 1843,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,7 +554,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcounterfoils111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

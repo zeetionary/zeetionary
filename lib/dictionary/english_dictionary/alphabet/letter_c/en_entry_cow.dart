@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoverage extends StatelessWidget {
-  const EnglishEntrycoverage({super.key});
+class EnglishEntrycow extends StatelessWidget {
+  const EnglishEntrycow({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "coverage");
+    return const EntryTitle(word: "cow");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: coverage");
+    return const AlsoEnglish(word: "also: cow");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverage(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcow(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coverage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cow"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkʌvərɪdʒ/"),
+        const IPAofEnglish(text: "IpaUK: /kaʊ/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcoverage("en-GB"),
+          onPressed: () => speakcow("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverage(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcow(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coverage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cow"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkʌvərɪdʒ/"),
+        const IPAofEnglish(text: "IpaUS: /kaʊ/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcoverage("en-US"),
+          onPressed: () => speakcow("en-US"),
         ),
       ],
     );
@@ -163,114 +163,114 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows1(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was blanket coverage of the royal divorce."); // DOPSUM: CHANGE TEXT
+        "We had several chickens and a dairy cow on our farm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows2(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The TV company was given a special award for its news coverage."); // DOPSUM: CHANGE TEXT
+        "Most of these ranchers own only own a bull and about twenty cows."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows3(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The minister's resignation was given widespread coverage."); // DOPSUM: CHANGE TEXT
+        "The cow elephant's tusks were shorter compared to those of the bull elephants."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows4(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The book gives good, general coverage of the subject."); // DOPSUM: CHANGE TEXT
+        "She felt hurt when she overheard someone refer to her as a cow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows5(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("It's been a cow of a day."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcows6(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The book offers incomplete coverage of the history of philosophy."); // DOPSUM: CHANGE TEXT
+        "She was easily cowed by people in authority."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows7(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The service has a coverage of 90 per cent of the UK population."); // DOPSUM: CHANGE TEXT
+        "Two judges have refused to be cowed by pressure from the government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows8(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows9(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows10(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows11(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows12(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcows13(String languageCode) async {
+    // DOPSUM: CHANGE speakcow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoverages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcows1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -282,10 +282,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاپۆر، ڕاپۆرت،	ڕادەی لێکۆڵینەوە و باس‌کردن، داپۆشین، پۆششت، (دا)پۆشاندن، ڕووماڵاندن، ڕووماڵ‌کردن،	داپۆشین، (دا)پۆشاندن، پۆششت، داهێنان، سەرنانەوە، تەڤزاندن، داگرتن، گرتنەوە،	بیمەلەسەر، بیمە
+کوردی: وڵاخ، مانگا، چێڵ،	مێ، دێڵ، دەڵەقۆڕ 
 """),
-          const DefinitionKurdish(
-              text: "١. (ناو) ڕووماڵی هەواڵ و وەرزش لە میدیادا"),
+          const DefinitionKurdish(text: "١. (ناو) مانگا"),
           Row(
             children: [
               const Expanded(
@@ -293,21 +292,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "There was blanket coverage (= reports everywhere) of the royal divorce."),
+                            "We had several chickens and a dairy cow on our farm."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕووماڵی بەرفراوانی جیابوونەوە شاهانەییەکە هەبوو."),
+                            "ژمارەیەک مریشک و مانگایەکی شیردەرمان هەبوو لە کێڵگەکەمان."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "coverage", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cow", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages1("en-GB"),
+                    onPressed: () => speakcows1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages1("en-US"),
+                    onPressed: () => speakcows1("en-US"),
                   ),
                 ],
               ),
@@ -321,10 +320,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The TV company was given a special award for its news coverage."),
+                            "Most of these ranchers own only own a bull and about twenty cows."),
                     ExampleSentenceKurdish(
                         text:
-                            "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ هەواڵەکە."),
+                            "زۆرێک لەم ئاژەڵدارانە تەنها یەک نێرەگا و نزیکەی ٢٠ مانگایان هەیە."),
                   ],
                 ),
               ),
@@ -332,38 +331,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages2("en-GB"),
+                    onPressed: () => speakcows2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The minister's resignation was given widespread coverage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستلەکارکێشانەوەی وەزیرەکە ڕووماڵی بەرفراوانی پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages3("en-US"),
+                    onPressed: () => speakcows2("en-US"),
                   ),
                 ],
               ),
@@ -372,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بڕی ئەو زانیارییانەی کە هەیە لە کتێبێک یان کۆرسێکدا، یان لەسەر تەلەفیزیۆن، هتد"),
+                  "٢. (ناو) مێینەی فیل، نەهەنگ، و هەندێک شیردەری گەورەی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -380,10 +351,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The book gives good, general coverage of the subject."),
+                            "The cow elephant's tusks were shorter compared to those of the bull elephants."),
                     ExampleSentenceKurdish(
                         text:
-                            "کتێبەکە ڕوونکردنەوەی گشتی باش دەدات بە بابەتەکە."),
+                            "عاجەکانی فیلی مێینە کورتترد بوون بەراورد بە ئەوانەی فیلی نێرە."),
                   ],
                 ),
               ),
@@ -391,10 +362,93 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages4("en-GB"),
+                    onPressed: () => speakcows3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages4("en-US"),
+                    onPressed: () => speakcows3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (ناو) وشەیەکی ناشرین بۆ ژنێک کە حەزت پێی نییە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She felt hurt when she overheard someone refer to her as a cow."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەستی بە دڵشکان کرد کە گوێی لە کەسێک بوو بە دەڵەقۆڕ ناویهێنا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcows4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcows4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (ناو) شتێکی سەخت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "It's been a cow of a day."),
+                    ExampleSentenceKurdish(text: "ڕۆژێکی سەخت بووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcows5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcows5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٥. (کردار) تۆقاندنی کەسێک بۆ ئەوەی گوێڕایەڵت بێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She was easily cowed by people in authority."),
+                    ExampleSentenceKurdish(
+                        text: "بە ئاسانی دەترسێندرا بە کەسانی دەسەڵاتدار."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcows6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcows6("en-US"),
                   ),
                 ],
               ),
@@ -408,10 +462,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The book offers incomplete coverage of the history of philosophy."),
+                            "Two judges have refused to be cowed by pressure from the government."),
                     ExampleSentenceKurdish(
                         text:
-                            "کتێبەکە باسی ناتەواو لەسەر مێژووی فەلسەفە پێشکەش دەکات."),
+                            "دوو دادوەر ڕەتیان کردووەتەوە چۆک دابدەن بۆ فشاری حکومەت."),
                   ],
                 ),
               ),
@@ -419,40 +473,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages5("en-GB"),
+                    onPressed: () => speakcows7("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ناو) ئەو ڕێژەیەی کە شتێک پێشکەشی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The service has a coverage of 90 per cent of the UK population."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتگوزارییەکە ٩٠ لە سەدی دانیشتوانی بەریتانیا دەگرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages6("en-US"),
+                    onPressed: () => speakcows7("en-US"),
                   ),
                 ],
               ),
@@ -506,14 +530,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coverage (Derived forms: coverages)
-1. The total amount and type of insurance carried (= insurance coverage)
+- Noun: cow (Derived forms: cows)
+1. Female of domestic cattle (= moo-cow [informal])
  
-2. The extent to which something is covered
-"the dictionary's coverage of standard English is excellent"
+2. Mature female of mammals of which the male is called 'bull'
  
-3. The news as presented by reporters for newspapers, radio or television (= reporting, reportage)
-"they accused the paper of biased coverage of race relations";
+3. [informal] A large unpleasant woman
+
+- Verb: cow (Derived forms: cowed, cows, cowing)
+1. Subdue, restrain, or overcome by affecting with a feeling of awe; frighten (as with threats) (= overawe)
 """,
   );
 
@@ -546,8 +571,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
-    startSeconds: 1497,
+    videoId: 'https://youtu.be/sgLWBjCKNbo',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +596,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/58XEfDtU0Z4?t=',
-    startSeconds: 1447,
+    videoId: 'https://youtu.be/wPY4dDiGEz0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +621,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nsnyl8llfH4?t=',
-    startSeconds: 385,
+    videoId: 'https://youtu.be/wM97EnzOHmA',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -621,8 +646,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sf7NfCe3_5Y?t=',
-    startSeconds: 301,
+    videoId: 'https://youtu.be/n7j3EOL2yl0?t=',
+    startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -646,8 +671,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LfeEu4_vtfQ?t=',
-    startSeconds: 766,
+    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -671,8 +696,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQcwgZbgLj4?t=',
-    startSeconds: 993,
+    videoId: 'https://youtu.be/yWmeBoVXwrE?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -696,8 +721,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4U2ZxO7b8iM?t=',
-    startSeconds: 317,
+    videoId: 'https://youtu.be/6h0OB16aOXM?t=',
+    startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

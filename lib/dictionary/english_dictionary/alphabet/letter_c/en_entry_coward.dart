@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoverage extends StatelessWidget {
-  const EnglishEntrycoverage({super.key});
+class EnglishEntrycoward extends StatelessWidget {
+  const EnglishEntrycoward({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "coverage");
+    return const EntryTitle(word: "coward");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: coverage");
+    return const AlsoEnglish(word: "also: coward");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverage(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcoward(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coverage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coward"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkʌvərɪdʒ/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkaʊəd/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcoverage("en-GB"),
+          onPressed: () => speakcoward("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverage(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcoward(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coverage"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coward"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkʌvərɪdʒ/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkaʊərd/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcoverage("en-US"),
+          onPressed: () => speakcoward("en-US"),
         ),
       ],
     );
@@ -163,114 +163,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoverages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You coward! What are you afraid of?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcowards2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There was blanket coverage of the royal divorce."); // DOPSUM: CHANGE TEXT
+        "I'm a real coward when it comes to going to the dentist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The TV company was given a special award for its news coverage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The minister's resignation was given widespread coverage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book gives good, general coverage of the subject."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book offers incomplete coverage of the history of philosophy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The service has a coverage of 90 per cent of the UK population."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcoverages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
+  Future<void> speakcowards13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcoverages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoverage
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcoverages1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowards1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -282,119 +278,30 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاپۆر، ڕاپۆرت،	ڕادەی لێکۆڵینەوە و باس‌کردن، داپۆشین، پۆششت، (دا)پۆشاندن، ڕووماڵاندن، ڕووماڵ‌کردن،	داپۆشین، (دا)پۆشاندن، پۆششت، داهێنان، سەرنانەوە، تەڤزاندن، داگرتن، گرتنەوە،	بیمەلەسەر، بیمە
+کوردی: کەسێکی بێ‌جەرگ، ترسنۆک، نەوێر، نەوێرەک، تسکەن
 """),
           const DefinitionKurdish(
-              text: "١. (ناو) ڕووماڵی هەواڵ و وەرزش لە میدیادا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was blanket coverage (= reports everywhere) of the royal divorce."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕووماڵی بەرفراوانی جیابوونەوە شاهانەییەکە هەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "coverage", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The TV company was given a special award for its news coverage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کۆمپانیا تەلەفیزیۆنێکە خەڵاتی تایبەتی پێدرا بۆ ڕووماڵەکەی بۆ هەواڵەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The minister's resignation was given widespread coverage."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستلەکارکێشانەوەی وەزیرەکە ڕووماڵی بەرفراوانی پێدرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
               text:
-                  "٢. (ناو) بڕی ئەو زانیارییانەی کە هەیە لە کتێبێک یان کۆرسێکدا، یان لەسەر تەلەفیزیۆن، هتد"),
+                  "١. (ناو) کەسێک کە بوێر نییە یان زاتی ئەوەی نییە کە ئەو شتانە بکات کە کەسانی دیکە وا هەست ناکەن زۆر سەخت بێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The book gives good, general coverage of the subject."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کتێبەکە ڕوونکردنەوەی گشتی باش دەدات بە بابەتەکە."),
+                        text: "You coward! What are you afraid of?"),
+                    ExampleSentenceKurdish(text: "ترسنۆک، لە چ دەترسیت؟"),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "coward", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages4("en-GB"),
+                    onPressed: () => speakcowards1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages4("en-US"),
+                    onPressed: () => speakcowards1("en-US"),
                   ),
                 ],
               ),
@@ -408,10 +315,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The book offers incomplete coverage of the history of philosophy."),
+                            "I'm a real coward when it comes to going to the dentist."),
                     ExampleSentenceKurdish(
                         text:
-                            "کتێبەکە باسی ناتەواو لەسەر مێژووی فەلسەفە پێشکەش دەکات."),
+                            "ترسنۆکێکی تەواوم کە دێتە سەر چوون بۆ لای پزیشکی ددان."),
                   ],
                 ),
               ),
@@ -419,40 +326,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcoverages5("en-GB"),
+                    onPressed: () => speakcowards2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ناو) ئەو ڕێژەیەی کە شتێک پێشکەشی دەکات"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The service has a coverage of 90 per cent of the UK population."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتگوزارییەکە ٩٠ لە سەدی دانیشتوانی بەریتانیا دەگرێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcoverages6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcoverages6("en-US"),
+                    onPressed: () => speakcowards2("en-US"),
                   ),
                 ],
               ),
@@ -506,14 +383,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coverage (Derived forms: coverages)
-1. The total amount and type of insurance carried (= insurance coverage)
- 
-2. The extent to which something is covered
-"the dictionary's coverage of standard English is excellent"
- 
-3. The news as presented by reporters for newspapers, radio or television (= reporting, reportage)
-"they accused the paper of biased coverage of race relations";
+- Noun: coward (Derived forms: cowards)
+1. A person who shows fear or timidity (= chicken [informal])
+"has an undeserved reputation as a coward";
+
+- Noun: Coward
+1. English dramatist and actor and composer noted for his witty and sophisticated comedies (1899-1973) (= Noel Coward, Sir Noel Pierce Coward)
 """,
   );
 
@@ -546,8 +421,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
-    startSeconds: 1497,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 715,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +446,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/58XEfDtU0Z4?t=',
-    startSeconds: 1447,
+    videoId: 'https://youtu.be/-vQgwUtcnaE?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +471,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nsnyl8llfH4?t=',
-    startSeconds: 385,
+    videoId: 'https://youtu.be/PkUg89kLLBE?t=',
+    startSeconds: 1594,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -621,8 +496,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sf7NfCe3_5Y?t=',
-    startSeconds: 301,
+    videoId: 'https://youtu.be/XtuWiHYmr4U?t=',
+    startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -646,8 +521,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LfeEu4_vtfQ?t=',
-    startSeconds: 766,
+    videoId: 'https://youtu.be/eJ-Xp6yiyFQ?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -671,8 +546,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQcwgZbgLj4?t=',
-    startSeconds: 993,
+    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    startSeconds: 2825,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -696,8 +571,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4U2ZxO7b8iM?t=',
-    startSeconds: 317,
+    videoId: 'https://youtu.be/hhvjKAQv2cs?t=',
+    startSeconds: 1114,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

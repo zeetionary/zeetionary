@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourtesy extends StatelessWidget {
-  const EnglishEntrycourtesy({super.key});
+class EnglishEntrycourtier extends StatelessWidget {
+  const EnglishEntrycourtier({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "courtesy");
+    return const EntryTitle(word: "courtier");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: courtesy");
+    return const AlsoEnglish(word: "also: courtier");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcourtesy(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtier(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("courtesy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("courtier"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɜːtəsi/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkɔːtiə(r)/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcourtesy("en-GB"),
+          onPressed: () => speakcourtier("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcourtesy(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtier(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("courtesy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("courtier"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɜːrtəsi/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkɔːrtiər/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcourtesy("en-US"),
+          onPressed: () => speakcourtier("en-US"),
         ),
       ],
     );
@@ -163,113 +163,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcourtesys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I was treated with the utmost courtesy by the staff."); // DOPSUM: CHANGE TEXT
+        "Many of the courtiers were strongly wedded to traditional ways of doing things."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We asked them, as a matter of courtesy, if we could photograph their house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He listened to all the complaints with great courtesy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The prime minister was welcomed with the usual courtesies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A courtesy bus operates between the hotel and the beach."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcourtesys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcourtesy
+  Future<void> speakcourtiers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcourtier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcourtesys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcourtiers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -281,11 +277,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی:  ڕەوشت، ماریفەت، چاولێ‌بوون، ڕەفتارجوانی، ڕێزلێنان، دووقەدبوون، بۆچەمانەوە، داهاتنەوە، کوڕنش، خۆڕایی، بەلاش
+کوردی: یار یان هاوڕێ، دەرباری، پاشمیر، بەردەست
 """),
           const DefinitionKurdish(
-              text:
-                  "١. (ناو) هەڵسوکەوتی جوان کە ڕێز بۆ کەسانی دیکە پیشان دەدات"),
+              text: "١. (ناو) کەسێک کە لە کۆشکی شاهانەیی کاردەکات"),
           Row(
             children: [
               const Expanded(
@@ -293,136 +288,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I was treated with the utmost courtesy by the staff."),
+                            "Many of the courtiers were strongly wedded to traditional ways of doing things."),
                     ExampleSentenceKurdish(
                         text:
-                            "بەوپەڕێ ڕێزەوە لەلایەن ستافەوە مامەڵەم لەگەڵ کرا."),
+                            "زۆرێک لە بەردەستەکان بە توندی ڕادەهێنران بە ڕێگا نەریتییەکانی کردنی شتەکان."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "courtesy", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "courtier", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys1("en-GB"),
+                    onPressed: () => speakcourtiers1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We asked them, as a matter of courtesy, if we could photograph their house."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وەک ڕێزێک پرسیارمان لێکردن کە بتوانین وێنەی خانووەکەیان بگرین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He listened to all the complaints with great courtesy."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێزەوە گوێی لە هەموو ناڕەزاییەکان گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٢. (ناو) شتێکی جوان کە دەیکەیت یان دەیڵێیت کە خەڵکی لە بۆنەی فەرمیدا دەبینیت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The prime minister was welcomed with the usual courtesies."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەرۆک وەزیران بە ڕێزلێنانە هەمیشەییەکانەوە پێشوازی لێکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) بێ‌بەرامبەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A courtesy bus operates between the hotel and the beach."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پاسێکی بێ‌بەرامبەر لە نێوان هوتێلەکە و کەنار دەریاکە کاردەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcourtesys5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcourtesys5("en-US"),
+                    onPressed: () => speakcourtiers1("en-US"),
                   ),
                 ],
               ),
@@ -476,19 +356,8 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: courtesy (Derived forms: courtesies)
-1. A courteous, respectful or considerate act
- 
-2. A courteous, respectful or considerate remark
- 
-3. Polite behaviour (= good manners)
-
-- Adjective: courtesy
-1. Costing nothing (= complimentary, costless, free, gratis, gratuitous)
-"courtesy tickets";
- 
-2. Given or done as a polite gesture
-"We paid a courtesy visit to the new neighbours"
+- Noun: courtier (Derived forms: courtiers)
+1. An attendant at the court of a sovereign
 """,
   );
 
@@ -521,8 +390,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
-    startSeconds: 195,
+    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    startSeconds: 1381,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -546,8 +415,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_0RTH57v66I?t=',
-    startSeconds: 373,
+    videoId: 'https://youtu.be/Xj3w8eKhH3k?t=',
+    startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -571,8 +440,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FSHITL5oedk?t=',
-    startSeconds: 1064,
+    videoId: 'https://youtu.be/XKDhq2UcjIM?t=',
+    startSeconds: 1052,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -596,8 +465,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cAfYtXB-qN4?t=',
-    startSeconds: 2139,
+    videoId: 'https://youtu.be/TSDjeTgXZlw?t=',
+    startSeconds: 190,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -621,8 +490,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wao0_uB4Zw4?t=',
-    startSeconds: 2623,
+    videoId: 'https://youtu.be/lswKi3SLsy8?t=',
+    startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -646,8 +515,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dRLCZqEfJFA?t=',
-    startSeconds: 308,
+    videoId: 'https://youtu.be/srEzEeB63fY?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -671,8 +540,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fop2oskTug8?t=',
-    startSeconds: 487,
+    videoId: 'https://youtu.be/bASXpSCefWQ?t=',
+    startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

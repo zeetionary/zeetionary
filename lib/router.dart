@@ -3844,11 +3844,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_courteous.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_courteously.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_courtesy.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_courtier.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_court_martial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_courtyard.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cousin.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cover.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8390,11 +8390,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-courteous": (_) => const MaterialPage(child: EnglishEntrycourteous()),
   "/english-courteously": (_) => const MaterialPage(child: EnglishEntrycourteously()),
   "/english-courtesy": (_) => const MaterialPage(child: EnglishEntrycourtesy()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-courtier": (_) => const MaterialPage(child: EnglishEntrycourtier()),
+  "/english-court-martial": (_) => const MaterialPage(child: EnglishEntrycourtmartial()),
+  "/english-courtyard": (_) => const MaterialPage(child: EnglishEntrycourtyard()),
+  "/english-cousin": (_) => const MaterialPage(child: EnglishEntrycousin()),
+  "/english-cover": (_) => const MaterialPage(child: EnglishEntrycover()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

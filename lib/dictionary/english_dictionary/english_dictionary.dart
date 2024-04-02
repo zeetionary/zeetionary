@@ -4003,7 +4003,7 @@ class _DictionaryScreenEnglishState
     // "courtyard",
     // "cousin",
     // "cover",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "coverage",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -20794,9 +20794,9 @@ class _DictionaryScreenEnglishState
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-cover");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "coverage") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-coverage");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

@@ -329,7 +329,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("By sunset we had covered thirty miles."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers20(String languageCode) async {
@@ -337,7 +338,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They covered long distances on foot."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers21(String languageCode) async {
@@ -345,7 +347,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Grand Canyon National Park covers approximately 500,000 hectares)."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers22(String languageCode) async {
@@ -353,7 +356,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She's covering the party's annual conference."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers23(String languageCode) async {
@@ -361,7 +365,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The BBC will cover all the major games of the tournament."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers24(String languageCode) async {
@@ -369,7 +374,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I'm covering for Jane while she's on leave."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers25(String languageCode) async {
@@ -377,7 +383,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I have to go out for a minute—will you cover for me if anyone asks where I am?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers26(String languageCode) async {
@@ -385,7 +392,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Are you fully covered for fire and theft?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers27(String languageCode) async {
@@ -393,7 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Many firms put money aside to cover themselves against possible legal claims."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers28(String languageCode) async {
@@ -401,7 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cover me while I move forward."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers29(String languageCode) async {
@@ -409,7 +419,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police covered the exits to the building."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers30(String languageCode) async {
@@ -417,7 +428,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Brighten up your room with some colourful covers."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers31(String languageCode) async {
@@ -425,7 +437,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He held his nose as he lifted the cover of the bin."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers32(String languageCode) async {
@@ -433,7 +446,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He lifted the manhole cover."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers33(String languageCode) async {
@@ -441,7 +455,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Everyone ran for cover when it started to rain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers34(String languageCode) async {
@@ -449,7 +464,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "After the explosion the street was full of people running for cover."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers35(String languageCode) async {
@@ -457,7 +473,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The climbers took cover from the storm in a cave."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers36(String languageCode) async {
@@ -465,7 +482,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her face was on the cover of every magazine."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers37(String languageCode) async {
@@ -473,7 +491,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Have you seen the cover of the latest issue?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers38(String languageCode) async {
@@ -481,7 +500,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("This company provides wider cover."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers39(String languageCode) async {
@@ -489,7 +509,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The RAF provided air cover for the attack."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers40(String languageCode) async {
@@ -497,7 +518,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers4000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The total forest cover of the earth is decreasing."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers41(String languageCode) async {
@@ -505,7 +527,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Fog and low cloud cover are expected this afternoon."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers42(String languageCode) async {
@@ -513,7 +536,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In this area there is snow cover for six months of the year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers43(String languageCode) async {
@@ -521,7 +545,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She threw back the covers and leapt out of bed."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers44(String languageCode) async {
@@ -529,7 +554,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcovers4400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His work as a civil servant was a cover for his activities as a spy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcovers45(String languageCode) async {
@@ -1404,6 +1430,747 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcovers18("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (کردار) بڕینی ماوەیەکی دیاریکراو لە دووری"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "By sunset we had covered thirty miles."),
+                    ExampleSentenceKurdish(
+                        text: "تاوەکو خۆرئاوابوون سی میلمان بڕی بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "They covered long distances on foot."),
+                    ExampleSentenceKurdish(text: "مەودای دووریان بە پێ بڕی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٧. (کردار) بڵاوبوونەوە بەو ناوچەیەی باسکراوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Grand Canyon National Park covers approximately 500,000 hectares)."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پارکی نیشتیمانی گراند کانیەن بەنزیکەیی ٥٠٠,٠٠٠ هێکتار دەبێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٨. (کردار) گەیاندنی بۆنەیەک بە تەلەفیزیۆن، ڕۆژنامە، هتد"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She's covering the party's annual conference."),
+                    ExampleSentenceKurdish(
+                        text: "کۆنفرانسی ساڵانە پارتەکە ڕووماڵ دەکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers22("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The BBC will cover all the major games of the tournament."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بی‌بی‌سی تەواوی یارییە گرنگەکانی پاڵەوانێتییەکە ڕووماڵ دەکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers23("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers23("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٩. (کردار) ئەنجامدانی کارەکانی کەسێک کە خۆی ئامادە نییە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I'm covering for Jane while she's on leave."),
+                    ExampleSentenceKurdish(
+                        text: "کارەکانی جەین دەکەم لەکاتێکدا کە لە مۆڵەتە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers24("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers24("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٠. (کردار) درووستکردنی درۆیەک یان بیانوویەک کە ڕێگا دەگرێت کەسێک تووشی کێشە بێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I have to go out for a minute—will you cover for me if anyone asks where I am?"),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پێویستە بۆ خولەکێک بچمە دەرەوە، بۆم دەپۆشی ئەگەر هەر کەسێک پرسیاری کردم؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers25("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers25("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١١. (کردار) ڕێگری کەوەی کەسێک تووشی زیان، برینداری، هتد بێت بە دابینکردنی بیمە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Are you fully covered for fire and theft?"),
+                    ExampleSentenceKurdish(
+                        text: "بە تەواوی بیمەت هەیە بۆ ئاگرکەوتنەوە و دزی؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers26("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers26("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٢. (کردار) خۆپاراستن لە لۆمە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Many firms put money aside to cover themselves against possible legal claims."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆر کۆمپانیا پارە دەخەنە لاوە بۆ پاراستنی خۆیان لە دۆسیەی یاسایی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers27("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers27("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٣. (کردار) پاراستنی کەسێک بە تەقەکردن لە هەر کەسێک کە ئازاری بدات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Cover me while I move forward."),
+                    ExampleSentenceKurdish(text: "بمپارێزە کە دەچمە پێشەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers28("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers28("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٤. (کردار) ئاراستەکردنی چەکێک لە شوێنێک یان کەسێک بۆ ئەوەی کەس هەڵنەیەت یان تەقە نەکات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The police covered the exits to the building."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پۆلیس ڕێگاکانی چوونەدەرەوەی بیناکەی کۆنترۆڵ کردبوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers29("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers29("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "١٥. (ناو) شتێک کە دەیدەیت بەسەر شتێکی دیکەدا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Brighten up your room with some colourful covers."),
+                    ExampleSentenceKurdish(
+                        text: "ژوورەکەت ڕەنگین بکە بە داپۆشەری ڕەنگین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers30("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers30("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He held his nose as he lifted the cover of the bin."),
+                    ExampleSentenceKurdish(
+                        text: "لووتی گرت کە سەری زباڵەکەی بەرزکردەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers31("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers31("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He lifted the manhole cover."),
+                    ExampleSentenceKurdish(text: "سەری مەنهۆڵەکەی بەرزکردەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers32("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers32("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "١٦. (ناو) پەناگە بۆ پاراستن لە کەشی خراپ یان هێرش"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Everyone ran for cover when it started to rain."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەموان بۆ پەناگە ڕایانکرد کە دەستی بە باران کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers33("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers33("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "After the explosion the street was full of people running for cover."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە دوای تەقینەوەکە شەقامەکە پڕ بوو لە خەڵک کۆ بۆ پەناگە دەگەڕان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers34("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers34("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The climbers took cover from the storm in a cave."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شاخەوانان داڵدەیان بردە بەر ئەشکەوتەکە دژ بە زریانەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers35("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers35("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٧. (ناو) بەرگی کتێبێک یان گۆڤارێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Her face was on the cover (= the front cover) of every magazine."),
+                    ExampleSentenceKurdish(
+                        text: "ڕووخساری لەسەر بەرگی هەموو گۆڤارێک بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers36("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers36("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Have you seen the cover of the latest issue?"),
+                    ExampleSentenceKurdish(text: "بەرگی کۆتا چاپت دیوە؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers37("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers37("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٨. (ناو) پاراستن کە کۆمپانیایەکی بیمە پێت دەدات بە بەڵێندانی ئەوەی پارەت پێبدات ئەگەر ڕووداوێکی دیاریکراو ڕووبدات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "This company provides wider cover."),
+                    ExampleSentenceKurdish(
+                        text: "ئەم کۆمپانیایە پاراستنی زیاتر دابین دەکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers38("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers38("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٩. (ناو) پاراستن یان پشتیوانی کە دەدرێت بە کەسێک کە هێرش دەکات یان هێرشی دەکرێتە سەر"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The RAF provided air cover for the attack."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هێزی ئاسمانی شاهانەیی پشتیوانی ئاسمانی دابین کردبوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers39("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers39("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٠. (ناو) دار و گژووگیا کە لەسەر ناوچەیەک گەشە دەکات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The total forest cover of the earth is decreasing."),
+                    ExampleSentenceKurdish(
+                        text: "سەوزایی گشتی دارستانی زەوی کەم دەکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers40("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers40("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢١. (ناو) ئاسمانی هەوراوی یان زەوی بەفراوی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Fog and low cloud cover are expected this afternoon."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تەم و ئاسمانی هەوراوی نزم بۆ ئەم نیوەڕۆیە پێشبینی دەکرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers41("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers41("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "In this area there is snow cover for six months of the year."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەم ناوچەیە زەوی بەفراوی بۆ شەش مانگی ساڵ هەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers42("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers42("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٢. (ناو) پێخەف، بەتانی، هتد لەسەر جێخەوێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She threw back the covers and leapt out of bed."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نوێنەکانی فڕێدا و لە جێخەوەکە هەڵپەڕییە دەرەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers43("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers43("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢٣. (ناو) شتێک کە ئامانج لێی ئەوەیە ناسنامەی ڕاستی، هەستێک، یان شتێکی نایاسایی دەشارێتەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "His work as a civil servant was a cover for his activities as a spy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کارەکەی وەک فەرمانبەرێکی مەدەنی شاردنەوەیەکی چالاکییەکانی وەک سیخووڕێک بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcovers44("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcovers44("en-US"),
                   ),
                 ],
               ),

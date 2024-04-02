@@ -500,7 +500,7 @@ class EnglishEntrybother extends StatelessWidget {
                                             "Sorry to bother you, but there's a call for you on line two."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ببوورە لە کاتت دەگرم، بەڵام پەیوەندییەکەت بۆت لەسەر ھێڵە."),
+                                            "ببوورە لە کاتت دەگرم، بەڵام پەیوەندییەک بۆت لەسەر ھێڵە."),
                                   ],
                                 ),
                               ),

@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycowl extends StatelessWidget {
-  const EnglishEntrycowl({super.key});
+class EnglishEntrycoyote extends StatelessWidget {
+  const EnglishEntrycoyote({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cowl");
+    return const EntryTitle(word: "coyote");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cowl");
+    return const AlsoEnglish(word: "also: coyote");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowl(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyote(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cowl"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coyote"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kaʊl/"),
+        const IPAofEnglish(text: "IpaUK: /kaɪˈəʊti/,  /kɔɪˈəʊti/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcowl("en-GB"),
+          onPressed: () => speakcoyote("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowl(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyote(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cowl"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coyote"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kaʊl/"),
+        const IPAofEnglish(text: "IpaUS: /kaɪˈəʊti/,  /ˈkaɪəʊt/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcowl("en-US"),
+          onPressed: () => speakcoyote("en-US"),
         ),
       ],
     );
@@ -163,109 +163,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowls1(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She lifted the cowl of her cloak."); // DOPSUM: CHANGE TEXT
+        "The only sound is the howl of coyote and the whisper of the wind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls2(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fitting a cowl to a chimney may help it to draw better."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls3(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls4(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls5(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls6(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls7(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls8(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls9(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls10(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls11(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls12(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowls13(String languageCode) async {
-    // DOPSUM: CHANGE speakcowl
+  Future<void> speakcoyotes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcoyote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowls1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcoyotes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -277,9 +277,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: کەوای کڵاودار
+// کوردی: (گیانەوەرناسی) کۆیۆتی، کۆیۆت: گورگێکی چکۆلەی ئەمریکای باکووری 
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
+          const DefinitionKurdish(text: "١. (ناو) گورگێکی بچووک کە لە ئەمریکای باکوور دەژی"),
           Row(
             children: [
               const Expanded(
@@ -287,51 +287,23 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "She lifted the cowl of her cloak."),
-                    ExampleSentenceKurdish(text: "کڵاوی جبەکەی بەرزکردەوە."),
+                            "The only sound is the howl of coyote and the whisper of the wind."),
+                    ExampleSentenceKurdish(text: "تەنها دەنگ لوورەی گورگی بچووک و خشەی بایە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowl", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "coyote", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcowls1("en-GB"),
+                    onPressed: () => speakcoyotes1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcowls1("en-US"),
+                    onPressed: () => speakcoyotes1("en-US"),
                   ),
                 ],
               ),
             ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) داپۆشەرێک بۆ دووکەڵکێش بۆ ئەوەی ڕێگا بگرێت لەوەی دووکەڵەکە بە پاڵەپەستۆی هەوای دەرەوە بۆ خوارەوە بگەڕێتەوە"),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Fitting a cowl to a chimney may help it to draw better."),
-          ExampleSentenceKurdish(
-          text: "دانانی کڵاوەیەک لەسەر دووکەڵکێشەکە ڕەنگە یارمەتیدەر بێت لە ڕاکێشانی دووکەڵ."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcowls2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcowls2("en-US"),
-          ),
-          ],
-          ),
-          ],
           ),
         ],
       ),
@@ -381,15 +353,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cowl (Derived forms: cowls)
-1. The hinged metal cover of a vehicle's engine (= hood [N. Amer], bonnet, cowling)
-"there are powerful engines under the cowls of new cars";
+- Noun: coyote (Derived forms: coyotes)
+1. Small wolf native to western North America (= prairie wolf, brush wolf, Canis latrans)
  
-2. A loose hood or hooded robe (as worn by a monk)
-
-- Verb: cowl (Derived forms: cowling, cowls, cowled)
-1. Cover with or as with a cowl
-"cowl the boys and veil the girls"
+2. Someone who smuggles illegal immigrants into the United States (usually across the Mexican border)
+ 
+3. A forest fire fighter who is sent to battle remote and severe forest fires (often for days at a time)
 """,
   );
 
@@ -422,8 +391,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wtXjHtnglxU?t=',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/Yxwi7zQhrRI?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -447,8 +416,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WrUbEJ_Be8w?t=',
-    startSeconds: 1520,
+    videoId: 'https://youtu.be/-sTgiRhh2lo?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +441,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W9uJqahAn-I?t=',
-    startSeconds: 184,
+    videoId: 'https://youtu.be/qCGLbD8osxA?t=',
+    startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -497,8 +466,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
-    startSeconds: 224,
+    videoId: 'https://youtu.be/fhmQM11MLmE?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -522,8 +491,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q80TFs3REiM?t=',
-    startSeconds: 450,
+    videoId: 'https://youtu.be/0BdXPao_i5w',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -547,8 +516,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JsxYsqZKYSw?t=',
-    startSeconds: 193,
+    videoId: 'https://youtu.be/k9-u5z46ka4?t=',
+    startSeconds: 1064,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -572,8 +541,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iI3j673h0GE?t=',
-    startSeconds: 796,
+    videoId: 'https://youtu.be/BfUoopDpmmY?t=',
+    startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

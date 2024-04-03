@@ -3861,12 +3861,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cowardice.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cower.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cowl.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cox.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coyness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_coyote.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cpu.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crab.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8407,12 +8407,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cowardice": (_) => const MaterialPage(child: EnglishEntrycowardice()),
   "/english-cower": (_) => const MaterialPage(child: EnglishEntrycower()),
   "/english-cowl": (_) => const MaterialPage(child: EnglishEntrycowl()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cox": (_) => const MaterialPage(child: EnglishEntrycox()),
+  "/english-coy": (_) => const MaterialPage(child: EnglishEntrycoy()),
+  "/english-coyness": (_) => const MaterialPage(child: EnglishEntrycoyness()),
+  "/english-coyote": (_) => const MaterialPage(child: EnglishEntrycoyote()),
+  "/english-cpu": (_) => const MaterialPage(child: EnglishEntrycpu()),
+  "/english-crab": (_) => const MaterialPage(child: EnglishEntrycrab()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

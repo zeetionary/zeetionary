@@ -191,7 +191,7 @@ class EnglishEntrybra extends StatelessWidget {
                                             "You'll need a strapless bra to wear with this dress."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستت بە سووخمەیەکی بێ‌بەستە بۆ پۆشین لەگەڵ ئەم جلە."),
+                                            "پێویستت بە سووخمەیەکی بێ‌بەست دەبێت بۆ پۆشین لەگەڵ ئەم جلە."),
                                   ],
                                 ),
                               ),

@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycowardice extends StatelessWidget {
-  const EnglishEntrycowardice({super.key});
+class EnglishEntrycowl extends StatelessWidget {
+  const EnglishEntrycowl({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cowardice");
+    return const EntryTitle(word: "cowl");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cowardice");
+    return const AlsoEnglish(word: "also: cowl");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowardice(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowl(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cowardice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cowl"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkaʊədɪs/"),
+        const IPAofEnglish(text: "IpaUK: /kaʊl/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcowardice("en-GB"),
+          onPressed: () => speakcowl("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowardice(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowl(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cowardice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cowl"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkaʊərdɪs/"),
+        const IPAofEnglish(text: "IpaUS: /kaʊl/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcowardice("en-US"),
+          onPressed: () => speakcowl("en-US"),
         ),
       ],
     );
@@ -163,110 +163,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcowardices1(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was ashamed of her cowardice."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcowardices2(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls1(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Cowardice prevented me from doing what I knew I should do."); // DOPSUM: CHANGE TEXT
+        "She lifted the cowl of her cloak."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices3(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls2(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices4(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls3(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices5(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls4(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices6(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls5(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices7(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls6(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices8(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls7(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices9(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls8(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices10(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls9(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices11(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls10(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices12(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls11(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcowardices13(String languageCode) async {
-    // DOPSUM: CHANGE speakcowardice
+  Future<void> speakcowls12(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcowardices1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcowls1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcowls13(String languageCode) async {
+    // DOPSUM: CHANGE speakcowl
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcowls1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -277,36 +276,10 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: ترسەنۆکی، حیزی، بێ‌جەرگی، زراوچوویی
-"""),
-          const DefinitionKurdish(text: "١. (ناو) ترس، یان نەبوونی بوێری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was ashamed of her cowardice."),
-                    ExampleSentenceKurdish(
-                        text: "شەرمەزار بوو بە ترسنۆکییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cowardice", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcowardices1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcowardices1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
+//           const KurdishVocabulary(text: """
+// کوردی: کەوای کڵاودار
+// """),
+          const DefinitionKurdish(text: "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
           Row(
             children: [
               const Expanded(
@@ -314,21 +287,19 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Cowardice prevented me from doing what I knew I should do."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ترسنۆکی ڕێگری لێکردم لە کردنی ئەوەی دەمزانی دەبوو بیکەم."),
+                            "She lifted the cowl of her cloak."),
+                    ExampleSentenceKurdish(text: "کڵاوی جبەکەی بەرزکردەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "cowl", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcowardices2("en-GB"),
+                    onPressed: () => speakcowls1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcowardices2("en-US"),
+                    onPressed: () => speakcowls1("en-US"),
                   ),
                 ],
               ),
@@ -382,9 +353,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cowardice (Derived forms: cowardices)
-1. The trait of lacking courage (= cowardliness)
-"it is a peculiar insult to be taunted with cowardice by a woman";
+- Noun: cowl (Derived forms: cowls)
+1. The hinged metal cover of a vehicle's engine (= hood [N. Amer], bonnet, cowling)
+"there are powerful engines under the cowls of new cars";
+ 
+2. A loose hood or hooded robe (as worn by a monk)
+
+- Verb: cowl (Derived forms: cowling, cowls, cowled)
+1. Cover with or as with a cowl
+"cowl the boys and veil the girls"
 """,
   );
 
@@ -417,8 +394,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
-    startSeconds: 636,
+    videoId: 'https://youtu.be/wtXjHtnglxU?t=',
+    startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -442,8 +419,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
-    startSeconds: 43,
+    videoId: 'https://youtu.be/WrUbEJ_Be8w?t=',
+    startSeconds: 1520,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +444,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ex6Xw83rszo?t=',
-    startSeconds: 549,
+    videoId: 'https://youtu.be/W9uJqahAn-I?t=',
+    startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +469,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hZt-DiuCdhA?t=',
-    startSeconds: 525,
+    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,8 +494,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ii3Avr8SqiM?t=',
-    startSeconds: 91,
+    videoId: 'https://youtu.be/Q80TFs3REiM?t=',
+    startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -542,8 +519,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBhXvLlB-kY?t=',
-    startSeconds: 9136,
+    videoId: 'https://youtu.be/JsxYsqZKYSw?t=',
+    startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -567,8 +544,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dB18p5JiFfY?t=',
-    startSeconds: 2160,
+    videoId: 'https://youtu.be/iI3j673h0GE?t=',
+    startSeconds: 796,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

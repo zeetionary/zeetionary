@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrab extends StatelessWidget {
-  const EnglishEntrycrab({super.key});
+class EnglishEntrycrabby extends StatelessWidget {
+  const EnglishEntrycrabby({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crab");
+    return const EntryTitle(word: "crabby");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crab");
+    return const AlsoEnglish(word: "also: crabby");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrab(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabby(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crabby"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUK: /ˈkræbi/"),
         CustomIconButtonBritish(
-          onPressed: () => speakcrab("en-GB"),
+          onPressed: () => speakcrabby("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrab(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabby(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crabby"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+        const IPAofEnglish(text: "IpaUS: /ˈkræbi/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakcrab("en-US"),
+          onPressed: () => speakcrabby("en-US"),
         ),
       ],
     );
@@ -163,110 +163,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We walked along the beach collecting small crabs."); // DOPSUM: CHANGE TEXT
+        "You're very crabby today. What's bothering you?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("This crab salad is delicious!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrabs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrab
+  Future<void> speakcrabbys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrabby
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrabs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrabbys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -278,11 +277,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: قرژاڵ، قرژانگ 
+کوردی: ڕووترش، مڕومۆچ، مۆن، ڕووگرژ
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) گیانلەبەرێکی ئاوی کە توێکڵێکی ڕەق و هەشت قاچ و دوو چنگی هەیە و لەسەر وشکانی بە لادا دەجوڵێن؛ گۆشتی قرژاڵ."),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) توڕە و بێزار"),
           Row(
             children: [
               const Expanded(
@@ -290,46 +287,19 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "We walked along the beach collecting small crabs."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە درێژایی کەناراوەکە ڕێمان کرد و قرژاڵی بچووکمان کۆکردەوە."),
+                            "You're very crabby today. What's bothering you?"),
+                    ExampleSentenceKurdish(text: "ئەمڕۆ زۆر مۆنیت. چی بووە؟"),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crab", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crabby", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrabs1("en-GB"),
+                    onPressed: () => speakcrabbys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrabs1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This crab salad is delicious!"),
-                    ExampleSentenceKurdish(text: "ئەم زەڵاتە قرژاڵە بەلەزەتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrabs2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrabs2("en-US"),
+                    onPressed: () => speakcrabbys1("en-US"),
                   ),
                 ],
               ),
@@ -383,32 +353,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crab (Derived forms: crabs)
-1. Decapod having eyes on short stalks and a broad flattened carapace with a small abdomen folded under the thorax and pincers
- 
-2. The edible flesh of any of various crabs (= crabmeat)
- 
-3. A louse that infests the pubic region of the human body (= crab louse, pubic louse, Phthirius pubis)
- 
-4. A stroke of the oar that either misses the water or digs too deeply
-"he caught a crab and lost the race"
- 
-5. A quarrelsome grouch (= crabby person)
-
-- Verb: crab (Derived forms: crabs, crabbed, crabbing)
-1. Scurry sideways like a crab
- 
-2. Fish for crab
- 
-3. [informal] Complain (= gripe, bitch [informal], grouse, beef [informal], squawk, bellyache [informal], holler [informal])
-"What was he crabbing about?";
- 
-4. (air travel) direct (an aircraft) into a crosswind
-
-- Noun: Crab
-1. (astrology) a person who is born while the sun is in Cancer (= Cancer)
- 
-2. The fourth sign of the zodiac; the sun is in this sign from about June 21 to July 22 (= Cancer, Cancer the Crab)
+- Adjective: crabby (Derived forms: crabbiest, crabbier)
+1. Annoyed and irritable (= crabbed, cross, fussy, grouchy [informal], grumpy, bad-tempered, ill-tempered, arsey [Brit, informal])
+"The crabby little girls of today are the crabby old women of tomorrow!";
 """,
   );
 
@@ -441,8 +388,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qUNYPkroz18?t=',
-    startSeconds: 217,
+    videoId: 'https://youtu.be/iQBGpocUDVA?t=',
+    startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -466,8 +413,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DPU-k823BPs?t=',
-    startSeconds: 25,
+    videoId: 'https://youtu.be/-ar4T4YR1J8?t=',
+    startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,8 +438,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQBGpocUDVA?t=',
-    startSeconds: 15,
+    videoId: 'https://youtu.be/NpmWkLDbQSI?t=',
+    startSeconds: 836,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +463,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9I90ShM_lhs?t=',
-    startSeconds: 146,
+    videoId: 'https://youtu.be/oqvwkQ5_-p4?t=',
+    startSeconds: 758,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +488,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/31f2E1aJG2Y?t=',
-    startSeconds: 14,
+    videoId: 'https://youtu.be/W-LKjUghaeU?t=',
+    startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +513,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8w1pSYZczs4?t=',
-    startSeconds: 13,
+    videoId: 'https://youtu.be/1_UPwhBP3FU?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -591,8 +538,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zTReMFnGDUk?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/AIVrTmyhLjg?t=',
+    startSeconds: 464,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -174,6 +174,35 @@ class EnglishEntryboardinghouse extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had been the landlady of a seaside boarding house."),
+                                    ExampleSentenceKurdish(
+                                        text: "خانچی خانێکی پاڵ دەریا بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () =>
+                                        speakboardinghouses2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () =>
+                                        speakboardinghouses2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),

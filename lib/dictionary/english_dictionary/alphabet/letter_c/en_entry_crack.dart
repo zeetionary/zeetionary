@@ -330,7 +330,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Wide cracks appeared in the ground during the drought."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Wide cracks appeared in the ground during the drought."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks20(String languageCode) async {
@@ -1403,30 +1404,31 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Wide cracks appeared in the ground during the drought."),
-          ExampleSentenceKurdish(
-          text: "درزی فراوان دەستیان بە دەرکەوتن کرد لە زەویدا لە ماوەی وشکەساڵییەکەدا."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcracks19("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcracks19("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Wide cracks appeared in the ground during the drought."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "درزی فراوان دەستیان بە دەرکەوتن کرد لە زەویدا لە ماوەی وشکەساڵییەکەدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks19("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

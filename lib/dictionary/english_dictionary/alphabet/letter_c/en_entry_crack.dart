@@ -339,7 +339,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She peeped through the crack in the curtains."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks21(String languageCode) async {
@@ -347,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The door opened a crack."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks22(String languageCode) async {
@@ -355,7 +356,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She heard the sharp crack of a rifle shot."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks23(String languageCode) async {
@@ -363,7 +365,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The chandelier hit the floor with a crack."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks24(String languageCode) async {
@@ -371,7 +374,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She fell over and got a nasty crack on the head."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks25(String languageCode) async {
@@ -379,7 +383,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He had a good crack at opening the door, but it wouldn't budge."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks26(String languageCode) async {
@@ -387,7 +392,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Several kilos of crack were found in her luggage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks27(String languageCode) async {
@@ -395,7 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He gets really mad if anyone makes a crack about his weight."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks28(String languageCode) async {
@@ -403,7 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcracks2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The crack troops were deployed to the front lines to secure the strategic position."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcracks29(String languageCode) async {
@@ -1425,6 +1433,258 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcracks19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٠. (ناو) کەلێن یان قڵیش"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She peeped through the crack in the curtains."),
+                    ExampleSentenceKurdish(
+                        text: "لە کەلێنی پەردەکەوە سەیری کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The door opened a crack (= a small amount)."),
+                    ExampleSentenceKurdish(text: "دەرگاکە کەمێک کرایەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١١. (ناو) دەنگێکی بەرزی لەناکاو"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She heard the sharp crack of a rifle shot."),
+                    ExampleSentenceKurdish(
+                        text: "گوێی لە زرمەی تەقەی تفەنگەکە بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks22("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The chandelier hit the floor with a crack."),
+                    ExampleSentenceKurdish(
+                        text: "چلچراکە بە زرمەیەکەوە کێشای بە زەوییەکەدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks23("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks23("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "١٢. (ناو) لێدانێکی بەهێز کە دەنگی دێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She fell over and got a nasty crack on the head."),
+                    ExampleSentenceKurdish(
+                        text: "کەوت و پیاکێشانێکی خراپ بەر سەری کەوت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks24("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks24("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٣. (ناو) هەوڵێک بۆ کردنی شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He had a good crack at opening the door, but it wouldn't budge."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەوڵێکی باشی دا بۆ کردنەوەی دەرگاکە، بەڵام نسقەی نەکرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks25("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks25("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٤. (ناو) مادەیەکی هۆشبەری بەهێزی نایاسایی کە جۆرێکە لە کۆکاین"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Several kilos of crack were found in her luggage."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "چەند کیلۆیەک لە کراک لە کەل‌وپەلەکەیدا دۆزرانەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks26("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks26("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٥. (ناو) نوکتەیەک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He gets really mad if anyone makes a crack about his weight."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆر تووڕە دەبێت ئەگەر هەر کەسێک گاڵتە بە کێشی بکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks27("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks27("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٦. (ھاوەڵناو) شارەزا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The crack troops were deployed to the front lines to secure the strategic position."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هێزە کارامەکان نێردران بۆ بەرەکانی پێشەوە بۆ کۆنترۆڵکردنی پێگەیەکی ستراتیژی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcracks28("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcracks28("en-US"),
                   ),
                 ],
               ),

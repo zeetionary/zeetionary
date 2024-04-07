@@ -10,8 +10,8 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryabbot extends StatelessWidget {
-  const EnglishEntryabbot({super.key});
+class EnglishEntrycraftsman extends StatelessWidget {
+  const EnglishEntrycraftsman({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "abbot");
+    return const EntryTitle(word: "craftsman");
   }
 }
 
@@ -96,7 +96,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: abbot");
+    return const AlsoEnglish(word: "also: craftsman");
   }
 }
 
@@ -107,21 +107,21 @@ class IpaUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakabbot(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsman(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abbot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("craftsman"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈæbət/"),
+        const IPAofEnglish(text: "IpaUK: /ˈkrɑːftsmən/"),
         CustomIconButtonBritish(
-          onPressed: () => speakabbot("en-GB"),
+          onPressed: () => speakcraftsman("en-GB"),
         ),
       ],
     );
@@ -135,21 +135,21 @@ class IpaUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakabbot(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsman(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abbot"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("craftsman"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈæbət/"),
+        const IPAofEnglish(text: "IpaUS: /ˈkræftsmən/"),
         CustomIconButtonAmerican(
-          onPressed: () => speakabbot("en-US"),
+          onPressed: () => speakcraftsman("en-US"),
         ),
       ],
     );
@@ -163,173 +163,182 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbbot(String languageCode) async {
-    // DOPSUM: CHANGE speakAbbot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abbot"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAbbot112456(String languageCode) async {
-    // DOPSUM: CHANGE speakAbbot
+  Future<void> speakcraftsmans1(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Under the abbot's leadership, the monastery flourished as a center of prayer and learning."); // DOPSUM: CHANGE TEXT
+        "It is clearly the work of a master craftsman."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots1(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans2(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakabbots111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The plates are painted by our finest craftsmen."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots2(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans3(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots3(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans4(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots4(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans5(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots5(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans6(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots6(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans7(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots7(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans8(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots8(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans9(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots9(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans10(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots10(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans11(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots11(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans12(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakabbots12(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
+  Future<void> speakcraftsmans13(String languageCode) async {
+    // DOPSUM: CHANGE speakcraftsman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakabbots13(String languageCode) async {
-    // DOPSUM: CHANGE speakabbot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabbots1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcraftsmans1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: سەرۆکی دەیر (دێر، کڵێسا)، پیری دەیر، گەورەی دەیر
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const KurdishVocabulary(text: """
+کوردی: پیشەگەر، وەستاکار، پیشەساز، سازگەر، سازکار
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"
-                                  ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Under the abbot's leadership, the monastery flourished as a center of prayer and learning."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAbbot112456("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAbbot112456("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    );
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەسێک کە شارەزاییەکی تایبەتی هەیە، بەتایبەتی کەسێک کە کاری دەستی دەکات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "It is clearly the work of a master craftsman."),
+                    ExampleSentenceKurdish(
+                        text: "بە ئاشکرایی کاری پیشەسازێکی لێزانە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "craftsman", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcraftsmans1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcraftsmans1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The plates are painted by our finest craftsmen."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەورییەکان لەلایەن باشترین پیشەسازانمانەوە بۆیە کراون."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcraftsmans2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcraftsmans2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -375,8 +384,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: abbot (plural: abbots)
-1. The superior of an abbey of monks (=archimandrite)
+- Noun: craftsman (Derived forms: craftsmen)
+1. A professional whose work is consistently of high quality
+"as an actor he was a consummate craftsman"
+ 
+2. A creator of great skill in the manual arts (= crafter)
+"the jewellery was made by internationally famous craftsmen";
+ 
+3. A skilled worker who practices some trade or handicraft (= artisan, journeyman, artificer, craftsperson)
 """,
   );
 
@@ -405,12 +420,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Ir3eJ1t13fk?t=',
+    startSeconds: 1539,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UruU8mCvxRI',
-    startSeconds: 3473,
+    videoId: 'https://youtu.be/KmaS21OmhKI?t=',
+    startSeconds: 228,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -434,8 +474,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kOo4GQ1aE3E',
-    startSeconds: 392,
+    videoId: 'https://youtu.be/5U9rMkgoGL8?t=',
+    startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -455,12 +495,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gnFi96PLlFY',
-    startSeconds: 254,
+    videoId: 'https://youtu.be/CkM0QI3c3Yk?t=',
+    startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -474,7 +514,82 @@ class YoutubeEmbeddedend extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/yfjEPd5b92s?t=',
+    startSeconds: 299,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/z56d4f1uT3k?t=',
+    startSeconds: 280,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/TD2XGwmRJi8?t=',
+    startSeconds: 8,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
@@ -484,7 +599,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakabbots111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {
@@ -492,10 +606,10 @@ class YoutubeVideos extends StatelessWidget {
       children: [
         YoutubeEmbeddedone(),
         YoutubeEmbeddedtwo(),
-        // YoutubeEmbeddedthree(),
-        // YoutubeEmbeddedfour(),
-        // YoutubeEmbeddedfive(),
-        // YoutubeEmbeddedsix(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        YoutubeEmbeddedsix(),
         // YoutubeEmbeddedseven(),
         // YoutubeEmbeddedeight(),
         // YoutubeEmbeddednine(),

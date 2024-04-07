@@ -3881,12 +3881,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craft.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craftsman.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craftsmanship.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crafty.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craftily.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craftiness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crag.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_craggy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cram.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8703,12 +8703,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-craft": (_) => const MaterialPage(child: EnglishEntrycraft()),
   "/english-craftsman": (_) => const MaterialPage(child: EnglishEntrycraftsman()),
   "/english-craftsmanship": (_) => const MaterialPage(child: EnglishEntrycraftsmanship()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-crafty": (_) => const MaterialPage(child: EnglishEntrycrafty()),
+  "/english-craftily": (_) => const MaterialPage(child: EnglishEntrycraftily()),
+  "/english-craftiness": (_) => const MaterialPage(child: EnglishEntrycraftiness()),
+  "/english-crag": (_) => const MaterialPage(child: EnglishEntrycrag()),
+  "/english-craggy": (_) => const MaterialPage(child: EnglishEntrycraggy()),
+  "/english-cram": (_) => const MaterialPage(child: EnglishEntrycram()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

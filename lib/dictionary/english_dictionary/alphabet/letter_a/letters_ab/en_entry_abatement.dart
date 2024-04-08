@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -101,35 +101,34 @@ class TitleOfEntryAlso extends StatelessWidget {
 }
 
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
     super.key,
   });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakabatement(String languageCode) async {
-    // DOPSUM: CHANGE speakabatement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abatement"); // DOPSUM: CHANGE TEXT
-  }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /əˈbeɪtmənt/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakabatement("en-GB"),
-        ),
+        const IpaUKtext(),
+        TTSUK(),
       ],
     );
   }
 }
 
-class IpaUS extends StatelessWidget {
-  IpaUS({
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /əˈbeɪtmənt/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -145,14 +144,57 @@ class IpaUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakabatement("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /əˈbeɪtmənt/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakabatement("en-US"),
-        ),
+        const IpaUStext(),
+        TTSUS(),
       ],
     );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /əˈbeɪtmənt/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabatement(String languageCode) async {
+    // DOPSUM: CHANGE speakabatement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abatement"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(onPressed: () => speakabatement("en-US"),);
   }
 }
 
@@ -163,21 +205,13 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbatement(String languageCode) async {
-    // DOPSUM: CHANGE speakAbatement
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abatement"); // DOPSUM: CHANGE TEXT
-  }
-
   Future<void> speakabatements1(String languageCode) async {
     // DOPSUM: CHANGE speakabatement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakabatements111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The city spends £9 million a year on air pollution abatement."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabatements2(String languageCode) async {
@@ -279,40 +313,46 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word: "abatement"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈbeɪtmənt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbatement("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbeɪtmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbatement("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              );
+                      // DOPSUM: KURDISH MEANING
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
+کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، هاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان،	نەهێشتن، لابردن، پێش‌گرتن
+"""),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) دامرکاندنەوەی شتێک" ""),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city spends £9 million a year on air pollution abatement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەهەوا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakabatements1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakabatements1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    );
   }
 }
 
@@ -470,7 +510,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakabatements111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

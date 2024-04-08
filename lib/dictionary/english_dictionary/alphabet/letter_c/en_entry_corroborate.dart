@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -88,36 +88,46 @@ class TitleOfEntry extends StatelessWidget {
   }
 }
 
-class IpaUK extends StatelessWidget {
-  IpaUK({
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
     super.key,
   });
 
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakcorroborate(String languageCode) async {
-    // DOPSUM: CHANGE speakcorroborate
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("corroborate"); // DOPSUM: CHANGE TEXT
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: corroborate");
   }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kəˈrɒbəreɪt/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcorroborate("en-GB"),
-        ),
+        const IpaUKtext(),
+        TTSUK(),
       ],
     );
   }
 }
 
-class IpaUS extends StatelessWidget {
-  IpaUS({
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /kəˈrɒbəreɪt/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -133,14 +143,57 @@ class IpaUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakcorroborate("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kəˈrɑːbəreɪt/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcorroborate("en-US"),
-        ),
+        const IpaUStext(),
+        TTSUS(),
       ],
     );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /kəˈrɑːbəreɪt/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakcorroborate(String languageCode) async {
+    // DOPSUM: CHANGE speakcorroborate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("corroborate"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(onPressed: () => speakcorroborate("en-US"),);
   }
 }
 

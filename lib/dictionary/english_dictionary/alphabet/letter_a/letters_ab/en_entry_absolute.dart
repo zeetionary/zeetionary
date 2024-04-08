@@ -231,7 +231,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                             "He taught us that the laws of physics were absolute."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فێریکردین کە یاساکانی فیزیا نەگۆڕن."),
+                                            "فێری کردین کە یاساکانی فیزیا نەگۆڕن."),
                                   ],
                                 ),
                               ),

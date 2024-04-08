@@ -174,7 +174,7 @@ class EnglishEntryapology extends StatelessWidget {
                                             "You owe him an apology for what you said."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لێبور‌دن‌خوازییەک قەرزاری بۆ ئەوەی وتت."),
+                                            "لێبور‌دن‌خوازییەک بە ئەو قەرزاری بۆ ئەوەی وتت."),
                                   ],
                                 ),
                               ),

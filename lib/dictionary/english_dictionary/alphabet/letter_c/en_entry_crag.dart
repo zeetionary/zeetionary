@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -100,36 +100,47 @@ class TitleOfEntryAlso extends StatelessWidget {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
     super.key,
   });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakcrag(String languageCode) async {
-    // DOPSUM: CHANGE speakcrag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crag"); // DOPSUM: CHANGE TEXT
-  }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /kræɡ/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcrag("en-GB"),
-        ),
+        const IpaUKtext(),
+        TTSUK(),
       ],
     );
   }
 }
 
-class IpaUS extends StatelessWidget {
-  IpaUS({
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /kræɡ/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -145,14 +156,57 @@ class IpaUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakcrag("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /kræɡ/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcrag("en-US"),
-        ),
+        const IpaUStext(),
+        TTSUS(),
       ],
     );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /kræɡ/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakcrag(String languageCode) async {
+    // DOPSUM: CHANGE speakcrag
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("crag"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(onPressed: () => speakcrag("en-US"),);
   }
 }
 

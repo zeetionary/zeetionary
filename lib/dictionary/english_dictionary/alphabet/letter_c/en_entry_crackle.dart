@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -101,35 +101,34 @@ class TitleOfEntryAlso extends StatelessWidget {
 }
 
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
     super.key,
   });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakcrackle(String languageCode) async {
-    // DOPSUM: CHANGE speakcrackle
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crackle"); // DOPSUM: CHANGE TEXT
-  }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkrækl/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcrackle("en-GB"),
-        ),
+        const IpaUKtext(),
+        TTSUK(),
       ],
     );
   }
 }
 
-class IpaUS extends StatelessWidget {
-  IpaUS({
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈkrækl/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -145,13 +144,58 @@ class IpaUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakcrackle("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkrækl/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcrackle("en-US"),
-        ),
+        const IpaUStext(),
+        TTSUS(),
       ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈkrækl/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakcrackle(String languageCode) async {
+    // DOPSUM: CHANGE speakcrackle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("crackle"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcrackle("en-US"),
     );
   }
 }
@@ -168,8 +212,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A log fire crackled in the hearth."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A log fire crackled in the hearth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrackles2(String languageCode) async {
@@ -177,7 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The radio crackled into life."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The radio crackled into life."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrackles3(String languageCode) async {
@@ -185,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The planes arrived with a crackle of gunfire."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The planes arrived with a crackle of gunfire."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrackles4(String languageCode) async {
@@ -279,16 +325,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: (دەنگ) قرچە، قرچەقرچ، قرچ‌وهۆڕ، شریخەشریخ، شەقەشەق
 """),
-          const DefinitionKurdish(text: "١. (ناو) درووستکردنی دەنگێک کە وەک دەنگی سووتانی شت لە ئاگردا وایە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) درووستکردنی دەنگێک کە وەک دەنگی سووتانی شت لە ئاگردا وایە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "A log fire crackled in the hearth."),
-                    ExampleSentenceKurdish(text: "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا."),
+                        text: "A log fire crackled in the hearth."),
+                    ExampleSentenceKurdish(
+                        text: "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا."),
                   ],
                 ),
               ),
@@ -307,58 +355,56 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The radio crackled into life."),
-          ExampleSentenceKurdish(
-          text: "ڕادیۆکە بە قرچەقرچ کەوتە کار."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrackles2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrackles2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The radio crackled into life."),
+                    ExampleSentenceKurdish(
+                        text: "ڕادیۆکە بە قرچەقرچ کەوتە کار."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrackles2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrackles2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دەنگی قرچەقرچ، هتد"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The planes arrived with a crackle of gunfire."),
-          ExampleSentenceKurdish(
-          text: "فڕۆکە بە زرمەزرمی تەقەوە هاتن."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrackles3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrackles3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The planes arrived with a crackle of gunfire."),
+                    ExampleSentenceKurdish(
+                        text: "فڕۆکە بە زرمەزرمی تەقەوە هاتن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrackles3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrackles3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

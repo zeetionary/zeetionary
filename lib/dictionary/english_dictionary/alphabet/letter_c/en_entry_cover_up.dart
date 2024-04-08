@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -85,7 +85,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cover-up");
+    return const EntryTitle(word: "coverup");
   }
 }
 
@@ -96,12 +96,39 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cover-up");
+    return const AlsoEnglish(word: "also: coverup");
   }
 }
 
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUKtext(),
+        TTSUK(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌvər ʌp/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -112,24 +139,46 @@ class IpaUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cover-up"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coverup"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkʌvər ʌp/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcoverup("en-GB"),
-        ),
-      ],
+    return CustomIconButtonBritish(
+      onPressed: () => speakcoverup("en-GB"),
     );
   }
 }
 
 class IpaUS extends StatelessWidget {
-  IpaUS({
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUStext(),
+        TTSUS(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈkʌvər ʌp/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
     super.key,
   });
 
@@ -140,19 +189,12 @@ class IpaUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cover-up"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("coverup"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkʌvər ʌp/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcoverup("en-US"),
-        ),
-      ],
-    );
+    return CustomIconButtonAmerican(onPressed: () => speakcoverup("en-US"),);
   }
 }
 
@@ -169,7 +211,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Government sources denied there had been a deliberate cover-up."); // DOPSUM: CHANGE TEXT
+        "Government sources denied there had been a deliberate coverup."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcoverups2(String languageCode) async {
@@ -289,14 +331,14 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Government sources denied there had been a deliberate cover-up."),
+                            "Government sources denied there had been a deliberate coverup."),
                     ExampleSentenceKurdish(
                         text:
                             "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست هەبێت."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cover-up", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "coverup", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
@@ -357,9 +399,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cover-up (Derived forms: cover-ups)
+- Noun: coverup (Derived forms: coverups)
 1. Concealment that attempts to prevent something scandalous from becoming public
-"some officers refused to take part in the cover-up"
+"some officers refused to take part in the coverup"
 """,
   );
 

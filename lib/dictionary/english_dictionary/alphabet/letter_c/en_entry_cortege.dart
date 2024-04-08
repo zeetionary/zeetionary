@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -88,8 +88,46 @@ class TitleOfEntry extends StatelessWidget {
   }
 }
 
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: cortège");
+  }
+}
+
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUKtext(),
+        TTSUK(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /kɔːˈteʒ/,  /kɔːˈteɪʒ/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -105,19 +143,41 @@ class IpaUK extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUK: /kɔːˈteʒ/,  /kɔːˈteɪʒ/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcortege("en-GB"),
-        ),
-      ],
+    return CustomIconButtonBritish(
+      onPressed: () => speakcortege("en-GB"),
     );
   }
 }
 
 class IpaUS extends StatelessWidget {
-  IpaUS({
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUStext(),
+        TTSUS(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /kɔːrˈteʒ/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
     super.key,
   });
 
@@ -128,19 +188,12 @@ class IpaUS extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cortege"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cortège"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUS: /kɔːrˈteʒ/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcortege("en-US"),
-        ),
-      ],
-    );
+    return CustomIconButtonAmerican(onPressed: () => speakcortege("en-US"),);
   }
 }
 

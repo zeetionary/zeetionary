@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -101,58 +101,100 @@ class TitleOfEntryAlso extends StatelessWidget {
 }
 
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
     super.key,
   });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakcoupon(String languageCode) async {
-    // DOPSUM: CHANGE speakcoupon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coupon"); // DOPSUM: CHANGE TEXT
-  }
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkuːpɒn/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcoupon("en-GB"),
-        ),
+        const IpaUKtext(),
+        TTSUK(),
       ],
     );
   }
 }
 
-class IpaUS extends StatelessWidget {
-  IpaUS({
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈkuːpɒn/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcoupon(String languageCode) async {
-    // DOPSUM: CHANGE speakcoupon
+  Future<void> speakdopsum1(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("coupon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
   }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakdopsum1("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkuːpɑːn/,  /ˈkjuːpɑːn/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcoupon("en-US"),
-        ),
+        const IpaUStext(),
+        TTSUS(),
       ],
     );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈkuːpɑːn/,  /ˈkjuːpɑːn/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakdopsum1(String languageCode) async {
+    // DOPSUM: CHANGE speakdopsum1
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(onPressed: () => speakdopsum1("en-US"),);
   }
 }
 

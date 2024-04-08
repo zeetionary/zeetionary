@@ -56,13 +56,13 @@ class EntryAndIPA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         children: [
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Row(
+              Row(
                 children: [
                   TitleOfEntry(),
                 ],
@@ -101,7 +101,34 @@ class TitleOfEntryAlso extends StatelessWidget {
 }
 
 class IpaUK extends StatelessWidget {
-  IpaUK({
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUKtext(),
+        TTSUK(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈkɜːtiəs/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
     super.key,
   });
 
@@ -117,19 +144,41 @@ class IpaUK extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUK: /ˈkɜːtiəs/"),
-        CustomIconButtonBritish(
-          onPressed: () => speakcourteous("en-GB"),
-        ),
-      ],
+    return CustomIconButtonBritish(
+      onPressed: () => speakcourteous("en-GB"),
     );
   }
 }
 
 class IpaUS extends StatelessWidget {
-  IpaUS({
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUStext(),
+        TTSUS(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈkɜːrtiəs/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
     super.key,
   });
 
@@ -145,16 +194,10 @@ class IpaUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        const IPAofEnglish(text: "IpaUS: /ˈkɜːrtiəs/"),
-        CustomIconButtonAmerican(
-          onPressed: () => speakcourteous("en-US"),
-        ),
-      ],
-    );
+    return CustomIconButtonAmerican(onPressed: () => speakcourteous("en-US"),);
   }
 }
+
 
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({

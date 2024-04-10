@@ -194,7 +194,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakabound("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakabound("en-US"),
+    );
   }
 }
 
@@ -322,43 +324,41 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Stories about his travels abound."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA321("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA321("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    );
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Stories about his travels abound."),
+                    ExampleSentenceKurdish(
+                        text: "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakA321("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakA321("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
 

@@ -1,102 +1,17 @@
-// replace these: EnglishEntryabove - speakAbove - above - /əˈbʌv/
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
 class EnglishEntryabove extends StatelessWidget {
-  EnglishEntryabove({super.key});
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakAbove(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("above"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA1249(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Please write to us at the above address."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speak1529(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("children aged 12 and above"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speak9221(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Seen from above the cars looked tiny."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA2477(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Put it on the shelf above."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA6641(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She's not above lying when it suits her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA2886(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I rate her above most other players of her age."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA337(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Temperatures have been above average."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA6224(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A captain in the navy ranks above a captain in the army."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA3447(String languageCode) async {
-    // DOPSUM: CHANGE speakAbove
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We were flying above the clouds."); // DOPSUM: CHANGE TEXT
-  }
+  const EnglishEntryabove({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -107,44 +22,9 @@ class EnglishEntryabove extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word: "above"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈbʌv/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbove("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbʌv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbove("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+              const EntryAndIPA(),
               const CustomTabBar(
                 tabs: [
                   UkIconForTab(),
@@ -155,8 +35,363 @@ class EnglishEntryabove extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+                    const EnglishMeaning(),
+                    KurdishMeaning(),
+                    const YoutubeVideos(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // const TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "above");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: above");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUKtext(),
+        TTSUK(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /əˈbʌv/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabove(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("above"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakabove("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        const IpaUStext(),
+        TTSUS(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /əˈbʌv/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabove(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("above"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(onPressed: () => speakabove("en-US"),);
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakaboves1(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "// speakaboves111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves2(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves3(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves4(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves5(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves6(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves7(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves8(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves9(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves10(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves11(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves12(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakaboves13(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakaboves1300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA1249(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Please write to us at the above address."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speak1529(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("children aged 12 and above"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speak9221(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Seen from above the cars looked tiny."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA2477(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Put it on the shelf above."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA6641(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She's not above lying when it suits her."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA2886(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I rate her above most other players of her age."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA337(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Temperatures have been above average."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA6224(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A captain in the navy ranks above a captain in the army."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA3447(String languageCode) async {
+    // DOPSUM: CHANGE speakabove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We were flying above the clouds."); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -428,29 +663,7 @@ class EnglishEntryabove extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedend()
-                      ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
+                    );
   }
 }
 
@@ -483,7 +696,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -493,7 +706,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Preposition: above
@@ -792,4 +1005,45 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+// speakaboves111111111111111111111111111111111
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        YoutubeEmbeddedsix(),
+        YoutubeEmbeddedseven(),
+        YoutubeEmbeddedeight(),
+        YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB
+
+
+
+

@@ -17,7 +17,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBluetooth(String languageCode) async {
+  Future<void> speakbluetooth(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("Bluetooth"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths1(String languageCode) async {
+  Future<void> speakbluetooths1(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
         "Pair your phone with Bluetooth speakers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths2(String languageCode) async {
+  Future<void> speakbluetooths2(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("speakBluetooths22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths3(String languageCode) async {
+  Future<void> speakbluetooths3(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("speakBluetooths33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths4(String languageCode) async {
+  Future<void> speakbluetooths4(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("speakBluetooths44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths5(String languageCode) async {
+  Future<void> speakbluetooths5(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("speakBluetooths55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths6(String languageCode) async {
+  Future<void> speakbluetooths6(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
     await flutterTts.speak("speakBluetooths66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBluetooths7(String languageCode) async {
+  Future<void> speakbluetooths7(String languageCode) async {
     // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -109,7 +109,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbluːtuːθ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBluetooth("en-GB"),
+                              onPressed: () => speakbluetooth("en-GB"),
                             ),
                           ],
                         ),
@@ -117,7 +117,7 @@ class EnglishEntrybluetooth extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbluːtuːθ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBluetooth("en-US"),
+                              onPressed: () => speakbluetooth("en-US"),
                             ),
                           ],
                         ),
@@ -163,10 +163,10 @@ class EnglishEntrybluetooth extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBluetooths1("en-GB"),
+                                    onPressed: () => speakbluetooths1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBluetooths1("en-US"),
+                                    onPressed: () => speakbluetooths1("en-US"),
                                   ),
                                 ],
                               ),

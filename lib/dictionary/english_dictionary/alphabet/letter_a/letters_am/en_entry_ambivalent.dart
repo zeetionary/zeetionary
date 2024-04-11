@@ -11,7 +11,7 @@ class EnglishEntryambivalent extends StatelessWidget {
   EnglishEntryambivalent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbivalent(String languageCode) async {
+  Future<void> speakambivalent(String languageCode) async {
     // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambivalent extends StatelessWidget {
     await flutterTts.speak("ambivalent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbivalent4633(String languageCode) async {
+  Future<void> speakambivalent4633(String languageCode) async {
     // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambivalent extends StatelessWidget {
         "She seems to feel ambivalent about her new job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbivalent46777(String languageCode) async {
+  Future<void> speakambivalent46777(String languageCode) async {
     // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryambivalent extends StatelessWidget {
         "The party's position on nuclear weapons is deeply ambivalent."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmbivalent(String languageCode) async {
+  // Future<void> speakambivalent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbivalent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbɪvələnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbivalent("en-GB"),
+                              onPressed: () => speakambivalent("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbɪvələnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbivalent("en-US"),
+                              onPressed: () => speakambivalent("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbivalent4633("en-GB"),
+                                        speakambivalent4633("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbivalent4633(
+                                    onPressed: () => speakambivalent4633(
                                         // REPLACE: ambivalent /æmˈbɪvələnt/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbivalent46777("en-GB"),
+                                        speakambivalent46777("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbivalent46777(
+                                    onPressed: () => speakambivalent46777(
                                         // REPLACE: ambivalent /æmˈbɪvələnt/
                                         "en-US"),
                                   ),

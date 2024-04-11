@@ -11,7 +11,7 @@ class EnglishEntryalmost extends StatelessWidget {
   EnglishEntryalmost({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlmost(String languageCode) async {
+  Future<void> speakalmost(String languageCode) async {
     // DOPSUM: CHANGE speakAlmost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.speak("almost"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmost4211(String languageCode) async {
+  Future<void> speakalmost4211(String languageCode) async {
     // DOPSUM: CHANGE speakAlmost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryalmost extends StatelessWidget {
     await flutterTts.speak("I like almost all of them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmost2489(String languageCode) async {
+  Future<void> speakalmost2489(String languageCode) async {
     // DOPSUM: CHANGE speakAlmost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalmost extends StatelessWidget {
         "The castle is almost entirely surrounded by water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmost4958(String languageCode) async {
+  Future<void> speakalmost4958(String languageCode) async {
     // DOPSUM: CHANGE speakAlmost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːlməʊst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlmost("en-GB"),
+                              onPressed: () => speakalmost("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlməʊst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmost("en-US"),
+                              onPressed: () => speakalmost("en-US"),
                             ),
                           ],
                         ),
@@ -128,10 +128,10 @@ class EnglishEntryalmost extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmost4211("en-GB"),
+                                    onPressed: () => speakalmost4211("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmost4211(
+                                    onPressed: () => speakalmost4211(
                                         // REPLACE: almost /ˈɔːlməʊst/
                                         "en-US"),
                                   ),
@@ -158,10 +158,10 @@ class EnglishEntryalmost extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmost2489("en-GB"),
+                                    onPressed: () => speakalmost2489("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmost2489(
+                                    onPressed: () => speakalmost2489(
                                         // REPLACE: almost /ˈɔːlməʊst/
                                         "en-US"),
                                   ),
@@ -187,10 +187,10 @@ class EnglishEntryalmost extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmost4958("en-GB"),
+                                    onPressed: () => speakalmost4958("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmost4958(
+                                    onPressed: () => speakalmost4958(
                                         // REPLACE: almost /ˈɔːlməʊst/
                                         "en-US"),
                                   ),

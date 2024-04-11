@@ -20,7 +20,7 @@ class EnglishEntrycontralto extends StatelessWidget {
   }
 
   Future<void> speakContralto6955(String languageCode) async {
-    // DOPSUM: CHANGE speakAlto
+    // DOPSUM: CHANGE lto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -19,7 +19,7 @@ class EnglishEntrybeak extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeak(String languageCode) async {
+  Future<void> speakbeak(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeak extends StatelessWidget {
     await flutterTts.speak("beak"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks1(String languageCode) async {
+  Future<void> speakbeaks1(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeak extends StatelessWidget {
         .speak("The gull held the fish in its beak."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks2(String languageCode) async {
+  Future<void> speakbeaks2(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeak extends StatelessWidget {
         "He'd be handsome if it wasn't for that huge beak of his."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks3(String languageCode) async {
+  Future<void> speakbeaks3(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeak extends StatelessWidget {
         "The defendant appeared before the beak for a bail hearing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks4(String languageCode) async {
+  Future<void> speakbeaks4(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybeak extends StatelessWidget {
     await flutterTts.speak("speakBeaks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks5(String languageCode) async {
+  Future<void> speakbeaks5(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybeak extends StatelessWidget {
     await flutterTts.speak("speakBeaks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks6(String languageCode) async {
+  Future<void> speakbeaks6(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybeak extends StatelessWidget {
     await flutterTts.speak("speakBeaks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeaks7(String languageCode) async {
+  Future<void> speakbeaks7(String languageCode) async {
     // DOPSUM: CHANGE speakBeak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybeak extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /biːk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeak("en-GB"),
+                              onPressed: () => speakbeak("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybeak extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /biːk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeak("en-US"),
+                              onPressed: () => speakbeak("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybeak extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeaks1("en-GB"),
+                                    onPressed: () => speakbeaks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeaks1("en-US"),
+                                    onPressed: () => speakbeaks1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybeak extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeaks2("en-GB"),
+                                    onPressed: () => speakbeaks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeaks2("en-US"),
+                                    onPressed: () => speakbeaks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybeak extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeaks3("en-GB"),
+                                    onPressed: () => speakbeaks3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeaks3("en-US"),
+                                    onPressed: () => speakbeaks3("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntrybattleship extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBattleship(String languageCode) async {
+  Future<void> speakbattleship(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("battleship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships1(String languageCode) async {
+  Future<void> speakbattleships1(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybattleship extends StatelessWidget {
         .speak("A plane sunk the battleship at sea."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships2(String languageCode) async {
+  Future<void> speakbattleships2(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("speakBattleships22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships3(String languageCode) async {
+  Future<void> speakbattleships3(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("speakBattleships33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships4(String languageCode) async {
+  Future<void> speakbattleships4(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("speakBattleships44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships5(String languageCode) async {
+  Future<void> speakbattleships5(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("speakBattleships55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships6(String languageCode) async {
+  Future<void> speakbattleships6(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybattleship extends StatelessWidget {
     await flutterTts.speak("speakBattleships66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattleships7(String languageCode) async {
+  Future<void> speakbattleships7(String languageCode) async {
     // DOPSUM: CHANGE speakBattleship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybattleship extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbætlʃɪp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBattleship("en-GB"),
+                              onPressed: () => speakbattleship("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybattleship extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbætlʃɪp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBattleship("en-US"),
+                              onPressed: () => speakbattleship("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybattleship extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattleships1("en-GB"),
+                                    onPressed: () => speakbattleships1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattleships1("en-US"),
+                                    onPressed: () => speakbattleships1("en-US"),
                                   ),
                                 ],
                               ),

@@ -13,7 +13,7 @@ class EnglishEntryanticipate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticipate(String languageCode) async {
+  Future<void> speakanticipate(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanticipate extends StatelessWidget {
     await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticipate1032(String languageCode) async {
+  Future<void> speakanticipate1032(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanticipate extends StatelessWidget {
         .speak("Our anticipated arrival time is 8.30."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticipate1033(String languageCode) async {
+  Future<void> speakanticipate1033(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryanticipate extends StatelessWidget {
         .speak("I don't anticipate it being a problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticipate1036(String languageCode) async {
+  Future<void> speakanticipate1036(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryanticipate extends StatelessWidget {
         "Try and anticipate what the interviewers will ask."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticipate1038(String languageCode) async {
+  Future<void> speakanticipate1038(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryanticipate extends StatelessWidget {
         "We eagerly anticipated the day we would leave school."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticipate1040(String languageCode) async {
+  Future<void> speakanticipate1040(String languageCode) async {
     // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryanticipate extends StatelessWidget {
         "When Scott reached the South Pole he found that Amundsen had anticipated him."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticipate(String languageCode) async {
+  // Future<void> speakanticipate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryanticipate extends StatelessWidget {
   //   await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticipate(String languageCode) async {
+  // Future<void> speakanticipate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryanticipate extends StatelessWidget {
   //   await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticipate(String languageCode) async {
+  // Future<void> speakanticipate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɪsɪpeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticipate("en-GB"),
+                              onPressed: () => speakanticipate("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɪsɪpeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticipate("en-US"),
+                              onPressed: () => speakanticipate("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticipate1032("en-GB"),
+                                        speakanticipate1032("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticipate1032(
+                                    onPressed: () => speakanticipate1032(
                                         // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticipate1033("en-GB"),
+                                        speakanticipate1033("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticipate1033(
+                                    onPressed: () => speakanticipate1033(
                                         // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                         "en-US"),
                                   ),
@@ -243,10 +243,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticipate1036("en-GB"),
+                                        speakanticipate1036("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticipate1036(
+                                    onPressed: () => speakanticipate1036(
                                         // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                         "en-US"),
                                   ),
@@ -277,10 +277,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticipate1038("en-GB"),
+                                        speakanticipate1038("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticipate1038(
+                                    onPressed: () => speakanticipate1038(
                                         // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                         "en-US"),
                                   ),
@@ -311,10 +311,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticipate1040("en-GB"),
+                                        speakanticipate1040("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticipate1040(
+                                    onPressed: () => speakanticipate1040(
                                         // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                         "en-US"),
                                   ),

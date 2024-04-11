@@ -19,7 +19,7 @@ class EnglishEntrybeady extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeady(String languageCode) async {
+  Future<void> speakbeady(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("beady"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys1(String languageCode) async {
+  Future<void> speakbeadys1(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeady extends StatelessWidget {
         "I shall certainly keep a beady eye on his behaviour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys2(String languageCode) async {
+  Future<void> speakbeadys2(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("speakBeadys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys3(String languageCode) async {
+  Future<void> speakbeadys3(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("speakBeadys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys4(String languageCode) async {
+  Future<void> speakbeadys4(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("speakBeadys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys5(String languageCode) async {
+  Future<void> speakbeadys5(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("speakBeadys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys6(String languageCode) async {
+  Future<void> speakbeadys6(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybeady extends StatelessWidget {
     await flutterTts.speak("speakBeadys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeadys7(String languageCode) async {
+  Future<void> speakbeadys7(String languageCode) async {
     // DOPSUM: CHANGE speakBeady
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybeady extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːdi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeady("en-GB"),
+                              onPressed: () => speakbeady("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybeady extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːdi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeady("en-US"),
+                              onPressed: () => speakbeady("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybeady extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeadys1("en-GB"),
+                                    onPressed: () => speakbeadys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeadys1("en-US"),
+                                    onPressed: () => speakbeadys1("en-US"),
                                   ),
                                 ],
                               ),

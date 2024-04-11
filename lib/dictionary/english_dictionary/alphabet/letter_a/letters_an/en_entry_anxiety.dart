@@ -15,7 +15,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnxiety(String languageCode) async {
+  Future<void> speakanxiety(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety651(String languageCode) async {
+  Future<void> speakanxiety651(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryanxiety extends StatelessWidget {
         "Some hospital patients experience high levels of anxiety."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety656(String languageCode) async {
+  Future<void> speakanxiety656(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryanxiety extends StatelessWidget {
         "A lot of anxiety surrounds the issue of human cloning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety700(String languageCode) async {
+  Future<void> speakanxiety700(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryanxiety extends StatelessWidget {
         "Some people are feeling the pressure and suffering from anxiety and depression."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety705(String languageCode) async {
+  Future<void> speakanxiety705(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryanxiety extends StatelessWidget {
         "If you're worried about your health, share your anxieties with your doctor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety708(String languageCode) async {
+  Future<void> speakanxiety708(String languageCode) async {
     // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanxiety extends StatelessWidget {
         "A couple of photographers fell over themselves in their anxiety to get a shot of her."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnxiety(String languageCode) async {
+  // Future<void> speakanxiety(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxiety
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiety(String languageCode) async {
+  // Future<void> speakanxiety(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxiety
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryanxiety extends StatelessWidget {
   //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiety(String languageCode) async {
+  // Future<void> speakanxiety(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxiety
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 text:
                                     "IpaUK: /æŋˈzaɪəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnxiety("en-GB"),
+                              onPressed: () => speakanxiety("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 text:
                                     "IpaUS: /æŋˈzaɪəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnxiety("en-US"),
+                              onPressed: () => speakanxiety("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxiety651("en-GB"),
+                                    onPressed: () => speakanxiety651("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxiety651(
+                                    onPressed: () => speakanxiety651(
                                         // REPLACE: anxiety /æŋˈzaɪəti/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxiety656("en-GB"),
+                                    onPressed: () => speakanxiety656("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxiety656(
+                                    onPressed: () => speakanxiety656(
                                         // REPLACE: anxiety /æŋˈzaɪəti/
                                         "en-US"),
                                   ),
@@ -246,10 +246,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxiety700("en-GB"),
+                                    onPressed: () => speakanxiety700("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxiety700(
+                                    onPressed: () => speakanxiety700(
                                         // REPLACE: anxiety /æŋˈzaɪəti/
                                         "en-US"),
                                   ),
@@ -279,10 +279,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxiety705("en-GB"),
+                                    onPressed: () => speakanxiety705("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxiety705(
+                                    onPressed: () => speakanxiety705(
                                         // REPLACE: anxiety /æŋˈzaɪəti/
                                         "en-US"),
                                   ),
@@ -312,10 +312,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxiety708("en-GB"),
+                                    onPressed: () => speakanxiety708("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxiety708(
+                                    onPressed: () => speakanxiety708(
                                         // REPLACE: anxiety /æŋˈzaɪəti/
                                         "en-US"),
                                   ),

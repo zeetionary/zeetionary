@@ -19,7 +19,7 @@ class EnglishEntryassorted extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssorted(String languageCode) async {
+  Future<void> speakassorted(String languageCode) async {
     // DOPSUM: CHANGE speakAssorted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassorted extends StatelessWidget {
     await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssorted822(String languageCode) async {
+  Future<void> speakassorted822(String languageCode) async {
     // DOPSUM: CHANGE speakAssorted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassorted extends StatelessWidget {
         "The meat is served with salad or assorted vegetables."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryassorted extends StatelessWidget {
   //   await flutterTts.speak("assorted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssorted(String languageCode) async {
+  // Future<void> speakassorted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssorted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryassorted extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɔːtɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssorted("en-GB"),
+                              onPressed: () => speakassorted("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryassorted extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɔːrtɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssorted("en-US"),
+                              onPressed: () => speakassorted("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryassorted extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssorted822("en-GB"),
+                                    onPressed: () => speakassorted822("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssorted822(
+                                    onPressed: () => speakassorted822(
                                         // REPLACE: assorted /əˈsɔːrtɪd/
                                         "en-US"),
                                   ),

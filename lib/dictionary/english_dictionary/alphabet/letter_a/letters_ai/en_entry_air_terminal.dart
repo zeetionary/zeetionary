@@ -11,7 +11,7 @@ class EnglishEntryairterminal extends StatelessWidget {
   EnglishEntryairterminal({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirterminal(String languageCode) async {
+  Future<void> speakairterminal(String languageCode) async {
     // DOPSUM: CHANGE speakAirterminal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairterminal extends StatelessWidget {
     await flutterTts.speak("air terminal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirterminal3566(String languageCode) async {
+  Future<void> speakairterminal3566(String languageCode) async {
     // DOPSUM: CHANGE speakAirterminal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairterminal extends StatelessWidget {
         "Passengers are conveyed by bus to the air terminal."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirterminal(String languageCode) async {
+  // Future<void> speakairterminal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirterminal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairterminal extends StatelessWidget {
   //   await flutterTts.speak("air terminal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirterminal(String languageCode) async {
+  // Future<void> speakairterminal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirterminal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeə tɜːmɪnl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirterminal("en-GB"),
+                              onPressed: () => speakairterminal("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer tɜːrmɪnl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirterminal("en-US"),
+                              onPressed: () => speakairterminal("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirterminal3566("en-GB"),
+                                        speakairterminal3566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirterminal3566(
+                                    onPressed: () => speakairterminal3566(
                                         // REPLACE: air terminal /ˈer tɜːrmɪnl/
                                         "en-US"),
                                   ),

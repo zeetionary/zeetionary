@@ -17,7 +17,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApplicable(String languageCode) async {
+  Future<void> speakapplicable(String languageCode) async {
     // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapplicable extends StatelessWidget {
     await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApplicable646(String languageCode) async {
+  Future<void> speakapplicable646(String languageCode) async {
     // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapplicable extends StatelessWidget {
         "Much of the form was not applicable (= did not apply) to me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApplicable648(String languageCode) async {
+  Future<void> speakapplicable648(String languageCode) async {
     // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapplicable extends StatelessWidget {
         .speak("The law is applicable to everyone."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapplicable extends StatelessWidget {
   //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplicable(String languageCode) async {
+  // Future<void> speakapplicable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɪkəbl/, /ˈæplɪkəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApplicable("en-GB"),
+                              onPressed: () => speakapplicable("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæplɪkəbl/, /əˈplɪkəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApplicable("en-US"),
+                              onPressed: () => speakapplicable("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApplicable646("en-GB"),
+                                        speakapplicable646("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApplicable646(
+                                    onPressed: () => speakapplicable646(
                                         // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApplicable648("en-GB"),
+                                        speakapplicable648("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApplicable648(
+                                    onPressed: () => speakapplicable648(
                                         // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
                                         "en-US"),
                                   ),

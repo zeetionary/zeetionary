@@ -19,7 +19,7 @@ class EnglishEntryairplane extends StatelessWidget {
     await flutterTts.speak("airplane"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAerop3658(String languageCode) async {
+  Future<void> speakaerop3658(String languageCode) async {
     // DOPSUM: CHANGE speakairplane
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -130,10 +130,10 @@ class EnglishEntryairplane extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAerop3658("en-GB"),
+                                    onPressed: () => speakaerop3658("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAerop3658(
+                                    onPressed: () => speakaerop3658(
                                         // REPLACE: airplane /ˈerəpleɪn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryadore extends StatelessWidget {
   EnglishEntryadore({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdore(String languageCode) async {
+  Future<void> speakadore(String languageCode) async {
     // DOPSUM: CHANGE speakAdore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadore extends StatelessWidget {
     await flutterTts.speak("adore"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdore45821(String languageCode) async {
+  Future<void> speakadore45821(String languageCode) async {
     // DOPSUM: CHANGE speakAdore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadore extends StatelessWidget {
         .speak("It's obvious that she adores him."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdore(String languageCode) async {
+  // Future<void> speakadore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadore extends StatelessWidget {
   //   await flutterTts.speak("adore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdore(String languageCode) async {
+  // Future<void> speakadore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadore extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɔː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdore("en-GB"),
+                              onPressed: () => speakadore("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadore extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɔːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdore("en-US"),
+                              onPressed: () => speakadore("en-US"),
                             ),
                           ],
                         ),
@@ -126,10 +126,10 @@ class EnglishEntryadore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdore45821("en-GB"),
+                                    onPressed: () => speakadore45821("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdore45821(
+                                    onPressed: () => speakadore45821(
                                         // REPLACE: adore /əˈdɔːr/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryargument extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArgument(String languageCode) async {
+  Future<void> speakargument(String languageCode) async {
     // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryargument extends StatelessWidget {
     await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArgument1032(String languageCode) async {
+  Future<void> speakargument1032(String languageCode) async {
     // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryargument extends StatelessWidget {
         "After some heated argument a decision was finally taken."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArgument1033(String languageCode) async {
+  Future<void> speakargument1033(String languageCode) async {
     // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryargument extends StatelessWidget {
         "She got into an argument with the teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArgument1039(String languageCode) async {
+  Future<void> speakargument1039(String languageCode) async {
     // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryargument extends StatelessWidget {
         "There are strong arguments for and against euthanasia."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArgument1042(String languageCode) async {
+  Future<void> speakargument1042(String languageCode) async {
     // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryargument extends StatelessWidget {
         "Let's assume for the sake of argument that we can't start till March."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArgument(String languageCode) async {
+  // Future<void> speakargument(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgument(String languageCode) async {
+  // Future<void> speakargument(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgument(String languageCode) async {
+  // Future<void> speakargument(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryargument extends StatelessWidget {
   //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgument(String languageCode) async {
+  // Future<void> speakargument(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryargument extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːɡjumənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArgument("en-GB"),
+                              onPressed: () => speakargument("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryargument extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrɡjumənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArgument("en-US"),
+                              onPressed: () => speakargument("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryargument extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArgument1032("en-GB"),
+                                    onPressed: () => speakargument1032("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArgument1032(
+                                    onPressed: () => speakargument1032(
                                         // REPLACE: argument /ˈɑːrɡjumənt/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryargument extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArgument1033("en-GB"),
+                                    onPressed: () => speakargument1033("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArgument1033(
+                                    onPressed: () => speakargument1033(
                                         // REPLACE: argument /ˈɑːrɡjumənt/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryargument extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArgument1039("en-GB"),
+                                    onPressed: () => speakargument1039("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArgument1039(
+                                    onPressed: () => speakargument1039(
                                         // REPLACE: argument /ˈɑːrɡjumənt/
                                         "en-US"),
                                   ),
@@ -280,10 +280,10 @@ class EnglishEntryargument extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArgument1042("en-GB"),
+                                    onPressed: () => speakargument1042("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArgument1042(
+                                    onPressed: () => speakargument1042(
                                         // REPLACE: argument /ˈɑːrɡjumənt/
                                         "en-US"),
                                   ),

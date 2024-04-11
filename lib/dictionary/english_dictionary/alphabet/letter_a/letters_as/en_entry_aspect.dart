@@ -19,7 +19,7 @@ class EnglishEntryaspect extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAspect(String languageCode) async {
+  Future<void> speakaspect(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaspect extends StatelessWidget {
     await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspect455(String languageCode) async {
+  Future<void> speakaspect455(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaspect extends StatelessWidget {
         "The book aims to cover all aspects of city life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspect456(String languageCode) async {
+  Future<void> speakaspect456(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaspect extends StatelessWidget {
         "She felt she had looked at the problem from every aspect."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspect458(String languageCode) async {
+  Future<void> speakaspect458(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaspect extends StatelessWidget {
         "The glasses and the beard lend him a rather scholarly aspect."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspect500(String languageCode) async {
+  Future<void> speakaspect500(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaspect extends StatelessWidget {
         .speak("Our room had a western aspect."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspect508(String languageCode) async {
+  Future<void> speakaspect508(String languageCode) async {
     // DOPSUM: CHANGE speakAspect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaspect extends StatelessWidget {
         "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAspect(String languageCode) async {
+  // Future<void> speakaspect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryaspect extends StatelessWidget {
   //   await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspect(String languageCode) async {
+  // Future<void> speakaspect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryaspect extends StatelessWidget {
   //   await flutterTts.speak("aspect"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspect(String languageCode) async {
+  // Future<void> speakaspect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryaspect extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæspekt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAspect("en-GB"),
+                              onPressed: () => speakaspect("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryaspect extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæspekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAspect("en-US"),
+                              onPressed: () => speakaspect("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryaspect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspect455("en-GB"),
+                                    onPressed: () => speakaspect455("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspect455(
+                                    onPressed: () => speakaspect455(
                                         // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryaspect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspect456("en-GB"),
+                                    onPressed: () => speakaspect456("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspect456(
+                                    onPressed: () => speakaspect456(
                                         // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryaspect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspect458("en-GB"),
+                                    onPressed: () => speakaspect458("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspect458(
+                                    onPressed: () => speakaspect458(
                                         // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryaspect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspect500("en-GB"),
+                                    onPressed: () => speakaspect500("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspect500(
+                                    onPressed: () => speakaspect500(
                                         // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryaspect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspect508("en-GB"),
+                                    onPressed: () => speakaspect508("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspect508(
+                                    onPressed: () => speakaspect508(
                                         // REPLACE: aspect /ˈæspekt/
                                         "en-US"),
                                   ),

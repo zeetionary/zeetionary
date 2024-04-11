@@ -11,7 +11,7 @@ class EnglishEntryalgae extends StatelessWidget {
   EnglishEntryalgae({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlgae(String languageCode) async {
+  Future<void> speakalgae(String languageCode) async {
     // DOPSUM: CHANGE speakAlgae
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalgae extends StatelessWidget {
     await flutterTts.speak("algae"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlgae4524(String languageCode) async {
+  Future<void> speakalgae4524(String languageCode) async {
     // DOPSUM: CHANGE speakAlgae
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalgae extends StatelessWidget {
         "Algae has clogged the intake to the water turbine."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlgae(String languageCode) async {
+  // Future<void> speakalgae(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgae
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalgae extends StatelessWidget {
   //   await flutterTts.speak("algae"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlgae(String languageCode) async {
+  // Future<void> speakalgae(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgae
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈældʒiː/, /ˈælɡiː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlgae("en-GB"),
+                              onPressed: () => speakalgae("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈældʒiː/, /ˈælɡiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlgae("en-US"),
+                              onPressed: () => speakalgae("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalgae extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlgae4524("en-GB"),
+                                    onPressed: () => speakalgae4524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlgae4524(
+                                    onPressed: () => speakalgae4524(
                                         // REPLACE: algae /ˈældʒiː/, /ˈælɡiː/
                                         "en-US"),
                                   ),

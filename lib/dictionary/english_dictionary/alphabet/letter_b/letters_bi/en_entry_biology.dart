@@ -19,7 +19,7 @@ class EnglishEntrybiology extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiology(String languageCode) async {
+  Future<void> speakbiology(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiology extends StatelessWidget {
     await flutterTts.speak("biology"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys1(String languageCode) async {
+  Future<void> speakbiologys1(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiology extends StatelessWidget {
         "The book deals with the reproductive biology of the lion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys2(String languageCode) async {
+  Future<void> speakbiologys2(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybiology extends StatelessWidget {
         "How far is human nature determined by biology?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys3(String languageCode) async {
+  Future<void> speakbiologys3(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybiology extends StatelessWidget {
     await flutterTts.speak("speakBiologys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys4(String languageCode) async {
+  Future<void> speakbiologys4(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybiology extends StatelessWidget {
     await flutterTts.speak("speakBiologys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys5(String languageCode) async {
+  Future<void> speakbiologys5(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybiology extends StatelessWidget {
     await flutterTts.speak("speakBiologys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys6(String languageCode) async {
+  Future<void> speakbiologys6(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybiology extends StatelessWidget {
     await flutterTts.speak("speakBiologys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologys7(String languageCode) async {
+  Future<void> speakbiologys7(String languageCode) async {
     // DOPSUM: CHANGE speakBiology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybiology extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /baɪˈɒlədʒi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiology("en-GB"),
+                              onPressed: () => speakbiology("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybiology extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /baɪˈɑːlədʒi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiology("en-US"),
+                              onPressed: () => speakbiology("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybiology extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiologys1("en-GB"),
+                                    onPressed: () => speakbiologys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiologys1("en-US"),
+                                    onPressed: () => speakbiologys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybiology extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiologys2("en-GB"),
+                                    onPressed: () => speakbiologys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiologys2("en-US"),
+                                    onPressed: () => speakbiologys2("en-US"),
                                   ),
                                 ],
                               ),

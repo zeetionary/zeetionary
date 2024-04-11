@@ -11,7 +11,7 @@ class EnglishEntryacquire extends StatelessWidget {
   EnglishEntryacquire({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcquire(String languageCode) async {
+  Future<void> speakacquire(String languageCode) async {
     // DOPSUM: CHANGE speakAcquire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacquire extends StatelessWidget {
     await flutterTts.speak("acquire"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc215698(String languageCode) async {
+  Future<void> speakac215698(String languageCode) async {
     // DOPSUM: CHANGE speakAcquire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacquire extends StatelessWidget {
         "She has acquired a good knowledge of English."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA42571(String languageCode) async {
+  Future<void> speaka42571(String languageCode) async {
     // DOPSUM: CHANGE speakAcquire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacquire extends StatelessWidget {
         "He has acquired a reputation for dishonesty."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA25347(String languageCode) async {
+  Future<void> speaka25347(String languageCode) async {
     // DOPSUM: CHANGE speakAcquire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryacquire extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkwaɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquire("en-GB"),
+                              onPressed: () => speakacquire("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryacquire extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquire("en-US"),
+                              onPressed: () => speakacquire("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryacquire extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc215698("en-GB"),
+                                    onPressed: () => speakac215698("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc215698(
+                                    onPressed: () => speakac215698(
                                         "en-US"), // REPLACE acquire /əˈkwaɪər/
                                   ),
                                 ],
@@ -158,10 +158,10 @@ class EnglishEntryacquire extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA42571("en-GB"),
+                                    onPressed: () => speaka42571("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA42571(
+                                    onPressed: () => speaka42571(
                                         "en-US"), // REPLACE acquire /əˈkwaɪər/
                                   ),
                                 ],
@@ -189,10 +189,10 @@ class EnglishEntryacquire extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA25347("en-GB"),
+                                    onPressed: () => speaka25347("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA25347(
+                                    onPressed: () => speaka25347(
                                         "en-US"), // REPLACE acquire /əˈkwaɪər/
                                   ),
                                 ],

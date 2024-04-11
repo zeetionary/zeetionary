@@ -19,7 +19,7 @@ class EnglishEntrybible extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBible(String languageCode) async {
+  Future<void> speakbible(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.speak("bible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles1(String languageCode) async {
+  Future<void> speakbibles1(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybible extends StatelessWidget {
         "In the Bible it says that Adam and Eve were the first human beings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles2(String languageCode) async {
+  Future<void> speakbibles2(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybible extends StatelessWidget {
         "Vogue magazine quickly became the bible of fashionable women."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles3(String languageCode) async {
+  Future<void> speakbibles3(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.speak("speakBibles33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles4(String languageCode) async {
+  Future<void> speakbibles4(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.speak("speakBibles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles5(String languageCode) async {
+  Future<void> speakbibles5(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.speak("speakBibles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles6(String languageCode) async {
+  Future<void> speakbibles6(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybible extends StatelessWidget {
     await flutterTts.speak("speakBibles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibles7(String languageCode) async {
+  Future<void> speakbibles7(String languageCode) async {
     // DOPSUM: CHANGE speakBible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybible extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbaɪbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBible("en-GB"),
+                              onPressed: () => speakbible("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybible extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbaɪbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBible("en-US"),
+                              onPressed: () => speakbible("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBibles1("en-GB"),
+                                    onPressed: () => speakbibles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBibles1("en-US"),
+                                    onPressed: () => speakbibles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -208,10 +208,10 @@ class EnglishEntrybible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBibles2("en-GB"),
+                                    onPressed: () => speakbibles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBibles2("en-US"),
+                                    onPressed: () => speakbibles2("en-US"),
                                   ),
                                 ],
                               ),

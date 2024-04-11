@@ -11,7 +11,7 @@ class EnglishEntryameba extends StatelessWidget {
   EnglishEntryameba({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmeba(String languageCode) async {
+  Future<void> speakameba(String languageCode) async {
     // DOPSUM: CHANGE speakAmeba
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryameba extends StatelessWidget {
     await flutterTts.speak("ameba"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmeba4688(String languageCode) async {
+  Future<void> speakameba4688(String languageCode) async {
     // DOPSUM: CHANGE speakAmeba
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryameba extends StatelessWidget {
         .speak("He is studying the ecology of ameba."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmeba(String languageCode) async {
+  // Future<void> speakameba(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmeba
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryameba extends StatelessWidget {
   //   await flutterTts.speak("ameba"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmeba(String languageCode) async {
+  // Future<void> speakameba(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmeba
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryameba extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmiːbə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmeba("en-GB"),
+                              onPressed: () => speakameba("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryameba extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmiːbə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmeba("en-US"),
+                              onPressed: () => speakameba("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryameba extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmeba4688("en-GB"),
+                                    onPressed: () => speakameba4688("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmeba4688(
+                                    onPressed: () => speakameba4688(
                                         // REPLACE: ameba /əˈmiːbə/
                                         "en-US"),
                                   ),

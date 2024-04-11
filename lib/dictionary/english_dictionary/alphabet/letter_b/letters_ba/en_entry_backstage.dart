@@ -19,7 +19,7 @@ class EnglishEntrybackstage extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakB3(String languageCode) async {
+  Future<void> speakb3(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.speak("backstage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s1(String languageCode) async {
+  Future<void> speakb3s1(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybackstage extends StatelessWidget {
         "After the show, we were allowed to go backstage to meet the cast."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s2(String languageCode) async {
+  Future<void> speakb3s2(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybackstage extends StatelessWidget {
         "The organizers say it's a fair contest but who knows what goes on backstage?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s3(String languageCode) async {
+  Future<void> speakb3s3(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybackstage extends StatelessWidget {
         "The backstage crew worked tirelessly to ensure that the show ran smoothly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s4(String languageCode) async {
+  Future<void> speakb3s4(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybackstage extends StatelessWidget {
         "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s5(String languageCode) async {
+  Future<void> speakb3s5(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.speak("speakB3s55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s6(String languageCode) async {
+  Future<void> speakb3s6(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybackstage extends StatelessWidget {
     await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s7(String languageCode) async {
+  Future<void> speakb3s7(String languageCode) async {
     // DOPSUM: CHANGE speakB3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌbækˈsteɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakB3("en-GB"),
+                              onPressed: () => speakb3("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌbækˈsteɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakB3("en-US"),
+                              onPressed: () => speakb3("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybackstage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakB3s1("en-GB"),
+                                    onPressed: () => speakb3s1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakB3s1(// REPLACE: backstage
+                                        speakb3s1(// REPLACE: backstage
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybackstage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakB3s2("en-GB"),
+                                    onPressed: () => speakb3s2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakB3s2(// REPLACE: backstage
+                                        speakb3s2(// REPLACE: backstage
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybackstage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakB3s3("en-GB"),
+                                    onPressed: () => speakb3s3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakB3s3(// REPLACE: backstage
+                                        speakb3s3(// REPLACE: backstage
                                             "en-US"),
                                   ),
                                 ],
@@ -276,11 +276,11 @@ class EnglishEntrybackstage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakB3s4("en-GB"),
+                                    onPressed: () => speakb3s4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakB3s4(// REPLACE: backstage
+                                        speakb3s4(// REPLACE: backstage
                                             "en-US"),
                                   ),
                                 ],

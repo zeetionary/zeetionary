@@ -17,7 +17,7 @@ class EnglishEntryarise extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArise(String languageCode) async {
+  Future<void> speakarise(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArise1141(String languageCode) async {
+  Future<void> speakarise1141(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarise extends StatelessWidget {
         "An opportunity arose to work in the United States."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArise1144(String languageCode) async {
+  Future<void> speakarise1144(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarise extends StatelessWidget {
         "A serious problem can arise if the heart stops pumping effectively."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArise1145(String languageCode) async {
+  Future<void> speakarise1145(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarise extends StatelessWidget {
         "Violence typically arises out of anger."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArise1147(String languageCode) async {
+  Future<void> speakarise1147(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryarise extends StatelessWidget {
         "Several new industries arose in the town."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArise1149(String languageCode) async {
+  Future<void> speakarise1149(String languageCode) async {
     // DOPSUM: CHANGE speakArise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryarise extends StatelessWidget {
     await flutterTts.speak("He arose at dawn."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArise(String languageCode) async {
+  // Future<void> speakarise(String languageCode) async {
   //   // DOPSUM: CHANGE speakArise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryarise extends StatelessWidget {
   //   await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArise(String languageCode) async {
+  // Future<void> speakarise(String languageCode) async {
   //   // DOPSUM: CHANGE speakArise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryarise extends StatelessWidget {
   //   await flutterTts.speak("arise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArise(String languageCode) async {
+  // Future<void> speakarise(String languageCode) async {
   //   // DOPSUM: CHANGE speakArise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryarise extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈraɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArise("en-GB"),
+                              onPressed: () => speakarise("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryarise extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈraɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArise("en-US"),
+                              onPressed: () => speakarise("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryarise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArise1141("en-GB"),
+                                    onPressed: () => speakarise1141("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArise1141(
+                                    onPressed: () => speakarise1141(
                                         // REPLACE: arise /əˈraɪz/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryarise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArise1144("en-GB"),
+                                    onPressed: () => speakarise1144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArise1144(
+                                    onPressed: () => speakarise1144(
                                         // REPLACE: arise /əˈraɪz/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryarise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArise1145("en-GB"),
+                                    onPressed: () => speakarise1145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArise1145(
+                                    onPressed: () => speakarise1145(
                                         // REPLACE: arise /əˈraɪz/
                                         "en-US"),
                                   ),
@@ -280,10 +280,10 @@ class EnglishEntryarise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArise1147("en-GB"),
+                                    onPressed: () => speakarise1147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArise1147(
+                                    onPressed: () => speakarise1147(
                                         // REPLACE: arise /əˈraɪz/
                                         "en-US"),
                                   ),
@@ -311,10 +311,10 @@ class EnglishEntryarise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArise1149("en-GB"),
+                                    onPressed: () => speakarise1149("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArise1149(
+                                    onPressed: () => speakarise1149(
                                         // REPLACE: arise /əˈraɪz/
                                         "en-US"),
                                   ),

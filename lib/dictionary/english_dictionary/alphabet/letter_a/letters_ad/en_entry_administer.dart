@@ -11,7 +11,7 @@ class EnglishEntryadminister extends StatelessWidget {
   EnglishEntryadminister({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdminister(String languageCode) async {
+  Future<void> speakadminister(String languageCode) async {
     // DOPSUM: CHANGE speakAdminister
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadminister extends StatelessWidget {
     await flutterTts.speak("administer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmini75988(String languageCode) async {
+  Future<void> speakadmini75988(String languageCode) async {
     // DOPSUM: CHANGE speakAdminister
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadminister extends StatelessWidget {
         "The country has to face up to the high cost of administering medical services."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmin2568(String languageCode) async {
+  Future<void> speakadmin2568(String languageCode) async {
     // DOPSUM: CHANGE speakAdminister
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadminister extends StatelessWidget {
         "It is the function of the courts to administer the laws which Parliament has enacted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdm2564(String languageCode) async {
+  Future<void> speakadm2564(String languageCode) async {
     // DOPSUM: CHANGE speakAdminister
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryadminister extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪnɪstə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdminister("en-GB"),
+                              onPressed: () => speakadminister("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryadminister extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪnɪstər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdminister("en-US"),
+                              onPressed: () => speakadminister("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryadminister extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmini75988("en-GB"),
+                                    onPressed: () => speakadmini75988("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmini75988(
+                                    onPressed: () => speakadmini75988(
                                         // REPLACE: administer /ədˈmɪnɪstər/
                                         "en-US"),
                                   ),
@@ -162,10 +162,10 @@ class EnglishEntryadminister extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmin2568("en-GB"),
+                                    onPressed: () => speakadmin2568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmin2568(
+                                    onPressed: () => speakadmin2568(
                                         // REPLACE: administer /ədˈmɪnɪstər/
                                         "en-US"),
                                   ),
@@ -194,10 +194,10 @@ class EnglishEntryadminister extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdm2564("en-GB"),
+                                    onPressed: () => speakadm2564("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdm2564(
+                                    onPressed: () => speakadm2564(
                                         // REPLACE: administer /ədˈmɪnɪstər/
                                         "en-US"),
                                   ),

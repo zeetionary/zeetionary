@@ -13,7 +13,7 @@ class EnglishEntryanthology extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnthology(String languageCode) async {
+  Future<void> speakanthology(String languageCode) async {
     // DOPSUM: CHANGE speakAnthology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanthology extends StatelessWidget {
     await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnthology819(String languageCode) async {
+  Future<void> speakanthology819(String languageCode) async {
     // DOPSUM: CHANGE speakAnthology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanthology extends StatelessWidget {
         "This Michael Jackson anthology includes some rare recordings of his best songs."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanthology extends StatelessWidget {
   //   await flutterTts.speak("anthology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthology(String languageCode) async {
+  // Future<void> speakanthology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanthology extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈθɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthology("en-GB"),
+                              onPressed: () => speakanthology("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanthology extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈθɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthology("en-US"),
+                              onPressed: () => speakanthology("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryanthology extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnthology819("en-GB"),
+                                    onPressed: () => speakanthology819("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnthology819(
+                                    onPressed: () => speakanthology819(
                                         // REPLACE: anthology /ænˈθɑːlədʒi/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsbestos(String languageCode) async {
+  Future<void> speakasbestos(String languageCode) async {
     // DOPSUM: CHANGE speakAsbestos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasbestos extends StatelessWidget {
     await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsbestos1111(String languageCode) async {
+  Future<void> speakasbestos1111(String languageCode) async {
     // DOPSUM: CHANGE speakAsbestos
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasbestos extends StatelessWidget {
         "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryasbestos extends StatelessWidget {
   //   await flutterTts.speak("asbestos"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsbestos(String languageCode) async {
+  // Future<void> speakasbestos(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsbestos
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                                 text:
                                     "IpaUK: /æsˈbestɒs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsbestos("en-GB"),
+                              onPressed: () => speakasbestos("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                                 text:
                                     "IpaUS: /æzˈbestəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsbestos("en-US"),
+                              onPressed: () => speakasbestos("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryasbestos extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsbestos1111("en-GB"),
+                                    onPressed: () => speakasbestos1111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsbestos1111(
+                                    onPressed: () => speakasbestos1111(
                                         // REPLACE: asbestos /æzˈbestəs/
                                         "en-US"),
                                   ),

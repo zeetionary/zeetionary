@@ -11,7 +11,7 @@ class EnglishEntryaffection extends StatelessWidget {
   EnglishEntryaffection({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffection(String languageCode) async {
+  Future<void> speakaffection(String languageCode) async {
     // DOPSUM: CHANGE speakAffection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffection extends StatelessWidget {
     await flutterTts.speak("affection"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffe6811(String languageCode) async {
+  Future<void> speakaffe6811(String languageCode) async {
     // DOPSUM: CHANGE speakAffection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffection extends StatelessWidget {
         "Children need lots of love and affection."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffec3599(String languageCode) async {
+  Future<void> speakaffec3599(String languageCode) async {
     // DOPSUM: CHANGE speakAffection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffection extends StatelessWidget {
         .speak("I have a great affection for New York."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffection(String languageCode) async {
+  // Future<void> speakaffection(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffection
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaffection extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfekʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffection("en-GB"),
+                              onPressed: () => speakaffection("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaffection extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfekʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffection("en-US"),
+                              onPressed: () => speakaffection("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryaffection extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffe6811("en-GB"),
+                                    onPressed: () => speakaffe6811("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffe6811(
+                                    onPressed: () => speakaffe6811(
                                         // REPLACE: affection /əˈfekʃn/
                                         "en-US"),
                                   ),
@@ -161,10 +161,10 @@ class EnglishEntryaffection extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffec3599("en-GB"),
+                                    onPressed: () => speakaffec3599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffec3599(
+                                    onPressed: () => speakaffec3599(
                                         // REPLACE: affection /əˈfekʃn/
                                         "en-US"),
                                   ),

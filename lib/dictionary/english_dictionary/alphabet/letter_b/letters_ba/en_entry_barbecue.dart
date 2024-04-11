@@ -19,7 +19,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarbecue(String languageCode) async {
+  Future<void> speakbarbecue(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
     await flutterTts.speak("barbecue"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues1(String languageCode) async {
+  Future<void> speakbarbecues1(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
         .speak("I put another steak on the barbecue."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues2(String languageCode) async {
+  Future<void> speakbarbecues2(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
     await flutterTts.speak("Let's have a barbecue!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues3(String languageCode) async {
+  Future<void> speakbarbecues3(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
         .speak("We had barbecued chicken wings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues4(String languageCode) async {
+  Future<void> speakbarbecues4(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
     await flutterTts.speak("speakBarbecues44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues5(String languageCode) async {
+  Future<void> speakbarbecues5(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
     await flutterTts.speak("speakBarbecues55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues6(String languageCode) async {
+  Future<void> speakbarbecues6(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
     await flutterTts.speak("speakBarbecues66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbecues7(String languageCode) async {
+  Future<void> speakbarbecues7(String languageCode) async {
     // DOPSUM: CHANGE speakBarbecue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɑːbɪkjuː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarbecue("en-GB"),
+                              onPressed: () => speakbarbecue("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɑːrbɪkjuː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarbecue("en-US"),
+                              onPressed: () => speakbarbecue("en-US"),
                             ),
                           ],
                         ),
@@ -170,11 +170,11 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbecues1("en-GB"),
+                                    onPressed: () => speakbarbecues1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbecues1(// REPLACE: barbecue
+                                        speakbarbecues1(// REPLACE: barbecue
                                             "en-US"),
                                   ),
                                 ],
@@ -201,11 +201,11 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbecues2("en-GB"),
+                                    onPressed: () => speakbarbecues2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbecues2(// REPLACE: barbecue
+                                        speakbarbecues2(// REPLACE: barbecue
                                             "en-US"),
                                   ),
                                 ],
@@ -234,11 +234,11 @@ class EnglishEntrybarbecue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbecues3("en-GB"),
+                                    onPressed: () => speakbarbecues3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbecues3(// REPLACE: barbecue
+                                        speakbarbecues3(// REPLACE: barbecue
                                             "en-US"),
                                   ),
                                 ],

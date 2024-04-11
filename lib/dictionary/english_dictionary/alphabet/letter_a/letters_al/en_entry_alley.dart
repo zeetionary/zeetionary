@@ -11,7 +11,7 @@ class EnglishEntryalley extends StatelessWidget {
   EnglishEntryalley({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlley(String languageCode) async {
+  Future<void> speakalley(String languageCode) async {
     // DOPSUM: CHANGE speakAlley
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalley extends StatelessWidget {
     await flutterTts.speak("alley"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlley452(String languageCode) async {
+  Future<void> speakalley452(String languageCode) async {
     // DOPSUM: CHANGE speakAlley
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalley extends StatelessWidget {
         "The car was hidden down a narrow alley."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlley(String languageCode) async {
+  // Future<void> speakalley(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlley
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalley extends StatelessWidget {
   //   await flutterTts.speak("alley"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlley(String languageCode) async {
+  // Future<void> speakalley(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlley
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalley extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlley("en-GB"),
+                              onPressed: () => speakalley("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalley extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlley("en-US"),
+                              onPressed: () => speakalley("en-US"),
                             ),
                           ],
                         ),
@@ -134,11 +134,11 @@ class EnglishEntryalley extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlley452("en-GB"),
+                                    onPressed: () => speakalley452("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlley452(// REPLACE: alley /ˈæli/
+                                        speakalley452(// REPLACE: alley /ˈæli/
                                             "en-US"),
                                   ),
                                 ],

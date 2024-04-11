@@ -13,7 +13,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticlockwise(String languageCode) async {
+  Future<void> speakanticlockwise(String languageCode) async {
     // DOPSUM: CHANGE speakAnticlockwise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
     await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlockwise856(String languageCode) async {
+  Future<void> speakanticlockwise856(String languageCode) async {
     // DOPSUM: CHANGE speakAnticlockwise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
         "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlockwise859(String languageCode) async {
+  Future<void> speakanticlockwise859(String languageCode) async {
     // DOPSUM: CHANGE speakAnticlockwise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
         "Turn the key anticlockwise/in an anticlockwise direction."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
   //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlockwise(String languageCode) async {
+  // Future<void> speakanticlockwise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈklɒkwaɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticlockwise("en-GB"),
+                              onPressed: () => speakanticlockwise("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticlockwise("en-US"),
+                              onPressed: () => speakanticlockwise("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticlockwise856("en-GB"),
+                                        speakanticlockwise856("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticlockwise856(
+                                    onPressed: () => speakanticlockwise856(
                                         // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticlockwise859("en-GB"),
+                                        speakanticlockwise859("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticlockwise859(
+                                    onPressed: () => speakanticlockwise859(
                                         // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
                                         "en-US"),
                                   ),

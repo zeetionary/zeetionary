@@ -19,7 +19,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuditorium(String languageCode) async {
+  Future<void> speakauditorium(String languageCode) async {
     // DOPSUM: CHANGE speakAuditorium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauditorium extends StatelessWidget {
     await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuditorium252(String languageCode) async {
+  Future<void> speakauditorium252(String languageCode) async {
     // DOPSUM: CHANGE speakAuditorium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauditorium extends StatelessWidget {
         "The auditorium seats over a thousand people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuditorium255(String languageCode) async {
+  Future<void> speakauditorium255(String languageCode) async {
     // DOPSUM: CHANGE speakAuditorium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauditorium extends StatelessWidget {
         "He stood at the back of the packed auditorium."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   //   await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   //   await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   //   await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   //   await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   //   await flutterTts.speak("auditorium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuditorium(String languageCode) async {
+  // Future<void> speakauditorium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuditorium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːdɪˈtɔːriəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuditorium("en-GB"),
+                              onPressed: () => speakauditorium("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːdɪˈtɔːriəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuditorium("en-US"),
+                              onPressed: () => speakauditorium("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryauditorium extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuditorium252("en-GB"),
+                                        speakauditorium252("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuditorium252(
+                                    onPressed: () => speakauditorium252(
                                         // REPLACE: auditorium
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryauditorium extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuditorium255("en-GB"),
+                                        speakauditorium255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuditorium255(
+                                    onPressed: () => speakauditorium255(
                                         // REPLACE: auditorium
                                         "en-US"),
                                   ),

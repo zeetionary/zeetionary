@@ -19,7 +19,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAskingprice(String languageCode) async {
+  Future<void> speakaskingprice(String languageCode) async {
     // DOPSUM: CHANGE speakAskingprice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
     await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAskingprice756(String languageCode) async {
+  Future<void> speakaskingprice756(String languageCode) async {
     // DOPSUM: CHANGE speakAskingprice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
         "The asking price for the house was £250,000."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
   //   await flutterTts.speak("asking price"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAskingprice(String languageCode) async {
+  // Future<void> speakaskingprice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAskingprice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːskɪŋ praɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAskingprice("en-GB"),
+                              onPressed: () => speakaskingprice("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæskɪŋ praɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAskingprice("en-US"),
+                              onPressed: () => speakaskingprice("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAskingprice756("en-GB"),
+                                        speakaskingprice756("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAskingprice756(
+                                    onPressed: () => speakaskingprice756(
                                         // REPLACE: asking price /ˈæskɪŋ praɪs/
                                         "en-US"),
                                   ),

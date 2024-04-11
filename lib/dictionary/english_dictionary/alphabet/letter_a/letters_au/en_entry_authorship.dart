@@ -19,7 +19,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthorship(String languageCode) async {
+  Future<void> speakauthorship(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthorship extends StatelessWidget {
     await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorship731(String languageCode) async {
+  Future<void> speakauthorship731(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthorship extends StatelessWidget {
         .speak("The authorship of the poem is unknown."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorship733(String languageCode) async {
+  Future<void> speakauthorship733(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthorship extends StatelessWidget {
         "He published the report in joint authorship with a colleague."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   //   await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   //   await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   //   await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   //   await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   //   await flutterTts.speak("authorship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorship(String languageCode) async {
+  // Future<void> speakauthorship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːθəʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthorship("en-GB"),
+                              onPressed: () => speakauthorship("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːθərʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthorship("en-US"),
+                              onPressed: () => speakauthorship("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthorship731("en-GB"),
+                                        speakauthorship731("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorship731(
+                                    onPressed: () => speakauthorship731(
                                         // REPLACE: authorship
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthorship733("en-GB"),
+                                        speakauthorship733("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorship733(
+                                    onPressed: () => speakauthorship733(
                                         // REPLACE: authorship
                                         "en-US"),
                                   ),

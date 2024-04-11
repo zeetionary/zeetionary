@@ -11,7 +11,7 @@ class EnglishEntryaloud extends StatelessWidget {
   EnglishEntryaloud({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAloud(String languageCode) async {
+  Future<void> speakaloud(String languageCode) async {
     // DOPSUM: CHANGE speakAloud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaloud extends StatelessWidget {
     await flutterTts.speak("aloud"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAloud469(String languageCode) async {
+  Future<void> speakaloud469(String languageCode) async {
     // DOPSUM: CHANGE speakAloud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaloud extends StatelessWidget {
         .speak("He read the letter aloud to us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAloud462(String languageCode) async {
+  Future<void> speakaloud462(String languageCode) async {
     // DOPSUM: CHANGE speakAloud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaloud extends StatelessWidget {
         "People are starting to wonder aloud whether the economic reforms have gone too far."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAloud596(String languageCode) async {
+  Future<void> speakaloud596(String languageCode) async {
     // DOPSUM: CHANGE speakAloud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaʊd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAloud("en-GB"),
+                              onPressed: () => speakaloud("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaʊd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAloud("en-US"),
+                              onPressed: () => speakaloud("en-US"),
                             ),
                           ],
                         ),
@@ -135,11 +135,11 @@ class EnglishEntryaloud extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAloud469("en-GB"),
+                                    onPressed: () => speakaloud469("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAloud469(// REPLACE: aloud /əˈlaʊd/
+                                        speakaloud469(// REPLACE: aloud /əˈlaʊd/
                                             "en-US"),
                                   ),
                                 ],
@@ -165,11 +165,11 @@ class EnglishEntryaloud extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAloud462("en-GB"),
+                                    onPressed: () => speakaloud462("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAloud462(// REPLACE: aloud /əˈlaʊd/
+                                        speakaloud462(// REPLACE: aloud /əˈlaʊd/
                                             "en-US"),
                                   ),
                                 ],
@@ -195,11 +195,11 @@ class EnglishEntryaloud extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAloud596("en-GB"),
+                                    onPressed: () => speakaloud596("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAloud596(// REPLACE: aloud /əˈlaʊd/
+                                        speakaloud596(// REPLACE: aloud /əˈlaʊd/
                                             "en-US"),
                                   ),
                                 ],

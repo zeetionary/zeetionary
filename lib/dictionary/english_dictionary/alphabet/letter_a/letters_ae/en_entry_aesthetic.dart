@@ -11,7 +11,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
   EnglishEntryaesthetic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAesthetic(String languageCode) async {
+  Future<void> speakaesthetic(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
     await flutterTts.speak("aesthetic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAesth6588(String languageCode) async {
+  Future<void> speakaesth6588(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
         "The works of art are judged on purely aesthetic grounds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAest67451(String languageCode) async {
+  Future<void> speakaest67451(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
         "Their furniture was more aesthetic than functional."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAest52887(String languageCode) async {
+  Future<void> speakaest52887(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /iːsˈθetɪk/, /esˈθetɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAesthetic("en-GB"),
+                              onPressed: () => speakaesthetic("en-GB"),
                             ),
                           ],
                         ),
@@ -86,7 +86,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                 text:
                                     "IpaUS: /esˈθetɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAesthetic("en-US"),
+                              onPressed: () => speakaesthetic("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAesth6588("en-GB"),
+                                    onPressed: () => speakaesth6588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAesth6588(
+                                    onPressed: () => speakaesth6588(
                                         // REPLACE: aesthetic /esˈθetɪk/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAest67451("en-GB"),
+                                    onPressed: () => speakaest67451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAest67451(
+                                    onPressed: () => speakaest67451(
                                         // REPLACE: aesthetic /esˈθetɪk/
                                         "en-US"),
                                   ),
@@ -200,10 +200,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAest52887("en-GB"),
+                                    onPressed: () => speakaest52887("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAest52887(
+                                    onPressed: () => speakaest52887(
                                         // REPLACE: aesthetic /esˈθetɪk/
                                         "en-US"),
                                   ),

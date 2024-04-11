@@ -19,7 +19,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalsamicvinegar(String languageCode) async {
+  Future<void> speakbalsamicvinegar(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("balsamic vinegar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars1(String languageCode) async {
+  Future<void> speakbalsamicvinegars1(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
         "Drizzle some balsamic vinegar over your salad for a touch of sweetness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars2(String languageCode) async {
+  Future<void> speakbalsamicvinegars2(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("speakBalsamicvinegars22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars3(String languageCode) async {
+  Future<void> speakbalsamicvinegars3(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("speakBalsamicvinegars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars4(String languageCode) async {
+  Future<void> speakbalsamicvinegars4(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("speakBalsamicvinegars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars5(String languageCode) async {
+  Future<void> speakbalsamicvinegars5(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("speakBalsamicvinegars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars6(String languageCode) async {
+  Future<void> speakbalsamicvinegars6(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
     await flutterTts.speak("speakBalsamicvinegars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsamicvinegars7(String languageCode) async {
+  Future<void> speakbalsamicvinegars7(String languageCode) async {
     // DOPSUM: CHANGE speakBalsamicvinegar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɔːlˌsæmɪk ˈvɪnɪɡə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalsamicvinegar("en-GB"),
+                              onPressed: () => speakbalsamicvinegar("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɔːlˌsæmɪk ˈvɪnɪɡər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalsamicvinegar("en-US"),
+                              onPressed: () => speakbalsamicvinegar("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBalsamicvinegars1("en-GB"),
+                                        speakbalsamicvinegars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBalsamicvinegars1(
+                                    onPressed: () => speakbalsamicvinegars1(
                                         // REPLACE: balsamic vinegar
                                         "en-US"),
                                   ),

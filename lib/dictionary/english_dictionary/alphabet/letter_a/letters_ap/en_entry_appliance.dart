@@ -17,7 +17,7 @@ class EnglishEntryappliance extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppliance(String languageCode) async {
+  Future<void> speakappliance(String languageCode) async {
     // DOPSUM: CHANGE speakAppliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappliance extends StatelessWidget {
     await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppliance623(String languageCode) async {
+  Future<void> speakappliance623(String languageCode) async {
     // DOPSUM: CHANGE speakAppliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappliance extends StatelessWidget {
         "Always switch off appliances that are not in use."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryappliance extends StatelessWidget {
   //   await flutterTts.speak("appliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppliance(String languageCode) async {
+  // Future<void> speakappliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryappliance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplaɪəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppliance("en-GB"),
+                              onPressed: () => speakappliance("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryappliance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈplaɪəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppliance("en-US"),
+                              onPressed: () => speakappliance("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryappliance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppliance623("en-GB"),
+                                    onPressed: () => speakappliance623("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppliance623(
+                                    onPressed: () => speakappliance623(
                                         // REPLACE: appliance /əˈplaɪəns/
                                         "en-US"),
                                   ),

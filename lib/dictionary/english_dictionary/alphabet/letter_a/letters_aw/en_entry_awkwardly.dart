@@ -19,7 +19,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwkwardly(String languageCode) async {
+  Future<void> speakawkwardly(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.speak("awkwardly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys1(String languageCode) async {
+  Future<void> speakawkwardlys1(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
         .speak("‘I'm sorry,’ he said awkwardly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys2(String languageCode) async {
+  Future<void> speakawkwardlys2(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
         "The publication of the economic statistics was awkwardly timed for the government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys3(String languageCode) async {
+  Future<void> speakawkwardlys3(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
         "The car was parked awkwardly across the pavement."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys4(String languageCode) async {
+  Future<void> speakawkwardlys4(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
         "She fell awkwardly and broke her ankle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys5(String languageCode) async {
+  Future<void> speakawkwardlys5(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.speak("speakAwkwardlys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys6(String languageCode) async {
+  Future<void> speakawkwardlys6(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.speak("speakAwkwardlys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwkwardlys7(String languageCode) async {
+  Future<void> speakawkwardlys7(String languageCode) async {
     // DOPSUM: CHANGE speakAwkwardly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːkwədli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwkwardly("en-GB"),
+                              onPressed: () => speakawkwardly("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːkwərdli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwkwardly("en-US"),
+                              onPressed: () => speakawkwardly("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwkwardlys1("en-GB"),
+                                    onPressed: () => speakawkwardlys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwkwardlys1(// REPLACE: awkwardly
+                                        speakawkwardlys1(// REPLACE: awkwardly
                                             "en-US"),
                                   ),
                                 ],
@@ -211,11 +211,11 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwkwardlys2("en-GB"),
+                                    onPressed: () => speakawkwardlys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwkwardlys2(// REPLACE: awkwardly
+                                        speakawkwardlys2(// REPLACE: awkwardly
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwkwardlys3("en-GB"),
+                                    onPressed: () => speakawkwardlys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwkwardlys3(// REPLACE: awkwardly
+                                        speakawkwardlys3(// REPLACE: awkwardly
                                             "en-US"),
                                   ),
                                 ],
@@ -276,11 +276,11 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwkwardlys4("en-GB"),
+                                    onPressed: () => speakawkwardlys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwkwardlys4(// REPLACE: awkwardly
+                                        speakawkwardlys4(// REPLACE: awkwardly
                                             "en-US"),
                                   ),
                                 ],

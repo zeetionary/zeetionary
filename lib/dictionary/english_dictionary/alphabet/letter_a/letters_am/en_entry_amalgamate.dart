@@ -11,7 +11,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
   EnglishEntryamalgamate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmalgamate(String languageCode) async {
+  Future<void> speakamalgamate(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
     await flutterTts.speak("amalgamate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate4444(String languageCode) async {
+  Future<void> speakamalgamate4444(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
         "A number of colleges have amalgamated to form the new university."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate68552(String languageCode) async {
+  Future<void> speakamalgamate68552(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
         "They decided to amalgamate the two schools."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamate4588(String languageCode) async {
+  Future<void> speakamalgamate4588(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmalgamate("en-GB"),
+                              onPressed: () => speakamalgamate("en-GB"),
                             ),
                           ],
                         ),
@@ -86,7 +86,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmalgamate("en-US"),
+                              onPressed: () => speakamalgamate("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmalgamate4444("en-GB"),
+                                        speakamalgamate4444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate4444(
+                                    onPressed: () => speakamalgamate4444(
                                         // REPLACE: amalgamate /əˈmælɡəmeɪt/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmalgamate68552("en-GB"),
+                                        speakamalgamate68552("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate68552(
+                                    onPressed: () => speakamalgamate68552(
                                         // REPLACE: amalgamate /əˈmælɡəmeɪt/
                                         "en-US"),
                                   ),
@@ -197,10 +197,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmalgamate4588("en-GB"),
+                                        speakamalgamate4588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamate4588(
+                                    onPressed: () => speakamalgamate4588(
                                         // REPLACE: amalgamate /əˈmælɡəmeɪt/
                                         "en-US"),
                                   ),

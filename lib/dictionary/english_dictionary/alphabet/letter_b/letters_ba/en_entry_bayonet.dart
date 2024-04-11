@@ -19,7 +19,7 @@ class EnglishEntrybayonet extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBayonet(String languageCode) async {
+  Future<void> speakbayonet(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybayonet extends StatelessWidget {
     await flutterTts.speak("bayonet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets1(String languageCode) async {
+  Future<void> speakbayonets1(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybayonet extends StatelessWidget {
         "The bayonets gleamed in the sunlight as the enemy approached."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets2(String languageCode) async {
+  Future<void> speakbayonets2(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybayonet extends StatelessWidget {
         "Innocent civilians had been shot and bayoneted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets3(String languageCode) async {
+  Future<void> speakbayonets3(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybayonet extends StatelessWidget {
     await flutterTts.speak("speakBayonets33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets4(String languageCode) async {
+  Future<void> speakbayonets4(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybayonet extends StatelessWidget {
     await flutterTts.speak("speakBayonets44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets5(String languageCode) async {
+  Future<void> speakbayonets5(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybayonet extends StatelessWidget {
     await flutterTts.speak("speakBayonets55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets6(String languageCode) async {
+  Future<void> speakbayonets6(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybayonet extends StatelessWidget {
     await flutterTts.speak("speakBayonets66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets7(String languageCode) async {
+  Future<void> speakbayonets7(String languageCode) async {
     // DOPSUM: CHANGE speakBayonet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybayonet extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeɪənət/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBayonet("en-GB"),
+                              onPressed: () => speakbayonet("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybayonet extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbeɪənət/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBayonet("en-US"),
+                              onPressed: () => speakbayonet("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybayonet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBayonets1("en-GB"),
+                                    onPressed: () => speakbayonets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBayonets1("en-US"),
+                                    onPressed: () => speakbayonets1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybayonet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBayonets2("en-GB"),
+                                    onPressed: () => speakbayonets2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBayonets2("en-US"),
+                                    onPressed: () => speakbayonets2("en-US"),
                                   ),
                                 ],
                               ),

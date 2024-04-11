@@ -12,7 +12,7 @@ class EnglishEntryanorak extends StatelessWidget {
   EnglishEntryanorak({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorak(String languageCode) async {
+  Future<void> speakanorak(String languageCode) async {
     // DOPSUM: CHANGE speakAnorak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanorak extends StatelessWidget {
     await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorak836(String languageCode) async {
+  Future<void> speakanorak836(String languageCode) async {
     // DOPSUM: CHANGE speakAnorak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanorak extends StatelessWidget {
         "My Mum made me take my anorak in case it rained."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanorak extends StatelessWidget {
   //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorak(String languageCode) async {
+  // Future<void> speakanorak(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanorak extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəræk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnorak("en-GB"),
+                              onPressed: () => speakanorak("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanorak extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəræk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorak("en-US"),
+                              onPressed: () => speakanorak("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryanorak extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnorak836("en-GB"),
+                                    onPressed: () => speakanorak836("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnorak836(
+                                    onPressed: () => speakanorak836(
                                         // REPLACE: anorak /ˈænəræk/
                                         "en-US"),
                                   ),

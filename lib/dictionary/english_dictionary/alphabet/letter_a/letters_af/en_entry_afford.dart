@@ -11,7 +11,7 @@ class EnglishEntryafford extends StatelessWidget {
   EnglishEntryafford({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfford(String languageCode) async {
+  Future<void> speakafford(String languageCode) async {
     // DOPSUM: CHANGE speakAfford
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.speak("afford"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffor458(String languageCode) async {
+  Future<void> speakaffor458(String languageCode) async {
     // DOPSUM: CHANGE speakAfford
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryafford extends StatelessWidget {
         "She never took a taxi, even though she could afford to."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff6665(String languageCode) async {
+  Future<void> speakaff6665(String languageCode) async {
     // DOPSUM: CHANGE speakAfford
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryafford extends StatelessWidget {
         "They couldn't afford to buy a house there."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff4511(String languageCode) async {
+  Future<void> speakaff4511(String languageCode) async {
     // DOPSUM: CHANGE speakAfford
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryafford extends StatelessWidget {
         "We cannot afford to ignore this warning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAf44922(String languageCode) async {
+  Future<void> speakaf44922(String languageCode) async {
     // DOPSUM: CHANGE speakAfford
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryafford extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɔːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfford("en-GB"),
+                              onPressed: () => speakafford("en-GB"),
                             ),
                           ],
                         ),
@@ -92,7 +92,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfford("en-US"),
+                              onPressed: () => speakafford("en-US"),
                             ),
                           ],
                         ),
@@ -138,10 +138,10 @@ class EnglishEntryafford extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffor458("en-GB"),
+                                    onPressed: () => speakaffor458("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffor458(
+                                    onPressed: () => speakaffor458(
                                         // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryafford extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff6665("en-GB"),
+                                    onPressed: () => speakaff6665("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAff6665(
+                                    onPressed: () => speakaff6665(
                                         // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
                                   ),
@@ -200,10 +200,10 @@ class EnglishEntryafford extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff4511("en-GB"),
+                                    onPressed: () => speakaff4511("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAff4511(
+                                    onPressed: () => speakaff4511(
                                         // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
                                   ),
@@ -231,10 +231,10 @@ class EnglishEntryafford extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAf44922("en-GB"),
+                                    onPressed: () => speakaf44922("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAf44922(
+                                    onPressed: () => speakaf44922(
                                         // REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryadolescence extends StatelessWidget {
   EnglishEntryadolescence({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdolescence(String languageCode) async {
+  Future<void> speakadolescence(String languageCode) async {
     // DOPSUM: CHANGE speakAdolescence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadolescence extends StatelessWidget {
     await flutterTts.speak("adolescence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdoles69874(String languageCode) async {
+  Future<void> speakadoles69874(String languageCode) async {
     // DOPSUM: CHANGE speakAdolescence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadolescence extends StatelessWidget {
         "Adolescence brings about major changes in a young person’s body."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdolescence(String languageCode) async {
+  // Future<void> speakadolescence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdolescence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadolescence extends StatelessWidget {
   //   await flutterTts.speak("adolescence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdolescence(String languageCode) async {
+  // Future<void> speakadolescence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdolescence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædəˈlesns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdolescence("en-GB"),
+                              onPressed: () => speakadolescence("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædəˈlesns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdolescence("en-US"),
+                              onPressed: () => speakadolescence("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryadolescence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdoles69874("en-GB"),
+                                    onPressed: () => speakadoles69874("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdoles69874(
+                                    onPressed: () => speakadoles69874(
                                         // REPLACE: adolescence /ˌædəˈlesns/
                                         "en-US"),
                                   ),

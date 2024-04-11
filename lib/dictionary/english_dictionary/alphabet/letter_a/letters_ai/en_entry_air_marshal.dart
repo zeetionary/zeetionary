@@ -11,7 +11,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
   EnglishEntryairmarshal({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirmarshal(String languageCode) async {
+  Future<void> speakairmarshal(String languageCode) async {
     // DOPSUM: CHANGE speakAirmarshal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
     await flutterTts.speak("air marshal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirmarshal524(String languageCode) async {
+  Future<void> speakairmarshal524(String languageCode) async {
     // DOPSUM: CHANGE speakAirmarshal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
         "Her father was an air marshal in the Australian Air Force."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirmarshal3528(String languageCode) async {
+  Future<void> speakairmarshal3528(String languageCode) async {
     // DOPSUM: CHANGE speakAirmarshal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
         "New security measures included increasing the number of air marshals and fortifying cockpit doors."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirmarshal(String languageCode) async {
+  // Future<void> speakairmarshal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirmarshal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeə mɑːʃl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirmarshal("en-GB"),
+                              onPressed: () => speakairmarshal("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer mɑːrʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirmarshal("en-US"),
+                              onPressed: () => speakairmarshal("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirmarshal524("en-GB"),
+                                        speakairmarshal524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirmarshal524(
+                                    onPressed: () => speakairmarshal524(
                                         // REPLACE: air marshal /ˈer mɑːrʃl/
                                         "en-US"),
                                   ),
@@ -162,10 +162,10 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirmarshal3528("en-GB"),
+                                        speakairmarshal3528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirmarshal3528(
+                                    onPressed: () => speakairmarshal3528(
                                         // REPLACE: air marshal /ˈer mɑːrʃl/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryaverage extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAverage(String languageCode) async {
+  Future<void> speakaverage(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaverage extends StatelessWidget {
     await flutterTts.speak("average"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages1(String languageCode) async {
+  Future<void> speakaverages1(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaverage extends StatelessWidget {
         "The average age of participants was 52 years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages2(String languageCode) async {
+  Future<void> speakaverages2(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaverage extends StatelessWidget {
         "On an average day they sell more than £2 000 worth of vegetables."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages3(String languageCode) async {
+  Future<void> speakaverages3(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaverage extends StatelessWidget {
         .speak("I was just an average sort of student."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages4(String languageCode) async {
+  Future<void> speakaverages4(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaverage extends StatelessWidget {
         "Parents spend an average of £220 a year on toys."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages5(String languageCode) async {
+  Future<void> speakaverages5(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaverage extends StatelessWidget {
         "Temperatures are above average for the time of year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages6(String languageCode) async {
+  Future<void> speakaverages6(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryaverage extends StatelessWidget {
         "He has averaged 15 goals over the past two seasons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAverages7(String languageCode) async {
+  Future<void> speakaverages7(String languageCode) async {
     // DOPSUM: CHANGE speakAverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAverage("en-GB"),
+                              onPressed: () => speakaverage("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAverage("en-US"),
+                              onPressed: () => speakaverage("en-US"),
                             ),
                           ],
                         ),
@@ -180,11 +180,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages1("en-GB"),
+                                    onPressed: () => speakaverages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages1(// REPLACE: average
+                                        speakaverages1(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -213,11 +213,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages2("en-GB"),
+                                    onPressed: () => speakaverages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages2(// REPLACE: average
+                                        speakaverages2(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -245,11 +245,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages3("en-GB"),
+                                    onPressed: () => speakaverages3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages3(// REPLACE: average
+                                        speakaverages3(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -278,11 +278,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages4("en-GB"),
+                                    onPressed: () => speakaverages4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages4(// REPLACE: average
+                                        speakaverages4(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -311,11 +311,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages5("en-GB"),
+                                    onPressed: () => speakaverages5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages5(// REPLACE: average
+                                        speakaverages5(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -344,11 +344,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages6("en-GB"),
+                                    onPressed: () => speakaverages6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages6(// REPLACE: average
+                                        speakaverages6(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],
@@ -377,11 +377,11 @@ class EnglishEntryaverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAverages7("en-GB"),
+                                    onPressed: () => speakaverages7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAverages7(// REPLACE: average
+                                        speakaverages7(// REPLACE: average
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarrelorgan(String languageCode) async {
+  Future<void> speakbarrelorgan(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("barrel organ"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans1(String languageCode) async {
+  Future<void> speakbarrelorgans1(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
         "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans2(String languageCode) async {
+  Future<void> speakbarrelorgans2(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("speakBarrelorgans22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans3(String languageCode) async {
+  Future<void> speakbarrelorgans3(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("speakBarrelorgans33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans4(String languageCode) async {
+  Future<void> speakbarrelorgans4(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("speakBarrelorgans44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans5(String languageCode) async {
+  Future<void> speakbarrelorgans5(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("speakBarrelorgans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans6(String languageCode) async {
+  Future<void> speakbarrelorgans6(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
     await flutterTts.speak("speakBarrelorgans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrelorgans7(String languageCode) async {
+  Future<void> speakbarrelorgans7(String languageCode) async {
     // DOPSUM: CHANGE speakBarrelorgan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbærəl ɔːɡən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarrelorgan("en-GB"),
+                              onPressed: () => speakbarrelorgan("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbærəl ɔːrɡən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarrelorgan("en-US"),
+                              onPressed: () => speakbarrelorgan("en-US"),
                             ),
                           ],
                         ),
@@ -170,11 +170,11 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBarrelorgans1("en-GB"),
+                                        speakbarrelorgans1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarrelorgans1("en-US"),
+                                        speakbarrelorgans1("en-US"),
                                   ),
                                 ],
                               ),

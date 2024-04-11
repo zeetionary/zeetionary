@@ -17,7 +17,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApproachable(String languageCode) async {
+  Future<void> speakapproachable(String languageCode) async {
     // DOPSUM: CHANGE speakApproachable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapproachable extends StatelessWidget {
     await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproachable1253(String languageCode) async {
+  Future<void> speakapproachable1253(String languageCode) async {
     // DOPSUM: CHANGE speakApproachable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapproachable extends StatelessWidget {
         "Despite being a big star, she's very approachable."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproachable1255(String languageCode) async {
+  Future<void> speakapproachable1255(String languageCode) async {
     // DOPSUM: CHANGE speakApproachable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapproachable extends StatelessWidget {
         "The summit was approachable only from the south."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   //   await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   //   await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   //   await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   //   await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapproachable extends StatelessWidget {
   //   await flutterTts.speak("approachable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproachable(String languageCode) async {
+  // Future<void> speakapproachable(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproachable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprəʊtʃəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproachable("en-GB"),
+                              onPressed: () => speakapproachable("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprəʊtʃəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproachable("en-US"),
+                              onPressed: () => speakapproachable("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApproachable1253("en-GB"),
+                                        speakapproachable1253("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproachable1253(
+                                    onPressed: () => speakapproachable1253(
                                         // REPLACE: approachable /əˈprəʊtʃəbl/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApproachable1255("en-GB"),
+                                        speakapproachable1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproachable1255(
+                                    onPressed: () => speakapproachable1255(
                                         // REPLACE: approachable /əˈprəʊtʃəbl/
                                         "en-US"),
                                   ),

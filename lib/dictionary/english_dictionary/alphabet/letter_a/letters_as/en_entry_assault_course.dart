@@ -19,7 +19,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssaultcourse(String languageCode) async {
+  Future<void> speakassaultcourse(String languageCode) async {
     // DOPSUM: CHANGE speakAssaultcourse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
     await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssaultcourse915(String languageCode) async {
+  Future<void> speakassaultcourse915(String languageCode) async {
     // DOPSUM: CHANGE speakAssaultcourse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
         "The recruits struggled to complete the assault course, but they were determined to succeed."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
   //   await flutterTts.speak("assault course"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssaultcourse(String languageCode) async {
+  // Future<void> speakassaultcourse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssaultcourse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɔːlt kɔːs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssaultcourse("en-GB"),
+                              onPressed: () => speakassaultcourse("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɔːlt kɔːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssaultcourse("en-US"),
+                              onPressed: () => speakassaultcourse("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssaultcourse915("en-GB"),
+                                        speakassaultcourse915("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssaultcourse915(
+                                    onPressed: () => speakassaultcourse915(
                                         // REPLACE: assault course /əˈsɔːlt kɔːrs/
                                         "en-US"),
                                   ),

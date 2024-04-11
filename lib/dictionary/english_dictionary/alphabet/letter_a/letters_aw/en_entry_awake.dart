@@ -19,7 +19,7 @@ class EnglishEntryawake extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwake(String languageCode) async {
+  Future<void> speakawake(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryawake extends StatelessWidget {
     await flutterTts.speak("awake"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes1(String languageCode) async {
+  Future<void> speakawakes1(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryawake extends StatelessWidget {
         .speak("I was still awake when he came to bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes2(String languageCode) async {
+  Future<void> speakawakes2(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryawake extends StatelessWidget {
     await flutterTts.speak("I awoke from a deep sleep."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes3(String languageCode) async {
+  Future<void> speakawakes3(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryawake extends StatelessWidget {
         "His speech is bound to awake old fears and hostilities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes4(String languageCode) async {
+  Future<void> speakawakes4(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryawake extends StatelessWidget {
     await flutterTts.speak("speakAwakes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes5(String languageCode) async {
+  Future<void> speakawakes5(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryawake extends StatelessWidget {
     await flutterTts.speak("speakAwakes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes6(String languageCode) async {
+  Future<void> speakawakes6(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryawake extends StatelessWidget {
     await flutterTts.speak("speakAwakes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakes7(String languageCode) async {
+  Future<void> speakawakes7(String languageCode) async {
     // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryawake extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈweɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwake("en-GB"),
+                              onPressed: () => speakawake("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryawake extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈweɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwake("en-US"),
+                              onPressed: () => speakawake("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntryawake extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwakes1("en-GB"),
+                                    onPressed: () => speakawakes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwakes1(// REPLACE: awake
+                                        speakawakes1(// REPLACE: awake
                                             "en-US"),
                                   ),
                                 ],
@@ -206,11 +206,11 @@ class EnglishEntryawake extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwakes2("en-GB"),
+                                    onPressed: () => speakawakes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwakes2(// REPLACE: awake
+                                        speakawakes2(// REPLACE: awake
                                             "en-US"),
                                   ),
                                 ],
@@ -239,11 +239,11 @@ class EnglishEntryawake extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwakes3("en-GB"),
+                                    onPressed: () => speakawakes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwakes3(// REPLACE: awake
+                                        speakawakes3(// REPLACE: awake
                                             "en-US"),
                                   ),
                                 ],

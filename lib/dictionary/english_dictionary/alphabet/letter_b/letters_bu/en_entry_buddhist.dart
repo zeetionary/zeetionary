@@ -13,7 +13,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBuddhist(String languageCode) async {
+  Future<void> speakbuddhist(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
     await flutterTts.speak("Buddhist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists1(String languageCode) async {
+  Future<void> speakbuddhists1(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
         "In Thailand, many embrace the Buddhist faith."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists2(String languageCode) async {
+  Future<void> speakbuddhists2(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
         "She conversed with a knowledgeable Buddhist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists3(String languageCode) async {
+  Future<void> speakbuddhists3(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
     await flutterTts.speak("speakBuddhists33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists4(String languageCode) async {
+  Future<void> speakbuddhists4(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
     await flutterTts.speak("speakBuddhists44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists5(String languageCode) async {
+  Future<void> speakbuddhists5(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
     await flutterTts.speak("speakBuddhists55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists6(String languageCode) async {
+  Future<void> speakbuddhists6(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
     await flutterTts.speak("speakBuddhists66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhists7(String languageCode) async {
+  Future<void> speakbuddhists7(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbʊdɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBuddhist("en-GB"),
+                              onPressed: () => speakbuddhist("en-GB"),
                             ),
                           ],
                         ),
@@ -115,7 +115,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbuːdɪst/, /ˈbʊdɪst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBuddhist("en-US"),
+                              onPressed: () => speakbuddhist("en-US"),
                             ),
                           ],
                         ),
@@ -161,10 +161,10 @@ class EnglishEntryBuddhist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBuddhists1("en-GB"),
+                                    onPressed: () => speakbuddhists1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBuddhists1("en-US"),
+                                    onPressed: () => speakbuddhists1("en-US"),
                                   ),
                                 ],
                               ),
@@ -191,10 +191,10 @@ class EnglishEntryBuddhist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBuddhists2("en-GB"),
+                                    onPressed: () => speakbuddhists2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBuddhists2("en-US"),
+                                    onPressed: () => speakbuddhists2("en-US"),
                                   ),
                                 ],
                               ),

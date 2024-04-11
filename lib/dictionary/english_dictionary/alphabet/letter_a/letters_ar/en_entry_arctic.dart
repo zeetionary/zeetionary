@@ -17,7 +17,7 @@ class EnglishEntryarctic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArctic(String languageCode) async {
+  Future<void> speakarctic(String languageCode) async {
     // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarctic extends StatelessWidget {
     await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArctic449(String languageCode) async {
+  Future<void> speakarctic449(String languageCode) async {
     // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarctic extends StatelessWidget {
         .speak("No trees grow in the Arctic regions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArctic451(String languageCode) async {
+  Future<void> speakarctic451(String languageCode) async {
     // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarctic extends StatelessWidget {
         "The North of England has been experiencing Arctic conditions these past few days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArctic452(String languageCode) async {
+  Future<void> speakarctic452(String languageCode) async {
     // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarctic extends StatelessWidget {
         .speak("Polar bears live in the Arctic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArctic(String languageCode) async {
+  // Future<void> speakarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArctic(String languageCode) async {
+  // Future<void> speakarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArctic(String languageCode) async {
+  // Future<void> speakarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArctic(String languageCode) async {
+  // Future<void> speakarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarctic extends StatelessWidget {
   //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArctic(String languageCode) async {
+  // Future<void> speakarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarctic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːktɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArctic("en-GB"),
+                              onPressed: () => speakarctic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarctic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrktɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArctic("en-US"),
+                              onPressed: () => speakarctic("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarctic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArctic449("en-GB"),
+                                    onPressed: () => speakarctic449("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArctic449(
+                                    onPressed: () => speakarctic449(
                                         // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryarctic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArctic451("en-GB"),
+                                    onPressed: () => speakarctic451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArctic451(
+                                    onPressed: () => speakarctic451(
                                         // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryarctic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArctic452("en-GB"),
+                                    onPressed: () => speakarctic452("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArctic452(
+                                    onPressed: () => speakarctic452(
                                         // REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                                   ),

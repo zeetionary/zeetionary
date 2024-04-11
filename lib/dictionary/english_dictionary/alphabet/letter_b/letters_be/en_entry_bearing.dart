@@ -19,7 +19,7 @@ class EnglishEntrybearing extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBearing(String languageCode) async {
+  Future<void> speakbearing(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.speak("bearing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings1(String languageCode) async {
+  Future<void> speakbearings1(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybearing extends StatelessWidget {
         "Recent events had no bearing on our decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings2(String languageCode) async {
+  Future<void> speakbearings2(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybearing extends StatelessWidget {
         "Regular exercise has a direct bearing on fitness and health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings3(String languageCode) async {
+  Future<void> speakbearings3(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybearing extends StatelessWidget {
         "She had a proud, distinguished bearing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings4(String languageCode) async {
+  Future<void> speakbearings4(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybearing extends StatelessWidget {
         "He paused at the top of the hill, trying to get his bearings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings5(String languageCode) async {
+  Future<void> speakbearings5(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.speak("speakBearings55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings6(String languageCode) async {
+  Future<void> speakbearings6(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybearing extends StatelessWidget {
     await flutterTts.speak("speakBearings66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearings7(String languageCode) async {
+  Future<void> speakbearings7(String languageCode) async {
     // DOPSUM: CHANGE speakBearing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybearing extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeərɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBearing("en-GB"),
+                              onPressed: () => speakbearing("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybearing extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈberɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBearing("en-US"),
+                              onPressed: () => speakbearing("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntrybearing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearings1("en-GB"),
+                                    onPressed: () => speakbearings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearings1("en-US"),
+                                    onPressed: () => speakbearings1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybearing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearings2("en-GB"),
+                                    onPressed: () => speakbearings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearings2("en-US"),
+                                    onPressed: () => speakbearings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybearing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearings3("en-GB"),
+                                    onPressed: () => speakbearings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearings3("en-US"),
+                                    onPressed: () => speakbearings3("en-US"),
                                   ),
                                 ],
                               ),
@@ -263,10 +263,10 @@ class EnglishEntrybearing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearings4("en-GB"),
+                                    onPressed: () => speakbearings4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearings4("en-US"),
+                                    onPressed: () => speakbearings4("en-US"),
                                   ),
                                 ],
                               ),

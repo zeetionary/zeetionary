@@ -19,7 +19,7 @@ class EnglishEntrybettor extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBettor(String languageCode) async {
+  Future<void> speakbettor(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("bettor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors1(String languageCode) async {
+  Future<void> speakbettors1(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybettor extends StatelessWidget {
         "Bettors wagered a total of £67 million on the game."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors2(String languageCode) async {
+  Future<void> speakbettors2(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("speakBettors22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors3(String languageCode) async {
+  Future<void> speakbettors3(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("speakBettors33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors4(String languageCode) async {
+  Future<void> speakbettors4(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("speakBettors44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors5(String languageCode) async {
+  Future<void> speakbettors5(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("speakBettors55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors6(String languageCode) async {
+  Future<void> speakbettors6(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybettor extends StatelessWidget {
     await flutterTts.speak("speakBettors66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBettors7(String languageCode) async {
+  Future<void> speakbettors7(String languageCode) async {
     // DOPSUM: CHANGE speakBettor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybettor extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbetə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBettor("en-GB"),
+                              onPressed: () => speakbettor("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntrybettor extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbetər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBettor("en-US"),
+                              onPressed: () => speakbettor("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybettor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBettors1("en-GB"),
+                                    onPressed: () => speakbettors1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBettors1("en-US"),
+                                    onPressed: () => speakbettors1("en-US"),
                                   ),
                                 ],
                               ),

@@ -11,7 +11,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
   EnglishEntryaccompaniment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccompaniment(String languageCode) async {
+  Future<void> speakaccompaniment(String languageCode) async {
     // DOPSUM: CHANGE speakAccompaniment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
     await flutterTts.speak("accompaniment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA77499(String languageCode) async {
+  Future<void> speaka77499(String languageCode) async {
     // DOPSUM: CHANGE speakAccompaniment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
         .speak("Serve plain rice as an accompaniment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA569222(String languageCode) async {
+  Future<void> speaka569222(String languageCode) async {
     // DOPSUM: CHANGE speakAccompaniment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
         "High blood pressure is a common accompaniment to this disease."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc15587(String languageCode) async {
+  Future<void> speakac15587(String languageCode) async {
     // DOPSUM: CHANGE speakAccompaniment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkʌmpənimənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccompaniment("en-GB"),
+                              onPressed: () => speakaccompaniment("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkʌmpənimənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccompaniment("en-US"),
+                              onPressed: () => speakaccompaniment("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc15587("en-GB"),
+                                    onPressed: () => speakac15587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc15587("en-US"),
+                                    onPressed: () => speakac15587("en-US"),
                                   ),
                                 ],
                               ),
@@ -163,10 +163,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA77499("en-GB"),
+                                    onPressed: () => speaka77499("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA77499("en-US"),
+                                    onPressed: () => speaka77499("en-US"),
                                   ),
                                 ],
                               ),
@@ -193,10 +193,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA569222("en-GB"),
+                                    onPressed: () => speaka569222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA569222("en-US"),
+                                    onPressed: () => speaka569222("en-US"),
                                   ),
                                 ],
                               ),

@@ -11,7 +11,7 @@ class EnglishEntryaffect extends StatelessWidget {
   EnglishEntryaffect({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffect(String languageCode) async {
+  Future<void> speakaffect(String languageCode) async {
     // DOPSUM: CHANGE speakAffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffect extends StatelessWidget {
     await flutterTts.speak("affect"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffe5699(String languageCode) async {
+  Future<void> speakaffe5699(String languageCode) async {
     // DOPSUM: CHANGE speakAffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffect extends StatelessWidget {
         "The article deals with issues affecting the lives of children."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffe741(String languageCode) async {
+  Future<void> speakaffe741(String languageCode) async {
     // DOPSUM: CHANGE speakAffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffect extends StatelessWidget {
         "Your opinion will not affect my decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffe25699(String languageCode) async {
+  Future<void> speakaffe25699(String languageCode) async {
     // DOPSUM: CHANGE speakAffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaffect extends StatelessWidget {
         "The disease is more likely to affect women than men."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff2566(String languageCode) async {
+  Future<void> speakaff2566(String languageCode) async {
     // DOPSUM: CHANGE speakAffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryaffect extends StatelessWidget {
         "They were deeply affected by the news of her death."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffect(String languageCode) async {
+  // Future<void> speakaffect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryaffect extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfekt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffect("en-GB"),
+                              onPressed: () => speakaffect("en-GB"),
                             ),
                           ],
                         ),
@@ -100,7 +100,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffect("en-US"),
+                              onPressed: () => speakaffect("en-US"),
                             ),
                           ],
                         ),
@@ -146,10 +146,10 @@ class EnglishEntryaffect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffe5699("en-GB"),
+                                    onPressed: () => speakaffe5699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffe5699(
+                                    onPressed: () => speakaffe5699(
                                         // REPLACE: affect /əˈfekt/
                                         "en-US"),
                                   ),
@@ -176,11 +176,11 @@ class EnglishEntryaffect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffe741("en-GB"),
+                                    onPressed: () => speakaffe741("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAffe741(// REPLACE: affect /əˈfekt/
+                                        speakaffe741(// REPLACE: affect /əˈfekt/
                                             "en-US"),
                                   ),
                                 ],
@@ -208,10 +208,10 @@ class EnglishEntryaffect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffe25699("en-GB"),
+                                    onPressed: () => speakaffe25699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffe25699(
+                                    onPressed: () => speakaffe25699(
                                         // REPLACE: affect /əˈfekt/
                                         "en-US"),
                                   ),
@@ -240,11 +240,11 @@ class EnglishEntryaffect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff2566("en-GB"),
+                                    onPressed: () => speakaff2566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAff2566(// REPLACE: affect /əˈfekt/
+                                        speakaff2566(// REPLACE: affect /əˈfekt/
                                             "en-US"),
                                   ),
                                 ],

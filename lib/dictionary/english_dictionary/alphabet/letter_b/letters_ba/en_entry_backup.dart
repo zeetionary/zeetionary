@@ -19,7 +19,7 @@ class EnglishEntrybackup extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBackup(String languageCode) async {
+  Future<void> speakbackup(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybackup extends StatelessWidget {
     await flutterTts.speak("backup"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups1(String languageCode) async {
+  Future<void> speakbackups1(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybackup extends StatelessWidget {
         "We can use him as a backup if one of the other players drops out."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups2(String languageCode) async {
+  Future<void> speakbackups2(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybackup extends StatelessWidget {
         .speak("Always make a backup of your work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups3(String languageCode) async {
+  Future<void> speakbackups3(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybackup extends StatelessWidget {
     await flutterTts.speak("speakBackups33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups4(String languageCode) async {
+  Future<void> speakbackups4(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybackup extends StatelessWidget {
     await flutterTts.speak("speakBackups44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups5(String languageCode) async {
+  Future<void> speakbackups5(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybackup extends StatelessWidget {
     await flutterTts.speak("speakBackups55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups6(String languageCode) async {
+  Future<void> speakbackups6(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybackup extends StatelessWidget {
     await flutterTts.speak("speakBackups66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackups7(String languageCode) async {
+  Future<void> speakbackups7(String languageCode) async {
     // DOPSUM: CHANGE speakBackup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybackup extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBackup("en-GB"),
+                              onPressed: () => speakbackup("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybackup extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBackup("en-US"),
+                              onPressed: () => speakbackup("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntrybackup extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackups1("en-GB"),
+                                    onPressed: () => speakbackups1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackups1(// REPLACE: backup
+                                        speakbackups1(// REPLACE: backup
                                             "en-US"),
                                   ),
                                 ],
@@ -205,11 +205,11 @@ class EnglishEntrybackup extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackups2("en-GB"),
+                                    onPressed: () => speakbackups2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackups2(// REPLACE: backup
+                                        speakbackups2(// REPLACE: backup
                                             "en-US"),
                                   ),
                                 ],

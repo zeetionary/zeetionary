@@ -17,7 +17,7 @@ class EnglishEntryarid extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArid(String languageCode) async {
+  Future<void> speakarid(String languageCode) async {
     // DOPSUM: CHANGE speakArid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarid extends StatelessWidget {
     await flutterTts.speak("arid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArid1126(String languageCode) async {
+  Future<void> speakarid1126(String languageCode) async {
     // DOPSUM: CHANGE speakArid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarid extends StatelessWidget {
         .speak("Nothing grows in these arid regions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArid1129(String languageCode) async {
+  Future<void> speakarid1129(String languageCode) async {
     // DOPSUM: CHANGE speakArid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarid extends StatelessWidget {
         .speak("I found his writing extremely arid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArid1131(String languageCode) async {
+  Future<void> speakarid1131(String languageCode) async {
     // DOPSUM: CHANGE speakArid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarid extends StatelessWidget {
         "After several arid years, the company has started to become successful."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArid(String languageCode) async {
+  // Future<void> speakarid(String languageCode) async {
   //   // DOPSUM: CHANGE speakArid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarid extends StatelessWidget {
   //   await flutterTts.speak("arid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArid(String languageCode) async {
+  // Future<void> speakarid(String languageCode) async {
   //   // DOPSUM: CHANGE speakArid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarid extends StatelessWidget {
   //   await flutterTts.speak("arid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArid(String languageCode) async {
+  // Future<void> speakarid(String languageCode) async {
   //   // DOPSUM: CHANGE speakArid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarid extends StatelessWidget {
   //   await flutterTts.speak("arid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArid(String languageCode) async {
+  // Future<void> speakarid(String languageCode) async {
   //   // DOPSUM: CHANGE speakArid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarid extends StatelessWidget {
   //   await flutterTts.speak("arid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArid(String languageCode) async {
+  // Future<void> speakarid(String languageCode) async {
   //   // DOPSUM: CHANGE speakArid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArid("en-GB"),
+                              onPressed: () => speakarid("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArid("en-US"),
+                              onPressed: () => speakarid("en-US"),
                             ),
                           ],
                         ),
@@ -181,11 +181,11 @@ class EnglishEntryarid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArid1126("en-GB"),
+                                    onPressed: () => speakarid1126("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArid1126(// REPLACE: arid /ˈærɪd/
+                                        speakarid1126(// REPLACE: arid /ˈærɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -213,11 +213,11 @@ class EnglishEntryarid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArid1129("en-GB"),
+                                    onPressed: () => speakarid1129("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArid1129(// REPLACE: arid /ˈærɪd/
+                                        speakarid1129(// REPLACE: arid /ˈærɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -246,11 +246,11 @@ class EnglishEntryarid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArid1131("en-GB"),
+                                    onPressed: () => speakarid1131("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArid1131(// REPLACE: arid /ˈærɪd/
+                                        speakarid1131(// REPLACE: arid /ˈærɪd/
                                             "en-US"),
                                   ),
                                 ],

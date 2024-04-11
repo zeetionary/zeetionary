@@ -11,7 +11,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
   EnglishEntryamalgamation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmalgamation(String languageCode) async {
+  Future<void> speakamalgamation(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
     await flutterTts.speak("amalgamation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamation45999(String languageCode) async {
+  Future<void> speakamalgamation45999(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
         " We look towards the amalgamation of some of the neighborhood factories."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamation4444(String languageCode) async {
+  Future<void> speakamalgamation4444(String languageCode) async {
     // DOPSUM: CHANGE speakAmalgamation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
         "The proposed amalgamation of the two institutes has mow fallen through."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmalgamation(String languageCode) async {
+  // Future<void> speakamalgamation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmalgamation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌmælɡəˈmeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmalgamation("en-GB"),
+                              onPressed: () => speakamalgamation("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌmælɡəˈmeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmalgamation("en-US"),
+                              onPressed: () => speakamalgamation("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmalgamation45999("en-GB"),
+                                        speakamalgamation45999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamation45999(
+                                    onPressed: () => speakamalgamation45999(
                                         // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmalgamation4444("en-GB"),
+                                        speakamalgamation4444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmalgamation4444(
+                                    onPressed: () => speakamalgamation4444(
                                         // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
                                         "en-US"),
                                   ),

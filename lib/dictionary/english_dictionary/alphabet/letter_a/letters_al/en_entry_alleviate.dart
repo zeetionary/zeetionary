@@ -11,7 +11,7 @@ class EnglishEntryalleviate extends StatelessWidget {
   EnglishEntryalleviate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlleviate(String languageCode) async {
+  Future<void> speakalleviate(String languageCode) async {
     // DOPSUM: CHANGE speakAlleviate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalleviate extends StatelessWidget {
     await flutterTts.speak("alleviate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlleviate45277(String languageCode) async {
+  Future<void> speakalleviate45277(String languageCode) async {
     // DOPSUM: CHANGE speakAlleviate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalleviate extends StatelessWidget {
         "A number of measures were taken to alleviate the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlleviate35699(String languageCode) async {
+  Future<void> speakalleviate35699(String languageCode) async {
     // DOPSUM: CHANGE speakAlleviate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalleviate extends StatelessWidget {
         "The drugs did nothing to alleviate her pain."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlleviate(String languageCode) async {
+  // Future<void> speakalleviate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlleviate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈliːvieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlleviate("en-GB"),
+                              onPressed: () => speakalleviate("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈliːvieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlleviate("en-US"),
+                              onPressed: () => speakalleviate("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlleviate45277("en-GB"),
+                                        speakalleviate45277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlleviate45277(
+                                    onPressed: () => speakalleviate45277(
                                         // REPLACE: alleviate /əˈliːvieɪt/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlleviate35699("en-GB"),
+                                        speakalleviate35699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlleviate35699(
+                                    onPressed: () => speakalleviate35699(
                                         // REPLACE: alleviate /əˈliːvieɪt/
                                         "en-US"),
                                   ),

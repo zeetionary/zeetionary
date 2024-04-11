@@ -19,7 +19,7 @@ class EnglishEntryassign extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssign(String languageCode) async {
+  Future<void> speakassign(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassign extends StatelessWidget {
     await flutterTts.speak("assign"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign659(String languageCode) async {
+  Future<void> speakassign659(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassign extends StatelessWidget {
         "The two large classrooms have been assigned to us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign700(String languageCode) async {
+  Future<void> speakassign700(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassign extends StatelessWidget {
         "The teacher assigned each of the children a different task."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign703(String languageCode) async {
+  Future<void> speakassign703(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassign extends StatelessWidget {
         "They've assigned their best man to the job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign706(String languageCode) async {
+  Future<void> speakassign706(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassign extends StatelessWidget {
         .speak("All the team were assigned to Poland."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign709(String languageCode) async {
+  Future<void> speakassign709(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryassign extends StatelessWidget {
         "The painting cannot be assigned an exact date."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssign711(String languageCode) async {
+  Future<void> speakassign711(String languageCode) async {
     // DOPSUM: CHANGE speakAssign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryassign extends StatelessWidget {
         "The agreement assigns copyright to the publisher."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssign(String languageCode) async {
+  // Future<void> speakassign(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssign
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryassign extends StatelessWidget {
   //   await flutterTts.speak("assign"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssign(String languageCode) async {
+  // Future<void> speakassign(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssign
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsaɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssign("en-GB"),
+                              onPressed: () => speakassign("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsaɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssign("en-US"),
+                              onPressed: () => speakassign("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign659("en-GB"),
+                                    onPressed: () => speakassign659("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign659(
+                                    onPressed: () => speakassign659(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign700("en-GB"),
+                                    onPressed: () => speakassign700("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign700(
+                                    onPressed: () => speakassign700(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign700("en-GB"),
+                                    onPressed: () => speakassign700("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign700(
+                                    onPressed: () => speakassign700(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign706("en-GB"),
+                                    onPressed: () => speakassign706("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign706(
+                                    onPressed: () => speakassign706(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign709("en-GB"),
+                                    onPressed: () => speakassign709("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign709(
+                                    onPressed: () => speakassign709(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),
@@ -349,10 +349,10 @@ class EnglishEntryassign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssign711("en-GB"),
+                                    onPressed: () => speakassign711("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssign711(
+                                    onPressed: () => speakassign711(
                                         // REPLACE: assign /əˈsaɪn/
                                         "en-US"),
                                   ),

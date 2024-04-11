@@ -12,7 +12,7 @@ class EnglishEntryannuity extends StatelessWidget {
   EnglishEntryannuity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnuity(String languageCode) async {
+  Future<void> speakannuity(String languageCode) async {
     // DOPSUM: CHANGE speakAnnuity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannuity extends StatelessWidget {
     await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnuity848(String languageCode) async {
+  Future<void> speakannuity848(String languageCode) async {
     // DOPSUM: CHANGE speakAnnuity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannuity extends StatelessWidget {
         .speak("She receives a small annuity."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannuity extends StatelessWidget {
   //   await flutterTts.speak("annuity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnuity(String languageCode) async {
+  // Future<void> speakannuity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnuity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryannuity extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnjuːəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnuity("en-GB"),
+                              onPressed: () => speakannuity("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryannuity extends StatelessWidget {
                                 text:
                                     "IpaUS: //əˈnuːəti//"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnuity("en-US"),
+                              onPressed: () => speakannuity("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryannuity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnuity848("en-GB"),
+                                    onPressed: () => speakannuity848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnuity848(
+                                    onPressed: () => speakannuity848(
                                         // REPLACE: annuity /əˈnjuːəti/
                                         "en-US"),
                                   ),

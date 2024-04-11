@@ -19,7 +19,7 @@ class EnglishEntryattachment extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttachment(String languageCode) async {
+  Future<void> speakattachment(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattachment extends StatelessWidget {
     await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment356(String languageCode) async {
+  Future<void> speakattachment356(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattachment extends StatelessWidget {
         .speak("No attachment was included."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment401(String languageCode) async {
+  Future<void> speakattachment401(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattachment extends StatelessWidget {
         "They had to check the strength of the seat attachments to the floor of the plane."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment403(String languageCode) async {
+  Future<void> speakattachment403(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattachment extends StatelessWidget {
         "Prisoners can develop attachments to their guards."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment405(String languageCode) async {
+  Future<void> speakattachment405(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryattachment extends StatelessWidget {
         "She is unlikely to give up her lifelong attachment to feminist ideas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachment419(String languageCode) async {
+  Future<void> speakattachment419(String languageCode) async {
     // DOPSUM: CHANGE speakAttachment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryattachment extends StatelessWidget {
         "This food processor has a special attachment for grinding coffee."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttachment(String languageCode) async {
+  // Future<void> speakattachment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryattachment extends StatelessWidget {
   //   await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachment(String languageCode) async {
+  // Future<void> speakattachment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryattachment extends StatelessWidget {
   //   await flutterTts.speak("attachment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachment(String languageCode) async {
+  // Future<void> speakattachment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -128,7 +128,7 @@ class EnglishEntryattachment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttachment("en-GB"),
+                              onPressed: () => speakattachment("en-GB"),
                             ),
                           ],
                         ),
@@ -138,7 +138,7 @@ class EnglishEntryattachment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttachment("en-US"),
+                              onPressed: () => speakattachment("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment356("en-GB"),
+                                        speakattachment356("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment356(
+                                    onPressed: () => speakattachment356(
                                         // REPLACE: attachment
                                         "en-US"),
                                   ),
@@ -221,10 +221,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment401("en-GB"),
+                                        speakattachment401("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment401(
+                                    onPressed: () => speakattachment401(
                                         // REPLACE: attachment
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment403("en-GB"),
+                                        speakattachment403("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment403(
+                                    onPressed: () => speakattachment403(
                                         // REPLACE: attachment
                                         "en-US"),
                                   ),
@@ -289,10 +289,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment405("en-GB"),
+                                        speakattachment405("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment405(
+                                    onPressed: () => speakattachment405(
                                         // REPLACE: attachment
                                         "en-US"),
                                   ),
@@ -323,10 +323,10 @@ class EnglishEntryattachment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachment419("en-GB"),
+                                        speakattachment419("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachment419(
+                                    onPressed: () => speakattachment419(
                                         // REPLACE: attachment
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutomobile(String languageCode) async {
+  Future<void> speakautomobile(String languageCode) async {
     // DOPSUM: CHANGE speakAutomobile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautomobile extends StatelessWidget {
     await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomobile847(String languageCode) async {
+  Future<void> speakautomobile847(String languageCode) async {
     // DOPSUM: CHANGE speakAutomobile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautomobile extends StatelessWidget {
         "Learning to drive an automobile is not easy."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryautomobile extends StatelessWidget {
   //   await flutterTts.speak("automobile"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomobile(String languageCode) async {
+  // Future<void> speakautomobile(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomobile
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːtəməbiːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutomobile("en-GB"),
+                              onPressed: () => speakautomobile("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːtəməbiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutomobile("en-US"),
+                              onPressed: () => speakautomobile("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomobile847("en-GB"),
+                                        speakautomobile847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutomobile847(
+                                    onPressed: () => speakautomobile847(
                                         // REPLACE: automobile
                                         "en-US"),
                                   ),

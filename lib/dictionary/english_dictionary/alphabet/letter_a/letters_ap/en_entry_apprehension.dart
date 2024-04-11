@@ -17,7 +17,7 @@ class EnglishEntryapprehension extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprehension(String languageCode) async {
+  Future<void> speakapprehension(String languageCode) async {
     // DOPSUM: CHANGE speakApprehension
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprehension extends StatelessWidget {
     await flutterTts.speak("apprehension"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehension933(String languageCode) async {
+  Future<void> speakapprehension933(String languageCode) async {
     // DOPSUM: CHANGE speakApprehension
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprehension extends StatelessWidget {
         "There is growing apprehension that fighting will begin again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehension935(String languageCode) async {
+  Future<void> speakapprehension935(String languageCode) async {
     // DOPSUM: CHANGE speakApprehension
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapprehension extends StatelessWidget {
         "He watched the election results with apprehension."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehension939(String languageCode) async {
+  Future<void> speakapprehension939(String languageCode) async {
     // DOPSUM: CHANGE speakApprehension
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryapprehension extends StatelessWidget {
         "Both the army and the police were involved in the apprehension of the terrorists."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprehension(String languageCode) async {
+  // Future<void> speakapprehension(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehension
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryapprehension extends StatelessWidget {
   //   await flutterTts.speak("apprehension"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehension(String languageCode) async {
+  // Future<void> speakapprehension(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehension
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryapprehension extends StatelessWidget {
   //   await flutterTts.speak("apprehension"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehension(String languageCode) async {
+  // Future<void> speakapprehension(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehension
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryapprehension extends StatelessWidget {
   //   await flutterTts.speak("apprehension"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehension(String languageCode) async {
+  // Future<void> speakapprehension(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehension
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryapprehension extends StatelessWidget {
   //   await flutterTts.speak("apprehension"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehension(String languageCode) async {
+  // Future<void> speakapprehension(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehension
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæprɪˈhenʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprehension("en-GB"),
+                              onPressed: () => speakapprehension("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæprɪˈhenʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprehension("en-US"),
+                              onPressed: () => speakapprehension("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprehension933("en-GB"),
+                                        speakapprehension933("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehension933(
+                                    onPressed: () => speakapprehension933(
                                         // REPLACE: apprehension /ˌæprɪˈhenʃn/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprehension935("en-GB"),
+                                        speakapprehension935("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehension935(
+                                    onPressed: () => speakapprehension935(
                                         // REPLACE: apprehension /ˌæprɪˈhenʃn/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprehension939("en-GB"),
+                                        speakapprehension939("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehension939(
+                                    onPressed: () => speakapprehension939(
                                         // REPLACE: apprehension /ˌæprɪˈhenʃn/
                                         "en-US"),
                                   ),

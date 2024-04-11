@@ -19,7 +19,7 @@ class EnglishEntrybarrage extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarrage(String languageCode) async {
+  Future<void> speakbarrage(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarrage extends StatelessWidget {
     await flutterTts.speak("barrage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages1(String languageCode) async {
+  Future<void> speakbarrages1(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarrage extends StatelessWidget {
         "Troops unleashed a barrage of grenades."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages2(String languageCode) async {
+  Future<void> speakbarrages2(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarrage extends StatelessWidget {
         "The president is facing a barrage of criticism over his handling of the crisis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages3(String languageCode) async {
+  Future<void> speakbarrages3(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybarrage extends StatelessWidget {
         .speak("They built a barrage across the bay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages4(String languageCode) async {
+  Future<void> speakbarrages4(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybarrage extends StatelessWidget {
     await flutterTts.speak("speakBarrages44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages5(String languageCode) async {
+  Future<void> speakbarrages5(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybarrage extends StatelessWidget {
     await flutterTts.speak("speakBarrages55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages6(String languageCode) async {
+  Future<void> speakbarrages6(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybarrage extends StatelessWidget {
     await flutterTts.speak("speakBarrages66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrages7(String languageCode) async {
+  Future<void> speakbarrages7(String languageCode) async {
     // DOPSUM: CHANGE speakBarrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbærɑːʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarrage("en-GB"),
+                              onPressed: () => speakbarrage("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈrɑːʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarrage("en-US"),
+                              onPressed: () => speakbarrage("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybarrage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrages1("en-GB"),
+                                    onPressed: () => speakbarrages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrages1("en-US"),
+                                    onPressed: () => speakbarrages1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybarrage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrages2("en-GB"),
+                                    onPressed: () => speakbarrages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrages2("en-US"),
+                                    onPressed: () => speakbarrages2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybarrage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrages3("en-GB"),
+                                    onPressed: () => speakbarrages3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrages3("en-US"),
+                                    onPressed: () => speakbarrages3("en-US"),
                                   ),
                                 ],
                               ),

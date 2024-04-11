@@ -17,7 +17,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendicitis(String languageCode) async {
+  Future<void> speakappendicitis(String languageCode) async {
     // DOPSUM: CHANGE speakAppendicitis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
     await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendicitis142(String languageCode) async {
+  Future<void> speakappendicitis142(String languageCode) async {
     // DOPSUM: CHANGE speakAppendicitis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
         "The doctor has cured numerous people of appendicitis."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
   //   await flutterTts.speak("appendicitis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendicitis(String languageCode) async {
+  // Future<void> speakappendicitis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendicitis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpendəˈsaɪtɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppendicitis("en-GB"),
+                              onPressed: () => speakappendicitis("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpendəˈsaɪtɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppendicitis("en-US"),
+                              onPressed: () => speakappendicitis("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppendicitis142("en-GB"),
+                                        speakappendicitis142("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppendicitis142(
+                                    onPressed: () => speakappendicitis142(
                                         // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
                                         "en-US"),
                                   ),

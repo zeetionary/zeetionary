@@ -17,7 +17,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApostrophe(String languageCode) async {
+  Future<void> speakapostrophe(String languageCode) async {
     // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
     await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApostrophe708(String languageCode) async {
+  Future<void> speakapostrophe708(String languageCode) async {
     // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
         "'It's' with an apostrophe means 'it is' or 'it has'."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApostrophe710(String languageCode) async {
+  Future<void> speakapostrophe710(String languageCode) async {
     // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
         .speak("Helen's house is very large."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApostrophe714(String languageCode) async {
+  Future<void> speakapostrophe714(String languageCode) async {
     // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
         .speak("How many 3’s are there in 9?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApostrophe715(String languageCode) async {
+  Future<void> speakapostrophe715(String languageCode) async {
     // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
         .speak("There are two m’s in ‘comma’."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApostrophe(String languageCode) async {
+  // Future<void> speakapostrophe(String languageCode) async {
   //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApostrophe(String languageCode) async {
+  // Future<void> speakapostrophe(String languageCode) async {
   //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApostrophe(String languageCode) async {
+  // Future<void> speakapostrophe(String languageCode) async {
   //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApostrophe(String languageCode) async {
+  // Future<void> speakapostrophe(String languageCode) async {
   //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɒstrəfi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApostrophe("en-GB"),
+                              onPressed: () => speakapostrophe("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːstrəfi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApostrophe("en-US"),
+                              onPressed: () => speakapostrophe("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApostrophe708("en-GB"),
+                                        speakapostrophe708("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApostrophe708(
+                                    onPressed: () => speakapostrophe708(
                                         // REPLACE: apostrophe /əˈpɑːstrəfi/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApostrophe710("en-GB"),
+                                        speakapostrophe710("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApostrophe710(
+                                    onPressed: () => speakapostrophe710(
                                         // REPLACE: apostrophe /əˈpɑːstrəfi/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApostrophe714("en-GB"),
+                                        speakapostrophe714("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApostrophe714(
+                                    onPressed: () => speakapostrophe714(
                                         // REPLACE: apostrophe /əˈpɑːstrəfi/
                                         "en-US"),
                                   ),
@@ -278,10 +278,10 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApostrophe715("en-GB"),
+                                        speakapostrophe715("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApostrophe715(
+                                    onPressed: () => speakapostrophe715(
                                         // REPLACE: apostrophe /əˈpɑːstrəfi/
                                         "en-US"),
                                   ),

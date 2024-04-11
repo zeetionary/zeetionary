@@ -17,7 +17,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppetizer(String languageCode) async {
+  Future<void> speakappetizer(String languageCode) async {
     // DOPSUM: CHANGE speakAppetizer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappetizer extends StatelessWidget {
     await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppetizer312(String languageCode) async {
+  Future<void> speakappetizer312(String languageCode) async {
     // DOPSUM: CHANGE speakAppetizer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappetizer extends StatelessWidget {
         "Some green olives make a simple appetizer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryappetizer extends StatelessWidget {
   //   await flutterTts.speak("appetizer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppetizer(String languageCode) async {
+  // Future<void> speakappetizer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppetizer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappetizer extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæpɪtaɪzə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppetizer("en-GB"),
+                              onPressed: () => speakappetizer("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappetizer extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæpɪtaɪzər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppetizer("en-US"),
+                              onPressed: () => speakappetizer("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryappetizer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppetizer312("en-GB"),
+                                    onPressed: () => speakappetizer312("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppetizer312(
+                                    onPressed: () => speakappetizer312(
                                         // REPLACE: appetizer /ˈæpɪtaɪzər/
                                         "en-US"),
                                   ),

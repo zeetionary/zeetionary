@@ -11,7 +11,7 @@ class EnglishEntryairship extends StatelessWidget {
   EnglishEntryairship({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirship(String languageCode) async {
+  Future<void> speakairship(String languageCode) async {
     // DOPSUM: CHANGE speakAirship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairship extends StatelessWidget {
     await flutterTts.speak("airship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirship426(String languageCode) async {
+  Future<void> speakairship426(String languageCode) async {
     // DOPSUM: CHANGE speakAirship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairship extends StatelessWidget {
         "If necessary, the airship can stay up there for days to keep out of danger."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirship(String languageCode) async {
+  // Future<void> speakairship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairship extends StatelessWidget {
   //   await flutterTts.speak("airship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirship(String languageCode) async {
+  // Future<void> speakairship(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryairship extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirship("en-GB"),
+                              onPressed: () => speakairship("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryairship extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirship("en-US"),
+                              onPressed: () => speakairship("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryairship extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirship426("en-GB"),
+                                    onPressed: () => speakairship426("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirship426(
+                                    onPressed: () => speakairship426(
                                         // REPLACE: airship /ˈerʃɪp/
                                         "en-US"),
                                   ),

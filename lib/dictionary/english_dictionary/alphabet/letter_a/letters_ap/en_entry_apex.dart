@@ -17,7 +17,7 @@ class EnglishEntryapex extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApex(String languageCode) async {
+  Future<void> speakapex(String languageCode) async {
     // DOPSUM: CHANGE speakApex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapex extends StatelessWidget {
     await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApex213(String languageCode) async {
+  Future<void> speakapex213(String languageCode) async {
     // DOPSUM: CHANGE speakApex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapex extends StatelessWidget {
         .speak("The king was at the apex of society."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApex215(String languageCode) async {
+  Future<void> speakapex215(String languageCode) async {
     // DOPSUM: CHANGE speakApex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapex extends StatelessWidget {
         "At 37, she'd reached the apex of her career."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapex extends StatelessWidget {
   //   await flutterTts.speak("apex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApex(String languageCode) async {
+  // Future<void> speakapex(String languageCode) async {
   //   // DOPSUM: CHANGE speakApex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapex extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪpeks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApex("en-GB"),
+                              onPressed: () => speakapex("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapex extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪpeks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApex("en-US"),
+                              onPressed: () => speakapex("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryapex extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApex213("en-GB"),
+                                    onPressed: () => speakapex213("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApex213(// REPLACE: apex /ˈeɪpeks/
+                                        speakapex213(// REPLACE: apex /ˈeɪpeks/
                                             "en-US"),
                                   ),
                                 ],
@@ -210,10 +210,10 @@ class EnglishEntryapex extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApex215("en-GB"),
+                                    onPressed: () => speakapex215("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApex215(
+                                    onPressed: () => speakapex215(
                                         // REPLACE: apex /ˈeɪpeks/
                                         "en-US"),
                                   ),

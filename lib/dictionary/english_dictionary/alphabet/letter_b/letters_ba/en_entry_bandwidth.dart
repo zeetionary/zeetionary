@@ -19,7 +19,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBandwidth(String languageCode) async {
+  Future<void> speakbandwidth(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.speak("bandwidth"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths1(String languageCode) async {
+  Future<void> speakbandwidths1(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
         "The radio station broadcasts on a bandwidth of 92.1 MHz."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths2(String languageCode) async {
+  Future<void> speakbandwidths2(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
         "Upgrade to a higher bandwidth to increase your download limits."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths3(String languageCode) async {
+  Future<void> speakbandwidths3(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
         "The team does not have the bandwidth to take on new projects at the moment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths4(String languageCode) async {
+  Future<void> speakbandwidths4(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.speak("speakBandwidths44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths5(String languageCode) async {
+  Future<void> speakbandwidths5(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.speak("speakBandwidths55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths6(String languageCode) async {
+  Future<void> speakbandwidths6(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.speak("speakBandwidths66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandwidths7(String languageCode) async {
+  Future<void> speakbandwidths7(String languageCode) async {
     // DOPSUM: CHANGE speakBandwidth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBandwidth("en-GB"),
+                              onPressed: () => speakbandwidth("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBandwidth("en-US"),
+                              onPressed: () => speakbandwidth("en-US"),
                             ),
                           ],
                         ),
@@ -173,11 +173,11 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBandwidths1("en-GB"),
+                                    onPressed: () => speakbandwidths1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBandwidths1(// REPLACE: bandwidth
+                                        speakbandwidths1(// REPLACE: bandwidth
                                             "en-US"),
                                   ),
                                 ],
@@ -206,11 +206,11 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBandwidths2("en-GB"),
+                                    onPressed: () => speakbandwidths2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBandwidths2(// REPLACE: bandwidth
+                                        speakbandwidths2(// REPLACE: bandwidth
                                             "en-US"),
                                   ),
                                 ],
@@ -239,11 +239,11 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBandwidths3("en-GB"),
+                                    onPressed: () => speakbandwidths3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBandwidths3(// REPLACE: bandwidth
+                                        speakbandwidths3(// REPLACE: bandwidth
                                             "en-US"),
                                   ),
                                 ],

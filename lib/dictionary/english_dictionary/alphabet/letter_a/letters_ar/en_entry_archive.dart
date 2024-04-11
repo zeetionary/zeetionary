@@ -17,7 +17,7 @@ class EnglishEntryarchive extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchive(String languageCode) async {
+  Future<void> speakarchive(String languageCode) async {
     // DOPSUM: CHANGE speakArchive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchive extends StatelessWidget {
     await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchive1050(String languageCode) async {
+  Future<void> speakarchive1050(String languageCode) async {
     // DOPSUM: CHANGE speakArchive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchive extends StatelessWidget {
         "The BBC's archives are bulging with material."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchive extends StatelessWidget {
   //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchive(String languageCode) async {
+  // Future<void> speakarchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarchive extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːkaɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchive("en-GB"),
+                              onPressed: () => speakarchive("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarchive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrkaɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchive("en-US"),
+                              onPressed: () => speakarchive("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarchive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchive1050("en-GB"),
+                                    onPressed: () => speakarchive1050("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchive1050(
+                                    onPressed: () => speakarchive1050(
                                         // REPLACE: archive /ˈɑːrkaɪv/
                                         "en-US"),
                                   ),

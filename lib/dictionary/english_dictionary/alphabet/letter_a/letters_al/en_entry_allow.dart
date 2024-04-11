@@ -11,7 +11,7 @@ class EnglishEntryallow extends StatelessWidget {
   EnglishEntryallow({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllow(String languageCode) async {
+  Future<void> speakallow(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallow extends StatelessWidget {
     await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow3255(String languageCode) async {
+  Future<void> speakallow3255(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallow extends StatelessWidget {
         "His parents won't allow him to stay out late."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow535(String languageCode) async {
+  Future<void> speakallow535(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallow extends StatelessWidget {
         "The law allowed companies to dismiss workers without any reason."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow369(String languageCode) async {
+  Future<void> speakallow369(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryallow extends StatelessWidget {
         "You're allowed an hour to complete the test."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow4721(String languageCode) async {
+  Future<void> speakallow4721(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryallow extends StatelessWidget {
         .speak("They weren't allowed into the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow36541(String languageCode) async {
+  Future<void> speakallow36541(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryallow extends StatelessWidget {
         "The system allows people the opportunity to browse a wide selection of books."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllow2341(String languageCode) async {
+  Future<void> speakallow2341(String languageCode) async {
     // DOPSUM: CHANGE speakAllow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryallow extends StatelessWidget {
         "She was very helpful when my mother was ill—I'll allow you that."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -105,7 +105,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -137,7 +137,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -145,7 +145,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -153,7 +153,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -161,7 +161,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -169,7 +169,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -177,7 +177,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -185,7 +185,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -193,7 +193,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -201,7 +201,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -209,7 +209,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -217,7 +217,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -225,7 +225,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -233,7 +233,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -241,7 +241,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -249,7 +249,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -257,7 +257,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -265,7 +265,7 @@ class EnglishEntryallow extends StatelessWidget {
   //   await flutterTts.speak("allow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllow(String languageCode) async {
+  // Future<void> speakallow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -302,7 +302,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllow("en-GB"),
+                              onPressed: () => speakallow("en-GB"),
                             ),
                           ],
                         ),
@@ -312,7 +312,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllow("en-US"),
+                              onPressed: () => speakallow("en-US"),
                             ),
                           ],
                         ),
@@ -358,11 +358,11 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow3255("en-GB"),
+                                    onPressed: () => speakallow3255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAllow3255(// REPLACE: allow /əˈlaʊ/
+                                        speakallow3255(// REPLACE: allow /əˈlaʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -388,11 +388,11 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow535("en-GB"),
+                                    onPressed: () => speakallow535("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAllow535(// REPLACE: allow /əˈlaʊ/
+                                        speakallow535(// REPLACE: allow /əˈlaʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -420,11 +420,11 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow369("en-GB"),
+                                    onPressed: () => speakallow369("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAllow369(// REPLACE: allow /əˈlaʊ/
+                                        speakallow369(// REPLACE: allow /əˈlaʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -452,11 +452,11 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow4721("en-GB"),
+                                    onPressed: () => speakallow4721("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAllow4721(// REPLACE: allow /əˈlaʊ/
+                                        speakallow4721(// REPLACE: allow /əˈlaʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -484,10 +484,10 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow36541("en-GB"),
+                                    onPressed: () => speakallow36541("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllow36541(
+                                    onPressed: () => speakallow36541(
                                         // REPLACE: allow /əˈlaʊ/
                                         "en-US"),
                                   ),
@@ -516,11 +516,11 @@ class EnglishEntryallow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllow2341("en-GB"),
+                                    onPressed: () => speakallow2341("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAllow2341(// REPLACE: allow /əˈlaʊ/
+                                        speakallow2341(// REPLACE: allow /əˈlaʊ/
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryadvice extends StatelessWidget {
   EnglishEntryadvice({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvice(String languageCode) async {
+  Future<void> speakadvice(String languageCode) async {
     // DOPSUM: CHANGE speakAdvice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadvice extends StatelessWidget {
     await flutterTts.speak("advice"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvi4986(String languageCode) async {
+  Future<void> speakadvi4986(String languageCode) async {
     // DOPSUM: CHANGE speakAdvice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadvice extends StatelessWidget {
         "Ask your teacher's advice on how to prepare for the exam."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv64187(String languageCode) async {
+  Future<void> speakadv64187(String languageCode) async {
     // DOPSUM: CHANGE speakAdvice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadvice extends StatelessWidget {
         .speak("Let me give you a piece of advice."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdvice(String languageCode) async {
+  // Future<void> speakadvice(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadvice extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvaɪs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvice("en-GB"),
+                              onPressed: () => speakadvice("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadvice extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvaɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvice("en-US"),
+                              onPressed: () => speakadvice("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadvice extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvi4986("en-GB"),
+                                    onPressed: () => speakadvi4986("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvi4986(
+                                    onPressed: () => speakadvi4986(
                                         // REPLACE: advice /ədˈvaɪs/
                                         "en-US"),
                                   ),
@@ -161,10 +161,10 @@ class EnglishEntryadvice extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv64187("en-GB"),
+                                    onPressed: () => speakadv64187("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv64187(
+                                    onPressed: () => speakadv64187(
                                         // REPLACE: advice /ədˈvaɪs/
                                         "en-US"),
                                   ),

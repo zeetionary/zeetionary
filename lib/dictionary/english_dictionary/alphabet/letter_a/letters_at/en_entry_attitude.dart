@@ -19,7 +19,7 @@ class EnglishEntryattitude extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttitude(String languageCode) async {
+  Future<void> speakattitude(String languageCode) async {
     // DOPSUM: CHANGE speakAttitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattitude extends StatelessWidget {
     await flutterTts.speak("attitude"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttitude1030(String languageCode) async {
+  Future<void> speakattitude1030(String languageCode) async {
     // DOPSUM: CHANGE speakAttitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattitude extends StatelessWidget {
         "These societies have to change their attitudes towards women."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttitude1034(String languageCode) async {
+  Future<void> speakattitude1034(String languageCode) async {
     // DOPSUM: CHANGE speakAttitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattitude extends StatelessWidget {
         "You'd better get rid of that attitude and shape up, young man."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttitude1036(String languageCode) async {
+  Future<void> speakattitude1036(String languageCode) async {
     // DOPSUM: CHANGE speakAttitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattitude extends StatelessWidget {
         "Her hands were folded in an attitude of prayer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttitude(String languageCode) async {
+  // Future<void> speakattitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryattitude extends StatelessWidget {
   //   await flutterTts.speak("attitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttitude(String languageCode) async {
+  // Future<void> speakattitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryattitude extends StatelessWidget {
   //   await flutterTts.speak("attitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttitude(String languageCode) async {
+  // Future<void> speakattitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryattitude extends StatelessWidget {
   //   await flutterTts.speak("attitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttitude(String languageCode) async {
+  // Future<void> speakattitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryattitude extends StatelessWidget {
   //   await flutterTts.speak("attitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttitude(String languageCode) async {
+  // Future<void> speakattitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryattitude extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætɪtjuːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttitude("en-GB"),
+                              onPressed: () => speakattitude("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryattitude extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætɪtuːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttitude("en-US"),
+                              onPressed: () => speakattitude("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryattitude extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttitude1030("en-GB"),
+                                    onPressed: () => speakattitude1030("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttitude1030(// REPLACE: attitude
+                                        speakattitude1030(// REPLACE: attitude
                                             "en-US"),
                                   ),
                                 ],
@@ -218,11 +218,11 @@ class EnglishEntryattitude extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttitude1034("en-GB"),
+                                    onPressed: () => speakattitude1034("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttitude1034(// REPLACE: attitude
+                                        speakattitude1034(// REPLACE: attitude
                                             "en-US"),
                                   ),
                                 ],
@@ -251,11 +251,11 @@ class EnglishEntryattitude extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttitude1036("en-GB"),
+                                    onPressed: () => speakattitude1036("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttitude1036(// REPLACE: attitude
+                                        speakattitude1036(// REPLACE: attitude
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntryastral extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAstral(String languageCode) async {
+  Future<void> speakastral(String languageCode) async {
     // DOPSUM: CHANGE speakAstral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryastral extends StatelessWidget {
     await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstral1111(String languageCode) async {
+  Future<void> speakastral1111(String languageCode) async {
     // DOPSUM: CHANGE speakAstral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryastral extends StatelessWidget {
         "The astronomer observed the astral bodies through his telescope."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstral1115(String languageCode) async {
+  Future<void> speakastral1115(String languageCode) async {
     // DOPSUM: CHANGE speakAstral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryastral extends StatelessWidget {
         "She believed that her dreams took her to the astral plane."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryastral extends StatelessWidget {
   //   await flutterTts.speak("astral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstral(String languageCode) async {
+  // Future<void> speakastral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryastral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAstral("en-GB"),
+                              onPressed: () => speakastral("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryastral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAstral("en-US"),
+                              onPressed: () => speakastral("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryastral extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstral1111("en-GB"),
+                                    onPressed: () => speakastral1111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstral1111(// REPLACE: astral
+                                        speakastral1111(// REPLACE: astral
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryastral extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstral1115("en-GB"),
+                                    onPressed: () => speakastral1115("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstral1115(// REPLACE: astral
+                                        speakastral1115(// REPLACE: astral
                                             "en-US"),
                                   ),
                                 ],

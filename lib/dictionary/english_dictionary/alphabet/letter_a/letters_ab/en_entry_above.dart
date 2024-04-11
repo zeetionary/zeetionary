@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakaboves1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA1249(String languageCode) async {
+  Future<void> speaka1249(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Seen from above the cars looked tiny."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2477(String languageCode) async {
+  Future<void> speaka2477(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -355,7 +355,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Put it on the shelf above."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6641(String languageCode) async {
+  Future<void> speaka6641(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
         "She's not above lying when it suits her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2886(String languageCode) async {
+  Future<void> speaka2886(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
         "I rate her above most other players of her age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA337(String languageCode) async {
+  Future<void> speaka337(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Temperatures have been above average."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6224(String languageCode) async {
+  Future<void> speaka6224(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
         "A captain in the navy ranks above a captain in the army."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3447(String languageCode) async {
+  Future<void> speaka3447(String languageCode) async {
     // DOPSUM: CHANGE speakabove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -428,10 +428,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA3447("en-GB"),
+                    onPressed: () => speaka3447("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA3447("en-US"),
+                    onPressed: () => speaka3447("en-US"),
                   ),
                 ],
               ),
@@ -456,10 +456,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA6224("en-GB"),
+                    onPressed: () => speaka6224("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA6224("en-US"),
+                    onPressed: () => speaka6224("en-US"),
                   ),
                 ],
               ),
@@ -484,10 +484,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA337("en-GB"),
+                    onPressed: () => speaka337("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA337("en-US"),
+                    onPressed: () => speaka337("en-US"),
                   ),
                 ],
               ),
@@ -514,10 +514,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA2886("en-GB"),
+                    onPressed: () => speaka2886("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA2886("en-US"),
+                    onPressed: () => speaka2886("en-US"),
                   ),
                 ],
               ),
@@ -543,10 +543,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA6641("en-GB"),
+                    onPressed: () => speaka6641("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA6641("en-US"),
+                    onPressed: () => speaka6641("en-US"),
                   ),
                 ],
               ),
@@ -569,10 +569,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA2477("en-GB"),
+                    onPressed: () => speaka2477("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA2477("en-US"),
+                    onPressed: () => speaka2477("en-US"),
                   ),
                 ],
               ),
@@ -651,10 +651,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA1249("en-GB"),
+                    onPressed: () => speaka1249("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA1249("en-US"),
+                    onPressed: () => speaka1249("en-US"),
                   ),
                 ],
               ),

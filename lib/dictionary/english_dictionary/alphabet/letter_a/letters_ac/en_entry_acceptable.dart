@@ -11,7 +11,7 @@ class EnglishEntryacceptable extends StatelessWidget {
   EnglishEntryacceptable({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAacceptable(String languageCode) async {
+  Future<void> speakaacceptable(String languageCode) async {
     // DOPSUM: CHANGE speakAacceptable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacceptable extends StatelessWidget {
     await flutterTts.speak("acceptable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA51976(String languageCode) async {
+  Future<void> speaka51976(String languageCode) async {
     // DOPSUM: CHANGE speakAacceptable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacceptable extends StatelessWidget {
         "Inspectors found that teaching standards were acceptable, but could be improved."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2548(String languageCode) async {
+  Future<void> speaka2548(String languageCode) async {
     // DOPSUM: CHANGE speakAacceptable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacceptable extends StatelessWidget {
         "It is possible to find a solution that is acceptable to both sides."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA56482(String languageCode) async {
+  Future<void> speaka56482(String languageCode) async {
     // DOPSUM: CHANGE speakAacceptable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryacceptable extends StatelessWidget {
         "Children must learn socially acceptable behaviour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAa231564(String languageCode) async {
+  Future<void> speakaa231564(String languageCode) async {
     // DOPSUM: CHANGE speakAacceptable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˈseptəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAacceptable("en-GB"),
+                              onPressed: () => speakaacceptable("en-GB"),
                             ),
                           ],
                         ),
@@ -94,7 +94,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˈseptəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAacceptable("en-US"),
+                              onPressed: () => speakaacceptable("en-US"),
                             ),
                           ],
                         ),
@@ -145,10 +145,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAa231564("en-GB"),
+                                    onPressed: () => speakaa231564("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAa231564("en-US"),
+                                    onPressed: () => speakaa231564("en-US"),
                                   ),
                                 ],
                               ),
@@ -173,10 +173,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA56482("en-GB"),
+                                    onPressed: () => speaka56482("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA56482("en-US"),
+                                    onPressed: () => speaka56482("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,10 +203,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2548("en-GB"),
+                                    onPressed: () => speaka2548("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2548("en-US"),
+                                    onPressed: () => speaka2548("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA51976("en-GB"),
+                                    onPressed: () => speaka51976("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA51976("en-US"),
+                                    onPressed: () => speaka51976("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntrybadge extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBadge(String languageCode) async {
+  Future<void> speakbadge(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.speak("badge"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges1(String languageCode) async {
+  Future<void> speakbadges1(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybadge extends StatelessWidget {
         "She wore a badge saying ‘Vote for Obama’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges2(String languageCode) async {
+  Future<void> speakbadges2(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybadge extends StatelessWidget {
         "He pulled out a badge and said he was a cop."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges3(String languageCode) async {
+  Future<void> speakbadges3(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybadge extends StatelessWidget {
         "He sewed the school badge neatly onto his uniform."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges4(String languageCode) async {
+  Future<void> speakbadges4(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybadge extends StatelessWidget {
         .speak("His gun was a badge of power for him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges5(String languageCode) async {
+  Future<void> speakbadges5(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybadge extends StatelessWidget {
         "He saw his injuries as a badge of honour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges6(String languageCode) async {
+  Future<void> speakbadges6(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybadge extends StatelessWidget {
     await flutterTts.speak("speakBadges66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges7(String languageCode) async {
+  Future<void> speakbadges7(String languageCode) async {
     // DOPSUM: CHANGE speakBadge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 text:
                                     "IpaUK: /bædʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBadge("en-GB"),
+                              onPressed: () => speakbadge("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 text:
                                     "IpaUS: /bædʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBadge("en-US"),
+                              onPressed: () => speakbadge("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntrybadge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadges1("en-GB"),
+                                    onPressed: () => speakbadges1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadges1(// REPLACE: badge
+                                        speakbadges1(// REPLACE: badge
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybadge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadges2("en-GB"),
+                                    onPressed: () => speakbadges2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadges2(// REPLACE: badge
+                                        speakbadges2(// REPLACE: badge
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybadge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadges3("en-GB"),
+                                    onPressed: () => speakbadges3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadges3(// REPLACE: badge
+                                        speakbadges3(// REPLACE: badge
                                             "en-US"),
                                   ),
                                 ],
@@ -275,11 +275,11 @@ class EnglishEntrybadge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadges4("en-GB"),
+                                    onPressed: () => speakbadges4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadges4(// REPLACE: badge
+                                        speakbadges4(// REPLACE: badge
                                             "en-US"),
                                   ),
                                 ],
@@ -306,11 +306,11 @@ class EnglishEntrybadge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadges5("en-GB"),
+                                    onPressed: () => speakbadges5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadges5(// REPLACE: badge
+                                        speakbadges5(// REPLACE: badge
                                             "en-US"),
                                   ),
                                 ],

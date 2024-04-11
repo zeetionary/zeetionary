@@ -19,7 +19,7 @@ class EnglishEntrybenefit extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBenefit(String languageCode) async {
+  Future<void> speakbenefit(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("benefit"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits1(String languageCode) async {
+  Future<void> speakbenefits1(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "Freedom of information brings great benefits."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits2(String languageCode) async {
+  Future<void> speakbenefits2(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "I've had the benefit of a good education."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits3(String languageCode) async {
+  Future<void> speakbenefits3(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "It was good to see her finally reaping the benefits of all her hard work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits4(String languageCode) async {
+  Future<void> speakbenefits4(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "You may be eligible to receive benefits."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits5(String languageCode) async {
+  Future<void> speakbenefits5(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "In addition to my salary, I get a pension and medical benefits from my job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits6(String languageCode) async {
+  Future<void> speakbenefits6(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "The insurance plan will provide substantial cash benefits to your family in case of your death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits7(String languageCode) async {
+  Future<void> speakbenefits7(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "The proceeds from the benefit will go directly to the refugee camps."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits8(String languageCode) async {
+  Future<void> speakbenefits8(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "We should spend the money on something that will benefit everyone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits9(String languageCode) async {
+  Future<void> speakbenefits9(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "The new tax laws will clearly benefit those on low wages."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits10(String languageCode) async {
+  Future<void> speakbenefits10(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "We all benefit when our young people realize their potential."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits11(String languageCode) async {
+  Future<void> speakbenefits11(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "Who exactly stands to benefit from these changes?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits12(String languageCode) async {
+  Future<void> speakbenefits12(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -135,7 +135,7 @@ class EnglishEntrybenefit extends StatelessWidget {
         "Most crime victims benefit greatly by talking about their experiences."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits13(String languageCode) async {
+  Future<void> speakbenefits13(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -143,7 +143,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits14(String languageCode) async {
+  Future<void> speakbenefits14(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -151,7 +151,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits15(String languageCode) async {
+  Future<void> speakbenefits15(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -159,7 +159,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits16(String languageCode) async {
+  Future<void> speakbenefits16(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -167,7 +167,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits17(String languageCode) async {
+  Future<void> speakbenefits17(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -175,7 +175,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits18(String languageCode) async {
+  Future<void> speakbenefits18(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -183,7 +183,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits19(String languageCode) async {
+  Future<void> speakbenefits19(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -191,7 +191,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits20(String languageCode) async {
+  Future<void> speakbenefits20(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -199,7 +199,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits21(String languageCode) async {
+  Future<void> speakbenefits21(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -207,7 +207,7 @@ class EnglishEntrybenefit extends StatelessWidget {
     await flutterTts.speak("speakBenefits2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefits22(String languageCode) async {
+  Future<void> speakbenefits22(String languageCode) async {
     // DOPSUM: CHANGE speakBenefit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -242,7 +242,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbenɪfɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBenefit("en-GB"),
+                              onPressed: () => speakbenefit("en-GB"),
                             ),
                           ],
                         ),
@@ -250,7 +250,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbenɪfɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBenefit("en-US"),
+                              onPressed: () => speakbenefit("en-US"),
                             ),
                           ],
                         ),
@@ -300,10 +300,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits1("en-GB"),
+                                    onPressed: () => speakbenefits1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits1("en-US"),
+                                    onPressed: () => speakbenefits1("en-US"),
                                   ),
                                 ],
                               ),
@@ -329,10 +329,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits2("en-GB"),
+                                    onPressed: () => speakbenefits2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits2("en-US"),
+                                    onPressed: () => speakbenefits2("en-US"),
                                   ),
                                 ],
                               ),
@@ -358,10 +358,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits3("en-GB"),
+                                    onPressed: () => speakbenefits3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits3("en-US"),
+                                    onPressed: () => speakbenefits3("en-US"),
                                   ),
                                 ],
                               ),
@@ -389,10 +389,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits4("en-GB"),
+                                    onPressed: () => speakbenefits4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits4("en-US"),
+                                    onPressed: () => speakbenefits4("en-US"),
                                   ),
                                 ],
                               ),
@@ -420,10 +420,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits5("en-GB"),
+                                    onPressed: () => speakbenefits5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits5("en-US"),
+                                    onPressed: () => speakbenefits5("en-US"),
                                   ),
                                 ],
                               ),
@@ -451,10 +451,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits6("en-GB"),
+                                    onPressed: () => speakbenefits6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits6("en-US"),
+                                    onPressed: () => speakbenefits6("en-US"),
                                   ),
                                 ],
                               ),
@@ -482,10 +482,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits7("en-GB"),
+                                    onPressed: () => speakbenefits7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits7("en-US"),
+                                    onPressed: () => speakbenefits7("en-US"),
                                   ),
                                 ],
                               ),
@@ -513,10 +513,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits8("en-GB"),
+                                    onPressed: () => speakbenefits8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits8("en-US"),
+                                    onPressed: () => speakbenefits8("en-US"),
                                   ),
                                 ],
                               ),
@@ -542,10 +542,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits9("en-GB"),
+                                    onPressed: () => speakbenefits9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits9("en-US"),
+                                    onPressed: () => speakbenefits9("en-US"),
                                   ),
                                 ],
                               ),
@@ -573,10 +573,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits10("en-GB"),
+                                    onPressed: () => speakbenefits10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits10("en-US"),
+                                    onPressed: () => speakbenefits10("en-US"),
                                   ),
                                 ],
                               ),
@@ -602,10 +602,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits11("en-GB"),
+                                    onPressed: () => speakbenefits11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits11("en-US"),
+                                    onPressed: () => speakbenefits11("en-US"),
                                   ),
                                 ],
                               ),
@@ -631,10 +631,10 @@ class EnglishEntrybenefit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenefits12("en-GB"),
+                                    onPressed: () => speakbenefits12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenefits12("en-US"),
+                                    onPressed: () => speakbenefits12("en-US"),
                                   ),
                                 ],
                               ),

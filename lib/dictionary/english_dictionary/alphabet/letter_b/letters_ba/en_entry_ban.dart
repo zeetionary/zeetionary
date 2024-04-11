@@ -19,7 +19,7 @@ class EnglishEntryban extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBan(String languageCode) async {
+  Future<void> speakban(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.speak("ban"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans1(String languageCode) async {
+  Future<void> speakbans1(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryban extends StatelessWidget {
         "The law bans smoking in all public places."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans2(String languageCode) async {
+  Future<void> speakbans2(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryban extends StatelessWidget {
         "She's been banned from leaving the country while the allegations are investigated."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans3(String languageCode) async {
+  Future<void> speakbans3(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryban extends StatelessWidget {
         "A majority of people are against the ban."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans4(String languageCode) async {
+  Future<void> speakbans4(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryban extends StatelessWidget {
         "His behaviour led to a life ban from international football."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans5(String languageCode) async {
+  Future<void> speakbans5(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.speak("speakBans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans6(String languageCode) async {
+  Future<void> speakbans6(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.speak("speakBans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBans7(String languageCode) async {
+  Future<void> speakbans7(String languageCode) async {
     // DOPSUM: CHANGE speakBan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryban extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBan("en-GB"),
+                              onPressed: () => speakban("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryban extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBan("en-US"),
+                              onPressed: () => speakban("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans1("en-GB"),
+                                    onPressed: () => speakbans1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans1(// REPLACE: ban
+                                    onPressed: () => speakbans1(// REPLACE: ban
                                         "en-US"),
                                   ),
                                 ],
@@ -209,10 +209,10 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans2("en-GB"),
+                                    onPressed: () => speakbans2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans2(// REPLACE: ban
+                                    onPressed: () => speakbans2(// REPLACE: ban
                                         "en-US"),
                                   ),
                                 ],
@@ -241,10 +241,10 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans3("en-GB"),
+                                    onPressed: () => speakbans3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans3(// REPLACE: ban
+                                    onPressed: () => speakbans3(// REPLACE: ban
                                         "en-US"),
                                   ),
                                 ],
@@ -273,10 +273,10 @@ class EnglishEntryban extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBans4("en-GB"),
+                                    onPressed: () => speakbans4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBans4(// REPLACE: ban
+                                    onPressed: () => speakbans4(// REPLACE: ban
                                         "en-US"),
                                   ),
                                 ],

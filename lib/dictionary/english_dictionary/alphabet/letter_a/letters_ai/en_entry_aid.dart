@@ -11,7 +11,7 @@ class EnglishEntryaid extends StatelessWidget {
   EnglishEntryaid({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAid(String languageCode) async {
+  Future<void> speakaid(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.speak("aid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid2522(String languageCode) async {
+  Future<void> speakaid2522(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaid extends StatelessWidget {
         "The British government has now suspended humanitarian aid to the area."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid38996(String languageCode) async {
+  Future<void> speakaid38996(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaid extends StatelessWidget {
         "Emergency aid arrived too late for many."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid35288(String languageCode) async {
+  Future<void> speakaid35288(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaid extends StatelessWidget {
         "One of the staff saw he was in difficulty and came to his aid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid37844(String languageCode) async {
+  Future<void> speakaid37844(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryaid extends StatelessWidget {
         .speak("Photos make useful teaching aids."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid35882555(String languageCode) async {
+  Future<void> speakaid35882555(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryaid extends StatelessWidget {
         "The charity was established to aid hurricane victims."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid45269(String languageCode) async {
+  Future<void> speakaid45269(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaid extends StatelessWidget {
         "They were accused of aiding him to escape."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid43748(String languageCode) async {
+  Future<void> speakaid43748(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaid extends StatelessWidget {
         "New drugs are now available to aid recovery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAid35999(String languageCode) async {
+  Future<void> speakaid35999(String languageCode) async {
     // DOPSUM: CHANGE speakAid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryaid extends StatelessWidget {
     await flutterTts.speak("Peppermint aids digestion."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAid(String languageCode) async {
+  // Future<void> speakaid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryaid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAid("en-GB"),
+                              onPressed: () => speakaid("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAid("en-US"),
+                              onPressed: () => speakaid("en-US"),
                             ),
                           ],
                         ),
@@ -186,11 +186,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid2522("en-GB"),
+                                    onPressed: () => speakaid2522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid2522(// REPLACE: aid /eɪd/
+                                        speakaid2522(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid38996("en-GB"),
+                                    onPressed: () => speakaid38996("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid38996(// REPLACE: aid /eɪd/
+                                        speakaid38996(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid35288("en-GB"),
+                                    onPressed: () => speakaid35288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid35288(// REPLACE: aid /eɪd/
+                                        speakaid35288(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -280,11 +280,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid37844("en-GB"),
+                                    onPressed: () => speakaid37844("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid37844(// REPLACE: aid /eɪd/
+                                        speakaid37844(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -312,11 +312,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid35882555("en-GB"),
+                                    onPressed: () => speakaid35882555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid35882555(// REPLACE: aid /eɪd/
+                                        speakaid35882555(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -342,11 +342,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid45269("en-GB"),
+                                    onPressed: () => speakaid45269("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid45269(// REPLACE: aid /eɪd/
+                                        speakaid45269(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -374,11 +374,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid43748("en-GB"),
+                                    onPressed: () => speakaid43748("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid43748(// REPLACE: aid /eɪd/
+                                        speakaid43748(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -402,11 +402,11 @@ class EnglishEntryaid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAid35999("en-GB"),
+                                    onPressed: () => speakaid35999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAid35999(// REPLACE: aid /eɪd/
+                                        speakaid35999(// REPLACE: aid /eɪd/
                                             "en-US"),
                                   ),
                                 ],

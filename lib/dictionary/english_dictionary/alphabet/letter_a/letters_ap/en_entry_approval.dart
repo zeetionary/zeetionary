@@ -17,7 +17,7 @@ class EnglishEntryapproval extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApproval(String languageCode) async {
+  Future<void> speakapproval(String languageCode) async {
     // DOPSUM: CHANGE speakApproval
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapproval extends StatelessWidget {
     await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproval826(String languageCode) async {
+  Future<void> speakapproval826(String languageCode) async {
     // DOPSUM: CHANGE speakApproval
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapproval extends StatelessWidget {
         "I could tell I had earned her approval."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproval829(String languageCode) async {
+  Future<void> speakapproval829(String languageCode) async {
     // DOPSUM: CHANGE speakApproval
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapproval extends StatelessWidget {
         .speak("He showed his approval by smiling."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproval831(String languageCode) async {
+  Future<void> speakapproval831(String languageCode) async {
     // DOPSUM: CHANGE speakApproval
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryapproval extends StatelessWidget {
         "The plan will be submitted to the committee for official approval."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproval832(String languageCode) async {
+  Future<void> speakapproval832(String languageCode) async {
     // DOPSUM: CHANGE speakApproval
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryapproval extends StatelessWidget {
         .speak("He won approval for his project."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApproval(String languageCode) async {
+  // Future<void> speakapproval(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproval
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproval(String languageCode) async {
+  // Future<void> speakapproval(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproval
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproval(String languageCode) async {
+  // Future<void> speakapproval(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproval
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryapproval extends StatelessWidget {
   //   await flutterTts.speak("approval"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproval(String languageCode) async {
+  // Future<void> speakapproval(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproval
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapproval extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpruːvl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproval("en-GB"),
+                              onPressed: () => speakapproval("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryapproval extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpruːvl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproval("en-US"),
+                              onPressed: () => speakapproval("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapproval extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproval826("en-GB"),
+                                    onPressed: () => speakapproval826("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproval826(
+                                    onPressed: () => speakapproval826(
                                         // REPLACE: approval /əˈpruːvl/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryapproval extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproval829("en-GB"),
+                                    onPressed: () => speakapproval829("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproval829(
+                                    onPressed: () => speakapproval829(
                                         // REPLACE: approval /əˈpruːvl/
                                         "en-US"),
                                   ),
@@ -246,10 +246,10 @@ class EnglishEntryapproval extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproval831("en-GB"),
+                                    onPressed: () => speakapproval831("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproval831(
+                                    onPressed: () => speakapproval831(
                                         // REPLACE: approval /əˈpruːvl/
                                         "en-US"),
                                   ),
@@ -276,10 +276,10 @@ class EnglishEntryapproval extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproval832("en-GB"),
+                                    onPressed: () => speakapproval832("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproval832(
+                                    onPressed: () => speakapproval832(
                                         // REPLACE: approval /əˈpruːvl/
                                         "en-US"),
                                   ),

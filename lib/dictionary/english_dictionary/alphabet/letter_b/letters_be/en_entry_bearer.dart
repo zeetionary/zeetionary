@@ -19,7 +19,7 @@ class EnglishEntrybearer extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBearer(String languageCode) async {
+  Future<void> speakbearer(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybearer extends StatelessWidget {
     await flutterTts.speak("bearer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers1(String languageCode) async {
+  Future<void> speakbearers1(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybearer extends StatelessWidget {
         "He was a coffin bearer at his father's funeral."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers2(String languageCode) async {
+  Future<void> speakbearers2(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybearer extends StatelessWidget {
         "I'm sorry to be the bearer of bad news."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers3(String languageCode) async {
+  Future<void> speakbearers3(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybearer extends StatelessWidget {
         "A pass will allow the bearer to enter the building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers4(String languageCode) async {
+  Future<void> speakbearers4(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybearer extends StatelessWidget {
         "In many societies, women play an important role as bearers of cultures and traditions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers5(String languageCode) async {
+  Future<void> speakbearers5(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybearer extends StatelessWidget {
     await flutterTts.speak("speakBearers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers6(String languageCode) async {
+  Future<void> speakbearers6(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybearer extends StatelessWidget {
     await flutterTts.speak("speakBearers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBearers7(String languageCode) async {
+  Future<void> speakbearers7(String languageCode) async {
     // DOPSUM: CHANGE speakBearer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybearer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeərə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBearer("en-GB"),
+                              onPressed: () => speakbearer("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybearer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈberər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBearer("en-US"),
+                              onPressed: () => speakbearer("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybearer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearers1("en-GB"),
+                                    onPressed: () => speakbearers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearers1("en-US"),
+                                    onPressed: () => speakbearers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybearer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearers2("en-GB"),
+                                    onPressed: () => speakbearers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearers2("en-US"),
+                                    onPressed: () => speakbearers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybearer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearers3("en-GB"),
+                                    onPressed: () => speakbearers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearers3("en-US"),
+                                    onPressed: () => speakbearers3("en-US"),
                                   ),
                                 ],
                               ),
@@ -264,10 +264,10 @@ class EnglishEntrybearer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBearers4("en-GB"),
+                                    onPressed: () => speakbearers4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBearers4("en-US"),
+                                    onPressed: () => speakbearers4("en-US"),
                                   ),
                                 ],
                               ),

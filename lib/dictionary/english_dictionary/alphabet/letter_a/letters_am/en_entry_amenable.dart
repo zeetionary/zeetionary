@@ -11,7 +11,7 @@ class EnglishEntryamenable extends StatelessWidget {
   EnglishEntryamenable({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmenable(String languageCode) async {
+  Future<void> speakamenable(String languageCode) async {
     // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamenable extends StatelessWidget {
     await flutterTts.speak("amenable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenable48577(String languageCode) async {
+  Future<void> speakamenable48577(String languageCode) async {
     // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamenable extends StatelessWidget {
         .speak("They had three very amenable children."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenable635211(String languageCode) async {
+  Future<void> speakamenable635211(String languageCode) async {
     // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamenable extends StatelessWidget {
         .speak("He seemed most amenable to my idea."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmenable(String languageCode) async {
+  // Future<void> speakamenable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmiːnəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmenable("en-GB"),
+                              onPressed: () => speakamenable("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmiːnəbl/, /əˈmenəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmenable("en-US"),
+                              onPressed: () => speakamenable("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryamenable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmenable48577("en-GB"),
+                                        speakamenable48577("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmenable48577(
+                                    onPressed: () => speakamenable48577(
                                         // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryamenable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmenable635211("en-GB"),
+                                        speakamenable635211("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmenable635211(
+                                    onPressed: () => speakamenable635211(
                                         // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
                                         "en-US"),
                                   ),

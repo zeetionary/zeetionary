@@ -19,7 +19,7 @@ class EnglishEntrybaggage extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaggage(String languageCode) async {
+  Future<void> speakbaggage(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaggage extends StatelessWidget {
     await flutterTts.speak("baggage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages1(String languageCode) async {
+  Future<void> speakbaggages1(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaggage extends StatelessWidget {
         .speak("We loaded our baggage into the car."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages2(String languageCode) async {
+  Future<void> speakbaggages2(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybaggage extends StatelessWidget {
         .speak("Let's claim our baggage first."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages3(String languageCode) async {
+  Future<void> speakbaggages3(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybaggage extends StatelessWidget {
         "Extensive baggage trains followed the troops."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages4(String languageCode) async {
+  Future<void> speakbaggages4(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybaggage extends StatelessWidget {
         "She was carrying a lot of emotional baggage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages5(String languageCode) async {
+  Future<void> speakbaggages5(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybaggage extends StatelessWidget {
     await flutterTts.speak("speakBaggages55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages6(String languageCode) async {
+  Future<void> speakbaggages6(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybaggage extends StatelessWidget {
     await flutterTts.speak("speakBaggages66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaggages7(String languageCode) async {
+  Future<void> speakbaggages7(String languageCode) async {
     // DOPSUM: CHANGE speakBaggage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæɡɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaggage("en-GB"),
+                              onPressed: () => speakbaggage("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæɡɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaggage("en-US"),
+                              onPressed: () => speakbaggage("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntrybaggage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaggages1("en-GB"),
+                                    onPressed: () => speakbaggages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaggages1(// REPLACE: baggage
+                                        speakbaggages1(// REPLACE: baggage
                                             "en-US"),
                                   ),
                                 ],
@@ -204,11 +204,11 @@ class EnglishEntrybaggage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaggages2("en-GB"),
+                                    onPressed: () => speakbaggages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaggages2(// REPLACE: baggage
+                                        speakbaggages2(// REPLACE: baggage
                                             "en-US"),
                                   ),
                                 ],
@@ -237,11 +237,11 @@ class EnglishEntrybaggage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaggages3("en-GB"),
+                                    onPressed: () => speakbaggages3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaggages3(// REPLACE: baggage
+                                        speakbaggages3(// REPLACE: baggage
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBenefactress(String languageCode) async {
+  Future<void> speakbenefactress(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("benefactress"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss1(String languageCode) async {
+  Future<void> speakbenefactresss1(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
         "The hospital received a generous donation from a wealthy benefactress."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss2(String languageCode) async {
+  Future<void> speakbenefactresss2(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("speakBenefactresss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss3(String languageCode) async {
+  Future<void> speakbenefactresss3(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("speakBenefactresss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss4(String languageCode) async {
+  Future<void> speakbenefactresss4(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("speakBenefactresss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss5(String languageCode) async {
+  Future<void> speakbenefactresss5(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("speakBenefactresss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss6(String languageCode) async {
+  Future<void> speakbenefactresss6(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
     await flutterTts.speak("speakBenefactresss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenefactresss7(String languageCode) async {
+  Future<void> speakbenefactresss7(String languageCode) async {
     // DOPSUM: CHANGE speakBenefactress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɛnɪfaktrɪs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBenefactress("en-GB"),
+                              onPressed: () => speakbenefactress("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybenefactress extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɛnɪfaktrɪs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBenefactress("en-US"),
+                              onPressed: () => speakbenefactress("en-US"),
                             ),
                           ],
                         ),
@@ -170,11 +170,11 @@ class EnglishEntrybenefactress extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBenefactresss1("en-GB"),
+                                        speakbenefactresss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBenefactresss1("en-US"),
+                                        speakbenefactresss1("en-US"),
                                   ),
                                 ],
                               ),

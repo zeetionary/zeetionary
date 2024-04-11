@@ -19,7 +19,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBankruptcy(String languageCode) async {
+  Future<void> speakbankruptcy(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("bankruptcy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys1(String languageCode) async {
+  Future<void> speakbankruptcys1(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
         "There could be further bankruptcies among small farmers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys2(String languageCode) async {
+  Future<void> speakbankruptcys2(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("speakBankruptcys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys3(String languageCode) async {
+  Future<void> speakbankruptcys3(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("speakBankruptcys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys4(String languageCode) async {
+  Future<void> speakbankruptcys4(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("speakBankruptcys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys5(String languageCode) async {
+  Future<void> speakbankruptcys5(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("speakBankruptcys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys6(String languageCode) async {
+  Future<void> speakbankruptcys6(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
     await flutterTts.speak("speakBankruptcys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankruptcys7(String languageCode) async {
+  Future<void> speakbankruptcys7(String languageCode) async {
     // DOPSUM: CHANGE speakBankruptcy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBankruptcy("en-GB"),
+                              onPressed: () => speakbankruptcy("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBankruptcy("en-US"),
+                              onPressed: () => speakbankruptcy("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankruptcys1("en-GB"),
+                                    onPressed: () => speakbankruptcys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankruptcys1(// REPLACE: bankruptcy
+                                        speakbankruptcys1(// REPLACE: bankruptcy
                                             "en-US"),
                                   ),
                                 ],

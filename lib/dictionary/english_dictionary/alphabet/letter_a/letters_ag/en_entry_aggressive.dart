@@ -11,7 +11,7 @@ class EnglishEntryaggressive extends StatelessWidget {
   EnglishEntryaggressive({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggressive(String languageCode) async {
+  Future<void> speakaggressive(String languageCode) async {
     // DOPSUM: CHANGE speakAggressive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggressive extends StatelessWidget {
     await flutterTts.speak("aggressive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggressive51114(String languageCode) async {
+  Future<void> speakaggressive51114(String languageCode) async {
     // DOPSUM: CHANGE speakAggressive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaggressive extends StatelessWidget {
         "He became increasingly aggressive as the evening wore on."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggre2256(String languageCode) async {
+  Future<void> speakaggre2256(String languageCode) async {
     // DOPSUM: CHANGE speakAggressive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaggressive extends StatelessWidget {
         "We need to get more aggressive in fighting terrorism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggr45999(String languageCode) async {
+  Future<void> speakaggr45999(String languageCode) async {
     // DOPSUM: CHANGE speakAggressive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaggressive extends StatelessWidget {
         "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggr5222(String languageCode) async {
+  Future<void> speakaggr5222(String languageCode) async {
     // DOPSUM: CHANGE speakAggressive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡresɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggressive("en-GB"),
+                              onPressed: () => speakaggressive("en-GB"),
                             ),
                           ],
                         ),
@@ -92,7 +92,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡresɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggressive("en-US"),
+                              onPressed: () => speakaggressive("en-US"),
                             ),
                           ],
                         ),
@@ -142,10 +142,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggressive51114("en-GB"),
+                                        speakaggressive51114("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggressive51114(
+                                    onPressed: () => speakaggressive51114(
                                         // REPLACE: aggressive /əˈɡresɪv/
                                         "en-US"),
                                   ),
@@ -174,10 +174,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggre2256("en-GB"),
+                                    onPressed: () => speakaggre2256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggre2256(
+                                    onPressed: () => speakaggre2256(
                                         // REPLACE: aggressive /əˈɡresɪv/
                                         "en-US"),
                                   ),
@@ -206,10 +206,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggr45999("en-GB"),
+                                    onPressed: () => speakaggr45999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggr45999(
+                                    onPressed: () => speakaggr45999(
                                         // REPLACE: aggressive /əˈɡresɪv/
                                         "en-US"),
                                   ),
@@ -238,10 +238,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggr5222("en-GB"),
+                                    onPressed: () => speakaggr5222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggr5222(
+                                    onPressed: () => speakaggr5222(
                                         // REPLACE: aggressive /əˈɡresɪv/
                                         "en-US"),
                                   ),

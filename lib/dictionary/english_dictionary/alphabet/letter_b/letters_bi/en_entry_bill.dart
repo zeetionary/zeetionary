@@ -19,7 +19,7 @@ class EnglishEntrybill extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBill(String languageCode) async {
+  Future<void> speakbill(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("bill"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills1(String languageCode) async {
+  Future<void> speakbills1(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybill extends StatelessWidget {
         .speak("She always pays her bills on time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills2(String languageCode) async {
+  Future<void> speakbills2(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("The bills are piling up."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills3(String languageCode) async {
+  Future<void> speakbills3(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("The bill came to £120."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills4(String languageCode) async {
+  Future<void> speakbills4(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybill extends StatelessWidget {
         "The waiter brought the bill to their table."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills5(String languageCode) async {
+  Future<void> speakbills5(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybill extends StatelessWidget {
         "I found a ten-dollar bill on the floor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills6(String languageCode) async {
+  Future<void> speakbills6(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybill extends StatelessWidget {
         "Congress passed the energy bill last month."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills7(String languageCode) async {
+  Future<void> speakbills7(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntrybill extends StatelessWidget {
         "There were lots of big names on the bill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills8(String languageCode) async {
+  Future<void> speakbills8(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntrybill extends StatelessWidget {
         "They prohibitted posting any bills to the walls of the building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills9(String languageCode) async {
+  Future<void> speakbills9(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntrybill extends StatelessWidget {
         "The hawk used its sharp bill to tear at its prey."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills10(String languageCode) async {
+  Future<void> speakbills10(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybill extends StatelessWidget {
         .speak("Please bill me for the books."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills11(String languageCode) async {
+  Future<void> speakbills11(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntrybill extends StatelessWidget {
         "You will be billed monthly for the service."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills12(String languageCode) async {
+  Future<void> speakbills12(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntrybill extends StatelessWidget {
         .speak("He was billed as the new Tom Cruise."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills13(String languageCode) async {
+  Future<void> speakbills13(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -142,7 +142,7 @@ class EnglishEntrybill extends StatelessWidget {
         "She was billed to speak on ‘Feminism and third world countries’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills14(String languageCode) async {
+  Future<void> speakbills14(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -150,7 +150,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills15(String languageCode) async {
+  Future<void> speakbills15(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -158,7 +158,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills16(String languageCode) async {
+  Future<void> speakbills16(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -166,7 +166,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills17(String languageCode) async {
+  Future<void> speakbills17(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -174,7 +174,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills18(String languageCode) async {
+  Future<void> speakbills18(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -182,7 +182,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills19(String languageCode) async {
+  Future<void> speakbills19(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -190,7 +190,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills20(String languageCode) async {
+  Future<void> speakbills20(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -198,7 +198,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills21(String languageCode) async {
+  Future<void> speakbills21(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -206,7 +206,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills22(String languageCode) async {
+  Future<void> speakbills22(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -214,7 +214,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills23(String languageCode) async {
+  Future<void> speakbills23(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -222,7 +222,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills24(String languageCode) async {
+  Future<void> speakbills24(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -230,7 +230,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills25(String languageCode) async {
+  Future<void> speakbills25(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -238,7 +238,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2525"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills26(String languageCode) async {
+  Future<void> speakbills26(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -246,7 +246,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2626"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills27(String languageCode) async {
+  Future<void> speakbills27(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -254,7 +254,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2727"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills28(String languageCode) async {
+  Future<void> speakbills28(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -262,7 +262,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2828"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills29(String languageCode) async {
+  Future<void> speakbills29(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -270,7 +270,7 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.speak("speakBills2929"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBills30(String languageCode) async {
+  Future<void> speakbills30(String languageCode) async {
     // DOPSUM: CHANGE speakBill
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -305,7 +305,7 @@ class EnglishEntrybill extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBill("en-GB"),
+                              onPressed: () => speakbill("en-GB"),
                             ),
                           ],
                         ),
@@ -313,7 +313,7 @@ class EnglishEntrybill extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBill("en-US"),
+                              onPressed: () => speakbill("en-US"),
                             ),
                           ],
                         ),
@@ -363,10 +363,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills1("en-GB"),
+                                    onPressed: () => speakbills1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills1("en-US"),
+                                    onPressed: () => speakbills1("en-US"),
                                   ),
                                 ],
                               ),
@@ -391,10 +391,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills2("en-GB"),
+                                    onPressed: () => speakbills2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills2("en-US"),
+                                    onPressed: () => speakbills2("en-US"),
                                   ),
                                 ],
                               ),
@@ -420,10 +420,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills3("en-GB"),
+                                    onPressed: () => speakbills3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills3("en-US"),
+                                    onPressed: () => speakbills3("en-US"),
                                   ),
                                 ],
                               ),
@@ -449,10 +449,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills4("en-GB"),
+                                    onPressed: () => speakbills4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills4("en-US"),
+                                    onPressed: () => speakbills4("en-US"),
                                   ),
                                 ],
                               ),
@@ -480,10 +480,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills5("en-GB"),
+                                    onPressed: () => speakbills5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills5("en-US"),
+                                    onPressed: () => speakbills5("en-US"),
                                   ),
                                 ],
                               ),
@@ -511,10 +511,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills6("en-GB"),
+                                    onPressed: () => speakbills6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills6("en-US"),
+                                    onPressed: () => speakbills6("en-US"),
                                   ),
                                 ],
                               ),
@@ -542,10 +542,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills7("en-GB"),
+                                    onPressed: () => speakbills7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills7("en-US"),
+                                    onPressed: () => speakbills7("en-US"),
                                   ),
                                 ],
                               ),
@@ -573,10 +573,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills8("en-GB"),
+                                    onPressed: () => speakbills8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills8("en-US"),
+                                    onPressed: () => speakbills8("en-US"),
                                   ),
                                 ],
                               ),
@@ -604,10 +604,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills9("en-GB"),
+                                    onPressed: () => speakbills9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills9("en-US"),
+                                    onPressed: () => speakbills9("en-US"),
                                   ),
                                 ],
                               ),
@@ -634,10 +634,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills10("en-GB"),
+                                    onPressed: () => speakbills10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills10("en-US"),
+                                    onPressed: () => speakbills10("en-US"),
                                   ),
                                 ],
                               ),
@@ -663,10 +663,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills11("en-GB"),
+                                    onPressed: () => speakbills11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills11("en-US"),
+                                    onPressed: () => speakbills11("en-US"),
                                   ),
                                 ],
                               ),
@@ -693,10 +693,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills12("en-GB"),
+                                    onPressed: () => speakbills12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills12("en-US"),
+                                    onPressed: () => speakbills12("en-US"),
                                   ),
                                 ],
                               ),
@@ -724,10 +724,10 @@ class EnglishEntrybill extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBills13("en-GB"),
+                                    onPressed: () => speakbills13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBills13("en-US"),
+                                    onPressed: () => speakbills13("en-US"),
                                   ),
                                 ],
                               ),

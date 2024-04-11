@@ -19,7 +19,7 @@ class EnglishEntrybest extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBest(String languageCode) async {
+  Future<void> speakbest(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("best"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests1(String languageCode) async {
+  Future<void> speakbests1(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("That's the best movie I've ever seen!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests2(String languageCode) async {
+  Future<void> speakbests2(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybest extends StatelessWidget {
         "He wrote his best songs before he was 25."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests3(String languageCode) async {
+  Future<void> speakbests3(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("Those were the best years of my life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests4(String languageCode) async {
+  Future<void> speakbests4(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("He's the best man for the job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests5(String languageCode) async {
+  Future<void> speakbests5(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybest extends StatelessWidget {
         "The best thing to do would be to apologize."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests6(String languageCode) async {
+  Future<void> speakbests6(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("Which one do you like best?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests7(String languageCode) async {
+  Future<void> speakbests7(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybest extends StatelessWidget {
         "Which evening would suit you best for the party?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests8(String languageCode) async {
+  Future<void> speakbests8(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("He works best in the mornings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests9(String languageCode) async {
+  Future<void> speakbests9(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybest extends StatelessWidget {
         "The beaches are beautiful, but, best of all, there are very few tourists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests10(String languageCode) async {
+  Future<void> speakbests10(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybest extends StatelessWidget {
         .speak("Painting is best done in daylight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests11(String languageCode) async {
+  Future<void> speakbests11(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("Do as you think best."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests12(String languageCode) async {
+  Future<void> speakbests12(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("They only buy the best."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests13(String languageCode) async {
+  Future<void> speakbests13(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -142,7 +142,7 @@ class EnglishEntrybest extends StatelessWidget {
         "They're all good players, but she's the best of all."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests14(String languageCode) async {
+  Future<void> speakbests14(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -151,7 +151,7 @@ class EnglishEntrybest extends StatelessWidget {
         "She always brings out the best in people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests15(String languageCode) async {
+  Future<void> speakbests15(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -160,7 +160,7 @@ class EnglishEntrybest extends StatelessWidget {
         "Don't worry about the exam—just do your best."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests16(String languageCode) async {
+  Future<void> speakbests16(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -169,7 +169,7 @@ class EnglishEntrybest extends StatelessWidget {
         "Fifty pounds is the best I can offer you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests17(String languageCode) async {
+  Future<void> speakbests17(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -178,7 +178,7 @@ class EnglishEntrybest extends StatelessWidget {
         "The best we can hope for in the game is a draw."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests18(String languageCode) async {
+  Future<void> speakbests18(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -187,7 +187,7 @@ class EnglishEntrybest extends StatelessWidget {
         "He was determined not to be bested by his old rival."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests19(String languageCode) async {
+  Future<void> speakbests19(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -196,7 +196,7 @@ class EnglishEntrybest extends StatelessWidget {
         "A great colonial power was nearly bested by a few farmers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests20(String languageCode) async {
+  Future<void> speakbests20(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -204,7 +204,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests21(String languageCode) async {
+  Future<void> speakbests21(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -212,7 +212,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests22(String languageCode) async {
+  Future<void> speakbests22(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -220,7 +220,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests23(String languageCode) async {
+  Future<void> speakbests23(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -228,7 +228,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests24(String languageCode) async {
+  Future<void> speakbests24(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -236,7 +236,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests25(String languageCode) async {
+  Future<void> speakbests25(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -244,7 +244,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2525"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests26(String languageCode) async {
+  Future<void> speakbests26(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -252,7 +252,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2626"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests27(String languageCode) async {
+  Future<void> speakbests27(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -260,7 +260,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2727"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests28(String languageCode) async {
+  Future<void> speakbests28(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -268,7 +268,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2828"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests29(String languageCode) async {
+  Future<void> speakbests29(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -276,7 +276,7 @@ class EnglishEntrybest extends StatelessWidget {
     await flutterTts.speak("speakBests2929"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBests30(String languageCode) async {
+  Future<void> speakbests30(String languageCode) async {
     // DOPSUM: CHANGE speakBest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -311,7 +311,7 @@ class EnglishEntrybest extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /best/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBest("en-GB"),
+                              onPressed: () => speakbest("en-GB"),
                             ),
                           ],
                         ),
@@ -319,7 +319,7 @@ class EnglishEntrybest extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /best/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBest("en-US"),
+                              onPressed: () => speakbest("en-US"),
                             ),
                           ],
                         ),
@@ -368,10 +368,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests1("en-GB"),
+                                    onPressed: () => speakbests1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests1("en-US"),
+                                    onPressed: () => speakbests1("en-US"),
                                   ),
                                 ],
                               ),
@@ -397,10 +397,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests2("en-GB"),
+                                    onPressed: () => speakbests2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests2("en-US"),
+                                    onPressed: () => speakbests2("en-US"),
                                   ),
                                 ],
                               ),
@@ -428,10 +428,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests3("en-GB"),
+                                    onPressed: () => speakbests3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests3("en-US"),
+                                    onPressed: () => speakbests3("en-US"),
                                   ),
                                 ],
                               ),
@@ -457,10 +457,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests4("en-GB"),
+                                    onPressed: () => speakbests4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests4("en-US"),
+                                    onPressed: () => speakbests4("en-US"),
                                   ),
                                 ],
                               ),
@@ -486,10 +486,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests5("en-GB"),
+                                    onPressed: () => speakbests5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests5("en-US"),
+                                    onPressed: () => speakbests5("en-US"),
                                   ),
                                 ],
                               ),
@@ -515,10 +515,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests6("en-GB"),
+                                    onPressed: () => speakbests6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests6("en-US"),
+                                    onPressed: () => speakbests6("en-US"),
                                   ),
                                 ],
                               ),
@@ -544,10 +544,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests7("en-GB"),
+                                    onPressed: () => speakbests7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests7("en-US"),
+                                    onPressed: () => speakbests7("en-US"),
                                   ),
                                 ],
                               ),
@@ -574,10 +574,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests8("en-GB"),
+                                    onPressed: () => speakbests8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests8("en-US"),
+                                    onPressed: () => speakbests8("en-US"),
                                   ),
                                 ],
                               ),
@@ -603,10 +603,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests9("en-GB"),
+                                    onPressed: () => speakbests9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests9("en-US"),
+                                    onPressed: () => speakbests9("en-US"),
                                   ),
                                 ],
                               ),
@@ -633,10 +633,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests10("en-GB"),
+                                    onPressed: () => speakbests10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests10("en-US"),
+                                    onPressed: () => speakbests10("en-US"),
                                   ),
                                 ],
                               ),
@@ -661,10 +661,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests11("en-GB"),
+                                    onPressed: () => speakbests11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests11("en-US"),
+                                    onPressed: () => speakbests11("en-US"),
                                   ),
                                 ],
                               ),
@@ -690,10 +690,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests12("en-GB"),
+                                    onPressed: () => speakbests12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests12("en-US"),
+                                    onPressed: () => speakbests12("en-US"),
                                   ),
                                 ],
                               ),
@@ -719,10 +719,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests13("en-GB"),
+                                    onPressed: () => speakbests13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests13("en-US"),
+                                    onPressed: () => speakbests13("en-US"),
                                   ),
                                 ],
                               ),
@@ -749,10 +749,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests14("en-GB"),
+                                    onPressed: () => speakbests14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests14("en-US"),
+                                    onPressed: () => speakbests14("en-US"),
                                   ),
                                 ],
                               ),
@@ -778,10 +778,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests15("en-GB"),
+                                    onPressed: () => speakbests15("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests15("en-US"),
+                                    onPressed: () => speakbests15("en-US"),
                                   ),
                                 ],
                               ),
@@ -809,10 +809,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests16("en-GB"),
+                                    onPressed: () => speakbests16("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests16("en-US"),
+                                    onPressed: () => speakbests16("en-US"),
                                   ),
                                 ],
                               ),
@@ -838,10 +838,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests17("en-GB"),
+                                    onPressed: () => speakbests17("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests17("en-US"),
+                                    onPressed: () => speakbests17("en-US"),
                                   ),
                                 ],
                               ),
@@ -869,10 +869,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests18("en-GB"),
+                                    onPressed: () => speakbests18("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests18("en-US"),
+                                    onPressed: () => speakbests18("en-US"),
                                   ),
                                 ],
                               ),
@@ -898,10 +898,10 @@ class EnglishEntrybest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBests19("en-GB"),
+                                    onPressed: () => speakbests19("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBests19("en-US"),
+                                    onPressed: () => speakbests19("en-US"),
                                   ),
                                 ],
                               ),

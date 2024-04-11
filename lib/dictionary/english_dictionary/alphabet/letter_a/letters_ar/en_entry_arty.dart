@@ -19,7 +19,7 @@ class EnglishEntryarty extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArty(String languageCode) async {
+  Future<void> speakarty(String languageCode) async {
     // DOPSUM: CHANGE speakArty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarty extends StatelessWidget {
     await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArty1008(String languageCode) async {
+  Future<void> speakarty1008(String languageCode) async {
     // DOPSUM: CHANGE speakArty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarty extends StatelessWidget {
         "Why do you pretend you like those boring, arty films?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarty extends StatelessWidget {
   //   await flutterTts.speak("arty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArty(String languageCode) async {
+  // Future<void> speakarty(String languageCode) async {
   //   // DOPSUM: CHANGE speakArty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarty extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArty("en-GB"),
+                              onPressed: () => speakarty("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarty extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArty("en-US"),
+                              onPressed: () => speakarty("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +182,11 @@ class EnglishEntryarty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArty1008("en-GB"),
+                                    onPressed: () => speakarty1008("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArty1008(// REPLACE: arty /ˈɑːrti/
+                                        speakarty1008(// REPLACE: arty /ˈɑːrti/
                                             "en-US"),
                                   ),
                                 ],

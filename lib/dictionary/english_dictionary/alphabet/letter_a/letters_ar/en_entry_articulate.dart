@@ -19,7 +19,7 @@ class EnglishEntryarticulate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArticulate(String languageCode) async {
+  Future<void> speakarticulate(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarticulate extends StatelessWidget {
     await flutterTts.speak("articulate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate716(String languageCode) async {
+  Future<void> speakarticulate716(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "He was unusually articulate for a ten-year-old."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate718(String languageCode) async {
+  Future<void> speakarticulate718(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "All we could hear were loud sobs, but no articulate words."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate720(String languageCode) async {
+  Future<void> speakarticulate720(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "She struggled to articulate her thoughts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate722(String languageCode) async {
+  Future<void> speakarticulate722(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "She cannot articulate her feelings very well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate723(String languageCode) async {
+  Future<void> speakarticulate723(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "She spoke slowly, articulating each word clearly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate726(String languageCode) async {
+  Future<void> speakarticulate726(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "These courses are designed to articulate with university degrees."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulate736(String languageCode) async {
+  Future<void> speakarticulate736(String languageCode) async {
     // DOPSUM: CHANGE speakArticulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryarticulate extends StatelessWidget {
         "He was too drunk to articulate properly."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArticulate(String languageCode) async {
+  // Future<void> speakarticulate(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticulate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈtɪkjuleɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArticulate("en-GB"),
+                              onPressed: () => speakarticulate("en-GB"),
                             ),
                           ],
                         ),
@@ -139,7 +139,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈtɪkjuleɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArticulate("en-US"),
+                              onPressed: () => speakarticulate("en-US"),
                             ),
                           ],
                         ),
@@ -190,10 +190,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate716("en-GB"),
+                                        speakarticulate716("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate716(
+                                    onPressed: () => speakarticulate716(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),
@@ -224,10 +224,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate718("en-GB"),
+                                        speakarticulate718("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate718(
+                                    onPressed: () => speakarticulate718(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),
@@ -258,10 +258,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate720("en-GB"),
+                                        speakarticulate720("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate720(
+                                    onPressed: () => speakarticulate720(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),
@@ -290,10 +290,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate722("en-GB"),
+                                        speakarticulate722("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate722(
+                                    onPressed: () => speakarticulate722(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),
@@ -324,10 +324,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate736("en-GB"),
+                                        speakarticulate736("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate736(
+                                    onPressed: () => speakarticulate736(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),
@@ -358,10 +358,10 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulate726("en-GB"),
+                                        speakarticulate726("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulate726(
+                                    onPressed: () => speakarticulate726(
                                         // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
                                         "en-US"),
                                   ),

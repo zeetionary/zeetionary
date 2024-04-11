@@ -17,7 +17,7 @@ class EnglishEntryaroma extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAroma(String languageCode) async {
+  Future<void> speakaroma(String languageCode) async {
     // DOPSUM: CHANGE speakAroma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaroma extends StatelessWidget {
     await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAroma822(String languageCode) async {
+  Future<void> speakaroma822(String languageCode) async {
     // DOPSUM: CHANGE speakAroma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaroma extends StatelessWidget {
         "A delicious aroma was coming from the kitchen."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaroma extends StatelessWidget {
   //   await flutterTts.speak("aroma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAroma(String languageCode) async {
+  // Future<void> speakaroma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAroma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaroma extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈrəʊmə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAroma("en-GB"),
+                              onPressed: () => speakaroma("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaroma extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈrəʊmə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAroma("en-US"),
+                              onPressed: () => speakaroma("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryaroma extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAroma822("en-GB"),
+                                    onPressed: () => speakaroma822("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAroma822(
+                                    onPressed: () => speakaroma822(
                                         // REPLACE: aroma /əˈrəʊmə/
                                         "en-US"),
                                   ),

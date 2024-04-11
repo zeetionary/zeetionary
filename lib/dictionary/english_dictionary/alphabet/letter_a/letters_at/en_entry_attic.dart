@@ -19,7 +19,7 @@ class EnglishEntryattic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttic(String languageCode) async {
+  Future<void> speakattic(String languageCode) async {
     // DOPSUM: CHANGE speakAttic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattic extends StatelessWidget {
     await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttic936(String languageCode) async {
+  Future<void> speakattic936(String languageCode) async {
     // DOPSUM: CHANGE speakAttic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattic extends StatelessWidget {
         "I've got boxes of old clothes in the attic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryattic extends StatelessWidget {
   //   await flutterTts.speak("attic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttic(String languageCode) async {
+  // Future<void> speakattic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryattic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttic("en-GB"),
+                              onPressed: () => speakattic("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryattic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttic("en-US"),
+                              onPressed: () => speakattic("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryattic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttic936("en-GB"),
+                                    onPressed: () => speakattic936("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttic936(// REPLACE: attic
+                                        speakattic936(// REPLACE: attic
                                             "en-US"),
                                   ),
                                 ],

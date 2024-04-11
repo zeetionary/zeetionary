@@ -11,7 +11,7 @@ class EnglishEntryalert extends StatelessWidget {
   EnglishEntryalert({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlert(String languageCode) async {
+  Future<void> speakalert(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalert extends StatelessWidget {
     await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3524(String languageCode) async {
+  Future<void> speakalert3524(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalert extends StatelessWidget {
         "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert352(String languageCode) async {
+  Future<void> speakalert352(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalert extends StatelessWidget {
         "Neighbours quickly alerted the emergency services."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert29637(String languageCode) async {
+  Future<void> speakalert29637(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalert extends StatelessWidget {
         "They had been alerted to the possibility of further price rises."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert6277(String languageCode) async {
+  Future<void> speakalert6277(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalert extends StatelessWidget {
         "More than 5 000 troops have been placed on (full) alert."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert96526(String languageCode) async {
+  Future<void> speakalert96526(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalert extends StatelessWidget {
         "I get text alerts when I have used 80% of my mobile data."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert34655(String languageCode) async {
+  Future<void> speakalert34655(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalert extends StatelessWidget {
         "Two alert scientists spotted the mistake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlert3566(String languageCode) async {
+  Future<void> speakalert3566(String languageCode) async {
     // DOPSUM: CHANGE speakAlert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryalert extends StatelessWidget {
         "We must be alert to the possibility of danger."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlert(String languageCode) async {
+  // Future<void> speakalert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryalert extends StatelessWidget {
   //   await flutterTts.speak("alert"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlert(String languageCode) async {
+  // Future<void> speakalert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryalert extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɜːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlert("en-GB"),
+                              onPressed: () => speakalert("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryalert extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɜːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlert("en-US"),
+                              onPressed: () => speakalert("en-US"),
                             ),
                           ],
                         ),
@@ -188,10 +188,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3524("en-GB"),
+                                    onPressed: () => speakalert3524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3524(
+                                    onPressed: () => speakalert3524(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert352("en-GB"),
+                                    onPressed: () => speakalert352("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert352(
+                                    onPressed: () => speakalert352(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert29637("en-GB"),
+                                    onPressed: () => speakalert29637("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert29637(
+                                    onPressed: () => speakalert29637(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -282,10 +282,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert6277("en-GB"),
+                                    onPressed: () => speakalert6277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert6277(
+                                    onPressed: () => speakalert6277(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -314,10 +314,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert96526("en-GB"),
+                                    onPressed: () => speakalert96526("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert96526(
+                                    onPressed: () => speakalert96526(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -346,10 +346,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert34655("en-GB"),
+                                    onPressed: () => speakalert34655("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert34655(
+                                    onPressed: () => speakalert34655(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),
@@ -378,10 +378,10 @@ class EnglishEntryalert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlert3566("en-GB"),
+                                    onPressed: () => speakalert3566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlert3566(
+                                    onPressed: () => speakalert3566(
                                         // REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
                                   ),

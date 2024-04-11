@@ -11,7 +11,7 @@ class EnglishEntryaltitude extends StatelessWidget {
   EnglishEntryaltitude({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltitude(String languageCode) async {
+  Future<void> speakaltitude(String languageCode) async {
     // DOPSUM: CHANGE speakAltitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,15 +19,16 @@ class EnglishEntryaltitude extends StatelessWidget {
     await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltitude222(String languageCode) async {
+  Future<void> speakaltitude222(String languageCode) async {
     // DOPSUM: CHANGE speakAltitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We are flying at an altitude of 6 000 metres."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We are flying at an altitude of 6 000 metres."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltitude(String languageCode) async {
+  // Future<void> speakaltitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +36,7 @@ class EnglishEntryaltitude extends StatelessWidget {
   //   await flutterTts.speak("altitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAltitude(String languageCode) async {
+  // Future<void> speakaltitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +73,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltɪtjuːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltitude("en-GB"),
+                              onPressed: () => speakaltitude("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +83,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltɪtuːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltitude("en-US"),
+                              onPressed: () => speakaltitude("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +131,10 @@ class EnglishEntryaltitude extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAltitude222("en-GB"),
+                                    onPressed: () => speakaltitude222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltitude222(
+                                    onPressed: () => speakaltitude222(
                                         // REPLACE: altitude /ˈæltɪtuːd/
                                         "en-US"),
                                   ),

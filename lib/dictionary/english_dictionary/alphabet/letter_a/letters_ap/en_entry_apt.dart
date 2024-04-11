@@ -17,7 +17,7 @@ class EnglishEntryapt extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApt(String languageCode) async {
+  Future<void> speakapt(String languageCode) async {
     // DOPSUM: CHANGE speakApt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapt extends StatelessWidget {
     await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt739(String languageCode) async {
+  Future<void> speakapt739(String languageCode) async {
     // DOPSUM: CHANGE speakApt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapt extends StatelessWidget {
         "It was a particularly apt name for someone with his skills."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt745(String languageCode) async {
+  Future<void> speakapt745(String languageCode) async {
     // DOPSUM: CHANGE speakApt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapt extends StatelessWidget {
         "A skilled writer uses apt descriptions to create a rich and immersive narrative."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt754(String languageCode) async {
+  Future<void> speakapt754(String languageCode) async {
     // DOPSUM: CHANGE speakApt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryapt extends StatelessWidget {
         "Babies are apt to put objects into their mouths."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt757(String languageCode) async {
+  Future<void> speakapt757(String languageCode) async {
     // DOPSUM: CHANGE speakApt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryapt extends StatelessWidget {
         "We have some particularly apt students in the class this year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApt(String languageCode) async {
+  // Future<void> speakapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakApt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
+  // Future<void> speakapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakApt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
+  // Future<void> speakapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakApt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryapt extends StatelessWidget {
   //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
+  // Future<void> speakapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakApt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 text:
                                     "IpaUK: /æpt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApt("en-GB"),
+                              onPressed: () => speakapt("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 text:
                                     "IpaUS: /æpt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApt("en-US"),
+                              onPressed: () => speakapt("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +182,11 @@ class EnglishEntryapt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApt739("en-GB"),
+                                    onPressed: () => speakapt739("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApt739(// REPLACE: apt /æpt/
+                                        speakapt739(// REPLACE: apt /æpt/
                                             "en-US"),
                                   ),
                                 ],
@@ -213,11 +213,11 @@ class EnglishEntryapt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApt745("en-GB"),
+                                    onPressed: () => speakapt745("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApt745(// REPLACE: apt /æpt/
+                                        speakapt745(// REPLACE: apt /æpt/
                                             "en-US"),
                                   ),
                                 ],
@@ -246,11 +246,11 @@ class EnglishEntryapt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApt754("en-GB"),
+                                    onPressed: () => speakapt754("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApt754(// REPLACE: apt /æpt/
+                                        speakapt754(// REPLACE: apt /æpt/
                                             "en-US"),
                                   ),
                                 ],
@@ -279,11 +279,11 @@ class EnglishEntryapt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApt757("en-GB"),
+                                    onPressed: () => speakapt757("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApt757(// REPLACE: apt /æpt/
+                                        speakapt757(// REPLACE: apt /æpt/
                                             "en-US"),
                                   ),
                                 ],

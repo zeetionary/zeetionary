@@ -19,7 +19,7 @@ class EnglishEntryauthor extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthor(String languageCode) async {
+  Future<void> speakauthor(String languageCode) async {
     // DOPSUM: CHANGE speakAuthor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthor extends StatelessWidget {
     await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthor717(String languageCode) async {
+  Future<void> speakauthor717(String languageCode) async {
     // DOPSUM: CHANGE speakAuthor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthor extends StatelessWidget {
         "He is the author of three books on art."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthor719(String languageCode) async {
+  Future<void> speakauthor719(String languageCode) async {
     // DOPSUM: CHANGE speakAuthor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthor extends StatelessWidget {
         "The film is based on a novel written by a female author."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthor721(String languageCode) async {
+  Future<void> speakauthor721(String languageCode) async {
     // DOPSUM: CHANGE speakAuthor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryauthor extends StatelessWidget {
         "As the author of the proposal I cannot agree with you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthor722(String languageCode) async {
+  Future<void> speakauthor722(String languageCode) async {
     // DOPSUM: CHANGE speakAuthor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryauthor extends StatelessWidget {
         .speak("He has authored more than 30 books."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthor(String languageCode) async {
+  // Future<void> speakauthor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthor(String languageCode) async {
+  // Future<void> speakauthor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthor(String languageCode) async {
+  // Future<void> speakauthor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryauthor extends StatelessWidget {
   //   await flutterTts.speak("author"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthor(String languageCode) async {
+  // Future<void> speakauthor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryauthor extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːθə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthor("en-GB"),
+                              onPressed: () => speakauthor("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryauthor extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːθər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthor("en-US"),
+                              onPressed: () => speakauthor("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryauthor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthor717("en-GB"),
+                                    onPressed: () => speakauthor717("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthor717(// REPLACE: author
+                                        speakauthor717(// REPLACE: author
                                             "en-US"),
                                   ),
                                 ],
@@ -215,11 +215,11 @@ class EnglishEntryauthor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthor719("en-GB"),
+                                    onPressed: () => speakauthor719("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthor719(// REPLACE: author
+                                        speakauthor719(// REPLACE: author
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryauthor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthor721("en-GB"),
+                                    onPressed: () => speakauthor721("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthor721(// REPLACE: author
+                                        speakauthor721(// REPLACE: author
                                             "en-US"),
                                   ),
                                 ],
@@ -280,11 +280,11 @@ class EnglishEntryauthor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthor722("en-GB"),
+                                    onPressed: () => speakauthor722("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthor722(// REPLACE: author
+                                        speakauthor722(// REPLACE: author
                                             "en-US"),
                                   ),
                                 ],

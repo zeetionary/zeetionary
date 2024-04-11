@@ -1,18 +1,150 @@
-// replace these: EnglishEntryabscess - speakAbscess - abscess - /ˈæbses/
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
-class EnglishEntryabscess extends StatelessWidget {
-  EnglishEntryabscess({super.key});
+class EnglishEntryabscess extends StatefulWidget {
+  const EnglishEntryabscess({super.key});
+
+  @override
+  State<EnglishEntryabscess> createState() => _EnglishEntryabscessState();
+}
+
+class _EnglishEntryabscessState extends State<EnglishEntryabscess> {
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // const TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "abscess");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: abscess");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈæbses/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
+    super.key,
+  });
+
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbscess(String languageCode) async {
-    // DOPSUM: CHANGE speakAbscess
+  Future<void> speakabscess(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -21,119 +153,214 @@ class EnglishEntryabscess extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word: "abscess"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈæbses/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbscess("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæbses/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbscess("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const KurdishVocabulary(text: """
+    return CustomIconButtonBritish(
+      onPressed: () => speakabscess("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈæbses/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabscess(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abscess"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakabscess("en-US"),
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabscesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "// He had a painful abscess on his hand."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabscesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakabscess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabscesss1300"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const KurdishVocabulary(text: """
 کوردی: دمەڵ، دومەڵ، کوان، مادە، سۆ، کولک، پزرک، ناسۆر، گۆنر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He had a painful abscess on his hand."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "دومەڵێکی گەورەی ھەبوو لەسەر دەستی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAbscess("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAbscess("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedend(),
-                      ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He had a painful abscess on his hand."),
+                    ExampleSentenceKurdish(
+                        text: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی."),
                   ],
                 ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakabscesss1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakabscesss1("en-US"),
+                  ),
+                ],
               ),
             ],
           ),
-        ),
+        ],
       ),
     );
   }
@@ -168,7 +395,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -178,7 +405,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: abscess (derived forms: abscesses)
@@ -336,4 +563,97 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+// speakabscesss111111111111111111111111111111111
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        // YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB
+
+
+
+
+
+

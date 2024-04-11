@@ -12,7 +12,7 @@ class EnglishEntryannotate extends StatelessWidget {
   EnglishEntryannotate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnotate(String languageCode) async {
+  Future<void> speakannotate(String languageCode) async {
     // DOPSUM: CHANGE speakAnnotate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannotate extends StatelessWidget {
     await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnotate158(String languageCode) async {
+  Future<void> speakannotate158(String languageCode) async {
     // DOPSUM: CHANGE speakAnnotate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannotate extends StatelessWidget {
         "The text was annotated with her own comments."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannotate extends StatelessWidget {
   //   await flutterTts.speak("annotate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotate(String languageCode) async {
+  // Future<void> speakannotate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryannotate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnotate("en-GB"),
+                              onPressed: () => speakannotate("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryannotate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnotate("en-US"),
+                              onPressed: () => speakannotate("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntryannotate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnotate158("en-GB"),
+                                    onPressed: () => speakannotate158("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnotate158(
+                                    onPressed: () => speakannotate158(
                                         // REPLACE: annotate /ˈænəteɪt/
                                         "en-US"),
                                   ),

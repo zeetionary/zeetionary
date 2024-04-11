@@ -11,7 +11,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
   EnglishEntryaccomplish({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccomplish(String languageCode) async {
+  Future<void> speakaccomplish(String languageCode) async {
     // DOPSUM: CHANGE speakAccomplish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
     await flutterTts.speak("accomplish"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc26934(String languageCode) async {
+  Future<void> speakac26934(String languageCode) async {
     // DOPSUM: CHANGE speakAccomplish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkʌmplɪʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccomplish("en-GB"),
+                              onPressed: () => speakaccomplish("en-GB"),
                             ),
                           ],
                         ),
@@ -67,7 +67,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɑːmplɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccomplish("en-US"),
+                              onPressed: () => speakaccomplish("en-US"),
                             ),
                           ],
                         ),
@@ -118,10 +118,10 @@ class EnglishEntryaccomplish extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc26934("en-GB"),
+                                    onPressed: () => speakac26934("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc26934("en-US"),
+                                    onPressed: () => speakac26934("en-US"),
                                   ),
                                 ],
                               ),

@@ -11,7 +11,7 @@ class EnglishEntryadornment extends StatelessWidget {
   EnglishEntryadornment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdornment(String languageCode) async {
+  Future<void> speakadornment(String languageCode) async {
     // DOPSUM: CHANGE speakAdornment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadornment extends StatelessWidget {
     await flutterTts.speak("adornment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdornm79534(String languageCode) async {
+  Future<void> speakadornm79534(String languageCode) async {
     // DOPSUM: CHANGE speakAdornment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadornment extends StatelessWidget {
         "A plain necklace was her only adornment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd25698(String languageCode) async {
+  Future<void> speakad25698(String languageCode) async {
     // DOPSUM: CHANGE speakAdornment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadornment extends StatelessWidget {
         "Precious stones have been used for the purposes of adornment for over 7000 years."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdornment(String languageCode) async {
+  // Future<void> speakadornment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdornment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadornment extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɔːnmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdornment("en-GB"),
+                              onPressed: () => speakadornment("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadornment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɔːrnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdornment("en-US"),
+                              onPressed: () => speakadornment("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryadornment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdornm79534("en-GB"),
+                                    onPressed: () => speakadornm79534("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdornm79534(
+                                    onPressed: () => speakadornm79534(
                                         // REPLACE: adornment /əˈdɔːrnmənt/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryadornment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAd25698("en-GB"),
+                                    onPressed: () => speakad25698("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAd25698(
+                                    onPressed: () => speakad25698(
                                         // REPLACE: adornment /əˈdɔːrnmənt/
                                         "en-US"),
                                   ),

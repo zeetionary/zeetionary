@@ -11,7 +11,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
   EnglishEntryalcoholism({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlcoholism(String languageCode) async {
+  Future<void> speakalcoholism(String languageCode) async {
     // DOPSUM: CHANGE speakAlcoholism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
     await flutterTts.speak("alcoholism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlcoholism6582(String languageCode) async {
+  Future<void> speakalcoholism6582(String languageCode) async {
     // DOPSUM: CHANGE speakAlcoholism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
         "He finally sought treatment for his alcoholism."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlcoholism(String languageCode) async {
+  // Future<void> speakalcoholism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlcoholism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
   //   await flutterTts.speak("alcoholism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlcoholism(String languageCode) async {
+  // Future<void> speakalcoholism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlcoholism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælkəhɒlɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlcoholism("en-GB"),
+                              onPressed: () => speakalcoholism("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælkəhɑːlɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlcoholism("en-US"),
+                              onPressed: () => speakalcoholism("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlcoholism6582("en-GB"),
+                                        speakalcoholism6582("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlcoholism6582(
+                                    onPressed: () => speakalcoholism6582(
                                         // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
                                         "en-US"),
                                   ),

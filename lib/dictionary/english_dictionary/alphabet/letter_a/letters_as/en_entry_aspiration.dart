@@ -19,7 +19,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAspiration(String languageCode) async {
+  Future<void> speakaspiration(String languageCode) async {
     // DOPSUM: CHANGE speakAspiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaspiration extends StatelessWidget {
     await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspiration709(String languageCode) async {
+  Future<void> speakaspiration709(String languageCode) async {
     // DOPSUM: CHANGE speakAspiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaspiration extends StatelessWidget {
         "I didn't realize you had political aspirations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspiration722(String languageCode) async {
+  Future<void> speakaspiration722(String languageCode) async {
     // DOPSUM: CHANGE speakAspiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaspiration extends StatelessWidget {
         "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   //   await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   //   await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   //   await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   //   await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryaspiration extends StatelessWidget {
   //   await flutterTts.speak("aspiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspiration(String languageCode) async {
+  // Future<void> speakaspiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæspəˈreɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAspiration("en-GB"),
+                              onPressed: () => speakaspiration("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæspəˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAspiration("en-US"),
+                              onPressed: () => speakaspiration("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAspiration709("en-GB"),
+                                        speakaspiration709("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspiration709(
+                                    onPressed: () => speakaspiration709(
                                         // REPLACE: aspiration /ˌæspəˈreɪʃn/
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAspiration722("en-GB"),
+                                        speakaspiration722("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspiration722(
+                                    onPressed: () => speakaspiration722(
                                         // REPLACE: aspiration /ˌæspəˈreɪʃn/
                                         "en-US"),
                                   ),

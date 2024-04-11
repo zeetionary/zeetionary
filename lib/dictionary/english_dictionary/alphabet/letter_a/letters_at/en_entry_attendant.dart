@@ -19,7 +19,7 @@ class EnglishEntryattendant extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttendant(String languageCode) async {
+  Future<void> speakattendant(String languageCode) async {
     // DOPSUM: CHANGE speakAttendant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattendant extends StatelessWidget {
     await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttendant831(String languageCode) async {
+  Future<void> speakattendant831(String languageCode) async {
     // DOPSUM: CHANGE speakAttendant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattendant extends StatelessWidget {
         "Pool attendants kept a constant watch on the swimmers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttendant835(String languageCode) async {
+  Future<void> speakattendant835(String languageCode) async {
     // DOPSUM: CHANGE speakAttendant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattendant extends StatelessWidget {
         "There are too many risks attendant on such a large investment of money."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattendant extends StatelessWidget {
   //   await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattendant extends StatelessWidget {
   //   await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattendant extends StatelessWidget {
   //   await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattendant extends StatelessWidget {
   //   await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattendant extends StatelessWidget {
   //   await flutterTts.speak("attendant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendant(String languageCode) async {
+  // Future<void> speakattendant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattendant extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtendənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttendant("en-GB"),
+                              onPressed: () => speakattendant("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattendant extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtendənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttendant("en-US"),
+                              onPressed: () => speakattendant("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryattendant extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttendant831("en-GB"),
+                                    onPressed: () => speakattendant831("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttendant831(// REPLACE: attendant
+                                        speakattendant831(// REPLACE: attendant
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryattendant extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttendant835("en-GB"),
+                                    onPressed: () => speakattendant835("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttendant835(// REPLACE: attendant
+                                        speakattendant835(// REPLACE: attendant
                                             "en-US"),
                                   ),
                                 ],

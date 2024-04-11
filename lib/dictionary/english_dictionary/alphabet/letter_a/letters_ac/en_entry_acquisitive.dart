@@ -11,7 +11,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
   EnglishEntryacquisitive({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcquisitive(String languageCode) async {
+  Future<void> speakacquisitive(String languageCode) async {
     // DOPSUM: CHANGE speakAcquisitive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
     await flutterTts.speak("acquisitive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcq12469(String languageCode) async {
+  Future<void> speakacq12469(String languageCode) async {
     // DOPSUM: CHANGE speakAcquisitive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
         "It is an acquisitive company looking for ways to expand."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcquisitive(String languageCode) async {
+  // Future<void> speakacquisitive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquisitive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
   //   await flutterTts.speak("acquisitive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcquisitive(String languageCode) async {
+  // Future<void> speakacquisitive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquisitive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkwɪzətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquisitive("en-GB"),
+                              onPressed: () => speakacquisitive("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwɪzətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquisitive("en-US"),
+                              onPressed: () => speakacquisitive("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryacquisitive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcq12469("en-GB"),
+                                    onPressed: () => speakacq12469("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcq12469(
+                                    onPressed: () => speakacq12469(
                                         "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
                                   ),
                                 ],

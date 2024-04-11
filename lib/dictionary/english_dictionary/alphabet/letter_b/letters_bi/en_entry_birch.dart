@@ -19,7 +19,7 @@ class EnglishEntrybirch extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBirch(String languageCode) async {
+  Future<void> speakbirch(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybirch extends StatelessWidget {
     await flutterTts.speak("birch"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs1(String languageCode) async {
+  Future<void> speakbirchs1(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybirch extends StatelessWidget {
         "Birch branches swayed gently in the breeze."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs2(String languageCode) async {
+  Future<void> speakbirchs2(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybirch extends StatelessWidget {
         "Craftsmen use birch to create furniture, toys, and decorative objects."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs3(String languageCode) async {
+  Future<void> speakbirchs3(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybirch extends StatelessWidget {
         "The threat of the birch hung heavy in the air during school."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs4(String languageCode) async {
+  Future<void> speakbirchs4(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybirch extends StatelessWidget {
     await flutterTts.speak("speakBirchs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs5(String languageCode) async {
+  Future<void> speakbirchs5(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybirch extends StatelessWidget {
     await flutterTts.speak("speakBirchs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs6(String languageCode) async {
+  Future<void> speakbirchs6(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybirch extends StatelessWidget {
     await flutterTts.speak("speakBirchs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirchs7(String languageCode) async {
+  Future<void> speakbirchs7(String languageCode) async {
     // DOPSUM: CHANGE speakBirch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybirch extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɜːtʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBirch("en-GB"),
+                              onPressed: () => speakbirch("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybirch extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɜːrtʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBirch("en-US"),
+                              onPressed: () => speakbirch("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybirch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirchs1("en-GB"),
+                                    onPressed: () => speakbirchs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirchs1("en-US"),
+                                    onPressed: () => speakbirchs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybirch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirchs2("en-GB"),
+                                    onPressed: () => speakbirchs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirchs2("en-US"),
+                                    onPressed: () => speakbirchs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybirch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirchs3("en-GB"),
+                                    onPressed: () => speakbirchs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirchs3("en-US"),
+                                    onPressed: () => speakbirchs3("en-US"),
                                   ),
                                 ],
                               ),

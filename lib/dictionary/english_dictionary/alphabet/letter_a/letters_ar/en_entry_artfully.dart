@@ -19,7 +19,7 @@ class EnglishEntryartfully extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtfully(String languageCode) async {
+  Future<void> speakartfully(String languageCode) async {
     // DOPSUM: CHANGE speakArtfully
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartfully extends StatelessWidget {
     await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtfully441(String languageCode) async {
+  Future<void> speakartfully441(String languageCode) async {
     // DOPSUM: CHANGE speakArtfully
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartfully extends StatelessWidget {
         "In our conversation, he was artfully vague about his plans."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtfully443(String languageCode) async {
+  Future<void> speakartfully443(String languageCode) async {
     // DOPSUM: CHANGE speakArtfully
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryartfully extends StatelessWidget {
         "She opened her right hand but artfully concealed the key in her left hand."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryartfully extends StatelessWidget {
   //   await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryartfully extends StatelessWidget {
   //   await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryartfully extends StatelessWidget {
   //   await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryartfully extends StatelessWidget {
   //   await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryartfully extends StatelessWidget {
   //   await flutterTts.speak("artfully"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtfully(String languageCode) async {
+  // Future<void> speakartfully(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtfully
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryartfully extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtfəli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtfully("en-GB"),
+                              onPressed: () => speakartfully("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryartfully extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtfəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtfully("en-US"),
+                              onPressed: () => speakartfully("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryartfully extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtfully441("en-GB"),
+                                    onPressed: () => speakartfully441("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtfully441(
+                                    onPressed: () => speakartfully441(
                                         // REPLACE: artfully /ˈɑːrtfəli/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryartfully extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtfully443("en-GB"),
+                                    onPressed: () => speakartfully443("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtfully443(
+                                    onPressed: () => speakartfully443(
                                         // REPLACE: artfully /ˈɑːrtfəli/
                                         "en-US"),
                                   ),

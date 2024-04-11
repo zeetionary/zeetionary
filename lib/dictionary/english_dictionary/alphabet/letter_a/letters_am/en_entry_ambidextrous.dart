@@ -11,7 +11,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
   EnglishEntryambidextrous({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbidextrous(String languageCode) async {
+  Future<void> speakambidextrous(String languageCode) async {
     // DOPSUM: CHANGE speakAmbidextrous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
     await flutterTts.speak("ambidextrous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbidextrous525555(String languageCode) async {
+  Future<void> speakambidextrous525555(String languageCode) async {
     // DOPSUM: CHANGE speakAmbidextrous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
         "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmbidextrous(String languageCode) async {
+  // Future<void> speakambidextrous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbidextrous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
   //   await flutterTts.speak("ambidextrous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmbidextrous(String languageCode) async {
+  // Future<void> speakambidextrous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbidextrous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbidextrous("en-GB"),
+                              onPressed: () => speakambidextrous("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbidextrous("en-US"),
+                              onPressed: () => speakambidextrous("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbidextrous525555("en-GB"),
+                                        speakambidextrous525555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbidextrous525555(
+                                    onPressed: () => speakambidextrous525555(
                                         // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
   EnglishEntryairtrafficcontroller({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirtrafficcontroller(String languageCode) async {
+  Future<void> speakairtrafficcontroller(String languageCode) async {
     // DOPSUM: CHANGE speakAirtrafficcontroller
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
     await flutterTts.speak("air traffic controller"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirtrafficcontroller4255(String languageCode) async {
+  Future<void> speakairtrafficcontroller4255(String languageCode) async {
     // DOPSUM: CHANGE speakAirtrafficcontroller
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
         "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirtrafficcontroller(String languageCode) async {
+  // Future<void> speakairtrafficcontroller(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirtrafficcontroller
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
   //   await flutterTts.speak("air traffic controller"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirtrafficcontroller(String languageCode) async {
+  // Future<void> speakairtrafficcontroller(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirtrafficcontroller
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                     "IpaUK: /ˌeə træfɪk kənˈtrəʊlə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () =>
-                                  speakAirtrafficcontroller("en-GB"),
+                                  speakairtrafficcontroller("en-GB"),
                             ),
                           ],
                         ),
@@ -87,7 +87,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                     "IpaUS: /ˌer træfɪk kənˈtrəʊlər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () =>
-                                  speakAirtrafficcontroller("en-US"),
+                                  speakairtrafficcontroller("en-US"),
                             ),
                           ],
                         ),
@@ -138,10 +138,10 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirtrafficcontroller4255("en-GB"),
+                                        speakairtrafficcontroller4255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirtrafficcontroller4255(
+                                    onPressed: () => speakairtrafficcontroller4255(
                                         // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
                                         "en-US"),
                                   ),

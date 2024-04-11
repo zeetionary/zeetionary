@@ -43,7 +43,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
-  static const double _defaultHeight = 37.0;
+  static const double _defaultHeight = 44.0;
 }
 
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -1478,8 +1478,8 @@ class EmptyPageIcon extends StatefulWidget {
   const EmptyPageIcon({super.key, required this.text});
 
   @override
-  // ignore: library_private_types_in_public_api
-  _EmptyPageIconState createState() => _EmptyPageIconState();
+  // _EmptyPageIconState createState() => _EmptyPageIconState();
+  State<EmptyPageIcon> createState() => _EmptyPageIconState();
 }
 
 class _EmptyPageIconState extends State<EmptyPageIcon>

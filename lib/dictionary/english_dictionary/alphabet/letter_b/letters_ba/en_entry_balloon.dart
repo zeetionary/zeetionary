@@ -19,7 +19,7 @@ class EnglishEntryballoon extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalloon(String languageCode) async {
+  Future<void> speakballoon(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryballoon extends StatelessWidget {
     await flutterTts.speak("balloon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons1(String languageCode) async {
+  Future<void> speakballoons1(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryballoon extends StatelessWidget {
     await flutterTts.speak("My balloon has burst!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons2(String languageCode) async {
+  Future<void> speakballoons2(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryballoon extends StatelessWidget {
     await flutterTts.speak("We went up in a balloon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons3(String languageCode) async {
+  Future<void> speakballoons3(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryballoon extends StatelessWidget {
         .speak("Her skirt ballooned out in the wind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons4(String languageCode) async {
+  Future<void> speakballoons4(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryballoon extends StatelessWidget {
         "Unemployment ballooned to fourteen per cent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons5(String languageCode) async {
+  Future<void> speakballoons5(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryballoon extends StatelessWidget {
         "He planned to become the first person to balloon over the North Pole."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons6(String languageCode) async {
+  Future<void> speakballoons6(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryballoon extends StatelessWidget {
     await flutterTts.speak("speakBalloons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalloons7(String languageCode) async {
+  Future<void> speakballoons7(String languageCode) async {
     // DOPSUM: CHANGE speakBalloon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryballoon extends StatelessWidget {
                                 text:
                                     "IpaUK: /bəˈluːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalloon("en-GB"),
+                              onPressed: () => speakballoon("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryballoon extends StatelessWidget {
                                 text:
                                     "IpaUS: /bəˈluːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalloon("en-US"),
+                              onPressed: () => speakballoon("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryballoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalloons1("en-GB"),
+                                    onPressed: () => speakballoons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalloons1(// REPLACE: balloon
+                                        speakballoons1(// REPLACE: balloon
                                             "en-US"),
                                   ),
                                 ],
@@ -205,11 +205,11 @@ class EnglishEntryballoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalloons2("en-GB"),
+                                    onPressed: () => speakballoons2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalloons2(// REPLACE: balloon
+                                        speakballoons2(// REPLACE: balloon
                                             "en-US"),
                                   ),
                                 ],
@@ -238,11 +238,11 @@ class EnglishEntryballoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalloons3("en-GB"),
+                                    onPressed: () => speakballoons3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalloons3(// REPLACE: balloon
+                                        speakballoons3(// REPLACE: balloon
                                             "en-US"),
                                   ),
                                 ],
@@ -270,11 +270,11 @@ class EnglishEntryballoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalloons4("en-GB"),
+                                    onPressed: () => speakballoons4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalloons4(// REPLACE: balloon
+                                        speakballoons4(// REPLACE: balloon
                                             "en-US"),
                                   ),
                                 ],
@@ -303,11 +303,11 @@ class EnglishEntryballoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalloons5("en-GB"),
+                                    onPressed: () => speakballoons5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalloons5(// REPLACE: balloon
+                                        speakballoons5(// REPLACE: balloon
                                             "en-US"),
                                   ),
                                 ],

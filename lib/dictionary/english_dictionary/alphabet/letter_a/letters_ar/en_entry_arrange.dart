@@ -19,7 +19,7 @@ class EnglishEntryarrange extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArrange(String languageCode) async {
+  Future<void> speakarrange(String languageCode) async {
     // DOPSUM: CHANGE speakArrange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarrange extends StatelessWidget {
     await flutterTts.speak("arrange"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrange105(String languageCode) async {
+  Future<void> speakarrange105(String languageCode) async {
     // DOPSUM: CHANGE speakArrange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarrange extends StatelessWidget {
         .speak("The party was arranged quickly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrange106(String languageCode) async {
+  Future<void> speakarrange106(String languageCode) async {
     // DOPSUM: CHANGE speakArrange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarrange extends StatelessWidget {
         .speak("She arranged a loan with the bank."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrange108(String languageCode) async {
+  Future<void> speakarrange108(String languageCode) async {
     // DOPSUM: CHANGE speakArrange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarrange extends StatelessWidget {
         "The books are arranged alphabetically by author."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrange111(String languageCode) async {
+  Future<void> speakarrange111(String languageCode) async {
     // DOPSUM: CHANGE speakArrange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarrange extends StatelessWidget {
         "Beethoven's fifth symphony has been arranged for the piano."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArrange(String languageCode) async {
+  // Future<void> speakarrange(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrange
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryarrange extends StatelessWidget {
   //   await flutterTts.speak("arrange"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrange(String languageCode) async {
+  // Future<void> speakarrange(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrange
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarrange extends StatelessWidget {
   //   await flutterTts.speak("arrange"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrange(String languageCode) async {
+  // Future<void> speakarrange(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrange
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryarrange extends StatelessWidget {
   //   await flutterTts.speak("arrange"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrange(String languageCode) async {
+  // Future<void> speakarrange(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrange
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryarrange extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈreɪndʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArrange("en-GB"),
+                              onPressed: () => speakarrange("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryarrange extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈreɪndʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArrange("en-US"),
+                              onPressed: () => speakarrange("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryarrange extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrange105("en-GB"),
+                                    onPressed: () => speakarrange105("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrange105(
+                                    onPressed: () => speakarrange105(
                                         // REPLACE: arrange /əˈreɪndʒ/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryarrange extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrange106("en-GB"),
+                                    onPressed: () => speakarrange106("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrange106(
+                                    onPressed: () => speakarrange106(
                                         // REPLACE: arrange /əˈreɪndʒ/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryarrange extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrange108("en-GB"),
+                                    onPressed: () => speakarrange108("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrange108(
+                                    onPressed: () => speakarrange108(
                                         // REPLACE: arrange /əˈreɪndʒ/
                                         "en-US"),
                                   ),
@@ -281,10 +281,10 @@ class EnglishEntryarrange extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrange111("en-GB"),
+                                    onPressed: () => speakarrange111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrange111(
+                                    onPressed: () => speakarrange111(
                                         // REPLACE: arrange /əˈreɪndʒ/
                                         "en-US"),
                                   ),

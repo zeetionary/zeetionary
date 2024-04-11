@@ -15,7 +15,7 @@ class EnglishEntryaorta extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAorta(String languageCode) async {
+  Future<void> speakaorta(String languageCode) async {
     // DOPSUM: CHANGE speakAorta
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryaorta extends StatelessWidget {
     await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAorta1053(String languageCode) async {
+  Future<void> speakaorta1053(String languageCode) async {
     // DOPSUM: CHANGE speakAorta
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryaorta extends StatelessWidget {
         "The blood can dissect up or down the aorta."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryaorta extends StatelessWidget {
   //   await flutterTts.speak("aorta"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAorta(String languageCode) async {
+  // Future<void> speakaorta(String languageCode) async {
   //   // DOPSUM: CHANGE speakAorta
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryaorta extends StatelessWidget {
                                 text:
                                     "IpaUK: /eɪˈɔːtə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAorta("en-GB"),
+                              onPressed: () => speakaorta("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryaorta extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪˈɔːrtə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAorta("en-US"),
+                              onPressed: () => speakaorta("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryaorta extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAorta1053("en-GB"),
+                                    onPressed: () => speakaorta1053("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAorta1053(
+                                    onPressed: () => speakaorta1053(
                                         // REPLACE: aorta /eɪˈɔːrtə/
                                         "en-US"),
                                   ),

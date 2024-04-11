@@ -17,7 +17,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAromatic(String languageCode) async {
+  Future<void> speakaromatic(String languageCode) async {
     // DOPSUM: CHANGE speakAromatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaromatic extends StatelessWidget {
     await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAromatic857(String languageCode) async {
+  Future<void> speakaromatic857(String languageCode) async {
     // DOPSUM: CHANGE speakAromatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaromatic extends StatelessWidget {
         .speak("The plant is strongly aromatic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaromatic extends StatelessWidget {
   //   await flutterTts.speak("aromatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatic(String languageCode) async {
+  // Future<void> speakaromatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaromatic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌærəˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAromatic("en-GB"),
+                              onPressed: () => speakaromatic("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaromatic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌærəˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAromatic("en-US"),
+                              onPressed: () => speakaromatic("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryaromatic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAromatic857("en-GB"),
+                                    onPressed: () => speakaromatic857("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAromatic857(
+                                    onPressed: () => speakaromatic857(
                                         // REPLACE: aromatic /ˌærəˈmætɪk/
                                         "en-US"),
                                   ),

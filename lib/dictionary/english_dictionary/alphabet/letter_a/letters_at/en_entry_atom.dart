@@ -19,7 +19,7 @@ class EnglishEntryatom extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtom(String languageCode) async {
+  Future<void> speakatom(String languageCode) async {
     // DOPSUM: CHANGE speakAtom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatom extends StatelessWidget {
     await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtom1206(String languageCode) async {
+  Future<void> speakatom1206(String languageCode) async {
     // DOPSUM: CHANGE speakAtom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatom extends StatelessWidget {
         "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtom1208(String languageCode) async {
+  Future<void> speakatom1208(String languageCode) async {
     // DOPSUM: CHANGE speakAtom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryatom extends StatelessWidget {
         "The scientist Ernest Rutherford was the first person to split the atom."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryatom extends StatelessWidget {
   //   await flutterTts.speak("atom"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtom(String languageCode) async {
+  // Future<void> speakatom(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryatom extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtom("en-GB"),
+                              onPressed: () => speakatom("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryatom extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtom("en-US"),
+                              onPressed: () => speakatom("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryatom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtom1206("en-GB"),
+                                    onPressed: () => speakatom1206("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtom1206(// REPLACE: atom
+                                        speakatom1206(// REPLACE: atom
                                             "en-US"),
                                   ),
                                 ],
@@ -215,11 +215,11 @@ class EnglishEntryatom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtom1208("en-GB"),
+                                    onPressed: () => speakatom1208("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtom1208(// REPLACE: atom
+                                        speakatom1208(// REPLACE: atom
                                             "en-US"),
                                   ),
                                 ],

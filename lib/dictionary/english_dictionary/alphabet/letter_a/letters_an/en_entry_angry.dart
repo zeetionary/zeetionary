@@ -11,7 +11,7 @@ class EnglishEntryangry extends StatelessWidget {
   EnglishEntryangry({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAngry(String languageCode) async {
+  Future<void> speakangry(String languageCode) async {
     // DOPSUM: CHANGE speakAngry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryangry extends StatelessWidget {
     await flutterTts.speak("angry"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngry4102(String languageCode) async {
+  Future<void> speakangry4102(String languageCode) async {
     // DOPSUM: CHANGE speakAngry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryangry extends StatelessWidget {
         .speak("Her behaviour really made me angry."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngry0158(String languageCode) async {
+  Future<void> speakangry0158(String languageCode) async {
     // DOPSUM: CHANGE speakAngry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryangry extends StatelessWidget {
         "Thousands of angry demonstrators filled the square."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngry4952(String languageCode) async {
+  Future<void> speakangry4952(String languageCode) async {
     // DOPSUM: CHANGE speakAngry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryangry extends StatelessWidget {
         .speak("On her leg was an angry sore."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngry4506(String languageCode) async {
+  Future<void> speakangry4506(String languageCode) async {
     // DOPSUM: CHANGE speakAngry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryangry extends StatelessWidget {
         "The angry sea with its terrible waves crashed against the rocky shore."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAngry(String languageCode) async {
+  // Future<void> speakangry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryangry extends StatelessWidget {
   //   await flutterTts.speak("angry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngry(String languageCode) async {
+  // Future<void> speakangry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryangry extends StatelessWidget {
   //   await flutterTts.speak("angry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngry(String languageCode) async {
+  // Future<void> speakangry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryangry extends StatelessWidget {
   //   await flutterTts.speak("angry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngry(String languageCode) async {
+  // Future<void> speakangry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryangry extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋɡri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAngry("en-GB"),
+                              onPressed: () => speakangry("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryangry extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋɡri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAngry("en-US"),
+                              onPressed: () => speakangry("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryangry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngry4102("en-GB"),
+                                    onPressed: () => speakangry4102("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngry4102(
+                                    onPressed: () => speakangry4102(
                                         // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryangry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngry0158("en-GB"),
+                                    onPressed: () => speakangry0158("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngry0158(
+                                    onPressed: () => speakangry0158(
                                         // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
                                   ),
@@ -240,10 +240,10 @@ class EnglishEntryangry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngry4952("en-GB"),
+                                    onPressed: () => speakangry4952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngry4952(
+                                    onPressed: () => speakangry4952(
                                         // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
                                   ),
@@ -273,10 +273,10 @@ class EnglishEntryangry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngry4506("en-GB"),
+                                    onPressed: () => speakangry4506("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngry4506(
+                                    onPressed: () => speakangry4506(
                                         // REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
   EnglishEntryacuteaccent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteaccent(String languageCode) async {
+  Future<void> speakacuteaccent(String languageCode) async {
     // DOPSUM: CHANGE speakAcuteaccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
     await flutterTts.speak("acute accent"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteaccent(String languageCode) async {
+  // Future<void> speakacuteaccent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteaccent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
   //   await flutterTts.speak("acute accent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcuteaccent(String languageCode) async {
+  // Future<void> speakacuteaccent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteaccent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
   //   await flutterTts.speak("acute accent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcuteaccent(String languageCode) async {
+  // Future<void> speakacuteaccent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteaccent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /əˌkjuːt ˈæksent/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteaccent("en-GB"),
+                              onPressed: () => speakacuteaccent("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkjuːt ˈæksent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteaccent("en-US"),
+                              onPressed: () => speakacuteaccent("en-US"),
                             ),
                           ],
                         ),

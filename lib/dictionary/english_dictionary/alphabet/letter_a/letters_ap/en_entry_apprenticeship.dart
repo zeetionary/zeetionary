@@ -17,7 +17,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprenticeship(String languageCode) async {
+  Future<void> speakapprenticeship(String languageCode) async {
     // DOPSUM: CHANGE speakApprenticeship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
     await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprenticeship1013(String languageCode) async {
+  Future<void> speakapprenticeship1013(String languageCode) async {
     // DOPSUM: CHANGE speakApprenticeship
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
         "She was in the second year of her apprenticeship as a carpenter."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
   //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
+  // Future<void> speakapprenticeship(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprenticeship
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprentɪʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprenticeship("en-GB"),
+                              onPressed: () => speakapprenticeship("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprentɪʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprenticeship("en-US"),
+                              onPressed: () => speakapprenticeship("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprenticeship1013("en-GB"),
+                                        speakapprenticeship1013("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprenticeship1013(
+                                    onPressed: () => speakapprenticeship1013(
                                         // REPLACE: apprenticeship /əˈprentɪʃɪp/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   EnglishEntryamplitude({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmplitude(String languageCode) async {
+  Future<void> speakamplitude(String languageCode) async {
     // DOPSUM: CHANGE speakAmplitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamplitude extends StatelessWidget {
     await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmplitude4599(String languageCode) async {
+  Future<void> speakamplitude4599(String languageCode) async {
     // DOPSUM: CHANGE speakAmplitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamplitude extends StatelessWidget {
         "Sound waves are measured by their amplitude."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmplitude46669(String languageCode) async {
+  Future<void> speakamplitude46669(String languageCode) async {
     // DOPSUM: CHANGE speakAmplitude
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamplitude extends StatelessWidget {
         "The sheer amplitude of the novel invites comparisons with Tolstoy."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   //   await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   //   await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   //   await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   //   await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamplitude extends StatelessWidget {
   //   await flutterTts.speak("amplitude"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmplitude(String languageCode) async {
+  // Future<void> speakamplitude(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmplitude
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmplɪtjuːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmplitude("en-GB"),
+                              onPressed: () => speakamplitude("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmplɪtuːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmplitude("en-US"),
+                              onPressed: () => speakamplitude("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmplitude4599("en-GB"),
+                                        speakamplitude4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmplitude4599(
+                                    onPressed: () => speakamplitude4599(
                                         // REPLACE: amplitude /ˈæmplɪtuːd/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmplitude46669("en-GB"),
+                                        speakamplitude46669("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmplitude46669(
+                                    onPressed: () => speakamplitude46669(
                                         // REPLACE: amplitude /ˈæmplɪtuːd/
                                         "en-US"),
                                   ),

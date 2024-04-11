@@ -11,7 +11,7 @@ class EnglishEntryadhoc extends StatelessWidget {
   EnglishEntryadhoc({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhoc(String languageCode) async {
+  Future<void> speakadhoc(String languageCode) async {
     // DOPSUM: CHANGE speakAdhoc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadhoc extends StatelessWidget {
     await flutterTts.speak("ad hoc"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdhoc2414(String languageCode) async {
+  Future<void> speakadhoc2414(String languageCode) async {
     // DOPSUM: CHANGE speakAdhoc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadhoc extends StatelessWidget {
         "The meetings will be held on an ad hoc basis."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhoc(String languageCode) async {
+  // Future<void> speakadhoc(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhoc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadhoc extends StatelessWidget {
   //   await flutterTts.speak("ad hoc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdhoc(String languageCode) async {
+  // Future<void> speakadhoc(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhoc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæd ˈhɒk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdhoc("en-GB"),
+                              onPressed: () => speakadhoc("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæd ˈhɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhoc("en-US"),
+                              onPressed: () => speakadhoc("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadhoc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdhoc2414("en-GB"),
+                                    onPressed: () => speakadhoc2414("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdhoc2414(
+                                    onPressed: () => speakadhoc2414(
                                         // REPLACE: ad hoc /ˌæd ˈhɑːk/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryadhoc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdhoc2414("en-GB"),
+                                    onPressed: () => speakadhoc2414("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdhoc2414(
+                                    onPressed: () => speakadhoc2414(
                                         // REPLACE: ad hoc /ˌæd ˈhɑːk/
                                         "en-US"),
                                   ),

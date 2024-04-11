@@ -11,7 +11,7 @@ class EnglishEntryaggressively extends StatelessWidget {
   EnglishEntryaggressively({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggressively(String languageCode) async {
+  Future<void> speakaggressively(String languageCode) async {
     // DOPSUM: CHANGE speakAggressively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggressively extends StatelessWidget {
     await flutterTts.speak("aggressively"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggressiv1458(String languageCode) async {
+  Future<void> speakaggressiv1458(String languageCode) async {
     // DOPSUM: CHANGE speakAggressively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,15 +28,16 @@ class EnglishEntryaggressively extends StatelessWidget {
         "Many drivers behave aggressively on the road."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggressively22222(String languageCode) async {
+  Future<void> speakaggressively22222(String languageCode) async {
     // DOPSUM: CHANGE speakAggressively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They played more aggressively in the second half."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They played more aggressively in the second half."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAggressively(String languageCode) async {
+  // Future<void> speakaggressively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAggressively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +73,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡresɪvli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggressively("en-GB"),
+                              onPressed: () => speakaggressively("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +83,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡresɪvli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggressively("en-US"),
+                              onPressed: () => speakaggressively("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +133,10 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggressiv1458("en-GB"),
+                                        speakaggressiv1458("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggressiv1458(
+                                    onPressed: () => speakaggressiv1458(
                                         // REPLACE: aggressively /əˈɡresɪvli/
                                         "en-US"),
                                   ),
@@ -165,10 +166,10 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggressively22222("en-GB"),
+                                        speakaggressively22222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggressively22222(
+                                    onPressed: () => speakaggressively22222(
                                         // REPLACE: aggressively /əˈɡresɪvli/
                                         "en-US"),
                                   ),

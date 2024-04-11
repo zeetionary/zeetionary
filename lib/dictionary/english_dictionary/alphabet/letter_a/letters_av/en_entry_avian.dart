@@ -19,7 +19,7 @@ class EnglishEntryavian extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvian(String languageCode) async {
+  Future<void> speakavian(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("avian"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians1(String languageCode) async {
+  Future<void> speakavians1(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavian extends StatelessWidget {
         "Avian eggs are a nutritious and versatile food source for humans and other animals."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians2(String languageCode) async {
+  Future<void> speakavians2(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("speakAvians22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians3(String languageCode) async {
+  Future<void> speakavians3(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("speakAvians33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians4(String languageCode) async {
+  Future<void> speakavians4(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("speakAvians44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians5(String languageCode) async {
+  Future<void> speakavians5(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("speakAvians55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians6(String languageCode) async {
+  Future<void> speakavians6(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryavian extends StatelessWidget {
     await flutterTts.speak("speakAvians66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvians7(String languageCode) async {
+  Future<void> speakavians7(String languageCode) async {
     // DOPSUM: CHANGE speakAvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryavian extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪviən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvian("en-GB"),
+                              onPressed: () => speakavian("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryavian extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪviən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvian("en-US"),
+                              onPressed: () => speakavian("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryavian extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvians1("en-GB"),
+                                    onPressed: () => speakavians1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvians1(// REPLACE: avian
+                                        speakavians1(// REPLACE: avian
                                             "en-US"),
                                   ),
                                 ],

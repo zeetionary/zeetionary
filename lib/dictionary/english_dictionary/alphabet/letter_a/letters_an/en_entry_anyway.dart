@@ -15,7 +15,7 @@ class EnglishEntryanyway extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnyway(String languageCode) async {
+  Future<void> speakanyway(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanyway extends StatelessWidget {
     await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyway847(String languageCode) async {
+  Future<void> speakanyway847(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryanyway extends StatelessWidget {
         "It's too expensive and anyway the colour doesn't suit you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyway849(String languageCode) async {
+  Future<void> speakanyway849(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryanyway extends StatelessWidget {
         "It's going to happen anyway, so we won't object to it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyway855(String languageCode) async {
+  Future<void> speakanyway855(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryanyway extends StatelessWidget {
         "Anyway, I'd better go now—I'll see you tomorrow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyway858(String languageCode) async {
+  Future<void> speakanyway858(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryanyway extends StatelessWidget {
         "I think she's right. I hope so, anyway."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyway900(String languageCode) async {
+  Future<void> speakanyway900(String languageCode) async {
     // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanyway extends StatelessWidget {
         "She works in a bank. She did when I last saw her, anyway."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnyway(String languageCode) async {
+  // Future<void> speakanyway(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanyway extends StatelessWidget {
   //   await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyway(String languageCode) async {
+  // Future<void> speakanyway(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryanyway extends StatelessWidget {
   //   await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyway(String languageCode) async {
+  // Future<void> speakanyway(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryanyway extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeniweɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnyway("en-GB"),
+                              onPressed: () => speakanyway("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryanyway extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeniweɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnyway("en-US"),
+                              onPressed: () => speakanyway("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryanyway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyway847("en-GB"),
+                                    onPressed: () => speakanyway847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyway847(
+                                    onPressed: () => speakanyway847(
                                         // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryanyway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyway849("en-GB"),
+                                    onPressed: () => speakanyway849("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyway849(
+                                    onPressed: () => speakanyway849(
                                         // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryanyway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyway855("en-GB"),
+                                    onPressed: () => speakanyway855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyway855(
+                                    onPressed: () => speakanyway855(
                                         // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                                   ),
@@ -281,10 +281,10 @@ class EnglishEntryanyway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyway858("en-GB"),
+                                    onPressed: () => speakanyway858("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyway858(
+                                    onPressed: () => speakanyway858(
                                         // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                                   ),
@@ -312,10 +312,10 @@ class EnglishEntryanyway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyway900("en-GB"),
+                                    onPressed: () => speakanyway900("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyway900(
+                                    onPressed: () => speakanyway900(
                                         // REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                                   ),

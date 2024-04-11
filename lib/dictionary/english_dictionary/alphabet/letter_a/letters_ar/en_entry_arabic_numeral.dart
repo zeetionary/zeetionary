@@ -17,7 +17,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArabicnumeral(String languageCode) async {
+  Future<void> speakarabicnumeral(String languageCode) async {
     // DOPSUM: CHANGE speakArabicnumeral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
     await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArabicnumeral1032(String languageCode) async {
+  Future<void> speakarabicnumeral1032(String languageCode) async {
     // DOPSUM: CHANGE speakArabicnumeral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
         .speak("1 and 2 are Arabic numerals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   //   await flutterTts.speak("Arabic numeral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabicnumeral(String languageCode) async {
+  // Future<void> speakarabicnumeral(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabicnumeral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌærəbɪk ˈnjuːmərəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArabicnumeral("en-GB"),
+                              onPressed: () => speakarabicnumeral("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌærəbɪk ˈnuːmərəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArabicnumeral("en-US"),
+                              onPressed: () => speakarabicnumeral("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArabicnumeral1032("en-GB"),
+                                        speakarabicnumeral1032("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArabicnumeral1032(
+                                    onPressed: () => speakarabicnumeral1032(
                                         // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
                                         "en-US"),
                                   ),

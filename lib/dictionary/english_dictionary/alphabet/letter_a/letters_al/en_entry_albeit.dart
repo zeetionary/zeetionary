@@ -11,7 +11,7 @@ class EnglishEntryalbeit extends StatelessWidget {
   EnglishEntryalbeit({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlbeit(String languageCode) async {
+  Future<void> speakalbeit(String languageCode) async {
     // DOPSUM: CHANGE speakAlbeit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalbeit extends StatelessWidget {
     await flutterTts.speak("albeit"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbeit3555(String languageCode) async {
+  Future<void> speakalbeit3555(String languageCode) async {
     // DOPSUM: CHANGE speakAlbeit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalbeit extends StatelessWidget {
         "He finally agreed, albeit reluctantly, to help us."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlbeit(String languageCode) async {
+  // Future<void> speakalbeit(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlbeit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalbeit extends StatelessWidget {
   //   await flutterTts.speak("albeit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlbeit(String languageCode) async {
+  // Future<void> speakalbeit(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlbeit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːlˈbiːɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlbeit("en-GB"),
+                              onPressed: () => speakalbeit("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːlˈbiːɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbeit("en-US"),
+                              onPressed: () => speakalbeit("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryalbeit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlbeit3555("en-GB"),
+                                    onPressed: () => speakalbeit3555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlbeit3555(
+                                    onPressed: () => speakalbeit3555(
                                         // REPLACE: albeit /ˌɔːlˈbiːɪt/
                                         "en-US"),
                                   ),

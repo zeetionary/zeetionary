@@ -19,7 +19,7 @@ class EnglishEntryassignment extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssignment(String languageCode) async {
+  Future<void> speakassignment(String languageCode) async {
     // DOPSUM: CHANGE speakAssignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassignment extends StatelessWidget {
     await flutterTts.speak("assignment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssignment724(String languageCode) async {
+  Future<void> speakassignment724(String languageCode) async {
     // DOPSUM: CHANGE speakAssignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassignment extends StatelessWidget {
         "Students are required to complete all homework assignments."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssignment726(String languageCode) async {
+  Future<void> speakassignment726(String languageCode) async {
     // DOPSUM: CHANGE speakAssignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassignment extends StatelessWidget {
         "She is in Greece on an assignment for one of the Sunday newspapers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssignment732(String languageCode) async {
+  Future<void> speakassignment732(String languageCode) async {
     // DOPSUM: CHANGE speakAssignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassignment extends StatelessWidget {
         "His two-year assignment to the Mexico office starts in September."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssignment(String languageCode) async {
+  // Future<void> speakassignment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssignment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryassignment extends StatelessWidget {
   //   await flutterTts.speak("assignment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssignment(String languageCode) async {
+  // Future<void> speakassignment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssignment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryassignment extends StatelessWidget {
   //   await flutterTts.speak("assignment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssignment(String languageCode) async {
+  // Future<void> speakassignment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssignment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryassignment extends StatelessWidget {
   //   await flutterTts.speak("assignment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssignment(String languageCode) async {
+  // Future<void> speakassignment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssignment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryassignment extends StatelessWidget {
   //   await flutterTts.speak("assignment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssignment(String languageCode) async {
+  // Future<void> speakassignment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssignment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryassignment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsaɪnmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssignment("en-GB"),
+                              onPressed: () => speakassignment("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryassignment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsaɪnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssignment("en-US"),
+                              onPressed: () => speakassignment("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryassignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssignment724("en-GB"),
+                                        speakassignment724("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssignment724(
+                                    onPressed: () => speakassignment724(
                                         // REPLACE: assignment /əˈsaɪnmənt/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryassignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssignment726("en-GB"),
+                                        speakassignment726("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssignment726(
+                                    onPressed: () => speakassignment726(
                                         // REPLACE: assignment /əˈsaɪnmənt/
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryassignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssignment732("en-GB"),
+                                        speakassignment732("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssignment732(
+                                    onPressed: () => speakassignment732(
                                         // REPLACE: assignment /əˈsaɪnmənt/
                                         "en-US"),
                                   ),

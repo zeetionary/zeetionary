@@ -11,7 +11,7 @@ class EnglishEntryalign extends StatelessWidget {
   EnglishEntryalign({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlign(String languageCode) async {
+  Future<void> speakalign(String languageCode) async {
     // DOPSUM: CHANGE speakAlign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalign extends StatelessWidget {
     await flutterTts.speak("align"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlign43659(String languageCode) async {
+  Future<void> speakalign43659(String languageCode) async {
     // DOPSUM: CHANGE speakAlign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalign extends StatelessWidget {
         "The top and bottom line of each column on the page should align."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlign35255(String languageCode) async {
+  Future<void> speakalign35255(String languageCode) async {
     // DOPSUM: CHANGE speakAlign
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalign extends StatelessWidget {
         "This pillar is roughly aligned with the others."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlign(String languageCode) async {
+  // Future<void> speakalign(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlign
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalign extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlign("en-GB"),
+                              onPressed: () => speakalign("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalign extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlign("en-US"),
+                              onPressed: () => speakalign("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryalign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlign43659("en-GB"),
+                                    onPressed: () => speakalign43659("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlign43659(
+                                    onPressed: () => speakalign43659(
                                         // REPLACE: align /əˈlaɪn/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryalign extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlign35255("en-GB"),
+                                    onPressed: () => speakalign35255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlign35255(
+                                    onPressed: () => speakalign35255(
                                         // REPLACE: align /əˈlaɪn/
                                         "en-US"),
                                   ),

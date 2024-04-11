@@ -11,7 +11,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   EnglishEntryamphetamine({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmphetamine(String languageCode) async {
+  Future<void> speakamphetamine(String languageCode) async {
     // DOPSUM: CHANGE speakAmphetamine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
     await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphetamine450(String languageCode) async {
+  Future<void> speakamphetamine450(String languageCode) async {
     // DOPSUM: CHANGE speakAmphetamine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
         "Floyd was banned from racing after a test revealed traces of amphetamine in his urine."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
   //   await flutterTts.speak("amphetamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphetamine(String languageCode) async {
+  // Future<void> speakamphetamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphetamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈfetəmiːn/, /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmphetamine("en-GB"),
+                              onPressed: () => speakamphetamine("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈfetəmiːn/, /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmphetamine("en-US"),
+                              onPressed: () => speakamphetamine("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmphetamine450("en-GB"),
+                                        speakamphetamine450("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmphetamine450(
+                                    onPressed: () => speakamphetamine450(
                                         // REPLACE: amphetamine /æmˈfetəmiːn/, /æmˈfetəmɪn/
                                         "en-US"),
                                   ),

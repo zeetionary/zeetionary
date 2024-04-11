@@ -11,7 +11,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
   EnglishEntryalarmclock({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlarmclock(String languageCode) async {
+  Future<void> speakalarmclock(String languageCode) async {
     // DOPSUM: CHANGE speakAlarmclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
     await flutterTts.speak("alarm clock"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarmclock349(String languageCode) async {
+  Future<void> speakalarmclock349(String languageCode) async {
     // DOPSUM: CHANGE speakAlarmclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
         .speak("I set the alarm clock for 7 o'clock."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlarmclock(String languageCode) async {
+  // Future<void> speakalarmclock(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarmclock
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
   //   await flutterTts.speak("alarm clock"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlarmclock(String languageCode) async {
+  // Future<void> speakalarmclock(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarmclock
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɑːm klɒk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlarmclock("en-GB"),
+                              onPressed: () => speakalarmclock("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɑːrm klɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlarmclock("en-US"),
+                              onPressed: () => speakalarmclock("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlarmclock349("en-GB"),
+                                        speakalarmclock349("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarmclock349(
+                                    onPressed: () => speakalarmclock349(
                                         // REPLACE: alarm clock /əˈlɑːrm klɑːk/
                                         "en-US"),
                                   ),

@@ -216,7 +216,7 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbbess(String languageCode) async {
+  Future<void> speakabbess(String languageCode) async {
     // DOPSUM: CHANGE speakAbbess
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);

@@ -19,7 +19,7 @@ class EnglishEntrybail extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBail(String languageCode) async {
+  Future<void> speakbail(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybail extends StatelessWidget {
     await flutterTts.speak("bail"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails1(String languageCode) async {
+  Future<void> speakbails1(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybail extends StatelessWidget {
         .speak("Can anyone put up bail for you?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails2(String languageCode) async {
+  Future<void> speakbails2(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybail extends StatelessWidget {
         .speak("She was released on £2 000 bail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails3(String languageCode) async {
+  Future<void> speakbails3(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybail extends StatelessWidget {
         "He was bailed to appear in court on 15 March."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails4(String languageCode) async {
+  Future<void> speakbails4(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybail extends StatelessWidget {
         .speak("Sorry, I really have to bail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails5(String languageCode) async {
+  Future<void> speakbails5(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybail extends StatelessWidget {
     await flutterTts.speak("speakBails55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails6(String languageCode) async {
+  Future<void> speakbails6(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybail extends StatelessWidget {
     await flutterTts.speak("speakBails66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails7(String languageCode) async {
+  Future<void> speakbails7(String languageCode) async {
     // DOPSUM: CHANGE speakBail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 text:
                                     "IpaUK: /beɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBail("en-GB"),
+                              onPressed: () => speakbail("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 text:
                                     "IpaUS: /beɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBail("en-US"),
+                              onPressed: () => speakbail("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybail extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBails1("en-GB"),
+                                    onPressed: () => speakbails1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBails1(// REPLACE: bail
+                                        speakbails1(// REPLACE: bail
                                             "en-US"),
                                   ),
                                 ],
@@ -208,11 +208,11 @@ class EnglishEntrybail extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBails2("en-GB"),
+                                    onPressed: () => speakbails2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBails2(// REPLACE: bail
+                                        speakbails2(// REPLACE: bail
                                             "en-US"),
                                   ),
                                 ],
@@ -241,11 +241,11 @@ class EnglishEntrybail extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBails3("en-GB"),
+                                    onPressed: () => speakbails3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBails3(// REPLACE: bail
+                                        speakbails3(// REPLACE: bail
                                             "en-US"),
                                   ),
                                 ],
@@ -272,11 +272,11 @@ class EnglishEntrybail extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBails4("en-GB"),
+                                    onPressed: () => speakbails4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBails4(// REPLACE: bail
+                                        speakbails4(// REPLACE: bail
                                             "en-US"),
                                   ),
                                 ],

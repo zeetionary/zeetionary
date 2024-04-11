@@ -19,7 +19,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeachhead(String languageCode) async {
+  Future<void> speakbeachhead(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("beachhead"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads1(String languageCode) async {
+  Future<void> speakbeachheads1(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
         "The troops quickly established a beachhead and were preparing to advance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads2(String languageCode) async {
+  Future<void> speakbeachheads2(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("speakBeachheads22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads3(String languageCode) async {
+  Future<void> speakbeachheads3(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("speakBeachheads33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads4(String languageCode) async {
+  Future<void> speakbeachheads4(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("speakBeachheads44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads5(String languageCode) async {
+  Future<void> speakbeachheads5(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("speakBeachheads55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads6(String languageCode) async {
+  Future<void> speakbeachheads6(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
     await flutterTts.speak("speakBeachheads66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeachheads7(String languageCode) async {
+  Future<void> speakbeachheads7(String languageCode) async {
     // DOPSUM: CHANGE speakBeachhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːtʃhed/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeachhead("en-GB"),
+                              onPressed: () => speakbeachhead("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːtʃhed/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeachhead("en-US"),
+                              onPressed: () => speakbeachhead("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybeachhead extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeachheads1("en-GB"),
+                                    onPressed: () => speakbeachheads1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeachheads1("en-US"),
+                                    onPressed: () => speakbeachheads1("en-US"),
                                   ),
                                 ],
                               ),

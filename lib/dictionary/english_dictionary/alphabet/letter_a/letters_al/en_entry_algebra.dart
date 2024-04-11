@@ -11,7 +11,7 @@ class EnglishEntryalgebra extends StatelessWidget {
   EnglishEntryalgebra({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlgebra(String languageCode) async {
+  Future<void> speakalgebra(String languageCode) async {
     // DOPSUM: CHANGE speakAlgebra
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalgebra extends StatelessWidget {
     await flutterTts.speak("algebra"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlgebra356994(String languageCode) async {
+  Future<void> speakalgebra356994(String languageCode) async {
     // DOPSUM: CHANGE speakAlgebra
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalgebra extends StatelessWidget {
         "She is fascinated by algebra while he considers it meaningless nonsense."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlgebra(String languageCode) async {
+  // Future<void> speakalgebra(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgebra
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalgebra extends StatelessWidget {
   //   await flutterTts.speak("algebra"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlgebra(String languageCode) async {
+  // Future<void> speakalgebra(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgebra
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈældʒɪbrə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlgebra("en-GB"),
+                              onPressed: () => speakalgebra("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈældʒɪbrə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlgebra("en-US"),
+                              onPressed: () => speakalgebra("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlgebra356994("en-GB"),
+                                        speakalgebra356994("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlgebra356994(
+                                    onPressed: () => speakalgebra356994(
                                         // REPLACE: algebra /ˈældʒɪbrə/
                                         "en-US"),
                                   ),

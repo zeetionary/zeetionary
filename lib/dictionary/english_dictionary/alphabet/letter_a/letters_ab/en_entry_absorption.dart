@@ -11,7 +11,7 @@ class EnglishEntryabsorption extends StatelessWidget {
   EnglishEntryabsorption({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsorption(String languageCode) async {
+  Future<void> speakabsorption(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabsorption extends StatelessWidget {
     await flutterTts.speak("absorption"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA36948(String languageCode) async {
+  Future<void> speaka36948(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabsorption extends StatelessWidget {
         "His work suffered because of his total absorption in sport."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb3618(String languageCode) async {
+  Future<void> speakab3618(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryabsorption extends StatelessWidget {
         "the absorption of the town into the Leeds City Region"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3591(String languageCode) async {
+  Future<void> speaka3591(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈzɔːpʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsorption("en-GB"),
+                              onPressed: () => speakabsorption("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈzɔːrpʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsorption("en-US"),
+                              onPressed: () => speakabsorption("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA3591("en-GB"),
+                                    onPressed: () => speaka3591("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA3591("en-US"),
+                                    onPressed: () => speaka3591("en-US"),
                                   ),
                                 ],
                               ),
@@ -166,10 +166,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAb3618("en-GB"),
+                                    onPressed: () => speakab3618("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAb3618("en-US"),
+                                    onPressed: () => speakab3618("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,10 +196,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA36948("en-GB"),
+                                    onPressed: () => speaka36948("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA36948("en-US"),
+                                    onPressed: () => speaka36948("en-US"),
                                   ),
                                 ],
                               ),

@@ -11,7 +11,7 @@ class EnglishEntryakin extends StatelessWidget {
   EnglishEntryakin({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAkin(String languageCode) async {
+  Future<void> speakakin(String languageCode) async {
     // DOPSUM: CHANGE speakAkin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryakin extends StatelessWidget {
     await flutterTts.speak("akin"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAkin3544(String languageCode) async {
+  Future<void> speakakin3544(String languageCode) async {
     // DOPSUM: CHANGE speakAkin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryakin extends StatelessWidget {
         "What he felt was more akin to pity than love."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAkin5366(String languageCode) async {
+  Future<void> speakakin5366(String languageCode) async {
     // DOPSUM: CHANGE speakAkin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryakin extends StatelessWidget {
         .speak("They speak a language akin to French."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAkin(String languageCode) async {
+  // Future<void> speakakin(String languageCode) async {
   //   // DOPSUM: CHANGE speakAkin
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryakin extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈkɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAkin("en-GB"),
+                              onPressed: () => speakakin("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryakin extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAkin("en-US"),
+                              onPressed: () => speakakin("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +133,11 @@ class EnglishEntryakin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAkin3544("en-GB"),
+                                    onPressed: () => speakakin3544("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAkin3544(// REPLACE: akin /əˈkɪn/
+                                        speakakin3544(// REPLACE: akin /əˈkɪn/
                                             "en-US"),
                                   ),
                                 ],
@@ -163,11 +163,11 @@ class EnglishEntryakin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAkin5366("en-GB"),
+                                    onPressed: () => speakakin5366("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAkin5366(// REPLACE: akin /əˈkɪn/
+                                        speakakin5366(// REPLACE: akin /əˈkɪn/
                                             "en-US"),
                                   ),
                                 ],

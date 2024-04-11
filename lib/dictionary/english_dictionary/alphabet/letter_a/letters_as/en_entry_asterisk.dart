@@ -19,7 +19,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsterisk(String languageCode) async {
+  Future<void> speakasterisk(String languageCode) async {
     // DOPSUM: CHANGE speakAsterisk
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasterisk extends StatelessWidget {
     await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsterisk940(String languageCode) async {
+  Future<void> speakasterisk940(String languageCode) async {
     // DOPSUM: CHANGE speakAsterisk
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasterisk extends StatelessWidget {
         "I've asterisked the tasks I want you to do first."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsterisk943(String languageCode) async {
+  Future<void> speakasterisk943(String languageCode) async {
     // DOPSUM: CHANGE speakAsterisk
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasterisk extends StatelessWidget {
         "I've placed an asterisk next to the tasks I want you to do first."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   //   await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   //   await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   //   await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   //   await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasterisk extends StatelessWidget {
   //   await flutterTts.speak("asterisk"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsterisk(String languageCode) async {
+  // Future<void> speakasterisk(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsterisk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstərɪsk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsterisk("en-GB"),
+                              onPressed: () => speakasterisk("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstərɪsk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsterisk("en-US"),
+                              onPressed: () => speakasterisk("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryasterisk extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsterisk940("en-GB"),
+                                    onPressed: () => speakasterisk940("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsterisk940(
+                                    onPressed: () => speakasterisk940(
                                         // REPLACE: asterisk /ˈæstərɪsk/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryasterisk extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsterisk943("en-GB"),
+                                    onPressed: () => speakasterisk943("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsterisk943(
+                                    onPressed: () => speakasterisk943(
                                         // REPLACE: asterisk /ˈæstərɪsk/
                                         "en-US"),
                                   ),

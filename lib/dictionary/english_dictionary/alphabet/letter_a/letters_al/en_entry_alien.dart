@@ -11,7 +11,7 @@ class EnglishEntryalien extends StatelessWidget {
   EnglishEntryalien({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlien(String languageCode) async {
+  Future<void> speakalien(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalien extends StatelessWidget {
     await flutterTts.speak("alien"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien46588(String languageCode) async {
+  Future<void> speakalien46588(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalien extends StatelessWidget {
         "During the war, he was imprisoned as an enemy alien."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien369222(String languageCode) async {
+  Future<void> speakalien369222(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalien extends StatelessWidget {
         "Few movies represent intelligent aliens as physically different from humans."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien49255(String languageCode) async {
+  Future<void> speakalien49255(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalien extends StatelessWidget {
         "In a world that had suddenly become alien and dangerous, he was her only security."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien3411(String languageCode) async {
+  Future<void> speakalien3411(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalien extends StatelessWidget {
         "A part of me still feels alien in this country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien34177(String languageCode) async {
+  Future<void> speakalien34177(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalien extends StatelessWidget {
         .speak("The idea is alien to our religion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlien35288(String languageCode) async {
+  Future<void> speakalien35288(String languageCode) async {
     // DOPSUM: CHANGE speakAlien
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -102,7 +102,7 @@ class EnglishEntryalien extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪliən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlien("en-GB"),
+                              onPressed: () => speakalien("en-GB"),
                             ),
                           ],
                         ),
@@ -112,7 +112,7 @@ class EnglishEntryalien extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪliən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlien("en-US"),
+                              onPressed: () => speakalien("en-US"),
                             ),
                           ],
                         ),
@@ -163,10 +163,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien46588("en-GB"),
+                                    onPressed: () => speakalien46588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien46588(
+                                    onPressed: () => speakalien46588(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),
@@ -195,10 +195,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien369222("en-GB"),
+                                    onPressed: () => speakalien369222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien369222(
+                                    onPressed: () => speakalien369222(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),
@@ -227,10 +227,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien49255("en-GB"),
+                                    onPressed: () => speakalien49255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien49255(
+                                    onPressed: () => speakalien49255(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),
@@ -259,10 +259,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien3411("en-GB"),
+                                    onPressed: () => speakalien3411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien3411(
+                                    onPressed: () => speakalien3411(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),
@@ -290,10 +290,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien34177("en-GB"),
+                                    onPressed: () => speakalien34177("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien34177(
+                                    onPressed: () => speakalien34177(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),
@@ -322,10 +322,10 @@ class EnglishEntryalien extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlien35288("en-GB"),
+                                    onPressed: () => speakalien35288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlien35288(
+                                    onPressed: () => speakalien35288(
                                         // REPLACE: alien /ˈeɪliən/
                                         "en-US"),
                                   ),

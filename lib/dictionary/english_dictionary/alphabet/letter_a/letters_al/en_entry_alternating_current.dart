@@ -11,7 +11,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
   EnglishEntryalternatingcurrent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlternatingcurrent(String languageCode) async {
+  Future<void> speakalternatingcurrent(String languageCode) async {
     // DOPSUM: CHANGE speakAlternatingcurrent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
     await flutterTts.speak("alternating current"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternatingcurrent124(String languageCode) async {
+  Future<void> speakalternatingcurrent124(String languageCode) async {
     // DOPSUM: CHANGE speakAlternatingcurrent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
         "Unlike Edison, George Westinghouse was a proponent of alternating current."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlternatingcurrent(String languageCode) async {
+  // Future<void> speakalternatingcurrent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlternatingcurrent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
   //   await flutterTts.speak("alternating current"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlternatingcurrent(String languageCode) async {
+  // Future<void> speakalternatingcurrent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlternatingcurrent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːltəneɪtɪŋ ˈkʌrənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlternatingcurrent("en-GB"),
+                              onPressed: () => speakalternatingcurrent("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːltərneɪtɪŋ ˈkɜːrənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlternatingcurrent("en-US"),
+                              onPressed: () => speakalternatingcurrent("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternatingcurrent124("en-GB"),
+                                        speakalternatingcurrent124("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternatingcurrent124(
+                                    onPressed: () => speakalternatingcurrent124(
                                         // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
                                         "en-US"),
                                   ),

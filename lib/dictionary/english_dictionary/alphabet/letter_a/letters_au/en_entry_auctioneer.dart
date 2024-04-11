@@ -19,7 +19,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuctioneer(String languageCode) async {
+  Future<void> speakauctioneer(String languageCode) async {
     // DOPSUM: CHANGE speakAuctioneer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
     await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuctioneer1221(String languageCode) async {
+  Future<void> speakauctioneer1221(String languageCode) async {
     // DOPSUM: CHANGE speakAuctioneer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
         .speak("‘Yours for £200,’ said the auctioneer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
   //   await flutterTts.speak("auctioneer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuctioneer(String languageCode) async {
+  // Future<void> speakauctioneer(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuctioneer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːkʃəˈnɪə(r)/, /ˌɒkʃəˈnɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuctioneer("en-GB"),
+                              onPressed: () => speakauctioneer("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːkʃəˈnɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuctioneer("en-US"),
+                              onPressed: () => speakauctioneer("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuctioneer1221("en-GB"),
+                                        speakauctioneer1221("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuctioneer1221(
+                                    onPressed: () => speakauctioneer1221(
                                         // REPLACE: auctioneer
                                         "en-US"),
                                   ),

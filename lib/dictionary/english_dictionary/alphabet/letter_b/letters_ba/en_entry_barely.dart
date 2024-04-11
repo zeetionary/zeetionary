@@ -19,7 +19,7 @@ class EnglishEntrybarely extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarely(String languageCode) async {
+  Future<void> speakbarely(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarely extends StatelessWidget {
     await flutterTts.speak("barely"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys1(String languageCode) async {
+  Future<void> speakbarelys1(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarely extends StatelessWidget {
         .speak("He could barely read and write."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys2(String languageCode) async {
+  Future<void> speakbarelys2(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarely extends StatelessWidget {
         .speak("She barely acknowledged his presence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys3(String languageCode) async {
+  Future<void> speakbarelys3(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybarely extends StatelessWidget {
         .speak("Barely 50% of the population voted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys4(String languageCode) async {
+  Future<void> speakbarelys4(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybarely extends StatelessWidget {
         "I had barely started speaking when he interrupted me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys5(String languageCode) async {
+  Future<void> speakbarelys5(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybarely extends StatelessWidget {
     await flutterTts.speak("speakBarelys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys6(String languageCode) async {
+  Future<void> speakbarelys6(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybarely extends StatelessWidget {
     await flutterTts.speak("speakBarelys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarelys7(String languageCode) async {
+  Future<void> speakbarelys7(String languageCode) async {
     // DOPSUM: CHANGE speakBarely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybarely extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeəli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarely("en-GB"),
+                              onPressed: () => speakbarely("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybarely extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈberli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarely("en-US"),
+                              onPressed: () => speakbarely("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntrybarely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarelys1("en-GB"),
+                                    onPressed: () => speakbarelys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarelys1("en-US"),
+                                    onPressed: () => speakbarelys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,10 +203,10 @@ class EnglishEntrybarely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarelys2("en-GB"),
+                                    onPressed: () => speakbarelys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarelys2("en-US"),
+                                    onPressed: () => speakbarelys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybarely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarelys3("en-GB"),
+                                    onPressed: () => speakbarelys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarelys3("en-US"),
+                                    onPressed: () => speakbarelys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -264,10 +264,10 @@ class EnglishEntrybarely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarelys4("en-GB"),
+                                    onPressed: () => speakbarelys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarelys4("en-US"),
+                                    onPressed: () => speakbarelys4("en-US"),
                                   ),
                                 ],
                               ),

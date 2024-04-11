@@ -11,7 +11,7 @@ class EnglishEntryamorously extends StatelessWidget {
   EnglishEntryamorously({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmorously(String languageCode) async {
+  Future<void> speakamorously(String languageCode) async {
     // DOPSUM: CHANGE speakAmorously
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamorously extends StatelessWidget {
     await flutterTts.speak("amorously"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmorously5555(String languageCode) async {
+  Future<void> speakamorously5555(String languageCode) async {
     // DOPSUM: CHANGE speakAmorously
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamorously extends StatelessWidget {
         .speak("He looked at her amorously."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmorously(String languageCode) async {
+  // Future<void> speakamorously(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmorously
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryamorously extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmərəsli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmorously("en-GB"),
+                              onPressed: () => speakamorously("en-GB"),
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class EnglishEntryamorously extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmərəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmorously("en-US"),
+                              onPressed: () => speakamorously("en-US"),
                             ),
                           ],
                         ),
@@ -126,10 +126,10 @@ class EnglishEntryamorously extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmorously5555("en-GB"),
+                                        speakamorously5555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmorously5555(
+                                    onPressed: () => speakamorously5555(
                                         // REPLACE: amorously /ˈæmərəsli/
                                         "en-US"),
                                   ),

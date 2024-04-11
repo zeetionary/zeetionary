@@ -11,7 +11,7 @@ class EnglishEntryabstention extends StatelessWidget {
   EnglishEntryabstention({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbstention(String languageCode) async {
+  Future<void> speakabstention(String languageCode) async {
     // DOPSUM: CHANGE speakAbstention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabstention extends StatelessWidget {
     await flutterTts.speak("abstention"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA26983(String languageCode) async {
+  Future<void> speaka26983(String languageCode) async {
     // DOPSUM: CHANGE speakAbstention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabstention extends StatelessWidget {
         "The Church insisted on abstention from all luxuries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA26971(String languageCode) async {
+  Future<void> speaka26971(String languageCode) async {
     // DOPSUM: CHANGE speakAbstention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryabstention extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈstenʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbstention("en-GB"),
+                              onPressed: () => speakabstention("en-GB"),
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class EnglishEntryabstention extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈstenʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbstention("en-US"),
+                              onPressed: () => speakabstention("en-US"),
                             ),
                           ],
                         ),
@@ -125,10 +125,10 @@ class EnglishEntryabstention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA26971("en-GB"),
+                                    onPressed: () => speaka26971("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA26971("en-US"),
+                                    onPressed: () => speaka26971("en-US"),
                                   ),
                                 ],
                               ),
@@ -155,10 +155,10 @@ class EnglishEntryabstention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA26983("en-GB"),
+                                    onPressed: () => speaka26983("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA26983("en-US"),
+                                    onPressed: () => speaka26983("en-US"),
                                   ),
                                 ],
                               ),

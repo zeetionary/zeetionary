@@ -19,7 +19,7 @@ class EnglishEntrybias extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBias(String languageCode) async {
+  Future<void> speakbias(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybias extends StatelessWidget {
     await flutterTts.speak("bias"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass1(String languageCode) async {
+  Future<void> speakbiass1(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybias extends StatelessWidget {
         "Employers must consider all candidates without bias."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass2(String languageCode) async {
+  Future<void> speakbiass2(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybias extends StatelessWidget {
         "Some institutions still have a strong bias against women."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass3(String languageCode) async {
+  Future<void> speakbiass3(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybias extends StatelessWidget {
         "In British universities there was a bias towards pure science."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass4(String languageCode) async {
+  Future<void> speakbiass4(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybias extends StatelessWidget {
         "She showed a scientific bias at an early age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass5(String languageCode) async {
+  Future<void> speakbiass5(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybias extends StatelessWidget {
         "If a response rate is low, the risk of bias in the findings will be greater."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass6(String languageCode) async {
+  Future<void> speakbiass6(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybias extends StatelessWidget {
         "The newspapers have biased people against her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiass7(String languageCode) async {
+  Future<void> speakbiass7(String languageCode) async {
     // DOPSUM: CHANGE speakBias
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybias extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbaɪəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBias("en-GB"),
+                              onPressed: () => speakbias("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybias extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbaɪəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBias("en-US"),
+                              onPressed: () => speakbias("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass1("en-GB"),
+                                    onPressed: () => speakbiass1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass1("en-US"),
+                                    onPressed: () => speakbiass1("en-US"),
                                   ),
                                 ],
                               ),
@@ -204,10 +204,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass2("en-GB"),
+                                    onPressed: () => speakbiass2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass2("en-US"),
+                                    onPressed: () => speakbiass2("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +235,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass3("en-GB"),
+                                    onPressed: () => speakbiass3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass3("en-US"),
+                                    onPressed: () => speakbiass3("en-US"),
                                   ),
                                 ],
                               ),
@@ -264,10 +264,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass4("en-GB"),
+                                    onPressed: () => speakbiass4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass4("en-US"),
+                                    onPressed: () => speakbiass4("en-US"),
                                   ),
                                 ],
                               ),
@@ -295,10 +295,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass5("en-GB"),
+                                    onPressed: () => speakbiass5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass5("en-US"),
+                                    onPressed: () => speakbiass5("en-US"),
                                   ),
                                 ],
                               ),
@@ -326,10 +326,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass6("en-GB"),
+                                    onPressed: () => speakbiass6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass6("en-US"),
+                                    onPressed: () => speakbiass6("en-US"),
                                   ),
                                 ],
                               ),
@@ -357,10 +357,10 @@ class EnglishEntrybias extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiass7("en-GB"),
+                                    onPressed: () => speakbiass7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiass7("en-US"),
+                                    onPressed: () => speakbiass7("en-US"),
                                   ),
                                 ],
                               ),

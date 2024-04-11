@@ -17,7 +17,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmistice(String languageCode) async {
+  Future<void> speakarmistice(String languageCode) async {
     // DOPSUM: CHANGE speakArmistice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmistice extends StatelessWidget {
     await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmistice508(String languageCode) async {
+  Future<void> speakarmistice508(String languageCode) async {
     // DOPSUM: CHANGE speakArmistice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmistice extends StatelessWidget {
         "The armistice was signed on 4 December."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarmistice extends StatelessWidget {
   //   await flutterTts.speak("armistice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmistice(String languageCode) async {
+  // Future<void> speakarmistice(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmistice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarmistice extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmɪstɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmistice("en-GB"),
+                              onPressed: () => speakarmistice("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarmistice extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmɪstɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmistice("en-US"),
+                              onPressed: () => speakarmistice("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarmistice extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmistice508("en-GB"),
+                                    onPressed: () => speakarmistice508("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmistice508(
+                                    onPressed: () => speakarmistice508(
                                         // REPLACE: armistice /ˈɑːrmɪstɪs/
                                         "en-US"),
                                   ),

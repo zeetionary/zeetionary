@@ -11,7 +11,7 @@ class EnglishEntryairmail extends StatelessWidget {
   EnglishEntryairmail({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirmail(String languageCode) async {
+  Future<void> speakairmail(String languageCode) async {
     // DOPSUM: CHANGE speakAirmail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairmail extends StatelessWidget {
     await flutterTts.speak("airmail"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirmail4699(String languageCode) async {
+  Future<void> speakairmail4699(String languageCode) async {
     // DOPSUM: CHANGE speakAirmail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairmail extends StatelessWidget {
         .speak("Send it airmail/by airmail."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirmail(String languageCode) async {
+  // Future<void> speakairmail(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirmail
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairmail extends StatelessWidget {
   //   await flutterTts.speak("airmail"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirmail(String languageCode) async {
+  // Future<void> speakairmail(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirmail
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryairmail extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəmeɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirmail("en-GB"),
+                              onPressed: () => speakairmail("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryairmail extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈermeɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirmail("en-US"),
+                              onPressed: () => speakairmail("en-US"),
                             ),
                           ],
                         ),
@@ -125,10 +125,10 @@ class EnglishEntryairmail extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirmail4699("en-GB"),
+                                    onPressed: () => speakairmail4699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirmail4699(
+                                    onPressed: () => speakairmail4699(
                                         // REPLACE: airmail /ˈermeɪl/
                                         "en-US"),
                                   ),

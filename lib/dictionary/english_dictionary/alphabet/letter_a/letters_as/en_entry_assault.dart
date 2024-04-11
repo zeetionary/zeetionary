@@ -19,7 +19,7 @@ class EnglishEntryassault extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssault(String languageCode) async {
+  Future<void> speakassault(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassault extends StatelessWidget {
     await flutterTts.speak("assault"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault845(String languageCode) async {
+  Future<void> speakassault845(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassault extends StatelessWidget {
         .speak("Both men were charged with assault."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault851(String languageCode) async {
+  Future<void> speakassault851(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassault extends StatelessWidget {
         "A significant number of indecent assaults on women go unreported."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault855(String languageCode) async {
+  Future<void> speakassault855(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassault extends StatelessWidget {
         "An assault on the capital was launched in the early hours of the morning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault856(String languageCode) async {
+  Future<void> speakassault856(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassault extends StatelessWidget {
         "The government has mounted a new assault on unemployment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault859(String languageCode) async {
+  Future<void> speakassault859(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryassault extends StatelessWidget {
         "The paper's assault on the president was totally unjustified."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault900(String languageCode) async {
+  Future<void> speakassault900(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryassault extends StatelessWidget {
         "He has been charged with assaulting a police officer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssault902(String languageCode) async {
+  Future<void> speakassault902(String languageCode) async {
     // DOPSUM: CHANGE speakAssault
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryassault extends StatelessWidget {
         "Four women have been sexually assaulted in the area recently."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssault(String languageCode) async {
+  // Future<void> speakassault(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssault
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -128,7 +128,7 @@ class EnglishEntryassault extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɔːlt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssault("en-GB"),
+                              onPressed: () => speakassault("en-GB"),
                             ),
                           ],
                         ),
@@ -138,7 +138,7 @@ class EnglishEntryassault extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɔːlt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssault("en-US"),
+                              onPressed: () => speakassault("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault845("en-GB"),
+                                    onPressed: () => speakassault845("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault845(
+                                    onPressed: () => speakassault845(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault851("en-GB"),
+                                    onPressed: () => speakassault851("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault851(
+                                    onPressed: () => speakassault851(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault855("en-GB"),
+                                    onPressed: () => speakassault855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault855(
+                                    onPressed: () => speakassault855(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -284,10 +284,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault856("en-GB"),
+                                    onPressed: () => speakassault856("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault856(
+                                    onPressed: () => speakassault856(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -317,10 +317,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault859("en-GB"),
+                                    onPressed: () => speakassault859("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault859(
+                                    onPressed: () => speakassault859(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -350,10 +350,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault900("en-GB"),
+                                    onPressed: () => speakassault900("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault900(
+                                    onPressed: () => speakassault900(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),
@@ -381,10 +381,10 @@ class EnglishEntryassault extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssault902("en-GB"),
+                                    onPressed: () => speakassault902("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssault902(
+                                    onPressed: () => speakassault902(
                                         // REPLACE: assault /əˈsɔːlt/
                                         "en-US"),
                                   ),

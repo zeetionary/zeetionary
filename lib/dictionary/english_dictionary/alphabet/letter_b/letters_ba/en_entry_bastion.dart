@@ -19,7 +19,7 @@ class EnglishEntrybastion extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBastion(String languageCode) async {
+  Future<void> speakbastion(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybastion extends StatelessWidget {
     await flutterTts.speak("bastion"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions1(String languageCode) async {
+  Future<void> speakbastions1(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybastion extends StatelessWidget {
         "The university is a bastion of academic freedom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions2(String languageCode) async {
+  Future<void> speakbastions2(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybastion extends StatelessWidget {
         "Singapore was the last bastion of British defences in South-East Asia."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions3(String languageCode) async {
+  Future<void> speakbastions3(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybastion extends StatelessWidget {
     await flutterTts.speak("speakBastions33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions4(String languageCode) async {
+  Future<void> speakbastions4(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybastion extends StatelessWidget {
     await flutterTts.speak("speakBastions44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions5(String languageCode) async {
+  Future<void> speakbastions5(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybastion extends StatelessWidget {
     await flutterTts.speak("speakBastions55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions6(String languageCode) async {
+  Future<void> speakbastions6(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybastion extends StatelessWidget {
     await flutterTts.speak("speakBastions66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBastions7(String languageCode) async {
+  Future<void> speakbastions7(String languageCode) async {
     // DOPSUM: CHANGE speakBastion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybastion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbæstiən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBastion("en-GB"),
+                              onPressed: () => speakbastion("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybastion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbæstʃən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBastion("en-US"),
+                              onPressed: () => speakbastion("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybastion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBastions1("en-GB"),
+                                    onPressed: () => speakbastions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBastions1("en-US"),
+                                    onPressed: () => speakbastions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybastion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBastions2("en-GB"),
+                                    onPressed: () => speakbastions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBastions2("en-US"),
+                                    onPressed: () => speakbastions2("en-US"),
                                   ),
                                 ],
                               ),

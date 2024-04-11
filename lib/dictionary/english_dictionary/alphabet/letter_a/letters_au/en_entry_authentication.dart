@@ -19,7 +19,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthentication(String languageCode) async {
+  Future<void> speakauthentication(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthentication extends StatelessWidget {
     await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthentication643(String languageCode) async {
+  Future<void> speakauthentication643(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthentication extends StatelessWidget {
         "When buying jewellery, make sure you get a certificate of authentication."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthentication645(String languageCode) async {
+  Future<void> speakauthentication645(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthentication extends StatelessWidget {
         "User authentication is often performed with passwords."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   //   await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   //   await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   //   await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   //   await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauthentication extends StatelessWidget {
   //   await flutterTts.speak("authentication"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentication(String languageCode) async {
+  // Future<void> speakauthentication(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauthentication extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˌθentɪˈkeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthentication("en-GB"),
+                              onPressed: () => speakauthentication("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauthentication extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˌθentɪˈkeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthentication("en-US"),
+                              onPressed: () => speakauthentication("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryauthentication extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthentication643("en-GB"),
+                                        speakauthentication643("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthentication643(
+                                    onPressed: () => speakauthentication643(
                                         // REPLACE: authentication
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryauthentication extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthentication645("en-GB"),
+                                        speakauthentication645("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthentication645(
+                                    onPressed: () => speakauthentication645(
                                         // REPLACE: authentication
                                         "en-US"),
                                   ),

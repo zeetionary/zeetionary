@@ -19,7 +19,7 @@ class EnglishEntrybazooka extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBazooka(String languageCode) async {
+  Future<void> speakbazooka(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("bazooka"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas1(String languageCode) async {
+  Future<void> speakbazookas1(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybazooka extends StatelessWidget {
         "He knocked out an enemy tank with his bazooka."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas2(String languageCode) async {
+  Future<void> speakbazookas2(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("speakBazookas22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas3(String languageCode) async {
+  Future<void> speakbazookas3(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("speakBazookas33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas4(String languageCode) async {
+  Future<void> speakbazookas4(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("speakBazookas44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas5(String languageCode) async {
+  Future<void> speakbazookas5(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("speakBazookas55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas6(String languageCode) async {
+  Future<void> speakbazookas6(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybazooka extends StatelessWidget {
     await flutterTts.speak("speakBazookas66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazookas7(String languageCode) async {
+  Future<void> speakbazookas7(String languageCode) async {
     // DOPSUM: CHANGE speakBazooka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybazooka extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bəˈzuːkə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBazooka("en-GB"),
+                              onPressed: () => speakbazooka("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybazooka extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈzuːkə/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBazooka("en-US"),
+                              onPressed: () => speakbazooka("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybazooka extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBazookas1("en-GB"),
+                                    onPressed: () => speakbazookas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBazookas1("en-US"),
+                                    onPressed: () => speakbazookas1("en-US"),
                                   ),
                                 ],
                               ),

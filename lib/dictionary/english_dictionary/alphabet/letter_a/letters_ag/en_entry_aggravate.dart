@@ -11,7 +11,7 @@ class EnglishEntryaggravate extends StatelessWidget {
   EnglishEntryaggravate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggravate(String languageCode) async {
+  Future<void> speakaggravate(String languageCode) async {
     // DOPSUM: CHANGE speakAggravate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggravate extends StatelessWidget {
     await flutterTts.speak("aggravate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggrav25189(String languageCode) async {
+  Future<void> speakaggrav25189(String languageCode) async {
     // DOPSUM: CHANGE speakAggravate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaggravate extends StatelessWidget {
         .speak("Pollution can aggravate asthma."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggrav3744(String languageCode) async {
+  Future<void> speakaggrav3744(String languageCode) async {
     // DOPSUM: CHANGE speakAggravate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaggravate extends StatelessWidget {
         "Military intervention will only aggravate the conflict even further."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAggravate(String languageCode) async {
+  // Future<void> speakaggravate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAggravate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡrəveɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggravate("en-GB"),
+                              onPressed: () => speakaggravate("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡrəveɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggravate("en-US"),
+                              onPressed: () => speakaggravate("en-US"),
                             ),
                           ],
                         ),
@@ -128,10 +128,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggrav25189("en-GB"),
+                                    onPressed: () => speakaggrav25189("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggrav25189(
+                                    onPressed: () => speakaggrav25189(
                                         // REPLACE: aggravate /ˈæɡrəveɪt/
                                         "en-US"),
                                   ),
@@ -158,10 +158,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggrav3744("en-GB"),
+                                    onPressed: () => speakaggrav3744("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggrav3744(
+                                    onPressed: () => speakaggrav3744(
                                         // REPLACE: aggravate /ˈæɡrəveɪt/
                                         "en-US"),
                                   ),

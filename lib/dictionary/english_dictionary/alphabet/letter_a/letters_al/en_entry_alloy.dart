@@ -11,7 +11,7 @@ class EnglishEntryalloy extends StatelessWidget {
   EnglishEntryalloy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlloy(String languageCode) async {
+  Future<void> speakalloy(String languageCode) async {
     // DOPSUM: CHANGE speakAlloy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalloy extends StatelessWidget {
     await flutterTts.speak("alloy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlloy4277(String languageCode) async {
+  Future<void> speakalloy4277(String languageCode) async {
     // DOPSUM: CHANGE speakAlloy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalloy extends StatelessWidget {
         .speak("Brass is an alloy of copper and zinc."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlloy(String languageCode) async {
+  // Future<void> speakalloy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlloy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalloy extends StatelessWidget {
   //   await flutterTts.speak("alloy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlloy(String languageCode) async {
+  // Future<void> speakalloy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlloy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælɔɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlloy("en-GB"),
+                              onPressed: () => speakalloy("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælɔɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlloy("en-US"),
+                              onPressed: () => speakalloy("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +133,11 @@ class EnglishEntryalloy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlloy4277("en-GB"),
+                                    onPressed: () => speakalloy4277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlloy4277(// REPLACE: alloy /ˈælɔɪ/
+                                        speakalloy4277(// REPLACE: alloy /ˈælɔɪ/
                                             "en-US"),
                                   ),
                                 ],

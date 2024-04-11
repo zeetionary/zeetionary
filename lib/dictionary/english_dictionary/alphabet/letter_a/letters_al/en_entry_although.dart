@@ -11,7 +11,7 @@ class EnglishEntryalthough extends StatelessWidget {
   EnglishEntryalthough({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlthough(String languageCode) async {
+  Future<void> speakalthough(String languageCode) async {
     // DOPSUM: CHANGE speakAlthough
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalthough extends StatelessWidget {
     await flutterTts.speak("although"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlthough4596(String languageCode) async {
+  Future<void> speakalthough4596(String languageCode) async {
     // DOPSUM: CHANGE speakAlthough
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalthough extends StatelessWidget {
         "Although the sun was shining, it wasn't very warm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlthough566(String languageCode) async {
+  Future<void> speakalthough566(String languageCode) async {
     // DOPSUM: CHANGE speakAlthough
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalthough extends StatelessWidget {
         "I felt he was wrong, although I didn't say so at the time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgnos19633(String languageCode) async {
+  Future<void> speakagnos19633(String languageCode) async {
     // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalthough extends StatelessWidget {
         "Although he was raised a Catholic, he was an agnostic for most of his adult life."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlthough(String languageCode) async {
+  // Future<void> speakalthough(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlthough
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈðəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlthough("en-GB"),
+                              onPressed: () => speakalthough("en-GB"),
                             ),
                           ],
                         ),
@@ -93,7 +93,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈðəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlthough("en-US"),
+                              onPressed: () => speakalthough("en-US"),
                             ),
                           ],
                         ),
@@ -144,10 +144,10 @@ class EnglishEntryalthough extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlthough4596("en-GB"),
+                                    onPressed: () => speakalthough4596("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlthough4596(
+                                    onPressed: () => speakalthough4596(
                                         // REPLACE: although /ɔːlˈðəʊ/
                                         "en-US"),
                                   ),
@@ -176,10 +176,10 @@ class EnglishEntryalthough extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlthough566("en-GB"),
+                                    onPressed: () => speakalthough566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlthough566(
+                                    onPressed: () => speakalthough566(
                                         // REPLACE: although /ɔːlˈðəʊ/
                                         "en-US"),
                                   ),

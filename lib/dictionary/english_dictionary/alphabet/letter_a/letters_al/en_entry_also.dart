@@ -11,7 +11,7 @@ class EnglishEntryalso extends StatelessWidget {
   EnglishEntryalso({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlso(String languageCode) async {
+  Future<void> speakalso(String languageCode) async {
     // DOPSUM: CHANGE speakAlso
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalso extends StatelessWidget {
     await flutterTts.speak("also"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlso74823(String languageCode) async {
+  Future<void> speakalso74823(String languageCode) async {
     // DOPSUM: CHANGE speakAlso
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalso extends StatelessWidget {
         "She's fluent in French and German. She also speaks a little Italian."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlso459(String languageCode) async {
+  Future<void> speakalso459(String languageCode) async {
     // DOPSUM: CHANGE speakAlso
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalso extends StatelessWidget {
         "I didn't like it that much. Also, it was much too expensive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive6255(String languageCode) async {
+  Future<void> speakactive6255(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalso extends StatelessWidget {
         "Staying physically active in later years can also keep you feeling younger."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlso(String languageCode) async {
+  // Future<void> speakalso(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlso
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryalso extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːlsəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlso("en-GB"),
+                              onPressed: () => speakalso("en-GB"),
                             ),
                           ],
                         ),
@@ -93,7 +93,7 @@ class EnglishEntryalso extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlsəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlso("en-US"),
+                              onPressed: () => speakalso("en-US"),
                             ),
                           ],
                         ),
@@ -142,10 +142,10 @@ class EnglishEntryalso extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlso74823("en-GB"),
+                                    onPressed: () => speakalso74823("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlso74823(
+                                    onPressed: () => speakalso74823(
                                         // REPLACE: also /ˈɔːlsəʊ/
                                         "en-US"),
                                   ),
@@ -172,11 +172,11 @@ class EnglishEntryalso extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlso459("en-GB"),
+                                    onPressed: () => speakalso459("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlso459(// REPLACE: also /ˈɔːlsəʊ/
+                                        speakalso459(// REPLACE: also /ˈɔːlsəʊ/
                                             "en-US"),
                                   ),
                                 ],

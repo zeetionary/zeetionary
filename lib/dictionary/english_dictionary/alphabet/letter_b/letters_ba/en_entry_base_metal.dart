@@ -19,7 +19,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBasemetal(String languageCode) async {
+  Future<void> speakbasemetal(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("base metal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals1(String languageCode) async {
+  Future<void> speakbasemetals1(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
         "Iron, copper, and zinc are among the most common base metals in the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals2(String languageCode) async {
+  Future<void> speakbasemetals2(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("speakBasemetals22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals3(String languageCode) async {
+  Future<void> speakbasemetals3(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("speakBasemetals33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals4(String languageCode) async {
+  Future<void> speakbasemetals4(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("speakBasemetals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals5(String languageCode) async {
+  Future<void> speakbasemetals5(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("speakBasemetals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals6(String languageCode) async {
+  Future<void> speakbasemetals6(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
     await flutterTts.speak("speakBasemetals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasemetals7(String languageCode) async {
+  Future<void> speakbasemetals7(String languageCode) async {
     // DOPSUM: CHANGE speakBasemetal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbeɪs ˈmetl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBasemetal("en-GB"),
+                              onPressed: () => speakbasemetal("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbeɪs ˈmetl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBasemetal("en-US"),
+                              onPressed: () => speakbasemetal("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybasemetal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBasemetals1("en-GB"),
+                                    onPressed: () => speakbasemetals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBasemetals1("en-US"),
+                                    onPressed: () => speakbasemetals1("en-US"),
                                   ),
                                 ],
                               ),

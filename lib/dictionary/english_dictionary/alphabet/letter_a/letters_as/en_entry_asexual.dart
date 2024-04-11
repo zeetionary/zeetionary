@@ -19,7 +19,7 @@ class EnglishEntryasexual extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsexual(String languageCode) async {
+  Future<void> speakasexual(String languageCode) async {
     // DOPSUM: CHANGE speakAsexual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsexual353(String languageCode) async {
+  Future<void> speakasexual353(String languageCode) async {
     // DOPSUM: CHANGE speakAsexual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryasexual extends StatelessWidget {
     await flutterTts.speak("She led an asexual life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsexual401(String languageCode) async {
+  Future<void> speakasexual401(String languageCode) async {
     // DOPSUM: CHANGE speakAsexual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasexual extends StatelessWidget {
         "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsexuals3(String languageCode) async {
+  Future<void> speakasexuals3(String languageCode) async {
     // DOPSUM: CHANGE speakAsexual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasexual extends StatelessWidget {
         "Algae reproduce by both sexual and asexual reproduction."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsexual(String languageCode) async {
+  // Future<void> speakasexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsexual(String languageCode) async {
+  // Future<void> speakasexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsexual(String languageCode) async {
+  // Future<void> speakasexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsexual(String languageCode) async {
+  // Future<void> speakasexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasexual extends StatelessWidget {
   //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsexual(String languageCode) async {
+  // Future<void> speakasexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryasexual extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsexual("en-GB"),
+                              onPressed: () => speakasexual("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryasexual extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsexual("en-US"),
+                              onPressed: () => speakasexual("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryasexual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsexual353("en-GB"),
+                                    onPressed: () => speakasexual353("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsexual353(
+                                    onPressed: () => speakasexual353(
                                         // REPLACE: asexual /ˌeɪˈsekʃuəl/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryasexual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsexual401("en-GB"),
+                                    onPressed: () => speakasexual401("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsexual401(
+                                    onPressed: () => speakasexual401(
                                         // REPLACE: asexual /ˌeɪˈsekʃuəl/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryasexual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsexuals3("en-GB"),
+                                    onPressed: () => speakasexuals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsexuals3(
+                                    onPressed: () => speakasexuals3(
                                         // REPLACE: asexual /ˌeɪˈsekʃuəl/
                                         "en-US"),
                                   ),

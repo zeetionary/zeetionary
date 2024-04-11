@@ -11,7 +11,7 @@ class EnglishEntryaggression extends StatelessWidget {
   EnglishEntryaggression({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggression(String languageCode) async {
+  Future<void> speakaggression(String languageCode) async {
     // DOPSUM: CHANGE speakAggression
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggression extends StatelessWidget {
     await flutterTts.speak("aggression"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggres56322(String languageCode) async {
+  Future<void> speakaggres56322(String languageCode) async {
     // DOPSUM: CHANGE speakAggression
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaggression extends StatelessWidget {
         "The research shows that computer games may cause aggression."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggr35741(String languageCode) async {
+  Future<void> speakaggr35741(String languageCode) async {
     // DOPSUM: CHANGE speakAggression
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaggression extends StatelessWidget {
         "The president announced that the country would not tolerate foreign aggressions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAggression(String languageCode) async {
+  // Future<void> speakaggression(String languageCode) async {
   //   // DOPSUM: CHANGE speakAggression
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaggression extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡreʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggression("en-GB"),
+                              onPressed: () => speakaggression("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaggression extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡreʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggression("en-US"),
+                              onPressed: () => speakaggression("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaggression extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggres56322("en-GB"),
+                                    onPressed: () => speakaggres56322("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggres56322(
+                                    onPressed: () => speakaggres56322(
                                         // REPLACE: aggression /əˈɡreʃn/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryaggression extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggr35741("en-GB"),
+                                    onPressed: () => speakaggr35741("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggr35741(
+                                    onPressed: () => speakaggr35741(
                                         // REPLACE: aggression /əˈɡreʃn/
                                         "en-US"),
                                   ),

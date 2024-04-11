@@ -11,7 +11,7 @@ class EnglishEntryadmissible extends StatelessWidget {
   EnglishEntryadmissible({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdmissible(String languageCode) async {
+  Future<void> speakadmissible(String languageCode) async {
     // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadmissible extends StatelessWidget {
     await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmis25374(String languageCode) async {
+  Future<void> speakadmis25374(String languageCode) async {
     // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadmissible extends StatelessWidget {
         "Photographs are usually admissible evidence provided it can be proved that they are authentic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdmissible(String languageCode) async {
+  // Future<void> speakadmissible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmissible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadmissible extends StatelessWidget {
   //   await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdmissible(String languageCode) async {
+  // Future<void> speakadmissible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmissible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadmissible extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪsəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdmissible("en-GB"),
+                              onPressed: () => speakadmissible("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadmissible extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪsəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmissible("en-US"),
+                              onPressed: () => speakadmissible("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadmissible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmis25374("en-GB"),
+                                    onPressed: () => speakadmis25374("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmis25374(
+                                    onPressed: () => speakadmis25374(
                                         // REPLACE: admissible /ədˈmɪsəbl/
                                         "en-US"),
                                   ),

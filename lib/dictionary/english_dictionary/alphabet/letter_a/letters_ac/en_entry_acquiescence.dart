@@ -11,7 +11,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
   EnglishEntryacquiescence({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcquiescence(String languageCode) async {
+  Future<void> speakacquiescence(String languageCode) async {
     // DOPSUM: CHANGE speakAcquiescence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
     await flutterTts.speak("acquiescence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcquiesc2596(String languageCode) async {
+  Future<void> speakacquiesc2596(String languageCode) async {
     // DOPSUM: CHANGE speakAcquiescence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
         "I must admit, your acquiescence surprised me."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcquiescence(String languageCode) async {
+  // Future<void> speakacquiescence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquiescence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
   //   await flutterTts.speak("acquiescence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcquiescence(String languageCode) async {
+  // Future<void> speakacquiescence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquiescence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækwiˈesns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquiescence("en-GB"),
+                              onPressed: () => speakacquiescence("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækwiˈesns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquiescence("en-US"),
+                              onPressed: () => speakacquiescence("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryacquiescence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcquiesc2596("en-GB"),
+                                    onPressed: () => speakacquiesc2596("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcquiesc2596(
+                                    onPressed: () => speakacquiesc2596(
                                         "en-US"), // REPLACE acquiescence /ˌækwiˈesns/
                                   ),
                                 ],

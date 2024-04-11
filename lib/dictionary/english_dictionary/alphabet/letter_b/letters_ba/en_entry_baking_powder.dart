@@ -19,7 +19,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBakingpowder(String languageCode) async {
+  Future<void> speakbakingpowder(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("baking powder"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders1(String languageCode) async {
+  Future<void> speakbakingpowders1(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
         "Add one teaspoon of baking powder to the flour and whisk together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders2(String languageCode) async {
+  Future<void> speakbakingpowders2(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("speakBakingpowders22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders3(String languageCode) async {
+  Future<void> speakbakingpowders3(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("speakBakingpowders33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders4(String languageCode) async {
+  Future<void> speakbakingpowders4(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("speakBakingpowders44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders5(String languageCode) async {
+  Future<void> speakbakingpowders5(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("speakBakingpowders55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders6(String languageCode) async {
+  Future<void> speakbakingpowders6(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
     await flutterTts.speak("speakBakingpowders66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBakingpowders7(String languageCode) async {
+  Future<void> speakbakingpowders7(String languageCode) async {
     // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbeɪkɪŋ paʊdə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBakingpowder("en-GB"),
+                              onPressed: () => speakbakingpowder("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbeɪkɪŋ paʊdər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBakingpowder("en-US"),
+                              onPressed: () => speakbakingpowder("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBakingpowders1("en-GB"),
+                                        speakbakingpowders1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBakingpowders1(
+                                    onPressed: () => speakbakingpowders1(
                                         // REPLACE: baking powder
                                         "en-US"),
                                   ),

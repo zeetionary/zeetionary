@@ -11,7 +11,7 @@ class EnglishEntryanchor extends StatelessWidget {
   EnglishEntryanchor({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnchor(String languageCode) async {
+  Future<void> speakanchor(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.speak("anchor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor08996(String languageCode) async {
+  Future<void> speakanchor08996(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanchor extends StatelessWidget {
         .speak("We raised the anchor and set sail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor104(String languageCode) async {
+  Future<void> speakanchor104(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.speak("We weighed anchor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor10(String languageCode) async {
+  Future<void> speakanchor10(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanchor extends StatelessWidget {
         "She was my anchor when things were difficult for me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor1044(String languageCode) async {
+  Future<void> speakanchor1044(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanchor extends StatelessWidget {
         "She was questioned by a BBC anchor about her trip."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor0995(String languageCode) async {
+  Future<void> speakanchor0995(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanchor extends StatelessWidget {
         .speak("We anchored off the coast of Spain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor550(String languageCode) async {
+  Future<void> speakanchor550(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryanchor extends StatelessWidget {
         .speak("The ropes were anchored to the rocks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor5006(String languageCode) async {
+  Future<void> speakanchor5006(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryanchor extends StatelessWidget {
         "Her novels are anchored in everyday experience."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchor444(String languageCode) async {
+  Future<void> speakanchor444(String languageCode) async {
     // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋkə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnchor("en-GB"),
+                              onPressed: () => speakanchor("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnchor("en-US"),
+                              onPressed: () => speakanchor("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor08996("en-GB"),
+                                    onPressed: () => speakanchor08996("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor08996(
+                                    onPressed: () => speakanchor08996(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor104("en-GB"),
+                                    onPressed: () => speakanchor104("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor104(
+                                    onPressed: () => speakanchor104(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -243,10 +243,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor10("en-GB"),
+                                    onPressed: () => speakanchor10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor10(
+                                    onPressed: () => speakanchor10(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -276,10 +276,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor1044("en-GB"),
+                                    onPressed: () => speakanchor1044("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor1044(
+                                    onPressed: () => speakanchor1044(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -309,10 +309,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor0995("en-GB"),
+                                    onPressed: () => speakanchor0995("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor0995(
+                                    onPressed: () => speakanchor0995(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -342,10 +342,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor550("en-GB"),
+                                    onPressed: () => speakanchor550("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor550(
+                                    onPressed: () => speakanchor550(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -375,10 +375,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor5006("en-GB"),
+                                    onPressed: () => speakanchor5006("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor5006(
+                                    onPressed: () => speakanchor5006(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),
@@ -408,10 +408,10 @@ class EnglishEntryanchor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchor444("en-GB"),
+                                    onPressed: () => speakanchor444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchor444(
+                                    onPressed: () => speakanchor444(
                                         // REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalcohol extends StatelessWidget {
   EnglishEntryalcohol({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlcohol(String languageCode) async {
+  Future<void> speakalcohol(String languageCode) async {
     // DOPSUM: CHANGE speakAlcohol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalcohol extends StatelessWidget {
     await flutterTts.speak("alcohol"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlcohol4538(String languageCode) async {
+  Future<void> speakalcohol4538(String languageCode) async {
     // DOPSUM: CHANGE speakAlcohol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalcohol extends StatelessWidget {
         "He was unable to overcome his addiction to alcohol."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlcohol42566(String languageCode) async {
+  Future<void> speakalcohol42566(String languageCode) async {
     // DOPSUM: CHANGE speakAlcohol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalcohol extends StatelessWidget {
         .speak("Wine contains about 10% alcohol."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlcohol(String languageCode) async {
+  // Future<void> speakalcohol(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlcohol
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælkəhɒl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlcohol("en-GB"),
+                              onPressed: () => speakalcohol("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælkəhɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlcohol("en-US"),
+                              onPressed: () => speakalcohol("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalcohol extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlcohol4538("en-GB"),
+                                    onPressed: () => speakalcohol4538("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlcohol4538(
+                                    onPressed: () => speakalcohol4538(
                                         // REPLACE: alcohol /ˈælkəhɔːl/
                                         "en-US"),
                                   ),
@@ -166,10 +166,10 @@ class EnglishEntryalcohol extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlcohol42566("en-GB"),
+                                    onPressed: () => speakalcohol42566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlcohol42566(
+                                    onPressed: () => speakalcohol42566(
                                         // REPLACE: alcohol /ˈælkəhɔːl/
                                         "en-US"),
                                   ),

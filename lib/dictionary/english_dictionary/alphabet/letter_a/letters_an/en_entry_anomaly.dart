@@ -12,7 +12,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   EnglishEntryanomaly({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnomaly(String languageCode) async {
+  Future<void> speakanomaly(String languageCode) async {
     // DOPSUM: CHANGE speakAnomaly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanomaly extends StatelessWidget {
     await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnomaly1003(String languageCode) async {
+  Future<void> speakanomaly1003(String languageCode) async {
     // DOPSUM: CHANGE speakAnomaly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanomaly extends StatelessWidget {
         "There are areas of anomaly in the report."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanomaly extends StatelessWidget {
   //   await flutterTts.speak("anomaly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnomaly(String languageCode) async {
+  // Future<void> speakanomaly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnomaly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒməli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnomaly("en-GB"),
+                              onPressed: () => speakanomaly("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːməli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnomaly("en-US"),
+                              onPressed: () => speakanomaly("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryanomaly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnomaly1003("en-GB"),
+                                    onPressed: () => speakanomaly1003("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnomaly1003(
+                                    onPressed: () => speakanomaly1003(
                                         // REPLACE: anomaly /əˈnɑːməli/
                                         "en-US"),
                                   ),

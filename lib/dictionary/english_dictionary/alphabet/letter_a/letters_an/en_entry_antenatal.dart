@@ -13,7 +13,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntenatal(String languageCode) async {
+  Future<void> speakantenatal(String languageCode) async {
     // DOPSUM: CHANGE speakAntenatal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantenatal extends StatelessWidget {
     await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntenatal504(String languageCode) async {
+  Future<void> speakantenatal504(String languageCode) async {
     // DOPSUM: CHANGE speakAntenatal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantenatal extends StatelessWidget {
         "Your blood pressure will be monitored at all antenatal checks."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantenatal extends StatelessWidget {
   //   await flutterTts.speak("antenatal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenatal(String languageCode) async {
+  // Future<void> speakantenatal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenatal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈneɪtl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntenatal("en-GB"),
+                              onPressed: () => speakantenatal("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈneɪtl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntenatal("en-US"),
+                              onPressed: () => speakantenatal("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryantenatal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntenatal504("en-GB"),
+                                    onPressed: () => speakantenatal504("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntenatal504(
+                                    onPressed: () => speakantenatal504(
                                         // REPLACE: antenatal /ˌæntiˈneɪtl/
                                         "en-US"),
                                   ),

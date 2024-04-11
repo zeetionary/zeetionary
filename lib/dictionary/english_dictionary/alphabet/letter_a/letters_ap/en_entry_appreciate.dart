@@ -17,7 +17,7 @@ class EnglishEntryappreciate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppreciate(String languageCode) async {
+  Future<void> speakappreciate(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappreciate extends StatelessWidget {
     await flutterTts.speak("appreciate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate749(String languageCode) async {
+  Future<void> speakappreciate749(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappreciate extends StatelessWidget {
         "Over the years he came to appreciate the beauty and tranquillity of the river."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate750(String languageCode) async {
+  Future<void> speakappreciate750(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappreciate extends StatelessWidget {
         .speak("Her family doesn't appreciate her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate753(String languageCode) async {
+  Future<void> speakappreciate753(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappreciate extends StatelessWidget {
     await flutterTts.speak("I'd appreciate some help."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate756(String languageCode) async {
+  Future<void> speakappreciate756(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryappreciate extends StatelessWidget {
         "Your kindness and generosity is much appreciated."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate759(String languageCode) async {
+  Future<void> speakappreciate759(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryappreciate extends StatelessWidget {
         "What I failed to appreciate was the distance between the two cities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciate801(String languageCode) async {
+  Future<void> speakappreciate801(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryappreciate extends StatelessWidget {
         "Their investments have appreciated over the years."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppreciate(String languageCode) async {
+  // Future<void> speakappreciate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryappreciate extends StatelessWidget {
   //   await flutterTts.speak("appreciate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciate(String languageCode) async {
+  // Future<void> speakappreciate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpriːʃieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppreciate("en-GB"),
+                              onPressed: () => speakappreciate("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpriːʃieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppreciate("en-US"),
+                              onPressed: () => speakappreciate("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate749("en-GB"),
+                                        speakappreciate749("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate749(
+                                    onPressed: () => speakappreciate749(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate750("en-GB"),
+                                        speakappreciate750("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate750(
+                                    onPressed: () => speakappreciate750(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),
@@ -246,10 +246,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate753("en-GB"),
+                                        speakappreciate753("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate753(
+                                    onPressed: () => speakappreciate753(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),
@@ -278,10 +278,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate756("en-GB"),
+                                        speakappreciate756("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate756(
+                                    onPressed: () => speakappreciate756(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),
@@ -312,10 +312,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate759("en-GB"),
+                                        speakappreciate759("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate759(
+                                    onPressed: () => speakappreciate759(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),
@@ -346,10 +346,10 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciate801("en-GB"),
+                                        speakappreciate801("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciate801(
+                                    onPressed: () => speakappreciate801(
                                         // REPLACE: appreciate /əˈpriːʃieɪt/
                                         "en-US"),
                                   ),

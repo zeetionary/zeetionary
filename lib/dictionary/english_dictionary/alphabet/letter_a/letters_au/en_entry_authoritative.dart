@@ -19,7 +19,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthoritative(String languageCode) async {
+  Future<void> speakauthoritative(String languageCode) async {
     // DOPSUM: CHANGE speakAuthoritative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
     await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthoritative743(String languageCode) async {
+  Future<void> speakauthoritative743(String languageCode) async {
     // DOPSUM: CHANGE speakAuthoritative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
         "She has an authoritative manner that at times is almost arrogant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthoritative745(String languageCode) async {
+  Future<void> speakauthoritative745(String languageCode) async {
     // DOPSUM: CHANGE speakAuthoritative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
         "Her opinion on the subject was considered authoritative."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthoritative(String languageCode) async {
+  // Future<void> speakauthoritative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈθɒrətətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthoritative("en-GB"),
+                              onPressed: () => speakauthoritative("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈθɔːrəteɪtɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthoritative("en-US"),
+                              onPressed: () => speakauthoritative("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthoritative743("en-GB"),
+                                        speakauthoritative743("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthoritative743(
+                                    onPressed: () => speakauthoritative743(
                                         // REPLACE: authoritative
                                         "en-US"),
                                   ),
@@ -220,10 +220,10 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthoritative745("en-GB"),
+                                        speakauthoritative745("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthoritative745(
+                                    onPressed: () => speakauthoritative745(
                                         // REPLACE: authoritative
                                         "en-US"),
                                   ),

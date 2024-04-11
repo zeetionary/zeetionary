@@ -11,7 +11,7 @@ class EnglishEntryamenity extends StatelessWidget {
   EnglishEntryamenity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmenity(String languageCode) async {
+  Future<void> speakamenity(String languageCode) async {
     // DOPSUM: CHANGE speakAmenity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamenity extends StatelessWidget {
     await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenity4777(String languageCode) async {
+  Future<void> speakamenity4777(String languageCode) async {
     // DOPSUM: CHANGE speakAmenity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamenity extends StatelessWidget {
         "Many of the houses lacked even basic amenities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenity7622(String languageCode) async {
+  Future<void> speakamenity7622(String languageCode) async {
     // DOPSUM: CHANGE speakAmenity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamenity extends StatelessWidget {
         .speak("The hotel has excellent amenities."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryamenity extends StatelessWidget {
   //   await flutterTts.speak("amenity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmenity(String languageCode) async {
+  // Future<void> speakamenity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmenity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmiːnəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmenity("en-GB"),
+                              onPressed: () => speakamenity("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmenəti/, /əˈmiːnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmenity("en-US"),
+                              onPressed: () => speakamenity("en-US"),
                             ),
                           ],
                         ),
@@ -200,10 +200,10 @@ class EnglishEntryamenity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmenity4777("en-GB"),
+                                    onPressed: () => speakamenity4777("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmenity4777(
+                                    onPressed: () => speakamenity4777(
                                         // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
                                         "en-US"),
                                   ),
@@ -230,10 +230,10 @@ class EnglishEntryamenity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmenity7622("en-GB"),
+                                    onPressed: () => speakamenity7622("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmenity7622(
+                                    onPressed: () => speakamenity7622(
                                         // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
                                         "en-US"),
                                   ),

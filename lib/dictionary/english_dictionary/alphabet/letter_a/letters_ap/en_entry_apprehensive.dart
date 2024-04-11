@@ -17,7 +17,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprehensive(String languageCode) async {
+  Future<void> speakapprehensive(String languageCode) async {
     // DOPSUM: CHANGE speakApprehensive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
     await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehensive946(String languageCode) async {
+  Future<void> speakapprehensive946(String languageCode) async {
     // DOPSUM: CHANGE speakApprehensive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
         "I was a little apprehensive about the effects of what I had said."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
   //   await flutterTts.speak("apprehensive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehensive(String languageCode) async {
+  // Future<void> speakapprehensive(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehensive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæprɪˈhensɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprehensive("en-GB"),
+                              onPressed: () => speakapprehensive("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæprɪˈhensɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprehensive("en-US"),
+                              onPressed: () => speakapprehensive("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryapprehensive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprehensive946("en-GB"),
+                                        speakapprehensive946("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehensive946(
+                                    onPressed: () => speakapprehensive946(
                                         // REPLACE: apprehensive /ˌæprɪˈhensɪv/
                                         "en-US"),
                                   ),

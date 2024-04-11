@@ -19,7 +19,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiohazard(String languageCode) async {
+  Future<void> speakbiohazard(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("biohazard"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards1(String languageCode) async {
+  Future<void> speakbiohazards1(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
         "The threat of biohazards for workers in health-care and other human services is increasing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards2(String languageCode) async {
+  Future<void> speakbiohazards2(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("speakBiohazards22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards3(String languageCode) async {
+  Future<void> speakbiohazards3(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("speakBiohazards33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards4(String languageCode) async {
+  Future<void> speakbiohazards4(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("speakBiohazards44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards5(String languageCode) async {
+  Future<void> speakbiohazards5(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("speakBiohazards55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards6(String languageCode) async {
+  Future<void> speakbiohazards6(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
     await flutterTts.speak("speakBiohazards66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiohazards7(String languageCode) async {
+  Future<void> speakbiohazards7(String languageCode) async {
     // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbaɪəʊhæzəd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiohazard("en-GB"),
+                              onPressed: () => speakbiohazard("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbaɪəʊhæzərd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiohazard("en-US"),
+                              onPressed: () => speakbiohazard("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybiohazard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiohazards1("en-GB"),
+                                    onPressed: () => speakbiohazards1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiohazards1("en-US"),
+                                    onPressed: () => speakbiohazards1("en-US"),
                                   ),
                                 ],
                               ),

@@ -11,7 +11,7 @@ class EnglishEntryaint extends StatelessWidget {
   EnglishEntryaint({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAint(String languageCode) async {
+  Future<void> speakaint(String languageCode) async {
     // DOPSUM: CHANGE speakAint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaint extends StatelessWidget {
     await flutterTts.speak("ain't"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAint286599(String languageCode) async {
+  Future<void> speakaint286599(String languageCode) async {
     // DOPSUM: CHANGE speakAint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaint extends StatelessWidget {
         .speak("Things ain't what they used to be."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAint8411(String languageCode) async {
+  Future<void> speakaint8411(String languageCode) async {
     // DOPSUM: CHANGE speakAint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaint extends StatelessWidget {
     await flutterTts.speak("I ain't got no money."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAint(String languageCode) async {
+  // Future<void> speakaint(String languageCode) async {
   //   // DOPSUM: CHANGE speakAint
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaint extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eɪnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAint("en-GB"),
+                              onPressed: () => speakaint("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaint extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAint("en-US"),
+                              onPressed: () => speakaint("en-US"),
                             ),
                           ],
                         ),
@@ -127,11 +127,11 @@ am not/is not/are not"""),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAint286599("en-GB"),
+                                    onPressed: () => speakaint286599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAint286599(// REPLACE: ain't /eɪnt/
+                                        speakaint286599(// REPLACE: ain't /eɪnt/
                                             "en-US"),
                                   ),
                                 ],
@@ -158,11 +158,11 @@ has not/have not"""),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAint8411("en-GB"),
+                                    onPressed: () => speakaint8411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAint8411(// REPLACE: ain't /eɪnt/
+                                        speakaint8411(// REPLACE: ain't /eɪnt/
                                             "en-US"),
                                   ),
                                 ],

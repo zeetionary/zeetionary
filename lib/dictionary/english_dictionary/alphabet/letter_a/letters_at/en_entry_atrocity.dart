@@ -19,7 +19,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtrocity(String languageCode) async {
+  Future<void> speakatrocity(String languageCode) async {
     // DOPSUM: CHANGE speakAtrocity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatrocity extends StatelessWidget {
     await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtrocity310(String languageCode) async {
+  Future<void> speakatrocity310(String languageCode) async {
     // DOPSUM: CHANGE speakAtrocity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatrocity extends StatelessWidget {
         "In the war, both sides committed atrocities."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   //   await flutterTts.speak("atrocity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocity(String languageCode) async {
+  // Future<void> speakatrocity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtrɒsəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtrocity("en-GB"),
+                              onPressed: () => speakatrocity("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtrɑːsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtrocity("en-US"),
+                              onPressed: () => speakatrocity("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryatrocity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtrocity310("en-GB"),
+                                    onPressed: () => speakatrocity310("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtrocity310(// REPLACE: atrocity
+                                        speakatrocity310(// REPLACE: atrocity
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBirdofprey(String languageCode) async {
+  Future<void> speakbirdofprey(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("bird of prey"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys1(String languageCode) async {
+  Future<void> speakbirdofpreys1(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
         "Many birds of prey have powerful wings for hunting and soaring effortlessly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys2(String languageCode) async {
+  Future<void> speakbirdofpreys2(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("speakBirdofpreys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys3(String languageCode) async {
+  Future<void> speakbirdofpreys3(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("speakBirdofpreys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys4(String languageCode) async {
+  Future<void> speakbirdofpreys4(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("speakBirdofpreys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys5(String languageCode) async {
+  Future<void> speakbirdofpreys5(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("speakBirdofpreys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys6(String languageCode) async {
+  Future<void> speakbirdofpreys6(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
     await flutterTts.speak("speakBirdofpreys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirdofpreys7(String languageCode) async {
+  Future<void> speakbirdofpreys7(String languageCode) async {
     // DOPSUM: CHANGE speakBirdofprey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbɜːd əv ˈpreɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBirdofprey("en-GB"),
+                              onPressed: () => speakbirdofprey("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbɜːrd əv ˈpreɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBirdofprey("en-US"),
+                              onPressed: () => speakbirdofprey("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybirdofprey extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirdofpreys1("en-GB"),
+                                    onPressed: () => speakbirdofpreys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirdofpreys1("en-US"),
+                                    onPressed: () => speakbirdofpreys1("en-US"),
                                   ),
                                 ],
                               ),

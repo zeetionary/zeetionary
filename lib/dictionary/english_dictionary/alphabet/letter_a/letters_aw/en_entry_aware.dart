@@ -19,7 +19,7 @@ class EnglishEntryaware extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAware(String languageCode) async {
+  Future<void> speakaware(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaware extends StatelessWidget {
     await flutterTts.speak("aware"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares1(String languageCode) async {
+  Future<void> speakawares1(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaware extends StatelessWidget {
         "As you're aware, this is not a new problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares2(String languageCode) async {
+  Future<void> speakawares2(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaware extends StatelessWidget {
         "Young people are very environmentally aware."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares3(String languageCode) async {
+  Future<void> speakawares3(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryaware extends StatelessWidget {
     await flutterTts.speak("speakAwares33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares4(String languageCode) async {
+  Future<void> speakawares4(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryaware extends StatelessWidget {
     await flutterTts.speak("speakAwares44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares5(String languageCode) async {
+  Future<void> speakawares5(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryaware extends StatelessWidget {
     await flutterTts.speak("speakAwares55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares6(String languageCode) async {
+  Future<void> speakawares6(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryaware extends StatelessWidget {
     await flutterTts.speak("speakAwares66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwares7(String languageCode) async {
+  Future<void> speakawares7(String languageCode) async {
     // DOPSUM: CHANGE speakAware
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryaware extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈweə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAware("en-GB"),
+                              onPressed: () => speakaware("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryaware extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈwer/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAware("en-US"),
+                              onPressed: () => speakaware("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntryaware extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwares1("en-GB"),
+                                    onPressed: () => speakawares1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwares1(// REPLACE: aware
+                                        speakawares1(// REPLACE: aware
                                             "en-US"),
                                   ),
                                 ],
@@ -208,11 +208,11 @@ class EnglishEntryaware extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwares2("en-GB"),
+                                    onPressed: () => speakawares2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwares2(// REPLACE: aware
+                                        speakawares2(// REPLACE: aware
                                             "en-US"),
                                   ),
                                 ],

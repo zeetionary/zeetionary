@@ -19,7 +19,7 @@ class EnglishEntryatoll extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtoll(String languageCode) async {
+  Future<void> speakatoll(String languageCode) async {
     // DOPSUM: CHANGE speakAtoll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatoll extends StatelessWidget {
     await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtoll1156(String languageCode) async {
+  Future<void> speakatoll1156(String languageCode) async {
     // DOPSUM: CHANGE speakAtoll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatoll extends StatelessWidget {
         "The Maldives is a group of atolls in the Indian Ocean."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatoll extends StatelessWidget {
   //   await flutterTts.speak("atoll"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtoll(String languageCode) async {
+  // Future<void> speakatoll(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtoll
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryatoll extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætɒl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtoll("en-GB"),
+                              onPressed: () => speakatoll("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryatoll extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtoll("en-US"),
+                              onPressed: () => speakatoll("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryatoll extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtoll1156("en-GB"),
+                                    onPressed: () => speakatoll1156("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtoll1156(// REPLACE: atoll
+                                        speakatoll1156(// REPLACE: atoll
                                             "en-US"),
                                   ),
                                 ],

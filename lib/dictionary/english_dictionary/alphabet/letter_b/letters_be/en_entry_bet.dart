@@ -19,7 +19,7 @@ class EnglishEntrybet extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBet(String languageCode) async {
+  Future<void> speakbet(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybet extends StatelessWidget {
     await flutterTts.speak("bet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets1(String languageCode) async {
+  Future<void> speakbets1(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybet extends StatelessWidget {
         .speak("You have to be over 16 to bet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets2(String languageCode) async {
+  Future<void> speakbets2(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybet extends StatelessWidget {
         "Not many people are betting against France retaining their title."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets3(String languageCode) async {
+  Future<void> speakbets3(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybet extends StatelessWidget {
         "She bet me £20 (that) I wouldn't do it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets4(String languageCode) async {
+  Future<void> speakbets4(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybet extends StatelessWidget {
         .speak("I bet (that) we’re too late."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets5(String languageCode) async {
+  Future<void> speakbets5(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybet extends StatelessWidget {
         "I'm willing to bet (that) the analysts will be wrong."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets6(String languageCode) async {
+  Future<void> speakbets6(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybet extends StatelessWidget {
         "We've got a bet on who's going to arrive first."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets7(String languageCode) async {
+  Future<void> speakbets7(String languageCode) async {
     // DOPSUM: CHANGE speakBet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybet extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bet/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBet("en-GB"),
+                              onPressed: () => speakbet("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybet extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bet/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBet("en-US"),
+                              onPressed: () => speakbet("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets1("en-GB"),
+                                    onPressed: () => speakbets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets1("en-US"),
+                                    onPressed: () => speakbets1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets2("en-GB"),
+                                    onPressed: () => speakbets2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets2("en-US"),
+                                    onPressed: () => speakbets2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets3("en-GB"),
+                                    onPressed: () => speakbets3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets3("en-US"),
+                                    onPressed: () => speakbets3("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,10 +261,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets4("en-GB"),
+                                    onPressed: () => speakbets4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets4("en-US"),
+                                    onPressed: () => speakbets4("en-US"),
                                   ),
                                 ],
                               ),
@@ -290,10 +290,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets5("en-GB"),
+                                    onPressed: () => speakbets5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets5("en-US"),
+                                    onPressed: () => speakbets5("en-US"),
                                   ),
                                 ],
                               ),
@@ -321,10 +321,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets6("en-GB"),
+                                    onPressed: () => speakbets6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets6("en-US"),
+                                    onPressed: () => speakbets6("en-US"),
                                   ),
                                 ],
                               ),
@@ -352,10 +352,10 @@ class EnglishEntrybet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBets7("en-GB"),
+                                    onPressed: () => speakbets7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBets7("en-US"),
+                                    onPressed: () => speakbets7("en-US"),
                                   ),
                                 ],
                               ),

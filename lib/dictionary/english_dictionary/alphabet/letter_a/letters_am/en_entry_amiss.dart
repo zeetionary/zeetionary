@@ -11,7 +11,7 @@ class EnglishEntryamiss extends StatelessWidget {
   EnglishEntryamiss({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmiss(String languageCode) async {
+  Future<void> speakamiss(String languageCode) async {
     // DOPSUM: CHANGE speakAmiss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamiss extends StatelessWidget {
     await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmiss7741(String languageCode) async {
+  Future<void> speakamiss7741(String languageCode) async {
     // DOPSUM: CHANGE speakAmiss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamiss extends StatelessWidget {
         "She sensed something was amiss and called the police."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmiss8899(String languageCode) async {
+  Future<void> speakamiss8899(String languageCode) async {
     // DOPSUM: CHANGE speakAmiss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamiss extends StatelessWidget {
         "He shone a light inside and saw nothing amiss."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryamiss extends StatelessWidget {
   //   await flutterTts.speak("amiss"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmiss(String languageCode) async {
+  // Future<void> speakamiss(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmiss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryamiss extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmiss("en-GB"),
+                              onPressed: () => speakamiss("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryamiss extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmiss("en-US"),
+                              onPressed: () => speakamiss("en-US"),
                             ),
                           ],
                         ),
@@ -199,11 +199,11 @@ class EnglishEntryamiss extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmiss7741("en-GB"),
+                                    onPressed: () => speakamiss7741("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmiss7741(// REPLACE: amiss /əˈmɪs/
+                                        speakamiss7741(// REPLACE: amiss /əˈmɪs/
                                             "en-US"),
                                   ),
                                 ],
@@ -229,11 +229,11 @@ class EnglishEntryamiss extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmiss8899("en-GB"),
+                                    onPressed: () => speakamiss8899("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmiss8899(// REPLACE: amiss /əˈmɪs/
+                                        speakamiss8899(// REPLACE: amiss /əˈmɪs/
                                             "en-US"),
                                   ),
                                 ],

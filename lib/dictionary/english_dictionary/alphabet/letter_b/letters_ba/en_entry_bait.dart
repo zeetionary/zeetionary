@@ -19,7 +19,7 @@ class EnglishEntrybait extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBait(String languageCode) async {
+  Future<void> speakbait(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.speak("bait"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits1(String languageCode) async {
+  Future<void> speakbaits1(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybait extends StatelessWidget {
         .speak("Live worms are used as bait."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits2(String languageCode) async {
+  Future<void> speakbaits2(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybait extends StatelessWidget {
         "The police used him as bait to trap the killers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits3(String languageCode) async {
+  Future<void> speakbaits3(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybait extends StatelessWidget {
         "He baited the trap with a piece of meat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits4(String languageCode) async {
+  Future<void> speakbaits4(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybait extends StatelessWidget {
         "The soldiers remained calm even though the crowd was baiting them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits5(String languageCode) async {
+  Future<void> speakbaits5(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybait extends StatelessWidget {
         "The activity of bear-baiting was finally banned in England in the 19th century."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits6(String languageCode) async {
+  Future<void> speakbaits6(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybait extends StatelessWidget {
     await flutterTts.speak("speakBaits66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits7(String languageCode) async {
+  Future<void> speakbaits7(String languageCode) async {
     // DOPSUM: CHANGE speakBait
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 text:
                                     "IpaUK: /beɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBait("en-GB"),
+                              onPressed: () => speakbait("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 text:
                                     "IpaUS: /beɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBait("en-US"),
+                              onPressed: () => speakbait("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybait extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaits1("en-GB"),
+                                    onPressed: () => speakbaits1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaits1(// REPLACE: bait
+                                        speakbaits1(// REPLACE: bait
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybait extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaits2("en-GB"),
+                                    onPressed: () => speakbaits2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaits2(// REPLACE: bait
+                                        speakbaits2(// REPLACE: bait
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybait extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaits3("en-GB"),
+                                    onPressed: () => speakbaits3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaits3(// REPLACE: bait
+                                        speakbaits3(// REPLACE: bait
                                             "en-US"),
                                   ),
                                 ],
@@ -276,11 +276,11 @@ class EnglishEntrybait extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaits4("en-GB"),
+                                    onPressed: () => speakbaits4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaits4(// REPLACE: bait
+                                        speakbaits4(// REPLACE: bait
                                             "en-US"),
                                   ),
                                 ],
@@ -309,11 +309,11 @@ class EnglishEntrybait extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaits5("en-GB"),
+                                    onPressed: () => speakbaits5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBaits5(// REPLACE: bait
+                                        speakbaits5(// REPLACE: bait
                                             "en-US"),
                                   ),
                                 ],

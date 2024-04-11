@@ -17,7 +17,7 @@ class EnglishEntryaphid extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAphid(String languageCode) async {
+  Future<void> speakaphid(String languageCode) async {
     // DOPSUM: CHANGE speakAphid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaphid extends StatelessWidget {
     await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAphid229(String languageCode) async {
+  Future<void> speakaphid229(String languageCode) async {
     // DOPSUM: CHANGE speakAphid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaphid extends StatelessWidget {
         .speak("Aphids can have babies without mating."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaphid extends StatelessWidget {
   //   await flutterTts.speak("aphid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAphid(String languageCode) async {
+  // Future<void> speakaphid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAphid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaphid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪfɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAphid("en-GB"),
+                              onPressed: () => speakaphid("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaphid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪfɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAphid("en-US"),
+                              onPressed: () => speakaphid("en-US"),
                             ),
                           ],
                         ),
@@ -181,11 +181,11 @@ class EnglishEntryaphid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAphid229("en-GB"),
+                                    onPressed: () => speakaphid229("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAphid229(// REPLACE: aphid /ˈeɪfɪd/
+                                        speakaphid229(// REPLACE: aphid /ˈeɪfɪd/
                                             "en-US"),
                                   ),
                                 ],

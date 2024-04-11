@@ -19,7 +19,7 @@ class EnglishEntryattain extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttain(String languageCode) async {
+  Future<void> speakattain(String languageCode) async {
     // DOPSUM: CHANGE speakAttain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattain extends StatelessWidget {
     await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttain646(String languageCode) async {
+  Future<void> speakattain646(String languageCode) async {
     // DOPSUM: CHANGE speakAttain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattain extends StatelessWidget {
         "He has attained the highest grade in his music exams."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttain648(String languageCode) async {
+  Future<void> speakattain648(String languageCode) async {
     // DOPSUM: CHANGE speakAttain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattain extends StatelessWidget {
         "The cheetah can attain speeds of up to 97 kph."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattain extends StatelessWidget {
   //   await flutterTts.speak("attain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttain(String languageCode) async {
+  // Future<void> speakattain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattain extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈteɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttain("en-GB"),
+                              onPressed: () => speakattain("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattain extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈteɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttain("en-US"),
+                              onPressed: () => speakattain("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryattain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttain646("en-GB"),
+                                    onPressed: () => speakattain646("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttain646(// REPLACE: attain
+                                        speakattain646(// REPLACE: attain
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryattain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttain648("en-GB"),
+                                    onPressed: () => speakattain648("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttain648(// REPLACE: attain
+                                        speakattain648(// REPLACE: attain
                                             "en-US"),
                                   ),
                                 ],

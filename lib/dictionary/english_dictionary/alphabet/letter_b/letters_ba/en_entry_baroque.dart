@@ -19,7 +19,7 @@ class EnglishEntrybaroque extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaroque(String languageCode) async {
+  Future<void> speakbaroque(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.speak("baroque"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques1(String languageCode) async {
+  Future<void> speakbaroques1(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaroque extends StatelessWidget {
         "The villa is an eccentric fusion of the classical, the baroque and the modernist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques2(String languageCode) async {
+  Future<void> speakbaroques2(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybaroque extends StatelessWidget {
         "The baroque St Martin's church is considered one of the most beautiful churches in the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques3(String languageCode) async {
+  Future<void> speakbaroques3(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.speak("speakBaroques33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques4(String languageCode) async {
+  Future<void> speakbaroques4(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.speak("speakBaroques44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques5(String languageCode) async {
+  Future<void> speakbaroques5(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.speak("speakBaroques55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques6(String languageCode) async {
+  Future<void> speakbaroques6(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.speak("speakBaroques66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaroques7(String languageCode) async {
+  Future<void> speakbaroques7(String languageCode) async {
     // DOPSUM: CHANGE speakBaroque
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybaroque extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bəˈrɒk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaroque("en-GB"),
+                              onPressed: () => speakbaroque("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybaroque extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈrəʊk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaroque("en-US"),
+                              onPressed: () => speakbaroque("en-US"),
                             ),
                           ],
                         ),
@@ -166,10 +166,10 @@ class EnglishEntrybaroque extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaroques1("en-GB"),
+                                    onPressed: () => speakbaroques1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBaroques1("en-US"),
+                                    onPressed: () => speakbaroques1("en-US"),
                                   ),
                                 ],
                               ),
@@ -197,10 +197,10 @@ class EnglishEntrybaroque extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaroques2("en-GB"),
+                                    onPressed: () => speakbaroques2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBaroques2("en-US"),
+                                    onPressed: () => speakbaroques2("en-US"),
                                   ),
                                 ],
                               ),

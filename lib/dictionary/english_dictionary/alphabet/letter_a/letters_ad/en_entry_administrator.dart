@@ -11,7 +11,7 @@ class EnglishEntryadministrator extends StatelessWidget {
   EnglishEntryadministrator({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdministrator(String languageCode) async {
+  Future<void> speakadministrator(String languageCode) async {
     // DOPSUM: CHANGE speakAdministrator
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadministrator extends StatelessWidget {
     await flutterTts.speak("administrator"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmini5288(String languageCode) async {
+  Future<void> speakadmini5288(String languageCode) async {
     // DOPSUM: CHANGE speakAdministrator
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadministrator extends StatelessWidget {
         "Such decisions are made by the hospital administrators."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmi25688(String languageCode) async {
+  Future<void> speakadmi25688(String languageCode) async {
     // DOPSUM: CHANGE speakAdministrator
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadministrator extends StatelessWidget {
         "If you are unable to access the site, contact your system administrator."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdministrator(String languageCode) async {
+  // Future<void> speakadministrator(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdministrator
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˈmɪnɪstreɪtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdministrator("en-GB"),
+                              onPressed: () => speakadministrator("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪnɪstreɪtər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdministrator("en-US"),
+                              onPressed: () => speakadministrator("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryadministrator extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmini5288("en-GB"),
+                                    onPressed: () => speakadmini5288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmini5288(
+                                    onPressed: () => speakadmini5288(
                                         // REPLACE: administrator /ədˈmɪnɪstreɪtər/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryadministrator extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmi25688("en-GB"),
+                                    onPressed: () => speakadmi25688("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmi25688(
+                                    onPressed: () => speakadmi25688(
                                         // REPLACE: administrator /ədˈmɪnɪstreɪtər/
                                         "en-US"),
                                   ),

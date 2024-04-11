@@ -15,7 +15,7 @@ class EnglishEntryanybody extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnybody(String languageCode) async {
+  Future<void> speakanybody(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanybody extends StatelessWidget {
     await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody926(String languageCode) async {
+  Future<void> speakanybody926(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryanybody extends StatelessWidget {
         .speak("Does anybody else want to come?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody927(String languageCode) async {
+  Future<void> speakanybody927(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryanybody extends StatelessWidget {
         .speak("I forbid anybody to touch that clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody1055(String languageCode) async {
+  Future<void> speakanybody1055(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryanybody extends StatelessWidget {
         .speak("Is there anybody who can help me?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody1056(String languageCode) async {
+  Future<void> speakanybody1056(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryanybody extends StatelessWidget {
         "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody1059(String languageCode) async {
+  Future<void> speakanybody1059(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanybody extends StatelessWidget {
         "Anybody could dress well with all that money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody929(String languageCode) async {
+  Future<void> speakanybody929(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanybody extends StatelessWidget {
         .speak("Anybody can see that it's wrong."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnybody931(String languageCode) async {
+  Future<void> speakanybody931(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryanybody extends StatelessWidget {
         "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnybody(String languageCode) async {
+  // Future<void> speakanybody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -94,7 +94,7 @@ class EnglishEntryanybody extends StatelessWidget {
   //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnybody(String languageCode) async {
+  // Future<void> speakanybody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -102,7 +102,7 @@ class EnglishEntryanybody extends StatelessWidget {
   //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnybody(String languageCode) async {
+  // Future<void> speakanybody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -110,7 +110,7 @@ class EnglishEntryanybody extends StatelessWidget {
   //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnybody(String languageCode) async {
+  // Future<void> speakanybody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryanybody extends StatelessWidget {
   //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnybody(String languageCode) async {
+  // Future<void> speakanybody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -156,7 +156,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈenibɒdi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnybody("en-GB"),
+                              onPressed: () => speakanybody("en-GB"),
                             ),
                           ],
                         ),
@@ -166,7 +166,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈenibɑːdi/, /ˈenibʌdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnybody("en-US"),
+                              onPressed: () => speakanybody("en-US"),
                             ),
                           ],
                         ),
@@ -215,10 +215,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody1055("en-GB"),
+                                    onPressed: () => speakanybody1055("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody1055("en-US"),
+                                    onPressed: () => speakanybody1055("en-US"),
                                   ),
                                 ],
                               ),
@@ -243,10 +243,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody926("en-GB"),
+                                    onPressed: () => speakanybody926("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody926("en-US"),
+                                    onPressed: () => speakanybody926("en-US"),
                                   ),
                                 ],
                               ),
@@ -271,10 +271,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody927("en-GB"),
+                                    onPressed: () => speakanybody927("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody927("en-US"),
+                                    onPressed: () => speakanybody927("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,10 +302,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody1059("en-GB"),
+                                    onPressed: () => speakanybody1059("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody1059(
+                                    onPressed: () => speakanybody1059(
                                         // REPLACE: anybody /ˈenibɑːdi/, /ˈenibʌdi/
                                         "en-US"),
                                   ),
@@ -332,10 +332,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody929("en-GB"),
+                                    onPressed: () => speakanybody929("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody929("en-US"),
+                                    onPressed: () => speakanybody929("en-US"),
                                   ),
                                 ],
                               ),
@@ -363,10 +363,10 @@ class EnglishEntryanybody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnybody931("en-GB"),
+                                    onPressed: () => speakanybody931("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnybody931("en-US"),
+                                    onPressed: () => speakanybody931("en-US"),
                                   ),
                                 ],
                               ),

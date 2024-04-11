@@ -19,7 +19,7 @@ class EnglishEntrybag extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBag(String languageCode) async {
+  Future<void> speakbag(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("bag"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags1(String languageCode) async {
+  Future<void> speakbags1(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybag extends StatelessWidget {
         "He was carrying a heavy bag of groceries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags2(String languageCode) async {
+  Future<void> speakbags2(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybag extends StatelessWidget {
         "She tipped out the contents of her bag."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags3(String languageCode) async {
+  Future<void> speakbags3(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybag extends StatelessWidget {
         "I packed my bags and left for the airport."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags4(String languageCode) async {
+  Future<void> speakbags4(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("She ate a bag of chips."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags5(String languageCode) async {
+  Future<void> speakbags5(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybag extends StatelessWidget {
         "She was considering cosmetic surgery to deal with the bags under her eyes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags6(String languageCode) async {
+  Future<void> speakbags6(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("Silly old bag!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags7(String languageCode) async {
+  Future<void> speakbags7(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("We got a good bag today."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags8(String languageCode) async {
+  Future<void> speakbags8(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -96,7 +96,7 @@ class EnglishEntrybag extends StatelessWidget {
         .speak("Get in! There's bags of room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags9(String languageCode) async {
+  Future<void> speakbags9(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -105,7 +105,7 @@ class EnglishEntrybag extends StatelessWidget {
         "The fruit is washed, sorted and bagged at the farm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags10(String languageCode) async {
+  Future<void> speakbags10(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybag extends StatelessWidget {
         .speak("We bagged ten fish in two hours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags11(String languageCode) async {
+  Future<void> speakbags11(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntrybag extends StatelessWidget {
         "Harkin bagged two goals in last night's win."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags12(String languageCode) async {
+  Future<void> speakbags12(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntrybag extends StatelessWidget {
         "Sally had managed to bag the two best seats."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags13(String languageCode) async {
+  Future<void> speakbags13(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -141,7 +141,7 @@ class EnglishEntrybag extends StatelessWidget {
         "Stop bagging her out - she's doing her best."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags14(String languageCode) async {
+  Future<void> speakbags14(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -150,7 +150,7 @@ class EnglishEntrybag extends StatelessWidget {
         "They decided to bag the trip because they were short of cash."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags15(String languageCode) async {
+  Future<void> speakbags15(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -158,7 +158,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("speakBags1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags16(String languageCode) async {
+  Future<void> speakbags16(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -166,7 +166,7 @@ class EnglishEntrybag extends StatelessWidget {
     await flutterTts.speak("speakBags1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags17(String languageCode) async {
+  Future<void> speakbags17(String languageCode) async {
     // DOPSUM: CHANGE speakBag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -205,7 +205,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæɡ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBag("en-GB"),
+                              onPressed: () => speakbag("en-GB"),
                             ),
                           ],
                         ),
@@ -215,7 +215,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBag("en-US"),
+                              onPressed: () => speakbag("en-US"),
                             ),
                           ],
                         ),
@@ -265,10 +265,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags1("en-GB"),
+                                    onPressed: () => speakbags1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags1(// REPLACE: bag
+                                    onPressed: () => speakbags1(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -295,10 +295,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags2("en-GB"),
+                                    onPressed: () => speakbags2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags2(// REPLACE: bag
+                                    onPressed: () => speakbags2(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -327,10 +327,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags3("en-GB"),
+                                    onPressed: () => speakbags3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags3(// REPLACE: bag
+                                    onPressed: () => speakbags3(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -357,10 +357,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags4("en-GB"),
+                                    onPressed: () => speakbags4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags4(// REPLACE: bag
+                                    onPressed: () => speakbags4(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -388,10 +388,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags8("en-GB"),
+                                    onPressed: () => speakbags8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags8(// REPLACE: bag
+                                    onPressed: () => speakbags8(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -420,10 +420,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags5("en-GB"),
+                                    onPressed: () => speakbags5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags5(// REPLACE: bag
+                                    onPressed: () => speakbags5(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -450,10 +450,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags6("en-GB"),
+                                    onPressed: () => speakbags6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags6(// REPLACE: bag
+                                    onPressed: () => speakbags6(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -480,10 +480,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags7("en-GB"),
+                                    onPressed: () => speakbags7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags7(// REPLACE: bag
+                                    onPressed: () => speakbags7(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -512,10 +512,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags9("en-GB"),
+                                    onPressed: () => speakbags9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags9(// REPLACE: bag
+                                    onPressed: () => speakbags9(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -544,10 +544,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags10("en-GB"),
+                                    onPressed: () => speakbags10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags10(// REPLACE: bag
+                                    onPressed: () => speakbags10(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -576,10 +576,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags11("en-GB"),
+                                    onPressed: () => speakbags11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags11(// REPLACE: bag
+                                    onPressed: () => speakbags11(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -607,10 +607,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags12("en-GB"),
+                                    onPressed: () => speakbags12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags12(// REPLACE: bag
+                                    onPressed: () => speakbags12(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -639,10 +639,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags13("en-GB"),
+                                    onPressed: () => speakbags13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags13(// REPLACE: bag
+                                    onPressed: () => speakbags13(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],
@@ -671,10 +671,10 @@ class EnglishEntrybag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBags14("en-GB"),
+                                    onPressed: () => speakbags14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBags14(// REPLACE: bag
+                                    onPressed: () => speakbags14(// REPLACE: bag
                                         "en-US"),
                                   ),
                                 ],

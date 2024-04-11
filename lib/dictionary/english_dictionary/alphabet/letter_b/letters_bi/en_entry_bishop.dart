@@ -19,7 +19,7 @@ class EnglishEntrybishop extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBishop(String languageCode) async {
+  Future<void> speakbishop(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybishop extends StatelessWidget {
     await flutterTts.speak("bishop"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops1(String languageCode) async {
+  Future<void> speakbishops1(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybishop extends StatelessWidget {
         .speak("He was appointed Bishop of Naples."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops2(String languageCode) async {
+  Future<void> speakbishops2(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybishop extends StatelessWidget {
         "A well-placed bishop can effectively shield the king from enemy pieces."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops3(String languageCode) async {
+  Future<void> speakbishops3(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybishop extends StatelessWidget {
     await flutterTts.speak("speakBishops33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops4(String languageCode) async {
+  Future<void> speakbishops4(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybishop extends StatelessWidget {
     await flutterTts.speak("speakBishops44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops5(String languageCode) async {
+  Future<void> speakbishops5(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybishop extends StatelessWidget {
     await flutterTts.speak("speakBishops55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops6(String languageCode) async {
+  Future<void> speakbishops6(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybishop extends StatelessWidget {
     await flutterTts.speak("speakBishops66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBishops7(String languageCode) async {
+  Future<void> speakbishops7(String languageCode) async {
     // DOPSUM: CHANGE speakBishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybishop extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪʃəp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBishop("en-GB"),
+                              onPressed: () => speakbishop("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybishop extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪʃəp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBishop("en-US"),
+                              onPressed: () => speakbishop("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybishop extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBishops1("en-GB"),
+                                    onPressed: () => speakbishops1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBishops1("en-US"),
+                                    onPressed: () => speakbishops1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybishop extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBishops2("en-GB"),
+                                    onPressed: () => speakbishops2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBishops2("en-US"),
+                                    onPressed: () => speakbishops2("en-US"),
                                   ),
                                 ],
                               ),

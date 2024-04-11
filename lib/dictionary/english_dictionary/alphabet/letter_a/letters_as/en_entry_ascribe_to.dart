@@ -19,7 +19,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscribeto(String languageCode) async {
+  Future<void> speakascribeto(String languageCode) async {
     // DOPSUM: CHANGE speakAscribeto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryascribeto extends StatelessWidget {
     await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscribeto141(String languageCode) async {
+  Future<void> speakascribeto141(String languageCode) async {
     // DOPSUM: CHANGE speakAscribeto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryascribeto extends StatelessWidget {
         "This play is usually ascribed to Shakespeare."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscribeto143(String languageCode) async {
+  Future<void> speakascribeto143(String languageCode) async {
     // DOPSUM: CHANGE speakAscribeto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryascribeto extends StatelessWidget {
         .speak("He ascribed his failure to bad luck."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscribeto146(String languageCode) async {
+  Future<void> speakascribeto146(String languageCode) async {
     // DOPSUM: CHANGE speakAscribeto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryascribeto extends StatelessWidget {
         "We ascribe great importance to these policies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscribeto147(String languageCode) async {
+  Future<void> speakascribeto147(String languageCode) async {
     // DOPSUM: CHANGE speakAscribeto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryascribeto extends StatelessWidget {
         "People like to ascribe human feelings to animals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscribeto(String languageCode) async {
+  // Future<void> speakascribeto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscribeto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscribeto(String languageCode) async {
+  // Future<void> speakascribeto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscribeto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscribeto(String languageCode) async {
+  // Future<void> speakascribeto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscribeto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryascribeto extends StatelessWidget {
   //   await flutterTts.speak("ascribe to"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscribeto(String languageCode) async {
+  // Future<void> speakascribeto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscribeto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈskraɪb tə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscribeto("en-GB"),
+                              onPressed: () => speakascribeto("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈskraɪb tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscribeto("en-US"),
+                              onPressed: () => speakascribeto("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryascribeto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscribeto141("en-GB"),
+                                    onPressed: () => speakascribeto141("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscribeto141(
+                                    onPressed: () => speakascribeto141(
                                         // REPLACE: ascribe /əˈskraɪb tə/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryascribeto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscribeto143("en-GB"),
+                                    onPressed: () => speakascribeto143("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscribeto143(
+                                    onPressed: () => speakascribeto143(
                                         // REPLACE: ascribe /əˈskraɪb tə/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryascribeto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscribeto146("en-GB"),
+                                    onPressed: () => speakascribeto146("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscribeto146(
+                                    onPressed: () => speakascribeto146(
                                         // REPLACE: ascribe /əˈskraɪb tə/
                                         "en-US"),
                                   ),
@@ -278,10 +278,10 @@ class EnglishEntryascribeto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscribeto147("en-GB"),
+                                    onPressed: () => speakascribeto147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscribeto147(
+                                    onPressed: () => speakascribeto147(
                                         // REPLACE: ascribe /əˈskraɪb tə/
                                         "en-US"),
                                   ),

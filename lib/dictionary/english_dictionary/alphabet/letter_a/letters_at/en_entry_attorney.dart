@@ -19,7 +19,7 @@ class EnglishEntryattorney extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttorney(String languageCode) async {
+  Future<void> speakattorney(String languageCode) async {
     // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattorney extends StatelessWidget {
     await flutterTts.speak("attorney"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttorney1101(String languageCode) async {
+  Future<void> speakattorney1101(String languageCode) async {
     // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattorney extends StatelessWidget {
         "Acting on the advice of his attorney, he remained silent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttorney1103(String languageCode) async {
+  Future<void> speakattorney1103(String languageCode) async {
     // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattorney extends StatelessWidget {
         "The defence attorney requested an adjournment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttorney1107(String languageCode) async {
+  Future<void> speakattorney1107(String languageCode) async {
     // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattorney extends StatelessWidget {
         "She was made her father's attorney when he became ill."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttorney(String languageCode) async {
+  // Future<void> speakattorney(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttorney
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryattorney extends StatelessWidget {
   //   await flutterTts.speak("attorney"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttorney(String languageCode) async {
+  // Future<void> speakattorney(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttorney
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryattorney extends StatelessWidget {
   //   await flutterTts.speak("attorney"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttorney(String languageCode) async {
+  // Future<void> speakattorney(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttorney
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryattorney extends StatelessWidget {
   //   await flutterTts.speak("attorney"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttorney(String languageCode) async {
+  // Future<void> speakattorney(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttorney
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryattorney extends StatelessWidget {
   //   await flutterTts.speak("attorney"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttorney(String languageCode) async {
+  // Future<void> speakattorney(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttorney
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryattorney extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtɜːni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttorney("en-GB"),
+                              onPressed: () => speakattorney("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryattorney extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtɜːrni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttorney("en-US"),
+                              onPressed: () => speakattorney("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryattorney extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttorney1101("en-GB"),
+                                    onPressed: () => speakattorney1101("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttorney1101(// REPLACE: attorney
+                                        speakattorney1101(// REPLACE: attorney
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryattorney extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttorney1103("en-GB"),
+                                    onPressed: () => speakattorney1103("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttorney1103(// REPLACE: attorney
+                                        speakattorney1103(// REPLACE: attorney
                                             "en-US"),
                                   ),
                                 ],
@@ -249,11 +249,11 @@ class EnglishEntryattorney extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttorney1107("en-GB"),
+                                    onPressed: () => speakattorney1107("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttorney1107(// REPLACE: attorney
+                                        speakattorney1107(// REPLACE: attorney
                                             "en-US"),
                                   ),
                                 ],

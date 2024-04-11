@@ -11,7 +11,7 @@ class EnglishEntryadverb extends StatelessWidget {
   EnglishEntryadverb({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdverb(String languageCode) async {
+  Future<void> speakadverb(String languageCode) async {
     // DOPSUM: CHANGE speakAdverb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadverb extends StatelessWidget {
     await flutterTts.speak("adverb"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdverb(String languageCode) async {
+  // Future<void> speakadverb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdverb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryadverb extends StatelessWidget {
   //   await flutterTts.speak("adverb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdverb(String languageCode) async {
+  // Future<void> speakadverb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdverb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryadverb extends StatelessWidget {
   //   await flutterTts.speak("adverb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdverb(String languageCode) async {
+  // Future<void> speakadverb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdverb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryadverb extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædvɜːb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdverb("en-GB"),
+                              onPressed: () => speakadverb("en-GB"),
                             ),
                           ],
                         ),
@@ -80,7 +80,7 @@ class EnglishEntryadverb extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædvɜːrb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdverb("en-US"),
+                              onPressed: () => speakadverb("en-US"),
                             ),
                           ],
                         ),

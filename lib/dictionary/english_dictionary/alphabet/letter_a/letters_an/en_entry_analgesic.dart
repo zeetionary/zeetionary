@@ -11,7 +11,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   EnglishEntryanalgesic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalgesic(String languageCode) async {
+  Future<void> speakanalgesic(String languageCode) async {
     // DOPSUM: CHANGE speakAnalgesic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
     await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalgesic5802(String languageCode) async {
+  Future<void> speakanalgesic5802(String languageCode) async {
     // DOPSUM: CHANGE speakAnalgesic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
         "This cream contains a mild analgesic to soothe stings and bites."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalgesic101(String languageCode) async {
+  Future<void> speakanalgesic101(String languageCode) async {
     // DOPSUM: CHANGE speakAnalgesic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
         .speak("Aspirin is a mild analgesic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
   //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
+  // Future<void> speakanalgesic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalgesic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəlˈdʒiːzɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnalgesic("en-GB"),
+                              onPressed: () => speakanalgesic("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəlˈdʒiːzɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnalgesic("en-US"),
+                              onPressed: () => speakanalgesic("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnalgesic5802("en-GB"),
+                                        speakanalgesic5802("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalgesic5802(
+                                    onPressed: () => speakanalgesic5802(
                                         // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryanalgesic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnalgesic101("en-GB"),
+                                    onPressed: () => speakanalgesic101("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalgesic101(
+                                    onPressed: () => speakanalgesic101(
                                         // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
                                         "en-US"),
                                   ),

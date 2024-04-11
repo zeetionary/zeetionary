@@ -19,7 +19,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBillofexchange(String languageCode) async {
+  Future<void> speakbillofexchange(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("bill of exchange"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges1(String languageCode) async {
+  Future<void> speakbillofexchanges1(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
         "speakBillofexchanges111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges2(String languageCode) async {
+  Future<void> speakbillofexchanges2(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("speakBillofexchanges22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges3(String languageCode) async {
+  Future<void> speakbillofexchanges3(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("speakBillofexchanges33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges4(String languageCode) async {
+  Future<void> speakbillofexchanges4(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("speakBillofexchanges44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges5(String languageCode) async {
+  Future<void> speakbillofexchanges5(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("speakBillofexchanges55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges6(String languageCode) async {
+  Future<void> speakbillofexchanges6(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
     await flutterTts.speak("speakBillofexchanges66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofexchanges7(String languageCode) async {
+  Future<void> speakbillofexchanges7(String languageCode) async {
     // DOPSUM: CHANGE speakBillofexchange
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌbɪl əv ɪksˈtʃeɪndʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBillofexchange("en-GB"),
+                              onPressed: () => speakbillofexchange("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybillofexchange extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbɪl əv ɪksˈtʃeɪndʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBillofexchange("en-US"),
+                              onPressed: () => speakbillofexchange("en-US"),
                             ),
                           ],
                         ),
@@ -158,10 +158,10 @@ class EnglishEntrybillofexchange extends StatelessWidget {
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     const CustomSizedBoxForTTS(),
                           //     CustomIconButtonBritish(
-                          //       onPressed: () => speakBillofexchanges1("en-GB"),
+                          //       onPressed: () => speakbillofexchanges1("en-GB"),
                           //     ),
                           //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakBillofexchanges1("en-US"),
+                          //       onPressed: () => speakbillofexchanges1("en-US"),
                           //     ),
                           //   ],
                           // ),

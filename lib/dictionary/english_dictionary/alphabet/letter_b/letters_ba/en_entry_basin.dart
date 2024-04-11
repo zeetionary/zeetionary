@@ -19,7 +19,7 @@ class EnglishEntrybasin extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBasin(String languageCode) async {
+  Future<void> speakbasin(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybasin extends StatelessWidget {
     await flutterTts.speak("basin"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins1(String languageCode) async {
+  Future<void> speakbasins1(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybasin extends StatelessWidget {
         .speak("He washed his hands in the basin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins2(String languageCode) async {
+  Future<void> speakbasins2(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybasin extends StatelessWidget {
         "The chef carefully placed the dough into a large basin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins3(String languageCode) async {
+  Future<void> speakbasins3(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybasin extends StatelessWidget {
         "The Amazon River Basin is the largest river basin in the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins4(String languageCode) async {
+  Future<void> speakbasins4(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybasin extends StatelessWidget {
     await flutterTts.speak("speakBasins44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins5(String languageCode) async {
+  Future<void> speakbasins5(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybasin extends StatelessWidget {
     await flutterTts.speak("speakBasins55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins6(String languageCode) async {
+  Future<void> speakbasins6(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybasin extends StatelessWidget {
     await flutterTts.speak("speakBasins66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins7(String languageCode) async {
+  Future<void> speakbasins7(String languageCode) async {
     // DOPSUM: CHANGE speakBasin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybasin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeɪsn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBasin("en-GB"),
+                              onPressed: () => speakbasin("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybasin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbeɪsn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBasin("en-US"),
+                              onPressed: () => speakbasin("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybasin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBasins1("en-GB"),
+                                    onPressed: () => speakbasins1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBasins1("en-US"),
+                                    onPressed: () => speakbasins1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybasin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBasins2("en-GB"),
+                                    onPressed: () => speakbasins2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBasins2("en-US"),
+                                    onPressed: () => speakbasins2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybasin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBasins3("en-GB"),
+                                    onPressed: () => speakbasins3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBasins3("en-US"),
+                                    onPressed: () => speakbasins3("en-US"),
                                   ),
                                 ],
                               ),

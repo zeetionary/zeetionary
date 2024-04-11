@@ -19,7 +19,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthenticate(String languageCode) async {
+  Future<void> speakauthenticate(String languageCode) async {
     // DOPSUM: CHANGE speakAuthenticate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
     await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthenticate628(String languageCode) async {
+  Future<void> speakauthenticate628(String languageCode) async {
     // DOPSUM: CHANGE speakAuthenticate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
         "The letter has been authenticated by handwriting experts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthenticate632(String languageCode) async {
+  Future<void> speakauthenticate632(String languageCode) async {
     // DOPSUM: CHANGE speakAuthenticate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
         "Users must authenticate with their credentials to gain access to the internet."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   //   await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   //   await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   //   await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   //   await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   //   await flutterTts.speak("authenticate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthenticate(String languageCode) async {
+  // Future<void> speakauthenticate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthenticate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈθentɪkeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthenticate("en-GB"),
+                              onPressed: () => speakauthenticate("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈθentɪkeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthenticate("en-US"),
+                              onPressed: () => speakauthenticate("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthenticate628("en-GB"),
+                                        speakauthenticate628("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthenticate628(
+                                    onPressed: () => speakauthenticate628(
                                         // REPLACE: authenticate
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthenticate632("en-GB"),
+                                        speakauthenticate632("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthenticate632(
+                                    onPressed: () => speakauthenticate632(
                                         // REPLACE: authenticate
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryajar extends StatelessWidget {
   EnglishEntryajar({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAjar(String languageCode) async {
+  Future<void> speakajar(String languageCode) async {
     // DOPSUM: CHANGE speakAjar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryajar extends StatelessWidget {
     await flutterTts.speak("ajar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAjar256(String languageCode) async {
+  Future<void> speakajar256(String languageCode) async {
     // DOPSUM: CHANGE speakAjar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryajar extends StatelessWidget {
     await flutterTts.speak("I'll leave the door ajar."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAjar(String languageCode) async {
+  // Future<void> speakajar(String languageCode) async {
   //   // DOPSUM: CHANGE speakAjar
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryajar extends StatelessWidget {
   //   await flutterTts.speak("ajar"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAjar(String languageCode) async {
+  // Future<void> speakajar(String languageCode) async {
   //   // DOPSUM: CHANGE speakAjar
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈdʒɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAjar("en-GB"),
+                              onPressed: () => speakajar("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAjar("en-US"),
+                              onPressed: () => speakajar("en-US"),
                             ),
                           ],
                         ),
@@ -129,11 +129,11 @@ class EnglishEntryajar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAjar256("en-GB"),
+                                    onPressed: () => speakajar256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAjar256(// REPLACE: ajar /əˈdʒɑːr/
+                                        speakajar256(// REPLACE: ajar /əˈdʒɑːr/
                                             "en-US"),
                                   ),
                                 ],

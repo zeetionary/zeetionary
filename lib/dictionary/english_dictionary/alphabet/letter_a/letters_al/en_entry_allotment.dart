@@ -11,7 +11,7 @@ class EnglishEntryallotment extends StatelessWidget {
   EnglishEntryallotment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllotment(String languageCode) async {
+  Future<void> speakallotment(String languageCode) async {
     // DOPSUM: CHANGE speakAllotment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallotment extends StatelessWidget {
     await flutterTts.speak("allotment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllotmen1234(String languageCode) async {
+  Future<void> speakallotmen1234(String languageCode) async {
     // DOPSUM: CHANGE speakAllotment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallotment extends StatelessWidget {
         "They eat fresh vegetables from their allotment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllotment3652(String languageCode) async {
+  Future<void> speakallotment3652(String languageCode) async {
     // DOPSUM: CHANGE speakAllotment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallotment extends StatelessWidget {
         "Water allotments to farmers were cut back in the drought."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllotment(String languageCode) async {
+  // Future<void> speakallotment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllotment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryallotment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɒtmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllotment("en-GB"),
+                              onPressed: () => speakallotment("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryallotment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɑːtmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllotment("en-US"),
+                              onPressed: () => speakallotment("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryallotment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllotmen1234("en-GB"),
+                                    onPressed: () => speakallotmen1234("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllotmen1234(
+                                    onPressed: () => speakallotmen1234(
                                         // REPLACE: allotment /əˈlɑːtmənt/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryallotment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllotment3652("en-GB"),
+                                        speakallotment3652("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllotment3652(
+                                    onPressed: () => speakallotment3652(
                                         // REPLACE: allotment /əˈlɑːtmənt/
                                         "en-US"),
                                   ),

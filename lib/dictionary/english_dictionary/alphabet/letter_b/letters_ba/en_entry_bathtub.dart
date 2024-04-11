@@ -19,7 +19,7 @@ class EnglishEntrybathtub extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBathtub(String languageCode) async {
+  Future<void> speakbathtub(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("bathtub"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs1(String languageCode) async {
+  Future<void> speakbathtubs1(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybathtub extends StatelessWidget {
         "The bathtub was so deep that I could completely submerge myself in the water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs2(String languageCode) async {
+  Future<void> speakbathtubs2(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("speakBathtubs22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs3(String languageCode) async {
+  Future<void> speakbathtubs3(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("speakBathtubs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs4(String languageCode) async {
+  Future<void> speakbathtubs4(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("speakBathtubs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs5(String languageCode) async {
+  Future<void> speakbathtubs5(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("speakBathtubs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs6(String languageCode) async {
+  Future<void> speakbathtubs6(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybathtub extends StatelessWidget {
     await flutterTts.speak("speakBathtubs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathtubs7(String languageCode) async {
+  Future<void> speakbathtubs7(String languageCode) async {
     // DOPSUM: CHANGE speakBathtub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybathtub extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɑːθtʌb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBathtub("en-GB"),
+                              onPressed: () => speakbathtub("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybathtub extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbæθtʌb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBathtub("en-US"),
+                              onPressed: () => speakbathtub("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybathtub extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathtubs1("en-GB"),
+                                    onPressed: () => speakbathtubs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathtubs1("en-US"),
+                                    onPressed: () => speakbathtubs1("en-US"),
                                   ),
                                 ],
                               ),

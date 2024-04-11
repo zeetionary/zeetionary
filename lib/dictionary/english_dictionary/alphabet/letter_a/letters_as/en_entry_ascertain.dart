@@ -19,7 +19,7 @@ class EnglishEntryascertain extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscertain(String languageCode) async {
+  Future<void> speakascertain(String languageCode) async {
     // DOPSUM: CHANGE speakAscertain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryascertain extends StatelessWidget {
     await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscertain1239(String languageCode) async {
+  Future<void> speakascertain1239(String languageCode) async {
     // DOPSUM: CHANGE speakAscertain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryascertain extends StatelessWidget {
         "It can be difficult to ascertain the facts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscertain1240(String languageCode) async {
+  Future<void> speakascertain1240(String languageCode) async {
     // DOPSUM: CHANGE speakAscertain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryascertain extends StatelessWidget {
         "I ascertained that the driver was not badly hurt."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryascertain extends StatelessWidget {
   //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryascertain extends StatelessWidget {
   //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryascertain extends StatelessWidget {
   //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryascertain extends StatelessWidget {
   //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryascertain extends StatelessWidget {
   //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
+  // Future<void> speakascertain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscertain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæsəˈteɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscertain("en-GB"),
+                              onPressed: () => speakascertain("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæsərˈteɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscertain("en-US"),
+                              onPressed: () => speakascertain("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryascertain extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAscertain1239("en-GB"),
+                                        speakascertain1239("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscertain1239(
+                                    onPressed: () => speakascertain1239(
                                         // REPLACE: ascertain /ˌæsərˈteɪn/
                                         "en-US"),
                                   ),
@@ -212,10 +212,10 @@ class EnglishEntryascertain extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAscertain1240("en-GB"),
+                                        speakascertain1240("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscertain1240(
+                                    onPressed: () => speakascertain1240(
                                         // REPLACE: ascertain /ˌæsərˈteɪn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalacarte extends StatelessWidget {
   EnglishEntryalacarte({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlacarte(String languageCode) async {
+  Future<void> speakalacarte(String languageCode) async {
     // DOPSUM: CHANGE speakAlacarte
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalacarte extends StatelessWidget {
     await flutterTts.speak("à la carte"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlacarte(String languageCode) async {
+  // Future<void> speakalacarte(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlacarte
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryalacarte extends StatelessWidget {
   //   await flutterTts.speak("à la carte"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlacarte(String languageCode) async {
+  // Future<void> speakalacarte(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlacarte
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryalacarte extends StatelessWidget {
   //   await flutterTts.speak("à la carte"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlacarte(String languageCode) async {
+  // Future<void> speakalacarte(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlacarte
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑː lɑː ˈkɑːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlacarte("en-GB"),
+                              onPressed: () => speakalacarte("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑː lɑː ˈkɑːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlacarte("en-US"),
+                              onPressed: () => speakalacarte("en-US"),
                             ),
                           ],
                         ),

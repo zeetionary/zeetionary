@@ -12,7 +12,7 @@ class EnglishEntryannotation extends StatelessWidget {
   EnglishEntryannotation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnotation(String languageCode) async {
+  Future<void> speakannotation(String languageCode) async {
     // DOPSUM: CHANGE speakAnnotation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannotation extends StatelessWidget {
     await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnotation210(String languageCode) async {
+  Future<void> speakannotation210(String languageCode) async {
     // DOPSUM: CHANGE speakAnnotation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannotation extends StatelessWidget {
         .speak("It will be published with annotations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnotation212(String languageCode) async {
+  Future<void> speakannotation212(String languageCode) async {
     // DOPSUM: CHANGE speakAnnotation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryannotation extends StatelessWidget {
         "The annotation of literary texts makes them more accessible."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryannotation extends StatelessWidget {
   //   await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryannotation extends StatelessWidget {
   //   await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryannotation extends StatelessWidget {
   //   await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryannotation extends StatelessWidget {
   //   await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryannotation extends StatelessWidget {
   //   await flutterTts.speak("annotation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnotation(String languageCode) async {
+  // Future<void> speakannotation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnotation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryannotation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˈteɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnotation("en-GB"),
+                              onPressed: () => speakannotation("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryannotation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnotation("en-US"),
+                              onPressed: () => speakannotation("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryannotation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnotation210("en-GB"),
+                                        speakannotation210("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnotation210(
+                                    onPressed: () => speakannotation210(
                                         // REPLACE: annotation /ˌænəˈteɪʃn/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryannotation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnotation212("en-GB"),
+                                        speakannotation212("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnotation212(
+                                    onPressed: () => speakannotation212(
                                         // REPLACE: annotation /ˌænəˈteɪʃn/
                                         "en-US"),
                                   ),

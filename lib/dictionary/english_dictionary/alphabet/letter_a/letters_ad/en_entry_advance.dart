@@ -11,7 +11,7 @@ class EnglishEntryadvance extends StatelessWidget {
   EnglishEntryadvance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvance(String languageCode) async {
+  Future<void> speakadvance(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadvance extends StatelessWidget {
     await flutterTts.speak("advance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv2567(String languageCode) async {
+  Future<void> speakadv2567(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "We live in an age of rapid technological advance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan3567(String languageCode) async {
+  Future<void> speakadvan3567(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "Enemy advances had forced them to retreat into the mountains."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv253(String languageCode) async {
+  Future<void> speakadv253(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "The publishers have paid me an advance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv23574(String languageCode) async {
+  Future<void> speakadv23574(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "He had made advances to one of his colleagues."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan6988(String languageCode) async {
+  Future<void> speakadvan6988(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "Our knowledge of the disease has advanced considerably over recent years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd456(String languageCode) async {
+  Future<void> speakad456(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "The troops were finally given the order to advance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv3568(String languageCode) async {
+  Future<void> speakadv3568(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "They worked together to advance the cause of democracy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdva391(String languageCode) async {
+  Future<void> speakadva391(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -91,7 +91,7 @@ class EnglishEntryadvance extends StatelessWidget {
         .speak("We will advance you the money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdva7864(String languageCode) async {
+  Future<void> speakadva7864(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "The article advances a new theory to explain changes in the climate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdva8529(String languageCode) async {
+  Future<void> speakadva8529(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -109,7 +109,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "The date of the trial has been advanced by one week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv9678(String languageCode) async {
+  Future<void> speakadv9678(String languageCode) async {
     // DOPSUM: CHANGE speakAdvance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryadvance extends StatelessWidget {
         "Participants advance through the program by answering a series of questions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdvance(String languageCode) async {
+  // Future<void> speakadvance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryadvance extends StatelessWidget {
   //   await flutterTts.speak("advance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdvance(String languageCode) async {
+  // Future<void> speakadvance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -161,7 +161,7 @@ class EnglishEntryadvance extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvɑːns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvance("en-GB"),
+                              onPressed: () => speakadvance("en-GB"),
                             ),
                           ],
                         ),
@@ -171,7 +171,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvɑːns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvance("en-US"),
+                              onPressed: () => speakadvance("en-US"),
                             ),
                           ],
                         ),
@@ -220,10 +220,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv2567("en-GB"),
+                                    onPressed: () => speakadv2567("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv2567(
+                                    onPressed: () => speakadv2567(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan3567("en-GB"),
+                                    onPressed: () => speakadvan3567("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan3567(
+                                    onPressed: () => speakadvan3567(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -284,10 +284,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv253("en-GB"),
+                                    onPressed: () => speakadv253("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv253(
+                                    onPressed: () => speakadv253(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv23574("en-GB"),
+                                    onPressed: () => speakadv23574("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv23574(
+                                    onPressed: () => speakadv23574(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -348,10 +348,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan6988("en-GB"),
+                                    onPressed: () => speakadvan6988("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan6988(
+                                    onPressed: () => speakadvan6988(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -380,10 +380,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAd456("en-GB"),
+                                    onPressed: () => speakad456("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAd456(
+                                    onPressed: () => speakad456(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -412,10 +412,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv3568("en-GB"),
+                                    onPressed: () => speakadv3568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv3568(
+                                    onPressed: () => speakadv3568(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -442,10 +442,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdva391("en-GB"),
+                                    onPressed: () => speakadva391("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdva391(
+                                    onPressed: () => speakadva391(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -474,10 +474,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdva7864("en-GB"),
+                                    onPressed: () => speakadva7864("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdva7864(
+                                    onPressed: () => speakadva7864(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -506,10 +506,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdva8529("en-GB"),
+                                    onPressed: () => speakadva8529("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdva8529(
+                                    onPressed: () => speakadva8529(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),
@@ -538,10 +538,10 @@ class EnglishEntryadvance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdv9678("en-GB"),
+                                    onPressed: () => speakadv9678("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdv9678(
+                                    onPressed: () => speakadv9678(
                                         // REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
                                   ),

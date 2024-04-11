@@ -19,7 +19,7 @@ class EnglishEntryarticle extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArticle(String languageCode) async {
+  Future<void> speakarticle(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarticle extends StatelessWidget {
     await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticle525(String languageCode) async {
+  Future<void> speakarticle525(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarticle extends StatelessWidget {
         "Her tweet links to an article posted online by the ‘CNN’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticle630(String languageCode) async {
+  Future<void> speakarticle630(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarticle extends StatelessWidget {
         "According to a recent newspaper article, the company is worth over £20 billion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticle635(String languageCode) async {
+  Future<void> speakarticle635(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarticle extends StatelessWidget {
         "The key articles of the constitution can only be changed by referendum."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticle639(String languageCode) async {
+  Future<void> speakarticle639(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarticle extends StatelessWidget {
         "The articles found in the car helped the police to identify the body."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticle641(String languageCode) async {
+  Future<void> speakarticle641(String languageCode) async {
     // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryarticle extends StatelessWidget {
         "Names of countries in English do not usually take an article."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArticle(String languageCode) async {
+  // Future<void> speakarticle(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryarticle extends StatelessWidget {
   //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArticle(String languageCode) async {
+  // Future<void> speakarticle(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryarticle extends StatelessWidget {
   //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArticle(String languageCode) async {
+  // Future<void> speakarticle(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryarticle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArticle("en-GB"),
+                              onPressed: () => speakarticle("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryarticle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArticle("en-US"),
+                              onPressed: () => speakarticle("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryarticle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArticle525("en-GB"),
+                                    onPressed: () => speakarticle525("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticle525(
+                                    onPressed: () => speakarticle525(
                                         // REPLACE: article /ˈɑːrtɪkl/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryarticle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArticle630("en-GB"),
+                                    onPressed: () => speakarticle630("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticle630(
+                                    onPressed: () => speakarticle630(
                                         // REPLACE: article /ˈɑːrtɪkl/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryarticle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArticle635("en-GB"),
+                                    onPressed: () => speakarticle635("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticle635(
+                                    onPressed: () => speakarticle635(
                                         // REPLACE: article /ˈɑːrtɪkl/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryarticle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArticle639("en-GB"),
+                                    onPressed: () => speakarticle639("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticle639(
+                                    onPressed: () => speakarticle639(
                                         // REPLACE: article /ˈɑːrtɪkl/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryarticle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArticle641("en-GB"),
+                                    onPressed: () => speakarticle641("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticle641(
+                                    onPressed: () => speakarticle641(
                                         // REPLACE: article /ˈɑːrtɪkl/
                                         "en-US"),
                                   ),

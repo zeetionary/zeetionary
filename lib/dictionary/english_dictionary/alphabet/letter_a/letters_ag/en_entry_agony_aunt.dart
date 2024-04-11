@@ -11,7 +11,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
   EnglishEntryagonyaunt({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgonyaunt(String languageCode) async {
+  Future<void> speakagonyaunt(String languageCode) async {
     // DOPSUM: CHANGE speakAgonyaunt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
     await flutterTts.speak("agony aunt"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgonyaunt(String languageCode) async {
+  // Future<void> speakagonyaunt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgonyaunt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
   //   await flutterTts.speak("agony aunt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgonyaunt(String languageCode) async {
+  // Future<void> speakagonyaunt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgonyaunt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
   //   await flutterTts.speak("agony aunt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgonyaunt(String languageCode) async {
+  // Future<void> speakagonyaunt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgonyaunt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡəni ɑːnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgonyaunt("en-GB"),
+                              onPressed: () => speakagonyaunt("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡəni ænt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgonyaunt("en-US"),
+                              onPressed: () => speakagonyaunt("en-US"),
                             ),
                           ],
                         ),

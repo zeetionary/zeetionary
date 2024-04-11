@@ -19,7 +19,7 @@ class EnglishEntrybeating extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeating(String languageCode) async {
+  Future<void> speakbeating(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeating extends StatelessWidget {
     await flutterTts.speak("beating"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings1(String languageCode) async {
+  Future<void> speakbeatings1(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeating extends StatelessWidget {
         "They caught him and gave him a violent beating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings2(String languageCode) async {
+  Future<void> speakbeatings2(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeating extends StatelessWidget {
         "The team has taken a few beatings this season."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings3(String languageCode) async {
+  Future<void> speakbeatings3(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeating extends StatelessWidget {
         "He could hear the beating of his own heart."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings4(String languageCode) async {
+  Future<void> speakbeatings4(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybeating extends StatelessWidget {
     await flutterTts.speak("speakBeatings44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings5(String languageCode) async {
+  Future<void> speakbeatings5(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybeating extends StatelessWidget {
     await flutterTts.speak("speakBeatings55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings6(String languageCode) async {
+  Future<void> speakbeatings6(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybeating extends StatelessWidget {
     await flutterTts.speak("speakBeatings66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeatings7(String languageCode) async {
+  Future<void> speakbeatings7(String languageCode) async {
     // DOPSUM: CHANGE speakBeating
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybeating extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːtɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeating("en-GB"),
+                              onPressed: () => speakbeating("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybeating extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːtɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeating("en-US"),
+                              onPressed: () => speakbeating("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybeating extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeatings1("en-GB"),
+                                    onPressed: () => speakbeatings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeatings1("en-US"),
+                                    onPressed: () => speakbeatings1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybeating extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeatings2("en-GB"),
+                                    onPressed: () => speakbeatings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeatings2("en-US"),
+                                    onPressed: () => speakbeatings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybeating extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeatings3("en-GB"),
+                                    onPressed: () => speakbeatings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeatings3("en-US"),
+                                    onPressed: () => speakbeatings3("en-US"),
                                   ),
                                 ],
                               ),

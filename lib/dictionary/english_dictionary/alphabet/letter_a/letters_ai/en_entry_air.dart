@@ -11,7 +11,7 @@ class EnglishEntryair extends StatelessWidget {
   EnglishEntryair({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAir(String languageCode) async {
+  Future<void> speakair(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryair extends StatelessWidget {
     await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir11524(String languageCode) async {
+  Future<void> speakair11524(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryair extends StatelessWidget {
         .speak("Let's go out for some fresh air."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir42112(String languageCode) async {
+  Future<void> speakair42112(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryair extends StatelessWidget {
         "She was gasping for air as she ran out of the burning house."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir2133(String languageCode) async {
+  Future<void> speakair2133(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryair extends StatelessWidget {
         .speak("Wave your hands in the air!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir4144(String languageCode) async {
+  Future<void> speakair4144(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryair extends StatelessWidget {
         .speak("I kicked the ball high into the air."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir45666(String languageCode) async {
+  Future<void> speakair45666(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryair extends StatelessWidget {
         "We watched as the helicopter took to the air."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir3544(String languageCode) async {
+  Future<void> speakair3544(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryair extends StatelessWidget {
         "There was an air of complete confidence about her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir58999(String languageCode) async {
+  Future<void> speakair58999(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryair extends StatelessWidget {
     await flutterTts.speak("Air the sheets well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir49258(String languageCode) async {
+  Future<void> speakair49258(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryair extends StatelessWidget {
         .speak("Leave the window open to air the room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir96354(String languageCode) async {
+  Future<void> speakair96354(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntryair extends StatelessWidget {
         "The issues were openly aired and discussed by the group."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAir74952(String languageCode) async {
+  Future<void> speakair74952(String languageCode) async {
     // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntryair extends StatelessWidget {
         .speak("The program aired last week."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -148,7 +148,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -156,7 +156,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -164,7 +164,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -172,7 +172,7 @@ class EnglishEntryair extends StatelessWidget {
   //   await flutterTts.speak("air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAir(String languageCode) async {
+  // Future<void> speakair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAir
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -207,7 +207,7 @@ class EnglishEntryair extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAir("en-GB"),
+                              onPressed: () => speakair("en-GB"),
                             ),
                           ],
                         ),
@@ -217,7 +217,7 @@ class EnglishEntryair extends StatelessWidget {
                                 text:
                                     "IpaUS: /er/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAir("en-US"),
+                              onPressed: () => speakair("en-US"),
                             ),
                           ],
                         ),
@@ -267,11 +267,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir11524("en-GB"),
+                                    onPressed: () => speakair11524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir11524(// REPLACE: air /er/
+                                        speakair11524(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -297,11 +297,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir42112("en-GB"),
+                                    onPressed: () => speakair42112("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir42112(// REPLACE: air /er/
+                                        speakair42112(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -327,11 +327,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir2133("en-GB"),
+                                    onPressed: () => speakair2133("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir2133(// REPLACE: air /er/
+                                        speakair2133(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -357,11 +357,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir4144("en-GB"),
+                                    onPressed: () => speakair4144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir4144(// REPLACE: air /er/
+                                        speakair4144(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -389,11 +389,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir45666("en-GB"),
+                                    onPressed: () => speakair45666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir45666(// REPLACE: air /er/
+                                        speakair45666(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -421,11 +421,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir3544("en-GB"),
+                                    onPressed: () => speakair3544("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir3544(// REPLACE: air /er/
+                                        speakair3544(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -451,11 +451,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir58999("en-GB"),
+                                    onPressed: () => speakair58999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir58999(// REPLACE: air /er/
+                                        speakair58999(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -483,11 +483,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir49258("en-GB"),
+                                    onPressed: () => speakair49258("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir49258(// REPLACE: air /er/
+                                        speakair49258(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -515,11 +515,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir96354("en-GB"),
+                                    onPressed: () => speakair96354("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir96354(// REPLACE: air /er/
+                                        speakair96354(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],
@@ -546,11 +546,11 @@ class EnglishEntryair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAir74952("en-GB"),
+                                    onPressed: () => speakair74952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAir74952(// REPLACE: air /er/
+                                        speakair74952(// REPLACE: air /er/
                                             "en-US"),
                                   ),
                                 ],

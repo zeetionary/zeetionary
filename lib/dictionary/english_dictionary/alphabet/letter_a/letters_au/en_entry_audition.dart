@@ -19,7 +19,7 @@ class EnglishEntryaudition extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAudition(String languageCode) async {
+  Future<void> speakaudition(String languageCode) async {
     // DOPSUM: CHANGE speakAudition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaudition extends StatelessWidget {
     await flutterTts.speak("audition"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAudition238(String languageCode) async {
+  Future<void> speakaudition238(String languageCode) async {
     // DOPSUM: CHANGE speakAudition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaudition extends StatelessWidget {
         "Auditions will be held from 9–12 on Friday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAudition240(String languageCode) async {
+  Future<void> speakaudition240(String languageCode) async {
     // DOPSUM: CHANGE speakAudition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaudition extends StatelessWidget {
         "She was auditioning for the role of Lady Macbeth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAudition243(String languageCode) async {
+  Future<void> speakaudition243(String languageCode) async {
     // DOPSUM: CHANGE speakAudition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaudition extends StatelessWidget {
         "We auditioned over 200 children for the part."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAudition(String languageCode) async {
+  // Future<void> speakaudition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryaudition extends StatelessWidget {
   //   await flutterTts.speak("audition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudition(String languageCode) async {
+  // Future<void> speakaudition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryaudition extends StatelessWidget {
   //   await flutterTts.speak("audition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudition(String languageCode) async {
+  // Future<void> speakaudition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryaudition extends StatelessWidget {
   //   await flutterTts.speak("audition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudition(String languageCode) async {
+  // Future<void> speakaudition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryaudition extends StatelessWidget {
   //   await flutterTts.speak("audition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudition(String languageCode) async {
+  // Future<void> speakaudition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryaudition extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈdɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAudition("en-GB"),
+                              onPressed: () => speakaudition("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryaudition extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈdɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAudition("en-US"),
+                              onPressed: () => speakaudition("en-US"),
                             ),
                           ],
                         ),
@@ -181,11 +181,11 @@ class EnglishEntryaudition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAudition238("en-GB"),
+                                    onPressed: () => speakaudition238("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAudition238(// REPLACE: audition
+                                        speakaudition238(// REPLACE: audition
                                             "en-US"),
                                   ),
                                 ],
@@ -214,11 +214,11 @@ class EnglishEntryaudition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAudition240("en-GB"),
+                                    onPressed: () => speakaudition240("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAudition240(// REPLACE: audition
+                                        speakaudition240(// REPLACE: audition
                                             "en-US"),
                                   ),
                                 ],
@@ -247,11 +247,11 @@ class EnglishEntryaudition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAudition243("en-GB"),
+                                    onPressed: () => speakaudition243("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAudition243(// REPLACE: audition
+                                        speakaudition243(// REPLACE: audition
                                             "en-US"),
                                   ),
                                 ],

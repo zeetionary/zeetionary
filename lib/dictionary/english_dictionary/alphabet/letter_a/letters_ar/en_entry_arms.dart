@@ -17,7 +17,7 @@ class EnglishEntryarms extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArms(String languageCode) async {
+  Future<void> speakarms(String languageCode) async {
     // DOPSUM: CHANGE speakArms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarms extends StatelessWidget {
     await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArms705(String languageCode) async {
+  Future<void> speakarms705(String languageCode) async {
     // DOPSUM: CHANGE speakArms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarms extends StatelessWidget {
         "The UN imposed an arms embargo on the country."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArms706(String languageCode) async {
+  Future<void> speakarms706(String languageCode) async {
     // DOPSUM: CHANGE speakArms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarms extends StatelessWidget {
         "He's the world's most notorious arms dealer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarms extends StatelessWidget {
   //   await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarms extends StatelessWidget {
   //   await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarms extends StatelessWidget {
   //   await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarms extends StatelessWidget {
   //   await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarms extends StatelessWidget {
   //   await flutterTts.speak("arms"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArms(String languageCode) async {
+  // Future<void> speakarms(String languageCode) async {
   //   // DOPSUM: CHANGE speakArms
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarms extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːmz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArms("en-GB"),
+                              onPressed: () => speakarms("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarms extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrmz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArms("en-US"),
+                              onPressed: () => speakarms("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntryarms extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArms705("en-GB"),
+                                    onPressed: () => speakarms705("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArms705(// REPLACE: arms /ɑːrmz/
+                                        speakarms705(// REPLACE: arms /ɑːrmz/
                                             "en-US"),
                                   ),
                                 ],
@@ -208,10 +208,10 @@ class EnglishEntryarms extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArms706("en-GB"),
+                                    onPressed: () => speakarms706("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArms706(
+                                    onPressed: () => speakarms706(
                                         // REPLACE: arms /ɑːrmz/
                                         "en-US"),
                                   ),

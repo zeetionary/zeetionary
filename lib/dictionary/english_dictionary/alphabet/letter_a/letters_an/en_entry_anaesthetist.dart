@@ -11,7 +11,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   EnglishEntryanaesthetist({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnaesthetist(String languageCode) async {
+  Future<void> speakanaesthetist(String languageCode) async {
     // DOPSUM: CHANGE speakAnaesthetist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
     await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnaesthetist4805(String languageCode) async {
+  Future<void> speakanaesthetist4805(String languageCode) async {
     // DOPSUM: CHANGE speakAnaesthetist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
         "The anaesthetist tried three times to insert the anaesthetic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
   //   await flutterTts.speak("anaesthetist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaesthetist(String languageCode) async {
+  // Future<void> speakanaesthetist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaesthetist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈniːsθətɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnaesthetist("en-GB"),
+                              onPressed: () => speakanaesthetist("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnesθətɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnaesthetist("en-US"),
+                              onPressed: () => speakanaesthetist("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnaesthetist4805("en-GB"),
+                                        speakanaesthetist4805("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnaesthetist4805(
+                                    onPressed: () => speakanaesthetist4805(
                                         // REPLACE: anaesthetist /əˈnesθətɪst/
                                         "en-US"),
                                   ),

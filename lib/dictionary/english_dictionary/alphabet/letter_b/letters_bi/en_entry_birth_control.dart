@@ -19,7 +19,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBirthcontrol(String languageCode) async {
+  Future<void> speakbirthcontrol(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("birth control"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols1(String languageCode) async {
+  Future<void> speakbirthcontrols1(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
         "Today's methods of birth control make it possible for a couple to choose whether or not to have a child."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols2(String languageCode) async {
+  Future<void> speakbirthcontrols2(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("speakBirthcontrols22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols3(String languageCode) async {
+  Future<void> speakbirthcontrols3(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("speakBirthcontrols33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols4(String languageCode) async {
+  Future<void> speakbirthcontrols4(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("speakBirthcontrols44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols5(String languageCode) async {
+  Future<void> speakbirthcontrols5(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("speakBirthcontrols55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols6(String languageCode) async {
+  Future<void> speakbirthcontrols6(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
     await flutterTts.speak("speakBirthcontrols66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthcontrols7(String languageCode) async {
+  Future<void> speakbirthcontrols7(String languageCode) async {
     // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɜːθ kəntrəʊl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBirthcontrol("en-GB"),
+                              onPressed: () => speakbirthcontrol("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbɜːrθ kəntrəʊl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBirthcontrol("en-US"),
+                              onPressed: () => speakbirthcontrol("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybirthcontrol extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBirthcontrols1("en-GB"),
+                                        speakbirthcontrols1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBirthcontrols1("en-US"),
+                                        speakbirthcontrols1("en-US"),
                                   ),
                                 ],
                               ),

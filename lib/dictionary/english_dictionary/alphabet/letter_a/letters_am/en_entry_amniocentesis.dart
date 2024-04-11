@@ -11,7 +11,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   EnglishEntryamniocentesis({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmniocentesis(String languageCode) async {
+  Future<void> speakamniocentesis(String languageCode) async {
     // DOPSUM: CHANGE speakAmniocentesis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
     await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmniocentesis4799(String languageCode) async {
+  Future<void> speakamniocentesis4799(String languageCode) async {
     // DOPSUM: CHANGE speakAmniocentesis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
         "Pregnant women over the age of 35 will be offered (an) amniocentesis."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
   //   await flutterTts.speak("amniocentesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmniocentesis(String languageCode) async {
+  // Future<void> speakamniocentesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmniocentesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmniəʊsenˈtiːsɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmniocentesis("en-GB"),
+                              onPressed: () => speakamniocentesis("en-GB"),
                             ),
                           ],
                         ),
@@ -150,7 +150,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmniəʊsenˈtiːsɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmniocentesis("en-US"),
+                              onPressed: () => speakamniocentesis("en-US"),
                             ),
                           ],
                         ),
@@ -197,10 +197,10 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmniocentesis4799("en-GB"),
+                                        speakamniocentesis4799("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmniocentesis4799(
+                                    onPressed: () => speakamniocentesis4799(
                                         // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryappealing extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppealing(String languageCode) async {
+  Future<void> speakappealing(String languageCode) async {
     // DOPSUM: CHANGE speakAppealing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappealing extends StatelessWidget {
     await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppealing1011(String languageCode) async {
+  Future<void> speakappealing1011(String languageCode) async {
     // DOPSUM: CHANGE speakAppealing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappealing extends StatelessWidget {
         "The large salary made their offer even more appealing to him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppealing1015(String languageCode) async {
+  Future<void> speakappealing1015(String languageCode) async {
     // DOPSUM: CHANGE speakAppealing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappealing extends StatelessWidget {
         "‘Would you really help?’ he said with an appealing look."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappealing extends StatelessWidget {
   //   await flutterTts.speak("appealing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppealing(String languageCode) async {
+  // Future<void> speakappealing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppealing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappealing extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpiːlɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppealing("en-GB"),
+                              onPressed: () => speakappealing("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappealing extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpiːlɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppealing("en-US"),
+                              onPressed: () => speakappealing("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryappealing extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppealing1011("en-GB"),
+                                        speakappealing1011("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppealing1011(
+                                    onPressed: () => speakappealing1011(
                                         // REPLACE: appealing /əˈpiːlɪŋ/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryappealing extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppealing1015("en-GB"),
+                                        speakappealing1015("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppealing1015(
+                                    onPressed: () => speakappealing1015(
                                         // REPLACE: appealing /əˈpiːlɪŋ/
                                         "en-US"),
                                   ),

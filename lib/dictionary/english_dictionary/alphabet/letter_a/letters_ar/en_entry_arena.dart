@@ -17,7 +17,7 @@ class EnglishEntryarena extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArena(String languageCode) async {
+  Future<void> speakarena(String languageCode) async {
     // DOPSUM: CHANGE speakArena
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarena extends StatelessWidget {
     await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArena1042(String languageCode) async {
+  Future<void> speakarena1042(String languageCode) async {
     // DOPSUM: CHANGE speakArena
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarena extends StatelessWidget {
         "The rider has to halt the horse in the arena."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArena1045(String languageCode) async {
+  Future<void> speakarena1045(String languageCode) async {
     // DOPSUM: CHANGE speakArena
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarena extends StatelessWidget {
         "The company has been very successful in the commercial arena."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarena extends StatelessWidget {
   //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarena extends StatelessWidget {
   //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarena extends StatelessWidget {
   //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarena extends StatelessWidget {
   //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarena extends StatelessWidget {
   //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArena(String languageCode) async {
+  // Future<void> speakarena(String languageCode) async {
   //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarena extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈriːnə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArena("en-GB"),
+                              onPressed: () => speakarena("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarena extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈriːnə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArena("en-US"),
+                              onPressed: () => speakarena("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarena extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArena1042("en-GB"),
+                                    onPressed: () => speakarena1042("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArena1042(
+                                    onPressed: () => speakarena1042(
                                         // REPLACE: arena /əˈriːnə/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryarena extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArena1045("en-GB"),
+                                    onPressed: () => speakarena1045("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArena1045(
+                                    onPressed: () => speakarena1045(
                                         // REPLACE: arena /əˈriːnə/
                                         "en-US"),
                                   ),

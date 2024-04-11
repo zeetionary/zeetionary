@@ -19,7 +19,7 @@ class EnglishEntryauthentic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthentic(String languageCode) async {
+  Future<void> speakauthentic(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthentic extends StatelessWidget {
     await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthentic602(String languageCode) async {
+  Future<void> speakauthentic602(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthentic extends StatelessWidget {
         "I don't know if the painting is authentic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthentic610(String languageCode) async {
+  Future<void> speakauthentic610(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthentic extends StatelessWidget {
         "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthentic616(String languageCode) async {
+  Future<void> speakauthentic616(String languageCode) async {
     // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryauthentic extends StatelessWidget {
         "The architect's design for the new building was an authentic reproduction of a 19th-century house."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthentic(String languageCode) async {
+  // Future<void> speakauthentic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryauthentic extends StatelessWidget {
   //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentic(String languageCode) async {
+  // Future<void> speakauthentic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryauthentic extends StatelessWidget {
   //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentic(String languageCode) async {
+  // Future<void> speakauthentic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryauthentic extends StatelessWidget {
   //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentic(String languageCode) async {
+  // Future<void> speakauthentic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryauthentic extends StatelessWidget {
   //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthentic(String languageCode) async {
+  // Future<void> speakauthentic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryauthentic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈθentɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthentic("en-GB"),
+                              onPressed: () => speakauthentic("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryauthentic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈθentɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthentic("en-US"),
+                              onPressed: () => speakauthentic("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryauthentic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthentic602("en-GB"),
+                                    onPressed: () => speakauthentic602("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthentic602(// REPLACE: authentic
+                                        speakauthentic602(// REPLACE: authentic
                                             "en-US"),
                                   ),
                                 ],
@@ -218,11 +218,11 @@ class EnglishEntryauthentic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthentic610("en-GB"),
+                                    onPressed: () => speakauthentic610("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthentic610(// REPLACE: authentic
+                                        speakauthentic610(// REPLACE: authentic
                                             "en-US"),
                                   ),
                                 ],
@@ -251,11 +251,11 @@ class EnglishEntryauthentic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthentic616("en-GB"),
+                                    onPressed: () => speakauthentic616("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthentic616(// REPLACE: authentic
+                                        speakauthentic616(// REPLACE: authentic
                                             "en-US"),
                                   ),
                                 ],

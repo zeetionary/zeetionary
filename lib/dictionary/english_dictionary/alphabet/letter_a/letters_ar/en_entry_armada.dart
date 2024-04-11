@@ -17,7 +17,7 @@ class EnglishEntryarmada extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmada(String languageCode) async {
+  Future<void> speakarmada(String languageCode) async {
     // DOPSUM: CHANGE speakArmada
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmada extends StatelessWidget {
     await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmada423(String languageCode) async {
+  Future<void> speakarmada423(String languageCode) async {
     // DOPSUM: CHANGE speakArmada
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmada extends StatelessWidget {
         "The Spanish Armada was sent to attack England in 1588."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarmada extends StatelessWidget {
   //   await flutterTts.speak("armada"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmada(String languageCode) async {
+  // Future<void> speakarmada(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmada
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarmada extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈmɑːdə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmada("en-GB"),
+                              onPressed: () => speakarmada("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarmada extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈmɑːdə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmada("en-US"),
+                              onPressed: () => speakarmada("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryarmada extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmada423("en-GB"),
+                                    onPressed: () => speakarmada423("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmada423(
+                                    onPressed: () => speakarmada423(
                                         // REPLACE: armada /ɑːrˈmɑːdə/
                                         "en-US"),
                                   ),

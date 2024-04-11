@@ -19,7 +19,7 @@ class EnglishEntryastride extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAstride(String languageCode) async {
+  Future<void> speakastride(String languageCode) async {
     // DOPSUM: CHANGE speakAstride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryastride extends StatelessWidget {
     await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstride351(String languageCode) async {
+  Future<void> speakastride351(String languageCode) async {
     // DOPSUM: CHANGE speakAstride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryastride extends StatelessWidget {
         "She sat proudly astride her new motorbike."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstride352(String languageCode) async {
+  Future<void> speakastride352(String languageCode) async {
     // DOPSUM: CHANGE speakAstride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryastride extends StatelessWidget {
         "The town lies astride (= on either side of) the River Havel."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstride354(String languageCode) async {
+  Future<void> speakastride354(String languageCode) async {
     // DOPSUM: CHANGE speakAstride
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryastride extends StatelessWidget {
         .speak("He stood there, legs astride."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAstride(String languageCode) async {
+  // Future<void> speakastride(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstride
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstride(String languageCode) async {
+  // Future<void> speakastride(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstride
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstride(String languageCode) async {
+  // Future<void> speakastride(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstride
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstride(String languageCode) async {
+  // Future<void> speakastride(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstride
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryastride extends StatelessWidget {
   //   await flutterTts.speak("astride"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstride(String languageCode) async {
+  // Future<void> speakastride(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstride
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryastride extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈstraɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAstride("en-GB"),
+                              onPressed: () => speakastride("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryastride extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈstraɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAstride("en-US"),
+                              onPressed: () => speakastride("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryastride extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstride351("en-GB"),
+                                    onPressed: () => speakastride351("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstride351(// REPLACE: astride
+                                        speakastride351(// REPLACE: astride
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryastride extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstride352("en-GB"),
+                                    onPressed: () => speakastride352("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstride352(// REPLACE: astride
+                                        speakastride352(// REPLACE: astride
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryastride extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstride354("en-GB"),
+                                    onPressed: () => speakastride354("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstride354(// REPLACE: astride
+                                        speakastride354(// REPLACE: astride
                                             "en-US"),
                                   ),
                                 ],

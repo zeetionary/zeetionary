@@ -17,7 +17,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApplaud(String languageCode) async {
+  Future<void> speakapplaud(String languageCode) async {
     // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapplaud extends StatelessWidget {
     await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApplaud517(String languageCode) async {
+  Future<void> speakapplaud517(String languageCode) async {
     // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapplaud extends StatelessWidget {
         "He started to applaud and the others joined in."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApplaud520(String languageCode) async {
+  Future<void> speakapplaud520(String languageCode) async {
     // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapplaud extends StatelessWidget {
         "His efforts to improve the situation are to be applauded."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapplaud extends StatelessWidget {
   //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApplaud(String languageCode) async {
+  // Future<void> speakapplaud(String languageCode) async {
   //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapplaud extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApplaud("en-GB"),
+                              onPressed: () => speakapplaud("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapplaud extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈplɔːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApplaud("en-US"),
+                              onPressed: () => speakapplaud("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryapplaud extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApplaud517("en-GB"),
+                                    onPressed: () => speakapplaud517("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApplaud517(
+                                    onPressed: () => speakapplaud517(
                                         // REPLACE: applaud /əˈplɔːd/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryapplaud extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApplaud520("en-GB"),
+                                    onPressed: () => speakapplaud520("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApplaud520(
+                                    onPressed: () => speakapplaud520(
                                         // REPLACE: applaud /əˈplɔːd/
                                         "en-US"),
                                   ),

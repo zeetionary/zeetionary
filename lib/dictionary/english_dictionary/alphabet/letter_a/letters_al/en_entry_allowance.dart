@@ -11,7 +11,7 @@ class EnglishEntryallowance extends StatelessWidget {
   EnglishEntryallowance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllowance(String languageCode) async {
+  Future<void> speakallowance(String languageCode) async {
     // DOPSUM: CHANGE speakAllowance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallowance extends StatelessWidget {
     await flutterTts.speak("allowance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllowance1298(String languageCode) async {
+  Future<void> speakallowance1298(String languageCode) async {
     // DOPSUM: CHANGE speakAllowance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallowance extends StatelessWidget {
         .speak("Do you get an allowance for clothing?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllowance4251(String languageCode) async {
+  Future<void> speakallowance4251(String languageCode) async {
     // DOPSUM: CHANGE speakAllowance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallowance extends StatelessWidget {
         "The weekly allowance for each child is £15."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllowance12963(String languageCode) async {
+  Future<void> speakallowance12963(String languageCode) async {
     // DOPSUM: CHANGE speakAllowance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryallowance extends StatelessWidget {
         "The recommended daily allowance of vitamin C is 60–90 milligrams."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllowance(String languageCode) async {
+  // Future<void> speakallowance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllowance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryallowance extends StatelessWidget {
   //   await flutterTts.speak("allowance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllowance(String languageCode) async {
+  // Future<void> speakallowance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllowance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryallowance extends StatelessWidget {
   //   await flutterTts.speak("allowance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllowance(String languageCode) async {
+  // Future<void> speakallowance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllowance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaʊəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllowance("en-GB"),
+                              onPressed: () => speakallowance("en-GB"),
                             ),
                           ],
                         ),
@@ -109,7 +109,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaʊəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllowance("en-US"),
+                              onPressed: () => speakallowance("en-US"),
                             ),
                           ],
                         ),
@@ -160,10 +160,10 @@ class EnglishEntryallowance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllowance1298("en-GB"),
+                                        speakallowance1298("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllowance1298(
+                                    onPressed: () => speakallowance1298(
                                         // REPLACE: allowance /əˈlaʊəns/
                                         "en-US"),
                                   ),
@@ -191,10 +191,10 @@ class EnglishEntryallowance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllowance4251("en-GB"),
+                                        speakallowance4251("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllowance4251(
+                                    onPressed: () => speakallowance4251(
                                         // REPLACE: allowance /əˈlaʊəns/
                                         "en-US"),
                                   ),
@@ -224,10 +224,10 @@ class EnglishEntryallowance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllowance12963("en-GB"),
+                                        speakallowance12963("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllowance12963(
+                                    onPressed: () => speakallowance12963(
                                         // REPLACE: allowance /əˈlaʊəns/
                                         "en-US"),
                                   ),

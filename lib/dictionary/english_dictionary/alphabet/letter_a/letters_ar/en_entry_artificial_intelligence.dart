@@ -19,7 +19,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtificialintelligence(String languageCode) async {
+  Future<void> speakartificialintelligence(String languageCode) async {
     // DOPSUM: CHANGE speakArtificialintelligence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
     await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificialintelligence927(String languageCode) async {
+  Future<void> speakartificialintelligence927(String languageCode) async {
     // DOPSUM: CHANGE speakArtificialintelligence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
         "Language is crucial to the development of artificial intelligence."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   //   await flutterTts.speak("artificial intelligence"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialintelligence(String languageCode) async {
+  // Future<void> speakartificialintelligence(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialintelligence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                     "IpaUK: /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () =>
-                                  speakArtificialintelligence("en-GB"),
+                                  speakartificialintelligence("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                     "IpaUS: /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () =>
-                                  speakArtificialintelligence("en-US"),
+                                  speakartificialintelligence("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtificialintelligence927("en-GB"),
+                                        speakartificialintelligence927("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificialintelligence927(
+                                    onPressed: () => speakartificialintelligence927(
                                         // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
                                         "en-US"),
                                   ),

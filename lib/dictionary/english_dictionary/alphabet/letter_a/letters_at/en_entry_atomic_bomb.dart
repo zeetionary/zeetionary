@@ -19,7 +19,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtomicbomb(String languageCode) async {
+  Future<void> speakatomicbomb(String languageCode) async {
     // DOPSUM: CHANGE speakAtomicbomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
     await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomicbomb1236(String languageCode) async {
+  Future<void> speakatomicbomb1236(String languageCode) async {
     // DOPSUM: CHANGE speakAtomicbomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
         "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   //   await flutterTts.speak("atomic bomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomicbomb(String languageCode) async {
+  // Future<void> speakatomicbomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomicbomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌtɒmɪk ˈbɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtomicbomb("en-GB"),
+                              onPressed: () => speakatomicbomb("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌtɑːmɪk ˈbɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtomicbomb("en-US"),
+                              onPressed: () => speakatomicbomb("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtomicbomb1236("en-GB"),
+                                        speakatomicbomb1236("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtomicbomb1236(
+                                    onPressed: () => speakatomicbomb1236(
                                         // REPLACE: atomic bomb
                                         "en-US"),
                                   ),

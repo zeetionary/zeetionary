@@ -11,7 +11,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
   EnglishEntryalzheimersdisease({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlzheimersdisease(String languageCode) async {
+  Future<void> speakalzheimersdisease(String languageCode) async {
     // DOPSUM: CHANGE speakAlzheimersdisease
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
     await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlzheimersdisease6555(String languageCode) async {
+  Future<void> speakalzheimersdisease6555(String languageCode) async {
     // DOPSUM: CHANGE speakAlzheimersdisease
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
         "The most common form of dementia is Alzheimer's disease."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
+  // Future<void> speakalzheimersdisease(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlzheimersdisease
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
   //   await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
+  // Future<void> speakalzheimersdisease(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlzheimersdisease
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlzheimersdisease("en-GB"),
+                              onPressed: () => speakalzheimersdisease("en-GB"),
                             ),
                           ],
                         ),
@@ -86,7 +86,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːltshaɪmərz dɪziːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlzheimersdisease("en-US"),
+                              onPressed: () => speakalzheimersdisease("en-US"),
                             ),
                           ],
                         ),
@@ -138,10 +138,10 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlzheimersdisease6555("en-GB"),
+                                        speakalzheimersdisease6555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlzheimersdisease6555(
+                                    onPressed: () => speakalzheimersdisease6555(
                                         // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalleluia extends StatelessWidget {
   EnglishEntryalleluia({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlleluia(String languageCode) async {
+  Future<void> speakalleluia(String languageCode) async {
     // DOPSUM: CHANGE speakAlleluia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalleluia extends StatelessWidget {
     await flutterTts.speak("alleluia"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlleluia35288(String languageCode) async {
+  Future<void> speakalleluia35288(String languageCode) async {
     // DOPSUM: CHANGE speakAlleluia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalleluia extends StatelessWidget {
         "When the news of their victory came, there was an 'alleluia' of happiness among the team."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlleluia(String languageCode) async {
+  // Future<void> speakalleluia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlleluia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalleluia extends StatelessWidget {
   //   await flutterTts.speak("alleluia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlleluia(String languageCode) async {
+  // Future<void> speakalleluia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlleluia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌælɪˈluːjə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlleluia("en-GB"),
+                              onPressed: () => speakalleluia("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌælɪˈluːjə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlleluia("en-US"),
+                              onPressed: () => speakalleluia("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlleluia35288("en-GB"),
+                                        speakalleluia35288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlleluia35288(
+                                    onPressed: () => speakalleluia35288(
                                         // REPLACE: alleluia /ˌælɪˈluːjə/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryammonia extends StatelessWidget {
   EnglishEntryammonia({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmmonia(String languageCode) async {
+  Future<void> speakammonia(String languageCode) async {
     // DOPSUM: CHANGE speakAmmonia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryammonia extends StatelessWidget {
     await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmmonia74555(String languageCode) async {
+  Future<void> speakammonia74555(String languageCode) async {
     // DOPSUM: CHANGE speakAmmonia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryammonia extends StatelessWidget {
         "It is dangerous to inhale ammonia fumes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryammonia extends StatelessWidget {
   //   await flutterTts.speak("ammonia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmonia(String languageCode) async {
+  // Future<void> speakammonia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmonia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈməʊniə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmmonia("en-GB"),
+                              onPressed: () => speakammonia("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈməʊniə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmmonia("en-US"),
+                              onPressed: () => speakammonia("en-US"),
                             ),
                           ],
                         ),
@@ -199,10 +199,10 @@ class EnglishEntryammonia extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmmonia74555("en-GB"),
+                                    onPressed: () => speakammonia74555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmmonia74555(
+                                    onPressed: () => speakammonia74555(
                                         // REPLACE: ammonia /əˈməʊniə/
                                         "en-US"),
                                   ),

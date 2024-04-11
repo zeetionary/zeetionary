@@ -19,7 +19,7 @@ class EnglishEntrybale extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBale(String languageCode) async {
+  Future<void> speakbale(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybale extends StatelessWidget {
     await flutterTts.speak("bale"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales1(String languageCode) async {
+  Future<void> speakbales1(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybale extends StatelessWidget {
         .speak("The fire destroyed 500 bales of hay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales2(String languageCode) async {
+  Future<void> speakbales2(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybale extends StatelessWidget {
         "The waste paper is baled, then sent for recycling."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales3(String languageCode) async {
+  Future<void> speakbales3(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybale extends StatelessWidget {
         "She was yesterday baled for three weeks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales4(String languageCode) async {
+  Future<void> speakbales4(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybale extends StatelessWidget {
     await flutterTts.speak("speakBales44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales5(String languageCode) async {
+  Future<void> speakbales5(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybale extends StatelessWidget {
     await flutterTts.speak("speakBales55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales6(String languageCode) async {
+  Future<void> speakbales6(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybale extends StatelessWidget {
     await flutterTts.speak("speakBales66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBales7(String languageCode) async {
+  Future<void> speakbales7(String languageCode) async {
     // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybale extends StatelessWidget {
                                 text:
                                     "IpaUK: /beɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBale("en-GB"),
+                              onPressed: () => speakbale("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntrybale extends StatelessWidget {
                                 text:
                                     "IpaUS: /beɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBale("en-US"),
+                              onPressed: () => speakbale("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybale extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBales1("en-GB"),
+                                    onPressed: () => speakbales1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBales1(// REPLACE: bale
+                                        speakbales1(// REPLACE: bale
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybale extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBales2("en-GB"),
+                                    onPressed: () => speakbales2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBales2(// REPLACE: bale
+                                        speakbales2(// REPLACE: bale
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybale extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBales3("en-GB"),
+                                    onPressed: () => speakbales3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBales3(// REPLACE: bale
+                                        speakbales3(// REPLACE: bale
                                             "en-US"),
                                   ),
                                 ],

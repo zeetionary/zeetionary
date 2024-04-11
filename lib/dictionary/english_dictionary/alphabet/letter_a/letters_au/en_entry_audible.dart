@@ -19,7 +19,7 @@ class EnglishEntryaudible extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAudible(String languageCode) async {
+  Future<void> speakaudible(String languageCode) async {
     // DOPSUM: CHANGE speakAudible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaudible extends StatelessWidget {
     await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAudible1255(String languageCode) async {
+  Future<void> speakaudible1255(String languageCode) async {
     // DOPSUM: CHANGE speakAudible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaudible extends StatelessWidget {
         "Her voice was barely audible above the noise."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaudible extends StatelessWidget {
   //   await flutterTts.speak("audible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAudible(String languageCode) async {
+  // Future<void> speakaudible(String languageCode) async {
   //   // DOPSUM: CHANGE speakAudible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryaudible extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːdəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAudible("en-GB"),
+                              onPressed: () => speakaudible("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryaudible extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːdəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAudible("en-US"),
+                              onPressed: () => speakaudible("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryaudible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAudible1255("en-GB"),
+                                    onPressed: () => speakaudible1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAudible1255(// REPLACE: audible
+                                        speakaudible1255(// REPLACE: audible
                                             "en-US"),
                                   ),
                                 ],

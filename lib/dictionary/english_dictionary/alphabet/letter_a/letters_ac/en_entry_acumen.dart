@@ -11,7 +11,7 @@ class EnglishEntryacumen extends StatelessWidget {
   EnglishEntryacumen({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcumen(String languageCode) async {
+  Future<void> speakacumen(String languageCode) async {
     // DOPSUM: CHANGE speakAcumen
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacumen extends StatelessWidget {
     await flutterTts.speak("acumen"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcum527(String languageCode) async {
+  Future<void> speakacum527(String languageCode) async {
     // DOPSUM: CHANGE speakAcumen
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacumen extends StatelessWidget {
         "He had demonstrated considerable business acumen."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcumen(String languageCode) async {
+  // Future<void> speakacumen(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcumen
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacumen extends StatelessWidget {
   //   await flutterTts.speak("acumen"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcumen(String languageCode) async {
+  // Future<void> speakacumen(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcumen
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacumen extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækjəmən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcumen("en-GB"),
+                              onPressed: () => speakacumen("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacumen extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjəmən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcumen("en-US"),
+                              onPressed: () => speakacumen("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryacumen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcum527("en-GB"),
+                                    onPressed: () => speakacum527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcum527(
+                                    onPressed: () => speakacum527(
                                         // REPLACE: acumen /ˈækjəmən/
                                         "en-US"),
                                   ),

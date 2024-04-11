@@ -17,7 +17,7 @@ class EnglishEntryarchaic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchaic(String languageCode) async {
+  Future<void> speakarchaic(String languageCode) async {
     // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchaic extends StatelessWidget {
     await flutterTts.speak("archaic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchaic300(String languageCode) async {
+  Future<void> speakarchaic300(String languageCode) async {
     // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchaic extends StatelessWidget {
         "‘Thou art’ is an archaic form of ‘you are’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchaic302(String languageCode) async {
+  Future<void> speakarchaic302(String languageCode) async {
     // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarchaic extends StatelessWidget {
         "The system is archaic and unfair and needs changing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchaic304(String languageCode) async {
+  Future<void> speakarchaic304(String languageCode) async {
     // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarchaic extends StatelessWidget {
         .speak("Many museums showcase archaic art."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchaic(String languageCode) async {
+  // Future<void> speakarchaic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarchaic extends StatelessWidget {
   //   await flutterTts.speak("archaic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaic(String languageCode) async {
+  // Future<void> speakarchaic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarchaic extends StatelessWidget {
   //   await flutterTts.speak("archaic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaic(String languageCode) async {
+  // Future<void> speakarchaic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarchaic extends StatelessWidget {
   //   await flutterTts.speak("archaic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaic(String languageCode) async {
+  // Future<void> speakarchaic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarchaic extends StatelessWidget {
   //   await flutterTts.speak("archaic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaic(String languageCode) async {
+  // Future<void> speakarchaic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈkeɪɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchaic("en-GB"),
+                              onPressed: () => speakarchaic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈkeɪɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchaic("en-US"),
+                              onPressed: () => speakarchaic("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarchaic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchaic300("en-GB"),
+                                    onPressed: () => speakarchaic300("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchaic300(
+                                    onPressed: () => speakarchaic300(
                                         // REPLACE: archaic /ɑːrˈkeɪɪk/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryarchaic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchaic302("en-GB"),
+                                    onPressed: () => speakarchaic302("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchaic302(
+                                    onPressed: () => speakarchaic302(
                                         // REPLACE: archaic /ɑːrˈkeɪɪk/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryarchaic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchaic304("en-GB"),
+                                    onPressed: () => speakarchaic304("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchaic304(
+                                    onPressed: () => speakarchaic304(
                                         // REPLACE: archaic /ɑːrˈkeɪɪk/
                                         "en-US"),
                                   ),

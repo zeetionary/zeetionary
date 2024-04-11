@@ -11,7 +11,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
   EnglishEntryaerobatics({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAerobatics(String languageCode) async {
+  Future<void> speakaerobatics(String languageCode) async {
     // DOPSUM: CHANGE speakAerobatics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
     await flutterTts.speak("aerobatics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAeroba35699(String languageCode) async {
+  Future<void> speakaeroba35699(String languageCode) async {
     // DOPSUM: CHANGE speakAerobatics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
         "The crowd was entertained with a display of aerobatics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAerobatics(String languageCode) async {
+  // Future<void> speakaerobatics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAerobatics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
   //   await flutterTts.speak("aerobatics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAerobatics(String languageCode) async {
+  // Future<void> speakaerobatics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAerobatics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌeərəˈbætɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAerobatics("en-GB"),
+                              onPressed: () => speakaerobatics("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌerəˈbætɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerobatics("en-US"),
+                              onPressed: () => speakaerobatics("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryaerobatics extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAeroba35699("en-GB"),
+                                    onPressed: () => speakaeroba35699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAeroba35699(
+                                    onPressed: () => speakaeroba35699(
                                         // REPLACE: aerobatics /ˌerəˈbætɪks/
                                         "en-US"),
                                   ),

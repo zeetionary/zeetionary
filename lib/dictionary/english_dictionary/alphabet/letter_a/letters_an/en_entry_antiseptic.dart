@@ -15,7 +15,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntiseptic(String languageCode) async {
+  Future<void> speakantiseptic(String languageCode) async {
     // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
     await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiseptic1218(String languageCode) async {
+  Future<void> speakantiseptic1218(String languageCode) async {
     // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
         .speak("Dab the graze with antiseptic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiseptic1221(String languageCode) async {
+  Future<void> speakantiseptic1221(String languageCode) async {
     // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
         "Use antiseptic to clean and dress cuts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiseptic1225(String languageCode) async {
+  Future<void> speakantiseptic1225(String languageCode) async {
     // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
         "When you get a little cut, you can use antiseptic cream."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiseptic1228(String languageCode) async {
+  Future<void> speakantiseptic1228(String languageCode) async {
     // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
         "Cover the burn with an antiseptic dressing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntiseptic(String languageCode) async {
+  // Future<void> speakantiseptic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiseptic(String languageCode) async {
+  // Future<void> speakantiseptic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiseptic(String languageCode) async {
+  // Future<void> speakantiseptic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
   //   await flutterTts.speak("antiseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiseptic(String languageCode) async {
+  // Future<void> speakantiseptic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈseptɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiseptic("en-GB"),
+                              onPressed: () => speakantiseptic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈseptɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiseptic("en-US"),
+                              onPressed: () => speakantiseptic("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiseptic1218("en-GB"),
+                                        speakantiseptic1218("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiseptic1218(
+                                    onPressed: () => speakantiseptic1218(
                                         // REPLACE: antiseptic /ˌæntiˈseptɪk/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiseptic1221("en-GB"),
+                                        speakantiseptic1221("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiseptic1221(
+                                    onPressed: () => speakantiseptic1221(
                                         // REPLACE: antiseptic /ˌæntiˈseptɪk/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiseptic1225("en-GB"),
+                                        speakantiseptic1225("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiseptic1225(
+                                    onPressed: () => speakantiseptic1225(
                                         // REPLACE: antiseptic /ˌæntiˈseptɪk/
                                         "en-US"),
                                   ),
@@ -282,10 +282,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiseptic1228("en-GB"),
+                                        speakantiseptic1228("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiseptic1228(
+                                    onPressed: () => speakantiseptic1228(
                                         // REPLACE: antiseptic /ˌæntiˈseptɪk/
                                         "en-US"),
                                   ),

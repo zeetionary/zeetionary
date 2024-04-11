@@ -11,7 +11,7 @@ class EnglishEntryaccrue extends StatelessWidget {
   EnglishEntryaccrue({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccrue(String languageCode) async {
+  Future<void> speakaccrue(String languageCode) async {
     // DOPSUM: CHANGE speakAccrue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkruː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccrue("en-GB"),
+                              onPressed: () => speakaccrue("en-GB"),
                             ),
                           ],
                         ),
@@ -57,7 +57,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkruː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccrue("en-US"),
+                              onPressed: () => speakaccrue("en-US"),
                             ),
                           ],
                         ),
@@ -103,10 +103,10 @@ class EnglishEntryaccrue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAccrue("en-GB"),
+                                    onPressed: () => speakaccrue("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAccrue("en-US"),
+                                    onPressed: () => speakaccrue("en-US"),
                                   ),
                                 ],
                               ),

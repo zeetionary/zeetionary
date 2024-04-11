@@ -15,7 +15,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntisocial(String languageCode) async {
+  Future<void> speakantisocial(String languageCode) async {
     // DOPSUM: CHANGE speakAntisocial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantisocial extends StatelessWidget {
     await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntisocial1238(String languageCode) async {
+  Future<void> speakantisocial1238(String languageCode) async {
     // DOPSUM: CHANGE speakAntisocial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantisocial extends StatelessWidget {
         "Increasingly, smoking is regarded as an antisocial habit."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntisocial1240(String languageCode) async {
+  Future<void> speakantisocial1240(String languageCode) async {
     // DOPSUM: CHANGE speakAntisocial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryantisocial extends StatelessWidget {
         "They'll think you're being antisocial if you don't go."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   //   await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   //   await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   //   await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   //   await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryantisocial extends StatelessWidget {
   //   await flutterTts.speak("antisocial"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntisocial(String languageCode) async {
+  // Future<void> speakantisocial(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntisocial
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈsəʊʃl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntisocial("en-GB"),
+                              onPressed: () => speakantisocial("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntisocial("en-US"),
+                              onPressed: () => speakantisocial("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntisocial1238("en-GB"),
+                                        speakantisocial1238("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntisocial1238(
+                                    onPressed: () => speakantisocial1238(
                                         // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntisocial1240("en-GB"),
+                                        speakantisocial1240("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntisocial1240(
+                                    onPressed: () => speakantisocial1240(
                                         // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
                                         "en-US"),
                                   ),

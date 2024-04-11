@@ -19,7 +19,7 @@ class EnglishEntryausterely extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAusterely(String languageCode) async {
+  Future<void> speakausterely(String languageCode) async {
     // DOPSUM: CHANGE speakAusterely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryausterely extends StatelessWidget {
     await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterely506(String languageCode) async {
+  Future<void> speakausterely506(String languageCode) async {
     // DOPSUM: CHANGE speakAusterely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryausterely extends StatelessWidget {
         "Her dress was simple and austerely elegant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterely509(String languageCode) async {
+  Future<void> speakausterely509(String languageCode) async {
     // DOPSUM: CHANGE speakAusterely
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryausterely extends StatelessWidget {
         "She lived austerely and in constant prayer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryausterely extends StatelessWidget {
   //   await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryausterely extends StatelessWidget {
   //   await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryausterely extends StatelessWidget {
   //   await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryausterely extends StatelessWidget {
   //   await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryausterely extends StatelessWidget {
   //   await flutterTts.speak("austerely"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterely(String languageCode) async {
+  // Future<void> speakausterely(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterely
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryausterely extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɒˈstɪəli/, /ɔːˈstɪəli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAusterely("en-GB"),
+                              onPressed: () => speakausterely("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryausterely extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈstɪrli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAusterely("en-US"),
+                              onPressed: () => speakausterely("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryausterely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterely506("en-GB"),
+                                    onPressed: () => speakausterely506("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterely506(// REPLACE: austerely
+                                        speakausterely506(// REPLACE: austerely
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryausterely extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterely509("en-GB"),
+                                    onPressed: () => speakausterely509("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterely509(// REPLACE: austerely
+                                        speakausterely509(// REPLACE: austerely
                                             "en-US"),
                                   ),
                                 ],

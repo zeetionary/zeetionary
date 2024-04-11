@@ -17,7 +17,7 @@ class EnglishEntryarguably extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArguably(String languageCode) async {
+  Future<void> speakarguably(String languageCode) async {
     // DOPSUM: CHANGE speakArguably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarguably extends StatelessWidget {
     await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArguably1020(String languageCode) async {
+  Future<void> speakarguably1020(String languageCode) async {
     // DOPSUM: CHANGE speakArguably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarguably extends StatelessWidget {
         "He is arguably the best actor of his generation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarguably extends StatelessWidget {
   //   await flutterTts.speak("arguably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguably(String languageCode) async {
+  // Future<void> speakarguably(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarguably extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːɡjuəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArguably("en-GB"),
+                              onPressed: () => speakarguably("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarguably extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrɡjuəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArguably("en-US"),
+                              onPressed: () => speakarguably("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarguably extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArguably1020("en-GB"),
+                                    onPressed: () => speakarguably1020("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArguably1020(
+                                    onPressed: () => speakarguably1020(
                                         // REPLACE: arguably /ˈɑːrɡjuəbli/
                                         "en-US"),
                                   ),

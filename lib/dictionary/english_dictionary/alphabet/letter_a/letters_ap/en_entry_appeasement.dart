@@ -17,7 +17,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppeasement(String languageCode) async {
+  Future<void> speakappeasement(String languageCode) async {
     // DOPSUM: CHANGE speakAppeasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappeasement extends StatelessWidget {
     await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeasement1238(String languageCode) async {
+  Future<void> speakappeasement1238(String languageCode) async {
     // DOPSUM: CHANGE speakAppeasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappeasement extends StatelessWidget {
         "When he agreed to talks with the prime minister, he was accused of appeasement."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeasement1242(String languageCode) async {
+  Future<void> speakappeasement1242(String languageCode) async {
     // DOPSUM: CHANGE speakAppeasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappeasement extends StatelessWidget {
         "The statues were devoted to the glory and appeasement of the gods."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappeasement extends StatelessWidget {
   //   await flutterTts.speak("appeasement"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppeasement(String languageCode) async {
+  // Future<void> speakappeasement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeasement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryappeasement extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpiːzmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppeasement("en-GB"),
+                              onPressed: () => speakappeasement("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryappeasement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpiːzmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppeasement("en-US"),
+                              onPressed: () => speakappeasement("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryappeasement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeasement("en-GB"),
+                                    onPressed: () => speakappeasement("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeasement(
+                                    onPressed: () => speakappeasement(
                                         // REPLACE: appeasement /əˈpiːzmənt/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryappeasement extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppeasement1242("en-GB"),
+                                        speakappeasement1242("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeasement1242(
+                                    onPressed: () => speakappeasement1242(
                                         // REPLACE: appeasement /əˈpiːzmənt/
                                         "en-US"),
                                   ),

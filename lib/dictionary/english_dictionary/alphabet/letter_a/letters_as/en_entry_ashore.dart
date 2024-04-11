@@ -19,7 +19,7 @@ class EnglishEntryashore extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAshore(String languageCode) async {
+  Future<void> speakashore(String languageCode) async {
     // DOPSUM: CHANGE speakAshore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryashore extends StatelessWidget {
     await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshore607(String languageCode) async {
+  Future<void> speakashore607(String languageCode) async {
     // DOPSUM: CHANGE speakAshore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryashore extends StatelessWidget {
     await flutterTts.speak("We swam ashore."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshore609(String languageCode) async {
+  Future<void> speakashore609(String languageCode) async {
     // DOPSUM: CHANGE speakAshore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryashore extends StatelessWidget {
         "A few pieces of wood had washed ashore."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryashore extends StatelessWidget {
   //   await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryashore extends StatelessWidget {
   //   await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryashore extends StatelessWidget {
   //   await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryashore extends StatelessWidget {
   //   await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryashore extends StatelessWidget {
   //   await flutterTts.speak("ashore"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshore(String languageCode) async {
+  // Future<void> speakashore(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshore
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryashore extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAshore("en-GB"),
+                              onPressed: () => speakashore("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryashore extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃɔːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshore("en-US"),
+                              onPressed: () => speakashore("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryashore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshore607("en-GB"),
+                                    onPressed: () => speakashore607("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshore607(
+                                    onPressed: () => speakashore607(
                                         // REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryashore extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshore609("en-GB"),
+                                    onPressed: () => speakashore609("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshore609(
+                                    onPressed: () => speakashore609(
                                         // REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),
                                   ),

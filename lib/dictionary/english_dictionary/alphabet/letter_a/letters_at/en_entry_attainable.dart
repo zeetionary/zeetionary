@@ -19,7 +19,7 @@ class EnglishEntryattainable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttainable(String languageCode) async {
+  Future<void> speakattainable(String languageCode) async {
     // DOPSUM: CHANGE speakAttainable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattainable extends StatelessWidget {
     await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttainable715(String languageCode) async {
+  Future<void> speakattainable715(String languageCode) async {
     // DOPSUM: CHANGE speakAttainable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattainable extends StatelessWidget {
         "This standard is easily attainable by most students."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryattainable extends StatelessWidget {
   //   await flutterTts.speak("attainable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainable(String languageCode) async {
+  // Future<void> speakattainable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattainable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈteɪnəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttainable("en-GB"),
+                              onPressed: () => speakattainable("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattainable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈteɪnəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttainable("en-US"),
+                              onPressed: () => speakattainable("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryattainable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttainable715("en-GB"),
+                                        speakattainable715("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttainable715(
+                                    onPressed: () => speakattainable715(
                                         // REPLACE: attainable
                                         "en-US"),
                                   ),

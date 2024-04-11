@@ -11,7 +11,7 @@ class EnglishEntryaccessible extends StatelessWidget {
   EnglishEntryaccessible({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccessible(String languageCode) async {
+  Future<void> speakaccessible(String languageCode) async {
     // DOPSUM: CHANGE speakAccessible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccessible extends StatelessWidget {
     await flutterTts.speak("accessible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2114(String languageCode) async {
+  Future<void> speaka2114(String languageCode) async {
     // DOPSUM: CHANGE speakAccessible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccessible extends StatelessWidget {
         "The beach should be accessible to everyone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcc21587(String languageCode) async {
+  Future<void> speakacc21587(String languageCode) async {
     // DOPSUM: CHANGE speakAccessible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccessible extends StatelessWidget {
         .speak("Her poetry is always very accessible."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA21598(String languageCode) async {
+  Future<void> speaka21598(String languageCode) async {
     // DOPSUM: CHANGE speakAccessible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˈsesəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccessible("en-GB"),
+                              onPressed: () => speakaccessible("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˈsesəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccessible("en-US"),
+                              onPressed: () => speakaccessible("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA21598("en-GB"),
+                                    onPressed: () => speaka21598("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA21598("en-US"),
+                                    onPressed: () => speaka21598("en-US"),
                                   ),
                                 ],
                               ),
@@ -166,10 +166,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2114("en-GB"),
+                                    onPressed: () => speaka2114("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2114("en-US"),
+                                    onPressed: () => speaka2114("en-US"),
                                   ),
                                 ],
                               ),
@@ -195,10 +195,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcc21587("en-GB"),
+                                    onPressed: () => speakacc21587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcc21587("en-US"),
+                                    onPressed: () => speakacc21587("en-US"),
                                   ),
                                 ],
                               ),

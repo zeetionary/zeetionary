@@ -17,7 +17,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchipelago(String languageCode) async {
+  Future<void> speakarchipelago(String languageCode) async {
     // DOPSUM: CHANGE speakArchipelago
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
     await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchipelago400(String languageCode) async {
+  Future<void> speakarchipelago400(String languageCode) async {
     // DOPSUM: CHANGE speakArchipelago
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
         "The Hawaiian archipelago is famous for its unique volcanic landscapes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
   //   await flutterTts.speak("archipelago"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchipelago(String languageCode) async {
+  // Future<void> speakarchipelago(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchipelago
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkɪˈpeləɡəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchipelago("en-GB"),
+                              onPressed: () => speakarchipelago("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkɪˈpeləɡəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchipelago("en-US"),
+                              onPressed: () => speakarchipelago("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArchipelago400("en-GB"),
+                                        speakarchipelago400("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchipelago400(
+                                    onPressed: () => speakarchipelago400(
                                         // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
                                         "en-US"),
                                   ),

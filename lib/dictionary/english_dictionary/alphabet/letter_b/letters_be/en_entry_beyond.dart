@@ -19,7 +19,7 @@ class EnglishEntrybeyond extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeyond(String languageCode) async {
+  Future<void> speakbeyond(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.speak("beyond"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds1(String languageCode) async {
+  Future<void> speakbeyonds1(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "The road continues beyond the village up into the hills."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds2(String languageCode) async {
+  Future<void> speakbeyonds2(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "In the distance, beyond the river, was a small town."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds3(String languageCode) async {
+  Future<void> speakbeyonds3(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "Our success was far beyond what we thought possible."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds4(String languageCode) async {
+  Future<void> speakbeyonds4(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "I know what I'll be doing for the next three weeks but I haven't thought beyond that."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds5(String languageCode) async {
+  Future<void> speakbeyonds5(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         .speak("The situation is beyond our control."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds6(String languageCode) async {
+  Future<void> speakbeyonds6(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         .speak("The bicycle was beyond repair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds7(String languageCode) async {
+  Future<void> speakbeyonds7(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "The exercise was beyond the abilities of most of the class."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds8(String languageCode) async {
+  Future<void> speakbeyonds8(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "The immediate future is clear, but it's hard to tell what lies beyond."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds9(String languageCode) async {
+  Future<void> speakbeyonds9(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybeyond extends StatelessWidget {
         "Everest and the mountains beyond were covered in snow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds10(String languageCode) async {
+  Future<void> speakbeyonds10(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.speak("speakBeyonds1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds11(String languageCode) async {
+  Future<void> speakbeyonds11(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntrybeyond extends StatelessWidget {
     await flutterTts.speak("speakBeyonds1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeyonds12(String languageCode) async {
+  Future<void> speakbeyonds12(String languageCode) async {
     // DOPSUM: CHANGE speakBeyond
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -159,7 +159,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈjɒnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeyond("en-GB"),
+                              onPressed: () => speakbeyond("en-GB"),
                             ),
                           ],
                         ),
@@ -167,7 +167,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈjɑːnd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeyond("en-US"),
+                              onPressed: () => speakbeyond("en-US"),
                             ),
                           ],
                         ),
@@ -217,10 +217,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds1("en-GB"),
+                                    onPressed: () => speakbeyonds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds1("en-US"),
+                                    onPressed: () => speakbeyonds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -246,10 +246,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds2("en-GB"),
+                                    onPressed: () => speakbeyonds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds2("en-US"),
+                                    onPressed: () => speakbeyonds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -277,10 +277,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds3("en-GB"),
+                                    onPressed: () => speakbeyonds3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds3("en-US"),
+                                    onPressed: () => speakbeyonds3("en-US"),
                                   ),
                                 ],
                               ),
@@ -308,10 +308,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds4("en-GB"),
+                                    onPressed: () => speakbeyonds4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds4("en-US"),
+                                    onPressed: () => speakbeyonds4("en-US"),
                                   ),
                                 ],
                               ),
@@ -339,10 +339,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds5("en-GB"),
+                                    onPressed: () => speakbeyonds5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds5("en-US"),
+                                    onPressed: () => speakbeyonds5("en-US"),
                                   ),
                                 ],
                               ),
@@ -368,10 +368,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds6("en-GB"),
+                                    onPressed: () => speakbeyonds6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds6("en-US"),
+                                    onPressed: () => speakbeyonds6("en-US"),
                                   ),
                                 ],
                               ),
@@ -399,10 +399,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds7("en-GB"),
+                                    onPressed: () => speakbeyonds7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds7("en-US"),
+                                    onPressed: () => speakbeyonds7("en-US"),
                                   ),
                                 ],
                               ),
@@ -430,10 +430,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds8("en-GB"),
+                                    onPressed: () => speakbeyonds8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds8("en-US"),
+                                    onPressed: () => speakbeyonds8("en-US"),
                                   ),
                                 ],
                               ),
@@ -459,10 +459,10 @@ class EnglishEntrybeyond extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeyonds9("en-GB"),
+                                    onPressed: () => speakbeyonds9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeyonds9("en-US"),
+                                    onPressed: () => speakbeyonds9("en-US"),
                                   ),
                                 ],
                               ),

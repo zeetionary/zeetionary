@@ -11,7 +11,7 @@ class EnglishEntryallocate extends StatelessWidget {
   EnglishEntryallocate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllocate(String languageCode) async {
+  Future<void> speakallocate(String languageCode) async {
     // DOPSUM: CHANGE speakAllocate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallocate extends StatelessWidget {
     await flutterTts.speak("allocate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllocate4528(String languageCode) async {
+  Future<void> speakallocate4528(String languageCode) async {
     // DOPSUM: CHANGE speakAllocate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallocate extends StatelessWidget {
         " A large sum has been allocated for buying new books for the library."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllocate412(String languageCode) async {
+  Future<void> speakallocate412(String languageCode) async {
     // DOPSUM: CHANGE speakAllocate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallocate extends StatelessWidget {
         "More money should be allocated for famine relief."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllocate(String languageCode) async {
+  // Future<void> speakallocate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllocate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæləkeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllocate("en-GB"),
+                              onPressed: () => speakallocate("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæləkeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllocate("en-US"),
+                              onPressed: () => speakallocate("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryallocate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllocate4528("en-GB"),
+                                    onPressed: () => speakallocate4528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllocate4528(
+                                    onPressed: () => speakallocate4528(
                                         // REPLACE: allocate /ˈæləkeɪt/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryallocate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllocate412("en-GB"),
+                                    onPressed: () => speakallocate412("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllocate412(
+                                    onPressed: () => speakallocate412(
                                         // REPLACE: allocate /ˈæləkeɪt/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalike extends StatelessWidget {
   EnglishEntryalike({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlike(String languageCode) async {
+  Future<void> speakalike(String languageCode) async {
     // DOPSUM: CHANGE speakAlike
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalike extends StatelessWidget {
     await flutterTts.speak("alike"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlike76522(String languageCode) async {
+  Future<void> speakalike76522(String languageCode) async {
     // DOPSUM: CHANGE speakAlike
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalike extends StatelessWidget {
         "They tried to treat all their children alike."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlike46789(String languageCode) async {
+  Future<void> speakalike46789(String languageCode) async {
     // DOPSUM: CHANGE speakAlike
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalike extends StatelessWidget {
         "Good management benefits employers and employees alike."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlike3632(String languageCode) async {
+  Future<void> speakalike3632(String languageCode) async {
     // DOPSUM: CHANGE speakAlike
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalike extends StatelessWidget {
         .speak("Airports are all alike to me."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlike(String languageCode) async {
+  // Future<void> speakalike(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlike
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryalike extends StatelessWidget {
   //   await flutterTts.speak("alike"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlike(String languageCode) async {
+  // Future<void> speakalike(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlike
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -91,7 +91,7 @@ class EnglishEntryalike extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlike("en-GB"),
+                              onPressed: () => speakalike("en-GB"),
                             ),
                           ],
                         ),
@@ -101,7 +101,7 @@ class EnglishEntryalike extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlike("en-US"),
+                              onPressed: () => speakalike("en-US"),
                             ),
                           ],
                         ),
@@ -150,10 +150,10 @@ class EnglishEntryalike extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlike76522("en-GB"),
+                                    onPressed: () => speakalike76522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlike76522(
+                                    onPressed: () => speakalike76522(
                                         // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
                                   ),
@@ -182,10 +182,10 @@ class EnglishEntryalike extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlike46789("en-GB"),
+                                    onPressed: () => speakalike46789("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlike46789(
+                                    onPressed: () => speakalike46789(
                                         // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryalike extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlike3632("en-GB"),
+                                    onPressed: () => speakalike3632("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlike3632(
+                                    onPressed: () => speakalike3632(
                                         // REPLACE: alike /əˈlaɪk/
                                         "en-US"),
                                   ),

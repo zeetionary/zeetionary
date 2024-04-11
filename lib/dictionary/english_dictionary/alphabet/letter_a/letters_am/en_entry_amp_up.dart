@@ -11,7 +11,7 @@ class EnglishEntryampup extends StatelessWidget {
   EnglishEntryampup({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmpup(String languageCode) async {
+  Future<void> speakampup(String languageCode) async {
     // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryampup extends StatelessWidget {
     await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmpup4414(String languageCode) async {
+  Future<void> speakampup4414(String languageCode) async {
     // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryampup extends StatelessWidget {
         "He knew exactly when to amp the music up."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmpup5560(String languageCode) async {
+  Future<void> speakampup5560(String languageCode) async {
     // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryampup extends StatelessWidget {
         "We're always looking for ways to amp up productivity in the workplace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmpup44855(String languageCode) async {
+  Future<void> speakampup44855(String languageCode) async {
     // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryampup extends StatelessWidget {
         "After amping the crowd up with an impressive light show, the band took to the stage."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmpup(String languageCode) async {
+  // Future<void> speakampup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmpup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryampup extends StatelessWidget {
   //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmpup(String languageCode) async {
+  // Future<void> speakampup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmpup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryampup extends StatelessWidget {
   //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmpup(String languageCode) async {
+  // Future<void> speakampup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmpup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryampup extends StatelessWidget {
   //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmpup(String languageCode) async {
+  // Future<void> speakampup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmpup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryampup extends StatelessWidget {
   //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmpup(String languageCode) async {
+  // Future<void> speakampup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmpup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryampup extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmp ʌp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmpup("en-GB"),
+                              onPressed: () => speakampup("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryampup extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmp ʌp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmpup("en-US"),
+                              onPressed: () => speakampup("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntryampup extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmpup4414("en-GB"),
+                                    onPressed: () => speakampup4414("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmpup4414(
+                                    onPressed: () => speakampup4414(
                                         // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
                                   ),
@@ -204,10 +204,10 @@ class EnglishEntryampup extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmpup5560("en-GB"),
+                                    onPressed: () => speakampup5560("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmpup5560(
+                                    onPressed: () => speakampup5560(
                                         // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
                                   ),
@@ -236,10 +236,10 @@ class EnglishEntryampup extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmpup44855("en-GB"),
+                                    onPressed: () => speakampup44855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmpup44855(
+                                    onPressed: () => speakampup44855(
                                         // REPLACE: amp up /æmp ʌp/
                                         "en-US"),
                                   ),

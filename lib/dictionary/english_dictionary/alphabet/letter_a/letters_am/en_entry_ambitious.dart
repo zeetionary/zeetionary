@@ -11,7 +11,7 @@ class EnglishEntryambitious extends StatelessWidget {
   EnglishEntryambitious({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbitious(String languageCode) async {
+  Future<void> speakambitious(String languageCode) async {
     // DOPSUM: CHANGE speakAmbitious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambitious extends StatelessWidget {
     await flutterTts.speak("ambitious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbitious344(String languageCode) async {
+  Future<void> speakambitious344(String languageCode) async {
     // DOPSUM: CHANGE speakAmbitious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambitious extends StatelessWidget {
         "I'm not ambitious enough to try for the top."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbitious7666(String languageCode) async {
+  Future<void> speakambitious7666(String languageCode) async {
     // DOPSUM: CHANGE speakAmbitious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryambitious extends StatelessWidget {
         "The students are all ambitious to do well."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmbitious(String languageCode) async {
+  // Future<void> speakambitious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbitious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryambitious extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbɪʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbitious("en-GB"),
+                              onPressed: () => speakambitious("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryambitious extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbɪʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbitious("en-US"),
+                              onPressed: () => speakambitious("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryambitious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmbitious344("en-GB"),
+                                    onPressed: () => speakambitious344("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbitious344(
+                                    onPressed: () => speakambitious344(
                                         // REPLACE: ambitious /æmˈbɪʃəs/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryambitious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbitious7666("en-GB"),
+                                        speakambitious7666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbitious7666(
+                                    onPressed: () => speakambitious7666(
                                         // REPLACE: ambitious /æmˈbɪʃəs/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
   EnglishEntryaffirmation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffirmation(String languageCode) async {
+  Future<void> speakaffirmation(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
     await flutterTts.speak("affirmation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffirmat144(String languageCode) async {
+  Future<void> speakaffirmat144(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
         "We welcome the government's affirmation of its intention to act."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffir25(String languageCode) async {
+  Future<void> speakaffir25(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
         "Some people need frequent affirmations of love from their partners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff677(String languageCode) async {
+  Future<void> speakaff677(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæfəˈmeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffirmation("en-GB"),
+                              onPressed: () => speakaffirmation("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæfərˈmeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffirmation("en-US"),
+                              onPressed: () => speakaffirmation("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffirmat144("en-GB"),
+                                    onPressed: () => speakaffirmat144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffirmat144(
+                                    onPressed: () => speakaffirmat144(
                                         // REPLACE: affirmation /ˌæfərˈmeɪʃn/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffir25("en-GB"),
+                                    onPressed: () => speakaffir25("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffir25(
+                                    onPressed: () => speakaffir25(
                                         // REPLACE: affirmation /ˌæfərˈmeɪʃn/
                                         "en-US"),
                                   ),
@@ -196,10 +196,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff677("en-GB"),
+                                    onPressed: () => speakaff677("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAff677(
+                                    onPressed: () => speakaff677(
                                         // REPLACE: affirmation /ˌæfərˈmeɪʃn/
                                         "en-US"),
                                   ),

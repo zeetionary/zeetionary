@@ -19,7 +19,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutonomous(String languageCode) async {
+  Future<void> speakautonomous(String languageCode) async {
     // DOPSUM: CHANGE speakAutonomous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautonomous extends StatelessWidget {
     await flutterTts.speak("autonomous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutonomous909(String languageCode) async {
+  Future<void> speakautonomous909(String languageCode) async {
     // DOPSUM: CHANGE speakAutonomous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautonomous extends StatelessWidget {
         "The country now has 17 autonomous regions, each with a distinct culture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutonomous912(String languageCode) async {
+  Future<void> speakautonomous912(String languageCode) async {
     // DOPSUM: CHANGE speakAutonomous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryautonomous extends StatelessWidget {
         "Teachers aim to help children become autonomous learners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutonomous916(String languageCode) async {
+  Future<void> speakautonomous916(String languageCode) async {
     // DOPSUM: CHANGE speakAutonomous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryautonomous extends StatelessWidget {
         "The development of autonomous vehicles has the potential to revolutionize transportation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutonomous(String languageCode) async {
+  // Future<void> speakautonomous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutonomous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   //   await flutterTts.speak("autonomous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutonomous(String languageCode) async {
+  // Future<void> speakautonomous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutonomous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   //   await flutterTts.speak("autonomous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutonomous(String languageCode) async {
+  // Future<void> speakautonomous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutonomous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   //   await flutterTts.speak("autonomous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutonomous(String languageCode) async {
+  // Future<void> speakautonomous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutonomous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   //   await flutterTts.speak("autonomous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutonomous(String languageCode) async {
+  // Future<void> speakautonomous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutonomous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈtɒnəməs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutonomous("en-GB"),
+                              onPressed: () => speakautonomous("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈtɑːnəməs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutonomous("en-US"),
+                              onPressed: () => speakautonomous("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutonomous909("en-GB"),
+                                        speakautonomous909("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutonomous909(
+                                    onPressed: () => speakautonomous909(
                                         // REPLACE: autonomous
                                         "en-US"),
                                   ),
@@ -221,10 +221,10 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutonomous912("en-GB"),
+                                        speakautonomous912("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutonomous912(
+                                    onPressed: () => speakautonomous912(
                                         // REPLACE: autonomous
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutonomous916("en-GB"),
+                                        speakautonomous916("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutonomous916(
+                                    onPressed: () => speakautonomous916(
                                         // REPLACE: autonomous
                                         "en-US"),
                                   ),

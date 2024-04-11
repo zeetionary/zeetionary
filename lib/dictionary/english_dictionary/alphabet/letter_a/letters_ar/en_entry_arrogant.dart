@@ -19,7 +19,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArrogant(String languageCode) async {
+  Future<void> speakarrogant(String languageCode) async {
     // DOPSUM: CHANGE speakArrogant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarrogant extends StatelessWidget {
     await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrogant708(String languageCode) async {
+  Future<void> speakarrogant708(String languageCode) async {
     // DOPSUM: CHANGE speakArrogant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarrogant extends StatelessWidget {
         .speak("I found him arrogant and rude."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   //   await flutterTts.speak("arrogant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrogant(String languageCode) async {
+  // Future<void> speakarrogant(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrogant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarrogant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəɡənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArrogant("en-GB"),
+                              onPressed: () => speakarrogant("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarrogant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəɡənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArrogant("en-US"),
+                              onPressed: () => speakarrogant("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarrogant extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrogant708("en-GB"),
+                                    onPressed: () => speakarrogant708("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrogant708(
+                                    onPressed: () => speakarrogant708(
                                         // REPLACE: arrogant /ˈærəɡənt/
                                         "en-US"),
                                   ),

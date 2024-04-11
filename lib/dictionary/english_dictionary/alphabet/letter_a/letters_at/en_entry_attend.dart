@@ -19,7 +19,7 @@ class EnglishEntryattend extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttend(String languageCode) async {
+  Future<void> speakattend(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattend extends StatelessWidget {
     await flutterTts.speak("attend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttend759(String languageCode) async {
+  Future<void> speakattend759(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattend extends StatelessWidget {
         "We'd like as many people as possible to attend."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttend800(String languageCode) async {
+  Future<void> speakattend800(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattend extends StatelessWidget {
         .speak("Our children attend the same school."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttend802(String languageCode) async {
+  Future<void> speakattend802(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattend extends StatelessWidget {
         "She hadn't been attending during the lesson."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttend808(String languageCode) async {
+  Future<void> speakattend808(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryattend extends StatelessWidget {
         .speak("Success attended their hard work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttend809(String languageCode) async {
+  Future<void> speakattend809(String languageCode) async {
     // DOPSUM: CHANGE speakAttend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryattend extends StatelessWidget {
         "The president was attended by several members of his staff."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttend(String languageCode) async {
+  // Future<void> speakattend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryattend extends StatelessWidget {
   //   await flutterTts.speak("attend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttend(String languageCode) async {
+  // Future<void> speakattend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryattend extends StatelessWidget {
   //   await flutterTts.speak("attend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttend(String languageCode) async {
+  // Future<void> speakattend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryattend extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttend("en-GB"),
+                              onPressed: () => speakattend("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryattend extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttend("en-US"),
+                              onPressed: () => speakattend("en-US"),
                             ),
                           ],
                         ),
@@ -186,11 +186,11 @@ class EnglishEntryattend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttend759("en-GB"),
+                                    onPressed: () => speakattend759("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttend759(// REPLACE: attend
+                                        speakattend759(// REPLACE: attend
                                             "en-US"),
                                   ),
                                 ],
@@ -219,11 +219,11 @@ class EnglishEntryattend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttend800("en-GB"),
+                                    onPressed: () => speakattend800("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttend800(// REPLACE: attend
+                                        speakattend800(// REPLACE: attend
                                             "en-US"),
                                   ),
                                 ],
@@ -252,11 +252,11 @@ class EnglishEntryattend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttend802("en-GB"),
+                                    onPressed: () => speakattend802("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttend802(// REPLACE: attend
+                                        speakattend802(// REPLACE: attend
                                             "en-US"),
                                   ),
                                 ],
@@ -285,11 +285,11 @@ class EnglishEntryattend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttend808("en-GB"),
+                                    onPressed: () => speakattend808("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttend808(// REPLACE: attend
+                                        speakattend808(// REPLACE: attend
                                             "en-US"),
                                   ),
                                 ],
@@ -318,11 +318,11 @@ class EnglishEntryattend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttend809("en-GB"),
+                                    onPressed: () => speakattend809("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttend809(// REPLACE: attend
+                                        speakattend809(// REPLACE: attend
                                             "en-US"),
                                   ),
                                 ],

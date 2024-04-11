@@ -19,7 +19,7 @@ class EnglishEntryartillery extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtillery(String languageCode) async {
+  Future<void> speakartillery(String languageCode) async {
     // DOPSUM: CHANGE speakArtillery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartillery extends StatelessWidget {
     await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtillery1010(String languageCode) async {
+  Future<void> speakartillery1010(String languageCode) async {
     // DOPSUM: CHANGE speakArtillery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartillery extends StatelessWidget {
         "The town is under heavy artillery fire."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtillery1014(String languageCode) async {
+  Future<void> speakartillery1014(String languageCode) async {
     // DOPSUM: CHANGE speakArtillery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryartillery extends StatelessWidget {
         "He served in the artillery for twenty years."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryartillery extends StatelessWidget {
   //   await flutterTts.speak("artillery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtillery(String languageCode) async {
+  // Future<void> speakartillery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtillery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryartillery extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈtɪləri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtillery("en-GB"),
+                              onPressed: () => speakartillery("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryartillery extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈtɪləri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtillery("en-US"),
+                              onPressed: () => speakartillery("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryartillery extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtillery1010("en-GB"),
+                                        speakartillery1010("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtillery1010(
+                                    onPressed: () => speakartillery1010(
                                         // REPLACE: artillery /ɑːrˈtɪləri/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryartillery extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtillery1014("en-GB"),
+                                        speakartillery1014("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtillery1014(
+                                    onPressed: () => speakartillery1014(
                                         // REPLACE: artillery /ɑːrˈtɪləri/
                                         "en-US"),
                                   ),

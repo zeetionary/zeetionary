@@ -13,7 +13,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticlimax(String languageCode) async {
+  Future<void> speakanticlimax(String languageCode) async {
     // DOPSUM: CHANGE speakAnticlimax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
     await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlimax843(String languageCode) async {
+  Future<void> speakanticlimax843(String languageCode) async {
     // DOPSUM: CHANGE speakAnticlimax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
         "When you really look forward to something it's often an anticlimax when it actually happens."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
   //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
+  // Future<void> speakanticlimax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticlimax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈklaɪmæks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticlimax("en-GB"),
+                              onPressed: () => speakanticlimax("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticlimax("en-US"),
+                              onPressed: () => speakanticlimax("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticlimax843("en-GB"),
+                                        speakanticlimax843("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticlimax843(
+                                    onPressed: () => speakanticlimax843(
                                         // REPLACE: anticlimax /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/
                                         "en-US"),
                                   ),

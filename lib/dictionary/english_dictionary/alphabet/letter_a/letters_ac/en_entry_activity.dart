@@ -11,7 +11,7 @@ class EnglishEntryactivity extends StatelessWidget {
   EnglishEntryactivity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAactivity(String languageCode) async {
+  Future<void> speakaactivity(String languageCode) async {
     // DOPSUM: CHANGE speakAactivity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryactivity extends StatelessWidget {
     await flutterTts.speak("activity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAactiv2537(String languageCode) async {
+  Future<void> speakaactiv2537(String languageCode) async {
     // DOPSUM: CHANGE speakAactivity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryactivity extends StatelessWidget {
         .speak("Shopping is now a leisure activity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAactivi4687(String languageCode) async {
+  Future<void> speakaactivi4687(String languageCode) async {
     // DOPSUM: CHANGE speakAactivity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryactivity extends StatelessWidget {
         "The students were involved in a range of extracurricular activities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAactivi4584(String languageCode) async {
+  Future<void> speakaactivi4584(String languageCode) async {
     // DOPSUM: CHANGE speakAactivity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryactivity extends StatelessWidget {
         "He has decided to focus his time and resources on his business activities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAactiv2468(String languageCode) async {
+  Future<void> speakaactiv2468(String languageCode) async {
     // DOPSUM: CHANGE speakAactivity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryactivity extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ækˈtɪvəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAactivity("en-GB"),
+                              onPressed: () => speakaactivity("en-GB"),
                             ),
                           ],
                         ),
@@ -92,7 +92,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ækˈtɪvəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAactivity("en-US"),
+                              onPressed: () => speakaactivity("en-US"),
                             ),
                           ],
                         ),
@@ -143,11 +143,11 @@ class EnglishEntryactivity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAactiv2537("en-GB"),
+                                    onPressed: () => speakaactiv2537("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAactiv2537(// REPLACE: activity
+                                        speakaactiv2537(// REPLACE: activity
                                             "en-US"),
                                   ),
                                 ],
@@ -173,11 +173,11 @@ class EnglishEntryactivity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAactivi4687("en-GB"),
+                                    onPressed: () => speakaactivi4687("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAactivi4687(// REPLACE: activity
+                                        speakaactivi4687(// REPLACE: activity
                                             "en-US"),
                                   ),
                                 ],
@@ -205,11 +205,11 @@ class EnglishEntryactivity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAactivi4584("en-GB"),
+                                    onPressed: () => speakaactivi4584("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAactivi4584(// REPLACE: activity
+                                        speakaactivi4584(// REPLACE: activity
                                             "en-US"),
                                   ),
                                 ],
@@ -237,11 +237,11 @@ class EnglishEntryactivity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAactiv2468("en-GB"),
+                                    onPressed: () => speakaactiv2468("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAactiv2468(// REPLACE: activity
+                                        speakaactiv2468(// REPLACE: activity
                                             "en-US"),
                                   ),
                                 ],

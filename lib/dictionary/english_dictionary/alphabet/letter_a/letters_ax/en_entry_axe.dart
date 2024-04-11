@@ -19,7 +19,7 @@ class EnglishEntryaxe extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAxe(String languageCode) async {
+  Future<void> speakaxe(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.speak("axe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes1(String languageCode) async {
+  Future<void> speakaxes1(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaxe extends StatelessWidget {
         "Julian used an axe to chop down the old apple tree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes2(String languageCode) async {
+  Future<void> speakaxes2(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaxe extends StatelessWidget {
         .speak("Up to 300 workers are facing the axe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes3(String languageCode) async {
+  Future<void> speakaxes3(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaxe extends StatelessWidget {
         "The series was axed after only six episodes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes4(String languageCode) async {
+  Future<void> speakaxes4(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaxe extends StatelessWidget {
         .speak("Michael has been axed from the team."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes5(String languageCode) async {
+  Future<void> speakaxes5(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.speak("speakAxes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes6(String languageCode) async {
+  Future<void> speakaxes6(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.speak("speakAxes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxes7(String languageCode) async {
+  Future<void> speakaxes7(String languageCode) async {
     // DOPSUM: CHANGE speakAxe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryaxe extends StatelessWidget {
                                 text:
                                     "IpaUK: /æks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAxe("en-GB"),
+                              onPressed: () => speakaxe("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryaxe extends StatelessWidget {
                                 text:
                                     "IpaUS: /æks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxe("en-US"),
+                              onPressed: () => speakaxe("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryaxe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxes1("en-GB"),
+                                    onPressed: () => speakaxes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAxes1(// REPLACE: axe
+                                    onPressed: () => speakaxes1(// REPLACE: axe
                                         "en-US"),
                                   ),
                                 ],
@@ -210,10 +210,10 @@ class EnglishEntryaxe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxes2("en-GB"),
+                                    onPressed: () => speakaxes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAxes2(// REPLACE: axe
+                                    onPressed: () => speakaxes2(// REPLACE: axe
                                         "en-US"),
                                   ),
                                 ],
@@ -242,10 +242,10 @@ class EnglishEntryaxe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxes3("en-GB"),
+                                    onPressed: () => speakaxes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAxes3(// REPLACE: axe
+                                    onPressed: () => speakaxes3(// REPLACE: axe
                                         "en-US"),
                                   ),
                                 ],
@@ -273,10 +273,10 @@ class EnglishEntryaxe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxes4("en-GB"),
+                                    onPressed: () => speakaxes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAxes4(// REPLACE: axe
+                                    onPressed: () => speakaxes4(// REPLACE: axe
                                         "en-US"),
                                   ),
                                 ],

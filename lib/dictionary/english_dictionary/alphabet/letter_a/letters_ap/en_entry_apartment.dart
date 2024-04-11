@@ -15,7 +15,7 @@ class EnglishEntryapartment extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApartment(String languageCode) async {
+  Future<void> speakapartment(String languageCode) async {
     // DOPSUM: CHANGE speakApartment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryapartment extends StatelessWidget {
     await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApartment1150(String languageCode) async {
+  Future<void> speakapartment1150(String languageCode) async {
     // DOPSUM: CHANGE speakApartment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryapartment extends StatelessWidget {
         "I was renting a two-bedroom apartment in an old building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApartment1152(String languageCode) async {
+  Future<void> speakapartment1152(String languageCode) async {
     // DOPSUM: CHANGE speakApartment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryapartment extends StatelessWidget {
         "He was evicted from his Manhattan apartment."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryapartment extends StatelessWidget {
   //   await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryapartment extends StatelessWidget {
   //   await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryapartment extends StatelessWidget {
   //   await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryapartment extends StatelessWidget {
   //   await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryapartment extends StatelessWidget {
   //   await flutterTts.speak("apartment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartment(String languageCode) async {
+  // Future<void> speakapartment(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryapartment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːtmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApartment("en-GB"),
+                              onPressed: () => speakapartment("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryapartment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrtmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApartment("en-US"),
+                              onPressed: () => speakapartment("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryapartment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApartment1150("en-GB"),
+                                        speakapartment1150("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApartment1150(
+                                    onPressed: () => speakapartment1150(
                                         // REPLACE: apartment /əˈpɑːrtmənt/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryapartment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApartment1152("en-GB"),
+                                        speakapartment1152("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApartment1152(
+                                    onPressed: () => speakapartment1152(
                                         // REPLACE: apartment /əˈpɑːrtmənt/
                                         "en-US"),
                                   ),

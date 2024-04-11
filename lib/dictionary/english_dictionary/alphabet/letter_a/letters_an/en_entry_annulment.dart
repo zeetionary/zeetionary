@@ -12,7 +12,7 @@ class EnglishEntryannulment extends StatelessWidget {
   EnglishEntryannulment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnulment(String languageCode) async {
+  Future<void> speakannulment(String languageCode) async {
     // DOPSUM: CHANGE speakAnnulment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannulment extends StatelessWidget {
     await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnulment917(String languageCode) async {
+  Future<void> speakannulment917(String languageCode) async {
     // DOPSUM: CHANGE speakAnnulment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannulment extends StatelessWidget {
         "Henry VIII sought an annulment of his marriage to Catherine of Aragon."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannulment extends StatelessWidget {
   //   await flutterTts.speak("annulment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnulment(String languageCode) async {
+  // Future<void> speakannulment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnulment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnʌlmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnulment("en-GB"),
+                              onPressed: () => speakannulment("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnʌlmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnulment("en-US"),
+                              onPressed: () => speakannulment("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryannulment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnulment917("en-GB"),
+                                    onPressed: () => speakannulment917("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnulment917(
+                                    onPressed: () => speakannulment917(
                                         // REPLACE: annulment /əˈnʌlmənt/
                                         "en-US"),
                                   ),

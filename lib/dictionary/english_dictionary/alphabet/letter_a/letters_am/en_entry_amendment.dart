@@ -11,7 +11,7 @@ class EnglishEntryamendment extends StatelessWidget {
   EnglishEntryamendment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmendment(String languageCode) async {
+  Future<void> speakamendment(String languageCode) async {
     // DOPSUM: CHANGE speakAmendment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.speak("amendment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmendment1244(String languageCode) async {
+  Future<void> speakamendment1244(String languageCode) async {
     // DOPSUM: CHANGE speakAmendment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamendment extends StatelessWidget {
         "Parliament passed the bill without further amendment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmendment4557(String languageCode) async {
+  Future<void> speakamendment4557(String languageCode) async {
     // DOPSUM: CHANGE speakAmendment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamendment extends StatelessWidget {
         "The Senate added numerous amendments to the bill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmendment74111(String languageCode) async {
+  Future<void> speakamendment74111(String languageCode) async {
     // DOPSUM: CHANGE speakAmendment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmendmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmendment("en-GB"),
+                              onPressed: () => speakamendment("en-GB"),
                             ),
                           ],
                         ),
@@ -86,7 +86,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmendmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmendment("en-US"),
+                              onPressed: () => speakamendment("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryamendment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmendment1244("en-GB"),
+                                        speakamendment1244("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmendment1244(
+                                    onPressed: () => speakamendment1244(
                                         // REPLACE: amendment /əˈmendmənt/
                                         "en-US"),
                                   ),
@@ -169,10 +169,10 @@ class EnglishEntryamendment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmendment4557("en-GB"),
+                                        speakamendment4557("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmendment4557(
+                                    onPressed: () => speakamendment4557(
                                         // REPLACE: amendment /əˈmendmənt/
                                         "en-US"),
                                   ),
@@ -203,10 +203,10 @@ class EnglishEntryamendment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmendment74111("en-GB"),
+                                        speakamendment74111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmendment74111(
+                                    onPressed: () => speakamendment74111(
                                         // REPLACE: amendment /əˈmendmənt/
                                         "en-US"),
                                   ),

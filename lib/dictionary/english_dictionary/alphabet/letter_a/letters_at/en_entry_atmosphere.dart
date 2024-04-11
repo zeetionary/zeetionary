@@ -19,7 +19,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtmosphere(String languageCode) async {
+  Future<void> speakatmosphere(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
     await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1119(String languageCode) async {
+  Future<void> speakatmosphere1119(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "Volcanoes and hot springs can emit methane into the atmosphere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1121(String languageCode) async {
+  Future<void> speakatmosphere1121(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "The spaceship should re-enter the earth's atmosphere later today."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1123(String languageCode) async {
+  Future<void> speakatmosphere1123(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "The outermost part of the sun's atmosphere is called the corona."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1126(String languageCode) async {
+  Future<void> speakatmosphere1126(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "These plants love warm, humid atmospheres."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1128(String languageCode) async {
+  Future<void> speakatmosphere1128(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "City officials have created an atmosphere of fear."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1129(String languageCode) async {
+  Future<void> speakatmosphere1129(String languageCode) async {
     // DOPSUM: CHANGE speakAtmosphere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
         "There was an atmosphere of mutual trust between them."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtmosphere(String languageCode) async {
+  // Future<void> speakatmosphere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmosphere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
   //   await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmosphere(String languageCode) async {
+  // Future<void> speakatmosphere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmosphere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætməsfɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtmosphere("en-GB"),
+                              onPressed: () => speakatmosphere("en-GB"),
                             ),
                           ],
                         ),
@@ -139,7 +139,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætməsfɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtmosphere("en-US"),
+                              onPressed: () => speakatmosphere("en-US"),
                             ),
                           ],
                         ),
@@ -190,10 +190,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1119("en-GB"),
+                                        speakatmosphere1119("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1119(
+                                    onPressed: () => speakatmosphere1119(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),
@@ -222,10 +222,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1121("en-GB"),
+                                        speakatmosphere1121("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1121(
+                                    onPressed: () => speakatmosphere1121(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),
@@ -256,10 +256,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1123("en-GB"),
+                                        speakatmosphere1123("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1123(
+                                    onPressed: () => speakatmosphere1123(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),
@@ -290,10 +290,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1126("en-GB"),
+                                        speakatmosphere1126("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1126(
+                                    onPressed: () => speakatmosphere1126(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),
@@ -324,10 +324,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1128("en-GB"),
+                                        speakatmosphere1128("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1128(
+                                    onPressed: () => speakatmosphere1128(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),
@@ -356,10 +356,10 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmosphere1129("en-GB"),
+                                        speakatmosphere1129("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmosphere1129(
+                                    onPressed: () => speakatmosphere1129(
                                         // REPLACE: atmosphere
                                         "en-US"),
                                   ),

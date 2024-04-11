@@ -19,7 +19,7 @@ class EnglishEntryascent extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscent(String languageCode) async {
+  Future<void> speakascent(String languageCode) async {
     // DOPSUM: CHANGE speakAscent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryascent extends StatelessWidget {
     await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscent1230(String languageCode) async {
+  Future<void> speakascent1230(String languageCode) async {
     // DOPSUM: CHANGE speakAscent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryascent extends StatelessWidget {
         "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscent1232(String languageCode) async {
+  Future<void> speakascent1232(String languageCode) async {
     // DOPSUM: CHANGE speakAscent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryascent extends StatelessWidget {
         "As the plane made its ascent, we saw thick smoke coming from one engine."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryascent extends StatelessWidget {
   //   await flutterTts.speak("ascent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscent(String languageCode) async {
+  // Future<void> speakascent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryascent extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsent/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscent("en-GB"),
+                              onPressed: () => speakascent("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryascent extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscent("en-US"),
+                              onPressed: () => speakascent("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryascent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscent1230("en-GB"),
+                                    onPressed: () => speakascent1230("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscent1230(
+                                    onPressed: () => speakascent1230(
                                         // REPLACE: ascent /əˈsent/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryascent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscent1232("en-GB"),
+                                    onPressed: () => speakascent1232("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscent1232(
+                                    onPressed: () => speakascent1232(
                                         // REPLACE: ascent /əˈsent/
                                         "en-US"),
                                   ),

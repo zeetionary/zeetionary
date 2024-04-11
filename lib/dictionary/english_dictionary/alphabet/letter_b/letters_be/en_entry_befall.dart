@@ -19,7 +19,7 @@ class EnglishEntrybefall extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBefall(String languageCode) async {
+  Future<void> speakbefall(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybefall extends StatelessWidget {
     await flutterTts.speak("befall"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls1(String languageCode) async {
+  Future<void> speakbefalls1(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybefall extends StatelessWidget {
         "They were unaware of the fate that was to befall them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls2(String languageCode) async {
+  Future<void> speakbefalls2(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybefall extends StatelessWidget {
         "Should any harm befall me on my journey, you may open this letter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls3(String languageCode) async {
+  Future<void> speakbefalls3(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybefall extends StatelessWidget {
         "Many natural disasters have befallen that region."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls4(String languageCode) async {
+  Future<void> speakbefalls4(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybefall extends StatelessWidget {
     await flutterTts.speak("speakBefalls44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls5(String languageCode) async {
+  Future<void> speakbefalls5(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybefall extends StatelessWidget {
     await flutterTts.speak("speakBefalls55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls6(String languageCode) async {
+  Future<void> speakbefalls6(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybefall extends StatelessWidget {
     await flutterTts.speak("speakBefalls66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBefalls7(String languageCode) async {
+  Future<void> speakbefalls7(String languageCode) async {
     // DOPSUM: CHANGE speakBefall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybefall extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈfɔːl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBefall("en-GB"),
+                              onPressed: () => speakbefall("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybefall extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈfɔːl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBefall("en-US"),
+                              onPressed: () => speakbefall("en-US"),
                             ),
                           ],
                         ),
@@ -167,10 +167,10 @@ class EnglishEntrybefall extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBefalls1("en-GB"),
+                                    onPressed: () => speakbefalls1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBefalls1("en-US"),
+                                    onPressed: () => speakbefalls1("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,10 +196,10 @@ class EnglishEntrybefall extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBefalls2("en-GB"),
+                                    onPressed: () => speakbefalls2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBefalls2("en-US"),
+                                    onPressed: () => speakbefalls2("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,10 +225,10 @@ class EnglishEntrybefall extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBefalls3("en-GB"),
+                                    onPressed: () => speakbefalls3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBefalls3("en-US"),
+                                    onPressed: () => speakbefalls3("en-US"),
                                   ),
                                 ],
                               ),

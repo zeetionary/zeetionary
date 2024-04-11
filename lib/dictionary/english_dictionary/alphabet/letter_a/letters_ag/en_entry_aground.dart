@@ -11,7 +11,7 @@ class EnglishEntryaground extends StatelessWidget {
   EnglishEntryaground({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAground(String languageCode) async {
+  Future<void> speakaground(String languageCode) async {
     // DOPSUM: CHANGE speakAground
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaground extends StatelessWidget {
     await flutterTts.speak("aground"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgro3441(String languageCode) async {
+  Future<void> speakagro3441(String languageCode) async {
     // DOPSUM: CHANGE speakAground
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaground extends StatelessWidget {
         "The oil tanker ran/went aground off the Spanish coast."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAground(String languageCode) async {
+  // Future<void> speakaground(String languageCode) async {
   //   // DOPSUM: CHANGE speakAground
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaground extends StatelessWidget {
   //   await flutterTts.speak("aground"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAground(String languageCode) async {
+  // Future<void> speakaground(String languageCode) async {
   //   // DOPSUM: CHANGE speakAground
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaground extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡraʊnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAground("en-GB"),
+                              onPressed: () => speakaground("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaground extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAground("en-US"),
+                              onPressed: () => speakaground("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaground extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgro3441("en-GB"),
+                                    onPressed: () => speakagro3441("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgro3441(
+                                    onPressed: () => speakagro3441(
                                         // REPLACE: aground /əˈɡraʊnd/
                                         "en-US"),
                                   ),

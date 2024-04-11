@@ -11,7 +11,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   EnglishEntryamethyst({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmethyst(String languageCode) async {
+  Future<void> speakamethyst(String languageCode) async {
     // DOPSUM: CHANGE speakAmethyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamethyst extends StatelessWidget {
     await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmethyst47666(String languageCode) async {
+  Future<void> speakamethyst47666(String languageCode) async {
     // DOPSUM: CHANGE speakAmethyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamethyst extends StatelessWidget {
         "Bishops and cardinals used to wear amethyst as a symbol of peace."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryamethyst extends StatelessWidget {
   //   await flutterTts.speak("amethyst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmethyst(String languageCode) async {
+  // Future<void> speakamethyst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmethyst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæməθɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmethyst("en-GB"),
+                              onPressed: () => speakamethyst("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæməθɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmethyst("en-US"),
+                              onPressed: () => speakamethyst("en-US"),
                             ),
                           ],
                         ),
@@ -195,10 +195,10 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmethyst47666("en-GB"),
+                                        speakamethyst47666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmethyst47666(
+                                    onPressed: () => speakamethyst47666(
                                         // REPLACE: amethyst /ˈæməθɪst/
                                         "en-US"),
                                   ),

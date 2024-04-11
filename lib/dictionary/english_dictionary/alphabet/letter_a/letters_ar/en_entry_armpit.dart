@@ -17,7 +17,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmpit(String languageCode) async {
+  Future<void> speakarmpit(String languageCode) async {
     // DOPSUM: CHANGE speakArmpit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmpit extends StatelessWidget {
     await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmpit412(String languageCode) async {
+  Future<void> speakarmpit412(String languageCode) async {
     // DOPSUM: CHANGE speakArmpit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmpit extends StatelessWidget {
         "To my mind, a hairless armpit looks unnatural."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarmpit extends StatelessWidget {
   //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmpit(String languageCode) async {
+  // Future<void> speakarmpit(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmpɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmpit("en-GB"),
+                              onPressed: () => speakarmpit("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmpɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmpit("en-US"),
+                              onPressed: () => speakarmpit("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryarmpit extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmpit412("en-GB"),
+                                    onPressed: () => speakarmpit412("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmpit412(
+                                    onPressed: () => speakarmpit412(
                                         // REPLACE: armpit /ˈɑːrmpɪt/
                                         "en-US"),
                                   ),

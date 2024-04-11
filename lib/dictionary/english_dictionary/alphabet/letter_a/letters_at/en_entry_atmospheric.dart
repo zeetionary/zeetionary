@@ -19,7 +19,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtmospheric(String languageCode) async {
+  Future<void> speakatmospheric(String languageCode) async {
     // DOPSUM: CHANGE speakAtmospheric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
     await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmospheric1140(String languageCode) async {
+  Future<void> speakatmospheric1140(String languageCode) async {
     // DOPSUM: CHANGE speakAtmospheric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
         "Plants are the main source of atmospheric oxygen."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmospheric1145(String languageCode) async {
+  Future<void> speakatmospheric1145(String languageCode) async {
     // DOPSUM: CHANGE speakAtmospheric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
         "The new restaurant is highly atmospheric."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   //   await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   //   await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   //   await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   //   await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   //   await flutterTts.speak("atmospheric"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmospheric(String languageCode) async {
+  // Future<void> speakatmospheric(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtmospheric
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtmospheric("en-GB"),
+                              onPressed: () => speakatmospheric("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌætməsˈfɪrɪk/, /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtmospheric("en-US"),
+                              onPressed: () => speakatmospheric("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmospheric1140("en-GB"),
+                                        speakatmospheric1140("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmospheric1140(
+                                    onPressed: () => speakatmospheric1140(
                                         // REPLACE: atmospheric
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtmospheric1145("en-GB"),
+                                        speakatmospheric1145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAtmospheric1145(
+                                    onPressed: () => speakatmospheric1145(
                                         // REPLACE: atmospheric
                                         "en-US"),
                                   ),

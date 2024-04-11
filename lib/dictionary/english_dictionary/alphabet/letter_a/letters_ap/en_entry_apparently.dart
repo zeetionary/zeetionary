@@ -17,7 +17,7 @@ class EnglishEntryapparently extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApparently(String languageCode) async {
+  Future<void> speakapparently(String languageCode) async {
     // DOPSUM: CHANGE speakApparently
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapparently extends StatelessWidget {
     await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApparently907(String languageCode) async {
+  Future<void> speakapparently907(String languageCode) async {
     // DOPSUM: CHANGE speakApparently
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapparently extends StatelessWidget {
         "Apparently they are getting divorced soon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApparently909(String languageCode) async {
+  Future<void> speakapparently909(String languageCode) async {
     // DOPSUM: CHANGE speakApparently
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapparently extends StatelessWidget {
         "I thought she had retired, but apparently she hasn't."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapparently extends StatelessWidget {
   //   await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapparently extends StatelessWidget {
   //   await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapparently extends StatelessWidget {
   //   await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapparently extends StatelessWidget {
   //   await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapparently extends StatelessWidget {
   //   await flutterTts.speak("apparently"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparently(String languageCode) async {
+  // Future<void> speakapparently(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparently
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapparently extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpærəntli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApparently("en-GB"),
+                              onPressed: () => speakapparently("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapparently extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpærəntli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApparently("en-US"),
+                              onPressed: () => speakapparently("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapparently extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApparently907("en-GB"),
+                                        speakapparently907("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApparently907(
+                                    onPressed: () => speakapparently907(
                                         // REPLACE: apparently /əˈpærəntli/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryapparently extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApparently909("en-GB"),
+                                        speakapparently909("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApparently909(
+                                    onPressed: () => speakapparently909(
                                         // REPLACE: apparently /əˈpærəntli/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalternate extends StatelessWidget {
   EnglishEntryalternate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlternate(String languageCode) async {
+  Future<void> speakalternate(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalternate extends StatelessWidget {
     await flutterTts.speak("alternate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternate4599(String languageCode) async {
+  Future<void> speakalternate4599(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalternate extends StatelessWidget {
         "Stretch up 30 times with alternate arms as a warm-up exercise."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternate492(String languageCode) async {
+  Future<void> speakalternate492(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalternate extends StatelessWidget {
         "He and I clean our room on alternate days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternate4588(String languageCode) async {
+  Future<void> speakalternate4588(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalternate extends StatelessWidget {
         "She alternated between cheerfulness and deep despair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternate385(String languageCode) async {
+  Future<void> speakalternate385(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalternate extends StatelessWidget {
         "Ambulance crews alternate between emergency and routine work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternate5266(String languageCode) async {
+  Future<void> speakalternate5266(String languageCode) async {
     // DOPSUM: CHANGE speakAlternate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalternate extends StatelessWidget {
         "David was too sick to attend, so Janet served as his alternate."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlternate(String languageCode) async {
+  // Future<void> speakalternate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlternate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryalternate extends StatelessWidget {
   //   await flutterTts.speak("alternate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlternate(String languageCode) async {
+  // Future<void> speakalternate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlternate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -109,7 +109,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈtɜːnət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlternate("en-GB"),
+                              onPressed: () => speakalternate("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈtɜːnət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlternate("en-US"),
+                              onPressed: () => speakalternate("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternate4599("en-GB"),
+                                        speakalternate4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternate4599(
+                                    onPressed: () => speakalternate4599(
                                         // REPLACE: alternate /ɔːlˈtɜːnət/
                                         "en-US"),
                                   ),
@@ -203,10 +203,10 @@ class EnglishEntryalternate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlternate492("en-GB"),
+                                    onPressed: () => speakalternate492("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternate492(
+                                    onPressed: () => speakalternate492(
                                         // REPLACE: alternate /ɔːlˈtɜːnət/
                                         "en-US"),
                                   ),
@@ -236,10 +236,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternate4588("en-GB"),
+                                        speakalternate4588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternate4588(
+                                    onPressed: () => speakalternate4588(
                                         // REPLACE: alternate /ɔːlˈtɜːnət/
                                         "en-US"),
                                   ),
@@ -268,10 +268,10 @@ class EnglishEntryalternate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlternate385("en-GB"),
+                                    onPressed: () => speakalternate385("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternate385(
+                                    onPressed: () => speakalternate385(
                                         // REPLACE: alternate /ɔːlˈtɜːnət/
                                         "en-US"),
                                   ),
@@ -301,10 +301,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternate5266("en-GB"),
+                                        speakalternate5266("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternate5266(
+                                    onPressed: () => speakalternate5266(
                                         // REPLACE: alternate /ɔːlˈtɜːnət/
                                         "en-US"),
                                   ),

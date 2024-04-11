@@ -11,7 +11,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
   EnglishEntryaerodynamic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAerodynamic(String languageCode) async {
+  Future<void> speakaerodynamic(String languageCode) async {
     // DOPSUM: CHANGE speakAerodynamic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
     await flutterTts.speak("aerodynamic"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAerodynamic(String languageCode) async {
+  // Future<void> speakaerodynamic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAerodynamic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
   //   await flutterTts.speak("aerodynamic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAerodynamic(String languageCode) async {
+  // Future<void> speakaerodynamic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAerodynamic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
   //   await flutterTts.speak("aerodynamic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAerodynamic(String languageCode) async {
+  // Future<void> speakaerodynamic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAerodynamic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌeərəʊdaɪˈnæmɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAerodynamic("en-GB"),
+                              onPressed: () => speakaerodynamic("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌerəʊdaɪˈnæmɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerodynamic("en-US"),
+                              onPressed: () => speakaerodynamic("en-US"),
                             ),
                           ],
                         ),

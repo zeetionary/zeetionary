@@ -15,7 +15,7 @@ class EnglishEntryanvil extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnvil(String languageCode) async {
+  Future<void> speakanvil(String languageCode) async {
     // DOPSUM: CHANGE speakAnvil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanvil extends StatelessWidget {
     await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnvil208(String languageCode) async {
+  Future<void> speakanvil208(String languageCode) async {
     // DOPSUM: CHANGE speakAnvil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryanvil extends StatelessWidget {
         .speak("A good anvil does not fear the hammer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryanvil extends StatelessWidget {
   //   await flutterTts.speak("anvil"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnvil(String languageCode) async {
+  // Future<void> speakanvil(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnvil
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryanvil extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænvɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnvil("en-GB"),
+                              onPressed: () => speakanvil("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryanvil extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænvɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnvil("en-US"),
+                              onPressed: () => speakanvil("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryanvil extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnvil208("en-GB"),
+                                    onPressed: () => speakanvil208("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAnvil208(// REPLACE: anvil /ˈænvɪl/
+                                        speakanvil208(// REPLACE: anvil /ˈænvɪl/
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryamongst extends StatelessWidget {
   EnglishEntryamongst({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmongst(String languageCode) async {
+  Future<void> speakamongst(String languageCode) async {
     // DOPSUM: CHANGE speakAmongst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamongst extends StatelessWidget {
     await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmongst7655(String languageCode) async {
+  Future<void> speakamongst7655(String languageCode) async {
     // DOPSUM: CHANGE speakAmongst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamongst extends StatelessWidget {
         "I saw a few familiar faces amongst the crowd."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmongst4666(String languageCode) async {
+  Future<void> speakamongst4666(String languageCode) async {
     // DOPSUM: CHANGE speakAmongst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamongst extends StatelessWidget {
         "A British woman was amongst the survivors."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmongst4111(String languageCode) async {
+  Future<void> speakamongst4111(String languageCode) async {
     // DOPSUM: CHANGE speakAmongst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryamongst extends StatelessWidget {
         "He divided the country amongst his sons."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -94,7 +94,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -102,7 +102,7 @@ class EnglishEntryamongst extends StatelessWidget {
   //   await flutterTts.speak("amongst"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmongst(String languageCode) async {
+  // Future<void> speakamongst(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmongst
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntryamongst extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmʌŋst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmongst("en-GB"),
+                              onPressed: () => speakamongst("en-GB"),
                             ),
                           ],
                         ),
@@ -150,7 +150,7 @@ class EnglishEntryamongst extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmʌŋst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmongst("en-US"),
+                              onPressed: () => speakamongst("en-US"),
                             ),
                           ],
                         ),
@@ -201,10 +201,10 @@ class EnglishEntryamongst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmongst7655("en-GB"),
+                                    onPressed: () => speakamongst7655("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmongst7655(
+                                    onPressed: () => speakamongst7655(
                                         // REPLACE: amongst /əˈmʌŋst/
                                         "en-US"),
                                   ),
@@ -233,10 +233,10 @@ class EnglishEntryamongst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmongst4666("en-GB"),
+                                    onPressed: () => speakamongst4666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmongst4666(
+                                    onPressed: () => speakamongst4666(
                                         // REPLACE: amongst /əˈmʌŋst/
                                         "en-US"),
                                   ),
@@ -265,10 +265,10 @@ class EnglishEntryamongst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmongst4111("en-GB"),
+                                    onPressed: () => speakamongst4111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmongst4111(
+                                    onPressed: () => speakamongst4111(
                                         // REPLACE: amongst /əˈmʌŋst/
                                         "en-US"),
                                   ),

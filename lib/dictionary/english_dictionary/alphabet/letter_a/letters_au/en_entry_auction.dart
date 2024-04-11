@@ -19,7 +19,7 @@ class EnglishEntryauction extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuction(String languageCode) async {
+  Future<void> speakauction(String languageCode) async {
     // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauction extends StatelessWidget {
     await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuction1150(String languageCode) async {
+  Future<void> speakauction1150(String languageCode) async {
     // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauction extends StatelessWidget {
         .speak("The house is up for auction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuction1154(String languageCode) async {
+  Future<void> speakauction1154(String languageCode) async {
     // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauction extends StatelessWidget {
         "The costumes from the movie are to be auctioned for charity."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauction extends StatelessWidget {
   //   await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauction extends StatelessWidget {
   //   await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauction extends StatelessWidget {
   //   await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauction extends StatelessWidget {
   //   await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauction extends StatelessWidget {
   //   await flutterTts.speak("auction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuction(String languageCode) async {
+  // Future<void> speakauction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryauction extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːkʃn/, /ˈɒkʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuction("en-GB"),
+                              onPressed: () => speakauction("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryauction extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːkʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuction("en-US"),
+                              onPressed: () => speakauction("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryauction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuction1150("en-GB"),
+                                    onPressed: () => speakauction1150("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuction1150(// REPLACE: auction
+                                        speakauction1150(// REPLACE: auction
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryauction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuction1154("en-GB"),
+                                    onPressed: () => speakauction1154("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuction1154(// REPLACE: auction
+                                        speakauction1154(// REPLACE: auction
                                             "en-US"),
                                   ),
                                 ],

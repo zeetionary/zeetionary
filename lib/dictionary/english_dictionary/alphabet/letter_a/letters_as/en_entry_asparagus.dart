@@ -19,7 +19,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsparagus(String languageCode) async {
+  Future<void> speakasparagus(String languageCode) async {
     // DOPSUM: CHANGE speakAsparagus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasparagus extends StatelessWidget {
     await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsparagus444(String languageCode) async {
+  Future<void> speakasparagus444(String languageCode) async {
     // DOPSUM: CHANGE speakAsparagus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasparagus extends StatelessWidget {
         "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryasparagus extends StatelessWidget {
   //   await flutterTts.speak("asparagus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsparagus(String languageCode) async {
+  // Future<void> speakasparagus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsparagus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈspærəɡəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsparagus("en-GB"),
+                              onPressed: () => speakasparagus("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈspærəɡəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsparagus("en-US"),
+                              onPressed: () => speakasparagus("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryasparagus extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsparagus444("en-GB"),
+                                    onPressed: () => speakasparagus444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsparagus444(
+                                    onPressed: () => speakasparagus444(
                                         // REPLACE: asparagus /əˈspærəɡəs/
                                         "en-US"),
                                   ),

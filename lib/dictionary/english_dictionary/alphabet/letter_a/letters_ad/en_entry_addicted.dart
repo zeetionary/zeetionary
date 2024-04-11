@@ -11,7 +11,7 @@ class EnglishEntryaddicted extends StatelessWidget {
   EnglishEntryaddicted({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAddicted(String languageCode) async {
+  Future<void> speakaddicted(String languageCode) async {
     // DOPSUM: CHANGE speakAddicted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaddicted extends StatelessWidget {
     await flutterTts.speak("addicted"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddict7451(String languageCode) async {
+  Future<void> speakaddict7451(String languageCode) async {
     // DOPSUM: CHANGE speakAddicted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaddicted extends StatelessWidget {
         "It did not take James very long to get addicted to video games."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAddicted(String languageCode) async {
+  // Future<void> speakaddicted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAddicted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaddicted extends StatelessWidget {
   //   await flutterTts.speak("addicted"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAddicted(String languageCode) async {
+  // Future<void> speakaddicted(String languageCode) async {
   //   // DOPSUM: CHANGE speakAddicted
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaddicted extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɪktɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAddicted("en-GB"),
+                              onPressed: () => speakaddicted("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaddicted extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɪktɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAddicted("en-US"),
+                              onPressed: () => speakaddicted("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryaddicted extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddict7451("en-GB"),
+                                    onPressed: () => speakaddict7451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddict7451(
+                                    onPressed: () => speakaddict7451(
                                         // REPLACE: addicted /əˈdɪktɪd/
                                         "en-US"),
                                   ),

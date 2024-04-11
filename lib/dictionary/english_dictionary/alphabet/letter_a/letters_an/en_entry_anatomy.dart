@@ -11,7 +11,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   EnglishEntryanatomy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnatomy(String languageCode) async {
+  Future<void> speakanatomy(String languageCode) async {
     // DOPSUM: CHANGE speakAnatomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy409(String languageCode) async {
+  Future<void> speakanatomy409(String languageCode) async {
     // DOPSUM: CHANGE speakAnatomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanatomy extends StatelessWidget {
         "An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy499(String languageCode) async {
+  Future<void> speakanatomy499(String languageCode) async {
     // DOPSUM: CHANGE speakAnatomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanatomy extends StatelessWidget {
         "The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy9500(String languageCode) async {
+  Future<void> speakanatomy9500(String languageCode) async {
     // DOPSUM: CHANGE speakAnatomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanatomy extends StatelessWidget {
         "Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy5582(String languageCode) async {
+  Future<void> speakanatomy5582(String languageCode) async {
     // DOPSUM: CHANGE speakAnatomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryanatomy extends StatelessWidget {
         "The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnatomy(String languageCode) async {
+  // Future<void> speakanatomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnatomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
+  // Future<void> speakanatomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnatomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
+  // Future<void> speakanatomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnatomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryanatomy extends StatelessWidget {
   //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
+  // Future<void> speakanatomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnatomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnætəmi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnatomy("en-GB"),
+                              onPressed: () => speakanatomy("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnætəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnatomy("en-US"),
+                              onPressed: () => speakanatomy("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnatomy409("en-GB"),
+                                    onPressed: () => speakanatomy409("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnatomy409(
+                                    onPressed: () => speakanatomy409(
                                         // REPLACE: anatomy /əˈnætəmi/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnatomy499("en-GB"),
+                                    onPressed: () => speakanatomy499("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnatomy499(
+                                    onPressed: () => speakanatomy499(
                                         // REPLACE: anatomy /əˈnætəmi/
                                         "en-US"),
                                   ),
@@ -243,10 +243,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnatomy9500("en-GB"),
+                                    onPressed: () => speakanatomy9500("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnatomy9500(
+                                    onPressed: () => speakanatomy9500(
                                         // REPLACE: anatomy /əˈnætəmi/
                                         "en-US"),
                                   ),
@@ -276,10 +276,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnatomy5582("en-GB"),
+                                    onPressed: () => speakanatomy5582("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnatomy5582(
+                                    onPressed: () => speakanatomy5582(
                                         // REPLACE: anatomy /əˈnætəmi/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryautumnal extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutumnal(String languageCode) async {
+  Future<void> speakautumnal(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("autumnal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals1(String languageCode) async {
+  Future<void> speakautumnals1(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautumnal extends StatelessWidget {
         "The villages were blazoned with autumnal color."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals2(String languageCode) async {
+  Future<void> speakautumnals2(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("speakAutumnals2c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals3(String languageCode) async {
+  Future<void> speakautumnals3(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("speakAutumnals3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals4(String languageCode) async {
+  Future<void> speakautumnals4(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("speakAutumnals4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals5(String languageCode) async {
+  Future<void> speakautumnals5(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("speakAutumnals5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals6(String languageCode) async {
+  Future<void> speakautumnals6(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryautumnal extends StatelessWidget {
     await flutterTts.speak("speakAutumnals6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutumnals7(String languageCode) async {
+  Future<void> speakautumnals7(String languageCode) async {
     // DOPSUM: CHANGE speakAutumnal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryautumnal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈtʌmnəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutumnal("en-GB"),
+                              onPressed: () => speakautumnal("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryautumnal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈtʌmnəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutumnal("en-US"),
+                              onPressed: () => speakautumnal("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryautumnal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAutumnals1("en-GB"),
+                                    onPressed: () => speakautumnals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutumnals1(// REPLACE: autumnal
+                                        speakautumnals1(// REPLACE: autumnal
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryaccordion extends StatelessWidget {
   EnglishEntryaccordion({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAaccordion(String languageCode) async {
+  Future<void> speakaaccordion(String languageCode) async {
     // DOPSUM: CHANGE speakAaccordion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkɔːdiən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAaccordion("en-GB"),
+                              onPressed: () => speakaaccordion("en-GB"),
                             ),
                           ],
                         ),
@@ -57,7 +57,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɔːrdiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAaccordion("en-US"),
+                              onPressed: () => speakaaccordion("en-US"),
                             ),
                           ],
                         ),

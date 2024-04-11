@@ -216,7 +216,7 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbdicate(String languageCode) async {
+  Future<void> speakabdicate(String languageCode) async {
     // DOPSUM: CHANGE speakAbdicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -224,7 +224,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("abdicate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb576(String languageCode) async {
+  Future<void> speakab576(String languageCode) async {
     // DOPSUM: CHANGE speakAbdicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
         .speak("He abdicated in favour of his son."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb5346(String languageCode) async {
+  Future<void> speakab5346(String languageCode) async {
     // DOPSUM: CHANGE speakAbdicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -378,10 +378,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAb576("en-GB"),
+                    onPressed: () => speakab576("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAb576("en-US"),
+                    onPressed: () => speakab576("en-US"),
                   ),
                 ],
               ),
@@ -406,10 +406,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAb5346("en-GB"),
+                    onPressed: () => speakab5346("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAb5346("en-US"),
+                    onPressed: () => speakab5346("en-US"),
                   ),
                 ],
               ),

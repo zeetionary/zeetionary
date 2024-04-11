@@ -11,7 +11,7 @@ class EnglishEntryabsolute extends StatelessWidget {
   EnglishEntryabsolute({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsolute(String languageCode) async {
+  Future<void> speakabsolute(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabsolute extends StatelessWidget {
     await flutterTts.speak("absolute"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2541(String languageCode) async {
+  Future<void> speakab2541(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabsolute extends StatelessWidget {
         .speak("The divorce became absolute last week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6587(String languageCode) async {
+  Future<void> speaka6587(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryabsolute extends StatelessWidget {
         "He taught us that the laws of physics were absolute."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA7415(String languageCode) async {
+  Future<void> speaka7415(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryabsolute extends StatelessWidget {
         "We must keep costs to an absolute minimum."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2569(String languageCode) async {
+  Future<void> speaka2569(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryabsolute extends StatelessWidget {
         .speak("Clean water is an absolute necessity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6254(String languageCode) async {
+  Future<void> speaka6254(String languageCode) async {
     // DOPSUM: CHANGE speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbsəluːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsolute("en-GB"),
+                              onPressed: () => speakabsolute("en-GB"),
                             ),
                           ],
                         ),
@@ -102,7 +102,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbsəluːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsolute("en-US"),
+                              onPressed: () => speakabsolute("en-US"),
                             ),
                           ],
                         ),
@@ -151,10 +151,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6254("en-GB"),
+                                    onPressed: () => speaka6254("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6254("en-US"),
+                                    onPressed: () => speaka6254("en-US"),
                                   ),
                                 ],
                               ),
@@ -179,10 +179,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2569("en-GB"),
+                                    onPressed: () => speaka2569("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2569("en-US"),
+                                    onPressed: () => speaka2569("en-US"),
                                   ),
                                 ],
                               ),
@@ -209,10 +209,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA7415("en-GB"),
+                                    onPressed: () => speaka7415("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA7415("en-US"),
+                                    onPressed: () => speaka7415("en-US"),
                                   ),
                                 ],
                               ),
@@ -239,10 +239,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6587("en-GB"),
+                                    onPressed: () => speaka6587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6587("en-US"),
+                                    onPressed: () => speaka6587("en-US"),
                                   ),
                                 ],
                               ),
@@ -269,10 +269,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAb2541("en-GB"),
+                                    onPressed: () => speakab2541("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAb2541("en-US"),
+                                    onPressed: () => speakab2541("en-US"),
                                   ),
                                 ],
                               ),

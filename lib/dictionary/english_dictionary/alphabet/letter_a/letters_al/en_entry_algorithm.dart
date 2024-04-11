@@ -11,7 +11,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
   EnglishEntryalgorithm({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlgorithm(String languageCode) async {
+  Future<void> speakalgorithm(String languageCode) async {
     // DOPSUM: CHANGE speakAlgorithm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
     await flutterTts.speak("algorithm"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlgorithm25344(String languageCode) async {
+  Future<void> speakalgorithm25344(String languageCode) async {
     // DOPSUM: CHANGE speakAlgorithm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
         "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlgorithm(String languageCode) async {
+  // Future<void> speakalgorithm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgorithm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
   //   await flutterTts.speak("algorithm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlgorithm(String languageCode) async {
+  // Future<void> speakalgorithm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlgorithm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælɡərɪðəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlgorithm("en-GB"),
+                              onPressed: () => speakalgorithm("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælɡərɪðəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlgorithm("en-US"),
+                              onPressed: () => speakalgorithm("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlgorithm25344("en-GB"),
+                                        speakalgorithm25344("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlgorithm25344(
+                                    onPressed: () => speakalgorithm25344(
                                         // REPLACE: algorithm /ˈælɡərɪðəm/
                                         "en-US"),
                                   ),

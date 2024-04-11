@@ -19,7 +19,7 @@ class EnglishEntrybeacon extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeacon(String languageCode) async {
+  Future<void> speakbeacon(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeacon extends StatelessWidget {
     await flutterTts.speak("beacon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons1(String languageCode) async {
+  Future<void> speakbeacons1(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeacon extends StatelessWidget {
         "The beacon flashed a warning signal, alerting the sailors to the approaching storm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons2(String languageCode) async {
+  Future<void> speakbeacons2(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeacon extends StatelessWidget {
         "He was a beacon of hope for the younger generation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons3(String languageCode) async {
+  Future<void> speakbeacons3(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeacon extends StatelessWidget {
         "The plane was guided in by radio beacon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons4(String languageCode) async {
+  Future<void> speakbeacons4(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybeacon extends StatelessWidget {
     await flutterTts.speak("speakBeacons44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons5(String languageCode) async {
+  Future<void> speakbeacons5(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybeacon extends StatelessWidget {
     await flutterTts.speak("speakBeacons55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons6(String languageCode) async {
+  Future<void> speakbeacons6(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybeacon extends StatelessWidget {
     await flutterTts.speak("speakBeacons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeacons7(String languageCode) async {
+  Future<void> speakbeacons7(String languageCode) async {
     // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybeacon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːkən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeacon("en-GB"),
+                              onPressed: () => speakbeacon("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybeacon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːkən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeacon("en-US"),
+                              onPressed: () => speakbeacon("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybeacon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeacons1("en-GB"),
+                                    onPressed: () => speakbeacons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeacons1("en-US"),
+                                    onPressed: () => speakbeacons1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybeacon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeacons2("en-GB"),
+                                    onPressed: () => speakbeacons2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeacons2("en-US"),
+                                    onPressed: () => speakbeacons2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybeacon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeacons3("en-GB"),
+                                    onPressed: () => speakbeacons3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeacons3("en-US"),
+                                    onPressed: () => speakbeacons3("en-US"),
                                   ),
                                 ],
                               ),

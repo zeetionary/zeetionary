@@ -19,7 +19,7 @@ class EnglishEntryash extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsh(String languageCode) async {
+  Future<void> speakash(String languageCode) async {
     // DOPSUM: CHANGE speakAsh
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryash extends StatelessWidget {
     await flutterTts.speak("ash"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsh446(String languageCode) async {
+  Future<void> speakash446(String languageCode) async {
     // DOPSUM: CHANGE speakAsh
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryash extends StatelessWidget {
         "He carefully tapped the cigarette ash into the ashtray."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsh447(String languageCode) async {
+  Future<void> speakash447(String languageCode) async {
     // DOPSUM: CHANGE speakAsh
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryash extends StatelessWidget {
         "Ash from the volcano fell over a wide area."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsh454(String languageCode) async {
+  Future<void> speakash454(String languageCode) async {
     // DOPSUM: CHANGE speakAsh
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryash extends StatelessWidget {
         "The town was reduced to ashes in the fighting."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsh456(String languageCode) async {
+  Future<void> speakash456(String languageCode) async {
     // DOPSUM: CHANGE speakAsh
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryash extends StatelessWidget {
         "She wanted her ashes to be scattered at sea."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsh(String languageCode) async {
+  // Future<void> speakash(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsh
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryash extends StatelessWidget {
   //   await flutterTts.speak("ash"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsh(String languageCode) async {
+  // Future<void> speakash(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsh
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryash extends StatelessWidget {
   //   await flutterTts.speak("ash"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsh(String languageCode) async {
+  // Future<void> speakash(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsh
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryash extends StatelessWidget {
   //   await flutterTts.speak("ash"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsh(String languageCode) async {
+  // Future<void> speakash(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsh
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryash extends StatelessWidget {
                                 text:
                                     "IpaUK: /æʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsh("en-GB"),
+                              onPressed: () => speakash("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryash extends StatelessWidget {
                                 text:
                                     "IpaUS: /æʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsh("en-US"),
+                              onPressed: () => speakash("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryash extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsh446("en-GB"),
+                                    onPressed: () => speakash446("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsh446(// REPLACE: ash /æʃ/
+                                        speakash446(// REPLACE: ash /æʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryash extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsh447("en-GB"),
+                                    onPressed: () => speakash447("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsh447(// REPLACE: ash /æʃ/
+                                        speakash447(// REPLACE: ash /æʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -249,11 +249,11 @@ class EnglishEntryash extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsh454("en-GB"),
+                                    onPressed: () => speakash454("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsh454(// REPLACE: ash /æʃ/
+                                        speakash454(// REPLACE: ash /æʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -282,11 +282,11 @@ class EnglishEntryash extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsh456("en-GB"),
+                                    onPressed: () => speakash456("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsh456(// REPLACE: ash /æʃ/
+                                        speakash456(// REPLACE: ash /æʃ/
                                             "en-US"),
                                   ),
                                 ],

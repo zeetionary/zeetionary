@@ -11,7 +11,7 @@ class EnglishEntryagitate extends StatelessWidget {
   EnglishEntryagitate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgitate(String languageCode) async {
+  Future<void> speakagitate(String languageCode) async {
     // DOPSUM: CHANGE speakAgitate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagitate extends StatelessWidget {
     await flutterTts.speak("agitate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgit125(String languageCode) async {
+  Future<void> speakagit125(String languageCode) async {
     // DOPSUM: CHANGE speakAgitate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagitate extends StatelessWidget {
         "Her family are agitating to have her transferred to a prison in the UK."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgit7592(String languageCode) async {
+  Future<void> speakagit7592(String languageCode) async {
     // DOPSUM: CHANGE speakAgitate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagitate extends StatelessWidget {
         "I didn't want to agitate her by telling her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgita3477(String languageCode) async {
+  Future<void> speakagita3477(String languageCode) async {
     // DOPSUM: CHANGE speakAgitate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryagitate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædʒɪteɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgitate("en-GB"),
+                              onPressed: () => speakagitate("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryagitate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʒɪteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgitate("en-US"),
+                              onPressed: () => speakagitate("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryagitate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgit125("en-GB"),
+                                    onPressed: () => speakagit125("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgit125(
+                                    onPressed: () => speakagit125(
                                         // REPLACE: agitate /ˈædʒɪteɪt/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryagitate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgit7592("en-GB"),
+                                    onPressed: () => speakagit7592("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgit7592(
+                                    onPressed: () => speakagit7592(
                                         // REPLACE: agitate /ˈædʒɪteɪt/
                                         "en-US"),
                                   ),
@@ -192,10 +192,10 @@ class EnglishEntryagitate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgita3477("en-GB"),
+                                    onPressed: () => speakagita3477("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgita3477(
+                                    onPressed: () => speakagita3477(
                                         // REPLACE: agitate /ˈædʒɪteɪt/
                                         "en-US"),
                                   ),

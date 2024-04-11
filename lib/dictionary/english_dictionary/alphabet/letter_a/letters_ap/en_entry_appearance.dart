@@ -17,7 +17,7 @@ class EnglishEntryappearance extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppearance(String languageCode) async {
+  Future<void> speakappearance(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappearance extends StatelessWidget {
     await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1127(String languageCode) async {
+  Future<void> speakappearance1127(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "She had never been greatly concerned about her appearance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1128(String languageCode) async {
+  Future<void> speakappearance1128(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "Judging by appearances can be misleading."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1131(String languageCode) async {
+  Future<void> speakappearance1131(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "The sudden appearance of a security guard caused them to drop the money and run."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1132(String languageCode) async {
+  Future<void> speakappearance1132(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "Since its first appearance in the 19th century, cholera has killed millions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1135(String languageCode) async {
+  Future<void> speakappearance1135(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "The singer's first public appearance was at the age of eight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppearance1145(String languageCode) async {
+  Future<void> speakappearance1145(String languageCode) async {
     // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryappearance extends StatelessWidget {
         "The appearance of claims about the minister's private life in the press has caused a lot of discussions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppearance(String languageCode) async {
+  // Future<void> speakappearance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppearance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryappearance extends StatelessWidget {
   //   await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppearance(String languageCode) async {
+  // Future<void> speakappearance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppearance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryappearance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɪərəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppearance("en-GB"),
+                              onPressed: () => speakappearance("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryappearance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɪrəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppearance("en-US"),
+                              onPressed: () => speakappearance("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1127("en-GB"),
+                                        speakappearance1127("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1127(
+                                    onPressed: () => speakappearance1127(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1128("en-GB"),
+                                        speakappearance1128("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1128(
+                                    onPressed: () => speakappearance1128(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1131("en-GB"),
+                                        speakappearance1131("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1131(
+                                    onPressed: () => speakappearance1131(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),
@@ -286,10 +286,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1132("en-GB"),
+                                        speakappearance1132("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1132(
+                                    onPressed: () => speakappearance1132(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),
@@ -320,10 +320,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1135("en-GB"),
+                                        speakappearance1135("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1135(
+                                    onPressed: () => speakappearance1135(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),
@@ -354,10 +354,10 @@ class EnglishEntryappearance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppearance1145("en-GB"),
+                                        speakappearance1145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppearance1145(
+                                    onPressed: () => speakappearance1145(
                                         // REPLACE: appearance /əˈpɪrəns/
                                         "en-US"),
                                   ),

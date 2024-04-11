@@ -17,7 +17,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprehend(String languageCode) async {
+  Future<void> speakapprehend(String languageCode) async {
     // DOPSUM: CHANGE speakApprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprehend extends StatelessWidget {
     await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehend922(String languageCode) async {
+  Future<void> speakapprehend922(String languageCode) async {
     // DOPSUM: CHANGE speakApprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprehend extends StatelessWidget {
         "The police apprehended an armed suspect near the scene of the crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprehend924(String languageCode) async {
+  Future<void> speakapprehend924(String languageCode) async {
     // DOPSUM: CHANGE speakApprehend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapprehend extends StatelessWidget {
         .speak("He was slow to apprehend danger."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   //   await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   //   await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   //   await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   //   await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapprehend extends StatelessWidget {
   //   await flutterTts.speak("apprehend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprehend(String languageCode) async {
+  // Future<void> speakapprehend(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprehend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæprɪˈhend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprehend("en-GB"),
+                              onPressed: () => speakapprehend("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæprɪˈhend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprehend("en-US"),
+                              onPressed: () => speakapprehend("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryapprehend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApprehend922("en-GB"),
+                                    onPressed: () => speakapprehend922("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehend922(
+                                    onPressed: () => speakapprehend922(
                                         // REPLACE: apprehend /ˌæprɪˈhend/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryapprehend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApprehend924("en-GB"),
+                                    onPressed: () => speakapprehend924("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprehend924(
+                                    onPressed: () => speakapprehend924(
                                         // REPLACE: apprehend /ˌæprɪˈhend/
                                         "en-US"),
                                   ),

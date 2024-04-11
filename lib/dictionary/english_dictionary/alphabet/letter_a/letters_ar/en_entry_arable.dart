@@ -17,7 +17,7 @@ class EnglishEntryarable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArable(String languageCode) async {
+  Future<void> speakarable(String languageCode) async {
     // DOPSUM: CHANGE speakArable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarable extends StatelessWidget {
     await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArable1042(String languageCode) async {
+  Future<void> speakarable1042(String languageCode) async {
     // DOPSUM: CHANGE speakArable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarable extends StatelessWidget {
         "The small village centre is surrounded by arable farms."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarable extends StatelessWidget {
   //   await flutterTts.speak("arable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArable(String languageCode) async {
+  // Future<void> speakarable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarable extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArable("en-GB"),
+                              onPressed: () => speakarable("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArable("en-US"),
+                              onPressed: () => speakarable("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryarable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArable1042("en-GB"),
+                                    onPressed: () => speakarable1042("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArable1042(
+                                    onPressed: () => speakarable1042(
                                         // REPLACE: arable /ˈærəbl/
                                         "en-US"),
                                   ),

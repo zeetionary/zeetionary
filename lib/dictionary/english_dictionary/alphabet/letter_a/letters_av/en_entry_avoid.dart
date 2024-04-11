@@ -19,7 +19,7 @@ class EnglishEntryavoid extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvoid(String languageCode) async {
+  Future<void> speakavoid(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavoid extends StatelessWidget {
     await flutterTts.speak("avoid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids1(String languageCode) async {
+  Future<void> speakavoids1(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavoid extends StatelessWidget {
         "We must find a way to avoid similar problems in future."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids2(String languageCode) async {
+  Future<void> speakavoids2(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavoid extends StatelessWidget {
         .speak("He's been avoiding me all week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids3(String languageCode) async {
+  Future<void> speakavoids3(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryavoid extends StatelessWidget {
         .speak("The car swerved to avoid a cat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids4(String languageCode) async {
+  Future<void> speakavoids4(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryavoid extends StatelessWidget {
     await flutterTts.speak("speakAvoids44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids5(String languageCode) async {
+  Future<void> speakavoids5(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryavoid extends StatelessWidget {
     await flutterTts.speak("speakAvoids55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids6(String languageCode) async {
+  Future<void> speakavoids6(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryavoid extends StatelessWidget {
     await flutterTts.speak("speakAvoids66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvoids7(String languageCode) async {
+  Future<void> speakavoids7(String languageCode) async {
     // DOPSUM: CHANGE speakAvoid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryavoid extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvoid("en-GB"),
+                              onPressed: () => speakavoid("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryavoid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvoid("en-US"),
+                              onPressed: () => speakavoid("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntryavoid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvoids1("en-GB"),
+                                    onPressed: () => speakavoids1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvoids1(// REPLACE: avoid
+                                        speakavoids1(// REPLACE: avoid
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntryavoid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvoids2("en-GB"),
+                                    onPressed: () => speakavoids2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvoids2(// REPLACE: avoid
+                                        speakavoids2(// REPLACE: avoid
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntryavoid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvoids3("en-GB"),
+                                    onPressed: () => speakavoids3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvoids3(// REPLACE: avoid
+                                        speakavoids3(// REPLACE: avoid
                                             "en-US"),
                                   ),
                                 ],

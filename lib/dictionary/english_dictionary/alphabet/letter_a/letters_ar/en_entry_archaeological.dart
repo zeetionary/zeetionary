@@ -17,7 +17,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchaeological(String languageCode) async {
+  Future<void> speakarchaeological(String languageCode) async {
     // DOPSUM: CHANGE speakArchaeological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
     await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchaeological240(String languageCode) async {
+  Future<void> speakarchaeological240(String languageCode) async {
     // DOPSUM: CHANGE speakArchaeological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
         "Further archaeological excavations are now being carried out."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
   //   await flutterTts.speak("archaeological"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchaeological(String languageCode) async {
+  // Future<void> speakarchaeological(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchaeological
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkiəˈlɒdʒɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchaeological("en-GB"),
+                              onPressed: () => speakarchaeological("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkiəˈlɑːdʒɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchaeological("en-US"),
+                              onPressed: () => speakarchaeological("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryarchaeological extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArchaeological240("en-GB"),
+                                        speakarchaeological240("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchaeological240(
+                                    onPressed: () => speakarchaeological240(
                                         // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
                                         "en-US"),
                                   ),

@@ -15,7 +15,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnyplace(String languageCode) async {
+  Future<void> speakanyplace(String languageCode) async {
     // DOPSUM: CHANGE speakAnyplace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyplace949(String languageCode) async {
+  Future<void> speakanyplace949(String languageCode) async {
     // DOPSUM: CHANGE speakAnyplace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -31,7 +31,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.speak("I can't see it anyplace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyplace951(String languageCode) async {
+  Future<void> speakanyplace951(String languageCode) async {
     // DOPSUM: CHANGE speakAnyplace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryanyplace extends StatelessWidget {
     await flutterTts.speak("Put the box down anyplace."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -95,7 +95,7 @@ class EnglishEntryanyplace extends StatelessWidget {
   //   await flutterTts.speak("anyplace"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyplace(String languageCode) async {
+  // Future<void> speakanyplace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnyplace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntryanyplace extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈenipleɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnyplace("en-GB"),
+                              onPressed: () => speakanyplace("en-GB"),
                             ),
                           ],
                         ),
@@ -143,7 +143,7 @@ class EnglishEntryanyplace extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈenipleɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnyplace("en-US"),
+                              onPressed: () => speakanyplace("en-US"),
                             ),
                           ],
                         ),
@@ -191,10 +191,10 @@ class EnglishEntryanyplace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyplace949("en-GB"),
+                                    onPressed: () => speakanyplace949("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyplace949(
+                                    onPressed: () => speakanyplace949(
                                         // REPLACE: anyplace /ˈeniwer/
                                         "en-US"),
                                   ),
@@ -223,10 +223,10 @@ class EnglishEntryanyplace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnyplace951("en-GB"),
+                                    onPressed: () => speakanyplace951("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnyplace951(
+                                    onPressed: () => speakanyplace951(
                                         // REPLACE: anyplace /ˈeniwer/
                                         "en-US"),
                                   ),

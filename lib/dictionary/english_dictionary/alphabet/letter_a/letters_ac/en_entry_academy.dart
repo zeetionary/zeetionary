@@ -11,7 +11,7 @@ class EnglishEntryacademy extends StatelessWidget {
   EnglishEntryacademy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAacademy(String languageCode) async {
+  Future<void> speakaacademy(String languageCode) async {
     // DOPSUM: CHANGE speakAacademy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryacademy extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkædəmi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAacademy("en-GB"),
+                              onPressed: () => speakaacademy("en-GB"),
                             ),
                           ],
                         ),
@@ -65,7 +65,7 @@ class EnglishEntryacademy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkædəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAacademy("en-US"),
+                              onPressed: () => speakaacademy("en-US"),
                             ),
                           ],
                         ),

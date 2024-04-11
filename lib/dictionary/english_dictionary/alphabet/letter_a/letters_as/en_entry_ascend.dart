@@ -19,7 +19,7 @@ class EnglishEntryascend extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscend(String languageCode) async {
+  Future<void> speakascend(String languageCode) async {
     // DOPSUM: CHANGE speakAscend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryascend extends StatelessWidget {
     await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscend1126(String languageCode) async {
+  Future<void> speakascend1126(String languageCode) async {
     // DOPSUM: CHANGE speakAscend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryascend extends StatelessWidget {
         .speak("The air became colder as we ascended."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscend1129(String languageCode) async {
+  Future<void> speakascend1129(String languageCode) async {
     // DOPSUM: CHANGE speakAscend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryascend extends StatelessWidget {
         "Her heart was thumping as she ascended the stairs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscend1132(String languageCode) async {
+  Future<void> speakascend1132(String languageCode) async {
     // DOPSUM: CHANGE speakAscend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryascend extends StatelessWidget {
         "They slowly ascended the steep path up the mountain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscend1136(String languageCode) async {
+  Future<void> speakascend1136(String languageCode) async {
     // DOPSUM: CHANGE speakAscend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryascend extends StatelessWidget {
         "The young prince ascended the throne after the death of his father."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscend(String languageCode) async {
+  // Future<void> speakascend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscend(String languageCode) async {
+  // Future<void> speakascend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscend(String languageCode) async {
+  // Future<void> speakascend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryascend extends StatelessWidget {
   //   await flutterTts.speak("ascend"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscend(String languageCode) async {
+  // Future<void> speakascend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryascend extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscend("en-GB"),
+                              onPressed: () => speakascend("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryascend extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscend("en-US"),
+                              onPressed: () => speakascend("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryascend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscend1126("en-GB"),
+                                    onPressed: () => speakascend1126("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscend1126(
+                                    onPressed: () => speakascend1126(
                                         // REPLACE: ascend /əˈsend/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryascend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscend1129("en-GB"),
+                                    onPressed: () => speakascend1129("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscend1129(
+                                    onPressed: () => speakascend1129(
                                         // REPLACE: ascend /əˈsend/
                                         "en-US"),
                                   ),
@@ -246,10 +246,10 @@ class EnglishEntryascend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscend1132("en-GB"),
+                                    onPressed: () => speakascend1132("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscend1132(
+                                    onPressed: () => speakascend1132(
                                         // REPLACE: ascend /əˈsend/
                                         "en-US"),
                                   ),
@@ -277,10 +277,10 @@ class EnglishEntryascend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscend1136("en-GB"),
+                                    onPressed: () => speakascend1136("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscend1136(
+                                    onPressed: () => speakascend1136(
                                         // REPLACE: ascend /əˈsend/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryarmament extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmament(String languageCode) async {
+  Future<void> speakarmament(String languageCode) async {
     // DOPSUM: CHANGE speakArmament
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmament extends StatelessWidget {
     await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmament455(String languageCode) async {
+  Future<void> speakarmament455(String languageCode) async {
     // DOPSUM: CHANGE speakArmament
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmament extends StatelessWidget {
         "The armaments industry is a major force in the global economy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmament458(String languageCode) async {
+  Future<void> speakarmament458(String languageCode) async {
     // DOPSUM: CHANGE speakArmament
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarmament extends StatelessWidget {
         "As the country prepares for war, more and more money is being spent on armament."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarmament extends StatelessWidget {
   //   await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarmament extends StatelessWidget {
   //   await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarmament extends StatelessWidget {
   //   await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarmament extends StatelessWidget {
   //   await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarmament extends StatelessWidget {
   //   await flutterTts.speak("armament"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmament(String languageCode) async {
+  // Future<void> speakarmament(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmament
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarmament extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːməmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmament("en-GB"),
+                              onPressed: () => speakarmament("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarmament extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrməmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmament("en-US"),
+                              onPressed: () => speakarmament("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarmament extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmament455("en-GB"),
+                                    onPressed: () => speakarmament455("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmament455(
+                                    onPressed: () => speakarmament455(
                                         // REPLACE: armament /ˈɑːrməmənt/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryarmament extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmament458("en-GB"),
+                                    onPressed: () => speakarmament458("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmament458(
+                                    onPressed: () => speakarmament458(
                                         // REPLACE: armament /ˈɑːrməmənt/
                                         "en-US"),
                                   ),

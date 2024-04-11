@@ -11,7 +11,7 @@ class EnglishEntryacne extends StatelessWidget {
   EnglishEntryacne({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcne(String languageCode) async {
+  Future<void> speakacne(String languageCode) async {
     // DOPSUM: CHANGE speakAcne
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacne extends StatelessWidget {
     await flutterTts.speak("acne"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcn1259(String languageCode) async {
+  Future<void> speakacn1259(String languageCode) async {
     // DOPSUM: CHANGE speakAcne
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacne extends StatelessWidget {
         .speak("Acne often clears up by itself."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcne(String languageCode) async {
+  // Future<void> speakacne(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcne
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacne extends StatelessWidget {
   //   await flutterTts.speak("acne"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcne(String languageCode) async {
+  // Future<void> speakacne(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcne
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacne extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækni/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcne("en-GB"),
+                              onPressed: () => speakacne("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacne extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcne("en-US"),
+                              onPressed: () => speakacne("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryacne extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcn1259("en-GB"),
+                                    onPressed: () => speakacn1259("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcn1259(
+                                    onPressed: () => speakacn1259(
                                         "en-US"), // REPLACE acne /ˈækni/
                                   ),
                                 ],

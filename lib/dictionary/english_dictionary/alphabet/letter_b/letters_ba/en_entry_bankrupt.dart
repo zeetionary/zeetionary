@@ -19,7 +19,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBankrupt(String languageCode) async {
+  Future<void> speakbankrupt(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.speak("bankrupt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts1(String languageCode) async {
+  Future<void> speakbankrupts1(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
         "She lost the house after she was made bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts2(String languageCode) async {
+  Future<void> speakbankrupts2(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
         "After the war, Britain was weary and bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts3(String languageCode) async {
+  Future<void> speakbankrupts3(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
         "He believes that modern society is morally bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts4(String languageCode) async {
+  Future<void> speakbankrupts4(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
         "He later became Britain’s biggest bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts5(String languageCode) async {
+  Future<void> speakbankrupts5(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
         "They feared that the loss would bankrupt them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts6(String languageCode) async {
+  Future<void> speakbankrupts6(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
     await flutterTts.speak("speakBankrupts66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankrupts7(String languageCode) async {
+  Future<void> speakbankrupts7(String languageCode) async {
     // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæŋkrʌpt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBankrupt("en-GB"),
+                              onPressed: () => speakbankrupt("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæŋkrʌpt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBankrupt("en-US"),
+                              onPressed: () => speakbankrupt("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankrupts1("en-GB"),
+                                    onPressed: () => speakbankrupts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankrupts1(// REPLACE: bankrupt
+                                        speakbankrupts1(// REPLACE: bankrupt
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankrupts2("en-GB"),
+                                    onPressed: () => speakbankrupts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankrupts2(// REPLACE: bankrupt
+                                        speakbankrupts2(// REPLACE: bankrupt
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankrupts3("en-GB"),
+                                    onPressed: () => speakbankrupts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankrupts3(// REPLACE: bankrupt
+                                        speakbankrupts3(// REPLACE: bankrupt
                                             "en-US"),
                                   ),
                                 ],
@@ -276,11 +276,11 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankrupts4("en-GB"),
+                                    onPressed: () => speakbankrupts4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankrupts4(// REPLACE: bankrupt
+                                        speakbankrupts4(// REPLACE: bankrupt
                                             "en-US"),
                                   ),
                                 ],
@@ -309,11 +309,11 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBankrupts5("en-GB"),
+                                    onPressed: () => speakbankrupts5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBankrupts5(// REPLACE: bankrupt
+                                        speakbankrupts5(// REPLACE: bankrupt
                                             "en-US"),
                                   ),
                                 ],

@@ -12,7 +12,7 @@ class EnglishEntryanon extends StatelessWidget {
   EnglishEntryanon({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnon(String languageCode) async {
+  Future<void> speakanon(String languageCode) async {
     // DOPSUM: CHANGE speakAnon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanon extends StatelessWidget {
     await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnon1058(String languageCode) async {
+  Future<void> speakanon1058(String languageCode) async {
     // DOPSUM: CHANGE speakAnon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanon extends StatelessWidget {
     await flutterTts.speak("See you anon."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanon extends StatelessWidget {
   //   await flutterTts.speak("anon"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnon(String languageCode) async {
+  // Future<void> speakanon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryanon extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnon("en-GB"),
+                              onPressed: () => speakanon("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryanon extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnon("en-US"),
+                              onPressed: () => speakanon("en-US"),
                             ),
                           ],
                         ),
@@ -168,11 +168,11 @@ class EnglishEntryanon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnon1058("en-GB"),
+                                    onPressed: () => speakanon1058("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAnon1058(// REPLACE: anon /əˈnɑːn/
+                                        speakanon1058(// REPLACE: anon /əˈnɑːn/
                                             "en-US"),
                                   ),
                                 ],

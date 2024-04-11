@@ -19,7 +19,7 @@ class EnglishEntryassure extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssure(String languageCode) async {
+  Future<void> speakassure(String languageCode) async {
     // DOPSUM: CHANGE speakAssure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassure extends StatelessWidget {
     await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssure902(String languageCode) async {
+  Future<void> speakassure902(String languageCode) async {
     // DOPSUM: CHANGE speakAssure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassure extends StatelessWidget {
         "You think I did it deliberately, but I assure you (that) I did not."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssure903(String languageCode) async {
+  Future<void> speakassure903(String languageCode) async {
     // DOPSUM: CHANGE speakAssure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassure extends StatelessWidget {
         .speak("We assured him of our support."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssure905(String languageCode) async {
+  Future<void> speakassure905(String languageCode) async {
     // DOPSUM: CHANGE speakAssure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassure extends StatelessWidget {
         "She assured herself that the letter was still in the drawer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssure921(String languageCode) async {
+  Future<void> speakassure921(String languageCode) async {
     // DOPSUM: CHANGE speakAssure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassure extends StatelessWidget {
         "Victory would assure them a place in the finals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssure(String languageCode) async {
+  // Future<void> speakassure(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssure
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssure(String languageCode) async {
+  // Future<void> speakassure(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssure
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssure(String languageCode) async {
+  // Future<void> speakassure(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssure
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryassure extends StatelessWidget {
   //   await flutterTts.speak("assure"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssure(String languageCode) async {
+  // Future<void> speakassure(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssure
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryassure extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃʊə(r)/, /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssure("en-GB"),
+                              onPressed: () => speakassure("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryassure extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃʊə(r)/, /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssure("en-US"),
+                              onPressed: () => speakassure("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryassure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssure902("en-GB"),
+                                    onPressed: () => speakassure902("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssure902(
+                                    onPressed: () => speakassure902(
                                         // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryassure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssure903("en-GB"),
+                                    onPressed: () => speakassure903("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssure903(
+                                    onPressed: () => speakassure903(
                                         // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryassure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssure905("en-GB"),
+                                    onPressed: () => speakassure905("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssure905(
+                                    onPressed: () => speakassure905(
                                         // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
                                   ),
@@ -280,10 +280,10 @@ class EnglishEntryassure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssure921("en-GB"),
+                                    onPressed: () => speakassure921("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssure921(
+                                    onPressed: () => speakassure921(
                                         // REPLACE: assure /əˈʃʊr/
                                         "en-US"),
                                   ),

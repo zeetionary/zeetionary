@@ -11,7 +11,7 @@ class EnglishEntryamicably extends StatelessWidget {
   EnglishEntryamicably({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmicably(String languageCode) async {
+  Future<void> speakamicably(String languageCode) async {
     // DOPSUM: CHANGE speakAmicably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamicably extends StatelessWidget {
     await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmicably4777(String languageCode) async {
+  Future<void> speakamicably4777(String languageCode) async {
     // DOPSUM: CHANGE speakAmicably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamicably extends StatelessWidget {
         "The policeman chatted amicably to the bystanders."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmicably555541(String languageCode) async {
+  Future<void> speakamicably555541(String languageCode) async {
     // DOPSUM: CHANGE speakAmicably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamicably extends StatelessWidget {
         .speak("I hope we can settle this amicably."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryamicably extends StatelessWidget {
   //   await flutterTts.speak("amicably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmicably(String languageCode) async {
+  // Future<void> speakamicably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmicably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmɪkəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmicably("en-GB"),
+                              onPressed: () => speakamicably("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmɪkəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmicably("en-US"),
+                              onPressed: () => speakamicably("en-US"),
                             ),
                           ],
                         ),
@@ -198,10 +198,10 @@ class EnglishEntryamicably extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmicably4777("en-GB"),
+                                    onPressed: () => speakamicably4777("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmicably4777(
+                                    onPressed: () => speakamicably4777(
                                         // REPLACE: amicably /ˈæmɪkəbli/
                                         "en-US"),
                                   ),
@@ -229,10 +229,10 @@ class EnglishEntryamicably extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmicably555541("en-GB"),
+                                        speakamicably555541("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmicably555541(
+                                    onPressed: () => speakamicably555541(
                                         // REPLACE: amicably /ˈæmɪkəbli/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryabundantly extends StatelessWidget {
   EnglishEntryabundantly({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbundantly(String languageCode) async {
+  Future<void> speakabundantly(String languageCode) async {
     // DOPSUM: CHANGE speakAbundantly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabundantly extends StatelessWidget {
     await flutterTts.speak("abundantly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA15247(String languageCode) async {
+  Future<void> speaka15247(String languageCode) async {
     // DOPSUM: CHANGE speakAbundantly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabundantly extends StatelessWidget {
         "Calcium is found most abundantly in milk."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb25963(String languageCode) async {
+  Future<void> speakab25963(String languageCode) async {
     // DOPSUM: CHANGE speakAbundantly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryabundantly extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbʌndəntli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbundantly("en-GB"),
+                              onPressed: () => speakabundantly("en-GB"),
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class EnglishEntryabundantly extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbʌndəntli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbundantly("en-US"),
+                              onPressed: () => speakabundantly("en-US"),
                             ),
                           ],
                         ),
@@ -124,10 +124,10 @@ class EnglishEntryabundantly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAb25963("en-GB"),
+                                    onPressed: () => speakab25963("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAb25963("en-US"),
+                                    onPressed: () => speakab25963("en-US"),
                                   ),
                                 ],
                               ),
@@ -154,10 +154,10 @@ class EnglishEntryabundantly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA15247("en-GB"),
+                                    onPressed: () => speaka15247("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA15247("en-US"),
+                                    onPressed: () => speaka15247("en-US"),
                                   ),
                                 ],
                               ),

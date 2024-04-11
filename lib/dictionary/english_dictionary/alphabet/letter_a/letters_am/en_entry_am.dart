@@ -11,7 +11,7 @@ class EnglishEntryam extends StatelessWidget {
   EnglishEntryam({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAm(String languageCode) async {
+  Future<void> speakam(String languageCode) async {
     // DOPSUM: CHANGE speakAm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryam extends StatelessWidget {
     await flutterTts.speak("am"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAm795888(String languageCode) async {
+  Future<void> speakam795888(String languageCode) async {
     // DOPSUM: CHANGE speakAm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryam extends StatelessWidget {
         "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAm(String languageCode) async {
+  // Future<void> speakam(String languageCode) async {
   //   // DOPSUM: CHANGE speakAm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryam extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪ ˈem/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAm("en-GB"),
+                              onPressed: () => speakam("en-GB"),
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class EnglishEntryam extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪ ˈem/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAm("en-US"),
+                              onPressed: () => speakam("en-US"),
                             ),
                           ],
                         ),
@@ -122,10 +122,10 @@ class EnglishEntryam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAm795888("en-GB"),
+                                    onPressed: () => speakam795888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAm795888(
+                                    onPressed: () => speakam795888(
                                         // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
                                         "en-US"),
                                   ),

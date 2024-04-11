@@ -11,7 +11,7 @@ class EnglishEntryaluminium extends StatelessWidget {
   EnglishEntryaluminium({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAluminium(String languageCode) async {
+  Future<void> speakaluminium(String languageCode) async {
     // DOPSUM: CHANGE speakAluminium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaluminium extends StatelessWidget {
     await flutterTts.speak("aluminium"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAluminium55555(String languageCode) async {
+  Future<void> speakaluminium55555(String languageCode) async {
     // DOPSUM: CHANGE speakAluminium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaluminium extends StatelessWidget {
         .speak(" Aluminium is rapidly oxidized in air."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAluminium(String languageCode) async {
+  // Future<void> speakaluminium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAluminium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaluminium extends StatelessWidget {
   //   await flutterTts.speak("aluminium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAluminium(String languageCode) async {
+  // Future<void> speakaluminium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAluminium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAluminium("en-GB"),
+                              onPressed: () => speakaluminium("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAluminium("en-US"),
+                              onPressed: () => speakaluminium("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAluminium55555("en-GB"),
+                                        speakaluminium55555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAluminium55555(
+                                    onPressed: () => speakaluminium55555(
                                         // REPLACE: aluminium /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
                                         "en-US"),
                                   ),

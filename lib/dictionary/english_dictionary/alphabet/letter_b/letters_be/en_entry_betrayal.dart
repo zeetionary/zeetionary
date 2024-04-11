@@ -19,7 +19,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBetrayal(String languageCode) async {
+  Future<void> speakbetrayal(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
     await flutterTts.speak("betrayal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals1(String languageCode) async {
+  Future<void> speakbetrayals1(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
         "I saw her actions as a betrayal of my trust."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals2(String languageCode) async {
+  Future<void> speakbetrayals2(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
         "Memories of his betrayal still haunted her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals3(String languageCode) async {
+  Future<void> speakbetrayals3(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
         "The decisions were a betrayal of everything my father stood for."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals4(String languageCode) async {
+  Future<void> speakbetrayals4(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
     await flutterTts.speak("speakBetrayals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals5(String languageCode) async {
+  Future<void> speakbetrayals5(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
     await flutterTts.speak("speakBetrayals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals6(String languageCode) async {
+  Future<void> speakbetrayals6(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
     await flutterTts.speak("speakBetrayals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrayals7(String languageCode) async {
+  Future<void> speakbetrayals7(String languageCode) async {
     // DOPSUM: CHANGE speakBetrayal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈtreɪəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBetrayal("en-GB"),
+                              onPressed: () => speakbetrayal("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈtreɪəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBetrayal("en-US"),
+                              onPressed: () => speakbetrayal("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrayals1("en-GB"),
+                                    onPressed: () => speakbetrayals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrayals1("en-US"),
+                                    onPressed: () => speakbetrayals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +199,10 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrayals2("en-GB"),
+                                    onPressed: () => speakbetrayals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrayals2("en-US"),
+                                    onPressed: () => speakbetrayals2("en-US"),
                                   ),
                                 ],
                               ),
@@ -228,10 +228,10 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrayals3("en-GB"),
+                                    onPressed: () => speakbetrayals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrayals3("en-US"),
+                                    onPressed: () => speakbetrayals3("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiochemist(String languageCode) async {
+  Future<void> speakbiochemist(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("biochemist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists1(String languageCode) async {
+  Future<void> speakbiochemists1(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
         "Biochemists have greatly advanced human understanding of how cells copy themselves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists2(String languageCode) async {
+  Future<void> speakbiochemists2(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("speakBiochemists22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists3(String languageCode) async {
+  Future<void> speakbiochemists3(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("speakBiochemists33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists4(String languageCode) async {
+  Future<void> speakbiochemists4(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("speakBiochemists44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists5(String languageCode) async {
+  Future<void> speakbiochemists5(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("speakBiochemists55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists6(String languageCode) async {
+  Future<void> speakbiochemists6(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
     await flutterTts.speak("speakBiochemists66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiochemists7(String languageCode) async {
+  Future<void> speakbiochemists7(String languageCode) async {
     // DOPSUM: CHANGE speakBiochemist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪəʊˈkemɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiochemist("en-GB"),
+                              onPressed: () => speakbiochemist("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybiochemist extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪəʊˈkemɪst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiochemist("en-US"),
+                              onPressed: () => speakbiochemist("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybiochemist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiochemists1("en-GB"),
+                                    onPressed: () => speakbiochemists1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiochemists1("en-US"),
+                                    onPressed: () => speakbiochemists1("en-US"),
                                   ),
                                 ],
                               ),

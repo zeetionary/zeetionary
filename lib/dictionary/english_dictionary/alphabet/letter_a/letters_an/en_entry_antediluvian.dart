@@ -13,7 +13,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntediluvian(String languageCode) async {
+  Future<void> speakantediluvian(String languageCode) async {
     // DOPSUM: CHANGE speakAntediluvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
     await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntediluvian439(String languageCode) async {
+  Future<void> speakantediluvian439(String languageCode) async {
     // DOPSUM: CHANGE speakAntediluvian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
         "My mother has some hopelessly antediluvian ideas about the role of women."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
   //   await flutterTts.speak("antediluvian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntediluvian(String languageCode) async {
+  // Future<void> speakantediluvian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntediluvian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntidɪˈluːviən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntediluvian("en-GB"),
+                              onPressed: () => speakantediluvian("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntidɪˈluːviən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntediluvian("en-US"),
+                              onPressed: () => speakantediluvian("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntediluvian439("en-GB"),
+                                        speakantediluvian439("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntediluvian439(
+                                    onPressed: () => speakantediluvian439(
                                         // REPLACE: antediluvian /ˌæntidɪˈluːviən/
                                         "en-US"),
                                   ),

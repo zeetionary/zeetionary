@@ -17,7 +17,7 @@ class EnglishEntryarm extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArm(String languageCode) async {
+  Future<void> speakarm(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarm extends StatelessWidget {
     await flutterTts.speak("arm"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm127(String languageCode) async {
+  Future<void> speakarm127(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarm extends StatelessWidget {
         .speak("She threw her arms around his neck."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm129(String languageCode) async {
+  Future<void> speakarm129(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarm extends StatelessWidget {
         "He was running forward, waving his arms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm131(String languageCode) async {
+  Future<void> speakarm131(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarm extends StatelessWidget {
         .speak("The arms will need shortening."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm134(String languageCode) async {
+  Future<void> speakarm134(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryarm extends StatelessWidget {
         .speak("She perched on the arm of his chair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm138(String languageCode) async {
+  Future<void> speakarm138(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryarm extends StatelessWidget {
         "The fuel filler door is opened by a robotic arm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm148(String languageCode) async {
+  Future<void> speakarm148(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarm extends StatelessWidget {
         "The bank plans to sell part of its US finance arm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm151(String languageCode) async {
+  Future<void> speakarm151(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryarm extends StatelessWidget {
         "The men armed themselves with sticks and stones."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm152(String languageCode) async {
+  Future<void> speakarm152(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryarm extends StatelessWidget {
         "The country was arming against the enemy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm156(String languageCode) async {
+  Future<void> speakarm156(String languageCode) async {
     // DOPSUM: CHANGE speakArm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryarm extends StatelessWidget {
         "She armed herself for the interview by finding out all she could about the company in advance."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArm(String languageCode) async {
+  // Future<void> speakarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakArm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryarm extends StatelessWidget {
   //   await flutterTts.speak("arm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArm(String languageCode) async {
+  // Future<void> speakarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakArm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -152,7 +152,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArm("en-GB"),
+                              onPressed: () => speakarm("en-GB"),
                             ),
                           ],
                         ),
@@ -162,7 +162,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArm("en-US"),
+                              onPressed: () => speakarm("en-US"),
                             ),
                           ],
                         ),
@@ -211,11 +211,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm127("en-GB"),
+                                    onPressed: () => speakarm127("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm127(// REPLACE: arm /ɑːrm/
+                                        speakarm127(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -242,11 +242,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm129("en-GB"),
+                                    onPressed: () => speakarm129("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm129(// REPLACE: arm /ɑːrm/
+                                        speakarm129(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -274,11 +274,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm131("en-GB"),
+                                    onPressed: () => speakarm131("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm131(// REPLACE: arm /ɑːrm/
+                                        speakarm131(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -307,11 +307,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm134("en-GB"),
+                                    onPressed: () => speakarm134("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm134(// REPLACE: arm /ɑːrm/
+                                        speakarm134(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -340,11 +340,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm138("en-GB"),
+                                    onPressed: () => speakarm138("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm138(// REPLACE: arm /ɑːrm/
+                                        speakarm138(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -373,11 +373,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm138("en-GB"),
+                                    onPressed: () => speakarm138("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm138(// REPLACE: arm /ɑːrm/
+                                        speakarm138(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -406,11 +406,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm148("en-GB"),
+                                    onPressed: () => speakarm148("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm148(// REPLACE: arm /ɑːrm/
+                                        speakarm148(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -439,11 +439,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm151("en-GB"),
+                                    onPressed: () => speakarm151("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm151(// REPLACE: arm /ɑːrm/
+                                        speakarm151(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -470,11 +470,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm152("en-GB"),
+                                    onPressed: () => speakarm152("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm152(// REPLACE: arm /ɑːrm/
+                                        speakarm152(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],
@@ -503,11 +503,11 @@ class EnglishEntryarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArm156("en-GB"),
+                                    onPressed: () => speakarm156("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArm156(// REPLACE: arm /ɑːrm/
+                                        speakarm156(// REPLACE: arm /ɑːrm/
                                             "en-US"),
                                   ),
                                 ],

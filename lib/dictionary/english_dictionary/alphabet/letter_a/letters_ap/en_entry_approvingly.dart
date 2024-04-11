@@ -17,7 +17,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprovingly(String languageCode) async {
+  Future<void> speakapprovingly(String languageCode) async {
     // DOPSUM: CHANGE speakApprovingly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
     await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprovingly941(String languageCode) async {
+  Future<void> speakapprovingly941(String languageCode) async {
     // DOPSUM: CHANGE speakApprovingly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
         "She looked at him approvingly and smiled."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
   //   await flutterTts.speak("approvingly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprovingly(String languageCode) async {
+  // Future<void> speakapprovingly(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprovingly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpruːvɪŋli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprovingly("en-GB"),
+                              onPressed: () => speakapprovingly("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapprovingly extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpruːvɪŋli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprovingly("en-US"),
+                              onPressed: () => speakapprovingly("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryapprovingly extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprovingly941("en-GB"),
+                                        speakapprovingly941("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprovingly941(
+                                    onPressed: () => speakapprovingly941(
                                         // REPLACE: approvingly /əˈpruːvɪŋli/
                                         "en-US"),
                                   ),

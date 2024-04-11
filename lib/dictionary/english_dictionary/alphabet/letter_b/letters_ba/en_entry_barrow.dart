@@ -19,7 +19,7 @@ class EnglishEntrybarrow extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarrow(String languageCode) async {
+  Future<void> speakbarrow(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.speak("barrow"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows1(String languageCode) async {
+  Future<void> speakbarrows1(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarrow extends StatelessWidget {
         "The market vendors pushed their barrows filled with fresh produce."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows2(String languageCode) async {
+  Future<void> speakbarrows2(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarrow extends StatelessWidget {
         "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows3(String languageCode) async {
+  Future<void> speakbarrows3(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybarrow extends StatelessWidget {
         "The barrow was leaning against the wall."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows4(String languageCode) async {
+  Future<void> speakbarrows4(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.speak("speakBarrows44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows5(String languageCode) async {
+  Future<void> speakbarrows5(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.speak("speakBarrows55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows6(String languageCode) async {
+  Future<void> speakbarrows6(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.speak("speakBarrows66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarrows7(String languageCode) async {
+  Future<void> speakbarrows7(String languageCode) async {
     // DOPSUM: CHANGE speakBarrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybarrow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbærəʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarrow("en-GB"),
+                              onPressed: () => speakbarrow("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybarrow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbærəʊ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarrow("en-US"),
+                              onPressed: () => speakbarrow("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrows1("en-GB"),
+                                    onPressed: () => speakbarrows1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrows1("en-US"),
+                                    onPressed: () => speakbarrows1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrows2("en-GB"),
+                                    onPressed: () => speakbarrows2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrows2("en-US"),
+                                    onPressed: () => speakbarrows2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarrows3("en-GB"),
+                                    onPressed: () => speakbarrows3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarrows3("en-US"),
+                                    onPressed: () => speakbarrows3("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntryashtray extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAshtray(String languageCode) async {
+  Future<void> speakashtray(String languageCode) async {
     // DOPSUM: CHANGE speakAshtray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryashtray extends StatelessWidget {
     await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshtray509(String languageCode) async {
+  Future<void> speakashtray509(String languageCode) async {
     // DOPSUM: CHANGE speakAshtray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryashtray extends StatelessWidget {
         "The ashtrays in the restaurant were emptied and cleaned regularly."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryashtray extends StatelessWidget {
   //   await flutterTts.speak("ashtray"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshtray(String languageCode) async {
+  // Future<void> speakashtray(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshtray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryashtray extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæʃtreɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAshtray("en-GB"),
+                              onPressed: () => speakashtray("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryashtray extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæʃtreɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshtray("en-US"),
+                              onPressed: () => speakashtray("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryashtray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshtray509("en-GB"),
+                                    onPressed: () => speakashtray509("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshtray509(
+                                    onPressed: () => speakashtray509(
                                         // REPLACE: ashtray /ˈæʃtreɪ/
                                         "en-US"),
                                   ),

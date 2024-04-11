@@ -19,7 +19,7 @@ class EnglishEntrybidder extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBidder(String languageCode) async {
+  Future<void> speakbidder(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybidder extends StatelessWidget {
     await flutterTts.speak("bidder"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders1(String languageCode) async {
+  Future<void> speakbidders1(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybidder extends StatelessWidget {
         "The painting went to the highest bidder."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders2(String languageCode) async {
+  Future<void> speakbidders2(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybidder extends StatelessWidget {
         "There were six bidders for the cleaning contract."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders3(String languageCode) async {
+  Future<void> speakbidders3(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybidder extends StatelessWidget {
     await flutterTts.speak("speakBidders33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders4(String languageCode) async {
+  Future<void> speakbidders4(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybidder extends StatelessWidget {
     await flutterTts.speak("speakBidders44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders5(String languageCode) async {
+  Future<void> speakbidders5(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybidder extends StatelessWidget {
     await flutterTts.speak("speakBidders55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders6(String languageCode) async {
+  Future<void> speakbidders6(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybidder extends StatelessWidget {
     await flutterTts.speak("speakBidders66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBidders7(String languageCode) async {
+  Future<void> speakbidders7(String languageCode) async {
     // DOPSUM: CHANGE speakBidder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybidder extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪdə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBidder("en-GB"),
+                              onPressed: () => speakbidder("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybidder extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪdər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBidder("en-US"),
+                              onPressed: () => speakbidder("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybidder extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBidders1("en-GB"),
+                                    onPressed: () => speakbidders1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBidders1("en-US"),
+                                    onPressed: () => speakbidders1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybidder extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBidders2("en-GB"),
+                                    onPressed: () => speakbidders2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBidders2("en-US"),
+                                    onPressed: () => speakbidders2("en-US"),
                                   ),
                                 ],
                               ),

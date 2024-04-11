@@ -11,7 +11,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   EnglishEntryamphitheatre({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmphitheatre(String languageCode) async {
+  Future<void> speakamphitheatre(String languageCode) async {
     // DOPSUM: CHANGE speakAmphitheatre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
     await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphitheatre150089(String languageCode) async {
+  Future<void> speakamphitheatre150089(String languageCode) async {
     // DOPSUM: CHANGE speakAmphitheatre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
         "The amphitheatre is well worth a visit."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
   //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
+  // Future<void> speakamphitheatre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphitheatre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmfɪθɪətə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmphitheatre("en-GB"),
+                              onPressed: () => speakamphitheatre("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmfɪθiːətər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmphitheatre("en-US"),
+                              onPressed: () => speakamphitheatre("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmphitheatre150089("en-GB"),
+                                        speakamphitheatre150089("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmphitheatre150089(
+                                    onPressed: () => speakamphitheatre150089(
                                         // REPLACE: amphitheatre /ˈæmfɪθiːətər/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntrybandy extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBandy(String languageCode) async {
+  Future<void> speakbandy(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("bandy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys1(String languageCode) async {
+  Future<void> speakbandys1(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybandy extends StatelessWidget {
         "I couldn't help laughing at his bandy legs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys2(String languageCode) async {
+  Future<void> speakbandys2(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("speakBandys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys3(String languageCode) async {
+  Future<void> speakbandys3(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("speakBandys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys4(String languageCode) async {
+  Future<void> speakbandys4(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("speakBandys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys5(String languageCode) async {
+  Future<void> speakbandys5(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("speakBandys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys6(String languageCode) async {
+  Future<void> speakbandys6(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybandy extends StatelessWidget {
     await flutterTts.speak("speakBandys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBandys7(String languageCode) async {
+  Future<void> speakbandys7(String languageCode) async {
     // DOPSUM: CHANGE speakBandy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybandy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbændi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBandy("en-GB"),
+                              onPressed: () => speakbandy("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybandy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbændi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBandy("en-US"),
+                              onPressed: () => speakbandy("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntrybandy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBandys1("en-GB"),
+                                    onPressed: () => speakbandys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBandys1(// REPLACE: bandy
+                                        speakbandys1(// REPLACE: bandy
                                             "en-US"),
                                   ),
                                 ],

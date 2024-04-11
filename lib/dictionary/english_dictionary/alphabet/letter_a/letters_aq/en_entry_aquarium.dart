@@ -17,7 +17,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAquarium(String languageCode) async {
+  Future<void> speakaquarium(String languageCode) async {
     // DOPSUM: CHANGE speakAquarium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaquarium extends StatelessWidget {
     await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquarium922(String languageCode) async {
+  Future<void> speakaquarium922(String languageCode) async {
     // DOPSUM: CHANGE speakAquarium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaquarium extends StatelessWidget {
         "The aquarium has some interesting specimens of unusual fish."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquarium926(String languageCode) async {
+  Future<void> speakaquarium926(String languageCode) async {
     // DOPSUM: CHANGE speakAquarium
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryaquarium extends StatelessWidget {
         .speak("We went to the aquarium last week."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   //   await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   //   await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   //   await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   //   await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryaquarium extends StatelessWidget {
   //   await flutterTts.speak("aquarium"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquarium(String languageCode) async {
+  // Future<void> speakaquarium(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquarium
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryaquarium extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈkweəriəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAquarium("en-GB"),
+                              onPressed: () => speakaquarium("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryaquarium extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkweriəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAquarium("en-US"),
+                              onPressed: () => speakaquarium("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryaquarium extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAquarium922("en-GB"),
+                                    onPressed: () => speakaquarium922("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquarium922(
+                                    onPressed: () => speakaquarium922(
                                         // REPLACE: aquarium /əˈkweriəm/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryaquarium extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAquarium926("en-GB"),
+                                    onPressed: () => speakaquarium926("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquarium926(
+                                    onPressed: () => speakaquarium926(
                                         // REPLACE: aquarium /əˈkweriəm/
                                         "en-US"),
                                   ),

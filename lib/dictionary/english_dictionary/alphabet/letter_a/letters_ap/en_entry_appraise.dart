@@ -17,7 +17,7 @@ class EnglishEntryappraise extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppraise(String languageCode) async {
+  Future<void> speakappraise(String languageCode) async {
     // DOPSUM: CHANGE speakAppraise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappraise extends StatelessWidget {
     await flutterTts.speak("appraise"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppraise910(String languageCode) async {
+  Future<void> speakappraise910(String languageCode) async {
     // DOPSUM: CHANGE speakAppraise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappraise extends StatelessWidget {
         "The architect gave the exterior an appraising glance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppraise913(String languageCode) async {
+  Future<void> speakappraise913(String languageCode) async {
     // DOPSUM: CHANGE speakAppraise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappraise extends StatelessWidget {
         "They appraised the painting at £200 000."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppraise915(String languageCode) async {
+  Future<void> speakappraise915(String languageCode) async {
     // DOPSUM: CHANGE speakAppraise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappraise extends StatelessWidget {
         .speak("Managers must appraise all staff."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppraise(String languageCode) async {
+  // Future<void> speakappraise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppraise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryappraise extends StatelessWidget {
   //   await flutterTts.speak("appraise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraise(String languageCode) async {
+  // Future<void> speakappraise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppraise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryappraise extends StatelessWidget {
   //   await flutterTts.speak("appraise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraise(String languageCode) async {
+  // Future<void> speakappraise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppraise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryappraise extends StatelessWidget {
   //   await flutterTts.speak("appraise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraise(String languageCode) async {
+  // Future<void> speakappraise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppraise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryappraise extends StatelessWidget {
   //   await flutterTts.speak("appraise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraise(String languageCode) async {
+  // Future<void> speakappraise(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppraise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryappraise extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpreɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppraise("en-GB"),
+                              onPressed: () => speakappraise("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryappraise extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpreɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppraise("en-US"),
+                              onPressed: () => speakappraise("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryappraise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppraise910("en-GB"),
+                                    onPressed: () => speakappraise910("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppraise910(
+                                    onPressed: () => speakappraise910(
                                         // REPLACE: appraise /əˈpreɪz/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryappraise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppraise913("en-GB"),
+                                    onPressed: () => speakappraise913("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppraise913(
+                                    onPressed: () => speakappraise913(
                                         // REPLACE: appraise /əˈpreɪz/
                                         "en-US"),
                                   ),
@@ -244,10 +244,10 @@ class EnglishEntryappraise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppraise915("en-GB"),
+                                    onPressed: () => speakappraise915("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppraise915(
+                                    onPressed: () => speakappraise915(
                                         // REPLACE: appraise /əˈpreɪz/
                                         "en-US"),
                                   ),

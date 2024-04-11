@@ -19,7 +19,7 @@ class EnglishEntryaxle extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAxle(String languageCode) async {
+  Future<void> speakaxle(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("axle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles1(String languageCode) async {
+  Future<void> speakaxles1(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaxle extends StatelessWidget {
         "The mechanic carefully greased the car's axles to prevent friction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles2(String languageCode) async {
+  Future<void> speakaxles2(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("speakAxles22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles3(String languageCode) async {
+  Future<void> speakaxles3(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("speakAxles33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles4(String languageCode) async {
+  Future<void> speakaxles4(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("speakAxles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles5(String languageCode) async {
+  Future<void> speakaxles5(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("speakAxles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles6(String languageCode) async {
+  Future<void> speakaxles6(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaxle extends StatelessWidget {
     await flutterTts.speak("speakAxles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxles7(String languageCode) async {
+  Future<void> speakaxles7(String languageCode) async {
     // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryaxle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæksl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAxle("en-GB"),
+                              onPressed: () => speakaxle("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryaxle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxle("en-US"),
+                              onPressed: () => speakaxle("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntryaxle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxles1("en-GB"),
+                                    onPressed: () => speakaxles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxles1(// REPLACE: axle
+                                        speakaxles1(// REPLACE: axle
                                             "en-US"),
                                   ),
                                 ],

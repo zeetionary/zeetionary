@@ -17,7 +17,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArithmetical(String languageCode) async {
+  Future<void> speakarithmetical(String languageCode) async {
     // DOPSUM: CHANGE speakArithmetical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
     await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArithmetical100(String languageCode) async {
+  Future<void> speakarithmetical100(String languageCode) async {
     // DOPSUM: CHANGE speakArithmetical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
         "Figuring the amount is a simple arithmetical calculation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
   //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArithmetical(String languageCode) async {
+  // Future<void> speakarithmetical(String languageCode) async {
   //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌærɪθˈmetɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArithmetical("en-GB"),
+                              onPressed: () => speakarithmetical("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarithmetical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌærɪθˈmetɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArithmetical("en-US"),
+                              onPressed: () => speakarithmetical("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryarithmetical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArithmetical100("en-GB"),
+                                        speakarithmetical100("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArithmetical100(
+                                    onPressed: () => speakarithmetical100(
                                         // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
                                         "en-US"),
                                   ),

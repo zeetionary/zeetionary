@@ -11,7 +11,7 @@ class EnglishEntryacrylic extends StatelessWidget {
   EnglishEntryacrylic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcrylic(String languageCode) async {
+  Future<void> speakacrylic(String languageCode) async {
     // DOPSUM: CHANGE speakAcrylic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacrylic extends StatelessWidget {
     await flutterTts.speak("acrylic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcryl1256(String languageCode) async {
+  Future<void> speakacryl1256(String languageCode) async {
     // DOPSUM: CHANGE speakAcrylic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryacrylic extends StatelessWidget {
     await flutterTts.speak("an acrylic sweater"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcry4289(String languageCode) async {
+  Future<void> speakacry4289(String languageCode) async {
     // DOPSUM: CHANGE speakAcrylic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryacrylic extends StatelessWidget {
     await flutterTts.speak("acrylic paint"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcrylic(String languageCode) async {
+  // Future<void> speakacrylic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcrylic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkrɪlɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcrylic("en-GB"),
+                              onPressed: () => speakacrylic("en-GB"),
                             ),
                           ],
                         ),
@@ -80,7 +80,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkrɪlɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcrylic("en-US"),
+                              onPressed: () => speakacrylic("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryacrylic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcryl1256("en-GB"),
+                                    onPressed: () => speakacryl1256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcryl1256(
+                                    onPressed: () => speakacryl1256(
                                         "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                                   ),
                                 ],
@@ -156,10 +156,10 @@ class EnglishEntryacrylic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcry4289("en-GB"),
+                                    onPressed: () => speakacry4289("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcry4289(
+                                    onPressed: () => speakacry4289(
                                         "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                                   ),
                                 ],

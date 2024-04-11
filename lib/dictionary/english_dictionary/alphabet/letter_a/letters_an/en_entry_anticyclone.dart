@@ -13,7 +13,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticyclone(String languageCode) async {
+  Future<void> speakanticyclone(String languageCode) async {
     // DOPSUM: CHANGE speakAnticyclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
     await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticyclone955(String languageCode) async {
+  Future<void> speakanticyclone955(String languageCode) async {
     // DOPSUM: CHANGE speakAnticyclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
         "The anticyclone brought bright sunshine and calm conditions to most areas."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
   //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticyclone(String languageCode) async {
+  // Future<void> speakanticyclone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈsaɪkləʊn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticyclone("en-GB"),
+                              onPressed: () => speakanticyclone("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticyclone("en-US"),
+                              onPressed: () => speakanticyclone("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnticyclone955("en-GB"),
+                                        speakanticyclone955("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnticyclone955(
+                                    onPressed: () => speakanticyclone955(
                                         // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/
                                         "en-US"),
                                   ),

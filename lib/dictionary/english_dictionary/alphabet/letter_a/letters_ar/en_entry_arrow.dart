@@ -19,7 +19,7 @@ class EnglishEntryarrow extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArrow(String languageCode) async {
+  Future<void> speakarrow(String languageCode) async {
     // DOPSUM: CHANGE speakArrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrow745(String languageCode) async {
+  Future<void> speakarrow745(String languageCode) async {
     // DOPSUM: CHANGE speakArrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarrow extends StatelessWidget {
         "She aimed carefully at the tree but the arrow missed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrow746(String languageCode) async {
+  Future<void> speakarrow746(String languageCode) async {
     // DOPSUM: CHANGE speakArrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarrow extends StatelessWidget {
         "The people used bows and arrows for hunting."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrow750(String languageCode) async {
+  Future<void> speakarrow750(String languageCode) async {
     // DOPSUM: CHANGE speakArrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryarrow extends StatelessWidget {
     await flutterTts.speak("Follow the arrows."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArrow(String languageCode) async {
+  // Future<void> speakarrow(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
+  // Future<void> speakarrow(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
+  // Future<void> speakarrow(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
+  // Future<void> speakarrow(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryarrow extends StatelessWidget {
   //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
+  // Future<void> speakarrow(String languageCode) async {
   //   // DOPSUM: CHANGE speakArrow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArrow("en-GB"),
+                              onPressed: () => speakarrow("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArrow("en-US"),
+                              onPressed: () => speakarrow("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrow745("en-GB"),
+                                    onPressed: () => speakarrow745("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArrow745(// REPLACE: arrow /ˈærəʊ/
+                                        speakarrow745(// REPLACE: arrow /ˈærəʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -214,11 +214,11 @@ class EnglishEntryarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrow746("en-GB"),
+                                    onPressed: () => speakarrow746("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArrow746(// REPLACE: arrow /ˈærəʊ/
+                                        speakarrow746(// REPLACE: arrow /ˈærəʊ/
                                             "en-US"),
                                   ),
                                 ],
@@ -245,11 +245,11 @@ class EnglishEntryarrow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrow750("en-GB"),
+                                    onPressed: () => speakarrow750("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArrow750(// REPLACE: arrow /ˈærəʊ/
+                                        speakarrow750(// REPLACE: arrow /ˈærəʊ/
                                             "en-US"),
                                   ),
                                 ],

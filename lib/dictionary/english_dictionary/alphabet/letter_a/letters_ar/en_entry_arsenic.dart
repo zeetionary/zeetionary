@@ -19,7 +19,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArsenic(String languageCode) async {
+  Future<void> speakarsenic(String languageCode) async {
     // DOPSUM: CHANGE speakArsenic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarsenic extends StatelessWidget {
     await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArsenic900(String languageCode) async {
+  Future<void> speakarsenic900(String languageCode) async {
     // DOPSUM: CHANGE speakArsenic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarsenic extends StatelessWidget {
         "The doctor found traces of arsenic in his body."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarsenic extends StatelessWidget {
   //   await flutterTts.speak("arsenic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenic(String languageCode) async {
+  // Future<void> speakarsenic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarsenic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːsnɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArsenic("en-GB"),
+                              onPressed: () => speakarsenic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarsenic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrsnɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArsenic("en-US"),
+                              onPressed: () => speakarsenic("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryarsenic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArsenic900("en-GB"),
+                                    onPressed: () => speakarsenic900("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArsenic900(
+                                    onPressed: () => speakarsenic900(
                                         // REPLACE: arsenic /ˈɑːrsnɪk/
                                         "en-US"),
                                   ),

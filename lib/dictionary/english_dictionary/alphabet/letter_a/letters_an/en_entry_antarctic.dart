@@ -13,7 +13,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntarctic(String languageCode) async {
+  Future<void> speakantarctic(String languageCode) async {
     // DOPSUM: CHANGE speakAntarctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantarctic extends StatelessWidget {
     await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntarctic134(String languageCode) async {
+  Future<void> speakantarctic134(String languageCode) async {
     // DOPSUM: CHANGE speakAntarctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantarctic extends StatelessWidget {
         "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntarctic136(String languageCode) async {
+  Future<void> speakantarctic136(String languageCode) async {
     // DOPSUM: CHANGE speakAntarctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryantarctic extends StatelessWidget {
         "Scientists went on an Antarctic expedition to study penguins and ice."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryantarctic extends StatelessWidget {
   //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarctic(String languageCode) async {
+  // Future<void> speakantarctic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɑːktɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntarctic("en-GB"),
+                              onPressed: () => speakantarctic("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɑːrktɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntarctic("en-US"),
+                              onPressed: () => speakantarctic("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntryantarctic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntarctic134("en-GB"),
+                                    onPressed: () => speakantarctic134("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntarctic134(
+                                    onPressed: () => speakantarctic134(
                                         // REPLACE: Antarctic /ænˈtɑːrktɪk/
                                         "en-US"),
                                   ),
@@ -206,10 +206,10 @@ class EnglishEntryantarctic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntarctic136("en-GB"),
+                                    onPressed: () => speakantarctic136("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntarctic136(
+                                    onPressed: () => speakantarctic136(
                                         // REPLACE: Antarctic /ænˈtɑːrktɪk/
                                         "en-US"),
                                   ),

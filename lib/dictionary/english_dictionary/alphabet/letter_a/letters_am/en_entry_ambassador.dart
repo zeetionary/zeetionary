@@ -11,7 +11,7 @@ class EnglishEntryambassador extends StatelessWidget {
   EnglishEntryambassador({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbassador(String languageCode) async {
+  Future<void> speakambassador(String languageCode) async {
     // DOPSUM: CHANGE speakAmbassador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambassador extends StatelessWidget {
     await flutterTts.speak("ambassador"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbassador56661(String languageCode) async {
+  Future<void> speakambassador56661(String languageCode) async {
     // DOPSUM: CHANGE speakAmbassador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambassador extends StatelessWidget {
         "The US ambassador to Egypt was recalled to Washington in protest."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbassador8(String languageCode) async {
+  Future<void> speakambassador8(String languageCode) async {
     // DOPSUM: CHANGE speakAmbassador
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryambassador extends StatelessWidget {
         "He's former ambassador of Germany to the UN."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmbassador(String languageCode) async {
+  // Future<void> speakambassador(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbassador
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbæsədə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbassador("en-GB"),
+                              onPressed: () => speakambassador("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbæsədər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbassador("en-US"),
+                              onPressed: () => speakambassador("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryambassador extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbassador56661("en-GB"),
+                                        speakambassador56661("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbassador56661(
+                                    onPressed: () => speakambassador56661(
                                         // REPLACE: ambassador /æmˈbæsədər/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryambassador extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmbassador8("en-GB"),
+                                    onPressed: () => speakambassador8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbassador8(
+                                    onPressed: () => speakambassador8(
                                         // REPLACE: ambassador /æmˈbæsədər/
                                         "en-US"),
                                   ),

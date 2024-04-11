@@ -11,7 +11,7 @@ class EnglishEntryalmanac extends StatelessWidget {
   EnglishEntryalmanac({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlmanac(String languageCode) async {
+  Future<void> speakalmanac(String languageCode) async {
     // DOPSUM: CHANGE speakAlmanac
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalmanac extends StatelessWidget {
     await flutterTts.speak("almanac"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmanac4932(String languageCode) async {
+  Future<void> speakalmanac4932(String languageCode) async {
     // DOPSUM: CHANGE speakAlmanac
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalmanac extends StatelessWidget {
         "The almanac says there will be above normal rainfall in the first half of the winter in California."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlmanac(String languageCode) async {
+  // Future<void> speakalmanac(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlmanac
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalmanac extends StatelessWidget {
   //   await flutterTts.speak("almanac"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlmanac(String languageCode) async {
+  // Future<void> speakalmanac(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlmanac
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                             const Text(
                                 "IpaUK:  /ˈɔːlmənæk/, /ˈælmənæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlmanac("en-GB"),
+                              onPressed: () => speakalmanac("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlmənæk/, /ˈælmənæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmanac("en-US"),
+                              onPressed: () => speakalmanac("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryalmanac extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmanac4932("en-GB"),
+                                    onPressed: () => speakalmanac4932("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmanac4932(
+                                    onPressed: () => speakalmanac4932(
                                         // REPLACE: almanac  /ˈɔːlmənæk/, /ˈælmənæk/
                                         "en-US"),
                                   ),

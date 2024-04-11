@@ -15,7 +15,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntiquity(String languageCode) async {
+  Future<void> speakantiquity(String languageCode) async {
     // DOPSUM: CHANGE speakAntiquity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantiquity extends StatelessWidget {
     await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiquity1151(String languageCode) async {
+  Future<void> speakantiquity1151(String languageCode) async {
     // DOPSUM: CHANGE speakAntiquity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantiquity extends StatelessWidget {
         "The statue was brought to Rome in antiquity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiquity1156(String languageCode) async {
+  Future<void> speakantiquity1156(String languageCode) async {
     // DOPSUM: CHANGE speakAntiquity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryantiquity extends StatelessWidget {
         "Archaeologists found 40 bodies of varying antiquity in the area."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiquity1159(String languageCode) async {
+  Future<void> speakantiquity1159(String languageCode) async {
     // DOPSUM: CHANGE speakAntiquity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryantiquity extends StatelessWidget {
         "Under Greek law, all antiquities that are discovered in Greece belong to the government."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntiquity(String languageCode) async {
+  // Future<void> speakantiquity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiquity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiquity(String languageCode) async {
+  // Future<void> speakantiquity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiquity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiquity(String languageCode) async {
+  // Future<void> speakantiquity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiquity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiquity(String languageCode) async {
+  // Future<void> speakantiquity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiquity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryantiquity extends StatelessWidget {
   //   await flutterTts.speak("antiquity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiquity(String languageCode) async {
+  // Future<void> speakantiquity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiquity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɪkwəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiquity("en-GB"),
+                              onPressed: () => speakantiquity("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɪkwəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiquity("en-US"),
+                              onPressed: () => speakantiquity("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiquity1151("en-GB"),
+                                        speakantiquity1151("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiquity1151(
+                                    onPressed: () => speakantiquity1151(
                                         // REPLACE: antiquity /ænˈtɪkwəti/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiquity1156("en-GB"),
+                                        speakantiquity1156("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiquity1156(
+                                    onPressed: () => speakantiquity1156(
                                         // REPLACE: antiquity /ænˈtɪkwəti/
                                         "en-US"),
                                   ),
@@ -249,10 +249,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiquity1159("en-GB"),
+                                        speakantiquity1159("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiquity1159(
+                                    onPressed: () => speakantiquity1159(
                                         // REPLACE: antiquity /ænˈtɪkwəti/
                                         "en-US"),
                                   ),

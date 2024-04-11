@@ -19,7 +19,7 @@ class EnglishEntrybilliards extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBilliards(String languageCode) async {
+  Future<void> speakbilliards(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("billiards"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss1(String languageCode) async {
+  Future<void> speakbilliardss1(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybilliards extends StatelessWidget {
         "He enjoys billiards because it offers a mix of strategy and physical skill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss2(String languageCode) async {
+  Future<void> speakbilliardss2(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("speakBilliardss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss3(String languageCode) async {
+  Future<void> speakbilliardss3(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("speakBilliardss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss4(String languageCode) async {
+  Future<void> speakbilliardss4(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("speakBilliardss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss5(String languageCode) async {
+  Future<void> speakbilliardss5(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("speakBilliardss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss6(String languageCode) async {
+  Future<void> speakbilliardss6(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybilliards extends StatelessWidget {
     await flutterTts.speak("speakBilliardss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilliardss7(String languageCode) async {
+  Future<void> speakbilliardss7(String languageCode) async {
     // DOPSUM: CHANGE speakBilliards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybilliards extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪliədz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBilliards("en-GB"),
+                              onPressed: () => speakbilliards("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybilliards extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪljərdz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBilliards("en-US"),
+                              onPressed: () => speakbilliards("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybilliards extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilliardss1("en-GB"),
+                                    onPressed: () => speakbilliardss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilliardss1("en-US"),
+                                    onPressed: () => speakbilliardss1("en-US"),
                                   ),
                                 ],
                               ),

@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakabnormals1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA25(String languageCode) async {
+  Future<void> speaka25(String languageCode) async {
     // DOPSUM: CHANGE speakAbnormal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         "The ship was blown off course by abnormal weather conditions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA91(String languageCode) async {
+  Future<void> speaka91(String languageCode) async {
     // DOPSUM: CHANGE speakAbnormal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
         "They thought his behaviour was abnormal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb24(String languageCode) async {
+  Future<void> speakab24(String languageCode) async {
     // DOPSUM: CHANGE speakAbnormal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -379,10 +379,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAb24("en-GB"),
+                    onPressed: () => speakab24("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAb24("en-US"),
+                    onPressed: () => speakab24("en-US"),
                   ),
                 ],
               ),
@@ -405,10 +405,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA91("en-GB"),
+                    onPressed: () => speaka91("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA91("en-US"),
+                    onPressed: () => speaka91("en-US"),
                   ),
                 ],
               ),
@@ -433,10 +433,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA25("en-GB"),
+                    onPressed: () => speaka25("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA25("en-US"),
+                    onPressed: () => speaka25("en-US"),
                   ),
                 ],
               ),

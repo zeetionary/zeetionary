@@ -19,7 +19,7 @@ class EnglishEntrybillion extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBillion(String languageCode) async {
+  Future<void> speakbillion(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybillion extends StatelessWidget {
     await flutterTts.speak("billion"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions1(String languageCode) async {
+  Future<void> speakbillions1(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybillion extends StatelessWidget {
         .speak("Worldwide sales reached 2.5 billion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions2(String languageCode) async {
+  Future<void> speakbillions2(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybillion extends StatelessWidget {
         "They have spent billions of dollars on the problem."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions3(String languageCode) async {
+  Future<void> speakbillions3(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybillion extends StatelessWidget {
         "Our immune systems are killing billions of germs right now."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions4(String languageCode) async {
+  Future<void> speakbillions4(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybillion extends StatelessWidget {
     await flutterTts.speak("speakBillions44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions5(String languageCode) async {
+  Future<void> speakbillions5(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybillion extends StatelessWidget {
     await flutterTts.speak("speakBillions55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions6(String languageCode) async {
+  Future<void> speakbillions6(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybillion extends StatelessWidget {
     await flutterTts.speak("speakBillions66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillions7(String languageCode) async {
+  Future<void> speakbillions7(String languageCode) async {
     // DOPSUM: CHANGE speakBillion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybillion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪljən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBillion("en-GB"),
+                              onPressed: () => speakbillion("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybillion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪljən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBillion("en-US"),
+                              onPressed: () => speakbillion("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybillion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillions1("en-GB"),
+                                    onPressed: () => speakbillions1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillions1("en-US"),
+                                    onPressed: () => speakbillions1("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +198,10 @@ class EnglishEntrybillion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillions2("en-GB"),
+                                    onPressed: () => speakbillions2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillions2("en-US"),
+                                    onPressed: () => speakbillions2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybillion extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillions3("en-GB"),
+                                    onPressed: () => speakbillions3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillions3("en-US"),
+                                    onPressed: () => speakbillions3("en-US"),
                                   ),
                                 ],
                               ),

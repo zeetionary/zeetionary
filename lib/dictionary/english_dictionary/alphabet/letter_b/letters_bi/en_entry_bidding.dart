@@ -19,7 +19,7 @@ class EnglishEntrybidding extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBidding(String languageCode) async {
+  Future<void> speakbidding(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybidding extends StatelessWidget {
     await flutterTts.speak("bidding"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings1(String languageCode) async {
+  Future<void> speakbiddings1(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybidding extends StatelessWidget {
         "Several companies remained in the bidding."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings2(String languageCode) async {
+  Future<void> speakbiddings2(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybidding extends StatelessWidget {
         "There was fierce competitive bidding for the contract."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings3(String languageCode) async {
+  Future<void> speakbiddings3(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybidding extends StatelessWidget {
         "At his father’s bidding he wrote to his lawyer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings4(String languageCode) async {
+  Future<void> speakbiddings4(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybidding extends StatelessWidget {
     await flutterTts.speak("speakBiddings44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings5(String languageCode) async {
+  Future<void> speakbiddings5(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybidding extends StatelessWidget {
     await flutterTts.speak("speakBiddings55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings6(String languageCode) async {
+  Future<void> speakbiddings6(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybidding extends StatelessWidget {
     await flutterTts.speak("speakBiddings66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiddings7(String languageCode) async {
+  Future<void> speakbiddings7(String languageCode) async {
     // DOPSUM: CHANGE speakBidding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybidding extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪdɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBidding("en-GB"),
+                              onPressed: () => speakbidding("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybidding extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪdɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBidding("en-US"),
+                              onPressed: () => speakbidding("en-US"),
                             ),
                           ],
                         ),
@@ -167,10 +167,10 @@ class EnglishEntrybidding extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiddings1("en-GB"),
+                                    onPressed: () => speakbiddings1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiddings1("en-US"),
+                                    onPressed: () => speakbiddings1("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +198,10 @@ class EnglishEntrybidding extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiddings2("en-GB"),
+                                    onPressed: () => speakbiddings2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiddings2("en-US"),
+                                    onPressed: () => speakbiddings2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybidding extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiddings3("en-GB"),
+                                    onPressed: () => speakbiddings3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiddings3("en-US"),
+                                    onPressed: () => speakbiddings3("en-US"),
                                   ),
                                 ],
                               ),

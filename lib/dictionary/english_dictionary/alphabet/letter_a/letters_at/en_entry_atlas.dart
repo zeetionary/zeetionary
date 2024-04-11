@@ -19,7 +19,7 @@ class EnglishEntryatlas extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtlas(String languageCode) async {
+  Future<void> speakatlas(String languageCode) async {
     // DOPSUM: CHANGE speakAtlas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatlas extends StatelessWidget {
     await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtlas839(String languageCode) async {
+  Future<void> speakatlas839(String languageCode) async {
     // DOPSUM: CHANGE speakAtlas
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatlas extends StatelessWidget {
         "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatlas extends StatelessWidget {
   //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
+  // Future<void> speakatlas(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtlas
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈætləs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtlas("en-GB"),
+                              onPressed: () => speakatlas("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈætləs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtlas("en-US"),
+                              onPressed: () => speakatlas("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryatlas extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtlas839("en-GB"),
+                                    onPressed: () => speakatlas839("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtlas839(// REPLACE: atlas
+                                        speakatlas839(// REPLACE: atlas
                                             "en-US"),
                                   ),
                                 ],

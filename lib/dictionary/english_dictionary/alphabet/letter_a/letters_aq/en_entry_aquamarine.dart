@@ -17,7 +17,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAquamarine(String languageCode) async {
+  Future<void> speakaquamarine(String languageCode) async {
     // DOPSUM: CHANGE speakAquamarine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
     await flutterTts.speak("aquamarine"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquamarine857(String languageCode) async {
+  Future<void> speakaquamarine857(String languageCode) async {
     // DOPSUM: CHANGE speakAquamarine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
         "Beads made of aquamarine can bring luck in love."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquamarine902(String languageCode) async {
+  Future<void> speakaquamarine902(String languageCode) async {
     // DOPSUM: CHANGE speakAquamarine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
         "The television screen became a rectangle of icy aquamarine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquamarine905(String languageCode) async {
+  Future<void> speakaquamarine905(String languageCode) async {
     // DOPSUM: CHANGE speakAquamarine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
         "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAquamarine(String languageCode) async {
+  // Future<void> speakaquamarine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquamarine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
   //   await flutterTts.speak("aquamarine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquamarine(String languageCode) async {
+  // Future<void> speakaquamarine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquamarine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
   //   await flutterTts.speak("aquamarine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquamarine(String languageCode) async {
+  // Future<void> speakaquamarine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquamarine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
   //   await flutterTts.speak("aquamarine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquamarine(String languageCode) async {
+  // Future<void> speakaquamarine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquamarine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
   //   await flutterTts.speak("aquamarine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquamarine(String languageCode) async {
+  // Future<void> speakaquamarine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquamarine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌækwəməˈriːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAquamarine("en-GB"),
+                              onPressed: () => speakaquamarine("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːkwəməˈriːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAquamarine("en-US"),
+                              onPressed: () => speakaquamarine("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAquamarine857("en-GB"),
+                                        speakaquamarine857("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquamarine857(
+                                    onPressed: () => speakaquamarine857(
                                         // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAquamarine902("en-GB"),
+                                        speakaquamarine902("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquamarine902(
+                                    onPressed: () => speakaquamarine902(
                                         // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAquamarine905("en-GB"),
+                                        speakaquamarine905("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquamarine905(
+                                    onPressed: () => speakaquamarine905(
                                         // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                         "en-US"),
                                   ),

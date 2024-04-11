@@ -19,7 +19,7 @@ class EnglishEntryaye extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAye(String languageCode) async {
+  Future<void> speakaye(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaye extends StatelessWidget {
     await flutterTts.speak("aye"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes1(String languageCode) async {
+  Future<void> speakayes1(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaye extends StatelessWidget {
         "‘Did you see what happened?’ ‘Oh aye, I was there.’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes2(String languageCode) async {
+  Future<void> speakayes2(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaye extends StatelessWidget {
         .speak("I have aye wanted to see London."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes3(String languageCode) async {
+  Future<void> speakayes3(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryaye extends StatelessWidget {
     await flutterTts.speak("speakAyes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes4(String languageCode) async {
+  Future<void> speakayes4(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryaye extends StatelessWidget {
     await flutterTts.speak("speakAyes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes5(String languageCode) async {
+  Future<void> speakayes5(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryaye extends StatelessWidget {
     await flutterTts.speak("speakAyes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes6(String languageCode) async {
+  Future<void> speakayes6(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryaye extends StatelessWidget {
     await flutterTts.speak("speakAyes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAyes7(String languageCode) async {
+  Future<void> speakayes7(String languageCode) async {
     // DOPSUM: CHANGE speakAye
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryaye extends StatelessWidget {
                                 text:
                                     "IpaUK: /aɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAye("en-GB"),
+                              onPressed: () => speakaye("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryaye extends StatelessWidget {
                                 text:
                                     "IpaUS: /aɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAye("en-US"),
+                              onPressed: () => speakaye("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntryaye extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAyes1("en-GB"),
+                                    onPressed: () => speakayes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAyes1(// REPLACE: aye
+                                    onPressed: () => speakayes1(// REPLACE: aye
                                         "en-US"),
                                   ),
                                 ],
@@ -203,10 +203,10 @@ class EnglishEntryaye extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAyes2("en-GB"),
+                                    onPressed: () => speakayes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAyes2(// REPLACE: aye
+                                    onPressed: () => speakayes2(// REPLACE: aye
                                         "en-US"),
                                   ),
                                 ],

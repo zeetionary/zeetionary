@@ -11,7 +11,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   EnglishEntryacknowledge({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcknowledge(String languageCode) async {
+  Future<void> speakacknowledge(String languageCode) async {
     // DOPSUM: CHANGE speakAcknowledge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
     await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAckn1254(String languageCode) async {
+  Future<void> speakackn1254(String languageCode) async {
     // DOPSUM: CHANGE speakAcknowledge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
         "I have to acknowledge the fact that I am partly responsible."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAckn1427(String languageCode) async {
+  Future<void> speakackn1427(String languageCode) async {
     // DOPSUM: CHANGE speakAcknowledge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
         "He does not acknowledge that he has done anything wrong."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAckn12569(String languageCode) async {
+  Future<void> speakackn12569(String languageCode) async {
     // DOPSUM: CHANGE speakAcknowledge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
         "He is widely acknowledged as the best player in the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAckn647(String languageCode) async {
+  Future<void> speakackn647(String languageCode) async {
     // DOPSUM: CHANGE speakAcknowledge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
         .speak("All applications will be acknowledged."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcknowledge(String languageCode) async {
+  // Future<void> speakacknowledge(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcknowledge
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   //   await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcknowledge(String languageCode) async {
+  // Future<void> speakacknowledge(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcknowledge
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
   //   await flutterTts.speak("acknowledge"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcknowledge(String languageCode) async {
+  // Future<void> speakacknowledge(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcknowledge
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˈnɒlɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcknowledge("en-GB"),
+                              onPressed: () => speakacknowledge("en-GB"),
                             ),
                           ],
                         ),
@@ -116,7 +116,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˈnɑːlɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcknowledge("en-US"),
+                              onPressed: () => speakacknowledge("en-US"),
                             ),
                           ],
                         ),
@@ -162,10 +162,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAckn1254("en-GB"),
+                                    onPressed: () => speakackn1254("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAckn1254(
+                                    onPressed: () => speakackn1254(
                                         "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],
@@ -191,10 +191,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAckn1427("en-GB"),
+                                    onPressed: () => speakackn1427("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAckn1427(
+                                    onPressed: () => speakackn1427(
                                         "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],
@@ -222,10 +222,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAckn12569("en-GB"),
+                                    onPressed: () => speakackn12569("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAckn12569(
+                                    onPressed: () => speakackn12569(
                                         "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],
@@ -253,10 +253,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAckn647("en-GB"),
+                                    onPressed: () => speakackn647("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAckn647(
+                                    onPressed: () => speakackn647(
                                         "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                                   ),
                                 ],

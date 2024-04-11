@@ -19,7 +19,7 @@ class EnglishEntryazure extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAzure(String languageCode) async {
+  Future<void> speakazure(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.speak("azure"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures1(String languageCode) async {
+  Future<void> speakazures1(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryazure extends StatelessWidget {
         "The sun shone out of a clear azure sky."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures2(String languageCode) async {
+  Future<void> speakazures2(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryazure extends StatelessWidget {
         "He was captivated by the azure of the woman's eyes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures3(String languageCode) async {
+  Future<void> speakazures3(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.speak("speakAzures33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures4(String languageCode) async {
+  Future<void> speakazures4(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.speak("speakAzures44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures5(String languageCode) async {
+  Future<void> speakazures5(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.speak("speakAzures55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures6(String languageCode) async {
+  Future<void> speakazures6(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryazure extends StatelessWidget {
     await flutterTts.speak("speakAzures66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAzures7(String languageCode) async {
+  Future<void> speakazures7(String languageCode) async {
     // DOPSUM: CHANGE speakAzure
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryazure extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæʒə(r)/, /ˈæzjʊə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAzure("en-GB"),
+                              onPressed: () => speakazure("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryazure extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæʒər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAzure("en-US"),
+                              onPressed: () => speakazure("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntryazure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAzures1("en-GB"),
+                                    onPressed: () => speakazures1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAzures1(// REPLACE: azure
+                                        speakazures1(// REPLACE: azure
                                             "en-US"),
                                   ),
                                 ],
@@ -205,11 +205,11 @@ class EnglishEntryazure extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAzures2("en-GB"),
+                                    onPressed: () => speakazures2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAzures2(// REPLACE: azure
+                                        speakazures2(// REPLACE: azure
                                             "en-US"),
                                   ),
                                 ],

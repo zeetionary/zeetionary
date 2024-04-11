@@ -11,7 +11,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   EnglishEntryamericanfootball({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmericanfootball(String languageCode) async {
+  Future<void> speakamericanfootball(String languageCode) async {
     // DOPSUM: CHANGE speakAmericanfootball
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
     await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmericanfootball45777(String languageCode) async {
+  Future<void> speakamericanfootball45777(String languageCode) async {
     // DOPSUM: CHANGE speakAmericanfootball
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
         "American Football doesn't interest me at all."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   //   await flutterTts.speak("American football"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmericanfootball(String languageCode) async {
+  // Future<void> speakamericanfootball(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmericanfootball
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌmerɪkən ˈfʊtbɔːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmericanfootball("en-GB"),
+                              onPressed: () => speakamericanfootball("en-GB"),
                             ),
                           ],
                         ),
@@ -150,7 +150,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌmerɪkən ˈfʊtbɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmericanfootball("en-US"),
+                              onPressed: () => speakamericanfootball("en-US"),
                             ),
                           ],
                         ),
@@ -197,10 +197,10 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmericanfootball45777("en-GB"),
+                                        speakamericanfootball45777("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmericanfootball45777(
+                                    onPressed: () => speakamericanfootball45777(
                                         // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryangling extends StatelessWidget {
   EnglishEntryangling({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAngling(String languageCode) async {
+  Future<void> speakangling(String languageCode) async {
     // DOPSUM: CHANGE speakAngling
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryangling extends StatelessWidget {
     await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngling558(String languageCode) async {
+  Future<void> speakangling558(String languageCode) async {
     // DOPSUM: CHANGE speakAngling
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryangling extends StatelessWidget {
         "On weekends, they often go angling by the lake."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryangling extends StatelessWidget {
   //   await flutterTts.speak("angling"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngling(String languageCode) async {
+  // Future<void> speakangling(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngling
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryangling extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋɡlɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAngling("en-GB"),
+                              onPressed: () => speakangling("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryangling extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋɡlɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAngling("en-US"),
+                              onPressed: () => speakangling("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntryangling extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngling558("en-GB"),
+                                    onPressed: () => speakangling558("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngling558(
+                                    onPressed: () => speakangling558(
                                         // REPLACE: angling /ˈæŋɡlɪŋ/
                                         "en-US"),
                                   ),

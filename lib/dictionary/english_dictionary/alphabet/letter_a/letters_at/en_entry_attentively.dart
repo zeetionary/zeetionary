@@ -19,7 +19,7 @@ class EnglishEntryattentively extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttentively(String languageCode) async {
+  Future<void> speakattentively(String languageCode) async {
     // DOPSUM: CHANGE speakAttentively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattentively extends StatelessWidget {
     await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttentively913(String languageCode) async {
+  Future<void> speakattentively913(String languageCode) async {
     // DOPSUM: CHANGE speakAttentively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattentively extends StatelessWidget {
         "The children listened attentively to the story."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttentively917(String languageCode) async {
+  Future<void> speakattentively917(String languageCode) async {
     // DOPSUM: CHANGE speakAttentively
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattentively extends StatelessWidget {
         "The landlady cared attentively for her residents."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattentively extends StatelessWidget {
   //   await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattentively extends StatelessWidget {
   //   await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattentively extends StatelessWidget {
   //   await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattentively extends StatelessWidget {
   //   await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattentively extends StatelessWidget {
   //   await flutterTts.speak("attentively"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentively(String languageCode) async {
+  // Future<void> speakattentively(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentively
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryattentively extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtentɪvli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttentively("en-GB"),
+                              onPressed: () => speakattentively("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryattentively extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtentɪvli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttentively("en-US"),
+                              onPressed: () => speakattentively("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryattentively extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttentively913("en-GB"),
+                                        speakattentively913("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttentively913(
+                                    onPressed: () => speakattentively913(
                                         // REPLACE: attentively
                                         "en-US"),
                                   ),
@@ -220,10 +220,10 @@ class EnglishEntryattentively extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttentively917("en-GB"),
+                                        speakattentively917("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttentively917(
+                                    onPressed: () => speakattentively917(
                                         // REPLACE: attentively
                                         "en-US"),
                                   ),

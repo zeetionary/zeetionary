@@ -19,7 +19,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutocratic(String languageCode) async {
+  Future<void> speakautocratic(String languageCode) async {
     // DOPSUM: CHANGE speakAutocratic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautocratic extends StatelessWidget {
     await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutocratic944(String languageCode) async {
+  Future<void> speakautocratic944(String languageCode) async {
     // DOPSUM: CHANGE speakAutocratic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautocratic extends StatelessWidget {
         "The president resigned after 30 years of autocratic rule."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutocratic952(String languageCode) async {
+  Future<void> speakautocratic952(String languageCode) async {
     // DOPSUM: CHANGE speakAutocratic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryautocratic extends StatelessWidget {
         "The autocratic boss micromanaged his employees and refused to consider their suggestions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   //   await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   //   await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   //   await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   //   await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   //   await flutterTts.speak("autocratic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocratic(String languageCode) async {
+  // Future<void> speakautocratic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocratic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutocratic("en-GB"),
+                              onPressed: () => speakautocratic("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutocratic("en-US"),
+                              onPressed: () => speakautocratic("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutocratic944("en-GB"),
+                                        speakautocratic944("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutocratic944(
+                                    onPressed: () => speakautocratic944(
                                         // REPLACE: autocratic
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutocratic952("en-GB"),
+                                        speakautocratic952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutocratic952(
+                                    onPressed: () => speakautocratic952(
                                         // REPLACE: autocratic
                                         "en-US"),
                                   ),

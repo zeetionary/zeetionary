@@ -19,7 +19,7 @@ class EnglishEntryassist extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssist(String languageCode) async {
+  Future<void> speakassist(String languageCode) async {
     // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassist extends StatelessWidget {
     await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssist848(String languageCode) async {
+  Future<void> speakassist848(String languageCode) async {
     // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassist extends StatelessWidget {
         "We are looking for people who would be willing to assist in the group's work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssist849(String languageCode) async {
+  Future<void> speakassist849(String languageCode) async {
     // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassist extends StatelessWidget {
         "His task is to advise and assist his colleagues."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssist852(String languageCode) async {
+  Future<void> speakassist852(String languageCode) async {
     // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassist extends StatelessWidget {
         "Volcanic eruptions like this probably assisted the development of life on this planet."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssist(String languageCode) async {
+  // Future<void> speakassist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryassist extends StatelessWidget {
   //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssist(String languageCode) async {
+  // Future<void> speakassist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryassist extends StatelessWidget {
   //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssist(String languageCode) async {
+  // Future<void> speakassist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryassist extends StatelessWidget {
   //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssist(String languageCode) async {
+  // Future<void> speakassist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryassist extends StatelessWidget {
   //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssist(String languageCode) async {
+  // Future<void> speakassist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryassist extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssist("en-GB"),
+                              onPressed: () => speakassist("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryassist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssist("en-US"),
+                              onPressed: () => speakassist("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryassist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssist848("en-GB"),
+                                    onPressed: () => speakassist848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssist848(
+                                    onPressed: () => speakassist848(
                                         // REPLACE: assist /əˈsɪst/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryassist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssist849("en-GB"),
+                                    onPressed: () => speakassist849("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssist849(
+                                    onPressed: () => speakassist849(
                                         // REPLACE: assist /əˈsɪst/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryassist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssist852("en-GB"),
+                                    onPressed: () => speakassist852("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssist852(
+                                    onPressed: () => speakassist852(
                                         // REPLACE: assist /əˈsɪst/
                                         "en-US"),
                                   ),

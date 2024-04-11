@@ -19,7 +19,7 @@ class EnglishEntrybanner extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanner(String languageCode) async {
+  Future<void> speakbanner(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybanner extends StatelessWidget {
     await flutterTts.speak("banner"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners1(String languageCode) async {
+  Future<void> speakbanners1(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybanner extends StatelessWidget {
         "Protesters carried a banner reading ‘Save our Wildlife’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners2(String languageCode) async {
+  Future<void> speakbanners2(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybanner extends StatelessWidget {
         "They put up a website banner advising customers to order early."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners3(String languageCode) async {
+  Future<void> speakbanners3(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybanner extends StatelessWidget {
     await flutterTts.speak("speakBanners33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners4(String languageCode) async {
+  Future<void> speakbanners4(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybanner extends StatelessWidget {
     await flutterTts.speak("speakBanners44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners5(String languageCode) async {
+  Future<void> speakbanners5(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybanner extends StatelessWidget {
     await flutterTts.speak("speakBanners55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners6(String languageCode) async {
+  Future<void> speakbanners6(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybanner extends StatelessWidget {
     await flutterTts.speak("speakBanners66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanners7(String languageCode) async {
+  Future<void> speakbanners7(String languageCode) async {
     // DOPSUM: CHANGE speakBanner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybanner extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbænər/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanner("en-GB"),
+                              onPressed: () => speakbanner("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybanner extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbænər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanner("en-US"),
+                              onPressed: () => speakbanner("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntrybanner extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners1("en-GB"),
+                                    onPressed: () => speakbanners1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanners1(// REPLACE: banner
+                                        speakbanners1(// REPLACE: banner
                                             "en-US"),
                                   ),
                                 ],
@@ -209,11 +209,11 @@ class EnglishEntrybanner extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanners2("en-GB"),
+                                    onPressed: () => speakbanners2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanners2(// REPLACE: banner
+                                        speakbanners2(// REPLACE: banner
                                             "en-US"),
                                   ),
                                 ],

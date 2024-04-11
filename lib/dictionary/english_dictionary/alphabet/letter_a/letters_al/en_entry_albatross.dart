@@ -11,7 +11,7 @@ class EnglishEntryalbatross extends StatelessWidget {
   EnglishEntryalbatross({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlbatross(String languageCode) async {
+  Future<void> speakalbatross(String languageCode) async {
     // DOPSUM: CHANGE speakAlbatross
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalbatross extends StatelessWidget {
     await flutterTts.speak("albatross"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbatross4377(String languageCode) async {
+  Future<void> speakalbatross4377(String languageCode) async {
     // DOPSUM: CHANGE speakAlbatross
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalbatross extends StatelessWidget {
         "The albatross can stay airborne at sea for days at a time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbatross3622(String languageCode) async {
+  Future<void> speakalbatross3622(String languageCode) async {
     // DOPSUM: CHANGE speakAlbatross
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalbatross extends StatelessWidget {
         "The national debt is an albatross around the president’s neck."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlbatross(String languageCode) async {
+  // Future<void> speakalbatross(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlbatross
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælbətrɒs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlbatross("en-GB"),
+                              onPressed: () => speakalbatross("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælbətrɑːs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbatross("en-US"),
+                              onPressed: () => speakalbatross("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlbatross4377("en-GB"),
+                                        speakalbatross4377("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlbatross4377(
+                                    onPressed: () => speakalbatross4377(
                                         // REPLACE: albatross /ˈælbətrɑːs/
                                         "en-US"),
                                   ),
@@ -169,10 +169,10 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlbatross3622("en-GB"),
+                                        speakalbatross3622("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlbatross3622(
+                                    onPressed: () => speakalbatross3622(
                                         // REPLACE: albatross /ˈælbətrɑːs/
                                         "en-US"),
                                   ),

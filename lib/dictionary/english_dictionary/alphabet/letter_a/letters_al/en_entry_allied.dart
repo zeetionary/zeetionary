@@ -11,7 +11,7 @@ class EnglishEntryallied extends StatelessWidget {
   EnglishEntryallied({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllied(String languageCode) async {
+  Future<void> speakallied(String languageCode) async {
     // DOPSUM: CHANGE speakAllied
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallied extends StatelessWidget {
     await flutterTts.speak("allied"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllied425(String languageCode) async {
+  Future<void> speakallied425(String languageCode) async {
     // DOPSUM: CHANGE speakAllied
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallied extends StatelessWidget {
         "Many civilians died as a result of allied bombing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllied459(String languageCode) async {
+  Future<void> speakallied459(String languageCode) async {
     // DOPSUM: CHANGE speakAllied
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallied extends StatelessWidget {
         "Italy joined the war on the Allied side in 1915."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllied4399(String languageCode) async {
+  Future<void> speakallied4399(String languageCode) async {
     // DOPSUM: CHANGE speakAllied
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryallied extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælaɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllied("en-GB"),
+                              onPressed: () => speakallied("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryallied extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælaɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllied("en-US"),
+                              onPressed: () => speakallied("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryallied extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllied425("en-GB"),
+                                    onPressed: () => speakallied425("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllied425(
+                                    onPressed: () => speakallied425(
                                         // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryallied extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllied459("en-GB"),
+                                    onPressed: () => speakallied459("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllied459(
+                                    onPressed: () => speakallied459(
                                         // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
                                   ),
@@ -199,10 +199,10 @@ class EnglishEntryallied extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllied4399("en-GB"),
+                                    onPressed: () => speakallied4399("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllied4399(
+                                    onPressed: () => speakallied4399(
                                         // REPLACE: allied /ˈælaɪd/
                                         "en-US"),
                                   ),

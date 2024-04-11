@@ -19,7 +19,7 @@ class EnglishEntrybelieve extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelieve(String languageCode) async {
+  Future<void> speakbelieve(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("believe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves1(String languageCode) async {
+  Future<void> speakbelieves1(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("I don't believe you!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves2(String languageCode) async {
+  Future<void> speakbelieves2(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("Do you really believe her?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves3(String languageCode) async {
+  Future<void> speakbelieves3(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         .speak("Believe me, she's not right for you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves4(String languageCode) async {
+  Future<void> speakbelieves4(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "Police believe (that) the man may be armed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves5(String languageCode) async {
+  Future<void> speakbelieves5(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "l firmly believe that she is still alive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves6(String languageCode) async {
+  Future<void> speakbelieves6(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "It is widely believed that he was forced to resign."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves7(String languageCode) async {
+  Future<void> speakbelieves7(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "She believes that killing animals for food or fur is completely immoral."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves8(String languageCode) async {
+  Future<void> speakbelieves8(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "She truly believes that love can change the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves9(String languageCode) async {
+  Future<void> speakbelieves9(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "She couldn’t believe (that) it was all happening again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves10(String languageCode) async {
+  Future<void> speakbelieves10(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "I can't believe how much better I feel."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves11(String languageCode) async {
+  Future<void> speakbelieves11(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntrybelieve extends StatelessWidget {
         "The god appears only to those who believe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves12(String languageCode) async {
+  Future<void> speakbelieves12(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("speakBelieves1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves13(String languageCode) async {
+  Future<void> speakbelieves13(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("speakBelieves1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves14(String languageCode) async {
+  Future<void> speakbelieves14(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -148,7 +148,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("speakBelieves1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves15(String languageCode) async {
+  Future<void> speakbelieves15(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -156,7 +156,7 @@ class EnglishEntrybelieve extends StatelessWidget {
     await flutterTts.speak("speakBelieves1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelieves16(String languageCode) async {
+  Future<void> speakbelieves16(String languageCode) async {
     // DOPSUM: CHANGE speakBelieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -191,7 +191,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈliːv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelieve("en-GB"),
+                              onPressed: () => speakbelieve("en-GB"),
                             ),
                           ],
                         ),
@@ -199,7 +199,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈliːv/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelieve("en-US"),
+                              onPressed: () => speakbelieve("en-US"),
                             ),
                           ],
                         ),
@@ -247,10 +247,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves1("en-GB"),
+                                    onPressed: () => speakbelieves1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves1("en-US"),
+                                    onPressed: () => speakbelieves1("en-US"),
                                   ),
                                 ],
                               ),
@@ -274,10 +274,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves2("en-GB"),
+                                    onPressed: () => speakbelieves2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves2("en-US"),
+                                    onPressed: () => speakbelieves2("en-US"),
                                   ),
                                 ],
                               ),
@@ -303,10 +303,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves3("en-GB"),
+                                    onPressed: () => speakbelieves3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves3("en-US"),
+                                    onPressed: () => speakbelieves3("en-US"),
                                   ),
                                 ],
                               ),
@@ -334,10 +334,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves4("en-GB"),
+                                    onPressed: () => speakbelieves4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves4("en-US"),
+                                    onPressed: () => speakbelieves4("en-US"),
                                   ),
                                 ],
                               ),
@@ -363,10 +363,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves5("en-GB"),
+                                    onPressed: () => speakbelieves5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves5("en-US"),
+                                    onPressed: () => speakbelieves5("en-US"),
                                   ),
                                 ],
                               ),
@@ -392,10 +392,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves6("en-GB"),
+                                    onPressed: () => speakbelieves6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves6("en-US"),
+                                    onPressed: () => speakbelieves6("en-US"),
                                   ),
                                 ],
                               ),
@@ -423,10 +423,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves7("en-GB"),
+                                    onPressed: () => speakbelieves7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves7("en-US"),
+                                    onPressed: () => speakbelieves7("en-US"),
                                   ),
                                 ],
                               ),
@@ -452,10 +452,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves8("en-GB"),
+                                    onPressed: () => speakbelieves8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves8("en-US"),
+                                    onPressed: () => speakbelieves8("en-US"),
                                   ),
                                 ],
                               ),
@@ -483,10 +483,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves9("en-GB"),
+                                    onPressed: () => speakbelieves9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves9("en-US"),
+                                    onPressed: () => speakbelieves9("en-US"),
                                   ),
                                 ],
                               ),
@@ -512,10 +512,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves10("en-GB"),
+                                    onPressed: () => speakbelieves10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves10("en-US"),
+                                    onPressed: () => speakbelieves10("en-US"),
                                   ),
                                 ],
                               ),
@@ -543,10 +543,10 @@ class EnglishEntrybelieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelieves11("en-GB"),
+                                    onPressed: () => speakbelieves11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelieves11("en-US"),
+                                    onPressed: () => speakbelieves11("en-US"),
                                   ),
                                 ],
                               ),

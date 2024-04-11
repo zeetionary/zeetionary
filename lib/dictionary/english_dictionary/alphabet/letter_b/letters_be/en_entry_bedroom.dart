@@ -19,7 +19,7 @@ class EnglishEntrybedroom extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBedroom(String languageCode) async {
+  Future<void> speakbedroom(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybedroom extends StatelessWidget {
     await flutterTts.speak("bedroom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms1(String languageCode) async {
+  Future<void> speakbedrooms1(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybedroom extends StatelessWidget {
         .speak("This is the master bedroom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms2(String languageCode) async {
+  Future<void> speakbedrooms2(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybedroom extends StatelessWidget {
         .speak("I went into the bedroom and cried."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms3(String languageCode) async {
+  Future<void> speakbedrooms3(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybedroom extends StatelessWidget {
         "All the children had separate bedrooms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms4(String languageCode) async {
+  Future<void> speakbedrooms4(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybedroom extends StatelessWidget {
         "The larger houses are four-bedroom houses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms5(String languageCode) async {
+  Future<void> speakbedrooms5(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybedroom extends StatelessWidget {
     await flutterTts.speak("He has bedroom eyes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms6(String languageCode) async {
+  Future<void> speakbedrooms6(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybedroom extends StatelessWidget {
         "My dad was embarrassed by the bedroom scenes in the movie."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedrooms7(String languageCode) async {
+  Future<void> speakbedrooms7(String languageCode) async {
     // DOPSUM: CHANGE speakBedroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈbedruːm/, /ˈbedrʊm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBedroom("en-GB"),
+                              onPressed: () => speakbedroom("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbedruːm/, /ˈbedrʊm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBedroom("en-US"),
+                              onPressed: () => speakbedroom("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms1("en-GB"),
+                                    onPressed: () => speakbedrooms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms1("en-US"),
+                                    onPressed: () => speakbedrooms1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms2("en-GB"),
+                                    onPressed: () => speakbedrooms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms2("en-US"),
+                                    onPressed: () => speakbedrooms2("en-US"),
                                   ),
                                 ],
                               ),
@@ -230,10 +230,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms3("en-GB"),
+                                    onPressed: () => speakbedrooms3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms3("en-US"),
+                                    onPressed: () => speakbedrooms3("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,10 +261,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms4("en-GB"),
+                                    onPressed: () => speakbedrooms4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms4("en-US"),
+                                    onPressed: () => speakbedrooms4("en-US"),
                                   ),
                                 ],
                               ),
@@ -292,10 +292,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms5("en-GB"),
+                                    onPressed: () => speakbedrooms5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms5("en-US"),
+                                    onPressed: () => speakbedrooms5("en-US"),
                                   ),
                                 ],
                               ),
@@ -321,10 +321,10 @@ class EnglishEntrybedroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedrooms6("en-GB"),
+                                    onPressed: () => speakbedrooms6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedrooms6("en-US"),
+                                    onPressed: () => speakbedrooms6("en-US"),
                                   ),
                                 ],
                               ),

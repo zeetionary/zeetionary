@@ -13,7 +13,7 @@ class EnglishEntryantibody extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntibody(String languageCode) async {
+  Future<void> speakantibody(String languageCode) async {
     // DOPSUM: CHANGE speakAntibody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantibody extends StatelessWidget {
     await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntibody1019(String languageCode) async {
+  Future<void> speakantibody1019(String languageCode) async {
     // DOPSUM: CHANGE speakAntibody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantibody extends StatelessWidget {
         "Antibodies found in breast milk protect newborn babies against infection."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantibody extends StatelessWidget {
   //   await flutterTts.speak("antibody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibody(String languageCode) async {
+  // Future<void> speakantibody(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryantibody extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntibɒdi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntibody("en-GB"),
+                              onPressed: () => speakantibody("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryantibody extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntibɑːdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntibody("en-US"),
+                              onPressed: () => speakantibody("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryantibody extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntibody1019("en-GB"),
+                                    onPressed: () => speakantibody1019("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntibody1019(
+                                    onPressed: () => speakantibody1019(
                                         // REPLACE: antibody /ˈæntibɑːdi/
                                         "en-US"),
                                   ),

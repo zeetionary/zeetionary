@@ -19,7 +19,7 @@ class EnglishEntryassistance extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssistance(String languageCode) async {
+  Future<void> speakassistance(String languageCode) async {
     // DOPSUM: CHANGE speakAssistance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassistance extends StatelessWidget {
     await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssistance907(String languageCode) async {
+  Future<void> speakassistance907(String languageCode) async {
     // DOPSUM: CHANGE speakAssistance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassistance extends StatelessWidget {
         .speak("Can I be of any assistance?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssistance908(String languageCode) async {
+  Future<void> speakassistance908(String languageCode) async {
     // DOPSUM: CHANGE speakAssistance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassistance extends StatelessWidget {
         "The other passengers went to her assistance."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryassistance extends StatelessWidget {
   //   await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryassistance extends StatelessWidget {
   //   await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryassistance extends StatelessWidget {
   //   await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryassistance extends StatelessWidget {
   //   await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryassistance extends StatelessWidget {
   //   await flutterTts.speak("assistance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssistance(String languageCode) async {
+  // Future<void> speakassistance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssistance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryassistance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɪstəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssistance("en-GB"),
+                              onPressed: () => speakassistance("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryassistance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɪstəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssistance("en-US"),
+                              onPressed: () => speakassistance("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryassistance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssistance907("en-GB"),
+                                        speakassistance907("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssistance907(
+                                    onPressed: () => speakassistance907(
                                         // REPLACE: assistance /əˈsɪstəns/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryassistance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssistance908("en-GB"),
+                                        speakassistance908("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssistance908(
+                                    onPressed: () => speakassistance908(
                                         // REPLACE: assistance /əˈsɪstəns/
                                         "en-US"),
                                   ),

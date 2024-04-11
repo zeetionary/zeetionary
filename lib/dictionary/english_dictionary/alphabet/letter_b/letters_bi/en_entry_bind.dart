@@ -19,7 +19,7 @@ class EnglishEntrybind extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBind(String languageCode) async {
+  Future<void> speakbind(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("bind"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds1(String languageCode) async {
+  Future<void> speakbinds1(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("She was bound to a chair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds2(String languageCode) async {
+  Future<void> speakbinds2(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybind extends StatelessWidget {
         .speak("They bound his hands together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds3(String languageCode) async {
+  Future<void> speakbinds3(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybind extends StatelessWidget {
         .speak("The prisoner was bound hand and foot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds4(String languageCode) async {
+  Future<void> speakbinds4(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("She bound up his wounds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds5(String languageCode) async {
+  Future<void> speakbinds5(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybind extends StatelessWidget {
         "She thought that having his child would bind him to her forever."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds6(String languageCode) async {
+  Future<void> speakbinds6(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybind extends StatelessWidget {
         .speak("He had been bound to secrecy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds7(String languageCode) async {
+  Future<void> speakbinds7(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntrybind extends StatelessWidget {
         "Add an egg yolk to make the mixture bind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds8(String languageCode) async {
+  Future<void> speakbinds8(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntrybind extends StatelessWidget {
         "There are several different ways to bind a book, for example you can stitch or stick the pages together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds9(String languageCode) async {
+  Future<void> speakbinds9(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntrybind extends StatelessWidget {
         "The edges of the carpet are bound to stop them fraying."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds10(String languageCode) async {
+  Future<void> speakbinds10(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybind extends StatelessWidget {
         "Borrowing money may put you in a real bind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds11(String languageCode) async {
+  Future<void> speakbinds11(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds12(String languageCode) async {
+  Future<void> speakbinds12(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -131,7 +131,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds13(String languageCode) async {
+  Future<void> speakbinds13(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds14(String languageCode) async {
+  Future<void> speakbinds14(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -147,7 +147,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds15(String languageCode) async {
+  Future<void> speakbinds15(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -155,7 +155,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds16(String languageCode) async {
+  Future<void> speakbinds16(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -163,7 +163,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds17(String languageCode) async {
+  Future<void> speakbinds17(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -171,7 +171,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds18(String languageCode) async {
+  Future<void> speakbinds18(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -179,7 +179,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds19(String languageCode) async {
+  Future<void> speakbinds19(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -187,7 +187,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.speak("speakBinds1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinds20(String languageCode) async {
+  Future<void> speakbinds20(String languageCode) async {
     // DOPSUM: CHANGE speakBind
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -222,7 +222,7 @@ class EnglishEntrybind extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /baɪnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBind("en-GB"),
+                              onPressed: () => speakbind("en-GB"),
                             ),
                           ],
                         ),
@@ -230,7 +230,7 @@ class EnglishEntrybind extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /baɪnd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBind("en-US"),
+                              onPressed: () => speakbind("en-US"),
                             ),
                           ],
                         ),
@@ -277,10 +277,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds1("en-GB"),
+                                    onPressed: () => speakbinds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds1("en-US"),
+                                    onPressed: () => speakbinds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -304,10 +304,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds2("en-GB"),
+                                    onPressed: () => speakbinds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds2("en-US"),
+                                    onPressed: () => speakbinds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -333,10 +333,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds3("en-GB"),
+                                    onPressed: () => speakbinds3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds3("en-US"),
+                                    onPressed: () => speakbinds3("en-US"),
                                   ),
                                 ],
                               ),
@@ -362,10 +362,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds4("en-GB"),
+                                    onPressed: () => speakbinds4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds4("en-US"),
+                                    onPressed: () => speakbinds4("en-US"),
                                   ),
                                 ],
                               ),
@@ -393,10 +393,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds5("en-GB"),
+                                    onPressed: () => speakbinds5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds5("en-US"),
+                                    onPressed: () => speakbinds5("en-US"),
                                   ),
                                 ],
                               ),
@@ -424,10 +424,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds6("en-GB"),
+                                    onPressed: () => speakbinds6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds6("en-US"),
+                                    onPressed: () => speakbinds6("en-US"),
                                   ),
                                 ],
                               ),
@@ -455,10 +455,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds7("en-GB"),
+                                    onPressed: () => speakbinds7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds7("en-US"),
+                                    onPressed: () => speakbinds7("en-US"),
                                   ),
                                 ],
                               ),
@@ -486,10 +486,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds8("en-GB"),
+                                    onPressed: () => speakbinds8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds8("en-US"),
+                                    onPressed: () => speakbinds8("en-US"),
                                   ),
                                 ],
                               ),
@@ -517,10 +517,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds9("en-GB"),
+                                    onPressed: () => speakbinds9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds9("en-US"),
+                                    onPressed: () => speakbinds9("en-US"),
                                   ),
                                 ],
                               ),
@@ -548,10 +548,10 @@ class EnglishEntrybind extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinds10("en-GB"),
+                                    onPressed: () => speakbinds10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinds10("en-US"),
+                                    onPressed: () => speakbinds10("en-US"),
                                   ),
                                 ],
                               ),

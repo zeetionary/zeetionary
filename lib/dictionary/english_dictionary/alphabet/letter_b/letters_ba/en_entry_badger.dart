@@ -19,7 +19,7 @@ class EnglishEntrybadger extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBadger(String languageCode) async {
+  Future<void> speakbadger(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybadger extends StatelessWidget {
     await flutterTts.speak("badger"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers1(String languageCode) async {
+  Future<void> speakbadgers1(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybadger extends StatelessWidget {
         "The owl's predators include hawks, larger owls, snakes, and badgers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers2(String languageCode) async {
+  Future<void> speakbadgers2(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybadger extends StatelessWidget {
         "I finally badgered him into coming with us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers3(String languageCode) async {
+  Future<void> speakbadgers3(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybadger extends StatelessWidget {
     await flutterTts.speak("speakBadgers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers4(String languageCode) async {
+  Future<void> speakbadgers4(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybadger extends StatelessWidget {
     await flutterTts.speak("speakBadgers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers5(String languageCode) async {
+  Future<void> speakbadgers5(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybadger extends StatelessWidget {
     await flutterTts.speak("speakBadgers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers6(String languageCode) async {
+  Future<void> speakbadgers6(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybadger extends StatelessWidget {
     await flutterTts.speak("speakBadgers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadgers7(String languageCode) async {
+  Future<void> speakbadgers7(String languageCode) async {
     // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybadger extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbædʒə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBadger("en-GB"),
+                              onPressed: () => speakbadger("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybadger extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbædʒər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBadger("en-US"),
+                              onPressed: () => speakbadger("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntrybadger extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadgers1("en-GB"),
+                                    onPressed: () => speakbadgers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadgers1(// REPLACE: badger
+                                        speakbadgers1(// REPLACE: badger
                                             "en-US"),
                                   ),
                                 ],
@@ -208,11 +208,11 @@ class EnglishEntrybadger extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBadgers2("en-GB"),
+                                    onPressed: () => speakbadgers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBadgers2(// REPLACE: badger
+                                        speakbadgers2(// REPLACE: badger
                                             "en-US"),
                                   ),
                                 ],

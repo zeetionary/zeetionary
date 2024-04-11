@@ -17,7 +17,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmoured(String languageCode) async {
+  Future<void> speakarmoured(String languageCode) async {
     // DOPSUM: CHANGE speakArmoured
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmoured extends StatelessWidget {
     await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoured618(String languageCode) async {
+  Future<void> speakarmoured618(String languageCode) async {
     // DOPSUM: CHANGE speakArmoured
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmoured extends StatelessWidget {
         .speak("The tank was heavily armoured."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarmoured extends StatelessWidget {
   //   await flutterTts.speak("armoured"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoured(String languageCode) async {
+  // Future<void> speakarmoured(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoured
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarmoured extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːməd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmoured("en-GB"),
+                              onPressed: () => speakarmoured("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarmoured extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmərd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmoured("en-US"),
+                              onPressed: () => speakarmoured("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryarmoured extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoured618("en-GB"),
+                                    onPressed: () => speakarmoured618("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoured618(
+                                    onPressed: () => speakarmoured618(
                                         // REPLACE: armoured /ˈɑːrmərd/
                                         "en-US"),
                                   ),

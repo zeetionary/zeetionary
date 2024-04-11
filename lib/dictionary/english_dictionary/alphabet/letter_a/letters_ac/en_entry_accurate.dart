@@ -11,7 +11,7 @@ class EnglishEntryaccurate extends StatelessWidget {
   EnglishEntryaccurate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccurate(String languageCode) async {
+  Future<void> speakaccurate(String languageCode) async {
     // DOPSUM: CHANGE speakAccurate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccurate extends StatelessWidget {
     await flutterTts.speak("accurate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc21546(String languageCode) async {
+  Future<void> speakac21546(String languageCode) async {
     // DOPSUM: CHANGE speakAccurate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccurate extends StatelessWidget {
         .speak("The film is not historically accurate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc12369(String languageCode) async {
+  Future<void> speakac12369(String languageCode) async {
     // DOPSUM: CHANGE speakAccurate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccurate extends StatelessWidget {
         "The cost is an accurate reflection of the quality of our products."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2158(String languageCode) async {
+  Future<void> speaka2158(String languageCode) async {
     // DOPSUM: CHANGE speakAccurate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaccurate extends StatelessWidget {
         .speak("My watch is not very accurate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA23547(String languageCode) async {
+  Future<void> speaka23547(String languageCode) async {
     // DOPSUM: CHANGE speakAccurate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækjərət/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccurate("en-GB"),
+                              onPressed: () => speakaccurate("en-GB"),
                             ),
                           ],
                         ),
@@ -93,7 +93,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjərət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccurate("en-US"),
+                              onPressed: () => speakaccurate("en-US"),
                             ),
                           ],
                         ),
@@ -144,10 +144,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc21546("en-GB"),
+                                    onPressed: () => speakac21546("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc21546("en-US"),
+                                    onPressed: () => speakac21546("en-US"),
                                   ),
                                 ],
                               ),
@@ -172,10 +172,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc12369("en-GB"),
+                                    onPressed: () => speakac12369("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc12369("en-US"),
+                                    onPressed: () => speakac12369("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2158("en-GB"),
+                                    onPressed: () => speaka2158("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2158("en-US"),
+                                    onPressed: () => speaka2158("en-US"),
                                   ),
                                 ],
                               ),
@@ -228,10 +228,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA23547("en-GB"),
+                                    onPressed: () => speaka23547("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA23547("en-US"),
+                                    onPressed: () => speaka23547("en-US"),
                                   ),
                                 ],
                               ),

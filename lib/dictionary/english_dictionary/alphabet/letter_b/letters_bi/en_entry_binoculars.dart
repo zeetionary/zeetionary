@@ -19,7 +19,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBinoculars(String languageCode) async {
+  Future<void> speakbinoculars(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("binoculars"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss1(String languageCode) async {
+  Future<void> speakbinocularss1(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
         "We looked at the birds through binoculars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss2(String languageCode) async {
+  Future<void> speakbinocularss2(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("speakBinocularss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss3(String languageCode) async {
+  Future<void> speakbinocularss3(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("speakBinocularss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss4(String languageCode) async {
+  Future<void> speakbinocularss4(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("speakBinocularss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss5(String languageCode) async {
+  Future<void> speakbinocularss5(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("speakBinocularss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss6(String languageCode) async {
+  Future<void> speakbinocularss6(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
     await flutterTts.speak("speakBinocularss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinocularss7(String languageCode) async {
+  Future<void> speakbinocularss7(String languageCode) async {
     // DOPSUM: CHANGE speakBinoculars
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈnɒkjələz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBinoculars("en-GB"),
+                              onPressed: () => speakbinoculars("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybinoculars extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈnɑːkjələrz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBinoculars("en-US"),
+                              onPressed: () => speakbinoculars("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybinoculars extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinocularss1("en-GB"),
+                                    onPressed: () => speakbinocularss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinocularss1("en-US"),
+                                    onPressed: () => speakbinocularss1("en-US"),
                                   ),
                                 ],
                               ),

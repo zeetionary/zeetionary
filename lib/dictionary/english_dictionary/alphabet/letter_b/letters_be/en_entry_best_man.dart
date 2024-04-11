@@ -19,7 +19,7 @@ class EnglishEntrybestman extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBestman(String languageCode) async {
+  Future<void> speakbestman(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("best man"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans1(String languageCode) async {
+  Future<void> speakbestmans1(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybestman extends StatelessWidget {
         "The groom asked his best friend to be his best man."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans2(String languageCode) async {
+  Future<void> speakbestmans2(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("speakBestmans22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans3(String languageCode) async {
+  Future<void> speakbestmans3(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("speakBestmans33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans4(String languageCode) async {
+  Future<void> speakbestmans4(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("speakBestmans44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans5(String languageCode) async {
+  Future<void> speakbestmans5(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("speakBestmans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans6(String languageCode) async {
+  Future<void> speakbestmans6(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybestman extends StatelessWidget {
     await flutterTts.speak("speakBestmans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestmans7(String languageCode) async {
+  Future<void> speakbestmans7(String languageCode) async {
     // DOPSUM: CHANGE speakBestman
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybestman extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbest ˈmæn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBestman("en-GB"),
+                              onPressed: () => speakbestman("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybestman extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbest ˈmæn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBestman("en-US"),
+                              onPressed: () => speakbestman("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybestman extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBestmans1("en-GB"),
+                                    onPressed: () => speakbestmans1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBestmans1("en-US"),
+                                    onPressed: () => speakbestmans1("en-US"),
                                   ),
                                 ],
                               ),

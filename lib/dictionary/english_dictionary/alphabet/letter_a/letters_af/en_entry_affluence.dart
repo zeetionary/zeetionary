@@ -11,7 +11,7 @@ class EnglishEntryaffluence extends StatelessWidget {
   EnglishEntryaffluence({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffluence(String languageCode) async {
+  Future<void> speakaffluence(String languageCode) async {
     // DOPSUM: CHANGE speakAffluence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffluence extends StatelessWidget {
     await flutterTts.speak("affluence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfflue752(String languageCode) async {
+  Future<void> speakafflue752(String languageCode) async {
     // DOPSUM: CHANGE speakAffluence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffluence extends StatelessWidget {
         "The 1950s were an age of affluence in America."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfflue7566(String languageCode) async {
+  Future<void> speakafflue7566(String languageCode) async {
     // DOPSUM: CHANGE speakAffluence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffluence extends StatelessWidget {
         "The nation's affluence has made two- and even three-car families the norm."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffluence(String languageCode) async {
+  // Future<void> speakaffluence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffluence
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæfluəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffluence("en-GB"),
+                              onPressed: () => speakaffluence("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæfluəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffluence("en-US"),
+                              onPressed: () => speakaffluence("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaffluence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfflue752("en-GB"),
+                                    onPressed: () => speakafflue752("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfflue752(
+                                    onPressed: () => speakafflue752(
                                         // REPLACE: affluence /ˈæfluəns/
                                         "en-US"),
                                   ),
@@ -162,10 +162,10 @@ class EnglishEntryaffluence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfflue7566("en-GB"),
+                                    onPressed: () => speakafflue7566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfflue7566(
+                                    onPressed: () => speakafflue7566(
                                         // REPLACE: affluence /ˈæfluəns/
                                         "en-US"),
                                   ),

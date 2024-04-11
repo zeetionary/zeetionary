@@ -19,7 +19,7 @@ class EnglishEntryathletics extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAthletics(String languageCode) async {
+  Future<void> speakathletics(String languageCode) async {
     // DOPSUM: CHANGE speakAthletics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryathletics extends StatelessWidget {
     await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAthletics825(String languageCode) async {
+  Future<void> speakathletics825(String languageCode) async {
     // DOPSUM: CHANGE speakAthletics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryathletics extends StatelessWidget {
         "My daughter wants to compete in athletics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryathletics extends StatelessWidget {
   //   await flutterTts.speak("athletics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletics(String languageCode) async {
+  // Future<void> speakathletics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryathletics extends StatelessWidget {
                                 text:
                                     "IpaUK: /æθˈletɪks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAthletics("en-GB"),
+                              onPressed: () => speakathletics("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryathletics extends StatelessWidget {
                                 text:
                                     "IpaUS: /æθˈletɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAthletics("en-US"),
+                              onPressed: () => speakathletics("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryathletics extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAthletics825("en-GB"),
+                                    onPressed: () => speakathletics825("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAthletics825(// REPLACE: athletics
+                                        speakathletics825(// REPLACE: athletics
                                             "en-US"),
                                   ),
                                 ],

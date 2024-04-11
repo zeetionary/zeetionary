@@ -11,7 +11,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
   EnglishEntryachillesheel({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAchillesheel(String languageCode) async {
+  Future<void> speakachillesheel(String languageCode) async {
     // DOPSUM: CHANGE speakAchillesheel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
     await flutterTts.speak("Achilles' heel"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc153864(String languageCode) async {
+  Future<void> speakac153864(String languageCode) async {
     // DOPSUM: CHANGE speakAchillesheel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
         "The enemy had an Achilles heel somewhere, if only he could find it."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAchillesheel(String languageCode) async {
+  // Future<void> speakachillesheel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAchillesheel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
   //   await flutterTts.speak("Achilles' heel"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAchillesheel(String languageCode) async {
+  // Future<void> speakachillesheel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAchillesheel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkɪliːz ˈhiːl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAchillesheel("en-GB"),
+                              onPressed: () => speakachillesheel("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkɪliːz ˈhiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAchillesheel("en-US"),
+                              onPressed: () => speakachillesheel("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryachillesheel extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc153864("en-GB"),
+                                    onPressed: () => speakac153864("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc153864(
+                                    onPressed: () => speakac153864(
                                         "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
                                   ),
                                 ],

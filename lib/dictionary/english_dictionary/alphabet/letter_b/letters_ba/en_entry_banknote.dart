@@ -19,7 +19,7 @@ class EnglishEntrybanknote extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanknote(String languageCode) async {
+  Future<void> speakbanknote(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("banknote"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes1(String languageCode) async {
+  Future<void> speakbanknotes1(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybanknote extends StatelessWidget {
         .speak("They issue both banknotes and coins."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes2(String languageCode) async {
+  Future<void> speakbanknotes2(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("speakBanknotes22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes3(String languageCode) async {
+  Future<void> speakbanknotes3(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("speakBanknotes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes4(String languageCode) async {
+  Future<void> speakbanknotes4(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("speakBanknotes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes5(String languageCode) async {
+  Future<void> speakbanknotes5(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("speakBanknotes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes6(String languageCode) async {
+  Future<void> speakbanknotes6(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybanknote extends StatelessWidget {
     await flutterTts.speak("speakBanknotes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanknotes7(String languageCode) async {
+  Future<void> speakbanknotes7(String languageCode) async {
     // DOPSUM: CHANGE speakBanknote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæŋknəʊt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanknote("en-GB"),
+                              onPressed: () => speakbanknote("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæŋknəʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanknote("en-US"),
+                              onPressed: () => speakbanknote("en-US"),
                             ),
                           ],
                         ),
@@ -173,11 +173,11 @@ class EnglishEntrybanknote extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanknotes1("en-GB"),
+                                    onPressed: () => speakbanknotes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanknotes1(// REPLACE: banknote
+                                        speakbanknotes1(// REPLACE: banknote
                                             "en-US"),
                                   ),
                                 ],

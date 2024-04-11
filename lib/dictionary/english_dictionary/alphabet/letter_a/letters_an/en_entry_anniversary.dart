@@ -11,7 +11,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   EnglishEntryanniversary({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnniversary(String languageCode) async {
+  Future<void> speakanniversary(String languageCode) async {
     // DOPSUM: CHANGE speakAnniversary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanniversary extends StatelessWidget {
     await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnniversary147(String languageCode) async {
+  Future<void> speakanniversary147(String languageCode) async {
     // DOPSUM: CHANGE speakAnniversary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanniversary extends StatelessWidget {
         "The company is celebrating its 100-year anniversary this year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanniversary extends StatelessWidget {
   //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
+  // Future<void> speakanniversary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnniversary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænɪˈvɜːsəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnniversary("en-GB"),
+                              onPressed: () => speakanniversary("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænɪˈvɜːrsəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnniversary("en-US"),
+                              onPressed: () => speakanniversary("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnniversary147("en-GB"),
+                                        speakanniversary147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnniversary147(
+                                    onPressed: () => speakanniversary147(
                                         // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
                                         "en-US"),
                                   ),

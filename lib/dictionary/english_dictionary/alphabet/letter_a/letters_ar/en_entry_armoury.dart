@@ -17,7 +17,7 @@ class EnglishEntryarmoury extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmoury(String languageCode) async {
+  Future<void> speakarmoury(String languageCode) async {
     // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmoury extends StatelessWidget {
     await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury631(String languageCode) async {
+  Future<void> speakarmoury631(String languageCode) async {
     // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmoury extends StatelessWidget {
         "Several guns had been stolen from the palace armoury."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury635(String languageCode) async {
+  Future<void> speakarmoury635(String languageCode) async {
     // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarmoury extends StatelessWidget {
         "Doctors have an armoury of drugs available."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmoury646(String languageCode) async {
+  Future<void> speakarmoury646(String languageCode) async {
     // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarmoury extends StatelessWidget {
         "The two countries signed an agreement to reduce their nuclear armouries."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmoury(String languageCode) async {
+  // Future<void> speakarmoury(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarmoury extends StatelessWidget {
   //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoury(String languageCode) async {
+  // Future<void> speakarmoury(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarmoury extends StatelessWidget {
   //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoury(String languageCode) async {
+  // Future<void> speakarmoury(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarmoury extends StatelessWidget {
   //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoury(String languageCode) async {
+  // Future<void> speakarmoury(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarmoury extends StatelessWidget {
   //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmoury(String languageCode) async {
+  // Future<void> speakarmoury(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːməri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmoury("en-GB"),
+                              onPressed: () => speakarmoury("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrməri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmoury("en-US"),
+                              onPressed: () => speakarmoury("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury631("en-GB"),
+                                    onPressed: () => speakarmoury631("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury631(
+                                    onPressed: () => speakarmoury631(
                                         // REPLACE: armoury /ˈɑːrməri/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury635("en-GB"),
+                                    onPressed: () => speakarmoury635("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury635(
+                                    onPressed: () => speakarmoury635(
                                         // REPLACE: armoury /ˈɑːrməri/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryarmoury extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmoury646("en-GB"),
+                                    onPressed: () => speakarmoury646("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmoury646(
+                                    onPressed: () => speakarmoury646(
                                         // REPLACE: armoury /ˈɑːrməri/
                                         "en-US"),
                                   ),

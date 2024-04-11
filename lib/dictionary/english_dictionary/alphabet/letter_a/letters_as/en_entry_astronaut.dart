@@ -19,7 +19,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAstronaut(String languageCode) async {
+  Future<void> speakastronaut(String languageCode) async {
     // DOPSUM: CHANGE speakAstronaut
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryastronaut extends StatelessWidget {
     await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstronaut442(String languageCode) async {
+  Future<void> speakastronaut442(String languageCode) async {
     // DOPSUM: CHANGE speakAstronaut
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryastronaut extends StatelessWidget {
         "The astronauts trained for years for their mission to the moon."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   //   await flutterTts.speak("astronaut"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronaut(String languageCode) async {
+  // Future<void> speakastronaut(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronaut
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryastronaut extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstrənɔːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAstronaut("en-GB"),
+                              onPressed: () => speakastronaut("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryastronaut extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstrənɔːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAstronaut("en-US"),
+                              onPressed: () => speakastronaut("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryastronaut extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAstronaut442("en-GB"),
+                                    onPressed: () => speakastronaut442("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAstronaut442(// REPLACE: astronaut
+                                        speakastronaut442(// REPLACE: astronaut
                                             "en-US"),
                                   ),
                                 ],

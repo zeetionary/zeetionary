@@ -11,7 +11,7 @@ class EnglishEntryallergic extends StatelessWidget {
   EnglishEntryallergic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllergic(String languageCode) async {
+  Future<void> speakallergic(String languageCode) async {
     // DOPSUM: CHANGE speakAllergic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallergic extends StatelessWidget {
     await flutterTts.speak("allergic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllergic35699(String languageCode) async {
+  Future<void> speakallergic35699(String languageCode) async {
     // DOPSUM: CHANGE speakAllergic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallergic extends StatelessWidget {
         "I like cats but unfortunately I'm allergic to them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllergic4692(String languageCode) async {
+  Future<void> speakallergic4692(String languageCode) async {
     // DOPSUM: CHANGE speakAllergic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallergic extends StatelessWidget {
         "He had an allergic reaction after eating the kiwi."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllergic45993(String languageCode) async {
+  Future<void> speakallergic45993(String languageCode) async {
     // DOPSUM: CHANGE speakAllergic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɜːdʒɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllergic("en-GB"),
+                              onPressed: () => speakallergic("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɜːrdʒɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllergic("en-US"),
+                              onPressed: () => speakallergic("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryallergic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllergic35699("en-GB"),
+                                        speakallergic35699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllergic35699(
+                                    onPressed: () => speakallergic35699(
                                         // REPLACE: allergic /əˈlɜːrdʒɪk/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryallergic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllergic4692("en-GB"),
+                                    onPressed: () => speakallergic4692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllergic4692(
+                                    onPressed: () => speakallergic4692(
                                         // REPLACE: allergic /əˈlɜːrdʒɪk/
                                         "en-US"),
                                   ),
@@ -200,10 +200,10 @@ class EnglishEntryallergic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllergic45993("en-GB"),
+                                        speakallergic45993("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllergic45993(
+                                    onPressed: () => speakallergic45993(
                                         // REPLACE: allergic /əˈlɜːrdʒɪk/
                                         "en-US"),
                                   ),

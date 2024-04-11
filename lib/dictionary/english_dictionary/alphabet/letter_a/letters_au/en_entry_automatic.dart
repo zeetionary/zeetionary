@@ -19,7 +19,7 @@ class EnglishEntryautomatic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutomatic(String languageCode) async {
+  Future<void> speakautomatic(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.speak("automatic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1027(String languageCode) async {
+  Future<void> speakautomatic1027(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautomatic extends StatelessWidget {
         "The automatic pilot system on the airplane kept it on course even during turbulence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1030(String languageCode) async {
+  Future<void> speakautomatic1030(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryautomatic extends StatelessWidget {
         "The automatic doors opened as I approached the entrance to the store."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1031(String languageCode) async {
+  Future<void> speakautomatic1031(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryautomatic extends StatelessWidget {
         "Breathing is an automatic function of the body."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1033(String languageCode) async {
+  Future<void> speakautomatic1033(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryautomatic extends StatelessWidget {
         .speak("A fine for this offence is automatic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1037(String languageCode) async {
+  Future<void> speakautomatic1037(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryautomatic extends StatelessWidget {
         "The gunman opened fire with an automatic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomatic1039(String languageCode) async {
+  Future<void> speakautomatic1039(String languageCode) async {
     // DOPSUM: CHANGE speakAutomatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryautomatic extends StatelessWidget {
     await flutterTts.speak("Kate drives an automatic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutomatic(String languageCode) async {
+  // Future<void> speakautomatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryautomatic extends StatelessWidget {
   //   await flutterTts.speak("automatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutomatic(String languageCode) async {
+  // Future<void> speakautomatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutomatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːtəˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutomatic("en-GB"),
+                              onPressed: () => speakautomatic("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːtəˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutomatic("en-US"),
+                              onPressed: () => speakautomatic("en-US"),
                             ),
                           ],
                         ),
@@ -188,11 +188,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1027("en-GB"),
+                                        speakautomatic1027("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1027(// REPLACE: automatic
+                                        speakautomatic1027(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],
@@ -220,11 +220,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1030("en-GB"),
+                                        speakautomatic1030("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1030(// REPLACE: automatic
+                                        speakautomatic1030(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],
@@ -254,11 +254,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1031("en-GB"),
+                                        speakautomatic1031("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1031(// REPLACE: automatic
+                                        speakautomatic1031(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],
@@ -287,11 +287,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1033("en-GB"),
+                                        speakautomatic1033("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1033(// REPLACE: automatic
+                                        speakautomatic1033(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],
@@ -321,11 +321,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1037("en-GB"),
+                                        speakautomatic1037("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1037(// REPLACE: automatic
+                                        speakautomatic1037(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],
@@ -354,11 +354,11 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutomatic1039("en-GB"),
+                                        speakautomatic1039("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutomatic1039(// REPLACE: automatic
+                                        speakautomatic1039(// REPLACE: automatic
                                             "en-US"),
                                   ),
                                 ],

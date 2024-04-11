@@ -11,7 +11,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
   EnglishEntryaccumulate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccumulate(String languageCode) async {
+  Future<void> speakaccumulate(String languageCode) async {
     // DOPSUM: CHANGE speakAccumulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
     await flutterTts.speak("accumulate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA1547(String languageCode) async {
+  Future<void> speaka1547(String languageCode) async {
     // DOPSUM: CHANGE speakAccumulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
         "Dust and dirt soon accumulate if a house is not cleaned regularly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA92574(String languageCode) async {
+  Future<void> speaka92574(String languageCode) async {
     // DOPSUM: CHANGE speakAccumulate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːmjəleɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccumulate("en-GB"),
+                              onPressed: () => speakaccumulate("en-GB"),
                             ),
                           ],
                         ),
@@ -76,7 +76,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːmjəleɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccumulate("en-US"),
+                              onPressed: () => speakaccumulate("en-US"),
                             ),
                           ],
                         ),
@@ -126,10 +126,10 @@ class EnglishEntryaccumulate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA92574("en-GB"),
+                                    onPressed: () => speaka92574("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA92574("en-US"),
+                                    onPressed: () => speaka92574("en-US"),
                                   ),
                                 ],
                               ),
@@ -154,10 +154,10 @@ class EnglishEntryaccumulate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA1547("en-GB"),
+                                    onPressed: () => speaka1547("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA1547("en-US"),
+                                    onPressed: () => speaka1547("en-US"),
                                   ),
                                 ],
                               ),

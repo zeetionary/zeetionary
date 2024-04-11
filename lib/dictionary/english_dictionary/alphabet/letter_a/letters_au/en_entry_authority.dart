@@ -19,7 +19,7 @@ class EnglishEntryauthority extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthority(String languageCode) async {
+  Future<void> speakauthority(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthority extends StatelessWidget {
     await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority804(String languageCode) async {
+  Future<void> speakauthority804(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthority extends StatelessWidget {
         "She now has authority over the people who used to be her bosses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority805(String languageCode) async {
+  Future<void> speakauthority805(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthority extends StatelessWidget {
         "Central government has extensive authority over teachers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority808(String languageCode) async {
+  Future<void> speakauthority808(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryauthority extends StatelessWidget {
         "Some experts think the agency may have exceeded its authority."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority809(String languageCode) async {
+  Future<void> speakauthority809(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryauthority extends StatelessWidget {
         .speak("He took the car without authority."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority811(String languageCode) async {
+  Future<void> speakauthority811(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryauthority extends StatelessWidget {
         "I have to report this to the authorities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority814(String languageCode) async {
+  Future<void> speakauthority814(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryauthority extends StatelessWidget {
         .speak("He spoke with authority on the topic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthority816(String languageCode) async {
+  Future<void> speakauthority816(String languageCode) async {
     // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryauthority extends StatelessWidget {
         .speak("She's an authority on criminal law."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntryauthority extends StatelessWidget {
   //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryauthority extends StatelessWidget {
   //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryauthority extends StatelessWidget {
   //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryauthority extends StatelessWidget {
   //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -130,7 +130,7 @@ class EnglishEntryauthority extends StatelessWidget {
   //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthority(String languageCode) async {
+  // Future<void> speakauthority(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -169,7 +169,7 @@ class EnglishEntryauthority extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈθɒrəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthority("en-GB"),
+                              onPressed: () => speakauthority("en-GB"),
                             ),
                           ],
                         ),
@@ -179,7 +179,7 @@ class EnglishEntryauthority extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈθɔːrəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthority("en-US"),
+                              onPressed: () => speakauthority("en-US"),
                             ),
                           ],
                         ),
@@ -229,11 +229,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority804("en-GB"),
+                                    onPressed: () => speakauthority804("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority804(// REPLACE: authority
+                                        speakauthority804(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -260,11 +260,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority805("en-GB"),
+                                    onPressed: () => speakauthority805("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority805(// REPLACE: authority
+                                        speakauthority805(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -293,11 +293,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority808("en-GB"),
+                                    onPressed: () => speakauthority808("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority808(// REPLACE: authority
+                                        speakauthority808(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -325,11 +325,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority809("en-GB"),
+                                    onPressed: () => speakauthority809("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority809(// REPLACE: authority
+                                        speakauthority809(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -358,11 +358,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority811("en-GB"),
+                                    onPressed: () => speakauthority811("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority811(// REPLACE: authority
+                                        speakauthority811(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -391,11 +391,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority814("en-GB"),
+                                    onPressed: () => speakauthority814("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority814(// REPLACE: authority
+                                        speakauthority814(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],
@@ -424,11 +424,11 @@ class EnglishEntryauthority extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthority816("en-GB"),
+                                    onPressed: () => speakauthority816("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthority816(// REPLACE: authority
+                                        speakauthority816(// REPLACE: authority
                                             "en-US"),
                                   ),
                                 ],

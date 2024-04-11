@@ -17,7 +17,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmadillo(String languageCode) async {
+  Future<void> speakarmadillo(String languageCode) async {
     // DOPSUM: CHANGE speakArmadillo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
     await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmadillo440(String languageCode) async {
+  Future<void> speakarmadillo440(String languageCode) async {
     // DOPSUM: CHANGE speakArmadillo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
         .speak("I have never seen an armadillo."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
   //   await flutterTts.speak("armadillo"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmadillo(String languageCode) async {
+  // Future<void> speakarmadillo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmadillo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːməˈdɪləʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmadillo("en-GB"),
+                              onPressed: () => speakarmadillo("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrməˈdɪləʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmadillo("en-US"),
+                              onPressed: () => speakarmadillo("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryarmadillo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmadillo440("en-GB"),
+                                    onPressed: () => speakarmadillo440("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmadillo440(
+                                    onPressed: () => speakarmadillo440(
                                         // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
                                         "en-US"),
                                   ),

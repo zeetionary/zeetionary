@@ -19,7 +19,7 @@ class EnglishEntrybetray extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBetray(String languageCode) async {
+  Future<void> speakbetray(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.speak("betray"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays1(String languageCode) async {
+  Future<void> speakbetrays1(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybetray extends StatelessWidget {
         "He was offered money to betray his colleagues."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays2(String languageCode) async {
+  Future<void> speakbetrays2(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybetray extends StatelessWidget {
         "For years they had been betraying state secrets to Russia."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays3(String languageCode) async {
+  Future<void> speakbetrays3(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybetray extends StatelessWidget {
         "She felt betrayed when she found out the truth about him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays4(String languageCode) async {
+  Future<void> speakbetrays4(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybetray extends StatelessWidget {
         "She betrayed his trust over and over again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays5(String languageCode) async {
+  Future<void> speakbetrays5(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybetray extends StatelessWidget {
         "His voice betrayed the worry he was trying to hide."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays6(String languageCode) async {
+  Future<void> speakbetrays6(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybetray extends StatelessWidget {
     await flutterTts.speak("speakBetrays66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetrays7(String languageCode) async {
+  Future<void> speakbetrays7(String languageCode) async {
     // DOPSUM: CHANGE speakBetray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybetray extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈtreɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBetray("en-GB"),
+                              onPressed: () => speakbetray("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybetray extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈtreɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBetray("en-US"),
+                              onPressed: () => speakbetray("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays1("en-GB"),
+                                    onPressed: () => speakbetrays1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays1("en-US"),
+                                    onPressed: () => speakbetrays1("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +198,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays2("en-GB"),
+                                    onPressed: () => speakbetrays2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays2("en-US"),
+                                    onPressed: () => speakbetrays2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays3("en-GB"),
+                                    onPressed: () => speakbetrays3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays3("en-US"),
+                                    onPressed: () => speakbetrays3("en-US"),
                                   ),
                                 ],
                               ),
@@ -258,10 +258,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays4("en-GB"),
+                                    onPressed: () => speakbetrays4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays4("en-US"),
+                                    onPressed: () => speakbetrays4("en-US"),
                                   ),
                                 ],
                               ),
@@ -289,10 +289,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays4("en-GB"),
+                                    onPressed: () => speakbetrays4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays4("en-US"),
+                                    onPressed: () => speakbetrays4("en-US"),
                                   ),
                                 ],
                               ),
@@ -320,10 +320,10 @@ class EnglishEntrybetray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetrays5("en-GB"),
+                                    onPressed: () => speakbetrays5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetrays5("en-US"),
+                                    onPressed: () => speakbetrays5("en-US"),
                                   ),
                                 ],
                               ),

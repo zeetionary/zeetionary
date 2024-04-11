@@ -19,7 +19,7 @@ class EnglishEntryarrest extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArrest(String languageCode) async {
+  Future<void> speakarrest(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarrest extends StatelessWidget {
     await flutterTts.speak("arrest"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest420(String languageCode) async {
+  Future<void> speakarrest420(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarrest extends StatelessWidget {
         "A man has been arrested in connection with the robbery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest421(String languageCode) async {
+  Future<void> speakarrest421(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarrest extends StatelessWidget {
         .speak("He was arrested on corruption charges."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest425(String languageCode) async {
+  Future<void> speakarrest425(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarrest extends StatelessWidget {
         "They failed to arrest the company's decline."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest426(String languageCode) async {
+  Future<void> speakarrest426(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarrest extends StatelessWidget {
         "The spread of the disease can be arrested with drugs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest428(String languageCode) async {
+  Future<void> speakarrest428(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryarrest extends StatelessWidget {
         "An unusual noise arrested his attention."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest430(String languageCode) async {
+  Future<void> speakarrest430(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryarrest extends StatelessWidget {
         "He arrested on the way to the hospital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest432(String languageCode) async {
+  Future<void> speakarrest432(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryarrest extends StatelessWidget {
         .speak("The police made several arrests."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrest435(String languageCode) async {
+  Future<void> speakarrest435(String languageCode) async {
     // DOPSUM: CHANGE speakArrest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryarrest extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈrest/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArrest("en-GB"),
+                              onPressed: () => speakarrest("en-GB"),
                             ),
                           ],
                         ),
@@ -139,7 +139,7 @@ class EnglishEntryarrest extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈrest/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArrest("en-US"),
+                              onPressed: () => speakarrest("en-US"),
                             ),
                           ],
                         ),
@@ -189,10 +189,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest420("en-GB"),
+                                    onPressed: () => speakarrest420("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest420(
+                                    onPressed: () => speakarrest420(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest421("en-GB"),
+                                    onPressed: () => speakarrest421("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest421(
+                                    onPressed: () => speakarrest421(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest425("en-GB"),
+                                    onPressed: () => speakarrest425("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest425(
+                                    onPressed: () => speakarrest425(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest426("en-GB"),
+                                    onPressed: () => speakarrest426("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest426(
+                                    onPressed: () => speakarrest426(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest428("en-GB"),
+                                    onPressed: () => speakarrest428("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest428(
+                                    onPressed: () => speakarrest428(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -349,10 +349,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest430("en-GB"),
+                                    onPressed: () => speakarrest430("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest430(
+                                    onPressed: () => speakarrest430(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -382,10 +382,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest432("en-GB"),
+                                    onPressed: () => speakarrest432("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest432(
+                                    onPressed: () => speakarrest432(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),
@@ -415,10 +415,10 @@ class EnglishEntryarrest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArrest435("en-GB"),
+                                    onPressed: () => speakarrest435("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArrest435(
+                                    onPressed: () => speakarrest435(
                                         // REPLACE: arrest /əˈrest/
                                         "en-US"),
                                   ),

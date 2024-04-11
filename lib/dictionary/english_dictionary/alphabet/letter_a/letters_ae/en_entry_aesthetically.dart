@@ -11,7 +11,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
   EnglishEntryaesthetically({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAesthetically(String languageCode) async {
+  Future<void> speakaesthetically(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
     await flutterTts.speak("aesthetically"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAestheti1255(String languageCode) async {
+  Future<void> speakaestheti1255(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
         "The film is technically and aesthetically brilliant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAesth3669941(String languageCode) async {
+  Future<void> speakaesth3669941(String languageCode) async {
     // DOPSUM: CHANGE speakAesthetically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
         "The interior has been aesthetically decorated."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAesthetically(String languageCode) async {
+  // Future<void> speakaesthetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakAesthetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /iːsˈθetɪkli/, /esˈθetɪkli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAesthetically("en-GB"),
+                              onPressed: () => speakaesthetically("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                 text:
                                     "IpaUS: /esˈθetɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAesthetically("en-US"),
+                              onPressed: () => speakaesthetically("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryaesthetically extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAestheti1255("en-GB"),
+                                    onPressed: () => speakaestheti1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAestheti1255(
+                                    onPressed: () => speakaestheti1255(
                                         // REPLACE: aesthetically /esˈθetɪkli/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryaesthetically extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAesth3669941("en-GB"),
+                                    onPressed: () => speakaesth3669941("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAesth3669941(
+                                    onPressed: () => speakaesth3669941(
                                         // REPLACE: aesthetically /esˈθetɪkli/
                                         "en-US"),
                                   ),

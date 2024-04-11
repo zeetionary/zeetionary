@@ -19,7 +19,7 @@ class EnglishEntryasylum extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsylum(String languageCode) async {
+  Future<void> speakasylum(String languageCode) async {
     // DOPSUM: CHANGE speakAsylum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasylum extends StatelessWidget {
     await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsylum617(String languageCode) async {
+  Future<void> speakasylum617(String languageCode) async {
     // DOPSUM: CHANGE speakAsylum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasylum extends StatelessWidget {
         "There was a nationwide debate on whether the asylum laws should be changed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsylum620(String languageCode) async {
+  Future<void> speakasylum620(String languageCode) async {
     // DOPSUM: CHANGE speakAsylum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasylum extends StatelessWidget {
         "Conditions in the asylum were deplorable."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasylum extends StatelessWidget {
   //   await flutterTts.speak("asylum"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsylum(String languageCode) async {
+  // Future<void> speakasylum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsylum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryasylum extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsaɪləm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsylum("en-GB"),
+                              onPressed: () => speakasylum("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryasylum extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsaɪləm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsylum("en-US"),
+                              onPressed: () => speakasylum("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryasylum extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsylum617("en-GB"),
+                                    onPressed: () => speakasylum617("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsylum617(// REPLACE: asylum
+                                        speakasylum617(// REPLACE: asylum
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryasylum extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsylum620("en-GB"),
+                                    onPressed: () => speakasylum620("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsylum620(// REPLACE: asylum
+                                        speakasylum620(// REPLACE: asylum
                                             "en-US"),
                                   ),
                                 ],

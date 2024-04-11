@@ -13,7 +13,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnthrax(String languageCode) async {
+  Future<void> speakanthrax(String languageCode) async {
     // DOPSUM: CHANGE speakAnthrax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanthrax extends StatelessWidget {
     await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnthrax833(String languageCode) async {
+  Future<void> speakanthrax833(String languageCode) async {
     // DOPSUM: CHANGE speakAnthrax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanthrax extends StatelessWidget {
         "Humans can contract anthrax by handling products from infected animals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanthrax extends StatelessWidget {
   //   await flutterTts.speak("anthrax"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthrax(String languageCode) async {
+  // Future<void> speakanthrax(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthrax
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanthrax extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænθræks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthrax("en-GB"),
+                              onPressed: () => speakanthrax("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanthrax extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænθræks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthrax("en-US"),
+                              onPressed: () => speakanthrax("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntryanthrax extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnthrax833("en-GB"),
+                                    onPressed: () => speakanthrax833("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnthrax833(
+                                    onPressed: () => speakanthrax833(
                                         // REPLACE: anthrax /ˈænθræks/
                                         "en-US"),
                                   ),

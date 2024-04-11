@@ -19,7 +19,7 @@ class EnglishEntryASCII extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscii(String languageCode) async {
+  Future<void> speakascii(String languageCode) async {
     // DOPSUM: CHANGE speakAscii
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryASCII extends StatelessWidget {
     await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscii130(String languageCode) async {
+  Future<void> speakascii130(String languageCode) async {
     // DOPSUM: CHANGE speakAscii
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryASCII extends StatelessWidget {
         .speak("Save the text as an ASCII file."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryASCII extends StatelessWidget {
   //   await flutterTts.speak("ASCII"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscii(String languageCode) async {
+  // Future<void> speakascii(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscii
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryASCII extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæski/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscii("en-GB"),
+                              onPressed: () => speakascii("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryASCII extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæski/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscii("en-US"),
+                              onPressed: () => speakascii("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryASCII extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAscii130("en-GB"),
+                                    onPressed: () => speakascii130("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAscii130(// REPLACE: ASCII /ˈæski/
+                                        speakascii130(// REPLACE: ASCII /ˈæski/
                                             "en-US"),
                                   ),
                                 ],

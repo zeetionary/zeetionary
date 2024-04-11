@@ -19,7 +19,7 @@ class EnglishEntryassessor extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssessor(String languageCode) async {
+  Future<void> speakassessor(String languageCode) async {
     // DOPSUM: CHANGE speakAssessor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassessor extends StatelessWidget {
     await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssessor1140(String languageCode) async {
+  Future<void> speakassessor1140(String languageCode) async {
     // DOPSUM: CHANGE speakAssessor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassessor extends StatelessWidget {
         "The government appointed independent assessors to review the viability of the remaining coal mines."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssessor1143(String languageCode) async {
+  Future<void> speakassessor1143(String languageCode) async {
     // DOPSUM: CHANGE speakAssessor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassessor extends StatelessWidget {
         "The assessor's offices vary in how they determine a home's value."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssessor1147(String languageCode) async {
+  Future<void> speakassessor1147(String languageCode) async {
     // DOPSUM: CHANGE speakAssessor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassessor extends StatelessWidget {
         "The assessor evaluated the student's performance on the exam."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssessor(String languageCode) async {
+  // Future<void> speakassessor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssessor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssessor(String languageCode) async {
+  // Future<void> speakassessor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssessor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssessor(String languageCode) async {
+  // Future<void> speakassessor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssessor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssessor(String languageCode) async {
+  // Future<void> speakassessor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssessor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryassessor extends StatelessWidget {
   //   await flutterTts.speak("assessor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssessor(String languageCode) async {
+  // Future<void> speakassessor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssessor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryassessor extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsesə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssessor("en-GB"),
+                              onPressed: () => speakassessor("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryassessor extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsesər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssessor("en-US"),
+                              onPressed: () => speakassessor("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryassessor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssessor1140("en-GB"),
+                                    onPressed: () => speakassessor1140("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssessor1140(
+                                    onPressed: () => speakassessor1140(
                                         // REPLACE: assessor /əˈsesər/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryassessor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssessor1143("en-GB"),
+                                    onPressed: () => speakassessor1143("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssessor1143(
+                                    onPressed: () => speakassessor1143(
                                         // REPLACE: assessor /əˈsesər/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryassessor extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssessor1147("en-GB"),
+                                    onPressed: () => speakassessor1147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssessor1147(
+                                    onPressed: () => speakassessor1147(
                                         // REPLACE: assessor /əˈsesər/
                                         "en-US"),
                                   ),

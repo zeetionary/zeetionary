@@ -19,7 +19,7 @@ class EnglishEntryavenue extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvenue(String languageCode) async {
+  Future<void> speakavenue(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavenue extends StatelessWidget {
     await flutterTts.speak("avenue"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues1(String languageCode) async {
+  Future<void> speakavenues1(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavenue extends StatelessWidget {
         "We walked down a broad avenue lined with trees."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues2(String languageCode) async {
+  Future<void> speakavenues2(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavenue extends StatelessWidget {
         "A mile-long avenue of lime trees leads to the house."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues3(String languageCode) async {
+  Future<void> speakavenues3(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryavenue extends StatelessWidget {
         "Only two avenues are open to us - either we accept his offer or we give up the fight completely."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues4(String languageCode) async {
+  Future<void> speakavenues4(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryavenue extends StatelessWidget {
     await flutterTts.speak("speakAvenues4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues5(String languageCode) async {
+  Future<void> speakavenues5(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryavenue extends StatelessWidget {
     await flutterTts.speak("speakAvenues5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues6(String languageCode) async {
+  Future<void> speakavenues6(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryavenue extends StatelessWidget {
     await flutterTts.speak("speakAvenues6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenues7(String languageCode) async {
+  Future<void> speakavenues7(String languageCode) async {
     // DOPSUM: CHANGE speakAvenue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryavenue extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævənjuː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvenue("en-GB"),
+                              onPressed: () => speakavenue("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryavenue extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævənuː"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvenue("en-US"),
+                              onPressed: () => speakavenue("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryavenue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvenues1("en-GB"),
+                                    onPressed: () => speakavenues1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvenues1(// REPLACE: avenue
+                                        speakavenues1(// REPLACE: avenue
                                             "en-US"),
                                   ),
                                 ],
@@ -209,11 +209,11 @@ class EnglishEntryavenue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvenues2("en-GB"),
+                                    onPressed: () => speakavenues2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvenues2(// REPLACE: avenue
+                                        speakavenues2(// REPLACE: avenue
                                             "en-US"),
                                   ),
                                 ],
@@ -242,11 +242,11 @@ class EnglishEntryavenue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvenues3("en-GB"),
+                                    onPressed: () => speakavenues3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvenues3(// REPLACE: avenue
+                                        speakavenues3(// REPLACE: avenue
                                             "en-US"),
                                   ),
                                 ],

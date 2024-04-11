@@ -11,7 +11,7 @@ class EnglishEntryamble extends StatelessWidget {
   EnglishEntryamble({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmble(String languageCode) async {
+  Future<void> speakamble(String languageCode) async {
     // DOPSUM: CHANGE speakAmble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamble extends StatelessWidget {
     await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmble88544(String languageCode) async {
+  Future<void> speakamble88544(String languageCode) async {
     // DOPSUM: CHANGE speakAmble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamble extends StatelessWidget {
         .speak("Mark ambled over to the girls."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmble(String languageCode) async {
+  // Future<void> speakamble(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmble
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamble extends StatelessWidget {
   //   await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmble(String languageCode) async {
+  // Future<void> speakamble(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmble
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryamble extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmble("en-GB"),
+                              onPressed: () => speakamble("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryamble extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmble("en-US"),
+                              onPressed: () => speakamble("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryamble extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmble88544("en-GB"),
+                                    onPressed: () => speakamble88544("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmble88544(
+                                    onPressed: () => speakamble88544(
                                         // REPLACE: amble /ˈæmbl/
                                         "en-US"),
                                   ),

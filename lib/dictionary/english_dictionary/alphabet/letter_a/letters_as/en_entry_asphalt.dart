@@ -19,7 +19,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsphalt(String languageCode) async {
+  Future<void> speakasphalt(String languageCode) async {
     // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasphalt extends StatelessWidget {
     await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsphalt528(String languageCode) async {
+  Future<void> speakasphalt528(String languageCode) async {
     // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasphalt extends StatelessWidget {
         .speak("The road was paved with asphalt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsphalt530(String languageCode) async {
+  Future<void> speakasphalt530(String languageCode) async {
     // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasphalt extends StatelessWidget {
         .speak("The workers asphalted the road."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasphalt extends StatelessWidget {
   //   await flutterTts.speak("asphalt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsphalt(String languageCode) async {
+  // Future<void> speakasphalt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsphalt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæsfælt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsphalt("en-GB"),
+                              onPressed: () => speakasphalt("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæsfɔːlt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsphalt("en-US"),
+                              onPressed: () => speakasphalt("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryasphalt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsphalt528("en-GB"),
+                                    onPressed: () => speakasphalt528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsphalt528(
+                                    onPressed: () => speakasphalt528(
                                         // REPLACE: asphalt /ˈæsfɔːlt/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryasphalt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsphalt530("en-GB"),
+                                    onPressed: () => speakasphalt530("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsphalt530(
+                                    onPressed: () => speakasphalt530(
                                         // REPLACE: asphalt /ˈæsfɔːlt/
                                         "en-US"),
                                   ),

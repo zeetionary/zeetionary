@@ -215,7 +215,7 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbandoned1577(String languageCode) async {
+  Future<void> speakabandoned1577(String languageCode) async {
     // DOPSUM: CHANGE speakAbandoned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -224,7 +224,7 @@ class KurdishMeaning extends StatelessWidget {
         "The child was found abandoned but unharmed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbandoned47(String languageCode) async {
+  Future<void> speakabandoned47(String languageCode) async {
     // DOPSUM: CHANGE speakAbandoned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -264,10 +264,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAbandoned1577("en-GB"),
+                    onPressed: () => speakabandoned1577("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAbandoned1577("en-US"),
+                    onPressed: () => speakabandoned1577("en-US"),
                   ),
                 ],
               ),
@@ -292,10 +292,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAbandoned47("en-GB"),
+                    onPressed: () => speakabandoned47("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAbandoned47("en-US"),
+                    onPressed: () => speakabandoned47("en-US"),
                   ),
                 ],
               ),

@@ -19,7 +19,7 @@ class EnglishEntryassert extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssert(String languageCode) async {
+  Future<void> speakassert(String languageCode) async {
     // DOPSUM: CHANGE speakAssert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassert extends StatelessWidget {
     await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssert1024(String languageCode) async {
+  Future<void> speakassert1024(String languageCode) async {
     // DOPSUM: CHANGE speakAssert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassert extends StatelessWidget {
         "She continued to assert that she was innocent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssert1026(String languageCode) async {
+  Future<void> speakassert1026(String languageCode) async {
     // DOPSUM: CHANGE speakAssert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassert extends StatelessWidget {
         "The German Chancellor was anxious to assert her government's commitment to European unity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssert1030(String languageCode) async {
+  Future<void> speakassert1030(String languageCode) async {
     // DOPSUM: CHANGE speakAssert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassert extends StatelessWidget {
         "You’re too timid—you must try to assert yourself more."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssert1032(String languageCode) async {
+  Future<void> speakassert1032(String languageCode) async {
     // DOPSUM: CHANGE speakAssert
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassert extends StatelessWidget {
         "She wished to assert her independence from her parents."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssert(String languageCode) async {
+  // Future<void> speakassert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssert(String languageCode) async {
+  // Future<void> speakassert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssert(String languageCode) async {
+  // Future<void> speakassert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryassert extends StatelessWidget {
   //   await flutterTts.speak("assert"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssert(String languageCode) async {
+  // Future<void> speakassert(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssert
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryassert extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɜːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssert("en-GB"),
+                              onPressed: () => speakassert("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryassert extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɜːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssert("en-US"),
+                              onPressed: () => speakassert("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryassert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssert1024("en-GB"),
+                                    onPressed: () => speakassert1024("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssert1024(
+                                    onPressed: () => speakassert1024(
                                         // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryassert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssert1026("en-GB"),
+                                    onPressed: () => speakassert1026("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssert1026(
+                                    onPressed: () => speakassert1026(
                                         // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
                                   ),
@@ -249,10 +249,10 @@ class EnglishEntryassert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssert1030("en-GB"),
+                                    onPressed: () => speakassert1030("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssert1030(
+                                    onPressed: () => speakassert1030(
                                         // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
                                   ),
@@ -282,10 +282,10 @@ class EnglishEntryassert extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssert1032("en-GB"),
+                                    onPressed: () => speakassert1032("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssert1032(
+                                    onPressed: () => speakassert1032(
                                         // REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
                                   ),

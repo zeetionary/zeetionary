@@ -13,7 +13,7 @@ class EnglishEntryantecedent extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntecedent(String languageCode) async {
+  Future<void> speakantecedent(String languageCode) async {
     // DOPSUM: CHANGE speakAntecedent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantecedent extends StatelessWidget {
     await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntecedent411(String languageCode) async {
+  Future<void> speakantecedent411(String languageCode) async {
     // DOPSUM: CHANGE speakAntecedent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantecedent extends StatelessWidget {
         "The book dealt with the historical antecedents of the Civil War."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntecedent414(String languageCode) async {
+  Future<void> speakantecedent414(String languageCode) async {
     // DOPSUM: CHANGE speakAntecedent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryantecedent extends StatelessWidget {
         "Many people feel a great curiosity to find out about their antecedents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntecedent421(String languageCode) async {
+  Future<void> speakantecedent421(String languageCode) async {
     // DOPSUM: CHANGE speakAntecedent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryantecedent extends StatelessWidget {
         "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntecedent(String languageCode) async {
+  // Future<void> speakantecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryantecedent extends StatelessWidget {
   //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntecedent(String languageCode) async {
+  // Future<void> speakantecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryantecedent extends StatelessWidget {
   //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntecedent(String languageCode) async {
+  // Future<void> speakantecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryantecedent extends StatelessWidget {
   //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntecedent(String languageCode) async {
+  // Future<void> speakantecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryantecedent extends StatelessWidget {
   //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntecedent(String languageCode) async {
+  // Future<void> speakantecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntɪˈsiːdnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntecedent("en-GB"),
+                              onPressed: () => speakantecedent("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntɪˈsiːdnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntecedent("en-US"),
+                              onPressed: () => speakantecedent("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntecedent411("en-GB"),
+                                        speakantecedent411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntecedent411(
+                                    onPressed: () => speakantecedent411(
                                         // REPLACE: antecedent /ˌæntɪˈsiːdnt/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntecedent414("en-GB"),
+                                        speakantecedent414("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntecedent414(
+                                    onPressed: () => speakantecedent414(
                                         // REPLACE: antecedent /ˌæntɪˈsiːdnt/
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntecedent421("en-GB"),
+                                        speakantecedent421("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntecedent421(
+                                    onPressed: () => speakantecedent421(
                                         // REPLACE: antecedent /ˌæntɪˈsiːdnt/
                                         "en-US"),
                                   ),

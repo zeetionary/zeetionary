@@ -11,7 +11,7 @@ class EnglishEntryalto extends StatelessWidget {
   EnglishEntryalto({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlto(String languageCode) async {
+  Future<void> speakalto(String languageCode) async {
     // DOPSUM: CHANGE speakAlto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalto extends StatelessWidget {
     await flutterTts.speak("alto"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlto4565(String languageCode) async {
+  Future<void> speakalto4565(String languageCode) async {
     // DOPSUM: CHANGE speakAlto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalto extends StatelessWidget {
         "She began by singing soprano, then changed to alto."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlto(String languageCode) async {
+  // Future<void> speakalto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalto extends StatelessWidget {
   //   await flutterTts.speak("alto"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlto(String languageCode) async {
+  // Future<void> speakalto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalto extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlto("en-GB"),
+                              onPressed: () => speakalto("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryalto extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlto("en-US"),
+                              onPressed: () => speakalto("en-US"),
                             ),
                           ],
                         ),
@@ -129,11 +129,11 @@ class EnglishEntryalto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlto4565("en-GB"),
+                                    onPressed: () => speakalto4565("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlto4565(// REPLACE: alto /ˈæltəʊ/
+                                        speakalto4565(// REPLACE: alto /ˈæltəʊ/
                                             "en-US"),
                                   ),
                                 ],

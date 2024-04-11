@@ -11,7 +11,7 @@ class EnglishEntryabsence extends StatelessWidget {
   EnglishEntryabsence({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAabsence(String languageCode) async {
+  Future<void> speakaabsence(String languageCode) async {
     // DOPSUM: CHANGE speakAabsence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabsence extends StatelessWidget {
     await flutterTts.speak("absence"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2134(String languageCode) async {
+  Future<void> speaka2134(String languageCode) async {
     // DOPSUM: CHANGE speakAabsence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabsence extends StatelessWidget {
         "The case was dismissed in the absence of any definite proof."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2689(String languageCode) async {
+  Future<void> speaka2689(String languageCode) async {
     // DOPSUM: CHANGE speakAabsence
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryabsence extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbsəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAabsence("en-GB"),
+                              onPressed: () => speakaabsence("en-GB"),
                             ),
                           ],
                         ),
@@ -75,7 +75,7 @@ class EnglishEntryabsence extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbsəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAabsence("en-US"),
+                              onPressed: () => speakaabsence("en-US"),
                             ),
                           ],
                         ),
@@ -126,10 +126,10 @@ class EnglishEntryabsence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2689("en-GB"),
+                                    onPressed: () => speaka2689("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2689("en-US"),
+                                    onPressed: () => speaka2689("en-US"),
                                   ),
                                 ],
                               ),
@@ -156,10 +156,10 @@ class EnglishEntryabsence extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2134("en-GB"),
+                                    onPressed: () => speaka2134("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2134("en-US"),
+                                    onPressed: () => speaka2134("en-US"),
                                   ),
                                 ],
                               ),

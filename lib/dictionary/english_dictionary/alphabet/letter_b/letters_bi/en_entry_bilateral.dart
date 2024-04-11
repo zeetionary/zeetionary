@@ -19,7 +19,7 @@ class EnglishEntrybilateral extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBilateral(String languageCode) async {
+  Future<void> speakbilateral(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybilateral extends StatelessWidget {
     await flutterTts.speak("bilateral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals1(String languageCode) async {
+  Future<void> speakbilaterals1(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybilateral extends StatelessWidget {
         "Both nations have signed bilateral treaties with the United States."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals2(String languageCode) async {
+  Future<void> speakbilaterals2(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybilateral extends StatelessWidget {
         "The doctor performed a bilateral mastectomy to remove both breasts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals3(String languageCode) async {
+  Future<void> speakbilaterals3(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybilateral extends StatelessWidget {
         "The patient had bilateral vision loss due to glaucoma."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals4(String languageCode) async {
+  Future<void> speakbilaterals4(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybilateral extends StatelessWidget {
     await flutterTts.speak("speakBilaterals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals5(String languageCode) async {
+  Future<void> speakbilaterals5(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybilateral extends StatelessWidget {
     await flutterTts.speak("speakBilaterals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals6(String languageCode) async {
+  Future<void> speakbilaterals6(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybilateral extends StatelessWidget {
     await flutterTts.speak("speakBilaterals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilaterals7(String languageCode) async {
+  Future<void> speakbilaterals7(String languageCode) async {
     // DOPSUM: CHANGE speakBilateral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybilateral extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪˈlætərəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBilateral("en-GB"),
+                              onPressed: () => speakbilateral("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybilateral extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪˈlætərəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBilateral("en-US"),
+                              onPressed: () => speakbilateral("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybilateral extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilaterals1("en-GB"),
+                                    onPressed: () => speakbilaterals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilaterals1("en-US"),
+                                    onPressed: () => speakbilaterals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybilateral extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilaterals2("en-GB"),
+                                    onPressed: () => speakbilaterals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilaterals2("en-US"),
+                                    onPressed: () => speakbilaterals2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybilateral extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilaterals3("en-GB"),
+                                    onPressed: () => speakbilaterals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilaterals3("en-US"),
+                                    onPressed: () => speakbilaterals3("en-US"),
                                   ),
                                 ],
                               ),

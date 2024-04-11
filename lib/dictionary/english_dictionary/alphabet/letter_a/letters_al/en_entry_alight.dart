@@ -11,7 +11,7 @@ class EnglishEntryalight extends StatelessWidget {
   EnglishEntryalight({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlight(String languageCode) async {
+  Future<void> speakalight(String languageCode) async {
     // DOPSUM: CHANGE speakAlight
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalight extends StatelessWidget {
     await flutterTts.speak("alight"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlight3996(String languageCode) async {
+  Future<void> speakalight3996(String languageCode) async {
     // DOPSUM: CHANGE speakAlight
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalight extends StatelessWidget {
         .speak("A car was overturned and set alight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlight46555(String languageCode) async {
+  Future<void> speakalight46555(String languageCode) async {
     // DOPSUM: CHANGE speakAlight
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalight extends StatelessWidget {
         "The children’s faces were alight with enthusiasm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlight35244(String languageCode) async {
+  Future<void> speakalight35244(String languageCode) async {
     // DOPSUM: CHANGE speakAlight
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalight extends StatelessWidget {
         "Several birds alighted on the branches of the tree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlight32852(String languageCode) async {
+  Future<void> speakalight32852(String languageCode) async {
     // DOPSUM: CHANGE speakAlight
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalight extends StatelessWidget {
         .speak("Do not alight from a moving bus."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlight(String languageCode) async {
+  // Future<void> speakalight(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlight
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryalight extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlight("en-GB"),
+                              onPressed: () => speakalight("en-GB"),
                             ),
                           ],
                         ),
@@ -102,7 +102,7 @@ class EnglishEntryalight extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlight("en-US"),
+                              onPressed: () => speakalight("en-US"),
                             ),
                           ],
                         ),
@@ -151,10 +151,10 @@ class EnglishEntryalight extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlight3996("en-GB"),
+                                    onPressed: () => speakalight3996("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlight3996(
+                                    onPressed: () => speakalight3996(
                                         // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
                                   ),
@@ -183,10 +183,10 @@ class EnglishEntryalight extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlight35244("en-GB"),
+                                    onPressed: () => speakalight35244("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlight35244(
+                                    onPressed: () => speakalight35244(
                                         // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryalight extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlight32852("en-GB"),
+                                    onPressed: () => speakalight32852("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlight32852(
+                                    onPressed: () => speakalight32852(
                                         // REPLACE: alight /əˈlaɪt/
                                         "en-US"),
                                   ),

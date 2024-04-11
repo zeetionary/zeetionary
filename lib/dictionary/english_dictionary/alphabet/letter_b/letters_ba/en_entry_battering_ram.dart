@@ -19,7 +19,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBatteringram(String languageCode) async {
+  Future<void> speakbatteringram(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("battering ram"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams1(String languageCode) async {
+  Future<void> speakbatteringrams1(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
         "The besiegers used a battering ram to breach the castle walls."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams2(String languageCode) async {
+  Future<void> speakbatteringrams2(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("speakBatteringrams22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams3(String languageCode) async {
+  Future<void> speakbatteringrams3(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("speakBatteringrams33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams4(String languageCode) async {
+  Future<void> speakbatteringrams4(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("speakBatteringrams44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams5(String languageCode) async {
+  Future<void> speakbatteringrams5(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("speakBatteringrams55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams6(String languageCode) async {
+  Future<void> speakbatteringrams6(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
     await flutterTts.speak("speakBatteringrams66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatteringrams7(String languageCode) async {
+  Future<void> speakbatteringrams7(String languageCode) async {
     // DOPSUM: CHANGE speakBatteringram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbætərɪŋ ræm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBatteringram("en-GB"),
+                              onPressed: () => speakbatteringram("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbætərɪŋ ræm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBatteringram("en-US"),
+                              onPressed: () => speakbatteringram("en-US"),
                             ),
                           ],
                         ),
@@ -170,11 +170,11 @@ class EnglishEntrybatteringram extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBatteringrams1("en-GB"),
+                                        speakbatteringrams1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBatteringrams1("en-US"),
+                                        speakbatteringrams1("en-US"),
                                   ),
                                 ],
                               ),

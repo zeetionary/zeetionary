@@ -11,7 +11,7 @@ class EnglishEntryacre extends StatelessWidget {
   EnglishEntryacre({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcre(String languageCode) async {
+  Future<void> speakacre(String languageCode) async {
     // DOPSUM: CHANGE speakAcre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacre extends StatelessWidget {
     await flutterTts.speak("acre"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcr1527(String languageCode) async {
+  Future<void> speakacr1527(String languageCode) async {
     // DOPSUM: CHANGE speakAcre
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacre extends StatelessWidget {
         "Each house has acres of space around it."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcre(String languageCode) async {
+  // Future<void> speakacre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacre extends StatelessWidget {
   //   await flutterTts.speak("acre"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcre(String languageCode) async {
+  // Future<void> speakacre(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcre
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacre extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcre("en-GB"),
+                              onPressed: () => speakacre("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacre extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcre("en-US"),
+                              onPressed: () => speakacre("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryacre extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcr1527("en-GB"),
+                                    onPressed: () => speakacr1527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcr1527(
+                                    onPressed: () => speakacr1527(
                                         "en-US"), // REPLACE acre /ˈeɪkər/
                                   ),
                                 ],

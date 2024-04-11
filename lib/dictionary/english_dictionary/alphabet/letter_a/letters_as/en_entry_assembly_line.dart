@@ -19,7 +19,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssemblyline(String languageCode) async {
+  Future<void> speakassemblyline(String languageCode) async {
     // DOPSUM: CHANGE speakAssemblyline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
     await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssemblyline1003(String languageCode) async {
+  Future<void> speakassemblyline1003(String languageCode) async {
     // DOPSUM: CHANGE speakAssemblyline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
         "The workers on the assembly line worked tirelessly to produce the cars."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   //   await flutterTts.speak("assembly line"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemblyline(String languageCode) async {
+  // Future<void> speakassemblyline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssemblyline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsembli laɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssemblyline("en-GB"),
+                              onPressed: () => speakassemblyline("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsembli laɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssemblyline("en-US"),
+                              onPressed: () => speakassemblyline("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssemblyline1003("en-GB"),
+                                        speakassemblyline1003("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssemblyline1003(
+                                    onPressed: () => speakassemblyline1003(
                                         // REPLACE: assembly line /əˈsembli laɪn/
                                         "en-US"),
                                   ),

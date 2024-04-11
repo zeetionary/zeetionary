@@ -19,7 +19,7 @@ class EnglishEntrybargain extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBargain(String languageCode) async {
+  Future<void> speakbargain(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybargain extends StatelessWidget {
     await flutterTts.speak("bargain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains1(String languageCode) async {
+  Future<void> speakbargains1(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybargain extends StatelessWidget {
         "I picked up a few good bargains in the sale."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains2(String languageCode) async {
+  Future<void> speakbargains2(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybargain extends StatelessWidget {
         "He and his partner had made a bargain to tell each other everything."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains3(String languageCode) async {
+  Future<void> speakbargains3(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybargain extends StatelessWidget {
         "Finally the two sides struck a bargain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains4(String languageCode) async {
+  Future<void> speakbargains4(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybargain extends StatelessWidget {
         "In the market dealers were bargaining with growers over the price of coffee."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains5(String languageCode) async {
+  Future<void> speakbargains5(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybargain extends StatelessWidget {
     await flutterTts.speak("speakBargains55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains6(String languageCode) async {
+  Future<void> speakbargains6(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybargain extends StatelessWidget {
     await flutterTts.speak("speakBargains66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBargains7(String languageCode) async {
+  Future<void> speakbargains7(String languageCode) async {
     // DOPSUM: CHANGE speakBargain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybargain extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɑːɡən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBargain("en-GB"),
+                              onPressed: () => speakbargain("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybargain extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɑːrɡən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBargain("en-US"),
+                              onPressed: () => speakbargain("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntrybargain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBargains1("en-GB"),
+                                    onPressed: () => speakbargains1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBargains1("en-US"),
+                                    onPressed: () => speakbargains1("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,10 +203,10 @@ class EnglishEntrybargain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBargains2("en-GB"),
+                                    onPressed: () => speakbargains2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBargains2("en-US"),
+                                    onPressed: () => speakbargains2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybargain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBargains3("en-GB"),
+                                    onPressed: () => speakbargains3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBargains3("en-US"),
+                                    onPressed: () => speakbargains3("en-US"),
                                   ),
                                 ],
                               ),
@@ -263,10 +263,10 @@ class EnglishEntrybargain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBargains4("en-GB"),
+                                    onPressed: () => speakbargains4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBargains4("en-US"),
+                                    onPressed: () => speakbargains4("en-US"),
                                   ),
                                 ],
                               ),

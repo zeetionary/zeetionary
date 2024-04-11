@@ -19,7 +19,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssetstripping(String languageCode) async {
+  Future<void> speakassetstripping(String languageCode) async {
     // DOPSUM: CHANGE speakAssetstripping
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
     await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
   //   await flutterTts.speak("asset-stripping"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssetstripping(String languageCode) async {
+  // Future<void> speakassetstripping(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssetstripping
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæset strɪpɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssetstripping("en-GB"),
+                              onPressed: () => speakassetstripping("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæset strɪpɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssetstripping("en-US"),
+                              onPressed: () => speakassetstripping("en-US"),
                             ),
                           ],
                         ),

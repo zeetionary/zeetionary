@@ -19,7 +19,7 @@ class EnglishEntrybecause extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBecause(String languageCode) async {
+  Future<void> speakbecause(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybecause extends StatelessWidget {
     await flutterTts.speak("because"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses1(String languageCode) async {
+  Future<void> speakbecauses1(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybecause extends StatelessWidget {
         .speak("I did it because he told me to."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses2(String languageCode) async {
+  Future<void> speakbecauses2(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybecause extends StatelessWidget {
         "Just because I'm lending you my dress for tonight doesn't mean you can borrow it whenever you want to."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses3(String languageCode) async {
+  Future<void> speakbecauses3(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybecause extends StatelessWidget {
         "He hated being in the army because he had to obey commands."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses4(String languageCode) async {
+  Future<void> speakbecauses4(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybecause extends StatelessWidget {
     await flutterTts.speak("speakBecauses44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses5(String languageCode) async {
+  Future<void> speakbecauses5(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybecause extends StatelessWidget {
     await flutterTts.speak("speakBecauses55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses6(String languageCode) async {
+  Future<void> speakbecauses6(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybecause extends StatelessWidget {
     await flutterTts.speak("speakBecauses66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecauses7(String languageCode) async {
+  Future<void> speakbecauses7(String languageCode) async {
     // DOPSUM: CHANGE speakBecause
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybecause extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /bɪˈkəz/, /bɪˈkɒz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBecause("en-GB"),
+                              onPressed: () => speakbecause("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybecause extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /bɪˈkəz/, /bɪˈkɔːz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBecause("en-US"),
+                              onPressed: () => speakbecause("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybecause extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecauses1("en-GB"),
+                                    onPressed: () => speakbecauses1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecauses1("en-US"),
+                                    onPressed: () => speakbecauses1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybecause extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecauses2("en-GB"),
+                                    onPressed: () => speakbecauses2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecauses2("en-US"),
+                                    onPressed: () => speakbecauses2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybecause extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecauses3("en-GB"),
+                                    onPressed: () => speakbecauses3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecauses3("en-US"),
+                                    onPressed: () => speakbecauses3("en-US"),
                                   ),
                                 ],
                               ),

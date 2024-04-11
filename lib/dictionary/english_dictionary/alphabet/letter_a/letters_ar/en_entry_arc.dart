@@ -17,7 +17,7 @@ class EnglishEntryarc extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArc(String languageCode) async {
+  Future<void> speakarc(String languageCode) async {
     // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarc extends StatelessWidget {
     await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArc1246(String languageCode) async {
+  Future<void> speakarc1246(String languageCode) async {
     // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarc extends StatelessWidget {
         "The ball rose in a high arc and fell behind the boundary line."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArc1249(String languageCode) async {
+  Future<void> speakarc1249(String languageCode) async {
     // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarc extends StatelessWidget {
         "They were firing shells in a high arc over our heads."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArc1252(String languageCode) async {
+  Future<void> speakarc1252(String languageCode) async {
     // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarc extends StatelessWidget {
         "The father has the most interesting character arc in the series."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArc(String languageCode) async {
+  // Future<void> speakarc(String languageCode) async {
   //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArc(String languageCode) async {
+  // Future<void> speakarc(String languageCode) async {
   //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArc(String languageCode) async {
+  // Future<void> speakarc(String languageCode) async {
   //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArc(String languageCode) async {
+  // Future<void> speakarc(String languageCode) async {
   //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarc extends StatelessWidget {
   //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArc(String languageCode) async {
+  // Future<void> speakarc(String languageCode) async {
   //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarc extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArc("en-GB"),
+                              onPressed: () => speakarc("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarc extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArc("en-US"),
+                              onPressed: () => speakarc("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +182,11 @@ class EnglishEntryarc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArc1246("en-GB"),
+                                    onPressed: () => speakarc1246("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArc1246(// REPLACE: arc /ɑːrk/
+                                        speakarc1246(// REPLACE: arc /ɑːrk/
                                             "en-US"),
                                   ),
                                 ],
@@ -215,11 +215,11 @@ class EnglishEntryarc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArc1249("en-GB"),
+                                    onPressed: () => speakarc1249("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArc1249(// REPLACE: arc /ɑːrk/
+                                        speakarc1249(// REPLACE: arc /ɑːrk/
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryarc extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArc1252("en-GB"),
+                                    onPressed: () => speakarc1252("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArc1252(// REPLACE: arc /ɑːrk/
+                                        speakarc1252(// REPLACE: arc /ɑːrk/
                                             "en-US"),
                                   ),
                                 ],

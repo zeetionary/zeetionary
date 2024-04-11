@@ -19,7 +19,7 @@ class EnglishEntrybazaar extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBazaar(String languageCode) async {
+  Future<void> speakbazaar(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybazaar extends StatelessWidget {
     await flutterTts.speak("bazaar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars1(String languageCode) async {
+  Future<void> speakbazaars1(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybazaar extends StatelessWidget {
         "Why not visit the local bustling bazaar?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars2(String languageCode) async {
+  Future<void> speakbazaars2(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybazaar extends StatelessWidget {
         .speak("She got it at the church bazaar."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars3(String languageCode) async {
+  Future<void> speakbazaars3(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybazaar extends StatelessWidget {
     await flutterTts.speak("speakBazaars33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars4(String languageCode) async {
+  Future<void> speakbazaars4(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybazaar extends StatelessWidget {
     await flutterTts.speak("speakBazaars44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars5(String languageCode) async {
+  Future<void> speakbazaars5(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybazaar extends StatelessWidget {
     await flutterTts.speak("speakBazaars55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars6(String languageCode) async {
+  Future<void> speakbazaars6(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybazaar extends StatelessWidget {
     await flutterTts.speak("speakBazaars66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBazaars7(String languageCode) async {
+  Future<void> speakbazaars7(String languageCode) async {
     // DOPSUM: CHANGE speakBazaar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybazaar extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bəˈzɑː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBazaar("en-GB"),
+                              onPressed: () => speakbazaar("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybazaar extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈzɑːr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBazaar("en-US"),
+                              onPressed: () => speakbazaar("en-US"),
                             ),
                           ],
                         ),
@@ -166,10 +166,10 @@ class EnglishEntrybazaar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBazaars1("en-GB"),
+                                    onPressed: () => speakbazaars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBazaars1("en-US"),
+                                    onPressed: () => speakbazaars1("en-US"),
                                   ),
                                 ],
                               ),
@@ -197,10 +197,10 @@ class EnglishEntrybazaar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBazaars2("en-GB"),
+                                    onPressed: () => speakbazaars2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBazaars2("en-US"),
+                                    onPressed: () => speakbazaars2("en-US"),
                                   ),
                                 ],
                               ),

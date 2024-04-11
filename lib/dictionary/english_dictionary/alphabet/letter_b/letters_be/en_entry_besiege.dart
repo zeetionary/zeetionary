@@ -19,7 +19,7 @@ class EnglishEntrybesiege extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBesiege(String languageCode) async {
+  Future<void> speakbesiege(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybesiege extends StatelessWidget {
     await flutterTts.speak("besiege"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges1(String languageCode) async {
+  Future<void> speakbesieges1(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybesiege extends StatelessWidget {
         "Paris was besieged for four months and forced to surrender."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges2(String languageCode) async {
+  Future<void> speakbesieges2(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybesiege extends StatelessWidget {
         "The actress was besieged by reporters at the airport."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges3(String languageCode) async {
+  Future<void> speakbesieges3(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybesiege extends StatelessWidget {
         "The radio station was besieged with calls from angry listeners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges4(String languageCode) async {
+  Future<void> speakbesieges4(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybesiege extends StatelessWidget {
     await flutterTts.speak("speakBesieges44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges5(String languageCode) async {
+  Future<void> speakbesieges5(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybesiege extends StatelessWidget {
     await flutterTts.speak("speakBesieges55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges6(String languageCode) async {
+  Future<void> speakbesieges6(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybesiege extends StatelessWidget {
     await flutterTts.speak("speakBesieges66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBesieges7(String languageCode) async {
+  Future<void> speakbesieges7(String languageCode) async {
     // DOPSUM: CHANGE speakBesiege
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈsiːdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBesiege("en-GB"),
+                              onPressed: () => speakbesiege("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈsiːdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBesiege("en-US"),
+                              onPressed: () => speakbesiege("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybesiege extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBesieges1("en-GB"),
+                                    onPressed: () => speakbesieges1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBesieges1("en-US"),
+                                    onPressed: () => speakbesieges1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybesiege extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBesieges2("en-GB"),
+                                    onPressed: () => speakbesieges2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBesieges2("en-US"),
+                                    onPressed: () => speakbesieges2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybesiege extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBesieges3("en-GB"),
+                                    onPressed: () => speakbesieges3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBesieges3("en-US"),
+                                    onPressed: () => speakbesieges3("en-US"),
                                   ),
                                 ],
                               ),

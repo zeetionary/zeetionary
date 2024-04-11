@@ -19,7 +19,7 @@ class EnglishEntryavenge extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvenge(String languageCode) async {
+  Future<void> speakavenge(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("avenge"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges1(String languageCode) async {
+  Future<void> speakavenges1(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavenge extends StatelessWidget {
         "He promised to avenge his father's murder."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges2(String languageCode) async {
+  Future<void> speakavenges2(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("speakAvenges2c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges3(String languageCode) async {
+  Future<void> speakavenges3(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("speakAvenges3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges4(String languageCode) async {
+  Future<void> speakavenges4(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("speakAvenges4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges5(String languageCode) async {
+  Future<void> speakavenges5(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("speakAvenges5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges6(String languageCode) async {
+  Future<void> speakavenges6(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryavenge extends StatelessWidget {
     await flutterTts.speak("speakAvenges6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvenges7(String languageCode) async {
+  Future<void> speakavenges7(String languageCode) async {
     // DOPSUM: CHANGE speakAvenge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryavenge extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈvendʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvenge("en-GB"),
+                              onPressed: () => speakavenge("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryavenge extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈvendʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvenge("en-US"),
+                              onPressed: () => speakavenge("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryavenge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvenges1("en-GB"),
+                                    onPressed: () => speakavenges1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvenges1(// REPLACE: avenge
+                                        speakavenges1(// REPLACE: avenge
                                             "en-US"),
                                   ),
                                 ],

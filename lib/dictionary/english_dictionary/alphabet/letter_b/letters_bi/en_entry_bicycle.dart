@@ -19,7 +19,7 @@ class EnglishEntrybicycle extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBicycle(String languageCode) async {
+  Future<void> speakbicycle(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybicycle extends StatelessWidget {
     await flutterTts.speak("bicycle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles1(String languageCode) async {
+  Future<void> speakbicycles1(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybicycle extends StatelessWidget {
         .speak("He got on his bicycle and rode off."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles2(String languageCode) async {
+  Future<void> speakbicycles2(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybicycle extends StatelessWidget {
         "I dismounted and began to push my bicycle up the hill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles3(String languageCode) async {
+  Future<void> speakbicycles3(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybicycle extends StatelessWidget {
         "He bicycles to work through the heart of Amsterdam."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles4(String languageCode) async {
+  Future<void> speakbicycles4(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybicycle extends StatelessWidget {
     await flutterTts.speak("speakBicycles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles5(String languageCode) async {
+  Future<void> speakbicycles5(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybicycle extends StatelessWidget {
     await flutterTts.speak("speakBicycles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles6(String languageCode) async {
+  Future<void> speakbicycles6(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybicycle extends StatelessWidget {
     await flutterTts.speak("speakBicycles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicycles7(String languageCode) async {
+  Future<void> speakbicycles7(String languageCode) async {
     // DOPSUM: CHANGE speakBicycle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybicycle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbaɪsɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBicycle("en-GB"),
+                              onPressed: () => speakbicycle("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybicycle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbaɪsɪkl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBicycle("en-US"),
+                              onPressed: () => speakbicycle("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybicycle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBicycles1("en-GB"),
+                                    onPressed: () => speakbicycles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBicycles1("en-US"),
+                                    onPressed: () => speakbicycles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +199,10 @@ class EnglishEntrybicycle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBicycles2("en-GB"),
+                                    onPressed: () => speakbicycles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBicycles2("en-US"),
+                                    onPressed: () => speakbicycles2("en-US"),
                                   ),
                                 ],
                               ),
@@ -230,10 +230,10 @@ class EnglishEntrybicycle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBicycles3("en-GB"),
+                                    onPressed: () => speakbicycles3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBicycles3("en-US"),
+                                    onPressed: () => speakbicycles3("en-US"),
                                   ),
                                 ],
                               ),

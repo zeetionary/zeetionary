@@ -19,7 +19,7 @@ class EnglishEntryautopsy extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutopsy(String languageCode) async {
+  Future<void> speakautopsy(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("autopsy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys1(String languageCode) async {
+  Future<void> speakautopsys1(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautopsy extends StatelessWidget {
         "The autopsy revealed that he had been poisoned."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys2(String languageCode) async {
+  Future<void> speakautopsys2(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("speakAutopsys2c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys3(String languageCode) async {
+  Future<void> speakautopsys3(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("speakAutopsys3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys4(String languageCode) async {
+  Future<void> speakautopsys4(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("speakAutopsys4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys5(String languageCode) async {
+  Future<void> speakautopsys5(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("speakAutopsys5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys6(String languageCode) async {
+  Future<void> speakautopsys6(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.speak("speakAutopsys6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutopsys7(String languageCode) async {
+  Future<void> speakautopsys7(String languageCode) async {
     // DOPSUM: CHANGE speakAutopsy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːtɒpsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutopsy("en-GB"),
+                              onPressed: () => speakautopsy("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːtɑːpsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutopsy("en-US"),
+                              onPressed: () => speakautopsy("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryautopsy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAutopsys1("en-GB"),
+                                    onPressed: () => speakautopsys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutopsys1(// REPLACE: autopsy
+                                        speakautopsys1(// REPLACE: autopsy
                                             "en-US"),
                                   ),
                                 ],

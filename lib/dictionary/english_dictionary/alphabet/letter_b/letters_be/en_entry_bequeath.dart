@@ -19,7 +19,7 @@ class EnglishEntrybequeath extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBequeath(String languageCode) async {
+  Future<void> speakbequeath(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybequeath extends StatelessWidget {
     await flutterTts.speak("bequeath"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths1(String languageCode) async {
+  Future<void> speakbequeaths1(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybequeath extends StatelessWidget {
         "He bequeathed his entire estate to his daughter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths2(String languageCode) async {
+  Future<void> speakbequeaths2(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybequeath extends StatelessWidget {
         "He bequeathed his daughter his entire estate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths3(String languageCode) async {
+  Future<void> speakbequeaths3(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybequeath extends StatelessWidget {
         "The previous government had bequeathed a legacy of lots of problems."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths4(String languageCode) async {
+  Future<void> speakbequeaths4(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybequeath extends StatelessWidget {
     await flutterTts.speak("speakBequeaths44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths5(String languageCode) async {
+  Future<void> speakbequeaths5(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybequeath extends StatelessWidget {
     await flutterTts.speak("speakBequeaths55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths6(String languageCode) async {
+  Future<void> speakbequeaths6(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybequeath extends StatelessWidget {
     await flutterTts.speak("speakBequeaths66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBequeaths7(String languageCode) async {
+  Future<void> speakbequeaths7(String languageCode) async {
     // DOPSUM: CHANGE speakBequeath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybequeath extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈkwiːð/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBequeath("en-GB"),
+                              onPressed: () => speakbequeath("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybequeath extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈkwiːð/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBequeath("en-US"),
+                              onPressed: () => speakbequeath("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybequeath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBequeaths1("en-GB"),
+                                    onPressed: () => speakbequeaths1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBequeaths1("en-US"),
+                                    onPressed: () => speakbequeaths1("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +198,10 @@ class EnglishEntrybequeath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBequeaths2("en-GB"),
+                                    onPressed: () => speakbequeaths2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBequeaths2("en-US"),
+                                    onPressed: () => speakbequeaths2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybequeath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBequeaths3("en-GB"),
+                                    onPressed: () => speakbequeaths3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBequeaths3("en-US"),
+                                    onPressed: () => speakbequeaths3("en-US"),
                                   ),
                                 ],
                               ),

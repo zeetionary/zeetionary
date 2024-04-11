@@ -19,7 +19,7 @@ class EnglishEntryballot extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBallot(String languageCode) async {
+  Future<void> speakballot(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.speak("ballot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots1(String languageCode) async {
+  Future<void> speakballots1(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryballot extends StatelessWidget {
         "The club members decided in a ballot to suspend the captain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots2(String languageCode) async {
+  Future<void> speakballots2(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryballot extends StatelessWidget {
         "What percentage of voters cast their ballots?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots3(String languageCode) async {
+  Future<void> speakballots3(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryballot extends StatelessWidget {
         .speak("She won 58.8% of the ballot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots4(String languageCode) async {
+  Future<void> speakballots4(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryballot extends StatelessWidget {
         "The union balloted its members on the proposed changes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots5(String languageCode) async {
+  Future<void> speakballots5(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryballot extends StatelessWidget {
         .speak("The workers balloted for a strike."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots6(String languageCode) async {
+  Future<void> speakballots6(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.speak("speakBallots66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallots7(String languageCode) async {
+  Future<void> speakballots7(String languageCode) async {
     // DOPSUM: CHANGE speakBallot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryballot extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbælət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBallot("en-GB"),
+                              onPressed: () => speakballot("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryballot extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbælət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallot("en-US"),
+                              onPressed: () => speakballot("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryballot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallots1("en-GB"),
+                                    onPressed: () => speakballots1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallots1(// REPLACE: ballot
+                                        speakballots1(// REPLACE: ballot
                                             "en-US"),
                                   ),
                                 ],
@@ -212,11 +212,11 @@ class EnglishEntryballot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallots2("en-GB"),
+                                    onPressed: () => speakballots2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallots2(// REPLACE: ballot
+                                        speakballots2(// REPLACE: ballot
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntryballot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallots3("en-GB"),
+                                    onPressed: () => speakballots3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallots3(// REPLACE: ballot
+                                        speakballots3(// REPLACE: ballot
                                             "en-US"),
                                   ),
                                 ],
@@ -276,11 +276,11 @@ class EnglishEntryballot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallots4("en-GB"),
+                                    onPressed: () => speakballots4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallots4(// REPLACE: ballot
+                                        speakballots4(// REPLACE: ballot
                                             "en-US"),
                                   ),
                                 ],
@@ -309,11 +309,11 @@ class EnglishEntryballot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallots5("en-GB"),
+                                    onPressed: () => speakballots5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallots5(// REPLACE: ballot
+                                        speakballots5(// REPLACE: ballot
                                             "en-US"),
                                   ),
                                 ],

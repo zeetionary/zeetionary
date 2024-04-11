@@ -19,7 +19,7 @@ class EnglishEntrybeer extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeer(String languageCode) async {
+  Future<void> speakbeer(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeer extends StatelessWidget {
     await flutterTts.speak("beer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers1(String languageCode) async {
+  Future<void> speakbeers1(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybeer extends StatelessWidget {
     await flutterTts.speak("Are you a beer drinker?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers2(String languageCode) async {
+  Future<void> speakbeers2(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeer extends StatelessWidget {
         .speak("Put the beer in the fridge to chill."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers3(String languageCode) async {
+  Future<void> speakbeers3(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybeer extends StatelessWidget {
         .speak("David bought us a couple of beers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers4(String languageCode) async {
+  Future<void> speakbeers4(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybeer extends StatelessWidget {
     await flutterTts.speak("speakBeers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers5(String languageCode) async {
+  Future<void> speakbeers5(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybeer extends StatelessWidget {
     await flutterTts.speak("speakBeers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers6(String languageCode) async {
+  Future<void> speakbeers6(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybeer extends StatelessWidget {
     await flutterTts.speak("speakBeers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeers7(String languageCode) async {
+  Future<void> speakbeers7(String languageCode) async {
     // DOPSUM: CHANGE speakBeer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybeer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeer("en-GB"),
+                              onPressed: () => speakbeer("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybeer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeer("en-US"),
+                              onPressed: () => speakbeer("en-US"),
                             ),
                           ],
                         ),
@@ -167,10 +167,10 @@ class EnglishEntrybeer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeers1("en-GB"),
+                                    onPressed: () => speakbeers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeers1("en-US"),
+                                    onPressed: () => speakbeers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,10 +196,10 @@ class EnglishEntrybeer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeers2("en-GB"),
+                                    onPressed: () => speakbeers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeers2("en-US"),
+                                    onPressed: () => speakbeers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -227,10 +227,10 @@ class EnglishEntrybeer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeers3("en-GB"),
+                                    onPressed: () => speakbeers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeers3("en-US"),
+                                    onPressed: () => speakbeers3("en-US"),
                                   ),
                                 ],
                               ),

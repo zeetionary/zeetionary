@@ -11,7 +11,7 @@ class EnglishEntryaction extends StatelessWidget {
   EnglishEntryaction({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAction(String languageCode) async {
+  Future<void> speakaction(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction9652(String languageCode) async {
+  Future<void> speakaction9652(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaction extends StatelessWidget {
         "Each of us must take responsibility for our own actions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAct25473(String languageCode) async {
+  Future<void> speakact25473(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaction extends StatelessWidget {
         "Firefighters took action immediately to stop the blaze spreading."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction241(String languageCode) async {
+  Future<void> speakaction241(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaction extends StatelessWidget {
         "The government is taking strong action on tax fraud."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction53874(String languageCode) async {
+  Future<void> speakaction53874(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryaction extends StatelessWidget {
         "Workers voted in favour of strike action."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction42567(String languageCode) async {
+  Future<void> speakaction42567(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryaction extends StatelessWidget {
         "A libel action is being brought against the magazine that published the article."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction4387(String languageCode) async {
+  Future<void> speakaction4387(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaction extends StatelessWidget {
         .speak("I never saw action during the war."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction8691(String languageCode) async {
+  Future<void> speakaction8691(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaction extends StatelessWidget {
         .speak("The action takes place in France."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction35971(String languageCode) async {
+  Future<void> speakaction35971(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -91,15 +91,16 @@ class EnglishEntryaction extends StatelessWidget {
         .speak("I like films with plenty of action."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAction55555(String languageCode) async {
+  Future<void> speakaction55555(String languageCode) async {
     // DOPSUM: CHANGE speakAction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Your request will be actioned."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Your request will be actioned."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -107,7 +108,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +116,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +124,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -131,7 +132,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +140,7 @@ class EnglishEntryaction extends StatelessWidget {
   //   await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAction(String languageCode) async {
+  // Future<void> speakaction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -174,7 +175,7 @@ class EnglishEntryaction extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAction("en-GB"),
+                              onPressed: () => speakaction("en-GB"),
                             ),
                           ],
                         ),
@@ -184,7 +185,7 @@ class EnglishEntryaction extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAction("en-US"),
+                              onPressed: () => speakaction("en-US"),
                             ),
                           ],
                         ),
@@ -235,10 +236,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAct25473("en-GB"),
+                                    onPressed: () => speakact25473("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAct25473(
+                                    onPressed: () => speakact25473(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -264,10 +265,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction241("en-GB"),
+                                    onPressed: () => speakaction241("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction241(
+                                    onPressed: () => speakaction241(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -295,10 +296,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction9652("en-GB"),
+                                    onPressed: () => speakaction9652("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction9652(
+                                    onPressed: () => speakaction9652(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -326,10 +327,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction53874("en-GB"),
+                                    onPressed: () => speakaction53874("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction53874(
+                                    onPressed: () => speakaction53874(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -357,10 +358,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction42567("en-GB"),
+                                    onPressed: () => speakaction42567("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction42567(
+                                    onPressed: () => speakaction42567(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -388,10 +389,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction4387("en-GB"),
+                                    onPressed: () => speakaction4387("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction4387(
+                                    onPressed: () => speakaction4387(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -418,10 +419,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction8691("en-GB"),
+                                    onPressed: () => speakaction8691("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction8691(
+                                    onPressed: () => speakaction8691(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -449,10 +450,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction35971("en-GB"),
+                                    onPressed: () => speakaction35971("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction35971(
+                                    onPressed: () => speakaction35971(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],
@@ -478,10 +479,10 @@ class EnglishEntryaction extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAction55555("en-GB"),
+                                    onPressed: () => speakaction55555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAction55555(
+                                    onPressed: () => speakaction55555(
                                         "en-US"), // REPLACE action /ˈækʃn/
                                   ),
                                 ],

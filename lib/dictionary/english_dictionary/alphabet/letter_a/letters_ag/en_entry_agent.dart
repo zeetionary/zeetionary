@@ -11,7 +11,7 @@ class EnglishEntryagent extends StatelessWidget {
   EnglishEntryagent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgent(String languageCode) async {
+  Future<void> speakagent(String languageCode) async {
     // DOPSUM: CHANGE speakAgent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagent extends StatelessWidget {
     await flutterTts.speak("agent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgen25966(String languageCode) async {
+  Future<void> speakagen25966(String languageCode) async {
     // DOPSUM: CHANGE speakAgent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagent extends StatelessWidget {
         "Our agent in New York deals with all US sales."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg15224(String languageCode) async {
+  Future<void> speakag15224(String languageCode) async {
     // DOPSUM: CHANGE speakAgent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagent extends StatelessWidget {
         .speak("She got the work through an agent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge256999(String languageCode) async {
+  Future<void> speakage256999(String languageCode) async {
     // DOPSUM: CHANGE speakAgent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryagent extends StatelessWidget {
         "She was operating as an undercover agent in London."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgent56922(String languageCode) async {
+  Future<void> speakagent56922(String languageCode) async {
     // DOPSUM: CHANGE speakAgent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryagent extends StatelessWidget {
         "The charity has been an agent for social change."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgent(String languageCode) async {
+  // Future<void> speakagent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryagent extends StatelessWidget {
   //   await flutterTts.speak("agent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgent(String languageCode) async {
+  // Future<void> speakagent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntryagent extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪdʒənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgent("en-GB"),
+                              onPressed: () => speakagent("en-GB"),
                             ),
                           ],
                         ),
@@ -108,7 +108,7 @@ class EnglishEntryagent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪdʒənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgent("en-US"),
+                              onPressed: () => speakagent("en-US"),
                             ),
                           ],
                         ),
@@ -159,10 +159,10 @@ class EnglishEntryagent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgen25966("en-GB"),
+                                    onPressed: () => speakagen25966("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgen25966(
+                                    onPressed: () => speakagen25966(
                                         // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
                                   ),
@@ -191,10 +191,10 @@ class EnglishEntryagent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAg15224("en-GB"),
+                                    onPressed: () => speakag15224("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAg15224(
+                                    onPressed: () => speakag15224(
                                         // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
                                   ),
@@ -223,10 +223,10 @@ class EnglishEntryagent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAge256999("en-GB"),
+                                    onPressed: () => speakage256999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAge256999(
+                                    onPressed: () => speakage256999(
                                         // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryagent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgent56922("en-GB"),
+                                    onPressed: () => speakagent56922("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgent56922(
+                                    onPressed: () => speakagent56922(
                                         // REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
                                   ),

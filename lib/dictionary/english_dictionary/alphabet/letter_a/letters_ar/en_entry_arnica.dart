@@ -17,7 +17,7 @@ class EnglishEntryarnica extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArnica(String languageCode) async {
+  Future<void> speakarnica(String languageCode) async {
     // DOPSUM: CHANGE speakArnica
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarnica extends StatelessWidget {
     await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -33,7 +33,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryarnica extends StatelessWidget {
   //   await flutterTts.speak("arnica"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArnica(String languageCode) async {
+  // Future<void> speakarnica(String languageCode) async {
   //   // DOPSUM: CHANGE speakArnica
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryarnica extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːnɪkə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArnica("en-GB"),
+                              onPressed: () => speakarnica("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryarnica extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrnɪkə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArnica("en-US"),
+                              onPressed: () => speakarnica("en-US"),
                             ),
                           ],
                         ),

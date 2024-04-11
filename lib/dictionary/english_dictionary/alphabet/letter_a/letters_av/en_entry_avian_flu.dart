@@ -19,7 +19,7 @@ class EnglishEntryavianflu extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvianflu(String languageCode) async {
+  Future<void> speakavianflu(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("avian flu"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus1(String languageCode) async {
+  Future<void> speakavianflus1(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavianflu extends StatelessWidget {
         "Veterinarians closely monitored the birds for signs of avian influenza."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus2(String languageCode) async {
+  Future<void> speakavianflus2(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("speakAvianflus22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus3(String languageCode) async {
+  Future<void> speakavianflus3(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("speakAvianflus33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus4(String languageCode) async {
+  Future<void> speakavianflus4(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("speakAvianflus44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus5(String languageCode) async {
+  Future<void> speakavianflus5(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("speakAvianflus55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus6(String languageCode) async {
+  Future<void> speakavianflus6(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryavianflu extends StatelessWidget {
     await flutterTts.speak("speakAvianflus66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvianflus7(String languageCode) async {
+  Future<void> speakavianflus7(String languageCode) async {
     // DOPSUM: CHANGE speakAvianflu
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪviən ˈfluː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvianflu("en-GB"),
+                              onPressed: () => speakavianflu("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪviən ˈfluː"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvianflu("en-US"),
+                              onPressed: () => speakavianflu("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntryavianflu extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvianflus1("en-GB"),
+                                    onPressed: () => speakavianflus1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvianflus1(// REPLACE: avian flu
+                                        speakavianflus1(// REPLACE: avian flu
                                             "en-US"),
                                   ),
                                 ],

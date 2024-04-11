@@ -12,7 +12,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   EnglishEntryanorexic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorexic(String languageCode) async {
+  Future<void> speakanorexic(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanorexic extends StatelessWidget {
     await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic908(String languageCode) async {
+  Future<void> speakanorexic908(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanorexic extends StatelessWidget {
         "Not eating makes an anorexic feel in control."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic909(String languageCode) async {
+  Future<void> speakanorexic909(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanorexic extends StatelessWidget {
     await flutterTts.speak("She looks anorexic to me."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanorexic extends StatelessWidget {
   //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
+  // Future<void> speakanorexic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˈreksɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnorexic("en-GB"),
+                              onPressed: () => speakanorexic("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˈreksɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorexic("en-US"),
+                              onPressed: () => speakanorexic("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanorexic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnorexic908("en-GB"),
+                                    onPressed: () => speakanorexic908("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnorexic908(
+                                    onPressed: () => speakanorexic908(
                                         // REPLACE: anorexic /ˌænəˈreksɪk/
                                         "en-US"),
                                   ),
@@ -206,10 +206,10 @@ class EnglishEntryanorexic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnorexic909("en-GB"),
+                                    onPressed: () => speakanorexic909("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnorexic909(
+                                    onPressed: () => speakanorexic909(
                                         // REPLACE: anorexic /ˌænəˈreksɪk/
                                         "en-US"),
                                   ),

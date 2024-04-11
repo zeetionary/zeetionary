@@ -19,7 +19,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtificialrespiration(String languageCode) async {
+  Future<void> speakartificialrespiration(String languageCode) async {
     // DOPSUM: CHANGE speakArtificialrespiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
     await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificialrespiration943(String languageCode) async {
+  Future<void> speakartificialrespiration943(String languageCode) async {
     // DOPSUM: CHANGE speakArtificialrespiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
         "Rescuers pulled the child from the river, and she was given artificial respiration."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   //   await flutterTts.speak("artificial respiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificialrespiration(String languageCode) async {
+  // Future<void> speakartificialrespiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificialrespiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                     "IpaUK: /ˌɑːtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () =>
-                                  speakArtificialrespiration("en-GB"),
+                                  speakartificialrespiration("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                     "IpaUS: /ˌɑːrtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () =>
-                                  speakArtificialrespiration("en-US"),
+                                  speakartificialrespiration("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtificialrespiration943("en-GB"),
+                                        speakartificialrespiration943("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificialrespiration943(
+                                    onPressed: () => speakartificialrespiration943(
                                         // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
                                         "en-US"),
                                   ),

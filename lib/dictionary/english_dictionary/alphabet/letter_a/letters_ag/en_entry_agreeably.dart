@@ -11,7 +11,7 @@ class EnglishEntryagreeably extends StatelessWidget {
   EnglishEntryagreeably({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgreeably(String languageCode) async {
+  Future<void> speakagreeably(String languageCode) async {
     // DOPSUM: CHANGE speakAgreeably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagreeably extends StatelessWidget {
     await flutterTts.speak("agreeably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgr35222(String languageCode) async {
+  Future<void> speakagr35222(String languageCode) async {
     // DOPSUM: CHANGE speakAgreeably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagreeably extends StatelessWidget {
         "They were agreeably surprised by the quality of the food."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgreea35744(String languageCode) async {
+  Future<void> speakagreea35744(String languageCode) async {
     // DOPSUM: CHANGE speakAgreeably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagreeably extends StatelessWidget {
         "The day was agreeably warm after the cool night."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgreeably(String languageCode) async {
+  // Future<void> speakagreeably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgreeably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriːəbli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgreeably("en-GB"),
+                              onPressed: () => speakagreeably("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriːəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgreeably("en-US"),
+                              onPressed: () => speakagreeably("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgr35222("en-GB"),
+                                    onPressed: () => speakagr35222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgr35222(
+                                    onPressed: () => speakagr35222(
                                         // REPLACE: agreeably /əˈɡriːəbli/
                                         "en-US"),
                                   ),
@@ -161,10 +161,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgreea35744("en-GB"),
+                                    onPressed: () => speakagreea35744("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgreea35744(
+                                    onPressed: () => speakagreea35744(
                                         // REPLACE: agreeably /əˈɡriːəbli/
                                         "en-US"),
                                   ),

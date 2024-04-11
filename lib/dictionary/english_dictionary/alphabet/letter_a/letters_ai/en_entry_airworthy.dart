@@ -11,7 +11,7 @@ class EnglishEntryairworthy extends StatelessWidget {
   EnglishEntryairworthy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirworthy(String languageCode) async {
+  Future<void> speakairworthy(String languageCode) async {
     // DOPSUM: CHANGE speakAirworthy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairworthy extends StatelessWidget {
     await flutterTts.speak("airworthy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirworthy4277(String languageCode) async {
+  Future<void> speakairworthy4277(String languageCode) async {
     // DOPSUM: CHANGE speakAirworthy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairworthy extends StatelessWidget {
         .speak("The planes were certified airworthy."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirworthy(String languageCode) async {
+  // Future<void> speakairworthy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirworthy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairworthy extends StatelessWidget {
   //   await flutterTts.speak("airworthy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirworthy(String languageCode) async {
+  // Future<void> speakairworthy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirworthy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəwɜːði/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirworthy("en-GB"),
+                              onPressed: () => speakairworthy("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerwɜːrði/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirworthy("en-US"),
+                              onPressed: () => speakairworthy("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryairworthy extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirworthy4277("en-GB"),
+                                        speakairworthy4277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirworthy4277(
+                                    onPressed: () => speakairworthy4277(
                                         // REPLACE: airworthy /ˈerwɜːrði/
                                         "en-US"),
                                   ),

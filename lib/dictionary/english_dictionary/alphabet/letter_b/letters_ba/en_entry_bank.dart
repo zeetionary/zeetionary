@@ -19,7 +19,7 @@ class EnglishEntrybank extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBank(String languageCode) async {
+  Future<void> speakbank(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybank extends StatelessWidget {
     await flutterTts.speak("bank"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks1(String languageCode) async {
+  Future<void> speakbanks1(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybank extends StatelessWidget {
         "I don't have much money in the bank at the end of the month."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks2(String languageCode) async {
+  Future<void> speakbanks2(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The player's bank was dwindling after several losses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks3(String languageCode) async {
+  Future<void> speakbanks3(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybank extends StatelessWidget {
         "They intend to establish a bank of information which will be accessible to the public."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks4(String languageCode) async {
+  Future<void> speakbanks4(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The blood bank is always in need of donations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks5(String languageCode) async {
+  Future<void> speakbanks5(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybank extends StatelessWidget {
         "Take old clothes and shoes to the recycling bank."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks6(String languageCode) async {
+  Future<void> speakbanks6(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The river burst its banks after heavy rain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks7(String languageCode) async {
+  Future<void> speakbanks7(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybank extends StatelessWidget {
         "There were low banks of earth between the rice fields."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks8(String languageCode) async {
+  Future<void> speakbanks8(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The driver carefully navigated the sharp bend on the banked road."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks9(String languageCode) async {
+  Future<void> speakbanks9(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The sun disappeared behind a bank of clouds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks10(String languageCode) async {
+  Future<void> speakbanks10(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybank extends StatelessWidget {
         "She was faced with a huge bank of switches and buttons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks11(String languageCode) async {
+  Future<void> speakbanks11(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntrybank extends StatelessWidget {
         "She is believed to have banked £10 million in two years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks12(String languageCode) async {
+  Future<void> speakbanks12(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -135,7 +135,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The family had banked with Bank of America for generations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks13(String languageCode) async {
+  Future<void> speakbanks13(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -144,7 +144,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The pilot banked the plane to give passengers a better look at the mountain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks14(String languageCode) async {
+  Future<void> speakbanks14(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -153,7 +153,7 @@ class EnglishEntrybank extends StatelessWidget {
         "The snow had banked up in the corner of the garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanks15(String languageCode) async {
+  Future<void> speakbanks15(String languageCode) async {
     // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -193,7 +193,7 @@ class EnglishEntrybank extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæŋk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBank("en-GB"),
+                              onPressed: () => speakbank("en-GB"),
                             ),
                           ],
                         ),
@@ -203,7 +203,7 @@ class EnglishEntrybank extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæŋk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBank("en-US"),
+                              onPressed: () => speakbank("en-US"),
                             ),
                           ],
                         ),
@@ -253,11 +253,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks1("en-GB"),
+                                    onPressed: () => speakbanks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks1(// REPLACE: bank
+                                        speakbanks1(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -286,11 +286,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks2("en-GB"),
+                                    onPressed: () => speakbanks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks2(// REPLACE: bank
+                                        speakbanks2(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -319,11 +319,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks3("en-GB"),
+                                    onPressed: () => speakbanks3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks3(// REPLACE: bank
+                                        speakbanks3(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -350,11 +350,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks4("en-GB"),
+                                    onPressed: () => speakbanks4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks4(// REPLACE: bank
+                                        speakbanks4(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -383,11 +383,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks5("en-GB"),
+                                    onPressed: () => speakbanks5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks5(// REPLACE: bank
+                                        speakbanks5(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -416,11 +416,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks6("en-GB"),
+                                    onPressed: () => speakbanks6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks6(// REPLACE: bank
+                                        speakbanks6(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -449,11 +449,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks7("en-GB"),
+                                    onPressed: () => speakbanks7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks7(// REPLACE: bank
+                                        speakbanks7(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -482,11 +482,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks8("en-GB"),
+                                    onPressed: () => speakbanks8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks8(// REPLACE: bank
+                                        speakbanks8(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -514,11 +514,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks9("en-GB"),
+                                    onPressed: () => speakbanks9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks9(// REPLACE: bank
+                                        speakbanks9(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -547,11 +547,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks10("en-GB"),
+                                    onPressed: () => speakbanks10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks10(// REPLACE: bank
+                                        speakbanks10(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -580,11 +580,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks11("en-GB"),
+                                    onPressed: () => speakbanks11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks11(// REPLACE: bank
+                                        speakbanks11(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -613,11 +613,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks12("en-GB"),
+                                    onPressed: () => speakbanks12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks12(// REPLACE: bank
+                                        speakbanks12(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -646,11 +646,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks13("en-GB"),
+                                    onPressed: () => speakbanks13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks13(// REPLACE: bank
+                                        speakbanks13(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -679,11 +679,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks14("en-GB"),
+                                    onPressed: () => speakbanks14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks14(// REPLACE: bank
+                                        speakbanks14(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],
@@ -712,11 +712,11 @@ class EnglishEntrybank extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanks15("en-GB"),
+                                    onPressed: () => speakbanks15("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanks15(// REPLACE: bank
+                                        speakbanks15(// REPLACE: bank
                                             "en-US"),
                                   ),
                                 ],

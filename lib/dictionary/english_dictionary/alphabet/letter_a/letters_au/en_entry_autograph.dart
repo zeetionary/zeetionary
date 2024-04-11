@@ -19,7 +19,7 @@ class EnglishEntryautograph extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutograph(String languageCode) async {
+  Future<void> speakautograph(String languageCode) async {
     // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautograph extends StatelessWidget {
     await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutograph1002(String languageCode) async {
+  Future<void> speakautograph1002(String languageCode) async {
     // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautograph extends StatelessWidget {
         .speak("Could I have your autograph?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutograph1005(String languageCode) async {
+  Future<void> speakautograph1005(String languageCode) async {
     // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryautograph extends StatelessWidget {
         "The whole team has autographed a football, which will be used as a prize."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryautograph extends StatelessWidget {
   //   await flutterTts.speak("autograph"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutograph(String languageCode) async {
+  // Future<void> speakautograph(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutograph
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryautograph extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːtəɡrɑːf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutograph("en-GB"),
+                              onPressed: () => speakautograph("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryautograph extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːtəɡræf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutograph("en-US"),
+                              onPressed: () => speakautograph("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +182,11 @@ class EnglishEntryautograph extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutograph1002("en-GB"),
+                                        speakautograph1002("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutograph1002(// REPLACE: autograph
+                                        speakautograph1002(// REPLACE: autograph
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryautograph extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutograph1005("en-GB"),
+                                        speakautograph1005("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutograph1005(// REPLACE: autograph
+                                        speakautograph1005(// REPLACE: autograph
                                             "en-US"),
                                   ),
                                 ],

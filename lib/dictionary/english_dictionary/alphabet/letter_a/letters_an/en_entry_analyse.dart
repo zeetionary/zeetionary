@@ -11,7 +11,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   EnglishEntryanalyse({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalyse(String languageCode) async {
+  Future<void> speakanalyse(String languageCode) async {
     // DOPSUM: CHANGE speakAnalyse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanalyse extends StatelessWidget {
     await flutterTts.speak("analyse"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalyse7950(String languageCode) async {
+  Future<void> speakanalyse7950(String languageCode) async {
     // DOPSUM: CHANGE speakAnalyse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanalyse extends StatelessWidget {
         "The job involves collecting and analysing data."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalyse4920(String languageCode) async {
+  Future<void> speakanalyse4920(String languageCode) async {
     // DOPSUM: CHANGE speakAnalyse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanalyse extends StatelessWidget {
         .speak("He tried to analyse his feelings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalyse469(String languageCode) async {
+  Future<void> speakanalyse469(String languageCode) async {
     // DOPSUM: CHANGE speakAnalyse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanalyse extends StatelessWidget {
         .speak("We need to analyse what went wrong."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalyse(String languageCode) async {
+  // Future<void> speakanalyse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalyse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   //   await flutterTts.speak("analyse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalyse(String languageCode) async {
+  // Future<void> speakanalyse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalyse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   //   await flutterTts.speak("analyse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalyse(String languageCode) async {
+  // Future<void> speakanalyse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalyse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   //   await flutterTts.speak("analyse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalyse(String languageCode) async {
+  // Future<void> speakanalyse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalyse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   //   await flutterTts.speak("analyse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalyse(String languageCode) async {
+  // Future<void> speakanalyse(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalyse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəlaɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnalyse("en-GB"),
+                              onPressed: () => speakanalyse("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəlaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnalyse("en-US"),
+                              onPressed: () => speakanalyse("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanalyse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnalyse7950("en-GB"),
+                                    onPressed: () => speakanalyse7950("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalyse7950(
+                                    onPressed: () => speakanalyse7950(
                                         // REPLACE: analyse /ˈænəlaɪz/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryanalyse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnalyse4920("en-GB"),
+                                    onPressed: () => speakanalyse4920("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalyse4920(
+                                    onPressed: () => speakanalyse4920(
                                         // REPLACE: analyse /ˈænəlaɪz/
                                         "en-US"),
                                   ),
@@ -237,10 +237,10 @@ class EnglishEntryanalyse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnalyse469("en-GB"),
+                                    onPressed: () => speakanalyse469("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalyse469(
+                                    onPressed: () => speakanalyse469(
                                         // REPLACE: analyse /ˈænəlaɪz/
                                         "en-US"),
                                   ),

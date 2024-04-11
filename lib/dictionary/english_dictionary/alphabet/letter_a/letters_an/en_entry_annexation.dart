@@ -11,7 +11,7 @@ class EnglishEntryannexation extends StatelessWidget {
   EnglishEntryannexation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnexation(String languageCode) async {
+  Future<void> speakannexation(String languageCode) async {
     // DOPSUM: CHANGE speakAnnexation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryannexation extends StatelessWidget {
     await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnexation1150(String languageCode) async {
+  Future<void> speakannexation1150(String languageCode) async {
     // DOPSUM: CHANGE speakAnnexation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryannexation extends StatelessWidget {
         "He mentioned the Japanese annexation of Korea in 1910."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnexation1151(String languageCode) async {
+  Future<void> speakannexation1151(String languageCode) async {
     // DOPSUM: CHANGE speakAnnexation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannexation extends StatelessWidget {
         "The country's annexation of its neighbour caused an outcry."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannexation extends StatelessWidget {
   //   await flutterTts.speak("annexation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnexation(String languageCode) async {
+  // Future<void> speakannexation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnexation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryannexation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnexation("en-GB"),
+                              onPressed: () => speakannexation("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryannexation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænekˈseɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnexation("en-US"),
+                              onPressed: () => speakannexation("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryannexation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnexation1150("en-GB"),
+                                        speakannexation1150("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1150(
+                                    onPressed: () => speakannexation1150(
                                         // REPLACE: annexation /ˌænekˈseɪʃn/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryannexation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnexation1151("en-GB"),
+                                        speakannexation1151("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnexation1151(
+                                    onPressed: () => speakannexation1151(
                                         // REPLACE: annexation /ˌænekˈseɪʃn/
                                         "en-US"),
                                   ),

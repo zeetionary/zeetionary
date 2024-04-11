@@ -13,7 +13,7 @@ class EnglishEntryantenna extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntenna(String languageCode) async {
+  Future<void> speakantenna(String languageCode) async {
     // DOPSUM: CHANGE speakAntenna
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntenna519(String languageCode) async {
+  Future<void> speakantenna519(String languageCode) async {
     // DOPSUM: CHANGE speakAntenna
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantenna extends StatelessWidget {
         " The minister was praised for his acute political antennae."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntenna523(String languageCode) async {
+  Future<void> speakantenna523(String languageCode) async {
     // DOPSUM: CHANGE speakAntenna
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryantenna extends StatelessWidget {
         "They installed a dish antenna on the roof."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryantenna extends StatelessWidget {
   //   await flutterTts.speak("antenna"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntenna(String languageCode) async {
+  // Future<void> speakantenna(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntenna
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtenə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntenna("en-GB"),
+                              onPressed: () => speakantenna("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtenə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntenna("en-US"),
+                              onPressed: () => speakantenna("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryantenna extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntenna519("en-GB"),
+                                    onPressed: () => speakantenna519("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntenna519(
+                                    onPressed: () => speakantenna519(
                                         // REPLACE: antenna /ænˈtenə/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryantenna extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntenna523("en-GB"),
+                                    onPressed: () => speakantenna523("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntenna523(
+                                    onPressed: () => speakantenna523(
                                         // REPLACE: antenna /ænˈtenə/
                                         "en-US"),
                                   ),

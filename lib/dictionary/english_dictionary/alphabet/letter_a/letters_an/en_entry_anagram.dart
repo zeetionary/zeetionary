@@ -11,7 +11,7 @@ class EnglishEntryanagram extends StatelessWidget {
   EnglishEntryanagram({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnagram(String languageCode) async {
+  Future<void> speakanagram(String languageCode) async {
     // DOPSUM: CHANGE speakAnagram
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanagram extends StatelessWidget {
     await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryanagram extends StatelessWidget {
   //   await flutterTts.speak("anagram"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnagram(String languageCode) async {
+  // Future<void> speakanagram(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnagram
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntryanagram extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəɡræm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnagram("en-GB"),
+                              onPressed: () => speakanagram("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntryanagram extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəɡræm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnagram("en-US"),
+                              onPressed: () => speakanagram("en-US"),
                             ),
                           ],
                         ),

@@ -11,7 +11,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
   EnglishEntryacupuncture({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcupuncture(String languageCode) async {
+  Future<void> speakacupuncture(String languageCode) async {
     // DOPSUM: CHANGE speakAcupuncture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
     await flutterTts.speak("acupuncture"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcupunct457(String languageCode) async {
+  Future<void> speakacupunct457(String languageCode) async {
     // DOPSUM: CHANGE speakAcupuncture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
         "Acupuncture has been practised in China for thousands of years."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcupuncture(String languageCode) async {
+  // Future<void> speakacupuncture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcupuncture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
   //   await flutterTts.speak("acupuncture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcupuncture(String languageCode) async {
+  // Future<void> speakacupuncture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcupuncture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈækjupʌŋktʃə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcupuncture("en-GB"),
+                              onPressed: () => speakacupuncture("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjupʌŋktʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcupuncture("en-US"),
+                              onPressed: () => speakacupuncture("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryacupuncture extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcupunct457("en-GB"),
+                                    onPressed: () => speakacupunct457("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcupunct457(
+                                    onPressed: () => speakacupunct457(
                                         // REPLACE: acupuncture /ˈækjupʌŋktʃər/
                                         "en-US"),
                                   ),

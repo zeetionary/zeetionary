@@ -19,7 +19,7 @@ class EnglishEntrybathroom extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBathroom(String languageCode) async {
+  Future<void> speakbathroom(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybathroom extends StatelessWidget {
     await flutterTts.speak("bathroom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms1(String languageCode) async {
+  Future<void> speakbathrooms1(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybathroom extends StatelessWidget {
         "Go and wash your hands in the bathroom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms2(String languageCode) async {
+  Future<void> speakbathrooms2(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybathroom extends StatelessWidget {
         "She stared at herself in the bathroom mirror."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms3(String languageCode) async {
+  Future<void> speakbathrooms3(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybathroom extends StatelessWidget {
         "We were allowed to stop occasionally for bathroom breaks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms4(String languageCode) async {
+  Future<void> speakbathrooms4(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybathroom extends StatelessWidget {
     await flutterTts.speak("speakBathrooms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms5(String languageCode) async {
+  Future<void> speakbathrooms5(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybathroom extends StatelessWidget {
     await flutterTts.speak("speakBathrooms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms6(String languageCode) async {
+  Future<void> speakbathrooms6(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybathroom extends StatelessWidget {
     await flutterTts.speak("speakBathrooms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrooms7(String languageCode) async {
+  Future<void> speakbathrooms7(String languageCode) async {
     // DOPSUM: CHANGE speakBathroom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈbɑːθruːm/, /ˈbɑːθrʊm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBathroom("en-GB"),
+                              onPressed: () => speakbathroom("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbæθruːm/, /ˈbæθrʊm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBathroom("en-US"),
+                              onPressed: () => speakbathroom("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybathroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathrooms1("en-GB"),
+                                    onPressed: () => speakbathrooms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathrooms1("en-US"),
+                                    onPressed: () => speakbathrooms1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybathroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathrooms2("en-GB"),
+                                    onPressed: () => speakbathrooms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathrooms2("en-US"),
+                                    onPressed: () => speakbathrooms2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybathroom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathrooms3("en-GB"),
+                                    onPressed: () => speakbathrooms3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathrooms3("en-US"),
+                                    onPressed: () => speakbathrooms3("en-US"),
                                   ),
                                 ],
                               ),

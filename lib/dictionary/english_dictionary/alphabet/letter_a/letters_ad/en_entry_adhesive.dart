@@ -11,7 +11,7 @@ class EnglishEntryadhesive extends StatelessWidget {
   EnglishEntryadhesive({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhesive(String languageCode) async {
+  Future<void> speakadhesive(String languageCode) async {
     // DOPSUM: CHANGE speakAdhesive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadhesive extends StatelessWidget {
     await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdhesive471(String languageCode) async {
+  Future<void> speakadhesive471(String languageCode) async {
     // DOPSUM: CHANGE speakAdhesive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadhesive extends StatelessWidget {
         "The adhesive takes at least an hour to set."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdhesive6355(String languageCode) async {
+  Future<void> speakadhesive6355(String languageCode) async {
     // DOPSUM: CHANGE speakAdhesive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadhesive extends StatelessWidget {
         "The labels are easy to apply and very adhesive."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhesive(String languageCode) async {
+  // Future<void> speakadhesive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhesive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˈhiːsɪv/, /ədˈhiːzɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdhesive("en-GB"),
+                              onPressed: () => speakadhesive("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈhiːsɪv/, /ədˈhiːzɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhesive("en-US"),
+                              onPressed: () => speakadhesive("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryadhesive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdhesive471("en-GB"),
+                                    onPressed: () => speakadhesive471("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdhesive471(
+                                    onPressed: () => speakadhesive471(
                                         // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                         "en-US"),
                                   ),
@@ -166,10 +166,10 @@ class EnglishEntryadhesive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdhesive6355("en-GB"),
+                                    onPressed: () => speakadhesive6355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdhesive6355(
+                                    onPressed: () => speakadhesive6355(
                                         // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                         "en-US"),
                                   ),

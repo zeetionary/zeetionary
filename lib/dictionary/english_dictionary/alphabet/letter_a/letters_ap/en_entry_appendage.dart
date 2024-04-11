@@ -17,7 +17,7 @@ class EnglishEntryappendage extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendage(String languageCode) async {
+  Future<void> speakappendage(String languageCode) async {
     // DOPSUM: CHANGE speakAppendage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappendage extends StatelessWidget {
     await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendage128(String languageCode) async {
+  Future<void> speakappendage128(String languageCode) async {
     // DOPSUM: CHANGE speakAppendage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappendage extends StatelessWidget {
         "They treat Scotland as a mere appendage of England."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendage132(String languageCode) async {
+  Future<void> speakappendage132(String languageCode) async {
     // DOPSUM: CHANGE speakAppendage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappendage extends StatelessWidget {
         "The two appendages hanging from the insect’s mouth are used to detect and taste food."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappendage extends StatelessWidget {
   //   await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappendage extends StatelessWidget {
   //   await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappendage extends StatelessWidget {
   //   await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappendage extends StatelessWidget {
   //   await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappendage extends StatelessWidget {
   //   await flutterTts.speak("appendage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendage(String languageCode) async {
+  // Future<void> speakappendage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappendage extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpendɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppendage("en-GB"),
+                              onPressed: () => speakappendage("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappendage extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpendɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppendage("en-US"),
+                              onPressed: () => speakappendage("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryappendage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppendage128("en-GB"),
+                                    onPressed: () => speakappendage128("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppendage128(
+                                    onPressed: () => speakappendage128(
                                         // REPLACE: appendage /əˈpendɪdʒ/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryappendage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppendage132("en-GB"),
+                                    onPressed: () => speakappendage132("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppendage132(
+                                    onPressed: () => speakappendage132(
                                         // REPLACE: appendage /əˈpendɪdʒ/
                                         "en-US"),
                                   ),

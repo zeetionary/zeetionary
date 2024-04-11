@@ -19,7 +19,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsthmatic(String languageCode) async {
+  Future<void> speakasthmatic(String languageCode) async {
     // DOPSUM: CHANGE speakAsthmatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
     await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsthmatic1021(String languageCode) async {
+  Future<void> speakasthmatic1021(String languageCode) async {
     // DOPSUM: CHANGE speakAsthmatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
         "The asthmatic patient was admitted to the hospital for treatment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsthmatic1024(String languageCode) async {
+  Future<void> speakasthmatic1024(String languageCode) async {
     // DOPSUM: CHANGE speakAsthmatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
         "The asthmatic was unable to participate in strenuous activities."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   //   await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   //   await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   //   await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   //   await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   //   await flutterTts.speak("asthmatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthmatic(String languageCode) async {
+  // Future<void> speakasthmatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthmatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 text:
                                     "IpaUK: /æsˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsthmatic("en-GB"),
+                              onPressed: () => speakasthmatic("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 text:
                                     "IpaUS: /æzˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsthmatic("en-US"),
+                              onPressed: () => speakasthmatic("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAsthmatic1021("en-GB"),
+                                        speakasthmatic1021("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsthmatic1021(// REPLACE: asthmatic
+                                        speakasthmatic1021(// REPLACE: asthmatic
                                             "en-US"),
                                   ),
                                 ],
@@ -218,11 +218,11 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAsthmatic1024("en-GB"),
+                                        speakasthmatic1024("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsthmatic1024(// REPLACE: asthmatic
+                                        speakasthmatic1024(// REPLACE: asthmatic
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryaddict extends StatelessWidget {
   EnglishEntryaddict({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAddict(String languageCode) async {
+  Future<void> speakaddict(String languageCode) async {
     // DOPSUM: CHANGE speakAddict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaddict extends StatelessWidget {
     await flutterTts.speak("addict"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd2354(String languageCode) async {
+  Future<void> speakadd2354(String languageCode) async {
     // DOPSUM: CHANGE speakAddict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaddict extends StatelessWidget {
         "Many young boys become computer addicts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddi2541(String languageCode) async {
+  Future<void> speakaddi2541(String languageCode) async {
     // DOPSUM: CHANGE speakAddict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaddict extends StatelessWidget {
         .speak("He used to be a drug addict for years."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAddict(String languageCode) async {
+  // Future<void> speakaddict(String languageCode) async {
   //   // DOPSUM: CHANGE speakAddict
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaddict extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædɪkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAddict("en-GB"),
+                              onPressed: () => speakaddict("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaddict extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædɪkt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAddict("en-US"),
+                              onPressed: () => speakaddict("en-US"),
                             ),
                           ],
                         ),
@@ -133,11 +133,11 @@ class EnglishEntryaddict extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd2354("en-GB"),
+                                    onPressed: () => speakadd2354("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd2354(// REPLACE: addict /ˈædɪkt/
+                                        speakadd2354(// REPLACE: addict /ˈædɪkt/
                                             "en-US"),
                                   ),
                                 ],
@@ -163,10 +163,10 @@ class EnglishEntryaddict extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddi2541("en-GB"),
+                                    onPressed: () => speakaddi2541("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddi2541(
+                                    onPressed: () => speakaddi2541(
                                         // REPLACE: addict /ˈædɪkt/
                                         "en-US"),
                                   ),

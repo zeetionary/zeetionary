@@ -19,7 +19,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAstronomical(String languageCode) async {
+  Future<void> speakastronomical(String languageCode) async {
     // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryastronomical extends StatelessWidget {
     await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstronomical512(String languageCode) async {
+  Future<void> speakastronomical512(String languageCode) async {
     // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryastronomical extends StatelessWidget {
         "The astronomical observatory is located on a mountaintop."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAstronomical514(String languageCode) async {
+  Future<void> speakastronomical514(String languageCode) async {
     // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryastronomical extends StatelessWidget {
         .speak("The costs were astronomical."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   //   await flutterTts.speak("astronomical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAstronomical(String languageCode) async {
+  // Future<void> speakastronomical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAstronomical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryastronomical extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæstrəˈnɒmɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAstronomical("en-GB"),
+                              onPressed: () => speakastronomical("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryastronomical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæstrəˈnɑːmɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAstronomical("en-US"),
+                              onPressed: () => speakastronomical("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryastronomical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAstronomical512("en-GB"),
+                                        speakastronomical512("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAstronomical512(
+                                    onPressed: () => speakastronomical512(
                                         // REPLACE: astronomical
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryastronomical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAstronomical514("en-GB"),
+                                        speakastronomical514("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAstronomical514(
+                                    onPressed: () => speakastronomical514(
                                         // REPLACE: astronomical
                                         "en-US"),
                                   ),

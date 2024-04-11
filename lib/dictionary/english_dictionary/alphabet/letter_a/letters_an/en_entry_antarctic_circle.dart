@@ -13,7 +13,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntarcticcircle(String languageCode) async {
+  Future<void> speakantarcticcircle(String languageCode) async {
     // DOPSUM: CHANGE speakAntarcticcircle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
     await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntarcticcircle156(String languageCode) async {
+  Future<void> speakantarcticcircle156(String languageCode) async {
     // DOPSUM: CHANGE speakAntarcticcircle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
         "Penguins live near the Antarctic Circle where it's very cold."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   //   await flutterTts.speak("Antarctic Circle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntarcticcircle(String languageCode) async {
+  // Future<void> speakantarcticcircle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntarcticcircle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ði ænˌtɑːktɪk ˈsɜːkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntarcticcircle("en-GB"),
+                              onPressed: () => speakantarcticcircle("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ði ænˌtɑːrktɪk ˈsɜːrkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntarcticcircle("en-US"),
+                              onPressed: () => speakantarcticcircle("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntarcticcircle156("en-GB"),
+                                        speakantarcticcircle156("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntarcticcircle156(
+                                    onPressed: () => speakantarcticcircle156(
                                         // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
                                         "en-US"),
                                   ),

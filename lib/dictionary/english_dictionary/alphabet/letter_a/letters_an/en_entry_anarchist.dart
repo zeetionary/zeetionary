@@ -11,7 +11,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   EnglishEntryanarchist({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnarchist(String languageCode) async {
+  Future<void> speakanarchist(String languageCode) async {
     // DOPSUM: CHANGE speakAnarchist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanarchist extends StatelessWidget {
     await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnarchist459(String languageCode) async {
+  Future<void> speakanarchist459(String languageCode) async {
     // DOPSUM: CHANGE speakAnarchist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanarchist extends StatelessWidget {
         "He was a poet, an anarchist, and a vegan."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanarchist extends StatelessWidget {
   //   await flutterTts.speak("anarchist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnarchist(String languageCode) async {
+  // Future<void> speakanarchist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnarchist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəkɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnarchist("en-GB"),
+                              onPressed: () => speakanarchist("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænərkɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnarchist("en-US"),
+                              onPressed: () => speakanarchist("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntryanarchist extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnarchist459("en-GB"),
+                                    onPressed: () => speakanarchist459("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnarchist459(
+                                    onPressed: () => speakanarchist459(
                                         // REPLACE: anarchist /ˈænərkɪst/
                                         "en-US"),
                                   ),

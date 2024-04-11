@@ -11,7 +11,7 @@ class EnglishEntryadministration extends StatelessWidget {
   EnglishEntryadministration({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdministration(String languageCode) async {
+  Future<void> speakadministration(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadministration extends StatelessWidget {
     await flutterTts.speak("administration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdminis2547(String languageCode) async {
+  Future<void> speakadminis2547(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadministration extends StatelessWidget {
         "The university loses a lot of money through poor administration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdminist3547(String languageCode) async {
+  Future<void> speakadminist3547(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadministration extends StatelessWidget {
         "He was Secretary of Education in Obama's first administration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdministr2222(String languageCode) async {
+  Future<void> speakadministr2222(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadministration extends StatelessWidget {
         "The administration of justice involves making sure that people are treated fairly in legal matters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmi25682(String languageCode) async {
+  Future<void> speakadmi25682(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryadministration extends StatelessWidget {
         "The hospital administration can refuse patients' access to their own records."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdm25589(String languageCode) async {
+  Future<void> speakadm25589(String languageCode) async {
     // DOPSUM: CHANGE speakAdministration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -94,7 +94,7 @@ class EnglishEntryadministration extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˌmɪnɪˈstreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdministration("en-GB"),
+                              onPressed: () => speakadministration("en-GB"),
                             ),
                           ],
                         ),
@@ -104,7 +104,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˌmɪnɪˈstreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdministration("en-US"),
+                              onPressed: () => speakadministration("en-US"),
                             ),
                           ],
                         ),
@@ -153,10 +153,10 @@ class EnglishEntryadministration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdminis2547("en-GB"),
+                                    onPressed: () => speakadminis2547("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdminis2547(
+                                    onPressed: () => speakadminis2547(
                                         // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                         "en-US"),
                                   ),
@@ -185,10 +185,10 @@ class EnglishEntryadministration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdminist3547("en-GB"),
+                                    onPressed: () => speakadminist3547("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdminist3547(
+                                    onPressed: () => speakadminist3547(
                                         // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryadministration extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAdministr2222("en-GB"),
+                                        speakadministr2222("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdministr2222(
+                                    onPressed: () => speakadministr2222(
                                         // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryadministration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmi25682("en-GB"),
+                                    onPressed: () => speakadmi25682("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmi25682(
+                                    onPressed: () => speakadmi25682(
                                         // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                         "en-US"),
                                   ),
@@ -282,10 +282,10 @@ class EnglishEntryadministration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdm25589("en-GB"),
+                                    onPressed: () => speakadm25589("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdm25589(
+                                    onPressed: () => speakadm25589(
                                         // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                         "en-US"),
                                   ),

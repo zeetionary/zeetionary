@@ -11,7 +11,7 @@ class EnglishEntryagile extends StatelessWidget {
   EnglishEntryagile({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgile(String languageCode) async {
+  Future<void> speakagile(String languageCode) async {
     // DOPSUM: CHANGE speakAgile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagile extends StatelessWidget {
     await flutterTts.speak("agile"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgile15621(String languageCode) async {
+  Future<void> speakagile15621(String languageCode) async {
     // DOPSUM: CHANGE speakAgile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagile extends StatelessWidget {
         .speak("Monkeys are very agile climbers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgi1778(String languageCode) async {
+  Future<void> speakagi1778(String languageCode) async {
     // DOPSUM: CHANGE speakAgile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagile extends StatelessWidget {
         "For a man of 80, he has a remarkably agile mind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgil56663(String languageCode) async {
+  Future<void> speakagil56663(String languageCode) async {
     // DOPSUM: CHANGE speakAgile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryagile extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædʒaɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgile("en-GB"),
+                              onPressed: () => speakagile("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryagile extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgile("en-US"),
+                              onPressed: () => speakagile("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryagile extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgile15621("en-GB"),
+                                    onPressed: () => speakagile15621("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgile15621(
+                                    onPressed: () => speakagile15621(
                                         // REPLACE: agile /ˈædʒl/
                                         "en-US"),
                                   ),
@@ -165,11 +165,11 @@ class EnglishEntryagile extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgi1778("en-GB"),
+                                    onPressed: () => speakagi1778("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgi1778(// REPLACE: agile /ˈædʒl/
+                                        speakagi1778(// REPLACE: agile /ˈædʒl/
                                             "en-US"),
                                   ),
                                 ],
@@ -197,11 +197,11 @@ class EnglishEntryagile extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgil56663("en-GB"),
+                                    onPressed: () => speakagil56663("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgil56663(// REPLACE: agile /ˈædʒl/
+                                        speakagil56663(// REPLACE: agile /ˈædʒl/
                                             "en-US"),
                                   ),
                                 ],

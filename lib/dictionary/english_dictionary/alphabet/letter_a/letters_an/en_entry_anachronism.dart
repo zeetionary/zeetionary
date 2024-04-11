@@ -11,7 +11,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   EnglishEntryanachronism({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnachronism(String languageCode) async {
+  Future<void> speakanachronism(String languageCode) async {
     // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanachronism extends StatelessWidget {
     await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnachronism4599(String languageCode) async {
+  Future<void> speakanachronism4599(String languageCode) async {
     // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanachronism extends StatelessWidget {
         "The monarchy is seen by many people as an anachronism in the modern world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnachronism0205(String languageCode) async {
+  Future<void> speakanachronism0205(String languageCode) async {
     // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanachronism extends StatelessWidget {
         "The book is full of anachronisms which suggests there were parts rewritten in later centuries."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanachronism extends StatelessWidget {
   //   await flutterTts.speak("anachronism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnachronism(String languageCode) async {
+  // Future<void> speakanachronism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnachronism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnækrənɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnachronism("en-GB"),
+                              onPressed: () => speakanachronism("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnækrənɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnachronism("en-US"),
+                              onPressed: () => speakanachronism("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnachronism4599("en-GB"),
+                                        speakanachronism4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnachronism4599(
+                                    onPressed: () => speakanachronism4599(
                                         // REPLACE: anachronism /əˈnækrənɪzəm/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnachronism0205("en-GB"),
+                                        speakanachronism0205("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnachronism0205(
+                                    onPressed: () => speakanachronism0205(
                                         // REPLACE: anachronism /əˈnækrənɪzəm/
                                         "en-US"),
                                   ),

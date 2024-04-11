@@ -17,7 +17,7 @@ class EnglishEntryapricot extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApricot(String languageCode) async {
+  Future<void> speakapricot(String languageCode) async {
     // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapricot extends StatelessWidget {
     await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApricot1040(String languageCode) async {
+  Future<void> speakapricot1040(String languageCode) async {
     // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -33,7 +33,7 @@ class EnglishEntryapricot extends StatelessWidget {
     await flutterTts.speak("I don't like apricot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApricot1043(String languageCode) async {
+  Future<void> speakapricot1043(String languageCode) async {
     // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapricot extends StatelessWidget {
         "The room was painted apricot and white."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapricot extends StatelessWidget {
   //   await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapricot extends StatelessWidget {
   //   await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapricot extends StatelessWidget {
   //   await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapricot extends StatelessWidget {
   //   await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapricot extends StatelessWidget {
   //   await flutterTts.speak("apricot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApricot(String languageCode) async {
+  // Future<void> speakapricot(String languageCode) async {
   //   // DOPSUM: CHANGE speakApricot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪprɪkɒt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApricot("en-GB"),
+                              onPressed: () => speakapricot("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApricot("en-US"),
+                              onPressed: () => speakapricot("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryapricot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApricot1040("en-GB"),
+                                    onPressed: () => speakapricot1040("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApricot1040(
+                                    onPressed: () => speakapricot1040(
                                         // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryapricot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApricot1043("en-GB"),
+                                    onPressed: () => speakapricot1043("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApricot1043(
+                                    onPressed: () => speakapricot1043(
                                         // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
                                         "en-US"),
                                   ),

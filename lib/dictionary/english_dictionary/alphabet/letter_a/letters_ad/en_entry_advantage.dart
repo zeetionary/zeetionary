@@ -11,7 +11,7 @@ class EnglishEntryadvantage extends StatelessWidget {
   EnglishEntryadvantage({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvantage(String languageCode) async {
+  Future<void> speakadvantage(String languageCode) async {
     // DOPSUM: CHANGE speakAdvantage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadvantage extends StatelessWidget {
     await flutterTts.speak("advantage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan35688(String languageCode) async {
+  Future<void> speakadvan35688(String languageCode) async {
     // DOPSUM: CHANGE speakAdvantage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadvantage extends StatelessWidget {
         "The advantage of booking tickets in advance is that you get better seats."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan3674(String languageCode) async {
+  Future<void> speakadvan3674(String languageCode) async {
     // DOPSUM: CHANGE speakAdvantage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadvantage extends StatelessWidget {
         "For a goalkeeper, it's a great advantage to have big hands."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan6724(String languageCode) async {
+  Future<void> speakadvan6724(String languageCode) async {
     // DOPSUM: CHANGE speakAdvantage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadvantage extends StatelessWidget {
         "Is there any advantage in getting there early?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvant9436(String languageCode) async {
+  Future<void> speakadvant9436(String languageCode) async {
     // DOPSUM: CHANGE speakAdvantage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvɑːntɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvantage("en-GB"),
+                              onPressed: () => speakadvantage("en-GB"),
                             ),
                           ],
                         ),
@@ -92,7 +92,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvæntɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvantage("en-US"),
+                              onPressed: () => speakadvantage("en-US"),
                             ),
                           ],
                         ),
@@ -142,10 +142,10 @@ class EnglishEntryadvantage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan35688("en-GB"),
+                                    onPressed: () => speakadvan35688("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan35688(
+                                    onPressed: () => speakadvan35688(
                                         // REPLACE: advantage /ədˈvæntɪdʒ/
                                         "en-US"),
                                   ),
@@ -172,10 +172,10 @@ class EnglishEntryadvantage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan3674("en-GB"),
+                                    onPressed: () => speakadvan3674("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan3674(
+                                    onPressed: () => speakadvan3674(
                                         // REPLACE: advantage /ədˈvæntɪdʒ/
                                         "en-US"),
                                   ),
@@ -204,10 +204,10 @@ class EnglishEntryadvantage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan6724("en-GB"),
+                                    onPressed: () => speakadvan6724("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan6724(
+                                    onPressed: () => speakadvan6724(
                                         // REPLACE: advantage /ədˈvæntɪdʒ/
                                         "en-US"),
                                   ),
@@ -236,10 +236,10 @@ class EnglishEntryadvantage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvant9436("en-GB"),
+                                    onPressed: () => speakadvant9436("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvant9436(
+                                    onPressed: () => speakadvant9436(
                                         // REPLACE: advantage /ədˈvæntɪdʒ/
                                         "en-US"),
                                   ),

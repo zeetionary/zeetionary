@@ -11,7 +11,7 @@ class EnglishEntryallrounder extends StatelessWidget {
   EnglishEntryallrounder({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllrounder(String languageCode) async {
+  Future<void> speakallrounder(String languageCode) async {
     // DOPSUM: CHANGE speakAllrounder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallrounder extends StatelessWidget {
     await flutterTts.speak("all-rounder"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllrounder12544(String languageCode) async {
+  Future<void> speakallrounder12544(String languageCode) async {
     // DOPSUM: CHANGE speakAllrounder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallrounder extends StatelessWidget {
         "He is a good all-rounder who likes tennis, cricket, and swimming."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllrounder(String languageCode) async {
+  // Future<void> speakallrounder(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllrounder
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryallrounder extends StatelessWidget {
   //   await flutterTts.speak("all-rounder"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllrounder(String languageCode) async {
+  // Future<void> speakallrounder(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllrounder
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːl ˈraʊndə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllrounder("en-GB"),
+                              onPressed: () => speakallrounder("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːl ˈraʊndər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllrounder("en-US"),
+                              onPressed: () => speakallrounder("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllrounder12544("en-GB"),
+                                        speakallrounder12544("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllrounder12544(
+                                    onPressed: () => speakallrounder12544(
                                         // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryattentive extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttentive(String languageCode) async {
+  Future<void> speakattentive(String languageCode) async {
     // DOPSUM: CHANGE speakAttentive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattentive extends StatelessWidget {
     await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttentive904(String languageCode) async {
+  Future<void> speakattentive904(String languageCode) async {
     // DOPSUM: CHANGE speakAttentive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattentive extends StatelessWidget {
         .speak("He listened, quiet and attentive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttentive906(String languageCode) async {
+  Future<void> speakattentive906(String languageCode) async {
     // DOPSUM: CHANGE speakAttentive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattentive extends StatelessWidget {
         "The hotel staff are friendly and attentive."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattentive extends StatelessWidget {
   //   await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattentive extends StatelessWidget {
   //   await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattentive extends StatelessWidget {
   //   await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattentive extends StatelessWidget {
   //   await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattentive extends StatelessWidget {
   //   await flutterTts.speak("attentive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttentive(String languageCode) async {
+  // Future<void> speakattentive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttentive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattentive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtentɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttentive("en-GB"),
+                              onPressed: () => speakattentive("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattentive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtentɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttentive("en-US"),
+                              onPressed: () => speakattentive("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryattentive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttentive904("en-GB"),
+                                    onPressed: () => speakattentive904("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttentive904(// REPLACE: attentive
+                                        speakattentive904(// REPLACE: attentive
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryattentive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttentive906("en-GB"),
+                                    onPressed: () => speakattentive906("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttentive906(// REPLACE: attentive
+                                        speakattentive906(// REPLACE: attentive
                                             "en-US"),
                                   ),
                                 ],

@@ -15,7 +15,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApartfrom(String languageCode) async {
+  Future<void> speakapartfrom(String languageCode) async {
     // DOPSUM: CHANGE speakApartfrom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
     await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApartfrom1125(String languageCode) async {
+  Future<void> speakapartfrom1125(String languageCode) async {
     // DOPSUM: CHANGE speakApartfrom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
         "I've finished apart from the last question."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApartfrom1127(String languageCode) async {
+  Future<void> speakapartfrom1127(String languageCode) async {
     // DOPSUM: CHANGE speakApartfrom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
         "Apart from their house in London, they also have a villa in Spain."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   //   await flutterTts.speak("apart from"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartfrom(String languageCode) async {
+  // Future<void> speakapartfrom(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartfrom
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːt frəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApartfrom("en-GB"),
+                              onPressed: () => speakapartfrom("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrt frəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApartfrom("en-US"),
+                              onPressed: () => speakapartfrom("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApartfrom1125("en-GB"),
+                                        speakapartfrom1125("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApartfrom1125(
+                                    onPressed: () => speakapartfrom1125(
                                         // REPLACE: apart from /əˈpɑːrt frəm/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApartfrom1127("en-GB"),
+                                        speakapartfrom1127("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApartfrom1127(
+                                    onPressed: () => speakapartfrom1127(
                                         // REPLACE: apart from /əˈpɑːrt frəm/
                                         "en-US"),
                                   ),

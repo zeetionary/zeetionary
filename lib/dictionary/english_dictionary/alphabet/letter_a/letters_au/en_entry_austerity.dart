@@ -19,7 +19,7 @@ class EnglishEntryausterity extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAusterity(String languageCode) async {
+  Future<void> speakausterity(String languageCode) async {
     // DOPSUM: CHANGE speakAusterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryausterity extends StatelessWidget {
     await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity518(String languageCode) async {
+  Future<void> speakausterity518(String languageCode) async {
     // DOPSUM: CHANGE speakAusterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryausterity extends StatelessWidget {
         "War was followed by many years of austerity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity523(String languageCode) async {
+  Future<void> speakausterity523(String languageCode) async {
     // DOPSUM: CHANGE speakAusterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryausterity extends StatelessWidget {
         "The house was decorated in an austere style, with white walls and minimal furniture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity524(String languageCode) async {
+  Future<void> speakausterity524(String languageCode) async {
     // DOPSUM: CHANGE speakAusterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryausterity extends StatelessWidget {
         "He was noted for his austerity and authoritarianism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity527(String languageCode) async {
+  Future<void> speakausterity527(String languageCode) async {
     // DOPSUM: CHANGE speakAusterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryausterity extends StatelessWidget {
         "The monks lived a life of austerity, with few possessions and simple meals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAusterity(String languageCode) async {
+  // Future<void> speakausterity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
+  // Future<void> speakausterity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
+  // Future<void> speakausterity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryausterity extends StatelessWidget {
   //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
+  // Future<void> speakausterity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAusterity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɒˈsterəti/, /ɔːˈsterəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAusterity("en-GB"),
+                              onPressed: () => speakausterity("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈsterəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAusterity("en-US"),
+                              onPressed: () => speakausterity("en-US"),
                             ),
                           ],
                         ),
@@ -186,11 +186,11 @@ class EnglishEntryausterity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterity518("en-GB"),
+                                    onPressed: () => speakausterity518("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterity518(// REPLACE: austerity
+                                        speakausterity518(// REPLACE: austerity
                                             "en-US"),
                                   ),
                                 ],
@@ -219,11 +219,11 @@ class EnglishEntryausterity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterity523("en-GB"),
+                                    onPressed: () => speakausterity523("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterity523(// REPLACE: austerity
+                                        speakausterity523(// REPLACE: austerity
                                             "en-US"),
                                   ),
                                 ],
@@ -252,11 +252,11 @@ class EnglishEntryausterity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterity524("en-GB"),
+                                    onPressed: () => speakausterity524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterity524(// REPLACE: austerity
+                                        speakausterity524(// REPLACE: austerity
                                             "en-US"),
                                   ),
                                 ],
@@ -285,11 +285,11 @@ class EnglishEntryausterity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAusterity527("en-GB"),
+                                    onPressed: () => speakausterity527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAusterity527(// REPLACE: austerity
+                                        speakausterity527(// REPLACE: austerity
                                             "en-US"),
                                   ),
                                 ],

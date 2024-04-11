@@ -15,7 +15,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnywhere(String languageCode) async {
+  Future<void> speakanywhere(String languageCode) async {
     // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanywhere extends StatelessWidget {
     await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnywhere949(String languageCode) async {
+  Future<void> speakanywhere949(String languageCode) async {
     // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -31,7 +31,7 @@ class EnglishEntryanywhere extends StatelessWidget {
     await flutterTts.speak("I can't see it anywhere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnywhere951(String languageCode) async {
+  Future<void> speakanywhere951(String languageCode) async {
     // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryanywhere extends StatelessWidget {
     await flutterTts.speak("Put the box down anywhere."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryanywhere extends StatelessWidget {
   //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnywhere(String languageCode) async {
+  // Future<void> speakanywhere(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanywhere extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeniweə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnywhere("en-GB"),
+                              onPressed: () => speakanywhere("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanywhere extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeniwer/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnywhere("en-US"),
+                              onPressed: () => speakanywhere("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanywhere extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnywhere949("en-GB"),
+                                    onPressed: () => speakanywhere949("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnywhere949(
+                                    onPressed: () => speakanywhere949(
                                         // REPLACE: anywhere /ˈeniwer/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryanywhere extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnywhere951("en-GB"),
+                                    onPressed: () => speakanywhere951("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnywhere951(
+                                    onPressed: () => speakanywhere951(
                                         // REPLACE: anywhere /ˈeniwer/
                                         "en-US"),
                                   ),

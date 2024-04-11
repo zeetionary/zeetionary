@@ -11,7 +11,7 @@ class EnglishEntryambition extends StatelessWidget {
   EnglishEntryambition({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbition(String languageCode) async {
+  Future<void> speakambition(String languageCode) async {
     // DOPSUM: CHANGE speakAmbition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambition extends StatelessWidget {
     await flutterTts.speak("ambition"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition422(String languageCode) async {
+  Future<void> speakambition422(String languageCode) async {
     // DOPSUM: CHANGE speakAmbition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambition extends StatelessWidget {
         "At last he had realized his life's ambition."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition3444(String languageCode) async {
+  Future<void> speakambition3444(String languageCode) async {
     // DOPSUM: CHANGE speakAmbition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryambition extends StatelessWidget {
         .speak("He had only one ambition in life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition344(String languageCode) async {
+  Future<void> speakambition344(String languageCode) async {
     // DOPSUM: CHANGE speakAmbition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbition("en-GB"),
+                              onPressed: () => speakambition("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbition("en-US"),
+                              onPressed: () => speakambition("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryambition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmbition422("en-GB"),
+                                    onPressed: () => speakambition422("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbition422(
+                                    onPressed: () => speakambition422(
                                         // REPLACE: ambition /æmˈbɪʃn/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryambition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmbition3444("en-GB"),
+                                    onPressed: () => speakambition3444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbition3444(
+                                    onPressed: () => speakambition3444(
                                         // REPLACE: ambition /æmˈbɪʃn/
                                         "en-US"),
                                   ),
@@ -197,10 +197,10 @@ class EnglishEntryambition extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmbition344("en-GB"),
+                                    onPressed: () => speakambition344("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbition344(
+                                    onPressed: () => speakambition344(
                                         // REPLACE: ambition /æmˈbɪʃn/
                                         "en-US"),
                                   ),

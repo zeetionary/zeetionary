@@ -11,7 +11,7 @@ class EnglishEntryalongside extends StatelessWidget {
   EnglishEntryalongside({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlongside(String languageCode) async {
+  Future<void> speakalongside(String languageCode) async {
     // DOPSUM: CHANGE speakAlongside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalongside extends StatelessWidget {
     await flutterTts.speak("alongside"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlongside4592(String languageCode) async {
+  Future<void> speakalongside4592(String languageCode) async {
     // DOPSUM: CHANGE speakAlongside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalongside extends StatelessWidget {
         "Nick caught up with me and rode alongside."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlongside4597(String languageCode) async {
+  Future<void> speakalongside4597(String languageCode) async {
     // DOPSUM: CHANGE speakAlongside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalongside extends StatelessWidget {
         "The new pill will be used alongside existing medicines."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlongside9(String languageCode) async {
+  Future<void> speakalongside9(String languageCode) async {
     // DOPSUM: CHANGE speakAlongside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌlɒŋˈsaɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlongside("en-GB"),
+                              onPressed: () => speakalongside("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌlɔːŋˈsaɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlongside("en-US"),
+                              onPressed: () => speakalongside("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryalongside extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlongside4592("en-GB"),
+                                        speakalongside4592("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlongside4592(
+                                    onPressed: () => speakalongside4592(
                                         // REPLACE: alongside /əˌlɔːŋˈsaɪd/
                                         "en-US"),
                                   ),
@@ -169,10 +169,10 @@ class EnglishEntryalongside extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlongside4597("en-GB"),
+                                        speakalongside4597("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlongside4597(
+                                    onPressed: () => speakalongside4597(
                                         // REPLACE: alongside /əˌlɔːŋˈsaɪd/
                                         "en-US"),
                                   ),
@@ -199,10 +199,10 @@ class EnglishEntryalongside extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlongside9("en-GB"),
+                                    onPressed: () => speakalongside9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlongside9(
+                                    onPressed: () => speakalongside9(
                                         // REPLACE: alongside /əˌlɔːŋˈsaɪd/
                                         "en-US"),
                                   ),

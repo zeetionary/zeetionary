@@ -17,7 +17,7 @@ class EnglishEntryardent extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArdent(String languageCode) async {
+  Future<void> speakardent(String languageCode) async {
     // DOPSUM: CHANGE speakArdent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryardent extends StatelessWidget {
     await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArdent516(String languageCode) async {
+  Future<void> speakardent516(String languageCode) async {
     // DOPSUM: CHANGE speakArdent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryardent extends StatelessWidget {
         "As an ardent supporter, he cheers for Manchester United in every match."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryardent extends StatelessWidget {
   //   await flutterTts.speak("ardent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArdent(String languageCode) async {
+  // Future<void> speakardent(String languageCode) async {
   //   // DOPSUM: CHANGE speakArdent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryardent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːdnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArdent("en-GB"),
+                              onPressed: () => speakardent("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryardent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrdnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArdent("en-US"),
+                              onPressed: () => speakardent("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryardent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArdent516("en-GB"),
+                                    onPressed: () => speakardent516("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArdent516(
+                                    onPressed: () => speakardent516(
                                         // REPLACE: ardent /ˈɑːrdnt/
                                         "en-US"),
                                   ),

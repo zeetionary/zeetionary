@@ -19,7 +19,7 @@ class EnglishEntryartful extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtful(String languageCode) async {
+  Future<void> speakartful(String languageCode) async {
     // DOPSUM: CHANGE speakArtful
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartful extends StatelessWidget {
     await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtful209(String languageCode) async {
+  Future<void> speakartful209(String languageCode) async {
     // DOPSUM: CHANGE speakArtful
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartful extends StatelessWidget {
         "He was artful and cunning, and I didn’t really trust him."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryartful extends StatelessWidget {
   //   await flutterTts.speak("artful"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtful(String languageCode) async {
+  // Future<void> speakartful(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtful
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryartful extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtfl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtful("en-GB"),
+                              onPressed: () => speakartful("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryartful extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtfl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtful("en-US"),
+                              onPressed: () => speakartful("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryartful extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtful209("en-GB"),
+                                    onPressed: () => speakartful209("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtful209(
+                                    onPressed: () => speakartful209(
                                         // REPLACE: artful /ˈɑːrtfl/
                                         "en-US"),
                                   ),

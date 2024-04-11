@@ -11,7 +11,7 @@ class EnglishEntryadvent extends StatelessWidget {
   EnglishEntryadvent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvent(String languageCode) async {
+  Future<void> speakadvent(String languageCode) async {
     // DOPSUM: CHANGE speakAdvent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadvent extends StatelessWidget {
     await flutterTts.speak("advent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvent25677(String languageCode) async {
+  Future<void> speakadvent25677(String languageCode) async {
     // DOPSUM: CHANGE speakAdvent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadvent extends StatelessWidget {
         "Before the advent of the railways, communications were slow and difficult."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdvent(String languageCode) async {
+  // Future<void> speakadvent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadvent extends StatelessWidget {
   //   await flutterTts.speak("advent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdvent(String languageCode) async {
+  // Future<void> speakadvent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadvent extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædvent/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvent("en-GB"),
+                              onPressed: () => speakadvent("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadvent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædvent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvent("en-US"),
+                              onPressed: () => speakadvent("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadvent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvent25677("en-GB"),
+                                    onPressed: () => speakadvent25677("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvent25677(
+                                    onPressed: () => speakadvent25677(
                                         // REPLACE: advent /ˈædvent/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalright extends StatelessWidget {
   EnglishEntryalright({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlright(String languageCode) async {
+  Future<void> speakalright(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalright extends StatelessWidget {
     await flutterTts.speak("alright"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright124(String languageCode) async {
+  Future<void> speakalright124(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("We've got to get up early, alright?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright123(String languageCode) async {
+  Future<void> speakalright123(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("‘Can you do it?’ ‘Oh, alright.’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright235(String languageCode) async {
+  Future<void> speakalright235(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalright extends StatelessWidget {
         "‘I'm really sorry.’ ‘That's alright, don't worry.’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright23469(String languageCode) async {
+  Future<void> speakalright23469(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("alright class, turn to page 20."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright5241(String languageCode) async {
+  Future<void> speakalright5241(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalright extends StatelessWidget {
         "Are you getting along alright in your new job?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright3695(String languageCode) async {
+  Future<void> speakalright3695(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("I hope the children are alright."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright4577(String languageCode) async {
+  Future<void> speakalright4577(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryalright extends StatelessWidget {
         "Your work is alright but I'm sure you could do better."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright87459(String languageCode) async {
+  Future<void> speakalright87459(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -91,7 +91,7 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("We've got to get up early, alright?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlright1055(String languageCode) async {
+  Future<void> speakalright1055(String languageCode) async {
     // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryalright extends StatelessWidget {
         "Are you sure it's alright for me to leave early?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -148,7 +148,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -156,7 +156,7 @@ class EnglishEntryalright extends StatelessWidget {
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlright(String languageCode) async {
+  // Future<void> speakalright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -195,7 +195,7 @@ class EnglishEntryalright extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːl ˈraɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlright("en-GB"),
+                              onPressed: () => speakalright("en-GB"),
                             ),
                           ],
                         ),
@@ -205,7 +205,7 @@ class EnglishEntryalright extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːl ˈraɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlright("en-US"),
+                              onPressed: () => speakalright("en-US"),
                             ),
                           ],
                         ),
@@ -256,10 +256,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright124("en-GB"),
+                                    onPressed: () => speakalright124("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright124(
+                                    onPressed: () => speakalright124(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -287,10 +287,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright123("en-GB"),
+                                    onPressed: () => speakalright123("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright123(
+                                    onPressed: () => speakalright123(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -319,10 +319,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright235("en-GB"),
+                                    onPressed: () => speakalright235("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright235(
+                                    onPressed: () => speakalright235(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -351,10 +351,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright23469("en-GB"),
+                                    onPressed: () => speakalright23469("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright23469(
+                                    onPressed: () => speakalright23469(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -383,10 +383,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright5241("en-GB"),
+                                    onPressed: () => speakalright5241("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright5241(
+                                    onPressed: () => speakalright5241(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -414,10 +414,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright3695("en-GB"),
+                                    onPressed: () => speakalright3695("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright3695(
+                                    onPressed: () => speakalright3695(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -446,10 +446,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright4577("en-GB"),
+                                    onPressed: () => speakalright4577("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright4577(
+                                    onPressed: () => speakalright4577(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),
@@ -478,10 +478,10 @@ class EnglishEntryalright extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlright1055("en-GB"),
+                                    onPressed: () => speakalright1055("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlright1055(
+                                    onPressed: () => speakalright1055(
                                         // REPLACE: alright /ɔːl ˈraɪt/
                                         "en-US"),
                                   ),

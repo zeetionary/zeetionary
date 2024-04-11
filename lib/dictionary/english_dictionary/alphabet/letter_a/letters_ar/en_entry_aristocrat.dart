@@ -17,7 +17,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAristocrat(String languageCode) async {
+  Future<void> speakaristocrat(String languageCode) async {
     // DOPSUM: CHANGE speakAristocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
     await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAristocrat1207(String languageCode) async {
+  Future<void> speakaristocrat1207(String languageCode) async {
     // DOPSUM: CHANGE speakAristocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
         "The castle has been owned by a succession of wealthy aristocrats."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
   //   await flutterTts.speak("aristocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocrat(String languageCode) async {
+  // Future<void> speakaristocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAristocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærɪstəkræt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAristocrat("en-GB"),
+                              onPressed: () => speakaristocrat("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈrɪstəkræt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAristocrat("en-US"),
+                              onPressed: () => speakaristocrat("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryaristocrat extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAristocrat1207("en-GB"),
+                                        speakaristocrat1207("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAristocrat1207(
+                                    onPressed: () => speakaristocrat1207(
                                         // REPLACE: aristocrat /əˈrɪstəkræt/
                                         "en-US"),
                                   ),

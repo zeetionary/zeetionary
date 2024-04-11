@@ -19,7 +19,7 @@ class EnglishEntrybark extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBark(String languageCode) async {
+  Future<void> speakbark(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybark extends StatelessWidget {
     await flutterTts.speak("bark"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks1(String languageCode) async {
+  Future<void> speakbarks1(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybark extends StatelessWidget {
         .speak("The bark peels off in summer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks2(String languageCode) async {
+  Future<void> speakbarks2(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybark extends StatelessWidget {
     await flutterTts.speak("The dog gave a loud bark."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks3(String languageCode) async {
+  Future<void> speakbarks3(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybark extends StatelessWidget {
         "The bark of the laughter echoed through the room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks4(String languageCode) async {
+  Future<void> speakbarks4(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybark extends StatelessWidget {
         "The dog suddenly started barking at us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks5(String languageCode) async {
+  Future<void> speakbarks5(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybark extends StatelessWidget {
         .speak("He barked questions at her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks6(String languageCode) async {
+  Future<void> speakbarks6(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybark extends StatelessWidget {
         "I barked my shins when I fell on the steps."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarks7(String languageCode) async {
+  Future<void> speakbarks7(String languageCode) async {
     // DOPSUM: CHANGE speakBark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɑːk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBark("en-GB"),
+                              onPressed: () => speakbark("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɑːrk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBark("en-US"),
+                              onPressed: () => speakbark("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks1("en-GB"),
+                                    onPressed: () => speakbarks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks1("en-US"),
+                                    onPressed: () => speakbarks1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks2("en-GB"),
+                                    onPressed: () => speakbarks2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks2("en-US"),
+                                    onPressed: () => speakbarks2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks3("en-GB"),
+                                    onPressed: () => speakbarks3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks3("en-US"),
+                                    onPressed: () => speakbarks3("en-US"),
                                   ),
                                 ],
                               ),
@@ -262,10 +262,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks4("en-GB"),
+                                    onPressed: () => speakbarks4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks4("en-US"),
+                                    onPressed: () => speakbarks4("en-US"),
                                   ),
                                 ],
                               ),
@@ -291,10 +291,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks5("en-GB"),
+                                    onPressed: () => speakbarks5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks5("en-US"),
+                                    onPressed: () => speakbarks5("en-US"),
                                   ),
                                 ],
                               ),
@@ -322,10 +322,10 @@ class EnglishEntrybark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarks6("en-GB"),
+                                    onPressed: () => speakbarks6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarks6("en-US"),
+                                    onPressed: () => speakbarks6("en-US"),
                                   ),
                                 ],
                               ),

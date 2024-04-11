@@ -11,7 +11,7 @@ class EnglishEntryalibi extends StatelessWidget {
   EnglishEntryalibi({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlibi(String languageCode) async {
+  Future<void> speakalibi(String languageCode) async {
     // DOPSUM: CHANGE speakAlibi
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalibi extends StatelessWidget {
     await flutterTts.speak("alibi"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlibi4588(String languageCode) async {
+  Future<void> speakalibi4588(String languageCode) async {
     // DOPSUM: CHANGE speakAlibi
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalibi extends StatelessWidget {
         "The suspects all had alibis for the day of the robbery."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlibi499253(String languageCode) async {
+  Future<void> speakalibi499253(String languageCode) async {
     // DOPSUM: CHANGE speakAlibi
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalibi extends StatelessWidget {
         "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlibi(String languageCode) async {
+  // Future<void> speakalibi(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlibi
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlibi("en-GB"),
+                              onPressed: () => speakalibi("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlibi("en-US"),
+                              onPressed: () => speakalibi("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalibi extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlibi4588("en-GB"),
+                                    onPressed: () => speakalibi4588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlibi4588(
+                                    onPressed: () => speakalibi4588(
                                         // REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryalibi extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlibi499253("en-GB"),
+                                    onPressed: () => speakalibi499253("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlibi499253(
+                                    onPressed: () => speakalibi499253(
                                         // REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),
                                   ),

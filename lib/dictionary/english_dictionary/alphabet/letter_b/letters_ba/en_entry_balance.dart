@@ -19,7 +19,7 @@ class EnglishEntrybalance extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalance(String languageCode) async {
+  Future<void> speakbalance(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybalance extends StatelessWidget {
     await flutterTts.speak("balance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances1(String languageCode) async {
+  Future<void> speakbalances1(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "This newspaper maintains a good balance in its presentation of different opinions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances2(String languageCode) async {
+  Future<void> speakbalances2(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "Try to keep a balance between work and relaxation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances3(String languageCode) async {
+  Future<void> speakbalances3(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "He set his feet wider and adjusted his balance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances4(String languageCode) async {
+  Future<void> speakbalances4(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "He asked the cashier for the balance of his current account."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances5(String languageCode) async {
+  Future<void> speakbalances5(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "The balance of £500 must be paid within 90 days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances6(String languageCode) async {
+  Future<void> speakbalances6(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "He argues that the balance has swung too far in favour of capitalism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances7(String languageCode) async {
+  Future<void> speakbalances7(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "The scientist used a balance to measure the weight of the sample."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances8(String languageCode) async {
+  Future<void> speakbalances8(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybalance extends StatelessWidget {
         .speak("How long can you balance on one leg?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances9(String languageCode) async {
+  Future<void> speakbalances9(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "The song perfectly balances melody and rhythm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances10(String languageCode) async {
+  Future<void> speakbalances10(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "This year's profits will balance out our previous losses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances11(String languageCode) async {
+  Future<void> speakbalances11(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "The cost of obtaining legal advice needs to be balanced against its benefits."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances12(String languageCode) async {
+  Future<void> speakbalances12(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -135,7 +135,7 @@ class EnglishEntrybalance extends StatelessWidget {
         "In order to balance the budget severe spending cuts had to be made."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances13(String languageCode) async {
+  Future<void> speakbalances13(String languageCode) async {
     // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -175,7 +175,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæləns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalance("en-GB"),
+                              onPressed: () => speakbalance("en-GB"),
                             ),
                           ],
                         ),
@@ -185,7 +185,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæləns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalance("en-US"),
+                              onPressed: () => speakbalance("en-US"),
                             ),
                           ],
                         ),
@@ -235,11 +235,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances1("en-GB"),
+                                    onPressed: () => speakbalances1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances1(// REPLACE: balance
+                                        speakbalances1(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -266,11 +266,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances2("en-GB"),
+                                    onPressed: () => speakbalances2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances2(// REPLACE: balance
+                                        speakbalances2(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -299,11 +299,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances3("en-GB"),
+                                    onPressed: () => speakbalances3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances3(// REPLACE: balance
+                                        speakbalances3(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -332,11 +332,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances4("en-GB"),
+                                    onPressed: () => speakbalances4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances4(// REPLACE: balance
+                                        speakbalances4(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -365,11 +365,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances5("en-GB"),
+                                    onPressed: () => speakbalances5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances5(// REPLACE: balance
+                                        speakbalances5(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -398,11 +398,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances6("en-GB"),
+                                    onPressed: () => speakbalances6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances6(// REPLACE: balance
+                                        speakbalances6(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -431,11 +431,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances7("en-GB"),
+                                    onPressed: () => speakbalances7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances7(// REPLACE: balance
+                                        speakbalances7(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -464,11 +464,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances8("en-GB"),
+                                    onPressed: () => speakbalances8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances8(// REPLACE: balance
+                                        speakbalances8(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -497,11 +497,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances9("en-GB"),
+                                    onPressed: () => speakbalances9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances9(// REPLACE: balance
+                                        speakbalances9(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -530,11 +530,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances10("en-GB"),
+                                    onPressed: () => speakbalances10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances10(// REPLACE: balance
+                                        speakbalances10(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -563,11 +563,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances11("en-GB"),
+                                    onPressed: () => speakbalances11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances11(// REPLACE: balance
+                                        speakbalances11(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -596,11 +596,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances12("en-GB"),
+                                    onPressed: () => speakbalances12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances12(// REPLACE: balance
+                                        speakbalances12(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],
@@ -629,11 +629,11 @@ class EnglishEntrybalance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalances13("en-GB"),
+                                    onPressed: () => speakbalances13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalances13(// REPLACE: balance
+                                        speakbalances13(// REPLACE: balance
                                             "en-US"),
                                   ),
                                 ],

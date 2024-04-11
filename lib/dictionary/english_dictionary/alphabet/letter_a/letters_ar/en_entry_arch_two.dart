@@ -17,7 +17,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchtwo(String languageCode) async {
+  Future<void> speakarchtwo(String languageCode) async {
     // DOPSUM: CHANGE speakArchtwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
     await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchtwo213(String languageCode) async {
+  Future<void> speakarchtwo213(String languageCode) async {
     // DOPSUM: CHANGE speakArchtwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
         "He's always been an arch-opponent of the project."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
   //   await flutterTts.speak("arch-"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchtwo(String languageCode) async {
+  // Future<void> speakarchtwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchtwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
                                 text:
                                     "IpaUK: /haʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchtwo("en-GB"),
+                              onPressed: () => speakarchtwo("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
                                 text:
                                     "IpaUS: /haʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchtwo("en-US"),
+                              onPressed: () => speakarchtwo("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryarchtwo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchtwo213("en-GB"),
+                                    onPressed: () => speakarchtwo213("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArchtwo213(// REPLACE: arch- /haʊ/
+                                        speakarchtwo213(// REPLACE: arch- /haʊ/
                                             "en-US"),
                                   ),
                                 ],

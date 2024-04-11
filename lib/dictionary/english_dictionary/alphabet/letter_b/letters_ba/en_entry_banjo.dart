@@ -19,7 +19,7 @@ class EnglishEntrybanjo extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanjo(String languageCode) async {
+  Future<void> speakbanjo(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("banjo"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos1(String languageCode) async {
+  Future<void> speakbanjos1(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybanjo extends StatelessWidget {
         "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos2(String languageCode) async {
+  Future<void> speakbanjos2(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("speakBanjos22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos3(String languageCode) async {
+  Future<void> speakbanjos3(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("speakBanjos33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos4(String languageCode) async {
+  Future<void> speakbanjos4(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("speakBanjos44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos5(String languageCode) async {
+  Future<void> speakbanjos5(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("speakBanjos55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos6(String languageCode) async {
+  Future<void> speakbanjos6(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybanjo extends StatelessWidget {
     await flutterTts.speak("speakBanjos66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanjos7(String languageCode) async {
+  Future<void> speakbanjos7(String languageCode) async {
     // DOPSUM: CHANGE speakBanjo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybanjo extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbændʒəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBanjo("en-GB"),
+                              onPressed: () => speakbanjo("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybanjo extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbændʒəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBanjo("en-US"),
+                              onPressed: () => speakbanjo("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybanjo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBanjos1("en-GB"),
+                                    onPressed: () => speakbanjos1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBanjos1(// REPLACE: banjo
+                                        speakbanjos1(// REPLACE: banjo
                                             "en-US"),
                                   ),
                                 ],

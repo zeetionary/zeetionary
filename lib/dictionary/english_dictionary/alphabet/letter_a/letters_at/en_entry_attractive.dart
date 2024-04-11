@@ -19,7 +19,7 @@ class EnglishEntryattractive extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttractive(String languageCode) async {
+  Future<void> speakattractive(String languageCode) async {
     // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattractive extends StatelessWidget {
     await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttractive1043(String languageCode) async {
+  Future<void> speakattractive1043(String languageCode) async {
     // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattractive extends StatelessWidget {
         "I like John but I don't find him attractive physically."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttractive1045(String languageCode) async {
+  Future<void> speakattractive1045(String languageCode) async {
     // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattractive extends StatelessWidget {
         .speak("Your new glasses are very attractive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttractive1047(String languageCode) async {
+  Future<void> speakattractive1047(String languageCode) async {
     // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattractive extends StatelessWidget {
         "The deal is said to be particularly attractive to investors."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttractive(String languageCode) async {
+  // Future<void> speakattractive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttractive(String languageCode) async {
+  // Future<void> speakattractive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttractive(String languageCode) async {
+  // Future<void> speakattractive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttractive(String languageCode) async {
+  // Future<void> speakattractive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryattractive extends StatelessWidget {
   //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttractive(String languageCode) async {
+  // Future<void> speakattractive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryattractive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtræktɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttractive("en-GB"),
+                              onPressed: () => speakattractive("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryattractive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtræktɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttractive("en-US"),
+                              onPressed: () => speakattractive("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryattractive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttractive1043("en-GB"),
+                                        speakattractive1043("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttractive1043(
+                                    onPressed: () => speakattractive1043(
                                         // REPLACE: attractive
                                         "en-US"),
                                   ),
@@ -220,10 +220,10 @@ class EnglishEntryattractive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttractive1045("en-GB"),
+                                        speakattractive1045("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttractive1045(
+                                    onPressed: () => speakattractive1045(
                                         // REPLACE: attractive
                                         "en-US"),
                                   ),
@@ -254,10 +254,10 @@ class EnglishEntryattractive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttractive1047("en-GB"),
+                                        speakattractive1047("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttractive1047(
+                                    onPressed: () => speakattractive1047(
                                         // REPLACE: attractive
                                         "en-US"),
                                   ),

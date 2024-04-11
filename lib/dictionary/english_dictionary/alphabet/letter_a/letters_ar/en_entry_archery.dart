@@ -17,7 +17,7 @@ class EnglishEntryarchery extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchery(String languageCode) async {
+  Future<void> speakarchery(String languageCode) async {
     // DOPSUM: CHANGE speakArchery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchery extends StatelessWidget {
     await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchery350(String languageCode) async {
+  Future<void> speakarchery350(String languageCode) async {
     // DOPSUM: CHANGE speakArchery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchery extends StatelessWidget {
         "Neither had practised archery before last year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchery extends StatelessWidget {
   //   await flutterTts.speak("archery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchery(String languageCode) async {
+  // Future<void> speakarchery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarchery extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtʃəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchery("en-GB"),
+                              onPressed: () => speakarchery("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarchery extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtʃəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchery("en-US"),
+                              onPressed: () => speakarchery("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarchery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArchery350("en-GB"),
+                                    onPressed: () => speakarchery350("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchery350(
+                                    onPressed: () => speakarchery350(
                                         // REPLACE: archery /ˈɑːrtʃəri/
                                         "en-US"),
                                   ),

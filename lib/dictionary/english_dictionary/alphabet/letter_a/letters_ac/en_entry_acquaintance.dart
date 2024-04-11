@@ -11,7 +11,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
   EnglishEntryacquaintance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcquaintance(String languageCode) async {
+  Future<void> speakacquaintance(String languageCode) async {
     // DOPSUM: CHANGE speakAcquaintance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
     await flutterTts.speak("acquaintance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcqu4587(String languageCode) async {
+  Future<void> speakacqu4587(String languageCode) async {
     // DOPSUM: CHANGE speakAcquaintance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
         "I bumped into an old acquaintance on the train."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcq3528(String languageCode) async {
+  Future<void> speakacq3528(String languageCode) async {
     // DOPSUM: CHANGE speakAcquaintance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
         "He hoped their acquaintance would develop further."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcquaintance(String languageCode) async {
+  // Future<void> speakacquaintance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquaintance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkweɪntəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquaintance("en-GB"),
+                              onPressed: () => speakacquaintance("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkweɪntəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquaintance("en-US"),
+                              onPressed: () => speakacquaintance("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryacquaintance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcqu4587("en-GB"),
+                                    onPressed: () => speakacqu4587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcqu4587(
+                                    onPressed: () => speakacqu4587(
                                         "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
                                   ),
                                 ],
@@ -165,10 +165,10 @@ class EnglishEntryacquaintance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcq3528("en-GB"),
+                                    onPressed: () => speakacq3528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcq3528(
+                                    onPressed: () => speakacq3528(
                                         "en-US"), // REPLACE acquaintance /əˈkweɪntəns/
                                   ),
                                 ],

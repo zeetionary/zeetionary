@@ -19,7 +19,7 @@ class EnglishEntrybackwards extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBackwards(String languageCode) async {
+  Future<void> speakbackwards(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybackwards extends StatelessWidget {
     await flutterTts.speak("backwards"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss1(String languageCode) async {
+  Future<void> speakbackwardss1(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybackwards extends StatelessWidget {
     await flutterTts.speak("He took a step backwards."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss2(String languageCode) async {
+  Future<void> speakbackwardss2(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybackwards extends StatelessWidget {
         "‘Ambulance’ is written backwards so you can read it in the mirror."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss3(String languageCode) async {
+  Future<void> speakbackwardss3(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybackwards extends StatelessWidget {
         "In the movie they take a journey backward through time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss4(String languageCode) async {
+  Future<void> speakbackwardss4(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybackwards extends StatelessWidget {
         "I felt that going to live with my parents would be a step backward."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss5(String languageCode) async {
+  Future<void> speakbackwardss5(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybackwards extends StatelessWidget {
     await flutterTts.speak("speakBackwardss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss6(String languageCode) async {
+  Future<void> speakbackwardss6(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybackwards extends StatelessWidget {
     await flutterTts.speak("speakBackwardss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackwardss7(String languageCode) async {
+  Future<void> speakbackwardss7(String languageCode) async {
     // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbækwədz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBackwards("en-GB"),
+                              onPressed: () => speakbackwards("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbækwərdz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBackwards("en-US"),
+                              onPressed: () => speakbackwards("en-US"),
                             ),
                           ],
                         ),
@@ -174,11 +174,11 @@ class EnglishEntrybackwards extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackwardss1("en-GB"),
+                                    onPressed: () => speakbackwardss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackwardss1(// REPLACE: backwards
+                                        speakbackwardss1(// REPLACE: backwards
                                             "en-US"),
                                   ),
                                 ],
@@ -207,11 +207,11 @@ class EnglishEntrybackwards extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackwardss2("en-GB"),
+                                    onPressed: () => speakbackwardss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackwardss2(// REPLACE: backward
+                                        speakbackwardss2(// REPLACE: backward
                                             "en-US"),
                                   ),
                                 ],
@@ -237,11 +237,11 @@ class EnglishEntrybackwards extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackwardss3("en-GB"),
+                                    onPressed: () => speakbackwardss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackwardss3(// REPLACE: backward
+                                        speakbackwardss3(// REPLACE: backward
                                             "en-US"),
                                   ),
                                 ],
@@ -270,11 +270,11 @@ class EnglishEntrybackwards extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackwardss4("en-GB"),
+                                    onPressed: () => speakbackwardss4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackwardss4(// REPLACE: backward
+                                        speakbackwardss4(// REPLACE: backward
                                             "en-US"),
                                   ),
                                 ],

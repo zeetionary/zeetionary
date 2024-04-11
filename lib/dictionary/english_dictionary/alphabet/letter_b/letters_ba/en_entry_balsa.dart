@@ -19,7 +19,7 @@ class EnglishEntrybalsa extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalsa(String languageCode) async {
+  Future<void> speakbalsa(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("balsa"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas1(String languageCode) async {
+  Future<void> speakbalsas1(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybalsa extends StatelessWidget {
         "The balsa trees are native to South America and can grow up to 100 feet tall."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas2(String languageCode) async {
+  Future<void> speakbalsas2(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("speakBalsas22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas3(String languageCode) async {
+  Future<void> speakbalsas3(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("speakBalsas33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas4(String languageCode) async {
+  Future<void> speakbalsas4(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("speakBalsas44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas5(String languageCode) async {
+  Future<void> speakbalsas5(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("speakBalsas55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas6(String languageCode) async {
+  Future<void> speakbalsas6(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybalsa extends StatelessWidget {
     await flutterTts.speak("speakBalsas66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalsas7(String languageCode) async {
+  Future<void> speakbalsas7(String languageCode) async {
     // DOPSUM: CHANGE speakBalsa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybalsa extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɔːlsə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalsa("en-GB"),
+                              onPressed: () => speakbalsa("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybalsa extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɔːlsə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalsa("en-US"),
+                              onPressed: () => speakbalsa("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybalsa extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalsas1("en-GB"),
+                                    onPressed: () => speakbalsas1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalsas1(// REPLACE: balsa
+                                        speakbalsas1(// REPLACE: balsa
                                             "en-US"),
                                   ),
                                 ],

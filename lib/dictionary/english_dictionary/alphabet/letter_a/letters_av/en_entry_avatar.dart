@@ -19,7 +19,7 @@ class EnglishEntryavatar extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvatar(String languageCode) async {
+  Future<void> speakavatar(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.speak("avatar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars1(String languageCode) async {
+  Future<void> speakavatars1(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavatar extends StatelessWidget {
         "Gautama Buddha is considered an avatar of the god Vishnu."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars2(String languageCode) async {
+  Future<void> speakavatars2(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavatar extends StatelessWidget {
         "The game creates a virtual world where people interact and participate in activities through their avatars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars3(String languageCode) async {
+  Future<void> speakavatars3(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.speak("speakAvatars3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars4(String languageCode) async {
+  Future<void> speakavatars4(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.speak("speakAvatars4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars5(String languageCode) async {
+  Future<void> speakavatars5(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.speak("speakAvatars5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars6(String languageCode) async {
+  Future<void> speakavatars6(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryavatar extends StatelessWidget {
     await flutterTts.speak("speakAvatars6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvatars7(String languageCode) async {
+  Future<void> speakavatars7(String languageCode) async {
     // DOPSUM: CHANGE speakAvatar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryavatar extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævətɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvatar("en-GB"),
+                              onPressed: () => speakavatar("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryavatar extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævətɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvatar("en-US"),
+                              onPressed: () => speakavatar("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntryavatar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars1("en-GB"),
+                                    onPressed: () => speakavatars1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvatars1(// REPLACE: avatar
+                                        speakavatars1(// REPLACE: avatar
                                             "en-US"),
                                   ),
                                 ],
@@ -205,11 +205,11 @@ class EnglishEntryavatar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvatars2("en-GB"),
+                                    onPressed: () => speakavatars2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvatars2(// REPLACE: avatar
+                                        speakavatars2(// REPLACE: avatar
                                             "en-US"),
                                   ),
                                 ],

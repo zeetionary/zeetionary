@@ -19,7 +19,7 @@ class EnglishEntrybay extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBay(String languageCode) async {
+  Future<void> speakbay(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybay extends StatelessWidget {
     await flutterTts.speak("bay"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays1(String languageCode) async {
+  Future<void> speakbays1(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybay extends StatelessWidget {
         "We sailed into a beautiful, secluded bay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays2(String languageCode) async {
+  Future<void> speakbays2(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybay extends StatelessWidget {
         .speak("Put the equipment in No 3 bay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays3(String languageCode) async {
+  Future<void> speakbays3(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybay extends StatelessWidget {
         "The bay window provided a beautiful view of the garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays4(String languageCode) async {
+  Future<void> speakbays4(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybay extends StatelessWidget {
     await flutterTts.speak("He was riding a big bay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays5(String languageCode) async {
+  Future<void> speakbays5(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybay extends StatelessWidget {
         "The dog bayed incessantly, alerting its owner to something unusual."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays6(String languageCode) async {
+  Future<void> speakbays6(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybay extends StatelessWidget {
         "The referee's decision left the crowd baying for blood (= threatening violence towards him)."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBays7(String languageCode) async {
+  Future<void> speakbays7(String languageCode) async {
     // DOPSUM: CHANGE speakBay
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybay extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /beɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBay("en-GB"),
+                              onPressed: () => speakbay("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybay extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /beɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBay("en-US"),
+                              onPressed: () => speakbay("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays1("en-GB"),
+                                    onPressed: () => speakbays1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays1("en-US"),
+                                    onPressed: () => speakbays1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays2("en-GB"),
+                                    onPressed: () => speakbays2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays2("en-US"),
+                                    onPressed: () => speakbays2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays3("en-GB"),
+                                    onPressed: () => speakbays3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays3("en-US"),
+                                    onPressed: () => speakbays3("en-US"),
                                   ),
                                 ],
                               ),
@@ -263,10 +263,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays4("en-GB"),
+                                    onPressed: () => speakbays4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays4("en-US"),
+                                    onPressed: () => speakbays4("en-US"),
                                   ),
                                 ],
                               ),
@@ -294,10 +294,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays5("en-GB"),
+                                    onPressed: () => speakbays5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays5("en-US"),
+                                    onPressed: () => speakbays5("en-US"),
                                   ),
                                 ],
                               ),
@@ -326,10 +326,10 @@ class EnglishEntrybay extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBays6("en-GB"),
+                                    onPressed: () => speakbays6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBays6("en-US"),
+                                    onPressed: () => speakbays6("en-US"),
                                   ),
                                 ],
                               ),

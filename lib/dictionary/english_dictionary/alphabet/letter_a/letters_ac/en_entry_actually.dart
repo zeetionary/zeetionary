@@ -11,7 +11,7 @@ class EnglishEntryactually extends StatelessWidget {
   EnglishEntryactually({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakActually(String languageCode) async {
+  Future<void> speakactually(String languageCode) async {
     // DOPSUM: CHANGE speakActually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryactually extends StatelessWidget {
     await flutterTts.speak("actually"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActual7618(String languageCode) async {
+  Future<void> speakactual7618(String languageCode) async {
     // DOPSUM: CHANGE speakActually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryactually extends StatelessWidget {
         "There are lots of people there who can actually help you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActua9487(String languageCode) async {
+  Future<void> speakactua9487(String languageCode) async {
     // DOPSUM: CHANGE speakActually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryactually extends StatelessWidget {
         .speak("The book was never actually published."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActu35269(String languageCode) async {
+  Future<void> speakactu35269(String languageCode) async {
     // DOPSUM: CHANGE speakActually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryactually extends StatelessWidget {
         "The food was not actually all that expensive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActu4562(String languageCode) async {
+  Future<void> speakactu4562(String languageCode) async {
     // DOPSUM: CHANGE speakActually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryactually extends StatelessWidget {
         "We're not American, actually. We're Canadian."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakActually(String languageCode) async {
+  // Future<void> speakactually(String languageCode) async {
   //   // DOPSUM: CHANGE speakActually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryactually extends StatelessWidget {
   //   await flutterTts.speak("actually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActually(String languageCode) async {
+  // Future<void> speakactually(String languageCode) async {
   //   // DOPSUM: CHANGE speakActually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntryactually extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæktʃuəli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakActually("en-GB"),
+                              onPressed: () => speakactually("en-GB"),
                             ),
                           ],
                         ),
@@ -108,7 +108,7 @@ class EnglishEntryactually extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæktʃuəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakActually("en-US"),
+                              onPressed: () => speakactually("en-US"),
                             ),
                           ],
                         ),
@@ -159,10 +159,10 @@ class EnglishEntryactually extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActual7618("en-GB"),
+                                    onPressed: () => speakactual7618("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActual7618(
+                                    onPressed: () => speakactual7618(
                                         // REPLACE: actually /ˈæktʃuəli/
                                         "en-US"),
                                   ),
@@ -189,10 +189,10 @@ class EnglishEntryactually extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActua9487("en-GB"),
+                                    onPressed: () => speakactua9487("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActua9487(
+                                    onPressed: () => speakactua9487(
                                         // REPLACE: actually /ˈæktʃuəli/
                                         "en-US"),
                                   ),
@@ -221,10 +221,10 @@ class EnglishEntryactually extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActu35269("en-GB"),
+                                    onPressed: () => speakactu35269("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActu35269(
+                                    onPressed: () => speakactu35269(
                                         // REPLACE: actually /ˈæktʃuəli/
                                         "en-US"),
                                   ),
@@ -253,10 +253,10 @@ class EnglishEntryactually extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActu4562("en-GB"),
+                                    onPressed: () => speakactu4562("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActu4562(
+                                    onPressed: () => speakactu4562(
                                         // REPLACE: actually /ˈæktʃuəli/
                                         "en-US"),
                                   ),

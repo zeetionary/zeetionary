@@ -19,7 +19,7 @@ class EnglishEntryasleep extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsleep(String languageCode) async {
+  Future<void> speakasleep(String languageCode) async {
     // DOPSUM: CHANGE speakAsleep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasleep extends StatelessWidget {
     await flutterTts.speak("asleep"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsleep929(String languageCode) async {
+  Future<void> speakasleep929(String languageCode) async {
     // DOPSUM: CHANGE speakAsleep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasleep extends StatelessWidget {
         "I waited until they were all fast asleep."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsleep930(String languageCode) async {
+  Future<void> speakasleep930(String languageCode) async {
     // DOPSUM: CHANGE speakAsleep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasleep extends StatelessWidget {
         "She was still half asleep when she arrived at work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsleep933(String languageCode) async {
+  Future<void> speakasleep933(String languageCode) async {
     // DOPSUM: CHANGE speakAsleep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryasleep extends StatelessWidget {
         "I couldn't move straight away, as my leg was completely asleep."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsleep(String languageCode) async {
+  // Future<void> speakasleep(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsleep
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryasleep extends StatelessWidget {
   //   await flutterTts.speak("asleep"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsleep(String languageCode) async {
+  // Future<void> speakasleep(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsleep
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryasleep extends StatelessWidget {
   //   await flutterTts.speak("asleep"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsleep(String languageCode) async {
+  // Future<void> speakasleep(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsleep
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryasleep extends StatelessWidget {
   //   await flutterTts.speak("asleep"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsleep(String languageCode) async {
+  // Future<void> speakasleep(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsleep
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryasleep extends StatelessWidget {
   //   await flutterTts.speak("asleep"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsleep(String languageCode) async {
+  // Future<void> speakasleep(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsleep
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsliːp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsleep("en-GB"),
+                              onPressed: () => speakasleep("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsliːp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsleep("en-US"),
+                              onPressed: () => speakasleep("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryasleep extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsleep929("en-GB"),
+                                    onPressed: () => speakasleep929("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsleep929(
+                                    onPressed: () => speakasleep929(
                                         // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryasleep extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsleep930("en-GB"),
+                                    onPressed: () => speakasleep930("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsleep930(
+                                    onPressed: () => speakasleep930(
                                         // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryasleep extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsleep933("en-GB"),
+                                    onPressed: () => speakasleep933("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsleep933(
+                                    onPressed: () => speakasleep933(
                                         // REPLACE: asleep /əˈsliːp/
                                         "en-US"),
                                   ),

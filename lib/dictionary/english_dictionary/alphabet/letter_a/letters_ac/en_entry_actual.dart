@@ -11,7 +11,7 @@ class EnglishEntryactual extends StatelessWidget {
   EnglishEntryactual({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakActual(String languageCode) async {
+  Future<void> speakactual(String languageCode) async {
     // DOPSUM: CHANGE speakActual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryactual extends StatelessWidget {
     await flutterTts.speak("actual"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActual4528(String languageCode) async {
+  Future<void> speakactual4528(String languageCode) async {
     // DOPSUM: CHANGE speakActual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryactual extends StatelessWidget {
         "The actual cost was higher than we expected."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActual4967(String languageCode) async {
+  Future<void> speakactual4967(String languageCode) async {
     // DOPSUM: CHANGE speakActual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryactual extends StatelessWidget {
         .speak("What were his actual words?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActu437(String languageCode) async {
+  Future<void> speakactu437(String languageCode) async {
     // DOPSUM: CHANGE speakActual
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryactual extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæktʃuəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakActual("en-GB"),
+                              onPressed: () => speakactual("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryactual extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæktʃuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakActual("en-US"),
+                              onPressed: () => speakactual("en-US"),
                             ),
                           ],
                         ),
@@ -134,11 +134,11 @@ class EnglishEntryactual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActual4528("en-GB"),
+                                    onPressed: () => speakactual4528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakActual4528(// REPLACE: actual
+                                        speakactual4528(// REPLACE: actual
                                             "en-US"),
                                   ),
                                 ],
@@ -162,11 +162,11 @@ class EnglishEntryactual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActual4967("en-GB"),
+                                    onPressed: () => speakactual4967("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakActual4967(// REPLACE: actual
+                                        speakactual4967(// REPLACE: actual
                                             "en-US"),
                                   ),
                                 ],
@@ -194,11 +194,11 @@ class EnglishEntryactual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActu437("en-GB"),
+                                    onPressed: () => speakactu437("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakActu437(// REPLACE: actual
+                                        speakactu437(// REPLACE: actual
                                             "en-US"),
                                   ),
                                 ],

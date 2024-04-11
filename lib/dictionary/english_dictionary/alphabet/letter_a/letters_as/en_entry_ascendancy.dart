@@ -19,7 +19,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscendancy(String languageCode) async {
+  Future<void> speakascendancy(String languageCode) async {
     // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryascendancy extends StatelessWidget {
     await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscendancy1157(String languageCode) async {
+  Future<void> speakascendancy1157(String languageCode) async {
     // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryascendancy extends StatelessWidget {
         "Manchester United gained the ascendancy after half-time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscendancy1158(String languageCode) async {
+  Future<void> speakascendancy1158(String languageCode) async {
     // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryascendancy extends StatelessWidget {
         "The opposition party was in the ascendancy (= gaining control)."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscendancy1201(String languageCode) async {
+  Future<void> speakascendancy1201(String languageCode) async {
     // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryascendancy extends StatelessWidget {
         "The new CEO quickly gained ascendancy over the company."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscendancy(String languageCode) async {
+  // Future<void> speakascendancy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscendancy(String languageCode) async {
+  // Future<void> speakascendancy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscendancy(String languageCode) async {
+  // Future<void> speakascendancy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscendancy(String languageCode) async {
+  // Future<void> speakascendancy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryascendancy extends StatelessWidget {
   //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscendancy(String languageCode) async {
+  // Future<void> speakascendancy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsendənsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscendancy("en-GB"),
+                              onPressed: () => speakascendancy("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsendənsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscendancy("en-US"),
+                              onPressed: () => speakascendancy("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAscendancy1157("en-GB"),
+                                        speakascendancy1157("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscendancy1157(
+                                    onPressed: () => speakascendancy1157(
                                         // REPLACE: ascendancy /əˈsendənsi/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAscendancy1158("en-GB"),
+                                        speakascendancy1158("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscendancy1158(
+                                    onPressed: () => speakascendancy1158(
                                         // REPLACE: ascendancy /əˈsendənsi/
                                         "en-US"),
                                   ),
@@ -249,10 +249,10 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAscendancy1201("en-GB"),
+                                        speakascendancy1201("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAscendancy1201(
+                                    onPressed: () => speakascendancy1201(
                                         // REPLACE: ascendancy /əˈsendənsi/
                                         "en-US"),
                                   ),

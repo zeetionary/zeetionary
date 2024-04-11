@@ -11,7 +11,7 @@ class EnglishEntryalmighty extends StatelessWidget {
   EnglishEntryalmighty({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlmighty(String languageCode) async {
+  Future<void> speakalmighty(String languageCode) async {
     // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalmighty extends StatelessWidget {
     await flutterTts.speak("almighty"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmighty23599(String languageCode) async {
+  Future<void> speakalmighty23599(String languageCode) async {
     // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalmighty extends StatelessWidget {
         .speak("Almighty God, have mercy on us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmighty4263(String languageCode) async {
+  Future<void> speakalmighty4263(String languageCode) async {
     // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalmighty extends StatelessWidget {
         "All of a sudden we heard an almighty crash from the kitchen."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmight4693(String languageCode) async {
+  Future<void> speakalmight4693(String languageCode) async {
     // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalmighty extends StatelessWidget {
         "God Almighty! What the hell do you think you are doing?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlmight45665(String languageCode) async {
+  Future<void> speakalmight45665(String languageCode) async {
     // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlmighty("en-GB"),
+                              onPressed: () => speakalmighty("en-GB"),
                             ),
                           ],
                         ),
@@ -94,7 +94,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmighty("en-US"),
+                              onPressed: () => speakalmighty("en-US"),
                             ),
                           ],
                         ),
@@ -144,10 +144,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlmighty23599("en-GB"),
+                                        speakalmighty23599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmighty23599(
+                                    onPressed: () => speakalmighty23599(
                                         // REPLACE: almighty /ɔːlˈmaɪti/
                                         "en-US"),
                                   ),
@@ -176,10 +176,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmighty4263("en-GB"),
+                                    onPressed: () => speakalmighty4263("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmighty4263(
+                                    onPressed: () => speakalmighty4263(
                                         // REPLACE: almighty /ɔːlˈmaɪti/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmight4693("en-GB"),
+                                    onPressed: () => speakalmight4693("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmight4693(
+                                    onPressed: () => speakalmight4693(
                                         // REPLACE: almighty /ɔːlˈmaɪti/
                                         "en-US"),
                                   ),
@@ -240,10 +240,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlmight45665("en-GB"),
+                                    onPressed: () => speakalmight45665("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlmight45665(
+                                    onPressed: () => speakalmight45665(
                                         // REPLACE: almighty /ɔːlˈmaɪti/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryaperture extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAperture(String languageCode) async {
+  Future<void> speakaperture(String languageCode) async {
     // DOPSUM: CHANGE speakAperture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaperture extends StatelessWidget {
     await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAperture201(String languageCode) async {
+  Future<void> speakaperture201(String languageCode) async {
     // DOPSUM: CHANGE speakAperture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaperture extends StatelessWidget {
         "The soldier fired the rifle through a narrow aperture in a pile of sandbags."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAperture204(String languageCode) async {
+  Future<void> speakaperture204(String languageCode) async {
     // DOPSUM: CHANGE speakAperture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryaperture extends StatelessWidget {
         "Binoculars of this aperture are very expensive."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryaperture extends StatelessWidget {
   //   await flutterTts.speak("aperture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperture(String languageCode) async {
+  // Future<void> speakaperture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryaperture extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæpətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAperture("en-GB"),
+                              onPressed: () => speakaperture("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryaperture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæpərtʃʊr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAperture("en-US"),
+                              onPressed: () => speakaperture("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryaperture extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAperture201("en-GB"),
+                                    onPressed: () => speakaperture201("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAperture201(
+                                    onPressed: () => speakaperture201(
                                         // REPLACE: aperture /ˈæpərtʃʊr/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryaperture extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAperture204("en-GB"),
+                                    onPressed: () => speakaperture204("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAperture204(
+                                    onPressed: () => speakaperture204(
                                         // REPLACE: aperture /ˈæpərtʃʊr/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryaffectation extends StatelessWidget {
   EnglishEntryaffectation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffectation(String languageCode) async {
+  Future<void> speakaffectation(String languageCode) async {
     // DOPSUM: CHANGE speakAffectation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffectation extends StatelessWidget {
     await flutterTts.speak("affectation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffecta25699(String languageCode) async {
+  Future<void> speakaffecta25699(String languageCode) async {
     // DOPSUM: CHANGE speakAffectation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffectation extends StatelessWidget {
         "She has many annoying little affectations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffect6277(String languageCode) async {
+  Future<void> speakaffect6277(String languageCode) async {
     // DOPSUM: CHANGE speakAffectation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffectation extends StatelessWidget {
         "He raised his eyebrows with an affectation of surprise."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffectation(String languageCode) async {
+  // Future<void> speakaffectation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffectation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæfekˈteɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffectation("en-GB"),
+                              onPressed: () => speakaffectation("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæfekˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffectation("en-US"),
+                              onPressed: () => speakaffectation("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryaffectation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffecta25699("en-GB"),
+                                    onPressed: () => speakaffecta25699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffecta25699(
+                                    onPressed: () => speakaffecta25699(
                                         // REPLACE: affectation /ˌæfekˈteɪʃn/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryaffectation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffect6277("en-GB"),
+                                    onPressed: () => speakaffect6277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffect6277(
+                                    onPressed: () => speakaffect6277(
                                         // REPLACE: affectation /ˌæfekˈteɪʃn/
                                         "en-US"),
                                   ),

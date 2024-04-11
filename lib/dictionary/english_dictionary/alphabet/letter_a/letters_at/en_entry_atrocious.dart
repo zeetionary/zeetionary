@@ -19,7 +19,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtrocious(String languageCode) async {
+  Future<void> speakatrocious(String languageCode) async {
     // DOPSUM: CHANGE speakAtrocious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatrocious extends StatelessWidget {
     await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtrocious1244(String languageCode) async {
+  Future<void> speakatrocious1244(String languageCode) async {
     // DOPSUM: CHANGE speakAtrocious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatrocious extends StatelessWidget {
         "She speaks French with an atrocious accent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtrocious1246(String languageCode) async {
+  Future<void> speakatrocious1246(String languageCode) async {
     // DOPSUM: CHANGE speakAtrocious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryatrocious extends StatelessWidget {
         "The dictator committed atrocious crimes against his own people."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   //   await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   //   await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   //   await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   //   await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   //   await flutterTts.speak("atrocious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtrocious(String languageCode) async {
+  // Future<void> speakatrocious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtrocious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtrəʊʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtrocious("en-GB"),
+                              onPressed: () => speakatrocious("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtrəʊʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtrocious("en-US"),
+                              onPressed: () => speakatrocious("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtrocious1244("en-GB"),
+                                        speakatrocious1244("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtrocious1244(// REPLACE: atrocious
+                                        speakatrocious1244(// REPLACE: atrocious
                                             "en-US"),
                                   ),
                                 ],
@@ -218,11 +218,11 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAtrocious1246("en-GB"),
+                                        speakatrocious1246("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtrocious1246(// REPLACE: atrocious
+                                        speakatrocious1246(// REPLACE: atrocious
                                             "en-US"),
                                   ),
                                 ],

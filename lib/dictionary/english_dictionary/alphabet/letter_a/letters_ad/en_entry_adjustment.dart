@@ -11,7 +11,7 @@ class EnglishEntryadjustment extends StatelessWidget {
   EnglishEntryadjustment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdjustment(String languageCode) async {
+  Future<void> speakadjustment(String languageCode) async {
     // DOPSUM: CHANGE speakAdjustment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadjustment extends StatelessWidget {
     await flutterTts.speak("adjustment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdjus56911(String languageCode) async {
+  Future<void> speakadjus56911(String languageCode) async {
     // DOPSUM: CHANGE speakAdjustment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadjustment extends StatelessWidget {
         "I've made a few adjustments to the design."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdjust5568(String languageCode) async {
+  Future<void> speakadjust5568(String languageCode) async {
     // DOPSUM: CHANGE speakAdjustment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadjustment extends StatelessWidget {
         "The process of adjustment to life in another country can be very difficult."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdjustment(String languageCode) async {
+  // Future<void> speakadjustment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdjustment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒʌstmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjustment("en-GB"),
+                              onPressed: () => speakadjustment("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒʌstmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjustment("en-US"),
+                              onPressed: () => speakadjustment("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryadjustment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdjus56911("en-GB"),
+                                    onPressed: () => speakadjus56911("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdjus56911(
+                                    onPressed: () => speakadjus56911(
                                         // REPLACE: adjustment /əˈdʒʌstmənt/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryadjustment extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdjust5568("en-GB"),
+                                    onPressed: () => speakadjust5568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdjust5568(
+                                    onPressed: () => speakadjust5568(
                                         // REPLACE: adjustment /əˈdʒʌstmənt/
                                         "en-US"),
                                   ),

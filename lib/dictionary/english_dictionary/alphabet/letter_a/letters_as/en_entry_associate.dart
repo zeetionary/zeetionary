@@ -19,7 +19,7 @@ class EnglishEntryassociate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssociate(String languageCode) async {
+  Future<void> speakassociate(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassociate extends StatelessWidget {
     await flutterTts.speak("associate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1135(String languageCode) async {
+  Future<void> speakassociate1135(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "I always associate the smell of baking with my childhood."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1136(String languageCode) async {
+  Future<void> speakassociate1136(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "Most people immediately associate addictions with drugs, alcohol and cigarettes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1139(String languageCode) async {
+  Future<void> speakassociate1139(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "I don't like you associating with those people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1140(String languageCode) async {
+  Future<void> speakassociate1140(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "I associate myself with the prime minister's remarks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1143(String languageCode) async {
+  Future<void> speakassociate1143(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "He was known to be one of the convicted man’s associates."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociate1147(String languageCode) async {
+  Future<void> speakassociate1147(String languageCode) async {
     // DOPSUM: CHANGE speakAssociate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryassociate extends StatelessWidget {
         "She was only the associate producer of the movie."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssociate(String languageCode) async {
+  // Future<void> speakassociate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryassociate extends StatelessWidget {
   //   await flutterTts.speak("associate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssociate(String languageCode) async {
+  // Future<void> speakassociate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssociate("en-GB"),
+                              onPressed: () => speakassociate("en-GB"),
                             ),
                           ],
                         ),
@@ -139,7 +139,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssociate("en-US"),
+                              onPressed: () => speakassociate("en-US"),
                             ),
                           ],
                         ),
@@ -190,10 +190,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1135("en-GB"),
+                                        speakassociate1135("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1135(
+                                    onPressed: () => speakassociate1135(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
@@ -222,10 +222,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1136("en-GB"),
+                                        speakassociate1136("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1136(
+                                    onPressed: () => speakassociate1136(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
@@ -256,10 +256,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1139("en-GB"),
+                                        speakassociate1139("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1139(
+                                    onPressed: () => speakassociate1139(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
@@ -290,10 +290,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1140("en-GB"),
+                                        speakassociate1140("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1140(
+                                    onPressed: () => speakassociate1140(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
@@ -324,10 +324,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1143("en-GB"),
+                                        speakassociate1143("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1143(
+                                    onPressed: () => speakassociate1143(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),
@@ -358,10 +358,10 @@ class EnglishEntryassociate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociate1147("en-GB"),
+                                        speakassociate1147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociate1147(
+                                    onPressed: () => speakassociate1147(
                                         // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
                                         "en-US"),
                                   ),

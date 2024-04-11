@@ -19,7 +19,7 @@ class EnglishEntryasthma extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsthma(String languageCode) async {
+  Future<void> speakasthma(String languageCode) async {
     // DOPSUM: CHANGE speakAsthma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasthma extends StatelessWidget {
     await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsthma1012(String languageCode) async {
+  Future<void> speakasthma1012(String languageCode) async {
     // DOPSUM: CHANGE speakAsthma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasthma extends StatelessWidget {
         "We have thousands of asthma cases a year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryasthma extends StatelessWidget {
   //   await flutterTts.speak("asthma"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsthma(String languageCode) async {
+  // Future<void> speakasthma(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsthma
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryasthma extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæsmə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsthma("en-GB"),
+                              onPressed: () => speakasthma("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryasthma extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæzmə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsthma("en-US"),
+                              onPressed: () => speakasthma("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryasthma extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsthma1012("en-GB"),
+                                    onPressed: () => speakasthma1012("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsthma1012(
+                                    onPressed: () => speakasthma1012(
                                         // REPLACE: asthma /ˈæzmə/
                                         "en-US"),
                                   ),

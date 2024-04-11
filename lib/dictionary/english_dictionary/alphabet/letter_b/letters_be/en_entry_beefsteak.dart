@@ -19,7 +19,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeefsteak(String languageCode) async {
+  Future<void> speakbeefsteak(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("beefsteak"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks1(String languageCode) async {
+  Future<void> speakbeefsteaks1(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
         "Hamburger steaks consist of finely minced beefsteak seasoned with salt and pepper."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks2(String languageCode) async {
+  Future<void> speakbeefsteaks2(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("speakBeefsteaks22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks3(String languageCode) async {
+  Future<void> speakbeefsteaks3(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("speakBeefsteaks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks4(String languageCode) async {
+  Future<void> speakbeefsteaks4(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("speakBeefsteaks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks5(String languageCode) async {
+  Future<void> speakbeefsteaks5(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("speakBeefsteaks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks6(String languageCode) async {
+  Future<void> speakbeefsteaks6(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
     await flutterTts.speak("speakBeefsteaks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeefsteaks7(String languageCode) async {
+  Future<void> speakbeefsteaks7(String languageCode) async {
     // DOPSUM: CHANGE speakBeefsteak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːfsteɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeefsteak("en-GB"),
+                              onPressed: () => speakbeefsteak("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybeefsteak extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːfsteɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeefsteak("en-US"),
+                              onPressed: () => speakbeefsteak("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybeefsteak extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeefsteaks1("en-GB"),
+                                    onPressed: () => speakbeefsteaks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeefsteaks1("en-US"),
+                                    onPressed: () => speakbeefsteaks1("en-US"),
                                   ),
                                 ],
                               ),

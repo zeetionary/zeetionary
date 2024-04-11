@@ -11,7 +11,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
   EnglishEntryaffiliate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffiliate(String languageCode) async {
+  Future<void> speakaffiliate(String languageCode) async {
     // DOPSUM: CHANGE speakAffiliate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
     await flutterTts.speak("affiliate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffil3588(String languageCode) async {
+  Future<void> speakaffil3588(String languageCode) async {
     // DOPSUM: CHANGE speakAffiliate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
         "The group is not affiliated to any political party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffi2699(String languageCode) async {
+  Future<void> speakaffi2699(String languageCode) async {
     // DOPSUM: CHANGE speakAffiliate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
         "The hospital is affiliated with the local university."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffi25699(String languageCode) async {
+  Future<void> speakaffi25699(String languageCode) async {
     // DOPSUM: CHANGE speakAffiliate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɪlieɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffiliate("en-GB"),
+                              onPressed: () => speakaffiliate("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɪlieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffiliate("en-US"),
+                              onPressed: () => speakaffiliate("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffil3588("en-GB"),
+                                    onPressed: () => speakaffil3588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffil3588(
+                                    onPressed: () => speakaffil3588(
                                         // REPLACE: affiliate /əˈfɪlieɪt/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffi2699("en-GB"),
+                                    onPressed: () => speakaffi2699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffi2699(
+                                    onPressed: () => speakaffi2699(
                                         // REPLACE: affiliate /əˈfɪlieɪt/
                                         "en-US"),
                                   ),
@@ -195,10 +195,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffi25699("en-GB"),
+                                    onPressed: () => speakaffi25699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffi25699(
+                                    onPressed: () => speakaffi25699(
                                         // REPLACE: affiliate /əˈfɪlieɪt/
                                         "en-US"),
                                   ),

@@ -48,7 +48,7 @@ class EnglishEntrybolster extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbolsters33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The hotel room had comfortable beds with bolsters."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbolsters4(String languageCode) async {
@@ -226,10 +226,10 @@ class EnglishEntrybolster extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbolsters2("en-GB"),
+                                    onPressed: () => speakbolsters3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbolsters2("en-US"),
+                                    onPressed: () => speakbolsters3("en-US"),
                                   ),
                                 ],
                               ),

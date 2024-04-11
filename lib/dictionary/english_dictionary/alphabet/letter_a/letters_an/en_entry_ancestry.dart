@@ -11,7 +11,7 @@ class EnglishEntryancestry extends StatelessWidget {
   EnglishEntryancestry({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAncestry(String languageCode) async {
+  Future<void> speakancestry(String languageCode) async {
     // DOPSUM: CHANGE speakAncestry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryancestry extends StatelessWidget {
     await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAncestry1520(String languageCode) async {
+  Future<void> speakancestry1520(String languageCode) async {
     // DOPSUM: CHANGE speakAncestry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryancestry extends StatelessWidget {
         "He was able to trace his ancestry back over 1 000 years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAncestry4955(String languageCode) async {
+  Future<void> speakancestry4955(String languageCode) async {
     // DOPSUM: CHANGE speakAncestry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryancestry extends StatelessWidget {
         "According to science, humans share a common ancestry with chimpanzees."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryancestry extends StatelessWidget {
   //   await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryancestry extends StatelessWidget {
   //   await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryancestry extends StatelessWidget {
   //   await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryancestry extends StatelessWidget {
   //   await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryancestry extends StatelessWidget {
   //   await flutterTts.speak("ancestry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncestry(String languageCode) async {
+  // Future<void> speakancestry(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncestry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryancestry extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænsestri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAncestry("en-GB"),
+                              onPressed: () => speakancestry("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryancestry extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænsestri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAncestry("en-US"),
+                              onPressed: () => speakancestry("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryancestry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAncestry1520("en-GB"),
+                                    onPressed: () => speakancestry1520("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAncestry1520(
+                                    onPressed: () => speakancestry1520(
                                         // REPLACE: ancestry /ˈænsestri/
                                         "en-US"),
                                   ),
@@ -205,10 +205,10 @@ class EnglishEntryancestry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAncestry4955("en-GB"),
+                                    onPressed: () => speakancestry4955("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAncestry4955(
+                                    onPressed: () => speakancestry4955(
                                         // REPLACE: ancestry /ˈænsestri/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalbum extends StatelessWidget {
   EnglishEntryalbum({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlbum(String languageCode) async {
+  Future<void> speakalbum(String languageCode) async {
     // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalbum extends StatelessWidget {
     await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbum42599(String languageCode) async {
+  Future<void> speakalbum42599(String languageCode) async {
     // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalbum extends StatelessWidget {
         .speak("I keep the photographs in an album."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbum3655(String languageCode) async {
+  Future<void> speakalbum3655(String languageCode) async {
     // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalbum extends StatelessWidget {
         "They recently released their debut album."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlbum(String languageCode) async {
+  // Future<void> speakalbum(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlbum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælbəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlbum("en-GB"),
+                              onPressed: () => speakalbum("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælbəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbum("en-US"),
+                              onPressed: () => speakalbum("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryalbum extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlbum42599("en-GB"),
+                                    onPressed: () => speakalbum42599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlbum42599(
+                                    onPressed: () => speakalbum42599(
                                         // REPLACE: album /ˈælbəm/
                                         "en-US"),
                                   ),
@@ -166,10 +166,10 @@ class EnglishEntryalbum extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlbum3655("en-GB"),
+                                    onPressed: () => speakalbum3655("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlbum3655(
+                                    onPressed: () => speakalbum3655(
                                         // REPLACE: album /ˈælbəm/
                                         "en-US"),
                                   ),

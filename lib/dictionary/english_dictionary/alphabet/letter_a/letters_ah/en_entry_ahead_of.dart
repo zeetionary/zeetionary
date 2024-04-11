@@ -11,7 +11,7 @@ class EnglishEntryaheadof extends StatelessWidget {
   EnglishEntryaheadof({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAheadof(String languageCode) async {
+  Future<void> speakaheadof(String languageCode) async {
     // DOPSUM: CHANGE speakAheadof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.speak("ahead of"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead25355(String languageCode) async {
+  Future<void> speakahead25355(String languageCode) async {
     // DOPSUM: CHANGE speakAheadof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaheadof extends StatelessWidget {
     await flutterTts.speak("Two boys were ahead of us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAheadof2377(String languageCode) async {
+  Future<void> speakaheadof2377(String languageCode) async {
     // DOPSUM: CHANGE speakAheadof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaheadof extends StatelessWidget {
         "Ahead of us lay ten days of intensive training."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead3522(String languageCode) async {
+  Future<void> speakahead3522(String languageCode) async {
     // DOPSUM: CHANGE speakAheadof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaheadof extends StatelessWidget {
         "I finished several days ahead of the deadline."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAheadof3596(String languageCode) async {
+  Future<void> speakaheadof3596(String languageCode) async {
     // DOPSUM: CHANGE speakAheadof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaheadof extends StatelessWidget {
         "She was always well ahead of the rest of the class."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAheadof(String languageCode) async {
+  // Future<void> speakaheadof(String languageCode) async {
   //   // DOPSUM: CHANGE speakAheadof
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈhed əv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAheadof("en-GB"),
+                              onPressed: () => speakaheadof("en-GB"),
                             ),
                           ],
                         ),
@@ -99,7 +99,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈhed əv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAheadof("en-US"),
+                              onPressed: () => speakaheadof("en-US"),
                             ),
                           ],
                         ),
@@ -143,10 +143,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead25355("en-GB"),
+                                    onPressed: () => speakahead25355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead25355(
+                                    onPressed: () => speakahead25355(
                                         // REPLACE: aheadof /əˈhed əv/
                                         "en-US"),
                                   ),
@@ -173,10 +173,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAheadof2377("en-GB"),
+                                    onPressed: () => speakaheadof2377("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAheadof2377(
+                                    onPressed: () => speakaheadof2377(
                                         // REPLACE: aheadof /əˈhed əv/
                                         "en-US"),
                                   ),
@@ -205,10 +205,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead3522("en-GB"),
+                                    onPressed: () => speakahead3522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead3522(
+                                    onPressed: () => speakahead3522(
                                         // REPLACE: aheadof /əˈhed əv/
                                         "en-US"),
                                   ),
@@ -237,10 +237,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAheadof3596("en-GB"),
+                                    onPressed: () => speakaheadof3596("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAheadof3596(
+                                    onPressed: () => speakaheadof3596(
                                         // REPLACE: aheadof /əˈhed əv/
                                         "en-US"),
                                   ),

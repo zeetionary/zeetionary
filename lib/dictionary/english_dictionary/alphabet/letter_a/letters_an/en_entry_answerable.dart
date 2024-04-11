@@ -12,7 +12,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   EnglishEntryanswerable({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnswerable(String languageCode) async {
+  Future<void> speakanswerable(String languageCode) async {
     // DOPSUM: CHANGE speakAnswerable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanswerable extends StatelessWidget {
     await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnswerable1100(String languageCode) async {
+  Future<void> speakanswerable1100(String languageCode) async {
     // DOPSUM: CHANGE speakAnswerable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanswerable extends StatelessWidget {
         "She was a free agent, answerable to no one for her behaviour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnswerable1102(String languageCode) async {
+  Future<void> speakanswerable1102(String languageCode) async {
     // DOPSUM: CHANGE speakAnswerable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanswerable extends StatelessWidget {
         "Any European central bank should be directly answerable to the European Parliament."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnswerable1104(String languageCode) async {
+  Future<void> speakanswerable1104(String languageCode) async {
     // DOPSUM: CHANGE speakAnswerable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryanswerable extends StatelessWidget {
         "Ministers must be made answerable for their decisions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnswerable1106(String languageCode) async {
+  Future<void> speakanswerable1106(String languageCode) async {
     // DOPSUM: CHANGE speakAnswerable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryanswerable extends StatelessWidget {
         "Soldiers who obey orders to commit atrocities should be answerable for their crimes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnswerable(String languageCode) async {
+  // Future<void> speakanswerable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnswerable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnswerable(String languageCode) async {
+  // Future<void> speakanswerable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnswerable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnswerable(String languageCode) async {
+  // Future<void> speakanswerable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnswerable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryanswerable extends StatelessWidget {
   //   await flutterTts.speak("answerable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnswerable(String languageCode) async {
+  // Future<void> speakanswerable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnswerable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːnsərəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnswerable("en-GB"),
+                              onPressed: () => speakanswerable("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænsərəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnswerable("en-US"),
+                              onPressed: () => speakanswerable("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnswerable1100("en-GB"),
+                                        speakanswerable1100("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnswerable1100(
+                                    onPressed: () => speakanswerable1100(
                                         // REPLACE: answerable /ˈænsərəbl/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnswerable1102("en-GB"),
+                                        speakanswerable1102("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnswerable1102(
+                                    onPressed: () => speakanswerable1102(
                                         // REPLACE: answerable /ˈænsərəbl/
                                         "en-US"),
                                   ),
@@ -245,10 +245,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnswerable1104("en-GB"),
+                                        speakanswerable1104("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnswerable1104(
+                                    onPressed: () => speakanswerable1104(
                                         // REPLACE: answerable /ˈænsərəbl/
                                         "en-US"),
                                   ),
@@ -277,10 +277,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnswerable1106("en-GB"),
+                                        speakanswerable1106("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnswerable1106(
+                                    onPressed: () => speakanswerable1106(
                                         // REPLACE: answerable /ˈænsərəbl/
                                         "en-US"),
                                   ),

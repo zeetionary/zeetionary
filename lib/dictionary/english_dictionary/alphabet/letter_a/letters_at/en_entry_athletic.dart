@@ -19,7 +19,7 @@ class EnglishEntryathletic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAthletic(String languageCode) async {
+  Future<void> speakathletic(String languageCode) async {
     // DOPSUM: CHANGE speakAthletic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryathletic extends StatelessWidget {
     await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAthletic808(String languageCode) async {
+  Future<void> speakathletic808(String languageCode) async {
     // DOPSUM: CHANGE speakAthletic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryathletic extends StatelessWidget {
     await flutterTts.speak("She looks very athletic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAthletic813(String languageCode) async {
+  Future<void> speakathletic813(String languageCode) async {
     // DOPSUM: CHANGE speakAthletic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryathletic extends StatelessWidget {
         "This college has a long tradition of athletic excellence."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryathletic extends StatelessWidget {
   //   await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryathletic extends StatelessWidget {
   //   await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryathletic extends StatelessWidget {
   //   await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryathletic extends StatelessWidget {
   //   await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryathletic extends StatelessWidget {
   //   await flutterTts.speak("athletic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAthletic(String languageCode) async {
+  // Future<void> speakathletic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAthletic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryathletic extends StatelessWidget {
                                 text:
                                     "IpaUK: /æθˈletɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAthletic("en-GB"),
+                              onPressed: () => speakathletic("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryathletic extends StatelessWidget {
                                 text:
                                     "IpaUS: /æθˈletɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAthletic("en-US"),
+                              onPressed: () => speakathletic("en-US"),
                             ),
                           ],
                         ),
@@ -181,11 +181,11 @@ class EnglishEntryathletic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAthletic808("en-GB"),
+                                    onPressed: () => speakathletic808("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAthletic808(// REPLACE: athletic
+                                        speakathletic808(// REPLACE: athletic
                                             "en-US"),
                                   ),
                                 ],
@@ -214,11 +214,11 @@ class EnglishEntryathletic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAthletic813("en-GB"),
+                                    onPressed: () => speakathletic813("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAthletic813(// REPLACE: athletic
+                                        speakathletic813(// REPLACE: athletic
                                             "en-US"),
                                   ),
                                 ],

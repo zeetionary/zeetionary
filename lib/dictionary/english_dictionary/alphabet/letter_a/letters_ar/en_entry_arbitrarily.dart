@@ -17,7 +17,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArbitrarily(String languageCode) async {
+  Future<void> speakarbitrarily(String languageCode) async {
     // DOPSUM: CHANGE speakArbitrarily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
     await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArbitrarily1132(String languageCode) async {
+  Future<void> speakarbitrarily1132(String languageCode) async {
     // DOPSUM: CHANGE speakArbitrarily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
         "The leaders of the groups were chosen arbitrarily."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArbitrarily1135(String languageCode) async {
+  Future<void> speakarbitrarily1135(String languageCode) async {
     // DOPSUM: CHANGE speakArbitrarily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
         "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
   //   await flutterTts.speak("arbitrarily"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrarily(String languageCode) async {
+  // Future<void> speakarbitrarily(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrarily
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːbɪˈtrerəli/, /ˈɑːbɪtrəli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArbitrarily("en-GB"),
+                              onPressed: () => speakarbitrarily("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrbɪˈtrerəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArbitrarily("en-US"),
+                              onPressed: () => speakarbitrarily("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArbitrarily1132("en-GB"),
+                                        speakarbitrarily1132("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArbitrarily1132(
+                                    onPressed: () => speakarbitrarily1132(
                                         // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArbitrarily1135("en-GB"),
+                                        speakarbitrarily1135("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArbitrarily1135(
+                                    onPressed: () => speakarbitrarily1135(
                                         // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
                                         "en-US"),
                                   ),

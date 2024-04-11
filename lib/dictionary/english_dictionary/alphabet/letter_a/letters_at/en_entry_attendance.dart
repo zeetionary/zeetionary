@@ -19,7 +19,7 @@ class EnglishEntryattendance extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttendance(String languageCode) async {
+  Future<void> speakattendance(String languageCode) async {
     // DOPSUM: CHANGE speakAttendance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattendance extends StatelessWidget {
     await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttendance817(String languageCode) async {
+  Future<void> speakattendance817(String languageCode) async {
     // DOPSUM: CHANGE speakAttendance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattendance extends StatelessWidget {
         "Attendance at these lectures is not compulsory."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttendance819(String languageCode) async {
+  Future<void> speakattendance819(String languageCode) async {
     // DOPSUM: CHANGE speakAttendance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattendance extends StatelessWidget {
         "There was an attendance of 42 at the meeting."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattendance extends StatelessWidget {
   //   await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattendance extends StatelessWidget {
   //   await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattendance extends StatelessWidget {
   //   await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattendance extends StatelessWidget {
   //   await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattendance extends StatelessWidget {
   //   await flutterTts.speak("attendance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttendance(String languageCode) async {
+  // Future<void> speakattendance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttendance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryattendance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtendəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttendance("en-GB"),
+                              onPressed: () => speakattendance("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryattendance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtendəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttendance("en-US"),
+                              onPressed: () => speakattendance("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryattendance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttendance817("en-GB"),
+                                        speakattendance817("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttendance817(
+                                    onPressed: () => speakattendance817(
                                         // REPLACE: attendance
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryattendance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttendance819("en-GB"),
+                                        speakattendance819("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttendance819(
+                                    onPressed: () => speakattendance819(
                                         // REPLACE: attendance
                                         "en-US"),
                                   ),

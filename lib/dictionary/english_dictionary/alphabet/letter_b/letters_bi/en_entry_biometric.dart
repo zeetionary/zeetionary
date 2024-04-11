@@ -19,7 +19,7 @@ class EnglishEntrybiometric extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiometric(String languageCode) async {
+  Future<void> speakbiometric(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("biometric"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics1(String languageCode) async {
+  Future<void> speakbiometrics1(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiometric extends StatelessWidget {
         "Biometric devices work by matching an individual’s features to those recorded in the device’s memory."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics2(String languageCode) async {
+  Future<void> speakbiometrics2(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("speakBiometrics22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics3(String languageCode) async {
+  Future<void> speakbiometrics3(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("speakBiometrics33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics4(String languageCode) async {
+  Future<void> speakbiometrics4(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("speakBiometrics44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics5(String languageCode) async {
+  Future<void> speakbiometrics5(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("speakBiometrics55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics6(String languageCode) async {
+  Future<void> speakbiometrics6(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiometric extends StatelessWidget {
     await flutterTts.speak("speakBiometrics66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiometrics7(String languageCode) async {
+  Future<void> speakbiometrics7(String languageCode) async {
     // DOPSUM: CHANGE speakBiometric
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybiometric extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪəʊˈmetrɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiometric("en-GB"),
+                              onPressed: () => speakbiometric("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybiometric extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪəʊˈmetrɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiometric("en-US"),
+                              onPressed: () => speakbiometric("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybiometric extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiometrics1("en-GB"),
+                                    onPressed: () => speakbiometrics1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiometrics1("en-US"),
+                                    onPressed: () => speakbiometrics1("en-US"),
                                   ),
                                 ],
                               ),

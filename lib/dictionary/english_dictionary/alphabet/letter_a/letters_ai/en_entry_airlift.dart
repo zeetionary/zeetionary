@@ -11,7 +11,7 @@ class EnglishEntryairlift extends StatelessWidget {
   EnglishEntryairlift({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirlift(String languageCode) async {
+  Future<void> speakairlift(String languageCode) async {
     // DOPSUM: CHANGE speakAirlift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairlift extends StatelessWidget {
     await flutterTts.speak("airlift"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirlift43555(String languageCode) async {
+  Future<void> speakairlift43555(String languageCode) async {
     // DOPSUM: CHANGE speakAirlift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairlift extends StatelessWidget {
         "The German authorities are considering an airlift if the situation becomes critical."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirlift3522(String languageCode) async {
+  Future<void> speakairlift3522(String languageCode) async {
     // DOPSUM: CHANGE speakAirlift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryairlift extends StatelessWidget {
         "Over 200 residents were airlifted off the island."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirlift(String languageCode) async {
+  // Future<void> speakairlift(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirlift
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryairlift extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəlɪft/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirlift("en-GB"),
+                              onPressed: () => speakairlift("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryairlift extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerlɪft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirlift("en-US"),
+                              onPressed: () => speakairlift("en-US"),
                             ),
                           ],
                         ),
@@ -128,10 +128,10 @@ class EnglishEntryairlift extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirlift43555("en-GB"),
+                                    onPressed: () => speakairlift43555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirlift43555(
+                                    onPressed: () => speakairlift43555(
                                         // REPLACE: airlift /ˈerlɪft/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryairlift extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirlift3522("en-GB"),
+                                    onPressed: () => speakairlift3522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirlift3522(
+                                    onPressed: () => speakairlift3522(
                                         // REPLACE: airlift /ˈerlɪft/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutocrat(String languageCode) async {
+  Future<void> speakautocrat(String languageCode) async {
     // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautocrat extends StatelessWidget {
     await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutocrat934(String languageCode) async {
+  Future<void> speakautocrat934(String languageCode) async {
     // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautocrat extends StatelessWidget {
         .speak("He governed as an autocrat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutocrat937(String languageCode) async {
+  Future<void> speakautocrat937(String languageCode) async {
     // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryautocrat extends StatelessWidget {
         "The article painted her as an autocrat, angry with her husband and out of touch with her family."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   //   await flutterTts.speak("autocrat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutocrat(String languageCode) async {
+  // Future<void> speakautocrat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutocrat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːtəkræt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutocrat("en-GB"),
+                              onPressed: () => speakautocrat("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːtəkræt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutocrat("en-US"),
+                              onPressed: () => speakautocrat("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryautocrat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAutocrat934("en-GB"),
+                                    onPressed: () => speakautocrat934("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutocrat934(// REPLACE: autocrat
+                                        speakautocrat934(// REPLACE: autocrat
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryautocrat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAutocrat937("en-GB"),
+                                    onPressed: () => speakautocrat937("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAutocrat937(// REPLACE: autocrat
+                                        speakautocrat937(// REPLACE: autocrat
                                             "en-US"),
                                   ),
                                 ],

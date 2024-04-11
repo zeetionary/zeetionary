@@ -19,7 +19,7 @@ class EnglishEntrybarcode extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarcode(String languageCode) async {
+  Future<void> speakbarcode(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("barcode"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes1(String languageCode) async {
+  Future<void> speakbarcodes1(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarcode extends StatelessWidget {
         "A handheld scanner is used to read bar codes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes2(String languageCode) async {
+  Future<void> speakbarcodes2(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("speakBarcodes22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes3(String languageCode) async {
+  Future<void> speakbarcodes3(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("speakBarcodes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes4(String languageCode) async {
+  Future<void> speakbarcodes4(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("speakBarcodes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes5(String languageCode) async {
+  Future<void> speakbarcodes5(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("speakBarcodes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes6(String languageCode) async {
+  Future<void> speakbarcodes6(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.speak("speakBarcodes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarcodes7(String languageCode) async {
+  Future<void> speakbarcodes7(String languageCode) async {
     // DOPSUM: CHANGE speakBarcode
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɑːkəʊd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarcode("en-GB"),
+                              onPressed: () => speakbarcode("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɑːrkəʊd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarcode("en-US"),
+                              onPressed: () => speakbarcode("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybarcode extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarcodes1("en-GB"),
+                                    onPressed: () => speakbarcodes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarcodes1(// REPLACE: barcode
+                                        speakbarcodes1(// REPLACE: barcode
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntrybaritone extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaritone(String languageCode) async {
+  Future<void> speakbaritone(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("baritone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones1(String languageCode) async {
+  Future<void> speakbaritones1(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones11"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones2(String languageCode) async {
+  Future<void> speakbaritones2(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones3(String languageCode) async {
+  Future<void> speakbaritones3(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones4(String languageCode) async {
+  Future<void> speakbaritones4(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones5(String languageCode) async {
+  Future<void> speakbaritones5(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones6(String languageCode) async {
+  Future<void> speakbaritones6(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntrybaritone extends StatelessWidget {
     await flutterTts.speak("speakBaritones66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaritones7(String languageCode) async {
+  Future<void> speakbaritones7(String languageCode) async {
     // DOPSUM: CHANGE speakBaritone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -110,7 +110,7 @@ class EnglishEntrybaritone extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbærɪtəʊn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaritone("en-GB"),
+                              onPressed: () => speakbaritone("en-GB"),
                             ),
                           ],
                         ),
@@ -118,7 +118,7 @@ class EnglishEntrybaritone extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbærɪtəʊn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaritone("en-US"),
+                              onPressed: () => speakbaritone("en-US"),
                             ),
                           ],
                         ),
@@ -157,10 +157,10 @@ class EnglishEntrybaritone extends StatelessWidget {
                           //     ExampleSentenceKurdish(
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     CustomIconButtonBritish(
-                          //       onPressed: () => speakBaritones1("en-GB"),
+                          //       onPressed: () => speakbaritones1("en-GB"),
                           //     ),
                           //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakBaritones1("en-US"),
+                          //       onPressed: () => speakbaritones1("en-US"),
                           //     ),
                           //   ],
                           // ),

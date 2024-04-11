@@ -19,7 +19,7 @@ class EnglishEntryassembly extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssembly(String languageCode) async {
+  Future<void> speakassembly(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly940(String languageCode) async {
+  Future<void> speakassembly940(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassembly extends StatelessWidget {
         "Power has been handed over to provincial and regional assemblies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly943(String languageCode) async {
+  Future<void> speakassembly943(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassembly extends StatelessWidget {
         "There is a whole school assembly every Friday morning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly946(String languageCode) async {
+  Future<void> speakassembly946(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassembly extends StatelessWidget {
         "He was to address a public assembly on the issue."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly950(String languageCode) async {
+  Future<void> speakassembly950(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassembly extends StatelessWidget {
         "The deputy head was taking (= leading) school assembly that day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssembly952(String languageCode) async {
+  Future<void> speakassembly952(String languageCode) async {
     // DOPSUM: CHANGE speakAssembly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryassembly extends StatelessWidget {
         "Putting the bookcase together should be a simple assembly job."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssembly(String languageCode) async {
+  // Future<void> speakassembly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssembly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryassembly extends StatelessWidget {
   //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssembly(String languageCode) async {
+  // Future<void> speakassembly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssembly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryassembly extends StatelessWidget {
   //   await flutterTts.speak("assembly"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssembly(String languageCode) async {
+  // Future<void> speakassembly(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssembly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryassembly extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsembli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssembly("en-GB"),
+                              onPressed: () => speakassembly("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryassembly extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsembli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssembly("en-US"),
+                              onPressed: () => speakassembly("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly940("en-GB"),
+                                    onPressed: () => speakassembly940("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly940(
+                                    onPressed: () => speakassembly940(
                                         // REPLACE: assembly /əˈsembli/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly943("en-GB"),
+                                    onPressed: () => speakassembly943("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly943(
+                                    onPressed: () => speakassembly943(
                                         // REPLACE: assembly /əˈsembli/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly946("en-GB"),
+                                    onPressed: () => speakassembly946("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly946(
+                                    onPressed: () => speakassembly946(
                                         // REPLACE: assembly /əˈsembli/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly950("en-GB"),
+                                    onPressed: () => speakassembly950("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly950(
+                                    onPressed: () => speakassembly950(
                                         // REPLACE: assembly /əˈsembli/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryassembly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssembly952("en-GB"),
+                                    onPressed: () => speakassembly952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssembly952(
+                                    onPressed: () => speakassembly952(
                                         // REPLACE: assembly /əˈsembli/
                                         "en-US"),
                                   ),

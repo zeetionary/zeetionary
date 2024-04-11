@@ -19,7 +19,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaywindow(String languageCode) async {
+  Future<void> speakbaywindow(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("bay window"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows1(String languageCode) async {
+  Future<void> speakbaywindows1(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
         "The bay window provided a beautiful view of the garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows2(String languageCode) async {
+  Future<void> speakbaywindows2(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("speakBaywindows22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows3(String languageCode) async {
+  Future<void> speakbaywindows3(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("speakBaywindows33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows4(String languageCode) async {
+  Future<void> speakbaywindows4(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("speakBaywindows44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows5(String languageCode) async {
+  Future<void> speakbaywindows5(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("speakBaywindows55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows6(String languageCode) async {
+  Future<void> speakbaywindows6(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
     await flutterTts.speak("speakBaywindows66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaywindows7(String languageCode) async {
+  Future<void> speakbaywindows7(String languageCode) async {
     // DOPSUM: CHANGE speakBaywindow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbeɪ ˈwɪndəʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaywindow("en-GB"),
+                              onPressed: () => speakbaywindow("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybaywindow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbeɪ ˈwɪndəʊ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaywindow("en-US"),
+                              onPressed: () => speakbaywindow("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybaywindow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaywindows1("en-GB"),
+                                    onPressed: () => speakbaywindows1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBaywindows1("en-US"),
+                                    onPressed: () => speakbaywindows1("en-US"),
                                   ),
                                 ],
                               ),

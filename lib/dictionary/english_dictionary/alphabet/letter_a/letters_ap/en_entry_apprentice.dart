@@ -17,7 +17,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprentice(String languageCode) async {
+  Future<void> speakapprentice(String languageCode) async {
     // DOPSUM: CHANGE speakApprentice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapprentice extends StatelessWidget {
     await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprentice956(String languageCode) async {
+  Future<void> speakapprentice956(String languageCode) async {
     // DOPSUM: CHANGE speakApprentice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapprentice extends StatelessWidget {
         "Most of the work was done by apprentices."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprentice959(String languageCode) async {
+  Future<void> speakapprentice959(String languageCode) async {
     // DOPSUM: CHANGE speakApprentice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapprentice extends StatelessWidget {
         "He was apprenticed to his uncle as a carpenter."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   //   await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   //   await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   //   await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   //   await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapprentice extends StatelessWidget {
   //   await flutterTts.speak("apprentice"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprentice(String languageCode) async {
+  // Future<void> speakapprentice(String languageCode) async {
   //   // DOPSUM: CHANGE speakApprentice
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapprentice extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprentɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprentice("en-GB"),
+                              onPressed: () => speakapprentice("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapprentice extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprentɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprentice("en-US"),
+                              onPressed: () => speakapprentice("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapprentice extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprentice956("en-GB"),
+                                        speakapprentice956("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprentice956(
+                                    onPressed: () => speakapprentice956(
                                         // REPLACE: apprentice /əˈprentɪs/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryapprentice extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApprentice959("en-GB"),
+                                        speakapprentice959("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApprentice959(
+                                    onPressed: () => speakapprentice959(
                                         // REPLACE: apprentice /əˈprentɪs/
                                         "en-US"),
                                   ),

@@ -15,7 +15,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntiperspirant(String languageCode) async {
+  Future<void> speakantiperspirant(String languageCode) async {
     // DOPSUM: CHANGE speakAntiperspirant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
     await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiperspirant1117(String languageCode) async {
+  Future<void> speakantiperspirant1117(String languageCode) async {
     // DOPSUM: CHANGE speakAntiperspirant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
         "Antiperspirant can make you more comfortable on hot days."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
   //   await flutterTts.speak("antiperspirant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiperspirant(String languageCode) async {
+  // Future<void> speakantiperspirant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiperspirant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈpɜːspərənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiperspirant("en-GB"),
+                              onPressed: () => speakantiperspirant("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiperspirant("en-US"),
+                              onPressed: () => speakantiperspirant("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiperspirant1117("en-GB"),
+                                        speakantiperspirant1117("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiperspirant1117(
+                                    onPressed: () => speakantiperspirant1117(
                                         // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/
                                         "en-US"),
                                   ),

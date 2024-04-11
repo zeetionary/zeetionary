@@ -11,7 +11,7 @@ class EnglishEntryalong extends StatelessWidget {
   EnglishEntryalong({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlong(String languageCode) async {
+  Future<void> speakalong(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalong extends StatelessWidget {
     await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlong457(String languageCode) async {
+  Future<void> speakalong457(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalong extends StatelessWidget {
         .speak("They walked slowly along the road."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlong4451(String languageCode) async {
+  Future<void> speakalong4451(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalong extends StatelessWidget {
         "Houses had been built along both sides of the river."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlong451(String languageCode) async {
+  Future<void> speakalong451(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalong extends StatelessWidget {
         "Somewhere along this road there's a garage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlong45169(String languageCode) async {
+  Future<void> speakalong45169(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalong extends StatelessWidget {
         "We were going along at about 50 miles an hour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlong4516(String languageCode) async {
+  Future<void> speakalong4516(String languageCode) async {
     // DOPSUM: CHANGE speakAlong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalong extends StatelessWidget {
         .speak("I'll be along in a few minutes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlong(String languageCode) async {
+  // Future<void> speakalong(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlong
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlong(String languageCode) async {
+  // Future<void> speakalong(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlong
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlong(String languageCode) async {
+  // Future<void> speakalong(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlong
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryalong extends StatelessWidget {
   //   await flutterTts.speak("along"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlong(String languageCode) async {
+  // Future<void> speakalong(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlong
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryalong extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɒŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlong("en-GB"),
+                              onPressed: () => speakalong("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryalong extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɔːŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlong("en-US"),
+                              onPressed: () => speakalong("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryalong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlong457("en-GB"),
+                                    onPressed: () => speakalong457("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlong457(// REPLACE: along /əˈlɔːŋ/
+                                        speakalong457(// REPLACE: along /əˈlɔːŋ/
                                             "en-US"),
                                   ),
                                 ],
@@ -217,10 +217,10 @@ class EnglishEntryalong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlong4451("en-GB"),
+                                    onPressed: () => speakalong4451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlong4451(
+                                    onPressed: () => speakalong4451(
                                         // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
                                   ),
@@ -249,11 +249,11 @@ class EnglishEntryalong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlong451("en-GB"),
+                                    onPressed: () => speakalong451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlong451(// REPLACE: along /əˈlɔːŋ/
+                                        speakalong451(// REPLACE: along /əˈlɔːŋ/
                                             "en-US"),
                                   ),
                                 ],
@@ -281,10 +281,10 @@ class EnglishEntryalong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlong45169("en-GB"),
+                                    onPressed: () => speakalong45169("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlong45169(
+                                    onPressed: () => speakalong45169(
                                         // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
                                   ),
@@ -313,10 +313,10 @@ class EnglishEntryalong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlong4516("en-GB"),
+                                    onPressed: () => speakalong4516("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlong4516(
+                                    onPressed: () => speakalong4516(
                                         // REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
                                   ),

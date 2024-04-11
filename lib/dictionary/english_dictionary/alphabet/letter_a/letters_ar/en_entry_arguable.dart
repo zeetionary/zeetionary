@@ -17,7 +17,7 @@ class EnglishEntryarguable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArguable(String languageCode) async {
+  Future<void> speakarguable(String languageCode) async {
     // DOPSUM: CHANGE speakArguable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarguable extends StatelessWidget {
     await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArguable1011(String languageCode) async {
+  Future<void> speakarguable1011(String languageCode) async {
     // DOPSUM: CHANGE speakArguable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarguable extends StatelessWidget {
         "It is arguable that giving too much detail may actually be confusing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArguable1013(String languageCode) async {
+  Future<void> speakarguable1013(String languageCode) async {
     // DOPSUM: CHANGE speakArguable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarguable extends StatelessWidget {
         .speak("It is arguable which way is quicker."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarguable extends StatelessWidget {
   //   await flutterTts.speak("arguable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArguable(String languageCode) async {
+  // Future<void> speakarguable(String languageCode) async {
   //   // DOPSUM: CHANGE speakArguable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarguable extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːɡjuəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArguable("en-GB"),
+                              onPressed: () => speakarguable("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarguable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrɡjuəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArguable("en-US"),
+                              onPressed: () => speakarguable("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarguable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArguable1011("en-GB"),
+                                    onPressed: () => speakarguable1011("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArguable1011(
+                                    onPressed: () => speakarguable1011(
                                         // REPLACE: arguable /ˈɑːrɡjuəbl/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryarguable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArguable1013("en-GB"),
+                                    onPressed: () => speakarguable1013("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArguable1013(
+                                    onPressed: () => speakarguable1013(
                                         // REPLACE: arguable /ˈɑːrɡjuəbl/
                                         "en-US"),
                                   ),

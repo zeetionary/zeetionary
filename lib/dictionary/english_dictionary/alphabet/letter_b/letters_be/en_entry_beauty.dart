@@ -19,7 +19,7 @@ class EnglishEntrybeauty extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeauty(String languageCode) async {
+  Future<void> speakbeauty(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeauty extends StatelessWidget {
     await flutterTts.speak("beauty"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys1(String languageCode) async {
+  Future<void> speakbeautys1(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         .speak("His voice is a thing of beauty."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys2(String languageCode) async {
+  Future<void> speakbeautys2(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         "The sheer beauty of the scenery took my breath away."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys3(String languageCode) async {
+  Future<void> speakbeautys3(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         .speak("Her beauty faded as she got older."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys4(String languageCode) async {
+  Future<void> speakbeautys4(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         .speak("She had been a beauty in her day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys5(String languageCode) async {
+  Future<void> speakbeautys5(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         .speak("That last goal was a beauty!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys6(String languageCode) async {
+  Future<void> speakbeautys6(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybeauty extends StatelessWidget {
         "One of the beauties of living here is that it's so peaceful."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautys7(String languageCode) async {
+  Future<void> speakbeautys7(String languageCode) async {
     // DOPSUM: CHANGE speakBeauty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbjuːti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeauty("en-GB"),
+                              onPressed: () => speakbeauty("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbjuːti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeauty("en-US"),
+                              onPressed: () => speakbeauty("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys1("en-GB"),
+                                    onPressed: () => speakbeautys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys1("en-US"),
+                                    onPressed: () => speakbeautys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys2("en-GB"),
+                                    onPressed: () => speakbeautys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys2("en-US"),
+                                    onPressed: () => speakbeautys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys3("en-GB"),
+                                    onPressed: () => speakbeautys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys3("en-US"),
+                                    onPressed: () => speakbeautys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -260,10 +260,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys4("en-GB"),
+                                    onPressed: () => speakbeautys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys4("en-US"),
+                                    onPressed: () => speakbeautys4("en-US"),
                                   ),
                                 ],
                               ),
@@ -289,10 +289,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys5("en-GB"),
+                                    onPressed: () => speakbeautys5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys5("en-US"),
+                                    onPressed: () => speakbeautys5("en-US"),
                                   ),
                                 ],
                               ),
@@ -320,10 +320,10 @@ class EnglishEntrybeauty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautys6("en-GB"),
+                                    onPressed: () => speakbeautys6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautys6("en-US"),
+                                    onPressed: () => speakbeautys6("en-US"),
                                   ),
                                 ],
                               ),

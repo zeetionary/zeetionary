@@ -19,7 +19,7 @@ class EnglishEntrybibliography extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBibliography(String languageCode) async {
+  Future<void> speakbibliography(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybibliography extends StatelessWidget {
     await flutterTts.speak("bibliography"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys1(String languageCode) async {
+  Future<void> speakbibliographys1(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybibliography extends StatelessWidget {
         "Other sources of information are found in the bibliography at the end of this article."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys2(String languageCode) async {
+  Future<void> speakbibliographys2(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybibliography extends StatelessWidget {
         "He's only 46, and his bibliography already includes almost 100 novels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys3(String languageCode) async {
+  Future<void> speakbibliographys3(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybibliography extends StatelessWidget {
         "At the end of the interview is a good bibliography of the writer's work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys4(String languageCode) async {
+  Future<void> speakbibliographys4(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybibliography extends StatelessWidget {
         "He is a professional librarian skilled in bibliography and at home in the world of books."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys5(String languageCode) async {
+  Future<void> speakbibliographys5(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybibliography extends StatelessWidget {
     await flutterTts.speak("speakBibliographys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys6(String languageCode) async {
+  Future<void> speakbibliographys6(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybibliography extends StatelessWidget {
     await flutterTts.speak("speakBibliographys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibliographys7(String languageCode) async {
+  Future<void> speakbibliographys7(String languageCode) async {
     // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbɪbliˈɒɡrəfi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBibliography("en-GB"),
+                              onPressed: () => speakbibliography("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbɪbliˈɑːɡrəfi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBibliography("en-US"),
+                              onPressed: () => speakbibliography("en-US"),
                             ),
                           ],
                         ),
@@ -173,11 +173,11 @@ class EnglishEntrybibliography extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBibliographys1("en-GB"),
+                                        speakbibliographys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBibliographys1("en-US"),
+                                        speakbibliographys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -206,11 +206,11 @@ class EnglishEntrybibliography extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBibliographys2("en-GB"),
+                                        speakbibliographys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBibliographys2("en-US"),
+                                        speakbibliographys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -237,11 +237,11 @@ class EnglishEntrybibliography extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBibliographys3("en-GB"),
+                                        speakbibliographys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBibliographys3("en-US"),
+                                        speakbibliographys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -270,11 +270,11 @@ class EnglishEntrybibliography extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBibliographys4("en-GB"),
+                                        speakbibliographys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBibliographys4("en-US"),
+                                        speakbibliographys4("en-US"),
                                   ),
                                 ],
                               ),

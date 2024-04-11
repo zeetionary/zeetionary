@@ -17,7 +17,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppreciative(String languageCode) async {
+  Future<void> speakappreciative(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappreciative extends StatelessWidget {
     await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciative833(String languageCode) async {
+  Future<void> speakappreciative833(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappreciative extends StatelessWidget {
         "The company was very appreciative of my efforts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciative835(String languageCode) async {
+  Future<void> speakappreciative835(String languageCode) async {
     // DOPSUM: CHANGE speakAppreciative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappreciative extends StatelessWidget {
         .speak("The audience was highly appreciative."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappreciative extends StatelessWidget {
   //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
+  // Future<void> speakappreciative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppreciative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpriːʃətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppreciative("en-GB"),
+                              onPressed: () => speakappreciative("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpriːʃətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppreciative("en-US"),
+                              onPressed: () => speakappreciative("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciative833("en-GB"),
+                                        speakappreciative833("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciative833(
+                                    onPressed: () => speakappreciative833(
                                         // REPLACE: appreciative /əˈpriːʃətɪv/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppreciative835("en-GB"),
+                                        speakappreciative835("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppreciative835(
+                                    onPressed: () => speakappreciative835(
                                         // REPLACE: appreciative /əˈpriːʃətɪv/
                                         "en-US"),
                                   ),

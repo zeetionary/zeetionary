@@ -11,7 +11,7 @@ class EnglishEntryadjourn extends StatelessWidget {
   EnglishEntryadjourn({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdjourn(String languageCode) async {
+  Future<void> speakadjourn(String languageCode) async {
     // DOPSUM: CHANGE speakAdjourn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadjourn extends StatelessWidget {
     await flutterTts.speak("adjourn"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdjo952871(String languageCode) async {
+  Future<void> speakadjo952871(String languageCode) async {
     // DOPSUM: CHANGE speakAdjourn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadjourn extends StatelessWidget {
         .speak("The court adjourned for lunch."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd4582(String languageCode) async {
+  Future<void> speakad4582(String languageCode) async {
     // DOPSUM: CHANGE speakAdjourn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadjourn extends StatelessWidget {
         .speak("The case was adjourned for a week."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdjourn(String languageCode) async {
+  // Future<void> speakadjourn(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdjourn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒɜːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjourn("en-GB"),
+                              onPressed: () => speakadjourn("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɜːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjourn("en-US"),
+                              onPressed: () => speakadjourn("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryadjourn extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdjo952871("en-GB"),
+                                    onPressed: () => speakadjo952871("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdjo952871(
+                                    onPressed: () => speakadjo952871(
                                         // REPLACE: adjourn /əˈdʒɜːrn/
                                         "en-US"),
                                   ),
@@ -157,10 +157,10 @@ class EnglishEntryadjourn extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAd4582("en-GB"),
+                                    onPressed: () => speakad4582("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAd4582(
+                                    onPressed: () => speakad4582(
                                         // REPLACE: adjourn /əˈdʒɜːrn/
                                         "en-US"),
                                   ),

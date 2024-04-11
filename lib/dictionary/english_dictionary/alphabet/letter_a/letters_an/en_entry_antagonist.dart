@@ -12,7 +12,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   EnglishEntryantagonist({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntagonist(String languageCode) async {
+  Future<void> speakantagonist(String languageCode) async {
     // DOPSUM: CHANGE speakAntagonist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryantagonist extends StatelessWidget {
     await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntagonist1255(String languageCode) async {
+  Future<void> speakantagonist1255(String languageCode) async {
     // DOPSUM: CHANGE speakAntagonist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryantagonist extends StatelessWidget {
         "He has always been the prime minister’s most formidable antagonist in Parliament."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryantagonist extends StatelessWidget {
   //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
+  // Future<void> speakantagonist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntagonist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtæɡənɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntagonist("en-GB"),
+                              onPressed: () => speakantagonist("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtæɡənɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntagonist("en-US"),
+                              onPressed: () => speakantagonist("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntagonist1255("en-GB"),
+                                        speakantagonist1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntagonist1255(
+                                    onPressed: () => speakantagonist1255(
                                         // REPLACE: antagonist /ænˈtæɡənɪst/
                                         "en-US"),
                                   ),

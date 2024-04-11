@@ -19,7 +19,7 @@ class EnglishEntrybelt extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelt(String languageCode) async {
+  Future<void> speakbelt(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.speak("belt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts1(String languageCode) async {
+  Future<void> speakbelts1(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelt extends StatelessWidget {
         .speak("Around his waist he wore a belt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts2(String languageCode) async {
+  Future<void> speakbelts2(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybelt extends StatelessWidget {
         "She fastened her belt tightly around her waist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts3(String languageCode) async {
+  Future<void> speakbelts3(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybelt extends StatelessWidget {
         "The conveyor belt carried the boxes to the loading dock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts4(String languageCode) async {
+  Future<void> speakbelts4(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybelt extends StatelessWidget {
         "Towns in the country's industrial belt were particularly affected by the recession."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts5(String languageCode) async {
+  Future<void> speakbelts5(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybelt extends StatelessWidget {
         .speak("She gave the ball a terrific belt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts6(String languageCode) async {
+  Future<void> speakbelts6(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybelt extends StatelessWidget {
         "He belted the ball right out of the park."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts7(String languageCode) async {
+  Future<void> speakbelts7(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybelt extends StatelessWidget {
         .speak("I'll belt you if you do that again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts8(String languageCode) async {
+  Future<void> speakbelts8(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybelt extends StatelessWidget {
         .speak("A truck came belting up behind us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts9(String languageCode) async {
+  Future<void> speakbelts9(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybelt extends StatelessWidget {
         .speak("The dress was belted at the waist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts10(String languageCode) async {
+  Future<void> speakbelts10(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.speak("speakBelts1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts11(String languageCode) async {
+  Future<void> speakbelts11(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.speak("speakBelts1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts12(String languageCode) async {
+  Future<void> speakbelts12(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.speak("speakBelts1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts13(String languageCode) async {
+  Future<void> speakbelts13(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntrybelt extends StatelessWidget {
     await flutterTts.speak("speakBelts1313"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelts14(String languageCode) async {
+  Future<void> speakbelts14(String languageCode) async {
     // DOPSUM: CHANGE speakBelt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -175,7 +175,7 @@ class EnglishEntrybelt extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /belt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelt("en-GB"),
+                              onPressed: () => speakbelt("en-GB"),
                             ),
                           ],
                         ),
@@ -183,7 +183,7 @@ class EnglishEntrybelt extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /belt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelt("en-US"),
+                              onPressed: () => speakbelt("en-US"),
                             ),
                           ],
                         ),
@@ -232,10 +232,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts1("en-GB"),
+                                    onPressed: () => speakbelts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts1("en-US"),
+                                    onPressed: () => speakbelts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,10 +261,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts2("en-GB"),
+                                    onPressed: () => speakbelts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts2("en-US"),
+                                    onPressed: () => speakbelts2("en-US"),
                                   ),
                                 ],
                               ),
@@ -292,10 +292,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts3("en-GB"),
+                                    onPressed: () => speakbelts3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts3("en-US"),
+                                    onPressed: () => speakbelts3("en-US"),
                                   ),
                                 ],
                               ),
@@ -323,10 +323,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts4("en-GB"),
+                                    onPressed: () => speakbelts4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts4("en-US"),
+                                    onPressed: () => speakbelts4("en-US"),
                                   ),
                                 ],
                               ),
@@ -353,10 +353,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts5("en-GB"),
+                                    onPressed: () => speakbelts5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts5("en-US"),
+                                    onPressed: () => speakbelts5("en-US"),
                                   ),
                                 ],
                               ),
@@ -384,10 +384,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts6("en-GB"),
+                                    onPressed: () => speakbelts6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts6("en-US"),
+                                    onPressed: () => speakbelts6("en-US"),
                                   ),
                                 ],
                               ),
@@ -413,10 +413,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts7("en-GB"),
+                                    onPressed: () => speakbelts7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts7("en-US"),
+                                    onPressed: () => speakbelts7("en-US"),
                                   ),
                                 ],
                               ),
@@ -444,10 +444,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts8("en-GB"),
+                                    onPressed: () => speakbelts8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts8("en-US"),
+                                    onPressed: () => speakbelts8("en-US"),
                                   ),
                                 ],
                               ),
@@ -475,10 +475,10 @@ class EnglishEntrybelt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelts9("en-GB"),
+                                    onPressed: () => speakbelts9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelts9("en-US"),
+                                    onPressed: () => speakbelts9("en-US"),
                                   ),
                                 ],
                               ),

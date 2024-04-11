@@ -11,7 +11,7 @@ class EnglishEntryairbag extends StatelessWidget {
   EnglishEntryairbag({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirbag(String languageCode) async {
+  Future<void> speakairbag(String languageCode) async {
     // DOPSUM: CHANGE speakAirbag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairbag extends StatelessWidget {
     await flutterTts.speak("airbag"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirbag46282(String languageCode) async {
+  Future<void> speakairbag46282(String languageCode) async {
     // DOPSUM: CHANGE speakAirbag
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairbag extends StatelessWidget {
         "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirbag(String languageCode) async {
+  // Future<void> speakairbag(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirbag
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairbag extends StatelessWidget {
   //   await flutterTts.speak("airbag"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirbag(String languageCode) async {
+  // Future<void> speakairbag(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirbag
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryairbag extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəbæɡ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirbag("en-GB"),
+                              onPressed: () => speakairbag("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryairbag extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerbæɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirbag("en-US"),
+                              onPressed: () => speakairbag("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryairbag extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirbag46282("en-GB"),
+                                    onPressed: () => speakairbag46282("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirbag46282(
+                                    onPressed: () => speakairbag46282(
                                         // REPLACE: airbag /ˈerbæɡ/
                                         "en-US"),
                                   ),

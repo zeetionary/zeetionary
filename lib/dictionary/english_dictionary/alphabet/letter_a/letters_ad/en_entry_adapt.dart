@@ -11,7 +11,7 @@ class EnglishEntryadapt extends StatelessWidget {
   EnglishEntryadapt({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdapt(String languageCode) async {
+  Future<void> speakadapt(String languageCode) async {
     // DOPSUM: CHANGE speakAdapt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadapt extends StatelessWidget {
     await flutterTts.speak("adapt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAda4567(String languageCode) async {
+  Future<void> speakada4567(String languageCode) async {
     // DOPSUM: CHANGE speakAdapt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadapt extends StatelessWidget {
         "We have had to adapt quickly to the new system."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdapt(String languageCode) async {
+  // Future<void> speakadapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdapt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadapt extends StatelessWidget {
   //   await flutterTts.speak("adapt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdapt(String languageCode) async {
+  // Future<void> speakadapt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdapt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadapt extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdæpt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdapt("en-GB"),
+                              onPressed: () => speakadapt("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadapt extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdæpt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdapt("en-US"),
+                              onPressed: () => speakadapt("en-US"),
                             ),
                           ],
                         ),
@@ -132,11 +132,11 @@ class EnglishEntryadapt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAda4567("en-GB"),
+                                    onPressed: () => speakada4567("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAda4567(// REPLACE: adapt /əˈdæpt/
+                                        speakada4567(// REPLACE: adapt /əˈdæpt/
                                             "en-US"),
                                   ),
                                 ],

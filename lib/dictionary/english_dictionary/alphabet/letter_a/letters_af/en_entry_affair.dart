@@ -11,7 +11,7 @@ class EnglishEntryaffair extends StatelessWidget {
   EnglishEntryaffair({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffair(String languageCode) async {
+  Future<void> speakaffair(String languageCode) async {
     // DOPSUM: CHANGE speakAffair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffair extends StatelessWidget {
     await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff25941(String languageCode) async {
+  Future<void> speakaff25941(String languageCode) async {
     // DOPSUM: CHANGE speakAffair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffair extends StatelessWidget {
         "He's always interfering in other people's affairs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffa35228(String languageCode) async {
+  Future<void> speakaffa35228(String languageCode) async {
     // DOPSUM: CHANGE speakAffair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffair extends StatelessWidget {
         "As a leader, he's been criticized for his inexperience in foreign affairs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffa25677(String languageCode) async {
+  Future<void> speakaffa25677(String languageCode) async {
     // DOPSUM: CHANGE speakAffair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaffair extends StatelessWidget {
         "The newspapers exaggerated the whole affair wildly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffa2411(String languageCode) async {
+  Future<void> speakaffa2411(String languageCode) async {
     // DOPSUM: CHANGE speakAffair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryaffair extends StatelessWidget {
         "She was having an affair with a co-worker."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffair(String languageCode) async {
+  // Future<void> speakaffair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaffair extends StatelessWidget {
   //   await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffair(String languageCode) async {
+  // Future<void> speakaffair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaffair extends StatelessWidget {
   //   await flutterTts.speak("affair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffair(String languageCode) async {
+  // Future<void> speakaffair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryaffair extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfeə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffair("en-GB"),
+                              onPressed: () => speakaffair("en-GB"),
                             ),
                           ],
                         ),
@@ -116,7 +116,7 @@ class EnglishEntryaffair extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfeər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffair("en-US"),
+                              onPressed: () => speakaffair("en-US"),
                             ),
                           ],
                         ),
@@ -167,10 +167,10 @@ class EnglishEntryaffair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAff25941("en-GB"),
+                                    onPressed: () => speakaff25941("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAff25941(
+                                    onPressed: () => speakaff25941(
                                         // REPLACE: affair /əˈfeər/
                                         "en-US"),
                                   ),
@@ -197,10 +197,10 @@ class EnglishEntryaffair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffa35228("en-GB"),
+                                    onPressed: () => speakaffa35228("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa35228(
+                                    onPressed: () => speakaffa35228(
                                         // REPLACE: affair /əˈfeər/
                                         "en-US"),
                                   ),
@@ -229,10 +229,10 @@ class EnglishEntryaffair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffa25677("en-GB"),
+                                    onPressed: () => speakaffa25677("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa25677(
+                                    onPressed: () => speakaffa25677(
                                         // REPLACE: affair /əˈfeər/
                                         "en-US"),
                                   ),
@@ -261,10 +261,10 @@ class EnglishEntryaffair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffa2411("en-GB"),
+                                    onPressed: () => speakaffa2411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffa2411(
+                                    onPressed: () => speakaffa2411(
                                         // REPLACE: affair /əˈfeər/
                                         "en-US"),
                                   ),

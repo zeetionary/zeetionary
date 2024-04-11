@@ -11,7 +11,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   EnglishEntryagritourism({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgritourism(String languageCode) async {
+  Future<void> speakagritourism(String languageCode) async {
     // DOPSUM: CHANGE speakAgritourism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagritourism extends StatelessWidget {
     await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgritourism(String languageCode) async {
+  // Future<void> speakagritourism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgritourism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgritourism(String languageCode) async {
+  // Future<void> speakagritourism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgritourism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryagritourism extends StatelessWidget {
   //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgritourism(String languageCode) async {
+  // Future<void> speakagritourism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgritourism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæɡrɪtʊərɪzəm/, /ˈæɡrɪtɔːrɪzəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgritourism("en-GB"),
+                              onPressed: () => speakagritourism("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡrɪtʊrɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgritourism("en-US"),
+                              onPressed: () => speakagritourism("en-US"),
                             ),
                           ],
                         ),

@@ -11,7 +11,7 @@ class EnglishEntryadhesion extends StatelessWidget {
   EnglishEntryadhesion({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhesion(String languageCode) async {
+  Future<void> speakadhesion(String languageCode) async {
     // DOPSUM: CHANGE speakAdhesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadhesion extends StatelessWidget {
     await flutterTts.speak("adhesion"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhesion(String languageCode) async {
+  // Future<void> speakadhesion(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhesion
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryadhesion extends StatelessWidget {
   //   await flutterTts.speak("adhesion"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdhesion(String languageCode) async {
+  // Future<void> speakadhesion(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhesion
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryadhesion extends StatelessWidget {
   //   await flutterTts.speak("adhesion"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdhesion(String languageCode) async {
+  // Future<void> speakadhesion(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhesion
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryadhesion extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈhiː.ʒən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdhesion("en-GB"),
+                              onPressed: () => speakadhesion("en-GB"),
                             ),
                           ],
                         ),
@@ -80,7 +80,7 @@ class EnglishEntryadhesion extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈhiː.ʒən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhesion("en-US"),
+                              onPressed: () => speakadhesion("en-US"),
                             ),
                           ],
                         ),

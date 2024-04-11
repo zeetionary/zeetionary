@@ -13,7 +13,7 @@ class EnglishEntryanthem extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnthem(String languageCode) async {
+  Future<void> speakanthem(String languageCode) async {
     // DOPSUM: CHANGE speakAnthem
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanthem extends StatelessWidget {
     await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnthem542(String languageCode) async {
+  Future<void> speakanthem542(String languageCode) async {
     // DOPSUM: CHANGE speakAnthem
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanthem extends StatelessWidget {
         "The European anthem was played at the opening and closing ceremonies."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanthem extends StatelessWidget {
   //   await flutterTts.speak("anthem"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthem(String languageCode) async {
+  // Future<void> speakanthem(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthem
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanthem extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænθəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthem("en-GB"),
+                              onPressed: () => speakanthem("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanthem extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænθəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthem("en-US"),
+                              onPressed: () => speakanthem("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanthem extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnthem542("en-GB"),
+                                    onPressed: () => speakanthem542("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnthem542(
+                                    onPressed: () => speakanthem542(
                                         // REPLACE: anthem /ˈænθəm/
                                         "en-US"),
                                   ),

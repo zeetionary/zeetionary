@@ -11,7 +11,7 @@ class EnglishEntryacronym extends StatelessWidget {
   EnglishEntryacronym({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcronym(String languageCode) async {
+  Future<void> speakacronym(String languageCode) async {
     // DOPSUM: CHANGE speakAcronym
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacronym extends StatelessWidget {
     await flutterTts.speak("acronym"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcronym(String languageCode) async {
+  // Future<void> speakacronym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcronym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryacronym extends StatelessWidget {
   //   await flutterTts.speak("acronym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcronym(String languageCode) async {
+  // Future<void> speakacronym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcronym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryacronym extends StatelessWidget {
   //   await flutterTts.speak("acronym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcronym(String languageCode) async {
+  // Future<void> speakacronym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcronym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryacronym extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækrənɪm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcronym("en-GB"),
+                              onPressed: () => speakacronym("en-GB"),
                             ),
                           ],
                         ),
@@ -80,7 +80,7 @@ class EnglishEntryacronym extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækrənɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcronym("en-US"),
+                              onPressed: () => speakacronym("en-US"),
                             ),
                           ],
                         ),

@@ -19,7 +19,7 @@ class EnglishEntryavaricious extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvaricious(String languageCode) async {
+  Future<void> speakavaricious(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("avaricious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss1(String languageCode) async {
+  Future<void> speakavariciouss1(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavaricious extends StatelessWidget {
         "She turned out to be a crafty and avaricious politician."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss2(String languageCode) async {
+  Future<void> speakavariciouss2(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("speakAvariciouss2c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss3(String languageCode) async {
+  Future<void> speakavariciouss3(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("speakAvariciouss3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss4(String languageCode) async {
+  Future<void> speakavariciouss4(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("speakAvariciouss4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss5(String languageCode) async {
+  Future<void> speakavariciouss5(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("speakAvariciouss5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss6(String languageCode) async {
+  Future<void> speakavariciouss6(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryavaricious extends StatelessWidget {
     await flutterTts.speak("speakAvariciouss6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvariciouss7(String languageCode) async {
+  Future<void> speakavariciouss7(String languageCode) async {
     // DOPSUM: CHANGE speakAvaricious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryavaricious extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌævəˈrɪʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvaricious("en-GB"),
+                              onPressed: () => speakavaricious("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryavaricious extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌævəˈrɪʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvaricious("en-US"),
+                              onPressed: () => speakavaricious("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntryavaricious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvariciouss1("en-GB"),
+                                    onPressed: () => speakavariciouss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvariciouss1(// REPLACE: avaricious
+                                        speakavariciouss1(// REPLACE: avaricious
                                             "en-US"),
                                   ),
                                 ],

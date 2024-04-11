@@ -19,7 +19,7 @@ class EnglishEntryawhile extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwhile(String languageCode) async {
+  Future<void> speakawhile(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("awhile"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles1(String languageCode) async {
+  Future<void> speakawhiles1(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("Stay awhile."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles2(String languageCode) async {
+  Future<void> speakawhiles2(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("speakAwhiles22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles3(String languageCode) async {
+  Future<void> speakawhiles3(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("speakAwhiles33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles4(String languageCode) async {
+  Future<void> speakawhiles4(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("speakAwhiles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles5(String languageCode) async {
+  Future<void> speakawhiles5(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("speakAwhiles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles6(String languageCode) async {
+  Future<void> speakawhiles6(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryawhile extends StatelessWidget {
     await flutterTts.speak("speakAwhiles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles7(String languageCode) async {
+  Future<void> speakawhiles7(String languageCode) async {
     // DOPSUM: CHANGE speakAwhile
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈwaɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwhile("en-GB"),
+                              onPressed: () => speakawhile("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈwaɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwhile("en-US"),
+                              onPressed: () => speakawhile("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntryawhile extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwhiles1("en-GB"),
+                                    onPressed: () => speakawhiles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwhiles1(// REPLACE: awhile
+                                        speakawhiles1(// REPLACE: awhile
                                             "en-US"),
                                   ),
                                 ],

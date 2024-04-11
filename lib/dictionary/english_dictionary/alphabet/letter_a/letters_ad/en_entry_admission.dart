@@ -11,7 +11,7 @@ class EnglishEntryadmission extends StatelessWidget {
   EnglishEntryadmission({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdmission(String languageCode) async {
+  Future<void> speakadmission(String languageCode) async {
     // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadmission extends StatelessWidget {
     await flutterTts.speak("admission"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmiss836541(String languageCode) async {
+  Future<void> speakadmiss836541(String languageCode) async {
     // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadmission extends StatelessWidget {
         "Hospital admission is not necessary in most cases."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmiss735891(String languageCode) async {
+  Future<void> speakadmiss735891(String languageCode) async {
     // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadmission extends StatelessWidget {
         .speak("Is there any charge for admission?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdm587914(String languageCode) async {
+  Future<void> speakadm587914(String languageCode) async {
     // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadmission extends StatelessWidget {
         "She has made no admission of any involvement in the plot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmis912587(String languageCode) async {
+  Future<void> speakadmis912587(String languageCode) async {
     // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryadmission extends StatelessWidget {
         "There is an admission fee of 10 dollars."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdmission(String languageCode) async {
+  // Future<void> speakadmission(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmission
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryadmission extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdmission("en-GB"),
+                              onPressed: () => speakadmission("en-GB"),
                             ),
                           ],
                         ),
@@ -100,7 +100,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmission("en-US"),
+                              onPressed: () => speakadmission("en-US"),
                             ),
                           ],
                         ),
@@ -149,10 +149,10 @@ class EnglishEntryadmission extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmiss836541("en-GB"),
+                                    onPressed: () => speakadmiss836541("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmiss836541(
+                                    onPressed: () => speakadmiss836541(
                                         // REPLACE: admission /ədˈmɪʃn/
                                         "en-US"),
                                   ),
@@ -179,10 +179,10 @@ class EnglishEntryadmission extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmiss735891("en-GB"),
+                                    onPressed: () => speakadmiss735891("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmiss735891(
+                                    onPressed: () => speakadmiss735891(
                                         // REPLACE: admission /ədˈmɪʃn/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryadmission extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdm587914("en-GB"),
+                                    onPressed: () => speakadm587914("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdm587914(
+                                    onPressed: () => speakadm587914(
                                         // REPLACE: admission /ədˈmɪʃn/
                                         "en-US"),
                                   ),
@@ -242,10 +242,10 @@ class EnglishEntryadmission extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmis912587("en-GB"),
+                                    onPressed: () => speakadmis912587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmis912587(
+                                    onPressed: () => speakadmis912587(
                                         // REPLACE: admission /ədˈmɪʃn/
                                         "en-US"),
                                   ),

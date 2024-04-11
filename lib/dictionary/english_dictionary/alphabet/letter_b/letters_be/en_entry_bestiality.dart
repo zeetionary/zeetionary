@@ -19,7 +19,7 @@ class EnglishEntrybestiality extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBestiality(String languageCode) async {
+  Future<void> speakbestiality(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybestiality extends StatelessWidget {
     await flutterTts.speak("bestiality"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys1(String languageCode) async {
+  Future<void> speakbestialitys1(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybestiality extends StatelessWidget {
         "Bestiality is illegal and considered a form of animal cruelty."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys2(String languageCode) async {
+  Future<void> speakbestialitys2(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybestiality extends StatelessWidget {
         "The dictator's regime was known for its bestiality towards its own people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys3(String languageCode) async {
+  Future<void> speakbestialitys3(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybestiality extends StatelessWidget {
     await flutterTts.speak("speakBestialitys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys4(String languageCode) async {
+  Future<void> speakbestialitys4(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybestiality extends StatelessWidget {
     await flutterTts.speak("speakBestialitys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys5(String languageCode) async {
+  Future<void> speakbestialitys5(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybestiality extends StatelessWidget {
     await flutterTts.speak("speakBestialitys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys6(String languageCode) async {
+  Future<void> speakbestialitys6(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybestiality extends StatelessWidget {
     await flutterTts.speak("speakBestialitys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBestialitys7(String languageCode) async {
+  Future<void> speakbestialitys7(String languageCode) async {
     // DOPSUM: CHANGE speakBestiality
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybestiality extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbestiˈæləti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBestiality("en-GB"),
+                              onPressed: () => speakbestiality("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybestiality extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbestʃiˈæləti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBestiality("en-US"),
+                              onPressed: () => speakbestiality("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybestiality extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBestialitys1("en-GB"),
+                                    onPressed: () => speakbestialitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBestialitys1("en-US"),
+                                    onPressed: () => speakbestialitys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybestiality extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBestialitys2("en-GB"),
+                                    onPressed: () => speakbestialitys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBestialitys2("en-US"),
+                                    onPressed: () => speakbestialitys2("en-US"),
                                   ),
                                 ],
                               ),

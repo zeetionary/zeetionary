@@ -19,7 +19,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeautyspot(String languageCode) async {
+  Future<void> speakbeautyspot(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
     await flutterTts.speak("beauty spot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots1(String languageCode) async {
+  Future<void> speakbeautyspots1(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
         "The lake is one of the local beauty spots."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots2(String languageCode) async {
+  Future<void> speakbeautyspots2(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
         "She had a small beauty spot on the left side of her face."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots3(String languageCode) async {
+  Future<void> speakbeautyspots3(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
     await flutterTts.speak("speakBeautyspots33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots4(String languageCode) async {
+  Future<void> speakbeautyspots4(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
     await flutterTts.speak("speakBeautyspots44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots5(String languageCode) async {
+  Future<void> speakbeautyspots5(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
     await flutterTts.speak("speakBeautyspots55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots6(String languageCode) async {
+  Future<void> speakbeautyspots6(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
     await flutterTts.speak("speakBeautyspots66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautyspots7(String languageCode) async {
+  Future<void> speakbeautyspots7(String languageCode) async {
     // DOPSUM: CHANGE speakBeautyspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbjuːti spɒt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeautyspot("en-GB"),
+                              onPressed: () => speakbeautyspot("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbjuːti spɑːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeautyspot("en-US"),
+                              onPressed: () => speakbeautyspot("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautyspots1("en-GB"),
+                                    onPressed: () => speakbeautyspots1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautyspots1("en-US"),
+                                    onPressed: () => speakbeautyspots1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybeautyspot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeautyspots2("en-GB"),
+                                    onPressed: () => speakbeautyspots2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeautyspots2("en-US"),
+                                    onPressed: () => speakbeautyspots2("en-US"),
                                   ),
                                 ],
                               ),

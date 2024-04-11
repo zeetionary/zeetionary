@@ -11,7 +11,7 @@ class EnglishEntryachievement extends StatelessWidget {
   EnglishEntryachievement({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAchievement(String languageCode) async {
+  Future<void> speakachievement(String languageCode) async {
     // DOPSUM: CHANGE speakAchievement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryachievement extends StatelessWidget {
     await flutterTts.speak("achievement"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA452876(String languageCode) async {
+  Future<void> speaka452876(String languageCode) async {
     // DOPSUM: CHANGE speakAchievement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryachievement extends StatelessWidget {
         "It was a remarkable achievement for such a young player."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc251468(String languageCode) async {
+  Future<void> speakac251468(String languageCode) async {
     // DOPSUM: CHANGE speakAchievement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryachievement extends StatelessWidget {
         "This work is the crowning achievement of her career."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAchievement(String languageCode) async {
+  // Future<void> speakachievement(String languageCode) async {
   //   // DOPSUM: CHANGE speakAchievement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryachievement extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈtʃiːvmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAchievement("en-GB"),
+                              onPressed: () => speakachievement("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtʃiːvmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAchievement("en-US"),
+                              onPressed: () => speakachievement("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryachievement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA452876("en-GB"),
+                                    onPressed: () => speaka452876("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA452876(
+                                    onPressed: () => speaka452876(
                                         "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                                   ),
                                 ],
@@ -163,10 +163,10 @@ class EnglishEntryachievement extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc251468("en-GB"),
+                                    onPressed: () => speakac251468("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc251468(
+                                    onPressed: () => speakac251468(
                                         "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                                   ),
                                 ],

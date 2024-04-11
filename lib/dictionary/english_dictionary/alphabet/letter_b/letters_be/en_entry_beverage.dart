@@ -19,7 +19,7 @@ class EnglishEntrybeverage extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeverage(String languageCode) async {
+  Future<void> speakbeverage(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("beverage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages1(String languageCode) async {
+  Future<void> speakbeverages1(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeverage extends StatelessWidget {
         "Studies on the consumption of various alcoholic beverages have been conducted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages2(String languageCode) async {
+  Future<void> speakbeverages2(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("speakBeverages22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages3(String languageCode) async {
+  Future<void> speakbeverages3(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("speakBeverages33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages4(String languageCode) async {
+  Future<void> speakbeverages4(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("speakBeverages44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages5(String languageCode) async {
+  Future<void> speakbeverages5(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("speakBeverages55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages6(String languageCode) async {
+  Future<void> speakbeverages6(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybeverage extends StatelessWidget {
     await flutterTts.speak("speakBeverages66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeverages7(String languageCode) async {
+  Future<void> speakbeverages7(String languageCode) async {
     // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybeverage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbevərɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeverage("en-GB"),
+                              onPressed: () => speakbeverage("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybeverage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbevərɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeverage("en-US"),
+                              onPressed: () => speakbeverage("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybeverage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeverages1("en-GB"),
+                                    onPressed: () => speakbeverages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeverages1("en-US"),
+                                    onPressed: () => speakbeverages1("en-US"),
                                   ),
                                 ],
                               ),

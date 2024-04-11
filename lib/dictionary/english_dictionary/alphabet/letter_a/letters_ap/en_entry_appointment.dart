@@ -17,7 +17,7 @@ class EnglishEntryappointment extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppointment(String languageCode) async {
+  Future<void> speakappointment(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappointment extends StatelessWidget {
     await flutterTts.speak("appointment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppointment836(String languageCode) async {
+  Future<void> speakappointment836(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappointment extends StatelessWidget {
         "I've got a dental appointment at 3 o'clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppointment839(String languageCode) async {
+  Future<void> speakappointment839(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappointment extends StatelessWidget {
         "She made an appointment for her son to see the doctor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppointment844(String languageCode) async {
+  Future<void> speakappointment844(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappointment extends StatelessWidget {
         "They announced the appointments of key security officials."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppointment847(String languageCode) async {
+  Future<void> speakappointment847(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryappointment extends StatelessWidget {
         "I would like to congratulate you on your appointment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppointment848(String languageCode) async {
+  Future<void> speakappointment848(String languageCode) async {
     // DOPSUM: CHANGE speakAppointment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryappointment extends StatelessWidget {
         "Government ministers and other political appointments are frequently replaced."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppointment(String languageCode) async {
+  // Future<void> speakappointment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppointment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryappointment extends StatelessWidget {
   //   await flutterTts.speak("appointment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppointment(String languageCode) async {
+  // Future<void> speakappointment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppointment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryappointment extends StatelessWidget {
   //   await flutterTts.speak("appointment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppointment(String languageCode) async {
+  // Future<void> speakappointment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppointment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryappointment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɔɪntmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppointment("en-GB"),
+                              onPressed: () => speakappointment("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryappointment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɔɪntmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppointment("en-US"),
+                              onPressed: () => speakappointment("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryappointment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppointment836("en-GB"),
+                                        speakappointment836("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppointment836(
+                                    onPressed: () => speakappointment836(
                                         // REPLACE: appointment /əˈpɔɪntmənt/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryappointment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppointment839("en-GB"),
+                                        speakappointment839("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppointment839(
+                                    onPressed: () => speakappointment839(
                                         // REPLACE: appointment /əˈpɔɪntmənt/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryappointment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppointment844("en-GB"),
+                                        speakappointment844("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppointment844(
+                                    onPressed: () => speakappointment844(
                                         // REPLACE: appointment /əˈpɔɪntmənt/
                                         "en-US"),
                                   ),
@@ -286,10 +286,10 @@ class EnglishEntryappointment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppointment847("en-GB"),
+                                        speakappointment847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppointment847(
+                                    onPressed: () => speakappointment847(
                                         // REPLACE: appointment /əˈpɔɪntmənt/
                                         "en-US"),
                                   ),
@@ -320,10 +320,10 @@ class EnglishEntryappointment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppointment848("en-GB"),
+                                        speakappointment848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppointment848(
+                                    onPressed: () => speakappointment848(
                                         // REPLACE: appointment /əˈpɔɪntmənt/
                                         "en-US"),
                                   ),

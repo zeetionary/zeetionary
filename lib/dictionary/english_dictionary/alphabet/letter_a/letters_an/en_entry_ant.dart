@@ -12,7 +12,7 @@ class EnglishEntryant extends StatelessWidget {
   EnglishEntryant({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnt(String languageCode) async {
+  Future<void> speakant(String languageCode) async {
     // DOPSUM: CHANGE speakAnt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryant extends StatelessWidget {
     await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnt1125(String languageCode) async {
+  Future<void> speakant1125(String languageCode) async {
     // DOPSUM: CHANGE speakAnt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryant extends StatelessWidget {
         "Ants are tiny insects that crawl on the ground in large groups."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryant extends StatelessWidget {
   //   await flutterTts.speak("ant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnt(String languageCode) async {
+  // Future<void> speakant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnt("en-GB"),
+                              onPressed: () => speakant("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnt("en-US"),
+                              onPressed: () => speakant("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntryant extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnt1125("en-GB"),
+                                    onPressed: () => speakant1125("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAnt1125(// REPLACE: ant /ænt/
+                                        speakant1125(// REPLACE: ant /ænt/
                                             "en-US"),
                                   ),
                                 ],

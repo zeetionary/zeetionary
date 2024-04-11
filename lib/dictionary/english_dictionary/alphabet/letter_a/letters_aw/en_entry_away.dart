@@ -19,7 +19,7 @@ class EnglishEntryaway extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAway(String languageCode) async {
+  Future<void> speakaway(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaway extends StatelessWidget {
     await flutterTts.speak("away"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways1(String languageCode) async {
+  Future<void> speakaways1(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryaway extends StatelessWidget {
     await flutterTts.speak("The beach is a mile away."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways2(String languageCode) async {
+  Future<void> speakaways2(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaway extends StatelessWidget {
         .speak("The bright light made her look away."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways3(String languageCode) async {
+  Future<void> speakaways3(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryaway extends StatelessWidget {
         "There were ten children away yesterday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways4(String languageCode) async {
+  Future<void> speakaways4(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryaway extends StatelessWidget {
         "They were soon chatting away like old friends."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways5(String languageCode) async {
+  Future<void> speakaways5(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryaway extends StatelessWidget {
     await flutterTts.speak("The music faded away."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways6(String languageCode) async {
+  Future<void> speakaways6(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryaway extends StatelessWidget {
         "Chelsea are playing away this Saturday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAways7(String languageCode) async {
+  Future<void> speakaways7(String languageCode) async {
     // DOPSUM: CHANGE speakAway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryaway extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈweɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAway("en-GB"),
+                              onPressed: () => speakaway("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryaway extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈweɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAway("en-US"),
+                              onPressed: () => speakaway("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways1("en-GB"),
+                                    onPressed: () => speakaways1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways1(// REPLACE: away
+                                        speakaways1(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -209,11 +209,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways2("en-GB"),
+                                    onPressed: () => speakaways2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways2(// REPLACE: away
+                                        speakaways2(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -241,11 +241,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways3("en-GB"),
+                                    onPressed: () => speakaways3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways3(// REPLACE: away
+                                        speakaways3(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -274,11 +274,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways4("en-GB"),
+                                    onPressed: () => speakaways4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways4(// REPLACE: away
+                                        speakaways4(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -306,11 +306,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways5("en-GB"),
+                                    onPressed: () => speakaways5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways5(// REPLACE: away
+                                        speakaways5(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -339,11 +339,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways6("en-GB"),
+                                    onPressed: () => speakaways6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways6(// REPLACE: away
+                                        speakaways6(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],
@@ -372,11 +372,11 @@ class EnglishEntryaway extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAways7("en-GB"),
+                                    onPressed: () => speakaways7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAways7(// REPLACE: away
+                                        speakaways7(// REPLACE: away
                                             "en-US"),
                                   ),
                                 ],

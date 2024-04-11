@@ -11,7 +11,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   EnglishEntryannihilate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnihilate(String languageCode) async {
+  Future<void> speakannihilate(String languageCode) async {
     // DOPSUM: CHANGE speakAnnihilate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryannihilate extends StatelessWidget {
     await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnihilate113(String languageCode) async {
+  Future<void> speakannihilate113(String languageCode) async {
     // DOPSUM: CHANGE speakAnnihilate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryannihilate extends StatelessWidget {
         "The human race has enough weapons to annihilate itself."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnihilate116(String languageCode) async {
+  Future<void> speakannihilate116(String languageCode) async {
     // DOPSUM: CHANGE speakAnnihilate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannihilate extends StatelessWidget {
         "She annihilated her opponent, who failed to win a single game."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannihilate extends StatelessWidget {
   //   await flutterTts.speak("annihilate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnihilate(String languageCode) async {
+  // Future<void> speakannihilate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnihilate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnaɪəleɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnihilate("en-GB"),
+                              onPressed: () => speakannihilate("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnaɪəleɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnihilate("en-US"),
+                              onPressed: () => speakannihilate("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnihilate113("en-GB"),
+                                        speakannihilate113("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnihilate113(
+                                    onPressed: () => speakannihilate113(
                                         // REPLACE: annihilate /əˈnaɪəleɪt/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnnihilate116("en-GB"),
+                                        speakannihilate116("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnihilate116(
+                                    onPressed: () => speakannihilate116(
                                         // REPLACE: annihilate /əˈnaɪəleɪt/
                                         "en-US"),
                                   ),

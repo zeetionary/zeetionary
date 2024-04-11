@@ -11,7 +11,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   EnglishEntryanalogous({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalogous(String languageCode) async {
+  Future<void> speakanalogous(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalogous852401(String languageCode) async {
+  Future<void> speakanalogous852401(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanalogous extends StatelessWidget {
         "Sleep has often been thought of as being in some way analogous to death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalogous8401(String languageCode) async {
+  Future<void> speakanalogous8401(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanalogous extends StatelessWidget {
         "The two situations are roughly analogous."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanalogous extends StatelessWidget {
   //   await flutterTts.speak("analogous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogous(String languageCode) async {
+  // Future<void> speakanalogous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnæləɡəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnalogous("en-GB"),
+                              onPressed: () => speakanalogous("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnæləɡəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnalogous("en-US"),
+                              onPressed: () => speakanalogous("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnalogous852401("en-GB"),
+                                        speakanalogous852401("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalogous852401(
+                                    onPressed: () => speakanalogous852401(
                                         // REPLACE: analogous /əˈnæləɡəs/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnalogous8401("en-GB"),
+                                        speakanalogous8401("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalogous8401(
+                                    onPressed: () => speakanalogous8401(
                                         // REPLACE: analogous /əˈnæləɡəs/
                                         "en-US"),
                                   ),

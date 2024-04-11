@@ -11,7 +11,7 @@ class EnglishEntryafoot extends StatelessWidget {
   EnglishEntryafoot({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfoot(String languageCode) async {
+  Future<void> speakafoot(String languageCode) async {
     // DOPSUM: CHANGE speakAfoot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafoot extends StatelessWidget {
     await flutterTts.speak("afoot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfoo4599(String languageCode) async {
+  Future<void> speakafoo4599(String languageCode) async {
     // DOPSUM: CHANGE speakAfoot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryafoot extends StatelessWidget {
         "There are plans afoot to increase taxation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfoot(String languageCode) async {
+  // Future<void> speakafoot(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfoot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryafoot extends StatelessWidget {
   //   await flutterTts.speak("afoot"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAfoot(String languageCode) async {
+  // Future<void> speakafoot(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfoot
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryafoot extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfoot("en-GB"),
+                              onPressed: () => speakafoot("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryafoot extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfoot("en-US"),
+                              onPressed: () => speakafoot("en-US"),
                             ),
                           ],
                         ),
@@ -130,11 +130,11 @@ class EnglishEntryafoot extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfoo4599("en-GB"),
+                                    onPressed: () => speakafoo4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAfoo4599(// REPLACE: afoot /əˈfʊt/
+                                        speakafoo4599(// REPLACE: afoot /əˈfʊt/
                                             "en-US"),
                                   ),
                                 ],

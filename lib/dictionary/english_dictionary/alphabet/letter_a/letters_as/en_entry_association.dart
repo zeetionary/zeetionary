@@ -19,7 +19,7 @@ class EnglishEntryassociation extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssociation(String languageCode) async {
+  Future<void> speakassociation(String languageCode) async {
     // DOPSUM: CHANGE speakAssociation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassociation extends StatelessWidget {
     await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociation1201(String languageCode) async {
+  Future<void> speakassociation1201(String languageCode) async {
     // DOPSUM: CHANGE speakAssociation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassociation extends StatelessWidget {
         "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociation1205(String languageCode) async {
+  Future<void> speakassociation1205(String languageCode) async {
     // DOPSUM: CHANGE speakAssociation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassociation extends StatelessWidget {
         "They have maintained a close association with a college in the US."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociation1209(String languageCode) async {
+  Future<void> speakassociation1209(String languageCode) async {
     // DOPSUM: CHANGE speakAssociation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassociation extends StatelessWidget {
         "You should teach the child to form an association between good behaviour and rewards."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssociation1212(String languageCode) async {
+  Future<void> speakassociation1212(String languageCode) async {
     // DOPSUM: CHANGE speakAssociation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassociation extends StatelessWidget {
         "The research showed an association between diet and various diseases."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssociation(String languageCode) async {
+  // Future<void> speakassociation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssociation(String languageCode) async {
+  // Future<void> speakassociation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssociation(String languageCode) async {
+  // Future<void> speakassociation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryassociation extends StatelessWidget {
   //   await flutterTts.speak("association"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssociation(String languageCode) async {
+  // Future<void> speakassociation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssociation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssociation("en-GB"),
+                              onPressed: () => speakassociation("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssociation("en-US"),
+                              onPressed: () => speakassociation("en-US"),
                             ),
                           ],
                         ),
@@ -188,10 +188,10 @@ class EnglishEntryassociation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociation1201("en-GB"),
+                                        speakassociation1201("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociation1201(
+                                    onPressed: () => speakassociation1201(
                                         // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
@@ -222,10 +222,10 @@ class EnglishEntryassociation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociation1205("en-GB"),
+                                        speakassociation1205("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociation1205(
+                                    onPressed: () => speakassociation1205(
                                         // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
@@ -256,10 +256,10 @@ class EnglishEntryassociation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociation1209("en-GB"),
+                                        speakassociation1209("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociation1209(
+                                    onPressed: () => speakassociation1209(
                                         // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),
@@ -290,10 +290,10 @@ class EnglishEntryassociation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssociation1212("en-GB"),
+                                        speakassociation1212("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssociation1212(
+                                    onPressed: () => speakassociation1212(
                                         // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
                                         "en-US"),
                                   ),

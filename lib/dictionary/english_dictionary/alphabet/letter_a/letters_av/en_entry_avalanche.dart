@@ -19,7 +19,7 @@ class EnglishEntryavalanche extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvalanche(String languageCode) async {
+  Future<void> speakavalanche(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavalanche extends StatelessWidget {
     await flutterTts.speak("avalanche"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches1(String languageCode) async {
+  Future<void> speakavalanches1(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavalanche extends StatelessWidget {
         "He was killed in an avalanche while skiing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches2(String languageCode) async {
+  Future<void> speakavalanches2(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavalanche extends StatelessWidget {
         "The issue has generated an avalanche of controversy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches3(String languageCode) async {
+  Future<void> speakavalanches3(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryavalanche extends StatelessWidget {
     await flutterTts.speak("speakAvalanches3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches4(String languageCode) async {
+  Future<void> speakavalanches4(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryavalanche extends StatelessWidget {
     await flutterTts.speak("speakAvalanches4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches5(String languageCode) async {
+  Future<void> speakavalanches5(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryavalanche extends StatelessWidget {
     await flutterTts.speak("speakAvalanches5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches6(String languageCode) async {
+  Future<void> speakavalanches6(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryavalanche extends StatelessWidget {
     await flutterTts.speak("speakAvalanches6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvalanches7(String languageCode) async {
+  Future<void> speakavalanches7(String languageCode) async {
     // DOPSUM: CHANGE speakAvalanche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævəlɑːnʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvalanche("en-GB"),
+                              onPressed: () => speakavalanche("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævəlæntʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvalanche("en-US"),
+                              onPressed: () => speakavalanche("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntryavalanche extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvalanches1("en-GB"),
+                                    onPressed: () => speakavalanches1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvalanches1(// REPLACE: avalanche
+                                        speakavalanches1(// REPLACE: avalanche
                                             "en-US"),
                                   ),
                                 ],
@@ -208,10 +208,10 @@ class EnglishEntryavalanche extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvalanches2("en-GB"),
+                                    onPressed: () => speakavalanches2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAvalanches2(
+                                    onPressed: () => speakavalanches2(
                                         // REPLACE: avalanche
                                         "en-US"),
                                   ),

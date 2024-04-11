@@ -11,7 +11,7 @@ class EnglishEntryace extends StatelessWidget {
   EnglishEntryace({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAce(String languageCode) async {
+  Future<void> speakace(String languageCode) async {
     // DOPSUM: CHANGE speakAce
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryace extends StatelessWidget {
     await flutterTts.speak("ace"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA256981(String languageCode) async {
+  Future<void> speaka256981(String languageCode) async {
     // DOPSUM: CHANGE speakAce
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryace extends StatelessWidget {
     await flutterTts.speak("He aced all his tests."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA82694(String languageCode) async {
+  Future<void> speaka82694(String languageCode) async {
     // DOPSUM: CHANGE speakAce
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryace extends StatelessWidget {
         .speak("French ace Mbappé scored a penalty."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA12748(String languageCode) async {
+  Future<void> speaka12748(String languageCode) async {
     // DOPSUM: CHANGE speakAce
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryace extends StatelessWidget {
         .speak("He served 20 aces in the match."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA19437(String languageCode) async {
+  Future<void> speaka19437(String languageCode) async {
     // DOPSUM: CHANGE speakAce
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryace extends StatelessWidget {
     await flutterTts.speak("We had an ace time."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAce(String languageCode) async {
+  // Future<void> speakace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAce
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryace extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eɪs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAce("en-GB"),
+                              onPressed: () => speakace("en-GB"),
                             ),
                           ],
                         ),
@@ -98,7 +98,7 @@ class EnglishEntryace extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAce("en-US"),
+                              onPressed: () => speakace("en-US"),
                             ),
                           ],
                         ),
@@ -146,11 +146,11 @@ class EnglishEntryace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA256981("en-GB"),
+                                    onPressed: () => speaka256981("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA256981("en-US"), // REPLACE ace
+                                        speaka256981("en-US"), // REPLACE ace
                                   ),
                                 ],
                               ),
@@ -180,11 +180,11 @@ class EnglishEntryace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA82694("en-GB"),
+                                    onPressed: () => speaka82694("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA82694("en-US"), // REPLACE ace
+                                        speaka82694("en-US"), // REPLACE ace
                                   ),
                                 ],
                               ),
@@ -211,11 +211,11 @@ class EnglishEntryace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA12748("en-GB"),
+                                    onPressed: () => speaka12748("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA12748("en-US"), // REPLACE ace
+                                        speaka12748("en-US"), // REPLACE ace
                                   ),
                                 ],
                               ),
@@ -240,11 +240,11 @@ class EnglishEntryace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA19437("en-GB"),
+                                    onPressed: () => speaka19437("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA19437("en-US"), // REPLACE ace
+                                        speaka19437("en-US"), // REPLACE ace
                                   ),
                                 ],
                               ),

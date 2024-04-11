@@ -12,7 +12,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   EnglishEntryanorexianervosa({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorexianervosa(String languageCode) async {
+  Future<void> speakanorexianervosa(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexianervosa
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
     await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexia848(String languageCode) async {
+  Future<void> speakanorexia848(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
         "Reports of anorexia nervosa and other eating disorders are on the increase."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   //   await flutterTts.speak("anorexia nervosa"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexianervosa(String languageCode) async {
+  // Future<void> speakanorexianervosa(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexianervosa
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˌreksiə nɜːˈvəʊsə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnorexianervosa("en-GB"),
+                              onPressed: () => speakanorexianervosa("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˌreksiə nɜːrˈvəʊsə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorexianervosa("en-US"),
+                              onPressed: () => speakanorexianervosa("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnorexia848("en-GB"),
+                                    onPressed: () => speakanorexia848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnorexia848(
+                                    onPressed: () => speakanorexia848(
                                         // REPLACE: anorexia /ˌænəˈreksiə/
                                         "en-US"),
                                   ),

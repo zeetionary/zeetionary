@@ -19,7 +19,7 @@ class EnglishEntryatm extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtm(String languageCode) async {
+  Future<void> speakatm(String languageCode) async {
     // DOPSUM: CHANGE speakAtm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatm extends StatelessWidget {
     await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtm1109(String languageCode) async {
+  Future<void> speakatm1109(String languageCode) async {
     // DOPSUM: CHANGE speakAtm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatm extends StatelessWidget {
         "I need to find an ATM to withdraw some cash before the store closes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatm extends StatelessWidget {
   //   await flutterTts.speak("ATM"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtm(String languageCode) async {
+  // Future<void> speakatm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryatm extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪ tiː ˈem/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtm("en-GB"),
+                              onPressed: () => speakatm("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryatm extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪ tiː ˈem/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtm("en-US"),
+                              onPressed: () => speakatm("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryatm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtm1109("en-GB"),
+                                    onPressed: () => speakatm1109("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtm1109(// REPLACE: ATM
+                                        speakatm1109(// REPLACE: ATM
                                             "en-US"),
                                   ),
                                 ],

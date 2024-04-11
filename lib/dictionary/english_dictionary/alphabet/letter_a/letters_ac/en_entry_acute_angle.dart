@@ -11,7 +11,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
   EnglishEntryacuteangle({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteangle(String languageCode) async {
+  Future<void> speakacuteangle(String languageCode) async {
     // DOPSUM: CHANGE speakAcuteangle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
     await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
+  // Future<void> speakacuteangle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteangle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
   //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
+  // Future<void> speakacuteangle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteangle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
   //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
+  // Future<void> speakacuteangle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteangle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkjuːt ˈæŋɡl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteangle("en-GB"),
+                              onPressed: () => speakacuteangle("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkjuːt ˈæŋɡl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteangle("en-US"),
+                              onPressed: () => speakacuteangle("en-US"),
                             ),
                           ],
                         ),

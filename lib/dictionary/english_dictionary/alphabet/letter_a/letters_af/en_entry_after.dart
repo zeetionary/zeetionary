@@ -11,7 +11,7 @@ class EnglishEntryafter extends StatelessWidget {
   EnglishEntryafter({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfter(String languageCode) async {
+  Future<void> speakafter(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.speak("after"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter157(String languageCode) async {
+  Future<void> speakafter157(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.speak("We'll leave after lunch."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter2499(String languageCode) async {
+  Future<void> speakafter2499(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryafter extends StatelessWidget {
         "After winning the prize she became famous overnight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter4888(String languageCode) async {
+  Future<void> speakafter4888(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryafter extends StatelessWidget {
         "Your name comes after mine in the list."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter4666(String languageCode) async {
+  Future<void> speakafter4666(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryafter extends StatelessWidget {
         .speak("He's the tallest, after Richard."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter7928(String languageCode) async {
+  Future<void> speakafter7928(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.speak("Shut the door after you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter4855(String languageCode) async {
+  Future<void> speakafter4855(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryafter extends StatelessWidget {
         "It was pleasantly cool in the house after the heat outside."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter5622(String languageCode) async {
+  Future<void> speakafter5622(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryafter extends StatelessWidget {
         "I'll never forgive him after what he said."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter96771(String languageCode) async {
+  Future<void> speakafter96771(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryafter extends StatelessWidget {
         "I can't believe she'd do that, not after all I've done for her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter152888(String languageCode) async {
+  Future<void> speakafter152888(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntryafter extends StatelessWidget {
         "I've told you time after time not to do that."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter1255(String languageCode) async {
+  Future<void> speakafter1255(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.speak("The police are after him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter945111(String languageCode) async {
+  Future<void> speakafter945111(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.speak("She asked after you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter459322(String languageCode) async {
+  Future<void> speakafter459322(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryafter extends StatelessWidget {
         "We named the baby Ena after her grandmother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAft2566(String languageCode) async {
+  Future<void> speakaft2566(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntryafter extends StatelessWidget {
         "I'll call you after I've spoken to them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfte499352(String languageCode) async {
+  Future<void> speakafte499352(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -141,7 +141,7 @@ class EnglishEntryafter extends StatelessWidget {
         "Several years after they'd split up they met again by chance in Paris."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfte98332(String languageCode) async {
+  Future<void> speakafte98332(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -150,7 +150,7 @@ class EnglishEntryafter extends StatelessWidget {
         "I could come next week, or the week after."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfter5355(String languageCode) async {
+  Future<void> speakafter5355(String languageCode) async {
     // DOPSUM: CHANGE speakAfter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -159,7 +159,7 @@ class EnglishEntryafter extends StatelessWidget {
         .speak("In after years we never heard from him"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfter(String languageCode) async {
+  // Future<void> speakafter(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfter
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -194,7 +194,7 @@ class EnglishEntryafter extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈɑːftə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfter("en-GB"),
+                              onPressed: () => speakafter("en-GB"),
                             ),
                           ],
                         ),
@@ -204,7 +204,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːftər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfter("en-US"),
+                              onPressed: () => speakafter("en-US"),
                             ),
                           ],
                         ),
@@ -251,10 +251,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter157("en-GB"),
+                                    onPressed: () => speakafter157("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter157(
+                                    onPressed: () => speakafter157(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -281,10 +281,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter2499("en-GB"),
+                                    onPressed: () => speakafter2499("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter2499(
+                                    onPressed: () => speakafter2499(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -313,10 +313,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter4888("en-GB"),
+                                    onPressed: () => speakafter4888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter4888(
+                                    onPressed: () => speakafter4888(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -342,10 +342,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter4666("en-GB"),
+                                    onPressed: () => speakafter4666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter4666(
+                                    onPressed: () => speakafter4666(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -372,10 +372,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter7928("en-GB"),
+                                    onPressed: () => speakafter7928("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter7928(
+                                    onPressed: () => speakafter7928(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -404,10 +404,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter4855("en-GB"),
+                                    onPressed: () => speakafter4855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter4855(
+                                    onPressed: () => speakafter4855(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -436,10 +436,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter5622("en-GB"),
+                                    onPressed: () => speakafter5622("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter5622(
+                                    onPressed: () => speakafter5622(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -468,10 +468,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter96771("en-GB"),
+                                    onPressed: () => speakafter96771("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter96771(
+                                    onPressed: () => speakafter96771(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -500,10 +500,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter152888("en-GB"),
+                                    onPressed: () => speakafter152888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter152888(
+                                    onPressed: () => speakafter152888(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -530,10 +530,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter1255("en-GB"),
+                                    onPressed: () => speakafter1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter1255(
+                                    onPressed: () => speakafter1255(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -561,10 +561,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter945111("en-GB"),
+                                    onPressed: () => speakafter945111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter945111(
+                                    onPressed: () => speakafter945111(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -593,10 +593,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter459322("en-GB"),
+                                    onPressed: () => speakafter459322("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter459322(
+                                    onPressed: () => speakafter459322(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -625,11 +625,11 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAft2566("en-GB"),
+                                    onPressed: () => speakaft2566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAft2566(// REPLACE: after /ˈɑːftər/
+                                        speakaft2566(// REPLACE: after /ˈɑːftər/
                                             "en-US"),
                                   ),
                                 ],
@@ -655,10 +655,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfte499352("en-GB"),
+                                    onPressed: () => speakafte499352("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfte499352(
+                                    onPressed: () => speakafte499352(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -687,10 +687,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfte98332("en-GB"),
+                                    onPressed: () => speakafte98332("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfte98332(
+                                    onPressed: () => speakafte98332(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),
@@ -718,10 +718,10 @@ class EnglishEntryafter extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfter5355("en-GB"),
+                                    onPressed: () => speakafter5355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfter5355(
+                                    onPressed: () => speakafter5355(
                                         // REPLACE: after /ˈɑːftər/
                                         "en-US"),
                                   ),

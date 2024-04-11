@@ -11,7 +11,7 @@ class EnglishEntryamid extends StatelessWidget {
   EnglishEntryamid({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmid(String languageCode) async {
+  Future<void> speakamid(String languageCode) async {
     // DOPSUM: CHANGE speakAmid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamid extends StatelessWidget {
     await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmid77744(String languageCode) async {
+  Future<void> speakamid77744(String languageCode) async {
     // DOPSUM: CHANGE speakAmid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamid extends StatelessWidget {
         "He finished his speech amid tremendous applause."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmid7741(String languageCode) async {
+  Future<void> speakamid7741(String languageCode) async {
     // DOPSUM: CHANGE speakAmid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamid extends StatelessWidget {
         "On the floor, amid mounds of books, were two small envelopes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryamid extends StatelessWidget {
   //   await flutterTts.speak("amid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmid(String languageCode) async {
+  // Future<void> speakamid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryamid extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmid("en-GB"),
+                              onPressed: () => speakamid("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryamid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmid("en-US"),
+                              onPressed: () => speakamid("en-US"),
                             ),
                           ],
                         ),
@@ -198,11 +198,11 @@ class EnglishEntryamid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmid77744("en-GB"),
+                                    onPressed: () => speakamid77744("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmid77744(// REPLACE: amid /əˈmɪd/
+                                        speakamid77744(// REPLACE: amid /əˈmɪd/
                                             "en-US"),
                                   ),
                                 ],
@@ -230,11 +230,11 @@ class EnglishEntryamid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmid7741("en-GB"),
+                                    onPressed: () => speakamid7741("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmid7741(// REPLACE: amid /əˈmɪd/
+                                        speakamid7741(// REPLACE: amid /əˈmɪd/
                                             "en-US"),
                                   ),
                                 ],

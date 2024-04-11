@@ -17,7 +17,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApologetic(String languageCode) async {
+  Future<void> speakapologetic(String languageCode) async {
     // DOPSUM: CHANGE speakApologetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapologetic extends StatelessWidget {
     await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApologetic255(String languageCode) async {
+  Future<void> speakapologetic255(String languageCode) async {
     // DOPSUM: CHANGE speakApologetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapologetic extends StatelessWidget {
         "They were very apologetic about the trouble they'd caused."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApologetic256(String languageCode) async {
+  Future<void> speakapologetic256(String languageCode) async {
     // DOPSUM: CHANGE speakApologetic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapologetic extends StatelessWidget {
         "He was profusely apologetic about the mistake."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapologetic extends StatelessWidget {
   //   await flutterTts.speak("apologetic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetic(String languageCode) async {
+  // Future<void> speakapologetic(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpɒləˈdʒetɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApologetic("en-GB"),
+                              onPressed: () => speakapologetic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpɑːləˈdʒetɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApologetic("en-US"),
+                              onPressed: () => speakapologetic("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApologetic255("en-GB"),
+                                        speakapologetic255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApologetic255(
+                                    onPressed: () => speakapologetic255(
                                         // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApologetic256("en-GB"),
+                                        speakapologetic256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApologetic256(
+                                    onPressed: () => speakapologetic256(
                                         // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
                                         "en-US"),
                                   ),

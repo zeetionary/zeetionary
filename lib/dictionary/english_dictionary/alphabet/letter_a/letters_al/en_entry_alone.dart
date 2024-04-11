@@ -11,7 +11,7 @@ class EnglishEntryalone extends StatelessWidget {
   EnglishEntryalone({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlone(String languageCode) async {
+  Future<void> speakalone(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalone extends StatelessWidget {
     await flutterTts.speak("alone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlone1255(String languageCode) async {
+  Future<void> speakalone1255(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalone extends StatelessWidget {
         .speak("She was sitting all alone in the hall."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlone4692(String languageCode) async {
+  Future<void> speakalone4692(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalone extends StatelessWidget {
         .speak("I don't like going out alone at night."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlone9652(String languageCode) async {
+  Future<void> speakalone9652(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalone extends StatelessWidget {
         .speak("Carol felt all alone in the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlone7451(String languageCode) async {
+  Future<void> speakalone7451(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalone extends StatelessWidget {
         "You can't blame anyone else; you alone made the decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlone4598(String languageCode) async {
+  Future<void> speakalone4598(String languageCode) async {
     // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalone extends StatelessWidget {
         .speak("The assassin said he had acted alone."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlone(String languageCode) async {
+  // Future<void> speakalone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryalone extends StatelessWidget {
   //   await flutterTts.speak("alone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlone(String languageCode) async {
+  // Future<void> speakalone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -109,7 +109,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈləʊn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlone("en-GB"),
+                              onPressed: () => speakalone("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈləʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlone("en-US"),
+                              onPressed: () => speakalone("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntryalone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlone1255("en-GB"),
+                                    onPressed: () => speakalone1255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlone1255(
+                                    onPressed: () => speakalone1255(
                                         // REPLACE: alone /əˈləʊn/
                                         "en-US"),
                                   ),
@@ -198,10 +198,10 @@ class EnglishEntryalone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlone4692("en-GB"),
+                                    onPressed: () => speakalone4692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlone4692(
+                                    onPressed: () => speakalone4692(
                                         // REPLACE: alone /əˈləʊn/
                                         "en-US"),
                                   ),
@@ -229,10 +229,10 @@ class EnglishEntryalone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlone4598("en-GB"),
+                                    onPressed: () => speakalone4598("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlone4598(
+                                    onPressed: () => speakalone4598(
                                         // REPLACE: alone /əˈləʊn/
                                         "en-US"),
                                   ),
@@ -261,10 +261,10 @@ class EnglishEntryalone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlone9652("en-GB"),
+                                    onPressed: () => speakalone9652("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlone9652(
+                                    onPressed: () => speakalone9652(
                                         // REPLACE: alone /əˈləʊn/
                                         "en-US"),
                                   ),
@@ -293,10 +293,10 @@ class EnglishEntryalone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlone7451("en-GB"),
+                                    onPressed: () => speakalone7451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlone7451(
+                                    onPressed: () => speakalone7451(
                                         // REPLACE: alone /əˈləʊn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
   EnglishEntryaftereffect({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAftereffect(String languageCode) async {
+  Future<void> speakaftereffect(String languageCode) async {
     // DOPSUM: CHANGE speakAftereffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
     await flutterTts.speak("aftereffect"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAftere3599(String languageCode) async {
+  Future<void> speakaftere3599(String languageCode) async {
     // DOPSUM: CHANGE speakAftereffect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
         "Headaches are an aftereffect of this sort of accident."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAftereffect(String languageCode) async {
+  // Future<void> speakaftereffect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAftereffect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
   //   await flutterTts.speak("aftereffect"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAftereffect(String languageCode) async {
+  // Future<void> speakaftereffect(String languageCode) async {
   //   // DOPSUM: CHANGE speakAftereffect
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈɑːftər ɪfekt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAftereffect("en-GB"),
+                              onPressed: () => speakaftereffect("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːftər ɪfekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAftereffect("en-US"),
+                              onPressed: () => speakaftereffect("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaftereffect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAftere3599("en-GB"),
+                                    onPressed: () => speakaftere3599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAftere3599(
+                                    onPressed: () => speakaftere3599(
                                         // REPLACE: aftereffect /ˈɑːftər ɪfekt/
                                         "en-US"),
                                   ),

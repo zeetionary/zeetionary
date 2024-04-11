@@ -19,7 +19,7 @@ class EnglishEntrybecome extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBecome(String languageCode) async {
+  Future<void> speakbecome(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.speak("become"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes1(String languageCode) async {
+  Future<void> speakbecomes1(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybecome extends StatelessWidget {
         "It soon became apparent that no one was going to come."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes2(String languageCode) async {
+  Future<void> speakbecomes2(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybecome extends StatelessWidget {
         "When did you first become aware of the problem?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes3(String languageCode) async {
+  Future<void> speakbecomes3(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.speak("She became queen in 1952."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes4(String languageCode) async {
+  Future<void> speakbecomes4(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybecome extends StatelessWidget {
         .speak("His job has become his whole life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes5(String languageCode) async {
+  Future<void> speakbecomes5(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybecome extends StatelessWidget {
         .speak("Such behaviour did not become her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes6(String languageCode) async {
+  Future<void> speakbecomes6(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybecome extends StatelessWidget {
         .speak("Short hair really becomes you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBecomes7(String languageCode) async {
+  Future<void> speakbecomes7(String languageCode) async {
     // DOPSUM: CHANGE speakBecome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈkʌm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBecome("en-GB"),
+                              onPressed: () => speakbecome("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈkʌm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBecome("en-US"),
+                              onPressed: () => speakbecome("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes1("en-GB"),
+                                    onPressed: () => speakbecomes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes1("en-US"),
+                                    onPressed: () => speakbecomes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes2("en-GB"),
+                                    onPressed: () => speakbecomes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes2("en-US"),
+                                    onPressed: () => speakbecomes2("en-US"),
                                   ),
                                 ],
                               ),
@@ -227,10 +227,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes3("en-GB"),
+                                    onPressed: () => speakbecomes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes3("en-US"),
+                                    onPressed: () => speakbecomes3("en-US"),
                                   ),
                                 ],
                               ),
@@ -255,10 +255,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes4("en-GB"),
+                                    onPressed: () => speakbecomes4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes4("en-US"),
+                                    onPressed: () => speakbecomes4("en-US"),
                                   ),
                                 ],
                               ),
@@ -285,10 +285,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes5("en-GB"),
+                                    onPressed: () => speakbecomes5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes5("en-US"),
+                                    onPressed: () => speakbecomes5("en-US"),
                                   ),
                                 ],
                               ),
@@ -314,10 +314,10 @@ class EnglishEntrybecome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBecomes6("en-GB"),
+                                    onPressed: () => speakbecomes6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBecomes6("en-US"),
+                                    onPressed: () => speakbecomes6("en-US"),
                                   ),
                                 ],
                               ),

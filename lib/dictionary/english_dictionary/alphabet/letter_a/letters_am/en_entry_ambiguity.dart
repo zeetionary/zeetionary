@@ -11,7 +11,7 @@ class EnglishEntryambiguity extends StatelessWidget {
   EnglishEntryambiguity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbiguity(String languageCode) async {
+  Future<void> speakambiguity(String languageCode) async {
     // DOPSUM: CHANGE speakAmbiguity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryambiguity extends StatelessWidget {
     await flutterTts.speak("ambiguity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbiguity23555(String languageCode) async {
+  Future<void> speakambiguity23555(String languageCode) async {
     // DOPSUM: CHANGE speakAmbiguity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryambiguity extends StatelessWidget {
         "Write clear definitions in order to avoid ambiguity."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmbiguity(String languageCode) async {
+  // Future<void> speakambiguity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbiguity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryambiguity extends StatelessWidget {
   //   await flutterTts.speak("ambiguity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmbiguity(String languageCode) async {
+  // Future<void> speakambiguity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmbiguity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryambiguity extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmbɪˈɡjuːəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbiguity("en-GB"),
+                              onPressed: () => speakambiguity("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryambiguity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmbɪˈɡjuːəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbiguity("en-US"),
+                              onPressed: () => speakambiguity("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryambiguity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmbiguity23555("en-GB"),
+                                        speakambiguity23555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmbiguity23555(
+                                    onPressed: () => speakambiguity23555(
                                         // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
                                         "en-US"),
                                   ),

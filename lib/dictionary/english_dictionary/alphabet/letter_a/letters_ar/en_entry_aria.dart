@@ -17,7 +17,7 @@ class EnglishEntryaria extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAria(String languageCode) async {
+  Future<void> speakaria(String languageCode) async {
     // DOPSUM: CHANGE speakAria
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaria extends StatelessWidget {
     await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAria1117(String languageCode) async {
+  Future<void> speakaria1117(String languageCode) async {
     // DOPSUM: CHANGE speakAria
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaria extends StatelessWidget {
         "Such was the enthusiasm that you might have thought that the singer had just sung an aria."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaria extends StatelessWidget {
   //   await flutterTts.speak("aria"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAria(String languageCode) async {
+  // Future<void> speakaria(String languageCode) async {
   //   // DOPSUM: CHANGE speakAria
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaria extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːriə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAria("en-GB"),
+                              onPressed: () => speakaria("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaria extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːriə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAria("en-US"),
+                              onPressed: () => speakaria("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryaria extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAria1117("en-GB"),
+                                    onPressed: () => speakaria1117("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAria1117(// REPLACE: aria /ˈɑːriə/
+                                        speakaria1117(// REPLACE: aria /ˈɑːriə/
                                             "en-US"),
                                   ),
                                 ],

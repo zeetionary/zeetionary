@@ -19,7 +19,7 @@ class EnglishEntrybilge extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBilge(String languageCode) async {
+  Future<void> speakbilge(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("bilge"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges1(String languageCode) async {
+  Future<void> speakbilges1(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybilge extends StatelessWidget {
         "The bilges had been pumped and the ship was ready to set sail once again."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges2(String languageCode) async {
+  Future<void> speakbilges2(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("Don't talk such bilge!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges3(String languageCode) async {
+  Future<void> speakbilges3(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("speakBilges33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges4(String languageCode) async {
+  Future<void> speakbilges4(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("speakBilges44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges5(String languageCode) async {
+  Future<void> speakbilges5(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("speakBilges55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges6(String languageCode) async {
+  Future<void> speakbilges6(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybilge extends StatelessWidget {
     await flutterTts.speak("speakBilges66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBilges7(String languageCode) async {
+  Future<void> speakbilges7(String languageCode) async {
     // DOPSUM: CHANGE speakBilge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybilge extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪldʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBilge("en-GB"),
+                              onPressed: () => speakbilge("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybilge extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪldʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBilge("en-US"),
+                              onPressed: () => speakbilge("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybilge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilges1("en-GB"),
+                                    onPressed: () => speakbilges1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilges1("en-US"),
+                                    onPressed: () => speakbilges1("en-US"),
                                   ),
                                 ],
                               ),
@@ -198,10 +198,10 @@ class EnglishEntrybilge extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBilges2("en-GB"),
+                                    onPressed: () => speakbilges2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBilges2("en-US"),
+                                    onPressed: () => speakbilges2("en-US"),
                                   ),
                                 ],
                               ),

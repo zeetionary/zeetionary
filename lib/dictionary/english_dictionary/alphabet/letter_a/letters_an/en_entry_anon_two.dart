@@ -12,7 +12,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   EnglishEntryanontwo({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnontwo(String languageCode) async {
+  Future<void> speakanontwo(String languageCode) async {
     // DOPSUM: CHANGE speakAnontwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanontwo extends StatelessWidget {
     await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnontwo1022(String languageCode) async {
+  Future<void> speakanontwo1022(String languageCode) async {
     // DOPSUM: CHANGE speakAnontwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanontwo extends StatelessWidget {
         "The money was donated by a local businessman who wishes to remain anon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnontwo1026(String languageCode) async {
+  Future<void> speakanontwo1026(String languageCode) async {
     // DOPSUM: CHANGE speakAnontwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanontwo extends StatelessWidget {
         "He received an anon. letter threatening to disclose details of his affair if he didn't pay the money."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   //   await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   //   await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   //   await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   //   await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanontwo extends StatelessWidget {
   //   await flutterTts.speak("anon."); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnontwo(String languageCode) async {
+  // Future<void> speakanontwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnontwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanontwo extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnontwo("en-GB"),
+                              onPressed: () => speakanontwo("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanontwo extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnontwo("en-US"),
+                              onPressed: () => speakanontwo("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryanontwo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnontwo1022("en-GB"),
+                                    onPressed: () => speakanontwo1022("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnontwo1022(
+                                    onPressed: () => speakanontwo1022(
                                         // REPLACE: anon. /əˈnɑːnɪməs/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryanontwo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnontwo1026("en-GB"),
+                                    onPressed: () => speakanontwo1026("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnontwo1026(
+                                    onPressed: () => speakanontwo1026(
                                         // REPLACE: anon. /əˈnɑːnɪməs/
                                         "en-US"),
                                   ),

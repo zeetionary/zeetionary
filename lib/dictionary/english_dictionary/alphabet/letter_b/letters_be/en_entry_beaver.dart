@@ -19,7 +19,7 @@ class EnglishEntrybeaver extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeaver(String languageCode) async {
+  Future<void> speakbeaver(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeaver extends StatelessWidget {
     await flutterTts.speak("beaver"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers1(String languageCode) async {
+  Future<void> speakbeavers1(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeaver extends StatelessWidget {
         "Beavers are excellent swimmers and use their broad, flat tails to propel themselves through the water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers2(String languageCode) async {
+  Future<void> speakbeavers2(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeaver extends StatelessWidget {
         "In the past, beaver fur was used to make hats, coats, and other garments."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers3(String languageCode) async {
+  Future<void> speakbeavers3(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeaver extends StatelessWidget {
         "He was staring at her beaver the whole time."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers4(String languageCode) async {
+  Future<void> speakbeavers4(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybeaver extends StatelessWidget {
     await flutterTts.speak("speakBeavers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers5(String languageCode) async {
+  Future<void> speakbeavers5(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybeaver extends StatelessWidget {
     await flutterTts.speak("speakBeavers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers6(String languageCode) async {
+  Future<void> speakbeavers6(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybeaver extends StatelessWidget {
     await flutterTts.speak("speakBeavers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeavers7(String languageCode) async {
+  Future<void> speakbeavers7(String languageCode) async {
     // DOPSUM: CHANGE speakBeaver
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybeaver extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːvə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeaver("en-GB"),
+                              onPressed: () => speakbeaver("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybeaver extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːvər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeaver("en-US"),
+                              onPressed: () => speakbeaver("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybeaver extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeavers1("en-GB"),
+                                    onPressed: () => speakbeavers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeavers1("en-US"),
+                                    onPressed: () => speakbeavers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybeaver extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeavers2("en-GB"),
+                                    onPressed: () => speakbeavers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeavers2("en-US"),
+                                    onPressed: () => speakbeavers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybeaver extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeavers3("en-GB"),
+                                    onPressed: () => speakbeavers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeavers3("en-US"),
+                                    onPressed: () => speakbeavers3("en-US"),
                                   ),
                                 ],
                               ),

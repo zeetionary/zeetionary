@@ -11,7 +11,7 @@ class EnglishEntryaffinity extends StatelessWidget {
   EnglishEntryaffinity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffinity(String languageCode) async {
+  Future<void> speakaffinity(String languageCode) async {
     // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffinity extends StatelessWidget {
     await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffi5699(String languageCode) async {
+  Future<void> speakaffi5699(String languageCode) async {
     // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffinity extends StatelessWidget {
         "Sam was born in the country and had a deep affinity with nature."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAf155(String languageCode) async {
+  Future<void> speakaf155(String languageCode) async {
     // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffinity extends StatelessWidget {
         "Humans have a special affinity for dolphins."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffinity145(String languageCode) async {
+  Future<void> speakaffinity145(String languageCode) async {
     // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaffinity extends StatelessWidget {
         "There is a close affinity between Italian and Spanish."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffinity(String languageCode) async {
+  // Future<void> speakaffinity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffinity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaffinity extends StatelessWidget {
   //   await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffinity(String languageCode) async {
+  // Future<void> speakaffinity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffinity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɪnəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffinity("en-GB"),
+                              onPressed: () => speakaffinity("en-GB"),
                             ),
                           ],
                         ),
@@ -99,7 +99,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɪnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffinity("en-US"),
+                              onPressed: () => speakaffinity("en-US"),
                             ),
                           ],
                         ),
@@ -150,10 +150,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffi5699("en-GB"),
+                                    onPressed: () => speakaffi5699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffi5699(
+                                    onPressed: () => speakaffi5699(
                                         // REPLACE: affinity /əˈfɪnəti/
                                         "en-US"),
                                   ),
@@ -180,10 +180,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAf155("en-GB"),
+                                    onPressed: () => speakaf155("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAf155(
+                                    onPressed: () => speakaf155(
                                         // REPLACE: affinity /əˈfɪnəti/
                                         "en-US"),
                                   ),
@@ -212,10 +212,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffinity145("en-GB"),
+                                    onPressed: () => speakaffinity145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffinity145(
+                                    onPressed: () => speakaffinity145(
                                         // REPLACE: affinity /əˈfɪnəti/
                                         "en-US"),
                                   ),

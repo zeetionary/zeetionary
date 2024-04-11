@@ -19,7 +19,7 @@ class EnglishEntryassume extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssume(String languageCode) async {
+  Future<void> speakassume(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssume843(String languageCode) async {
+  Future<void> speakassume843(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassume extends StatelessWidget {
         "It's probably safe to assume (that) we'll be hearing more about this story."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssume844(String languageCode) async {
+  Future<void> speakassume844(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassume extends StatelessWidget {
         "Let us assume for a moment that the plan succeeds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssume846(String languageCode) async {
+  Future<void> speakassume846(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryassume extends StatelessWidget {
         "Rebel forces have assumed control of the capital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssume848(String languageCode) async {
+  Future<void> speakassume848(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryassume extends StatelessWidget {
         "In the story the god assumes the form of an eagle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssume851(String languageCode) async {
+  Future<void> speakassume851(String languageCode) async {
     // DOPSUM: CHANGE speakAssume
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryassume extends StatelessWidget {
         "Moving to a different town, he assumed a false name."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssume(String languageCode) async {
+  // Future<void> speakassume(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssume
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryassume extends StatelessWidget {
   //   await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssume(String languageCode) async {
+  // Future<void> speakassume(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssume
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryassume extends StatelessWidget {
   //   await flutterTts.speak("assume"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssume(String languageCode) async {
+  // Future<void> speakassume(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssume
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryassume extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsjuːm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssume("en-GB"),
+                              onPressed: () => speakassume("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryassume extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsuːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssume("en-US"),
+                              onPressed: () => speakassume("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryassume extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssume843("en-GB"),
+                                    onPressed: () => speakassume843("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssume843(
+                                    onPressed: () => speakassume843(
                                         // REPLACE: assume /əˈsuːm/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryassume extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssume844("en-GB"),
+                                    onPressed: () => speakassume844("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssume844(
+                                    onPressed: () => speakassume844(
                                         // REPLACE: assume /əˈsuːm/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryassume extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssume846("en-GB"),
+                                    onPressed: () => speakassume846("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssume846(
+                                    onPressed: () => speakassume846(
                                         // REPLACE: assume /əˈsuːm/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryassume extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssume848("en-GB"),
+                                    onPressed: () => speakassume848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssume848(
+                                    onPressed: () => speakassume848(
                                         // REPLACE: assume /əˈsuːm/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryassume extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssume851("en-GB"),
+                                    onPressed: () => speakassume851("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssume851(
+                                    onPressed: () => speakassume851(
                                         // REPLACE: assume /əˈsuːm/
                                         "en-US"),
                                   ),

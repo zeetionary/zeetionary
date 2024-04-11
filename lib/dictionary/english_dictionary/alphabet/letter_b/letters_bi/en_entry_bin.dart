@@ -19,7 +19,7 @@ class EnglishEntrybin extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBin(String languageCode) async {
+  Future<void> speakbin(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybin extends StatelessWidget {
     await flutterTts.speak("bin"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins1(String languageCode) async {
+  Future<void> speakbins1(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybin extends StatelessWidget {
         .speak("Put the bottles in the recycling bin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins2(String languageCode) async {
+  Future<void> speakbins2(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybin extends StatelessWidget {
         "All their toys are kept in plastic storage bins under the bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins3(String languageCode) async {
+  Future<void> speakbins3(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybin extends StatelessWidget {
     await flutterTts.speak("speakBins33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins4(String languageCode) async {
+  Future<void> speakbins4(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybin extends StatelessWidget {
     await flutterTts.speak("speakBins44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins5(String languageCode) async {
+  Future<void> speakbins5(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybin extends StatelessWidget {
     await flutterTts.speak("speakBins55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins6(String languageCode) async {
+  Future<void> speakbins6(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybin extends StatelessWidget {
     await flutterTts.speak("speakBins66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins7(String languageCode) async {
+  Future<void> speakbins7(String languageCode) async {
     // DOPSUM: CHANGE speakBin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBin("en-GB"),
+                              onPressed: () => speakbin("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybin extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBin("en-US"),
+                              onPressed: () => speakbin("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBins1("en-GB"),
+                                    onPressed: () => speakbins1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBins1("en-US"),
+                                    onPressed: () => speakbins1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybin extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBins2("en-GB"),
+                                    onPressed: () => speakbins2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBins2("en-US"),
+                                    onPressed: () => speakbins2("en-US"),
                                   ),
                                 ],
                               ),

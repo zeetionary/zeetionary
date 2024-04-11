@@ -17,7 +17,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApologetically(String languageCode) async {
+  Future<void> speakapologetically(String languageCode) async {
     // DOPSUM: CHANGE speakApologetically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapologetically extends StatelessWidget {
     await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApologetically512(String languageCode) async {
+  Future<void> speakapologetically512(String languageCode) async {
     // DOPSUM: CHANGE speakApologetically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapologetically extends StatelessWidget {
         "‘I'm sorry I'm late,’ he murmured apologetically."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapologetically extends StatelessWidget {
   //   await flutterTts.speak("apologetically"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApologetically(String languageCode) async {
+  // Future<void> speakapologetically(String languageCode) async {
   //   // DOPSUM: CHANGE speakApologetically
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpɒləˈdʒetɪkli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApologetically("en-GB"),
+                              onPressed: () => speakapologetically("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpɑːləˈdʒetɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApologetically("en-US"),
+                              onPressed: () => speakapologetically("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApologetically512("en-GB"),
+                                        speakapologetically512("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApologetically512(
+                                    onPressed: () => speakapologetically512(
                                         // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
                                         "en-US"),
                                   ),

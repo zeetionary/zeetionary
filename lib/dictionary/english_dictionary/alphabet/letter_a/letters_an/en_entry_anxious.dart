@@ -15,7 +15,7 @@ class EnglishEntryanxious extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnxious(String languageCode) async {
+  Future<void> speakanxious(String languageCode) async {
     // DOPSUM: CHANGE speakAnxious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanxious extends StatelessWidget {
     await flutterTts.speak("anxious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxious733(String languageCode) async {
+  Future<void> speakanxious733(String languageCode) async {
     // DOPSUM: CHANGE speakAnxious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryanxious extends StatelessWidget {
         "The bus was late and Sue began to get anxious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxious735(String languageCode) async {
+  Future<void> speakanxious735(String languageCode) async {
     // DOPSUM: CHANGE speakAnxious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryanxious extends StatelessWidget {
         "I felt very anxious and depressed about the future."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxious738(String languageCode) async {
+  Future<void> speakanxious738(String languageCode) async {
     // DOPSUM: CHANGE speakAnxious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryanxious extends StatelessWidget {
         "There were a few anxious moments in the baseball game."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxious743(String languageCode) async {
+  Future<void> speakanxious743(String languageCode) async {
     // DOPSUM: CHANGE speakAnxious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryanxious extends StatelessWidget {
         "She was anxious to finish school and get a job."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnxious(String languageCode) async {
+  // Future<void> speakanxious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryanxious extends StatelessWidget {
   //   await flutterTts.speak("anxious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxious(String languageCode) async {
+  // Future<void> speakanxious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryanxious extends StatelessWidget {
   //   await flutterTts.speak("anxious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxious(String languageCode) async {
+  // Future<void> speakanxious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryanxious extends StatelessWidget {
   //   await flutterTts.speak("anxious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxious(String languageCode) async {
+  // Future<void> speakanxious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnxious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryanxious extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋkʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnxious("en-GB"),
+                              onPressed: () => speakanxious("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryanxious extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋkʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnxious("en-US"),
+                              onPressed: () => speakanxious("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryanxious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxious733("en-GB"),
+                                    onPressed: () => speakanxious733("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxious733(
+                                    onPressed: () => speakanxious733(
                                         // REPLACE: anxious /ˈæŋkʃəs/
                                         "en-US"),
                                   ),
@@ -212,10 +212,10 @@ class EnglishEntryanxious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxious735("en-GB"),
+                                    onPressed: () => speakanxious735("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxious735(
+                                    onPressed: () => speakanxious735(
                                         // REPLACE: anxious /ˈæŋkʃəs/
                                         "en-US"),
                                   ),
@@ -245,10 +245,10 @@ class EnglishEntryanxious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxious738("en-GB"),
+                                    onPressed: () => speakanxious738("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxious738(
+                                    onPressed: () => speakanxious738(
                                         // REPLACE: anxious /ˈæŋkʃəs/
                                         "en-US"),
                                   ),
@@ -278,10 +278,10 @@ class EnglishEntryanxious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnxious743("en-GB"),
+                                    onPressed: () => speakanxious743("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnxious743(
+                                    onPressed: () => speakanxious743(
                                         // REPLACE: anxious /ˈæŋkʃəs/
                                         "en-US"),
                                   ),

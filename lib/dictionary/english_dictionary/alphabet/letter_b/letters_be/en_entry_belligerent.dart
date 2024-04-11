@@ -19,7 +19,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelligerent(String languageCode) async {
+  Future<void> speakbelligerent(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
     await flutterTts.speak("belligerent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents1(String languageCode) async {
+  Future<void> speakbelligerents1(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
         "He is always very belligerent towards me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents2(String languageCode) async {
+  Future<void> speakbelligerents2(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
         "The belligerent countries are having difficulties funding the war."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents3(String languageCode) async {
+  Future<void> speakbelligerents3(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
         "Wars often end in partition treaties in which territory is divided among the belligerents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents4(String languageCode) async {
+  Future<void> speakbelligerents4(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
     await flutterTts.speak("speakBelligerents44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents5(String languageCode) async {
+  Future<void> speakbelligerents5(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
     await flutterTts.speak("speakBelligerents55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents6(String languageCode) async {
+  Future<void> speakbelligerents6(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
     await flutterTts.speak("speakBelligerents66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelligerents7(String languageCode) async {
+  Future<void> speakbelligerents7(String languageCode) async {
     // DOPSUM: CHANGE speakBelligerent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bəˈlɪdʒərənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelligerent("en-GB"),
+                              onPressed: () => speakbelligerent("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈlɪdʒərənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelligerent("en-US"),
+                              onPressed: () => speakbelligerent("en-US"),
                             ),
                           ],
                         ),
@@ -170,11 +170,11 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBelligerents1("en-GB"),
+                                        speakbelligerents1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBelligerents1("en-US"),
+                                        speakbelligerents1("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,11 +203,11 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBelligerents2("en-GB"),
+                                        speakbelligerents2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBelligerents2("en-US"),
+                                        speakbelligerents2("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,11 +236,11 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBelligerents3("en-GB"),
+                                        speakbelligerents3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBelligerents3("en-US"),
+                                        speakbelligerents3("en-US"),
                                   ),
                                 ],
                               ),

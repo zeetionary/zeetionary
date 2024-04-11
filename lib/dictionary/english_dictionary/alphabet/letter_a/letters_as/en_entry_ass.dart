@@ -19,7 +19,7 @@ class EnglishEntryass extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAss(String languageCode) async {
+  Future<void> speakass(String languageCode) async {
     // DOPSUM: CHANGE speakAss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryass extends StatelessWidget {
     await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAss834(String languageCode) async {
+  Future<void> speakass834(String languageCode) async {
     // DOPSUM: CHANGE speakAss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryass extends StatelessWidget {
         "She was wearing tight jeans that showed off her ass."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAss837(String languageCode) async {
+  Future<void> speakass837(String languageCode) async {
     // DOPSUM: CHANGE speakAss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryass extends StatelessWidget {
     await flutterTts.speak("Don't be such an ass!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAss842(String languageCode) async {
+  Future<void> speakass842(String languageCode) async {
     // DOPSUM: CHANGE speakAss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryass extends StatelessWidget {
         "The farmer loaded the hay onto the ass's back."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAss(String languageCode) async {
+  // Future<void> speakass(String languageCode) async {
   //   // DOPSUM: CHANGE speakAss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryass extends StatelessWidget {
   //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAss(String languageCode) async {
+  // Future<void> speakass(String languageCode) async {
   //   // DOPSUM: CHANGE speakAss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryass extends StatelessWidget {
   //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAss(String languageCode) async {
+  // Future<void> speakass(String languageCode) async {
   //   // DOPSUM: CHANGE speakAss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryass extends StatelessWidget {
   //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAss(String languageCode) async {
+  // Future<void> speakass(String languageCode) async {
   //   // DOPSUM: CHANGE speakAss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryass extends StatelessWidget {
   //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAss(String languageCode) async {
+  // Future<void> speakass(String languageCode) async {
   //   // DOPSUM: CHANGE speakAss
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryass extends StatelessWidget {
                                 text:
                                     "IpaUK: /æs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAss("en-GB"),
+                              onPressed: () => speakass("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryass extends StatelessWidget {
                                 text:
                                     "IpaUS: /æs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAss("en-US"),
+                              onPressed: () => speakass("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAss834("en-GB"),
+                                    onPressed: () => speakass834("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAss834(// REPLACE: arse /ɑːrs/
+                                        speakass834(// REPLACE: arse /ɑːrs/
                                             "en-US"),
                                   ),
                                 ],
@@ -214,11 +214,11 @@ class EnglishEntryass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAss837("en-GB"),
+                                    onPressed: () => speakass837("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAss837(// REPLACE: arse /ɑːrs/
+                                        speakass837(// REPLACE: arse /ɑːrs/
                                             "en-US"),
                                   ),
                                 ],
@@ -247,11 +247,11 @@ class EnglishEntryass extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAss842("en-GB"),
+                                    onPressed: () => speakass842("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAss842(// REPLACE: arse /ɑːrs/
+                                        speakass842(// REPLACE: arse /ɑːrs/
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryaltar extends StatelessWidget {
   EnglishEntryaltar({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltar(String languageCode) async {
+  Future<void> speakaltar(String languageCode) async {
     // DOPSUM: CHANGE speakAltar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaltar extends StatelessWidget {
     await flutterTts.speak("altar"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltar45966(String languageCode) async {
+  Future<void> speakaltar45966(String languageCode) async {
     // DOPSUM: CHANGE speakAltar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaltar extends StatelessWidget {
         "He built an altar to God and made a sacrifice."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltar(String languageCode) async {
+  // Future<void> speakaltar(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltar
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaltar extends StatelessWidget {
   //   await flutterTts.speak("altar"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAltar(String languageCode) async {
+  // Future<void> speakaltar(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltar
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaltar extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːltə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltar("en-GB"),
+                              onPressed: () => speakaltar("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaltar extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːltər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltar("en-US"),
+                              onPressed: () => speakaltar("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryaltar extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAltar45966("en-GB"),
+                                    onPressed: () => speakaltar45966("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltar45966(
+                                    onPressed: () => speakaltar45966(
                                         // REPLACE: altar /ˈɔːltər/
                                         "en-US"),
                                   ),

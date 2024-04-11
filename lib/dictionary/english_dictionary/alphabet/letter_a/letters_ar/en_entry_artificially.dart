@@ -19,7 +19,7 @@ class EnglishEntryartificially extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtificially(String languageCode) async {
+  Future<void> speakartificially(String languageCode) async {
     // DOPSUM: CHANGE speakArtificially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartificially extends StatelessWidget {
     await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificially954(String languageCode) async {
+  Future<void> speakartificially954(String languageCode) async {
     // DOPSUM: CHANGE speakArtificially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartificially extends StatelessWidget {
         "Most mushrooms sold in supermarkets have been grown artificially in manure."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificially956(String languageCode) async {
+  Future<void> speakartificially956(String languageCode) async {
     // DOPSUM: CHANGE speakArtificially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryartificially extends StatelessWidget {
         "They are keeping their prices artificially low."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryartificially extends StatelessWidget {
   //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryartificially extends StatelessWidget {
   //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryartificially extends StatelessWidget {
   //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryartificially extends StatelessWidget {
   //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryartificially extends StatelessWidget {
   //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtificially(String languageCode) async {
+  // Future<void> speakartificially(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryartificially extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːtɪˈfɪʃəli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtificially("en-GB"),
+                              onPressed: () => speakartificially("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryartificially extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrtɪˈfɪʃəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtificially("en-US"),
+                              onPressed: () => speakartificially("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryartificially extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtificially954("en-GB"),
+                                        speakartificially954("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificially954(
+                                    onPressed: () => speakartificially954(
                                         // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryartificially extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtificially956("en-GB"),
+                                        speakartificially956("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificially956(
+                                    onPressed: () => speakartificially956(
                                         // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
                                         "en-US"),
                                   ),

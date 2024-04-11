@@ -19,7 +19,7 @@ class EnglishEntryball extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBall(String languageCode) async {
+  Future<void> speakball(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryball extends StatelessWidget {
     await flutterTts.speak("ball"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls1(String languageCode) async {
+  Future<void> speakballs1(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryball extends StatelessWidget {
         .speak("He kicked the ball into the net."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls2(String languageCode) async {
+  Future<void> speakballs2(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryball extends StatelessWidget {
         "The little girl curled into a ball in her mother's arms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls3(String languageCode) async {
+  Future<void> speakballs3(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryball extends StatelessWidget {
         .speak("That's a great ball from Kane."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls4(String languageCode) async {
+  Future<void> speakballs4(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryball extends StatelessWidget {
         "The ball of the hand is the fleshy part at the base of the thumb."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls5(String languageCode) async {
+  Future<void> speakballs5(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryball extends StatelessWidget {
         .speak("He noticed a lump in his left ball."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls6(String languageCode) async {
+  Future<void> speakballs6(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryball extends StatelessWidget {
     await flutterTts.speak("She met him at the ball."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalls7(String languageCode) async {
+  Future<void> speakballs7(String languageCode) async {
     // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryball extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɔːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBall("en-GB"),
+                              onPressed: () => speakball("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryball extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBall("en-US"),
+                              onPressed: () => speakball("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls1("en-GB"),
+                                    onPressed: () => speakballs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls1(// REPLACE: ball
+                                        speakballs1(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -211,11 +211,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls2("en-GB"),
+                                    onPressed: () => speakballs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls2(// REPLACE: ball
+                                        speakballs2(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls3("en-GB"),
+                                    onPressed: () => speakballs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls3(// REPLACE: ball
+                                        speakballs3(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -279,11 +279,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls4("en-GB"),
+                                    onPressed: () => speakballs4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls4(// REPLACE: ball
+                                        speakballs4(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -312,11 +312,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls5("en-GB"),
+                                    onPressed: () => speakballs5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls5(// REPLACE: ball
+                                        speakballs5(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -343,11 +343,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls6("en-GB"),
+                                    onPressed: () => speakballs6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls6(// REPLACE: ball
+                                        speakballs6(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],
@@ -374,11 +374,11 @@ class EnglishEntryball extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalls7("en-GB"),
+                                    onPressed: () => speakballs7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalls7(// REPLACE: ball
+                                        speakballs7(// REPLACE: ball
                                             "en-US"),
                                   ),
                                 ],

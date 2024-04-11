@@ -17,7 +17,7 @@ class EnglishEntryapproach extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApproach(String languageCode) async {
+  Future<void> speakapproach(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapproach extends StatelessWidget {
     await flutterTts.speak("approach"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1026(String languageCode) async {
+  Future<void> speakapproach1026(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "She took the wrong approach in her dealings with them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1028(String languageCode) async {
+  Future<void> speakapproach1028(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "The approach they were using no longer seemed to work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1030(String languageCode) async {
+  Future<void> speakapproach1030(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "They felt apprehensive about the approach of war."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1031(String languageCode) async {
+  Future<void> speakapproach1031(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "The children fell silent at the approach of their teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1034(String languageCode) async {
+  Future<void> speakapproach1034(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "The club has made an approach to a local company for sponsorship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1038(String languageCode) async {
+  Future<void> speakapproach1038(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "She resented his persistent approaches."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1039(String languageCode) async {
+  Future<void> speakapproach1039(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "All the approaches to the palace were guarded by troops."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1044(String languageCode) async {
+  Future<void> speakapproach1044(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "Please fasten your seat belts, the plane is now making its final approach into Heathrow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1047(String languageCode) async {
+  Future<void> speakapproach1047(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryapproach extends StatelessWidget {
         .speak("We could hear the train approaching."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1048(String languageCode) async {
+  Future<void> speakapproach1048(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryapproach extends StatelessWidget {
     await flutterTts.speak("Winter is approaching."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1050(String languageCode) async {
+  Future<void> speakapproach1050(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1053(String languageCode) async {
+  Future<void> speakapproach1053(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntryapproach extends StatelessWidget {
         .speak("Interest rates are approaching zero."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproach1055(String languageCode) async {
+  Future<void> speakapproach1055(String languageCode) async {
     // DOPSUM: CHANGE speakApproach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -141,7 +141,7 @@ class EnglishEntryapproach extends StatelessWidget {
         "What's the best way to approach this problem?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApproach(String languageCode) async {
+  // Future<void> speakapproach(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproach
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -149,7 +149,7 @@ class EnglishEntryapproach extends StatelessWidget {
   //   await flutterTts.speak("approach"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproach(String languageCode) async {
+  // Future<void> speakapproach(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproach
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -157,7 +157,7 @@ class EnglishEntryapproach extends StatelessWidget {
   //   await flutterTts.speak("approach"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproach(String languageCode) async {
+  // Future<void> speakapproach(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproach
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -195,7 +195,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprəʊtʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproach("en-GB"),
+                              onPressed: () => speakapproach("en-GB"),
                             ),
                           ],
                         ),
@@ -205,7 +205,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprəʊtʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproach("en-US"),
+                              onPressed: () => speakapproach("en-US"),
                             ),
                           ],
                         ),
@@ -254,10 +254,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1026("en-GB"),
+                                    onPressed: () => speakapproach1026("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1026(
+                                    onPressed: () => speakapproach1026(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -285,10 +285,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1028("en-GB"),
+                                    onPressed: () => speakapproach1028("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1028(
+                                    onPressed: () => speakapproach1028(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -318,10 +318,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1030("en-GB"),
+                                    onPressed: () => speakapproach1030("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1030(
+                                    onPressed: () => speakapproach1030(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -349,10 +349,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1031("en-GB"),
+                                    onPressed: () => speakapproach1031("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1031(
+                                    onPressed: () => speakapproach1031(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -382,10 +382,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1034("en-GB"),
+                                    onPressed: () => speakapproach1034("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1034(
+                                    onPressed: () => speakapproach1034(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -415,10 +415,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1038("en-GB"),
+                                    onPressed: () => speakapproach1038("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1038(
+                                    onPressed: () => speakapproach1038(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -448,10 +448,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1039("en-GB"),
+                                    onPressed: () => speakapproach1039("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1039(
+                                    onPressed: () => speakapproach1039(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -481,10 +481,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1044("en-GB"),
+                                    onPressed: () => speakapproach1044("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1044(
+                                    onPressed: () => speakapproach1044(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -514,10 +514,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1047("en-GB"),
+                                    onPressed: () => speakapproach1047("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1047(
+                                    onPressed: () => speakapproach1047(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -543,10 +543,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1048("en-GB"),
+                                    onPressed: () => speakapproach1048("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1048(
+                                    onPressed: () => speakapproach1048(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -576,10 +576,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1050("en-GB"),
+                                    onPressed: () => speakapproach1050("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1050(
+                                    onPressed: () => speakapproach1050(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -609,10 +609,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1053("en-GB"),
+                                    onPressed: () => speakapproach1053("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1053(
+                                    onPressed: () => speakapproach1053(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),
@@ -642,10 +642,10 @@ class EnglishEntryapproach extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApproach1055("en-GB"),
+                                    onPressed: () => speakapproach1055("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproach1055(
+                                    onPressed: () => speakapproach1055(
                                         // REPLACE: approach /əˈprəʊtʃ/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryacrid extends StatelessWidget {
   EnglishEntryacrid({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAacrid(String languageCode) async {
+  Future<void> speakaacrid(String languageCode) async {
     // DOPSUM: CHANGE speakAacrid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacrid extends StatelessWidget {
     await flutterTts.speak("acrid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAac4281id(String languageCode) async {
+  Future<void> speakaac4281id(String languageCode) async {
     // DOPSUM: CHANGE speakAacrid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacrid extends StatelessWidget {
         .speak("acrid smoke from burning tyres"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAacrid(String languageCode) async {
+  // Future<void> speakaacrid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAacrid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacrid extends StatelessWidget {
   //   await flutterTts.speak("acrid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAacrid(String languageCode) async {
+  // Future<void> speakaacrid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAacrid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacrid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækrɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAacrid("en-GB"),
+                              onPressed: () => speakaacrid("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacrid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækrɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAacrid("en-US"),
+                              onPressed: () => speakaacrid("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryacrid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAac4281id("en-GB"),
+                                    onPressed: () => speakaac4281id("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAac4281id(
+                                    onPressed: () => speakaac4281id(
                                         "en-US"), // REPLACE acrid /ˈækrɪd/
                                   ),
                                 ],

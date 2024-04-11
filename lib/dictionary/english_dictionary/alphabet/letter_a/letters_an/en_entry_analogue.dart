@@ -11,7 +11,7 @@ class EnglishEntryanalogue extends StatelessWidget {
   EnglishEntryanalogue({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalogue(String languageCode) async {
+  Future<void> speakanalogue(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanalogue extends StatelessWidget {
     await flutterTts.speak("analogue"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalogue85096(String languageCode) async {
+  Future<void> speakanalogue85096(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanalogue extends StatelessWidget {
         "This is the standard method used to convert analogue signals to digital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalogue79005(String languageCode) async {
+  Future<void> speakanalogue79005(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanalogue extends StatelessWidget {
         "She still uses an old-fashioned analogue alarm clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalogue8506(String languageCode) async {
+  Future<void> speakanalogue8506(String languageCode) async {
     // DOPSUM: CHANGE speakAnalogue
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanalogue extends StatelessWidget {
         "Scientists are attempting to compare features of extinct animals with living analogues."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalogue(String languageCode) async {
+  // Future<void> speakanalogue(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogue
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanalogue extends StatelessWidget {
   //   await flutterTts.speak("analogue"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogue(String languageCode) async {
+  // Future<void> speakanalogue(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogue
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanalogue extends StatelessWidget {
   //   await flutterTts.speak("analogue"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogue(String languageCode) async {
+  // Future<void> speakanalogue(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogue
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanalogue extends StatelessWidget {
   //   await flutterTts.speak("analogue"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogue(String languageCode) async {
+  // Future<void> speakanalogue(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogue
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanalogue extends StatelessWidget {
   //   await flutterTts.speak("analogue"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalogue(String languageCode) async {
+  // Future<void> speakanalogue(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnalogue
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəlɒɡ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnalogue("en-GB"),
+                              onPressed: () => speakanalogue("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəlɔːɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnalogue("en-US"),
+                              onPressed: () => speakanalogue("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnalogue85096("en-GB"),
+                                        speakanalogue85096("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalogue85096(
+                                    onPressed: () => speakanalogue85096(
                                         // REPLACE: analogue /ˈænəlɔːɡ/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnalogue79005("en-GB"),
+                                        speakanalogue79005("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalogue79005(
+                                    onPressed: () => speakanalogue79005(
                                         // REPLACE: analogue /ˈænəlɔːɡ/
                                         "en-US"),
                                   ),
@@ -244,10 +244,10 @@ class EnglishEntryanalogue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnalogue8506("en-GB"),
+                                    onPressed: () => speakanalogue8506("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnalogue8506(
+                                    onPressed: () => speakanalogue8506(
                                         // REPLACE: analogue /ˈænəlɔːɡ/
                                         "en-US"),
                                   ),

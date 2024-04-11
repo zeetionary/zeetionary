@@ -19,7 +19,7 @@ class EnglishEntrybiological extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiological(String languageCode) async {
+  Future<void> speakbiological(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiological extends StatelessWidget {
     await flutterTts.speak("biological"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals1(String languageCode) async {
+  Future<void> speakbiologicals1(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiological extends StatelessWidget {
         .speak("Eating is a biological necessity!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals2(String languageCode) async {
+  Future<void> speakbiologicals2(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybiological extends StatelessWidget {
         "The biological effects of radiation can cause cancer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals3(String languageCode) async {
+  Future<void> speakbiologicals3(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybiological extends StatelessWidget {
         "She decided to search for her biological mother after her adoptive parents died."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals4(String languageCode) async {
+  Future<void> speakbiologicals4(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybiological extends StatelessWidget {
     await flutterTts.speak("speakBiologicals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals5(String languageCode) async {
+  Future<void> speakbiologicals5(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybiological extends StatelessWidget {
     await flutterTts.speak("speakBiologicals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals6(String languageCode) async {
+  Future<void> speakbiologicals6(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybiological extends StatelessWidget {
     await flutterTts.speak("speakBiologicals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicals7(String languageCode) async {
+  Future<void> speakbiologicals7(String languageCode) async {
     // DOPSUM: CHANGE speakBiological
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybiological extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪəˈlɒdʒɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiological("en-GB"),
+                              onPressed: () => speakbiological("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybiological extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪəˈlɑːdʒɪkl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiological("en-US"),
+                              onPressed: () => speakbiological("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybiological extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiologicals1("en-GB"),
+                                    onPressed: () => speakbiologicals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiologicals1("en-US"),
+                                    onPressed: () => speakbiologicals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybiological extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiologicals2("en-GB"),
+                                    onPressed: () => speakbiologicals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiologicals2("en-US"),
+                                    onPressed: () => speakbiologicals2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybiological extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiologicals3("en-GB"),
+                                    onPressed: () => speakbiologicals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiologicals3("en-US"),
+                                    onPressed: () => speakbiologicals3("en-US"),
                                   ),
                                 ],
                               ),
@@ -255,10 +255,10 @@ class EnglishEntrybiological extends StatelessWidget {
 //                                   text: "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
 //                               const CustomSizedBoxForTTS(),
 //                               CustomIconButtonBritish(
-//                                 onPressed: () => speakBiologicals4("en-GB"),
+//                                 onPressed: () => speakbiologicals4("en-GB"),
 //                               ),
 //                               CustomIconButtonAmerican(
-//                                 onPressed: () => speakBiologicals4("en-US"),
+//                                 onPressed: () => speakbiologicals4("en-US"),
 //                               ),
 //                             ],
 //                           ),

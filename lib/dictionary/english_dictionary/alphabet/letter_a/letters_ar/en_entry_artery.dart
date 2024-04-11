@@ -19,7 +19,7 @@ class EnglishEntryartery extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtery(String languageCode) async {
+  Future<void> speakartery(String languageCode) async {
     // DOPSUM: CHANGE speakArtery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartery extends StatelessWidget {
     await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtery148(String languageCode) async {
+  Future<void> speakartery148(String languageCode) async {
     // DOPSUM: CHANGE speakArtery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartery extends StatelessWidget {
         "Hardening of the coronary arteries can lead to a heart attack."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryartery extends StatelessWidget {
   //   await flutterTts.speak("artery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtery(String languageCode) async {
+  // Future<void> speakartery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryartery extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtery("en-GB"),
+                              onPressed: () => speakartery("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryartery extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtery("en-US"),
+                              onPressed: () => speakartery("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryartery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtery148("en-GB"),
+                                    onPressed: () => speakartery148("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtery148(
+                                    onPressed: () => speakartery148(
                                         // REPLACE: artery /ˈɑːrtəri/
                                         "en-US"),
                                   ),

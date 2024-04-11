@@ -11,7 +11,7 @@ class EnglishEntryangel extends StatelessWidget {
   EnglishEntryangel({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAngel(String languageCode) async {
+  Future<void> speakangel(String languageCode) async {
     // DOPSUM: CHANGE speakAngel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngel405(String languageCode) async {
+  Future<void> speakangel405(String languageCode) async {
     // DOPSUM: CHANGE speakAngel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryangel extends StatelessWidget {
     await flutterTts.speak("She looks like an angel."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngel407(String languageCode) async {
+  Future<void> speakangel407(String languageCode) async {
     // DOPSUM: CHANGE speakAngel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryangel extends StatelessWidget {
         "She wore a white costume with big furry angel wings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngel9963(String languageCode) async {
+  Future<void> speakangel9963(String languageCode) async {
     // DOPSUM: CHANGE speakAngel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryangel extends StatelessWidget {
         .speak("Mary’s children are little angels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngel4850(String languageCode) async {
+  Future<void> speakangel4850(String languageCode) async {
     // DOPSUM: CHANGE speakAngel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryangel extends StatelessWidget {
         .speak("Thanks Dad, you're an angel."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAngel(String languageCode) async {
+  // Future<void> speakangel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngel(String languageCode) async {
+  // Future<void> speakangel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngel(String languageCode) async {
+  // Future<void> speakangel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryangel extends StatelessWidget {
   //   await flutterTts.speak("angel"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAngel(String languageCode) async {
+  // Future<void> speakangel(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngel
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryangel extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪndʒl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAngel("en-GB"),
+                              onPressed: () => speakangel("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryangel extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪndʒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAngel("en-US"),
+                              onPressed: () => speakangel("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryangel extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngel405("en-GB"),
+                                    onPressed: () => speakangel405("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngel405(
+                                    onPressed: () => speakangel405(
                                         // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
                                   ),
@@ -205,10 +205,10 @@ class EnglishEntryangel extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngel407("en-GB"),
+                                    onPressed: () => speakangel407("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngel407(
+                                    onPressed: () => speakangel407(
                                         // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
                                   ),
@@ -238,10 +238,10 @@ class EnglishEntryangel extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngel9963("en-GB"),
+                                    onPressed: () => speakangel9963("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngel9963(
+                                    onPressed: () => speakangel9963(
                                         // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
                                   ),
@@ -269,10 +269,10 @@ class EnglishEntryangel extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngel4850("en-GB"),
+                                    onPressed: () => speakangel4850("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngel4850(
+                                    onPressed: () => speakangel4850(
                                         // REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
                                   ),

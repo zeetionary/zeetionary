@@ -17,7 +17,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArmchair(String languageCode) async {
+  Future<void> speakarmchair(String languageCode) async {
     // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarmchair extends StatelessWidget {
     await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmchair356(String languageCode) async {
+  Future<void> speakarmchair356(String languageCode) async {
     // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarmchair extends StatelessWidget {
         "He eased himself into the big armchair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArmchair400(String languageCode) async {
+  Future<void> speakarmchair400(String languageCode) async {
     // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarmchair extends StatelessWidget {
         "While fewer people are attending football matches, armchair viewers are growing in number."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarmchair extends StatelessWidget {
   //   await flutterTts.speak("armchair"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArmchair(String languageCode) async {
+  // Future<void> speakarmchair(String languageCode) async {
   //   // DOPSUM: CHANGE speakArmchair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmtʃeə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmchair("en-GB"),
+                              onPressed: () => speakarmchair("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmtʃer/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmchair("en-US"),
+                              onPressed: () => speakarmchair("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarmchair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmchair356("en-GB"),
+                                    onPressed: () => speakarmchair356("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmchair356(
+                                    onPressed: () => speakarmchair356(
                                         // REPLACE: armchair /ˈɑːrmtʃer/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryarmchair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArmchair400("en-GB"),
+                                    onPressed: () => speakarmchair400("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArmchair400(
+                                    onPressed: () => speakarmchair400(
                                         // REPLACE: armchair /ˈɑːrmtʃer/
                                         "en-US"),
                                   ),

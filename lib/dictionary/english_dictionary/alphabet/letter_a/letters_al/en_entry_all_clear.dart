@@ -11,7 +11,7 @@ class EnglishEntryallclear extends StatelessWidget {
   EnglishEntryallclear({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllclear(String languageCode) async {
+  Future<void> speakallclear(String languageCode) async {
     // DOPSUM: CHANGE speakAllclear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallclear extends StatelessWidget {
     await flutterTts.speak("all-clear"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllclear37455(String languageCode) async {
+  Future<void> speakallclear37455(String languageCode) async {
     // DOPSUM: CHANGE speakAllclear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallclear extends StatelessWidget {
         "The children hid in the basement until the all-clear sounded."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllclear24121(String languageCode) async {
+  Future<void> speakallclear24121(String languageCode) async {
     // DOPSUM: CHANGE speakAllclear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallclear extends StatelessWidget {
         "The building was given the all-clear following tests."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllclear385796(String languageCode) async {
+  Future<void> speakallclear385796(String languageCode) async {
     // DOPSUM: CHANGE speakAllclear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                 text:
                                     "IpaUK: /ði ˌɔːl ˈklɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllclear("en-GB"),
+                              onPressed: () => speakallclear("en-GB"),
                             ),
                           ],
                         ),
@@ -86,7 +86,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                 text:
                                     "IpaUS: /ði ˌɔːl ˈklɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllclear("en-US"),
+                              onPressed: () => speakallclear("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryallclear extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllclear37455("en-GB"),
+                                        speakallclear37455("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllclear37455(
+                                    onPressed: () => speakallclear37455(
                                         // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
                                         "en-US"),
                                   ),
@@ -166,10 +166,10 @@ class EnglishEntryallclear extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllclear24121("en-GB"),
+                                        speakallclear24121("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllclear24121(
+                                    onPressed: () => speakallclear24121(
                                         // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
                                         "en-US"),
                                   ),
@@ -199,10 +199,10 @@ class EnglishEntryallclear extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllclear385796("en-GB"),
+                                        speakallclear385796("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllclear385796(
+                                    onPressed: () => speakallclear385796(
                                         // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
                                         "en-US"),
                                   ),

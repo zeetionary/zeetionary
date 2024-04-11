@@ -19,7 +19,7 @@ class EnglishEntryband extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBand(String languageCode) async {
+  Future<void> speakband(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryband extends StatelessWidget {
     await flutterTts.speak("band"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands1(String languageCode) async {
+  Future<void> speakbands1(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryband extends StatelessWidget {
         "He plays drums in a band that he formed with some friends."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands2(String languageCode) async {
+  Future<void> speakbands2(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryband extends StatelessWidget {
         "He persuaded a small band of volunteers to help."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands3(String languageCode) async {
+  Future<void> speakbands3(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryband extends StatelessWidget {
         "All babies in the hospital have name bands on their wrists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands4(String languageCode) async {
+  Future<void> speakbands4(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryband extends StatelessWidget {
         "The light had expanded in a broad band across the sky."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands5(String languageCode) async {
+  Future<void> speakbands5(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryband extends StatelessWidget {
         "Short-wave radio uses the 20–50-metre band."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands6(String languageCode) async {
+  Future<void> speakbands6(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryband extends StatelessWidget {
         .speak("Which tax band do you fall into?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands7(String languageCode) async {
+  Future<void> speakbands7(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryband extends StatelessWidget {
         "We banded the birds put bands around so that we could identify them later."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands8(String languageCode) async {
+  Future<void> speakbands8(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntryband extends StatelessWidget {
         .speak("Tax is banded according to income."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBands9(String languageCode) async {
+  Future<void> speakbands9(String languageCode) async {
     // DOPSUM: CHANGE speakBand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryband extends StatelessWidget {
                                 text:
                                     "IpaUK: /bænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBand("en-GB"),
+                              onPressed: () => speakband("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryband extends StatelessWidget {
                                 text:
                                     "IpaUS: /bænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBand("en-US"),
+                              onPressed: () => speakband("en-US"),
                             ),
                           ],
                         ),
@@ -198,11 +198,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands1("en-GB"),
+                                    onPressed: () => speakbands1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands1(// REPLACE: band
+                                        speakbands1(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -231,11 +231,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands2("en-GB"),
+                                    onPressed: () => speakbands2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands2(// REPLACE: band
+                                        speakbands2(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -264,11 +264,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands3("en-GB"),
+                                    onPressed: () => speakbands3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands3(// REPLACE: band
+                                        speakbands3(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -297,11 +297,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands4("en-GB"),
+                                    onPressed: () => speakbands4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands4(// REPLACE: band
+                                        speakbands4(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -330,11 +330,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands5("en-GB"),
+                                    onPressed: () => speakbands5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands5(// REPLACE: band
+                                        speakbands5(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -363,11 +363,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands6("en-GB"),
+                                    onPressed: () => speakbands6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands6(// REPLACE: band
+                                        speakbands6(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -396,11 +396,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands7("en-GB"),
+                                    onPressed: () => speakbands7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands7(// REPLACE: band
+                                        speakbands7(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],
@@ -429,11 +429,11 @@ class EnglishEntryband extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBands8("en-GB"),
+                                    onPressed: () => speakbands8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBands8(// REPLACE: band
+                                        speakbands8(// REPLACE: band
                                             "en-US"),
                                   ),
                                 ],

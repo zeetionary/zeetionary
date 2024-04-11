@@ -19,7 +19,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsteroid(String languageCode) async {
+  Future<void> speakasteroid(String languageCode) async {
     // DOPSUM: CHANGE speakAsteroid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasteroid extends StatelessWidget {
     await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsteroid952(String languageCode) async {
+  Future<void> speakasteroid952(String languageCode) async {
     // DOPSUM: CHANGE speakAsteroid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasteroid extends StatelessWidget {
         "Scientists are tracking an asteroid that could potentially impact Earth."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryasteroid extends StatelessWidget {
   //   await flutterTts.speak("asteroid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsteroid(String languageCode) async {
+  // Future<void> speakasteroid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsteroid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryasteroid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstərɔɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsteroid("en-GB"),
+                              onPressed: () => speakasteroid("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryasteroid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstərɔɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsteroid("en-US"),
+                              onPressed: () => speakasteroid("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryasteroid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsteroid952("en-GB"),
+                                    onPressed: () => speakasteroid952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsteroid952(
+                                    onPressed: () => speakasteroid952(
                                         // REPLACE: asteroid /ˈæstərɔɪd/
                                         "en-US"),
                                   ),

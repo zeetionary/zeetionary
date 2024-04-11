@@ -19,7 +19,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssimilation(String languageCode) async {
+  Future<void> speakassimilation(String languageCode) async {
     // DOPSUM: CHANGE speakAssimilation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassimilation extends StatelessWidget {
     await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssimilation833(String languageCode) async {
+  Future<void> speakassimilation833(String languageCode) async {
     // DOPSUM: CHANGE speakAssimilation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassimilation extends StatelessWidget {
         "To thrive in the ever-changing tech landscape"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssimilation835(String languageCode) async {
+  Future<void> speakassimilation835(String languageCode) async {
     // DOPSUM: CHANGE speakAssimilation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassimilation extends StatelessWidget {
         "The assimilation of ethnic Germans in the US was accelerated by the two world wars."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryassimilation extends StatelessWidget {
   //   await flutterTts.speak("assimilation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssimilation(String languageCode) async {
+  // Future<void> speakassimilation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssimilation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌsɪməˈleɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssimilation("en-GB"),
+                              onPressed: () => speakassimilation("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌsɪməˈleɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssimilation("en-US"),
+                              onPressed: () => speakassimilation("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssimilation833("en-GB"),
+                                        speakassimilation833("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssimilation833(
+                                    onPressed: () => speakassimilation833(
                                         // REPLACE: assimilation /əˌsɪməˈleɪʃn/
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAssimilation835("en-GB"),
+                                        speakassimilation835("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssimilation835(
+                                    onPressed: () => speakassimilation835(
                                         // REPLACE: assimilation /əˌsɪməˈleɪʃn/
                                         "en-US"),
                                   ),

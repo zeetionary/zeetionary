@@ -11,7 +11,7 @@ class EnglishEntryacidrain extends StatelessWidget {
   EnglishEntryacidrain({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcidrain(String languageCode) async {
+  Future<void> speakacidrain(String languageCode) async {
     // DOPSUM: CHANGE speakAcidrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacidrain extends StatelessWidget {
     await flutterTts.speak("acid rain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAci1256(String languageCode) async {
+  Future<void> speakaci1256(String languageCode) async {
     // DOPSUM: CHANGE speakAcidrain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacidrain extends StatelessWidget {
         "Sulphur, falling as acid rain, is killing fish in the Great Lakes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcidrain(String languageCode) async {
+  // Future<void> speakacidrain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcidrain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacidrain extends StatelessWidget {
   //   await flutterTts.speak("acid rain"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcidrain(String languageCode) async {
+  // Future<void> speakacidrain(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcidrain
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacidrain extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæsɪd ˈreɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcidrain("en-GB"),
+                              onPressed: () => speakacidrain("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacidrain extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæsɪd ˈreɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcidrain("en-US"),
+                              onPressed: () => speakacidrain("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryacidrain extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAci1256("en-GB"),
+                                    onPressed: () => speakaci1256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAci1256(
+                                    onPressed: () => speakaci1256(
                                         "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
                                   ),
                                 ],

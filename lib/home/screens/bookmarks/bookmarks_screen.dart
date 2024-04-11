@@ -21,8 +21,8 @@ class BookmarksScreen extends StatelessWidget {
             children: [
               CustomTabBarHistory(
                 tabs: [
-                  UkIconForHistoryTab(),
-                  KurdIconForHistoryTab(),
+                  UkIconForBookmarksTab(),
+                  KurdIconForBookmarksTab(),
                 ],
               ),
               Expanded(
@@ -95,36 +95,36 @@ class CustomTabBarHistory extends ConsumerWidget {
   }
 }
 
-class UkIconForHistoryTab extends ConsumerWidget {
-  const UkIconForHistoryTab({
+class UkIconForBookmarksTab extends ConsumerWidget {
+  const UkIconForBookmarksTab({
     super.key,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 15;
+    final textSize = ref.watch(textSizeProvider) + 12;
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 110,
+        width: 100,
         height: textSize,
       ),
     );
   }
 }
 
-class KurdIconForHistoryTab extends ConsumerWidget {
-  const KurdIconForHistoryTab({
+class KurdIconForBookmarksTab extends ConsumerWidget {
+  const KurdIconForBookmarksTab({
     super.key,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 15;
+    final textSize = ref.watch(textSizeProvider) + 12;
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 110,
+        width: 100,
         height: textSize,
       ),
     );

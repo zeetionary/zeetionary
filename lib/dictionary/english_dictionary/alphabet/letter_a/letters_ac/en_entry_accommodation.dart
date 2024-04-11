@@ -11,7 +11,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
   EnglishEntryaccommodation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccommodation(String languageCode) async {
+  Future<void> speakaccommodation(String languageCode) async {
     // DOPSUM: CHANGE speakAccommodation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
     await flutterTts.speak("accommodation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc24995(String languageCode) async {
+  Future<void> speakac24995(String languageCode) async {
     // DOPSUM: CHANGE speakAccommodation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
         "They were forced to reach an accommodation with the rebels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc29968(String languageCode) async {
+  Future<void> speakac29968(String languageCode) async {
     // DOPSUM: CHANGE speakAccommodation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
         "The boat provides overnight accommodations for four adults."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc28874(String languageCode) async {
+  Future<void> speakac28874(String languageCode) async {
     // DOPSUM: CHANGE speakAccommodation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
         "We need more secure accommodation for young prisoners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA25614(String languageCode) async {
+  Future<void> speaka25614(String languageCode) async {
     // DOPSUM: CHANGE speakAccommodation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkɒməˈdeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccommodation("en-GB"),
+                              onPressed: () => speakaccommodation("en-GB"),
                             ),
                           ],
                         ),
@@ -94,7 +94,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkɑːməˈdeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccommodation("en-US"),
+                              onPressed: () => speakaccommodation("en-US"),
                             ),
                           ],
                         ),
@@ -143,10 +143,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA25614("en-GB"),
+                                    onPressed: () => speaka25614("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA25614("en-US"),
+                                    onPressed: () => speaka25614("en-US"),
                                   ),
                                 ],
                               ),
@@ -171,10 +171,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc28874("en-GB"),
+                                    onPressed: () => speakac28874("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc28874("en-US"),
+                                    onPressed: () => speakac28874("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +199,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc29968("en-GB"),
+                                    onPressed: () => speakac29968("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc29968("en-US"),
+                                    onPressed: () => speakac29968("en-US"),
                                   ),
                                 ],
                               ),
@@ -229,10 +229,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc24995("en-GB"),
+                                    onPressed: () => speakac24995("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc24995("en-US"),
+                                    onPressed: () => speakac24995("en-US"),
                                   ),
                                 ],
                               ),

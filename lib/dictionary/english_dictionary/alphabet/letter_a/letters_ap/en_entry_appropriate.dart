@@ -17,7 +17,7 @@ class EnglishEntryappropriate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppropriate(String languageCode) async {
+  Future<void> speakappropriate(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappropriate extends StatelessWidget {
     await flutterTts.speak("appropriate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate348(String languageCode) async {
+  Future<void> speakappropriate348(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "Now that the problem has been identified, appropriate action can be taken."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate351(String languageCode) async {
+  Future<void> speakappropriate351(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "Is now an appropriate time to make a speech?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate352(String languageCode) async {
+  Future<void> speakappropriate352(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "This may be an appropriate treatment for many patients."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate355(String languageCode) async {
+  Future<void> speakappropriate355(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "Some of the opposition party's policies have been appropriated by the government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate357(String languageCode) async {
+  Future<void> speakappropriate357(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "He lost his job when he was found to have appropriated some of the company's money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate400(String languageCode) async {
+  Future<void> speakappropriate400(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "Five million dollars have been appropriated for research into the disease."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriate403(String languageCode) async {
+  Future<void> speakappropriate403(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryappropriate extends StatelessWidget {
         "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppropriate(String languageCode) async {
+  // Future<void> speakappropriate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprəʊpriət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppropriate("en-GB"),
+                              onPressed: () => speakappropriate("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprəʊpriət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppropriate("en-US"),
+                              onPressed: () => speakappropriate("en-US"),
                             ),
                           ],
                         ),
@@ -188,10 +188,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate348("en-GB"),
+                                        speakappropriate348("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate348(
+                                    onPressed: () => speakappropriate348(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -220,10 +220,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate351("en-GB"),
+                                        speakappropriate351("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate351(
+                                    onPressed: () => speakappropriate351(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate352("en-GB"),
+                                        speakappropriate352("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate352(
+                                    onPressed: () => speakappropriate352(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -286,10 +286,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate355("en-GB"),
+                                        speakappropriate355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate355(
+                                    onPressed: () => speakappropriate355(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -318,10 +318,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate357("en-GB"),
+                                        speakappropriate357("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate357(
+                                    onPressed: () => speakappropriate357(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -352,10 +352,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate400("en-GB"),
+                                        speakappropriate400("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate400(
+                                    onPressed: () => speakappropriate400(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),
@@ -386,10 +386,10 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriate403("en-GB"),
+                                        speakappropriate403("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriate403(
+                                    onPressed: () => speakappropriate403(
                                         // REPLACE: appropriate /əˈprəʊpriət/
                                         "en-US"),
                                   ),

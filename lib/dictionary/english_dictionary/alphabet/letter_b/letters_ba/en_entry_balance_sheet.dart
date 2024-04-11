@@ -19,7 +19,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalancesheet(String languageCode) async {
+  Future<void> speakbalancesheet(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("balance sheet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets1(String languageCode) async {
+  Future<void> speakbalancesheets1(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
         "He points out that the company has the strongest balance sheet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets2(String languageCode) async {
+  Future<void> speakbalancesheets2(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("speakBalancesheets22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets3(String languageCode) async {
+  Future<void> speakbalancesheets3(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("speakBalancesheets33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets4(String languageCode) async {
+  Future<void> speakbalancesheets4(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("speakBalancesheets44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets5(String languageCode) async {
+  Future<void> speakbalancesheets5(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("speakBalancesheets55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets6(String languageCode) async {
+  Future<void> speakbalancesheets6(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
     await flutterTts.speak("speakBalancesheets66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalancesheets7(String languageCode) async {
+  Future<void> speakbalancesheets7(String languageCode) async {
     // DOPSUM: CHANGE speakBalancesheet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalancesheet("en-GB"),
+                              onPressed: () => speakbalancesheet("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalancesheet("en-US"),
+                              onPressed: () => speakbalancesheet("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBalancesheets1("en-GB"),
+                                        speakbalancesheets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBalancesheets1(
+                                    onPressed: () => speakbalancesheets1(
                                         // REPLACE: balance sheet
                                         "en-US"),
                                   ),

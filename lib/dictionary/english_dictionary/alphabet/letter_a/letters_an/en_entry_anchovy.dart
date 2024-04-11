@@ -11,7 +11,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   EnglishEntryanchovy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnchovy(String languageCode) async {
+  Future<void> speakanchovy(String languageCode) async {
     // DOPSUM: CHANGE speakAnchovy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanchovy extends StatelessWidget {
     await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchovy502(String languageCode) async {
+  Future<void> speakanchovy502(String languageCode) async {
     // DOPSUM: CHANGE speakAnchovy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanchovy extends StatelessWidget {
         "Decorate the top of the pizza with anchovies/strips of anchovy."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanchovy extends StatelessWidget {
   //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
+  // Future<void> speakanchovy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchovy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntʃəvi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnchovy("en-GB"),
+                              onPressed: () => speakanchovy("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntʃəʊvi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnchovy("en-US"),
+                              onPressed: () => speakanchovy("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntryanchovy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchovy502("en-GB"),
+                                    onPressed: () => speakanchovy502("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchovy502(
+                                    onPressed: () => speakanchovy502(
                                         // REPLACE: anchovy /ˈæntʃəʊvi/
                                         "en-US"),
                                   ),

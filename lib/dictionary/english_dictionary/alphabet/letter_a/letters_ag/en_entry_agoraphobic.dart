@@ -11,7 +11,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
   EnglishEntryagoraphobic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgoraphobic(String languageCode) async {
+  Future<void> speakagoraphobic(String languageCode) async {
     // DOPSUM: CHANGE speakAgoraphobic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
     await flutterTts.speak("agoraphobic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgorap6577(String languageCode) async {
+  Future<void> speakagorap6577(String languageCode) async {
     // DOPSUM: CHANGE speakAgoraphobic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
         "She is agoraphobic and stays inside as much as she can."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgoraphobic(String languageCode) async {
+  // Future<void> speakagoraphobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgoraphobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
   //   await flutterTts.speak("agoraphobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgoraphobic(String languageCode) async {
+  // Future<void> speakagoraphobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgoraphobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡərəˈfəʊbɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgoraphobic("en-GB"),
+                              onPressed: () => speakagoraphobic("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡərəˈfəʊbɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgoraphobic("en-US"),
+                              onPressed: () => speakagoraphobic("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgorap6577("en-GB"),
+                                    onPressed: () => speakagorap6577("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgorap6577(
+                                    onPressed: () => speakagorap6577(
                                         // REPLACE: agoraphobic /ˌæɡərəˈfəʊbɪk/
                                         "en-US"),
                                   ),

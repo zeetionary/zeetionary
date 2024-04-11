@@ -19,7 +19,7 @@ class EnglishEntryattributive extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttributive(String languageCode) async {
+  Future<void> speakattributive(String languageCode) async {
     // DOPSUM: CHANGE speakAttributive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattributive extends StatelessWidget {
     await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttributive1121(String languageCode) async {
+  Future<void> speakattributive1121(String languageCode) async {
     // DOPSUM: CHANGE speakAttributive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattributive extends StatelessWidget {
         "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryattributive extends StatelessWidget {
   //   await flutterTts.speak("attributive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttributive(String languageCode) async {
+  // Future<void> speakattributive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttributive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattributive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtrɪbjətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttributive("en-GB"),
+                              onPressed: () => speakattributive("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattributive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtrɪbjətɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttributive("en-US"),
+                              onPressed: () => speakattributive("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryattributive extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttributive1121("en-GB"),
+                                        speakattributive1121("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttributive1121(
+                                    onPressed: () => speakattributive1121(
                                         // REPLACE: attributive
                                         "en-US"),
                                   ),

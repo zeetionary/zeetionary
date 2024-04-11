@@ -11,7 +11,7 @@ class EnglishEntryaircraft extends StatelessWidget {
   EnglishEntryaircraft({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAircraft(String languageCode) async {
+  Future<void> speakaircraft(String languageCode) async {
     // DOPSUM: CHANGE speakAircraft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaircraft extends StatelessWidget {
     await flutterTts.speak("aircraft"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAircraft32477(String languageCode) async {
+  Future<void> speakaircraft32477(String languageCode) async {
     // DOPSUM: CHANGE speakAircraft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaircraft extends StatelessWidget {
         "The aircraft was flown by a young American pilot."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAircraft3477(String languageCode) async {
+  Future<void> speakaircraft3477(String languageCode) async {
     // DOPSUM: CHANGE speakAircraft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaircraft extends StatelessWidget {
         "The aircraft is due to take off at midnight."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAircraft(String languageCode) async {
+  // Future<void> speakaircraft(String languageCode) async {
   //   // DOPSUM: CHANGE speakAircraft
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəkrɑːft/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAircraft("en-GB"),
+                              onPressed: () => speakaircraft("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerkræft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAircraft("en-US"),
+                              onPressed: () => speakaircraft("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAircraft32477("en-GB"),
+                                        speakaircraft32477("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAircraft32477(
+                                    onPressed: () => speakaircraft32477(
                                         // REPLACE: aircraft /ˈerkræft/
                                         "en-US"),
                                   ),
@@ -158,10 +158,10 @@ class EnglishEntryaircraft extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAircraft3477("en-GB"),
+                                    onPressed: () => speakaircraft3477("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAircraft3477(
+                                    onPressed: () => speakaircraft3477(
                                         // REPLACE: aircraft /ˈerkræft/
                                         "en-US"),
                                   ),

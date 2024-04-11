@@ -17,7 +17,7 @@ class EnglishEntryarcher extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArcher(String languageCode) async {
+  Future<void> speakarcher(String languageCode) async {
     // DOPSUM: CHANGE speakArcher
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarcher extends StatelessWidget {
     await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArcher334(String languageCode) async {
+  Future<void> speakarcher334(String languageCode) async {
     // DOPSUM: CHANGE speakArcher
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarcher extends StatelessWidget {
         .speak("The archer can bend a strong bow."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarcher extends StatelessWidget {
   //   await flutterTts.speak("archer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcher(String languageCode) async {
+  // Future<void> speakarcher(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcher
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarcher extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArcher("en-GB"),
+                              onPressed: () => speakarcher("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarcher extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArcher("en-US"),
+                              onPressed: () => speakarcher("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarcher extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArcher334("en-GB"),
+                                    onPressed: () => speakarcher334("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArcher334(
+                                    onPressed: () => speakarcher334(
                                         // REPLACE: archer /ˈɑːrtʃər/
                                         "en-US"),
                                   ),

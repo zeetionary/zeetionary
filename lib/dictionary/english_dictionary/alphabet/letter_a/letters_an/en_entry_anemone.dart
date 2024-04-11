@@ -11,7 +11,7 @@ class EnglishEntryanemone extends StatelessWidget {
   EnglishEntryanemone({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnemone(String languageCode) async {
+  Future<void> speakanemone(String languageCode) async {
     // DOPSUM: CHANGE speakAnemone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanemone extends StatelessWidget {
     await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnemone588(String languageCode) async {
+  Future<void> speakanemone588(String languageCode) async {
     // DOPSUM: CHANGE speakAnemone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanemone extends StatelessWidget {
         .speak("We saw wild anemones in the woods."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanemone extends StatelessWidget {
   //   await flutterTts.speak("anemone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnemone(String languageCode) async {
+  // Future<void> speakanemone(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnemone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryanemone extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈneməni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnemone("en-GB"),
+                              onPressed: () => speakanemone("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryanemone extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈneməni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnemone("en-US"),
+                              onPressed: () => speakanemone("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanemone extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnemone588("en-GB"),
+                                    onPressed: () => speakanemone588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnemone588(
+                                    onPressed: () => speakanemone588(
                                         // REPLACE: anemone /əˈneməni/
                                         "en-US"),
                                   ),

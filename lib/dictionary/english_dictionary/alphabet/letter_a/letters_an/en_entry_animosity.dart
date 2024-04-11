@@ -11,7 +11,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   EnglishEntryanimosity({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnimosity(String languageCode) async {
+  Future<void> speakanimosity(String languageCode) async {
     // DOPSUM: CHANGE speakAnimosity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanimosity extends StatelessWidget {
     await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimosity1055(String languageCode) async {
+  Future<void> speakanimosity1055(String languageCode) async {
     // DOPSUM: CHANGE speakAnimosity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanimosity extends StatelessWidget {
         "He felt no animosity towards his critics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimosity1057(String languageCode) async {
+  Future<void> speakanimosity1057(String languageCode) async {
     // DOPSUM: CHANGE speakAnimosity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanimosity extends StatelessWidget {
         "They managed to discuss their past disagreements without animosity."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   //   await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   //   await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   //   await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   //   await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanimosity extends StatelessWidget {
   //   await flutterTts.speak("animosity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimosity(String languageCode) async {
+  // Future<void> speakanimosity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimosity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænɪˈmɒsəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnimosity("en-GB"),
+                              onPressed: () => speakanimosity("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænɪˈmɑːsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnimosity("en-US"),
+                              onPressed: () => speakanimosity("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnimosity1055("en-GB"),
+                                        speakanimosity1055("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimosity1055(
+                                    onPressed: () => speakanimosity1055(
                                         // REPLACE: animosity /ˌænɪˈmɑːsəti/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnimosity1057("en-GB"),
+                                        speakanimosity1057("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimosity1057(
+                                    onPressed: () => speakanimosity1057(
                                         // REPLACE: animosity /ˌænɪˈmɑːsəti/
                                         "en-US"),
                                   ),

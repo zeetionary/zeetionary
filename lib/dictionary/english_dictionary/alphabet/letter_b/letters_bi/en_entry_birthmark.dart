@@ -19,7 +19,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBirthmark(String languageCode) async {
+  Future<void> speakbirthmark(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("birthmark"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks1(String languageCode) async {
+  Future<void> speakbirthmarks1(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
         "Baby's birthmark looked like a tiny strawberry."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks2(String languageCode) async {
+  Future<void> speakbirthmarks2(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("speakBirthmarks22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks3(String languageCode) async {
+  Future<void> speakbirthmarks3(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("speakBirthmarks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks4(String languageCode) async {
+  Future<void> speakbirthmarks4(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("speakBirthmarks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks5(String languageCode) async {
+  Future<void> speakbirthmarks5(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("speakBirthmarks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks6(String languageCode) async {
+  Future<void> speakbirthmarks6(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
     await flutterTts.speak("speakBirthmarks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthmarks7(String languageCode) async {
+  Future<void> speakbirthmarks7(String languageCode) async {
     // DOPSUM: CHANGE speakBirthmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɜːθmɑːk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBirthmark("en-GB"),
+                              onPressed: () => speakbirthmark("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybirthmark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɜːrθmɑːrk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBirthmark("en-US"),
+                              onPressed: () => speakbirthmark("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybirthmark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirthmarks1("en-GB"),
+                                    onPressed: () => speakbirthmarks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirthmarks1("en-US"),
+                                    onPressed: () => speakbirthmarks1("en-US"),
                                   ),
                                 ],
                               ),

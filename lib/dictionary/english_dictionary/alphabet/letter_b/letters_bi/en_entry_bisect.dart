@@ -19,7 +19,7 @@ class EnglishEntrybisect extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBisect(String languageCode) async {
+  Future<void> speakbisect(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybisect extends StatelessWidget {
     await flutterTts.speak("bisect"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects1(String languageCode) async {
+  Future<void> speakbisects1(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybisect extends StatelessWidget {
         .speak("A busy road bisects the village."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects2(String languageCode) async {
+  Future<void> speakbisects2(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybisect extends StatelessWidget {
         .speak("A circle is bisected by its diameter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects3(String languageCode) async {
+  Future<void> speakbisects3(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybisect extends StatelessWidget {
     await flutterTts.speak("speakBisects33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects4(String languageCode) async {
+  Future<void> speakbisects4(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybisect extends StatelessWidget {
     await flutterTts.speak("speakBisects44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects5(String languageCode) async {
+  Future<void> speakbisects5(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybisect extends StatelessWidget {
     await flutterTts.speak("speakBisects55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects6(String languageCode) async {
+  Future<void> speakbisects6(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybisect extends StatelessWidget {
     await flutterTts.speak("speakBisects66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBisects7(String languageCode) async {
+  Future<void> speakbisects7(String languageCode) async {
     // DOPSUM: CHANGE speakBisect
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybisect extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /baɪˈsekt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBisect("en-GB"),
+                              onPressed: () => speakbisect("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybisect extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /baɪˈsekt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBisect("en-US"),
+                              onPressed: () => speakbisect("en-US"),
                             ),
                           ],
                         ),
@@ -166,10 +166,10 @@ class EnglishEntrybisect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBisects1("en-GB"),
+                                    onPressed: () => speakbisects1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBisects1("en-US"),
+                                    onPressed: () => speakbisects1("en-US"),
                                   ),
                                 ],
                               ),
@@ -195,10 +195,10 @@ class EnglishEntrybisect extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBisects2("en-GB"),
+                                    onPressed: () => speakbisects2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBisects2("en-US"),
+                                    onPressed: () => speakbisects2("en-US"),
                                   ),
                                 ],
                               ),

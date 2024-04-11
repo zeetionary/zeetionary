@@ -19,7 +19,7 @@ class EnglishEntrybeam extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeam(String languageCode) async {
+  Future<void> speakbeam(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.speak("beam"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams1(String languageCode) async {
+  Future<void> speakbeams1(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "The car's headlights were on full beam."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams2(String languageCode) async {
+  Future<void> speakbeams2(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "He was suddenly caught in the full beam of a searchlight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams3(String languageCode) async {
+  Future<void> speakbeams3(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "It was a charming cottage with original beams and a thatched roof."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams4(String languageCode) async {
+  Future<void> speakbeams4(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "The gymnast performed a somersault on the beam."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams5(String languageCode) async {
+  Future<void> speakbeams5(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "The child's face lit up with a beam when she saw her grandparents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams6(String languageCode) async {
+  Future<void> speakbeams6(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybeam extends StatelessWidget {
         .speak("He beamed at the journalists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams7(String languageCode) async {
+  Future<void> speakbeams7(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybeam extends StatelessWidget {
         "Live pictures of the ceremony were beamed around the world."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams8(String languageCode) async {
+  Future<void> speakbeams8(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybeam extends StatelessWidget {
         .speak("The morning sun beamed down on us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams9(String languageCode) async {
+  Future<void> speakbeams9(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -107,7 +107,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.speak("speakBeams99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams10(String languageCode) async {
+  Future<void> speakbeams10(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.speak("speakBeams1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams11(String languageCode) async {
+  Future<void> speakbeams11(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntrybeam extends StatelessWidget {
     await flutterTts.speak("speakBeams1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeams12(String languageCode) async {
+  Future<void> speakbeams12(String languageCode) async {
     // DOPSUM: CHANGE speakBeam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -158,7 +158,7 @@ class EnglishEntrybeam extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /biːm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeam("en-GB"),
+                              onPressed: () => speakbeam("en-GB"),
                             ),
                           ],
                         ),
@@ -166,7 +166,7 @@ class EnglishEntrybeam extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /biːm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeam("en-US"),
+                              onPressed: () => speakbeam("en-US"),
                             ),
                           ],
                         ),
@@ -216,10 +216,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams1("en-GB"),
+                                    onPressed: () => speakbeams1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams1("en-US"),
+                                    onPressed: () => speakbeams1("en-US"),
                                   ),
                                 ],
                               ),
@@ -245,10 +245,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams2("en-GB"),
+                                    onPressed: () => speakbeams2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams2("en-US"),
+                                    onPressed: () => speakbeams2("en-US"),
                                   ),
                                 ],
                               ),
@@ -276,10 +276,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams3("en-GB"),
+                                    onPressed: () => speakbeams3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams3("en-US"),
+                                    onPressed: () => speakbeams3("en-US"),
                                   ),
                                 ],
                               ),
@@ -307,10 +307,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams4("en-GB"),
+                                    onPressed: () => speakbeams4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams4("en-US"),
+                                    onPressed: () => speakbeams4("en-US"),
                                   ),
                                 ],
                               ),
@@ -338,10 +338,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams5("en-GB"),
+                                    onPressed: () => speakbeams5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams5("en-US"),
+                                    onPressed: () => speakbeams5("en-US"),
                                   ),
                                 ],
                               ),
@@ -367,10 +367,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams6("en-GB"),
+                                    onPressed: () => speakbeams6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams6("en-US"),
+                                    onPressed: () => speakbeams6("en-US"),
                                   ),
                                 ],
                               ),
@@ -398,10 +398,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams7("en-GB"),
+                                    onPressed: () => speakbeams7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams7("en-US"),
+                                    onPressed: () => speakbeams7("en-US"),
                                   ),
                                 ],
                               ),
@@ -429,10 +429,10 @@ class EnglishEntrybeam extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeams8("en-GB"),
+                                    onPressed: () => speakbeams8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeams8("en-US"),
+                                    onPressed: () => speakbeams8("en-US"),
                                   ),
                                 ],
                               ),

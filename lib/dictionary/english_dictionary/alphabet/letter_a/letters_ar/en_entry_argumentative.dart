@@ -17,7 +17,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArgumentative(String languageCode) async {
+  Future<void> speakargumentative(String languageCode) async {
     // DOPSUM: CHANGE speakArgumentative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryargumentative extends StatelessWidget {
     await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArgumentative1050(String languageCode) async {
+  Future<void> speakargumentative1050(String languageCode) async {
     // DOPSUM: CHANGE speakArgumentative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryargumentative extends StatelessWidget {
         "Everyone in the family was argumentative."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryargumentative extends StatelessWidget {
   //   await flutterTts.speak("argumentative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArgumentative(String languageCode) async {
+  // Future<void> speakargumentative(String languageCode) async {
   //   // DOPSUM: CHANGE speakArgumentative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːɡjuˈmentətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArgumentative("en-GB"),
+                              onPressed: () => speakargumentative("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrɡjuˈmentətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArgumentative("en-US"),
+                              onPressed: () => speakargumentative("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArgumentative1050("en-GB"),
+                                        speakargumentative1050("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArgumentative1050(
+                                    onPressed: () => speakargumentative1050(
                                         // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
                                         "en-US"),
                                   ),

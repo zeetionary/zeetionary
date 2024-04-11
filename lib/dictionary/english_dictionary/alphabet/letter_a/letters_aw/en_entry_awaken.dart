@@ -19,7 +19,7 @@ class EnglishEntryawaken extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwaken(String languageCode) async {
+  Future<void> speakawaken(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryawaken extends StatelessWidget {
     await flutterTts.speak("awaken"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens1(String languageCode) async {
+  Future<void> speakawakens1(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryawaken extends StatelessWidget {
         .speak("We awakened to find the others gone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens2(String languageCode) async {
+  Future<void> speakawakens2(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryawaken extends StatelessWidget {
         .speak("The dream awakened terrible memories."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens3(String languageCode) async {
+  Future<void> speakawakens3(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryawaken extends StatelessWidget {
     await flutterTts.speak("speakAwakens33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens4(String languageCode) async {
+  Future<void> speakawakens4(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryawaken extends StatelessWidget {
     await flutterTts.speak("speakAwakens44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens5(String languageCode) async {
+  Future<void> speakawakens5(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryawaken extends StatelessWidget {
     await flutterTts.speak("speakAwakens55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens6(String languageCode) async {
+  Future<void> speakawakens6(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryawaken extends StatelessWidget {
     await flutterTts.speak("speakAwakens66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwakens7(String languageCode) async {
+  Future<void> speakawakens7(String languageCode) async {
     // DOPSUM: CHANGE speakAwaken
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryawaken extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈweɪkən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwaken("en-GB"),
+                              onPressed: () => speakawaken("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryawaken extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈweɪkən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwaken("en-US"),
+                              onPressed: () => speakawaken("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntryawaken extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwakens2("en-GB"),
+                                    onPressed: () => speakawakens2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwakens2(// REPLACE: awaken
+                                        speakawakens2(// REPLACE: awaken
                                             "en-US"),
                                   ),
                                 ],

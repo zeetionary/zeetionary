@@ -19,7 +19,7 @@ class EnglishEntryaxiom extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAxiom(String languageCode) async {
+  Future<void> speakaxiom(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("axiom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms1(String languageCode) async {
+  Future<void> speakaxioms1(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaxiom extends StatelessWidget {
         "It is a widely held axiom that governments should not negotiate with terrorists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms2(String languageCode) async {
+  Future<void> speakaxioms2(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("speakAxioms22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms3(String languageCode) async {
+  Future<void> speakaxioms3(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("speakAxioms33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms4(String languageCode) async {
+  Future<void> speakaxioms4(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("speakAxioms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms5(String languageCode) async {
+  Future<void> speakaxioms5(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("speakAxioms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms6(String languageCode) async {
+  Future<void> speakaxioms6(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaxiom extends StatelessWidget {
     await flutterTts.speak("speakAxioms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxioms7(String languageCode) async {
+  Future<void> speakaxioms7(String languageCode) async {
     // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryaxiom extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæksiəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAxiom("en-GB"),
+                              onPressed: () => speakaxiom("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryaxiom extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksiəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxiom("en-US"),
+                              onPressed: () => speakaxiom("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryaxiom extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxioms1("en-GB"),
+                                    onPressed: () => speakaxioms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxioms1(// REPLACE: axiom
+                                        speakaxioms1(// REPLACE: axiom
                                             "en-US"),
                                   ),
                                 ],

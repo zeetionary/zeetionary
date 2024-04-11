@@ -11,7 +11,7 @@ class EnglishEntryagriculture extends StatelessWidget {
   EnglishEntryagriculture({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgriculture(String languageCode) async {
+  Future<void> speakagriculture(String languageCode) async {
     // DOPSUM: CHANGE speakAgriculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagriculture extends StatelessWidget {
     await flutterTts.speak("agriculture"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgri3588(String languageCode) async {
+  Future<void> speakagri3588(String languageCode) async {
     // DOPSUM: CHANGE speakAgriculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagriculture extends StatelessWidget {
         "Agriculture is still largely based on traditional methods in some countries."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgriculture(String languageCode) async {
+  // Future<void> speakagriculture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgriculture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagriculture extends StatelessWidget {
   //   await flutterTts.speak("agriculture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgriculture(String languageCode) async {
+  // Future<void> speakagriculture(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgriculture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡrɪkʌltʃə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgriculture("en-GB"),
+                              onPressed: () => speakagriculture("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡrɪkʌltʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgriculture("en-US"),
+                              onPressed: () => speakagriculture("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryagriculture extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgri3588("en-GB"),
+                                    onPressed: () => speakagri3588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgri3588(
+                                    onPressed: () => speakagri3588(
                                         // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
                                         "en-US"),
                                   ),

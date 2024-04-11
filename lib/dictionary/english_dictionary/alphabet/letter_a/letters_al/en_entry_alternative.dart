@@ -11,7 +11,7 @@ class EnglishEntryalternative extends StatelessWidget {
   EnglishEntryalternative({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlternative(String languageCode) async {
+  Future<void> speakalternative(String languageCode) async {
     // DOPSUM: CHANGE speakAlternative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalternative extends StatelessWidget {
     await flutterTts.speak("alternative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternative4599(String languageCode) async {
+  Future<void> speakalternative4599(String languageCode) async {
     // DOPSUM: CHANGE speakAlternative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalternative extends StatelessWidget {
         "The car is too expensive so we're trying to find a cheaper alternative."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternative14(String languageCode) async {
+  Future<void> speakalternative14(String languageCode) async {
     // DOPSUM: CHANGE speakAlternative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalternative extends StatelessWidget {
         "We had no alternative but to fire Gibson."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternative845(String languageCode) async {
+  Future<void> speakalternative845(String languageCode) async {
     // DOPSUM: CHANGE speakAlternative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalternative extends StatelessWidget {
         "The road was closed so we had to find an alternative route."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlternative659(String languageCode) async {
+  Future<void> speakalternative659(String languageCode) async {
     // DOPSUM: CHANGE speakAlternative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈtɜːnətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlternative("en-GB"),
+                              onPressed: () => speakalternative("en-GB"),
                             ),
                           ],
                         ),
@@ -95,7 +95,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈtɜːrnətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlternative("en-US"),
+                              onPressed: () => speakalternative("en-US"),
                             ),
                           ],
                         ),
@@ -147,10 +147,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternative4599("en-GB"),
+                                        speakalternative4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternative4599(
+                                    onPressed: () => speakalternative4599(
                                         // REPLACE: alternative /haʊ/
                                         "en-US"),
                                   ),
@@ -178,10 +178,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternative14("en-GB"),
+                                        speakalternative14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternative14(
+                                    onPressed: () => speakalternative14(
                                         // REPLACE: alternative /haʊ/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternative845("en-GB"),
+                                        speakalternative845("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternative845(
+                                    onPressed: () => speakalternative845(
                                         // REPLACE: alternative /haʊ/
                                         "en-US"),
                                   ),
@@ -244,10 +244,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlternative659("en-GB"),
+                                        speakalternative659("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlternative659(
+                                    onPressed: () => speakalternative659(
                                         // REPLACE: alternative /haʊ/
                                         "en-US"),
                                   ),

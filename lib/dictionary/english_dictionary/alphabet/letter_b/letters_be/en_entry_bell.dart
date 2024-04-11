@@ -19,7 +19,7 @@ class EnglishEntrybell extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBell(String languageCode) async {
+  Future<void> speakbell(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybell extends StatelessWidget {
     await flutterTts.speak("bell"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells1(String languageCode) async {
+  Future<void> speakbells1(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybell extends StatelessWidget {
         "The church bells rang out to welcome in the New Year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells2(String languageCode) async {
+  Future<void> speakbells2(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybell extends StatelessWidget {
         "The dancers wore bells on their ankles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells3(String languageCode) async {
+  Future<void> speakbells3(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybell extends StatelessWidget {
         .speak("Ring the bell to see if they're in."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells4(String languageCode) async {
+  Future<void> speakbells4(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybell extends StatelessWidget {
     await flutterTts.speak("An alarm bell went off."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells5(String languageCode) async {
+  Future<void> speakbells5(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybell extends StatelessWidget {
     await flutterTts.speak("speakBells55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells6(String languageCode) async {
+  Future<void> speakbells6(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybell extends StatelessWidget {
     await flutterTts.speak("speakBells66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBells7(String languageCode) async {
+  Future<void> speakbells7(String languageCode) async {
     // DOPSUM: CHANGE speakBell
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybell extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bel/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBell("en-GB"),
+                              onPressed: () => speakbell("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybell extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bel/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBell("en-US"),
+                              onPressed: () => speakbell("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybell extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBells1("en-GB"),
+                                    onPressed: () => speakbells1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBells1("en-US"),
+                                    onPressed: () => speakbells1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybell extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBells2("en-GB"),
+                                    onPressed: () => speakbells2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBells2("en-US"),
+                                    onPressed: () => speakbells2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybell extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBells3("en-GB"),
+                                    onPressed: () => speakbells3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBells3("en-US"),
+                                    onPressed: () => speakbells3("en-US"),
                                   ),
                                 ],
                               ),
@@ -259,10 +259,10 @@ class EnglishEntrybell extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBells4("en-GB"),
+                                    onPressed: () => speakbells4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBells4("en-US"),
+                                    onPressed: () => speakbells4("en-US"),
                                   ),
                                 ],
                               ),

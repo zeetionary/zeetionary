@@ -19,7 +19,7 @@ class EnglishEntrybearded extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBearded(String languageCode) async {
+  Future<void> speakbearded(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("bearded"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds1(String languageCode) async {
+  Future<void> speakbeardeds1(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybearded extends StatelessWidget {
         "A thin, bearded man sat opposite me on the train."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds2(String languageCode) async {
+  Future<void> speakbeardeds2(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("speakBeardeds22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds3(String languageCode) async {
+  Future<void> speakbeardeds3(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("speakBeardeds33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds4(String languageCode) async {
+  Future<void> speakbeardeds4(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("speakBeardeds44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds5(String languageCode) async {
+  Future<void> speakbeardeds5(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("speakBeardeds55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds6(String languageCode) async {
+  Future<void> speakbeardeds6(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybearded extends StatelessWidget {
     await flutterTts.speak("speakBeardeds66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeardeds7(String languageCode) async {
+  Future<void> speakbeardeds7(String languageCode) async {
     // DOPSUM: CHANGE speakBearded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybearded extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪədɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBearded("en-GB"),
+                              onPressed: () => speakbearded("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybearded extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪrdɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBearded("en-US"),
+                              onPressed: () => speakbearded("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntrybearded extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeardeds1("en-GB"),
+                                    onPressed: () => speakbeardeds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeardeds1("en-US"),
+                                    onPressed: () => speakbeardeds1("en-US"),
                                   ),
                                 ],
                               ),

@@ -13,7 +13,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntidepressant(String languageCode) async {
+  Future<void> speakantidepressant(String languageCode) async {
     // DOPSUM: CHANGE speakAntidepressant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
     await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntidepressant1005(String languageCode) async {
+  Future<void> speakantidepressant1005(String languageCode) async {
     // DOPSUM: CHANGE speakAntidepressant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
         "She's been on antidepressants ever since her husband died."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
   //   await flutterTts.speak("antidepressant"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidepressant(String languageCode) async {
+  // Future<void> speakantidepressant(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntidepressant
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntidɪˈpresnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntidepressant("en-GB"),
+                              onPressed: () => speakantidepressant("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntidepressant("en-US"),
+                              onPressed: () => speakantidepressant("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntidepressant1005("en-GB"),
+                                        speakantidepressant1005("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntidepressant1005(
+                                    onPressed: () => speakantidepressant1005(
                                         // REPLACE: antidepressant /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApproximately(String languageCode) async {
+  Future<void> speakapproximately(String languageCode) async {
     // DOPSUM: CHANGE speakApproximately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapproximately extends StatelessWidget {
     await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproximately1010(String languageCode) async {
+  Future<void> speakapproximately1010(String languageCode) async {
     // DOPSUM: CHANGE speakApproximately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapproximately extends StatelessWidget {
         "The journey took approximately seven hours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApproximately1011(String languageCode) async {
+  Future<void> speakapproximately1011(String languageCode) async {
     // DOPSUM: CHANGE speakApproximately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapproximately extends StatelessWidget {
         "The two buildings were approximately equal in size."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   //   await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   //   await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   //   await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   //   await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapproximately extends StatelessWidget {
   //   await flutterTts.speak("approximately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApproximately(String languageCode) async {
+  // Future<void> speakapproximately(String languageCode) async {
   //   // DOPSUM: CHANGE speakApproximately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprɒksɪmətli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproximately("en-GB"),
+                              onPressed: () => speakapproximately("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprɑːksɪmətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproximately("en-US"),
+                              onPressed: () => speakapproximately("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApproximately1010("en-GB"),
+                                        speakapproximately1010("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproximately1010(
+                                    onPressed: () => speakapproximately1010(
                                         // REPLACE: approximately /əˈprɑːksɪmətli/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApproximately1011("en-GB"),
+                                        speakapproximately1011("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApproximately1011(
+                                    onPressed: () => speakapproximately1011(
                                         // REPLACE: approximately /əˈprɑːksɪmətli/
                                         "en-US"),
                                   ),

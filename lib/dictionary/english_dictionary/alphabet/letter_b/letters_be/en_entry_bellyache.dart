@@ -19,7 +19,7 @@ class EnglishEntrybellyache extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBellyache(String languageCode) async {
+  Future<void> speakbellyache(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("bellyache"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches1(String languageCode) async {
+  Future<void> speakbellyaches1(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("I’ve got (a) bellyache."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches2(String languageCode) async {
+  Future<void> speakbellyaches2(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybellyache extends StatelessWidget {
         "He’s always bellyaching about how much work he has to do."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches3(String languageCode) async {
+  Future<void> speakbellyaches3(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("speakBellyaches33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches4(String languageCode) async {
+  Future<void> speakbellyaches4(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("speakBellyaches44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches5(String languageCode) async {
+  Future<void> speakbellyaches5(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("speakBellyaches55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches6(String languageCode) async {
+  Future<void> speakbellyaches6(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybellyache extends StatelessWidget {
     await flutterTts.speak("speakBellyaches66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellyaches7(String languageCode) async {
+  Future<void> speakbellyaches7(String languageCode) async {
     // DOPSUM: CHANGE speakBellyache
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybellyache extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbelieɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBellyache("en-GB"),
+                              onPressed: () => speakbellyache("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybellyache extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbelieɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBellyache("en-US"),
+                              onPressed: () => speakbellyache("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybellyache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellyaches1("en-GB"),
+                                    onPressed: () => speakbellyaches1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellyaches1("en-US"),
+                                    onPressed: () => speakbellyaches1("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,10 +196,10 @@ class EnglishEntrybellyache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellyaches2("en-GB"),
+                                    onPressed: () => speakbellyaches2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellyaches2("en-US"),
+                                    onPressed: () => speakbellyaches2("en-US"),
                                   ),
                                 ],
                               ),

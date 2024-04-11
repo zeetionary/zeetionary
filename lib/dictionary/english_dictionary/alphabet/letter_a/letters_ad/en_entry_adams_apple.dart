@@ -11,7 +11,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
   EnglishEntryadamsapple({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdamsapple(String languageCode) async {
+  Future<void> speakadamsapple(String languageCode) async {
     // DOPSUM: CHANGE speakAdamsapple
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
     await flutterTts.speak("Adam's apple"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdamsapple(String languageCode) async {
+  // Future<void> speakadamsapple(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdamsapple
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
   //   await flutterTts.speak("Adam's apple"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdamsapple(String languageCode) async {
+  // Future<void> speakadamsapple(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdamsapple
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
   //   await flutterTts.speak("Adam's apple"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdamsapple(String languageCode) async {
+  // Future<void> speakadamsapple(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdamsapple
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædəmz ˈæpl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdamsapple("en-GB"),
+                              onPressed: () => speakadamsapple("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædəmz ˈæpl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdamsapple("en-US"),
+                              onPressed: () => speakadamsapple("en-US"),
                             ),
                           ],
                         ),

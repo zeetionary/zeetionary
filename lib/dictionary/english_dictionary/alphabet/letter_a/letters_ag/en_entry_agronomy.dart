@@ -11,7 +11,7 @@ class EnglishEntryagronomy extends StatelessWidget {
   EnglishEntryagronomy({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgronomy(String languageCode) async {
+  Future<void> speakagronomy(String languageCode) async {
     // DOPSUM: CHANGE speakAgronomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagronomy extends StatelessWidget {
     await flutterTts.speak("agronomy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgron3784(String languageCode) async {
+  Future<void> speakagron3784(String languageCode) async {
     // DOPSUM: CHANGE speakAgronomy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagronomy extends StatelessWidget {
         "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgronomy(String languageCode) async {
+  // Future<void> speakagronomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgronomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagronomy extends StatelessWidget {
   //   await flutterTts.speak("agronomy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgronomy(String languageCode) async {
+  // Future<void> speakagronomy(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgronomy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡrɒnəmi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgronomy("en-GB"),
+                              onPressed: () => speakagronomy("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡrɑːnəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgronomy("en-US"),
+                              onPressed: () => speakagronomy("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryagronomy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgron3784("en-GB"),
+                                    onPressed: () => speakagron3784("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgron3784(
+                                    onPressed: () => speakagron3784(
                                         // REPLACE: agronomy /əˈɡrɑːnəmi/
                                         "en-US"),
                                   ),

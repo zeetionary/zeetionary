@@ -19,7 +19,7 @@ class EnglishEntrybedevil extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBedevil(String languageCode) async {
+  Future<void> speakbedevil(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("bedevil"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils1(String languageCode) async {
+  Future<void> speakbedevils1(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybedevil extends StatelessWidget {
         "This injury bedevilled him throughout his career."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils2(String languageCode) async {
+  Future<void> speakbedevils2(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("speakBedevils22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils3(String languageCode) async {
+  Future<void> speakbedevils3(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("speakBedevils33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils4(String languageCode) async {
+  Future<void> speakbedevils4(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("speakBedevils44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils5(String languageCode) async {
+  Future<void> speakbedevils5(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("speakBedevils55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils6(String languageCode) async {
+  Future<void> speakbedevils6(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybedevil extends StatelessWidget {
     await flutterTts.speak("speakBedevils66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedevils7(String languageCode) async {
+  Future<void> speakbedevils7(String languageCode) async {
     // DOPSUM: CHANGE speakBedevil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybedevil extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈdevl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBedevil("en-GB"),
+                              onPressed: () => speakbedevil("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybedevil extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈdevl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBedevil("en-US"),
+                              onPressed: () => speakbedevil("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybedevil extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedevils1("en-GB"),
+                                    onPressed: () => speakbedevils1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedevils1("en-US"),
+                                    onPressed: () => speakbedevils1("en-US"),
                                   ),
                                 ],
                               ),

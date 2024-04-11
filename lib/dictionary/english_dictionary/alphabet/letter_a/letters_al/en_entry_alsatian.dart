@@ -11,7 +11,7 @@ class EnglishEntryalsatian extends StatelessWidget {
   EnglishEntryalsatian({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlsatian(String languageCode) async {
+  Future<void> speakalsatian(String languageCode) async {
     // DOPSUM: CHANGE speakAlsatian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalsatian extends StatelessWidget {
     await flutterTts.speak("alsatian"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlsatian(String languageCode) async {
+  // Future<void> speakalsatian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlsatian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryalsatian extends StatelessWidget {
   //   await flutterTts.speak("alsatian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlsatian(String languageCode) async {
+  // Future<void> speakalsatian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlsatian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryalsatian extends StatelessWidget {
   //   await flutterTts.speak("alsatian"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlsatian(String languageCode) async {
+  // Future<void> speakalsatian(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlsatian
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryalsatian extends StatelessWidget {
                                 text:
                                     "IpaUK: /ælˈseɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlsatian("en-GB"),
+                              onPressed: () => speakalsatian("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryalsatian extends StatelessWidget {
                                 text:
                                     "IpaUS: /ælˈseɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlsatian("en-US"),
+                              onPressed: () => speakalsatian("en-US"),
                             ),
                           ],
                         ),

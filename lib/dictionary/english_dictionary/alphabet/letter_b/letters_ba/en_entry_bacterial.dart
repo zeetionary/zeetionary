@@ -19,7 +19,7 @@ class EnglishEntrybacterial extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBacterial(String languageCode) async {
+  Future<void> speakbacterial(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("bacterial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials1(String languageCode) async {
+  Future<void> speakbacterials1(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybacterial extends StatelessWidget {
         "My sore throat came from a bacterial infection."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials2(String languageCode) async {
+  Future<void> speakbacterials2(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("speakBacterials22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials3(String languageCode) async {
+  Future<void> speakbacterials3(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("speakBacterials33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials4(String languageCode) async {
+  Future<void> speakbacterials4(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("speakBacterials44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials5(String languageCode) async {
+  Future<void> speakbacterials5(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("speakBacterials55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials6(String languageCode) async {
+  Future<void> speakbacterials6(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybacterial extends StatelessWidget {
     await flutterTts.speak("speakBacterials66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBacterials7(String languageCode) async {
+  Future<void> speakbacterials7(String languageCode) async {
     // DOPSUM: CHANGE speakBacterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                                 text:
                                     "IpaUK: /bækˈtɪəriəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBacterial("en-GB"),
+                              onPressed: () => speakbacterial("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                                 text:
                                     "IpaUS: /bækˈtɪriəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBacterial("en-US"),
+                              onPressed: () => speakbacterial("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybacterial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBacterials1("en-GB"),
+                                    onPressed: () => speakbacterials1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBacterials1(// REPLACE: bacterial
+                                        speakbacterials1(// REPLACE: bacterial
                                             "en-US"),
                                   ),
                                 ],

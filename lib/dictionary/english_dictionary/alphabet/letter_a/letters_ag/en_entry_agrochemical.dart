@@ -11,7 +11,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
   EnglishEntryagrochemical({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgrochemical(String languageCode) async {
+  Future<void> speakagrochemical(String languageCode) async {
     // DOPSUM: CHANGE speakAgrochemical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
     await flutterTts.speak("agrochemical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgrochem63888(String languageCode) async {
+  Future<void> speakagrochem63888(String languageCode) async {
     // DOPSUM: CHANGE speakAgrochemical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
         "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgrochemical(String languageCode) async {
+  // Future<void> speakagrochemical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgrochemical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
   //   await flutterTts.speak("agrochemical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgrochemical(String languageCode) async {
+  // Future<void> speakagrochemical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgrochemical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡrəʊˈkemɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgrochemical("en-GB"),
+                              onPressed: () => speakagrochemical("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡrəʊˈkemɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgrochemical("en-US"),
+                              onPressed: () => speakagrochemical("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAgrochem63888("en-GB"),
+                                        speakagrochem63888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgrochem63888(
+                                    onPressed: () => speakagrochem63888(
                                         // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
                                         "en-US"),
                                   ),

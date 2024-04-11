@@ -11,7 +11,7 @@ class EnglishEntryafloat extends StatelessWidget {
   EnglishEntryafloat({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfloat(String languageCode) async {
+  Future<void> speakafloat(String languageCode) async {
     // DOPSUM: CHANGE speakAfloat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafloat extends StatelessWidget {
     await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAflo45(String languageCode) async {
+  Future<void> speakaflo45(String languageCode) async {
     // DOPSUM: CHANGE speakAfloat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryafloat extends StatelessWidget {
         "They were struggling to keep the vessel afloat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfl5988(String languageCode) async {
+  Future<void> speakafl5988(String languageCode) async {
     // DOPSUM: CHANGE speakAfloat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryafloat extends StatelessWidget {
         "Many small businesses are struggling to stay afloat."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfloat(String languageCode) async {
+  // Future<void> speakafloat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfloat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryafloat extends StatelessWidget {
   //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAfloat(String languageCode) async {
+  // Future<void> speakafloat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfloat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryafloat extends StatelessWidget {
   //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAfloat(String languageCode) async {
+  // Future<void> speakafloat(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfloat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryafloat extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfləʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfloat("en-GB"),
+                              onPressed: () => speakafloat("en-GB"),
                             ),
                           ],
                         ),
@@ -98,7 +98,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfləʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfloat("en-US"),
+                              onPressed: () => speakafloat("en-US"),
                             ),
                           ],
                         ),
@@ -147,11 +147,11 @@ class EnglishEntryafloat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAflo45("en-GB"),
+                                    onPressed: () => speakaflo45("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAflo45(// REPLACE: afloat /əˈfləʊt/
+                                        speakaflo45(// REPLACE: afloat /əˈfləʊt/
                                             "en-US"),
                                   ),
                                 ],
@@ -179,10 +179,10 @@ class EnglishEntryafloat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfl5988("en-GB"),
+                                    onPressed: () => speakafl5988("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfl5988(
+                                    onPressed: () => speakafl5988(
                                         // REPLACE: afloat /əˈfləʊt/
                                         "en-US"),
                                   ),

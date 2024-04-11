@@ -19,7 +19,7 @@ class EnglishEntryavailable extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvailable(String languageCode) async {
+  Future<void> speakavailable(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavailable extends StatelessWidget {
     await flutterTts.speak("available"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables1(String languageCode) async {
+  Future<void> speakavailables1(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavailable extends StatelessWidget {
         "We'll send you a copy as soon as it becomes available."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables2(String languageCode) async {
+  Future<void> speakavailables2(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavailable extends StatelessWidget {
         .speak("Will she be available this afternoon?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables3(String languageCode) async {
+  Future<void> speakavailables3(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryavailable extends StatelessWidget {
         .speak("Do you think he's available?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables4(String languageCode) async {
+  Future<void> speakavailables4(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryavailable extends StatelessWidget {
     await flutterTts.speak("speakAvailables4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables5(String languageCode) async {
+  Future<void> speakavailables5(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryavailable extends StatelessWidget {
     await flutterTts.speak("speakAvailables5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables6(String languageCode) async {
+  Future<void> speakavailables6(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryavailable extends StatelessWidget {
     await flutterTts.speak("speakAvailables6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailables7(String languageCode) async {
+  Future<void> speakavailables7(String languageCode) async {
     // DOPSUM: CHANGE speakAvailable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈveɪləbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvailable("en-GB"),
+                              onPressed: () => speakavailable("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈveɪləbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvailable("en-US"),
+                              onPressed: () => speakavailable("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntryavailable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvailables1("en-GB"),
+                                    onPressed: () => speakavailables1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvailables1(// REPLACE: available
+                                        speakavailables1(// REPLACE: available
                                             "en-US"),
                                   ),
                                 ],
@@ -208,11 +208,11 @@ class EnglishEntryavailable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvailables2("en-GB"),
+                                    onPressed: () => speakavailables2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvailables2(// REPLACE: available
+                                        speakavailables2(// REPLACE: available
                                             "en-US"),
                                   ),
                                 ],
@@ -239,11 +239,11 @@ class EnglishEntryavailable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAvailables3("en-GB"),
+                                    onPressed: () => speakavailables3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAvailables3(// REPLACE: available
+                                        speakavailables3(// REPLACE: available
                                             "en-US"),
                                   ),
                                 ],

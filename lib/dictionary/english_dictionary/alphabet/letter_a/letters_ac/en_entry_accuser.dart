@@ -11,7 +11,7 @@ class EnglishEntryaccuser extends StatelessWidget {
   EnglishEntryaccuser({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccuser(String languageCode) async {
+  Future<void> speakaccuser(String languageCode) async {
     // DOPSUM: CHANGE speakAccuser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccuser extends StatelessWidget {
     await flutterTts.speak("accuser"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA91573(String languageCode) async {
+  Future<void> speaka91573(String languageCode) async {
     // DOPSUM: CHANGE speakAccuser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccuser extends StatelessWidget {
         "He demanded the right to face his accusers at a public hearing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAccuser(String languageCode) async {
+  // Future<void> speakaccuser(String languageCode) async {
   //   // DOPSUM: CHANGE speakAccuser
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaccuser extends StatelessWidget {
   //   await flutterTts.speak("accuser"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAccuser(String languageCode) async {
+  // Future<void> speakaccuser(String languageCode) async {
   //   // DOPSUM: CHANGE speakAccuser
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːzə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccuser("en-GB"),
+                              onPressed: () => speakaccuser("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːzər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccuser("en-US"),
+                              onPressed: () => speakaccuser("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaccuser extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA91573("en-GB"),
+                                    onPressed: () => speaka91573("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA91573(
+                                    onPressed: () => speaka91573(
                                         "en-US"), // FIND: /əˈkjuːzər/
                                   ),
                                 ],

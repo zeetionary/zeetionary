@@ -19,7 +19,7 @@ class EnglishEntrybilious extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBilious(String languageCode) async {
+  Future<void> speakbilious(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybilious extends StatelessWidget {
     await flutterTts.speak("bilious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss1(String languageCode) async {
+  Future<void> speakbiliouss1(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybilious extends StatelessWidget {
         "I felt a little bilious after last night’s dinner."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss2(String languageCode) async {
+  Future<void> speakbiliouss2(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybilious extends StatelessWidget {
         "His shirt was a bilious shade of green."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss3(String languageCode) async {
+  Future<void> speakbiliouss3(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybilious extends StatelessWidget {
         .speak("He woke up feeling bilious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss4(String languageCode) async {
+  Future<void> speakbiliouss4(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybilious extends StatelessWidget {
     await flutterTts.speak("speakBiliouss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss5(String languageCode) async {
+  Future<void> speakbiliouss5(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybilious extends StatelessWidget {
     await flutterTts.speak("speakBiliouss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss6(String languageCode) async {
+  Future<void> speakbiliouss6(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybilious extends StatelessWidget {
     await flutterTts.speak("speakBiliouss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiliouss7(String languageCode) async {
+  Future<void> speakbiliouss7(String languageCode) async {
     // DOPSUM: CHANGE speakBilious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybilious extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪliəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBilious("en-GB"),
+                              onPressed: () => speakbilious("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybilious extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪliəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBilious("en-US"),
+                              onPressed: () => speakbilious("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybilious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiliouss1("en-GB"),
+                                    onPressed: () => speakbiliouss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiliouss1("en-US"),
+                                    onPressed: () => speakbiliouss1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybilious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiliouss2("en-GB"),
+                                    onPressed: () => speakbiliouss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiliouss2("en-US"),
+                                    onPressed: () => speakbiliouss2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybilious extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBiliouss3("en-GB"),
+                                    onPressed: () => speakbiliouss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBiliouss3("en-US"),
+                                    onPressed: () => speakbiliouss3("en-US"),
                                   ),
                                 ],
                               ),

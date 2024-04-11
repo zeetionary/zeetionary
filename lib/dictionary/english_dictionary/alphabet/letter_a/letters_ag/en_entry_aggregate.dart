@@ -11,7 +11,7 @@ class EnglishEntryaggregate extends StatelessWidget {
   EnglishEntryaggregate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggregate(String languageCode) async {
+  Future<void> speakaggregate(String languageCode) async {
     // DOPSUM: CHANGE speakAggregate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggregate extends StatelessWidget {
     await flutterTts.speak("aggregate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggreg2622(String languageCode) async {
+  Future<void> speakaggreg2622(String languageCode) async {
     // DOPSUM: CHANGE speakAggregate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaggregate extends StatelessWidget {
         "The three smaller parties gained an aggregate of 25 per cent of the vote."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggre35944(String languageCode) async {
+  Future<void> speakaggre35944(String languageCode) async {
     // DOPSUM: CHANGE speakAggregate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaggregate extends StatelessWidget {
         "The company aggregates news and information from a number of sources on its website."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggreg5266(String languageCode) async {
+  Future<void> speakaggreg5266(String languageCode) async {
     // DOPSUM: CHANGE speakAggregate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡrɪɡət/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggregate("en-GB"),
+                              onPressed: () => speakaggregate("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡrɪɡət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggregate("en-US"),
+                              onPressed: () => speakaggregate("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryaggregate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggreg2622("en-GB"),
+                                    onPressed: () => speakaggreg2622("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggreg2622(
+                                    onPressed: () => speakaggreg2622(
                                         // REPLACE: aggregate /ˈæɡrɪɡət/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryaggregate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggre35944("en-GB"),
+                                    onPressed: () => speakaggre35944("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggre35944(
+                                    onPressed: () => speakaggre35944(
                                         // REPLACE: aggregate /ˈæɡrɪɡət/
                                         "en-US"),
                                   ),
@@ -197,10 +197,10 @@ class EnglishEntryaggregate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAggreg5266("en-GB"),
+                                    onPressed: () => speakaggreg5266("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggreg5266(
+                                    onPressed: () => speakaggreg5266(
                                         // REPLACE: aggregate /ˈæɡrɪɡət/
                                         "en-US"),
                                   ),

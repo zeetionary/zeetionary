@@ -11,7 +11,7 @@ class EnglishEntryafraid extends StatelessWidget {
   EnglishEntryafraid({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfraid(String languageCode) async {
+  Future<void> speakafraid(String languageCode) async {
     // DOPSUM: CHANGE speakAfraid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafraid extends StatelessWidget {
     await flutterTts.speak("afraid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfrai4177(String languageCode) async {
+  Future<void> speakafrai4177(String languageCode) async {
     // DOPSUM: CHANGE speakAfraid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryafraid extends StatelessWidget {
     await flutterTts.speak("Don't be afraid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAfrai955(String languageCode) async {
+  Future<void> speakafrai955(String languageCode) async {
     // DOPSUM: CHANGE speakAfraid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryafraid extends StatelessWidget {
         .speak("They know I'm afraid of heights."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfraid(String languageCode) async {
+  // Future<void> speakafraid(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfraid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryafraid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfreɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfraid("en-GB"),
+                              onPressed: () => speakafraid("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryafraid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfreɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfraid("en-US"),
+                              onPressed: () => speakafraid("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryafraid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfrai4177("en-GB"),
+                                    onPressed: () => speakafrai4177("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfrai4177(
+                                    onPressed: () => speakafrai4177(
                                         // REPLACE: afraid /əˈfreɪd/
                                         "en-US"),
                                   ),
@@ -156,10 +156,10 @@ class EnglishEntryafraid extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAfrai955("en-GB"),
+                                    onPressed: () => speakafrai955("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAfrai955(
+                                    onPressed: () => speakafrai955(
                                         // REPLACE: afraid /əˈfreɪd/
                                         "en-US"),
                                   ),

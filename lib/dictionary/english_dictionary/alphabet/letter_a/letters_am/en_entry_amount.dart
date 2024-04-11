@@ -11,7 +11,7 @@ class EnglishEntryamount extends StatelessWidget {
   EnglishEntryamount({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmount(String languageCode) async {
+  Future<void> speakamount(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamount extends StatelessWidget {
     await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount4447(String languageCode) async {
+  Future<void> speakamount4447(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamount extends StatelessWidget {
         "I was amazed at the amount he could eat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount49652(String languageCode) async {
+  Future<void> speakamount49652(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamount extends StatelessWidget {
         "Try to reduce the amount of energy and water you use at home."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount3522(String languageCode) async {
+  Future<void> speakamount3522(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryamount extends StatelessWidget {
         .speak("Everyone has paid the same amount."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount5523(String languageCode) async {
+  Future<void> speakamount5523(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryamount extends StatelessWidget {
         "His earnings are said to amount to £300 000 per annum."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount5622(String languageCode) async {
+  Future<void> speakamount5622(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryamount extends StatelessWidget {
         "Their actions in the war amount to genocide."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmount514(String languageCode) async {
+  Future<void> speakamount514(String languageCode) async {
     // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryamount extends StatelessWidget {
         .speak("You'll never amount to anything."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmount(String languageCode) async {
+  // Future<void> speakamount(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmount
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryamount extends StatelessWidget {
   //   await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmount(String languageCode) async {
+  // Future<void> speakamount(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmount
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryamount extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmaʊnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmount("en-GB"),
+                              onPressed: () => speakamount("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryamount extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmaʊnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmount("en-US"),
+                              onPressed: () => speakamount("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount4447("en-GB"),
+                                    onPressed: () => speakamount4447("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount4447(
+                                    onPressed: () => speakamount4447(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount49652("en-GB"),
+                                    onPressed: () => speakamount49652("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount49652(
+                                    onPressed: () => speakamount49652(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),
@@ -239,10 +239,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount3522("en-GB"),
+                                    onPressed: () => speakamount3522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount3522(
+                                    onPressed: () => speakamount3522(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),
@@ -271,10 +271,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount5523("en-GB"),
+                                    onPressed: () => speakamount5523("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount5523(
+                                    onPressed: () => speakamount5523(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),
@@ -303,10 +303,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount5622("en-GB"),
+                                    onPressed: () => speakamount5622("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount5622(
+                                    onPressed: () => speakamount5622(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),
@@ -334,10 +334,10 @@ class EnglishEntryamount extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmount514("en-GB"),
+                                    onPressed: () => speakamount514("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmount514(
+                                    onPressed: () => speakamount514(
                                         // REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
                                   ),

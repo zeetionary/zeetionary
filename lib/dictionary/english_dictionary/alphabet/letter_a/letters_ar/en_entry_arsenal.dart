@@ -19,7 +19,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArsenal(String languageCode) async {
+  Future<void> speakarsenal(String languageCode) async {
     // DOPSUM: CHANGE speakArsenal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarsenal extends StatelessWidget {
     await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArsenal825(String languageCode) async {
+  Future<void> speakarsenal825(String languageCode) async {
     // DOPSUM: CHANGE speakArsenal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarsenal extends StatelessWidget {
         "The treaty requires them to reduce their nuclear arsenal by 30%."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArsenal826(String languageCode) async {
+  Future<void> speakarsenal826(String languageCode) async {
     // DOPSUM: CHANGE speakArsenal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarsenal extends StatelessWidget {
         "The building was used as an arsenal until the eighteenth century."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   //   await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   //   await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   //   await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   //   await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryarsenal extends StatelessWidget {
   //   await flutterTts.speak("arsenal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArsenal(String languageCode) async {
+  // Future<void> speakarsenal(String languageCode) async {
   //   // DOPSUM: CHANGE speakArsenal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryarsenal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːsənl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArsenal("en-GB"),
+                              onPressed: () => speakarsenal("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryarsenal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrsənl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArsenal("en-US"),
+                              onPressed: () => speakarsenal("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarsenal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArsenal825("en-GB"),
+                                    onPressed: () => speakarsenal825("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArsenal825(
+                                    onPressed: () => speakarsenal825(
                                         // REPLACE: arsenal /ˈɑːrsənl/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryarsenal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArsenal826("en-GB"),
+                                    onPressed: () => speakarsenal826("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArsenal826(
+                                    onPressed: () => speakarsenal826(
                                         // REPLACE: arsenal /ˈɑːrsənl/
                                         "en-US"),
                                   ),

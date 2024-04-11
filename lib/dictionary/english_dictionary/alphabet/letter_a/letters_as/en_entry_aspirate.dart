@@ -19,7 +19,7 @@ class EnglishEntryaspirate extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAspirate(String languageCode) async {
+  Future<void> speakaspirate(String languageCode) async {
     // DOPSUM: CHANGE speakAspirate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaspirate extends StatelessWidget {
     await flutterTts.speak("aspirate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspirate643(String languageCode) async {
+  Future<void> speakaspirate643(String languageCode) async {
     // DOPSUM: CHANGE speakAspirate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaspirate extends StatelessWidget {
         "The word ‘hour’ is pronounced without an initial aspirate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspirate648(String languageCode) async {
+  Future<void> speakaspirate648(String languageCode) async {
     // DOPSUM: CHANGE speakAspirate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaspirate extends StatelessWidget {
         "The teacher instructed the student to aspirate their 't's more forcefully."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspirate651(String languageCode) async {
+  Future<void> speakaspirate651(String languageCode) async {
     // DOPSUM: CHANGE speakAspirate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaspirate extends StatelessWidget {
         "The drowning victim aspirated water into their lungs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAspirate653(String languageCode) async {
+  Future<void> speakaspirate653(String languageCode) async {
     // DOPSUM: CHANGE speakAspirate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaspirate extends StatelessWidget {
         "The doctor aspirated the fluid from the patient's lungs."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAspirate(String languageCode) async {
+  // Future<void> speakaspirate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspirate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaspirate extends StatelessWidget {
   //   await flutterTts.speak("aspirate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspirate(String languageCode) async {
+  // Future<void> speakaspirate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspirate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryaspirate extends StatelessWidget {
   //   await flutterTts.speak("aspirate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspirate(String languageCode) async {
+  // Future<void> speakaspirate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspirate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryaspirate extends StatelessWidget {
   //   await flutterTts.speak("aspirate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAspirate(String languageCode) async {
+  // Future<void> speakaspirate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAspirate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæspərət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAspirate("en-GB"),
+                              onPressed: () => speakaspirate("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæspərət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAspirate("en-US"),
+                              onPressed: () => speakaspirate("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryaspirate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspirate643("en-GB"),
+                                    onPressed: () => speakaspirate643("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspirate643(
+                                    onPressed: () => speakaspirate643(
                                         // REPLACE: aspirate /ˈæspərət/
                                         "en-US"),
                                   ),
@@ -215,10 +215,10 @@ class EnglishEntryaspirate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspirate648("en-GB"),
+                                    onPressed: () => speakaspirate648("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspirate648(
+                                    onPressed: () => speakaspirate648(
                                         // REPLACE: aspirate /ˈæspərət/
                                         "en-US"),
                                   ),
@@ -248,10 +248,10 @@ class EnglishEntryaspirate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspirate651("en-GB"),
+                                    onPressed: () => speakaspirate651("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspirate651(
+                                    onPressed: () => speakaspirate651(
                                         // REPLACE: aspirate /ˈæspərət/
                                         "en-US"),
                                   ),
@@ -281,10 +281,10 @@ class EnglishEntryaspirate extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAspirate653("en-GB"),
+                                    onPressed: () => speakaspirate653("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAspirate653(
+                                    onPressed: () => speakaspirate653(
                                         // REPLACE: aspirate /ˈæspərət/
                                         "en-US"),
                                   ),

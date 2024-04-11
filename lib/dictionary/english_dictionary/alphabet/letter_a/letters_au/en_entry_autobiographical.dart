@@ -19,7 +19,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutobiographical(String languageCode) async {
+  Future<void> speakautobiographical(String languageCode) async {
     // DOPSUM: CHANGE speakAutobiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
     await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutobiographical911(String languageCode) async {
+  Future<void> speakautobiographical911(String languageCode) async {
     // DOPSUM: CHANGE speakAutobiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
         .speak("The novel is largely autobiographical."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   //   await flutterTts.speak("autobiographical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAutobiographical(String languageCode) async {
+  // Future<void> speakautobiographical(String languageCode) async {
   //   // DOPSUM: CHANGE speakAutobiographical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːtəˌbaɪəˈɡræfɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutobiographical("en-GB"),
+                              onPressed: () => speakautobiographical("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːtəˌbaɪəˈɡræfɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutobiographical("en-US"),
+                              onPressed: () => speakautobiographical("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAutobiographical911("en-GB"),
+                                        speakautobiographical911("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAutobiographical911(
+                                    onPressed: () => speakautobiographical911(
                                         // REPLACE: autobiographical
                                         "en-US"),
                                   ),

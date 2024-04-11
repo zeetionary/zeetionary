@@ -11,7 +11,7 @@ class EnglishEntryaffix extends StatelessWidget {
   EnglishEntryaffix({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffix(String languageCode) async {
+  Future<void> speakaffix(String languageCode) async {
     // DOPSUM: CHANGE speakAffix
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffix extends StatelessWidget {
     await flutterTts.speak("affix"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffix911(String languageCode) async {
+  Future<void> speakaffix911(String languageCode) async {
     // DOPSUM: CHANGE speakAffix
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffix extends StatelessWidget {
         "The sticker must be affixed to your windshield."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffix(String languageCode) async {
+  // Future<void> speakaffix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaffix extends StatelessWidget {
   //   await flutterTts.speak("affix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffix(String languageCode) async {
+  // Future<void> speakaffix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaffix extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffix("en-GB"),
+                              onPressed: () => speakaffix("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaffix extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffix("en-US"),
+                              onPressed: () => speakaffix("en-US"),
                             ),
                           ],
                         ),
@@ -130,11 +130,11 @@ class EnglishEntryaffix extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffix911("en-GB"),
+                                    onPressed: () => speakaffix911("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAffix911(// REPLACE: affix /əˈfɪks/
+                                        speakaffix911(// REPLACE: affix /əˈfɪks/
                                             "en-US"),
                                   ),
                                 ],

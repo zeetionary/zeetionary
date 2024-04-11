@@ -19,7 +19,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBenchmark(String languageCode) async {
+  Future<void> speakbenchmark(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("benchmark"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks1(String languageCode) async {
+  Future<void> speakbenchmarks1(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
         "The German recycling system is seen as a benchmark for schemes throughout Europe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks2(String languageCode) async {
+  Future<void> speakbenchmarks2(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("speakBenchmarks22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks3(String languageCode) async {
+  Future<void> speakbenchmarks3(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("speakBenchmarks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks4(String languageCode) async {
+  Future<void> speakbenchmarks4(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("speakBenchmarks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks5(String languageCode) async {
+  Future<void> speakbenchmarks5(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("speakBenchmarks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks6(String languageCode) async {
+  Future<void> speakbenchmarks6(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
     await flutterTts.speak("speakBenchmarks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchmarks7(String languageCode) async {
+  Future<void> speakbenchmarks7(String languageCode) async {
     // DOPSUM: CHANGE speakBenchmark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbentʃmɑːk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBenchmark("en-GB"),
+                              onPressed: () => speakbenchmark("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybenchmark extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbentʃmɑːrk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBenchmark("en-US"),
+                              onPressed: () => speakbenchmark("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybenchmark extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchmarks1("en-GB"),
+                                    onPressed: () => speakbenchmarks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchmarks1("en-US"),
+                                    onPressed: () => speakbenchmarks1("en-US"),
                                   ),
                                 ],
                               ),

@@ -17,7 +17,7 @@ class EnglishEntryapparition extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApparition(String languageCode) async {
+  Future<void> speakapparition(String languageCode) async {
     // DOPSUM: CHANGE speakApparition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapparition extends StatelessWidget {
     await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApparition917(String languageCode) async {
+  Future<void> speakapparition917(String languageCode) async {
     // DOPSUM: CHANGE speakApparition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapparition extends StatelessWidget {
         "Apparitions of a woman in white robes have been reported."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapparition extends StatelessWidget {
   //   await flutterTts.speak("apparition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApparition(String languageCode) async {
+  // Future<void> speakapparition(String languageCode) async {
   //   // DOPSUM: CHANGE speakApparition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryapparition extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæpəˈrɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApparition("en-GB"),
+                              onPressed: () => speakapparition("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryapparition extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæpəˈrɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApparition("en-US"),
+                              onPressed: () => speakapparition("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryapparition extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApparition917("en-GB"),
+                                        speakapparition917("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApparition917(
+                                    onPressed: () => speakapparition917(
                                         // REPLACE: apparition /ˌæpəˈrɪʃn/
                                         "en-US"),
                                   ),

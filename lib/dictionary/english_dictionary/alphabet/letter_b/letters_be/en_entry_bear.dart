@@ -19,7 +19,7 @@ class EnglishEntrybear extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBear(String languageCode) async {
+  Future<void> speakbear(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("bear"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears1(String languageCode) async {
+  Future<void> speakbears1(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybear extends StatelessWidget {
         "A little bear cub ran right across the road in front of us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears2(String languageCode) async {
+  Future<void> speakbears2(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybear extends StatelessWidget {
         "The pain was almost more than he could bear."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears3(String languageCode) async {
+  Future<void> speakbears3(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybear extends StatelessWidget {
         "She bore it all with her usual patience."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears4(String languageCode) async {
+  Future<void> speakbears4(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybear extends StatelessWidget {
         "She bore the responsibility for most of the changes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears5(String languageCode) async {
+  Future<void> speakbears5(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybear extends StatelessWidget {
         "In the end it's consumers who bear the burden of higher prices."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears6(String languageCode) async {
+  Future<void> speakbears6(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybear extends StatelessWidget {
         "The ice is too thin to bear your weight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears7(String languageCode) async {
+  Future<void> speakbears7(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("The document bore her signature."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears8(String languageCode) async {
+  Future<void> speakbears8(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybear extends StatelessWidget {
         "He was badly wounded in the war and still bears the scars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears9(String languageCode) async {
+  Future<void> speakbears9(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybear extends StatelessWidget {
         "She bears little resemblance to her mother."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears10(String languageCode) async {
+  Future<void> speakbears10(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybear extends StatelessWidget {
         "Her later work does not bear comparison with her earlier novels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears11(String languageCode) async {
+  Future<void> speakbears11(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("The plan won't bear close inspection."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears12(String languageCode) async {
+  Future<void> speakbears12(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -135,7 +135,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("The joke doesn't bear repeating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears13(String languageCode) async {
+  Future<void> speakbears13(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -144,7 +144,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("He bears no resentment towards them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears14(String languageCode) async {
+  Future<void> speakbears14(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -153,7 +153,7 @@ class EnglishEntrybear extends StatelessWidget {
         "He's borne a grudge against me ever since that day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears15(String languageCode) async {
+  Future<void> speakbears15(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -162,7 +162,7 @@ class EnglishEntrybear extends StatelessWidget {
         "The stone plaque bearing his name was smashed to pieces."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears16(String languageCode) async {
+  Future<void> speakbears16(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -171,7 +171,7 @@ class EnglishEntrybear extends StatelessWidget {
         "He returned bearing a basket of vegetables."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears17(String languageCode) async {
+  Future<void> speakbears17(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -180,7 +180,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("Her two sons helped bear the coffin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears18(String languageCode) async {
+  Future<void> speakbears18(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -189,7 +189,7 @@ class EnglishEntrybear extends StatelessWidget {
         "He bears himself proudly, like a soldier."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears19(String languageCode) async {
+  Future<void> speakbears19(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -198,7 +198,7 @@ class EnglishEntrybear extends StatelessWidget {
         .speak("She had borne him six sons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears20(String languageCode) async {
+  Future<void> speakbears20(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -207,7 +207,7 @@ class EnglishEntrybear extends StatelessWidget {
         "These trees take a long time to bear fruit."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears21(String languageCode) async {
+  Future<void> speakbears21(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -216,7 +216,7 @@ class EnglishEntrybear extends StatelessWidget {
         "When you get to the fork in the road, bear right."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears22(String languageCode) async {
+  Future<void> speakbears22(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -224,7 +224,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears23(String languageCode) async {
+  Future<void> speakbears23(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -232,7 +232,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears24(String languageCode) async {
+  Future<void> speakbears24(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -240,7 +240,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears25(String languageCode) async {
+  Future<void> speakbears25(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -248,7 +248,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2525"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears26(String languageCode) async {
+  Future<void> speakbears26(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -256,7 +256,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2626"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears27(String languageCode) async {
+  Future<void> speakbears27(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -264,7 +264,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2727"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears28(String languageCode) async {
+  Future<void> speakbears28(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -272,7 +272,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2828"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears29(String languageCode) async {
+  Future<void> speakbears29(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -280,7 +280,7 @@ class EnglishEntrybear extends StatelessWidget {
     await flutterTts.speak("speakBears2929"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears30(String languageCode) async {
+  Future<void> speakbears30(String languageCode) async {
     // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -315,7 +315,7 @@ class EnglishEntrybear extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /beə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBear("en-GB"),
+                              onPressed: () => speakbear("en-GB"),
                             ),
                           ],
                         ),
@@ -323,7 +323,7 @@ class EnglishEntrybear extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ber/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBear("en-US"),
+                              onPressed: () => speakbear("en-US"),
                             ),
                           ],
                         ),
@@ -369,10 +369,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears1("en-GB"),
+                                    onPressed: () => speakbears1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears1("en-US"),
+                                    onPressed: () => speakbears1("en-US"),
                                   ),
                                 ],
                               ),
@@ -400,10 +400,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears2("en-GB"),
+                                    onPressed: () => speakbears2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears2("en-US"),
+                                    onPressed: () => speakbears2("en-US"),
                                   ),
                                 ],
                               ),
@@ -429,10 +429,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears3("en-GB"),
+                                    onPressed: () => speakbears3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears3("en-US"),
+                                    onPressed: () => speakbears3("en-US"),
                                   ),
                                 ],
                               ),
@@ -460,10 +460,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears4("en-GB"),
+                                    onPressed: () => speakbears4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears4("en-US"),
+                                    onPressed: () => speakbears4("en-US"),
                                   ),
                                 ],
                               ),
@@ -489,10 +489,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears5("en-GB"),
+                                    onPressed: () => speakbears5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears5("en-US"),
+                                    onPressed: () => speakbears5("en-US"),
                                   ),
                                 ],
                               ),
@@ -520,10 +520,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears6("en-GB"),
+                                    onPressed: () => speakbears6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears6("en-US"),
+                                    onPressed: () => speakbears6("en-US"),
                                   ),
                                 ],
                               ),
@@ -551,10 +551,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears7("en-GB"),
+                                    onPressed: () => speakbears7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears7("en-US"),
+                                    onPressed: () => speakbears7("en-US"),
                                   ),
                                 ],
                               ),
@@ -580,10 +580,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears8("en-GB"),
+                                    onPressed: () => speakbears8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears8("en-US"),
+                                    onPressed: () => speakbears8("en-US"),
                                   ),
                                 ],
                               ),
@@ -608,10 +608,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears9("en-GB"),
+                                    onPressed: () => speakbears9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears9("en-US"),
+                                    onPressed: () => speakbears9("en-US"),
                                   ),
                                 ],
                               ),
@@ -639,10 +639,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears10("en-GB"),
+                                    onPressed: () => speakbears10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears10("en-US"),
+                                    onPressed: () => speakbears10("en-US"),
                                   ),
                                 ],
                               ),
@@ -668,10 +668,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears11("en-GB"),
+                                    onPressed: () => speakbears11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears11("en-US"),
+                                    onPressed: () => speakbears11("en-US"),
                                   ),
                                 ],
                               ),
@@ -697,10 +697,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears12("en-GB"),
+                                    onPressed: () => speakbears12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears12("en-US"),
+                                    onPressed: () => speakbears12("en-US"),
                                   ),
                                 ],
                               ),
@@ -727,10 +727,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears13("en-GB"),
+                                    onPressed: () => speakbears13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears13("en-US"),
+                                    onPressed: () => speakbears13("en-US"),
                                   ),
                                 ],
                               ),
@@ -755,10 +755,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears14("en-GB"),
+                                    onPressed: () => speakbears14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears14("en-US"),
+                                    onPressed: () => speakbears14("en-US"),
                                   ),
                                 ],
                               ),
@@ -786,10 +786,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears15("en-GB"),
+                                    onPressed: () => speakbears15("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears15("en-US"),
+                                    onPressed: () => speakbears15("en-US"),
                                   ),
                                 ],
                               ),
@@ -816,10 +816,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears16("en-GB"),
+                                    onPressed: () => speakbears16("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears16("en-US"),
+                                    onPressed: () => speakbears16("en-US"),
                                   ),
                                 ],
                               ),
@@ -845,10 +845,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears17("en-GB"),
+                                    onPressed: () => speakbears17("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears17("en-US"),
+                                    onPressed: () => speakbears17("en-US"),
                                   ),
                                 ],
                               ),
@@ -876,10 +876,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears18("en-GB"),
+                                    onPressed: () => speakbears18("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears18("en-US"),
+                                    onPressed: () => speakbears18("en-US"),
                                   ),
                                 ],
                               ),
@@ -905,10 +905,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears19("en-GB"),
+                                    onPressed: () => speakbears19("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears19("en-US"),
+                                    onPressed: () => speakbears19("en-US"),
                                   ),
                                 ],
                               ),
@@ -936,10 +936,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears20("en-GB"),
+                                    onPressed: () => speakbears20("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears20("en-US"),
+                                    onPressed: () => speakbears20("en-US"),
                                   ),
                                 ],
                               ),
@@ -967,10 +967,10 @@ class EnglishEntrybear extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBears21("en-GB"),
+                                    onPressed: () => speakbears21("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBears21("en-US"),
+                                    onPressed: () => speakbears21("en-US"),
                                   ),
                                 ],
                               ),

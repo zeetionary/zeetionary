@@ -19,7 +19,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArticulation(String languageCode) async {
+  Future<void> speakarticulation(String languageCode) async {
     // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarticulation extends StatelessWidget {
     await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulation845(String languageCode) async {
+  Future<void> speakarticulation845(String languageCode) async {
     // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarticulation extends StatelessWidget {
         "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulation847(String languageCode) async {
+  Future<void> speakarticulation847(String languageCode) async {
     // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarticulation extends StatelessWidget {
         "The tongue and teeth are both organs of articulation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulation853(String languageCode) async {
+  Future<void> speakarticulation853(String languageCode) async {
     // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarticulation extends StatelessWidget {
         "The articulation of the shoulder allows for a wide range of motion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArticulation855(String languageCode) async {
+  Future<void> speakarticulation855(String languageCode) async {
     // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarticulation extends StatelessWidget {
         "The articulation of the pieces of the puzzle was perfect."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArticulation(String languageCode) async {
+  // Future<void> speakarticulation(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArticulation(String languageCode) async {
+  // Future<void> speakarticulation(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArticulation(String languageCode) async {
+  // Future<void> speakarticulation(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryarticulation extends StatelessWidget {
   //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArticulation(String languageCode) async {
+  // Future<void> speakarticulation(String languageCode) async {
   //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˌtɪkjuˈleɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArticulation("en-GB"),
+                              onPressed: () => speakarticulation("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˌtɪkjuˈleɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArticulation("en-US"),
+                              onPressed: () => speakarticulation("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulation845("en-GB"),
+                                        speakarticulation845("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulation845(
+                                    onPressed: () => speakarticulation845(
                                         // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
                                         "en-US"),
                                   ),
@@ -221,10 +221,10 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulation847("en-GB"),
+                                        speakarticulation847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulation847(
+                                    onPressed: () => speakarticulation847(
                                         // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulation855("en-GB"),
+                                        speakarticulation855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulation855(
+                                    onPressed: () => speakarticulation855(
                                         // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
                                         "en-US"),
                                   ),
@@ -287,10 +287,10 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArticulation853("en-GB"),
+                                        speakarticulation853("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArticulation853(
+                                    onPressed: () => speakarticulation853(
                                         // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
                                         "en-US"),
                                   ),

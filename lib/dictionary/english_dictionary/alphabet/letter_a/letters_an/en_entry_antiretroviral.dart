@@ -15,7 +15,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntiretroviral(String languageCode) async {
+  Future<void> speakantiretroviral(String languageCode) async {
     // DOPSUM: CHANGE speakAntiretroviral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
     await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntiretroviral1208(String languageCode) async {
+  Future<void> speakantiretroviral1208(String languageCode) async {
     // DOPSUM: CHANGE speakAntiretroviral
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
         "Antiretroviral drugs are the only way to treat HIV."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
   //   await flutterTts.speak("antiretroviral"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntiretroviral(String languageCode) async {
+  // Future<void> speakantiretroviral(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntiretroviral
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiretroviral("en-GB"),
+                              onPressed: () => speakantiretroviral("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiretroviral("en-US"),
+                              onPressed: () => speakantiretroviral("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntiretroviral1208("en-GB"),
+                                        speakantiretroviral1208("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntiretroviral1208(
+                                    onPressed: () => speakantiretroviral1208(
                                         // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/
                                         "en-US"),
                                   ),

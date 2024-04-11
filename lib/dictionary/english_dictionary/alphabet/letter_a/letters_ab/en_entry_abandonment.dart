@@ -216,7 +216,7 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAba12(String languageCode) async {
+  Future<void> speakaba12(String languageCode) async {
     // DOPSUM: CHANGE speakAbandonment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -257,10 +257,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAba12("en-GB"),
+                    onPressed: () => speakaba12("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAba12("en-US"),
+                    onPressed: () => speakaba12("en-US"),
                   ),
                 ],
               ),

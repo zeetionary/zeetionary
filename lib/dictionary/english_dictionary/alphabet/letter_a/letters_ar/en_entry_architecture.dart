@@ -17,7 +17,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchitecture(String languageCode) async {
+  Future<void> speakarchitecture(String languageCode) async {
     // DOPSUM: CHANGE speakArchitecture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
     await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchitecture415(String languageCode) async {
+  Future<void> speakarchitecture415(String languageCode) async {
     // DOPSUM: CHANGE speakArchitecture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
         "She's a professor of architecture at the University of Oregon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchitecture417(String languageCode) async {
+  Future<void> speakarchitecture417(String languageCode) async {
     // DOPSUM: CHANGE speakArchitecture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
         "There are examples of most styles of architecture in the town."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   //   await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   //   await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   //   await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   //   await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
   //   await flutterTts.speak("architecture"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchitecture(String languageCode) async {
+  // Future<void> speakarchitecture(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchitecture
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːkɪtektʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchitecture("en-GB"),
+                              onPressed: () => speakarchitecture("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrkɪtektʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchitecture("en-US"),
+                              onPressed: () => speakarchitecture("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArchitecture415("en-GB"),
+                                        speakarchitecture415("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchitecture415(
+                                    onPressed: () => speakarchitecture415(
                                         // REPLACE: architecture /ˈɑːrkɪtektʃər/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArchitecture417("en-GB"),
+                                        speakarchitecture417("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchitecture417(
+                                    onPressed: () => speakarchitecture417(
                                         // REPLACE: architecture /ˈɑːrkɪtektʃər/
                                         "en-US"),
                                   ),

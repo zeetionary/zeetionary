@@ -1,25 +1,327 @@
-// replace these: EnglishEntryabroad - speakAbroad - abroad - /əˈbrɔːd/
-
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
-class EnglishEntryabroad extends StatelessWidget {
-  EnglishEntryabroad({super.key});
+class EnglishEntryabroad extends StatefulWidget {
+  const EnglishEntryabroad({super.key});
+
+  @override
+  State<EnglishEntryabroad> createState() => _EnglishEntryabroadState();
+}
+
+class _EnglishEntryabroadState extends State<EnglishEntryabroad> {
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // const TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "abroad");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: abroad");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /əˈbrɔːd/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
+    super.key,
+  });
+
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbroad(String languageCode) async {
-    // DOPSUM: CHANGE speakAbroad
+  Future<void> speakabroad(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("abroad"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb28(String languageCode) async {
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakabroad("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /əˈbrɔːd/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabroad(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abroad"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakabroad("en-US"),
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabroads1(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "// speakabroads111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads2(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads3(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads4(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads5(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads6(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads7(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads8(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads9(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads10(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads11(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads12(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakabroads13(String languageCode) async {
+    // DOPSUM: CHANGE speakabroad
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakabroads1300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakab28(String languageCode) async {
     // DOPSUM: CHANGE speakAbroad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +330,7 @@ class EnglishEntryabroad extends StatelessWidget {
         "There was news abroad that a change was coming."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2569(String languageCode) async {
+  Future<void> speaka2569(String languageCode) async {
     // DOPSUM: CHANGE speakAbroad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +339,7 @@ class EnglishEntryabroad extends StatelessWidget {
         "He was famous, both at home and abroad."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3459(String languageCode) async {
+  Future<void> speaka3459(String languageCode) async {
     // DOPSUM: CHANGE speakAbroad
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -48,177 +350,100 @@ class EnglishEntryabroad extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(
-                                word: "abroad"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈbrɔːd/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakAbroad("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbrɔːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakAbroad("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const KurdishVocabulary(text: """
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const KurdishVocabulary(text: """
 کوردی: ھەندەران، دەرەوە، لە دەرەوەی وڵات، بەربڵاوانە، ھەموو جێیێ، گشت شوێنێ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
-                                  ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She worked abroad for a year."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA3459("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA3459("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "He was famous, both at home and abroad."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakA2569("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakA2569("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There was news abroad that a change was coming."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakAb28("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAb28("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedend(),
-                      ],
-                    ), // DOPSUM: FROM YOUTUBE BELOW
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
+                  ""),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She worked abroad for a year."),
+                    ExampleSentenceKurdish(
+                        text: "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد."),
                   ],
                 ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speaka3459("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speaka3459("en-US"),
+                  ),
+                ],
               ),
             ],
           ),
-        ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He was famous, both at home and abroad."),
+                    ExampleSentenceKurdish(
+                        text: "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speaka2569("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speaka2569("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "There was news abroad that a change was coming."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakab28("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakab28("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
@@ -253,7 +478,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -263,7 +488,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: abroad
@@ -456,4 +681,66 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+// speakabroads111111111111111111111111111111111
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB

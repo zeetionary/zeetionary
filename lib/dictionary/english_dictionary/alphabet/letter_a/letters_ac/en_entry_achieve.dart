@@ -11,7 +11,7 @@ class EnglishEntryachieve extends StatelessWidget {
   EnglishEntryachieve({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAchieve(String languageCode) async {
+  Future<void> speakachieve(String languageCode) async {
     // DOPSUM: CHANGE speakAchieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryachieve extends StatelessWidget {
     await flutterTts.speak("achieve"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA149873(String languageCode) async {
+  Future<void> speaka149873(String languageCode) async {
     // DOPSUM: CHANGE speakAchieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryachieve extends StatelessWidget {
         "These students need to achieve academically in order to enter the labour market."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc1528(String languageCode) async {
+  Future<void> speakac1528(String languageCode) async {
     // DOPSUM: CHANGE speakAchieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryachieve extends StatelessWidget {
         "She has worked hard to achieve her goal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc25647(String languageCode) async {
+  Future<void> speakac25647(String languageCode) async {
     // DOPSUM: CHANGE speakAchieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryachieve extends StatelessWidget {
         "Sooner or later our efforts will achieve results."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA1527(String languageCode) async {
+  Future<void> speaka1527(String languageCode) async {
     // DOPSUM: CHANGE speakAchieve
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryachieve extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈtʃiːv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAchieve("en-GB"),
+                              onPressed: () => speakachieve("en-GB"),
                             ),
                           ],
                         ),
@@ -92,7 +92,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtʃiːv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAchieve("en-US"),
+                              onPressed: () => speakachieve("en-US"),
                             ),
                           ],
                         ),
@@ -143,10 +143,10 @@ class EnglishEntryachieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc1528("en-GB"),
+                                    onPressed: () => speakac1528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc1528(
+                                    onPressed: () => speakac1528(
                                         "en-US"), // REPLACE achieve /əˈtʃiːv/
                                   ),
                                 ],
@@ -172,10 +172,10 @@ class EnglishEntryachieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc25647("en-GB"),
+                                    onPressed: () => speakac25647("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc25647(
+                                    onPressed: () => speakac25647(
                                         "en-US"), // REPLACE achieve /əˈtʃiːv/
                                   ),
                                 ],
@@ -203,10 +203,10 @@ class EnglishEntryachieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA1527("en-GB"),
+                                    onPressed: () => speaka1527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA1527(
+                                    onPressed: () => speaka1527(
                                         "en-US"), // REPLACE achieve /əˈtʃiːv/
                                   ),
                                 ],
@@ -234,10 +234,10 @@ class EnglishEntryachieve extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA149873("en-GB"),
+                                    onPressed: () => speaka149873("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA149873(
+                                    onPressed: () => speaka149873(
                                         "en-US"), // REPLACE achieve /əˈtʃiːv/
                                   ),
                                 ],

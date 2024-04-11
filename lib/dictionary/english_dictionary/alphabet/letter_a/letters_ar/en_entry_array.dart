@@ -19,7 +19,7 @@ class EnglishEntryarray extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArray(String languageCode) async {
+  Future<void> speakarray(String languageCode) async {
     // DOPSUM: CHANGE speakArray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarray extends StatelessWidget {
     await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArray145(String languageCode) async {
+  Future<void> speakarray145(String languageCode) async {
     // DOPSUM: CHANGE speakArray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarray extends StatelessWidget {
         "Her writing covers a wide array of topics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArray147(String languageCode) async {
+  Future<void> speakarray147(String languageCode) async {
     // DOPSUM: CHANGE speakArray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarray extends StatelessWidget {
         "The city has the usual array of social problems."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArray151(String languageCode) async {
+  Future<void> speakarray151(String languageCode) async {
     // DOPSUM: CHANGE speakArray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarray extends StatelessWidget {
         "Jars of all shapes and sizes were arrayed on the shelves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArray154(String languageCode) async {
+  Future<void> speakarray154(String languageCode) async {
     // DOPSUM: CHANGE speakArray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarray extends StatelessWidget {
         .speak("The enemy forces arrayed against them."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArray(String languageCode) async {
+  // Future<void> speakarray(String languageCode) async {
   //   // DOPSUM: CHANGE speakArray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArray(String languageCode) async {
+  // Future<void> speakarray(String languageCode) async {
   //   // DOPSUM: CHANGE speakArray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArray(String languageCode) async {
+  // Future<void> speakarray(String languageCode) async {
   //   // DOPSUM: CHANGE speakArray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryarray extends StatelessWidget {
   //   await flutterTts.speak("array"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArray(String languageCode) async {
+  // Future<void> speakarray(String languageCode) async {
   //   // DOPSUM: CHANGE speakArray
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryarray extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈreɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArray("en-GB"),
+                              onPressed: () => speakarray("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryarray extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈreɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArray("en-US"),
+                              onPressed: () => speakarray("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryarray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArray145("en-GB"),
+                                    onPressed: () => speakarray145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArray145(// REPLACE: array /əˈreɪ/
+                                        speakarray145(// REPLACE: array /əˈreɪ/
                                             "en-US"),
                                   ),
                                 ],
@@ -215,11 +215,11 @@ class EnglishEntryarray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArray147("en-GB"),
+                                    onPressed: () => speakarray147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArray147(// REPLACE: array /əˈreɪ/
+                                        speakarray147(// REPLACE: array /əˈreɪ/
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryarray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArray151("en-GB"),
+                                    onPressed: () => speakarray151("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArray151(// REPLACE: array /əˈreɪ/
+                                        speakarray151(// REPLACE: array /əˈreɪ/
                                             "en-US"),
                                   ),
                                 ],
@@ -281,11 +281,11 @@ class EnglishEntryarray extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArray154("en-GB"),
+                                    onPressed: () => speakarray154("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArray154(// REPLACE: array /əˈreɪ/
+                                        speakarray154(// REPLACE: array /əˈreɪ/
                                             "en-US"),
                                   ),
                                 ],

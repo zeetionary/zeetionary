@@ -11,7 +11,7 @@ class EnglishEntryabsorb extends StatelessWidget {
   EnglishEntryabsorb({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsorb(String languageCode) async {
+  Future<void> speakabsorb(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryabsorb extends StatelessWidget {
     await flutterTts.speak("absorb"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3959(String languageCode) async {
+  Future<void> speaka3959(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryabsorb extends StatelessWidget {
         .speak("His work absorbed him completely."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2768(String languageCode) async {
+  Future<void> speaka2768(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryabsorb extends StatelessWidget {
         "It took me several days to absorb the fact of her death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6731(String languageCode) async {
+  Future<void> speaka6731(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryabsorb extends StatelessWidget {
         "This tennis racket absorbs shock on impact."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA6981(String languageCode) async {
+  Future<void> speaka6981(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryabsorb extends StatelessWidget {
         "Black walls absorb a lot of heat during the day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2136(String languageCode) async {
+  Future<void> speaka2136(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryabsorb extends StatelessWidget {
         "Let the rice cook until it has absorbed all the water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA3257(String languageCode) async {
+  Future<void> speaka3257(String languageCode) async {
     // DOPSUM: CHANGE speakAbsorb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈzɔːb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsorb("en-GB"),
+                              onPressed: () => speakabsorb("en-GB"),
                             ),
                           ],
                         ),
@@ -111,7 +111,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈzɔːrb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsorb("en-US"),
+                              onPressed: () => speakabsorb("en-US"),
                             ),
                           ],
                         ),
@@ -162,10 +162,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA3257("en-GB"),
+                                    onPressed: () => speaka3257("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA3257("en-US"),
+                                    onPressed: () => speaka3257("en-US"),
                                   ),
                                 ],
                               ),
@@ -190,10 +190,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2136("en-GB"),
+                                    onPressed: () => speaka2136("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2136("en-US"),
+                                    onPressed: () => speaka2136("en-US"),
                                   ),
                                 ],
                               ),
@@ -220,10 +220,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6981("en-GB"),
+                                    onPressed: () => speaka6981("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6981("en-US"),
+                                    onPressed: () => speaka6981("en-US"),
                                   ),
                                 ],
                               ),
@@ -250,10 +250,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA6731("en-GB"),
+                                    onPressed: () => speaka6731("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA6731("en-US"),
+                                    onPressed: () => speaka6731("en-US"),
                                   ),
                                 ],
                               ),
@@ -280,10 +280,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2768("en-GB"),
+                                    onPressed: () => speaka2768("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2768("en-US"),
+                                    onPressed: () => speaka2768("en-US"),
                                   ),
                                 ],
                               ),
@@ -310,10 +310,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA3959("en-GB"),
+                                    onPressed: () => speaka3959("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA3959("en-US"),
+                                    onPressed: () => speaka3959("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntryassent extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssent(String languageCode) async {
+  Future<void> speakassent(String languageCode) async {
     // DOPSUM: CHANGE speakAssent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryassent extends StatelessWidget {
     await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssent1012(String languageCode) async {
+  Future<void> speakassent1012(String languageCode) async {
     // DOPSUM: CHANGE speakAssent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryassent extends StatelessWidget {
         "The director has given her assent to the proposals."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssent1015(String languageCode) async {
+  Future<void> speakassent1015(String languageCode) async {
     // DOPSUM: CHANGE speakAssent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryassent extends StatelessWidget {
         "Nobody would assent to the terms they proposed."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryassent extends StatelessWidget {
   //   await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryassent extends StatelessWidget {
   //   await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryassent extends StatelessWidget {
   //   await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryassent extends StatelessWidget {
   //   await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryassent extends StatelessWidget {
   //   await flutterTts.speak("assent"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssent(String languageCode) async {
+  // Future<void> speakassent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAssent
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryassent extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsent/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssent("en-GB"),
+                              onPressed: () => speakassent("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryassent extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssent("en-US"),
+                              onPressed: () => speakassent("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryassent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssent1012("en-GB"),
+                                    onPressed: () => speakassent1012("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssent1012(
+                                    onPressed: () => speakassent1012(
                                         // REPLACE: assent /əˈsent/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryassent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAssent1015("en-GB"),
+                                    onPressed: () => speakassent1015("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAssent1015(
+                                    onPressed: () => speakassent1015(
                                         // REPLACE: assent /əˈsent/
                                         "en-US"),
                                   ),

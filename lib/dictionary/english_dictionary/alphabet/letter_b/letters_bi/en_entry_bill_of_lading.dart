@@ -19,7 +19,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBilloflading(String languageCode) async {
+  Future<void> speakbilloflading(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("bill of lading"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings1(String languageCode) async {
+  Future<void> speakbillofladings1(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
         "speakBillofladings111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings2(String languageCode) async {
+  Future<void> speakbillofladings2(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("speakBillofladings22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings3(String languageCode) async {
+  Future<void> speakbillofladings3(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("speakBillofladings33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings4(String languageCode) async {
+  Future<void> speakbillofladings4(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("speakBillofladings44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings5(String languageCode) async {
+  Future<void> speakbillofladings5(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("speakBillofladings55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings6(String languageCode) async {
+  Future<void> speakbillofladings6(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
     await flutterTts.speak("speakBillofladings66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillofladings7(String languageCode) async {
+  Future<void> speakbillofladings7(String languageCode) async {
     // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌbɪl əv ˈleɪdɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBilloflading("en-GB"),
+                              onPressed: () => speakbilloflading("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbɪl əv ˈleɪdɪŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBilloflading("en-US"),
+                              onPressed: () => speakbilloflading("en-US"),
                             ),
                           ],
                         ),
@@ -158,10 +158,10 @@ class EnglishEntrybilloflading extends StatelessWidget {
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     const CustomSizedBoxForTTS(),
                           //     CustomIconButtonBritish(
-                          //       onPressed: () => speakBillofladings1("en-GB"),
+                          //       onPressed: () => speakbillofladings1("en-GB"),
                           //     ),
                           //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakBillofladings1("en-US"),
+                          //       onPressed: () => speakbillofladings1("en-US"),
                           //     ),
                           //   ],
                           // ),

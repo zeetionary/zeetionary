@@ -4849,7 +4849,7 @@ class _DictionaryScreenEnglishState
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: 18.0, // Adjust the icon size as needed
+                size: textSize + 2, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
                     .withOpacity(0.6), // Icon color

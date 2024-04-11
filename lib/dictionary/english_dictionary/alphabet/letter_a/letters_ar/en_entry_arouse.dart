@@ -19,7 +19,7 @@ class EnglishEntryarouse extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArouse(String languageCode) async {
+  Future<void> speakarouse(String languageCode) async {
     // DOPSUM: CHANGE speakArouse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarouse extends StatelessWidget {
     await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArouse1147(String languageCode) async {
+  Future<void> speakarouse1147(String languageCode) async {
     // DOPSUM: CHANGE speakArouse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarouse extends StatelessWidget {
         "Her strange behaviour aroused our suspicions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArouse1154(String languageCode) async {
+  Future<void> speakarouse1154(String languageCode) async {
     // DOPSUM: CHANGE speakArouse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryarouse extends StatelessWidget {
         .speak("Girls who wear perfume arouse him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArouse1155(String languageCode) async {
+  Future<void> speakarouse1155(String languageCode) async {
     // DOPSUM: CHANGE speakArouse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryarouse extends StatelessWidget {
         "The whole community was aroused by the crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArouse1157(String languageCode) async {
+  Future<void> speakarouse1157(String languageCode) async {
     // DOPSUM: CHANGE speakArouse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryarouse extends StatelessWidget {
         "He was aroused from a deep sleep by a loud noise."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArouse(String languageCode) async {
+  // Future<void> speakarouse(String languageCode) async {
   //   // DOPSUM: CHANGE speakArouse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArouse(String languageCode) async {
+  // Future<void> speakarouse(String languageCode) async {
   //   // DOPSUM: CHANGE speakArouse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArouse(String languageCode) async {
+  // Future<void> speakarouse(String languageCode) async {
   //   // DOPSUM: CHANGE speakArouse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryarouse extends StatelessWidget {
   //   await flutterTts.speak("arouse"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArouse(String languageCode) async {
+  // Future<void> speakarouse(String languageCode) async {
   //   // DOPSUM: CHANGE speakArouse
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryarouse extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈraʊz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArouse("en-GB"),
+                              onPressed: () => speakarouse("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryarouse extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈraʊz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArouse("en-US"),
+                              onPressed: () => speakarouse("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryarouse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArouse1147("en-GB"),
+                                    onPressed: () => speakarouse1147("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArouse1147(
+                                    onPressed: () => speakarouse1147(
                                         // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryarouse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArouse1154("en-GB"),
+                                    onPressed: () => speakarouse1154("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArouse1154(
+                                    onPressed: () => speakarouse1154(
                                         // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryarouse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArouse1155("en-GB"),
+                                    onPressed: () => speakarouse1155("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArouse1155(
+                                    onPressed: () => speakarouse1155(
                                         // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
                                   ),
@@ -284,10 +284,10 @@ class EnglishEntryarouse extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArouse1157("en-GB"),
+                                    onPressed: () => speakarouse1157("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArouse1157(
+                                    onPressed: () => speakarouse1157(
                                         // REPLACE: arouse /əˈraʊz/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
   EnglishEntryaircraftcarrier({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAircraftcarrier(String languageCode) async {
+  Future<void> speakaircraftcarrier(String languageCode) async {
     // DOPSUM: CHANGE speakAircraftcarrier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
     await flutterTts.speak("air craftcarrier"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAircraftcarrier(String languageCode) async {
+  // Future<void> speakaircraftcarrier(String languageCode) async {
   //   // DOPSUM: CHANGE speakAircraftcarrier
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
   //   await flutterTts.speak("air craftcarrier"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAircraftcarrier(String languageCode) async {
+  // Future<void> speakaircraftcarrier(String languageCode) async {
   //   // DOPSUM: CHANGE speakAircraftcarrier
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
   //   await flutterTts.speak("air craftcarrier"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAircraftcarrier(String languageCode) async {
+  // Future<void> speakaircraftcarrier(String languageCode) async {
   //   // DOPSUM: CHANGE speakAircraftcarrier
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈeəkrɑːft kæriə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAircraftcarrier("en-GB"),
+                              onPressed: () => speakaircraftcarrier("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerkræft kæriər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAircraftcarrier("en-US"),
+                              onPressed: () => speakaircraftcarrier("en-US"),
                             ),
                           ],
                         ),

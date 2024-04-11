@@ -13,7 +13,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntifreeze(String languageCode) async {
+  Future<void> speakantifreeze(String languageCode) async {
     // DOPSUM: CHANGE speakAntifreeze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
     await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntifreeze1051(String languageCode) async {
+  Future<void> speakantifreeze1051(String languageCode) async {
     // DOPSUM: CHANGE speakAntifreeze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
         "Lack of antifreeze is a major cause of highway breakdowns."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   //   await flutterTts.speak("antifreeze"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntifreeze(String languageCode) async {
+  // Future<void> speakantifreeze(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntifreeze
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntifreeze("en-GB"),
+                              onPressed: () => speakantifreeze("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntifreeze("en-US"),
+                              onPressed: () => speakantifreeze("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntifreeze1051("en-GB"),
+                                        speakantifreeze1051("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntifreeze1051(
+                                    onPressed: () => speakantifreeze1051(
                                         // REPLACE: antifreeze /ˈæntifriːz/
                                         "en-US"),
                                   ),

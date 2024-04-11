@@ -19,7 +19,7 @@ class EnglishEntrybig extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBig(String languageCode) async {
+  Future<void> speakbig(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("big"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs1(String languageCode) async {
+  Future<void> speakbigs1(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybig extends StatelessWidget {
         "It's the world's biggest computer company."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs2(String languageCode) async {
+  Future<void> speakbigs2(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybig extends StatelessWidget {
         "The festival is getting bigger every year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs3(String languageCode) async {
+  Future<void> speakbigs3(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybig extends StatelessWidget {
         .speak("They were earning big money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs4(String languageCode) async {
+  Future<void> speakbigs4(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("You're a big girl now."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs5(String languageCode) async {
+  Future<void> speakbigs5(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybig extends StatelessWidget {
         .speak("You are making a big mistake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs6(String languageCode) async {
+  Future<void> speakbigs6(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybig extends StatelessWidget {
         "Unemployment is a big problem in the region."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs7(String languageCode) async {
+  Future<void> speakbigs7(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("They're full of big ideas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs8(String languageCode) async {
+  Future<void> speakbigs8(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntrybig extends StatelessWidget {
         .speak("Orange is the big colour this year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs9(String languageCode) async {
+  Future<void> speakbigs9(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntrybig extends StatelessWidget {
         .speak("The band's very big in Japan."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs10(String languageCode) async {
+  Future<void> speakbigs10(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("I'm a big fan of hers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs11(String languageCode) async {
+  Future<void> speakbigs11(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntrybig extends StatelessWidget {
         .speak("She's always been a big spender."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs12(String languageCode) async {
+  Future<void> speakbigs12(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -132,7 +132,7 @@ class EnglishEntrybig extends StatelessWidget {
         "He gave me only an extra five pounds for two hours' work. I said ‘That's big of you’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs13(String languageCode) async {
+  Future<void> speakbigs13(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -140,7 +140,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("We need to think big."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs14(String languageCode) async {
+  Future<void> speakbigs14(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -148,7 +148,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1414"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs15(String languageCode) async {
+  Future<void> speakbigs15(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -156,7 +156,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1515"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs16(String languageCode) async {
+  Future<void> speakbigs16(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -164,7 +164,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs17(String languageCode) async {
+  Future<void> speakbigs17(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -172,7 +172,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1717"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs18(String languageCode) async {
+  Future<void> speakbigs18(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -180,7 +180,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs19(String languageCode) async {
+  Future<void> speakbigs19(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -188,7 +188,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs20(String languageCode) async {
+  Future<void> speakbigs20(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -196,7 +196,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs21(String languageCode) async {
+  Future<void> speakbigs21(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -204,7 +204,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs22(String languageCode) async {
+  Future<void> speakbigs22(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -212,7 +212,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs23(String languageCode) async {
+  Future<void> speakbigs23(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -220,7 +220,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs24(String languageCode) async {
+  Future<void> speakbigs24(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -228,7 +228,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2424"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs25(String languageCode) async {
+  Future<void> speakbigs25(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -236,7 +236,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2525"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs26(String languageCode) async {
+  Future<void> speakbigs26(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -244,7 +244,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2626"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs27(String languageCode) async {
+  Future<void> speakbigs27(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -252,7 +252,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2727"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs28(String languageCode) async {
+  Future<void> speakbigs28(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -260,7 +260,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2828"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs29(String languageCode) async {
+  Future<void> speakbigs29(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -268,7 +268,7 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.speak("speakBigs2929"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBigs30(String languageCode) async {
+  Future<void> speakbigs30(String languageCode) async {
     // DOPSUM: CHANGE speakBig
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -303,7 +303,7 @@ class EnglishEntrybig extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪɡ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBig("en-GB"),
+                              onPressed: () => speakbig("en-GB"),
                             ),
                           ],
                         ),
@@ -311,7 +311,7 @@ class EnglishEntrybig extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪɡ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBig("en-US"),
+                              onPressed: () => speakbig("en-US"),
                             ),
                           ],
                         ),
@@ -361,10 +361,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs1("en-GB"),
+                                    onPressed: () => speakbigs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs1("en-US"),
+                                    onPressed: () => speakbigs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -390,10 +390,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs2("en-GB"),
+                                    onPressed: () => speakbigs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs2("en-US"),
+                                    onPressed: () => speakbigs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -417,10 +417,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs3("en-GB"),
+                                    onPressed: () => speakbigs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs3("en-US"),
+                                    onPressed: () => speakbigs3("en-US"),
                                   ),
                                 ],
                               ),
@@ -447,10 +447,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs4("en-GB"),
+                                    onPressed: () => speakbigs4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs4("en-US"),
+                                    onPressed: () => speakbigs4("en-US"),
                                   ),
                                 ],
                               ),
@@ -476,10 +476,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs5("en-GB"),
+                                    onPressed: () => speakbigs5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs5("en-US"),
+                                    onPressed: () => speakbigs5("en-US"),
                                   ),
                                 ],
                               ),
@@ -505,10 +505,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs6("en-GB"),
+                                    onPressed: () => speakbigs6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs6("en-US"),
+                                    onPressed: () => speakbigs6("en-US"),
                                   ),
                                 ],
                               ),
@@ -534,10 +534,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs7("en-GB"),
+                                    onPressed: () => speakbigs7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs7("en-US"),
+                                    onPressed: () => speakbigs7("en-US"),
                                   ),
                                 ],
                               ),
@@ -565,10 +565,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs8("en-GB"),
+                                    onPressed: () => speakbigs8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs8("en-US"),
+                                    onPressed: () => speakbigs8("en-US"),
                                   ),
                                 ],
                               ),
@@ -593,10 +593,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs9("en-GB"),
+                                    onPressed: () => speakbigs9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs9("en-US"),
+                                    onPressed: () => speakbigs9("en-US"),
                                   ),
                                 ],
                               ),
@@ -622,10 +622,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs10("en-GB"),
+                                    onPressed: () => speakbigs10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs10("en-US"),
+                                    onPressed: () => speakbigs10("en-US"),
                                   ),
                                 ],
                               ),
@@ -653,10 +653,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs11("en-GB"),
+                                    onPressed: () => speakbigs11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs11("en-US"),
+                                    onPressed: () => speakbigs11("en-US"),
                                   ),
                                 ],
                               ),
@@ -684,10 +684,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs12("en-GB"),
+                                    onPressed: () => speakbigs12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs12("en-US"),
+                                    onPressed: () => speakbigs12("en-US"),
                                   ),
                                 ],
                               ),
@@ -713,10 +713,10 @@ class EnglishEntrybig extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBigs13("en-GB"),
+                                    onPressed: () => speakbigs13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBigs13("en-US"),
+                                    onPressed: () => speakbigs13("en-US"),
                                   ),
                                 ],
                               ),

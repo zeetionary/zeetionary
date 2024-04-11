@@ -19,7 +19,7 @@ class EnglishEntryatheism extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtheism(String languageCode) async {
+  Future<void> speakatheism(String languageCode) async {
     // DOPSUM: CHANGE speakAtheism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatheism extends StatelessWidget {
     await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtheism731(String languageCode) async {
+  Future<void> speakatheism731(String languageCode) async {
     // DOPSUM: CHANGE speakAtheism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatheism extends StatelessWidget {
         "She is torn between atheism and the religious traditions she was raised with."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryatheism extends StatelessWidget {
   //   await flutterTts.speak("atheism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtheism(String languageCode) async {
+  // Future<void> speakatheism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtheism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryatheism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪθiɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtheism("en-GB"),
+                              onPressed: () => speakatheism("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryatheism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪθiɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtheism("en-US"),
+                              onPressed: () => speakatheism("en-US"),
                             ),
                           ],
                         ),
@@ -183,11 +183,11 @@ class EnglishEntryatheism extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtheism731("en-GB"),
+                                    onPressed: () => speakatheism731("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtheism731(// REPLACE: atheism
+                                        speakatheism731(// REPLACE: atheism
                                             "en-US"),
                                   ),
                                 ],

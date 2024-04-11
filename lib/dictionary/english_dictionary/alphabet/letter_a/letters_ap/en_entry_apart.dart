@@ -15,7 +15,7 @@ class EnglishEntryapart extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApart(String languageCode) async {
+  Future<void> speakapart(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryapart extends StatelessWidget {
     await flutterTts.speak("apart"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApart1105(String languageCode) async {
+  Future<void> speakapart1105(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryapart extends StatelessWidget {
         .speak("The two houses stood 500 metres apart."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApart1106(String languageCode) async {
+  Future<void> speakapart1106(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryapart extends StatelessWidget {
         "Their birthdays are only three days apart."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApart1108(String languageCode) async {
+  Future<void> speakapart1108(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryapart extends StatelessWidget {
     await flutterTts.speak("We're living apart now."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApart1110(String languageCode) async {
+  Future<void> speakapart1110(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapart extends StatelessWidget {
         "Within minutes the ship began to break apart."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApart1112(String languageCode) async {
+  Future<void> speakapart1112(String languageCode) async {
     // DOPSUM: CHANGE speakApart
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapart extends StatelessWidget {
         "Victoria apart, not one of them seems suitable for the job."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApart(String languageCode) async {
+  // Future<void> speakapart(String languageCode) async {
   //   // DOPSUM: CHANGE speakApart
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapart extends StatelessWidget {
   //   await flutterTts.speak("apart"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApart(String languageCode) async {
+  // Future<void> speakapart(String languageCode) async {
   //   // DOPSUM: CHANGE speakApart
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapart extends StatelessWidget {
   //   await flutterTts.speak("apart"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApart(String languageCode) async {
+  // Future<void> speakapart(String languageCode) async {
   //   // DOPSUM: CHANGE speakApart
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapart extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApart("en-GB"),
+                              onPressed: () => speakapart("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapart extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApart("en-US"),
+                              onPressed: () => speakapart("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryapart extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApart1105("en-GB"),
+                                    onPressed: () => speakapart1105("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApart1105(
+                                    onPressed: () => speakapart1105(
                                         // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
                                   ),
@@ -212,10 +212,10 @@ class EnglishEntryapart extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApart1106("en-GB"),
+                                    onPressed: () => speakapart1106("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApart1106(
+                                    onPressed: () => speakapart1106(
                                         // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
                                   ),
@@ -243,10 +243,10 @@ class EnglishEntryapart extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApart1108("en-GB"),
+                                    onPressed: () => speakapart1108("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApart1108(
+                                    onPressed: () => speakapart1108(
                                         // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
                                   ),
@@ -276,10 +276,10 @@ class EnglishEntryapart extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApart1110("en-GB"),
+                                    onPressed: () => speakapart1110("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApart1110(
+                                    onPressed: () => speakapart1110(
                                         // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
                                   ),
@@ -309,10 +309,10 @@ class EnglishEntryapart extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApart1112("en-GB"),
+                                    onPressed: () => speakapart1112("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApart1112(
+                                    onPressed: () => speakapart1112(
                                         // REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
                                   ),

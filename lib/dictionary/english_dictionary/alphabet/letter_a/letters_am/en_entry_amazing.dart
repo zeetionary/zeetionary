@@ -11,7 +11,7 @@ class EnglishEntryamazing extends StatelessWidget {
   EnglishEntryamazing({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmazing(String languageCode) async {
+  Future<void> speakamazing(String languageCode) async {
     // DOPSUM: CHANGE speakAmazing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamazing extends StatelessWidget {
     await flutterTts.speak("amazing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmazing45555(String languageCode) async {
+  Future<void> speakamazing45555(String languageCode) async {
     // DOPSUM: CHANGE speakAmazing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamazing extends StatelessWidget {
         "The amazing thing is, he really believes he'll get away with it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmazing95314(String languageCode) async {
+  Future<void> speakamazing95314(String languageCode) async {
     // DOPSUM: CHANGE speakAmazing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamazing extends StatelessWidget {
         "I find it amazing that people can be so irresponsible."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmazing(String languageCode) async {
+  // Future<void> speakamazing(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmazing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmeɪzɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmazing("en-GB"),
+                              onPressed: () => speakamazing("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmeɪzɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmazing("en-US"),
+                              onPressed: () => speakamazing("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryamazing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmazing45555("en-GB"),
+                                    onPressed: () => speakamazing45555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmazing45555(
+                                    onPressed: () => speakamazing45555(
                                         // REPLACE: amazing /əˈmeɪzɪŋ/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryamazing extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmazing95314("en-GB"),
+                                    onPressed: () => speakamazing95314("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmazing95314(
+                                    onPressed: () => speakamazing95314(
                                         // REPLACE: amazing /əˈmeɪzɪŋ/
                                         "en-US"),
                                   ),

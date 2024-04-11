@@ -17,7 +17,7 @@ class EnglishEntryapology extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApology(String languageCode) async {
+  Future<void> speakapology(String languageCode) async {
     // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapology extends StatelessWidget {
     await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApology552(String languageCode) async {
+  Future<void> speakapology552(String languageCode) async {
     // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapology extends StatelessWidget {
         "You owe him an apology for what you said."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApology555(String languageCode) async {
+  Future<void> speakapology555(String languageCode) async {
     // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryapology extends StatelessWidget {
         .speak("Please accept my sincere apologies."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryapology extends StatelessWidget {
   //   await flutterTts.speak("apology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApology(String languageCode) async {
+  // Future<void> speakapology(String languageCode) async {
   //   // DOPSUM: CHANGE speakApology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryapology extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApology("en-GB"),
+                              onPressed: () => speakapology("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryapology extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApology("en-US"),
+                              onPressed: () => speakapology("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryapology extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApology552("en-GB"),
+                                    onPressed: () => speakapology552("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApology552(
+                                    onPressed: () => speakapology552(
                                         // REPLACE: apology /əˈpɑːlədʒi/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryapology extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApology555("en-GB"),
+                                    onPressed: () => speakapology555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApology555(
+                                    onPressed: () => speakapology555(
                                         // REPLACE: apology /əˈpɑːlədʒi/
                                         "en-US"),
                                   ),

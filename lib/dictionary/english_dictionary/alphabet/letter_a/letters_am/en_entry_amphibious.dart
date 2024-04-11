@@ -11,7 +11,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   EnglishEntryamphibious({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmphibious(String languageCode) async {
+  Future<void> speakamphibious(String languageCode) async {
     // DOPSUM: CHANGE speakAmphibious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamphibious extends StatelessWidget {
     await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphibious3344(String languageCode) async {
+  Future<void> speakamphibious3344(String languageCode) async {
     // DOPSUM: CHANGE speakAmphibious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamphibious extends StatelessWidget {
         .speak("Most species of frogs are amphibious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphibious496002(String languageCode) async {
+  Future<void> speakamphibious496002(String languageCode) async {
     // DOPSUM: CHANGE speakAmphibious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamphibious extends StatelessWidget {
         "A third brigade is at sea, ready for an amphibious assault."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphibious44952(String languageCode) async {
+  Future<void> speakamphibious44952(String languageCode) async {
     // DOPSUM: CHANGE speakAmphibious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryamphibious extends StatelessWidget {
         "I saw an amphibious plane at the lake yesterday."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmphibious(String languageCode) async {
+  // Future<void> speakamphibious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphibious(String languageCode) async {
+  // Future<void> speakamphibious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphibious(String languageCode) async {
+  // Future<void> speakamphibious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphibious(String languageCode) async {
+  // Future<void> speakamphibious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryamphibious extends StatelessWidget {
   //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphibious(String languageCode) async {
+  // Future<void> speakamphibious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈfɪbiəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmphibious("en-GB"),
+                              onPressed: () => speakamphibious("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈfɪbiəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmphibious("en-US"),
+                              onPressed: () => speakamphibious("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmphibious3344("en-GB"),
+                                        speakamphibious3344("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmphibious3344(
+                                    onPressed: () => speakamphibious3344(
                                         // REPLACE: amphibious /æmˈfɪbiəs/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmphibious496002("en-GB"),
+                                        speakamphibious496002("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmphibious496002(
+                                    onPressed: () => speakamphibious496002(
                                         // REPLACE: Dopsum1 /haʊ/
                                         "en-US"),
                                   ),
@@ -244,10 +244,10 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmphibious44952("en-GB"),
+                                        speakamphibious44952("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmphibious44952(
+                                    onPressed: () => speakamphibious44952(
                                         // REPLACE: Dopsum1 /haʊ/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttachecase(String languageCode) async {
+  Future<void> speakattachecase(String languageCode) async {
     // DOPSUM: CHANGE speakAttachecase
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattachecase extends StatelessWidget {
     await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttachecase442(String languageCode) async {
+  Future<void> speakattachecase442(String languageCode) async {
     // DOPSUM: CHANGE speakAttachecase
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattachecase extends StatelessWidget {
         "The spy stole the attaché case containing the secret documents."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryattachecase extends StatelessWidget {
   //   await flutterTts.speak("attaché case"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttachecase(String languageCode) async {
+  // Future<void> speakattachecase(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttachecase
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryattachecase extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtæʃeɪ keɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttachecase("en-GB"),
+                              onPressed: () => speakattachecase("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryattachecase extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌætəˈʃeɪ keɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttachecase("en-US"),
+                              onPressed: () => speakattachecase("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryattachecase extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttachecase442("en-GB"),
+                                        speakattachecase442("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttachecase442(
+                                    onPressed: () => speakattachecase442(
                                         // REPLACE: attaché case
                                         "en-US"),
                                   ),

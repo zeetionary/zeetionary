@@ -11,7 +11,7 @@ class EnglishEntryacoustics extends StatelessWidget {
   EnglishEntryacoustics({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcoustics(String languageCode) async {
+  Future<void> speakacoustics(String languageCode) async {
     // DOPSUM: CHANGE speakAcoustics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacoustics extends StatelessWidget {
     await flutterTts.speak("acoustics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAco4527(String languageCode) async {
+  Future<void> speakaco4527(String languageCode) async {
     // DOPSUM: CHANGE speakAcoustics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacoustics extends StatelessWidget {
         "The acoustics of the new concert hall are excellent."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcoustics(String languageCode) async {
+  // Future<void> speakacoustics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcoustics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacoustics extends StatelessWidget {
   //   await flutterTts.speak("acoustics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcoustics(String languageCode) async {
+  // Future<void> speakacoustics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcoustics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacoustics extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkuːstɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcoustics("en-GB"),
+                              onPressed: () => speakacoustics("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacoustics extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkuːstɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcoustics("en-US"),
+                              onPressed: () => speakacoustics("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryacoustics extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAco4527("en-GB"),
+                                    onPressed: () => speakaco4527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAco4527(
+                                    onPressed: () => speakaco4527(
                                         "en-US"), // REPLACE acoustics /əˈkuːstɪks/
                                   ),
                                 ],

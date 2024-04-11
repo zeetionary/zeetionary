@@ -19,7 +19,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarbarity(String languageCode) async {
+  Future<void> speakbarbarity(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("barbarity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys1(String languageCode) async {
+  Future<void> speakbarbaritys1(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
         "The barbarity of the old regime was eventually exposed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys2(String languageCode) async {
+  Future<void> speakbarbaritys2(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("speakBarbaritys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys3(String languageCode) async {
+  Future<void> speakbarbaritys3(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("speakBarbaritys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys4(String languageCode) async {
+  Future<void> speakbarbaritys4(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("speakBarbaritys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys5(String languageCode) async {
+  Future<void> speakbarbaritys5(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("speakBarbaritys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys6(String languageCode) async {
+  Future<void> speakbarbaritys6(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
     await flutterTts.speak("speakBarbaritys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbaritys7(String languageCode) async {
+  Future<void> speakbarbaritys7(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɑːˈbærəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarbarity("en-GB"),
+                              onPressed: () => speakbarbarity("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɑːrˈbærəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarbarity("en-US"),
+                              onPressed: () => speakbarbarity("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntrybarbarity extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbaritys1("en-GB"),
+                                    onPressed: () => speakbarbaritys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbaritys1(// REPLACE: barbarity
+                                        speakbarbaritys1(// REPLACE: barbarity
                                             "en-US"),
                                   ),
                                 ],

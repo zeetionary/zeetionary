@@ -11,7 +11,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   EnglishEntryanchorage({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnchorage(String languageCode) async {
+  Future<void> speakanchorage(String languageCode) async {
     // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchorage152(String languageCode) async {
+  Future<void> speakanchorage152(String languageCode) async {
     // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanchorage extends StatelessWidget {
         "The bay is well known as a safe anchorage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchorage145(String languageCode) async {
+  Future<void> speakanchorage145(String languageCode) async {
     // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanchorage extends StatelessWidget {
         .speak("The plant needs firm anchorage."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanchorage extends StatelessWidget {
   //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchorage(String languageCode) async {
+  // Future<void> speakanchorage(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋkərɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnchorage("en-GB"),
+                              onPressed: () => speakanchorage("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋkərɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnchorage("en-US"),
+                              onPressed: () => speakanchorage("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryanchorage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchorage152("en-GB"),
+                                    onPressed: () => speakanchorage152("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchorage152(
+                                    onPressed: () => speakanchorage152(
                                         // REPLACE: anchorage /ˈæŋkərɪdʒ/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryanchorage extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnchorage145("en-GB"),
+                                    onPressed: () => speakanchorage145("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnchorage145(
+                                    onPressed: () => speakanchorage145(
                                         // REPLACE: anchorage /ˈæŋkərɪdʒ/
                                         "en-US"),
                                   ),

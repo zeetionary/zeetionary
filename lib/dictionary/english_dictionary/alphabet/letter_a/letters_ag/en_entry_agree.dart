@@ -11,7 +11,7 @@ class EnglishEntryagree extends StatelessWidget {
   EnglishEntryagree({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgree(String languageCode) async {
+  Future<void> speakagree(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagree extends StatelessWidget {
     await flutterTts.speak("agree"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgree6778(String languageCode) async {
+  Future<void> speakagree6778(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagree extends StatelessWidget {
         .speak("When he said that, I had to agree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg2256(String languageCode) async {
+  Future<void> speakag2256(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagree extends StatelessWidget {
         "I don't agree with hitting children as a punishment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgree2344(String languageCode) async {
+  Future<void> speakagree2344(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryagree extends StatelessWidget {
         .speak("I asked for a pay rise and she agreed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgre3555(String languageCode) async {
+  Future<void> speakagre3555(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryagree extends StatelessWidget {
         .speak("We agreed to meet on Thursday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgree37859(String languageCode) async {
+  Future<void> speakagree37859(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryagree extends StatelessWidget {
         .speak("Next year's budget has been agreed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgr3544(String languageCode) async {
+  Future<void> speakagr3544(String languageCode) async {
     // DOPSUM: CHANGE speakAgree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryagree extends StatelessWidget {
         "Your account of the accident does not agree with hers."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgree(String languageCode) async {
+  // Future<void> speakagree(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgree
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntryagree extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgree("en-GB"),
+                              onPressed: () => speakagree("en-GB"),
                             ),
                           ],
                         ),
@@ -118,7 +118,7 @@ class EnglishEntryagree extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgree("en-US"),
+                              onPressed: () => speakagree("en-US"),
                             ),
                           ],
                         ),
@@ -164,10 +164,10 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgree6778("en-GB"),
+                                    onPressed: () => speakagree6778("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgree6778(
+                                    onPressed: () => speakagree6778(
                                         // REPLACE: agree /əˈɡriː/
                                         "en-US"),
                                   ),
@@ -196,11 +196,11 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAg2256("en-GB"),
+                                    onPressed: () => speakag2256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAg2256(// REPLACE: agree /əˈɡriː/
+                                        speakag2256(// REPLACE: agree /əˈɡriː/
                                             "en-US"),
                                   ),
                                 ],
@@ -228,10 +228,10 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgree2344("en-GB"),
+                                    onPressed: () => speakagree2344("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgree2344(
+                                    onPressed: () => speakagree2344(
                                         // REPLACE: agree /əˈɡriː/
                                         "en-US"),
                                   ),
@@ -259,11 +259,11 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgre3555("en-GB"),
+                                    onPressed: () => speakagre3555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgre3555(// REPLACE: agree /əˈɡriː/
+                                        speakagre3555(// REPLACE: agree /əˈɡriː/
                                             "en-US"),
                                   ),
                                 ],
@@ -291,10 +291,10 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgree37859("en-GB"),
+                                    onPressed: () => speakagree37859("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgree37859(
+                                    onPressed: () => speakagree37859(
                                         // REPLACE: agree /əˈɡriː/
                                         "en-US"),
                                   ),
@@ -323,11 +323,11 @@ class EnglishEntryagree extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgr3544("en-GB"),
+                                    onPressed: () => speakagr3544("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgr3544(// REPLACE: agree /əˈɡriː/
+                                        speakagr3544(// REPLACE: agree /əˈɡriː/
                                             "en-US"),
                                   ),
                                 ],

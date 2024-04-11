@@ -11,7 +11,7 @@ class EnglishEntryalready extends StatelessWidget {
   EnglishEntryalready({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlready(String languageCode) async {
+  Future<void> speakalready(String languageCode) async {
     // DOPSUM: CHANGE speakAlready
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalready extends StatelessWidget {
     await flutterTts.speak("already"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlready125(String languageCode) async {
+  Future<void> speakalready125(String languageCode) async {
     // DOPSUM: CHANGE speakAlready
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalready extends StatelessWidget {
         "We got there early but Mike had already left."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2858644(String languageCode) async {
+  Future<void> speaka2858644(String languageCode) async {
     // DOPSUM: CHANGE speakAboard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalready extends StatelessWidget {
         .speak("He was already aboard the plane."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcqua244751(String languageCode) async {
+  Future<void> speakacqua244751(String languageCode) async {
     // DOPSUM: CHANGE speakAcquainted
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalready extends StatelessWidget {
         "The students are already acquainted with the work of Shakespeare."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge3526(String languageCode) async {
+  Future<void> speakage3526(String languageCode) async {
     // DOPSUM: CHANGE speakAge
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalready extends StatelessWidget {
         "When I was your age I was already married."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlready4598(String languageCode) async {
+  Future<void> speakalready4598(String languageCode) async {
     // DOPSUM: CHANGE speakAlready
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalready extends StatelessWidget {
         .speak("You're not leaving already, are you?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlready4855(String languageCode) async {
+  Future<void> speakalready4855(String languageCode) async {
     // DOPSUM: CHANGE speakAlready
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalready extends StatelessWidget {
         "The new company already has an excellent reputation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlready54589(String languageCode) async {
+  Future<void> speakalready54589(String languageCode) async {
     // DOPSUM: CHANGE speakAlready
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntryalready extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈredi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlready("en-GB"),
+                              onPressed: () => speakalready("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntryalready extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈredi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlready("en-US"),
+                              onPressed: () => speakalready("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntryalready extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlready125("en-GB"),
+                                    onPressed: () => speakalready125("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlready125(
+                                    onPressed: () => speakalready125(
                                         // REPLACE: already /ɔːlˈredi/
                                         "en-US"),
                                   ),
@@ -201,10 +201,10 @@ class EnglishEntryalready extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlready4598("en-GB"),
+                                    onPressed: () => speakalready4598("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlready4598(
+                                    onPressed: () => speakalready4598(
                                         // REPLACE: already /ɔːlˈredi/
                                         "en-US"),
                                   ),
@@ -233,10 +233,10 @@ class EnglishEntryalready extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlready4855("en-GB"),
+                                    onPressed: () => speakalready4855("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlready4855(
+                                    onPressed: () => speakalready4855(
                                         // REPLACE: already /ɔːlˈredi/
                                         "en-US"),
                                   ),
@@ -265,10 +265,10 @@ class EnglishEntryalready extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlready54589("en-GB"),
+                                    onPressed: () => speakalready54589("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlready54589(
+                                    onPressed: () => speakalready54589(
                                         // REPLACE: already /ɔːlˈredi/
                                         "en-US"),
                                   ),

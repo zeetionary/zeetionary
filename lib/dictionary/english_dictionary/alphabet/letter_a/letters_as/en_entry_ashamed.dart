@@ -19,7 +19,7 @@ class EnglishEntryashamed extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAshamed(String languageCode) async {
+  Future<void> speakashamed(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryashamed extends StatelessWidget {
     await flutterTts.speak("ashamed"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshamed516(String languageCode) async {
+  Future<void> speakashamed516(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryashamed extends StatelessWidget {
         "She was deeply ashamed of her behaviour at the party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshamed518(String languageCode) async {
+  Future<void> speakashamed518(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryashamed extends StatelessWidget {
         "We must stop being afraid or ashamed of what we are."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshamed519(String languageCode) async {
+  Future<void> speakashamed519(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryashamed extends StatelessWidget {
         "You ought to be thoroughly ashamed of yourselves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshamed527(String languageCode) async {
+  Future<void> speakashamed527(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryashamed extends StatelessWidget {
         .speak("I'm ashamed to say that I lied to her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAshamed528(String languageCode) async {
+  Future<void> speakashamed528(String languageCode) async {
     // DOPSUM: CHANGE speakAshamed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryashamed extends StatelessWidget {
         "I cried at the end and I'm not ashamed to admit it."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAshamed(String languageCode) async {
+  // Future<void> speakashamed(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshamed
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryashamed extends StatelessWidget {
   //   await flutterTts.speak("ashamed"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshamed(String languageCode) async {
+  // Future<void> speakashamed(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshamed
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryashamed extends StatelessWidget {
   //   await flutterTts.speak("ashamed"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAshamed(String languageCode) async {
+  // Future<void> speakashamed(String languageCode) async {
   //   // DOPSUM: CHANGE speakAshamed
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃeɪmd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAshamed("en-GB"),
+                              onPressed: () => speakashamed("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃeɪmd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshamed("en-US"),
+                              onPressed: () => speakashamed("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryashamed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshamed516("en-GB"),
+                                    onPressed: () => speakashamed516("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshamed516(
+                                    onPressed: () => speakashamed516(
                                         // REPLACE: ashamed /əˈʃeɪmd/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryashamed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshamed518("en-GB"),
+                                    onPressed: () => speakashamed518("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshamed518(
+                                    onPressed: () => speakashamed518(
                                         // REPLACE: ashamed /əˈʃeɪmd/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryashamed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshamed519("en-GB"),
+                                    onPressed: () => speakashamed519("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshamed519(
+                                    onPressed: () => speakashamed519(
                                         // REPLACE: ashamed /əˈʃeɪmd/
                                         "en-US"),
                                   ),
@@ -280,10 +280,10 @@ class EnglishEntryashamed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshamed527("en-GB"),
+                                    onPressed: () => speakashamed527("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshamed527(
+                                    onPressed: () => speakashamed527(
                                         // REPLACE: ashamed /əˈʃeɪmd/
                                         "en-US"),
                                   ),
@@ -311,10 +311,10 @@ class EnglishEntryashamed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAshamed528("en-GB"),
+                                    onPressed: () => speakashamed528("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAshamed528(
+                                    onPressed: () => speakashamed528(
                                         // REPLACE: ashamed /əˈʃeɪmd/
                                         "en-US"),
                                   ),

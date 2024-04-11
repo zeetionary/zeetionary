@@ -11,7 +11,7 @@ class EnglishEntryamputation extends StatelessWidget {
   EnglishEntryamputation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmputation(String languageCode) async {
+  Future<void> speakamputation(String languageCode) async {
     // DOPSUM: CHANGE speakAmputation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamputation extends StatelessWidget {
     await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmputation7704(String languageCode) async {
+  Future<void> speakamputation7704(String languageCode) async {
     // DOPSUM: CHANGE speakAmputation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamputation extends StatelessWidget {
         "A boyhood accident led to the amputation of one of his legs."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamputation extends StatelessWidget {
   //   await flutterTts.speak("amputation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmputation(String languageCode) async {
+  // Future<void> speakamputation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmputation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryamputation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmpjuˈteɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmputation("en-GB"),
+                              onPressed: () => speakamputation("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryamputation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmpjuˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmputation("en-US"),
+                              onPressed: () => speakamputation("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryamputation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmputation7704("en-GB"),
+                                        speakamputation7704("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmputation7704(
+                                    onPressed: () => speakamputation7704(
                                         // REPLACE: amputation /ˌæmpjuˈteɪʃn/
                                         "en-US"),
                                   ),

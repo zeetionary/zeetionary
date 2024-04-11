@@ -19,7 +19,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuxiliary(String languageCode) async {
+  Future<void> speakauxiliary(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.speak("auxiliary"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys1(String languageCode) async {
+  Future<void> speakauxiliarys1(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
         "The auxiliary nurse helped the doctor with patient care."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys2(String languageCode) async {
+  Future<void> speakauxiliarys2(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
         "The auxiliary engine provided power to the sailboat when the wind died down."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys3(String languageCode) async {
+  Future<void> speakauxiliarys3(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
         "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys4(String languageCode) async {
+  Future<void> speakauxiliarys4(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
         "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys5(String languageCode) async {
+  Future<void> speakauxiliarys5(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.speak("speakAuxiliarys5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys6(String languageCode) async {
+  Future<void> speakauxiliarys6(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
     await flutterTts.speak("speakAuxiliarys6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuxiliarys7(String languageCode) async {
+  Future<void> speakauxiliarys7(String languageCode) async {
     // DOPSUM: CHANGE speakAuxiliary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːɡˈzɪliəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuxiliary("en-GB"),
+                              onPressed: () => speakauxiliary("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːɡˈzɪliəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuxiliary("en-US"),
+                              onPressed: () => speakauxiliary("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuxiliarys1("en-GB"),
+                                    onPressed: () => speakauxiliarys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuxiliarys1(// REPLACE: auxiliary
+                                        speakauxiliarys1(// REPLACE: auxiliary
                                             "en-US"),
                                   ),
                                 ],
@@ -211,11 +211,11 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuxiliarys2("en-GB"),
+                                    onPressed: () => speakauxiliarys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuxiliarys2(// REPLACE: auxiliary
+                                        speakauxiliarys2(// REPLACE: auxiliary
                                             "en-US"),
                                   ),
                                 ],
@@ -244,11 +244,11 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuxiliarys3("en-GB"),
+                                    onPressed: () => speakauxiliarys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuxiliarys3(// REPLACE: auxiliary
+                                        speakauxiliarys3(// REPLACE: auxiliary
                                             "en-US"),
                                   ),
                                 ],
@@ -277,11 +277,11 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuxiliarys4("en-GB"),
+                                    onPressed: () => speakauxiliarys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuxiliarys4(// REPLACE: auxiliary
+                                        speakauxiliarys4(// REPLACE: auxiliary
                                             "en-US"),
                                   ),
                                 ],

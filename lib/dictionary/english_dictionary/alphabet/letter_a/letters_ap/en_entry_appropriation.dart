@@ -17,7 +17,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppropriation(String languageCode) async {
+  Future<void> speakappropriation(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappropriation extends StatelessWidget {
     await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriation425(String languageCode) async {
+  Future<void> speakappropriation425(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappropriation extends StatelessWidget {
         "The film company sued them over their appropriation of a cartoon character."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriation432(String languageCode) async {
+  Future<void> speakappropriation432(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappropriation extends StatelessWidget {
         "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriation436(String languageCode) async {
+  Future<void> speakappropriation436(String languageCode) async {
     // DOPSUM: CHANGE speakAppropriation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappropriation extends StatelessWidget {
         "The committee approved an appropriation of £20,000 for the payment of debts."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppropriation(String languageCode) async {
+  // Future<void> speakappropriation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
+  // Future<void> speakappropriation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
+  // Future<void> speakappropriation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
+  // Future<void> speakappropriation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryappropriation extends StatelessWidget {
   //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
+  // Future<void> speakappropriation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppropriation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌprəʊpriˈeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppropriation("en-GB"),
+                              onPressed: () => speakappropriation("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌprəʊpriˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppropriation("en-US"),
+                              onPressed: () => speakappropriation("en-US"),
                             ),
                           ],
                         ),
@@ -184,10 +184,10 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriation425("en-GB"),
+                                        speakappropriation425("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriation425(
+                                    onPressed: () => speakappropriation425(
                                         // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
                                         "en-US"),
                                   ),
@@ -218,10 +218,10 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriation432("en-GB"),
+                                        speakappropriation432("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriation432(
+                                    onPressed: () => speakappropriation432(
                                         // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
                                         "en-US"),
                                   ),
@@ -252,10 +252,10 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAppropriation436("en-GB"),
+                                        speakappropriation436("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppropriation436(
+                                    onPressed: () => speakappropriation436(
                                         // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
                                         "en-US"),
                                   ),

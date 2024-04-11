@@ -19,7 +19,7 @@ class EnglishEntrybailiff extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBailiff(String languageCode) async {
+  Future<void> speakbailiff(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybailiff extends StatelessWidget {
     await flutterTts.speak("bailiff"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs1(String languageCode) async {
+  Future<void> speakbailiffs1(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybailiff extends StatelessWidget {
         .speak("The bailiffs seized the car and house."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs2(String languageCode) async {
+  Future<void> speakbailiffs2(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybailiff extends StatelessWidget {
         "The bailiff managed the sale of the farm's produce."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs3(String languageCode) async {
+  Future<void> speakbailiffs3(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybailiff extends StatelessWidget {
         "The bailiff escorted the defendant out of the courtroom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs4(String languageCode) async {
+  Future<void> speakbailiffs4(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybailiff extends StatelessWidget {
     await flutterTts.speak("speakBailiffs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs5(String languageCode) async {
+  Future<void> speakbailiffs5(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybailiff extends StatelessWidget {
     await flutterTts.speak("speakBailiffs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs6(String languageCode) async {
+  Future<void> speakbailiffs6(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybailiff extends StatelessWidget {
     await flutterTts.speak("speakBailiffs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBailiffs7(String languageCode) async {
+  Future<void> speakbailiffs7(String languageCode) async {
     // DOPSUM: CHANGE speakBailiff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbeɪlɪf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBailiff("en-GB"),
+                              onPressed: () => speakbailiff("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbeɪlɪf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBailiff("en-US"),
+                              onPressed: () => speakbailiff("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybailiff extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBailiffs1("en-GB"),
+                                    onPressed: () => speakbailiffs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBailiffs1(// REPLACE: bailiff
+                                        speakbailiffs1(// REPLACE: bailiff
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybailiff extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBailiffs2("en-GB"),
+                                    onPressed: () => speakbailiffs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBailiffs2(// REPLACE: bailiff
+                                        speakbailiffs2(// REPLACE: bailiff
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybailiff extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBailiffs3("en-GB"),
+                                    onPressed: () => speakbailiffs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBailiffs3(// REPLACE: bailiff
+                                        speakbailiffs3(// REPLACE: bailiff
                                             "en-US"),
                                   ),
                                 ],

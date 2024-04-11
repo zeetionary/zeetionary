@@ -11,7 +11,7 @@ class EnglishEntryai extends StatelessWidget {
   EnglishEntryai({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAi(String languageCode) async {
+  Future<void> speakai(String languageCode) async {
     // DOPSUM: CHANGE speakAi
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryai extends StatelessWidget {
     await flutterTts.speak("AI"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAi934262(String languageCode) async {
+  Future<void> speakai934262(String languageCode) async {
     // DOPSUM: CHANGE speakAi
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryai extends StatelessWidget {
         "This new technology uses AI to recognize character features in the same way a human brain does."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAi(String languageCode) async {
+  // Future<void> speakai(String languageCode) async {
   //   // DOPSUM: CHANGE speakAi
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryai extends StatelessWidget {
   //   await flutterTts.speak("AI"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAi(String languageCode) async {
+  // Future<void> speakai(String languageCode) async {
   //   // DOPSUM: CHANGE speakAi
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryai extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌeɪ ˈaɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAi("en-GB"),
+                              onPressed: () => speakai("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryai extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪ ˈaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAi("en-US"),
+                              onPressed: () => speakai("en-US"),
                             ),
                           ],
                         ),
@@ -127,11 +127,11 @@ class EnglishEntryai extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAi934262("en-GB"),
+                                    onPressed: () => speakai934262("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAi934262(// REPLACE: AI /ˌeɪ ˈaɪ/
+                                        speakai934262(// REPLACE: AI /ˌeɪ ˈaɪ/
                                             "en-US"),
                                   ),
                                 ],

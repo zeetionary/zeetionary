@@ -11,7 +11,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   EnglishEntryalimentarycanal({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlimentarycanal(String languageCode) async {
+  Future<void> speakalimentarycanal(String languageCode) async {
     // DOPSUM: CHANGE speakAlimentarycanal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
     await flutterTts.speak("alimentary canal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlimentarycanal42588(String languageCode) async {
+  Future<void> speakalimentarycanal42588(String languageCode) async {
     // DOPSUM: CHANGE speakAlimentarycanal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
         "I had an abscess in the lower part of my alimentary canal."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlimentarycanal(String languageCode) async {
+  // Future<void> speakalimentarycanal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlimentarycanal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   //   await flutterTts.speak("alimentary canal"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlimentarycanal(String languageCode) async {
+  // Future<void> speakalimentarycanal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlimentarycanal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌælɪmentəri kəˈnæl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlimentarycanal("en-GB"),
+                              onPressed: () => speakalimentarycanal("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌælɪmentəri kəˈnæl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlimentarycanal("en-US"),
+                              onPressed: () => speakalimentarycanal("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlimentarycanal42588("en-GB"),
+                                        speakalimentarycanal42588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlimentarycanal42588(
+                                    onPressed: () => speakalimentarycanal42588(
                                         // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
                                         "en-US"),
                                   ),

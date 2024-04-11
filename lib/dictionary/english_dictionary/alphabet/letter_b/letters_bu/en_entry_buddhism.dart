@@ -13,7 +13,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBuddhism(String languageCode) async {
+  Future<void> speakbuddhism(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
     await flutterTts.speak("Buddhism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms1(String languageCode) async {
+  Future<void> speakbuddhisms1(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
         .speak("She became interested in Buddhism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms2(String languageCode) async {
+  Future<void> speakbuddhisms2(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
         "The practice of meditation is a very important part of Buddhism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms3(String languageCode) async {
+  Future<void> speakbuddhisms3(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
         "This book gives basic history and information about Buddhism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms4(String languageCode) async {
+  Future<void> speakbuddhisms4(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
     await flutterTts.speak("speakBuddhisms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms5(String languageCode) async {
+  Future<void> speakbuddhisms5(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
     await flutterTts.speak("speakBuddhisms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms6(String languageCode) async {
+  Future<void> speakbuddhisms6(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
     await flutterTts.speak("speakBuddhisms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBuddhisms7(String languageCode) async {
+  Future<void> speakbuddhisms7(String languageCode) async {
     // DOPSUM: CHANGE speakBuddhism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -107,7 +107,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbʊdɪzəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBuddhism("en-GB"),
+                              onPressed: () => speakbuddhism("en-GB"),
                             ),
                           ],
                         ),
@@ -116,7 +116,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbuːdɪzəm/, /ˈbʊdɪzəm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBuddhism("en-US"),
+                              onPressed: () => speakbuddhism("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybuddhism extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBuddhisms1("en-GB"),
+                                    onPressed: () => speakbuddhisms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBuddhisms1("en-US"),
+                                    onPressed: () => speakbuddhisms1("en-US"),
                                   ),
                                 ],
                               ),
@@ -193,10 +193,10 @@ class EnglishEntrybuddhism extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBuddhisms2("en-GB"),
+                                    onPressed: () => speakbuddhisms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBuddhisms2("en-US"),
+                                    onPressed: () => speakbuddhisms2("en-US"),
                                   ),
                                 ],
                               ),
@@ -221,10 +221,10 @@ class EnglishEntrybuddhism extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBuddhisms3("en-GB"),
+                                    onPressed: () => speakbuddhisms3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBuddhisms3("en-US"),
+                                    onPressed: () => speakbuddhisms3("en-US"),
                                   ),
                                 ],
                               ),

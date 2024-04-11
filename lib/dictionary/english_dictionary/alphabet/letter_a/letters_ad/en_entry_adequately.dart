@@ -11,7 +11,7 @@ class EnglishEntryadequately extends StatelessWidget {
   EnglishEntryadequately({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdequately(String languageCode) async {
+  Future<void> speakadequately(String languageCode) async {
     // DOPSUM: CHANGE speakAdequately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadequately extends StatelessWidget {
     await flutterTts.speak("adequately"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdeq2547(String languageCode) async {
+  Future<void> speakadeq2547(String languageCode) async {
     // DOPSUM: CHANGE speakAdequately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadequately extends StatelessWidget {
         "While some patients can be adequately cared for at home, others are best served by care in a hospital."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdequately(String languageCode) async {
+  // Future<void> speakadequately(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdequately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadequately extends StatelessWidget {
   //   await flutterTts.speak("adequately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdequately(String languageCode) async {
+  // Future<void> speakadequately(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdequately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadequately extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædɪkwətli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdequately("en-GB"),
+                              onPressed: () => speakadequately("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadequately extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædɪkwətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdequately("en-US"),
+                              onPressed: () => speakadequately("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryadequately extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdeq2547("en-GB"),
+                                    onPressed: () => speakadeq2547("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdeq2547(
+                                    onPressed: () => speakadeq2547(
                                         // REPLACE: adequately /ˈædɪkwətli/
                                         "en-US"),
                                   ),

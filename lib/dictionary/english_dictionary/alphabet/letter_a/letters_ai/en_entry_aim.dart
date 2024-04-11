@@ -11,7 +11,7 @@ class EnglishEntryaim extends StatelessWidget {
   EnglishEntryaim({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAim(String languageCode) async {
+  Future<void> speakaim(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaim extends StatelessWidget {
     await flutterTts.speak("aim"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim86555(String languageCode) async {
+  Future<void> speakaim86555(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaim extends StatelessWidget {
         "We should aim for a bigger share of the market."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim475699(String languageCode) async {
+  Future<void> speakaim475699(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaim extends StatelessWidget {
         "The government is aiming at a 50% reduction in unemployment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim456933(String languageCode) async {
+  Future<void> speakaim456933(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaim extends StatelessWidget {
         "These measures are aimed at preventing violent crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim5283(String languageCode) async {
+  Future<void> speakaim5283(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryaim extends StatelessWidget {
         .speak("My criticism wasn't aimed at you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim371595446(String languageCode) async {
+  Future<void> speakaim371595446(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryaim extends StatelessWidget {
         "I was aiming at the tree but hit the car by mistake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim78562(String languageCode) async {
+  Future<void> speakaim78562(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaim extends StatelessWidget {
         "His sole aim in life is to enjoy himself."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAim46011635(String languageCode) async {
+  Future<void> speakaim46011635(String languageCode) async {
     // DOPSUM: CHANGE speakAim
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -109,7 +109,7 @@ class EnglishEntryaim extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eɪm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAim("en-GB"),
+                              onPressed: () => speakaim("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAim("en-US"),
+                              onPressed: () => speakaim("en-US"),
                             ),
                           ],
                         ),
@@ -169,11 +169,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim86555("en-GB"),
+                                    onPressed: () => speakaim86555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim86555(// REPLACE: aim /eɪm/
+                                        speakaim86555(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -199,11 +199,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim475699("en-GB"),
+                                    onPressed: () => speakaim475699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim475699(// REPLACE: aim /eɪm/
+                                        speakaim475699(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -231,11 +231,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim456933("en-GB"),
+                                    onPressed: () => speakaim456933("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim456933(// REPLACE: aim /eɪm/
+                                        speakaim456933(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -262,11 +262,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim5283("en-GB"),
+                                    onPressed: () => speakaim5283("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim5283(// REPLACE: aim /eɪm/
+                                        speakaim5283(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -294,11 +294,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim371595446("en-GB"),
+                                    onPressed: () => speakaim371595446("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim371595446(// REPLACE: aim /eɪm/
+                                        speakaim371595446(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -326,11 +326,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim78562("en-GB"),
+                                    onPressed: () => speakaim78562("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim78562(// REPLACE: aim /eɪm/
+                                        speakaim78562(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],
@@ -358,11 +358,11 @@ class EnglishEntryaim extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAim46011635("en-GB"),
+                                    onPressed: () => speakaim46011635("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAim46011635(// REPLACE: aim /eɪm/
+                                        speakaim46011635(// REPLACE: aim /eɪm/
                                             "en-US"),
                                   ),
                                 ],

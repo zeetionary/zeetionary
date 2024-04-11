@@ -11,7 +11,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
   EnglishEntryairconditioner({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirconditioner(String languageCode) async {
+  Future<void> speakairconditioner(String languageCode) async {
     // DOPSUM: CHANGE speakAirconditioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
     await flutterTts.speak("air conditioner"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirconditio3411(String languageCode) async {
+  Future<void> speakairconditio3411(String languageCode) async {
     // DOPSUM: CHANGE speakAirconditioner
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
         "The room temperature was controlled by using an air conditioner."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirconditioner(String languageCode) async {
+  // Future<void> speakairconditioner(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirconditioner
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
   //   await flutterTts.speak("air conditioner"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirconditioner(String languageCode) async {
+  // Future<void> speakairconditioner(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirconditioner
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈeə kəndɪʃənə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirconditioner("en-GB"),
+                              onPressed: () => speakairconditioner("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer kəndɪʃənər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirconditioner("en-US"),
+                              onPressed: () => speakairconditioner("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAirconditio3411("en-GB"),
+                                        speakairconditio3411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirconditio3411(
+                                    onPressed: () => speakairconditio3411(
                                         // REPLACE: air conditioner /ˈer kəndɪʃənər/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryalignment extends StatelessWidget {
   EnglishEntryalignment({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlignment(String languageCode) async {
+  Future<void> speakalignment(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalignment extends StatelessWidget {
     await flutterTts.speak("alignment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlignment2533(String languageCode) async {
+  Future<void> speakalignment2533(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalignment extends StatelessWidget {
         "A bone in my spine was out of alignment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlignment2455(String languageCode) async {
+  Future<void> speakalignment2455(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalignment extends StatelessWidget {
         "The door needs to be in alignment with the frame before you start work on it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlignment3522(String languageCode) async {
+  Future<void> speakalignment3522(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalignment extends StatelessWidget {
         "We will implement policies in alignment with our fiscal goals."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlignment35288(String languageCode) async {
+  Future<void> speakalignment35288(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalignment extends StatelessWidget {
         "Property prices are too high and need to be brought back into alignment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlignment325888(String languageCode) async {
+  Future<void> speakalignment325888(String languageCode) async {
     // DOPSUM: CHANGE speakAlignment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪnmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlignment("en-GB"),
+                              onPressed: () => speakalignment("en-GB"),
                             ),
                           ],
                         ),
@@ -103,7 +103,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlignment("en-US"),
+                              onPressed: () => speakalignment("en-US"),
                             ),
                           ],
                         ),
@@ -152,10 +152,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlignment2533("en-GB"),
+                                        speakalignment2533("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlignment2533(
+                                    onPressed: () => speakalignment2533(
                                         // REPLACE: alignment /əˈlaɪnmənt/
                                         "en-US"),
                                   ),
@@ -183,10 +183,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlignment2455("en-GB"),
+                                        speakalignment2455("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlignment2455(
+                                    onPressed: () => speakalignment2455(
                                         // REPLACE: alignment /əˈlaɪnmənt/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlignment3522("en-GB"),
+                                        speakalignment3522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlignment3522(
+                                    onPressed: () => speakalignment3522(
                                         // REPLACE: alignment /əˈlaɪnmənt/
                                         "en-US"),
                                   ),
@@ -247,10 +247,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlignment35288("en-GB"),
+                                        speakalignment35288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlignment35288(
+                                    onPressed: () => speakalignment35288(
                                         // REPLACE: alignment /əˈlaɪnmənt/
                                         "en-US"),
                                   ),
@@ -280,10 +280,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlignment325888("en-GB"),
+                                        speakalignment325888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlignment325888(
+                                    onPressed: () => speakalignment325888(
                                         // REPLACE: alignment /əˈlaɪnmənt/
                                         "en-US"),
                                   ),

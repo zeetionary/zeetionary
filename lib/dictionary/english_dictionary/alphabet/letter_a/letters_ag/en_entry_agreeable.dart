@@ -11,7 +11,7 @@ class EnglishEntryagreeable extends StatelessWidget {
   EnglishEntryagreeable({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgreeable(String languageCode) async {
+  Future<void> speakagreeable(String languageCode) async {
     // DOPSUM: CHANGE speakAgreeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagreeable extends StatelessWidget {
     await flutterTts.speak("agreeable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgree75888(String languageCode) async {
+  Future<void> speakagree75888(String languageCode) async {
     // DOPSUM: CHANGE speakAgreeable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagreeable extends StatelessWidget {
         "She did her best to make herself agreeable."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgreeable(String languageCode) async {
+  // Future<void> speakagreeable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgreeable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagreeable extends StatelessWidget {
   //   await flutterTts.speak("agreeable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgreeable(String languageCode) async {
+  // Future<void> speakagreeable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgreeable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryagreeable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriːəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgreeable("en-GB"),
+                              onPressed: () => speakagreeable("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryagreeable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriːəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgreeable("en-US"),
+                              onPressed: () => speakagreeable("en-US"),
                             ),
                           ],
                         ),
@@ -130,10 +130,10 @@ class EnglishEntryagreeable extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgree75888("en-GB"),
+                                    onPressed: () => speakagree75888("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgree75888(
+                                    onPressed: () => speakagree75888(
                                         // REPLACE: agreeable /əˈɡriːəbl/
                                         "en-US"),
                                   ),

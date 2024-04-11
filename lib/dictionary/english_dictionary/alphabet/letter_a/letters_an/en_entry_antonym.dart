@@ -15,7 +15,7 @@ class EnglishEntryantonym extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntonym(String languageCode) async {
+  Future<void> speakantonym(String languageCode) async {
     // DOPSUM: CHANGE speakAntonym
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantonym extends StatelessWidget {
     await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntonym144(String languageCode) async {
+  Future<void> speakantonym144(String languageCode) async {
     // DOPSUM: CHANGE speakAntonym
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantonym extends StatelessWidget {
         "A dictionary of antonyms is a helpful tool for understanding opposites in a language."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryantonym extends StatelessWidget {
   //   await flutterTts.speak("antonym"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntonym(String languageCode) async {
+  // Future<void> speakantonym(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntonym
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryantonym extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntənɪm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntonym("en-GB"),
+                              onPressed: () => speakantonym("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryantonym extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntənɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntonym("en-US"),
+                              onPressed: () => speakantonym("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryantonym extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAntonym144("en-GB"),
+                                    onPressed: () => speakantonym144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntonym144(
+                                    onPressed: () => speakantonym144(
                                         // REPLACE: antonym /ˈæntənɪm/
                                         "en-US"),
                                   ),

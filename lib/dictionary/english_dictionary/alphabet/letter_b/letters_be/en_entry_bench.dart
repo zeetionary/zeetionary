@@ -19,7 +19,7 @@ class EnglishEntrybench extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBench(String languageCode) async {
+  Future<void> speakbench(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.speak("bench"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs1(String languageCode) async {
+  Future<void> speakbenchs1(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybench extends StatelessWidget {
         "The park was filled with families sitting on benches and enjoying the sunshine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs2(String languageCode) async {
+  Future<void> speakbenchs2(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybench extends StatelessWidget {
         "She has recently been appointed to the bench."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs3(String languageCode) async {
+  Future<void> speakbenchs3(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybench extends StatelessWidget {
         "There was lots of jeering from the Labour benches."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs4(String languageCode) async {
+  Future<void> speakbenchs4(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybench extends StatelessWidget {
         "He's sick of spending every game on the bench."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs5(String languageCode) async {
+  Future<void> speakbenchs5(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybench extends StatelessWidget {
         "Most of the work constructing these objects is done at a bench."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs6(String languageCode) async {
+  Future<void> speakbenchs6(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.speak("speakBenchs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBenchs7(String languageCode) async {
+  Future<void> speakbenchs7(String languageCode) async {
     // DOPSUM: CHANGE speakBench
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybench extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bentʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBench("en-GB"),
+                              onPressed: () => speakbench("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybench extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bentʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBench("en-US"),
+                              onPressed: () => speakbench("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybench extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchs1("en-GB"),
+                                    onPressed: () => speakbenchs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchs1("en-US"),
+                                    onPressed: () => speakbenchs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,10 +203,10 @@ class EnglishEntrybench extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchs2("en-GB"),
+                                    onPressed: () => speakbenchs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchs2("en-US"),
+                                    onPressed: () => speakbenchs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -234,10 +234,10 @@ class EnglishEntrybench extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchs3("en-GB"),
+                                    onPressed: () => speakbenchs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchs3("en-US"),
+                                    onPressed: () => speakbenchs3("en-US"),
                                   ),
                                 ],
                               ),
@@ -265,10 +265,10 @@ class EnglishEntrybench extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchs4("en-GB"),
+                                    onPressed: () => speakbenchs4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchs4("en-US"),
+                                    onPressed: () => speakbenchs4("en-US"),
                                   ),
                                 ],
                               ),
@@ -296,10 +296,10 @@ class EnglishEntrybench extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBenchs5("en-GB"),
+                                    onPressed: () => speakbenchs5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBenchs5("en-US"),
+                                    onPressed: () => speakbenchs5("en-US"),
                                   ),
                                 ],
                               ),

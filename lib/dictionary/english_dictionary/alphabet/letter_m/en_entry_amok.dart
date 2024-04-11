@@ -11,7 +11,7 @@ class EnglishEntryamok extends StatelessWidget {
   EnglishEntryamok({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmok(String languageCode) async {
+  Future<void> speakamok(String languageCode) async {
     // DOPSUM: CHANGE speakAmok
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamok extends StatelessWidget {
     await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmok46669(String languageCode) async {
+  Future<void> speakamok46669(String languageCode) async {
     // DOPSUM: CHANGE speakAmok
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamok extends StatelessWidget {
         "The army ran amok after one of its senior officers was killed."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryamok extends StatelessWidget {
   //   await flutterTts.speak("amok"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmok(String languageCode) async {
+  // Future<void> speakamok(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmok
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryamok extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmɒk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmok("en-GB"),
+                              onPressed: () => speakamok("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryamok extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmok("en-US"),
+                              onPressed: () => speakamok("en-US"),
                             ),
                           ],
                         ),
@@ -199,11 +199,11 @@ class EnglishEntryamok extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmok46669("en-GB"),
+                                    onPressed: () => speakamok46669("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAmok46669(// REPLACE: amok /əˈmɑːk/
+                                        speakamok46669(// REPLACE: amok /əˈmɑːk/
                                             "en-US"),
                                   ),
                                 ],

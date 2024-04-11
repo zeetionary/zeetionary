@@ -11,7 +11,7 @@ class EnglishEntryagainst extends StatelessWidget {
   EnglishEntryagainst({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgainst(String languageCode) async {
+  Future<void> speakagainst(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.speak("against"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAga937884(String languageCode) async {
+  Future<void> speakaga937884(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryagainst extends StatelessWidget {
     await flutterTts.speak("That's against the law."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgain2566(String languageCode) async {
+  Future<void> speakagain2566(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagainst extends StatelessWidget {
         "She was forced to marry against her will."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgain156(String languageCode) async {
+  Future<void> speakagain156(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryagainst extends StatelessWidget {
         .speak("The evidence is against him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAga156338(String languageCode) async {
+  Future<void> speakaga156338(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryagainst extends StatelessWidget {
         .speak("Put the piano there, against the wall."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAga98274(String languageCode) async {
+  Future<void> speakaga98274(String languageCode) async {
     // DOPSUM: CHANGE speakAgainst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryagainst extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /əˈɡenst/, /əˈɡeɪnst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgainst("en-GB"),
+                              onPressed: () => speakagainst("en-GB"),
                             ),
                           ],
                         ),
@@ -102,7 +102,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡenst/, /əˈɡeɪnst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgainst("en-US"),
+                              onPressed: () => speakagainst("en-US"),
                             ),
                           ],
                         ),
@@ -149,10 +149,10 @@ class EnglishEntryagainst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAga937884("en-GB"),
+                                    onPressed: () => speakaga937884("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAga937884(
+                                    onPressed: () => speakaga937884(
                                         // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
@@ -179,10 +179,10 @@ class EnglishEntryagainst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgain2566("en-GB"),
+                                    onPressed: () => speakagain2566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgain2566(
+                                    onPressed: () => speakagain2566(
                                         // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
@@ -209,10 +209,10 @@ class EnglishEntryagainst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgain156("en-GB"),
+                                    onPressed: () => speakagain156("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgain156(
+                                    onPressed: () => speakagain156(
                                         // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
@@ -241,10 +241,10 @@ class EnglishEntryagainst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAga156338("en-GB"),
+                                    onPressed: () => speakaga156338("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAga156338(
+                                    onPressed: () => speakaga156338(
                                         // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),
@@ -273,10 +273,10 @@ class EnglishEntryagainst extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAga98274("en-GB"),
+                                    onPressed: () => speakaga98274("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAga98274(
+                                    onPressed: () => speakaga98274(
                                         // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
                                         "en-US"),
                                   ),

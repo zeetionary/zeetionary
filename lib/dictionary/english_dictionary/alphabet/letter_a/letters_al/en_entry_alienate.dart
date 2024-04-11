@@ -11,7 +11,7 @@ class EnglishEntryalienate extends StatelessWidget {
   EnglishEntryalienate({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlienate(String languageCode) async {
+  Future<void> speakalienate(String languageCode) async {
     // DOPSUM: CHANGE speakAlienate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalienate extends StatelessWidget {
     await flutterTts.speak("alienate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlienate4625555(String languageCode) async {
+  Future<void> speakalienate4625555(String languageCode) async {
     // DOPSUM: CHANGE speakAlienate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalienate extends StatelessWidget {
         "His comments have alienated a lot of young voters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlienate34791(String languageCode) async {
+  Future<void> speakalienate34791(String languageCode) async {
     // DOPSUM: CHANGE speakAlienate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalienate extends StatelessWidget {
         "Very talented children may feel alienated from the others in their class."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlienate(String languageCode) async {
+  // Future<void> speakalienate(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlienate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryalienate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪliəneɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlienate("en-GB"),
+                              onPressed: () => speakalienate("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryalienate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪliəneɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlienate("en-US"),
+                              onPressed: () => speakalienate("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryalienate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlienate4625555("en-GB"),
+                                        speakalienate4625555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlienate4625555(
+                                    onPressed: () => speakalienate4625555(
                                         // REPLACE: alienate /ˈeɪliəneɪt/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryalienate extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlienate34791("en-GB"),
+                                        speakalienate34791("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlienate34791(
+                                    onPressed: () => speakalienate34791(
                                         // REPLACE: alienate /ˈeɪliəneɪt/
                                         "en-US"),
                                   ),

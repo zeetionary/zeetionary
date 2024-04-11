@@ -11,7 +11,7 @@ class EnglishEntryadopt extends StatelessWidget {
   EnglishEntryadopt({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdopt(String languageCode) async {
+  Future<void> speakadopt(String languageCode) async {
     // DOPSUM: CHANGE speakAdopt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadopt extends StatelessWidget {
     await flutterTts.speak("adopt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd256471(String languageCode) async {
+  Future<void> speakad256471(String languageCode) async {
     // DOPSUM: CHANGE speakAdopt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadopt extends StatelessWidget {
         "The child has now been legally adopted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd25673(String languageCode) async {
+  Future<void> speakad25673(String languageCode) async {
     // DOPSUM: CHANGE speakAdopt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadopt extends StatelessWidget {
         "The police adopted tighter security measures."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdo45826(String languageCode) async {
+  Future<void> speakado45826(String languageCode) async {
     // DOPSUM: CHANGE speakAdopt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadopt extends StatelessWidget {
         "The government adopted a resolution on disarmament."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdo7259(String languageCode) async {
+  Future<void> speakado7259(String languageCode) async {
     // DOPSUM: CHANGE speakAdopt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryadopt extends StatelessWidget {
         "The party adopted its current name in 1965."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdopt(String languageCode) async {
+  // Future<void> speakadopt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdopt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryadopt extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɒpt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdopt("en-GB"),
+                              onPressed: () => speakadopt("en-GB"),
                             ),
                           ],
                         ),
@@ -100,7 +100,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɑːpt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdopt("en-US"),
+                              onPressed: () => speakadopt("en-US"),
                             ),
                           ],
                         ),
@@ -146,10 +146,10 @@ class EnglishEntryadopt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAd256471("en-GB"),
+                                    onPressed: () => speakad256471("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAd256471(
+                                    onPressed: () => speakad256471(
                                         // REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
                                   ),
@@ -177,11 +177,11 @@ class EnglishEntryadopt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAd25673("en-GB"),
+                                    onPressed: () => speakad25673("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAd25673(// REPLACE: adopt /əˈdɑːpt/
+                                        speakad25673(// REPLACE: adopt /əˈdɑːpt/
                                             "en-US"),
                                   ),
                                 ],
@@ -209,10 +209,10 @@ class EnglishEntryadopt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdo45826("en-GB"),
+                                    onPressed: () => speakado45826("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdo45826(
+                                    onPressed: () => speakado45826(
                                         // REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
                                   ),
@@ -241,11 +241,11 @@ class EnglishEntryadopt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdo7259("en-GB"),
+                                    onPressed: () => speakado7259("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdo7259(// REPLACE: adopt /əˈdɑːpt/
+                                        speakado7259(// REPLACE: adopt /əˈdɑːpt/
                                             "en-US"),
                                   ),
                                 ],

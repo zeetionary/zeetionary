@@ -11,7 +11,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
   EnglishEntryadrenaline({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdrenaline(String languageCode) async {
+  Future<void> speakadrenaline(String languageCode) async {
     // DOPSUM: CHANGE speakAdrenaline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
     await flutterTts.speak("adrenaline"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdren235874(String languageCode) async {
+  Future<void> speakadren235874(String languageCode) async {
     // DOPSUM: CHANGE speakAdrenaline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
         "The excitement at the start of a race can really get the adrenaline flowing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdrenaline(String languageCode) async {
+  // Future<void> speakadrenaline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdrenaline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
   //   await flutterTts.speak("adrenaline"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdrenaline(String languageCode) async {
+  // Future<void> speakadrenaline(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdrenaline
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdrenəlɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdrenaline("en-GB"),
+                              onPressed: () => speakadrenaline("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdrenəlɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdrenaline("en-US"),
+                              onPressed: () => speakadrenaline("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadrenaline extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdren235874("en-GB"),
+                                    onPressed: () => speakadren235874("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdren235874(
+                                    onPressed: () => speakadren235874(
                                         // REPLACE: adrenaline /əˈdrenəlɪn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   EnglishEntryanaerobic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnaerobic(String languageCode) async {
+  Future<void> speakanaerobic(String languageCode) async {
     // DOPSUM: CHANGE speakAnaerobic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
     await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnaerobic0896(String languageCode) async {
+  Future<void> speakanaerobic0896(String languageCode) async {
     // DOPSUM: CHANGE speakAnaerobic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
         "Some bacteria can only live in anaerobic conditions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
   //   await flutterTts.speak("anaerobic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnaerobic(String languageCode) async {
+  // Future<void> speakanaerobic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnaerobic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˈrəʊbɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnaerobic("en-GB"),
+                              onPressed: () => speakanaerobic("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˈrəʊbɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnaerobic("en-US"),
+                              onPressed: () => speakanaerobic("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnaerobic0896("en-GB"),
+                                        speakanaerobic0896("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnaerobic0896(
+                                    onPressed: () => speakanaerobic0896(
                                         // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
                                         "en-US"),
                                   ),

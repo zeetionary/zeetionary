@@ -11,7 +11,7 @@ class EnglishEntryadrift extends StatelessWidget {
   EnglishEntryadrift({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdrift(String languageCode) async {
+  Future<void> speakadrift(String languageCode) async {
     // DOPSUM: CHANGE speakAdrift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadrift extends StatelessWidget {
     await flutterTts.speak("adrift"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdri458692(String languageCode) async {
+  Future<void> speakadri458692(String languageCode) async {
     // DOPSUM: CHANGE speakAdrift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadrift extends StatelessWidget {
         "He spent three days adrift on his yacht."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdri52369(String languageCode) async {
+  Future<void> speakadri52369(String languageCode) async {
     // DOPSUM: CHANGE speakAdrift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadrift extends StatelessWidget {
         "Without language, human beings are cast adrift."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdrif52317(String languageCode) async {
+  Future<void> speakadrif52317(String languageCode) async {
     // DOPSUM: CHANGE speakAdrift
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadrift extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdrɪft/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdrift("en-GB"),
+                              onPressed: () => speakadrift("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdrɪft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdrift("en-US"),
+                              onPressed: () => speakadrift("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryadrift extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdri458692("en-GB"),
+                                    onPressed: () => speakadri458692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdri458692(
+                                    onPressed: () => speakadri458692(
                                         // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryadrift extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdri52369("en-GB"),
+                                    onPressed: () => speakadri52369("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdri52369(
+                                    onPressed: () => speakadri52369(
                                         // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
                                   ),
@@ -197,10 +197,10 @@ class EnglishEntryadrift extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdrif52317("en-GB"),
+                                    onPressed: () => speakadrif52317("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdrif52317(
+                                    onPressed: () => speakadrif52317(
                                         // REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
                                   ),

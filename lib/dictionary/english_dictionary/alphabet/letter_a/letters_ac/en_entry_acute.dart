@@ -11,7 +11,7 @@ class EnglishEntryacute extends StatelessWidget {
   EnglishEntryacute({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcute(String languageCode) async {
+  Future<void> speakacute(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.speak("acute"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcute1247(String languageCode) async {
+  Future<void> speakacute1247(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacute extends StatelessWidget {
         .speak("There is an acute shortage of water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcut3749(String languageCode) async {
+  Future<void> speakacut3749(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacute extends StatelessWidget {
         "The scandal was an acute embarrassment for the President."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcute42(String languageCode) async {
+  Future<void> speakacute42(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryacute extends StatelessWidget {
     await flutterTts.speak("acute abdominal pains"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcu5268(String languageCode) async {
+  Future<void> speakacu5268(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryacute extends StatelessWidget {
         .speak("Dogs have an acute sense of smell."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcu5269(String languageCode) async {
+  Future<void> speakacu5269(String languageCode) async {
     // DOPSUM: CHANGE speakAcute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryacute extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcute("en-GB"),
+                              onPressed: () => speakacute("en-GB"),
                             ),
                           ],
                         ),
@@ -99,7 +99,7 @@ class EnglishEntryacute extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcute("en-US"),
+                              onPressed: () => speakacute("en-US"),
                             ),
                           ],
                         ),
@@ -149,10 +149,10 @@ class EnglishEntryacute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcute1247("en-GB"),
+                                    onPressed: () => speakacute1247("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcute1247(
+                                    onPressed: () => speakacute1247(
                                         // REPLACE: acute /əˈkjuːt/
                                         "en-US"),
                                   ),
@@ -179,10 +179,10 @@ class EnglishEntryacute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcut3749("en-GB"),
+                                    onPressed: () => speakacut3749("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcut3749(
+                                    onPressed: () => speakacut3749(
                                         // REPLACE: acute /əˈkjuːt/
                                         "en-US"),
                                   ),
@@ -209,11 +209,11 @@ class EnglishEntryacute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcute42("en-GB"),
+                                    onPressed: () => speakacute42("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAcute42(// REPLACE: acute /əˈkjuːt/
+                                        speakacute42(// REPLACE: acute /əˈkjuːt/
                                             "en-US"),
                                   ),
                                 ],
@@ -241,11 +241,11 @@ class EnglishEntryacute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcu5268("en-GB"),
+                                    onPressed: () => speakacu5268("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAcu5268(// REPLACE: acute /əˈkjuːt/
+                                        speakacu5268(// REPLACE: acute /əˈkjuːt/
                                             "en-US"),
                                   ),
                                 ],
@@ -271,11 +271,11 @@ class EnglishEntryacute extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcu5269("en-GB"),
+                                    onPressed: () => speakacu5269("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAcu5269(// REPLACE: acute /əˈkjuːt/
+                                        speakacu5269(// REPLACE: acute /əˈkjuːt/
                                             "en-US"),
                                   ),
                                 ],

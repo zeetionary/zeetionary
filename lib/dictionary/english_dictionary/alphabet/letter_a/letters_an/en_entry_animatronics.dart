@@ -11,7 +11,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   EnglishEntryanimatronics({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnimatronics(String languageCode) async {
+  Future<void> speakanimatronics(String languageCode) async {
     // DOPSUM: CHANGE speakAnimatronics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
     await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimatronics1043(String languageCode) async {
+  Future<void> speakanimatronics1043(String languageCode) async {
     // DOPSUM: CHANGE speakAnimatronics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
         "Ask them if they can find out who's doing the animatronics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
   //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnimatronics(String languageCode) async {
+  // Future<void> speakanimatronics(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænɪməˈtrɒnɪks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnimatronics("en-GB"),
+                              onPressed: () => speakanimatronics("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænɪməˈtrɑːnɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnimatronics("en-US"),
+                              onPressed: () => speakanimatronics("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnimatronics1043("en-GB"),
+                                        speakanimatronics1043("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimatronics1043(
+                                    onPressed: () => speakanimatronics1043(
                                         // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
                                         "en-US"),
                                   ),

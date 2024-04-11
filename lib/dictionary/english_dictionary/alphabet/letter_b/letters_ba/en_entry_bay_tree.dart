@@ -19,7 +19,7 @@ class EnglishEntrybaytree extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaytree(String languageCode) async {
+  Future<void> speakbaytree(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("bay tree"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees1(String languageCode) async {
+  Future<void> speakbaytrees1(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaytree extends StatelessWidget {
         "speakBaytrees111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees2(String languageCode) async {
+  Future<void> speakbaytrees2(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("speakBaytrees22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees3(String languageCode) async {
+  Future<void> speakbaytrees3(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("speakBaytrees33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees4(String languageCode) async {
+  Future<void> speakbaytrees4(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("speakBaytrees44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees5(String languageCode) async {
+  Future<void> speakbaytrees5(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("speakBaytrees55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees6(String languageCode) async {
+  Future<void> speakbaytrees6(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybaytree extends StatelessWidget {
     await flutterTts.speak("speakBaytrees66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaytrees7(String languageCode) async {
+  Future<void> speakbaytrees7(String languageCode) async {
     // DOPSUM: CHANGE speakBaytree
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybaytree extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeɪ triː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaytree("en-GB"),
+                              onPressed: () => speakbaytree("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybaytree extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbeɪ triː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaytree("en-US"),
+                              onPressed: () => speakbaytree("en-US"),
                             ),
                           ],
                         ),
@@ -154,10 +154,10 @@ class EnglishEntrybaytree extends StatelessWidget {
                           //     ExampleSentenceKurdish(
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     CustomIconButtonBritish(
-                          //       onPressed: () => speakBaytrees1("en-GB"),
+                          //       onPressed: () => speakbaytrees1("en-GB"),
                           //     ),
                           //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakBaytrees1("en-US"),
+                          //       onPressed: () => speakbaytrees1("en-US"),
                           //     ),
                           //   ],
                           // ),

@@ -19,7 +19,7 @@ class EnglishEntryauthorization extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthorization(String languageCode) async {
+  Future<void> speakauthorization(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthorization extends StatelessWidget {
     await flutterTts.speak("authorization"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorization850(String languageCode) async {
+  Future<void> speakauthorization850(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthorization extends StatelessWidget {
         "Who gave the authorization to release the data?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorization852(String languageCode) async {
+  Future<void> speakauthorization852(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthorization extends StatelessWidget {
         "We cannot act without the explicit authorization of the board."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorization853(String languageCode) async {
+  Future<void> speakauthorization853(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryauthorization extends StatelessWidget {
         .speak("Can I see your authorization?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthorization(String languageCode) async {
+  // Future<void> speakauthorization(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorization
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryauthorization extends StatelessWidget {
   //   await flutterTts.speak("authorization"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorization(String languageCode) async {
+  // Future<void> speakauthorization(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorization
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryauthorization extends StatelessWidget {
   //   await flutterTts.speak("authorization"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorization(String languageCode) async {
+  // Future<void> speakauthorization(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorization
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryauthorization extends StatelessWidget {
   //   await flutterTts.speak("authorization"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorization(String languageCode) async {
+  // Future<void> speakauthorization(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorization
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryauthorization extends StatelessWidget {
   //   await flutterTts.speak("authorization"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorization(String languageCode) async {
+  // Future<void> speakauthorization(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorization
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːθəraɪˈzeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthorization("en-GB"),
+                              onPressed: () => speakauthorization("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːθərəˈzeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthorization("en-US"),
+                              onPressed: () => speakauthorization("en-US"),
                             ),
                           ],
                         ),
@@ -187,10 +187,10 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthorization850("en-GB"),
+                                        speakauthorization850("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorization850(
+                                    onPressed: () => speakauthorization850(
                                         // REPLACE: authorization
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthorization852("en-GB"),
+                                        speakauthorization852("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorization852(
+                                    onPressed: () => speakauthorization852(
                                         // REPLACE: authorization
                                         "en-US"),
                                   ),
@@ -251,10 +251,10 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuthorization853("en-GB"),
+                                        speakauthorization853("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorization853(
+                                    onPressed: () => speakauthorization853(
                                         // REPLACE: authorization
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryagnostic extends StatelessWidget {
   EnglishEntryagnostic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgnostic(String languageCode) async {
+  Future<void> speakagnostic(String languageCode) async {
     // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagnostic extends StatelessWidget {
     await flutterTts.speak("agnostic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgnos15666(String languageCode) async {
+  Future<void> speakagnos15666(String languageCode) async {
     // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagnostic extends StatelessWidget {
         "Although he was raised a Catholic, he was an agnostic for most of his adult life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg45822(String languageCode) async {
+  Future<void> speakag45822(String languageCode) async {
     // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryagnostic extends StatelessWidget {
         "Whether we are religious, atheist, or agnostic, there are some moral values we all share."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgnostic(String languageCode) async {
+  // Future<void> speakagnostic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgnostic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /æɡˈnɒstɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgnostic("en-GB"),
+                              onPressed: () => speakagnostic("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                                 text:
                                     "IpaUS: /æɡˈnɑːstɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgnostic("en-US"),
+                              onPressed: () => speakagnostic("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryagnostic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgnos15666("en-GB"),
+                                    onPressed: () => speakagnos15666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgnos15666(
+                                    onPressed: () => speakagnos15666(
                                         // REPLACE: agnostic /æɡˈnɑːstɪk/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryagnostic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAg45822("en-GB"),
+                                    onPressed: () => speakag45822("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAg45822(
+                                    onPressed: () => speakag45822(
                                         // REPLACE: agnostic /æɡˈnɑːstɪk/
                                         "en-US"),
                                   ),

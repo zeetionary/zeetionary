@@ -11,7 +11,7 @@ class EnglishEntryaloft extends StatelessWidget {
   EnglishEntryaloft({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAloft(String languageCode) async {
+  Future<void> speakaloft(String languageCode) async {
     // DOPSUM: CHANGE speakAloft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaloft extends StatelessWidget {
     await flutterTts.speak("aloft"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAloft4256(String languageCode) async {
+  Future<void> speakaloft4256(String languageCode) async {
     // DOPSUM: CHANGE speakAloft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaloft extends StatelessWidget {
     await flutterTts.speak("She held the glass aloft."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAloft(String languageCode) async {
+  // Future<void> speakaloft(String languageCode) async {
   //   // DOPSUM: CHANGE speakAloft
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryaloft extends StatelessWidget {
   //   await flutterTts.speak("aloft"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAloft(String languageCode) async {
+  // Future<void> speakaloft(String languageCode) async {
   //   // DOPSUM: CHANGE speakAloft
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaloft extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɒft/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAloft("en-GB"),
+                              onPressed: () => speakaloft("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryaloft extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɔːft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAloft("en-US"),
+                              onPressed: () => speakaloft("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryaloft extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAloft4256("en-GB"),
+                                    onPressed: () => speakaloft4256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAloft4256(
+                                    onPressed: () => speakaloft4256(
                                         // REPLACE: aloft /əˈlɔːft/
                                         "en-US"),
                                   ),

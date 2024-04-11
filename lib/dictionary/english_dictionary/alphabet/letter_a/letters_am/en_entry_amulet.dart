@@ -11,7 +11,7 @@ class EnglishEntryamulet extends StatelessWidget {
   EnglishEntryamulet({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmulet(String languageCode) async {
+  Future<void> speakamulet(String languageCode) async {
     // DOPSUM: CHANGE speakAmulet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamulet extends StatelessWidget {
     await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmulet44018(String languageCode) async {
+  Future<void> speakamulet44018(String languageCode) async {
     // DOPSUM: CHANGE speakAmulet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamulet extends StatelessWidget {
         "The child was wearing a shiny amulet around his neck for good luck."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamulet extends StatelessWidget {
   //   await flutterTts.speak("amulet"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmulet(String languageCode) async {
+  // Future<void> speakamulet(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmulet
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmjʊlət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmulet("en-GB"),
+                              onPressed: () => speakamulet("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmjʊlət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmulet("en-US"),
+                              onPressed: () => speakamulet("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryamulet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmulet44018("en-GB"),
+                                    onPressed: () => speakamulet44018("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmulet44018(
+                                    onPressed: () => speakamulet44018(
                                         // REPLACE: amulet /ˈæmjʊlət/
                                         "en-US"),
                                   ),

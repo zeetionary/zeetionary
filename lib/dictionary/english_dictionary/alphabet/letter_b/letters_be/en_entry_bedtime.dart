@@ -19,7 +19,7 @@ class EnglishEntrybedtime extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBedtime(String languageCode) async {
+  Future<void> speakbedtime(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybedtime extends StatelessWidget {
     await flutterTts.speak("bedtime"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes1(String languageCode) async {
+  Future<void> speakbedtimes1(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybedtime extends StatelessWidget {
         .speak("It's way past your bedtime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes2(String languageCode) async {
+  Future<void> speakbedtimes2(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybedtime extends StatelessWidget {
         .speak("Will you read me a bedtime story?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes3(String languageCode) async {
+  Future<void> speakbedtimes3(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybedtime extends StatelessWidget {
     await flutterTts.speak("speakBedtimes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes4(String languageCode) async {
+  Future<void> speakbedtimes4(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybedtime extends StatelessWidget {
     await flutterTts.speak("speakBedtimes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes5(String languageCode) async {
+  Future<void> speakbedtimes5(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybedtime extends StatelessWidget {
     await flutterTts.speak("speakBedtimes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes6(String languageCode) async {
+  Future<void> speakbedtimes6(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybedtime extends StatelessWidget {
     await flutterTts.speak("speakBedtimes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBedtimes7(String languageCode) async {
+  Future<void> speakbedtimes7(String languageCode) async {
     // DOPSUM: CHANGE speakBedtime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybedtime extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbedtaɪm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBedtime("en-GB"),
+                              onPressed: () => speakbedtime("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybedtime extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbedtaɪm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBedtime("en-US"),
+                              onPressed: () => speakbedtime("en-US"),
                             ),
                           ],
                         ),
@@ -166,10 +166,10 @@ class EnglishEntrybedtime extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedtimes1("en-GB"),
+                                    onPressed: () => speakbedtimes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedtimes1("en-US"),
+                                    onPressed: () => speakbedtimes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -195,10 +195,10 @@ class EnglishEntrybedtime extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBedtimes2("en-GB"),
+                                    onPressed: () => speakbedtimes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBedtimes2("en-US"),
+                                    onPressed: () => speakbedtimes2("en-US"),
                                   ),
                                 ],
                               ),

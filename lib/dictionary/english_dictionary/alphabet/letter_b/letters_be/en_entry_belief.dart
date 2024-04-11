@@ -19,7 +19,7 @@ class EnglishEntrybelief extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelief(String languageCode) async {
+  Future<void> speakbelief(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelief extends StatelessWidget {
     await flutterTts.speak("belief"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs1(String languageCode) async {
+  Future<void> speakbeliefs1(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "I admire his passionate belief in what he is doing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs2(String languageCode) async {
+  Future<void> speakbeliefs2(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "The incident has shaken my belief in the police."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs3(String languageCode) async {
+  Future<void> speakbeliefs3(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "They share a belief that there is life after death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs4(String languageCode) async {
+  Future<void> speakbeliefs4(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "There is a general belief that things will soon get better."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs5(String languageCode) async {
+  Future<void> speakbeliefs5(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "She acted in the belief that she was doing good."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs6(String languageCode) async {
+  Future<void> speakbeliefs6(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybelief extends StatelessWidget {
         "Some people hold beliefs about the world that are not supported by science."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeliefs7(String languageCode) async {
+  Future<void> speakbeliefs7(String languageCode) async {
     // DOPSUM: CHANGE speakBelief
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybelief extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈliːf/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelief("en-GB"),
+                              onPressed: () => speakbelief("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybelief extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈliːf/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelief("en-US"),
+                              onPressed: () => speakbelief("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs1("en-GB"),
+                                    onPressed: () => speakbeliefs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs1("en-US"),
+                                    onPressed: () => speakbeliefs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -204,10 +204,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs2("en-GB"),
+                                    onPressed: () => speakbeliefs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs2("en-US"),
+                                    onPressed: () => speakbeliefs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs3("en-GB"),
+                                    onPressed: () => speakbeliefs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs3("en-US"),
+                                    onPressed: () => speakbeliefs3("en-US"),
                                   ),
                                 ],
                               ),
@@ -264,10 +264,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs4("en-GB"),
+                                    onPressed: () => speakbeliefs4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs4("en-US"),
+                                    onPressed: () => speakbeliefs4("en-US"),
                                   ),
                                 ],
                               ),
@@ -293,10 +293,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs5("en-GB"),
+                                    onPressed: () => speakbeliefs5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs5("en-US"),
+                                    onPressed: () => speakbeliefs5("en-US"),
                                   ),
                                 ],
                               ),
@@ -324,10 +324,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs6("en-GB"),
+                                    onPressed: () => speakbeliefs6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs6("en-US"),
+                                    onPressed: () => speakbeliefs6("en-US"),
                                   ),
                                 ],
                               ),
@@ -353,10 +353,10 @@ class EnglishEntrybelief extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeliefs7("en-GB"),
+                                    onPressed: () => speakbeliefs7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeliefs7("en-US"),
+                                    onPressed: () => speakbeliefs7("en-US"),
                                   ),
                                 ],
                               ),

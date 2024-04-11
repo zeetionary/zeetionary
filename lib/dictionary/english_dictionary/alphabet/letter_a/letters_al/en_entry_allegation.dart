@@ -11,7 +11,7 @@ class EnglishEntryallegation extends StatelessWidget {
   EnglishEntryallegation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllegation(String languageCode) async {
+  Future<void> speakallegation(String languageCode) async {
     // DOPSUM: CHANGE speakAllegation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallegation extends StatelessWidget {
     await flutterTts.speak("allegation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllegation534(String languageCode) async {
+  Future<void> speakallegation534(String languageCode) async {
     // DOPSUM: CHANGE speakAllegation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallegation extends StatelessWidget {
         "Several newspapers made allegations of corruption in the city's police department."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllegation36911(String languageCode) async {
+  Future<void> speakallegation36911(String languageCode) async {
     // DOPSUM: CHANGE speakAllegation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallegation extends StatelessWidget {
         .speak("She refused to admit the allegations."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllegation(String languageCode) async {
+  // Future<void> speakallegation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllegation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryallegation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæləˈɡeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllegation("en-GB"),
+                              onPressed: () => speakallegation("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryallegation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæləˈɡeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllegation("en-US"),
+                              onPressed: () => speakallegation("en-US"),
                             ),
                           ],
                         ),
@@ -136,10 +136,10 @@ class EnglishEntryallegation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllegation534("en-GB"),
+                                        speakallegation534("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllegation534(
+                                    onPressed: () => speakallegation534(
                                         // REPLACE: allegation /ˌæləˈɡeɪʃn/
                                         "en-US"),
                                   ),
@@ -167,10 +167,10 @@ class EnglishEntryallegation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllegation36911("en-GB"),
+                                        speakallegation36911("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllegation36911(
+                                    onPressed: () => speakallegation36911(
                                         // REPLACE: allegation /ˌæləˈɡeɪʃn/
                                         "en-US"),
                                   ),

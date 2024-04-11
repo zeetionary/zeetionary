@@ -19,7 +19,7 @@ class EnglishEntrybeaker extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeaker(String languageCode) async {
+  Future<void> speakbeaker(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeaker extends StatelessWidget {
     await flutterTts.speak("beaker"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers1(String languageCode) async {
+  Future<void> speakbeakers1(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeaker extends StatelessWidget {
         .speak("She drank from a plastic beaker."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers2(String languageCode) async {
+  Future<void> speakbeakers2(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeaker extends StatelessWidget {
         .speak("She gave me a beaker of juice."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers3(String languageCode) async {
+  Future<void> speakbeakers3(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeaker extends StatelessWidget {
         "There was a glass beaker containing copper sulphate solution on the table."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers4(String languageCode) async {
+  Future<void> speakbeakers4(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybeaker extends StatelessWidget {
     await flutterTts.speak("speakBeakers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers5(String languageCode) async {
+  Future<void> speakbeakers5(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybeaker extends StatelessWidget {
     await flutterTts.speak("speakBeakers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers6(String languageCode) async {
+  Future<void> speakbeakers6(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybeaker extends StatelessWidget {
     await flutterTts.speak("speakBeakers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeakers7(String languageCode) async {
+  Future<void> speakbeakers7(String languageCode) async {
     // DOPSUM: CHANGE speakBeaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybeaker extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbiːkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeaker("en-GB"),
+                              onPressed: () => speakbeaker("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybeaker extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbiːkər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeaker("en-US"),
+                              onPressed: () => speakbeaker("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybeaker extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeakers1("en-GB"),
+                                    onPressed: () => speakbeakers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeakers1("en-US"),
+                                    onPressed: () => speakbeakers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,10 +200,10 @@ class EnglishEntrybeaker extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeakers2("en-GB"),
+                                    onPressed: () => speakbeakers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeakers2("en-US"),
+                                    onPressed: () => speakbeakers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybeaker extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeakers3("en-GB"),
+                                    onPressed: () => speakbeakers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeakers3("en-US"),
+                                    onPressed: () => speakbeakers3("en-US"),
                                   ),
                                 ],
                               ),

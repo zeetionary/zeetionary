@@ -19,7 +19,7 @@ class EnglishEntrybeneath extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeneath(String languageCode) async {
+  Future<void> speakbeneath(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeneath extends StatelessWidget {
     await flutterTts.speak("beneath"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths1(String languageCode) async {
+  Future<void> speakbeneaths1(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeneath extends StatelessWidget {
         "They found the body buried beneath a pile of leaves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths2(String languageCode) async {
+  Future<void> speakbeneaths2(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybeneath extends StatelessWidget {
         .speak("The boat sank beneath the waves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths3(String languageCode) async {
+  Future<void> speakbeneaths3(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybeneath extends StatelessWidget {
         .speak("He considers such jobs beneath him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths4(String languageCode) async {
+  Future<void> speakbeneaths4(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybeneath extends StatelessWidget {
         "They thought she had married beneath her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths5(String languageCode) async {
+  Future<void> speakbeneaths5(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybeneath extends StatelessWidget {
         "Her careful make-up hid the signs of age beneath."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths6(String languageCode) async {
+  Future<void> speakbeneaths6(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybeneath extends StatelessWidget {
     await flutterTts.speak("speakBeneaths66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeneaths7(String languageCode) async {
+  Future<void> speakbeneaths7(String languageCode) async {
     // DOPSUM: CHANGE speakBeneath
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybeneath extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈniːθ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeneath("en-GB"),
+                              onPressed: () => speakbeneath("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybeneath extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈniːθ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeneath("en-US"),
+                              onPressed: () => speakbeneath("en-US"),
                             ),
                           ],
                         ),
@@ -172,10 +172,10 @@ class EnglishEntrybeneath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeneaths1("en-GB"),
+                                    onPressed: () => speakbeneaths1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeneaths1("en-US"),
+                                    onPressed: () => speakbeneaths1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybeneath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeneaths2("en-GB"),
+                                    onPressed: () => speakbeneaths2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeneaths2("en-US"),
+                                    onPressed: () => speakbeneaths2("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,10 +232,10 @@ class EnglishEntrybeneath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeneaths3("en-GB"),
+                                    onPressed: () => speakbeneaths3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeneaths3("en-US"),
+                                    onPressed: () => speakbeneaths3("en-US"),
                                   ),
                                 ],
                               ),
@@ -261,10 +261,10 @@ class EnglishEntrybeneath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeneaths4("en-GB"),
+                                    onPressed: () => speakbeneaths4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeneaths4("en-US"),
+                                    onPressed: () => speakbeneaths4("en-US"),
                                   ),
                                 ],
                               ),
@@ -292,10 +292,10 @@ class EnglishEntrybeneath extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeneaths5("en-GB"),
+                                    onPressed: () => speakbeneaths5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeneaths5("en-US"),
+                                    onPressed: () => speakbeneaths5("en-US"),
                                   ),
                                 ],
                               ),

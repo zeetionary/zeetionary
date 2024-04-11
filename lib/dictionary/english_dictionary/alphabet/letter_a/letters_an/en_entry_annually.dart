@@ -12,7 +12,7 @@ class EnglishEntryannually extends StatelessWidget {
   EnglishEntryannually({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnually(String languageCode) async {
+  Future<void> speakannually(String languageCode) async {
     // DOPSUM: CHANGE speakAnnually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannually extends StatelessWidget {
     await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnually840(String languageCode) async {
+  Future<void> speakannually840(String languageCode) async {
     // DOPSUM: CHANGE speakAnnually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannually extends StatelessWidget {
         .speak("The exhibition is held annually."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryannually extends StatelessWidget {
   //   await flutterTts.speak("annually"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnually(String languageCode) async {
+  // Future<void> speakannually(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnually
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryannually extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænjuəli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnually("en-GB"),
+                              onPressed: () => speakannually("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryannually extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænjuəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnually("en-US"),
+                              onPressed: () => speakannually("en-US"),
                             ),
                           ],
                         ),
@@ -175,10 +175,10 @@ class EnglishEntryannually extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnually840("en-GB"),
+                                    onPressed: () => speakannually840("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnually840(
+                                    onPressed: () => speakannually840(
                                         // REPLACE: annually /ˈænjuəli/
                                         "en-US"),
                                   ),

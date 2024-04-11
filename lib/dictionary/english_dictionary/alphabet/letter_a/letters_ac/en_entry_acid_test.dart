@@ -11,7 +11,7 @@ class EnglishEntryacidtest extends StatelessWidget {
   EnglishEntryacidtest({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcidtest(String languageCode) async {
+  Future<void> speakacidtest(String languageCode) async {
     // DOPSUM: CHANGE speakAcidtest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacidtest extends StatelessWidget {
     await flutterTts.speak("acid test"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcidt14587(String languageCode) async {
+  Future<void> speakacidt14587(String languageCode) async {
     // DOPSUM: CHANGE speakAcidtest
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacidtest extends StatelessWidget {
         "The acid test of a good driver is whether they remain calm in an emergency."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcidtest(String languageCode) async {
+  // Future<void> speakacidtest(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcidtest
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryacidtest extends StatelessWidget {
   //   await flutterTts.speak("acid test"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcidtest(String languageCode) async {
+  // Future<void> speakacidtest(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcidtest
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæsɪd ˈtest/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcidtest("en-GB"),
+                              onPressed: () => speakacidtest("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæsɪd ˈtest/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcidtest("en-US"),
+                              onPressed: () => speakacidtest("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryacidtest extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcidt14587("en-GB"),
+                                    onPressed: () => speakacidt14587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcidt14587(
+                                    onPressed: () => speakacidt14587(
                                         "en-US"), // REPLACE acid test /ˌæsɪd ˈtest/
                                   ),
                                 ],

@@ -17,7 +17,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAromatherapist(String languageCode) async {
+  Future<void> speakaromatherapist(String languageCode) async {
     // DOPSUM: CHANGE speakAromatherapist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
     await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAromatherapist1046(String languageCode) async {
+  Future<void> speakaromatherapist1046(String languageCode) async {
     // DOPSUM: CHANGE speakAromatherapist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
         "I was interested in alternative medicine and becoming an aromatherapist."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   //   await flutterTts.speak("aromatherapist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAromatherapist(String languageCode) async {
+  // Future<void> speakaromatherapist(String languageCode) async {
   //   // DOPSUM: CHANGE speakAromatherapist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌrəʊməˈθerəpɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAromatherapist("en-GB"),
+                              onPressed: () => speakaromatherapist("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌrəʊməˈθerəpɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAromatherapist("en-US"),
+                              onPressed: () => speakaromatherapist("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAromatherapist1046("en-GB"),
+                                        speakaromatherapist1046("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAromatherapist1046(
+                                    onPressed: () => speakaromatherapist1046(
                                         // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
                                         "en-US"),
                                   ),

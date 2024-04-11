@@ -11,7 +11,7 @@ class EnglishEntryache extends StatelessWidget {
   EnglishEntryache({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAche(String languageCode) async {
+  Future<void> speakache(String languageCode) async {
     // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.speak("ache"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA125698(String languageCode) async {
+  Future<void> speaka125698(String languageCode) async {
     // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryache extends StatelessWidget {
         .speak("Her eyes ached from lack of sleep."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA4973256(String languageCode) async {
+  Future<void> speaka4973256(String languageCode) async {
     // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryache extends StatelessWidget {
         "It makes my heart ache to see her suffer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA456268(String languageCode) async {
+  Future<void> speaka456268(String languageCode) async {
     // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryache extends StatelessWidget {
     await flutterTts.speak("I was aching for home."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA14568(String languageCode) async {
+  Future<void> speaka14568(String languageCode) async {
     // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryache extends StatelessWidget {
         .speak("Mummy, I've got a tummy ache."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAche(String languageCode) async {
+  // Future<void> speakache(String languageCode) async {
   //   // DOPSUM: CHANGE speakAche
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryache extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAche("en-GB"),
+                              onPressed: () => speakache("en-GB"),
                             ),
                           ],
                         ),
@@ -99,7 +99,7 @@ class EnglishEntryache extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAche("en-US"),
+                              onPressed: () => speakache("en-US"),
                             ),
                           ],
                         ),
@@ -150,11 +150,11 @@ class EnglishEntryache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA125698("en-GB"),
+                                    onPressed: () => speaka125698("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA125698("en-US"), // REPLACE /eɪk/
+                                        speaka125698("en-US"), // REPLACE /eɪk/
                                   ),
                                 ],
                               ),
@@ -179,11 +179,11 @@ class EnglishEntryache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA4973256("en-GB"),
+                                    onPressed: () => speaka4973256("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA4973256("en-US"), // REPLACE /eɪk/
+                                        speaka4973256("en-US"), // REPLACE /eɪk/
                                   ),
                                 ],
                               ),
@@ -208,11 +208,11 @@ class EnglishEntryache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA456268("en-GB"),
+                                    onPressed: () => speaka456268("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA456268("en-US"), // REPLACE /eɪk/
+                                        speaka456268("en-US"), // REPLACE /eɪk/
                                   ),
                                 ],
                               ),
@@ -237,11 +237,11 @@ class EnglishEntryache extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA14568("en-GB"),
+                                    onPressed: () => speaka14568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakA14568("en-US"), // REPLACE /eɪk/
+                                        speaka14568("en-US"), // REPLACE /eɪk/
                                   ),
                                 ],
                               ),

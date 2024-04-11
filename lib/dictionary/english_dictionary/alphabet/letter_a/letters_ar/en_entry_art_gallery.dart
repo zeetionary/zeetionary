@@ -19,7 +19,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtgallery(String languageCode) async {
+  Future<void> speakartgallery(String languageCode) async {
     // DOPSUM: CHANGE speakArtgallery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartgallery extends StatelessWidget {
     await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtgallery1257(String languageCode) async {
+  Future<void> speakartgallery1257(String languageCode) async {
     // DOPSUM: CHANGE speakArtgallery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartgallery extends StatelessWidget {
         "He frequently exhibits at the art gallery."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryartgallery extends StatelessWidget {
   //   await flutterTts.speak("art gallery"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtgallery(String languageCode) async {
+  // Future<void> speakartgallery(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtgallery
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryartgallery extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːt ɡæləri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtgallery("en-GB"),
+                              onPressed: () => speakartgallery("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryartgallery extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrt ɡæləri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtgallery("en-US"),
+                              onPressed: () => speakartgallery("en-US"),
                             ),
                           ],
                         ),
@@ -180,10 +180,10 @@ class EnglishEntryartgallery extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArtgallery1257("en-GB"),
+                                        speakartgallery1257("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtgallery1257(
+                                    onPressed: () => speakartgallery1257(
                                         // REPLACE: art gallery /ˈɑːrt ɡæləri/
                                         "en-US"),
                                   ),

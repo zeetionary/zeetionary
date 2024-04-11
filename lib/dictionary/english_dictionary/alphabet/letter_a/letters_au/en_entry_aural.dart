@@ -19,7 +19,7 @@ class EnglishEntryaural extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAural(String languageCode) async {
+  Future<void> speakaural(String languageCode) async {
     // DOPSUM: CHANGE speakAural
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaural extends StatelessWidget {
     await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAural422(String languageCode) async {
+  Future<void> speakaural422(String languageCode) async {
     // DOPSUM: CHANGE speakAural
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaural extends StatelessWidget {
         "She doesn’t speak English well, but her aural comprehension is good."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaural extends StatelessWidget {
   //   await flutterTts.speak("aural"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAural(String languageCode) async {
+  // Future<void> speakaural(String languageCode) async {
   //   // DOPSUM: CHANGE speakAural
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryaural extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAural("en-GB"),
+                              onPressed: () => speakaural("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryaural extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAural("en-US"),
+                              onPressed: () => speakaural("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryaural extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAural422("en-GB"),
+                                    onPressed: () => speakaural422("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAural422(// REPLACE: aural
+                                        speakaural422(// REPLACE: aural
                                             "en-US"),
                                   ),
                                 ],

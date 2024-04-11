@@ -11,7 +11,7 @@ class EnglishEntryally extends StatelessWidget {
   EnglishEntryally({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlly(String languageCode) async {
+  Future<void> speakally(String languageCode) async {
     // DOPSUM: CHANGE speakAlly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryally extends StatelessWidget {
     await flutterTts.speak("ally"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlly4211(String languageCode) async {
+  Future<void> speakally4211(String languageCode) async {
     // DOPSUM: CHANGE speakAlly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryally extends StatelessWidget {
         "Portugal is a traditional ally of England."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlly4322(String languageCode) async {
+  Future<void> speakally4322(String languageCode) async {
     // DOPSUM: CHANGE speakAlly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryally extends StatelessWidget {
         "She had found an ally in her old teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlly(String languageCode) async {
+  // Future<void> speakally(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlly
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryally extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælaɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlly("en-GB"),
+                              onPressed: () => speakally("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryally extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlly("en-US"),
+                              onPressed: () => speakally("en-US"),
                             ),
                           ],
                         ),
@@ -135,11 +135,11 @@ class EnglishEntryally extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlly4211("en-GB"),
+                                    onPressed: () => speakally4211("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlly4211(// REPLACE: ally /ˈælaɪ/
+                                        speakally4211(// REPLACE: ally /ˈælaɪ/
                                             "en-US"),
                                   ),
                                 ],
@@ -167,11 +167,11 @@ class EnglishEntryally extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlly4322("en-GB"),
+                                    onPressed: () => speakally4322("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAlly4322(// REPLACE: ally /ˈælaɪ/
+                                        speakally4322(// REPLACE: ally /ˈælaɪ/
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryadvanced extends StatelessWidget {
   EnglishEntryadvanced({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvanced(String languageCode) async {
+  Future<void> speakadvanced(String languageCode) async {
     // DOPSUM: CHANGE speakAdvanced
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadvanced extends StatelessWidget {
     await flutterTts.speak("advanced"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvanc2534(String languageCode) async {
+  Future<void> speakadvanc2534(String languageCode) async {
     // DOPSUM: CHANGE speakAdvanced
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadvanced extends StatelessWidget {
         "Scientists are working on highly advanced technology to replace fossil fuels."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvan2546(String languageCode) async {
+  Future<void> speakadvan2546(String languageCode) async {
     // DOPSUM: CHANGE speakAdvanced
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadvanced extends StatelessWidget {
         "He hopes to pursue an advanced degree in economics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdvanced(String languageCode) async {
+  // Future<void> speakadvanced(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdvanced
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvɑːnst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvanced("en-GB"),
+                              onPressed: () => speakadvanced("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvænst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvanced("en-US"),
+                              onPressed: () => speakadvanced("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryadvanced extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvanc2534("en-GB"),
+                                    onPressed: () => speakadvanc2534("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvanc2534(
+                                    onPressed: () => speakadvanc2534(
                                         // REPLACE: advanced /ədˈvænst/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryadvanced extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdvan2546("en-GB"),
+                                    onPressed: () => speakadvan2546("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdvan2546(
+                                    onPressed: () => speakadvan2546(
                                         // REPLACE: advanced /ədˈvænst/
                                         "en-US"),
                                   ),

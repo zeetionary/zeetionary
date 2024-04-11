@@ -19,7 +19,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuspicious(String languageCode) async {
+  Future<void> speakauspicious(String languageCode) async {
     // DOPSUM: CHANGE speakAuspicious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauspicious extends StatelessWidget {
     await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuspicious438(String languageCode) async {
+  Future<void> speakauspicious438(String languageCode) async {
     // DOPSUM: CHANGE speakAuspicious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauspicious extends StatelessWidget {
         "It was an auspicious date for a wedding."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   //   await flutterTts.speak("auspicious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspicious(String languageCode) async {
+  // Future<void> speakauspicious(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuspicious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuspicious("en-GB"),
+                              onPressed: () => speakauspicious("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuspicious("en-US"),
+                              onPressed: () => speakauspicious("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAuspicious438("en-GB"),
+                                        speakauspicious438("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuspicious438(
+                                    onPressed: () => speakauspicious438(
                                         // REPLACE: auspicious
                                         "en-US"),
                                   ),

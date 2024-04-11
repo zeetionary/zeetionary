@@ -11,7 +11,7 @@ class EnglishEntryacademic extends StatelessWidget {
   EnglishEntryacademic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcademic(String languageCode) async {
+  Future<void> speakacademic(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacademic extends StatelessWidget {
     await flutterTts.speak("academic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc2569(String languageCode) async {
+  Future<void> speakac2569(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacademic extends StatelessWidget {
         "There is much debate among academics about this issue."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2548(String languageCode) async {
+  Future<void> speaka2548(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacademic extends StatelessWidget {
         "She wasn't very academic and hated school."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAa45897(String languageCode) async {
+  Future<void> speakaa45897(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryacademic extends StatelessWidget {
         "We are looking for practical experience as well as academic achievement."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2579(String languageCode) async {
+  Future<void> speaka2579(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryacademic extends StatelessWidget {
         "The university is renowned throughout the world for its academic excellence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAa2541(String languageCode) async {
+  Future<void> speakaa2541(String languageCode) async {
     // DOPSUM: CHANGE speakAcademic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryacademic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækəˈdemɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcademic("en-GB"),
+                              onPressed: () => speakacademic("en-GB"),
                             ),
                           ],
                         ),
@@ -102,7 +102,7 @@ class EnglishEntryacademic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækəˈdemɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcademic("en-US"),
+                              onPressed: () => speakacademic("en-US"),
                             ),
                           ],
                         ),
@@ -153,10 +153,10 @@ class EnglishEntryacademic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2579("en-GB"),
+                                    onPressed: () => speaka2579("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2579("en-US"),
+                                    onPressed: () => speaka2579("en-US"),
                                   ),
                                 ],
                               ),
@@ -183,10 +183,10 @@ class EnglishEntryacademic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAa45897("en-GB"),
+                                    onPressed: () => speakaa45897("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAa45897("en-US"),
+                                    onPressed: () => speakaa45897("en-US"),
                                   ),
                                 ],
                               ),
@@ -213,10 +213,10 @@ class EnglishEntryacademic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA2548("en-GB"),
+                                    onPressed: () => speaka2548("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA2548("en-US"),
+                                    onPressed: () => speaka2548("en-US"),
                                   ),
                                 ],
                               ),
@@ -243,10 +243,10 @@ class EnglishEntryacademic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc2569("en-GB"),
+                                    onPressed: () => speakac2569("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc2569("en-US"),
+                                    onPressed: () => speakac2569("en-US"),
                                   ),
                                 ],
                               ),

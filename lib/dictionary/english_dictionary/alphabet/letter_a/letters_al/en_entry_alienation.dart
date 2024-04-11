@@ -11,7 +11,7 @@ class EnglishEntryalienation extends StatelessWidget {
   EnglishEntryalienation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlienation(String languageCode) async {
+  Future<void> speakalienation(String languageCode) async {
     // DOPSUM: CHANGE speakAlienation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalienation extends StatelessWidget {
     await flutterTts.speak("alienation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlienation73555(String languageCode) async {
+  Future<void> speakalienation73555(String languageCode) async {
     // DOPSUM: CHANGE speakAlienation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalienation extends StatelessWidget {
         "The new policy resulted in the alienation of many voters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlienation422121(String languageCode) async {
+  Future<void> speakalienation422121(String languageCode) async {
     // DOPSUM: CHANGE speakAlienation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalienation extends StatelessWidget {
         "Many young people suffer from a sense of alienation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlienation(String languageCode) async {
+  // Future<void> speakalienation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlienation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryalienation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪliəˈneɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlienation("en-GB"),
+                              onPressed: () => speakalienation("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryalienation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪliəˈneɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlienation("en-US"),
+                              onPressed: () => speakalienation("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryalienation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlienation73555("en-GB"),
+                                        speakalienation73555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlienation73555(
+                                    onPressed: () => speakalienation73555(
                                         // REPLACE: alienation /ˌeɪliəˈneɪʃn/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryalienation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlienation422121("en-GB"),
+                                        speakalienation422121("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlienation422121(
+                                    onPressed: () => speakalienation422121(
                                         // REPLACE: alienation /ˌeɪliəˈneɪʃn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryadjunct extends StatelessWidget {
   EnglishEntryadjunct({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdjunct(String languageCode) async {
+  Future<void> speakadjunct(String languageCode) async {
     // DOPSUM: CHANGE speakAdjunct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadjunct extends StatelessWidget {
     await flutterTts.speak("adjunct"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdj58692(String languageCode) async {
+  Future<void> speakadj58692(String languageCode) async {
     // DOPSUM: CHANGE speakAdjunct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadjunct extends StatelessWidget {
         "The course would be a useful adjunct to my studies."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdjunct(String languageCode) async {
+  // Future<void> speakadjunct(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdjunct
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadjunct extends StatelessWidget {
   //   await flutterTts.speak("adjunct"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdjunct(String languageCode) async {
+  // Future<void> speakadjunct(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdjunct
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædʒʌŋkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjunct("en-GB"),
+                              onPressed: () => speakadjunct("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʒʌŋkt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjunct("en-US"),
+                              onPressed: () => speakadjunct("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryadjunct extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdj58692("en-GB"),
+                                    onPressed: () => speakadj58692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdj58692(
+                                    onPressed: () => speakadj58692(
                                         // REPLACE: adjunct /ˈædʒʌŋkt/
                                         "en-US"),
                                   ),

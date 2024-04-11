@@ -17,7 +17,7 @@ class EnglishEntryapron extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApron(String languageCode) async {
+  Future<void> speakapron(String languageCode) async {
     // DOPSUM: CHANGE speakApron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryapron extends StatelessWidget {
     await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApron728(String languageCode) async {
+  Future<void> speakapron728(String languageCode) async {
     // DOPSUM: CHANGE speakApron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryapron extends StatelessWidget {
         .speak("Her apron was speckled with oil."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryapron extends StatelessWidget {
   //   await flutterTts.speak("apron"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApron(String languageCode) async {
+  // Future<void> speakapron(String languageCode) async {
   //   // DOPSUM: CHANGE speakApron
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryapron extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪprən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApron("en-GB"),
+                              onPressed: () => speakapron("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryapron extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪprən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApron("en-US"),
+                              onPressed: () => speakapron("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryapron extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApron728("en-GB"),
+                                    onPressed: () => speakapron728("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApron728(
+                                    onPressed: () => speakapron728(
                                         // REPLACE: apron /ˈeɪprən/
                                         "en-US"),
                                   ),

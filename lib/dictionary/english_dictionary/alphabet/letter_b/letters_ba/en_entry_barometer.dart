@@ -19,7 +19,7 @@ class EnglishEntrybarometer extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarometer(String languageCode) async {
+  Future<void> speakbarometer(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.speak("barometer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers1(String languageCode) async {
+  Future<void> speakbarometers1(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarometer extends StatelessWidget {
         "The barometer has been steady for three days now."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers2(String languageCode) async {
+  Future<void> speakbarometers2(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarometer extends StatelessWidget {
         "Infant mortality is a reliable barometer of socio-economic conditions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers3(String languageCode) async {
+  Future<void> speakbarometers3(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybarometer extends StatelessWidget {
         "The skin is an accurate barometer of your state of health."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers4(String languageCode) async {
+  Future<void> speakbarometers4(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.speak("speakBarometers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers5(String languageCode) async {
+  Future<void> speakbarometers5(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.speak("speakBarometers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers6(String languageCode) async {
+  Future<void> speakbarometers6(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybarometer extends StatelessWidget {
     await flutterTts.speak("speakBarometers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarometers7(String languageCode) async {
+  Future<void> speakbarometers7(String languageCode) async {
     // DOPSUM: CHANGE speakBarometer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybarometer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bəˈrɒmɪtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarometer("en-GB"),
+                              onPressed: () => speakbarometer("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybarometer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈrɑːmɪtər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarometer("en-US"),
+                              onPressed: () => speakbarometer("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybarometer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarometers1("en-GB"),
+                                    onPressed: () => speakbarometers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarometers1("en-US"),
+                                    onPressed: () => speakbarometers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybarometer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarometers2("en-GB"),
+                                    onPressed: () => speakbarometers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarometers2("en-US"),
+                                    onPressed: () => speakbarometers2("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,10 +231,10 @@ class EnglishEntrybarometer extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarometers3("en-GB"),
+                                    onPressed: () => speakbarometers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarometers3("en-US"),
+                                    onPressed: () => speakbarometers3("en-US"),
                                   ),
                                 ],
                               ),

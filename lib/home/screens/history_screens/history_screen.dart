@@ -102,11 +102,11 @@ class UkIconForHistoryTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 15;
+    final textSize = ref.watch(textSizeProvider) + 12;
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 110,
+        width: 100,
         height: textSize,
       ),
     );
@@ -120,11 +120,11 @@ class KurdIconForHistoryTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 15;
+    final textSize = ref.watch(textSizeProvider) + 12;
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 110,
+        width: 100,
         height: textSize,
       ),
     );

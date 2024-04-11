@@ -19,7 +19,7 @@ class EnglishEntryattraction extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttraction(String languageCode) async {
+  Future<void> speakattraction(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattraction extends StatelessWidget {
     await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1023(String languageCode) async {
+  Future<void> speakattraction1023(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "Buckingham Palace is a major tourist attraction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1024(String languageCode) async {
+  Future<void> speakattraction1024(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "She felt an immediate attraction for him."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1026(String languageCode) async {
+  Future<void> speakattraction1026(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "Sexual attraction is a large part of falling in love."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1028(String languageCode) async {
+  Future<void> speakattraction1028(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "City life holds little attraction for me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1030(String languageCode) async {
+  Future<void> speakattraction1030(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "The main attraction of the place is the nightlife."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttraction1034(String languageCode) async {
+  Future<void> speakattraction1034(String languageCode) async {
     // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryattraction extends StatelessWidget {
         "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttraction(String languageCode) async {
+  // Future<void> speakattraction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttraction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryattraction extends StatelessWidget {
   //   await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttraction(String languageCode) async {
+  // Future<void> speakattraction(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttraction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryattraction extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtrækʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttraction("en-GB"),
+                              onPressed: () => speakattraction("en-GB"),
                             ),
                           ],
                         ),
@@ -139,7 +139,7 @@ class EnglishEntryattraction extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtrækʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttraction("en-US"),
+                              onPressed: () => speakattraction("en-US"),
                             ),
                           ],
                         ),
@@ -189,10 +189,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1023("en-GB"),
+                                        speakattraction1023("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1023(
+                                    onPressed: () => speakattraction1023(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),
@@ -223,10 +223,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1024("en-GB"),
+                                        speakattraction1024("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1024(
+                                    onPressed: () => speakattraction1024(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1026("en-GB"),
+                                        speakattraction1026("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1026(
+                                    onPressed: () => speakattraction1026(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),
@@ -288,10 +288,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1028("en-GB"),
+                                        speakattraction1028("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1028(
+                                    onPressed: () => speakattraction1028(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),
@@ -320,10 +320,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1030("en-GB"),
+                                        speakattraction1030("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1030(
+                                    onPressed: () => speakattraction1030(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),
@@ -354,10 +354,10 @@ class EnglishEntryattraction extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttraction1034("en-GB"),
+                                        speakattraction1034("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttraction1034(
+                                    onPressed: () => speakattraction1034(
                                         // REPLACE: attraction
                                         "en-US"),
                                   ),

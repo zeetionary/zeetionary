@@ -19,7 +19,7 @@ class EnglishEntrybelong extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelong(String languageCode) async {
+  Future<void> speakbelong(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelong extends StatelessWidget {
     await flutterTts.speak("belong"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs1(String languageCode) async {
+  Future<void> speakbelongs1(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelong extends StatelessWidget {
         .speak("Where do these plates belong?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs2(String languageCode) async {
+  Future<void> speakbelongs2(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybelong extends StatelessWidget {
         "Are you sure these documents belong together?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs3(String languageCode) async {
+  Future<void> speakbelongs3(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybelong extends StatelessWidget {
         "Several of the points you raise do not belong in this discussion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs4(String languageCode) async {
+  Future<void> speakbelongs4(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybelong extends StatelessWidget {
         "After three years in Cambridge, I finally feel as if I belong here."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs5(String languageCode) async {
+  Future<void> speakbelongs5(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybelong extends StatelessWidget {
     await flutterTts.speak("speakBelongs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs6(String languageCode) async {
+  Future<void> speakbelongs6(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybelong extends StatelessWidget {
     await flutterTts.speak("speakBelongs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelongs7(String languageCode) async {
+  Future<void> speakbelongs7(String languageCode) async {
     // DOPSUM: CHANGE speakBelong
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -114,7 +114,7 @@ class EnglishEntrybelong extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈlɒŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelong("en-GB"),
+                              onPressed: () => speakbelong("en-GB"),
                             ),
                           ],
                         ),
@@ -122,7 +122,7 @@ class EnglishEntrybelong extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈlɔːŋ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelong("en-US"),
+                              onPressed: () => speakbelong("en-US"),
                             ),
                           ],
                         ),
@@ -167,10 +167,10 @@ class EnglishEntrybelong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelongs1("en-GB"),
+                                    onPressed: () => speakbelongs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelongs1("en-US"),
+                                    onPressed: () => speakbelongs1("en-US"),
                                   ),
                                 ],
                               ),
@@ -196,10 +196,10 @@ class EnglishEntrybelong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelongs2("en-GB"),
+                                    onPressed: () => speakbelongs2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelongs2("en-US"),
+                                    onPressed: () => speakbelongs2("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,10 +225,10 @@ class EnglishEntrybelong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelongs3("en-GB"),
+                                    onPressed: () => speakbelongs3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelongs3("en-US"),
+                                    onPressed: () => speakbelongs3("en-US"),
                                   ),
                                 ],
                               ),
@@ -256,10 +256,10 @@ class EnglishEntrybelong extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelongs4("en-GB"),
+                                    onPressed: () => speakbelongs4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelongs4("en-US"),
+                                    onPressed: () => speakbelongs4("en-US"),
                                   ),
                                 ],
                               ),

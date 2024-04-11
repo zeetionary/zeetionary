@@ -11,7 +11,7 @@ class EnglishEntryairtoair extends StatelessWidget {
   EnglishEntryairtoair({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirtoair(String languageCode) async {
+  Future<void> speakairtoair(String languageCode) async {
     // DOPSUM: CHANGE speakAirtoair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairtoair extends StatelessWidget {
     await flutterTts.speak("air-to-air"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirtoair124(String languageCode) async {
+  Future<void> speakairtoair124(String languageCode) async {
     // DOPSUM: CHANGE speakAirtoair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairtoair extends StatelessWidget {
         "The aid includes 200 supersonic air-to-air missiles and military communications equipment."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirtoair(String languageCode) async {
+  // Future<void> speakairtoair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirtoair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryairtoair extends StatelessWidget {
   //   await flutterTts.speak("air-to-air"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAirtoair(String languageCode) async {
+  // Future<void> speakairtoair(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirtoair
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeə tu ˈeə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirtoair("en-GB"),
+                              onPressed: () => speakairtoair("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌer tu ˈer/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirtoair("en-US"),
+                              onPressed: () => speakairtoair("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryairtoair extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirtoair124("en-GB"),
+                                    onPressed: () => speakairtoair124("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirtoair124(
+                                    onPressed: () => speakairtoair124(
                                         // REPLACE: air-to-air /ˌer tu ˈer/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArchbishop(String languageCode) async {
+  Future<void> speakarchbishop(String languageCode) async {
     // DOPSUM: CHANGE speakArchbishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
     await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArchbishop315(String languageCode) async {
+  Future<void> speakarchbishop315(String languageCode) async {
     // DOPSUM: CHANGE speakArchbishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
         .speak("He was made Archbishop of Milan."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
   //   await flutterTts.speak("archbishop"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArchbishop(String languageCode) async {
+  // Future<void> speakarchbishop(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchbishop
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːtʃˈbɪʃəp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchbishop("en-GB"),
+                              onPressed: () => speakarchbishop("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrtʃˈbɪʃəp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchbishop("en-US"),
+                              onPressed: () => speakarchbishop("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarchbishop extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArchbishop315("en-GB"),
+                                        speakarchbishop315("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArchbishop315(
+                                    onPressed: () => speakarchbishop315(
                                         // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
                                         "en-US"),
                                   ),

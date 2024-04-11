@@ -12,7 +12,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   EnglishEntryanonymous({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnonymous(String languageCode) async {
+  Future<void> speakanonymous(String languageCode) async {
     // DOPSUM: CHANGE speakAnonymous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanonymous extends StatelessWidget {
     await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnonymous1022(String languageCode) async {
+  Future<void> speakanonymous1022(String languageCode) async {
     // DOPSUM: CHANGE speakAnonymous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanonymous extends StatelessWidget {
         "The money was donated by a local businessman who wishes to remain anonymous."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnonymous1026(String languageCode) async {
+  Future<void> speakanonymous1026(String languageCode) async {
     // DOPSUM: CHANGE speakAnonymous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanonymous extends StatelessWidget {
         "He received an anonymous letter threatening to disclose details of his affair if he didn't pay the money."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   //   await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   //   await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   //   await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   //   await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanonymous extends StatelessWidget {
   //   await flutterTts.speak("anonymous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnonymous(String languageCode) async {
+  // Future<void> speakanonymous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnonymous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntryanonymous extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒnɪməs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnonymous("en-GB"),
+                              onPressed: () => speakanonymous("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntryanonymous extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːnɪməs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnonymous("en-US"),
+                              onPressed: () => speakanonymous("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryanonymous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnonymous1022("en-GB"),
+                                        speakanonymous1022("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnonymous1022(
+                                    onPressed: () => speakanonymous1022(
                                         // REPLACE: anonymous /əˈnɑːnɪməs/
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryanonymous extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnonymous1026("en-GB"),
+                                        speakanonymous1026("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnonymous1026(
+                                    onPressed: () => speakanonymous1026(
                                         // REPLACE: anonymous /əˈnɑːnɪməs/
                                         "en-US"),
                                   ),

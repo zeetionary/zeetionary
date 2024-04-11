@@ -11,7 +11,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
   EnglishEntryaffirmative({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffirmative(String languageCode) async {
+  Future<void> speakaffirmative(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
     await flutterTts.speak("affirmative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffirm556(String languageCode) async {
+  Future<void> speakaffirm556(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
         "He gave an affirmative response to the question."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffirmat899(String languageCode) async {
+  Future<void> speakaffirmat899(String languageCode) async {
     // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
         .speak("She answered in the affirmative."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffirmative(String languageCode) async {
+  // Future<void> speakaffirmative(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffirmative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɜːmətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffirmative("en-GB"),
+                              onPressed: () => speakaffirmative("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɜːrmətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffirmative("en-US"),
+                              onPressed: () => speakaffirmative("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryaffirmative extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffirm556("en-GB"),
+                                    onPressed: () => speakaffirm556("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffirm556(
+                                    onPressed: () => speakaffirm556(
                                         // REPLACE: affirmative /əˈfɜːrmətɪv/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryaffirmative extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAffirmat899("en-GB"),
+                                    onPressed: () => speakaffirmat899("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAffirmat899(
+                                    onPressed: () => speakaffirmat899(
                                         // REPLACE: affirmative /əˈfɜːrmətɪv/
                                         "en-US"),
                                   ),

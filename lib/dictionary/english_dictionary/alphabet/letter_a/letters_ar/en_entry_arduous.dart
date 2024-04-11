@@ -17,7 +17,7 @@ class EnglishEntryarduous extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArduous(String languageCode) async {
+  Future<void> speakarduous(String languageCode) async {
     // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarduous extends StatelessWidget {
     await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArduous530(String languageCode) async {
+  Future<void> speakarduous530(String languageCode) async {
     // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarduous extends StatelessWidget {
         "The road back to political stability is long and arduous."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArduous531(String languageCode) async {
+  Future<void> speakarduous531(String languageCode) async {
     // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarduous extends StatelessWidget {
     await flutterTts.speak("The work was arduous."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarduous extends StatelessWidget {
   //   await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarduous extends StatelessWidget {
   //   await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarduous extends StatelessWidget {
   //   await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarduous extends StatelessWidget {
   //   await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarduous extends StatelessWidget {
   //   await flutterTts.speak("arduous"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArduous(String languageCode) async {
+  // Future<void> speakarduous(String languageCode) async {
   //   // DOPSUM: CHANGE speakArduous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːdʒuəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArduous("en-GB"),
+                              onPressed: () => speakarduous("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrdʒuəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArduous("en-US"),
+                              onPressed: () => speakarduous("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarduous extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArduous530("en-GB"),
+                                    onPressed: () => speakarduous530("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArduous530(
+                                    onPressed: () => speakarduous530(
                                         // REPLACE: arduous /ˈɑːrdʒuəs/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryarduous extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArduous531("en-GB"),
+                                    onPressed: () => speakarduous531("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArduous531(
+                                    onPressed: () => speakarduous531(
                                         // REPLACE: arduous /ˈɑːrdʒuəs/
                                         "en-US"),
                                   ),

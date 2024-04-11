@@ -11,7 +11,7 @@ class EnglishEntryamber extends StatelessWidget {
   EnglishEntryamber({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmber(String languageCode) async {
+  Future<void> speakamber(String languageCode) async {
     // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamber extends StatelessWidget {
     await flutterTts.speak("amber"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmber4447(String languageCode) async {
+  Future<void> speakamber4447(String languageCode) async {
     // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamber extends StatelessWidget {
         .speak("Her amber eyes shone in the dark."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmber46922(String languageCode) async {
+  Future<void> speakamber46922(String languageCode) async {
     // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamber extends StatelessWidget {
         "He has a collection of prehistoric insects preserved in amber."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmber4699(String languageCode) async {
+  Future<void> speakamber4699(String languageCode) async {
     // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryamber extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmbə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmber("en-GB"),
+                              onPressed: () => speakamber("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryamber extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmbər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmber("en-US"),
+                              onPressed: () => speakamber("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryamber extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmber4447("en-GB"),
+                                    onPressed: () => speakamber4447("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmber4447(
+                                    onPressed: () => speakamber4447(
                                         // REPLACE: amber /ˈæmbər/
                                         "en-US"),
                                   ),
@@ -163,10 +163,10 @@ class EnglishEntryamber extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmber46922("en-GB"),
+                                    onPressed: () => speakamber46922("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmber46922(
+                                    onPressed: () => speakamber46922(
                                         // REPLACE: amber /ˈæmbər/
                                         "en-US"),
                                   ),
@@ -195,10 +195,10 @@ class EnglishEntryamber extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmber4699("en-GB"),
+                                    onPressed: () => speakamber4699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmber4699(
+                                    onPressed: () => speakamber4699(
                                         // REPLACE: amber /ˈæmbər/
                                         "en-US"),
                                   ),

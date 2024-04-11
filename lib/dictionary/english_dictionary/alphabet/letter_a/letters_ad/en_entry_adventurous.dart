@@ -11,7 +11,7 @@ class EnglishEntryadventurous extends StatelessWidget {
   EnglishEntryadventurous({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdventurous(String languageCode) async {
+  Future<void> speakadventurous(String languageCode) async {
     // DOPSUM: CHANGE speakAdventurous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadventurous extends StatelessWidget {
     await flutterTts.speak("adventurous"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdven489223(String languageCode) async {
+  Future<void> speakadven489223(String languageCode) async {
     // DOPSUM: CHANGE speakAdventurous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadventurous extends StatelessWidget {
         .speak("She led an adventurous life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdven365(String languageCode) async {
+  Future<void> speakadven365(String languageCode) async {
     // DOPSUM: CHANGE speakAdventurous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadventurous extends StatelessWidget {
         "Many teachers would like to be more adventurous."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdventurous(String languageCode) async {
+  // Future<void> speakadventurous(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdventurous
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈventʃərəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdventurous("en-GB"),
+                              onPressed: () => speakadventurous("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈventʃərəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdventurous("en-US"),
+                              onPressed: () => speakadventurous("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryadventurous extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdven489223("en-GB"),
+                                    onPressed: () => speakadven489223("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdven489223(
+                                    onPressed: () => speakadven489223(
                                         // REPLACE: adventurous /ədˈventʃərəs/
                                         "en-US"),
                                   ),
@@ -157,10 +157,10 @@ class EnglishEntryadventurous extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdven365("en-GB"),
+                                    onPressed: () => speakadven365("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdven365(
+                                    onPressed: () => speakadven365(
                                         // REPLACE: adventurous /ədˈventʃərəs/
                                         "en-US"),
                                   ),

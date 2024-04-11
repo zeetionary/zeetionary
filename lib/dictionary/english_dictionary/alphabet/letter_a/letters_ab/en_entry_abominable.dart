@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakabominables1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA345(String languageCode) async {
+  Future<void> speaka345(String languageCode) async {
     // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
         "I think you are utterly selfish and your behaviour has been abominable."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbo27(String languageCode) async {
+  Future<void> speakabo27(String languageCode) async {
     // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
         "We were served the most abominable coffee."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbo85(String languageCode) async {
+  Future<void> speakabo85(String languageCode) async {
     // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -377,10 +377,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAbo85("en-GB"),
+                    onPressed: () => speakabo85("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAbo85("en-US"),
+                    onPressed: () => speakabo85("en-US"),
                   ),
                 ],
               ),
@@ -403,10 +403,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakAbo27("en-GB"),
+                    onPressed: () => speakabo27("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakAbo27("en-US"),
+                    onPressed: () => speakabo27("en-US"),
                   ),
                 ],
               ),
@@ -431,10 +431,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakA345("en-GB"),
+                    onPressed: () => speaka345("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakA345("en-US"),
+                    onPressed: () => speaka345("en-US"),
                   ),
                 ],
               ),

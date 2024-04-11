@@ -11,7 +11,7 @@ class EnglishEntryallocation extends StatelessWidget {
   EnglishEntryallocation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllocation(String languageCode) async {
+  Future<void> speakallocation(String languageCode) async {
     // DOPSUM: CHANGE speakAllocation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallocation extends StatelessWidget {
     await flutterTts.speak("allocation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllocation1362(String languageCode) async {
+  Future<void> speakallocation1362(String languageCode) async {
     // DOPSUM: CHANGE speakAllocation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryallocation extends StatelessWidget {
         "We have spent our entire allocation for the year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllocation342(String languageCode) async {
+  Future<void> speakallocation342(String languageCode) async {
     // DOPSUM: CHANGE speakAllocation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryallocation extends StatelessWidget {
         "The charity is trying to get its allocation increased for next year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllocation359(String languageCode) async {
+  Future<void> speakallocation359(String languageCode) async {
     // DOPSUM: CHANGE speakAllocation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryallocation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæləˈkeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllocation("en-GB"),
+                              onPressed: () => speakallocation("en-GB"),
                             ),
                           ],
                         ),
@@ -85,7 +85,7 @@ class EnglishEntryallocation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæləˈkeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllocation("en-US"),
+                              onPressed: () => speakallocation("en-US"),
                             ),
                           ],
                         ),
@@ -137,10 +137,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllocation1362("en-GB"),
+                                        speakallocation1362("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllocation1362(
+                                    onPressed: () => speakallocation1362(
                                         // REPLACE: allocation /ˌæləˈkeɪʃn/
                                         "en-US"),
                                   ),
@@ -168,10 +168,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllocation342("en-GB"),
+                                        speakallocation342("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllocation342(
+                                    onPressed: () => speakallocation342(
                                         // REPLACE: allocation /ˌæləˈkeɪʃn/
                                         "en-US"),
                                   ),
@@ -201,10 +201,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAllocation359("en-GB"),
+                                        speakallocation359("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllocation359(
+                                    onPressed: () => speakallocation359(
                                         // REPLACE: allocation /ˌæləˈkeɪʃn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryamateur extends StatelessWidget {
   EnglishEntryamateur({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmateur(String languageCode) async {
+  Future<void> speakamateur(String languageCode) async {
     // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamateur extends StatelessWidget {
     await flutterTts.speak("amateur"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur44451(String languageCode) async {
+  Future<void> speakamateur44451(String languageCode) async {
     // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamateur extends StatelessWidget {
         "He was an amateur photographer until the age of 40, when he turned professional."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur47955(String languageCode) async {
+  Future<void> speakamateur47955(String languageCode) async {
     // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamateur extends StatelessWidget {
         "The performance sounded very amateur, I’m afraid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur49555(String languageCode) async {
+  Future<void> speakamateur49555(String languageCode) async {
     // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryamateur extends StatelessWidget {
         "This work was done by a bunch of amateurs!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur44592(String languageCode) async {
+  Future<void> speakamateur44592(String languageCode) async {
     // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmətə(r)/, /ˈæmətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmateur("en-GB"),
+                              onPressed: () => speakamateur("en-GB"),
                             ),
                           ],
                         ),
@@ -96,7 +96,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmətər/, /ˈæmətʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmateur("en-US"),
+                              onPressed: () => speakamateur("en-US"),
                             ),
                           ],
                         ),
@@ -146,10 +146,10 @@ class EnglishEntryamateur extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmateur44451("en-GB"),
+                                    onPressed: () => speakamateur44451("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmateur44451(
+                                    onPressed: () => speakamateur44451(
                                         // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
@@ -178,10 +178,10 @@ class EnglishEntryamateur extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmateur47955("en-GB"),
+                                    onPressed: () => speakamateur47955("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmateur47955(
+                                    onPressed: () => speakamateur47955(
                                         // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryamateur extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmateur44592("en-GB"),
+                                    onPressed: () => speakamateur44592("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmateur44592(
+                                    onPressed: () => speakamateur44592(
                                         // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),
@@ -242,10 +242,10 @@ class EnglishEntryamateur extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmateur49555("en-GB"),
+                                    onPressed: () => speakamateur49555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmateur49555(
+                                    onPressed: () => speakamateur49555(
                                         // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
                                         "en-US"),
                                   ),

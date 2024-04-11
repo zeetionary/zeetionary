@@ -19,7 +19,7 @@ class EnglishEntryarugula extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArugula(String languageCode) async {
+  Future<void> speakarugula(String languageCode) async {
     // DOPSUM: CHANGE speakArugula
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryarugula extends StatelessWidget {
     await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArugula1018(String languageCode) async {
+  Future<void> speakarugula1018(String languageCode) async {
     // DOPSUM: CHANGE speakArugula
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryarugula extends StatelessWidget {
         "I love the peppery flavor of arugula in salads."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarugula extends StatelessWidget {
   //   await flutterTts.speak("arugula"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArugula(String languageCode) async {
+  // Future<void> speakarugula(String languageCode) async {
   //   // DOPSUM: CHANGE speakArugula
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarugula extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈruːɡjʊlə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArugula("en-GB"),
+                              onPressed: () => speakarugula("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarugula extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈruːɡələ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArugula("en-US"),
+                              onPressed: () => speakarugula("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryarugula extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArugula1018("en-GB"),
+                                    onPressed: () => speakarugula1018("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArugula1018(
+                                    onPressed: () => speakarugula1018(
                                         // REPLACE: arugula /əˈruːɡələ/
                                         "en-US"),
                                   ),

@@ -17,7 +17,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAquatic(String languageCode) async {
+  Future<void> speakaquatic(String languageCode) async {
     // DOPSUM: CHANGE speakAquatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaquatic extends StatelessWidget {
     await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquatic936(String languageCode) async {
+  Future<void> speakaquatic936(String languageCode) async {
     // DOPSUM: CHANGE speakAquatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaquatic extends StatelessWidget {
         "Many forms of aquatic life inhabit ponds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAquatic938(String languageCode) async {
+  Future<void> speakaquatic938(String languageCode) async {
     // DOPSUM: CHANGE speakAquatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryaquatic extends StatelessWidget {
         "Aquatic sports include swimming and rowing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryaquatic extends StatelessWidget {
   //   await flutterTts.speak("aquatic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAquatic(String languageCode) async {
+  // Future<void> speakaquatic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAquatic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryaquatic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈkwætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAquatic("en-GB"),
+                              onPressed: () => speakaquatic("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryaquatic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAquatic("en-US"),
+                              onPressed: () => speakaquatic("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryaquatic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAquatic936("en-GB"),
+                                    onPressed: () => speakaquatic936("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquatic936(
+                                    onPressed: () => speakaquatic936(
                                         // REPLACE: aquatic /əˈkwɑːtɪk/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryaquatic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAquatic938("en-GB"),
+                                    onPressed: () => speakaquatic938("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAquatic938(
+                                    onPressed: () => speakaquatic938(
                                         // REPLACE: aquatic /əˈkwɑːtɪk/
                                         "en-US"),
                                   ),

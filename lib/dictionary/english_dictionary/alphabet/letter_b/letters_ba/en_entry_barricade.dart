@@ -19,7 +19,7 @@ class EnglishEntrybarricade extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarricade(String languageCode) async {
+  Future<void> speakbarricade(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.speak("barricade"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades1(String languageCode) async {
+  Future<void> speakbarricades1(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarricade extends StatelessWidget {
         "The police stormed the barricades the demonstrators had put up."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades2(String languageCode) async {
+  Future<void> speakbarricades2(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarricade extends StatelessWidget {
         "They barricaded all the doors and windows."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades3(String languageCode) async {
+  Future<void> speakbarricades3(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.speak("speakBarricades33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades4(String languageCode) async {
+  Future<void> speakbarricades4(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.speak("speakBarricades44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades5(String languageCode) async {
+  Future<void> speakbarricades5(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.speak("speakBarricades55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades6(String languageCode) async {
+  Future<void> speakbarricades6(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.speak("speakBarricades66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarricades7(String languageCode) async {
+  Future<void> speakbarricades7(String languageCode) async {
     // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈbærɪkeɪd/, /ˌbærɪˈkeɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarricade("en-GB"),
+                              onPressed: () => speakbarricade("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbærɪkeɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarricade("en-US"),
+                              onPressed: () => speakbarricade("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybarricade extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarricades1("en-GB"),
+                                    onPressed: () => speakbarricades1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarricades1("en-US"),
+                                    onPressed: () => speakbarricades1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybarricade extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarricades2("en-GB"),
+                                    onPressed: () => speakbarricades2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBarricades2("en-US"),
+                                    onPressed: () => speakbarricades2("en-US"),
                                   ),
                                 ],
                               ),

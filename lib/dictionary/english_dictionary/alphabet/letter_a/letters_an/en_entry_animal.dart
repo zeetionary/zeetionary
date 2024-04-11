@@ -11,7 +11,7 @@ class EnglishEntryanimal extends StatelessWidget {
   EnglishEntryanimal({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnimal(String languageCode) async {
+  Future<void> speakanimal(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.speak("animal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal858(String languageCode) async {
+  Future<void> speakanimal858(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "The animal began to sicken and soon died."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal0052(String languageCode) async {
+  Future<void> speakanimal0052(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryanimal extends StatelessWidget {
     await flutterTts.speak("A horse is a large animal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal440(String languageCode) async {
+  Future<void> speakanimal440(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "This product has not been tested on animals."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal4608(String languageCode) async {
+  Future<void> speakanimal4608(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "Humans are the only animals to have developed speech."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal4390(String languageCode) async {
+  Future<void> speakanimal4390(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "He's a real animal when he's had too much to drink."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal4077(String languageCode) async {
+  Future<void> speakanimal4077(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnimal914(String languageCode) async {
+  Future<void> speakanimal914(String languageCode) async {
     // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryanimal extends StatelessWidget {
         "As an actor, he has a sort of animal magnetism."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnimal(String languageCode) async {
+  // Future<void> speakanimal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnimal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænɪml/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnimal("en-GB"),
+                              onPressed: () => speakanimal("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænɪml/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnimal("en-US"),
+                              onPressed: () => speakanimal("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal858("en-GB"),
+                                    onPressed: () => speakanimal858("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal858(
+                                    onPressed: () => speakanimal858(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -208,10 +208,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal0052("en-GB"),
+                                    onPressed: () => speakanimal0052("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal0052(
+                                    onPressed: () => speakanimal0052(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -241,10 +241,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal440("en-GB"),
+                                    onPressed: () => speakanimal440("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal440(
+                                    onPressed: () => speakanimal440(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -274,10 +274,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal4608("en-GB"),
+                                    onPressed: () => speakanimal4608("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal4608(
+                                    onPressed: () => speakanimal4608(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -307,10 +307,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal4390("en-GB"),
+                                    onPressed: () => speakanimal4390("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal4390(
+                                    onPressed: () => speakanimal4390(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -340,10 +340,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal4077("en-GB"),
+                                    onPressed: () => speakanimal4077("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal4077(
+                                    onPressed: () => speakanimal4077(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),
@@ -370,10 +370,10 @@ class EnglishEntryanimal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnimal914("en-GB"),
+                                    onPressed: () => speakanimal914("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnimal914(
+                                    onPressed: () => speakanimal914(
                                         // REPLACE: animal /ˈænɪml/
                                         "en-US"),
                                   ),

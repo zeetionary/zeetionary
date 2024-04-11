@@ -19,7 +19,7 @@ class EnglishEntrybelfry extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelfry(String languageCode) async {
+  Future<void> speakbelfry(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("belfry"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys1(String languageCode) async {
+  Future<void> speakbelfrys1(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelfry extends StatelessWidget {
         "The belfry was struck by lightning during the storm, causing significant damage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys2(String languageCode) async {
+  Future<void> speakbelfrys2(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("speakBelfrys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys3(String languageCode) async {
+  Future<void> speakbelfrys3(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("speakBelfrys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys4(String languageCode) async {
+  Future<void> speakbelfrys4(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("speakBelfrys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys5(String languageCode) async {
+  Future<void> speakbelfrys5(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("speakBelfrys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys6(String languageCode) async {
+  Future<void> speakbelfrys6(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybelfry extends StatelessWidget {
     await flutterTts.speak("speakBelfrys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelfrys7(String languageCode) async {
+  Future<void> speakbelfrys7(String languageCode) async {
     // DOPSUM: CHANGE speakBelfry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybelfry extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbelfri/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelfry("en-GB"),
+                              onPressed: () => speakbelfry("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybelfry extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbelfri/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelfry("en-US"),
+                              onPressed: () => speakbelfry("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntrybelfry extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBelfrys1("en-GB"),
+                                    onPressed: () => speakbelfrys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBelfrys1("en-US"),
+                                    onPressed: () => speakbelfrys1("en-US"),
                                   ),
                                 ],
                               ),

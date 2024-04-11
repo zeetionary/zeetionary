@@ -19,7 +19,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarbarian(String languageCode) async {
+  Future<void> speakbarbarian(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.speak("barbarian"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians1(String languageCode) async {
+  Future<void> speakbarbarians1(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
         "The walled city was attacked by barbarian hordes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians2(String languageCode) async {
+  Future<void> speakbarbarians2(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
         "How can you call those barbarians your friends?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians3(String languageCode) async {
+  Future<void> speakbarbarians3(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.speak("speakBarbarians33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians4(String languageCode) async {
+  Future<void> speakbarbarians4(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.speak("speakBarbarians44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians5(String languageCode) async {
+  Future<void> speakbarbarians5(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.speak("speakBarbarians55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians6(String languageCode) async {
+  Future<void> speakbarbarians6(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.speak("speakBarbarians66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarbarians7(String languageCode) async {
+  Future<void> speakbarbarians7(String languageCode) async {
     // DOPSUM: CHANGE speakBarbarian
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɑːˈbeəriən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarbarian("en-GB"),
+                              onPressed: () => speakbarbarian("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɑːrˈberiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarbarian("en-US"),
+                              onPressed: () => speakbarbarian("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbarians1("en-GB"),
+                                    onPressed: () => speakbarbarians1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbarians1(// REPLACE: barbarian
+                                        speakbarbarians1(// REPLACE: barbarian
                                             "en-US"),
                                   ),
                                 ],
@@ -209,11 +209,11 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBarbarians2("en-GB"),
+                                    onPressed: () => speakbarbarians2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBarbarians2(// REPLACE: barbarian
+                                        speakbarbarians2(// REPLACE: barbarian
                                             "en-US"),
                                   ),
                                 ],

@@ -15,7 +15,7 @@ class EnglishEntryanus extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnus(String languageCode) async {
+  Future<void> speakanus(String languageCode) async {
     // DOPSUM: CHANGE speakAnus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryanus extends StatelessWidget {
     await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -31,7 +31,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -39,7 +39,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryanus extends StatelessWidget {
   //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnus(String languageCode) async {
+  // Future<void> speakanus(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanus extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪnəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnus("en-GB"),
+                              onPressed: () => speakanus("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanus extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnus("en-US"),
+                              onPressed: () => speakanus("en-US"),
                             ),
                           ],
                         ),

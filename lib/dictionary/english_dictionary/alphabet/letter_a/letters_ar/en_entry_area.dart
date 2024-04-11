@@ -17,7 +17,7 @@ class EnglishEntryarea extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArea(String languageCode) async {
+  Future<void> speakarea(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarea extends StatelessWidget {
     await flutterTts.speak("area"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea957(String languageCode) async {
+  Future<void> speakarea957(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarea extends StatelessWidget {
         "The farm and surrounding area were flooded."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1002(String languageCode) async {
+  Future<void> speakarea1002(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarea extends StatelessWidget {
         "Large areas of the city were destroyed in the earthquake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1005(String languageCode) async {
+  Future<void> speakarea1005(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarea extends StatelessWidget {
         "You can smoke in only designated areas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1015(String languageCode) async {
+  Future<void> speakarea1015(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryarea extends StatelessWidget {
         "The tumour had not spread to other areas of his body."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1018(String languageCode) async {
+  Future<void> speakarea1018(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryarea extends StatelessWidget {
         "That's outside my specific area of expertise."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1020(String languageCode) async {
+  Future<void> speakarea1020(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryarea extends StatelessWidget {
         .speak("More research is needed in this area."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArea1022(String languageCode) async {
+  Future<void> speakarea1022(String languageCode) async {
     // DOPSUM: CHANGE speakArea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryarea extends StatelessWidget {
         "Britain occupies a total area of 88 798 square miles."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArea(String languageCode) async {
+  // Future<void> speakarea(String languageCode) async {
   //   // DOPSUM: CHANGE speakArea
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -96,7 +96,7 @@ class EnglishEntryarea extends StatelessWidget {
   //   await flutterTts.speak("area"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArea(String languageCode) async {
+  // Future<void> speakarea(String languageCode) async {
   //   // DOPSUM: CHANGE speakArea
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -104,7 +104,7 @@ class EnglishEntryarea extends StatelessWidget {
   //   await flutterTts.speak("area"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArea(String languageCode) async {
+  // Future<void> speakarea(String languageCode) async {
   //   // DOPSUM: CHANGE speakArea
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntryarea extends StatelessWidget {
   //   await flutterTts.speak("area"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArea(String languageCode) async {
+  // Future<void> speakarea(String languageCode) async {
   //   // DOPSUM: CHANGE speakArea
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -150,7 +150,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəriə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArea("en-GB"),
+                              onPressed: () => speakarea("en-GB"),
                             ),
                           ],
                         ),
@@ -160,7 +160,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeriə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArea("en-US"),
+                              onPressed: () => speakarea("en-US"),
                             ),
                           ],
                         ),
@@ -210,11 +210,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea957("en-GB"),
+                                    onPressed: () => speakarea957("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea957(// REPLACE: area /ˈeriə/
+                                        speakarea957(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -241,11 +241,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1002("en-GB"),
+                                    onPressed: () => speakarea1002("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1002(// REPLACE: area /ˈeriə/
+                                        speakarea1002(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -274,11 +274,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1005("en-GB"),
+                                    onPressed: () => speakarea1005("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1005(// REPLACE: area /ˈeriə/
+                                        speakarea1005(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -307,11 +307,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1015("en-GB"),
+                                    onPressed: () => speakarea1015("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1015(// REPLACE: area /ˈeriə/
+                                        speakarea1015(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -339,11 +339,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1018("en-GB"),
+                                    onPressed: () => speakarea1018("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1018(// REPLACE: area /ˈeriə/
+                                        speakarea1018(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -370,11 +370,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1020("en-GB"),
+                                    onPressed: () => speakarea1020("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1020(// REPLACE: area /ˈeriə/
+                                        speakarea1020(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],
@@ -402,11 +402,11 @@ class EnglishEntryarea extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArea1022("en-GB"),
+                                    onPressed: () => speakarea1022("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArea1022(// REPLACE: area /ˈeriə/
+                                        speakarea1022(// REPLACE: area /ˈeriə/
                                             "en-US"),
                                   ),
                                 ],

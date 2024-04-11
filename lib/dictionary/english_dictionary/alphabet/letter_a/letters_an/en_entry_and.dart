@@ -11,7 +11,7 @@ class EnglishEntryand extends StatelessWidget {
   EnglishEntryand({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnd(String languageCode) async {
+  Future<void> speakand(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryand extends StatelessWidget {
     await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd15005(String languageCode) async {
+  Future<void> speakand15005(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryand extends StatelessWidget {
     await flutterTts.speak("Sue and I left early."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd5044(String languageCode) async {
+  Future<void> speakand5044(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryand extends StatelessWidget {
         .speak("She came in and took her coat off."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd2205(String languageCode) async {
+  Future<void> speakand2205(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryand extends StatelessWidget {
         .speak("Go and get me a pen please."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd0258(String languageCode) async {
+  Future<void> speakand0258(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryand extends StatelessWidget {
         "‘We talked for hours.’ ‘And what did you decide?’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd8854(String languageCode) async {
+  Future<void> speakand8854(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryand extends StatelessWidget {
         .speak("Miss another class and you'll fail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd5560(String languageCode) async {
+  Future<void> speakand5560(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryand extends StatelessWidget {
     await flutterTts.speak("What's 47 and 16?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd22410(String languageCode) async {
+  Future<void> speakand22410(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryand extends StatelessWidget {
         .speak("The pain got worse and worse."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnd5570(String languageCode) async {
+  Future<void> speakand5570(String languageCode) async {
     // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryand extends StatelessWidget {
         "I like city life but there are cities and cities."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnd(String languageCode) async {
+  // Future<void> speakand(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryand extends StatelessWidget {
   //   await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnd(String languageCode) async {
+  // Future<void> speakand(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -105,7 +105,7 @@ class EnglishEntryand extends StatelessWidget {
   //   await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnd(String languageCode) async {
+  // Future<void> speakand(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -145,7 +145,7 @@ class EnglishEntryand extends StatelessWidget {
                                 text:
                                     "IpaUK: /ənd/, /ən/, /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnd("en-GB"),
+                              onPressed: () => speakand("en-GB"),
                             ),
                           ],
                         ),
@@ -155,7 +155,7 @@ class EnglishEntryand extends StatelessWidget {
                                 text:
                                     "IpaUS: /ənd/, /ən/, /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnd("en-US"),
+                              onPressed: () => speakand("en-US"),
                             ),
                           ],
                         ),
@@ -201,10 +201,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd15005("en-GB"),
+                                    onPressed: () => speakand15005("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd15005(
+                                    onPressed: () => speakand15005(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -234,10 +234,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd5044("en-GB"),
+                                    onPressed: () => speakand5044("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd5044(
+                                    onPressed: () => speakand5044(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -265,10 +265,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd2205("en-GB"),
+                                    onPressed: () => speakand2205("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd2205(
+                                    onPressed: () => speakand2205(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -298,10 +298,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd0258("en-GB"),
+                                    onPressed: () => speakand0258("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd0258(
+                                    onPressed: () => speakand0258(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -330,10 +330,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd8854("en-GB"),
+                                    onPressed: () => speakand8854("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd8854(
+                                    onPressed: () => speakand8854(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -361,10 +361,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd5560("en-GB"),
+                                    onPressed: () => speakand5560("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd5560(
+                                    onPressed: () => speakand5560(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -392,10 +392,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd22410("en-GB"),
+                                    onPressed: () => speakand22410("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd22410(
+                                    onPressed: () => speakand22410(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),
@@ -425,10 +425,10 @@ class EnglishEntryand extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnd5570("en-GB"),
+                                    onPressed: () => speakand5570("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnd5570(
+                                    onPressed: () => speakand5570(
                                         // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
                                         "en-US"),
                                   ),

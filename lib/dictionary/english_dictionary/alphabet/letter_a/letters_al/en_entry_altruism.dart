@@ -11,7 +11,7 @@ class EnglishEntryaltruism extends StatelessWidget {
   EnglishEntryaltruism({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltruism(String languageCode) async {
+  Future<void> speakaltruism(String languageCode) async {
     // DOPSUM: CHANGE speakAltruism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaltruism extends StatelessWidget {
     await flutterTts.speak("altruism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltruism4693(String languageCode) async {
+  Future<void> speakaltruism4693(String languageCode) async {
     // DOPSUM: CHANGE speakAltruism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaltruism extends StatelessWidget {
         "Politicians are not necessarily motivated by pure altruism."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltruism(String languageCode) async {
+  // Future<void> speakaltruism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltruism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaltruism extends StatelessWidget {
   //   await flutterTts.speak("altruism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAltruism(String languageCode) async {
+  // Future<void> speakaltruism(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltruism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltruɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltruism("en-GB"),
+                              onPressed: () => speakaltruism("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltruɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltruism("en-US"),
+                              onPressed: () => speakaltruism("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryaltruism extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAltruism4693("en-GB"),
+                                    onPressed: () => speakaltruism4693("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltruism4693(
+                                    onPressed: () => speakaltruism4693(
                                         // REPLACE: altruism /ˈæltruɪzəm/
                                         "en-US"),
                                   ),

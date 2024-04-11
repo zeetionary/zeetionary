@@ -19,7 +19,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiologicalweapon(String languageCode) async {
+  Future<void> speakbiologicalweapon(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("biological weapon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons1(String languageCode) async {
+  Future<void> speakbiologicalweapons1(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
         "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons2(String languageCode) async {
+  Future<void> speakbiologicalweapons2(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("speakBiologicalweapons22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons3(String languageCode) async {
+  Future<void> speakbiologicalweapons3(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("speakBiologicalweapons33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons4(String languageCode) async {
+  Future<void> speakbiologicalweapons4(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("speakBiologicalweapons44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons5(String languageCode) async {
+  Future<void> speakbiologicalweapons5(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("speakBiologicalweapons55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons6(String languageCode) async {
+  Future<void> speakbiologicalweapons6(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
     await flutterTts.speak("speakBiologicalweapons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiologicalweapons7(String languageCode) async {
+  Future<void> speakbiologicalweapons7(String languageCode) async {
     // DOPSUM: CHANGE speakBiologicalweapon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌbaɪəˌlɒdʒɪkl ˈwepən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiologicalweapon("en-GB"),
+                              onPressed: () => speakbiologicalweapon("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbaɪəˌlɑːdʒɪkl ˈwepən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiologicalweapon("en-US"),
+                              onPressed: () => speakbiologicalweapon("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBiologicalweapons1("en-GB"),
+                                        speakbiologicalweapons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBiologicalweapons1("en-US"),
+                                        speakbiologicalweapons1("en-US"),
                                   ),
                                 ],
                               ),

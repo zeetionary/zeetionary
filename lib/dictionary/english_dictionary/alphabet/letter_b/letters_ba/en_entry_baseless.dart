@@ -19,7 +19,7 @@ class EnglishEntrybaseless extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaseless(String languageCode) async {
+  Future<void> speakbaseless(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("baseless"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss1(String languageCode) async {
+  Future<void> speakbaselesss1(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaseless extends StatelessWidget {
         .speak("The rumours were completely baseless."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss2(String languageCode) async {
+  Future<void> speakbaselesss2(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("speakBaselesss22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss3(String languageCode) async {
+  Future<void> speakbaselesss3(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("speakBaselesss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss4(String languageCode) async {
+  Future<void> speakbaselesss4(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("speakBaselesss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss5(String languageCode) async {
+  Future<void> speakbaselesss5(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("speakBaselesss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss6(String languageCode) async {
+  Future<void> speakbaselesss6(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybaseless extends StatelessWidget {
     await flutterTts.speak("speakBaselesss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaselesss7(String languageCode) async {
+  Future<void> speakbaselesss7(String languageCode) async {
     // DOPSUM: CHANGE speakBaseless
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybaseless extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeɪsləs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaseless("en-GB"),
+                              onPressed: () => speakbaseless("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybaseless extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbeɪsləs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaseless("en-US"),
+                              onPressed: () => speakbaseless("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntrybaseless extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBaselesss1("en-GB"),
+                                    onPressed: () => speakbaselesss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBaselesss1("en-US"),
+                                    onPressed: () => speakbaselesss1("en-US"),
                                   ),
                                 ],
                               ),

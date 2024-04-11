@@ -12,7 +12,7 @@ class EnglishEntryannoyance extends StatelessWidget {
   EnglishEntryannoyance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnnoyance(String languageCode) async {
+  Future<void> speakannoyance(String languageCode) async {
     // DOPSUM: CHANGE speakAnnoyance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryannoyance extends StatelessWidget {
     await flutterTts.speak("annoyance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnoyance759(String languageCode) async {
+  Future<void> speakannoyance759(String languageCode) async {
     // DOPSUM: CHANGE speakAnnoyance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryannoyance extends StatelessWidget {
         "He could not conceal his annoyance at being interrupted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnoyance801(String languageCode) async {
+  Future<void> speakannoyance801(String languageCode) async {
     // DOPSUM: CHANGE speakAnnoyance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryannoyance extends StatelessWidget {
         "I dropped out of college, much to the annoyance of my parents."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnnoyance805(String languageCode) async {
+  Future<void> speakannoyance805(String languageCode) async {
     // DOPSUM: CHANGE speakAnnoyance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -47,7 +47,7 @@ class EnglishEntryannoyance extends StatelessWidget {
         "One of the greatest annoyances was being bitten by mosquitoes every night."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnnoyance(String languageCode) async {
+  // Future<void> speakannoyance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnoyance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryannoyance extends StatelessWidget {
   //   await flutterTts.speak("annoyance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnoyance(String languageCode) async {
+  // Future<void> speakannoyance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnoyance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryannoyance extends StatelessWidget {
   //   await flutterTts.speak("annoyance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnoyance(String languageCode) async {
+  // Future<void> speakannoyance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnoyance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryannoyance extends StatelessWidget {
   //   await flutterTts.speak("annoyance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnoyance(String languageCode) async {
+  // Future<void> speakannoyance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnoyance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryannoyance extends StatelessWidget {
   //   await flutterTts.speak("annoyance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnnoyance(String languageCode) async {
+  // Future<void> speakannoyance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnnoyance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɔɪəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnoyance("en-GB"),
+                              onPressed: () => speakannoyance("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɔɪəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnoyance("en-US"),
+                              onPressed: () => speakannoyance("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnoyance759("en-GB"),
+                                    onPressed: () => speakannoyance759("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnoyance759(
+                                    onPressed: () => speakannoyance759(
                                         // REPLACE: annoyance /əˈnɔɪəns/
                                         "en-US"),
                                   ),
@@ -207,10 +207,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnoyance801("en-GB"),
+                                    onPressed: () => speakannoyance801("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnoyance801(
+                                    onPressed: () => speakannoyance801(
                                         // REPLACE: annoyance /əˈnɔɪəns/
                                         "en-US"),
                                   ),
@@ -240,10 +240,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnnoyance805("en-GB"),
+                                    onPressed: () => speakannoyance805("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnnoyance805(
+                                    onPressed: () => speakannoyance805(
                                         // REPLACE: annoyance /əˈnɔɪəns/
                                         "en-US"),
                                   ),

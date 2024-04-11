@@ -11,7 +11,7 @@ class EnglishEntryadlib extends StatelessWidget {
   EnglishEntryadlib({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdlib(String languageCode) async {
+  Future<void> speakadlib(String languageCode) async {
     // DOPSUM: CHANGE speakAdlib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadlib extends StatelessWidget {
     await flutterTts.speak("ad lib"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdlib4587(String languageCode) async {
+  Future<void> speakadlib4587(String languageCode) async {
     // DOPSUM: CHANGE speakAdlib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadlib extends StatelessWidget {
         .speak("She delivered her speech ad lib."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdlib42587(String languageCode) async {
+  Future<void> speakadlib42587(String languageCode) async {
     // DOPSUM: CHANGE speakAdlib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadlib extends StatelessWidget {
         "I lost my notes and had to ad-lib the whole speech."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdlib(String languageCode) async {
+  // Future<void> speakadlib(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdlib
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadlib extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæd ˈlɪb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdlib("en-GB"),
+                              onPressed: () => speakadlib("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadlib extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæd ˈlɪb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdlib("en-US"),
+                              onPressed: () => speakadlib("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryadlib extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdlib4587("en-GB"),
+                                    onPressed: () => speakadlib4587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdlib4587(
+                                    onPressed: () => speakadlib4587(
                                         // REPLACE: ad lib /ˌæd ˈlɪb/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryadlib extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdlib42587("en-GB"),
+                                    onPressed: () => speakadlib42587("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdlib42587(
+                                    onPressed: () => speakadlib42587(
                                         // REPLACE: ad lib /ˌæd ˈlɪb/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryballet extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBallet(String languageCode) async {
+  Future<void> speakballet(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryballet extends StatelessWidget {
     await flutterTts.speak("ballet"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets1(String languageCode) async {
+  Future<void> speakballets1(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryballet extends StatelessWidget {
         "Natalie is, without a doubt, the star student in this year's ballet class."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets2(String languageCode) async {
+  Future<void> speakballets2(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryballet extends StatelessWidget {
         "By the age of 15 he had already composed his first ballet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets3(String languageCode) async {
+  Future<void> speakballets3(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryballet extends StatelessWidget {
         "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets4(String languageCode) async {
+  Future<void> speakballets4(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryballet extends StatelessWidget {
     await flutterTts.speak("speakBallets44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets5(String languageCode) async {
+  Future<void> speakballets5(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryballet extends StatelessWidget {
     await flutterTts.speak("speakBallets55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets6(String languageCode) async {
+  Future<void> speakballets6(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryballet extends StatelessWidget {
     await flutterTts.speak("speakBallets66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBallets7(String languageCode) async {
+  Future<void> speakballets7(String languageCode) async {
     // DOPSUM: CHANGE speakBallet
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryballet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæleɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBallet("en-GB"),
+                              onPressed: () => speakballet("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryballet extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæˈleɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallet("en-US"),
+                              onPressed: () => speakballet("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntryballet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallets1("en-GB"),
+                                    onPressed: () => speakballets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallets1(// REPLACE: ballet
+                                        speakballets1(// REPLACE: ballet
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntryballet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallets2("en-GB"),
+                                    onPressed: () => speakballets2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallets2(// REPLACE: ballet
+                                        speakballets2(// REPLACE: ballet
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntryballet extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBallets3("en-GB"),
+                                    onPressed: () => speakballets3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBallets3(// REPLACE: ballet
+                                        speakballets3(// REPLACE: ballet
                                             "en-US"),
                                   ),
                                 ],

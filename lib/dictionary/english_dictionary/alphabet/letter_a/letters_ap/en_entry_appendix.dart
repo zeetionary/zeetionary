@@ -17,7 +17,7 @@ class EnglishEntryappendix extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendix(String languageCode) async {
+  Future<void> speakappendix(String languageCode) async {
     // DOPSUM: CHANGE speakAppendix
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappendix extends StatelessWidget {
     await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix216(String languageCode) async {
+  Future<void> speakappendix216(String languageCode) async {
     // DOPSUM: CHANGE speakAppendix
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappendix extends StatelessWidget {
         "He had to have his appendix out (= removed)."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix218(String languageCode) async {
+  Future<void> speakappendix218(String languageCode) async {
     // DOPSUM: CHANGE speakAppendix
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappendix extends StatelessWidget {
         .speak("Full details are given in Appendix 3."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappendix extends StatelessWidget {
   //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
+  // Future<void> speakappendix(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppendix
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpendɪks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppendix("en-GB"),
+                              onPressed: () => speakappendix("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpendɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppendix("en-US"),
+                              onPressed: () => speakappendix("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryappendix extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppendix216("en-GB"),
+                                    onPressed: () => speakappendix216("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppendix216(
+                                    onPressed: () => speakappendix216(
                                         // REPLACE: appendix /əˈpendɪks/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryappendix extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppendix218("en-GB"),
+                                    onPressed: () => speakappendix218("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppendix218(
+                                    onPressed: () => speakappendix218(
                                         // REPLACE: appendix /əˈpendɪks/
                                         "en-US"),
                                   ),

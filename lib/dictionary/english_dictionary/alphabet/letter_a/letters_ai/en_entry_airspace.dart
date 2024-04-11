@@ -11,7 +11,7 @@ class EnglishEntryairspace extends StatelessWidget {
   EnglishEntryairspace({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAirspace(String languageCode) async {
+  Future<void> speakairspace(String languageCode) async {
     // DOPSUM: CHANGE speakAirspace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryairspace extends StatelessWidget {
     await flutterTts.speak("airspace"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirspace4355(String languageCode) async {
+  Future<void> speakairspace4355(String languageCode) async {
     // DOPSUM: CHANGE speakAirspace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryairspace extends StatelessWidget {
         "The airspace over Europe is becoming more and more crowded."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAirspace5366(String languageCode) async {
+  Future<void> speakairspace5366(String languageCode) async {
     // DOPSUM: CHANGE speakAirspace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryairspace extends StatelessWidget {
         "The jet entered Chinese airspace without permission."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAirspace(String languageCode) async {
+  // Future<void> speakairspace(String languageCode) async {
   //   // DOPSUM: CHANGE speakAirspace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryairspace extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəspeɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirspace("en-GB"),
+                              onPressed: () => speakairspace("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryairspace extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerspeɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirspace("en-US"),
+                              onPressed: () => speakairspace("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryairspace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirspace4355("en-GB"),
+                                    onPressed: () => speakairspace4355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirspace4355(
+                                    onPressed: () => speakairspace4355(
                                         // REPLACE: airspace /ˈerspeɪs/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryairspace extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAirspace5366("en-GB"),
+                                    onPressed: () => speakairspace5366("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAirspace5366(
+                                    onPressed: () => speakairspace5366(
                                         // REPLACE: airspace /ˈerspeɪs/
                                         "en-US"),
                                   ),

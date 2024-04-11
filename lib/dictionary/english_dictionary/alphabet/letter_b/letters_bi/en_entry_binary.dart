@@ -19,7 +19,7 @@ class EnglishEntrybinary extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBinary(String languageCode) async {
+  Future<void> speakbinary(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.speak("binary"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys1(String languageCode) async {
+  Future<void> speakbinarys1(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybinary extends StatelessWidget {
         "Computers store all data in binary code."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys2(String languageCode) async {
+  Future<void> speakbinarys2(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybinary extends StatelessWidget {
         "It's a binary choice, you either accept or you refuse."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys3(String languageCode) async {
+  Future<void> speakbinarys3(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.speak("speakBinarys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys4(String languageCode) async {
+  Future<void> speakbinarys4(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.speak("speakBinarys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys5(String languageCode) async {
+  Future<void> speakbinarys5(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.speak("speakBinarys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys6(String languageCode) async {
+  Future<void> speakbinarys6(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybinary extends StatelessWidget {
     await flutterTts.speak("speakBinarys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBinarys7(String languageCode) async {
+  Future<void> speakbinarys7(String languageCode) async {
     // DOPSUM: CHANGE speakBinary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybinary extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbaɪnəri/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBinary("en-GB"),
+                              onPressed: () => speakbinary("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybinary extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˈbaɪnəri/, /ˈbaɪneri/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBinary("en-US"),
+                              onPressed: () => speakbinary("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybinary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinarys1("en-GB"),
+                                    onPressed: () => speakbinarys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinarys1("en-US"),
+                                    onPressed: () => speakbinarys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybinary extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBinarys2("en-GB"),
+                                    onPressed: () => speakbinarys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBinarys2("en-US"),
+                                    onPressed: () => speakbinarys2("en-US"),
                                   ),
                                 ],
                               ),

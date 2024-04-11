@@ -19,7 +19,7 @@ class EnglishEntryattainment extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttainment(String languageCode) async {
+  Future<void> speakattainment(String languageCode) async {
     // DOPSUM: CHANGE speakAttainment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattainment extends StatelessWidget {
     await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttainment730(String languageCode) async {
+  Future<void> speakattainment730(String languageCode) async {
     // DOPSUM: CHANGE speakAttainment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattainment extends StatelessWidget {
         "His scientific attainments are well known."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttainment732(String languageCode) async {
+  Future<void> speakattainment732(String languageCode) async {
     // DOPSUM: CHANGE speakAttainment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattainment extends StatelessWidget {
         "She values educational attainment above all else."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryattainment extends StatelessWidget {
   //   await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryattainment extends StatelessWidget {
   //   await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryattainment extends StatelessWidget {
   //   await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryattainment extends StatelessWidget {
   //   await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryattainment extends StatelessWidget {
   //   await flutterTts.speak("attainment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttainment(String languageCode) async {
+  // Future<void> speakattainment(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttainment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryattainment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈteɪnmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttainment("en-GB"),
+                              onPressed: () => speakattainment("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryattainment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈteɪnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttainment("en-US"),
+                              onPressed: () => speakattainment("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryattainment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttainment730("en-GB"),
+                                        speakattainment730("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttainment730(
+                                    onPressed: () => speakattainment730(
                                         // REPLACE: attainment
                                         "en-US"),
                                   ),
@@ -219,10 +219,10 @@ class EnglishEntryattainment extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAttainment732("en-GB"),
+                                        speakattainment732("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAttainment732(
+                                    onPressed: () => speakattainment732(
                                         // REPLACE: attainment
                                         "en-US"),
                                   ),

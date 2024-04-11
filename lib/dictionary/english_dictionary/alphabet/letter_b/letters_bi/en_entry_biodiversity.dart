@@ -19,7 +19,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiodiversity(String languageCode) async {
+  Future<void> speakbiodiversity(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("biodiversity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys1(String languageCode) async {
+  Future<void> speakbiodiversitys1(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
         "The mining project threatens one of the world’s richest areas of biodiversity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys2(String languageCode) async {
+  Future<void> speakbiodiversitys2(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("speakBiodiversitys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys3(String languageCode) async {
+  Future<void> speakbiodiversitys3(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("speakBiodiversitys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys4(String languageCode) async {
+  Future<void> speakbiodiversitys4(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("speakBiodiversitys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys5(String languageCode) async {
+  Future<void> speakbiodiversitys5(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("speakBiodiversitys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys6(String languageCode) async {
+  Future<void> speakbiodiversitys6(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
     await flutterTts.speak("speakBiodiversitys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodiversitys7(String languageCode) async {
+  Future<void> speakbiodiversitys7(String languageCode) async {
     // DOPSUM: CHANGE speakBiodiversity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌbaɪəʊdaɪˈvɜːsəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiodiversity("en-GB"),
+                              onPressed: () => speakbiodiversity("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbaɪəʊdaɪˈvɜːrsəti/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiodiversity("en-US"),
+                              onPressed: () => speakbiodiversity("en-US"),
                             ),
                           ],
                         ),
@@ -172,11 +172,11 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBiodiversitys1("en-GB"),
+                                        speakbiodiversitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBiodiversitys1("en-US"),
+                                        speakbiodiversitys1("en-US"),
                                   ),
                                 ],
                               ),

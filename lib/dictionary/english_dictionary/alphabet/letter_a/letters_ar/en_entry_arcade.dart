@@ -17,7 +17,7 @@ class EnglishEntryarcade extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArcade(String languageCode) async {
+  Future<void> speakarcade(String languageCode) async {
     // DOPSUM: CHANGE speakArcade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarcade extends StatelessWidget {
     await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArcade105(String languageCode) async {
+  Future<void> speakarcade105(String languageCode) async {
     // DOPSUM: CHANGE speakArcade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarcade extends StatelessWidget {
         "Families like to spend time together at the shopping arcade on weekends."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArcade109(String languageCode) async {
+  Future<void> speakarcade109(String languageCode) async {
     // DOPSUM: CHANGE speakArcade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarcade extends StatelessWidget {
         "Playing arcade games can be a fun way to spend time with friends and family."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarcade extends StatelessWidget {
   //   await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryarcade extends StatelessWidget {
   //   await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryarcade extends StatelessWidget {
   //   await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryarcade extends StatelessWidget {
   //   await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryarcade extends StatelessWidget {
   //   await flutterTts.speak("arcade"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArcade(String languageCode) async {
+  // Future<void> speakarcade(String languageCode) async {
   //   // DOPSUM: CHANGE speakArcade
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarcade extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈkeɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArcade("en-GB"),
+                              onPressed: () => speakarcade("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarcade extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈkeɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArcade("en-US"),
+                              onPressed: () => speakarcade("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarcade extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArcade105("en-GB"),
+                                    onPressed: () => speakarcade105("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArcade105(
+                                    onPressed: () => speakarcade105(
                                         // REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryarcade extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArcade109("en-GB"),
+                                    onPressed: () => speakarcade109("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArcade109(
+                                    onPressed: () => speakarcade109(
                                         // REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),
                                   ),

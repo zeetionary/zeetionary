@@ -11,7 +11,7 @@ class EnglishEntryangle extends StatelessWidget {
   EnglishEntryangle({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAngle(String languageCode) async {
+  Future<void> speakangle(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryangle extends StatelessWidget {
     await flutterTts.speak("angle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle11480(String languageCode) async {
+  Future<void> speakangle11480(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryangle extends StatelessWidget {
         "The interior angles of a square are right angles or angles of 90 degrees."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle46055(String languageCode) async {
+  Future<void> speakangle46055(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryangle extends StatelessWidget {
         "It's a modern building, all brick and glass and sharp angles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle45906(String languageCode) async {
+  Future<void> speakangle45906(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryangle extends StatelessWidget {
         "She adjusted the angle of the legs to make the table stand more firmly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle440(String languageCode) async {
+  Future<void> speakangle440(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryangle extends StatelessWidget {
         "Venus and the Earth orbit the Sun at a slight angle to each other."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle450(String languageCode) async {
+  Future<void> speakangle450(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryangle extends StatelessWidget {
         "The painting changes slightly when seen from different angles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle905(String languageCode) async {
+  Future<void> speakangle905(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryangle extends StatelessWidget {
         "You can look at the issue from many different angles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle225870(String languageCode) async {
+  Future<void> speakangle225870(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryangle extends StatelessWidget {
         "He angled his chair so that he could sit and watch her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle5401(String languageCode) async {
+  Future<void> speakangle5401(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -91,7 +91,7 @@ class EnglishEntryangle extends StatelessWidget {
         "The programme is angled towards younger viewers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAngle5580(String languageCode) async {
+  Future<void> speakangle5580(String languageCode) async {
     // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryangle extends StatelessWidget {
         "On weekends, they often go angling by the lake."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAngle(String languageCode) async {
+  // Future<void> speakangle(String languageCode) async {
   //   // DOPSUM: CHANGE speakAngle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryangle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋɡl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAngle("en-GB"),
+                              onPressed: () => speakangle("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryangle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋɡl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAngle("en-US"),
+                              onPressed: () => speakangle("en-US"),
                             ),
                           ],
                         ),
@@ -198,10 +198,10 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle11480("en-GB"),
+                                    onPressed: () => speakangle11480("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngle11480(
+                                    onPressed: () => speakangle11480(
                                         // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
                                   ),
@@ -231,10 +231,10 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle46055("en-GB"),
+                                    onPressed: () => speakangle46055("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngle46055(
+                                    onPressed: () => speakangle46055(
                                         // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
                                   ),
@@ -264,10 +264,10 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle45906("en-GB"),
+                                    onPressed: () => speakangle45906("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngle45906(
+                                    onPressed: () => speakangle45906(
                                         // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
                                   ),
@@ -295,11 +295,11 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle440("en-GB"),
+                                    onPressed: () => speakangle440("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAngle440(// REPLACE: angle /ˈæŋɡl/
+                                        speakangle440(// REPLACE: angle /ˈæŋɡl/
                                             "en-US"),
                                   ),
                                 ],
@@ -328,11 +328,11 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle450("en-GB"),
+                                    onPressed: () => speakangle450("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAngle450(// REPLACE: angle /ˈæŋɡl/
+                                        speakangle450(// REPLACE: angle /ˈæŋɡl/
                                             "en-US"),
                                   ),
                                 ],
@@ -361,11 +361,11 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle905("en-GB"),
+                                    onPressed: () => speakangle905("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAngle905(// REPLACE: angle /ˈæŋɡl/
+                                        speakangle905(// REPLACE: angle /ˈæŋɡl/
                                             "en-US"),
                                   ),
                                 ],
@@ -394,10 +394,10 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle225870("en-GB"),
+                                    onPressed: () => speakangle225870("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAngle225870(
+                                    onPressed: () => speakangle225870(
                                         // REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
                                   ),
@@ -426,11 +426,11 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle5401("en-GB"),
+                                    onPressed: () => speakangle5401("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAngle5401(// REPLACE: angle /ˈæŋɡl/
+                                        speakangle5401(// REPLACE: angle /ˈæŋɡl/
                                             "en-US"),
                                   ),
                                 ],
@@ -459,11 +459,11 @@ class EnglishEntryangle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAngle5580("en-GB"),
+                                    onPressed: () => speakangle5580("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAngle5580(// REPLACE: angle /ˈæŋɡl/
+                                        speakangle5580(// REPLACE: angle /ˈæŋɡl/
                                             "en-US"),
                                   ),
                                 ],

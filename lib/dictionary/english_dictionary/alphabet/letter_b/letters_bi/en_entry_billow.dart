@@ -19,7 +19,7 @@ class EnglishEntrybillow extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBillow(String languageCode) async {
+  Future<void> speakbillow(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybillow extends StatelessWidget {
     await flutterTts.speak("billow"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows1(String languageCode) async {
+  Future<void> speakbillows1(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybillow extends StatelessWidget {
         .speak("The curtains billowed in the breeze."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows2(String languageCode) async {
+  Future<void> speakbillows2(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybillow extends StatelessWidget {
         "A great cloud of smoke billowed out of the chimney."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows3(String languageCode) async {
+  Future<void> speakbillows3(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybillow extends StatelessWidget {
         "A farmer was burning straw, the billows of smoke spiralling upward."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows4(String languageCode) async {
+  Future<void> speakbillows4(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybillow extends StatelessWidget {
     await flutterTts.speak("speakBillows44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows5(String languageCode) async {
+  Future<void> speakbillows5(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybillow extends StatelessWidget {
     await flutterTts.speak("speakBillows55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows6(String languageCode) async {
+  Future<void> speakbillows6(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybillow extends StatelessWidget {
     await flutterTts.speak("speakBillows66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillows7(String languageCode) async {
+  Future<void> speakbillows7(String languageCode) async {
     // DOPSUM: CHANGE speakBillow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntrybillow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪləʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBillow("en-GB"),
+                              onPressed: () => speakbillow("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybillow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪləʊ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBillow("en-US"),
+                              onPressed: () => speakbillow("en-US"),
                             ),
                           ],
                         ),
@@ -171,10 +171,10 @@ class EnglishEntrybillow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillows1("en-GB"),
+                                    onPressed: () => speakbillows1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillows1("en-US"),
+                                    onPressed: () => speakbillows1("en-US"),
                                   ),
                                 ],
                               ),
@@ -202,10 +202,10 @@ class EnglishEntrybillow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillows2("en-GB"),
+                                    onPressed: () => speakbillows2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillows2("en-US"),
+                                    onPressed: () => speakbillows2("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntrybillow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillows3("en-GB"),
+                                    onPressed: () => speakbillows3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillows3("en-US"),
+                                    onPressed: () => speakbillows3("en-US"),
                                   ),
                                 ],
                               ),

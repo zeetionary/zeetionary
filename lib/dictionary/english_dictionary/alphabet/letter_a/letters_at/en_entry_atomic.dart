@@ -19,7 +19,7 @@ class EnglishEntryatomic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtomic(String languageCode) async {
+  Future<void> speakatomic(String languageCode) async {
     // DOPSUM: CHANGE speakAtomic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryatomic extends StatelessWidget {
     await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomic1217(String languageCode) async {
+  Future<void> speakatomic1217(String languageCode) async {
     // DOPSUM: CHANGE speakAtomic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryatomic extends StatelessWidget {
         "Atomic physics is the study of the structure and properties of atoms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomic1221(String languageCode) async {
+  Future<void> speakatomic1221(String languageCode) async {
     // DOPSUM: CHANGE speakAtomic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryatomic extends StatelessWidget {
         "Atomic energy is a powerful and versatile source of energy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomic1223(String languageCode) async {
+  Future<void> speakatomic1223(String languageCode) async {
     // DOPSUM: CHANGE speakAtomic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryatomic extends StatelessWidget {
         .speak("Atomic weapons are very destructive."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtomic(String languageCode) async {
+  // Future<void> speakatomic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryatomic extends StatelessWidget {
   //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
+  // Future<void> speakatomic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryatomic extends StatelessWidget {
   //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
+  // Future<void> speakatomic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryatomic extends StatelessWidget {
   //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
+  // Future<void> speakatomic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryatomic extends StatelessWidget {
   //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
+  // Future<void> speakatomic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAtomic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -125,7 +125,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtɒmɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtomic("en-GB"),
+                              onPressed: () => speakatomic("en-GB"),
                             ),
                           ],
                         ),
@@ -135,7 +135,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtɑːmɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtomic("en-US"),
+                              onPressed: () => speakatomic("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryatomic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtomic1217("en-GB"),
+                                    onPressed: () => speakatomic1217("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtomic1217(// REPLACE: atomic
+                                        speakatomic1217(// REPLACE: atomic
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryatomic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtomic1221("en-GB"),
+                                    onPressed: () => speakatomic1221("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtomic1221(// REPLACE: atomic
+                                        speakatomic1221(// REPLACE: atomic
                                             "en-US"),
                                   ),
                                 ],
@@ -250,11 +250,11 @@ class EnglishEntryatomic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAtomic1223("en-GB"),
+                                    onPressed: () => speakatomic1223("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAtomic1223(// REPLACE: atomic
+                                        speakatomic1223(// REPLACE: atomic
                                             "en-US"),
                                   ),
                                 ],

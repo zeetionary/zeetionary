@@ -17,7 +17,7 @@ class EnglishEntryark extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArk(String languageCode) async {
+  Future<void> speakark(String languageCode) async {
     // DOPSUM: CHANGE speakArk
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryark extends StatelessWidget {
     await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -33,7 +33,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryark extends StatelessWidget {
   //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArk(String languageCode) async {
+  // Future<void> speakark(String languageCode) async {
   //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryark extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArk("en-GB"),
+                              onPressed: () => speakark("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryark extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArk("en-US"),
+                              onPressed: () => speakark("en-US"),
                             ),
                           ],
                         ),

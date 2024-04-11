@@ -11,7 +11,7 @@ class EnglishEntryactive extends StatelessWidget {
   EnglishEntryactive({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakActive(String languageCode) async {
+  Future<void> speakactive(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryactive extends StatelessWidget {
     await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive1257(String languageCode) async {
+  Future<void> speakactive1257(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryactive extends StatelessWidget {
         "Staying physically active in later years can also keep you feeling younger."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive4568(String languageCode) async {
+  Future<void> speakactive4568(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryactive extends StatelessWidget {
         .speak("They were both politically active."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActi4568(String languageCode) async {
+  Future<void> speakacti4568(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryactive extends StatelessWidget {
         "These animals are active only at night."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive5847(String languageCode) async {
+  Future<void> speakactive5847(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryactive extends StatelessWidget {
         "That child has a very active imagination."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive5374(String languageCode) async {
+  Future<void> speakactive5374(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryactive extends StatelessWidget {
         "Ensure the website URL is an active link."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakActive2538(String languageCode) async {
+  Future<void> speakactive2538(String languageCode) async {
     // DOPSUM: CHANGE speakActive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryactive extends StatelessWidget {
         "In ‘He was driving the car’, the verb is active."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -105,7 +105,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -113,7 +113,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -129,7 +129,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -137,7 +137,7 @@ class EnglishEntryactive extends StatelessWidget {
   //   await flutterTts.speak("active"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakActive(String languageCode) async {
+  // Future<void> speakactive(String languageCode) async {
   //   // DOPSUM: CHANGE speakActive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -172,7 +172,7 @@ class EnglishEntryactive extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæktɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakActive("en-GB"),
+                              onPressed: () => speakactive("en-GB"),
                             ),
                           ],
                         ),
@@ -182,7 +182,7 @@ class EnglishEntryactive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæktɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakActive("en-US"),
+                              onPressed: () => speakactive("en-US"),
                             ),
                           ],
                         ),
@@ -231,10 +231,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActive1257("en-GB"),
+                                    onPressed: () => speakactive1257("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActive1257(
+                                    onPressed: () => speakactive1257(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],
@@ -262,10 +262,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActive4568("en-GB"),
+                                    onPressed: () => speakactive4568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActive4568(
+                                    onPressed: () => speakactive4568(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],
@@ -293,10 +293,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActi4568("en-GB"),
+                                    onPressed: () => speakacti4568("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActi4568(
+                                    onPressed: () => speakacti4568(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],
@@ -324,10 +324,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActive5847("en-GB"),
+                                    onPressed: () => speakactive5847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActive5847(
+                                    onPressed: () => speakactive5847(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],
@@ -355,10 +355,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActive5374("en-GB"),
+                                    onPressed: () => speakactive5374("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActive5374(
+                                    onPressed: () => speakactive5374(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],
@@ -386,10 +386,10 @@ class EnglishEntryactive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakActive2538("en-GB"),
+                                    onPressed: () => speakactive2538("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakActive2538(
+                                    onPressed: () => speakactive2538(
                                         "en-US"), // REPLACE active /ˈæktɪv/
                                   ),
                                 ],

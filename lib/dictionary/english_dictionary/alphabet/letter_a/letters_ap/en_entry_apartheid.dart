@@ -15,7 +15,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApartheid(String languageCode) async {
+  Future<void> speakapartheid(String languageCode) async {
     // DOPSUM: CHANGE speakApartheid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryapartheid extends StatelessWidget {
     await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApartheid1139(String languageCode) async {
+  Future<void> speakapartheid1139(String languageCode) async {
     // DOPSUM: CHANGE speakApartheid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryapartheid extends StatelessWidget {
         "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -40,7 +40,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -48,7 +48,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -56,7 +56,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryapartheid extends StatelessWidget {
   //   await flutterTts.speak("apartheid"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApartheid(String languageCode) async {
+  // Future<void> speakapartheid(String languageCode) async {
   //   // DOPSUM: CHANGE speakApartheid
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːtaɪt/, /əˈpɑːteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApartheid("en-GB"),
+                              onPressed: () => speakapartheid("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrtaɪt/, /əˈpɑːrteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApartheid("en-US"),
+                              onPressed: () => speakapartheid("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryapartheid extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakApartheid1139("en-GB"),
+                                        speakapartheid1139("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakApartheid1139(
+                                    onPressed: () => speakapartheid1139(
                                         // REPLACE: apartheid /əˈpɑːrtaɪt/, /əˈpɑːrteɪt/
                                         "en-US"),
                                   ),

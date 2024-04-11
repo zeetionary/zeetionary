@@ -11,7 +11,7 @@ class EnglishEntryadhereto extends StatelessWidget {
   EnglishEntryadhereto({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhereto(String languageCode) async {
+  Future<void> speakadhereto(String languageCode) async {
     // DOPSUM: CHANGE speakAdhereto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadhereto extends StatelessWidget {
     await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdher251463(String languageCode) async {
+  Future<void> speakadher251463(String languageCode) async {
     // DOPSUM: CHANGE speakAdhereto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadhereto extends StatelessWidget {
         "For ten months he adhered to a no-fat low-salt diet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdh358947(String languageCode) async {
+  Future<void> speakadh358947(String languageCode) async {
     // DOPSUM: CHANGE speakAdhereto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadhereto extends StatelessWidget {
         "She adheres to teaching methods she learned over 30 years ago."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhereto(String languageCode) async {
+  // Future<void> speakadhereto(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhereto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈhɪə(r) tə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdhereto("en-GB"),
+                              onPressed: () => speakadhereto("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈhɪr tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhereto("en-US"),
+                              onPressed: () => speakadhereto("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryadhereto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdher251463("en-GB"),
+                                    onPressed: () => speakadher251463("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdher251463(
+                                    onPressed: () => speakadher251463(
                                         // REPLACE: adhere to /ədˈhɪə(r) tə/
                                         "en-US"),
                                   ),
@@ -159,10 +159,10 @@ class EnglishEntryadhereto extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdh358947("en-GB"),
+                                    onPressed: () => speakadh358947("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdh358947(
+                                    onPressed: () => speakadh358947(
                                         // REPLACE: adhere to /ədˈhɪə(r) tə/
                                         "en-US"),
                                   ),

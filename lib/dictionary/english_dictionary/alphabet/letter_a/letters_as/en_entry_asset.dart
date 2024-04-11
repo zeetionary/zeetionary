@@ -19,7 +19,7 @@ class EnglishEntryasset extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsset(String languageCode) async {
+  Future<void> speakasset(String languageCode) async {
     // DOPSUM: CHANGE speakAsset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasset extends StatelessWidget {
     await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsset632(String languageCode) async {
+  Future<void> speakasset632(String languageCode) async {
     // DOPSUM: CHANGE speakAsset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasset extends StatelessWidget {
         "In his job, patience is an invaluable asset."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsset633(String languageCode) async {
+  Future<void> speakasset633(String languageCode) async {
     // DOPSUM: CHANGE speakAsset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryasset extends StatelessWidget {
         "Being able to speak a foreign language is a major asset."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryasset extends StatelessWidget {
   //   await flutterTts.speak("asset"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsset(String languageCode) async {
+  // Future<void> speakasset(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsset
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryasset extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæset/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsset("en-GB"),
+                              onPressed: () => speakasset("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryasset extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæset/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsset("en-US"),
+                              onPressed: () => speakasset("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryasset extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsset632("en-GB"),
+                                    onPressed: () => speakasset632("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsset632(// REPLACE: asset /ˈæset/
+                                        speakasset632(// REPLACE: asset /ˈæset/
                                             "en-US"),
                                   ),
                                 ],
@@ -215,10 +215,10 @@ class EnglishEntryasset extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsset633("en-GB"),
+                                    onPressed: () => speakasset633("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsset633(
+                                    onPressed: () => speakasset633(
                                         // REPLACE: asset /ˈæset/
                                         "en-US"),
                                   ),

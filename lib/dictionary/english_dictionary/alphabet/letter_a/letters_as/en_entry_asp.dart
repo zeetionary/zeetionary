@@ -19,7 +19,7 @@ class EnglishEntryasp extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAsp(String languageCode) async {
+  Future<void> speakasp(String languageCode) async {
     // DOPSUM: CHANGE speakAsp
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryasp extends StatelessWidget {
     await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAsp945(String languageCode) async {
+  Future<void> speakasp945(String languageCode) async {
     // DOPSUM: CHANGE speakAsp
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryasp extends StatelessWidget {
         "Cleopatra, according to legend, committed suicide by an asp's bite."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryasp extends StatelessWidget {
   //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAsp(String languageCode) async {
+  // Future<void> speakasp(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryasp extends StatelessWidget {
                                 text:
                                     "IpaUK: /æsp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsp("en-GB"),
+                              onPressed: () => speakasp("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryasp extends StatelessWidget {
                                 text:
                                     "IpaUS: /æsp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsp("en-US"),
+                              onPressed: () => speakasp("en-US"),
                             ),
                           ],
                         ),
@@ -182,11 +182,11 @@ class EnglishEntryasp extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsp945("en-GB"),
+                                    onPressed: () => speakasp945("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAsp945(// REPLACE: asp /æsp/
+                                        speakasp945(// REPLACE: asp /æsp/
                                             "en-US"),
                                   ),
                                 ],

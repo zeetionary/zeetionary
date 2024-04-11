@@ -11,7 +11,7 @@ class EnglishEntryafternoon extends StatelessWidget {
   EnglishEntryafternoon({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfternoon(String languageCode) async {
+  Future<void> speakafternoon(String languageCode) async {
     // DOPSUM: CHANGE speakAfternoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryafternoon extends StatelessWidget {
     await flutterTts.speak("afternoon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAftern6288(String languageCode) async {
+  Future<void> speakaftern6288(String languageCode) async {
     // DOPSUM: CHANGE speakAfternoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryafternoon extends StatelessWidget {
         .speak("In the afternoon, they went shopping."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAftern481(String languageCode) async {
+  Future<void> speakaftern481(String languageCode) async {
     // DOPSUM: CHANGE speakAfternoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryafternoon extends StatelessWidget {
         .speak("Come over on Sunday afternoon."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfternoon(String languageCode) async {
+  // Future<void> speakafternoon(String languageCode) async {
   //   // DOPSUM: CHANGE speakAfternoon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌɑːftəˈnuːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfternoon("en-GB"),
+                              onPressed: () => speakafternoon("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːftərˈnuːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfternoon("en-US"),
+                              onPressed: () => speakafternoon("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryafternoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAftern6288("en-GB"),
+                                    onPressed: () => speakaftern6288("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAftern6288(
+                                    onPressed: () => speakaftern6288(
                                         // REPLACE: afternoon /ˌɑːftəˈnuːn/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryafternoon extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAftern481("en-GB"),
+                                    onPressed: () => speakaftern481("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAftern481(
+                                    onPressed: () => speakaftern481(
                                         // REPLACE: afternoon /ˌɑːftəˈnuːn/
                                         "en-US"),
                                   ),

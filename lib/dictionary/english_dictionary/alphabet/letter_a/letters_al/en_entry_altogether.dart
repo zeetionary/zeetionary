@@ -11,7 +11,7 @@ class EnglishEntryaltogether extends StatelessWidget {
   EnglishEntryaltogether({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltogether(String languageCode) async {
+  Future<void> speakaltogether(String languageCode) async {
     // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether588(String languageCode) async {
+  Future<void> speakaltogether588(String languageCode) async {
     // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaltogether extends StatelessWidget {
         "The train went slower and slower until it stopped altogether."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether45666(String languageCode) async {
+  Future<void> speakaltogether45666(String languageCode) async {
     // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaltogether extends StatelessWidget {
         "It was an altogether different situation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether523333(String languageCode) async {
+  Future<void> speakaltogether523333(String languageCode) async {
     // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaltogether extends StatelessWidget {
     await flutterTts.speak("You owe me £68 altogether."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether4144(String languageCode) async {
+  Future<void> speakaltogether4144(String languageCode) async {
     // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaltogether extends StatelessWidget {
         "The food was good and we loved the music. Altogether it was a great evening."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltogether(String languageCode) async {
+  // Future<void> speakaltogether(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltogether
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryaltogether extends StatelessWidget {
   //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAltogether(String languageCode) async {
+  // Future<void> speakaltogether(String languageCode) async {
   //   // DOPSUM: CHANGE speakAltogether
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːltəˈɡeðə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltogether("en-GB"),
+                              onPressed: () => speakaltogether("en-GB"),
                             ),
                           ],
                         ),
@@ -110,7 +110,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːltəˈɡeðər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltogether("en-US"),
+                              onPressed: () => speakaltogether("en-US"),
                             ),
                           ],
                         ),
@@ -160,10 +160,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAltogether588("en-GB"),
+                                        speakaltogether588("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether588(
+                                    onPressed: () => speakaltogether588(
                                         // REPLACE: altogether /ˌɔːltəˈɡeðər/
                                         "en-US"),
                                   ),
@@ -191,10 +191,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAltogether45666("en-GB"),
+                                        speakaltogether45666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether45666(
+                                    onPressed: () => speakaltogether45666(
                                         // REPLACE: altogether /ˌɔːltəˈɡeðər/
                                         "en-US"),
                                   ),
@@ -222,10 +222,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAltogether523333("en-GB"),
+                                        speakaltogether523333("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether523333(
+                                    onPressed: () => speakaltogether523333(
                                         // REPLACE: altogether /ˌɔːltəˈɡeðər/
                                         "en-US"),
                                   ),
@@ -255,10 +255,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAltogether4144("en-GB"),
+                                        speakaltogether4144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether4144(
+                                    onPressed: () => speakaltogether4144(
                                         // REPLACE: altogether /ˌɔːltəˈɡeðər/
                                         "en-US"),
                                   ),

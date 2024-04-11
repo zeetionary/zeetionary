@@ -19,7 +19,7 @@ class EnglishEntrybiographical extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiographical(String languageCode) async {
+  Future<void> speakbiographical(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiographical extends StatelessWidget {
     await flutterTts.speak("biographical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals1(String languageCode) async {
+  Future<void> speakbiographicals1(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiographical extends StatelessWidget {
         "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals2(String languageCode) async {
+  Future<void> speakbiographicals2(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybiographical extends StatelessWidget {
         "There was a biographical note about the author on the back of the book."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals3(String languageCode) async {
+  Future<void> speakbiographicals3(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybiographical extends StatelessWidget {
     await flutterTts.speak("speakBiographicals33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals4(String languageCode) async {
+  Future<void> speakbiographicals4(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybiographical extends StatelessWidget {
     await flutterTts.speak("speakBiographicals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals5(String languageCode) async {
+  Future<void> speakbiographicals5(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybiographical extends StatelessWidget {
     await flutterTts.speak("speakBiographicals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals6(String languageCode) async {
+  Future<void> speakbiographicals6(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybiographical extends StatelessWidget {
     await flutterTts.speak("speakBiographicals66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiographicals7(String languageCode) async {
+  Future<void> speakbiographicals7(String languageCode) async {
     // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybiographical extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiographical("en-GB"),
+                              onPressed: () => speakbiographical("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybiographical extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiographical("en-US"),
+                              onPressed: () => speakbiographical("en-US"),
                             ),
                           ],
                         ),
@@ -167,11 +167,11 @@ class EnglishEntrybiographical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBiographicals1("en-GB"),
+                                        speakbiographicals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBiographicals1("en-US"),
+                                        speakbiographicals1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,11 +200,11 @@ class EnglishEntrybiographical extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBiographicals2("en-GB"),
+                                        speakbiographicals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBiographicals2("en-US"),
+                                        speakbiographicals2("en-US"),
                                   ),
                                 ],
                               ),

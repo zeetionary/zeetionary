@@ -17,7 +17,7 @@ class EnglishEntryape extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApe(String languageCode) async {
+  Future<void> speakape(String languageCode) async {
     // DOPSUM: CHANGE speakApe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryape extends StatelessWidget {
     await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe129(String languageCode) async {
+  Future<void> speakape129(String languageCode) async {
     // DOPSUM: CHANGE speakApe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryape extends StatelessWidget {
         "Chimpanzees and gorillas are both apes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe132(String languageCode) async {
+  Future<void> speakape132(String languageCode) async {
     // DOPSUM: CHANGE speakApe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryape extends StatelessWidget {
         "For years the British film industry merely aped Hollywood."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe134(String languageCode) async {
+  Future<void> speakape134(String languageCode) async {
     // DOPSUM: CHANGE speakApe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryape extends StatelessWidget {
         "We used to ape the teacher's southern accent."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApe(String languageCode) async {
+  // Future<void> speakape(String languageCode) async {
   //   // DOPSUM: CHANGE speakApe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApe(String languageCode) async {
+  // Future<void> speakape(String languageCode) async {
   //   // DOPSUM: CHANGE speakApe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApe(String languageCode) async {
+  // Future<void> speakape(String languageCode) async {
   //   // DOPSUM: CHANGE speakApe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApe(String languageCode) async {
+  // Future<void> speakape(String languageCode) async {
   //   // DOPSUM: CHANGE speakApe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryape extends StatelessWidget {
   //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApe(String languageCode) async {
+  // Future<void> speakape(String languageCode) async {
   //   // DOPSUM: CHANGE speakApe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryape extends StatelessWidget {
                                 text:
                                     "IpaUK: /eɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApe("en-GB"),
+                              onPressed: () => speakape("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryape extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApe("en-US"),
+                              onPressed: () => speakape("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryape extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApe129("en-GB"),
+                                    onPressed: () => speakape129("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApe129(// REPLACE: ape /eɪp/
+                                        speakape129(// REPLACE: ape /eɪp/
                                             "en-US"),
                                   ),
                                 ],
@@ -211,11 +211,11 @@ class EnglishEntryape extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApe132("en-GB"),
+                                    onPressed: () => speakape132("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApe132(// REPLACE: ape /eɪp/
+                                        speakape132(// REPLACE: ape /eɪp/
                                             "en-US"),
                                   ),
                                 ],
@@ -244,11 +244,11 @@ class EnglishEntryape extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakApe134("en-GB"),
+                                    onPressed: () => speakape134("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakApe134(// REPLACE: ape /eɪp/
+                                        speakape134(// REPLACE: ape /eɪp/
                                             "en-US"),
                                   ),
                                 ],

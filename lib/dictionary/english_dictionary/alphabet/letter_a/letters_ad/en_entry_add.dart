@@ -11,7 +11,7 @@ class EnglishEntryadd extends StatelessWidget {
   EnglishEntryadd({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdd(String languageCode) async {
+  Future<void> speakadd(String languageCode) async {
     // DOPSUM: CHANGE speakAdd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadd extends StatelessWidget {
     await flutterTts.speak("add"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd4257(String languageCode) async {
+  Future<void> speakadd4257(String languageCode) async {
     // DOPSUM: CHANGE speakAdd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadd extends StatelessWidget {
         .speak("Shall I add your name to the list?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd45698(String languageCode) async {
+  Future<void> speakadd45698(String languageCode) async {
     // DOPSUM: CHANGE speakAdd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadd extends StatelessWidget {
         "Chlorine is added to the water to kill bacteria."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd241(String languageCode) async {
+  Future<void> speakadd241(String languageCode) async {
     // DOPSUM: CHANGE speakAdd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryadd extends StatelessWidget {
         .speak("He knew how to add and subtract."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd459224(String languageCode) async {
+  Future<void> speakadd459224(String languageCode) async {
     // DOPSUM: CHANGE speakAdd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryadd extends StatelessWidget {
         "I have nothing to add to my earlier statement."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdd(String languageCode) async {
+  // Future<void> speakadd(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryadd extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /æd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdd("en-GB"),
+                              onPressed: () => speakadd("en-GB"),
                             ),
                           ],
                         ),
@@ -100,7 +100,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 text:
                                     "IpaUS: /æd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdd("en-US"),
+                              onPressed: () => speakadd("en-US"),
                             ),
                           ],
                         ),
@@ -148,11 +148,11 @@ class EnglishEntryadd extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd4257("en-GB"),
+                                    onPressed: () => speakadd4257("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd4257(// REPLACE: add /æd/
+                                        speakadd4257(// REPLACE: add /æd/
                                             "en-US"),
                                   ),
                                 ],
@@ -178,11 +178,11 @@ class EnglishEntryadd extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd45698("en-GB"),
+                                    onPressed: () => speakadd45698("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd45698(// REPLACE: add /æd/
+                                        speakadd45698(// REPLACE: add /æd/
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntryadd extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd241("en-GB"),
+                                    onPressed: () => speakadd241("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd241(// REPLACE: add /æd/
+                                        speakadd241(// REPLACE: add /æd/
                                             "en-US"),
                                   ),
                                 ],
@@ -242,11 +242,11 @@ class EnglishEntryadd extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd459224("en-GB"),
+                                    onPressed: () => speakadd459224("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd459224(// REPLACE: add /æd/
+                                        speakadd459224(// REPLACE: add /æd/
                                             "en-US"),
                                   ),
                                 ],

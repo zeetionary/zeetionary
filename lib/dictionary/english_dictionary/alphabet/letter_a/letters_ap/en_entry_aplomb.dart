@@ -17,7 +17,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAplomb(String languageCode) async {
+  Future<void> speakaplomb(String languageCode) async {
     // DOPSUM: CHANGE speakAplomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaplomb extends StatelessWidget {
     await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAplomb246(String languageCode) async {
+  Future<void> speakaplomb246(String languageCode) async {
     // DOPSUM: CHANGE speakAplomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaplomb extends StatelessWidget {
         "He delivered the speech with his usual aplomb."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   //   await flutterTts.speak("aplomb"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAplomb(String languageCode) async {
+  // Future<void> speakaplomb(String languageCode) async {
   //   // DOPSUM: CHANGE speakAplomb
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAplomb("en-GB"),
+                              onPressed: () => speakaplomb("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈplɒm/av"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAplomb("en-US"),
+                              onPressed: () => speakaplomb("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryaplomb extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAplomb246("en-GB"),
+                                    onPressed: () => speakaplomb246("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAplomb246(
+                                    onPressed: () => speakaplomb246(
                                         // REPLACE: aplomb /əˈplɒm/av
                                         "en-US"),
                                   ),

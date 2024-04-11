@@ -11,7 +11,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   EnglishEntryamnesty({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmnesty(String languageCode) async {
+  Future<void> speakamnesty(String languageCode) async {
     // DOPSUM: CHANGE speakAmnesty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamnesty extends StatelessWidget {
     await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmnesty4117(String languageCode) async {
+  Future<void> speakamnesty4117(String languageCode) async {
     // DOPSUM: CHANGE speakAmnesty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamnesty extends StatelessWidget {
         "The president granted a general amnesty for all political prisoners."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmnesty4699(String languageCode) async {
+  Future<void> speakamnesty4699(String languageCode) async {
     // DOPSUM: CHANGE speakAmnesty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryamnesty extends StatelessWidget {
         "2 000 knives have been handed in during the month-long amnesty."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryamnesty extends StatelessWidget {
   //   await flutterTts.speak("amnesty"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesty(String languageCode) async {
+  // Future<void> speakamnesty(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesty
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmnəsti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmnesty("en-GB"),
+                              onPressed: () => speakamnesty("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmnəsti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmnesty("en-US"),
+                              onPressed: () => speakamnesty("en-US"),
                             ),
                           ],
                         ),
@@ -200,10 +200,10 @@ class EnglishEntryamnesty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmnesty4117("en-GB"),
+                                    onPressed: () => speakamnesty4117("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmnesty4117(
+                                    onPressed: () => speakamnesty4117(
                                         // REPLACE: amnesty /ˈæmnəsti/
                                         "en-US"),
                                   ),
@@ -232,10 +232,10 @@ class EnglishEntryamnesty extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmnesty4699("en-GB"),
+                                    onPressed: () => speakamnesty4699("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmnesty4699(
+                                    onPressed: () => speakamnesty4699(
                                         // REPLACE: amnesty /ˈæmnəsti/
                                         "en-US"),
                                   ),

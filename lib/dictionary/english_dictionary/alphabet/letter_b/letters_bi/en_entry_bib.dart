@@ -19,7 +19,7 @@ class EnglishEntrybib extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBib(String languageCode) async {
+  Future<void> speakbib(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("bib"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs1(String languageCode) async {
+  Future<void> speakbibs1(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybib extends StatelessWidget {
         "The bib caught all the spilled milk, saving my shirt from a stain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs2(String languageCode) async {
+  Future<void> speakbibs2(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("speakBibs22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs3(String languageCode) async {
+  Future<void> speakbibs3(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("speakBibs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs4(String languageCode) async {
+  Future<void> speakbibs4(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("speakBibs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs5(String languageCode) async {
+  Future<void> speakbibs5(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("speakBibs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs6(String languageCode) async {
+  Future<void> speakbibs6(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybib extends StatelessWidget {
     await flutterTts.speak("speakBibs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBibs7(String languageCode) async {
+  Future<void> speakbibs7(String languageCode) async {
     // DOPSUM: CHANGE speakBib
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybib extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBib("en-GB"),
+                              onPressed: () => speakbib("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybib extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBib("en-US"),
+                              onPressed: () => speakbib("en-US"),
                             ),
                           ],
                         ),
@@ -169,10 +169,10 @@ class EnglishEntrybib extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBibs1("en-GB"),
+                                    onPressed: () => speakbibs1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBibs1("en-US"),
+                                    onPressed: () => speakbibs1("en-US"),
                                   ),
                                 ],
                               ),

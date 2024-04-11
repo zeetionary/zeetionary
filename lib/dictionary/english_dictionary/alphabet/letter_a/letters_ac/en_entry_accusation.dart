@@ -11,7 +11,7 @@ class EnglishEntryaccusation extends StatelessWidget {
   EnglishEntryaccusation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccusation(String languageCode) async {
+  Future<void> speakaccusation(String languageCode) async {
     // DOPSUM: CHANGE speakAccusation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccusation extends StatelessWidget {
     await flutterTts.speak("accusation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA125698(String languageCode) async {
+  Future<void> speaka125698(String languageCode) async {
     // DOPSUM: CHANGE speakAccusation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccusation extends StatelessWidget {
         "There was a hint of accusation in her voice."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA147296(String languageCode) async {
+  Future<void> speaka147296(String languageCode) async {
     // DOPSUM: CHANGE speakAccusation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccusation extends StatelessWidget {
         "At the time, no one believed her accusations against him."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAccusation(String languageCode) async {
+  // Future<void> speakaccusation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAccusation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækjuˈzeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccusation("en-GB"),
+                              onPressed: () => speakaccusation("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækjuˈzeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccusation("en-US"),
+                              onPressed: () => speakaccusation("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryaccusation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA125698("en-GB"),
+                                    onPressed: () => speaka125698("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA125698("en-US"),
+                                    onPressed: () => speaka125698("en-US"),
                                   ),
                                 ],
                               ),
@@ -163,10 +163,10 @@ class EnglishEntryaccusation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA147296("en-GB"),
+                                    onPressed: () => speaka147296("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA147296("en-US"),
+                                    onPressed: () => speaka147296("en-US"),
                                   ),
                                 ],
                               ),

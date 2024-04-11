@@ -19,7 +19,7 @@ class EnglishEntryaxis extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAxis(String languageCode) async {
+  Future<void> speakaxis(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaxis extends StatelessWidget {
     await flutterTts.speak("axis"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss1(String languageCode) async {
+  Future<void> speakaxiss1(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaxis extends StatelessWidget {
         "Mars takes longer to revolve on its axis than the Earth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss2(String languageCode) async {
+  Future<void> speakaxiss2(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaxis extends StatelessWidget {
         "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss3(String languageCode) async {
+  Future<void> speakaxiss3(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaxis extends StatelessWidget {
         .speak("The axis of a circle is its diameter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss4(String languageCode) async {
+  Future<void> speakaxiss4(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaxis extends StatelessWidget {
         "The Franco-British axis has shaped European foreign policy for decades."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss5(String languageCode) async {
+  Future<void> speakaxiss5(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaxis extends StatelessWidget {
     await flutterTts.speak("speakAxiss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss6(String languageCode) async {
+  Future<void> speakaxiss6(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryaxis extends StatelessWidget {
     await flutterTts.speak("speakAxiss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAxiss7(String languageCode) async {
+  Future<void> speakaxiss7(String languageCode) async {
     // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryaxis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæksɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAxis("en-GB"),
+                              onPressed: () => speakaxis("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryaxis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxis("en-US"),
+                              onPressed: () => speakaxis("en-US"),
                             ),
                           ],
                         ),
@@ -178,11 +178,11 @@ class EnglishEntryaxis extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxiss1("en-GB"),
+                                    onPressed: () => speakaxiss1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxiss1(// REPLACE: axis
+                                        speakaxiss1(// REPLACE: axis
                                             "en-US"),
                                   ),
                                 ],
@@ -211,11 +211,11 @@ class EnglishEntryaxis extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxiss2("en-GB"),
+                                    onPressed: () => speakaxiss2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxiss2(// REPLACE: axis
+                                        speakaxiss2(// REPLACE: axis
                                             "en-US"),
                                   ),
                                 ],
@@ -244,11 +244,11 @@ class EnglishEntryaxis extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxiss3("en-GB"),
+                                    onPressed: () => speakaxiss3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxiss3(// REPLACE: axis
+                                        speakaxiss3(// REPLACE: axis
                                             "en-US"),
                                   ),
                                 ],
@@ -277,11 +277,11 @@ class EnglishEntryaxis extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAxiss4("en-GB"),
+                                    onPressed: () => speakaxiss4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAxiss4(// REPLACE: axis
+                                        speakaxiss4(// REPLACE: axis
                                             "en-US"),
                                   ),
                                 ],

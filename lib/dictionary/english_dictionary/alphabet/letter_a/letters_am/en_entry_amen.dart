@@ -11,7 +11,7 @@ class EnglishEntryamen extends StatelessWidget {
   EnglishEntryamen({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmen(String languageCode) async {
+  Future<void> speakamen(String languageCode) async {
     // DOPSUM: CHANGE speakAmen
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamen extends StatelessWidget {
     await flutterTts.speak("amen"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmen2411(String languageCode) async {
+  Future<void> speakamen2411(String languageCode) async {
     // DOPSUM: CHANGE speakAmen
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamen extends StatelessWidget {
         .speak("We ask this through our Lord, Amen."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmen96552(String languageCode) async {
+  Future<void> speakamen96552(String languageCode) async {
     // DOPSUM: CHANGE speakAmen
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamen extends StatelessWidget {
     await flutterTts.speak("Amen to that."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmen(String languageCode) async {
+  // Future<void> speakamen(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmen
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryamen extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈmen/, /eɪˈmen/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmen("en-GB"),
+                              onPressed: () => speakamen("en-GB"),
                             ),
                           ],
                         ),
@@ -84,7 +84,7 @@ class EnglishEntryamen extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪˈmen/, /ɑːˈmen/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmen("en-US"),
+                              onPressed: () => speakamen("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryamen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmen2411("en-GB"),
+                                    onPressed: () => speakamen2411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmen2411(
+                                    onPressed: () => speakamen2411(
                                         // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),
@@ -165,10 +165,10 @@ class EnglishEntryamen extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmen96552("en-GB"),
+                                    onPressed: () => speakamen96552("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmen96552(
+                                    onPressed: () => speakamen96552(
                                         // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
                                         "en-US"),
                                   ),

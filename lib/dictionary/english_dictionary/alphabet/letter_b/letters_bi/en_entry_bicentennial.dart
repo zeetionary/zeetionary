@@ -19,7 +19,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBicentennial(String languageCode) async {
+  Future<void> speakbicentennial(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
     await flutterTts.speak("bicentennial"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials1(String languageCode) async {
+  Future<void> speakbicentennials1(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
         "A statue was erected to mark the bicentennial of the composer's birth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials2(String languageCode) async {
+  Future<void> speakbicentennials2(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
         "The city organized a series of bicentennial events throughout the year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials3(String languageCode) async {
+  Future<void> speakbicentennials3(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
     await flutterTts.speak("speakBicentennials33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials4(String languageCode) async {
+  Future<void> speakbicentennials4(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
     await flutterTts.speak("speakBicentennials44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials5(String languageCode) async {
+  Future<void> speakbicentennials5(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
     await flutterTts.speak("speakBicentennials55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials6(String languageCode) async {
+  Future<void> speakbicentennials6(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
     await flutterTts.speak("speakBicentennials66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBicentennials7(String languageCode) async {
+  Future<void> speakbicentennials7(String languageCode) async {
     // DOPSUM: CHANGE speakBicentennial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌbaɪsenˈteniəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBicentennial("en-GB"),
+                              onPressed: () => speakbicentennial("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybicentennial extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˌbaɪsenˈteniəl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBicentennial("en-US"),
+                              onPressed: () => speakbicentennial("en-US"),
                             ),
                           ],
                         ),
@@ -167,11 +167,11 @@ class EnglishEntrybicentennial extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBicentennials1("en-GB"),
+                                        speakbicentennials1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBicentennials1("en-US"),
+                                        speakbicentennials1("en-US"),
                                   ),
                                 ],
                               ),
@@ -200,11 +200,11 @@ class EnglishEntrybicentennial extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBicentennials2("en-GB"),
+                                        speakbicentennials2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBicentennials2("en-US"),
+                                        speakbicentennials2("en-US"),
                                   ),
                                 ],
                               ),

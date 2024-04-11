@@ -19,7 +19,7 @@ class EnglishEntrybird extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBird(String languageCode) async {
+  Future<void> speakbird(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybird extends StatelessWidget {
     await flutterTts.speak("bird"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds1(String languageCode) async {
+  Future<void> speakbirds1(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybird extends StatelessWidget {
         .speak("The birds migrate in September."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds2(String languageCode) async {
+  Future<void> speakbirds2(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybird extends StatelessWidget {
     await flutterTts.speak("He's a tough old bird."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds3(String languageCode) async {
+  Future<void> speakbirds3(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybird extends StatelessWidget {
     await flutterTts.speak("Is that John's new bird?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds4(String languageCode) async {
+  Future<void> speakbirds4(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybird extends StatelessWidget {
         "He has birded the whole of North America."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds5(String languageCode) async {
+  Future<void> speakbirds5(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybird extends StatelessWidget {
     await flutterTts.speak("speakBirds55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds6(String languageCode) async {
+  Future<void> speakbirds6(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybird extends StatelessWidget {
     await flutterTts.speak("speakBirds66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirds7(String languageCode) async {
+  Future<void> speakbirds7(String languageCode) async {
     // DOPSUM: CHANGE speakBird
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybird extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɜːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBird("en-GB"),
+                              onPressed: () => speakbird("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybird extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɜːrd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBird("en-US"),
+                              onPressed: () => speakbird("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybird extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirds1("en-GB"),
+                                    onPressed: () => speakbirds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirds1("en-US"),
+                                    onPressed: () => speakbirds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +199,10 @@ class EnglishEntrybird extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirds2("en-GB"),
+                                    onPressed: () => speakbirds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirds2("en-US"),
+                                    onPressed: () => speakbirds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -228,10 +228,10 @@ class EnglishEntrybird extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirds3("en-GB"),
+                                    onPressed: () => speakbirds3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirds3("en-US"),
+                                    onPressed: () => speakbirds3("en-US"),
                                   ),
                                 ],
                               ),
@@ -259,10 +259,10 @@ class EnglishEntrybird extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirds4("en-GB"),
+                                    onPressed: () => speakbirds4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirds4("en-US"),
+                                    onPressed: () => speakbirds4("en-US"),
                                   ),
                                 ],
                               ),

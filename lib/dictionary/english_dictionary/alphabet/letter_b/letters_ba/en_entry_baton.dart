@@ -19,7 +19,7 @@ class EnglishEntrybaton extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBaton(String languageCode) async {
+  Future<void> speakbaton(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybaton extends StatelessWidget {
     await flutterTts.speak("baton"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons1(String languageCode) async {
+  Future<void> speakbatons1(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybaton extends StatelessWidget {
         "Five people were injured in the baton charge."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons2(String languageCode) async {
+  Future<void> speakbatons2(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybaton extends StatelessWidget {
         "The orchestra played brilliantly under Previn’s baton."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons3(String languageCode) async {
+  Future<void> speakbatons3(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybaton extends StatelessWidget {
         "The President handed over the baton to his successor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons4(String languageCode) async {
+  Future<void> speakbatons4(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybaton extends StatelessWidget {
         "The baton dropped to the ground as the third runner stumbled."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons5(String languageCode) async {
+  Future<void> speakbatons5(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybaton extends StatelessWidget {
     await flutterTts.speak("speakBatons55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons6(String languageCode) async {
+  Future<void> speakbatons6(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntrybaton extends StatelessWidget {
     await flutterTts.speak("speakBatons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatons7(String languageCode) async {
+  Future<void> speakbatons7(String languageCode) async {
     // DOPSUM: CHANGE speakBaton
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybaton extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈbætɒn/, /ˈbætɒ̃/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBaton("en-GB"),
+                              onPressed: () => speakbaton("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybaton extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bəˈtɑːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaton("en-US"),
+                              onPressed: () => speakbaton("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybaton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons1("en-GB"),
+                                    onPressed: () => speakbatons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons1("en-US"),
+                                    onPressed: () => speakbatons1("en-US"),
                                   ),
                                 ],
                               ),
@@ -204,10 +204,10 @@ class EnglishEntrybaton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons2("en-GB"),
+                                    onPressed: () => speakbatons2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons2("en-US"),
+                                    onPressed: () => speakbatons2("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +235,10 @@ class EnglishEntrybaton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons4("en-GB"),
+                                    onPressed: () => speakbatons4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons4("en-US"),
+                                    onPressed: () => speakbatons4("en-US"),
                                   ),
                                 ],
                               ),
@@ -263,10 +263,10 @@ class EnglishEntrybaton extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatons3("en-GB"),
+                                    onPressed: () => speakbatons3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatons3("en-US"),
+                                    onPressed: () => speakbatons3("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntrybetween extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBetween(String languageCode) async {
+  Future<void> speakbetween(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("between"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens1(String languageCode) async {
+  Future<void> speakbetweens1(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "Q comes between P and R in the English alphabet."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens2(String languageCode) async {
+  Future<void> speakbetweens2(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybetween extends StatelessWidget {
         .speak("I sat down between Jim and Diana."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens3(String languageCode) async {
+  Future<void> speakbetweens3(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "Switzerland lies between France, Germany, Austria and Italy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens4(String languageCode) async {
+  Future<void> speakbetweens4(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("Don't eat between meals."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens5(String languageCode) async {
+  Future<void> speakbetweens5(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "Children must attend school between the ages of 5 and 16."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens6(String languageCode) async {
+  Future<void> speakbetweens6(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybetween extends StatelessWidget {
         .speak("It weighed between nine and ten kilos."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens7(String languageCode) async {
+  Future<void> speakbetweens7(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "There is a long border between United States and Canada."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens8(String languageCode) async {
+  Future<void> speakbetweens8(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "We fly between Rome and Paris twice daily."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens9(String languageCode) async {
+  Future<void> speakbetweens9(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -107,7 +107,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "There's a lot of animosity between them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens10(String languageCode) async {
+  Future<void> speakbetweens10(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "What’s the difference between this £100 watch and the £500 one?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens11(String languageCode) async {
+  Future<void> speakbetweens11(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("We ate a pizza between us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens12(String languageCode) async {
+  Future<void> speakbetweens12(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "This is just between you and me/between ourselves."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens13(String languageCode) async {
+  Future<void> speakbetweens13(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -142,7 +142,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "We ought to be able to manage it between us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens14(String languageCode) async {
+  Future<void> speakbetweens14(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -151,7 +151,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "China and India between them account for a third of the world's population."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens15(String languageCode) async {
+  Future<void> speakbetweens15(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -160,7 +160,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "Between working full-time and taking care of the kids, he didn't have much time for hobbies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens16(String languageCode) async {
+  Future<void> speakbetweens16(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -169,7 +169,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "The house was near a park but there was a road in between."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens17(String languageCode) async {
+  Future<void> speakbetweens17(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -178,7 +178,7 @@ class EnglishEntrybetween extends StatelessWidget {
         "I see her most weekends but not very often in between."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens18(String languageCode) async {
+  Future<void> speakbetweens18(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -186,7 +186,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens1818"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens19(String languageCode) async {
+  Future<void> speakbetweens19(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -194,7 +194,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens1919"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens20(String languageCode) async {
+  Future<void> speakbetweens20(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -202,7 +202,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens21(String languageCode) async {
+  Future<void> speakbetweens21(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -210,7 +210,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens22(String languageCode) async {
+  Future<void> speakbetweens22(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -218,7 +218,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens23(String languageCode) async {
+  Future<void> speakbetweens23(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -226,7 +226,7 @@ class EnglishEntrybetween extends StatelessWidget {
     await flutterTts.speak("speakBetweens2323"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBetweens24(String languageCode) async {
+  Future<void> speakbetweens24(String languageCode) async {
     // DOPSUM: CHANGE speakBetween
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -261,7 +261,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bɪˈtwiːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBetween("en-GB"),
+                              onPressed: () => speakbetween("en-GB"),
                             ),
                           ],
                         ),
@@ -269,7 +269,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bɪˈtwiːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBetween("en-US"),
+                              onPressed: () => speakbetween("en-US"),
                             ),
                           ],
                         ),
@@ -318,10 +318,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens1("en-GB"),
+                                    onPressed: () => speakbetweens1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens1("en-US"),
+                                    onPressed: () => speakbetweens1("en-US"),
                                   ),
                                 ],
                               ),
@@ -346,10 +346,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens2("en-GB"),
+                                    onPressed: () => speakbetweens2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens2("en-US"),
+                                    onPressed: () => speakbetweens2("en-US"),
                                   ),
                                 ],
                               ),
@@ -375,10 +375,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens3("en-GB"),
+                                    onPressed: () => speakbetweens3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens3("en-US"),
+                                    onPressed: () => speakbetweens3("en-US"),
                                   ),
                                 ],
                               ),
@@ -405,10 +405,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens4("en-GB"),
+                                    onPressed: () => speakbetweens4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens4("en-US"),
+                                    onPressed: () => speakbetweens4("en-US"),
                                   ),
                                 ],
                               ),
@@ -434,10 +434,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens5("en-GB"),
+                                    onPressed: () => speakbetweens5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens5("en-US"),
+                                    onPressed: () => speakbetweens5("en-US"),
                                   ),
                                 ],
                               ),
@@ -465,10 +465,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens6("en-GB"),
+                                    onPressed: () => speakbetweens6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens6("en-US"),
+                                    onPressed: () => speakbetweens6("en-US"),
                                   ),
                                 ],
                               ),
@@ -496,10 +496,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens7("en-GB"),
+                                    onPressed: () => speakbetweens7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens7("en-US"),
+                                    onPressed: () => speakbetweens7("en-US"),
                                   ),
                                 ],
                               ),
@@ -527,10 +527,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens8("en-GB"),
+                                    onPressed: () => speakbetweens8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens8("en-US"),
+                                    onPressed: () => speakbetweens8("en-US"),
                                   ),
                                 ],
                               ),
@@ -558,10 +558,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens9("en-GB"),
+                                    onPressed: () => speakbetweens9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens9("en-US"),
+                                    onPressed: () => speakbetweens9("en-US"),
                                   ),
                                 ],
                               ),
@@ -587,10 +587,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens10("en-GB"),
+                                    onPressed: () => speakbetweens10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens10("en-US"),
+                                    onPressed: () => speakbetweens10("en-US"),
                                   ),
                                 ],
                               ),
@@ -616,10 +616,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens11("en-GB"),
+                                    onPressed: () => speakbetweens11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens11("en-US"),
+                                    onPressed: () => speakbetweens11("en-US"),
                                   ),
                                 ],
                               ),
@@ -645,10 +645,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens12("en-GB"),
+                                    onPressed: () => speakbetweens12("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens12("en-US"),
+                                    onPressed: () => speakbetweens12("en-US"),
                                   ),
                                 ],
                               ),
@@ -676,10 +676,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens13("en-GB"),
+                                    onPressed: () => speakbetweens13("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens13("en-US"),
+                                    onPressed: () => speakbetweens13("en-US"),
                                   ),
                                 ],
                               ),
@@ -705,10 +705,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens14("en-GB"),
+                                    onPressed: () => speakbetweens14("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens14("en-US"),
+                                    onPressed: () => speakbetweens14("en-US"),
                                   ),
                                 ],
                               ),
@@ -736,10 +736,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens15("en-GB"),
+                                    onPressed: () => speakbetweens15("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens15("en-US"),
+                                    onPressed: () => speakbetweens15("en-US"),
                                   ),
                                 ],
                               ),
@@ -767,10 +767,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens16("en-GB"),
+                                    onPressed: () => speakbetweens16("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens16("en-US"),
+                                    onPressed: () => speakbetweens16("en-US"),
                                   ),
                                 ],
                               ),
@@ -796,10 +796,10 @@ class EnglishEntrybetween extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBetweens17("en-GB"),
+                                    onPressed: () => speakbetweens17("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBetweens17("en-US"),
+                                    onPressed: () => speakbetweens17("en-US"),
                                   ),
                                 ],
                               ),

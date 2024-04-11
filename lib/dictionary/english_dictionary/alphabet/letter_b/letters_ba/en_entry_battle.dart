@@ -19,7 +19,7 @@ class EnglishEntrybattle extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBattle(String languageCode) async {
+  Future<void> speakbattle(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybattle extends StatelessWidget {
     await flutterTts.speak("battle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles1(String languageCode) async {
+  Future<void> speakbattles1(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "Napoleon was defeated at the Battle of Waterloo."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles2(String languageCode) async {
+  Future<void> speakbattles2(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybattle extends StatelessWidget {
         .speak("His father had been killed in battle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles3(String languageCode) async {
+  Future<void> speakbattles3(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "She finally won her six-year battle for compensation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles4(String languageCode) async {
+  Future<void> speakbattles4(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "She finally lost her long battle against cancer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles5(String languageCode) async {
+  Future<void> speakbattles5(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "They have been at the forefront of the battle to save the hospital."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles6(String languageCode) async {
+  Future<void> speakbattles6(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "The essay discusses the endless battle between man and nature."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles7(String languageCode) async {
+  Future<void> speakbattles7(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "He faces an uphill battle against a hostile press."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles8(String languageCode) async {
+  Future<void> speakbattles8(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -99,7 +99,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "The two leaders are battling for control of the government."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles9(String languageCode) async {
+  Future<void> speakbattles9(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -108,7 +108,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "She's still battling with a knee injury."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles10(String languageCode) async {
+  Future<void> speakbattles10(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybattle extends StatelessWidget {
         "The two sides will battle it out in the final next week."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBattles11(String languageCode) async {
+  Future<void> speakbattles11(String languageCode) async {
     // DOPSUM: CHANGE speakBattle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -152,7 +152,7 @@ class EnglishEntrybattle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbætl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBattle("en-GB"),
+                              onPressed: () => speakbattle("en-GB"),
                             ),
                           ],
                         ),
@@ -160,7 +160,7 @@ class EnglishEntrybattle extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbætl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBattle("en-US"),
+                              onPressed: () => speakbattle("en-US"),
                             ),
                           ],
                         ),
@@ -210,10 +210,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles1("en-GB"),
+                                    onPressed: () => speakbattles1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles1("en-US"),
+                                    onPressed: () => speakbattles1("en-US"),
                                   ),
                                 ],
                               ),
@@ -238,10 +238,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles2("en-GB"),
+                                    onPressed: () => speakbattles2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles2("en-US"),
+                                    onPressed: () => speakbattles2("en-US"),
                                   ),
                                 ],
                               ),
@@ -269,10 +269,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles3("en-GB"),
+                                    onPressed: () => speakbattles3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles3("en-US"),
+                                    onPressed: () => speakbattles3("en-US"),
                                   ),
                                 ],
                               ),
@@ -298,10 +298,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles6("en-GB"),
+                                    onPressed: () => speakbattles6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles6("en-US"),
+                                    onPressed: () => speakbattles6("en-US"),
                                   ),
                                 ],
                               ),
@@ -327,10 +327,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles7("en-GB"),
+                                    onPressed: () => speakbattles7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles7("en-US"),
+                                    onPressed: () => speakbattles7("en-US"),
                                   ),
                                 ],
                               ),
@@ -358,10 +358,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles4("en-GB"),
+                                    onPressed: () => speakbattles4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles4("en-US"),
+                                    onPressed: () => speakbattles4("en-US"),
                                   ),
                                 ],
                               ),
@@ -387,10 +387,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles5("en-GB"),
+                                    onPressed: () => speakbattles5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles5("en-US"),
+                                    onPressed: () => speakbattles5("en-US"),
                                   ),
                                 ],
                               ),
@@ -418,10 +418,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles8("en-GB"),
+                                    onPressed: () => speakbattles8("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles8("en-US"),
+                                    onPressed: () => speakbattles8("en-US"),
                                   ),
                                 ],
                               ),
@@ -447,10 +447,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles9("en-GB"),
+                                    onPressed: () => speakbattles9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles9("en-US"),
+                                    onPressed: () => speakbattles9("en-US"),
                                   ),
                                 ],
                               ),
@@ -476,10 +476,10 @@ class EnglishEntrybattle extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBattles10("en-GB"),
+                                    onPressed: () => speakbattles10("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBattles10("en-US"),
+                                    onPressed: () => speakbattles10("en-US"),
                                   ),
                                 ],
                               ),

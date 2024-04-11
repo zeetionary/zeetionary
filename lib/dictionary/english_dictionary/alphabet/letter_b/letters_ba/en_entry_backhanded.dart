@@ -19,7 +19,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBackhanded(String languageCode) async {
+  Future<void> speakbackhanded(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("backhanded"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds1(String languageCode) async {
+  Future<void> speakbackhandeds1(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("speakBackhandeds11"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds2(String languageCode) async {
+  Future<void> speakbackhandeds2(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
         "In a backhanded compliment she said he looked very good for his age."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds3(String languageCode) async {
+  Future<void> speakbackhandeds3(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("speakBackhandeds33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds4(String languageCode) async {
+  Future<void> speakbackhandeds4(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("speakBackhandeds44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds5(String languageCode) async {
+  Future<void> speakbackhandeds5(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("speakBackhandeds55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds6(String languageCode) async {
+  Future<void> speakbackhandeds6(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.speak("speakBackhandeds66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBackhandeds7(String languageCode) async {
+  Future<void> speakbackhandeds7(String languageCode) async {
     // DOPSUM: CHANGE speakBackhanded
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌbækˈhændɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBackhanded("en-GB"),
+                              onPressed: () => speakbackhanded("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌbækˈhændɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBackhanded("en-US"),
+                              onPressed: () => speakbackhanded("en-US"),
                             ),
                           ],
                         ),
@@ -176,11 +176,11 @@ class EnglishEntrybackhanded extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBackhandeds2("en-GB"),
+                                    onPressed: () => speakbackhandeds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBackhandeds2(// REPLACE: backhanded
+                                        speakbackhandeds2(// REPLACE: backhanded
                                             "en-US"),
                                   ),
                                 ],

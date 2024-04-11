@@ -11,7 +11,7 @@ class EnglishEntryalliance extends StatelessWidget {
   EnglishEntryalliance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlliance(String languageCode) async {
+  Future<void> speakalliance(String languageCode) async {
     // DOPSUM: CHANGE speakAlliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalliance extends StatelessWidget {
     await flutterTts.speak("alliance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlliance45966(String languageCode) async {
+  Future<void> speakalliance45966(String languageCode) async {
     // DOPSUM: CHANGE speakAlliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalliance extends StatelessWidget {
         "The government has tried to forge alliances with environmentalists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlliance647239(String languageCode) async {
+  Future<void> speakalliance647239(String languageCode) async {
     // DOPSUM: CHANGE speakAlliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalliance extends StatelessWidget {
         "The marriage was meant to cement the alliance between the two countries."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlliance4692(String languageCode) async {
+  Future<void> speakalliance4692(String languageCode) async {
     // DOPSUM: CHANGE speakAlliance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalliance extends StatelessWidget {
         "Seven more countries have been invited to join the alliance."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlliance(String languageCode) async {
+  // Future<void> speakalliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryalliance extends StatelessWidget {
   //   await flutterTts.speak("alliance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlliance(String languageCode) async {
+  // Future<void> speakalliance(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlliance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -91,7 +91,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlliance("en-GB"),
+                              onPressed: () => speakalliance("en-GB"),
                             ),
                           ],
                         ),
@@ -101,7 +101,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlliance("en-US"),
+                              onPressed: () => speakalliance("en-US"),
                             ),
                           ],
                         ),
@@ -153,10 +153,10 @@ class EnglishEntryalliance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlliance45966("en-GB"),
+                                        speakalliance45966("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlliance45966(
+                                    onPressed: () => speakalliance45966(
                                         // REPLACE: alliance /əˈlaɪəns/
                                         "en-US"),
                                   ),
@@ -184,10 +184,10 @@ class EnglishEntryalliance extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAlliance647239("en-GB"),
+                                        speakalliance647239("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlliance647239(
+                                    onPressed: () => speakalliance647239(
                                         // REPLACE: alliance /əˈlaɪəns/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryalliance extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlliance4692("en-GB"),
+                                    onPressed: () => speakalliance4692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlliance4692(
+                                    onPressed: () => speakalliance4692(
                                         // REPLACE: alliance /əˈlaɪəns/
                                         "en-US"),
                                   ),

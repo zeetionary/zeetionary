@@ -11,7 +11,7 @@ class EnglishEntryacuteness extends StatelessWidget {
   EnglishEntryacuteness({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteness(String languageCode) async {
+  Future<void> speakacuteness(String languageCode) async {
     // DOPSUM: CHANGE speakAcuteness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacuteness extends StatelessWidget {
     await flutterTts.speak("acuteness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcute2471(String languageCode) async {
+  Future<void> speakacute2471(String languageCode) async {
     // DOPSUM: CHANGE speakAcuteness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryacuteness extends StatelessWidget {
         "The choice of drug depends upon the severity, acuteness and cause of the pain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcuten524(String languageCode) async {
+  Future<void> speakacuten524(String languageCode) async {
     // DOPSUM: CHANGE speakAcuteness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryacuteness extends StatelessWidget {
         "He is remembered for the acuteness of his intellect."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteness(String languageCode) async {
+  // Future<void> speakacuteness(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcuteness
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːtnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteness("en-GB"),
+                              onPressed: () => speakacuteness("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːtnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteness("en-US"),
+                              onPressed: () => speakacuteness("en-US"),
                             ),
                           ],
                         ),
@@ -128,10 +128,10 @@ class EnglishEntryacuteness extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcute2471("en-GB"),
+                                    onPressed: () => speakacute2471("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcute2471(
+                                    onPressed: () => speakacute2471(
                                         // REPLACE: acuteness /əˈkjuːtnəs/
                                         "en-US"),
                                   ),
@@ -160,10 +160,10 @@ class EnglishEntryacuteness extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAcuten524("en-GB"),
+                                    onPressed: () => speakacuten524("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAcuten524(
+                                    onPressed: () => speakacuten524(
                                         // REPLACE: acuteness /əˈkjuːtnəs/
                                         "en-US"),
                                   ),

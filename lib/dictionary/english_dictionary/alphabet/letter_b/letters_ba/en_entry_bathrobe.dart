@@ -19,7 +19,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBathrobe(String languageCode) async {
+  Future<void> speakbathrobe(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
     await flutterTts.speak("bathrobe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes1(String languageCode) async {
+  Future<void> speakbathrobes1(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
         "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes2(String languageCode) async {
+  Future<void> speakbathrobes2(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
         "He was wearing a bathrobe and slippers when I answered the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes3(String languageCode) async {
+  Future<void> speakbathrobes3(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
     await flutterTts.speak("speakBathrobes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes4(String languageCode) async {
+  Future<void> speakbathrobes4(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
     await flutterTts.speak("speakBathrobes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes5(String languageCode) async {
+  Future<void> speakbathrobes5(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
     await flutterTts.speak("speakBathrobes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes6(String languageCode) async {
+  Future<void> speakbathrobes6(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
     await flutterTts.speak("speakBathrobes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathrobes7(String languageCode) async {
+  Future<void> speakbathrobes7(String languageCode) async {
     // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɑːθrəʊb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBathrobe("en-GB"),
+                              onPressed: () => speakbathrobe("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbæθrəʊb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBathrobe("en-US"),
+                              onPressed: () => speakbathrobe("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybathrobe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathrobes1("en-GB"),
+                                    onPressed: () => speakbathrobes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathrobes1("en-US"),
+                                    onPressed: () => speakbathrobes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybathrobe extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBathrobes2("en-GB"),
+                                    onPressed: () => speakbathrobes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBathrobes2("en-US"),
+                                    onPressed: () => speakbathrobes2("en-US"),
                                   ),
                                 ],
                               ),

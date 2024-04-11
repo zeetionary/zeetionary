@@ -11,7 +11,7 @@ class EnglishEntryaddress extends StatelessWidget {
   EnglishEntryaddress({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAddress(String languageCode) async {
+  Future<void> speakaddress(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd774(String languageCode) async {
+  Future<void> speakadd774(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "I'll give you my address and phone number."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddress452(String languageCode) async {
+  Future<void> speakaddress452(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "Police found him at an address in West London."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddr2458(String languageCode) async {
+  Future<void> speakaddr2458(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaddress extends StatelessWidget {
     await flutterTts.speak("What's your email address?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddr624(String languageCode) async {
+  Future<void> speakaddr624(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "He gave details of the policy in an address to party members."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd99(String languageCode) async {
+  Future<void> speakadd99(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "These concerns were not adequately addressed in the report."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddr11(String languageCode) async {
+  Future<void> speakaddr11(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "The letter was correctly addressed, but delivered to the wrong house."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddr766(String languageCode) async {
+  Future<void> speakaddr766(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "He addressed his comments to the supervisor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAddre444(String languageCode) async {
+  Future<void> speakaddre444(String languageCode) async {
     // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -90,7 +90,7 @@ class EnglishEntryaddress extends StatelessWidget {
         "The President has been asked to address the parliament."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAddress(String languageCode) async {
+  // Future<void> speakaddress(String languageCode) async {
   //   // DOPSUM: CHANGE speakAddress
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -98,7 +98,7 @@ class EnglishEntryaddress extends StatelessWidget {
   //   await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAddress(String languageCode) async {
+  // Future<void> speakaddress(String languageCode) async {
   //   // DOPSUM: CHANGE speakAddress
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntryaddress extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdres/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAddress("en-GB"),
+                              onPressed: () => speakaddress("en-GB"),
                             ),
                           ],
                         ),
@@ -143,7 +143,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdres/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAddress("en-US"),
+                              onPressed: () => speakaddress("en-US"),
                             ),
                           ],
                         ),
@@ -193,11 +193,11 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd774("en-GB"),
+                                    onPressed: () => speakadd774("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd774(// REPLACE: address /əˈdres/
+                                        speakadd774(// REPLACE: address /əˈdres/
                                             "en-US"),
                                   ),
                                 ],
@@ -223,10 +223,10 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddress452("en-GB"),
+                                    onPressed: () => speakaddress452("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddress452(
+                                    onPressed: () => speakaddress452(
                                         // REPLACE: address /əˈdres/
                                         "en-US"),
                                   ),
@@ -253,10 +253,10 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddr2458("en-GB"),
+                                    onPressed: () => speakaddr2458("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddr2458(
+                                    onPressed: () => speakaddr2458(
                                         // REPLACE: address /əˈdres/
                                         "en-US"),
                                   ),
@@ -285,10 +285,10 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddr624("en-GB"),
+                                    onPressed: () => speakaddr624("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddr624(
+                                    onPressed: () => speakaddr624(
                                         // REPLACE: address /əˈdres/
                                         "en-US"),
                                   ),
@@ -317,11 +317,11 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdd99("en-GB"),
+                                    onPressed: () => speakadd99("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAdd99(// REPLACE: address /əˈdres/
+                                        speakadd99(// REPLACE: address /əˈdres/
                                             "en-US"),
                                   ),
                                 ],
@@ -349,11 +349,11 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddr11("en-GB"),
+                                    onPressed: () => speakaddr11("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAddr11(// REPLACE: address /əˈdres/
+                                        speakaddr11(// REPLACE: address /əˈdres/
                                             "en-US"),
                                   ),
                                 ],
@@ -381,10 +381,10 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddre444("en-GB"),
+                                    onPressed: () => speakaddre444("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddre444(
+                                    onPressed: () => speakaddre444(
                                         // REPLACE: address /əˈdres/
                                         "en-US"),
                                   ),
@@ -413,10 +413,10 @@ class EnglishEntryaddress extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAddr766("en-GB"),
+                                    onPressed: () => speakaddr766("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAddr766(
+                                    onPressed: () => speakaddr766(
                                         // REPLACE: address /əˈdres/
                                         "en-US"),
                                   ),

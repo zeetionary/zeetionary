@@ -19,7 +19,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAugusttwo(String languageCode) async {
+  Future<void> speakaugusttwo(String languageCode) async {
     // DOPSUM: CHANGE speakAugusttwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
     await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAugusttwo338(String languageCode) async {
+  Future<void> speakaugusttwo338(String languageCode) async {
     // DOPSUM: CHANGE speakAugusttwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
         "He had dared to challenge the views of an august body of imperial historians."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   //   await flutterTts.speak("august"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAugusttwo(String languageCode) async {
+  // Future<void> speakaugusttwo(String languageCode) async {
   //   // DOPSUM: CHANGE speakAugusttwo
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈɡʌst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAugusttwo("en-GB"),
+                              onPressed: () => speakaugusttwo("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈɡʌst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAugusttwo("en-US"),
+                              onPressed: () => speakaugusttwo("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAugusttwo338("en-GB"),
+                                    onPressed: () => speakaugusttwo338("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAugusttwo338(// REPLACE: august
+                                        speakaugusttwo338(// REPLACE: august
                                             "en-US"),
                                   ),
                                 ],

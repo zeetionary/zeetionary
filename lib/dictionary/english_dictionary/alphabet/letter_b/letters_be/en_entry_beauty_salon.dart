@@ -19,7 +19,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBeautysalon(String languageCode) async {
+  Future<void> speakbeautysalon(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("beauty salon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons1(String languageCode) async {
+  Future<void> speakbeautysalons1(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
         "She went to a beauty salon for a permanent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons2(String languageCode) async {
+  Future<void> speakbeautysalons2(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("speakBeautysalons22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons3(String languageCode) async {
+  Future<void> speakbeautysalons3(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("speakBeautysalons33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons4(String languageCode) async {
+  Future<void> speakbeautysalons4(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("speakBeautysalons44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons5(String languageCode) async {
+  Future<void> speakbeautysalons5(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("speakBeautysalons55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons6(String languageCode) async {
+  Future<void> speakbeautysalons6(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
     await flutterTts.speak("speakBeautysalons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeautysalons7(String languageCode) async {
+  Future<void> speakbeautysalons7(String languageCode) async {
     // DOPSUM: CHANGE speakBeautysalon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbjuːti sælɒn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBeautysalon("en-GB"),
+                              onPressed: () => speakbeautysalon("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbjuːti səlɑːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBeautysalon("en-US"),
+                              onPressed: () => speakbeautysalon("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybeautysalon extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBeautysalons1("en-GB"),
+                                        speakbeautysalons1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBeautysalons1("en-US"),
+                                        speakbeautysalons1("en-US"),
                                   ),
                                 ],
                               ),

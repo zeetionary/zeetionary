@@ -11,7 +11,7 @@ class EnglishEntryalarm extends StatelessWidget {
   EnglishEntryalarm({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlarm(String languageCode) async {
+  Future<void> speakalarm(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalarm extends StatelessWidget {
     await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm355(String languageCode) async {
+  Future<void> speakalarm355(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalarm extends StatelessWidget {
         .speak("She decided to sound the alarm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm466(String languageCode) async {
+  Future<void> speakalarm466(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalarm extends StatelessWidget {
         "I hammered on all the doors to raise the alarm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm4255(String languageCode) async {
+  Future<void> speakalarm4255(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalarm extends StatelessWidget {
         "A car alarm went off in the middle of the night."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm4522(String languageCode) async {
+  Future<void> speakalarm4522(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalarm extends StatelessWidget {
         .speak("The alarm went off at 7 o'clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm4277(String languageCode) async {
+  Future<void> speakalarm4277(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalarm extends StatelessWidget {
         "The doctor said there was no cause for alarm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm7692(String languageCode) async {
+  Future<void> speakalarm7692(String languageCode) async {
     // DOPSUM: CHANGE speakAlarm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalarm extends StatelessWidget {
         "It alarms me that nobody takes this problem seriously."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlarm(String languageCode) async {
+  // Future<void> speakalarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlarm(String languageCode) async {
+  // Future<void> speakalarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlarm(String languageCode) async {
+  // Future<void> speakalarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlarm(String languageCode) async {
+  // Future<void> speakalarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -105,7 +105,7 @@ class EnglishEntryalarm extends StatelessWidget {
   //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlarm(String languageCode) async {
+  // Future<void> speakalarm(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlarm
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -142,7 +142,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɑːm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlarm("en-GB"),
+                              onPressed: () => speakalarm("en-GB"),
                             ),
                           ],
                         ),
@@ -152,7 +152,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɑːrm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlarm("en-US"),
+                              onPressed: () => speakalarm("en-US"),
                             ),
                           ],
                         ),
@@ -202,10 +202,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm355("en-GB"),
+                                    onPressed: () => speakalarm355("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm355(
+                                    onPressed: () => speakalarm355(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),
@@ -232,10 +232,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm466("en-GB"),
+                                    onPressed: () => speakalarm466("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm466(
+                                    onPressed: () => speakalarm466(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),
@@ -264,10 +264,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm4255("en-GB"),
+                                    onPressed: () => speakalarm4255("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm4255(
+                                    onPressed: () => speakalarm4255(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),
@@ -296,10 +296,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm4522("en-GB"),
+                                    onPressed: () => speakalarm4522("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm4522(
+                                    onPressed: () => speakalarm4522(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),
@@ -328,10 +328,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm4277("en-GB"),
+                                    onPressed: () => speakalarm4277("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm4277(
+                                    onPressed: () => speakalarm4277(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),
@@ -360,10 +360,10 @@ class EnglishEntryalarm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlarm7692("en-GB"),
+                                    onPressed: () => speakalarm7692("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlarm7692(
+                                    onPressed: () => speakalarm7692(
                                         // REPLACE: alarm /əˈlɑːrm/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryallah extends StatelessWidget {
   EnglishEntryallah({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllah(String languageCode) async {
+  Future<void> speakallah(String languageCode) async {
     // DOPSUM: CHANGE speakAllah
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryallah extends StatelessWidget {
     await flutterTts.speak("Allah"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllah359999(String languageCode) async {
+  Future<void> speakallah359999(String languageCode) async {
     // DOPSUM: CHANGE speakAllah
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryallah extends StatelessWidget {
     await flutterTts.speak("It is the will of Allah."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllah(String languageCode) async {
+  // Future<void> speakallah(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllah
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryallah extends StatelessWidget {
   //   await flutterTts.speak("Allah"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllah(String languageCode) async {
+  // Future<void> speakallah(String languageCode) async {
   //   // DOPSUM: CHANGE speakAllah
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryallah extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælə/, /əˈlɑː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllah("en-GB"),
+                              onPressed: () => speakallah("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryallah extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllah("en-US"),
+                              onPressed: () => speakallah("en-US"),
                             ),
                           ],
                         ),
@@ -129,10 +129,10 @@ class EnglishEntryallah extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAllah359999("en-GB"),
+                                    onPressed: () => speakallah359999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAllah359999(
+                                    onPressed: () => speakallah359999(
                                         // REPLACE: Allah /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/
                                         "en-US"),
                                   ),

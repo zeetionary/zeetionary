@@ -11,7 +11,7 @@ class EnglishEntryadaptor extends StatelessWidget {
   EnglishEntryadaptor({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdaptor(String languageCode) async {
+  Future<void> speakadaptor(String languageCode) async {
     // DOPSUM: CHANGE speakAdaptor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadaptor extends StatelessWidget {
     await flutterTts.speak("adaptor"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdaptor(String languageCode) async {
+  // Future<void> speakadaptor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdaptor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryadaptor extends StatelessWidget {
   //   await flutterTts.speak("adaptor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdaptor(String languageCode) async {
+  // Future<void> speakadaptor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdaptor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryadaptor extends StatelessWidget {
   //   await flutterTts.speak("adaptor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdaptor(String languageCode) async {
+  // Future<void> speakadaptor(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdaptor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdæptə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdaptor("en-GB"),
+                              onPressed: () => speakadaptor("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdæptər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdaptor("en-US"),
+                              onPressed: () => speakadaptor("en-US"),
                             ),
                           ],
                         ),

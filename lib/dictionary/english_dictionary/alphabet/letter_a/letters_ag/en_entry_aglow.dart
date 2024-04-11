@@ -11,7 +11,7 @@ class EnglishEntryaglow extends StatelessWidget {
   EnglishEntryaglow({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAglow(String languageCode) async {
+  Future<void> speakaglow(String languageCode) async {
     // DOPSUM: CHANGE speakAglow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaglow extends StatelessWidget {
     await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg4599(String languageCode) async {
+  Future<void> speakag4599(String languageCode) async {
     // DOPSUM: CHANGE speakAglow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaglow extends StatelessWidget {
         "His face was all aglow with excitement."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAglow(String languageCode) async {
+  // Future<void> speakaglow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAglow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaglow extends StatelessWidget {
   //   await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAglow(String languageCode) async {
+  // Future<void> speakaglow(String languageCode) async {
   //   // DOPSUM: CHANGE speakAglow
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaglow extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡləʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAglow("en-GB"),
+                              onPressed: () => speakaglow("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡləʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAglow("en-US"),
+                              onPressed: () => speakaglow("en-US"),
                             ),
                           ],
                         ),
@@ -132,11 +132,11 @@ class EnglishEntryaglow extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAg4599("en-GB"),
+                                    onPressed: () => speakag4599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAg4599(// REPLACE: aglow /əˈɡləʊ/
+                                        speakag4599(// REPLACE: aglow /əˈɡləʊ/
                                             "en-US"),
                                   ),
                                 ],

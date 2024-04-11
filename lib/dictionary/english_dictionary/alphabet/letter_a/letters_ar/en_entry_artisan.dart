@@ -19,7 +19,7 @@ class EnglishEntryartisan extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtisan(String languageCode) async {
+  Future<void> speakartisan(String languageCode) async {
     // DOPSUM: CHANGE speakArtisan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryartisan extends StatelessWidget {
     await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtisan1031(String languageCode) async {
+  Future<void> speakartisan1031(String languageCode) async {
     // DOPSUM: CHANGE speakArtisan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryartisan extends StatelessWidget {
         "You will learn how eighteenth-century artisans did their work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtisan1036(String languageCode) async {
+  Future<void> speakartisan1036(String languageCode) async {
     // DOPSUM: CHANGE speakArtisan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryartisan extends StatelessWidget {
         "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryartisan extends StatelessWidget {
   //   await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryartisan extends StatelessWidget {
   //   await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryartisan extends StatelessWidget {
   //   await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryartisan extends StatelessWidget {
   //   await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryartisan extends StatelessWidget {
   //   await flutterTts.speak("artisan"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtisan(String languageCode) async {
+  // Future<void> speakartisan(String languageCode) async {
   //   // DOPSUM: CHANGE speakArtisan
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -123,7 +123,7 @@ class EnglishEntryartisan extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːtɪˈzæn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtisan("en-GB"),
+                              onPressed: () => speakartisan("en-GB"),
                             ),
                           ],
                         ),
@@ -133,7 +133,7 @@ class EnglishEntryartisan extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtəzn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtisan("en-US"),
+                              onPressed: () => speakartisan("en-US"),
                             ),
                           ],
                         ),
@@ -183,10 +183,10 @@ class EnglishEntryartisan extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtisan1031("en-GB"),
+                                    onPressed: () => speakartisan1031("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtisan1031(
+                                    onPressed: () => speakartisan1031(
                                         // REPLACE: artisan /ˈɑːrtəzn/
                                         "en-US"),
                                   ),
@@ -216,10 +216,10 @@ class EnglishEntryartisan extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArtisan1036("en-GB"),
+                                    onPressed: () => speakartisan1036("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtisan1036(
+                                    onPressed: () => speakartisan1036(
                                         // REPLACE: artisan /ˈɑːrtəzn/
                                         "en-US"),
                                   ),

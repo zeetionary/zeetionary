@@ -19,7 +19,7 @@ class EnglishEntrybat extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBat(String languageCode) async {
+  Future<void> speakbat(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybat extends StatelessWidget {
     await flutterTts.speak("bat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats1(String languageCode) async {
+  Future<void> speakbats1(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybat extends StatelessWidget {
         .speak("She showed me how to hold the bat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats2(String languageCode) async {
+  Future<void> speakbats2(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybat extends StatelessWidget {
         "Some bats live in caves, while others live in trees or in buildings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats3(String languageCode) async {
+  Future<void> speakbats3(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybat extends StatelessWidget {
     await flutterTts.speak("He bats very well."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats4(String languageCode) async {
+  Future<void> speakbats4(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybat extends StatelessWidget {
     await flutterTts.speak("He batted the wasp away."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats5(String languageCode) async {
+  Future<void> speakbats5(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybat extends StatelessWidget {
     await flutterTts.speak("speakBats55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats6(String languageCode) async {
+  Future<void> speakbats6(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybat extends StatelessWidget {
     await flutterTts.speak("speakBats66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBats7(String languageCode) async {
+  Future<void> speakbats7(String languageCode) async {
     // DOPSUM: CHANGE speakBat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybat extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bæt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBat("en-GB"),
+                              onPressed: () => speakbat("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybat extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bæt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBat("en-US"),
+                              onPressed: () => speakbat("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBats1("en-GB"),
+                                    onPressed: () => speakbats1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBats1("en-US"),
+                                    onPressed: () => speakbats1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBats2("en-GB"),
+                                    onPressed: () => speakbats2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBats2("en-US"),
+                                    onPressed: () => speakbats2("en-US"),
                                   ),
                                 ],
                               ),
@@ -230,10 +230,10 @@ class EnglishEntrybat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBats3("en-GB"),
+                                    onPressed: () => speakbats3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBats3("en-US"),
+                                    onPressed: () => speakbats3("en-US"),
                                   ),
                                 ],
                               ),
@@ -260,10 +260,10 @@ class EnglishEntrybat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBats4("en-GB"),
+                                    onPressed: () => speakbats4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBats4("en-US"),
+                                    onPressed: () => speakbats4("en-US"),
                                   ),
                                 ],
                               ),

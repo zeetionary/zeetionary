@@ -11,7 +11,7 @@ class EnglishEntryacorn extends StatelessWidget {
   EnglishEntryacorn({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcorn(String languageCode) async {
+  Future<void> speakacorn(String languageCode) async {
     // DOPSUM: CHANGE speakAcorn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryacorn extends StatelessWidget {
     await flutterTts.speak("acorn"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcorn(String languageCode) async {
+  // Future<void> speakacorn(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcorn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryacorn extends StatelessWidget {
   //   await flutterTts.speak("acorn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcorn(String languageCode) async {
+  // Future<void> speakacorn(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcorn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntryacorn extends StatelessWidget {
   //   await flutterTts.speak("acorn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcorn(String languageCode) async {
+  // Future<void> speakacorn(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcorn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryacorn extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪkɔːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcorn("en-GB"),
+                              onPressed: () => speakacorn("en-GB"),
                             ),
                           ],
                         ),
@@ -80,7 +80,7 @@ class EnglishEntryacorn extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪkɔːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcorn("en-US"),
+                              onPressed: () => speakacorn("en-US"),
                             ),
                           ],
                         ),

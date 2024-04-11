@@ -11,7 +11,7 @@ class EnglishEntryancillary extends StatelessWidget {
   EnglishEntryancillary({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAncillary(String languageCode) async {
+  Future<void> speakancillary(String languageCode) async {
     // DOPSUM: CHANGE speakAncillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryancillary extends StatelessWidget {
     await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAncillary1140(String languageCode) async {
+  Future<void> speakancillary1140(String languageCode) async {
     // DOPSUM: CHANGE speakAncillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryancillary extends StatelessWidget {
         "Ancillary workers support the hospital staff in various non-medical roles."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAncillary0958(String languageCode) async {
+  Future<void> speakancillary0958(String languageCode) async {
     // DOPSUM: CHANGE speakAncillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryancillary extends StatelessWidget {
         "Ancillary rights are often included in entertainment industry contracts for creators."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryancillary extends StatelessWidget {
   //   await flutterTts.speak("ancillary"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAncillary(String languageCode) async {
+  // Future<void> speakancillary(String languageCode) async {
   //   // DOPSUM: CHANGE speakAncillary
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈsɪləri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAncillary("en-GB"),
+                              onPressed: () => speakancillary("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænsəleri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAncillary("en-US"),
+                              onPressed: () => speakancillary("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryancillary extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAncillary1140("en-GB"),
+                                        speakancillary1140("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAncillary1140(
+                                    onPressed: () => speakancillary1140(
                                         // REPLACE: ancillary /ˈænsəleri/
                                         "en-US"),
                                   ),
@@ -210,10 +210,10 @@ class EnglishEntryancillary extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAncillary0958("en-GB"),
+                                        speakancillary0958("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAncillary0958(
+                                    onPressed: () => speakancillary0958(
                                         // REPLACE: ancillary /ˈænsəleri/
                                         "en-US"),
                                   ),

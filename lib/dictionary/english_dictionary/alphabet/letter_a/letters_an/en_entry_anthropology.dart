@@ -13,7 +13,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnthropology(String languageCode) async {
+  Future<void> speakanthropology(String languageCode) async {
     // DOPSUM: CHANGE speakAnthropology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryanthropology extends StatelessWidget {
     await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnthropology845(String languageCode) async {
+  Future<void> speakanthropology845(String languageCode) async {
     // DOPSUM: CHANGE speakAnthropology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryanthropology extends StatelessWidget {
         "Social anthropology examines family relationships in detail."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryanthropology extends StatelessWidget {
   //   await flutterTts.speak("anthropology"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnthropology(String languageCode) async {
+  // Future<void> speakanthropology(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnthropology
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryanthropology extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænθrəˈpɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthropology("en-GB"),
+                              onPressed: () => speakanthropology("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryanthropology extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænθrəˈpɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthropology("en-US"),
+                              onPressed: () => speakanthropology("en-US"),
                             ),
                           ],
                         ),
@@ -174,10 +174,10 @@ class EnglishEntryanthropology extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAnthropology845("en-GB"),
+                                        speakanthropology845("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnthropology845(
+                                    onPressed: () => speakanthropology845(
                                         // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
                                         "en-US"),
                                   ),

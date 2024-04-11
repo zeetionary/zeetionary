@@ -13,7 +13,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntibiotic(String languageCode) async {
+  Future<void> speakantibiotic(String languageCode) async {
     // DOPSUM: CHANGE speakAntibiotic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
     await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntibiotic958(String languageCode) async {
+  Future<void> speakantibiotic958(String languageCode) async {
     // DOPSUM: CHANGE speakAntibiotic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
         .speak("The doctor put her on antibiotics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
   //   await flutterTts.speak("antibiotic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntibiotic(String languageCode) async {
+  // Future<void> speakantibiotic(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntibiotic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntibaɪˈɒtɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntibiotic("en-GB"),
+                              onPressed: () => speakantibiotic("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntibiotic("en-US"),
+                              onPressed: () => speakantibiotic("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntibiotic958("en-GB"),
+                                        speakantibiotic958("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntibiotic958(
+                                    onPressed: () => speakantibiotic958(
                                         // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/
                                         "en-US"),
                                   ),

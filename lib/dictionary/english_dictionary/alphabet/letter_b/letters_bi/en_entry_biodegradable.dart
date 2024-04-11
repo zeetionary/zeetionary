@@ -19,7 +19,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBiodegradable(String languageCode) async {
+  Future<void> speakbiodegradable(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("biodegradable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables1(String languageCode) async {
+  Future<void> speakbiodegradables1(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
         .speak("Most plastics are not biodegradable."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables2(String languageCode) async {
+  Future<void> speakbiodegradables2(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("speakBiodegradables22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables3(String languageCode) async {
+  Future<void> speakbiodegradables3(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("speakBiodegradables33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables4(String languageCode) async {
+  Future<void> speakbiodegradables4(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("speakBiodegradables44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables5(String languageCode) async {
+  Future<void> speakbiodegradables5(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("speakBiodegradables55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables6(String languageCode) async {
+  Future<void> speakbiodegradables6(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
     await flutterTts.speak("speakBiodegradables66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBiodegradables7(String languageCode) async {
+  Future<void> speakbiodegradables7(String languageCode) async {
     // DOPSUM: CHANGE speakBiodegradable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌbaɪəʊdɪˈɡreɪdəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBiodegradable("en-GB"),
+                              onPressed: () => speakbiodegradable("en-GB"),
                             ),
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUS: /ˌbaɪəʊdɪˈɡreɪdəbl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBiodegradable("en-US"),
+                              onPressed: () => speakbiodegradable("en-US"),
                             ),
                           ],
                         ),
@@ -171,11 +171,11 @@ class EnglishEntrybiodegradable extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBiodegradables1("en-GB"),
+                                        speakbiodegradables1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBiodegradables1("en-US"),
+                                        speakbiodegradables1("en-US"),
                                   ),
                                 ],
                               ),

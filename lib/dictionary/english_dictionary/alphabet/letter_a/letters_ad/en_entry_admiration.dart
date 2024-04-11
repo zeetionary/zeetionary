@@ -11,7 +11,7 @@ class EnglishEntryadmiration extends StatelessWidget {
   EnglishEntryadmiration({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdmiration(String languageCode) async {
+  Future<void> speakadmiration(String languageCode) async {
     // DOPSUM: CHANGE speakAdmiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadmiration extends StatelessWidget {
     await flutterTts.speak("admiration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmira85971(String languageCode) async {
+  Future<void> speakadmira85971(String languageCode) async {
     // DOPSUM: CHANGE speakAdmiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadmiration extends StatelessWidget {
         "I have great admiration for her as a writer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdmiration(String languageCode) async {
+  // Future<void> speakadmiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryadmiration extends StatelessWidget {
   //   await flutterTts.speak("admiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdmiration(String languageCode) async {
+  // Future<void> speakadmiration(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryadmiration extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædməˈreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdmiration("en-GB"),
+                              onPressed: () => speakadmiration("en-GB"),
                             ),
                           ],
                         ),
@@ -82,7 +82,7 @@ class EnglishEntryadmiration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædməˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmiration("en-US"),
+                              onPressed: () => speakadmiration("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryadmiration extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdmira85971("en-GB"),
+                                    onPressed: () => speakadmira85971("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdmira85971(
+                                    onPressed: () => speakadmira85971(
                                         // REPLACE: admiration /ˌædməˈreɪʃn/
                                         "en-US"),
                                   ),

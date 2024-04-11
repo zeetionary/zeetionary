@@ -15,7 +15,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntithesis(String languageCode) async {
+  Future<void> speakantithesis(String languageCode) async {
     // DOPSUM: CHANGE speakAntithesis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -23,7 +23,7 @@ class EnglishEntryantithesis extends StatelessWidget {
     await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntithesis1248(String languageCode) async {
+  Future<void> speakantithesis1248(String languageCode) async {
     // DOPSUM: CHANGE speakAntithesis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -32,7 +32,7 @@ class EnglishEntryantithesis extends StatelessWidget {
         "Students finishing their education at 16 is the very antithesis of what society needs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntithesis1251(String languageCode) async {
+  Future<void> speakantithesis1251(String languageCode) async {
     // DOPSUM: CHANGE speakAntithesis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -41,7 +41,7 @@ class EnglishEntryantithesis extends StatelessWidget {
         "There is an antithesis between the needs of the state and the needs of the people."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -49,7 +49,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -65,7 +65,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryantithesis extends StatelessWidget {
   //   await flutterTts.speak("antithesis"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntithesis(String languageCode) async {
+  // Future<void> speakantithesis(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntithesis
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɪθəsɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntithesis("en-GB"),
+                              onPressed: () => speakantithesis("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɪθəsɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntithesis("en-US"),
+                              onPressed: () => speakantithesis("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntithesis1248("en-GB"),
+                                        speakantithesis1248("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntithesis1248(
+                                    onPressed: () => speakantithesis1248(
                                         // REPLACE: antithesis /ænˈtɪθəsɪs/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntithesis1251("en-GB"),
+                                        speakantithesis1251("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntithesis1251(
+                                    onPressed: () => speakantithesis1251(
                                         // REPLACE: antithesis /ænˈtɪθəsɪs/
                                         "en-US"),
                                   ),

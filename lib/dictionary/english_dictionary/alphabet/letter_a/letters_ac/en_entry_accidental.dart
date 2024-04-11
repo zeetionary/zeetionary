@@ -11,7 +11,7 @@ class EnglishEntryaccidental extends StatelessWidget {
   EnglishEntryaccidental({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccidental(String languageCode) async {
+  Future<void> speakaccidental(String languageCode) async {
     // DOPSUM: CHANGE speakAccidental
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccidental extends StatelessWidget {
     await flutterTts.speak("accidental"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA1598(String languageCode) async {
+  Future<void> speaka1598(String languageCode) async {
     // DOPSUM: CHANGE speakAccidental
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -57,7 +57,7 @@ class EnglishEntryaccidental extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæksɪˈdentl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccidental("en-GB"),
+                              onPressed: () => speakaccidental("en-GB"),
                             ),
                           ],
                         ),
@@ -67,7 +67,7 @@ class EnglishEntryaccidental extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæksɪˈdentl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccidental("en-US"),
+                              onPressed: () => speakaccidental("en-US"),
                             ),
                           ],
                         ),
@@ -118,10 +118,10 @@ class EnglishEntryaccidental extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakA1598("en-GB"),
+                                    onPressed: () => speaka1598("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakA1598("en-US"),
+                                    onPressed: () => speaka1598("en-US"),
                                   ),
                                 ],
                               ),

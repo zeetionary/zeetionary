@@ -17,7 +17,7 @@ class EnglishEntryarabic extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArabic(String languageCode) async {
+  Future<void> speakarabic(String languageCode) async {
     // DOPSUM: CHANGE speakArabic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarabic extends StatelessWidget {
     await flutterTts.speak("arabic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArabic1010(String languageCode) async {
+  Future<void> speakarabic1010(String languageCode) async {
     // DOPSUM: CHANGE speakArabic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarabic extends StatelessWidget {
         "Arabic is very difficult to learn for many people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArabic1012(String languageCode) async {
+  Future<void> speakarabic1012(String languageCode) async {
     // DOPSUM: CHANGE speakArabic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarabic extends StatelessWidget {
         "Hebrew and Arabic are Semitic languages."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArabic1017(String languageCode) async {
+  Future<void> speakarabic1017(String languageCode) async {
     // DOPSUM: CHANGE speakArabic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryarabic extends StatelessWidget {
         "The themes in Arabic poetry often revolve around love, nature, and cultural identity."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArabic(String languageCode) async {
+  // Future<void> speakarabic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarabic extends StatelessWidget {
   //   await flutterTts.speak("arabic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabic(String languageCode) async {
+  // Future<void> speakarabic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryarabic extends StatelessWidget {
   //   await flutterTts.speak("arabic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabic(String languageCode) async {
+  // Future<void> speakarabic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryarabic extends StatelessWidget {
   //   await flutterTts.speak("arabic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabic(String languageCode) async {
+  // Future<void> speakarabic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryarabic extends StatelessWidget {
   //   await flutterTts.speak("arabic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArabic(String languageCode) async {
+  // Future<void> speakarabic(String languageCode) async {
   //   // DOPSUM: CHANGE speakArabic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -122,7 +122,7 @@ class EnglishEntryarabic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəbɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArabic("en-GB"),
+                              onPressed: () => speakarabic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,7 +132,7 @@ class EnglishEntryarabic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəbɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArabic("en-US"),
+                              onPressed: () => speakarabic("en-US"),
                             ),
                           ],
                         ),
@@ -181,10 +181,10 @@ class EnglishEntryarabic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArabic1010("en-GB"),
+                                    onPressed: () => speakarabic1010("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArabic1010(
+                                    onPressed: () => speakarabic1010(
                                         // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
                                   ),
@@ -212,10 +212,10 @@ class EnglishEntryarabic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArabic1012("en-GB"),
+                                    onPressed: () => speakarabic1012("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArabic1012(
+                                    onPressed: () => speakarabic1012(
                                         // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
                                   ),
@@ -245,10 +245,10 @@ class EnglishEntryarabic extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArabic1017("en-GB"),
+                                    onPressed: () => speakarabic1017("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArabic1017(
+                                    onPressed: () => speakarabic1017(
                                         // REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryadoption extends StatelessWidget {
   EnglishEntryadoption({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdoption(String languageCode) async {
+  Future<void> speakadoption(String languageCode) async {
     // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadoption extends StatelessWidget {
     await flutterTts.speak("adoption"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdopt58694(String languageCode) async {
+  Future<void> speakadopt58694(String languageCode) async {
     // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadoption extends StatelessWidget {
         .speak("She put the baby up for adoption."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdop5861(String languageCode) async {
+  Future<void> speakadop5861(String languageCode) async {
     // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadoption extends StatelessWidget {
         "The widespread adoption of new technology could save 162 billion dollars a year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdop25674(String languageCode) async {
+  Future<void> speakadop25674(String languageCode) async {
     // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadoption extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɒpʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdoption("en-GB"),
+                              onPressed: () => speakadoption("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadoption extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɑːpʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdoption("en-US"),
+                              onPressed: () => speakadoption("en-US"),
                             ),
                           ],
                         ),
@@ -132,10 +132,10 @@ class EnglishEntryadoption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdopt58694("en-GB"),
+                                    onPressed: () => speakadopt58694("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdopt58694(
+                                    onPressed: () => speakadopt58694(
                                         // REPLACE: adoption /əˈdɑːpʃn/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryadoption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdop5861("en-GB"),
+                                    onPressed: () => speakadop5861("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdop5861(
+                                    onPressed: () => speakadop5861(
                                         // REPLACE: adoption /əˈdɑːpʃn/
                                         "en-US"),
                                   ),
@@ -196,10 +196,10 @@ class EnglishEntryadoption extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdop25674("en-GB"),
+                                    onPressed: () => speakadop25674("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdop25674(
+                                    onPressed: () => speakadop25674(
                                         // REPLACE: adoption /əˈdɑːpʃn/
                                         "en-US"),
                                   ),

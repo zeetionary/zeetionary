@@ -17,7 +17,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAperitif(String languageCode) async {
+  Future<void> speakaperitif(String languageCode) async {
     // DOPSUM: CHANGE speakAperitif
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaperitif extends StatelessWidget {
     await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAperitif144(String languageCode) async {
+  Future<void> speakaperitif144(String languageCode) async {
     // DOPSUM: CHANGE speakAperitif
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaperitif extends StatelessWidget {
         .speak("This vermouth is a delicious aperitif."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryaperitif extends StatelessWidget {
   //   await flutterTts.speak("aperitif"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAperitif(String languageCode) async {
+  // Future<void> speakaperitif(String languageCode) async {
   //   // DOPSUM: CHANGE speakAperitif
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -120,7 +120,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌperəˈtiːf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAperitif("en-GB"),
+                              onPressed: () => speakaperitif("en-GB"),
                             ),
                           ],
                         ),
@@ -130,7 +130,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌperəˈtiːf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAperitif("en-US"),
+                              onPressed: () => speakaperitif("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryaperitif extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAperitif144("en-GB"),
+                                    onPressed: () => speakaperitif144("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAperitif144(
+                                    onPressed: () => speakaperitif144(
                                         // REPLACE: aperitif /əˌperəˈtiːf/
                                         "en-US"),
                                   ),

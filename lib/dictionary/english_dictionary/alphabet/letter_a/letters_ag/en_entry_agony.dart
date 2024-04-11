@@ -11,7 +11,7 @@ class EnglishEntryagony extends StatelessWidget {
   EnglishEntryagony({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgony(String languageCode) async {
+  Future<void> speakagony(String languageCode) async {
     // DOPSUM: CHANGE speakAgony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagony extends StatelessWidget {
     await flutterTts.speak("agony"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgo1488(String languageCode) async {
+  Future<void> speakago1488(String languageCode) async {
     // DOPSUM: CHANGE speakAgony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryagony extends StatelessWidget {
     await flutterTts.speak("The soldier died in agony."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgo1566(String languageCode) async {
+  Future<void> speakago1566(String languageCode) async {
     // DOPSUM: CHANGE speakAgony
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagony extends StatelessWidget {
         .speak("Jack collapsed in agony on the floor."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgony(String languageCode) async {
+  // Future<void> speakagony(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgony
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryagony extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡəni/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgony("en-GB"),
+                              onPressed: () => speakagony("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryagony extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgony("en-US"),
+                              onPressed: () => speakagony("en-US"),
                             ),
                           ],
                         ),
@@ -129,11 +129,11 @@ class EnglishEntryagony extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgo1488("en-GB"),
+                                    onPressed: () => speakago1488("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgo1488(// REPLACE: agony /ˈæɡəni/
+                                        speakago1488(// REPLACE: agony /ˈæɡəni/
                                             "en-US"),
                                   ),
                                 ],
@@ -159,11 +159,11 @@ class EnglishEntryagony extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAgo1566("en-GB"),
+                                    onPressed: () => speakago1566("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAgo1566(// REPLACE: agony /ˈæɡəni/
+                                        speakago1566(// REPLACE: agony /ˈæɡəni/
                                             "en-US"),
                                   ),
                                 ],

@@ -11,7 +11,7 @@ class EnglishEntryahead extends StatelessWidget {
   EnglishEntryahead({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAhead(String languageCode) async {
+  Future<void> speakahead(String languageCode) async {
     // DOPSUM: CHANGE speakAhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryahead extends StatelessWidget {
     await flutterTts.speak("ahead"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead24999(String languageCode) async {
+  Future<void> speakahead24999(String languageCode) async {
     // DOPSUM: CHANGE speakAhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryahead extends StatelessWidget {
         .speak("I'll run ahead and warn them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead12555(String languageCode) async {
+  Future<void> speakahead12555(String languageCode) async {
     // DOPSUM: CHANGE speakAhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryahead extends StatelessWidget {
         "This will create problems in the months ahead."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead43582(String languageCode) async {
+  Future<void> speakahead43582(String languageCode) async {
     // DOPSUM: CHANGE speakAhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryahead extends StatelessWidget {
         .speak("The party was planned weeks ahead."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead24331(String languageCode) async {
+  Future<void> speakahead24331(String languageCode) async {
     // DOPSUM: CHANGE speakAhead
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryahead extends StatelessWidget {
         .speak("Our team was ahead by six points."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAhead(String languageCode) async {
+  // Future<void> speakahead(String languageCode) async {
   //   // DOPSUM: CHANGE speakAhead
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryahead extends StatelessWidget {
   //   await flutterTts.speak("ahead"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAhead(String languageCode) async {
+  // Future<void> speakahead(String languageCode) async {
   //   // DOPSUM: CHANGE speakAhead
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryahead extends StatelessWidget {
   //   await flutterTts.speak("ahead"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAhead(String languageCode) async {
+  // Future<void> speakahead(String languageCode) async {
   //   // DOPSUM: CHANGE speakAhead
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryahead extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈhed/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAhead("en-GB"),
+                              onPressed: () => speakahead("en-GB"),
                             ),
                           ],
                         ),
@@ -116,7 +116,7 @@ class EnglishEntryahead extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈhed/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAhead("en-US"),
+                              onPressed: () => speakahead("en-US"),
                             ),
                           ],
                         ),
@@ -164,10 +164,10 @@ class EnglishEntryahead extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead24999("en-GB"),
+                                    onPressed: () => speakahead24999("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead24999(
+                                    onPressed: () => speakahead24999(
                                         // REPLACE: ahead /əˈhed/
                                         "en-US"),
                                   ),
@@ -194,10 +194,10 @@ class EnglishEntryahead extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead12555("en-GB"),
+                                    onPressed: () => speakahead12555("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead12555(
+                                    onPressed: () => speakahead12555(
                                         // REPLACE: ahead /əˈhed/
                                         "en-US"),
                                   ),
@@ -226,10 +226,10 @@ class EnglishEntryahead extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead43582("en-GB"),
+                                    onPressed: () => speakahead43582("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead43582(
+                                    onPressed: () => speakahead43582(
                                         // REPLACE: ahead /əˈhed/
                                         "en-US"),
                                   ),
@@ -257,10 +257,10 @@ class EnglishEntryahead extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAhead24331("en-GB"),
+                                    onPressed: () => speakahead24331("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAhead24331(
+                                    onPressed: () => speakahead24331(
                                         // REPLACE: ahead /əˈhed/
                                         "en-US"),
                                   ),

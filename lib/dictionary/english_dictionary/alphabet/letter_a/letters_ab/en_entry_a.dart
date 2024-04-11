@@ -3,19 +3,322 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
+
 enum TtsState { playing }
 
-class EnglishEntrya extends StatelessWidget {
-  EnglishEntrya({super.key});
-  // EnglishEntrya({super.key});
+class EnglishEntrya extends StatefulWidget {
+  const EnglishEntrya({super.key});
+
+  @override
+  State<EnglishEntrya> createState() => _EnglishEntryaState();
+}
+
+class _EnglishEntryaState extends State<EnglishEntrya> {
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class EntryAndIPA extends StatelessWidget {
+  const EntryAndIPA({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // const TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TitleOfEntry extends StatelessWidget {
+  const TitleOfEntry({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "a");
+  }
+}
+
+class TitleOfEntryAlso extends StatelessWidget {
+  const TitleOfEntryAlso({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: an (before vowel sounds)");
+  }
+}
+
+class IpaUK extends StatelessWidget {
+  const IpaUK({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
+}
+
+class IpaUKtext extends StatelessWidget {
+  const IpaUKtext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ə/");
+  }
+}
+
+class TTSUK extends StatelessWidget {
+  TTSUK({
+    super.key,
+  });
+
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakA(String languageCode) async {
-    // DOPSUM: CHANGE speakA
+  Future<void> speaka(String languageCode) async {
+    // DOPSUM: CHANGE speaka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("a"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speaka("en-GB"),
+    );
+  }
+}
+
+class IpaUS extends StatelessWidget {
+  const IpaUS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
+}
+
+class IpaUStext extends StatelessWidget {
+  const IpaUStext({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ə/");
+  }
+}
+
+class TTSUS extends StatelessWidget {
+  TTSUS({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speaka(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("a"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speaka("en-US"),
+    );
+  }
+}
+
+class KurdishMeaning extends StatelessWidget {
+  KurdishMeaning({
+    super.key,
+  });
+
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakas1(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "// speakas111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas2(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas3(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas4(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas5(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas6(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas7(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas8(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas9(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas10(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas11(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas12(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakas13(String languageCode) async {
+    // DOPSUM: CHANGE speaka
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakas1300"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speak142574(String languageCode) async {
@@ -113,394 +416,296 @@ class EnglishEntrya extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
-          child: Column(
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """
+١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون"""),
+          Row(
             children: [
-              SingleChildScrollView(
+              const Expanded(
                 child: Column(
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "a"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        const Row(
-                          children: [
-                            AlsoEnglish(
-                                word:
-                                    "also: an (before vowel sounds)"), // DOPSUM: CHANGE WORD ENTRY
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ə/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakA("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakA("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
+                    ExampleSentenceEnglish(
+                        text: "I can only carry two at a time."),
+                    ExampleSentenceKurdish(
+                        text: "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم."),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak142574("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak142574("en-US"),
+                  ),
                 ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I can only carry two at a time."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak142574("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak142574("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "There's a visitor for you."),
-                                    ExampleSentenceKurdish(
-                                        text: "میوانێکت ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak48652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak48652("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I went there on an auspicious day."),
-                                    ExampleSentenceKurdish(
-                                        text: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakan142574("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakan142574("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "There's an animal on the street."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاژەڵێک لەسەر شەقامەکەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakan48652("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakan48652("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's a Buddhist."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەو بوودییە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak45287("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak45287("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "She's an atheist."),
-                                    ExampleSentenceKurdish(
-                                        text: "ئەو بێ‌دینە."),
-                                  ],
-                                ),
-                              ),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakan45287("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakan45287("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A lion is a dangerous animal."),
-                                    ExampleSentenceKurdish(
-                                        text: "شێر ئاژەڵێکی دڕندەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak197524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak197524("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "A lion is an animal."),
-                                    ExampleSentenceKurdish(
-                                        text: "شێر ئاژەڵێکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakan197524("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakan197524("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "a good knowledge of French."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "زانیارییەکی باشی زمانی فەرەنسی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak475968("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak475968("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have a pen."),
-                                    ExampleSentenceKurdish(
-                                        text: "پێنووسێکم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak63328("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak63328("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have an apple."),
-                                    ExampleSentenceKurdish(
-                                        text: "سێوێکم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakan63328("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakan63328("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedend(),
-                      ],
-                    ),
-                  ],
-                ),
               ),
             ],
           ),
-        ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "There's a visitor for you."),
+                    ExampleSentenceKurdish(text: "میوانێکت ھەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak48652("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak48652("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I went there on an auspicious day."),
+                    ExampleSentenceKurdish(
+                        text: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakan142574("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakan142574("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "There's an animal on the street."),
+                    ExampleSentenceKurdish(text: "ئاژەڵێک لەسەر شەقامەکەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakan48652("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakan48652("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She's a Buddhist."),
+                    ExampleSentenceKurdish(text: "ئەو بوودییە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak45287("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak45287("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She's an atheist."),
+                    ExampleSentenceKurdish(text: "ئەو بێ‌دینە."),
+                  ],
+                ),
+              ),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakan45287("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakan45287("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "A lion is a dangerous animal."),
+                    ExampleSentenceKurdish(text: "شێر ئاژەڵێکی دڕندەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak197524("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak197524("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "A lion is an animal."),
+                    ExampleSentenceKurdish(text: "شێر ئاژەڵێکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakan197524("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakan197524("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "a good knowledge of French."),
+                    ExampleSentenceKurdish(
+                        text: "زانیارییەکی باشی زمانی فەرەنسی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak475968("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak475968("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I have a pen."),
+                    ExampleSentenceKurdish(text: "پێنووسێکم ھەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak63328("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak63328("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I have an apple."),
+                    ExampleSentenceKurdish(text: "سێوێکم ھەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakan63328("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakan63328("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
@@ -535,7 +740,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
+// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -545,7 +750,7 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
+// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 Article:
@@ -645,4 +850,166 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeVideos extends StatelessWidget {
+  const YoutubeVideos({
+    super.key,
+  });
+// speakas111111111111111111111111111111111
+
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        // YoutubeEmbeddedtwo(),
+        // YoutubeEmbeddedthree(),
+        // YoutubeEmbeddedfour(),
+        // YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
+}
+
+// end WORD_WEB

@@ -19,7 +19,7 @@ class EnglishEntrybee extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBee(String languageCode) async {
+  Future<void> speakbee(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybee extends StatelessWidget {
     await flutterTts.speak("bee"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees1(String languageCode) async {
+  Future<void> speakbees1(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybee extends StatelessWidget {
         .speak("Bees were buzzing outside the window."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees2(String languageCode) async {
+  Future<void> speakbees2(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybee extends StatelessWidget {
         "The school held a spelling bee to see who could spell the most words correctly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees3(String languageCode) async {
+  Future<void> speakbees3(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybee extends StatelessWidget {
     await flutterTts.speak("speakBees33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees4(String languageCode) async {
+  Future<void> speakbees4(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntrybee extends StatelessWidget {
     await flutterTts.speak("speakBees44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees5(String languageCode) async {
+  Future<void> speakbees5(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntrybee extends StatelessWidget {
     await flutterTts.speak("speakBees55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees6(String languageCode) async {
+  Future<void> speakbees6(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntrybee extends StatelessWidget {
     await flutterTts.speak("speakBees66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBees7(String languageCode) async {
+  Future<void> speakbees7(String languageCode) async {
     // DOPSUM: CHANGE speakBee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -112,7 +112,7 @@ class EnglishEntrybee extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /biː/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBee("en-GB"),
+                              onPressed: () => speakbee("en-GB"),
                             ),
                           ],
                         ),
@@ -120,7 +120,7 @@ class EnglishEntrybee extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /biː/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBee("en-US"),
+                              onPressed: () => speakbee("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybee extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBees1("en-GB"),
+                                    onPressed: () => speakbees1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBees1("en-US"),
+                                    onPressed: () => speakbees1("en-US"),
                                   ),
                                 ],
                               ),
@@ -201,10 +201,10 @@ class EnglishEntrybee extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBees2("en-GB"),
+                                    onPressed: () => speakbees2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBees2("en-US"),
+                                    onPressed: () => speakbees2("en-US"),
                                   ),
                                 ],
                               ),

@@ -17,7 +17,7 @@ class EnglishEntryarch extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArch(String languageCode) async {
+  Future<void> speakarch(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch135(String languageCode) async {
+  Future<void> speakarch135(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarch extends StatelessWidget {
         "The bridge they built over the river has three arches."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch140(String languageCode) async {
+  Future<void> speakarch140(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryarch extends StatelessWidget {
         "Go through the arch and follow the path."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch143(String languageCode) async {
+  Future<void> speakarch143(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryarch extends StatelessWidget {
     await flutterTts.speak("She has very high arches."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch148(String languageCode) async {
+  Future<void> speakarch148(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryarch extends StatelessWidget {
         "The branches of the trees formed an arch over the bench."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch152(String languageCode) async {
+  Future<void> speakarch152(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryarch extends StatelessWidget {
         .speak("Tall trees arched over the path."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArch159(String languageCode) async {
+  Future<void> speakarch159(String languageCode) async {
     // DOPSUM: CHANGE speakArch
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryarch extends StatelessWidget {
         "Using an arch tone doesn't always mean being mean; it can add humor to discussions."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArch(String languageCode) async {
+  // Future<void> speakarch(String languageCode) async {
   //   // DOPSUM: CHANGE speakArch
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -86,7 +86,7 @@ class EnglishEntryarch extends StatelessWidget {
   //   await flutterTts.speak("arch"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArch(String languageCode) async {
+  // Future<void> speakarch(String languageCode) async {
   //   // DOPSUM: CHANGE speakArch
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːtʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArch("en-GB"),
+                              onPressed: () => speakarch("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrtʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArch("en-US"),
+                              onPressed: () => speakarch("en-US"),
                             ),
                           ],
                         ),
@@ -184,11 +184,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch135("en-GB"),
+                                    onPressed: () => speakarch135("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch135(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch135(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -217,11 +217,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch140("en-GB"),
+                                    onPressed: () => speakarch140("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch140(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch140(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch143("en-GB"),
+                                    onPressed: () => speakarch143("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch143(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch143(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -281,11 +281,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch148("en-GB"),
+                                    onPressed: () => speakarch148("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch148(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch148(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -314,11 +314,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch148("en-GB"),
+                                    onPressed: () => speakarch148("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch148(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch148(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -347,11 +347,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch152("en-GB"),
+                                    onPressed: () => speakarch152("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch152(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch152(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],
@@ -380,11 +380,11 @@ class EnglishEntryarch extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakArch159("en-GB"),
+                                    onPressed: () => speakarch159("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakArch159(// REPLACE: arch /ɑːrtʃ/
+                                        speakarch159(// REPLACE: arch /ɑːrtʃ/
                                             "en-US"),
                                   ),
                                 ],

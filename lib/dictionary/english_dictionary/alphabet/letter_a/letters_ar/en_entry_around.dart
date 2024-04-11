@@ -17,7 +17,7 @@ class EnglishEntryaround extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAround(String languageCode) async {
+  Future<void> speakaround(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryaround extends StatelessWidget {
     await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1058(String languageCode) async {
+  Future<void> speakaround1058(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryaround extends StatelessWidget {
         "The house is built around a central courtyard."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1100(String languageCode) async {
+  Future<void> speakaround1100(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("He put his arms around her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1106(String languageCode) async {
+  Future<void> speakaround1106(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("The bus came around the bend."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1107(String languageCode) async {
+  Future<void> speakaround1107(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("Our house is just around the corner."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1109(String languageCode) async {
+  Future<void> speakaround1109(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("They walked around the lake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1112(String languageCode) async {
+  Future<void> speakaround1112(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryaround extends StatelessWidget {
         "They walked around the town looking for a place to eat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1114(String languageCode) async {
+  Future<void> speakaround1114(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryaround extends StatelessWidget {
         "I can't arrange everything around your timetable!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1115(String languageCode) async {
+  Future<void> speakaround1115(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,7 +97,7 @@ class EnglishEntryaround extends StatelessWidget {
         "There are a lot of questions around her motivation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1117(String languageCode) async {
+  Future<void> speakaround1117(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -106,7 +106,7 @@ class EnglishEntryaround extends StatelessWidget {
         "The cost would be somewhere around £1 500."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1118(String languageCode) async {
+  Future<void> speakaround1118(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("I could hear laughter all around."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1120(String languageCode) async {
+  Future<void> speakaround1120(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("How do you make the wheels go around?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1123(String languageCode) async {
+  Future<void> speakaround1123(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -133,7 +133,7 @@ class EnglishEntryaround extends StatelessWidget {
         "She turned the car around and drove off."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1125(String languageCode) async {
+  Future<void> speakaround1125(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -142,7 +142,7 @@ class EnglishEntryaround extends StatelessWidget {
         "I saw an old tree that was at least ten feet around."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1128(String languageCode) async {
+  Future<void> speakaround1128(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -151,7 +151,7 @@ class EnglishEntryaround extends StatelessWidget {
         "There were papers lying around all over the floor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1130(String languageCode) async {
+  Future<void> speakaround1130(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -160,7 +160,7 @@ class EnglishEntryaround extends StatelessWidget {
         "There were several young people sitting around looking bored."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1131(String languageCode) async {
+  Future<void> speakaround1131(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -169,7 +169,7 @@ class EnglishEntryaround extends StatelessWidget {
         .speak("She must be somewhere around here."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAround1133(String languageCode) async {
+  Future<void> speakaround1133(String languageCode) async {
     // DOPSUM: CHANGE speakAround
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -178,7 +178,7 @@ class EnglishEntryaround extends StatelessWidget {
         "She's been around as a film director since the early 2000s."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -186,7 +186,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -194,7 +194,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -202,7 +202,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -210,7 +210,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -218,7 +218,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -226,7 +226,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -234,7 +234,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -242,7 +242,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -250,7 +250,7 @@ class EnglishEntryaround extends StatelessWidget {
   //   await flutterTts.speak("around"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAround(String languageCode) async {
+  // Future<void> speakaround(String languageCode) async {
   //   // DOPSUM: CHANGE speakAround
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -288,7 +288,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAround("en-GB"),
+                              onPressed: () => speakaround("en-GB"),
                             ),
                           ],
                         ),
@@ -298,7 +298,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAround("en-US"),
+                              onPressed: () => speakaround("en-US"),
                             ),
                           ],
                         ),
@@ -348,10 +348,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1058("en-GB"),
+                                    onPressed: () => speakaround1058("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1058(
+                                    onPressed: () => speakaround1058(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -377,10 +377,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1100("en-GB"),
+                                    onPressed: () => speakaround1100("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1100(
+                                    onPressed: () => speakaround1100(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -409,10 +409,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1106("en-GB"),
+                                    onPressed: () => speakaround1106("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1106(
+                                    onPressed: () => speakaround1106(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -439,10 +439,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1107("en-GB"),
+                                    onPressed: () => speakaround1107("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1107(
+                                    onPressed: () => speakaround1107(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -470,10 +470,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1109("en-GB"),
+                                    onPressed: () => speakaround1109("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1109(
+                                    onPressed: () => speakaround1109(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -503,10 +503,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1112("en-GB"),
+                                    onPressed: () => speakaround1112("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1112(
+                                    onPressed: () => speakaround1112(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -536,10 +536,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1114("en-GB"),
+                                    onPressed: () => speakaround1114("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1114(
+                                    onPressed: () => speakaround1114(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -569,10 +569,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1115("en-GB"),
+                                    onPressed: () => speakaround1115("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1115(
+                                    onPressed: () => speakaround1115(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -602,10 +602,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1117("en-GB"),
+                                    onPressed: () => speakaround1117("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1117(
+                                    onPressed: () => speakaround1117(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -635,10 +635,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1118("en-GB"),
+                                    onPressed: () => speakaround1118("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1118(
+                                    onPressed: () => speakaround1118(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -668,10 +668,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1120("en-GB"),
+                                    onPressed: () => speakaround1120("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1120(
+                                    onPressed: () => speakaround1120(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -701,10 +701,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1123("en-GB"),
+                                    onPressed: () => speakaround1123("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1123(
+                                    onPressed: () => speakaround1123(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -734,10 +734,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1125("en-GB"),
+                                    onPressed: () => speakaround1125("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1125(
+                                    onPressed: () => speakaround1125(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -767,10 +767,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1128("en-GB"),
+                                    onPressed: () => speakaround1128("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1128(
+                                    onPressed: () => speakaround1128(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -800,10 +800,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1130("en-GB"),
+                                    onPressed: () => speakaround1130("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1130(
+                                    onPressed: () => speakaround1130(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -832,10 +832,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1131("en-GB"),
+                                    onPressed: () => speakaround1131("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1131(
+                                    onPressed: () => speakaround1131(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),
@@ -865,10 +865,10 @@ class EnglishEntryaround extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAround1133("en-GB"),
+                                    onPressed: () => speakaround1133("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAround1133(
+                                    onPressed: () => speakaround1133(
                                         // REPLACE: around /əˈraʊnd/
                                         "en-US"),
                                   ),

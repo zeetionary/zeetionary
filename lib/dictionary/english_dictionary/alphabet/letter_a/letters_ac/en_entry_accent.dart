@@ -11,7 +11,7 @@ class EnglishEntryaccent extends StatelessWidget {
   EnglishEntryaccent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccent(String languageCode) async {
+  Future<void> speakaccent(String languageCode) async {
     // DOPSUM: CHANGE speakAccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaccent extends StatelessWidget {
     await flutterTts.speak("accent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc25663(String languageCode) async {
+  Future<void> speakac25663(String languageCode) async {
     // DOPSUM: CHANGE speakAccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaccent extends StatelessWidget {
         "On which syllable do you place the accent in this word?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc56412(String languageCode) async {
+  Future<void> speakac56412(String languageCode) async {
     // DOPSUM: CHANGE speakAccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaccent extends StatelessWidget {
         "Where are you from? I can't place your accent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc25469(String languageCode) async {
+  Future<void> speakac25469(String languageCode) async {
     // DOPSUM: CHANGE speakAccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryaccent extends StatelessWidget {
         "The Americans had learned Korean and spoke with a good accent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc2544799(String languageCode) async {
+  Future<void> speakac2544799(String languageCode) async {
     // DOPSUM: CHANGE speakAccent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryaccent extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈæksent/ /ˈæksənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccent("en-GB"),
+                              onPressed: () => speakaccent("en-GB"),
                             ),
                           ],
                         ),
@@ -94,7 +94,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksent/ /ˈæksənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccent("en-US"),
+                              onPressed: () => speakaccent("en-US"),
                             ),
                           ],
                         ),
@@ -145,10 +145,10 @@ class EnglishEntryaccent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc25469("en-GB"),
+                                    onPressed: () => speakac25469("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc25469("en-US"),
+                                    onPressed: () => speakac25469("en-US"),
                                   ),
                                 ],
                               ),
@@ -173,10 +173,10 @@ class EnglishEntryaccent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc56412("en-GB"),
+                                    onPressed: () => speakac56412("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc56412("en-US"),
+                                    onPressed: () => speakac56412("en-US"),
                                   ),
                                 ],
                               ),
@@ -203,10 +203,10 @@ class EnglishEntryaccent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc25663("en-GB"),
+                                    onPressed: () => speakac25663("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc25663("en-US"),
+                                    onPressed: () => speakac25663("en-US"),
                                   ),
                                 ],
                               ),
@@ -233,10 +233,10 @@ class EnglishEntryaccent extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAc2544799("en-GB"),
+                                    onPressed: () => speakac2544799("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAc2544799("en-US"),
+                                    onPressed: () => speakac2544799("en-US"),
                                   ),
                                 ],
                               ),

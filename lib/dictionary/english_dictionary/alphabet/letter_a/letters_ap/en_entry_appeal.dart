@@ -17,7 +17,7 @@ class EnglishEntryappeal extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppeal(String languageCode) async {
+  Future<void> speakappeal(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappeal extends StatelessWidget {
     await flutterTts.speak("appeal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal932(String languageCode) async {
+  Future<void> speakappeal932(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappeal extends StatelessWidget {
         .speak("He made an emotional appeal to voters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal939(String languageCode) async {
+  Future<void> speakappeal939(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappeal extends StatelessWidget {
         "The police made an appeal to the public to remain calm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal946(String languageCode) async {
+  Future<void> speakappeal946(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryappeal extends StatelessWidget {
         "He was beginning to understand the appeal of living in the countryside."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal950(String languageCode) async {
+  Future<void> speakappeal950(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryappeal extends StatelessWidget {
         "The court dismissed his appeal against the verdict."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal953(String languageCode) async {
+  Future<void> speakappeal953(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryappeal extends StatelessWidget {
         "The government appealed to the British people for help."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal956(String languageCode) async {
+  Future<void> speakappeal956(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryappeal extends StatelessWidget {
         .speak("His movies appeal to a broad audience."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppeal958(String languageCode) async {
+  Future<void> speakappeal958(String languageCode) async {
     // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryappeal extends StatelessWidget {
         " The company is appealing against the ruling."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppeal(String languageCode) async {
+  // Future<void> speakappeal(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppeal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryappeal extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpiːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppeal("en-GB"),
+                              onPressed: () => speakappeal("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryappeal extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppeal("en-US"),
+                              onPressed: () => speakappeal("en-US"),
                             ),
                           ],
                         ),
@@ -186,10 +186,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal932("en-GB"),
+                                    onPressed: () => speakappeal932("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal932(
+                                    onPressed: () => speakappeal932(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -217,10 +217,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal939("en-GB"),
+                                    onPressed: () => speakappeal939("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal939(
+                                    onPressed: () => speakappeal939(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -250,10 +250,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal946("en-GB"),
+                                    onPressed: () => speakappeal946("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal946(
+                                    onPressed: () => speakappeal946(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -283,10 +283,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal950("en-GB"),
+                                    onPressed: () => speakappeal950("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal950(
+                                    onPressed: () => speakappeal950(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -316,10 +316,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal953("en-GB"),
+                                    onPressed: () => speakappeal953("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal953(
+                                    onPressed: () => speakappeal953(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -349,10 +349,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal956("en-GB"),
+                                    onPressed: () => speakappeal956("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal956(
+                                    onPressed: () => speakappeal956(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),
@@ -382,10 +382,10 @@ class EnglishEntryappeal extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppeal958("en-GB"),
+                                    onPressed: () => speakappeal958("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppeal958(
+                                    onPressed: () => speakappeal958(
                                         // REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBankholiday(String languageCode) async {
+  Future<void> speakbankholiday(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("bank holiday"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays1(String languageCode) async {
+  Future<void> speakbankholidays1(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
         "Our offices will be closed for the bank holiday."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays2(String languageCode) async {
+  Future<void> speakbankholidays2(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("speakBankholidays22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays3(String languageCode) async {
+  Future<void> speakbankholidays3(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("speakBankholidays33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays4(String languageCode) async {
+  Future<void> speakbankholidays4(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("speakBankholidays44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays5(String languageCode) async {
+  Future<void> speakbankholidays5(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("speakBankholidays55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays6(String languageCode) async {
+  Future<void> speakbankholidays6(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
     await flutterTts.speak("speakBankholidays66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBankholidays7(String languageCode) async {
+  Future<void> speakbankholidays7(String languageCode) async {
     // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌbæŋk ˈhɒlədeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBankholiday("en-GB"),
+                              onPressed: () => speakbankholiday("en-GB"),
                             ),
                           ],
                         ),
@@ -126,7 +126,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌbæŋk ˈhɑːlədeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBankholiday("en-US"),
+                              onPressed: () => speakbankholiday("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakBankholidays1("en-GB"),
+                                        speakbankholidays1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBankholidays1(
+                                    onPressed: () => speakbankholidays1(
                                         // REPLACE: bank holiday
                                         "en-US"),
                                   ),

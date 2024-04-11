@@ -12,7 +12,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   EnglishEntryanorexia({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorexia(String languageCode) async {
+  Future<void> speakanorexia(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -20,7 +20,7 @@ class EnglishEntryanorexia extends StatelessWidget {
     await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexia848(String languageCode) async {
+  Future<void> speakanorexia848(String languageCode) async {
     // DOPSUM: CHANGE speakAnorexia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -29,7 +29,7 @@ class EnglishEntryanorexia extends StatelessWidget {
         "Reports of anorexia and other eating disorders are on the increase."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryanorexia extends StatelessWidget {
   //   await flutterTts.speak("anorexia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexia(String languageCode) async {
+  // Future<void> speakanorexia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnorexia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntryanorexia extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˈreksiə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnorexia("en-GB"),
+                              onPressed: () => speakanorexia("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntryanorexia extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˈreksiə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorexia("en-US"),
+                              onPressed: () => speakanorexia("en-US"),
                             ),
                           ],
                         ),
@@ -176,10 +176,10 @@ class EnglishEntryanorexia extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAnorexia848("en-GB"),
+                                    onPressed: () => speakanorexia848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAnorexia848(
+                                    onPressed: () => speakanorexia848(
                                         // REPLACE: anorexia /ˌænəˈreksiə/
                                         "en-US"),
                                   ),

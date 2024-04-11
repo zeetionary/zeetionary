@@ -11,7 +11,7 @@ class EnglishEntryaffably extends StatelessWidget {
   EnglishEntryaffably({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffably(String languageCode) async {
+  Future<void> speakaffably(String languageCode) async {
     // DOPSUM: CHANGE speakAffably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaffably extends StatelessWidget {
     await flutterTts.speak("affably"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAf3658(String languageCode) async {
+  Future<void> speakaf3658(String languageCode) async {
     // DOPSUM: CHANGE speakAffably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaffably extends StatelessWidget {
         .speak("We chatted affably for a few minutes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffably(String languageCode) async {
+  // Future<void> speakaffably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaffably extends StatelessWidget {
   //   await flutterTts.speak("affably"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffably(String languageCode) async {
+  // Future<void> speakaffably(String languageCode) async {
   //   // DOPSUM: CHANGE speakAffably
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryaffably extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæfəbli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffably("en-GB"),
+                              onPressed: () => speakaffably("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryaffably extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæfəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffably("en-US"),
+                              onPressed: () => speakaffably("en-US"),
                             ),
                           ],
                         ),
@@ -127,10 +127,10 @@ class EnglishEntryaffably extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAf3658("en-GB"),
+                                    onPressed: () => speakaf3658("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAf3658(
+                                    onPressed: () => speakaf3658(
                                         // REPLACE: affably /ˈæfəbli/
                                         "en-US"),
                                   ),

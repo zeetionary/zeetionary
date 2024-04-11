@@ -19,7 +19,7 @@ class EnglishEntrybirthday extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBirthday(String languageCode) async {
+  Future<void> speakbirthday(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("birthday"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays1(String languageCode) async {
+  Future<void> speakbirthdays1(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybirthday extends StatelessWidget {
         "She celebrated her 21st birthday with a party for family and friends."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays2(String languageCode) async {
+  Future<void> speakbirthdays2(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("speakBirthdays22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays3(String languageCode) async {
+  Future<void> speakbirthdays3(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("speakBirthdays33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays4(String languageCode) async {
+  Future<void> speakbirthdays4(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("speakBirthdays44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays5(String languageCode) async {
+  Future<void> speakbirthdays5(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("speakBirthdays55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays6(String languageCode) async {
+  Future<void> speakbirthdays6(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybirthday extends StatelessWidget {
     await flutterTts.speak("speakBirthdays66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBirthdays7(String languageCode) async {
+  Future<void> speakbirthdays7(String languageCode) async {
     // DOPSUM: CHANGE speakBirthday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybirthday extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɜːθdeɪ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBirthday("en-GB"),
+                              onPressed: () => speakbirthday("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybirthday extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɜːrθdeɪ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBirthday("en-US"),
+                              onPressed: () => speakbirthday("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntrybirthday extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBirthdays1("en-GB"),
+                                    onPressed: () => speakbirthdays1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBirthdays1("en-US"),
+                                    onPressed: () => speakbirthdays1("en-US"),
                                   ),
                                 ],
                               ),

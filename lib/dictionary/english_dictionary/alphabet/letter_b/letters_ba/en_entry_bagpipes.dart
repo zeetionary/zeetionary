@@ -19,7 +19,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBagpipes(String languageCode) async {
+  Future<void> speakbagpipes(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("bagpipes"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess1(String languageCode) async {
+  Future<void> speakbagpipess1(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
         "She started learning the bagpipes three years ago."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess2(String languageCode) async {
+  Future<void> speakbagpipess2(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("speakBagpipess22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess3(String languageCode) async {
+  Future<void> speakbagpipess3(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("speakBagpipess33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess4(String languageCode) async {
+  Future<void> speakbagpipess4(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("speakBagpipess44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess5(String languageCode) async {
+  Future<void> speakbagpipess5(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("speakBagpipess55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess6(String languageCode) async {
+  Future<void> speakbagpipess6(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
     await flutterTts.speak("speakBagpipess66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBagpipess7(String languageCode) async {
+  Future<void> speakbagpipess7(String languageCode) async {
     // DOPSUM: CHANGE speakBagpipes
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæɡpaɪps/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBagpipes("en-GB"),
+                              onPressed: () => speakbagpipes("en-GB"),
                             ),
                           ],
                         ),
@@ -125,7 +125,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæɡpaɪps/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBagpipes("en-US"),
+                              onPressed: () => speakbagpipes("en-US"),
                             ),
                           ],
                         ),
@@ -175,11 +175,11 @@ class EnglishEntrybagpipes extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBagpipess1("en-GB"),
+                                    onPressed: () => speakbagpipess1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBagpipess1(// REPLACE: bagpipes
+                                        speakbagpipess1(// REPLACE: bagpipes
                                             "en-US"),
                                   ),
                                 ],

@@ -19,7 +19,7 @@ class EnglishEntryattention extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttention(String languageCode) async {
+  Future<void> speakattention(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattention extends StatelessWidget {
     await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttention846(String languageCode) async {
+  Future<void> speakattention846(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattention extends StatelessWidget {
         .speak("His attention turned to other matters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttention847(String languageCode) async {
+  Future<void> speakattention847(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattention extends StatelessWidget {
         "She doesn't pay her children much attention."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttention848(String languageCode) async {
+  Future<void> speakattention848(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattention extends StatelessWidget {
         .speak("He received urgent medical attention."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttention852(String languageCode) async {
+  Future<void> speakattention852(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryattention extends StatelessWidget {
         "Her primary aim was to avoid the attentions of the newspapers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttention856(String languageCode) async {
+  Future<void> speakattention856(String languageCode) async {
     // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryattention extends StatelessWidget {
         "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttention(String languageCode) async {
+  // Future<void> speakattention(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttention
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryattention extends StatelessWidget {
   //   await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttention(String languageCode) async {
+  // Future<void> speakattention(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttention
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -88,7 +88,7 @@ class EnglishEntryattention extends StatelessWidget {
   //   await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttention(String languageCode) async {
+  // Future<void> speakattention(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttention
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -127,7 +127,7 @@ class EnglishEntryattention extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtenʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttention("en-GB"),
+                              onPressed: () => speakattention("en-GB"),
                             ),
                           ],
                         ),
@@ -137,7 +137,7 @@ class EnglishEntryattention extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtenʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttention("en-US"),
+                              onPressed: () => speakattention("en-US"),
                             ),
                           ],
                         ),
@@ -186,11 +186,11 @@ class EnglishEntryattention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttention846("en-GB"),
+                                    onPressed: () => speakattention846("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttention846(// REPLACE: attention
+                                        speakattention846(// REPLACE: attention
                                             "en-US"),
                                   ),
                                 ],
@@ -216,11 +216,11 @@ class EnglishEntryattention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttention847("en-GB"),
+                                    onPressed: () => speakattention847("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttention847(// REPLACE: attention
+                                        speakattention847(// REPLACE: attention
                                             "en-US"),
                                   ),
                                 ],
@@ -248,11 +248,11 @@ class EnglishEntryattention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttention848("en-GB"),
+                                    onPressed: () => speakattention848("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttention848(// REPLACE: attention
+                                        speakattention848(// REPLACE: attention
                                             "en-US"),
                                   ),
                                 ],
@@ -281,11 +281,11 @@ class EnglishEntryattention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttention852("en-GB"),
+                                    onPressed: () => speakattention852("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttention852(// REPLACE: attention
+                                        speakattention852(// REPLACE: attention
                                             "en-US"),
                                   ),
                                 ],
@@ -314,11 +314,11 @@ class EnglishEntryattention extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttention856("en-GB"),
+                                    onPressed: () => speakattention856("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttention856(// REPLACE: attention
+                                        speakattention856(// REPLACE: attention
                                             "en-US"),
                                   ),
                                 ],

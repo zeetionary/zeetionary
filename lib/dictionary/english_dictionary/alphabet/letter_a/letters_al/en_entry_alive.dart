@@ -11,7 +11,7 @@ class EnglishEntryalive extends StatelessWidget {
   EnglishEntryalive({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlive(String languageCode) async {
+  Future<void> speakalive(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryalive extends StatelessWidget {
     await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive65666(String languageCode) async {
+  Future<void> speakalive65666(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryalive extends StatelessWidget {
         "She had to steal food just to stay alive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive69142(String languageCode) async {
+  Future<void> speakalive69142(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryalive extends StatelessWidget {
         "We don't know whether he's alive or dead."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive3599(String languageCode) async {
+  Future<void> speakalive3599(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryalive extends StatelessWidget {
         .speak("Ed was alive with happiness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive75236(String languageCode) async {
+  Future<void> speakalive75236(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -55,7 +55,7 @@ class EnglishEntryalive extends StatelessWidget {
         "The old customs are still very much alive in this region."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive378514(String languageCode) async {
+  Future<void> speakalive378514(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -64,7 +64,7 @@ class EnglishEntryalive extends StatelessWidget {
         .speak("The pool was alive with goldfish."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlive35961(String languageCode) async {
+  Future<void> speakalive35961(String languageCode) async {
     // DOPSUM: CHANGE speakAlive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryalive extends StatelessWidget {
         "They are alive to the fact that the opposing team has not lost a game this season."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlive(String languageCode) async {
+  // Future<void> speakalive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -81,7 +81,7 @@ class EnglishEntryalive extends StatelessWidget {
   //   await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlive(String languageCode) async {
+  // Future<void> speakalive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -89,7 +89,7 @@ class EnglishEntryalive extends StatelessWidget {
   //   await flutterTts.speak("alive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlive(String languageCode) async {
+  // Future<void> speakalive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryalive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlive("en-GB"),
+                              onPressed: () => speakalive("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryalive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlive("en-US"),
+                              onPressed: () => speakalive("en-US"),
                             ),
                           ],
                         ),
@@ -185,10 +185,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive65666("en-GB"),
+                                    onPressed: () => speakalive65666("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive65666(
+                                    onPressed: () => speakalive65666(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),
@@ -214,10 +214,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive69142("en-GB"),
+                                    onPressed: () => speakalive69142("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive69142(
+                                    onPressed: () => speakalive69142(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),
@@ -244,10 +244,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive3599("en-GB"),
+                                    onPressed: () => speakalive3599("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive3599(
+                                    onPressed: () => speakalive3599(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),
@@ -276,10 +276,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive75236("en-GB"),
+                                    onPressed: () => speakalive75236("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive75236(
+                                    onPressed: () => speakalive75236(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),
@@ -307,10 +307,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive378514("en-GB"),
+                                    onPressed: () => speakalive378514("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive378514(
+                                    onPressed: () => speakalive378514(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),
@@ -339,10 +339,10 @@ class EnglishEntryalive extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAlive35961("en-GB"),
+                                    onPressed: () => speakalive35961("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAlive35961(
+                                    onPressed: () => speakalive35961(
                                         // REPLACE: alive /əˈlaɪv/
                                         "en-US"),
                                   ),

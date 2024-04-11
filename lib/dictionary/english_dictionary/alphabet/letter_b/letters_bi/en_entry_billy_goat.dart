@@ -19,7 +19,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBillygoat(String languageCode) async {
+  Future<void> speakbillygoat(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("billy goat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats1(String languageCode) async {
+  Future<void> speakbillygoats1(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
         "The farmer led the billy goat away from the ewes to prevent further breeding."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats2(String languageCode) async {
+  Future<void> speakbillygoats2(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("speakBillygoats22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats3(String languageCode) async {
+  Future<void> speakbillygoats3(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("speakBillygoats33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats4(String languageCode) async {
+  Future<void> speakbillygoats4(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("speakBillygoats44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats5(String languageCode) async {
+  Future<void> speakbillygoats5(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("speakBillygoats55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats6(String languageCode) async {
+  Future<void> speakbillygoats6(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
     await flutterTts.speak("speakBillygoats66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBillygoats7(String languageCode) async {
+  Future<void> speakbillygoats7(String languageCode) async {
     // DOPSUM: CHANGE speakBillygoat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -111,7 +111,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbɪli ɡəʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBillygoat("en-GB"),
+                              onPressed: () => speakbillygoat("en-GB"),
                             ),
                           ],
                         ),
@@ -119,7 +119,7 @@ class EnglishEntrybillygoat extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbɪli ɡəʊt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBillygoat("en-US"),
+                              onPressed: () => speakbillygoat("en-US"),
                             ),
                           ],
                         ),
@@ -165,10 +165,10 @@ class EnglishEntrybillygoat extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBillygoats1("en-GB"),
+                                    onPressed: () => speakbillygoats1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBillygoats1("en-US"),
+                                    onPressed: () => speakbillygoats1("en-US"),
                                   ),
                                 ],
                               ),

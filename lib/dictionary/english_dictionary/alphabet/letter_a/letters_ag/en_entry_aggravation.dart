@@ -11,7 +11,7 @@ class EnglishEntryaggravation extends StatelessWidget {
   EnglishEntryaggravation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAggravation(String languageCode) async {
+  Future<void> speakaggravation(String languageCode) async {
     // DOPSUM: CHANGE speakAggravation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryaggravation extends StatelessWidget {
     await flutterTts.speak("aggravation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggrava685435(String languageCode) async {
+  Future<void> speakaggrava685435(String languageCode) async {
     // DOPSUM: CHANGE speakAggravation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryaggravation extends StatelessWidget {
         "I'd complain to the manager but it's not worth the aggravation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAggravat37814(String languageCode) async {
+  Future<void> speakaggravat37814(String languageCode) async {
     // DOPSUM: CHANGE speakAggravation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryaggravation extends StatelessWidget {
         "Rest the affected limb to avoid further aggravation of the condition."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAggravation(String languageCode) async {
+  // Future<void> speakaggravation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAggravation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡrəˈveɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggravation("en-GB"),
+                              onPressed: () => speakaggravation("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡrəˈveɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggravation("en-US"),
+                              onPressed: () => speakaggravation("en-US"),
                             ),
                           ],
                         ),
@@ -133,10 +133,10 @@ class EnglishEntryaggravation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggrava685435("en-GB"),
+                                        speakaggrava685435("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggrava685435(
+                                    onPressed: () => speakaggrava685435(
                                         // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
                                         "en-US"),
                                   ),
@@ -164,10 +164,10 @@ class EnglishEntryaggravation extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAggravat37814("en-GB"),
+                                        speakaggravat37814("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAggravat37814(
+                                    onPressed: () => speakaggravat37814(
                                         // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
                                         "en-US"),
                                   ),

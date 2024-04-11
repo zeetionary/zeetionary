@@ -11,7 +11,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   EnglishEntryamnesia({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmnesia(String languageCode) async {
+  Future<void> speakamnesia(String languageCode) async {
     // DOPSUM: CHANGE speakAmnesia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryamnesia extends StatelessWidget {
     await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmnesia663(String languageCode) async {
+  Future<void> speakamnesia663(String languageCode) async {
     // DOPSUM: CHANGE speakAmnesia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryamnesia extends StatelessWidget {
         "After the accident he suffered periods of amnesia."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -52,7 +52,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -60,7 +60,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -68,7 +68,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -76,7 +76,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -84,7 +84,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -92,7 +92,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -100,7 +100,7 @@ class EnglishEntryamnesia extends StatelessWidget {
   //   await flutterTts.speak("amnesia"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmnesia(String languageCode) async {
+  // Future<void> speakamnesia(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmnesia
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -138,7 +138,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈniːziə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmnesia("en-GB"),
+                              onPressed: () => speakamnesia("en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +148,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈniːʒə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmnesia("en-US"),
+                              onPressed: () => speakamnesia("en-US"),
                             ),
                           ],
                         ),
@@ -199,10 +199,10 @@ class EnglishEntryamnesia extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmnesia663("en-GB"),
+                                    onPressed: () => speakamnesia663("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmnesia663(
+                                    onPressed: () => speakamnesia663(
                                         // REPLACE: amnesia /æmˈniːʒə/
                                         "en-US"),
                                   ),

@@ -19,7 +19,7 @@ class EnglishEntryawesome extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwesome(String languageCode) async {
+  Future<void> speakawesome(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryawesome extends StatelessWidget {
     await flutterTts.speak("awesome"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes1(String languageCode) async {
+  Future<void> speakawesomes1(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryawesome extends StatelessWidget {
         "As night fell, the volcano presented an awesome sight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes2(String languageCode) async {
+  Future<void> speakawesomes2(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryawesome extends StatelessWidget {
         .speak("They had an awesome task ahead."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes3(String languageCode) async {
+  Future<void> speakawesomes3(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryawesome extends StatelessWidget {
         .speak("Hey, come look at this! It's awesome!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes4(String languageCode) async {
+  Future<void> speakawesomes4(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryawesome extends StatelessWidget {
     await flutterTts.speak("speakAwesomes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes5(String languageCode) async {
+  Future<void> speakawesomes5(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryawesome extends StatelessWidget {
     await flutterTts.speak("speakAwesomes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes6(String languageCode) async {
+  Future<void> speakawesomes6(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryawesome extends StatelessWidget {
     await flutterTts.speak("speakAwesomes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwesomes7(String languageCode) async {
+  Future<void> speakawesomes7(String languageCode) async {
     // DOPSUM: CHANGE speakAwesome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryawesome extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːsəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwesome("en-GB"),
+                              onPressed: () => speakawesome("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryawesome extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːsəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwesome("en-US"),
+                              onPressed: () => speakawesome("en-US"),
                             ),
                           ],
                         ),
@@ -173,11 +173,11 @@ class EnglishEntryawesome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwesomes1("en-GB"),
+                                    onPressed: () => speakawesomes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwesomes1(// REPLACE: awesome
+                                        speakawesomes1(// REPLACE: awesome
                                             "en-US"),
                                   ),
                                 ],
@@ -203,11 +203,11 @@ class EnglishEntryawesome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwesomes2("en-GB"),
+                                    onPressed: () => speakawesomes2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwesomes2(// REPLACE: awesome
+                                        speakawesomes2(// REPLACE: awesome
                                             "en-US"),
                                   ),
                                 ],
@@ -236,11 +236,11 @@ class EnglishEntryawesome extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwesomes3("en-GB"),
+                                    onPressed: () => speakawesomes3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwesomes3(// REPLACE: awesome
+                                        speakawesomes3(// REPLACE: awesome
                                             "en-US"),
                                   ),
                                 ],

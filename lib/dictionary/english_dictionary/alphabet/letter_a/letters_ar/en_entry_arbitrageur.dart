@@ -17,7 +17,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArbitrageur(String languageCode) async {
+  Future<void> speakarbitrageur(String languageCode) async {
     // DOPSUM: CHANGE speakArbitrageur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
     await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArbitrageur1107(String languageCode) async {
+  Future<void> speakarbitrageur1107(String languageCode) async {
     // DOPSUM: CHANGE speakArbitrageur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
         "He is one of Wall Street’s most famous arbitrageurs."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -42,7 +42,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -50,7 +50,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -58,7 +58,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -66,7 +66,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -74,7 +74,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -82,7 +82,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   //   await flutterTts.speak("arbitrageur"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArbitrageur(String languageCode) async {
+  // Future<void> speakarbitrageur(String languageCode) async {
   //   // DOPSUM: CHANGE speakArbitrageur
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːbɪtrɑːˈʒɜː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArbitrageur("en-GB"),
+                              onPressed: () => speakarbitrageur("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrbɪtrɑːˈʒɜːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArbitrageur("en-US"),
+                              onPressed: () => speakarbitrageur("en-US"),
                             ),
                           ],
                         ),
@@ -178,10 +178,10 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakArbitrageur1107("en-GB"),
+                                        speakarbitrageur1107("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArbitrageur1107(
+                                    onPressed: () => speakarbitrageur1107(
                                         // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
                                         "en-US"),
                                   ),

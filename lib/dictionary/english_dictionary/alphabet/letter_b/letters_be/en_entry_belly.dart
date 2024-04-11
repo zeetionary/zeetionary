@@ -19,7 +19,7 @@ class EnglishEntrybelly extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelly(String languageCode) async {
+  Future<void> speakbelly(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.speak("belly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys1(String languageCode) async {
+  Future<void> speakbellys1(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybelly extends StatelessWidget {
         .speak("They crawled along on their bellies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys2(String languageCode) async {
+  Future<void> speakbellys2(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybelly extends StatelessWidget {
         "He's so fat, his belly hangs over his trousers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys3(String languageCode) async {
+  Future<void> speakbellys3(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybelly extends StatelessWidget {
         .speak("She felt the child in her belly kick."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys4(String languageCode) async {
+  Future<void> speakbellys4(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntrybelly extends StatelessWidget {
         "The belly of the aircraft was painted red."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys5(String languageCode) async {
+  Future<void> speakbellys5(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntrybelly extends StatelessWidget {
         "The starving child's swollen belly was a stark reminder of the ongoing famine in the region."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys6(String languageCode) async {
+  Future<void> speakbellys6(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.speak("speakBellys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellys7(String languageCode) async {
+  Future<void> speakbellys7(String languageCode) async {
     // DOPSUM: CHANGE speakBelly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -115,7 +115,7 @@ class EnglishEntrybelly extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈbeli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelly("en-GB"),
+                              onPressed: () => speakbelly("en-GB"),
                             ),
                           ],
                         ),
@@ -123,7 +123,7 @@ class EnglishEntrybelly extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbeli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelly("en-US"),
+                              onPressed: () => speakbelly("en-US"),
                             ),
                           ],
                         ),
@@ -170,10 +170,10 @@ class EnglishEntrybelly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellys1("en-GB"),
+                                    onPressed: () => speakbellys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellys1("en-US"),
+                                    onPressed: () => speakbellys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -199,10 +199,10 @@ class EnglishEntrybelly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellys2("en-GB"),
+                                    onPressed: () => speakbellys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellys2("en-US"),
+                                    onPressed: () => speakbellys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -228,10 +228,10 @@ class EnglishEntrybelly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellys3("en-GB"),
+                                    onPressed: () => speakbellys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellys3("en-US"),
+                                    onPressed: () => speakbellys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -259,10 +259,10 @@ class EnglishEntrybelly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellys4("en-GB"),
+                                    onPressed: () => speakbellys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellys4("en-US"),
+                                    onPressed: () => speakbellys4("en-US"),
                                   ),
                                 ],
                               ),
@@ -290,10 +290,10 @@ class EnglishEntrybelly extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBellys5("en-GB"),
+                                    onPressed: () => speakbellys5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBellys5("en-US"),
+                                    onPressed: () => speakbellys5("en-US"),
                                   ),
                                 ],
                               ),

@@ -19,7 +19,7 @@ class EnglishEntrybattery extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBattery(String languageCode) async {
+  Future<void> speakbattery(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.speak("battery"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys1(String languageCode) async {
+  Future<void> speakbatterys1(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -35,7 +35,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.speak("The battery is flat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys2(String languageCode) async {
+  Future<void> speakbatterys2(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybattery extends StatelessWidget {
         "My phone ran out of battery, so I plugged it in to charge."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys3(String languageCode) async {
+  Future<void> speakbatterys3(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybattery extends StatelessWidget {
         .speak("He faced a battery of questions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys4(String languageCode) async {
+  Future<void> speakbatterys4(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybattery extends StatelessWidget {
         .speak("The shore battery opened fire."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys5(String languageCode) async {
+  Future<void> speakbatterys5(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybattery extends StatelessWidget {
         "The supermarket has pledged to stop selling eggs from battery hens by 2025."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys6(String languageCode) async {
+  Future<void> speakbatterys6(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybattery extends StatelessWidget {
         "Battery eggs are the cheapest type of eggs, but they are also the most cruel."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBatterys7(String languageCode) async {
+  Future<void> speakbatterys7(String languageCode) async {
     // DOPSUM: CHANGE speakBattery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybattery extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈbætri/, /ˈbætəri/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBattery("en-GB"),
+                              onPressed: () => speakbattery("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntrybattery extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /ˈbætəri/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBattery("en-US"),
+                              onPressed: () => speakbattery("en-US"),
                             ),
                           ],
                         ),
@@ -173,10 +173,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys1("en-GB"),
+                                    onPressed: () => speakbatterys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys1("en-US"),
+                                    onPressed: () => speakbatterys1("en-US"),
                                   ),
                                 ],
                               ),
@@ -204,10 +204,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys2("en-GB"),
+                                    onPressed: () => speakbatterys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys2("en-US"),
+                                    onPressed: () => speakbatterys2("en-US"),
                                   ),
                                 ],
                               ),
@@ -235,10 +235,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys3("en-GB"),
+                                    onPressed: () => speakbatterys3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys3("en-US"),
+                                    onPressed: () => speakbatterys3("en-US"),
                                   ),
                                 ],
                               ),
@@ -265,10 +265,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys4("en-GB"),
+                                    onPressed: () => speakbatterys4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys4("en-US"),
+                                    onPressed: () => speakbatterys4("en-US"),
                                   ),
                                 ],
                               ),
@@ -296,10 +296,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys5("en-GB"),
+                                    onPressed: () => speakbatterys5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys5("en-US"),
+                                    onPressed: () => speakbatterys5("en-US"),
                                   ),
                                 ],
                               ),
@@ -325,10 +325,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys6("en-GB"),
+                                    onPressed: () => speakbatterys6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys6("en-US"),
+                                    onPressed: () => speakbatterys6("en-US"),
                                   ),
                                 ],
                               ),
@@ -356,10 +356,10 @@ class EnglishEntrybattery extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBatterys6("en-GB"),
+                                    onPressed: () => speakbatterys6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBatterys6("en-US"),
+                                    onPressed: () => speakbatterys6("en-US"),
                                   ),
                                 ],
                               ),

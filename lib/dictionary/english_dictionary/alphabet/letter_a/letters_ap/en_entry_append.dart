@@ -17,7 +17,7 @@ class EnglishEntryappend extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppend(String languageCode) async {
+  Future<void> speakappend(String languageCode) async {
     // DOPSUM: CHANGE speakAppend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -25,7 +25,7 @@ class EnglishEntryappend extends StatelessWidget {
     await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppend109(String languageCode) async {
+  Future<void> speakappend109(String languageCode) async {
     // DOPSUM: CHANGE speakAppend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -34,7 +34,7 @@ class EnglishEntryappend extends StatelessWidget {
         "Footnotes have been appended to the document."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppend111(String languageCode) async {
+  Future<void> speakappend111(String languageCode) async {
     // DOPSUM: CHANGE speakAppend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -43,7 +43,7 @@ class EnglishEntryappend extends StatelessWidget {
         "The principal has the right to append comments to the final report."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -51,7 +51,7 @@ class EnglishEntryappend extends StatelessWidget {
   //   await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -59,7 +59,7 @@ class EnglishEntryappend extends StatelessWidget {
   //   await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -67,7 +67,7 @@ class EnglishEntryappend extends StatelessWidget {
   //   await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -75,7 +75,7 @@ class EnglishEntryappend extends StatelessWidget {
   //   await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -83,7 +83,7 @@ class EnglishEntryappend extends StatelessWidget {
   //   await flutterTts.speak("append"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppend(String languageCode) async {
+  // Future<void> speakappend(String languageCode) async {
   //   // DOPSUM: CHANGE speakAppend
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -121,7 +121,7 @@ class EnglishEntryappend extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppend("en-GB"),
+                              onPressed: () => speakappend("en-GB"),
                             ),
                           ],
                         ),
@@ -131,7 +131,7 @@ class EnglishEntryappend extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppend("en-US"),
+                              onPressed: () => speakappend("en-US"),
                             ),
                           ],
                         ),
@@ -182,10 +182,10 @@ class EnglishEntryappend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppend109("en-GB"),
+                                    onPressed: () => speakappend109("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppend109(
+                                    onPressed: () => speakappend109(
                                         // REPLACE: append /əˈpend/
                                         "en-US"),
                                   ),
@@ -213,10 +213,10 @@ class EnglishEntryappend extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAppend111("en-GB"),
+                                    onPressed: () => speakappend111("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAppend111(
+                                    onPressed: () => speakappend111(
                                         // REPLACE: append /əˈpend/
                                         "en-US"),
                                   ),

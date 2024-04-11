@@ -11,7 +11,7 @@ class EnglishEntryagegroup extends StatelessWidget {
   EnglishEntryagegroup({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAgegroup(String languageCode) async {
+  Future<void> speakagegroup(String languageCode) async {
     // DOPSUM: CHANGE speakAgegroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryagegroup extends StatelessWidget {
     await flutterTts.speak("age group"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAgegrou199852(String languageCode) async {
+  Future<void> speakagegrou199852(String languageCode) async {
     // DOPSUM: CHANGE speakAgegroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryagegroup extends StatelessWidget {
         "People in the younger age groups tended to vote less."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAgegroup(String languageCode) async {
+  // Future<void> speakagegroup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgegroup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryagegroup extends StatelessWidget {
   //   await flutterTts.speak("age group"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAgegroup(String languageCode) async {
+  // Future<void> speakagegroup(String languageCode) async {
   //   // DOPSUM: CHANGE speakAgegroup
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪdʒ ɡruːp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgegroup("en-GB"),
+                              onPressed: () => speakagegroup("en-GB"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪdʒ ɡruːp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgegroup("en-US"),
+                              onPressed: () => speakagegroup("en-US"),
                             ),
                           ],
                         ),
@@ -131,10 +131,10 @@ class EnglishEntryagegroup extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAgegrou199852("en-GB"),
+                                        speakagegrou199852("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAgegrou199852(
+                                    onPressed: () => speakagegrou199852(
                                         // REPLACE: age group /ˈeɪdʒ ɡruːp/
                                         "en-US"),
                                   ),

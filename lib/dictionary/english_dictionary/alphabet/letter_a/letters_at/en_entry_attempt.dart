@@ -19,7 +19,7 @@ class EnglishEntryattempt extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAttempt(String languageCode) async {
+  Future<void> speakattempt(String languageCode) async {
     // DOPSUM: CHANGE speakAttempt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryattempt extends StatelessWidget {
     await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttempt742(String languageCode) async {
+  Future<void> speakattempt742(String languageCode) async {
     // DOPSUM: CHANGE speakAttempt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryattempt extends StatelessWidget {
         "I passed my driving test at the first attempt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttempt743(String languageCode) async {
+  Future<void> speakattempt743(String languageCode) async {
     // DOPSUM: CHANGE speakAttempt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryattempt extends StatelessWidget {
         "This is the third attempt on the President's life."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttempt749(String languageCode) async {
+  Future<void> speakattempt749(String languageCode) async {
     // DOPSUM: CHANGE speakAttempt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryattempt extends StatelessWidget {
         "I will attempt to answer all your questions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAttempt750(String languageCode) async {
+  Future<void> speakattempt750(String languageCode) async {
     // DOPSUM: CHANGE speakAttempt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryattempt extends StatelessWidget {
         "Do not attempt to repair this yourself."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAttempt(String languageCode) async {
+  // Future<void> speakattempt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttempt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttempt(String languageCode) async {
+  // Future<void> speakattempt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttempt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -79,7 +79,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttempt(String languageCode) async {
+  // Future<void> speakattempt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttempt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -87,7 +87,7 @@ class EnglishEntryattempt extends StatelessWidget {
   //   await flutterTts.speak("attempt"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAttempt(String languageCode) async {
+  // Future<void> speakattempt(String languageCode) async {
   //   // DOPSUM: CHANGE speakAttempt
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -126,7 +126,7 @@ class EnglishEntryattempt extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtempt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttempt("en-GB"),
+                              onPressed: () => speakattempt("en-GB"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntryattempt extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtempt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttempt("en-US"),
+                              onPressed: () => speakattempt("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryattempt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttempt742("en-GB"),
+                                    onPressed: () => speakattempt742("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttempt742(// REPLACE: attempt
+                                        speakattempt742(// REPLACE: attempt
                                             "en-US"),
                                   ),
                                 ],
@@ -218,11 +218,11 @@ class EnglishEntryattempt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttempt743("en-GB"),
+                                    onPressed: () => speakattempt743("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttempt743(// REPLACE: attempt
+                                        speakattempt743(// REPLACE: attempt
                                             "en-US"),
                                   ),
                                 ],
@@ -251,11 +251,11 @@ class EnglishEntryattempt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttempt749("en-GB"),
+                                    onPressed: () => speakattempt749("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttempt749(// REPLACE: attempt
+                                        speakattempt749(// REPLACE: attempt
                                             "en-US"),
                                   ),
                                 ],
@@ -282,11 +282,11 @@ class EnglishEntryattempt extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAttempt750("en-GB"),
+                                    onPressed: () => speakattempt750("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAttempt750(// REPLACE: attempt
+                                        speakattempt750(// REPLACE: attempt
                                             "en-US"),
                                   ),
                                 ],

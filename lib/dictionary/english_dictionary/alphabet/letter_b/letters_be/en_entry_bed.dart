@@ -19,7 +19,7 @@ class EnglishEntrybed extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBed(String languageCode) async {
+  Future<void> speakbed(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.speak("bed"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds1(String languageCode) async {
+  Future<void> speakbeds1(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybed extends StatelessWidget {
         .speak("I'm tired—I'm going to bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds2(String languageCode) async {
+  Future<void> speakbeds2(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -44,7 +44,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.speak("I'll put the kids to bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds3(String languageCode) async {
+  Future<void> speakbeds3(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntrybed extends StatelessWidget {
         "Many strange plants and fish live on the sea bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds4(String languageCode) async {
+  Future<void> speakbeds4(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybed extends StatelessWidget {
         "They have some beautiful flower beds in their garden."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds5(String languageCode) async {
+  Future<void> speakbeds5(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -71,7 +71,7 @@ class EnglishEntrybed extends StatelessWidget {
         "The blocks should be laid on a bed of concrete."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds6(String languageCode) async {
+  Future<void> speakbeds6(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntrybed extends StatelessWidget {
         "The posts should be firmly bedded in concrete."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBeds7(String languageCode) async {
+  Future<void> speakbeds7(String languageCode) async {
     // DOPSUM: CHANGE speakBed
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -116,7 +116,7 @@ class EnglishEntrybed extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /bed/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBed("en-GB"),
+                              onPressed: () => speakbed("en-GB"),
                             ),
                           ],
                         ),
@@ -124,7 +124,7 @@ class EnglishEntrybed extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUS: /bed/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBed("en-US"),
+                              onPressed: () => speakbed("en-US"),
                             ),
                           ],
                         ),
@@ -168,10 +168,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds1("en-GB"),
+                                    onPressed: () => speakbeds1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds1("en-US"),
+                                    onPressed: () => speakbeds1("en-US"),
                                   ),
                                 ],
                               ),
@@ -195,10 +195,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds2("en-GB"),
+                                    onPressed: () => speakbeds2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds2("en-US"),
+                                    onPressed: () => speakbeds2("en-US"),
                                   ),
                                 ],
                               ),
@@ -226,10 +226,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds3("en-GB"),
+                                    onPressed: () => speakbeds3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds3("en-US"),
+                                    onPressed: () => speakbeds3("en-US"),
                                   ),
                                 ],
                               ),
@@ -257,10 +257,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds4("en-GB"),
+                                    onPressed: () => speakbeds4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds4("en-US"),
+                                    onPressed: () => speakbeds4("en-US"),
                                   ),
                                 ],
                               ),
@@ -288,10 +288,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds5("en-GB"),
+                                    onPressed: () => speakbeds5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds5("en-US"),
+                                    onPressed: () => speakbeds5("en-US"),
                                   ),
                                 ],
                               ),
@@ -319,10 +319,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds6("en-GB"),
+                                    onPressed: () => speakbeds6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds6("en-US"),
+                                    onPressed: () => speakbeds6("en-US"),
                                   ),
                                 ],
                               ),
@@ -350,10 +350,10 @@ class EnglishEntrybed extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBeds7("en-GB"),
+                                    onPressed: () => speakbeds7("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakBeds7("en-US"),
+                                    onPressed: () => speakbeds7("en-US"),
                                   ),
                                 ],
                               ),

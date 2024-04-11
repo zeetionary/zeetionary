@@ -19,7 +19,7 @@ class EnglishEntrybalm extends StatelessWidget {
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalm(String languageCode) async {
+  Future<void> speakbalm(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntrybalm extends StatelessWidget {
     await flutterTts.speak("balm"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms1(String languageCode) async {
+  Future<void> speakbalms1(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntrybalm extends StatelessWidget {
         "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms2(String languageCode) async {
+  Future<void> speakbalms2(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntrybalm extends StatelessWidget {
         .speak("He used a skin balm after shaving."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms3(String languageCode) async {
+  Future<void> speakbalms3(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntrybalm extends StatelessWidget {
         "The gentle music was a balm to his spirit."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms4(String languageCode) async {
+  Future<void> speakbalms4(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntrybalm extends StatelessWidget {
     await flutterTts.speak("speakBalms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms5(String languageCode) async {
+  Future<void> speakbalms5(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntrybalm extends StatelessWidget {
     await flutterTts.speak("speakBalms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms6(String languageCode) async {
+  Future<void> speakbalms6(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntrybalm extends StatelessWidget {
     await flutterTts.speak("speakBalms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalms7(String languageCode) async {
+  Future<void> speakbalms7(String languageCode) async {
     // DOPSUM: CHANGE speakBalm
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntrybalm extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɑːm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalm("en-GB"),
+                              onPressed: () => speakbalm("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntrybalm extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalm("en-US"),
+                              onPressed: () => speakbalm("en-US"),
                             ),
                           ],
                         ),
@@ -177,11 +177,11 @@ class EnglishEntrybalm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalms1("en-GB"),
+                                    onPressed: () => speakbalms1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalms1(// REPLACE: balm
+                                        speakbalms1(// REPLACE: balm
                                             "en-US"),
                                   ),
                                 ],
@@ -210,11 +210,11 @@ class EnglishEntrybalm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalms2("en-GB"),
+                                    onPressed: () => speakbalms2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalms2(// REPLACE: balm
+                                        speakbalms2(// REPLACE: balm
                                             "en-US"),
                                   ),
                                 ],
@@ -243,11 +243,11 @@ class EnglishEntrybalm extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakBalms3("en-GB"),
+                                    onPressed: () => speakbalms3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakBalms3(// REPLACE: balm
+                                        speakbalms3(// REPLACE: balm
                                             "en-US"),
                                   ),
                                 ],

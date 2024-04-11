@@ -19,7 +19,7 @@ class EnglishEntryaward extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAward(String languageCode) async {
+  Future<void> speakaward(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.speak("award"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards1(String languageCode) async {
+  Future<void> speakawards1(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryaward extends StatelessWidget {
         "He was nominated for the best actor award."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards2(String languageCode) async {
+  Future<void> speakawards2(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryaward extends StatelessWidget {
         "As head of the bank, she got an award of £2.18m."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards3(String languageCode) async {
+  Future<void> speakawards3(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryaward extends StatelessWidget {
         "The judge has the power to make damages awards."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards4(String languageCode) async {
+  Future<void> speakawards4(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -63,7 +63,7 @@ class EnglishEntryaward extends StatelessWidget {
         "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards5(String languageCode) async {
+  Future<void> speakawards5(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -72,7 +72,7 @@ class EnglishEntryaward extends StatelessWidget {
         "The prize is awarded annually for the best new building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards6(String languageCode) async {
+  Future<void> speakawards6(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -80,7 +80,7 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.speak("speakAwards66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwards7(String languageCode) async {
+  Future<void> speakawards7(String languageCode) async {
     // DOPSUM: CHANGE speakAward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -119,7 +119,7 @@ class EnglishEntryaward extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈwɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAward("en-GB"),
+                              onPressed: () => speakaward("en-GB"),
                             ),
                           ],
                         ),
@@ -129,7 +129,7 @@ class EnglishEntryaward extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈwɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAward("en-US"),
+                              onPressed: () => speakaward("en-US"),
                             ),
                           ],
                         ),
@@ -179,11 +179,11 @@ class EnglishEntryaward extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwards1("en-GB"),
+                                    onPressed: () => speakawards1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwards1(// REPLACE: award
+                                        speakawards1(// REPLACE: award
                                             "en-US"),
                                   ),
                                 ],
@@ -212,11 +212,11 @@ class EnglishEntryaward extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwards2("en-GB"),
+                                    onPressed: () => speakawards2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwards2(// REPLACE: award
+                                        speakawards2(// REPLACE: award
                                             "en-US"),
                                   ),
                                 ],
@@ -245,11 +245,11 @@ class EnglishEntryaward extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwards3("en-GB"),
+                                    onPressed: () => speakawards3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwards3(// REPLACE: award
+                                        speakawards3(// REPLACE: award
                                             "en-US"),
                                   ),
                                 ],
@@ -278,11 +278,11 @@ class EnglishEntryaward extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwards4("en-GB"),
+                                    onPressed: () => speakawards4("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwards4(// REPLACE: award
+                                        speakawards4(// REPLACE: award
                                             "en-US"),
                                   ),
                                 ],
@@ -311,11 +311,11 @@ class EnglishEntryaward extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAwards5("en-GB"),
+                                    onPressed: () => speakawards5("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAwards5(// REPLACE: award
+                                        speakawards5(// REPLACE: award
                                             "en-US"),
                                   ),
                                 ],

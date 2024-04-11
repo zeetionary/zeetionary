@@ -19,7 +19,7 @@ class EnglishEntryavailability extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvailability(String languageCode) async {
+  Future<void> speakavailability(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryavailability extends StatelessWidget {
     await flutterTts.speak("availability"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys1(String languageCode) async {
+  Future<void> speakavailabilitys1(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryavailability extends StatelessWidget {
         "There is limited ticket availability, so book early to avoid disappointment."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys2(String languageCode) async {
+  Future<void> speakavailabilitys2(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryavailability extends StatelessWidget {
         "Check her availability before you schedule the meeting."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys3(String languageCode) async {
+  Future<void> speakavailabilitys3(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryavailability extends StatelessWidget {
     await flutterTts.speak("speakAvailabilitys3c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys4(String languageCode) async {
+  Future<void> speakavailabilitys4(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryavailability extends StatelessWidget {
     await flutterTts.speak("speakAvailabilitys4c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys5(String languageCode) async {
+  Future<void> speakavailabilitys5(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryavailability extends StatelessWidget {
     await flutterTts.speak("speakAvailabilitys5c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys6(String languageCode) async {
+  Future<void> speakavailabilitys6(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryavailability extends StatelessWidget {
     await flutterTts.speak("speakAvailabilitys6c"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvailabilitys7(String languageCode) async {
+  Future<void> speakavailabilitys7(String languageCode) async {
     // DOPSUM: CHANGE speakAvailability
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -117,7 +117,7 @@ class EnglishEntryavailability extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌveɪləˈbɪləti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAvailability("en-GB"),
+                              onPressed: () => speakavailability("en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +127,7 @@ class EnglishEntryavailability extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌveɪləˈbɪləti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvailability("en-US"),
+                              onPressed: () => speakavailability("en-US"),
                             ),
                           ],
                         ),
@@ -177,10 +177,10 @@ class EnglishEntryavailability extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAvailabilitys1("en-GB"),
+                                        speakavailabilitys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAvailabilitys1(
+                                    onPressed: () => speakavailabilitys1(
                                         // REPLACE: availability
                                         "en-US"),
                                   ),
@@ -211,10 +211,10 @@ class EnglishEntryavailability extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAvailabilitys2("en-GB"),
+                                        speakavailabilitys2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAvailabilitys2(
+                                    onPressed: () => speakavailabilitys2(
                                         // REPLACE: availability
                                         "en-US"),
                                   ),

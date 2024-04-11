@@ -13,7 +13,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntihistamine(String languageCode) async {
+  Future<void> speakantihistamine(String languageCode) async {
     // DOPSUM: CHANGE speakAntihistamine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -21,7 +21,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
     await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntihistamine1105(String languageCode) async {
+  Future<void> speakantihistamine1105(String languageCode) async {
     // DOPSUM: CHANGE speakAntihistamine
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -30,7 +30,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
         "Antihistamine is often used to treat hay fever and insect bites."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -38,7 +38,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -46,7 +46,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -54,7 +54,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -62,7 +62,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -70,7 +70,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -78,7 +78,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
   //   await flutterTts.speak("antihistamine"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntihistamine(String languageCode) async {
+  // Future<void> speakantihistamine(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntihistamine
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -118,7 +118,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈhɪstəmiːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntihistamine("en-GB"),
+                              onPressed: () => speakantihistamine("en-GB"),
                             ),
                           ],
                         ),
@@ -128,7 +128,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈhɪstəmiːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntihistamine("en-US"),
+                              onPressed: () => speakantihistamine("en-US"),
                             ),
                           ],
                         ),
@@ -179,10 +179,10 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAntihistamine1105("en-GB"),
+                                        speakantihistamine1105("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAntihistamine1105(
+                                    onPressed: () => speakantihistamine1105(
                                         // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
                                         "en-US"),
                                   ),

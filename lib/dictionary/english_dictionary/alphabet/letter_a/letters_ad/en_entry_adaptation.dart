@@ -11,7 +11,7 @@ class EnglishEntryadaptation extends StatelessWidget {
   EnglishEntryadaptation({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdaptation(String languageCode) async {
+  Future<void> speakadaptation(String languageCode) async {
     // DOPSUM: CHANGE speakAdaptation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryadaptation extends StatelessWidget {
     await flutterTts.speak("adaptation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdapt3254(String languageCode) async {
+  Future<void> speakadapt3254(String languageCode) async {
     // DOPSUM: CHANGE speakAdaptation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryadaptation extends StatelessWidget {
         "The process of adaptation to a new school is difficult for some children."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdaptat2489(String languageCode) async {
+  Future<void> speakadaptat2489(String languageCode) async {
     // DOPSUM: CHANGE speakAdaptation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryadaptation extends StatelessWidget {
         "a screen adaptation of Shakespeare’s ‘Macbeth’"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdaptation(String languageCode) async {
+  // Future<void> speakadaptation(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdaptation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -73,7 +73,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædæpˈteɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdaptation("en-GB"),
+                              onPressed: () => speakadaptation("en-GB"),
                             ),
                           ],
                         ),
@@ -83,7 +83,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædæpˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdaptation("en-US"),
+                              onPressed: () => speakadaptation("en-US"),
                             ),
                           ],
                         ),
@@ -134,10 +134,10 @@ class EnglishEntryadaptation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdapt3254("en-GB"),
+                                    onPressed: () => speakadapt3254("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdapt3254(
+                                    onPressed: () => speakadapt3254(
                                         // REPLACE: adaptation /ˌædæpˈteɪʃn/
                                         "en-US"),
                                   ),
@@ -166,10 +166,10 @@ class EnglishEntryadaptation extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAdaptat2489("en-GB"),
+                                    onPressed: () => speakadaptat2489("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAdaptat2489(
+                                    onPressed: () => speakadaptat2489(
                                         // REPLACE: adaptation /ˌædæpˈteɪʃn/
                                         "en-US"),
                                   ),

@@ -11,7 +11,7 @@ class EnglishEntryammunition extends StatelessWidget {
   EnglishEntryammunition({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmmunition(String languageCode) async {
+  Future<void> speakammunition(String languageCode) async {
     // DOPSUM: CHANGE speakAmmunition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -19,7 +19,7 @@ class EnglishEntryammunition extends StatelessWidget {
     await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmmunition8895(String languageCode) async {
+  Future<void> speakammunition8895(String languageCode) async {
     // DOPSUM: CHANGE speakAmmunition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -28,7 +28,7 @@ class EnglishEntryammunition extends StatelessWidget {
         "A few of the men had run out of ammunition."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmmunition411(String languageCode) async {
+  Future<void> speakammunition411(String languageCode) async {
     // DOPSUM: CHANGE speakAmmunition
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -37,7 +37,7 @@ class EnglishEntryammunition extends StatelessWidget {
         "The letter gave her all the ammunition she needed."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -93,7 +93,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -101,7 +101,7 @@ class EnglishEntryammunition extends StatelessWidget {
   //   await flutterTts.speak("ammunition"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmmunition(String languageCode) async {
+  // Future<void> speakammunition(String languageCode) async {
   //   // DOPSUM: CHANGE speakAmmunition
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -139,7 +139,7 @@ class EnglishEntryammunition extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmjəˈnɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmmunition("en-GB"),
+                              onPressed: () => speakammunition("en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +149,7 @@ class EnglishEntryammunition extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmjəˈnɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmmunition("en-US"),
+                              onPressed: () => speakammunition("en-US"),
                             ),
                           ],
                         ),
@@ -198,10 +198,10 @@ class EnglishEntryammunition extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmmunition8895("en-GB"),
+                                        speakammunition8895("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmmunition8895(
+                                    onPressed: () => speakammunition8895(
                                         // REPLACE: ammunition /ˌæmjəˈnɪʃn/
                                         "en-US"),
                                   ),
@@ -231,10 +231,10 @@ class EnglishEntryammunition extends StatelessWidget {
                                 children: [
                                   CustomIconButtonBritish(
                                     onPressed: () =>
-                                        speakAmmunition411("en-GB"),
+                                        speakammunition411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmmunition411(
+                                    onPressed: () => speakammunition411(
                                         // REPLACE: ammunition /ˌæmjəˈnɪʃn/
                                         "en-US"),
                                   ),

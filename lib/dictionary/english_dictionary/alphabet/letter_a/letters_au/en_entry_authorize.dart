@@ -19,7 +19,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuthorize(String languageCode) async {
+  Future<void> speakauthorize(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -27,7 +27,7 @@ class EnglishEntryauthorize extends StatelessWidget {
     await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorize840(String languageCode) async {
+  Future<void> speakauthorize840(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -36,7 +36,7 @@ class EnglishEntryauthorize extends StatelessWidget {
         .speak("I can authorize payments up to £5 000."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuthorize842(String languageCode) async {
+  Future<void> speakauthorize842(String languageCode) async {
     // DOPSUM: CHANGE speakAuthorize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -45,7 +45,7 @@ class EnglishEntryauthorize extends StatelessWidget {
         "The police were authorized to record his phone conversations."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -53,7 +53,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -61,7 +61,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -69,7 +69,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -77,7 +77,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -85,7 +85,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   //   await flutterTts.speak("authorize"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuthorize(String languageCode) async {
+  // Future<void> speakauthorize(String languageCode) async {
   //   // DOPSUM: CHANGE speakAuthorize
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
@@ -124,7 +124,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːθəraɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthorize("en-GB"),
+                              onPressed: () => speakauthorize("en-GB"),
                             ),
                           ],
                         ),
@@ -134,7 +134,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːθəraɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthorize("en-US"),
+                              onPressed: () => speakauthorize("en-US"),
                             ),
                           ],
                         ),
@@ -185,11 +185,11 @@ class EnglishEntryauthorize extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthorize840("en-GB"),
+                                    onPressed: () => speakauthorize840("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakAuthorize840(// REPLACE: authorize
+                                        speakauthorize840(// REPLACE: authorize
                                             "en-US"),
                                   ),
                                 ],
@@ -216,10 +216,10 @@ class EnglishEntryauthorize extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAuthorize842("en-GB"),
+                                    onPressed: () => speakauthorize842("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAuthorize842(
+                                    onPressed: () => speakauthorize842(
                                         // REPLACE: authorize
                                         "en-US"),
                                   ),

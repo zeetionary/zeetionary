@@ -27,8 +27,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
 
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    // ignore: use_build_context_synchronously
     bool confirmClear = await showDialog(
+      // ignore: use_build_context_synchronously
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
@@ -40,7 +40,6 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
             ),
             textDirection: TextDirection.ltr,
           ),
-          // content: const Text(''),
           content: Text(
             'Do you really want to clear search history?',
             style: TextStyle(
@@ -76,11 +75,9 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       },
     );
 
-    // If the user confirms, clear the history
     if (confirmClear == true) {
       await prefs.remove('english history');
 
-      // Update the state to trigger a rebuild
       setState(() {});
 
       // ignore: use_build_context_synchronously

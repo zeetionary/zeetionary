@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryaback extends StatelessWidget {
+class EnglishEntryaback extends StatefulWidget {
   const EnglishEntryaback({super.key});
 
+  @override
+  State<EnglishEntryaback> createState() => _EnglishEntryabackState();
+}
+
+class _EnglishEntryabackState extends State<EnglishEntryaback> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 130.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -67,8 +76,15 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
-              IpaUK(),
-              IpaUS(),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    IpaUK(),
+                    IpaUS(),
+                  ],
+                ),
+              ),
             ],
           ),
         ],
@@ -108,8 +124,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -138,7 +154,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abackkkkkkkkkkkkkkkkk"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -158,8 +174,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -193,7 +209,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakaback("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakaback("en-US"),
+    );
   }
 }
 
@@ -223,6 +241,50 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
+
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
+کوردی
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"
@@ -306,6 +368,69 @@ Adverb: aback
  
 2. By surprise
 "taken aback by the caustic remarks"
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
+aaaa
 """,
   );
 

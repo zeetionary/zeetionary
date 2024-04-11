@@ -219,10 +219,7 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
 
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
-      "کوردی": "/english-a",
-      "کوردستان": "/english-aback",
-      "abacus": "/english-abacus",
-      "abandon": "/english-abandon",
+      "کوردستان": "/history-screen/aback",
     };
 
     final routeName = screenRoutes[word];

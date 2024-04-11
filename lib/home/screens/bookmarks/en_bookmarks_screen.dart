@@ -166,10 +166,7 @@ class _EnglishfavouritesScreenState
 
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
-      "a": "/english-a",
-      "aback": "/english-aback",
-      "abacus": "/english-abacus",
-      "abandon": "/english-abandon",
+      "aback": "/bookmarks-screen/aback",
     };
 
     final routeName = screenRoutes[word];

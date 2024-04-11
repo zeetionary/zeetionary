@@ -176,11 +176,7 @@ class _KurdishFavouritesScreenState
 
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
-      "a": "/english-a",
-      "کوردی": "/english-a",
-      "aback": "/english-aback",
-      "abacus": "/english-abacus",
-      "abandon": "/english-abandon",
+      "کوردستان": "/bookmarks-screen/aback",
     };
 
     final routeName = screenRoutes[word];

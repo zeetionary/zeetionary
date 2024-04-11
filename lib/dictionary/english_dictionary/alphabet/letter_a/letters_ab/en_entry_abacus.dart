@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryabacus extends StatelessWidget {
+class EnglishEntryabacus extends StatefulWidget {
   const EnglishEntryabacus({super.key});
 
+  @override
+  State<EnglishEntryabacus> createState() => _EnglishEntryabacusState();
+}
+
+class _EnglishEntryabacusState extends State<EnglishEntryabacus> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -108,8 +117,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -158,8 +167,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -193,7 +202,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakabacus("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakabacus("en-US"),
+    );
   }
 }
 
@@ -216,48 +227,48 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DividerDefinition(),
-                          const KurdishVocabulary(text: """
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
+          const KurdishVocabulary(text: """
 کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"
-                                  ""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "In ancient times, people relied on an abacus to perform mathematical calculations."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speak145287("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speak145287("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    );
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"
+                  ""),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "In ancient times, people relied on an abacus to perform mathematical calculations."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speak145287("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speak145287("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
 

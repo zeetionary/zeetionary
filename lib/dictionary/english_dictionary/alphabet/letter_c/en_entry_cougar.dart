@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycougar extends StatelessWidget {
+class EnglishEntrycougar extends StatefulWidget {
   const EnglishEntrycougar({super.key});
 
+  @override
+  State<EnglishEntrycougar> createState() => _EnglishEntrycougarState();
+}
+
+class _EnglishEntrycougarState extends State<EnglishEntrycougar> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -95,7 +104,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: dopsum1");
+    return const AlsoEnglish(word: "also: cougar");
   }
 }
 
@@ -108,8 +117,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -133,18 +142,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speakcougar(String languageCode) async {
+    // DOPSUM: CHANGE speakcougar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cougar"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdopsum1("en-GB"),
+      onPressed: () => speakcougar("en-GB"),
     );
   }
 }
@@ -158,8 +167,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -183,17 +192,19 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speakcougar(String languageCode) async {
+    // DOPSUM: CHANGE speakcougar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cougar"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakdopsum1("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcougar("en-US"),
+    );
   }
 }
 

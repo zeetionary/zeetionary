@@ -10,37 +10,48 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryabovebeyondsuspicion extends StatelessWidget {
+class EnglishEntryabovebeyondsuspicion extends StatefulWidget {
   const EnglishEntryabovebeyondsuspicion({super.key});
 
+  @override
+  State<EnglishEntryabovebeyondsuspicion> createState() =>
+      _EnglishEntryabovebeyondsuspicionState();
+}
+
+class _EnglishEntryabovebeyondsuspicionState
+    extends State<EnglishEntryabovebeyondsuspicion> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +120,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +170,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +205,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakabovebeyondsuspicion("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakabovebeyondsuspicion("en-US"),
+    );
   }
 }
 
@@ -219,7 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions200"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions3(String languageCode) async {
@@ -227,7 +241,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions300"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions4(String languageCode) async {
@@ -235,7 +250,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions400"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions5(String languageCode) async {
@@ -243,7 +259,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions500"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions6(String languageCode) async {
@@ -251,7 +268,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions600"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions7(String languageCode) async {
@@ -259,7 +277,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions700"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions700"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions8(String languageCode) async {
@@ -267,7 +286,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions800"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions9(String languageCode) async {
@@ -275,7 +295,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions900"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions10(String languageCode) async {
@@ -283,7 +304,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions1000"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions11(String languageCode) async {
@@ -291,7 +313,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions1100"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions12(String languageCode) async {
@@ -299,7 +322,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions1200"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakabovebeyondsuspicions13(String languageCode) async {
@@ -307,21 +331,22 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabovebeyondsuspicions1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakabovebeyondsuspicions1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          DefinitionKurdish(text: """
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          DefinitionKurdish(text: """
 ١. کەسێک کە لە ھەڵە و جێگەی گومان بەدەرە"""),
-                        ],
-                      ),
-                    );
+        ],
+      ),
+    );
   }
 }
 

@@ -26,6 +26,7 @@ import 'package:zeetionary/theme/pallete.dart';
 // taskkill /f /im dart*
 // taskkill /f /im adb* (You can run "adb kill-server" too)
 // flutter doctor --android-licenses
+// flutter pub upgrade --major-versions
 
 // run https://docs.flutter.dev/testing/build-modes
 // https://stackoverflow.com/questions/50645703/how-to-get-apk-and-ipa-file-from-flutter

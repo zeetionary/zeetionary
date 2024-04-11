@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoyote extends StatelessWidget {
+class EnglishEntrycoyote extends StatefulWidget {
   const EnglishEntrycoyote({super.key});
 
+  @override
+  State<EnglishEntrycoyote> createState() => _EnglishEntrycoyoteState();
+}
+
+class _EnglishEntrycoyoteState extends State<EnglishEntrycoyote> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcoyote("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcoyote("en-US"),
+    );
   }
 }
 
@@ -319,9 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: (گیانەوەرناسی) کۆیۆتی، کۆیۆت: گورگێکی چکۆلەی ئەمریکای باکووری 
+// کوردی: (گیانەوەرناسی) کۆیۆتی، کۆیۆت: گورگێکی چکۆلەی ئەمریکای باکووری
 // """),
-          const DefinitionKurdish(text: "١. (ناو) گورگێکی بچووک کە لە ئەمریکای باکوور دەژی"),
+          const DefinitionKurdish(
+              text: "١. (ناو) گورگێکی بچووک کە لە ئەمریکای باکوور دەژی"),
           Row(
             children: [
               const Expanded(
@@ -330,7 +342,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The only sound is the howl of coyote and the whisper of the wind."),
-                    ExampleSentenceKurdish(text: "تەنها دەنگ لوورەی گورگی بچووک و خشەی بایە."),
+                    ExampleSentenceKurdish(
+                        text: "تەنها دەنگ لوورەی گورگی بچووک و خشەی بایە."),
                   ],
                 ),
               ),
@@ -395,7 +408,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: coyote (Derived forms: coyotes)
+- Noun: coyote (derived forms: coyotes)
 1. Small wolf native to western North America (= prairie wolf, brush wolf, Canis latrans)
  
 2. Someone who smuggles illegal immigrants into the United States (usually across the Mexican border)
@@ -433,7 +446,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yxwi7zQhrRI?t=',
+    videoId: 'Yxwi7zQhrRI',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -458,7 +471,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-sTgiRhh2lo?t=',
+    videoId: '-sTgiRhh2lo',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -483,7 +496,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qCGLbD8osxA?t=',
+    videoId: 'qCGLbD8osxA',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +521,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fhmQM11MLmE?t=',
+    videoId: 'fhmQM11MLmE',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +546,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0BdXPao_i5w',
+    videoId: '0BdXPao_i5w',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +571,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k9-u5z46ka4?t=',
+    videoId: 'k9-u5z46ka4',
     startSeconds: 1064,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +596,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BfUoopDpmmY?t=',
+    videoId: 'BfUoopDpmmY',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourt extends StatelessWidget {
+class EnglishEntrycourt extends StatefulWidget {
   const EnglishEntrycourt({super.key});
 
+  @override
+  State<EnglishEntrycourt> createState() => _EnglishEntrycourtState();
+}
+
+class _EnglishEntrycourtState extends State<EnglishEntrycourt> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcourt("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcourt("en-US"),
+    );
   }
 }
 
@@ -1176,7 +1187,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: court (Derived forms: courts)
+- Noun: court (derived forms: courts)
 1. An assembly (including one or more judges) to conduct judicial business (= tribunal, judicature)
  
 2. (law) a room in which a law court sits (= courtroom)
@@ -1200,7 +1211,7 @@ ${englishMeaningConst.text}
 9. Respectful deference (= homage)
 "pay court to the emperor";
 
-- Verb: court (Derived forms: courting, courted, courts)
+- Verb: court (derived forms: courting, courted, courts)
 1. Make amorous advances towards (= woo, romance, solicit)
 "John is courting Mary";
  
@@ -1244,7 +1255,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZQNLP1_Xmcw?t=',
+    videoId: 'ZQNLP1_Xmcw',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1269,7 +1280,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1294,7 +1305,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DgAoy7XaFgk?t=',
+    videoId: 'DgAoy7XaFgk',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1319,7 +1330,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_XBfpv9XADk?t=',
+    videoId: '_XBfpv9XADk',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1344,7 +1355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A5fKAqLeaBo',
+    videoId: 'A5fKAqLeaBo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1369,7 +1380,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/raSeaAeryWE?t=',
+    videoId: 'raSeaAeryWE',
     startSeconds: 1769,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1394,7 +1405,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wdLzMyqDuDY?t=',
+    videoId: 'wdLzMyqDuDY',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(

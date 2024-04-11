@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycovert extends StatelessWidget {
+class EnglishEntrycovert extends StatefulWidget {
   const EnglishEntrycovert({super.key});
 
+  @override
+  State<EnglishEntrycovert> createState() => _EnglishEntrycovertState();
+}
+
+class _EnglishEntrycovertState extends State<EnglishEntrycovert> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcovert("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcovert("en-US"),
+    );
   }
 }
 
@@ -435,7 +446,7 @@ ${englishMeaningConst.text}
 2. Secret or hidden; not openly practised or engaged in or shown or avowed
 "covert actions by the CIA"; "covert funding for the rebels"
 
-- Noun: covert (Derived forms: coverts)
+- Noun: covert (derived forms: coverts)
 1. A flock of coots
  
 2. A covering that serves to conceal or shelter something (= screen, cover, concealment)
@@ -472,7 +483,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PmlRbfSavbI?t=',
+    videoId: 'PmlRbfSavbI',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +508,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZT3X1fYFViE?t=',
+    videoId: 'ZT3X1fYFViE',
     startSeconds: 297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +533,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npeCDLsyJwE?t=',
+    videoId: 'npeCDLsyJwE',
     startSeconds: 683,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +558,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xokNdrCNRLc?t=',
+    videoId: 'xokNdrCNRLc',
     startSeconds: 573,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +583,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBhXvLlB-kY?t=',
+    videoId: 'HBhXvLlB-kY',
     startSeconds: 4269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +608,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1yvZbX_0lPw?t=',
+    videoId: '1yvZbX_0lPw',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +633,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q2tJqO6nCSc?t=',
+    videoId: 'q2tJqO6nCSc',
     startSeconds: 755,
     autoPlay: true,
     params: const YoutubePlayerParams(

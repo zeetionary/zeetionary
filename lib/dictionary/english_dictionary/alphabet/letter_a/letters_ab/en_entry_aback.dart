@@ -30,7 +30,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
               const SliverAppBar(
                 pinned: true,
                 floating: true,
-                expandedHeight: 130.0,
+                expandedHeight: 220.0,
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
@@ -76,15 +76,8 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: [
-                    IpaUK(),
-                    IpaUS(),
-                  ],
-                ),
-              ),
+              IpaUK(),
+              IpaUS(),
             ],
           ),
         ],
@@ -154,7 +147,7 @@ class TTSUK extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abackkkkkkkkkkkkkkkkk"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -241,50 +234,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
-
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
-کوردی
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"
@@ -368,69 +317,6 @@ Adverb: aback
  
 2. By surprise
 "taken aback by the caustic remarks"
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
-aaaa
 """,
   );
 

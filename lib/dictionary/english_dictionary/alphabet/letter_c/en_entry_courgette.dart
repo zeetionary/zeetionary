@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourgette extends StatelessWidget {
+class EnglishEntrycourgette extends StatefulWidget {
   const EnglishEntrycourgette({super.key});
 
+  @override
+  State<EnglishEntrycourgette> createState() => _EnglishEntrycourgetteState();
+}
+
+class _EnglishEntrycourgetteState extends State<EnglishEntrycourgette> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcourgette("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcourgette("en-US"),
+    );
   }
 }
 
@@ -321,7 +332,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: کوولەکەسەوزە
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کوولەکەسەوزە؛ سەوەزەیەک کە توێکڵێکی سەوزی تۆخی هەیە و ناوەکەی سپییە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کوولەکەسەوزە؛ سەوەزەیەک کە توێکڵێکی سەوزی تۆخی هەیە و ناوەکەی سپییە"),
           Row(
             children: [
               const Expanded(
@@ -330,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Slice each courgette down the middle and remove the flesh."),
-                    ExampleSentenceKurdish(text: "هەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە."),
                   ],
                 ),
               ),
@@ -395,7 +410,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: courgette (Derived forms: courgettes)
+- Noun: courgette (derived forms: courgettes)
 Usage: UK (=zucchini)
 1. Marrow squash plant whose fruit are eaten when small (= zucchini [N. Amer, Austral, NZ])
  
@@ -432,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qZhb0Vl_BaM?t=',
+    videoId: 'qZhb0Vl_BaM',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -457,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/21igfoUrRCg?t=',
+    videoId: '21igfoUrRCg',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -482,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f8Raht42pXE?t=',
+    videoId: 'f8Raht42pXE',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -507,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3O_lkFHAqv0?t=',
+    videoId: '3O_lkFHAqv0',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -532,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_dXakYvOPdM?t=',
+    videoId: '_dXakYvOPdM',
     startSeconds: 1706,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i0OOA4Hcq4c?t=',
+    videoId: 'i0OOA4Hcq4c',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xzt05vJLdyk?t=',
+    videoId: 'xzt05vJLdyk',
     startSeconds: 763,
     autoPlay: true,
     params: const YoutubePlayerParams(

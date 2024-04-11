@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycraggy extends StatelessWidget {
+class EnglishEntrycraggy extends StatefulWidget {
   const EnglishEntrycraggy({super.key});
 
+  @override
+  State<EnglishEntrycraggy> createState() => _EnglishEntrycraggyState();
+}
+
+class _EnglishEntrycraggyState extends State<EnglishEntrycraggy> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcraggy("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcraggy("en-US"),
+    );
   }
 }
 
@@ -398,7 +409,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: craggy (Derived forms: craggier, craggiest)
+- Adjective: craggy (derived forms: craggier, craggiest)
 1. Having hills and crags (= cragged, hilly, mountainous)
 "craggy terrain";
  
@@ -435,7 +446,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fa13JKGG0ds?t=',
+    videoId: 'Fa13JKGG0ds',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +471,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AJAkMojjOWg?t=',
+    videoId: 'AJAkMojjOWg',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +496,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UZ0ausMICgM?t=',
+    videoId: 'UZ0ausMICgM',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +521,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xi28pEbMdTw?t=',
+    videoId: 'Xi28pEbMdTw',
     startSeconds: 1103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +546,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3lr7H7wm2tU?t=',
+    videoId: '3lr7H7wm2tU',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +571,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9Y1XazyDiwc?t=',
+    videoId: '9Y1XazyDiwc',
     startSeconds: 1297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +596,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8J2gAY-WZhU?t=',
+    videoId: '8J2gAY-WZhU',
     startSeconds: 1875,
     autoPlay: true,
     params: const YoutubePlayerParams(

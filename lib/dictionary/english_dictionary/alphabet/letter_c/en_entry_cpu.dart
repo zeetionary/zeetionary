@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycpu extends StatelessWidget {
+class EnglishEntrycpu extends StatefulWidget {
   const EnglishEntrycpu({super.key});
 
+  @override
+  State<EnglishEntrycpu> createState() => _EnglishEntrycpuState();
+}
+
+class _EnglishEntrycpuState extends State<EnglishEntrycpu> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakCPU("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakCPU("en-US"),
+    );
   }
 }
 
@@ -399,7 +410,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: CPU (Derived forms: CPUs)
+- Noun: CPU (derived forms: CPUs)
 1. (computing) the part of a computer (a microprocessor chip) that does most of the data processing (= central processing unit, C.P.U., central processor, processor, mainframe)
 "the CPU and the memory form the central part of a computer to which the peripherals are attached";
 """,
@@ -434,7 +445,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/acUH4lWe2NQ?t=',
+    videoId: 'acUH4lWe2NQ',
     startSeconds: 565,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +470,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uKmxgFE4rPo?t=',
+    videoId: 'uKmxgFE4rPo',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +495,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iYYzIjdAk2Y?t=',
+    videoId: 'iYYzIjdAk2Y',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +520,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sK-49uz3lGg?t=',
+    videoId: 'sK-49uz3lGg',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +545,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T49zo_DV3QY?t=',
+    videoId: 'T49zo_DV3QY',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +570,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UI6Xmum0i90?t=',
+    videoId: 'UI6Xmum0i90',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +595,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UT5UbSJOyog?t=',
+    videoId: 'UT5UbSJOyog',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

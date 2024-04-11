@@ -28,7 +28,7 @@ apply plugin: 'dev.flutter.flutter-gradle-plugin'
 
 android {
     namespace "com.example.zeetionary"
-    compileSdkVersion 33
+    compileSdkVersion 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {

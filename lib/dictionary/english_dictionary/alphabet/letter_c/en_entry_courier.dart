@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourier extends StatelessWidget {
+class EnglishEntrycourier extends StatefulWidget {
   const EnglishEntrycourier({super.key});
 
+  @override
+  State<EnglishEntrycourier> createState() => _EnglishEntrycourierState();
+}
+
+class _EnglishEntrycourierState extends State<EnglishEntrycourier> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcourier("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcourier("en-US"),
+    );
   }
 }
 
@@ -426,11 +437,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: courier (Derived forms: couriers)
+- Noun: courier (derived forms: couriers)
 1. A person who carries a message (= messenger)
 "The courier was entrusted with the general's secret";
 
-- Verb: courier (Derived forms: couriers, couriered, couriering)
+- Verb: courier (derived forms: couriers, couriered, couriering)
 1. Send by a courier (= messenger [N. Amer])
 "I'll courier the documents";
 """,
@@ -465,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/knjliFs3gR8?t=',
+    videoId: 'knjliFs3gR8',
     startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zHqJdzS_FA?t=',
+    videoId: '0zHqJdzS_FA',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8uc3NzU7J4?t=',
+    videoId: 'T8uc3NzU7J4',
     startSeconds: 1842,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x94BqWK1Ks4?t=',
+    videoId: 'x94BqWK1Ks4',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NZOHQwzA0bM?t=',
+    videoId: 'NZOHQwzA0bM',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YE0U018Copw?t=',
+    videoId: 'YE0U018Copw',
     startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SUsqnD9-42g?t=',
+    videoId: 'SUsqnD9-42g',
     startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(

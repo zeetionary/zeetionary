@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycoronary extends StatelessWidget {
+class EnglishEntrycoronary extends StatefulWidget {
   const EnglishEntrycoronary({super.key});
 
+  @override
+  State<EnglishEntrycoronary> createState() => _EnglishEntrycoronaryState();
+}
+
+class _EnglishEntrycoronaryState extends State<EnglishEntrycoronary> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -108,8 +117,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -158,8 +167,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -193,7 +202,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcoronary("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcoronary("en-US"),
+    );
   }
 }
 
@@ -218,7 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She suffered a coronary thrombosis."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She suffered a coronary thrombosis."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcoronarys3(String languageCode) async {
@@ -320,7 +332,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: تاجی، خەرمانەیی، تاج‌ئاسا، ئاخڵەیی، تاماری
 // """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بەو خوێبەرانەی کە لە دڵەوە خوێن بۆ دڵ خۆی دەگوازنەوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) پەیوەندیدار بەو خوێبەرانەی کە لە دڵەوە خوێن بۆ دڵ خۆی دەگوازنەوە"),
           Row(
             children: [
               const Expanded(
@@ -329,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Regular exercise reduces the risk of coronary heart disease."),
-                    ExampleSentenceKurdish(text: "ڕاهێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕاهێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە."),
                   ],
                 ),
               ),
@@ -347,33 +363,33 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) وەستانی سوڕی خوێن لە خوێنبەرێکدا کە خوێن بۆ دڵ دەگوازێتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) وەستانی سوڕی خوێن لە خوێنبەرێکدا کە خوێن بۆ دڵ دەگوازێتەوە"),
           const AlsoEnglishckb(word: "هەروەها: coronary thrombosis"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "She suffered a coronary thrombosis."),
-          ExampleSentenceKurdish(
-          text: "تووشی جەڵدەی دڵ بوو."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcoronarys2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcoronarys2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She suffered a coronary thrombosis."),
+                    ExampleSentenceKurdish(text: "تووشی جەڵدەی دڵ بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcoronarys2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcoronarys2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycox extends StatelessWidget {
+class EnglishEntrycox extends StatefulWidget {
   const EnglishEntrycox({super.key});
 
+  @override
+  State<EnglishEntrycox> createState() => _EnglishEntrycoxState();
+}
+
+class _EnglishEntrycoxState extends State<EnglishEntrycox> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcox("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcox("en-US"),
+    );
   }
 }
 
@@ -426,13 +437,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cox (Derived forms: coxes)
+- Noun: cox (derived forms: coxes)
 1. The helmsman of a ship's boat or a racing crew (= coxswain)
 
-- Verb: cox (Derived forms: coxing, coxes, coxed)
+- Verb: cox (derived forms: coxing, coxes, coxed)
 1. Act as the coxswain, in a boat race
 
-- Noun: Cox (Derived forms: Coxes)
+- Noun: Cox (derived forms: Coxes)
 1. Either of two related enzymes that control the production of prostaglandins and are blocked by aspirin (= cyclooxygenase)
  
 2. A yellow Pippin with distinctive flavour (= Cox's Orange Pippin)
@@ -470,7 +481,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9NE1hzi_LSc?t=',
+    videoId: '9NE1hzi_LSc',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +506,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6oLdd_r_EdM?t=',
+    videoId: '6oLdd_r_EdM',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +531,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rkayG_fjPwY?t=',
+    videoId: 'rkayG_fjPwY',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +556,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-xXvyoLlskg?t=',
+    videoId: '-xXvyoLlskg',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +581,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T8nFl2fEdXc?t=',
+    videoId: 'T8nFl2fEdXc',
     startSeconds: 893,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +606,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uFzuRm3wCDk?t=',
+    videoId: 'uFzuRm3wCDk',
     startSeconds: 628,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +631,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JukjwmAXSBY?t=',
+    videoId: 'JukjwmAXSBY',
     startSeconds: 1868,
     autoPlay: true,
     params: const YoutubePlayerParams(

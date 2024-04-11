@@ -157,8 +157,8 @@ class YouTubeContainerDesignNew extends StatelessWidget {
       children: [
         const DividerDefinition(),
         Container(
-          margin: const EdgeInsets.only(top: 20.0),
-          padding: const EdgeInsets.all(8.0),
+          margin: const EdgeInsets.only(top: 50.0, left: 15, right: 15),
+          padding: const EdgeInsets.all(4.0),
           decoration: BoxDecoration(
             boxShadow: [
               BoxShadow(
@@ -169,7 +169,7 @@ class YouTubeContainerDesignNew extends StatelessWidget {
             ],
             border: Border.all(
               color: Theme.of(context).primaryColor.withOpacity(0.1),
-              width: 1.0,
+              width: 2.0,
             ),
             borderRadius: BorderRadius.circular(15.0),
           ),
@@ -275,10 +275,9 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
       children: [
         const DividerDefinition(),
         Container(
-          margin: const EdgeInsets.only(top: 20.0),
-          padding: const EdgeInsets.all(8.0),
+          margin: const EdgeInsets.only(top: 50.0, left: 15, right: 15),
+          padding: const EdgeInsets.all(4.0),
           decoration: BoxDecoration(
-            // Add to the BoxDecoration of the outer Container:
             boxShadow: [
               BoxShadow(
                 color: Theme.of(context).primaryColor.withOpacity(0.06),
@@ -288,10 +287,9 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
             ],
             border: Border.all(
               color: Theme.of(context).primaryColor.withOpacity(0.1),
-              width: 1.0,
+              width: 2.0,
             ),
-            borderRadius: BorderRadius.circular(
-                15.0), // Apply border radius to the container
+            borderRadius: BorderRadius.circular(15.0),
           ),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(15.0),
@@ -304,6 +302,34 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
       ],
     );
   }
+}
+
+class CustomTabBarSliver extends StatelessWidget implements PreferredSizeWidget {
+  final List<Widget> tabs;
+
+  // (NOT zee) https://chat.openai.com/c/fe4f63a6-1e1f-4385-bcee-cd7982da22de
+
+  const CustomTabBarSliver({
+    super.key,
+    required this.tabs,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        border: Border(
+          bottom: BorderSide(color: Colors.blue.shade700, width: 2.0),
+        ),
+      ),
+      child: TabBar(
+        tabs: tabs.map((tab) => Tab(icon: tab)).toList(),
+      ),
+    );
+  }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
 
 class CustomTabBar extends ConsumerWidget {
@@ -390,6 +416,7 @@ class CustomTabBar extends ConsumerWidget {
     );
   }
 }
+
 
 // class CustomTabBar extends ConsumerWidget {
 //   final List<Widget> tabs;
@@ -848,7 +875,7 @@ class KurdishVocabulary extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: GestureDetector(
         // Wrap Text with GestureDetector
         onLongPress: () {
@@ -865,7 +892,7 @@ class KurdishVocabulary extends ConsumerWidget {
         child: Text(
           text,
           style: TextStyle(
-            fontSize: textSize + 4, // change size back to + 2 
+            fontSize: textSize + 4, // change size back to + 2
             fontWeight: FontWeight.w800,
           ),
           textAlign: TextAlign.right,
@@ -886,7 +913,7 @@ class DefinitionKurdish extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider);
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: GestureDetector(
         // Wrap Text with GestureDetector
         onLongPress: () {
@@ -970,7 +997,7 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
     final textSize = ref.watch(textSizeProvider) + 1;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1096,7 +1123,7 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
     final textSize = ref.watch(textSizeProvider) + 1;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1311,7 +1338,7 @@ class EnglishMeaningConst extends ConsumerWidget {
 
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 4.0),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

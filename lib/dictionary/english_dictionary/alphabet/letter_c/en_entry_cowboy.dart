@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycowboy extends StatelessWidget {
+class EnglishEntrycowboy extends StatefulWidget {
   const EnglishEntrycowboy({super.key});
 
+  @override
+  State<EnglishEntrycowboy> createState() => _EnglishEntrycowboyState();
+}
+
+class _EnglishEntrycowboyState extends State<EnglishEntrycowboy> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcowboy("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcowboy("en-US"),
+    );
   }
 }
 
@@ -483,7 +494,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cowboy (Derived forms: cowboys)
+- Noun: cowboy (derived forms: cowboys)
 1. A hired hand who tends cattle and performs other duties on horseback (= cowpuncher [N. Amer], puncher [N. Amer], cowman, cattleman, cowpoke [N. Amer, informal], cowhand, cowherd)
  
 2. A performer who gives exhibitions of riding and roping and bulldogging (= rodeo rider)
@@ -523,7 +534,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 1205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +559,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7aajEYRCEt8?t=',
+    videoId: '7aajEYRCEt8',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +584,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hB7CCgy88Ow?t=',
+    videoId: 'hB7CCgy88Ow',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +609,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j8nS1oDBGEA?t=',
+    videoId: 'j8nS1oDBGEA',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +634,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MSNujZ_7GY?t=',
+    videoId: '6MSNujZ_7GY',
     startSeconds: 265,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -648,7 +659,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJ8foA7ekdY?t=',
+    videoId: 'qJ8foA7ekdY',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -673,7 +684,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7x8L87akI5s?t=',
+    videoId: '7x8L87akI5s',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycorrection extends StatelessWidget {
+class EnglishEntrycorrection extends StatefulWidget {
   const EnglishEntrycorrection({super.key});
 
+  @override
+  State<EnglishEntrycorrection> createState() => _EnglishEntrycorrectionState();
+}
+
+class _EnglishEntrycorrectionState extends State<EnglishEntrycorrection> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -108,8 +117,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -158,8 +167,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -193,7 +202,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcorrection("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcorrection("en-US"),
+    );
   }
 }
 
@@ -218,7 +229,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The paper had to publish a correction to the story."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The paper had to publish a correction to the story."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorrections3(String languageCode) async {
@@ -226,7 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There are some programming errors that need correction."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There are some programming errors that need correction."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcorrections4(String languageCode) async {
@@ -320,7 +333,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ڕاست‌کردنەوە، چاک‌کردن، چاکردن، چێ‌کردن، دروست‌کردن، چاکسازی،	هەڵەچنی، هەڵەگرتن، بژارگەری،	دەرمان، چارە، چارەسەری،	بیراز، تەمێ‌کردن، تەزاندن، سزادان، تاشان
 """),
-          const DefinitionKurdish(text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی هەڵەیەک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی هەڵەیەک"),
           Row(
             children: [
               const Expanded(
@@ -329,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "I've made a few small corrections to your report."),
-                    ExampleSentenceKurdish(text: "هەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە."),
                   ],
                 ),
               ),
@@ -348,58 +364,61 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The paper had to publish a correction to the story."),
-          ExampleSentenceKurdish(
-          text: "ڕۆژنامەکە پێویست بوو ڕاستکردنەوەیەک بۆ وتارەکە زیاد بکات."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcorrections2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcorrections2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The paper had to publish a correction to the story."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆژنامەکە پێویست بوو ڕاستکردنەوەیەک بۆ وتارەکە زیاد بکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorrections2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorrections2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کردار یان پڕۆسەی ڕاستکردنەوەی شتێک"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) کردار یان پڕۆسەی ڕاستکردنەوەی شتێک"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "There are some programming errors that need correction."),
-          ExampleSentenceKurdish(
-          text: "ئەمانە چەند هەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcorrections3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcorrections3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "There are some programming errors that need correction."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەمانە چەند هەڵەیەکی پڕۆگرامسازین کە پێویستییان بە ڕاست کردنەوەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcorrections3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcorrections3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

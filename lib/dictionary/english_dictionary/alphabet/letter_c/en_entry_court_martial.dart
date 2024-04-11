@@ -10,37 +10,47 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourtmartial extends StatelessWidget {
+class EnglishEntrycourtmartial extends StatefulWidget {
   const EnglishEntrycourtmartial({super.key});
 
+  @override
+  State<EnglishEntrycourtmartial> createState() =>
+      _EnglishEntrycourtmartialState();
+}
+
+class _EnglishEntrycourtmartialState extends State<EnglishEntrycourtmartial> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +119,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +169,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +204,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcourtmartial("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcourtmartial("en-US"),
+    );
   }
 }
 
@@ -425,12 +437,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: court-martial (Derived forms: courts-martial)
+- Noun: court-martial (derived forms: courts-martial)
 1. (military) a military court to try members of the armed services who are accused of serious breaches of martial law
  
 2. (military law) a trial that is conducted by a military court
 
-- Verb: court-martial (Derived forms: court-martialled, court-martials, court-martialling)
+- Verb: court-martial (derived forms: court-martialled, court-martials, court-martialling)
 1. Subject to trial by court-martial
 """,
   );
@@ -464,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 1239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Unzc731iCUY?t=',
+    videoId: 'Unzc731iCUY',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/runjda4La_4?t=',
+    videoId: 'runjda4La_4',
     startSeconds: 799,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MBLji5dMS_k?t=',
+    videoId: 'MBLji5dMS_k',
     startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PCoE9xGPn6o?t=',
+    videoId: 'PCoE9xGPn6o',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0H5QZvOqlJM?t=',
+    videoId: '0H5QZvOqlJM',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bnhF_Qw0dtk?t=',
+    videoId: 'bnhF_Qw0dtk',
     startSeconds: 778,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -3981,63 +3981,63 @@ class _DictionaryScreenEnglishState
     "countess",
     "countless",
     "country",
-    // "countryman",
-    // "countryside",
-    // "county",
-    // "coup",
-    // "couple",
-    // "coupon",
-    // "courage",
-    // "courageous",
-    // "courageously",
-    // "courgette",
-    // "courier",
-    // "course",
-    // "court",
-    // "courtship",
-    // "courteous",
-    // "courteously",
-    // "courtesy",
-    // "courtier",
-    // "court martial",
-    // "courtyard",
-    // "cousin",
-    // "cover",
-    // "coverage",
-    // "covered",
-    // "cover-up",
-    // "covert",
-    // "covertly",
-    // "cow",
-    // "coward",
-    // "cowardice",
-    // "cowardly",
-    // "cowboy",
-    // "cower",
-    // "cowl",
-    // "cox",
-    // "coy",
-    // "coyness",
-    // "coyote",
-    // "CPU",
-    // "crab",
-    // "crabby",
-    // "crack",
-    // "crackdown",
-    // "cracked",
-    // "cracker",
-    // "crackers",
-    // "crackle",
-    // "crackpot",
-    // "cradle",
-    // "craft",
-    // "craftsman",
-    // "craftsmanship",
-    // "crafty",
-    // "craftily",
-    // "craftiness",
-    // "crag",
-    // "craggy",
+    "countryman",
+    "countryside",
+    "county",
+    "coup",
+    "couple",
+    "coupon",
+    "courage",
+    "courageous",
+    "courageously",
+    "courgette",
+    "courier",
+    "course",
+    "court",
+    "courtship",
+    "courteous",
+    "courteously",
+    "courtesy",
+    "courtier",
+    "court martial",
+    "courtyard",
+    "cousin",
+    "cover",
+    "coverage",
+    "covered",
+    "cover-up",
+    "covert",
+    "covertly",
+    "cow",
+    "coward",
+    "cowardice",
+    "cowardly",
+    "cowboy",
+    "cower",
+    "cowl",
+    "cox",
+    "coy",
+    "coyness",
+    "coyote",
+    "CPU",
+    "crab",
+    "crabby",
+    "crack",
+    "crackdown",
+    "cracked",
+    "cracker",
+    "crackers",
+    "crackle",
+    "crackpot",
+    "cradle",
+    "craft",
+    "craftsman",
+    "craftsmanship",
+    "crafty",
+    "craftily",
+    "craftiness",
+    "crag",
+    "craggy",
     // "cram",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -20711,230 +20711,230 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-countryman");
                   }
-                  // if (wordsEnglish == "countryside") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-countryside");
-                  // }
-                  // if (wordsEnglish == "county") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-county");
-                  // }
-                  // if (wordsEnglish == "coup") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coup");
-                  // }
-                  // if (wordsEnglish == "couple") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-couple");
-                  // }
-                  // if (wordsEnglish == "coupon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coupon");
-                  // }
-                  // if (wordsEnglish == "courage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courage");
-                  // }
-                  // if (wordsEnglish == "courageous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courageous");
-                  // }
-                  // if (wordsEnglish == "courageously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courageously");
-                  // }
-                  // if (wordsEnglish == "courgette") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courgette");
-                  // }
-                  // if (wordsEnglish == "courier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courier");
-                  // }
-                  // if (wordsEnglish == "course") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-course");
-                  // }
-                  // if (wordsEnglish == "court") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-court");
-                  // }
-                  // if (wordsEnglish == "courtship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courtship");
-                  // }
-                  // if (wordsEnglish == "courteous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courteous");
-                  // }
-                  // if (wordsEnglish == "courteously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courteously");
-                  // }
-                  // if (wordsEnglish == "courtesy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courtesy");
-                  // }
-                  // if (wordsEnglish == "courtier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courtier");
-                  // }
-                  // if (wordsEnglish == "court martial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-court-martial");
-                  // }
-                  // if (wordsEnglish == "courtyard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-courtyard");
-                  // }
-                  // if (wordsEnglish == "cousin") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cousin");
-                  // }
-                  // if (wordsEnglish == "cover") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cover");
-                  // }
-                  // if (wordsEnglish == "coverage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coverage");
-                  // }
-                  // if (wordsEnglish == "covered") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-covered");
-                  // }
-                  // if (wordsEnglish == "cover-up") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cover-up");
-                  // }
-                  // if (wordsEnglish == "covert") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-covert");
-                  // }
-                  // if (wordsEnglish == "covertly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-covertly");
-                  // }
-                  // if (wordsEnglish == "cow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cow");
-                  // }
-                  // if (wordsEnglish == "cowboy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cowboy");
-                  // }
-                  // if (wordsEnglish == "coward") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coward");
-                  // }
-                  // if (wordsEnglish == "cowardly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cowardly");
-                  // }
-                  // if (wordsEnglish == "cowardice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cowardice");
-                  // }
-                  // if (wordsEnglish == "cower") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cower");
-                  // }
-                  // if (wordsEnglish == "cowl") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cowl");
-                  // }
-                  // if (wordsEnglish == "cox") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cox");
-                  // }
-                  // if (wordsEnglish == "coy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coy");
-                  // }
-                  // if (wordsEnglish == "coyness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coyness");
-                  // }
-                  // if (wordsEnglish == "coyote") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-coyote");
-                  // }
-                  // if (wordsEnglish == "CPU") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cpu");
-                  // }
-                  // if (wordsEnglish == "crab") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crab");
-                  // }
-                  // if (wordsEnglish == "crabby") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crabby");
-                  // }
-                  // if (wordsEnglish == "crack") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crack");
-                  // }
-                  // if (wordsEnglish == "crackdown") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crackdown");
-                  // }
-                  // if (wordsEnglish == "cracked") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cracked");
-                  // }
-                  // if (wordsEnglish == "cracker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cracker");
-                  // }
-                  // if (wordsEnglish == "crackers") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crackers");
-                  // }
-                  // if (wordsEnglish == "crackle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crackle");
-                  // }
-                  // if (wordsEnglish == "crackpot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crackpot");
-                  // }
-                  // if (wordsEnglish == "cradle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cradle");
-                  // }
-                  // if (wordsEnglish == "craft") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craft");
-                  // }
-                  // if (wordsEnglish == "craftsman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craftsman");
-                  // }
-                  // if (wordsEnglish == "craftsmanship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craftsmanship");
-                  // }
-                  // if (wordsEnglish == "crafty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crafty");
-                  // }
-                  // if (wordsEnglish == "craftily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craftily");
-                  // }
-                  // if (wordsEnglish == "craftiness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craftiness");
-                  // }
-                  // if (wordsEnglish == "crag") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crag");
-                  // }
-                  // if (wordsEnglish == "craggy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craggy");
-                  // }
+                  if (wordsEnglish == "countryside") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-countryside");
+                  }
+                  if (wordsEnglish == "county") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-county");
+                  }
+                  if (wordsEnglish == "coup") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coup");
+                  }
+                  if (wordsEnglish == "couple") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-couple");
+                  }
+                  if (wordsEnglish == "coupon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coupon");
+                  }
+                  if (wordsEnglish == "courage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courage");
+                  }
+                  if (wordsEnglish == "courageous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courageous");
+                  }
+                  if (wordsEnglish == "courageously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courageously");
+                  }
+                  if (wordsEnglish == "courgette") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courgette");
+                  }
+                  if (wordsEnglish == "courier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courier");
+                  }
+                  if (wordsEnglish == "course") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-course");
+                  }
+                  if (wordsEnglish == "court") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-court");
+                  }
+                  if (wordsEnglish == "courtship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courtship");
+                  }
+                  if (wordsEnglish == "courteous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courteous");
+                  }
+                  if (wordsEnglish == "courteously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courteously");
+                  }
+                  if (wordsEnglish == "courtesy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courtesy");
+                  }
+                  if (wordsEnglish == "courtier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courtier");
+                  }
+                  if (wordsEnglish == "court martial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-court-martial");
+                  }
+                  if (wordsEnglish == "courtyard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-courtyard");
+                  }
+                  if (wordsEnglish == "cousin") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cousin");
+                  }
+                  if (wordsEnglish == "cover") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cover");
+                  }
+                  if (wordsEnglish == "coverage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coverage");
+                  }
+                  if (wordsEnglish == "covered") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-covered");
+                  }
+                  if (wordsEnglish == "cover-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cover-up");
+                  }
+                  if (wordsEnglish == "covert") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-covert");
+                  }
+                  if (wordsEnglish == "covertly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-covertly");
+                  }
+                  if (wordsEnglish == "cow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cow");
+                  }
+                  if (wordsEnglish == "cowboy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cowboy");
+                  }
+                  if (wordsEnglish == "coward") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coward");
+                  }
+                  if (wordsEnglish == "cowardly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cowardly");
+                  }
+                  if (wordsEnglish == "cowardice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cowardice");
+                  }
+                  if (wordsEnglish == "cower") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cower");
+                  }
+                  if (wordsEnglish == "cowl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cowl");
+                  }
+                  if (wordsEnglish == "cox") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cox");
+                  }
+                  if (wordsEnglish == "coy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coy");
+                  }
+                  if (wordsEnglish == "coyness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coyness");
+                  }
+                  if (wordsEnglish == "coyote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-coyote");
+                  }
+                  if (wordsEnglish == "CPU") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cpu");
+                  }
+                  if (wordsEnglish == "crab") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crab");
+                  }
+                  if (wordsEnglish == "crabby") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crabby");
+                  }
+                  if (wordsEnglish == "crack") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crack");
+                  }
+                  if (wordsEnglish == "crackdown") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crackdown");
+                  }
+                  if (wordsEnglish == "cracked") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cracked");
+                  }
+                  if (wordsEnglish == "cracker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cracker");
+                  }
+                  if (wordsEnglish == "crackers") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crackers");
+                  }
+                  if (wordsEnglish == "crackle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crackle");
+                  }
+                  if (wordsEnglish == "crackpot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crackpot");
+                  }
+                  if (wordsEnglish == "cradle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cradle");
+                  }
+                  if (wordsEnglish == "craft") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craft");
+                  }
+                  if (wordsEnglish == "craftsman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craftsman");
+                  }
+                  if (wordsEnglish == "craftsmanship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craftsmanship");
+                  }
+                  if (wordsEnglish == "crafty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crafty");
+                  }
+                  if (wordsEnglish == "craftily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craftily");
+                  }
+                  if (wordsEnglish == "craftiness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craftiness");
+                  }
+                  if (wordsEnglish == "crag") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crag");
+                  }
+                  if (wordsEnglish == "craggy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craggy");
+                  }
                   // if (wordsEnglish == "cram") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-cram");

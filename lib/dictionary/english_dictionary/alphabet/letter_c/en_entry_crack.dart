@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrack extends StatelessWidget {
+class EnglishEntrycrack extends StatefulWidget {
   const EnglishEntrycrack({super.key});
 
+  @override
+  State<EnglishEntrycrack> createState() => _EnglishEntrycrackState();
+}
+
+class _EnglishEntrycrackState extends State<EnglishEntrycrack> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcrack("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcrack("en-US"),
+    );
   }
 }
 
@@ -1780,7 +1791,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crack (Derived forms: cracks, cracked, cracking)
+- Verb: crack (derived forms: cracks, cracked, cracking)
 1. Become fractured; break or crack on the surface only (= check, break)
 "The glass cracked when it was heated";
  
@@ -1825,7 +1836,7 @@ ${englishMeaningConst.text}
 
 16. Successfully decipher a code (= break)
 
-- Noun: crack (Derived forms: cracks)
+- Noun: crack (derived forms: cracks)
 1. A narrow planar hole in a rock or material, usually with a flattish sides (= cleft, crevice, fissure, scissure)
  
 2. A narrow space between things; a narrow opening (= gap)
@@ -1917,7 +1928,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G4BxOhJOmUw?t=',
+    videoId: 'G4BxOhJOmUw',
     startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1942,7 +1953,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    videoId: '47MNn4bsmSw',
     startSeconds: 2911,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1967,7 +1978,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8wY6OawRU38?t=',
+    videoId: '8wY6OawRU38',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1992,7 +2003,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YtVMmrSvZNg?t=',
+    videoId: 'YtVMmrSvZNg',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2017,7 +2028,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uUjTeVT5wvM?t=',
+    videoId: 'uUjTeVT5wvM',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2042,7 +2053,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SA8XRw4WIeo?t=',
+    videoId: 'SA8XRw4WIeo',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(

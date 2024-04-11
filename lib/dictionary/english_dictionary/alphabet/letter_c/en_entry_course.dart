@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycourse extends StatelessWidget {
+class EnglishEntrycourse extends StatefulWidget {
   const EnglishEntrycourse({super.key});
 
+  @override
+  State<EnglishEntrycourse> createState() => _EnglishEntrycourseState();
+}
+
+class _EnglishEntrycourseState extends State<EnglishEntrycourse> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -134,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speakcourse(String languageCode) async {
+    // DOPSUM: CHANGE speakcourse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("course"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdopsum1("en-GB"),
+      onPressed: () => speakcourse("en-GB"),
     );
   }
 }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -184,17 +193,19 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speakcourse(String languageCode) async {
+    // DOPSUM: CHANGE speakcourse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("course"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakdopsum1("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcourse("en-US"),
+    );
   }
 }
 
@@ -1714,7 +1725,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: course (Derived forms: courses)
+- Noun: course (derived forms: courses)
 1. Education imparted in a series of lessons or meetings (= course of study, course of instruction, class)
 "he took a course in basket weaving";
  
@@ -1742,7 +1753,7 @@ ${englishMeaningConst.text}
 9. Facility consisting of a circumscribed area of land or water laid out for a sport
 "the course had only nine holes"; "the course was less than a mile"
 
-- Verb: course (Derived forms: coursing, coursed, courses)
+- Verb: course (derived forms: coursing, coursed, courses)
 1. Move swiftly through or over
 "ships coursing the Atlantic"
  
@@ -1787,7 +1798,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1812,7 +1823,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1837,7 +1848,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DOMPU26i7Xw?t=',
+    videoId: 'DOMPU26i7Xw',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1862,7 +1873,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DPZzrlFCD_I?t=',
+    videoId: 'DPZzrlFCD_I',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1887,7 +1898,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 93,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1912,7 +1923,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sSdMX8AWurI?t=',
+    videoId: 'sSdMX8AWurI',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1937,7 +1948,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lYu1ysDULwA?t=',
+    videoId: 'lYu1ysDULwA',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(

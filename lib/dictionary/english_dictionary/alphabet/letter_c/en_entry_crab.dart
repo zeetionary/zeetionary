@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrab extends StatelessWidget {
+class EnglishEntrycrab extends StatefulWidget {
   const EnglishEntrycrab({super.key});
 
+  @override
+  State<EnglishEntrycrab> createState() => _EnglishEntrycrabState();
+}
+
+class _EnglishEntrycrabState extends State<EnglishEntrycrab> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcrab("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcrab("en-US"),
+    );
   }
 }
 
@@ -425,7 +436,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crab (Derived forms: crabs)
+- Noun: crab (derived forms: crabs)
 1. Decapod having eyes on short stalks and a broad flattened carapace with a small abdomen folded under the thorax and pincers
  
 2. The edible flesh of any of various crabs (= crabmeat)
@@ -437,7 +448,7 @@ ${englishMeaningConst.text}
  
 5. A quarrelsome grouch (= crabby person)
 
-- Verb: crab (Derived forms: crabs, crabbed, crabbing)
+- Verb: crab (derived forms: crabs, crabbed, crabbing)
 1. Scurry sideways like a crab
  
 2. Fish for crab
@@ -483,7 +494,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qUNYPkroz18?t=',
+    videoId: 'qUNYPkroz18',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +519,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DPU-k823BPs?t=',
+    videoId: 'DPU-k823BPs',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +544,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQBGpocUDVA?t=',
+    videoId: 'iQBGpocUDVA',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +569,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9I90ShM_lhs?t=',
+    videoId: '9I90ShM_lhs',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +594,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/31f2E1aJG2Y?t=',
+    videoId: '31f2E1aJG2Y',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -608,7 +619,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8w1pSYZczs4?t=',
+    videoId: '8w1pSYZczs4',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -633,7 +644,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zTReMFnGDUk?t=',
+    videoId: 'zTReMFnGDUk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

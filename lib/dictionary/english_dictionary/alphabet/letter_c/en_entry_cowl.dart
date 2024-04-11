@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycowl extends StatelessWidget {
+class EnglishEntrycowl extends StatefulWidget {
   const EnglishEntrycowl({super.key});
 
+  @override
+  State<EnglishEntrycowl> createState() => _EnglishEntrycowlState();
+}
+
+class _EnglishEntrycowlState extends State<EnglishEntrycowl> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcowl("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcowl("en-US"),
+    );
   }
 }
 
@@ -210,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She lifted the cowl of her cloak."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She lifted the cowl of her cloak."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcowls2(String languageCode) async {
@@ -219,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fitting a cowl to a chimney may help it to draw better."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Fitting a cowl to a chimney may help it to draw better."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcowls3(String languageCode) async {
@@ -321,15 +333,16 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: کەوای کڵاودار
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "She lifted the cowl of her cloak."),
+                        text: "She lifted the cowl of her cloak."),
                     ExampleSentenceKurdish(text: "کڵاوی جبەکەی بەرزکردەوە."),
                   ],
                 ),
@@ -348,32 +361,35 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) داپۆشەرێک بۆ دووکەڵکێش بۆ ئەوەی ڕێگا بگرێت لەوەی دووکەڵەکە بە پاڵەپەستۆی هەوای دەرەوە بۆ خوارەوە بگەڕێتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) داپۆشەرێک بۆ دووکەڵکێش بۆ ئەوەی ڕێگا بگرێت لەوەی دووکەڵەکە بە پاڵەپەستۆی هەوای دەرەوە بۆ خوارەوە بگەڕێتەوە"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Fitting a cowl to a chimney may help it to draw better."),
-          ExampleSentenceKurdish(
-          text: "دانانی کڵاوەیەک لەسەر دووکەڵکێشەکە ڕەنگە یارمەتیدەر بێت لە ڕاکێشانی دووکەڵ."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcowls2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcowls2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Fitting a cowl to a chimney may help it to draw better."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دانانی کڵاوەیەک لەسەر دووکەڵکێشەکە ڕەنگە یارمەتیدەر بێت لە ڕاکێشانی دووکەڵ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcowls2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcowls2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -423,13 +439,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cowl (Derived forms: cowls)
+- Noun: cowl (derived forms: cowls)
 1. The hinged metal cover of a vehicle's engine (= hood [N. Amer], bonnet, cowling)
 "there are powerful engines under the cowls of new cars";
  
 2. A loose hood or hooded robe (as worn by a monk)
 
-- Verb: cowl (Derived forms: cowling, cowls, cowled)
+- Verb: cowl (derived forms: cowling, cowls, cowled)
 1. Cover with or as with a cowl
 "cowl the boys and veil the girls"
 """,
@@ -464,7 +480,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wtXjHtnglxU?t=',
+    videoId: 'wtXjHtnglxU',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +505,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WrUbEJ_Be8w?t=',
+    videoId: 'WrUbEJ_Be8w',
     startSeconds: 1520,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +530,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W9uJqahAn-I?t=',
+    videoId: 'W9uJqahAn-I',
     startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +555,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    videoId: 'tkLZYEIslWM',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +580,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q80TFs3REiM?t=',
+    videoId: 'Q80TFs3REiM',
     startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +605,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JsxYsqZKYSw?t=',
+    videoId: 'JsxYsqZKYSw',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +630,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iI3j673h0GE?t=',
+    videoId: 'iI3j673h0GE',
     startSeconds: 796,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -10,37 +10,46 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycraftsman extends StatelessWidget {
+class EnglishEntrycraftsman extends StatefulWidget {
   const EnglishEntrycraftsman({super.key});
 
+  @override
+  State<EnglishEntrycraftsman> createState() => _EnglishEntrycraftsmanState();
+}
+
+class _EnglishEntrycraftsmanState extends State<EnglishEntrycraftsman> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              const EntryAndIPA(),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    KurdishMeaning(),
-                    const YoutubeVideos(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
             ],
           ),
         ),
@@ -109,8 +118,8 @@ class IpaUK extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUKtext(),
         TTSUK(),
+        const IpaUKtext(),
       ],
     );
   }
@@ -159,8 +168,8 @@ class IpaUS extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const IpaUStext(),
         TTSUS(),
+        const IpaUStext(),
       ],
     );
   }
@@ -194,7 +203,9 @@ class TTSUS extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(onPressed: () => speakcraftsman("en-US"),);
+    return CustomIconButtonAmerican(
+      onPressed: () => speakcraftsman("en-US"),
+    );
   }
 }
 
@@ -426,7 +437,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: craftsman (Derived forms: craftsmen)
+- Noun: craftsman (derived forms: craftsmen)
 1. A professional whose work is consistently of high quality
 "as an actor he was a consummate craftsman"
  
@@ -466,7 +477,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ir3eJ1t13fk?t=',
+    videoId: 'Ir3eJ1t13fk',
     startSeconds: 1539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +502,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KmaS21OmhKI?t=',
+    videoId: 'KmaS21OmhKI',
     startSeconds: 228,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +527,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5U9rMkgoGL8?t=',
+    videoId: '5U9rMkgoGL8',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +552,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CkM0QI3c3Yk?t=',
+    videoId: 'CkM0QI3c3Yk',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +577,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yfjEPd5b92s?t=',
+    videoId: 'yfjEPd5b92s',
     startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +602,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z56d4f1uT3k?t=',
+    videoId: 'z56d4f1uT3k',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +627,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TD2XGwmRJi8?t=',
+    videoId: 'TD2XGwmRJi8',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(

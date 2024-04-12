@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycram extends StatefulWidget {
-  const EnglishEntrycram({super.key});
+class EnglishEntrycrankshaft extends StatefulWidget {
+  const EnglishEntrycrankshaft({super.key});
 
   @override
-  State<EnglishEntrycram> createState() => _EnglishEntrycramState();
+  State<EnglishEntrycrankshaft> createState() => _EnglishEntrycrankshaftState();
 }
 
-class _EnglishEntrycramState extends State<EnglishEntrycram> {
+class _EnglishEntrycrankshaftState extends State<EnglishEntrycrankshaft> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cram");
+    return const EntryTitle(word: "crankshaft");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cram");
+    return const AlsoEnglish(word: "also: crankshaft");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kræm/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkræŋkʃɑːft/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcram(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshaft(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crankshaft"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcram("en-GB"),
+      onPressed: () => speakcrankshaft("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kræm/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkræŋkʃæft/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcram(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshaft(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cram"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crankshaft"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcram("en-US"),
+      onPressed: () => speakcrankshaft("en-US"),
     );
   }
 }
@@ -216,112 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrams1(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He crammed eight people into his car."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrams2(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I could never cram in all that she does in a day."); // DOPSUM: CHANGE TEXT
+        "A damaged crankshaft can cause serious engine problems."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams3(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Supporters crammed the streets."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams4(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I bought a large basket and crammed it full of presents."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams5(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams6(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams7(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams8(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams9(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams10(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams11(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams12(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrams13(String languageCode) async {
-    // DOPSUM: CHANGE speakcram
+  Future<void> speakcrankshafts12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrams1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrankshafts1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrankshafts13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrankshaft
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrankshafts1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -333,37 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی:
+// کوردی: کرەنک‌شەفت، میلەنگ، لوولەکی خولاندنەوە
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (کردار) دانانی شتێک یان کەسێک بە زۆر لە شوێنێکی بچووکدا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He crammed eight people into his car."),
-                    ExampleSentenceKurdish(
-                        text: "هەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cram", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
+                  "١. (ناو) پارچە کانزایەکی درێژ کە بزوێنەری ئۆتۆمبێل بە ویلەکانەوە دەبەستێتەوە و هێزی بزوێنەرەکە دەگۆڕێت بۆ جووڵە"),
           Row(
             children: [
               const Expanded(
@@ -371,75 +342,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I could never cram in all that she does in a day."),
+                            "A damaged crankshaft can cause serious engine problems."),
                     ExampleSentenceKurdish(
                         text:
-                            "هەرگیز نەمدەتوانی هەموو ئەوە بکەم کە ئەو لە ڕۆژێکدا دەیکات."),
+                            "میلەنگێکی زیان پێگەشتوو دەکرێت کێشەی گەورە بۆ بزوێنەرەکە درووست بکات."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "crankshaft", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrams2("en-GB"),
+                    onPressed: () => speakcrankshafts1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrams2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Supporters crammed the streets."),
-                    ExampleSentenceKurdish(
-                        text: "پشتگیران شەقامەکانیان تلیقاند."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I bought a large basket and crammed it full of presents."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەبەتەیەکی گەورەم کڕی و بە هەموو دیارییەکان فلیقاندنم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrams4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrams4("en-US"),
+                    onPressed: () => speakcrankshafts1("en-US"),
                   ),
                 ],
               ),
@@ -493,17 +410,8 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cram (derived forms: crammed, crams, cramming)
-1. Crowd or pack to capacity (= jam, jampack [informal], ram, wad)
-"the theatre was crammed";
- 
-2. Put something somewhere so that the space is completely filled
-"cram books into the suitcase"
- 
-3. [informal] Study intensively, as before an exam (= grind away, bone up [informal], swot [Brit, informal], get up [informal], mug up [Brit, informal], swot up [Brit, informal], bone [informal], revise [Brit])
-"I had to cram on my Latin verbs before the final exam";
- 
-4. [informal] Prepare (students) hastily for an impending exam
+- Noun: crankshaft (Derived forms: crankshafts)
+1. A rotating shaft driven by (or driving) a crank
 """,
   );
 
@@ -536,8 +444,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mCtSiImXpRo?t=',
-    startSeconds: 331,
+    videoId: 'https://youtu.be/ZQvfHyfgBtA?t=',
+    startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,8 +469,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GaLdHd2J-xM?t=',
-    startSeconds: 1195,
+    videoId: 'https://youtu.be/vojsscI61Sk?t=',
+    startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,8 +494,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GaLdHd2J-xM?t=',
-    startSeconds: 1195,
+    videoId: 'https://youtu.be/WBxqiUhadyY?t=',
+    startSeconds: 1211,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -611,8 +519,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9mgwZASlFvw?t=',
-    startSeconds: 655,
+    videoId: 'https://youtu.be/V7707zEX9X4?t=',
+    startSeconds: 640,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -636,8 +544,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y2VlTpe4srk?t=',
-    startSeconds: 57,
+    videoId: 'https://youtu.be/MBXpB4bDp_o?t=',
+    startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -661,8 +569,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F6R_WTDdx7I',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/dK4mb1yS0dY?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -686,8 +594,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YjkAhchbbvQ?t=',
-    startSeconds: 307,
+    videoId: 'https://youtu.be/XBN3IuVCxl8?t=',
+    startSeconds: 767,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

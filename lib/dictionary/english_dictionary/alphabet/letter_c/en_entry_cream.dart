@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrap extends StatefulWidget {
-  const EnglishEntrycrap({super.key});
+class EnglishEntrycream extends StatefulWidget {
+  const EnglishEntrycream({super.key});
 
   @override
-  State<EnglishEntrycrap> createState() => _EnglishEntrycrapState();
+  State<EnglishEntrycream> createState() => _EnglishEntrycreamState();
 }
 
-class _EnglishEntrycrapState extends State<EnglishEntrycrap> {
+class _EnglishEntrycreamState extends State<EnglishEntrycream> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crap");
+    return const EntryTitle(word: "cream");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crap");
+    return const AlsoEnglish(word: "also: cream");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kræp/");
+    return const IPAofEnglish(text: "IpaUK: /kriːm/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrap(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcream(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cream"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrap("en-GB"),
+      onPressed: () => speakcream("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kræp/");
+    return const IPAofEnglish(text: "IpaUS: /kriːm/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrap(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcream(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cream"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrap("en-US"),
+      onPressed: () => speakcream("en-US"),
     );
   }
 }
@@ -216,115 +216,117 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcraps1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The team played crap yesterday."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams1(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Let's cut the crap and get down to business."); // DOPSUM: CHANGE TEXT
+        "We had strawberries and cream for dessert."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's so full of crap."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams2(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("This work is complete crap."); // DOPSUM: CHANGE TEXT
+        .speak("I asked for two coffees with cream."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I won’t put up with any old crap."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams3(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm not going to take this crap any more."); // DOPSUM: CHANGE TEXT
+        "I prefer a light chocolate cream for my desserts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams4(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Put a little antiseptic cream on the grazed skin."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreams5(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The baby's diaper was full of crap."); // DOPSUM: CHANGE TEXT
+        .speak("Do you have this blouse in cream?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams6(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The concert was crap."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The cream of this year's graduates have gone abroad for jobs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams7(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The walls were cream and the ceiling was painted white."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreams8(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The dog crapped on the carpet."); // DOPSUM: CHANGE TEXT
+        .speak("Cream the butter and sugar together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams9(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We got creamed in the first round."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams10(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcreams1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams11(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcreams1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcreams12(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcreams1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreams13(String languageCode) async {
+    // DOPSUM: CHANGE speakcream
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcreams1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -336,29 +338,202 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوو، پیسایی،	هەڵیت‌وپڵیت، قسەی قۆڕ، شڕم‌وبڕم،	خراپۆکە، گەن‌وگووژاڵ، بازاڕی، بێ‌بایەخ، هیچەکە، خراپ، بێ‌نرخ، خڵتەوخاڵ، ئاشاخە، لاف، فڵتەفڵت
+کوردی: سەرشیر، توێشکە، توێژ(اڵ)، سەرتوێ، قەیماخ،	کرێم (دەم‌وچاو)،	مەڵهەم، مەرهەم،	ڕەنگی سپی مەیلەو زەرد،	هەڵبژاردە، سەرتۆپ، سەرگوڵ، باشترین بەش،	غوڕابی توێشکەدار
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر خراپ"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) شلەی سپی یان زەردی کاڵ کە بەرزدەبێتەوە بۆ سەر شیر و لە خواردن درووستکردندا بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The team played crap yesterday."),
+                        text: "We had strawberries and cream for dessert."),
                     ExampleSentenceKurdish(
-                        text: "تیمەکە دوێنێ زۆر خراپ یاری کرد."),
+                        text: "بۆ شیرینی تووفەڕەنگی و کرێممان هەبوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crap", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cream", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps1("en-GB"),
+                    onPressed: () => speakcreams1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps1("en-US"),
+                    onPressed: () => speakcreams1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I asked for two coffees with cream."),
+                    ExampleSentenceKurdish(
+                        text: "داوای دوو قاوەم بە توێشکەوە کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) شیرینییەکی نەرم"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I prefer a light chocolate cream for my desserts."),
+                    ExampleSentenceKurdish(
+                        text: "حەزم بە کرێمێکی کەمی چکلێتە بۆ شیرینی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (ناو) کرێمی ڕووخسار بۆ پاراستنی یان نەرمکردنی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Put a little antiseptic cream on the grazed skin."),
+                    ExampleSentenceKurdish(
+                        text: "هەندێک کرێمی خاوێنکەر بخە سەر پێستە ڕووشاوەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (ناو) ڕەنگێکی کاڵ کە لە نێوان سپی و زەردە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Do you have this blouse in cream?"),
+                    ExampleSentenceKurdish(
+                        text: "ئەم بلووزەت بە ڕەنگی کرێمی هەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٥. (ناو) باشترینی گرووپێک یان کۆمەڵگەیەک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The cream of this year's graduates have gone abroad for jobs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "باشترینی دەرچوانی ئەمساڵ چوونەتە دەرەوە بۆ کارکردن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (ھاوەڵناو) ڕەنگی کرێمی، لە نێوان سپی و زەرددا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The walls were cream and the ceiling was painted white."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دیوارەکان کرێمی بوون و بنبانەکە بۆیەی سپی کرابوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreams7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreams7("en-US"),
                   ),
                 ],
               ),
@@ -367,16 +542,16 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بیرۆکە و قسە و بیر و باوەڕ کە پێت وایە ڕاست نیین یان هیچن"),
+                  "٧. (کردار) تێکەڵکردنی شت بۆ درووستکردنی تێکەڵەیەکی نەرمی شل"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Let's cut the crap and get down to business."),
+                        text: "Cream the butter and sugar together."),
                     ExampleSentenceKurdish(
-                        text: "با واز لە قسەی قۆڕ بێنین و دەست بە کار بکەین."),
+                        text: "کەرە و شەکرەکە پێکەوە بکە بە کرێم."),
                   ],
                 ),
               ),
@@ -384,76 +559,26 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps2("en-GB"),
+                    onPressed: () => speakcreams8("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's so full of crap."),
-                    ExampleSentenceKurdish(text: "پڕ لە هەڵیت‌وپەڵیتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps3("en-US"),
+                    onPressed: () => speakcreams8("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ناو) بە شتێکی دەگوترێت کە پێتوایە لە ئاستێکی نزمدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This work is complete crap."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کارە تەواو گەن‌وگووژاڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
+          const DefinitionKurdish(text: "٨. (کردار) تەواو تێکشکانی کەسێک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I won’t put up with any old crap."),
+                        text: "We got creamed in the first round."),
                     ExampleSentenceKurdish(
-                        text: "بەرگەی هیچ فڵتەفڵتی تر ناگرم."),
+                        text: "لە قۆناغی یەکەمدا تێکشکێندراین."),
                   ],
                 ),
               ),
@@ -461,117 +586,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps5("en-GB"),
+                    onPressed: () => speakcreams9("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ناو) وشەیەک بۆ ڕەفتار و ڕەخنە کە پێتوایە ناڕەوایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I'm not going to take this crap any more."),
-                    ExampleSentenceKurdish(
-                        text: "چیتر ڕێگا بەم نادادییە نادەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps6("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (ناو) پیسایی؛ پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby's diaper was full of crap."),
-                    ExampleSentenceKurdish(
-                        text: "دایبی منداڵەکە پڕ لە پیسایی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٦. (ھاوەڵناو) ئاست نزم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The concert was crap."),
-                    ExampleSentenceKurdish(text: "کۆنسێرتەکە پڕوپووچ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (ناو) پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dog crapped on the carpet."),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکە لەسەر ڕایەخەکە پیسایی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps9("en-US"),
+                    onPressed: () => speakcreams9("en-US"),
                   ),
                 ],
               ),
@@ -625,26 +643,33 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crap (Derived forms: craps)
-Usage: vulgar
-1. Obscene term for faeces
+- Noun: cream (Derived forms: creams)
+1. The part of milk containing the butterfat
  
-2. Obscene word for unacceptable behaviour
-"I put up with a lot of crap from that jerk";
+2. Toiletry consisting of any of various substances in the form of a thick liquid that have a soothing and moisturizing effect when applied to the skin (= ointment, emollient)
  
-3. Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], junk [informal], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
+3. The best people or things in a group (= pick)
+"the cream of England's young men were killed in the Great War";
+ 
+4. An off-white, very pale yellow colour
 
-- Verb: crap (Derived forms: crapping, craps, crapped)
-Usage: vulgar
-1. Have a bowel movement (= stool, defecate, ca-ca [N. Amer, informal], make [informal], defaecate [Brit, rare], poop [N. Amer, informal])
-"The dog had crapped in the flower beds";
+- Verb: cream (Derived forms: creaming, creamed, creams)
+1. (cooking) make creamy by beating
+"Cream the butter"
+ 
+2. Put on cream, as on one's face or body
+"She creams her face every night"
+ 
+3. Remove from the surface (= skim, skim off, cream off)
+"skim cream from the surface of milk"; "skim off cream from the surface of milk";
+ 
+4. Add cream to one's coffee, for example
+ 
+5. [informal] Beat thoroughly and conclusively in a competition or fight (= bat, clobber [informal], drub, thrash [informal], lick [informal], marmalise [Brit, informal], marmelize [Brit, informal], marmelise [Brit, informal], wipe the floor [informal], paste [informal], beat hollow [informal], whale [N. Amer, informal], marmalize [Brit, informal], smoke [N. Amer, informal], hammer [informal], muller [Brit, informal], blow away [informal], slaughter [informal], tromp [N. Amer, informal], trounce)
+"We creamed the other team on Sunday!";
 
-- Adjective: crap (Derived forms: crappest, crapper)
-Usage: vulgar
-1. [Brit, vulgar] Of very poor quality; flimsy (= bum [informal], cheap, cheesy [informal], chintzy [N. Amer, informal], crummy [informal], punk [N. Amer, informal], sleazy [archaic], tinny [archaic], tacky [informal], crumby [informal])
-
-- Very bad (= icky [informal], lousy [informal], rotten, stinking, stinky [informal], dire [Brit, informal], rubbish [Brit, informal], crummy [informal])
-"a crap play";
+- Adjective: cream 
+1. Having the colour of fresh cream (= cream-colored [US], creamy-colored [US], creamy-white, cream-coloured [Brit, Cdn], creamy-coloured [Brit, Cdn])
 """,
   );
 
@@ -677,8 +702,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DesEUpFgGrQ?t=',
-    startSeconds: 110,
+    videoId: 'https://youtu.be/vxDGHG07aD8?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -702,8 +727,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1aHVa2jT3n4?t=',
-    startSeconds: 246,
+    videoId: 'https://youtu.be/ky3KiiUK_D0?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -727,8 +752,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfuPBC-v5NE?t=',
-    startSeconds: 256,
+    videoId: 'https://youtu.be/_Ywix3NTrLE?t=',
+    startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -752,8 +777,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
-    startSeconds: 174,
+    videoId: 'https://youtu.be/3lCl76SMZ8k?t=',
+    startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -777,8 +802,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
-    startSeconds: 733,
+    videoId: 'https://youtu.be/LWRXYp4u9bM?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -802,8 +827,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/3C6l4dJn3ck',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -827,8 +852,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/qRnhsFbSLkg?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

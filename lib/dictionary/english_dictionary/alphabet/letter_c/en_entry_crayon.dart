@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrap extends StatefulWidget {
-  const EnglishEntrycrap({super.key});
+class EnglishEntrycrayon extends StatefulWidget {
+  const EnglishEntrycrayon({super.key});
 
   @override
-  State<EnglishEntrycrap> createState() => _EnglishEntrycrapState();
+  State<EnglishEntrycrayon> createState() => _EnglishEntrycrayonState();
 }
 
-class _EnglishEntrycrapState extends State<EnglishEntrycrap> {
+class _EnglishEntrycrayonState extends State<EnglishEntrycrayon> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crap");
+    return const EntryTitle(word: "crayon");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crap");
+    return const AlsoEnglish(word: "also: crayon");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kræp/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkreɪən/,  /ˈkreɪɒn/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrap(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayon(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crayon"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrap("en-GB"),
+      onPressed: () => speakcrayon("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kræp/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkreɪən/,  /ˈkreɪɑːn/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrap(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayon(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crayon"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrap("en-US"),
+      onPressed: () => speakcrayon("en-US"),
     );
   }
 }
@@ -216,115 +216,111 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcraps1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The team played crap yesterday."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Let's cut the crap and get down to business."); // DOPSUM: CHANGE TEXT
+        "She coloured the picture in with crayons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's so full of crap."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("This work is complete crap."); // DOPSUM: CHANGE TEXT
+        .speak("He used crayons to draw the picture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I won’t put up with any old crap."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcraps6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I'm not going to take this crap any more."); // DOPSUM: CHANGE TEXT
+        "When I left her she was busy crayoning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The baby's diaper was full of crap."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The concert was crap."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The dog crapped on the carpet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcraps13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrap
+  Future<void> speakcrayons10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcraps1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrayons1000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrayons11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrayons1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrayons12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrayons1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrayons13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrayon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrayons1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -336,109 +332,31 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: گوو، پیسایی،	هەڵیت‌وپڵیت، قسەی قۆڕ، شڕم‌وبڕم،	خراپۆکە، گەن‌وگووژاڵ، بازاڕی، بێ‌بایەخ، هیچەکە، خراپ، بێ‌نرخ، خڵتەوخاڵ، ئاشاخە، لاف، فڵتەفڵت
+کوردی: پێنووسی شەمی یان مۆمی،	پێنووسی ڕەنگی،	پێنووس‌گەچ، گەچی ڕەنگی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر خراپ"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The team played crap yesterday."),
-                    ExampleSentenceKurdish(
-                        text: "تیمەکە دوێنێ زۆر خراپ یاری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "crap", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ناو) بیرۆکە و قسە و بیر و باوەڕ کە پێت وایە ڕاست نیین یان هیچن"),
+                  "١. (ناو) پێنووسێک کە ڕەنگینە یان یان تەباشیر و پێنووسی مۆمی ڕەنگینە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Let's cut the crap and get down to business."),
+                        text: "She coloured the picture in with crayons."),
                     ExampleSentenceKurdish(
-                        text: "با واز لە قسەی قۆڕ بێنین و دەست بە کار بکەین."),
+                        text: "وێنەکەی بە پێنووسی ڕەنگی ڕەنگ کرد."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "crayon", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps2("en-GB"),
+                    onPressed: () => speakcrayons1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He's so full of crap."),
-                    ExampleSentenceKurdish(text: "پڕ لە هەڵیت‌وپەڵیتە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ناو) بە شتێکی دەگوترێت کە پێتوایە لە ئاستێکی نزمدایە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "This work is complete crap."),
-                    ExampleSentenceKurdish(
-                        text: "ئەم کارە تەواو گەن‌وگووژاڵە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps4("en-US"),
+                    onPressed: () => speakcrayons1("en-US"),
                   ),
                 ],
               ),
@@ -451,9 +369,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I won’t put up with any old crap."),
+                        text: "He used crayons to draw the picture."),
                     ExampleSentenceKurdish(
-                        text: "بەرگەی هیچ فڵتەفڵتی تر ناگرم."),
+                        text: "پێنووسی ڕەنگی بەکارهێنا بۆ کێشانی وێنەکە."),
                   ],
                 ),
               ),
@@ -461,10 +379,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps5("en-GB"),
+                    onPressed: () => speakcrayons2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps5("en-US"),
+                    onPressed: () => speakcrayons2("en-US"),
                   ),
                 ],
               ),
@@ -472,16 +390,16 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٤. (ناو) وشەیەک بۆ ڕەفتار و ڕەخنە کە پێتوایە ناڕەوایە"),
+              text: "٢. (کردار) ڕەنگ کردن بە پێنووسی ڕەنگی"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I'm not going to take this crap any more."),
+                        text: "When I left her she was busy crayoning."),
                     ExampleSentenceKurdish(
-                        text: "چیتر ڕێگا بەم نادادییە نادەم."),
+                        text: "کە ڕۆشتم بە ڕەنگکردنەوە سەرقاڵ بوو."),
                   ],
                 ),
               ),
@@ -489,89 +407,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcraps6("en-GB"),
+                    onPressed: () => speakcrayons3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcraps6("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (ناو) پیسایی؛ پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby's diaper was full of crap."),
-                    ExampleSentenceKurdish(
-                        text: "دایبی منداڵەکە پڕ لە پیسایی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٦. (ھاوەڵناو) ئاست نزم"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "The concert was crap."),
-                    ExampleSentenceKurdish(text: "کۆنسێرتەکە پڕوپووچ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (ناو) پیسایی کردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The dog crapped on the carpet."),
-                    ExampleSentenceKurdish(
-                        text: "سەگەکە لەسەر ڕایەخەکە پیسایی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcraps9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcraps9("en-US"),
+                    onPressed: () => speakcrayons3("en-US"),
                   ),
                 ],
               ),
@@ -625,26 +464,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crap (Derived forms: craps)
-Usage: vulgar
-1. Obscene term for faeces
- 
-2. Obscene word for unacceptable behaviour
-"I put up with a lot of crap from that jerk";
- 
-3. Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], junk [informal], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
+- Noun: crayon (Derived forms: crayons)
+1. Writing implement consisting of a coloured stick of composition wax used for writing and drawing (= wax crayon)
 
-- Verb: crap (Derived forms: crapping, craps, crapped)
-Usage: vulgar
-1. Have a bowel movement (= stool, defecate, ca-ca [N. Amer, informal], make [informal], defaecate [Brit, rare], poop [N. Amer, informal])
-"The dog had crapped in the flower beds";
-
-- Adjective: crap (Derived forms: crappest, crapper)
-Usage: vulgar
-1. [Brit, vulgar] Of very poor quality; flimsy (= bum [informal], cheap, cheesy [informal], chintzy [N. Amer, informal], crummy [informal], punk [N. Amer, informal], sleazy [archaic], tinny [archaic], tacky [informal], crumby [informal])
-
-- Very bad (= icky [informal], lousy [informal], rotten, stinking, stinky [informal], dire [Brit, informal], rubbish [Brit, informal], crummy [informal])
-"a crap play";
+- Verb: crayon (Derived forms: crayoned, crayoning, crayons)
+1. Write, draw, or trace with a crayon
 """,
   );
 
@@ -677,8 +501,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DesEUpFgGrQ?t=',
-    startSeconds: 110,
+    videoId: 'https://youtu.be/ioiJ6cz85W0?t=',
+    startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -702,8 +526,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1aHVa2jT3n4?t=',
-    startSeconds: 246,
+    videoId: 'https://youtu.be/-ooVqFtBgWw?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -727,8 +551,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfuPBC-v5NE?t=',
-    startSeconds: 256,
+    videoId: 'https://youtu.be/18amqR0ws2Q?t=',
+    startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -752,8 +576,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
-    startSeconds: 174,
+    videoId: 'https://youtu.be/jPdfPe54vu0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -777,8 +601,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
-    startSeconds: 733,
+    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    startSeconds: 2777,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -802,8 +626,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -827,8 +651,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
-    startSeconds: 717,
+    videoId: 'https://youtu.be/ve9HyTbYMFU?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

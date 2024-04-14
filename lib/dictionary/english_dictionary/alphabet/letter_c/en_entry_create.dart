@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrease extends StatefulWidget {
-  const EnglishEntrycrease({super.key});
+class EnglishEntrycreate extends StatefulWidget {
+  const EnglishEntrycreate({super.key});
 
   @override
-  State<EnglishEntrycrease> createState() => _EnglishEntrycreaseState();
+  State<EnglishEntrycreate> createState() => _EnglishEntrycreateState();
 }
 
-class _EnglishEntrycreaseState extends State<EnglishEntrycrease> {
+class _EnglishEntrycreateState extends State<EnglishEntrycreate> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crease");
+    return const EntryTitle(word: "create");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crease");
+    return const AlsoEnglish(word: "also: create");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kriːs/");
+    return const IPAofEnglish(text: "IpaUK: /kriˈeɪt/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrease(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreate(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("create"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrease("en-GB"),
+      onPressed: () => speakcreate("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kriːs/");
+    return const IPAofEnglish(text: "IpaUS: /kriˈeɪt/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrease(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreate(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("create"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrease("en-US"),
+      onPressed: () => speakcreate("en-US"),
     );
   }
 }
@@ -216,114 +216,119 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcreases1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She smoothed the creases out of her skirt."); // DOPSUM: CHANGE TEXT
+        "Scientists disagree about how the universe was created."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He ironed out the creases in his shirt."); // DOPSUM: CHANGE TEXT
+        "The main purpose of industry is to create wealth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Make a crease in the paper and then unfold it."); // DOPSUM: CHANGE TEXT
+        "The government plans to create more jobs for young people."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She had lots of deep creases at the corners of her eyes."); // DOPSUM: CHANGE TEXT
+        "Try this new dish, created by our head chef."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Pack your suit carefully so that you don't crease it."); // DOPSUM: CHANGE TEXT
+        "Severe storms created some travel problems."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The Bible says that God created the world."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The company is trying to create a young energetic image."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The announcement only succeeded in creating confusion."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They've painted it red to create a feeling of warmth."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We work hard to create a pleasant environment for patients, visitors and staff."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcreates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("A frown creased her forehead."); // DOPSUM: CHANGE TEXT
+        .speak("He was created a baronet in 1715."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcreates1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreases8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
+  Future<void> speakcreates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcreate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcreases9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcreases10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcreases11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcreases12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcreases13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrease
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreases1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcreates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -335,29 +340,32 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لۆچ، چرچ، چین، گنج، ناوە،	چرچ‌ولۆچی، ژاکاوی (لە پێست‌دا)،	قەد، دەق، خەت
+کوردی: ئافراندن، دروست کردن، بەدیهێنان، ساز کردن
 """),
-          const DefinitionKurdish(text: "١. (ناو) لۆچی پەڕە یان جلوبەرگ"),
+          const DefinitionKurdish(
+              text: "١. (کردار) درووستکردن یان هێنانەبوونی شتێک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She smoothed the creases out of her skirt."),
+                        text:
+                            "Scientists disagree about how the universe was created."),
                     ExampleSentenceKurdish(
-                        text: "لۆچییەکانی تەنوورەکەیی سافکردەوە."),
+                        text:
+                            "زاناکان ناکۆکن لەسەر ئەوەی گەردوون چۆن درووست بوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crease", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "create", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcreases1("en-GB"),
+                    onPressed: () => speakcreates1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcreases1("en-US"),
+                    onPressed: () => speakcreates1("en-US"),
                   ),
                 ],
               ),
@@ -370,9 +378,11 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "He ironed out the creases in his shirt."),
+                        text:
+                            "The main purpose of industry is to create wealth."),
                     ExampleSentenceKurdish(
-                        text: "لۆچییەکانی درێسەکەی ئوتوو کرد."),
+                        text:
+                            "یەکەم مەبەستی پیشەسازی ئەوەیە کە سامان درووست بکات."),
                   ],
                 ),
               ),
@@ -380,10 +390,128 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcreases2("en-GB"),
+                    onPressed: () => speakcreates2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcreases2("en-US"),
+                    onPressed: () => speakcreates2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The government plans to create more jobs for young people."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "حکومەت پلانی هەیە کاری زیاتر بۆ کەسانی گەنج بڕەخسێنێت."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcreates3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcreates3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Try this new dish, created by our head chef."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "ئەم خواردنە تازەیە تاقیبکەوە کە لەلایەن شێفە سەرەکییەکەمانەوە درووستکراوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcreates4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcreates4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Severe storms created some travel problems."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "زریانی توند کێشەی گەشتیارییان درووستکرد."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcreates5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcreates5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The Bible says that God created the world."),
+                            ExampleSentenceKurdish(
+                                text: "ئینجیل دەڵێت خودا جیهانی درووستکرد."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcreates6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcreates6("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -391,18 +519,18 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text:
-                  "٢. (ناو) هێڵێکی ڕێک کە درووستی دەکەیت لەکاتی قەدکردنی پەڕە یان جلوبەرگ"),
+              text: "٢. (کردار) بوون بە هۆکاری هەستێکی تایبەت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Make a crease in the paper and then unfold it."),
+                        text:
+                            "The company is trying to create a young energetic image."),
                     ExampleSentenceKurdish(
                         text:
-                            "خەتێک لە پەڕەکەدا درووست بکە و دواتر قەدکردنەکەی بکەوە."),
+                            "کۆمپانیاکە هەوڵ دەدات وێنایەکی کارا و گەنجانە درووست بکات."),
                   ],
                 ),
               ),
@@ -410,10 +538,94 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcreases3("en-GB"),
+                    onPressed: () => speakcreates7("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcreases3("en-US"),
+                    onPressed: () => speakcreates7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The announcement only succeeded in creating confusion."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕاگەیاندنەکە تەنها بوو بە هۆی درووستکردنی سەرلێ‌شێواوی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreates8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreates8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "They've painted it red to create a feeling of warmth."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە سوور بۆیەیان کردووە بۆ ئەوەی هەستی گەرم‌وگوڕی درووست بکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreates9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreates9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "We work hard to create a pleasant environment for patients, visitors and staff."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە سەختی کار دەکەین بۆ ئەوەی ژینگەیەکی خۆش بۆ نەخۆشان و سەردانکاران و ستافەکە بسازێنین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreates10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreates10("en-US"),
                   ),
                 ],
               ),
@@ -421,17 +633,16 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٣. (ناو) هێڵێکی سەر جەستە، بەتایبەتی لە ڕووخساردا"),
+              text: "٣. (کردار) پێدانی نازناوێک یان پێگەیەکی دیاریکراو"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "She had lots of deep creases at the corners of her eyes."),
+                        text: "He was created a baronet in 1715."),
                     ExampleSentenceKurdish(
-                        text: "ژمارەیەکی زۆر چرچی هەبوو لە سووچی چاوەکانیدا."),
+                        text: "لە ساڵی ١٧١٥ کرا بە بەگزادە."),
                   ],
                 ),
               ),
@@ -439,68 +650,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcreases4("en-GB"),
+                    onPressed: () => speakcreates11("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcreases4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٤. (کردار) درووستکردنی هێڵ لەسەر پەڕە یان جلوبەرگ بە قەدکردن یان پەستان خستنە سەری"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Pack your suit carefully so that you don't crease it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "قاتەکەت بە وریاییەوە قەد بکە بۆ ئەوەی لۆچی تێنەکەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٥. (کردار) درووستبوونی چرچی لەسەر پێست"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A frown creased her forehead."),
-                    ExampleSentenceKurdish(text: "مۆنییەک ناوچەوانی گرژکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreases6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreases6("en-US"),
+                    onPressed: () => speakcreates11("en-US"),
                   ),
                 ],
               ),
@@ -554,27 +707,24 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crease (Derived forms: creases)
-1. An angular or rounded shape made by folding (= fold, plication, flexure, crimp, bend)
-"a crease in his trousers";
+- Verb: create (Derived forms: created, creates, creating)
+1. Make or cause to be or to become (= make)
+"create a furor";
  
-2. A slight depression or fold in the smoothness of a surface (= wrinkle, furrow, crinkle, seam, line)
-"ironing gets rid of most creases";
+2. Bring into existence
+"The company was created 25 years ago"; "He created a new movement in painting"
  
-3. A Malayan dagger with a wavy blade (= kris, creese [archaic])
-
-- Verb: crease (Derived forms: creases, creased, creasing)
-1. Make wrinkled or creased (= furrow, wrinkle)
-"crease one's brow";
+3. Pursue a creative activity; be engaged in a creative activity
+"Don't disturb him--he is creating"
  
-2. Scrape gently (= graze, rake)
-"crease the skin";
+4. Invest with a new title, office, or rank
+"Create one a peer"
  
-3. Become wrinkled, crumpled or creased (= rumple, crumple, wrinkle, crinkle)
-"This fabric won't crease";
+5. Create by artistic means (= make)
+"create a poem"; "Schoenberg created twelve-tone music"; "Picasso created Cubism";
  
-4. [archaic] Make wrinkles or creases on a smooth surface; make a pressed, folded or wrinkled line in; 'crisp' is archaic (= wrinkle [archaic], ruckle [archaic], crinkle [archaic], scrunch [archaic], scrunch up [archaic], crisp [archaic])
-"crease the paper like this to make a crane";
+6. Create or manufacture a man-made product (= produce, make)
+"We create more cars than we can sell";
 """,
   );
 
@@ -607,8 +757,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sf7NfCe3_5Y?t=',
-    startSeconds: 476,
+    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    startSeconds: 1350,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -632,8 +782,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
-    startSeconds: 920,
+    videoId: 'https://youtu.be/nITZooG6ij8?t=',
+    startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -657,8 +807,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbPw9AlVKVM?t=',
-    startSeconds: 1235,
+    videoId: 'https://youtu.be/JFq77o0hYjg?t=',
+    startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -682,8 +832,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KbNRvWfndjA?t=',
-    startSeconds: 54,
+    videoId: 'https://youtu.be/gDwx55lrdFQ?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -707,8 +857,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tZBk_Hb-X0w?t=',
-    startSeconds: 107,
+    videoId: 'https://youtu.be/JFBkN9M_Tk0?t=',
+    startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -732,8 +882,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/at-xZA5U1ps?t=',
-    startSeconds: 681,
+    videoId: 'https://youtu.be/nYzTbmDpLNg?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -757,8 +907,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O4EDlEdVPfo?t=',
-    startSeconds: 330,
+    videoId: 'https://youtu.be/EoXOHyYEguk?t=',
+    startSeconds: 552,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

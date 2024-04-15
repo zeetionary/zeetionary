@@ -3934,17 +3934,17 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creche.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credentials.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credible.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credibility.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credibly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditworthy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditworthiness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditably.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credit_card.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credulous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credulity.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8756,17 +8756,17 @@ final loggedInRoute = RouteMap(routes: {
   "/english-creche": (_) => const MaterialPage(child: EnglishEntrycreche()),
   "/english-credentials": (_) => const MaterialPage(child: EnglishEntrycredentials()),
   "/english-credible": (_) => const MaterialPage(child: EnglishEntrycredible()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-credibility": (_) => const MaterialPage(child: EnglishEntrycredibility()),
+  "/english-credibly": (_) => const MaterialPage(child: EnglishEntrycredibly()),
+  "/english-credit": (_) => const MaterialPage(child: EnglishEntrycredit()),
+  "/english-creditworthy": (_) => const MaterialPage(child: EnglishEntrycreditworthy()),
+  "/english-creditworthiness": (_) => const MaterialPage(child: EnglishEntrycreditworthiness()),
+  "/english-creditable": (_) => const MaterialPage(child: EnglishEntrycreditable()),
+  "/english-creditably": (_) => const MaterialPage(child: EnglishEntrycreditably()),
+  "/english-credit_card": (_) => const MaterialPage(child: EnglishEntrycreditcard()),
+  "/english-creditor": (_) => const MaterialPage(child: EnglishEntrycreditor()),
+  "/english-credulous": (_) => const MaterialPage(child: EnglishEntrycredulous()),
+  "/english-credulity": (_) => const MaterialPage(child: EnglishEntrycredulity()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

@@ -3945,9 +3945,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creditor.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credulous.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_credulity.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creek.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_creep.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8767,9 +8767,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-creditor": (_) => const MaterialPage(child: EnglishEntrycreditor()),
   "/english-credulous": (_) => const MaterialPage(child: EnglishEntrycredulous()),
   "/english-credulity": (_) => const MaterialPage(child: EnglishEntrycredulity()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-creed": (_) => const MaterialPage(child: EnglishEntrycreed()),
+  "/english-creek": (_) => const MaterialPage(child: EnglishEntrycreek()),
+  "/english-creep": (_) => const MaterialPage(child: EnglishEntrycreep()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

@@ -950,22 +950,22 @@ class LinkInfo {
   LinkInfo({required this.start, required this.end, required this.style});
 }
 
-class DefinitionKurdishLink extends StatelessWidget {
+class DefinitionKurdishLink extends ConsumerWidget {
   final String text;
   final List<LinkInfo> links;
   final VoidCallback? onTap;
-  final double? textSize;
 
   const DefinitionKurdishLink({
     super.key,
     required this.text,
     required this.links,
-    this.textSize = 16,
     this.onTap,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+
     List<TextSpan> textSpans = [];
     int currentIndex = 0;
 
@@ -975,7 +975,7 @@ class DefinitionKurdishLink extends StatelessWidget {
           TextSpan(
             text: text.substring(currentIndex, link.start),
             style: TextStyle(
-              fontSize: textSize,
+              fontSize: textSize + 2,
             ),
           ),
         );
@@ -986,7 +986,7 @@ class DefinitionKurdishLink extends StatelessWidget {
           text: text.substring(link.start, link.end),
           style: link.style.copyWith(
             decoration: TextDecoration.underline,
-            fontSize: textSize,
+            fontSize: textSize + 2,
           ),
           recognizer: TapGestureRecognizer()
             ..onTap = onTap != null
@@ -1005,7 +1005,7 @@ class DefinitionKurdishLink extends StatelessWidget {
         TextSpan(
           text: text.substring(currentIndex),
           style: TextStyle(
-            fontSize: textSize,
+            fontSize: textSize + 2,
           ),
         ),
       );
@@ -1018,6 +1018,9 @@ class DefinitionKurdishLink extends StatelessWidget {
         child: SelectableText.rich(
           TextSpan(
             children: textSpans,
+            style: TextStyle(
+              fontSize: textSize + 2,
+            ),
           ),
         ),
       ),

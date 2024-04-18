@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Add this import for Clipboard
 import 'package:routemaster/routemaster.dart';
@@ -304,7 +305,8 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
   }
 }
 
-class CustomTabBarSliver extends StatelessWidget implements PreferredSizeWidget {
+class CustomTabBarSliver extends StatelessWidget
+    implements PreferredSizeWidget {
   final List<Widget> tabs;
 
   // (NOT zee) https://chat.openai.com/c/fe4f63a6-1e1f-4385-bcee-cd7982da22de
@@ -416,7 +418,6 @@ class CustomTabBar extends ConsumerWidget {
     );
   }
 }
-
 
 // class CustomTabBar extends ConsumerWidget {
 //   final List<Widget> tabs;
@@ -935,6 +936,89 @@ class DefinitionKurdish extends ConsumerWidget {
           ),
           textAlign: TextAlign.right,
           textDirection: TextDirection.rtl,
+        ),
+      ),
+    );
+  }
+}
+
+class LinkInfo {
+  final int start;
+  final int end;
+  final TextStyle style;
+
+  LinkInfo({required this.start, required this.end, required this.style});
+}
+
+class DefinitionKurdishLink extends StatelessWidget {
+  final String text;
+  final List<LinkInfo> links;
+  final VoidCallback? onTap;
+  final double? textSize;
+
+  const DefinitionKurdishLink({
+    super.key,
+    required this.text,
+    required this.links,
+    this.textSize = 16,
+    this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    List<TextSpan> textSpans = [];
+    int currentIndex = 0;
+
+    for (var link in links) {
+      if (link.start > currentIndex) {
+        textSpans.add(
+          TextSpan(
+            text: text.substring(currentIndex, link.start),
+            style: TextStyle(
+              fontSize: textSize,
+            ),
+          ),
+        );
+      }
+
+      textSpans.add(
+        TextSpan(
+          text: text.substring(link.start, link.end),
+          style: link.style.copyWith(
+            decoration: TextDecoration.underline,
+            fontSize: textSize,
+          ),
+          recognizer: TapGestureRecognizer()
+            ..onTap = onTap != null
+                ? () {
+                    onTap!();
+                  }
+                : null,
+        ),
+      );
+
+      currentIndex = link.end;
+    }
+
+    if (currentIndex < text.length) {
+      textSpans.add(
+        TextSpan(
+          text: text.substring(currentIndex),
+          style: TextStyle(
+            fontSize: textSize,
+          ),
+        ),
+      );
+    }
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+      child: Directionality(
+        textDirection: TextDirection.rtl,
+        child: SelectableText.rich(
+          TextSpan(
+            children: textSpans,
+          ),
         ),
       ),
     );

@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She crept up behind me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps3(String languageCode) async {
@@ -238,7 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She turned off the light and crept through the door."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps4(String languageCode) async {
@@ -246,7 +247,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her arms crept around his neck."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps5(String languageCode) async {
@@ -254,7 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A slight feeling of suspicion crept over me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps6(String languageCode) async {
@@ -262,7 +265,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's always creeping to the boss."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps7(String languageCode) async {
@@ -270,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's a nasty little creep!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps8(String languageCode) async {
@@ -278,7 +282,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He’s the sort of creep who would do that kind of thing!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps9(String languageCode) async {
@@ -286,7 +291,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreeps900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We need to prevent this slow creep of costs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcreeps10(String languageCode) async {
@@ -345,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
                             "I crept up the stairs, trying not to wake my parents."),
                     ExampleSentenceKurdish(
                         text:
-                            "بە پلەکانەکاندا بەبێ خشپە چوومە سەرەوە و هەوڵمدا دایک و باوکم هەڵنەسێنم."),
+                            "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و هەوڵمدا دایک و باوکم هەڵنەسێنم."),
                   ],
                 ),
               ),
@@ -357,6 +363,222 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcreeps1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She crept up behind me."),
+                    ExampleSentenceKurdish(text: "بەبێ خشپە لە دوامەوە هات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (کردار) گاگوڵکێ کردن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She turned off the light and crept through the door."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆشناییەکەی کوژاندەوە و بە دەرگاکە بە گاگوڵکێ چوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (کردار) زۆر هێواش جوڵان یان گەشەکردن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Her arms crept around his neck."),
+                    ExampleSentenceKurdish(text: "باڵی بە دەوری ملیدا سووڕدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "A slight feeling of suspicion crept over me."),
+                    ExampleSentenceKurdish(
+                        text: "کەمێک هەستی گومان بە سەرمدا زاڵ بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (کردار) زۆر هاوڕێیانە و دۆست لەگەڵ کەسێکی دەسەڵاتدار کە کارت پێی هەیە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He's always creeping to the boss."),
+                    ExampleSentenceKurdish(
+                        text: "هەمیشە بە دەوری بەڕێوبەرەکەدا خۆی بادەدات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (ناو) کەسێک کە زۆر ڕقت لێیە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He's a nasty little creep!"),
+                    ExampleSentenceKurdish(text: "سووکێکی هیچی قێزەونە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (ناو) کەسێکی کە مەرایت بۆ دەکات بۆ ئەوەی لێی ڕازی بیت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He’s the sort of creep who would do that kind of thing!"),
+                    ExampleSentenceKurdish(
+                        text: "ئەو ماستاوچییەیە کە ئەو جۆرە کارە دەکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٧. (ناو) تێپەڕاندنی سنووری دانراو"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "We need to prevent this slow creep of costs."),
+                    ExampleSentenceKurdish(
+                        text: "دەبێت ڕێگری لەم زیادبوونە هێواشەی تێچوو بکەین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcreeps9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcreeps9("en-US"),
                   ),
                 ],
               ),
@@ -465,7 +687,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wNsZEqpKUA?t=',
+    videoId: 'https://youtu.be/_wNsZEqpKUA',
     startSeconds: 1118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +712,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'https://youtu.be/zqllxbPWKNI',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +737,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rRymSi8SmqA?t=',
+    videoId: 'https://youtu.be/rRymSi8SmqA',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +762,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'https://youtu.be/dqcSk-EDrRo',
     startSeconds: 836,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +787,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ObqbX1eLTwo?t=',
+    videoId: 'https://youtu.be/ObqbX1eLTwo',
     startSeconds: 681,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +812,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mcZdTvOqmvI?t=',
+    videoId: 'https://youtu.be/mcZdTvOqmvI',
     startSeconds: 1003,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +837,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kElsSj8hky4?t=',
+    videoId: 'https://youtu.be/kElsSj8hky4',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(

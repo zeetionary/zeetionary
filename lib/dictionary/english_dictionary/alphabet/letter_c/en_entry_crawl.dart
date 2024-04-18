@@ -686,7 +686,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'https://youtu.be/hTqtGJwsJVE',
     startSeconds: 335,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -711,7 +711,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BIrBqKYzUz0?t=',
+    videoId: 'https://youtu.be/BIrBqKYzUz0',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -736,7 +736,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1BhN96adnEM?t=',
+    videoId: 'https://youtu.be/1BhN96adnEM',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -786,7 +786,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: 'https://youtu.be/-HyHZsa79LU',
     startSeconds: 1249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -811,7 +811,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DO9U_XxN-Kc?t=',
+    videoId: 'https://youtu.be/DO9U_XxN-Kc',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -836,7 +836,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdgPAetNY5U?t=',
+    videoId: 'https://youtu.be/gdgPAetNY5U',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycreak extends StatefulWidget {
-  const EnglishEntrycreak({super.key});
+class EnglishEntrycremate extends StatefulWidget {
+  const EnglishEntrycremate({super.key});
 
   @override
-  State<EnglishEntrycreak> createState() => _EnglishEntrycreakState();
+  State<EnglishEntrycremate> createState() => _EnglishEntrycremateState();
 }
 
-class _EnglishEntrycreakState extends State<EnglishEntrycreak> {
+class _EnglishEntrycremateState extends State<EnglishEntrycremate> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "creak");
+    return const EntryTitle(word: "cremate");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: creak");
+    return const AlsoEnglish(word: "also: cremate");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kriːk/");
+    return const IPAofEnglish(text: "IpaUK: /krəˈmeɪt/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcreak(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremate(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("creak"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcreak("en-GB"),
+      onPressed: () => speakcremate("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kriːk/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkriːmeɪt/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcreak(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremate(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("creak"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcreak("en-US"),
+      onPressed: () => speakcremate("en-US"),
     );
   }
 }
@@ -216,112 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcreaks1(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She heard a floorboard creak upstairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When she dies she wants to be cremated, not buried."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks2(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He stood up, his bones creaking."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks3(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The door creaked on its hinges."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks4(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The gate swung open with a creak."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks5(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks6(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks7(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks8(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks9(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks10(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks11(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks12(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcreaks13(String languageCode) async {
-    // DOPSUM: CHANGE speakcreak
+  Future<void> speakcremates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcremate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcreaks1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcremates1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -332,112 +329,31 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: جەڕە، جیڕەجیڕ، جیڕە، خرچە، خرچەخرچ
-"""),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) دەنگی دەرگا کە دەیکەیتەوە یان تەختە کە پەستانی دەکەوێتە سەر"),
+//           const KurdishVocabulary(text: """
+// کوردی: سووتاندن
+// """),
+          const DefinitionKurdish(text: "١. (ناو) سووتاندنی جەستەیەک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She heard a floorboard creak upstairs."),
-                    ExampleSentenceKurdish(
                         text:
-                            "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەهات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "creak", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He stood up, his bones creaking."),
+                            "When she dies she wants to be cremated, not buried."),
                     ExampleSentenceKurdish(
-                        text: "هەستایە سەر پێ و ئێسکەکانی جەڕەیان دەهات."),
+                        text: "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "cremate", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcreaks2("en-GB"),
+                    onPressed: () => speakcremates1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The door creaked on its hinges."),
-                    ExampleSentenceKurdish(
-                        text: "دەرگاکە لە گێژەنەکانیەوە جیڕەی دەهات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) جەڕە یان جیڕە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The gate swung open with a creak."),
-                    ExampleSentenceKurdish(
-                        text: "دەروازەکە بە جیڕەیەکەوە کرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcreaks4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcreaks4("en-US"),
+                    onPressed: () => speakcremates1("en-US"),
                   ),
                 ],
               ),
@@ -491,13 +407,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: creak (Derived forms: creaked, creaking, creaks)
-1. Make a high-pitched, screeching noise (= whine, squeak, screech, screak [dialect], skreak [non-standard])
-"The door creaked when I opened it slowly";
-
-- Noun: creak (Derived forms: creaks)
-1. A squeaking sound (= creaking)
-"the creak of the floorboards gave him away";
+- Verb: cremate 
+1. Reduce to ashes (= Derived forms: cremates, cremated, cremating)
+"Cremate a corpse"
 """,
   );
 
@@ -530,8 +442,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zKOMLoBP_Xw',
-    startSeconds: 372,
+    videoId: 'https://youtu.be/knjliFs3gR8',
+    startSeconds: 918,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -555,8 +467,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lAIR5l2pLNw',
-    startSeconds: 344,
+    videoId: 'https://youtu.be/o2dvXWX3Sdw',
+    startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -580,8 +492,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c31gaNHKhbY',
-    startSeconds: 555,
+    videoId: 'https://youtu.be/HZq_HjKCRB4',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -605,8 +517,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DyZr41XGrXs',
-    startSeconds: 243,
+    videoId: 'https://youtu.be/cJiq-6abMEs',
+    startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -630,8 +542,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gc-B-a5FrvU',
-    startSeconds: 259,
+    videoId: 'https://youtu.be/R58ehd-Ad4Y',
+    startSeconds: 862,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -655,8 +567,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Zb--mb-tHE',
-    startSeconds: 300,
+    videoId: 'https://youtu.be/IvJhA8jjcSM',
+    startSeconds: 276,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -680,8 +592,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xn57xCokWkc',
-    startSeconds: 1107,
+    videoId: 'https://youtu.be/MoWue2YAvJE',
+    startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

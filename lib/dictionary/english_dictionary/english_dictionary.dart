@@ -4038,76 +4038,76 @@ class _DictionaryScreenEnglishState
     "craftiness",
     "crag",
     "craggy",
-    // "cram",
-    // "crammed",
-    // "cramp",
-    // "cramped",
-    // "crampon",
-    // "crane",
-    // "cranium",
-    // "cranial",
-    // "crank",
-    // "crankshaft",
-    // "cranky",
-    // "cranny",
-    // "crap",
-    // "crappy",
-    // "crash",
-    // "crash helmet",
-    // "crash land",
-    // "crash landing",
-    // "crass",
-    // "crate",
-    // "crater",
-    // "cravat",
-    // "crave",
-    // "craving",
-    // "crawl",
-    // "crawler",
-    // "crayon",
-    // "craze",
-    // "crazed",
-    // "crazily",
-    // "craziness",
-    // "crazy",
-    // "creak",
-    // "creaky",
-    // "cream",
-    // "creamy",
-    // "crease",
-    // "create",
-    // "creation",
-    // "creationism",
-    // "creative",
-    // "creatively",
-    // "creativity",
-    // "creator",
-    // "creature",
-    // "crèche",
-    // "credentials",
-    // "credibility",
-    // "credible",
-    // "credibly",
-    // "credit",
-    // "creditable",
-    // "creditably",
-    // "credit card",
-    // "creditor",
-    // "creditworthiness",
-    // "creditworthy",
-    // "credulity",
-    // "credulous",
-    // "creed",
-    // "creek",
-    // "creep",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "cram",
+    "crammed",
+    "cramp",
+    "cramped",
+    "crampon",
+    "crane",
+    "cranium",
+    "cranial",
+    "crank",
+    "crankshaft",
+    "cranky",
+    "cranny",
+    "crap",
+    "crappy",
+    "crash",
+    "crash helmet",
+    "crash land",
+    "crash landing",
+    "crass",
+    "crate",
+    "crater",
+    "cravat",
+    "crave",
+    "craving",
+    "crawl",
+    "crawler",
+    "crayon",
+    "craze",
+    "crazed",
+    "crazily",
+    "craziness",
+    "crazy",
+    "creak",
+    "creaky",
+    "cream",
+    "creamy",
+    "crease",
+    "create",
+    "creation",
+    "creationism",
+    "creative",
+    "creatively",
+    "creativity",
+    "creator",
+    "creature",
+    "crèche",
+    "credentials",
+    "credibility",
+    "credible",
+    "credibly",
+    "credit",
+    "creditable",
+    "creditably",
+    "credit card",
+    "creditor",
+    "creditworthiness",
+    "creditworthy",
+    "credulity",
+    "credulous",
+    "creed",
+    "creek",
+    "creep",
+    "creeper",
+    "creepy",
+    "creepy-crawly",
+    "cremate",
+    "cremation",
+    "crematorium",
+    "creosote",
+    "crêpe",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -4710,6 +4710,7 @@ class _DictionaryScreenEnglishState
     input = input.replaceAll('nes', 'ns');
     input = input.replaceAll('nium', 'num');
     input = input.replaceAll('è', 'e');
+    input = input.replaceAll('ê', 'e');
 
     // Remove hyphens and convert to lowercase
     return input.replaceAll('-', ' ').toLowerCase();
@@ -20936,286 +20937,286 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-craggy");
                   }
-                  // if (wordsEnglish == "cram") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cram");
-                  // }
-                  // if (wordsEnglish == "crammed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crammed");
-                  // }
-                  // if (wordsEnglish == "cramp") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cramp");
-                  // }
-                  // if (wordsEnglish == "cramped") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cramped");
-                  // }
-                  // if (wordsEnglish == "crampon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crampon");
-                  // }
-                  // if (wordsEnglish == "crane") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crane");
-                  // }
-                  // if (wordsEnglish == "cranium") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cranium");
-                  // }
-                  // if (wordsEnglish == "cranial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cranial");
-                  // }
-                  // if (wordsEnglish == "crank") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crank");
-                  // }
-                  // if (wordsEnglish == "crankshaft") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crankshaft");
-                  // }
-                  // if (wordsEnglish == "cranky") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cranky");
-                  // }
-                  // if (wordsEnglish == "cranny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cranny");
-                  // }
-                  // if (wordsEnglish == "crap") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crap");
-                  // }
-                  // if (wordsEnglish == "crappy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crappy");
-                  // }
-                  // if (wordsEnglish == "crash") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crash");
-                  // }
-                  // if (wordsEnglish == "crash helmet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crash-helmet");
-                  // }
-                  // if (wordsEnglish == "crash land") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crash-land");
-                  // }
-                  // if (wordsEnglish == "crash landing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crash-landing");
-                  // }
-                  // if (wordsEnglish == "crass") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crass");
-                  // }
-                  // if (wordsEnglish == "crate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crate");
-                  // }
-                  // if (wordsEnglish == "crater") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crater");
-                  // }
-                  // if (wordsEnglish == "cravat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cravat");
-                  // }
-                  // if (wordsEnglish == "crave") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crave");
-                  // }
-                  // if (wordsEnglish == "craving") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craving");
-                  // }
-                  // if (wordsEnglish == "crawl") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crawl");
-                  // }
-                  // if (wordsEnglish == "crawler") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crawler");
-                  // }
-                  // if (wordsEnglish == "crayon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crayon");
-                  // }
-                  // if (wordsEnglish == "craze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craze");
-                  // }
-                  // if (wordsEnglish == "crazed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crazed");
-                  // }
-                  // if (wordsEnglish == "crazy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crazy");
-                  // }
-                  // if (wordsEnglish == "crazily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crazily");
-                  // }
-                  // if (wordsEnglish == "craziness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-craziness");
-                  // }
-                  // if (wordsEnglish == "creak") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creak");
-                  // }
-                  // if (wordsEnglish == "creaky") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creaky");
-                  // }
-                  // if (wordsEnglish == "cream") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cream");
-                  // }
-                  // if (wordsEnglish == "creamy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creamy");
-                  // }
-                  // if (wordsEnglish == "crease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crease");
-                  // }
-                  // if (wordsEnglish == "create") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-create");
-                  // }
-                  // if (wordsEnglish == "creation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creation");
-                  // }
-                  // if (wordsEnglish == "creationism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creationism");
-                  // }
-                  // if (wordsEnglish == "creative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creative");
-                  // }
-                  // if (wordsEnglish == "creatively") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creatively");
-                  // }
-                  // if (wordsEnglish == "creativity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creativity");
-                  // }
-                  // if (wordsEnglish == "creator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creator");
-                  // }
-                  // if (wordsEnglish == "creature") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creature");
-                  // }
-                  // if (wordsEnglish == "crèche") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creche");
-                  // }
-                  // if (wordsEnglish == "credentials") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credentials");
-                  // }
-                  // if (wordsEnglish == "credible") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credible");
-                  // }
-                  // if (wordsEnglish == "credibility") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credibility");
-                  // }
-                  // if (wordsEnglish == "credibly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credibly");
-                  // }
-                  // if (wordsEnglish == "credit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credit");
-                  // }
-                  // if (wordsEnglish == "creditworthy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creditworthy");
-                  // }
-                  // if (wordsEnglish == "creditworthiness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creditworthiness");
-                  // }
-                  // if (wordsEnglish == "creditable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creditable");
-                  // }
-                  // if (wordsEnglish == "creditably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creditably");
-                  // }
-                  // if (wordsEnglish == "credit card") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credit-card");
-                  // }
-                  // if (wordsEnglish == "creditor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creditor");
-                  // }
-                  // if (wordsEnglish == "credulous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credulous");
-                  // }
-                  // if (wordsEnglish == "credulity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-credulity");
-                  // }
-                  // if (wordsEnglish == "creed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creed");
-                  // }
-                  // if (wordsEnglish == "creek") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creek");
-                  // }
-                  // if (wordsEnglish == "creep") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creep");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "cram") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cram");
+                  }
+                  if (wordsEnglish == "crammed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crammed");
+                  }
+                  if (wordsEnglish == "cramp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cramp");
+                  }
+                  if (wordsEnglish == "cramped") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cramped");
+                  }
+                  if (wordsEnglish == "crampon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crampon");
+                  }
+                  if (wordsEnglish == "crane") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crane");
+                  }
+                  if (wordsEnglish == "cranium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cranium");
+                  }
+                  if (wordsEnglish == "cranial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cranial");
+                  }
+                  if (wordsEnglish == "crank") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crank");
+                  }
+                  if (wordsEnglish == "crankshaft") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crankshaft");
+                  }
+                  if (wordsEnglish == "cranky") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cranky");
+                  }
+                  if (wordsEnglish == "cranny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cranny");
+                  }
+                  if (wordsEnglish == "crap") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crap");
+                  }
+                  if (wordsEnglish == "crappy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crappy");
+                  }
+                  if (wordsEnglish == "crash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crash");
+                  }
+                  if (wordsEnglish == "crash helmet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crash-helmet");
+                  }
+                  if (wordsEnglish == "crash land") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crash-land");
+                  }
+                  if (wordsEnglish == "crash landing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crash-landing");
+                  }
+                  if (wordsEnglish == "crass") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crass");
+                  }
+                  if (wordsEnglish == "crate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crate");
+                  }
+                  if (wordsEnglish == "crater") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crater");
+                  }
+                  if (wordsEnglish == "cravat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cravat");
+                  }
+                  if (wordsEnglish == "crave") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crave");
+                  }
+                  if (wordsEnglish == "craving") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craving");
+                  }
+                  if (wordsEnglish == "crawl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crawl");
+                  }
+                  if (wordsEnglish == "crawler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crawler");
+                  }
+                  if (wordsEnglish == "crayon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crayon");
+                  }
+                  if (wordsEnglish == "craze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craze");
+                  }
+                  if (wordsEnglish == "crazed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crazed");
+                  }
+                  if (wordsEnglish == "crazy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crazy");
+                  }
+                  if (wordsEnglish == "crazily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crazily");
+                  }
+                  if (wordsEnglish == "craziness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-craziness");
+                  }
+                  if (wordsEnglish == "creak") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creak");
+                  }
+                  if (wordsEnglish == "creaky") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creaky");
+                  }
+                  if (wordsEnglish == "cream") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cream");
+                  }
+                  if (wordsEnglish == "creamy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creamy");
+                  }
+                  if (wordsEnglish == "crease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crease");
+                  }
+                  if (wordsEnglish == "create") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-create");
+                  }
+                  if (wordsEnglish == "creation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creation");
+                  }
+                  if (wordsEnglish == "creationism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creationism");
+                  }
+                  if (wordsEnglish == "creative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creative");
+                  }
+                  if (wordsEnglish == "creatively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creatively");
+                  }
+                  if (wordsEnglish == "creativity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creativity");
+                  }
+                  if (wordsEnglish == "creator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creator");
+                  }
+                  if (wordsEnglish == "creature") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creature");
+                  }
+                  if (wordsEnglish == "crèche") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creche");
+                  }
+                  if (wordsEnglish == "credentials") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credentials");
+                  }
+                  if (wordsEnglish == "credible") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credible");
+                  }
+                  if (wordsEnglish == "credibility") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credibility");
+                  }
+                  if (wordsEnglish == "credibly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credibly");
+                  }
+                  if (wordsEnglish == "credit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credit");
+                  }
+                  if (wordsEnglish == "creditworthy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creditworthy");
+                  }
+                  if (wordsEnglish == "creditworthiness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creditworthiness");
+                  }
+                  if (wordsEnglish == "creditable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creditable");
+                  }
+                  if (wordsEnglish == "creditably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creditably");
+                  }
+                  if (wordsEnglish == "credit card") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credit-card");
+                  }
+                  if (wordsEnglish == "creditor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creditor");
+                  }
+                  if (wordsEnglish == "credulous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credulous");
+                  }
+                  if (wordsEnglish == "credulity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-credulity");
+                  }
+                  if (wordsEnglish == "creed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creed");
+                  }
+                  if (wordsEnglish == "creek") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creek");
+                  }
+                  if (wordsEnglish == "creep") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creep");
+                  }
+                  if (wordsEnglish == "creeper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creeper");
+                  }
+                  if (wordsEnglish == "creepy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creepy");
+                  }
+                  if (wordsEnglish == "creepy-crawly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creepy-crawly");
+                  }
+                  if (wordsEnglish == "cremate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cremate");
+                  }
+                  if (wordsEnglish == "cremation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cremation");
+                  }
+                  if (wordsEnglish == "crematorium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crematorium");
+                  }
+                  if (wordsEnglish == "creosote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creosote");
+                  }
+                  if (wordsEnglish == "crêpe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crepe");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrew extends StatefulWidget {
-  const EnglishEntrycrew({super.key});
+class EnglishEntrycrispness extends StatefulWidget {
+  const EnglishEntrycrispness({super.key});
 
   @override
-  State<EnglishEntrycrew> createState() => _EnglishEntrycrewState();
+  State<EnglishEntrycrispness> createState() => _EnglishEntrycrispnessState();
 }
 
-class _EnglishEntrycrewState extends State<EnglishEntrycrew> {
+class _EnglishEntrycrispnessState extends State<EnglishEntrycrispness> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crew");
+    return const EntryTitle(word: "crispness");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crew");
+    return const AlsoEnglish(word: "also: crispness");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kruː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkrɪspnəs/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispness(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crispness"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrew("en-GB"),
+      onPressed: () => speakcrispness("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kruː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkrɪspnəs/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispness(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crispness"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrew("en-US"),
+      onPressed: () => speakcrispness("en-US"),
     );
   }
 }
@@ -216,109 +216,113 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrews1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The salad had lost its crispness."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrispnesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "None of the passengers and crew were injured."); // DOPSUM: CHANGE TEXT
+        "The skins can be left on the potatoes for extra crispness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The crew of the plane instructed everyone to remain seated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The image lacks crispness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It took ambulance crews more than an hour to free them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The day darkened to night and they inhaled the slight crispness of the air."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fire crews were called to the scene."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Damp clothes had dried to a crispness over a string line."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cast and crew of the movie are giving it their all."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His writing lacks the crispness it once had."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The house was soon besieged by TV crews and photographers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The people she invited were a pretty motley crew."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's get a crew together and go to the pub."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Normally the boat is crewed by five people."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I crewed for him on his yacht last summer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrispnesss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrispness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrews13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrispnesss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,278 +334,175 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کارکەران، دەستەی کارکەران (فڕۆکەوانی و کەشتی‌یەوانی)،	کۆمەڵە، دەستە، گروپ، تیپ، تاقم،	دارودەستە
+کوردی: تەز، سەرما،	کورتی، پوختی،	وشکی، ناسکی، قرپی، قرچی، تورتی
 """),
-          const DefinitionKurdish(text: "١. (ناو) تەواوی ئەو کەسانەی کە لەسەر فڕۆکەیەک، کەشتییەک، هتد کار دەکەن؛ تەواوی دەستەکە جگە لە ئەو ئەفسەرانەی بەڕێوەبەرن"),
+          const DefinitionKurdish(text: "١. (ناو) توندی و تازەیی"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "None of the passengers and crew were injured."),
-                    ExampleSentenceKurdish(text: "هیچ یەک لە گەشتیاران و دەستەی کارکەران بریندار نەبوون."),
+                        text: "The salad had lost its crispness."),
+                    ExampleSentenceKurdish(
+                        text: "زەڵاتەکە تازەییەکەی لەدەستداوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crew", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crispness", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrews1("en-GB"),
+                    onPressed: () => speakcrispnesss1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrews1("en-US"),
+                    onPressed: () => speakcrispnesss1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerSentences(),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) ڕەق و وشک"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The crew of the plane instructed everyone to remain seated."),
-          ExampleSentenceKurdish(
-          text: "تاقمی فڕۆکەکە ڕێنمایی هەموانیان کرد کە لە جێگای خۆیان بمێننەوە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The skins can be left on the potatoes for extra crispness."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "توێکڵەکە دەکرێت لەسەر پەتاتەکە بهێڵدرێت بۆ خرمەی زیاتر."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrispnesss2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrispnesss2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) کۆمەڵە کەسێک کە شارەزاییەکی تایبەتیان هەیە و پێکەوە کار دەکەن"),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) ڕوون و تیژ بەشێوەیەک کە ئاسان دەبینرێت یان هەستی پێ دەکرێت"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "It took ambulance crews more than an hour to free them."),
-          ExampleSentenceKurdish(
-          text: "زیاتر لە یەک کاتژمێری پێچوو بۆ تیمی فریاگوزاری تاوەکو ئازادیان بکەن."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews3("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Fire crews were called to the scene."),
-          ExampleSentenceKurdish(
-          text: "تیمی ئاگرکوژێنەرەوە بانگ کران بۆ شوێنی ڕووداوەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews4("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The cast and crew of the movie are giving it their all."),
-          ExampleSentenceKurdish(
-          text: "ئەکتەران و تیمی فیلمەکە تەواوی تانایان تەرخان کردووە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews5("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews5("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The house was soon besieged by TV crews and photographers."),
-          ExampleSentenceKurdish(
-          text: "خانووەکە هەرزوو دەوردرا بە تیمی تەلەفیزیۆنەکان و وێنەگران."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews6("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews6("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The image lacks crispness."),
+                    ExampleSentenceKurdish(text: "وێنەکە ڕوونیی نییە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrispnesss3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrispnesss3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) گرووپێک لە خەڵکی"),
+          const DefinitionKurdish(text: "٤. (ناو) وشک و سارد"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The people she invited were a pretty motley crew (= a strange mix of types of people)."),
-          ExampleSentenceKurdish(
-          text: "ئەو کەسانەی بانگهێشت کران گرووپێکی تەواو فرەڕەنگ بوون."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews7("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews7("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Let's get a crew together and go to the pub."),
-          ExampleSentenceKurdish(
-          text: "با گرووپێک درووست بکەین و بچین بۆ مەیخانەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews8("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews8("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The day darkened to night and they inhaled the slight crispness of the air."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان هەڵمژی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrispnesss4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrispnesss4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (کردار) بوون بە بەشێک لە دەستەی کارکەرانی فڕۆکەیەک، کەشتییەک، هتد"),
+          const DefinitionKurdish(text: "٥. (ناو) پاک و خاوێنی"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Normally the boat is crewed by five people."),
-          ExampleSentenceKurdish(
-          text: "بە شێوەی ئاسایی بەلەمەکە پێنج کارکەری تێدا دەبێت."),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Damp clothes had dried to a crispness over a string line."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "جلە تەڕەکان وشک و خاوێن بووبوونەوە لەسەر تەنافێک."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrispnesss5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrispnesss5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews9("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews9("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (ناو) خێرا و بە متمانە و کاریگەر"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "I crewed for him on his yacht last summer."),
-          ExampleSentenceKurdish(
-          text: "هاوینی ڕابردوو کارکەرێک بووم لەسەر یەختەکەی."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews10("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews10("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "His writing lacks the crispness it once had."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نووسینەکانی ئەو کاریگەرییەیان نییە کە جاران هەیان بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrispnesss6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrispnesss6("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -651,18 +552,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crew (Derived forms: crews)
-1. The men and women who man a vehicle (ship, aircraft, etc.)
+- Noun: crispness 
+1. A pleasing firmness and freshness
+"crispness of new dollar bills"; "crispness of fresh lettuce"
  
-2. An organized group of workmen (= gang, work party)
+2. An expressive style that is direct and to the point
+"the crispness of his reply"
  
-3. An informal body of friends (= crowd, gang, bunch)
-"he still hangs out with the same crew";
- 
-4. The team of men or women manning a racing shell
-
-- Verb: crew (Derived forms: crews, crewing, crewed)
-1. Serve as a crew member on
+3. Firm but easily broken (= brittleness, crispiness)
 """,
   );
 
@@ -695,8 +592,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1223,
+    videoId: 'https://youtu.be/PYsE5K9Vgns?t=',
+    startSeconds: 859,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -720,8 +617,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 113,
+    videoId: 'https://youtu.be/6GIGcq8SCpE?t=',
+    startSeconds: 731,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -745,8 +642,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zz5MV_qB36Q?t=',
-    startSeconds: 230,
+    videoId: 'https://youtu.be/kS6YJJfBYag?t=',
+    startSeconds: 818,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -770,8 +667,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npZF5gJHhZM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/Zhq20aCSh-s?t=',
+    startSeconds: 552,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -795,8 +692,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/KxJOGezJlF8?t=',
+    startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -820,8 +717,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IHAVC3ASxi4?t=',
-    startSeconds: 166,
+    videoId: 'https://youtu.be/3BFUm3m3kyE?t=',
+    startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -845,8 +742,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d-WXnEXXQYw?t=',
-    startSeconds: 130,
+    videoId: 'https://youtu.be/H1QYeuy3buE?t=',
+    startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

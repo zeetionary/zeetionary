@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrew extends StatefulWidget {
-  const EnglishEntrycrew({super.key});
+class EnglishEntrycrisis extends StatefulWidget {
+  const EnglishEntrycrisis({super.key});
 
   @override
-  State<EnglishEntrycrew> createState() => _EnglishEntrycrewState();
+  State<EnglishEntrycrisis> createState() => _EnglishEntrycrisisState();
 }
 
-class _EnglishEntrycrewState extends State<EnglishEntrycrew> {
+class _EnglishEntrycrisisState extends State<EnglishEntrycrisis> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crew");
+    return const EntryTitle(word: "crisis");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crew");
+    return const AlsoEnglish(word: "also: crisis");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kruː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkraɪsɪs/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisis(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crisis"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrew("en-GB"),
+      onPressed: () => speakcrisis("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kruː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkraɪsɪs/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisis(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crisis"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrew("en-US"),
+      onPressed: () => speakcrisis("en-US"),
     );
   }
 }
@@ -216,109 +216,114 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrews1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "None of the passengers and crew were injured."); // DOPSUM: CHANGE TEXT
+        "The government is attempting to solve the debt crisis through spending cuts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The crew of the plane instructed everyone to remain seated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The government is facing a political crisis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It took ambulance crews more than an hour to free them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The business is still in crisis but it has survived the worst of the recession."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fire crews were called to the scene."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We provide help to families in crisis situations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cast and crew of the movie are giving it their all."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their marriage has reached crisis point."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The house was soon besieged by TV crews and photographers."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The fever has passed its crisis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The people she invited were a pretty motley crew."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's get a crew together and go to the pub."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Normally the boat is crewed by five people."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I crewed for him on his yacht last summer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrisiss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrisis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrisiss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,28 +335,33 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کارکەران، دەستەی کارکەران (فڕۆکەوانی و کەشتی‌یەوانی)،	کۆمەڵە، دەستە، گروپ، تیپ، تاقم،	دارودەستە
+کوردی: قەیران، تەنگژە، ئاریشە، تەنگ‌وچەڵەمە،	توندایی یا سەختایی نەخۆشی، ئاگا
 """),
-          const DefinitionKurdish(text: "١. (ناو) تەواوی ئەو کەسانەی کە لەسەر فڕۆکەیەک، کەشتییەک، هتد کار دەکەن؛ تەواوی دەستەکە جگە لە ئەو ئەفسەرانەی بەڕێوەبەرن"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) ماوەیەک لە مەترسی، سەختی، یان گومان کە تێیدا دەبێت کێشە چارەسەر بکرێت یان بڕیاری گرنگ بدرێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "None of the passengers and crew were injured."),
-                    ExampleSentenceKurdish(text: "هیچ یەک لە گەشتیاران و دەستەی کارکەران بریندار نەبوون."),
+                        text:
+                            "The government is attempting to solve the debt crisis through spending cuts."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "حکومەت هەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crew", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crisis", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrews1("en-GB"),
+                    onPressed: () => speakcrisiss1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrews1("en-US"),
+                    onPressed: () => speakcrisiss1("en-US"),
                   ),
                 ],
               ),
@@ -359,249 +369,140 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The crew of the plane instructed everyone to remain seated."),
-          ExampleSentenceKurdish(
-          text: "تاقمی فڕۆکەکە ڕێنمایی هەموانیان کرد کە لە جێگای خۆیان بمێننەوە."),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The government is facing a political crisis."),
+                    ExampleSentenceKurdish(
+                        text: "حکومەت ڕووبەڕووی تەنگژەیەکی سیاسی بووەتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrisiss2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrisiss2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The business is still in crisis but it has survived the worst of the recession."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بازرگانییەکە هێشتا ڕووبەڕووی تەنگژەکە دەبێتەوە بەڵام زۆرینەی قەیرانەکەی تێپەڕاندووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrisiss3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrisiss3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews2("en-US"),
-          ),
-          ],
-          ),
-          ],
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "We provide help to families in crisis situations."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "یارمەتی ئەو خێزانانە دەدەین کە لە دۆخی تەنگژەییدان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrisiss4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrisiss4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) کۆمەڵە کەسێک کە شارەزاییەکی تایبەتیان هەیە و پێکەوە کار دەکەن"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) ماوەیەک کە کێشەیەک، دۆخێکی خراپ، نەخۆشییەک لە خراپترین کاتیدایە"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "It took ambulance crews more than an hour to free them."),
-          ExampleSentenceKurdish(
-          text: "زیاتر لە یەک کاتژمێری پێچوو بۆ تیمی فریاگوزاری تاوەکو ئازادیان بکەن."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Their marriage has reached crisis point."),
+                    ExampleSentenceKurdish(
+                        text: "هاوسەرگیرییەکەیان گەشتووە بە خراپترین خاڵ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrisiss5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrisiss5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Fire crews were called to the scene."),
-          ExampleSentenceKurdish(
-          text: "تیمی ئاگرکوژێنەرەوە بانگ کران بۆ شوێنی ڕووداوەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews4("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The cast and crew of the movie are giving it their all."),
-          ExampleSentenceKurdish(
-          text: "ئەکتەران و تیمی فیلمەکە تەواوی تانایان تەرخان کردووە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews5("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews5("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The house was soon besieged by TV crews and photographers."),
-          ExampleSentenceKurdish(
-          text: "خانووەکە هەرزوو دەوردرا بە تیمی تەلەفیزیۆنەکان و وێنەگران."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews6("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews6("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) گرووپێک لە خەڵکی"),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The people she invited were a pretty motley crew (= a strange mix of types of people)."),
-          ExampleSentenceKurdish(
-          text: "ئەو کەسانەی بانگهێشت کران گرووپێکی تەواو فرەڕەنگ بوون."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews7("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews7("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Let's get a crew together and go to the pub."),
-          ExampleSentenceKurdish(
-          text: "با گرووپێک درووست بکەین و بچین بۆ مەیخانەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews8("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews8("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (کردار) بوون بە بەشێک لە دەستەی کارکەرانی فڕۆکەیەک، کەشتییەک، هتد"),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Normally the boat is crewed by five people."),
-          ExampleSentenceKurdish(
-          text: "بە شێوەی ئاسایی بەلەمەکە پێنج کارکەری تێدا دەبێت."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews9("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews9("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "I crewed for him on his yacht last summer."),
-          ExampleSentenceKurdish(
-          text: "هاوینی ڕابردوو کارکەرێک بووم لەسەر یەختەکەی."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews10("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews10("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The fever has passed its crisis."),
+                    ExampleSentenceKurdish(
+                        text: "تایەکە خراپترین خاڵی تێپەڕاندووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrisiss6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrisiss6("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -651,18 +552,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crew (Derived forms: crews)
-1. The men and women who man a vehicle (ship, aircraft, etc.)
+- Noun: crisis (Derived forms: crises)
+1. An unstable situation of extreme danger or difficulty
+"they went bankrupt during the economic crisis"
  
-2. An organized group of workmen (= gang, work party)
- 
-3. An informal body of friends (= crowd, gang, bunch)
-"he still hangs out with the same crew";
- 
-4. The team of men or women manning a racing shell
-
-- Verb: crew (Derived forms: crews, crewing, crewed)
-1. Serve as a crew member on
+2. A crucial stage or turning point in the course of something
+"after the crisis the patient either dies or gets better"
 """,
   );
 
@@ -695,8 +590,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1223,
+    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    startSeconds: 394,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -720,8 +615,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 113,
+    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -745,8 +640,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zz5MV_qB36Q?t=',
-    startSeconds: 230,
+    videoId: 'https://youtu.be/gdgPAetNY5U?t=',
+    startSeconds: 394,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -770,8 +665,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npZF5gJHhZM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    startSeconds: 774,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -795,8 +690,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/55XJ1ObZKaM?t=',
+    startSeconds: 1103,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -820,8 +715,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IHAVC3ASxi4?t=',
-    startSeconds: 166,
+    videoId: 'https://youtu.be/jxk259Eqnks?t=',
+    startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -845,8 +740,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d-WXnEXXQYw?t=',
-    startSeconds: 130,
+    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    startSeconds: 1174,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrew extends StatefulWidget {
-  const EnglishEntrycrew({super.key});
+class EnglishEntrycrime extends StatefulWidget {
+  const EnglishEntrycrime({super.key});
 
   @override
-  State<EnglishEntrycrew> createState() => _EnglishEntrycrewState();
+  State<EnglishEntrycrime> createState() => _EnglishEntrycrimeState();
 }
 
-class _EnglishEntrycrewState extends State<EnglishEntrycrew> {
+class _EnglishEntrycrimeState extends State<EnglishEntrycrime> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crew");
+    return const EntryTitle(word: "crime");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crew");
+    return const AlsoEnglish(word: "also: crime");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kruː/");
+    return const IPAofEnglish(text: "IpaUK: /kraɪm/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrime(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crime"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrew("en-GB"),
+      onPressed: () => speakcrime("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kruː/");
+    return const IPAofEnglish(text: "IpaUS: /kraɪm/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrew(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrime(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crew"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crime"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrew("en-US"),
+      onPressed: () => speakcrime("en-US"),
     );
   }
 }
@@ -216,109 +216,117 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrews1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "None of the passengers and crew were injured."); // DOPSUM: CHANGE TEXT
+        "This month's figures show an increase in violent crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The crew of the plane instructed everyone to remain seated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There needs to be a partnership between police and public in the fight against crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It took ambulance crews more than an hour to free them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Stores spend more and more on crime prevention every year."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Fire crews were called to the scene."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He began to drift into a life of petty crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cast and crew of the movie are giving it their all."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He turned to crime when he dropped out of school."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The house was soon besieged by TV crews and photographers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There is no proof that she committed a crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The people she invited were a pretty motley crew."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The massacre was a crime against humanity."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let's get a crew together and go to the pub."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "DNA testing can be used to solve old crimes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Normally the boat is crewed by five people."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's a crime to waste so much money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I crewed for him on his yacht last summer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrews13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrew
+  Future<void> speakcrimes13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrime
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrews1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrimes1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,28 +338,31 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کارکەران، دەستەی کارکەران (فڕۆکەوانی و کەشتی‌یەوانی)،	کۆمەڵە، دەستە، گروپ، تیپ، تاقم،	دارودەستە
+کوردی: تاوان،	گوناهـ، سووچ، هەڵە، چەوتی، شاشی
 """),
-          const DefinitionKurdish(text: "١. (ناو) تەواوی ئەو کەسانەی کە لەسەر فڕۆکەیەک، کەشتییەک، هتد کار دەکەن؛ تەواوی دەستەکە جگە لە ئەو ئەفسەرانەی بەڕێوەبەرن"),
+          const DefinitionKurdish(text: "١. (ناو) کاری تاوانکاری و یاساشکاندن"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "None of the passengers and crew were injured."),
-                    ExampleSentenceKurdish(text: "هیچ یەک لە گەشتیاران و دەستەی کارکەران بریندار نەبوون."),
+                        text:
+                            "This month's figures show an increase in violent crime."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئامارەکانی ئەم مانگە هەڵکشان لە تاوانی توندوتیژی پیشان دەدەن."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crew", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crime", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrews1("en-GB"),
+                    onPressed: () => speakcrimes1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrews1("en-US"),
+                    onPressed: () => speakcrimes1("en-US"),
                   ),
                 ],
               ),
@@ -359,249 +370,224 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The crew of the plane instructed everyone to remain seated."),
-          ExampleSentenceKurdish(
-          text: "تاقمی فڕۆکەکە ڕێنمایی هەموانیان کرد کە لە جێگای خۆیان بمێننەوە."),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "There needs to be a partnership between police and public in the fight against crime."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەبێت هەماهەنگی لەنێوان پۆلیس و خەڵکیدا هەبێت بۆ وەستاندنی تاوان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Stores spend more and more on crime prevention every year."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کۆگاکان هەموو ساڵێک پارەی زیاتر و زیاتر خەرج دەکەن لە ڕێگریکردن لە تاواندا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews2("en-GB"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He began to drift into a life of petty crime (= crime that is not very serious)."),
+                    ExampleSentenceKurdish(
+                        text: "دەستی کردووە بە ژیانێک لە تاوانی بچووک."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews2("en-US"),
-          ),
-          ],
-          ),
-          ],
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He turned to crime when he dropped out of school."),
+                    ExampleSentenceKurdish(
+                        text: "دەستی بە تاوان کرد کە لە قوتابخانە دەرچوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) کۆمەڵە کەسێک کە شارەزاییەکی تایبەتیان هەیە و پێکەوە کار دەکەن"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) تاوانێک کە دەکرێت بەپێی یاسا سزای هەبێت"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "It took ambulance crews more than an hour to free them."),
-          ExampleSentenceKurdish(
-          text: "زیاتر لە یەک کاتژمێری پێچوو بۆ تیمی فریاگوزاری تاوەکو ئازادیان بکەن."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "There is no proof that she committed a crime (= did something illegal)."),
+                    ExampleSentenceKurdish(
+                        text: "هیچ بەڵگەیەک نییە کە تاوانی ئەنجام دابێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes6("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Fire crews were called to the scene."),
-          ExampleSentenceKurdish(
-          text: "تیمی ئاگرکوژێنەرەوە بانگ کران بۆ شوێنی ڕووداوەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews4("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The cast and crew of the movie are giving it their all."),
-          ExampleSentenceKurdish(
-          text: "ئەکتەران و تیمی فیلمەکە تەواوی تانایان تەرخان کردووە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews5("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews5("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The massacre was a crime against humanity."),
+                    ExampleSentenceKurdish(
+                        text: "کۆمەڵکوژییەکە تاوانێکی دژ بە مرۆڤایەتی بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes7("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The house was soon besieged by TV crews and photographers."),
-          ExampleSentenceKurdish(
-          text: "خانووەکە هەرزوو دەوردرا بە تیمی تەلەفیزیۆنەکان و وێنەگران."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews6("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews6("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "DNA testing can be used to solve old crimes."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پشکنینی دی‌ئێن‌ئەی دەکرێت بەکاربێت بۆ چارەسەری تاوانی کۆن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes8("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) گرووپێک لە خەڵکی"),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) شتێک کە پێتوایە لە ڕووی ئەخلاقییەوە هەڵەیە، یان هەڵەیەکی گەورەیە"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The people she invited were a pretty motley crew (= a strange mix of types of people)."),
-          ExampleSentenceKurdish(
-          text: "ئەو کەسانەی بانگهێشت کران گرووپێکی تەواو فرەڕەنگ بوون."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews7("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews7("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Let's get a crew together and go to the pub."),
-          ExampleSentenceKurdish(
-          text: "با گرووپێک درووست بکەین و بچین بۆ مەیخانەکە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews8("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews8("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (کردار) بوون بە بەشێک لە دەستەی کارکەرانی فڕۆکەیەک، کەشتییەک، هتد"),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Normally the boat is crewed by five people."),
-          ExampleSentenceKurdish(
-          text: "بە شێوەی ئاسایی بەلەمەکە پێنج کارکەری تێدا دەبێت."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews9("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews9("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerSentences(),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "I crewed for him on his yacht last summer."),
-          ExampleSentenceKurdish(
-          text: "هاوینی ڕابردوو کارکەرێک بووم لەسەر یەختەکەی."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcrews10("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcrews10("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "It's a crime to waste so much money."),
+                    ExampleSentenceKurdish(
+                        text: "گوناهە هێندە پارە بەفیڕۆ بدەیت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrimes9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrimes9("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),
@@ -651,18 +637,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crew (Derived forms: crews)
-1. The men and women who man a vehicle (ship, aircraft, etc.)
+- Noun: crime (Derived forms: crimes)
+1. (criminal law) an act punishable by law; usually considered an evil act (= criminal offense [US], criminal offence [Brit, Cdn], law-breaking)
+"a long record of crimes";
  
-2. An organized group of workmen (= gang, work party)
- 
-3. An informal body of friends (= crowd, gang, bunch)
-"he still hangs out with the same crew";
- 
-4. The team of men or women manning a racing shell
-
-- Verb: crew (Derived forms: crews, crewing, crewed)
-1. Serve as a crew member on
+2. An evil act not necessarily punishable by law
+"crimes of the heart"
 """,
   );
 
@@ -695,8 +675,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
-    startSeconds: 1223,
+    videoId: 'https://youtu.be/VkIgQ_cgDGw?t=',
+    startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -720,8 +700,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 113,
+    videoId: 'https://youtu.be/UB1bSJB3n10?t=',
+    startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -745,8 +725,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zz5MV_qB36Q?t=',
-    startSeconds: 230,
+    videoId: 'https://youtu.be/cVjax8Fb3ag?t=',
+    startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -770,8 +750,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/npZF5gJHhZM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    startSeconds: 717,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -795,8 +775,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
-    startSeconds: 484,
+    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -820,8 +800,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IHAVC3ASxi4?t=',
-    startSeconds: 166,
+    videoId: 'https://youtu.be/-VRx0GRo-Ws?t=',
+    startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -845,8 +825,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d-WXnEXXQYw?t=',
-    startSeconds: 130,
+    videoId: 'https://youtu.be/_45zjnjrFOA?t=',
+    startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -147,7 +147,7 @@ class EnglishEntrybowler extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکیتدا"),
+                                  "١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکێتدا"),
                           Row(
                             children: [
                               const Expanded(

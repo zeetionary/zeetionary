@@ -168,7 +168,7 @@ class EnglishEntryanonymous extends StatelessWidget {
                                             "The money was donated by a local businessman who wishes to remain anonymous."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
+                                            "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە گومناو بمێنێتەوە."),
                                   ],
                                 ),
                               ),

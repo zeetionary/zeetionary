@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrocus extends StatefulWidget {
-  const EnglishEntrycrocus({super.key});
+class EnglishEntrycrook extends StatefulWidget {
+  const EnglishEntrycrook({super.key});
 
   @override
-  State<EnglishEntrycrocus> createState() => _EnglishEntrycrocusState();
+  State<EnglishEntrycrook> createState() => _EnglishEntrycrookState();
 }
 
-class _EnglishEntrycrocusState extends State<EnglishEntrycrocus> {
+class _EnglishEntrycrookState extends State<EnglishEntrycrook> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crocus");
+    return const EntryTitle(word: "crook");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crocus");
+    return const AlsoEnglish(word: "also: crook");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkrəʊkəs/");
+    return const IPAofEnglish(text: "IpaUK: /krʊk/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrocus(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrook(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crocus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crook"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrocus("en-GB"),
+      onPressed: () => speakcrook("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkrəʊkəs/");
+    return const IPAofEnglish(text: "IpaUS: /krʊk/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrocus(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrook(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crocus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crook"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrocus("en-US"),
+      onPressed: () => speakcrook("en-US"),
     );
   }
 }
@@ -216,109 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrocuss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The garden was dotted with purple and yellow crocuses."); // DOPSUM: CHANGE TEXT
+        "// speakcrooks111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrocuss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrocus
+  Future<void> speakcrooks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrook
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrocuss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrooks1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,11 +330,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی:  زەردی باخی، گوڵەزافەران
+کوردی: 
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) گوڵێکی زەرد، مۆر، یان سپی کە لە سەرەتای بەهاردا دەرەکەوێت"),
+          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
           Row(
             children: [
               const Expanded(
@@ -342,20 +340,19 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The garden was dotted with purple and yellow crocuses."),
-                    ExampleSentenceKurdish(
-                        text: "باخچەکە پڕ بوو لە گوڵەزافەرانی مۆر و زەرد."),
+                            "// speakcrooks111111111111111111111111111111111"),
+                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crocus", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crook", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrocuss1("en-GB"),
+                    onPressed: () => speakcrooks1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrocuss1("en-US"),
+                    onPressed: () => speakcrooks1("en-US"),
                   ),
                 ],
               ),
@@ -409,8 +406,22 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crocus (Derived forms: croci, crocuses)
-1. Any of numerous low-growing plants of the genus Crocus having slender grasslike leaves and white, yellow or purple flowers; native chiefly to the Mediterranean region but widely cultivated
+- Noun: crook (Derived forms: crooks)
+1. [informal] Someone who has committed a crime or has been legally convicted of a crime (= criminal, felon, outlaw, malefactor [formal], crim [Brit, informal])
+ 
+2. A long staff with one end being hook shaped (= shepherd's crook)
+ 
+3. A circular segment of a curve (= bend, twist, turn)
+"a crook in the path";
+
+- Verb: crook (Derived forms: crooking, crooks, crooked)
+1. Bend or cause to bend (= curve)
+"He crooked his index finger";
+
+- Adjective: crook 
+Usage: Austral, NZ, informal
+1. Somewhat ill, feeling or being in bad health (= ailing, indisposed, peaked, poorly, sickly, unwell, under the weather [informal], seedy [archaic], off-colour [Brit, informal], out of sorts [informal], grotty [Brit, informal])
+"my poor crook grandmother";
 """,
   );
 
@@ -443,8 +454,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5c_YoU0Kdvk?t=',
-    startSeconds: 185,
+    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    startSeconds: 2105,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +479,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQaOSggFKQI?t=',
-    startSeconds: 54,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +504,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fP2WUnBjmkk?t=',
-    startSeconds: 30,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +529,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K0OtGIPRcAs?t=',
-    startSeconds: 1453,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +554,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SXCcdoOZJ0Q?t=',
-    startSeconds: 398,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +579,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WfYjmrH9gSw?t=',
-    startSeconds: 46,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +604,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dye-o6EhN2U?t=',
-    startSeconds: 553,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -618,6 +629,7 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
+// speakcrooks111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

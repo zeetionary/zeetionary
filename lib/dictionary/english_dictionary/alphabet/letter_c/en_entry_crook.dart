@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "// speakcrooks111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That salesman is a real crook."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These politicians are just a bunch of crooks."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She sat back in the armchair and settled the baby in the crook of her arm."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The shepherd used his crook to guide the sheep."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She winked and crooked a finger at him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks6(String languageCode) async {
@@ -262,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I’m feeling a bit crook."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks7(String languageCode) async {
@@ -270,7 +274,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It can be hard to stay positive when times are crook."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks8(String languageCode) async {
@@ -278,7 +283,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrooks800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Everybody thinks horse racing is crook anyway."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrooks9(String languageCode) async {
@@ -330,18 +336,18 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گۆچان، داردەست،	پێچ، لاری، دانووشتاوی، قەد، خواری، کەچایی، کەچی، خواروخێچی، چەماوی،	قولاپ،	دز، چەتە،	نەخۆش،	تاوان‌کار، گوناەکار،	دەسبڕ
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(text: "١. (ناو) کەسێکی فێڵباز"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "// speakcrooks111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                        text: "That salesman is a real crook."),
+                    ExampleSentenceKurdish(
+                        text: "فرۆشیارەکە تەڵەکەبازێکی تەواوە."),
                   ],
                 ),
               ),
@@ -353,6 +359,204 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcrooks1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "These politicians are just a bunch of crooks."),
+                    ExampleSentenceKurdish(
+                        text: "ئەم سیاسییانە تەنها چەند کەسێکی تەڵەکەبازن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) بەشی ناوەوەی ئانیشک (ئەو جومگەیەی کە بازوو و باسک پێکەوە دەبەستێتەوە)"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She sat back in the armchair and settled the baby in the crook of her arm."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەسەر کورسییەکە دانیشت و منداڵەکەی لە بەشی ناوەوەی ئانیشکی دانا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) گۆچانێکی کە شوانەکان بۆ گرتنی مەڕ و ماڵاتەکەیان بەکاریدێنن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The shepherd used his crook to guide the sheep."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شوانەکە گۆچانەکەی بەکارهێنا بۆ ڕێبەری کردنی مەڕەکانی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (کردار) چەماندنەوەی پەنجە یان باڵ"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She winked and crooked a finger at him."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "چاوی لێ داگرت و بە پەنجەی گازی لێکرد (بانگی کرد)."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (ھاوەڵناو) نەخۆش"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I’m feeling a bit crook."),
+                    ExampleSentenceKurdish(text: "هەست بە کەمێک نەخۆشی دەکەم."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (ھاوەڵناو) خراپ یان ناخۆش"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "It can be hard to stay positive when times are crook."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەکرێت سەخت بێت بە ئەرێنییانە بمێنیتەوە لە ساتە ناخۆشەکان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٧. (ھاوەڵناو) فێڵباز؛ نایاسایی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Everybody thinks horse racing is crook anyway."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەرچۆنێک بێت هەمووان وابیردەکەنەوە پێشبڕکێی ئەسپسواری خراپە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrooks8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrooks8("en-US"),
                   ),
                 ],
               ),
@@ -479,8 +683,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/oHSehKtDyoI?t=',
+    startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,8 +708,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/L878W_WrTx8?t=',
+    startSeconds: 587,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -529,8 +733,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/czzktlf07qw?t=',
+    startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -554,8 +758,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/UYAnkdhe9KE?t=',
+    startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -579,8 +783,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/JPg-L5kJuOc?t=',
+    startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -604,8 +808,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/lMpGRNv0Mm4?t=',
+    startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -629,7 +833,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcrooks111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

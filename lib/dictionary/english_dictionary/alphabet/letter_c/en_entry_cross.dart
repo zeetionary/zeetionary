@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcrosss111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "As soon as traffic slowed down enough to safely cross, I started walking."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I waved and she crossed over."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He crossed over from the other side of the road."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She crossed to the other side of the room."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The bridge crosses the River Dee."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss6(String languageCode) async {
@@ -262,7 +266,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was caught trying to cross the border illegally."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss7(String languageCode) async {
@@ -270,7 +275,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "More than 150 000 people crossed the bridge that day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss8(String languageCode) async {
@@ -278,7 +284,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They crossed the finishing line together."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss9(String languageCode) async {
@@ -286,7 +293,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He crossed over the road and joined me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss10(String languageCode) async {
@@ -294,7 +302,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Let's cross over now while the road is clear."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss11(String languageCode) async {
@@ -302,7 +311,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They crossed from the States into Canada."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss12(String languageCode) async {
@@ -310,7 +320,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The roads cross just outside the town."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrosss13(String languageCode) async {
@@ -318,7 +329,640 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrosss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The straps cross over at the back and are tied at the waist."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss14(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She sat with her legs crossed."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss15(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She's really nice until you cross her."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss16(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He had been crossed in love."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss17(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A mule is the product of a horse crossed with a donkey."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss18(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He behaved like an army officer crossed with a professor."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss19(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Sissoko crossed from the left."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss20(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She always crosses her t’s and dots her i’s to ensure accuracy."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss21(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I've put a cross on the map to show where the hotel is."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss22(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Put a tick if the answer is correct and a cross if it's wrong."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss23(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In ancient times, people were punished by being hung on crosses and left to die."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss24(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She wears a gold cross around her neck."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss25(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Christ died on the Cross."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss26(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was awarded the Victoria Cross for bravery."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss27(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A mule is a cross between a horse and a donkey."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss28(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Webster's low cross was fired into the net by Varney."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss29(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I was cross with him for being late."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss30(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Please don't get cross. Let me explain."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss31(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss32(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss33(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss34(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss35(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss36(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss37(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss38(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss39(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss3900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss40(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss41(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss42(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss43(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss44(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss45(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss46(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss47(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss48(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss49(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss4900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss50(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss51(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss52(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss53(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss54(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss55(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss56(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss57(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss58(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss59(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss5900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss60(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss61(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss62(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss63(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss64(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss65(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss66(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss67(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss68(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss69(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss6900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss70(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss71(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss72(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss73(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss74(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss75(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss76(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss77(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss78(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss79(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss7900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss80(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss81(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss82(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss83(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss84(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss85(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss86(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss87(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss88(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss89(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss8900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrosss90(String languageCode) async {
+    // DOPSUM: CHANGE speakcross
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrosss9000"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,9 +974,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تووڕە، ڕق‌هەستاو،	پێچەوانە (با)،	ئاسۆیی، پۆیی،	یەکتربڕ، چەپ‌وڕاست، هاوبڕ، خاچ، چەلیپا،	مەینەتی، ڕەنج، کوێرەوەری، دەرد، بەڵا، کوڵۆڵی،	نیشانەی خاچ،	دروشمی خاچ (نیشانەی ئازایەتی)،	نیشانەی چەپ‌وڕاست، یەکتربڕ یان لەگەڵ (×، +)،	گیانەوەری دوڕڕە یان دووڕەگە،	گیا یان ڕووەکی متوربەکراو، ڕووەکی پەیوەست‌کراو،	تێکەڵە،	(میکانیک) چوارڕێ، چوارڕێ‌یانە،	هێڵی ئاسۆیی 
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(
+              text: "١. (کردار) ڕۆشتن لە لایەکی دیکەوە بۆ لایەکەی دیکە"),
           Row(
             children: [
               const Expanded(
@@ -340,8 +985,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "// speakcrosss111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                            "As soon as traffic slowed down enough to safely cross, I started walking."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کە هاتووچۆ هێندە هێواش بوویەوە کە بە سەلامەتی بپەڕینەوە، دەستم بە ڕێکردن کرد."),
                   ],
                 ),
               ),
@@ -353,6 +1000,822 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcrosss1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I waved and she crossed over (= crossed the road towards me)."),
+                    ExampleSentenceKurdish(text: "دەستم ڕاوەشاند و پەڕییەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "He crossed over from the other side of the road."),
+                            ExampleSentenceKurdish(
+                                text: "لە ئەوپەڕی شەقامەکەوە پەڕییەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "She crossed to the other side of the room."),
+                            ExampleSentenceKurdish(
+                                text: "چوو بۆ ئەوپەڕی ژوورەکە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text: "The bridge crosses the River Dee."),
+                            ExampleSentenceKurdish(
+                                text: "پردەکە بەسەر ڕووباری دیدا دەپەڕێتەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "He was caught trying to cross the border illegally."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "کە دەیویست لە سنوورەکە بە نایاسایی بپەڕێتەوە گیردرا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss6("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "More than 150 000 people crossed the bridge that day."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "زیاتر لە ١٥٠٠٠٠ لەو ڕۆژەدا لە پردەکە پەڕینەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss7("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss7("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "They crossed the finishing line together (= in a race)."),
+                            ExampleSentenceKurdish(
+                                text: "پێکەوە بە هێڵی کۆتاییدا پەڕینەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss8("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss8("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "He crossed over the road and joined me."),
+                            ExampleSentenceKurdish(
+                                text: "بە شەقامەکەدا پەڕییەوە و هاتە لام."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss9("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss9("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Let's cross over now while the road is clear."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "با ئێستادا بپەڕینەوە کە شەقامەکە بەتاڵە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss10("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss10("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "They crossed from the States into Canada."),
+                            ExampleSentenceKurdish(
+                                text: "لە ئەمریکاوە پەڕینەوە بۆ کەنەدا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcrosss11("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcrosss11("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (کردار) یەکتر بڕین؛ تێپەڕین بە یەکدیدا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The roads cross just outside the town."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێگاکان بە دەرەوەی شارۆچکەکەدا تێپەڕ دەبن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The straps cross over at the back and are tied at the waist."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پشتێنەکان بە پشتدا تێپەڕدەبن و ؛ە کەمەردا دەبەسترێن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (کردار) دانانی شتێک لەسەر شتێک یان بەشێوەیەک کە پێیدا تێپەڕێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She sat with her legs crossed."),
+                    ExampleSentenceKurdish(text: "دانیشت بە قاچ لەسەر قاچ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss14("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (کردار) وەستانەوە دژ بە کەسێک یان قسەکردن دژ بە پلان یان ویستەکانی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She's really nice until you cross her."),
+                    ExampleSentenceKurdish(
+                        text: "کەسێکی باشە تا ئەو کاتەی کە دژی دەبیت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss15("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss15("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He had been crossed in love (= the person he loved was not faithful to him)."),
+                    ExampleSentenceKurdish(
+                        text: "لە خۆشەویستیدا خیانەتی لێکرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss16("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss16("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٥. (کردار) جووتکردنی دوو جۆری جیاوازی ئاژەڵ"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "A mule is the product of a horse crossed with a donkey."),
+                    ExampleSentenceKurdish(
+                        text: "هێستر بەرهەمی جووتکردنی ئەسپە لەگەڵ گوێدرێژدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss17("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss17("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerSentences(),
+          // Row(
+          // children: [
+          // const Expanded(
+          // child: Column(
+          // children: [
+          // ExampleSentenceEnglish(
+          // text:
+          // "He behaved like an army officer crossed with a professor."),
+          // ExampleSentenceKurdish(
+          // text: "بەکارهێنانی خوازراوی وەها ڕەفتاری دەکرد وەک ئەوەی."),
+          // ],
+          // ),
+          // ),
+          // const CustomSizedBoxForTTS(),
+          // Column(
+          // children: [
+          // CustomIconButtonBritish(
+          // onPressed: () => speakcrosss18("en-GB"),
+          // ),
+          // CustomIconButtonAmerican(
+          // onPressed: () => speakcrosss18("en-US"),
+          // ),
+          // ],
+          // ),
+          // ],
+          // ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (کردار) لێدان لە تۆپێک و هەڵدانی بە یاریگایەکدا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Sissoko crossed from the left."),
+                    ExampleSentenceKurdish(
+                        text: "سیسۆکە تۆپەکەی لەلای چەپەوە هەڵدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٧. (کردار) کێشانی هێلێک بە شتێکدا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She always crosses her t’s and dots her i’s to ensure accuracy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەمیشە خەت دێنێت بە t ـیەکانیدا و خاڵ لەسەر i ـیەکانی دادەنێت بۆ دڵنیایی لە درووستی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٨. (ناو) هێمایەک کە لە دوو هێڵ پێکدێت کە یەکتری دەبڕن. بۆ نموونە + یان x"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I've put a cross on the map to show where the hotel is."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئێکسێکم لەسەر نەخشەکە داناوە بۆ پیشاندانی ئەوەی هوتێلەکە لەکوێیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Put a tick if the answer is correct and a cross if it's wrong."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نیشانەیەکی ڕستی لێبدە ئەگەر وەڵامەکە ڕاستە و ئێکسێک ئەگەر هەڵەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss22("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٩. (ناو) پارچە تەختەیەک کە بۆ لەخاچدان بەکاردێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "In ancient times, people were punished by being hung on crosses and left to die."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە سەردەمانی کۆندا، خەڵکی لەسەر سزا دەدران بە جێهێشتنیان لەسەر خاچ و جێهێشتنیان تا بمرن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss23("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss23("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٠. (ناو) ئەو خاچەی پەیامبەر عیسا لەسەری لەخاچ درا و وەک سمبولێکی ئایینی مەسیحییەت بەکاردێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Christ died on the Cross."),
+                    ExampleSentenceKurdish(
+                        text: "پێغەمبەر عیسا لەسەر خاچ مرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss25("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss25("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٢. (ناو) شتێک، دیزاینێک، خشڵێک، هتد کە لە شێوەی ئێکسێکدایە و وەک سمبولێکی ئایینی مەسحییەت بەکاردێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She wears a gold cross around her neck."),
+                    ExampleSentenceKurdish(
+                        text: "خاچێکی ئاڵتوونی لە ملی دەبەستێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss24("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss24("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٣. (ناو) نەخشاندنێکی بچووک کە لە شێوەی ئێکسدایە و وەک شانازی بەکاردێت بۆ کردنی شتێکی ئازایانە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He was awarded the Victoria Cross for bravery."),
+                    ExampleSentenceKurdish(
+                        text: "شانازیی ڤیکتۆریای پێدرا بۆ ئازایەتی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss26("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss26("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "١٤. (ناو) تێکەڵەیەکی دوو شت، جۆری ئاژەڵ، هتد ــی جیاواز"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "A mule is a cross between a horse and a donkey."),
+                    ExampleSentenceKurdish(
+                        text: "هێستر دووڕەگەی ئەسپ و گوێدرێژە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss27("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss27("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٥. (ناو) هەڵدان تۆپ بە یاریگادا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Webster's low cross was fired into the net by Varney."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەڵدانە نزمەکەی وێبستەر لەلایەن ڤارنییەوە خرایە تۆڕەکەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss28("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss28("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٦. (ھاوەڵناو) پێنناسە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I was cross with him for being late."),
+                    ExampleSentenceKurdish(
+                        text: "تووڕە بووم لێی کە درەنگ کەوت بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss29("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss29("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Please don't get cross. Let me explain."),
+                    ExampleSentenceKurdish(
+                        text: "تکایە تووڕە مەبە، با ڕوونکردنەوە بدەم."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrosss30("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrosss30("en-US"),
                   ),
                 ],
               ),
@@ -563,8 +2026,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/_mu1kQqkl1E?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -588,8 +2051,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Stl6OZo7wzg?t=',
+    startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -613,8 +2076,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/nYzTbmDpLNg?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -638,8 +2101,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    startSeconds: 491,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -663,7 +2126,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcrosss111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

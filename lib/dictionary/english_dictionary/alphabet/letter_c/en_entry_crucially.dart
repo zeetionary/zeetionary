@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycremate extends StatefulWidget {
-  const EnglishEntrycremate({super.key});
+class EnglishEntrycrucially extends StatefulWidget {
+  const EnglishEntrycrucially({super.key});
 
   @override
-  State<EnglishEntrycremate> createState() => _EnglishEntrycremateState();
+  State<EnglishEntrycrucially> createState() => _EnglishEntrycruciallyState();
 }
 
-class _EnglishEntrycremateState extends State<EnglishEntrycremate> {
+class _EnglishEntrycruciallyState extends State<EnglishEntrycrucially> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cremate");
+    return const EntryTitle(word: "crucially");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cremate");
+    return const AlsoEnglish(word: "also: crucially");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /krəˈmeɪt/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkruːʃəli/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremate(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrucially(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crucially"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcremate("en-GB"),
+      onPressed: () => speakcrucially("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkriːmeɪt/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkruːʃəli/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremate(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrucially(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crucially"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcremate("en-US"),
+      onPressed: () => speakcrucially("en-US"),
     );
   }
 }
@@ -216,109 +216,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremates1(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When she dies she wants to be cremated, not buried."); // DOPSUM: CHANGE TEXT
+        "The plants need light and, crucially, a flow of cool air."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates2(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Their work is crucially important."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates3(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates4(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates5(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates6(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates7(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcruciallys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrucially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcruciallys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,10 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی: سووتاندن
-// """),
-          const DefinitionKurdish(text: "١. (ناو) سووتاندنی جەستەیەک"),
+          const KurdishVocabulary(text: """
+کوردی: لەهەموو گرنگ‌تر، هەرەگرنگانە، بەشێوەیەکی هەرەگرنگ
+"""),
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵکار) بەشێوەیەک کە تەواو گرنگە"),
           Row(
             children: [
               const Expanded(
@@ -340,20 +342,47 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "When she dies she wants to be cremated, not buried."),
+                            "The plants need light and, crucially, a flow of cool air."),
                     ExampleSentenceKurdish(
-                        text: "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت."),
+                        text:
+                            "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش هەواگۆڕکێی هەوای فێنک هەیە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cremate", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crucially", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcremates1("en-GB"),
+                    onPressed: () => speakcruciallys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcremates1("en-US"),
+                    onPressed: () => speakcruciallys1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Their work is crucially important."),
+                    ExampleSentenceKurdish(
+                        text: "کارەکەیان چارەنووسسازانە گرنگە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcruciallys2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcruciallys2("en-US"),
                   ),
                 ],
               ),
@@ -407,9 +436,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cremate 
-1. Reduce to ashes (= derived forms: cremates, cremated, cremating)
-"Cremate a corpse"
+- Adverb: crucially 
+1. To a crucial degree
+"crucially important"; "crucially, he must meet us at the airport"
 """,
   );
 
@@ -442,8 +471,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/knjliFs3gR8',
-    startSeconds: 918,
+    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    startSeconds: 1546,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +496,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o2dvXWX3Sdw',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/SDpCzJw2xm4?t=',
+    startSeconds: 434,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +521,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HZq_HjKCRB4',
-    startSeconds: 29,
+    videoId: 'https://youtu.be/87y1_IbJRZE?t=',
+    startSeconds: 1079,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,8 +546,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cJiq-6abMEs',
-    startSeconds: 196,
+    videoId: 'https://youtu.be/wQSxY7TR6mI?t=',
+    startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -542,8 +571,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R58ehd-Ad4Y',
-    startSeconds: 862,
+    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
+    startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -567,8 +596,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IvJhA8jjcSM',
-    startSeconds: 276,
+    videoId: 'https://youtu.be/DG8rPBlbOrY?t=',
+    startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -592,8 +621,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MoWue2YAvJE',
-    startSeconds: 263,
+    videoId: 'https://youtu.be/MDwPXRy9IFc?t=',
+    startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

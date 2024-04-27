@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycremate extends StatefulWidget {
-  const EnglishEntrycremate({super.key});
+class EnglishEntrycrowbar extends StatefulWidget {
+  const EnglishEntrycrowbar({super.key});
 
   @override
-  State<EnglishEntrycremate> createState() => _EnglishEntrycremateState();
+  State<EnglishEntrycrowbar> createState() => _EnglishEntrycrowbarState();
 }
 
-class _EnglishEntrycremateState extends State<EnglishEntrycremate> {
+class _EnglishEntrycrowbarState extends State<EnglishEntrycrowbar> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cremate");
+    return const EntryTitle(word: "crowbar");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cremate");
+    return const AlsoEnglish(word: "also: crowbar");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /krəˈmeɪt/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkrəʊbɑː(r)/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremate(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbar(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crowbar"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcremate("en-GB"),
+      onPressed: () => speakcrowbar("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkriːmeɪt/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkrəʊbɑːr/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremate(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbar(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cremate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("crowbar"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcremate("en-US"),
+      onPressed: () => speakcrowbar("en-US"),
     );
   }
 }
@@ -216,109 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcremates1(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars1(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When she dies she wants to be cremated, not buried."); // DOPSUM: CHANGE TEXT
+        "The thieves forced one of the windows open with a crowbar."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates2(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars2(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates3(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars3(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates4(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars4(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates5(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars5(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates6(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars6(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates7(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars7(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars8(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars9(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars10(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars11(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars12(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcremates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcremate
+  Future<void> speakcrowbars13(String languageCode) async {
+    // DOPSUM: CHANGE speakcrowbar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcremates1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcrowbars1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,10 +329,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی: سووتاندن
-// """),
-          const DefinitionKurdish(text: "١. (ناو) سووتاندنی جەستەیەک"),
+          const KurdishVocabulary(text: """
+کوردی: لۆسە، شێروکۆڵ، باری، مەڵغە، نوێڵ، نێڵ، سمک
+"""),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) پارچە شیشێکی ئاسنینی ڕاست کە سەرەکەی چەماوەتەوە و بەکاردێت بۆ کردنەوەی سندووق و ڕاکێشانی شتی گەورە"),
           Row(
             children: [
               const Expanded(
@@ -340,20 +342,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "When she dies she wants to be cremated, not buried."),
+                            "The thieves forced one of the windows open with a crowbar."),
                     ExampleSentenceKurdish(
-                        text: "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت."),
+                        text:
+                            "دزەکان بە نوێڵێک یەکێک لە پەنجەرەکانیان کردەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cremate", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "crowbar", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcremates1("en-GB"),
+                    onPressed: () => speakcrowbars1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcremates1("en-US"),
+                    onPressed: () => speakcrowbars1("en-US"),
                   ),
                 ],
               ),
@@ -407,9 +410,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cremate 
-1. Reduce to ashes (= derived forms: cremates, cremated, cremating)
-"Cremate a corpse"
+- Noun: crowbar (Derived forms: crowbars)
+1. A heavy iron lever with one end forged into a wedge (= wrecking bar, pry, pry bar)
+
+- Verb: crowbar (Derived forms: crowbarred, crowbarring, crowbars)
+1. Use force (esp. a crowbar) to move or open something
 """,
   );
 
@@ -442,8 +447,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/knjliFs3gR8',
-    startSeconds: 918,
+    videoId: 'https://youtu.be/XLL2XwhmAgw?t=',
+    startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -467,8 +472,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o2dvXWX3Sdw',
-    startSeconds: 161,
+    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
+    startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -492,8 +497,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HZq_HjKCRB4',
-    startSeconds: 29,
+    videoId: 'https://youtu.be/y9nBhv0lq1s?t=',
+    startSeconds: 1849,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -517,8 +522,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cJiq-6abMEs',
-    startSeconds: 196,
+    videoId: 'https://youtu.be/u1FGxb2YlnY?t=',
+    startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -542,8 +547,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R58ehd-Ad4Y',
-    startSeconds: 862,
+    videoId: 'https://youtu.be/yRFPjBuRRCg?t=',
+    startSeconds: 1273,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -567,8 +572,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IvJhA8jjcSM',
-    startSeconds: 276,
+    videoId: 'https://youtu.be/E0WT1HtB-Sc?t=',
+    startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -592,8 +597,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MoWue2YAvJE',
-    startSeconds: 263,
+    videoId: 'https://youtu.be/EyN6X9LHXRY?t=',
+    startSeconds: 1050,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

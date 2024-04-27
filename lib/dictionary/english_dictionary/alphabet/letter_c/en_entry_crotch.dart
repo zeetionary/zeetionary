@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcrotchs111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The pants were too tight in the crotch."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrotchs2(String languageCode) async {
@@ -330,18 +330,20 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خشتەک، نێوگەڵ، ناولنگ،	جێی لێ‌بوونەوە،	دوحاچە، دوپەلان، دوفاقە، دووفلیقانە، دووڕیانە، دوولکە،	(توێکاری) چەڵەمەیی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) جومگەی لاق لە بەشی سەرەوە لە نزیک ناوگەڵ؛ ئەو بەشەی پانتۆڵ کە دەکەوێتە کە جومگەی لاق لە نزیک ناوگەڵ دادەپۆشێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "// speakcrotchs111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                        text: "The pants were too tight in the crotch."),
+                    ExampleSentenceKurdish(
+                        text: "پانتۆڵەکە لە ناوگەڵەوە زۆر تەسک بوو."),
                   ],
                 ),
               ),

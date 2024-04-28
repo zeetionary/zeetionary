@@ -4035,11 +4035,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crucifixion.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crucify.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crude.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crudely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cruel.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cruelly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cruelty.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cruet.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8858,11 +8858,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-crucifixion": (_) => const MaterialPage(child: EnglishEntrycrucifixion()),
   "/english-crucify": (_) => const MaterialPage(child: EnglishEntrycrucify()),
   "/english-crude": (_) => const MaterialPage(child: EnglishEntrycrude()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-crudely": (_) => const MaterialPage(child: EnglishEntrycrudely()),
+  "/english-cruel": (_) => const MaterialPage(child: EnglishEntrycruel()),
+  "/english-cruelly": (_) => const MaterialPage(child: EnglishEntrycruelly()),
+  "/english-cruelty": (_) => const MaterialPage(child: EnglishEntrycruelty()),
+  "/english-cruet": (_) => const MaterialPage(child: EnglishEntrycruet()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

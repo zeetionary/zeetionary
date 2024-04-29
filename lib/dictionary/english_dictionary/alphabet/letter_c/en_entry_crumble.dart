@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcrumbles111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "Rice flour makes the cake less likely to crumble."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrumbles2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrumbles200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Crumble the cheese over the salad."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrumbles3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrumbles300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The cliff is gradually crumbling away."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrumbles4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrumbles400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They live in a crumbling old mansion."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrumbles5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrumbles500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All his hopes began to crumble away."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrumbles6(String languageCode) async {
@@ -329,10 +333,11 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+//           const KurdishVocabulary(text: """
+// کوردی: ڕووخان، تێکڕووخان، تێکقرمان، داڕمان
+// """),
+          const DefinitionKurdish(
+              text: "١. (کردار) شکان، یان شکاندن بۆ چەند پارچەیەک"),
           Row(
             children: [
               const Expanded(
@@ -340,8 +345,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "// speakcrumbles111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                            "Rice flour makes the cake less likely to crumble."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئاردی برنج وا دەکات کێکەکە ئەگەری کەمتر بێت ورد بێت."),
                   ],
                 ),
               ),
@@ -353,6 +360,112 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcrumbles1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Crumble the cheese over the salad."),
+                    ExampleSentenceKurdish(
+                        text: "پەنیرەکە وردبکە سەر زەڵاتەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrumbles2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrumbles2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (کردار) داڕووخانی بەشێکی بینایەک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The cliff is gradually crumbling away."),
+                    ExampleSentenceKurdish(
+                        text: "قەدپاڵەکە کەم کەم دادەڕووخێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrumbles3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrumbles3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "They live in a crumbling old mansion."),
+                    ExampleSentenceKurdish(
+                        text: "لە کۆشکێکی کۆنی داڕووخاودا دەژین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrumbles4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrumbles4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (کردار) پێنناسە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "All his hopes began to crumble away."),
+                    ExampleSentenceKurdish(
+                        text: "هەموو هیواکانی دەستیان بە داڕووخان کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrumbles5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrumbles5("en-US"),
                   ),
                 ],
               ),
@@ -451,8 +564,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -476,8 +589,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    startSeconds: 905,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -501,8 +614,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/cCP9vjp4kSg?t=',
+    startSeconds: 1043,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +639,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/6ta_sftSfIw?t=',
+    startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,8 +664,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/6MoBvV12C58?t=',
+    startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -576,8 +689,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
+    startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -601,8 +714,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/4Rz8BPRFeiA?t=',
+    startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -626,7 +739,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcrumbles111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

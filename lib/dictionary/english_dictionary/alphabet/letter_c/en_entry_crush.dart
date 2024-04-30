@@ -248,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Add two cloves of crushed garlic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs5(String languageCode) async {
@@ -256,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Crush the biscuits finely before adding them to the mixture."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs6(String languageCode) async {
@@ -264,7 +266,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was crushed against the wall."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs7(String languageCode) async {
@@ -272,7 +275,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Over twenty prisoners were crushed into a small dark cell."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs8(String languageCode) async {
@@ -280,7 +284,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She crushed the scrap of paper in her hand."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs9(String languageCode) async {
@@ -288,7 +293,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The army was sent in to crush the rebellion."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs10(String languageCode) async {
@@ -296,7 +302,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Attempts to crush serious popular unrest led to civil war."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs11(String languageCode) async {
@@ -304,7 +311,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She felt completely crushed by the teacher's criticism."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs12(String languageCode) async {
@@ -312,7 +320,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I couldn't find a way through the crush."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrushs13(String languageCode) async {
@@ -320,7 +329,106 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrushs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "66 fans died in the crush on the steps of the stadium."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs14(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It's only a schoolgirl crush, it'll pass."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs15(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I had a huge crush on her."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs16(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He thought you were flirting with his crush."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs17(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs1700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs18(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs1800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs19(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs20(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs21(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs22(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs23(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs24(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrushs25(String languageCode) async {
+    // DOPSUM: CHANGE speakcrush
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrushs2500"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -390,8 +498,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           Row(
             children: [
               const Expanded(
@@ -399,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text: "He was crushed beneath a bus."),
-                    ExampleSentenceKurdish(text: "لەژێر پاسەکەدا فلیقا."),
+                    ExampleSentenceKurdish(text: "لەژێر پاسەکەدا جلیقایەوە."),
                   ],
                 ),
               ),
@@ -411,6 +517,371 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcrushs3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (کردار) شکاندن بۆ پارچەی بچووک یان کردن بە هاڕاوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Add two cloves of crushed garlic."),
+                    ExampleSentenceKurdish(
+                        text: "دوو سەلکی وردکراوی سیر زیاد بکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Crush the biscuits finely before adding them to the mixture."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بسکیتەکان بە باشی ورد بکە پێش ئەوەی زیادیان بکەیت بۆ تێکەڵەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (کردار) پاڵنان یان پەستاندنە ناو شوێنێکی بچووک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She was crushed against the wall."),
+                    ExampleSentenceKurdish(text: "پاڵنرایە دیوارەکەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Over twenty prisoners were crushed into a small dark cell."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زیاد لە بیست زیندانی پەستێنرانە ناو بەندێکی بچووکی تاریک."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (کردار) وابکەیت شتێک پڕ لە چرچ و لۆچی بێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She crushed the scrap of paper in her hand."),
+                    ExampleSentenceKurdish(
+                        text: "پارچە کاغەزەکەی لۆچ کرد لە دەستیدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٥. (کردار) بەکارهێنانی ڕێگای توندوتیژانە بۆ بەزاندنی کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The army was sent in to crush the rebellion."),
+                    ExampleSentenceKurdish(
+                        text: "سوپا نێردرا بۆ ئەوەی شۆڕشەکە سەرکوت بکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Attempts to crush serious popular unrest led to civil war."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەوڵەکان بۆ دامرکاندنەوەی پشێوەی ڕای گشتی گەشت بە شەڕی ناوخۆ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs10("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (کردار) لەناوبردنی متمانە و خۆشبەختی کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She felt completely crushed by the teacher's criticism."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تەواو هەستی بە تێکشکاوی کرد بەهۆی سەرزەنشتی مامۆستاکەی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs11("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٧. (ناو) ژمارەیەک خەڵکی کە پێکەوە لە شوێنێکی تەنگدا کۆکراونەتەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I couldn't find a way through the crush."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەمتوانی ڕێگایەک بەناو قەرەباڵغییەکەدا بدۆمەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "66 fans died in the crush on the steps of the stadium."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "٦٦ هاندەر مردن لە جەنجاڵیدا لەسەر پلەکانی یاریگاکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٨. (کردار) هەستێکی خۆشەویستی کە بۆ کەسێکت هەیە و زۆر ناخایەنێت؛ کەسێک کە ئەم جۆرە خۆشەویستییە هەیە بۆی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "It's only a schoolgirl crush, it'll pass."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تەنها  دڵدارییە بۆ کچە قوتابییەک، زوو تێدەپەڕێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs14("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I had a huge crush on her."),
+                    ExampleSentenceKurdish(
+                        text: "ئەویندارییەکی زۆرم بۆی هەبوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs15("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs15("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He thought you were flirting with his crush."),
+                    ExampleSentenceKurdish(
+                        text: "وای بیردەکردەوە لەگەڵ دڵدارەکەی ڕادەبوێریت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrushs16("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrushs16("en-US"),
                   ),
                 ],
               ),

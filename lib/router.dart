@@ -4054,9 +4054,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crust.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crusty.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crustacean.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crutch.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crux.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cry.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8878,9 +8878,10 @@ final loggedInRoute = RouteMap(routes: {
   "/english-crust": (_) => const MaterialPage(child: EnglishEntrycrust()),
   "/english-crusty": (_) => const MaterialPage(child: EnglishEntrycrusty()),
   "/english-crustacean": (_) => const MaterialPage(child: EnglishEntrycrustacean()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-crutch": (_) => const MaterialPage(child: EnglishEntrycrutch()),
+  "/english-crutch/crotch": (_) => const MaterialPage(child: EnglishEntrycrutch()),
+  "/english-crux": (_) => const MaterialPage(child: EnglishEntrycrux()),
+  "/english-cry": (_) => const MaterialPage(child: EnglishEntrycry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

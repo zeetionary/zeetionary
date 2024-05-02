@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycubicle extends StatefulWidget {
-  const EnglishEntrycubicle({super.key});
+class EnglishEntrycuddle extends StatefulWidget {
+  const EnglishEntrycuddle({super.key});
 
   @override
-  State<EnglishEntrycubicle> createState() => _EnglishEntrycubicleState();
+  State<EnglishEntrycuddle> createState() => _EnglishEntrycuddleState();
 }
 
-class _EnglishEntrycubicleState extends State<EnglishEntrycubicle> {
+class _EnglishEntrycuddleState extends State<EnglishEntrycuddle> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cubicle");
+    return const EntryTitle(word: "cuddle");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cubicle");
+    return const AlsoEnglish(word: "also: cuddle");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌdl/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddle(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuddle"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcubicle("en-GB"),
+      onPressed: () => speakcuddle("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkʌdl/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddle(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuddle"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcubicle("en-US"),
+      onPressed: () => speakcuddle("en-US"),
     );
   }
 }
@@ -216,110 +216,111 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicles1(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles1(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don’t even know my colleague in the next cubicle."); // DOPSUM: CHANGE TEXT
+        "A couple of teenagers were kissing and cuddling on the doorstep."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles2(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles2(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I was getting undressed in one of the cubicles."); // DOPSUM: CHANGE TEXT
+        "She cuddled the baby and eventually it stopped crying."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles3(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles3(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He gave her a big cuddle and told her not to worry."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles4(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles4(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Give Mummy a big cuddle."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles5(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles5(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles6(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles6(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles7(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles7(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles8(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles8(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles9(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles9(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles10(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles10(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles11(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles11(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles12(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles12(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles13(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuddles13(String languageCode) async {
+    // DOPSUM: CHANGE speakcuddle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuddles1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,12 +331,10 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) ناوچەیەکی بچووکی ژوورێک کە بە پەردەیەک یان دیوارێکی نزم جیاکراوەتەوە"),
+          const KurdishVocabulary(text: """
+کوردی: باوەش، ئامێز، حمێز
+"""),
+          const DefinitionKurdish(text: "١. (کردار) لەباوەش گرتن"),
           Row(
             children: [
               const Expanded(
@@ -343,20 +342,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I don’t even know my colleague in the next cubicle."),
+                            "A couple of teenagers were kissing and cuddling on the doorstep."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
+                        text:
+                            "ژمارەیەک گەنج لە بەردەرگاکە ماچ‌ماچێنیان بوو و یەکیان لە ئامێز دەگرت."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubicle", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cuddle", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcubicles1("en-GB"),
+                    onPressed: () => speakcuddles1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles1("en-US"),
+                    onPressed: () => speakcuddles1("en-US"),
                   ),
                 ],
               ),
@@ -370,9 +370,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I was getting undressed in one of the cubicles."),
+                            "She cuddled the baby and eventually it stopped crying."),
                     ExampleSentenceKurdish(
-                        text: "لە یەکێک لە ژوورۆچکەکان جلەکانمم گۆڕی."),
+                        text:
+                            "منداڵەکەی لە باوەش گرت و لەکۆتاییدا وەستا لە گریان."),
                   ],
                 ),
               ),
@@ -380,10 +381,63 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcubicles2("en-GB"),
+                    onPressed: () => speakcuddles2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles2("en-US"),
+                    onPressed: () => speakcuddles2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) لەباوەش‌گرتن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He gave her a big cuddle and told her not to worry."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "باوەشێکی گەورەی پێیدا کرد و پێی گوت نیگەران نەبێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuddles3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuddles3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Give Mummy a big cuddle."),
+                    ExampleSentenceKurdish(text: "باوەشێکی گەورە بدە دایە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuddles4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuddles4("en-US"),
                   ),
                 ],
               ),
@@ -437,12 +491,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cubicle (Derived forms: cubicles)
-1. Small room in which a monk or nun lives (= cell)
+- Verb: cuddle (Derived forms: cuddled, cuddling, cuddles)
+1. Hold (a person or thing) close, as for affection, comfort, or warmth
+"I cuddled the baby"
  
-2. Small individual study area in a library (= carrel, carrell, stall)
- 
-3. Small area set off by walls for special use (= booth, stall, kiosk)
+2. Move or arrange oneself in a comfortable and cosy position (= snuggle, nestle, nest, nuzzle, draw close, cosy [Brit, Cdn], cozy [N. Amer], cozy up [N. Amer], cosy up [Brit, Cdn])
+"We cuddled against each other to keep warm";
+
+- Noun: cuddle (Derived forms: cuddles)
+1. A close and affectionate (and often prolonged) embrace (= nestle, snuggle)
 """,
   );
 
@@ -475,8 +532,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LwZIxGAG8xA?t=',
-    startSeconds: 512,
+    videoId: 'https://youtu.be/fU1L780mPiM?t=',
+    startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +557,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GdkGRel48Q?t=',
-    startSeconds: 174,
+    videoId: 'https://youtu.be/3miuxAnawmM?t=',
+    startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +582,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTGn76YljUM?t=',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/qSmyimnMOBo?t=',
+    startSeconds: 674,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +607,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MNzq3F8y9Ho?t=',
-    startSeconds: 42,
+    videoId: 'https://youtu.be/_JZxFm4MXMI?t=',
+    startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +632,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFFopPPrGiE?t=',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/kWN-CiUaHtQ?t=',
+    startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +657,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0r3Ga2wZz90?t=',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/w5zV_GusqvQ?t=',
+    startSeconds: 492,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +682,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/73pVhWXaUlM?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/PW2duKZChA8?t=',
+    startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

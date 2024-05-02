@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycubicle extends StatefulWidget {
-  const EnglishEntrycubicle({super.key});
+class EnglishEntrycuckoo extends StatefulWidget {
+  const EnglishEntrycuckoo({super.key});
 
   @override
-  State<EnglishEntrycubicle> createState() => _EnglishEntrycubicleState();
+  State<EnglishEntrycuckoo> createState() => _EnglishEntrycuckooState();
 }
 
-class _EnglishEntrycubicleState extends State<EnglishEntrycubicle> {
+class _EnglishEntrycuckooState extends State<EnglishEntrycuckoo> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cubicle");
+    return const EntryTitle(word: "cuckoo");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cubicle");
+    return const AlsoEnglish(word: "also: cuckoo");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʊkuː/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoo(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuckoo"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcubicle("en-GB"),
+      onPressed: () => speakcuckoo("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkʊkuː/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoo(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuckoo"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcubicle("en-US"),
+      onPressed: () => speakcuckoo("en-US"),
     );
   }
 }
@@ -216,110 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicles1(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos1(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don’t even know my colleague in the next cubicle."); // DOPSUM: CHANGE TEXT
+        "The cuckoo is a migratory bird that travels long distances."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles2(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos2(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was getting undressed in one of the cubicles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles3(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos3(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles4(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos4(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles5(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos5(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles6(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos6(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles7(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos7(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles8(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos8(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles9(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos9(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles10(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos10(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles11(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos11(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles12(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos12(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles13(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuckoos13(String languageCode) async {
+    // DOPSUM: CHANGE speakcuckoo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuckoos1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,12 +329,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: کوکو، یاکەریم، کۆترەنەخشینە، کۆترەپەپوو، پەپوو
+"""),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ناوچەیەکی بچووکی ژوورێک کە بە پەردەیەک یان دیوارێکی نزم جیاکراوەتەوە"),
+                  "١. (ناو) باڵندەیەک کە دەنگێک دەردەکات کە وەک ناوەکەیەتی و هێلکەکانی لە هێلانەی باڵندەی دیکەدا جێدێڵێت"),
           Row(
             children: [
               const Expanded(
@@ -343,47 +342,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I don’t even know my colleague in the next cubicle."),
+                            "The cuckoo is a migratory bird that travels long distances."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubicle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubicles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
                         text:
-                            "I was getting undressed in one of the cubicles."),
-                    ExampleSentenceKurdish(
-                        text: "لە یەکێک لە ژوورۆچکەکان جلەکانمم گۆڕی."),
+                            "کوکوو باڵندەیەکی کۆچەرییە کە مەدای دوور گەشت دەکات."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "cuckoo", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcubicles2("en-GB"),
+                    onPressed: () => speakcuckoos1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles2("en-US"),
+                    onPressed: () => speakcuckoos1("en-US"),
                   ),
                 ],
               ),
@@ -437,12 +410,17 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cubicle (Derived forms: cubicles)
-1. Small room in which a monk or nun lives (= cell)
+- Noun: cuckoo (Derived forms: cuckoos)
+1. Any of numerous European and North American birds having pointed wings and a long tail
  
-2. Small individual study area in a library (= carrel, carrell, stall)
- 
-3. Small area set off by walls for special use (= booth, stall, kiosk)
+2. Someone who is a stupid incompetent fool (= fathead [informal], goof [informal], goofball [N. Amer, informal], bozo [N. Amer, informal], jackass, goose [informal], zany)
+
+- Verb: cuckoo (Derived forms: cuckooing, cuckoos, cuckooed)
+1. Repeat monotonously, like a cuckoo repeats his call
+
+- Adjective: cuckoo 
+Usage: slang
+1. Informal or slang term meaning insane, strange, eccentric or stupid (= balmy [archaic, slang], barmy [slang], bats [slang], batty [slang], bonkers [slang], buggy [N. Amer, slang], cracked [slang], crackers [slang], daft [Brit, slang], dotty [slang], fruity [slang], haywire [slang], kooky [slang], kookie [slang], loco [slang], loony [slang], loopy [slang], nuts [slang], nutty [slang], round the bend [slang], around the bend [slang], wacky [slang], whacky [slang], doolally [Brit, slang], dippy [slang], daffy [slang], nutsy [N. Amer, slang], potty [Brit, slang], daft as a brush [Brit, slang], round the twist [Brit, slang], wacko [slang], dumbass [N. Amer, slang], bughouse [N. Amer, slang], mental [slang], barking mad [Brit, slang], barking [Brit, slang])
 """,
   );
 
@@ -475,8 +453,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LwZIxGAG8xA?t=',
-    startSeconds: 512,
+    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    startSeconds: 1769,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +478,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GdkGRel48Q?t=',
-    startSeconds: 174,
+    videoId: 'https://youtu.be/ExxXugEXvvw?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +503,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTGn76YljUM?t=',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/VAzxlFVbFio?t=',
+    startSeconds: 968,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +528,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MNzq3F8y9Ho?t=',
-    startSeconds: 42,
+    videoId: 'https://youtu.be/BfUoopDpmmY?t=',
+    startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +553,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFFopPPrGiE?t=',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/WIW10E1xAOI?t=',
+    startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +578,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0r3Ga2wZz90?t=',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/srEzEeB63fY?t=',
+    startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +603,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/73pVhWXaUlM?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/kjJ56kmewKM?t=',
+    startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

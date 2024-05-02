@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycubicle extends StatefulWidget {
-  const EnglishEntrycubicle({super.key});
+class EnglishEntrycud extends StatefulWidget {
+  const EnglishEntrycud({super.key});
 
   @override
-  State<EnglishEntrycubicle> createState() => _EnglishEntrycubicleState();
+  State<EnglishEntrycud> createState() => _EnglishEntrycudState();
 }
 
-class _EnglishEntrycubicleState extends State<EnglishEntrycubicle> {
+class _EnglishEntrycudState extends State<EnglishEntrycud> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cubicle");
+    return const EntryTitle(word: "cud");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cubicle");
+    return const AlsoEnglish(word: "also: cud");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUK: /kʌd/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcud(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cud"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcubicle("en-GB"),
+      onPressed: () => speakcud("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkjuːbɪkl/");
+    return const IPAofEnglish(text: "IpaUS: /kʌd/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicle(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcud(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cubicle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cud"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcubicle("en-US"),
+      onPressed: () => speakcud("en-US"),
     );
   }
 }
@@ -216,110 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcubicles1(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds1(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I don’t even know my colleague in the next cubicle."); // DOPSUM: CHANGE TEXT
+        "The farmer watched the cows chewing their cud in the barn."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles2(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds2(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I was getting undressed in one of the cubicles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles3(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds3(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles4(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds4(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles5(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds5(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles6(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds6(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles7(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds7(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles8(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds8(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles9(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds9(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles10(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds10(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles11(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds11(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles12(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds12(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcubicles13(String languageCode) async {
-    // DOPSUM: CHANGE speakcubicle
+  Future<void> speakcuds13(String languageCode) async {
+    // DOPSUM: CHANGE speakcud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcubicles1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuds1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -335,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ناوچەیەکی بچووکی ژوورێک کە بە پەردەیەک یان دیوارێکی نزم جیاکراوەتەوە"),
+                  "١. (ناو) ئەو خواردنەی کە مانگا و ئاژەڵی دیکە لە گەدەیانەوە دەیهێننەوە بۆ ئەوەی دووبارە بیجاون"),
           Row(
             children: [
               const Expanded(
@@ -343,47 +342,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I don’t even know my colleague in the next cubicle."),
+                            "The farmer watched the cows chewing their cud in the barn."),
                     ExampleSentenceKurdish(
-                        text: "تەنانەت هاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "cubicle", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcubicles1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
                         text:
-                            "I was getting undressed in one of the cubicles."),
-                    ExampleSentenceKurdish(
-                        text: "لە یەکێک لە ژوورۆچکەکان جلەکانمم گۆڕی."),
+                            "ئاژەڵدارەکە سەیری مانگاکانی دەکرد کە کاوێژیان دەکرد لە ئاخوڕەکەدا."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "cud", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcubicles2("en-GB"),
+                    onPressed: () => speakcuds1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcubicles2("en-US"),
+                    onPressed: () => speakcuds1("en-US"),
                   ),
                 ],
               ),
@@ -437,12 +410,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cubicle (Derived forms: cubicles)
-1. Small room in which a monk or nun lives (= cell)
+- Noun: cud (Derived forms: cuds)
+1. Food of a ruminant regurgitated to be chewed again (= rechewed food)
  
-2. Small individual study area in a library (= carrel, carrell, stall)
- 
-3. Small area set off by walls for special use (= booth, stall, kiosk)
+2. A wad of something chewable as tobacco (= chew, chaw, quid, plug, wad)
 """,
   );
 
@@ -475,8 +446,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LwZIxGAG8xA?t=',
-    startSeconds: 512,
+    videoId: 'https://youtu.be/gNqQL-1gZF8?t=',
+    startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -500,8 +471,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GdkGRel48Q?t=',
-    startSeconds: 174,
+    videoId: 'https://youtu.be/Sew4rctKghY?t=',
+    startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -525,8 +496,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rTGn76YljUM?t=',
-    startSeconds: 108,
+    videoId: 'https://youtu.be/U8Cq8c-Ohps?t=',
+    startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,8 +521,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MNzq3F8y9Ho?t=',
-    startSeconds: 42,
+    videoId: 'https://youtu.be/IxP4_1B-4-g?t=',
+    startSeconds: 794,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -575,8 +546,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFFopPPrGiE?t=',
-    startSeconds: 191,
+    videoId: 'https://youtu.be/_x9Y77Ta83I?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -600,8 +571,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0r3Ga2wZz90?t=',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/W8sML6_sawo?t=',
+    startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -625,8 +596,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/73pVhWXaUlM?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/UWTzVuXQ6-k?t=',
+    startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

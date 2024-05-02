@@ -301,7 +301,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Seagulls followed the boat, crying loudly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrys11(String languageCode) async {
@@ -309,7 +310,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A pair of eagles cried out to each other as they circled above the trees."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrys12(String languageCode) async {
@@ -317,7 +319,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He fell to the ground with a cry."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcrys13(String languageCode) async {
@@ -325,7 +328,401 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was too weak to raise even the smallest of cries."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys14(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He gave a loud cry of despair."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys15(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "With a cry of ‘Stop thief!’ he ran after the boy."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys16(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her answer was greeted with cries of outrage."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys17(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She heard cries in the distance."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys18(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The eagle gave a cry as it circled overhead."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys19(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her behaviour at school was really a cry for help."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys20(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We need a new leader who's ready to hear the cry of the people."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys21(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I felt a lot better after a good long cry."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys22(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You'll feel better when you've had a good cry."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys23(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys24(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys25(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys26(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys27(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys28(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys29(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys2900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys30(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys31(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys32(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys33(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys34(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys35(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys36(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys37(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys38(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys39(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys3900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys40(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys41(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys42(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys43(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys44(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys45(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys46(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys47(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys48(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys49(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys4900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys50(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys51(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys52(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys53(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5300"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys54(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5400"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys55(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys56(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys57(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys58(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys59(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys5900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys60(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys6000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcrys61(String languageCode) async {
+    // DOPSUM: CHANGE speakcry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcrys6100"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -566,7 +963,7 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "He cried for help as the fire spread."),
                     ExampleSentenceKurdish(
-                        text: "کە ئاگرەکە بڵاوبوویەوە قیژاندی بۆ یارمەتی کرد."),
+                        text: "کە ئاگرەکە بڵاوبوویەوە قیژاندی بۆ یارمەتی."),
                   ],
                 ),
               ),
@@ -578,6 +975,367 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcrys9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (کردار) درووستکردنی دەنگێکی بەرز لەلایەن ئاژەڵێکەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Seagulls followed the boat, crying loudly."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەورەس شوێنی بەلەمەکە کەوتن و بە بەرزی دەیانقڕیواند."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys10("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "A pair of eagles cried out to each other as they circled above the trees."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "جووتێک داڵ بۆ یەکتری دەیانزیقاند کە بە دەوری دارەکاندا دەسووڕانەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys11("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (ناو) هاوارێکی بەرز"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He fell to the ground with a cry."),
+                    ExampleSentenceKurdish(
+                        text: "بە هاوارێکی بەرزەوە دای بە زەویدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He was too weak to raise even the smallest of cries."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆر لاواز بوو کە تەنانەت بچووکترین هاواریش بکات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He gave a loud cry of despair."),
+                    ExampleSentenceKurdish(
+                        text: "هاوارێکی بەرزی لە نائومێدیدا کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys14("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (ناو) هاوارکردنێکی بەرز"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "With a cry of ‘Stop thief!’ he ran after the boy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە هاوارکردنی 'بوەستە دز!' ڕایکرد بە دوای کوڕەکەدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys15("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys15("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Her answer was greeted with cries of outrage."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وەڵامەکەی بە هاوارکردنی تووڕەییەوە پێشوازی لێکرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys16("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys16("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She heard cries in the distance."),
+                    ExampleSentenceKurdish(
+                        text: "گوێی لە هاوارکردن بوو لە دوورەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys17("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys17("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (ناو) دەنگی باڵندە یان ئاژەڵێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The eagle gave a cry as it circled overhead."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "داڵەکە زیقەیەکی کرد لە کە لەسەرەوە دەسووڕایەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys18("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys18("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٧. (ناو) داوا یان داخوازی بۆ شتێک کە زوو پێویستە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Her behaviour at school was really a cry for help."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕەفتاری لە قوتابخانە تەواو داوایەک بوو بۆ یارمەتی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "We need a new leader who's ready to hear the cry of the people."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پێویستیمان بە سەرکردەیەکی تازەیە کە ئامادەیە گوێ لە هاواری خەڵکی بگرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٨. (ناو) گریان یان ماوەیەک لە گریان"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I felt a lot better after a good long cry."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەستم زۆر بە باشتر کرد لە دوای ماوەیەک لە گریان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "You'll feel better when you've had a good cry."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەست زۆر بە باشتر دەکەیت لە دوای ئەوەی ماوەیەک بە باشی گریاویت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcrys22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcrys22("en-US"),
                   ),
                 ],
               ),

@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Who won the cup?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups8(String languageCode) async {
@@ -282,7 +282,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He lifted the cup for the fifth time this year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups9(String languageCode) async {
@@ -290,7 +291,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They lost to Portugal in the World Cup quarter finals."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups10(String languageCode) async {
@@ -298,7 +300,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The team are ready for next week's World Cup clash with Italy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups11(String languageCode) async {
@@ -306,7 +309,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Evenly fill the cups with the batter."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups12(String languageCode) async {
@@ -314,7 +318,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "\"What size bra do you wear?\" \"I wear a C cup.\""); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups13(String languageCode) async {
@@ -322,7 +327,81 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcups1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She held the bird gently in cupped hands."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups14(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He cupped her face in his hands and kissed her."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups15(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups1500"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups16(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups1600"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups17(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups1700"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups18(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups1800"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups19(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups1900"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups20(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups2000"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups21(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups2100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcups22(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcups2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -488,6 +567,262 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcups6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ناو) جامی پاڵەوانێتی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Who won the cup?"),
+                    ExampleSentenceKurdish(text: "کێ جامەکەی بردەوە؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He lifted the cup (= won) for the fifth time this year."),
+                    ExampleSentenceKurdish(
+                        text: "بۆ پێنجەم جار لەم ساڵدا جامەکەی بەرزکردەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (ناو) پاڵەوانێتییەکی وەرزشی کە تێیدا جامێک وەک خەڵات دەدرێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "They lost to Portugal in the World Cup quarter finals."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە چارەکی کۆتاییدا لە جامی جیهانی دۆڕاندیان بەرامبەر پرتوگال."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The team are ready for next week's World Cup clash with Italy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تیمەکە ئامادەیە بۆ ڕووبەڕووبوونەوەی هەفتەی داهاتووی جامی جیهانی بەرامبەر ئیتالیا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups10("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٥. (ناو) یەکەیەکی پێوانەکردن لە خواردن درووستکردندا کە کە بەشێوەیەکی سەرەکی لە ئەمریکا بەکاردێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Add 2 cups (of) flour and half a cup (of) sugar."),
+                    ExampleSentenceKurdish(
+                        text: "دوو کووپ ئارد و نیو کووپ شەکر زیاد بکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (ناو) شتێک کە شێوەی کوپێکی هەیە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Evenly fill the cups with the batter."),
+                    ExampleSentenceKurdish(
+                        text: "بە یەکسانی کوپەکان پڕ بکە لە هەویر."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups11("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٧. (ناو) یەکێک لەو بەشانەی ستیان کە مەمک دادەپۆشێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "\"What size bra do you wear?\" \"I wear a C cup.\""),
+                    ExampleSentenceKurdish(
+                        text:
+                            "'چی قەبارەیەکی ستیان لەبەر دەکەیت؟' 'قەبارەی مەمکبەندی C دەبەستم.'"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٨. (کردار) دانانی دەست لە شێوەی دەفرێکدا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She held the bird gently in cupped hands."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "باڵندەکەی بەهێمنی گرت لە شێوەی دەستی وەک دەفرێک."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٩. (کردار) گرتنی شتێک کە دەستت لە شێوەی دەفرێکدایە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He cupped her face in his hands and kissed her."),
+                    ExampleSentenceKurdish(
+                        text: "ڕووخساری لە دەستیدا گرت و ماچی کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups14("en-US"),
                   ),
                 ],
               ),

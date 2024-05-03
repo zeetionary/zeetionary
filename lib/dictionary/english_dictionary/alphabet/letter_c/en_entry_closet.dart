@@ -198,6 +198,7 @@ class EnglishEntrycloset extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆڵابێک یان ژوورێکی بچووک کە بۆ ھەڵگرتنی شت بەکاردێت، بەتایبەتی جلوبەرگ"),
+                          const AlsoEnglishckb(word: "ھەروەھا: cupboard"),
                           Row(
                             children: [
                               const Expanded(

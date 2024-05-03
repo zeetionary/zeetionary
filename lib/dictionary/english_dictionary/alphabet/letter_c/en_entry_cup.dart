@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He filled the cup with water."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He filled the cup with water."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Customers don't like drinking out of plastic cups."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Customers don't like drinking out of plastic cups."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was so thirsty that she drained her cup."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was so thirsty that she drained her cup."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups4(String languageCode) async {
@@ -254,7 +256,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Would you like a cup of tea?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Would you like a cup of tea?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups6(String languageCode) async {
@@ -262,7 +265,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I drink about ten cups of coffee a day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I drink about ten cups of coffee a day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcups7(String languageCode) async {
@@ -332,15 +336,15 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: پیاڵە، کۆتک، کاس، بایە، تاسولکە، جام، قاپ،	ئایەرە، لیوان،	جام یان کاس (لە پێشبڕکێ، خەڵات و هتد)،	خواردنەوە،	پڕپیاڵەیێ،	شاخ، کەڵەشاخ (بۆ خوێن‌گرتن)،	بەش، پشک،	(ڕووەک‌ناسی) کاسە، کڵاوە، پیاڵە، جام
 """),
-          const DefinitionKurdish(text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، هتد"),
+          const DefinitionKurdish(
+              text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، هتد"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "He filled the cup with water."),
+                        text: "He filled the cup with water."),
                     ExampleSentenceKurdish(text: "پیاڵەکەی پڕکرد لە ئاو."),
                   ],
                 ),
@@ -360,139 +364,134 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Customers don't like drinking out of plastic cups."),
-          ExampleSentenceKurdish(
-          text: "موشتەرییەکان حەزیان لە خواردنەوە نییە لە ناو پەرداخی پلاستیکیدا."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcups2("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcups2("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Customers don't like drinking out of plastic cups."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "موشتەرییەکان حەزیان لە خواردنەوە نییە لە ناو پەرداخی پلاستیکیدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups2("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "She was so thirsty that she drained her cup."),
-          ExampleSentenceKurdish(
-          text: "هێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcups3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcups3("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She was so thirsty that she drained her cup."),
+                    ExampleSentenceKurdish(
+                        text: "هێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) ئەو بڕەی لە ناوی پیاڵەیەک یان پەرداخێکدایە"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) ئەو بڕەی لە ناوی پیاڵەیەک یان پەرداخێکدایە"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "She drank the whole cup."),
-          ExampleSentenceKurdish(
-          text: "تەواوی پیاڵەکەی خواردەوە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcups4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcups4("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She drank the whole cup."),
+                    ExampleSentenceKurdish(text: "تەواوی پیاڵەکەی خواردەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Would you like a cup of tea?"),
-          ExampleSentenceKurdish(
-          text: "حەز بە پیاڵەیەک چا دەکەیت؟"),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcups5("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcups5("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Would you like a cup of tea?"),
+                    ExampleSentenceKurdish(text: "حەز بە پیاڵەیەک چا دەکەیت؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "I drink about ten cups of coffee a day."),
-          ExampleSentenceKurdish(
-          text: "ڕۆژانە نزیکەی ١٠ پیاڵە قاوە دەخۆمەوە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakcups6("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakcups6("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "I drink about ten cups of coffee a day."),
+                    ExampleSentenceKurdish(
+                        text: "ڕۆژانە نزیکەی ١٠ پیاڵە قاوە دەخۆمەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcups6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcups6("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
         ],
       ),

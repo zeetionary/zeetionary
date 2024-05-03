@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosiness extends StatefulWidget {
-  const EnglishEntrycosiness({super.key});
+class EnglishEntrycup extends StatefulWidget {
+  const EnglishEntrycup({super.key});
 
   @override
-  State<EnglishEntrycosiness> createState() => _EnglishEntrycosinessState();
+  State<EnglishEntrycup> createState() => _EnglishEntrycupState();
 }
 
-class _EnglishEntrycosinessState extends State<EnglishEntrycosiness> {
+class _EnglishEntrycupState extends State<EnglishEntrycup> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -76,6 +76,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
+              // const TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],
@@ -93,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosiness");
+    return const EntryTitle(word: "cup");
   }
 }
 
@@ -104,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cosiness");
+    return const AlsoEnglish(word: "also: cup");
   }
 }
 
@@ -131,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkəʊzinəs/");
+    return const IPAofEnglish(text: "IpaUK: /kʌp/");
   }
 }
 
@@ -142,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosiness(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcup(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosiness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cup"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcosiness("en-GB"),
+      onPressed: () => speakcup("en-GB"),
     );
   }
 }
@@ -181,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkəʊzinəs/");
+    return const IPAofEnglish(text: "IpaUS: /kʌp/");
   }
 }
 
@@ -192,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosiness(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcup(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosiness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cup"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcosiness("en-US"),
+      onPressed: () => speakcup("en-US"),
     );
   }
 }
@@ -215,109 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosinesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups1(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She enjoyed the cosiness of curling up with a book by the fireplace."); // DOPSUM: CHANGE TEXT
+        "He filled the cup with water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups2(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Customers don't like drinking out of plastic cups."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups3(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was so thirsty that she drained her cup."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups4(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She drank the whole cup."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups5(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Would you like a cup of tea?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups6(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I drink about ten cups of coffee a day."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups7(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups8(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups9(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups10(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups11(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups12(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcups13(String languageCode) async {
+    // DOPSUM: CHANGE speakcup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcups1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -328,11 +329,10 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی: 
-// """),
-          const DefinitionKurdish(
-              text: "١. (ناو) هەستکردن بە گەرمی و ئاسوودەیی و سەلامەتی"),
+          const KurdishVocabulary(text: """
+کوردی: پیاڵە، کۆتک، کاس، بایە، تاسولکە، جام، قاپ،	ئایەرە، لیوان،	جام یان کاس (لە پێشبڕکێ، خەڵات و هتد)،	خواردنەوە،	پڕپیاڵەیێ،	شاخ، کەڵەشاخ (بۆ خوێن‌گرتن)،	بەش، پشک،	(ڕووەک‌ناسی) کاسە، کڵاوە، پیاڵە، جام
+"""),
+          const DefinitionKurdish(text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، هتد"),
           Row(
             children: [
               const Expanded(
@@ -340,25 +340,159 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "She enjoyed the cosiness of curling up with a book by the fireplace."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە."),
+                            "He filled the cup with water."),
+                    ExampleSentenceKurdish(text: "پیاڵەکەی پڕکرد لە ئاو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosiness", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cup", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcosinesss1("en-GB"),
+                    onPressed: () => speakcups1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcosinesss1("en-US"),
+                    onPressed: () => speakcups1("en-US"),
                   ),
                 ],
               ),
             ],
+          ),
+          const DividerSentences(),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "Customers don't like drinking out of plastic cups."),
+          ExampleSentenceKurdish(
+          text: "موشتەرییەکان حەزیان لە خواردنەوە نییە لە ناو پەرداخی پلاستیکیدا."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcups2("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcups2("en-US"),
+          ),
+          ],
+          ),
+          ],
+          ),
+          const DividerSentences(),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "She was so thirsty that she drained her cup."),
+          ExampleSentenceKurdish(
+          text: "هێندە تینوو بوو کە پەرداخەکەی بەتاڵ کرد."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcups3("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcups3("en-US"),
+          ),
+          ],
+          ),
+          ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) ئەو بڕەی لە ناوی پیاڵەیەک یان پەرداخێکدایە"),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "She drank the whole cup."),
+          ExampleSentenceKurdish(
+          text: "تەواوی پیاڵەکەی خواردەوە."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcups4("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcups4("en-US"),
+          ),
+          ],
+          ),
+          ],
+          ),
+          const DividerSentences(),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "Would you like a cup of tea?"),
+          ExampleSentenceKurdish(
+          text: "حەز بە پیاڵەیەک چا دەکەیت؟"),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcups5("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcups5("en-US"),
+          ),
+          ],
+          ),
+          ],
+          ),
+          const DividerSentences(),
+          Row(
+          children: [
+          const Expanded(
+          child: Column(
+          children: [
+          ExampleSentenceEnglish(
+          text:
+          "I drink about ten cups of coffee a day."),
+          ExampleSentenceKurdish(
+          text: "ڕۆژانە نزیکەی ١٠ پیاڵە قاوە دەخۆمەوە."),
+          ],
+          ),
+          ),
+          const CustomSizedBoxForTTS(),
+          Column(
+          children: [
+          CustomIconButtonBritish(
+          onPressed: () => speakcups6("en-GB"),
+          ),
+          CustomIconButtonAmerican(
+          onPressed: () => speakcups6("en-US"),
+          ),
+          ],
+          ),
+          ],
           ),
         ],
       ),
@@ -408,9 +542,38 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosiness 
-Usage: Brit, Cdn (US: coziness)
-1. A state of warm snug comfort (= coziness [N. Amer], snugness)
+- Noun: cup (Derived forms: cups)
+1. A small open container usually used for drinking; usually has a handle
+"he put the cup back in the saucer"; "the handle of the cup was missing"
+ 
+2. The quantity a cup will hold (= cupful)
+"he borrowed a cup of sugar"; "he drank a cup of coffee";
+ 
+3. Any cup-shaped concavity
+"bees filled the waxen cups with honey"; "he wore a jock strap with a metal cup"; "the cup of her bra"
+ 
+4. A United States liquid unit equal to 8 fluid ounces
+ 
+5. Cup-shaped plant organ
+ 
+6. A punch served in a pitcher instead of a punch bowl
+ 
+7. The hole (or metal container in the hole) on a golf green
+"he swore as the ball rimmed the cup and rolled away"; "put the flag back in the cup"
+ 
+8. A large metal vessel with two handles that is awarded as a trophy to the winner of a competition (= loving cup)
+"the school kept the cups in a special glass case";
+ 
+9. A contest for which a cup is awarded to the winner
+
+- Verb: cup (Derived forms: cups, cupping, cupped)
+1. Form into the shape of a cup
+"She cupped her hands"
+ 
+5. Put into a cup
+"cup the milk"
+ 
+6. (medicine) treat by applying evacuated cups to the patient's skin (= transfuse)
 """,
   );
 
@@ -443,8 +606,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oBeB7ldrAo8',
-    startSeconds: 301,
+    videoId: 'https://youtu.be/DPZzrlFCD_I?t=',
+    startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +631,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0_c9QDwDRX8',
-    startSeconds: 53,
+    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +656,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3h55eYX3E20',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    startSeconds: 431,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +681,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HN15PntOdN4',
-    startSeconds: 179,
+    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    startSeconds: 1271,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +706,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iUyu56TLcvI',
-    startSeconds: 199,
+    videoId: 'https://youtu.be/XlHzvTEstz8?t=',
+    startSeconds: 728,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +731,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JIf_EXHzc9Q',
-    startSeconds: 147,
+    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    startSeconds: 403,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +756,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lfJ9SaUyayI',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/dXt1ftcdxNg?t=',
+    startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

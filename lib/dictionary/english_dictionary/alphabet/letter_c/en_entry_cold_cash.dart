@@ -190,9 +190,9 @@ class EnglishEntrycoldcash extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارە کە ئامادەیە کە بۆ خەرجکردن، بەتایبەتی لە شێوەی سکە و کاغەزدا"),

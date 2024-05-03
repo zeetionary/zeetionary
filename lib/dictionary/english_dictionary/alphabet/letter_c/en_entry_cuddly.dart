@@ -222,7 +222,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakcuddlys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "She described her son as a cuddly child who loved bedtime stories."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuddlys2(String languageCode) async {
@@ -330,9 +330,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژیکەڵە، خۆشەویست، جوان، شیاوی باوەش‌کردن
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵناو) درووستکردنی حەزی لە باوەش گرتن"),
           Row(
             children: [
               const Expanded(
@@ -340,8 +341,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "// speakcuddlys111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                            "She described her son as a cuddly child who loved bedtime stories."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کوڕەکەی وەها باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو."),
                   ],
                 ),
               ),
@@ -441,8 +444,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/DO9U_XxN-Kc?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -466,8 +469,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/dJzTse9Dsaw?t=',
+    startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,8 +494,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/af2Eg2CPcZE?t=',
+    startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +519,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/hoihoGGdQ4U?t=',
+    startSeconds: 630,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +544,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/HmtdGWoDMHE?t=',
+    startSeconds: 1213,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +569,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/tCqwT2MqLxI?t=',
+    startSeconds: 1319,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -591,8 +594,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/y-2jd0Ds8Iw?t=',
+    startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -616,7 +619,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakcuddlys111111111111111111111111111111111
 
   @override
   Widget build(BuildContext context) {

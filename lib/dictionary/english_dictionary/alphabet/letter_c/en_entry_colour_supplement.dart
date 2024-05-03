@@ -192,9 +192,9 @@ class EnglishEntrycoloursupplement extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) گۆڤارێک کە بە ڕەنگاوڕەنگی چاپ دەکرێت و بەشێکی زیادەی ڕۆژنامەیەک پێکدێنێت، بەتایبەتی لە ڕۆژانی شەممە و یەکشەممەدا"),

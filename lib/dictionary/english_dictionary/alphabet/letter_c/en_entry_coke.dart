@@ -191,9 +191,9 @@ class EnglishEntrycoke extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کۆکاین؛ مادەیەکی بەھێز کە ھەندێک کەس بە نایاسایی دەیکێشن و دەکرێت ئاڵوودە بن پێی. پزیشکان ھەندێک جار وەک بەنج بەکاریدێنن"),

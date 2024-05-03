@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
@@ -10,14 +11,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrunch extends StatefulWidget {
-  const EnglishEntrycrunch({super.key});
+class EnglishEntrycuff extends StatefulWidget {
+  const EnglishEntrycuff({super.key});
 
   @override
-  State<EnglishEntrycrunch> createState() => _EnglishEntrycrunchState();
+  State<EnglishEntrycuff> createState() => _EnglishEntrycuffState();
 }
 
-class _EnglishEntrycrunchState extends State<EnglishEntrycrunch> {
+class _EnglishEntrycuffState extends State<EnglishEntrycuff> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +95,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crunch");
+    return const EntryTitle(word: "cuff");
   }
 }
 
@@ -105,7 +106,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crunch");
+    return const AlsoEnglish(word: "also: cuff");
   }
 }
 
@@ -132,7 +133,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /krʌntʃ/");
+    return const IPAofEnglish(text: "IpaUK: /kʌf/");
   }
 }
 
@@ -143,18 +144,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunch(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuff(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crunch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuff"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrunch("en-GB"),
+      onPressed: () => speakcuff("en-GB"),
     );
   }
 }
@@ -182,7 +183,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /krʌntʃ/");
+    return const IPAofEnglish(text: "IpaUS: /kʌf/");
   }
 }
 
@@ -193,18 +194,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunch(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuff(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crunch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cuff"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrunch("en-US"),
+      onPressed: () => speakcuff("en-US"),
     );
   }
 }
@@ -216,117 +217,113 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunchs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs1(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He buttoned his cuffs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcuffs2(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The car drew up with a crunch of gravel."); // DOPSUM: CHANGE TEXT
+        "He wears a polo shirt and cuffs on his pants."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs3(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The snow gave a crunch as we stepped onto it."); // DOPSUM: CHANGE TEXT
+        "She gave him a playful cuff on the shoulder."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs4(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crunch came when she returned from America."); // DOPSUM: CHANGE TEXT
+        "She cuffed him lightly around his head."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs5(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crunch is that we can't afford to go abroad this year."); // DOPSUM: CHANGE TEXT
+        "Both men were cuffed and detained for several hours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Higher grain prices are putting a crunch on cattle feeders."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrunchs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs6(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She crunched her apple noisily."); // DOPSUM: CHANGE TEXT
+        .speak("Her hands were cuffed behind her back."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs7(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The snow crunched under our feet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs8(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I crunched across the gravel to the front door."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs9(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We are waiting for the results officials who are still crunching numbers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs10(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs11(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs12(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcuffs13(String languageCode) async {
+    // DOPSUM: CHANGE speakcuff
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcuffs1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -338,31 +335,163 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خرم‌وهۆڕ، خرمەخرم، خرمە، کرمەکرم، خرچەخرچ
+کوردی: سەرقۆڵ، مەچەکە، هووچک، سەردەس
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دەنگێک وەک ئەوەی شتێکی ڕەق پەستانی بخرێتە سەر یان بشکێندرێت"),
+                  "١. (ناو) بەشی خوارەوەی پاڵتۆیەک یان قۆڵی جلێک لەسەر مەچەک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He buttoned his cuffs."),
+                    ExampleSentenceKurdish(text: "سەرقۆڵەکانی بەست."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "cuff", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuffs1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuffs1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              DefinitionKurdishLink(
+                text: "٢. بڕوانە لە hand cuffs",
+                links: [
+                  LinkInfo(
+                    start: 12,
+                    end: 23,
+                    style: const TextStyle(
+                      color: Colors.blue,
+                    ),
+                  ),
+                ],
+                onTap: () {
+                  Routemaster.of(context).push("/english-crutch/crotch");
+                },
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (ناو) بەشی خوارەوەی پانتۆڵێک کە هەڵگێڕدراوەتەوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The car drew up with a crunch of gravel."),
+                        text: "He wears a polo shirt and cuffs on his pants."),
                     ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ."),
+                        text:
+                            "درێسێکی پۆلۆ لەبەردەکات لەگەڵ نووشتانەوەی پانتۆڵەکەیدا."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crunch", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs1("en-GB"),
+                    onPressed: () => speakcuffs2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs1("en-US"),
+                    onPressed: () => speakcuffs2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (ناو) بە گاڵتەوە لێدان لە کەسێک بە دەستت بە هێواشی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She gave him a playful cuff on the shoulder."),
+                    ExampleSentenceKurdish(text: "بە سووکی کێشای بە شانیدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuffs3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuffs3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٥. (کردار) لێدان لە کەسێک بە خێرایی و هێواشی بە دەستت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She cuffed him lightly around his head."),
+                    ExampleSentenceKurdish(text: "بە هێواشی کێشای بە سەریدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuffs4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuffs4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٦. (کردار) بەستنی کەلەپچە لە دەستی کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Both men were cuffed and detained for several hours."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەر دوو پیاوەکە کەلەپچە کران و بۆ چەند کاتژمێرێک گیردران."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuffs5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuffs5("en-US"),
                   ),
                 ],
               ),
@@ -375,9 +504,8 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The snow gave a crunch as we stepped onto it."),
-                    ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەیەکی کرد کە پێمان لەسەر دانا."),
+                        text: "Her hands were cuffed behind her back."),
+                    ExampleSentenceKurdish(text: "دەستەکانی کەلەپچە کران."),
                   ],
                 ),
               ),
@@ -385,216 +513,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs2("en-GB"),
+                    onPressed: () => speakcuffs6("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) دۆخێک یان زانیارییەک کە گرنگە و زۆرجار ناخۆشە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crunch came when she returned from America."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆخە ناخۆشەکە دەستیپێکرد کە لە ئەمریکا گەڕایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The crunch is that we can't afford to go abroad this year."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شتە ناخۆشەکە ئەوەیە ناتوانین خەرجی چوونە دەرەوە بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٣. (ناو) دۆخێک کە لەناکاو بەشی پێویست لە شتێک نییە، بەتایبەتی پارە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Higher grain prices are putting a crunch on cattle feeders."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "نرخی بەرزی گەنم زەختێکیان خستووەتە سەر بەخێوکەرانی ڕەشەوڵاخ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (کردار) قەپگرتن لە شتێک بە خرمەخرمەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She crunched her apple noisily."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەنگە دەنگەوە سێوەکەی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٥. (کردار) درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The snow crunched under our feet."),
-                    ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەی دەهات لەژێر پێماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٦. (کردار) ڕێکردن بەسەر شتێک و درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I crunched across the gravel to the front door."),
-                    ExampleSentenceKurdish(
-                        text: "بەسەر زیخەکەدا چووم بۆ دەرگاکەی پێشەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٧. (کردار) مامەڵەکردن بەخێرایی لەگەڵ ژمارەیەکی زۆری داتا"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We are waiting for the results officials who are still crunching numbers."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "چاوەڕێی ئەنجامی ئەو بەرپرسانە دەکەین کە ژمارەکان شەن‌وکەو دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs9("en-US"),
+                    onPressed: () => speakcuffs6("en-US"),
                   ),
                 ],
               ),
@@ -648,26 +570,20 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crunch (Derived forms: crunches)
-1. The sound of something crunching
-"he heard the crunch of footsteps on the gravel path"
+- Noun: cuff (Derived forms: cuffs)
+1. The lap consisting of a turned-back hem encircling the end of the sleeve or leg
  
-2. A critical situation that arises because of a shortage (as a shortage of time, money or resources)
-"an end-of-the-year crunch"; "a financial crunch"
+2. Shackle that consists of a metal loop that can be locked around the wrist; usually used in pairs (= handcuff, handlock, manacle)
  
-3. The act of crushing (= crush, compaction)
+3. [N. Amer] The turned-up fold at the bottom end of a trouser leg (= turn-up [Brit])
 
-- Verb: crunch (Derived forms: crunching, crunches, crunched)
-1. Make a crushing noise (= scranch [dialect], scraunch [dialect], crackle, scrunch)
-"his shoes were crunching on the gravel";
+- Verb: cuff (Derived forms: cuffs, cuffed, cuffing)
+1. Hit with the hand (= whomp)
  
-2. Press or grind with a crushing noise (= cranch, craunch, grind, scrunch)
+2. Confine or restrain with or as if with manacles or handcuffs (= manacle, handcuff)
+"The police cuffed the suspect at the scene of the crime";
  
-3. Crush with the teeth, making a grinding sound (= munch)
-"The children crunched the celery sticks";
- 
-4. Reduce to small pieces or particles by pounding or abrading (= grind, mash, bray [archaic], comminute [rare])
-"crunch the spices in a mortar";
+3. To get involved in a relationship with another person
 """,
   );
 
@@ -700,8 +616,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 510,
+    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    startSeconds: 1077,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -725,8 +641,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
-    startSeconds: 118,
+    videoId: 'https://youtu.be/fZJGTevM3QI?t=',
+    startSeconds: 276,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -750,8 +666,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
-    startSeconds: 778,
+    videoId: 'https://youtu.be/-6vzjjIrRK8?t=',
+    startSeconds: 1111,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -775,8 +691,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1p8r-2ffK_c?t=',
-    startSeconds: 292,
+    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    startSeconds: 487,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -800,8 +716,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-zvVWpf_FzQ?t=',
-    startSeconds: 591,
+    videoId: 'https://youtu.be/t6cjpCND-Qk?t=',
+    startSeconds: 225,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -825,8 +741,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
-    startSeconds: 83,
+    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -850,8 +766,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hQT7PN4Tzsg?t=',
-    startSeconds: 755,
+    videoId: 'https://youtu.be/wdLzMyqDuDY?t=',
+    startSeconds: 130,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

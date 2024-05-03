@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycosiness extends StatefulWidget {
-  const EnglishEntrycosiness({super.key});
+class EnglishEntrycunningly extends StatefulWidget {
+  const EnglishEntrycunningly({super.key});
 
   @override
-  State<EnglishEntrycosiness> createState() => _EnglishEntrycosinessState();
+  State<EnglishEntrycunningly> createState() => _EnglishEntrycunninglyState();
 }
 
-class _EnglishEntrycosinessState extends State<EnglishEntrycosiness> {
+class _EnglishEntrycunninglyState extends State<EnglishEntrycunningly> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -76,6 +76,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
+              // const TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],
@@ -93,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "cosiness");
+    return const EntryTitle(word: "cunningly");
   }
 }
 
@@ -104,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: cosiness");
+    return const AlsoEnglish(word: "also: cunningly");
   }
 }
 
@@ -131,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈkəʊzinəs/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌnɪŋli/");
   }
 }
 
@@ -142,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosiness(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunningly(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosiness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cunningly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcosiness("en-GB"),
+      onPressed: () => speakcunningly("en-GB"),
     );
   }
 }
@@ -181,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈkəʊzinəs/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkʌnɪŋli/");
   }
 }
 
@@ -192,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosiness(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunningly(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cosiness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cunningly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcosiness("en-US"),
+      onPressed: () => speakcunningly("en-US"),
     );
   }
 }
@@ -215,109 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcosinesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She enjoyed the cosiness of curling up with a book by the fireplace."); // DOPSUM: CHANGE TEXT
+        "The microphone was cunningly concealed in the bookcase."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss8(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss9(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss10(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss11(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss12(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcosinesss13(String languageCode) async {
-    // DOPSUM: CHANGE speakcosiness
+  Future<void> speakcunninglys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcunningly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcosinesss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcunninglys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,10 +330,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(
-              text: "١. (ناو) هەستکردن بە گەرمی و ئاسوودەیی و سەلامەتی"),
+          const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆرزانانە"),
           Row(
             children: [
               const Expanded(
@@ -340,21 +340,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "She enjoyed the cosiness of curling up with a book by the fireplace."),
+                            "The microphone was cunningly concealed in the bookcase."),
                     ExampleSentenceKurdish(
                         text:
-                            "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە."),
+                            "مایکرۆفۆنەکە زۆرزانانە لە جێ‌کتێبەکەدا شاردرابوویەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "cosiness", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "cunningly", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcosinesss1("en-GB"),
+                    onPressed: () => speakcunninglys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcosinesss1("en-US"),
+                    onPressed: () => speakcunninglys1("en-US"),
                   ),
                 ],
               ),
@@ -408,9 +408,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cosiness 
-Usage: Brit, Cdn (US: coziness)
-1. A state of warm snug comfort (= coziness [N. Amer], snugness)
+- Adverb: cunningly 
+1. In an attractive manner (= cutely)
+"how cunningly the olive-green dress with its underskirt of rose-brocade fitted her perfect figure";
+ 
+2. In an subtle, cunning manner (= craftily, foxily, knavishly, slyly, trickily, artfully, slily)
+"had ever circumstances conspired so cunningly?";
 """,
   );
 
@@ -443,8 +446,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'oBeB7ldrAo8',
-    startSeconds: 301,
+    videoId: 'https://youtu.be/QjPInsEYDLs?t=',
+    startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +471,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '0_c9QDwDRX8',
-    startSeconds: 53,
+    videoId: 'https://youtu.be/8yStwJOpvd8?t=',
+    startSeconds: 449,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +496,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3h55eYX3E20',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/YQw3C-aKOYE?t=',
+    startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +521,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HN15PntOdN4',
-    startSeconds: 179,
+    videoId: 'https://youtu.be/kxMO8xTLeoc?t=',
+    startSeconds: 686,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +546,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'iUyu56TLcvI',
-    startSeconds: 199,
+    videoId: 'https://youtu.be/bFSm-qJAuXk?t=',
+    startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +571,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JIf_EXHzc9Q',
-    startSeconds: 147,
+    videoId: 'https://youtu.be/YT_1Ewo6CTA?t=',
+    startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +596,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lfJ9SaUyayI',
-    startSeconds: 41,
+    videoId: 'https://youtu.be/zlQh7JmpaYY?t=',
+    startSeconds: 606,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycrunch extends StatefulWidget {
-  const EnglishEntrycrunch({super.key});
+class EnglishEntryculture extends StatefulWidget {
+  const EnglishEntryculture({super.key});
 
   @override
-  State<EnglishEntrycrunch> createState() => _EnglishEntrycrunchState();
+  State<EnglishEntryculture> createState() => _EnglishEntrycultureState();
 }
 
-class _EnglishEntrycrunchState extends State<EnglishEntrycrunch> {
+class _EnglishEntrycultureState extends State<EnglishEntryculture> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "crunch");
+    return const EntryTitle(word: "culture");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: crunch");
+    return const AlsoEnglish(word: "also: culture");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /krʌntʃ/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌltʃə(r)/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunch(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakculture(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crunch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("culture"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcrunch("en-GB"),
+      onPressed: () => speakculture("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /krʌntʃ/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkʌltʃər/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunch(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakculture(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("crunch"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("culture"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcrunch("en-US"),
+      onPressed: () => speakculture("en-US"),
     );
   }
 }
@@ -216,117 +216,120 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcrunchs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures1(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The car drew up with a crunch of gravel."); // DOPSUM: CHANGE TEXT
+        "Cooking is a hugely important part of French culture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures2(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The snow gave a crunch as we stepped onto it."); // DOPSUM: CHANGE TEXT
+        "He is no longer in touch with youth culture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures3(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crunch came when she returned from America."); // DOPSUM: CHANGE TEXT
+        "The film examines the culture clash between the generations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures4(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The crunch is that we can't afford to go abroad this year."); // DOPSUM: CHANGE TEXT
+        "These ideas have always been central to Western culture."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures5(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Higher grain prices are putting a crunch on cattle feeders."); // DOPSUM: CHANGE TEXT
+        "The Romans gradually assimilated the culture of the people they had conquered."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She crunched her apple noisily."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrunchs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The snow crunched under our feet."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcrunchs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures6(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I crunched across the gravel to the front door."); // DOPSUM: CHANGE TEXT
+        "The children are taught to respect different cultures."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures7(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We are waiting for the results officials who are still crunching numbers."); // DOPSUM: CHANGE TEXT
+        "In some cultures children have an important place."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures8(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Venice is a beautiful city, full of culture and history."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures9(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The political cultures of the United States and Europe are very different."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures10(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can't change the culture of an organization overnight."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcrunchs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcrunch
+  Future<void> speakcultures11(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcrunchs1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She believes the media have created a culture of fear."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcultures12(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The company promotes a culture of innovation."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcultures13(String languageCode) async {
+    // DOPSUM: CHANGE speakculture
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcultures1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -338,31 +341,33 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خرم‌وهۆڕ، خرمەخرم، خرمە، کرمەکرم، خرچەخرچ
+کوردی: چاند، فەرهەنگ، کولتوور، ڕۆشنبیری، ڕووناکبیری، هونەر و ئەدەبیات پێکەوە،	ڕاهێنان، بارهێنان، پەروەردە(کردن)، بەخێوکردن، پەروەراندن
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) دەنگێک وەک ئەوەی شتێکی ڕەق پەستانی بخرێتە سەر یان بشکێندرێت"),
+                  "١. (ناو) نەریت و باوەڕ، هونەر، شێوازی ژیان و شێوازی ڕێکخستنی کۆمەڵایەتی وڵاتێک یان گرووپێکی دیاریکراو"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The car drew up with a crunch of gravel."),
+                        text:
+                            "Cooking is a hugely important part of French culture."),
                     ExampleSentenceKurdish(
-                        text: "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ."),
+                        text:
+                            "خواردن لێنان بەشێکی زۆر گرنگی کەلتووری فەرەنسایە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "crunch", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "culture", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs1("en-GB"),
+                    onPressed: () => speakcultures1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs1("en-US"),
+                    onPressed: () => speakcultures1("en-US"),
                   ),
                 ],
               ),
@@ -375,9 +380,10 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The snow gave a crunch as we stepped onto it."),
+                        text: "He is no longer in touch with youth culture."),
                     ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەیەکی کرد کە پێمان لەسەر دانا."),
+                        text:
+                            "چیتر لە پەیوەندیدا نییە لەگەڵ کەلتووری گەنجاندا."),
                   ],
                 ),
               ),
@@ -385,10 +391,101 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs2("en-GB"),
+                    onPressed: () => speakcultures2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs2("en-US"),
+                    onPressed: () => speakcultures2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The film examines the culture clash between the generations."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "فیلمەکە لێکۆڵینەوە دەکات لە بەرکەوتنی کەلتووری نێوان نەوەکاندا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcultures3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcultures3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "These ideas have always been central to Western culture."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "ئەم بیرۆکانە هەمیشە سەرەکی بوونە لە چاندی ڕۆژئاوادا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcultures4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcultures4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The Romans gradually assimilated the culture of the people they had conquered."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "ڕۆمەکان کەم کەم تێکەڵی کەلتووری ئەو خەڵکانە بوون کە داگیریان کردن."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcultures5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcultures5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -396,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ناو) دۆخێک یان زانیارییەک کە گرنگە و زۆرجار ناخۆشە"),
+              text: "٢. (ناو) وڵاتێک، گرووپێک، هتد کە باوەڕ، هتد ـی خۆی هەیە"),
           Row(
             children: [
               const Expanded(
@@ -404,10 +501,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The crunch came when she returned from America."),
+                            "The children are taught to respect different cultures."),
                     ExampleSentenceKurdish(
                         text:
-                            "دۆخە ناخۆشەکە دەستیپێکرد کە لە ئەمریکا گەڕایەوە."),
+                            "منداڵان فێردەکرێن کە ڕێزی کەلتوورە جیاوازەکان بگرن."),
                   ],
                 ),
               ),
@@ -415,10 +512,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs3("en-GB"),
+                    onPressed: () => speakcultures6("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs3("en-US"),
+                    onPressed: () => speakcultures6("en-US"),
                   ),
                 ],
               ),
@@ -432,10 +529,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The crunch is that we can't afford to go abroad this year."),
+                            "In some cultures children have an important place."),
                     ExampleSentenceKurdish(
                         text:
-                            "شتە ناخۆشەکە ئەوەیە ناتوانین خەرجی چوونە دەرەوە بکەین."),
+                            "لە هەندێک کەلتووردا منداڵان پێگەی تایبەتیان هەیە."),
                   ],
                 ),
               ),
@@ -443,10 +540,39 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs4("en-GB"),
+                    onPressed: () => speakcultures7("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs4("en-US"),
+                    onPressed: () => speakcultures7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (ناو) هونەر، میوزیک، ئەدەب، هتد پێکەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Venice is a beautiful city, full of culture and history."),
+                    ExampleSentenceKurdish(
+                        text: "ڤێنیس شارێکی جوانە، پڕ لە چاند و مێژووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcultures8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcultures8("en-US"),
                   ),
                 ],
               ),
@@ -455,7 +581,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) دۆخێک کە لەناکاو بەشی پێویست لە شتێک نییە، بەتایبەتی پارە"),
+                  "٤. (ناو) باوەڕ و بۆچوون سەبارەت بە شتێک کە کەسانی گرووپێک یان دامەزراوەیەکی دیاریکراو باوەڕیان پێیەتی"),
           Row(
             children: [
               const Expanded(
@@ -463,10 +589,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Higher grain prices are putting a crunch on cattle feeders."),
+                            "The political cultures of the United States and Europe are very different."),
                     ExampleSentenceKurdish(
-                        text:
-                            "نرخی بەرزی گەنم زەختێکیان خستووەتە سەر بەخێوکەرانی ڕەشەوڵاخ."),
+                        text: "ڕەوشی سیاسی ئەمریکا و ئەورووپا زۆر جیاوازن."),
                   ],
                 ),
               ),
@@ -474,76 +599,16 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs5("en-GB"),
+                    onPressed: () => speakcultures9("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs5("en-US"),
+                    onPressed: () => speakcultures9("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (کردار) قەپگرتن لە شتێک بە خرمەخرمەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She crunched her apple noisily."),
-                    ExampleSentenceKurdish(
-                        text: "بە دەنگە دەنگەوە سێوەکەی خوارد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs6("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٥. (کردار) درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The snow crunched under our feet."),
-                    ExampleSentenceKurdish(
-                        text: "بەفرەکە کرپەی دەهات لەژێر پێماندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٦. (کردار) ڕێکردن بەسەر شتێک و درووستکردنی دەنگێک وەک ئەوەی شتێک پەستانی بخرێتە سەر"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -551,9 +616,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I crunched across the gravel to the front door."),
+                            "You can't change the culture of an organization overnight."),
                     ExampleSentenceKurdish(
-                        text: "بەسەر زیخەکەدا چووم بۆ دەرگاکەی پێشەوە."),
+                        text:
+                            "ناتوانیت کەلتووری دامەزراوەیەک لە شەو و ڕۆژێکدا بگۆڕیت."),
                   ],
                 ),
               ),
@@ -561,18 +627,16 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs8("en-GB"),
+                    onPressed: () => speakcultures10("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs8("en-US"),
+                    onPressed: () => speakcultures10("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٧. (کردار) مامەڵەکردن بەخێرایی لەگەڵ ژمارەیەکی زۆری داتا"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
@@ -580,10 +644,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "We are waiting for the results officials who are still crunching numbers."),
+                            "She believes the media have created a culture of fear."),
                     ExampleSentenceKurdish(
                         text:
-                            "چاوەڕێی ئەنجامی ئەو بەرپرسانە دەکەین کە ژمارەکان شەن‌وکەو دەکەن."),
+                            "باوەڕی وایە میدیا کەلتوورێک لە ترسی درووست کردووە."),
                   ],
                 ),
               ),
@@ -591,10 +655,36 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcrunchs9("en-GB"),
+                    onPressed: () => speakcultures11("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcrunchs9("en-US"),
+                    onPressed: () => speakcultures11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The company promotes a culture of innovation."),
+                    ExampleSentenceKurdish(
+                        text: "کۆمپانیاکە فەرهەنگی نوێگەری بڵاودەکاتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcultures12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcultures12("en-US"),
                   ),
                 ],
               ),
@@ -648,26 +738,29 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crunch (Derived forms: crunches)
-1. The sound of something crunching
-"he heard the crunch of footsteps on the gravel path"
+- Noun: culture (Derived forms: cultures)
+1. (archeology) a particular society at a particular time and place (= civilization, civilisation [Brit])
+"early Mayan culture";
  
-2. A critical situation that arises because of a shortage (as a shortage of time, money or resources)
-"an end-of-the-year crunch"; "a financial crunch"
+2. The tastes in art and manners that are favoured by a social group
  
-3. The act of crushing (= crush, compaction)
+3. All the knowledge and values shared by a society (= acculturation)
+ 
+4. (biology) the growing of microorganisms in a nutrient medium (such as gelatin or agar)
+"the culture of cells in a Petri dish"
+ 
+5. A highly developed state of perfection; having a flawless or impeccable quality (= polish, refinement, cultivation, finish, finesse)
+"they performed with great culture";
+ 
+6. The attitudes and behaviour that are characteristic of a particular social group or organization
+"the developing drug culture"; "the reason that the agency is doomed to inaction has something to do with the FBI culture"
+ 
+7. The raising of plants or animals
+"the culture of oysters"
 
-- Verb: crunch (Derived forms: crunching, crunches, crunched)
-1. Make a crushing noise (= scranch [dialect], scraunch [dialect], crackle, scrunch)
-"his shoes were crunching on the gravel";
- 
-2. Press or grind with a crushing noise (= cranch, craunch, grind, scrunch)
- 
-3. Crush with the teeth, making a grinding sound (= munch)
-"The children crunched the celery sticks";
- 
-4. Reduce to small pieces or particles by pounding or abrading (= grind, mash, bray [archaic], comminute [rare])
-"crunch the spices in a mortar";
+- Verb: culture (Derived forms: cultured, cultures, culturing)
+1. Grow in a special preparation
+"optimal conditions for culturing stem cell lines"
 """,
   );
 
@@ -700,8 +793,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 510,
+    videoId: 'https://youtu.be/4VSx2E7WE50?t=',
+    startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -725,8 +818,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
-    startSeconds: 118,
+    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -750,8 +843,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
-    startSeconds: 778,
+    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -775,8 +868,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1p8r-2ffK_c?t=',
-    startSeconds: 292,
+    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -800,8 +893,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-zvVWpf_FzQ?t=',
-    startSeconds: 591,
+    videoId: 'https://youtu.be/xXvgT-AgLAo?t=',
+    startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -825,8 +918,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
-    startSeconds: 83,
+    videoId: 'https://youtu.be/D2ZvUJrMZio?t=',
+    startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -850,8 +943,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hQT7PN4Tzsg?t=',
-    startSeconds: 755,
+    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    startSeconds: 897,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

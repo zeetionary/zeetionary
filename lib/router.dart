@@ -4110,21 +4110,21 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curative.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curb.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curd.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curdle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cure.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curfew.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curio.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curiosity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curiously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curl.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_currant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_currency.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_current.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_current_account.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_currently.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_curriculum.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8938,21 +8938,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-curative": (_) => const MaterialPage(child: EnglishEntrycurative()),
   "/english-curb": (_) => const MaterialPage(child: EnglishEntrycurb()),
   "/english-curd": (_) => const MaterialPage(child: EnglishEntrycurd()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-curdle": (_) => const MaterialPage(child: EnglishEntrycurdle()),
+  "/english-cure": (_) => const MaterialPage(child: EnglishEntrycure()),
+  "/english-curfew": (_) => const MaterialPage(child: EnglishEntrycurfew()),
+  "/english-curio": (_) => const MaterialPage(child: EnglishEntrycurio()),
+  "/english-curiosity": (_) => const MaterialPage(child: EnglishEntrycuriosity()),
+  "/english-curious": (_) => const MaterialPage(child: EnglishEntrycurious()),
+  "/english-curiously": (_) => const MaterialPage(child: EnglishEntrycuriously()),
+  "/english-curl": (_) => const MaterialPage(child: EnglishEntrycurl()),
+  "/english-curly": (_) => const MaterialPage(child: EnglishEntrycurly()),
+  "/english-currant": (_) => const MaterialPage(child: EnglishEntrycurrant()),
+  "/english-currency": (_) => const MaterialPage(child: EnglishEntrycurrency()),
+  "/english-current": (_) => const MaterialPage(child: EnglishEntrycurrent()),
+  "/english-current-account": (_) => const MaterialPage(child: EnglishEntrycurrentaccount()),
+  "/english-currently": (_) => const MaterialPage(child: EnglishEntrycurrently()),
+  "/english-curriculum": (_) => const MaterialPage(child: EnglishEntrycurriculum()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

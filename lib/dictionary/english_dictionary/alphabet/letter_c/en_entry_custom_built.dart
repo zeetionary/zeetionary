@@ -77,7 +77,7 @@ class EntryAndIPA extends StatelessWidget {
                   TitleOfEntry(),
                 ],
               ),
-              const TitleOfEntryAlso(),
+              TitleOfEntryAlso(),
               IpaUK(),
               IpaUS(),
             ],

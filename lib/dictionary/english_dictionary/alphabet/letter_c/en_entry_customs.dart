@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycurriculum extends StatefulWidget {
-  const EnglishEntrycurriculum({super.key});
+class EnglishEntrycustoms extends StatefulWidget {
+  const EnglishEntrycustoms({super.key});
 
   @override
-  State<EnglishEntrycurriculum> createState() => _EnglishEntrycurriculumState();
+  State<EnglishEntrycustoms> createState() => _EnglishEntrycustomsState();
 }
 
-class _EnglishEntrycurriculumState extends State<EnglishEntrycurriculum> {
+class _EnglishEntrycustomsState extends State<EnglishEntrycustoms> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "curriculum");
+    return const EntryTitle(word: "customs");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: curriculum");
+    return const AlsoEnglish(word: "also: customs");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌstəmz/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustoms(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("customs"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcurriculum("en-GB"),
+      onPressed: () => speakcustoms("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkʌstəmz/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustoms(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("customs"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcurriculum("en-US"),
+      onPressed: () => speakcustoms("en-US"),
     );
   }
 }
@@ -216,110 +216,115 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculums1(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss1(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The school curriculum should be as broad as possible."); // DOPSUM: CHANGE TEXT
+        "The Customs have seized large quantities of smuggled heroin."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums2(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss2(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Spanish is on the curriculum."); // DOPSUM: CHANGE TEXT
+        .speak("French Customs have arrested two men."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums3(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss3(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You will have to declare these goods when you go through customs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums4(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss4(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We got stopped and searched at the Italian customs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums5(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss5(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We cleared customs by five o'clock."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums6(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss6(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You must pay customs on all imports of alcohol."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums7(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss7(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We had to pay customs duties on the beer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums8(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss8(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums9(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss9(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums10(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss10(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums11(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss11(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums12(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss12(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcustomss13(String languageCode) async {
+    // DOPSUM: CHANGE speakcustoms
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcustomss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -331,11 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وانەنامە، بەرنامە، بەرنامەی خوێندن (خوێندنگا، کۆلێژ و هتد)
+کوردی: گومڕکانە، هاوردانە، باجی هاوردەیی
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا هەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، هتد"),
+                  "١. (ناو) ئەو بەشەی حکومەت کە بەرپرسە باج کۆدەکاتەوە لەسەر ئەو کەلوپەلانەی کە کڕین و فرۆشتیان پێوە دەکرێت و ئەوانەی کە هاوردەی ناو وڵاتێک دەکرێن "),
           Row(
             children: [
               const Expanded(
@@ -343,21 +348,21 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The school curriculum should be as broad as possible."),
+                            "The Customs have seized large quantities of smuggled heroin."),
                     ExampleSentenceKurdish(
                         text:
-                            "وانەنامەی خوێندنگاکە دەکرێت هەتا بکرێت فراوان بێت."),
+                            "دەزگای گومرک ڕێژەیەکی زۆر لە هیرۆینی هاوردەکراوی دەستبەسەردا گرتووە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "curriculum", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "customs", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums1("en-GB"),
+                    onPressed: () => speakcustomss1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums1("en-US"),
+                    onPressed: () => speakcustomss1("en-US"),
                   ),
                 ],
               ),
@@ -370,11 +375,10 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                      text: "Spanish is on the curriculum.",
-                      note: "American English: Spanish is in the curriculum.",
-                    ),
+                        text: "French Customs have arrested two men."),
                     ExampleSentenceKurdish(
-                        text: "ئیسپانی لە پڕۆگرامەکەدایە بۆ خوێندندایە."),
+                        text:
+                            "فەرمانگەی گومرکی فەرەنسا دوو کەسی دەستگیرکردووە."),
                   ],
                 ),
               ),
@@ -382,10 +386,151 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums2("en-GB"),
+                    onPressed: () => speakcustomss2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums2("en-US"),
+                    onPressed: () => speakcustomss2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) ئەو شوێنەی لە بەندەرێک یان فڕۆکەخانەیەک جانتاکانت دەپشکنرێت لێی کە دەچیتە وڵاتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "You will have to declare these goods when you go through customs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەبێت ئاماژە بەم کەلوپەلانە بکەیت کە بە گومرکدا تێدەپەڕیت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcustomss3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcustomss3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "We got stopped and searched at the Italian customs."),
+                    ExampleSentenceKurdish(
+                        text: "لە گومرکی ئیتالیا وەستێندراین و پشکنراین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcustomss4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcustomss4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "We cleared customs by five o'clock."),
+                    ExampleSentenceKurdish(
+                        text: "کە کاتژمێر پێنج بوو بە گومرکدا تێپەڕین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcustomss5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcustomss5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) ئەو باجەی بە حکومەت دەدرێت کە کەلوپەل هاوردەی وڵاتێک دەکرێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "You must pay customs on all imports of alcohol."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەبێت گومرک بدەیت بۆ هەموو هاوردەیەکی مادەی کحوولی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcustomss6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcustomss6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "We had to pay customs duties on the beer."),
+                    ExampleSentenceKurdish(
+                        text: "پێویست بوو باجی گومرک بدەین بۆ بیرەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcustomss7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcustomss7("en-US"),
                   ),
                 ],
               ),
@@ -439,9 +584,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curriculum (Derived forms: curriculums, curricula)
-1. An integrated course of academic studies (= course of study, program [N. Amer], programme [Brit, Cdn], syllabus)
-"he was admitted to a new curriculum at the university";
+- Noun: customs 
+1. The government department responsible for collecting tariffs and for controlling the flow of goods into and out of a country
+ 
+2. Money collected under a tariff (= customs duty, custom, impost)
+ 
+3. A customs office or checkpoint
 """,
   );
 
@@ -474,8 +622,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l554kV12Wuo?t=',
-    startSeconds: 407,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 749,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +647,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zUbod5t_2oM?t=',
-    startSeconds: 478,
+    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    startSeconds: 1639,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +672,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vdiiIaKSSPA?t=',
-    startSeconds: 118,
+    videoId: 'https://youtu.be/sAiTuitN5b8?t=',
+    startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +697,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/15SILwg5ehc?t=',
-    startSeconds: 124,
+    videoId: 'https://youtu.be/cY4e0uvp7uI?t=',
+    startSeconds: 484,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +722,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_zZxCVBi7-k?t=',
-    startSeconds: 1436,
+    videoId: 'https://youtu.be/JR3z8lq2cNM?t=',
+    startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +747,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_vwSrfw85S4?t=',
-    startSeconds: 519,
+    videoId: 'https://youtu.be/cbDGTgtU0nk?t=',
+    startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +772,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/adx4of7Pnvo?t=',
-    startSeconds: 198,
+    videoId: 'https://youtu.be/X2jakwIVLbY?t=',
+    startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

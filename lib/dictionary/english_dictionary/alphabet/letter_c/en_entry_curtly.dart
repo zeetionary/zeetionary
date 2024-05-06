@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycurriculum extends StatefulWidget {
-  const EnglishEntrycurriculum({super.key});
+class EnglishEntrycurtly extends StatefulWidget {
+  const EnglishEntrycurtly({super.key});
 
   @override
-  State<EnglishEntrycurriculum> createState() => _EnglishEntrycurriculumState();
+  State<EnglishEntrycurtly> createState() => _EnglishEntrycurtlyState();
 }
 
-class _EnglishEntrycurriculumState extends State<EnglishEntrycurriculum> {
+class _EnglishEntrycurtlyState extends State<EnglishEntrycurtly> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "curriculum");
+    return const EntryTitle(word: "curtly");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: curriculum");
+    return const AlsoEnglish(word: "also: curtly");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkɜːtli/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtly(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("curtly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcurriculum("en-GB"),
+      onPressed: () => speakcurtly("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkɜːrtli/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtly(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("curtly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcurriculum("en-US"),
+      onPressed: () => speakcurtly("en-US"),
     );
   }
 }
@@ -216,110 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculums1(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He nodded curtly."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcurtlys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The school curriculum should be as broad as possible."); // DOPSUM: CHANGE TEXT
+        "Steve answered curtly and turned his back on me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums2(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Spanish is on the curriculum."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums3(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums4(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums5(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums6(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums7(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums8(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums9(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums10(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums11(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums12(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurtlys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcurtly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcurriculums13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurtlys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -331,33 +330,29 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: وانەنامە، بەرنامە، بەرنامەی خوێندن (خوێندنگا، کۆلێژ و هتد)
+کوردی: بێ‌ڕەوشتانە، بە توندی‌یەوە
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا هەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، هتد"),
+                  "١. (ھاوەڵکار) بەشێوەیەک کە بێ‌ڕێزانە دەردەکەوێت بەهۆی ئەوەی وشەی کەم بەکارهاتووە یان خێرایە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The school curriculum should be as broad as possible."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وانەنامەی خوێندنگاکە دەکرێت هەتا بکرێت فراوان بێت."),
+                    ExampleSentenceEnglish(text: "He nodded curtly."),
+                    ExampleSentenceKurdish(text: "بەخێرایی سەری دالەقاند."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "curriculum", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "curtly", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums1("en-GB"),
+                    onPressed: () => speakcurtlys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums1("en-US"),
+                    onPressed: () => speakcurtlys1("en-US"),
                   ),
                 ],
               ),
@@ -370,11 +365,10 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                      text: "Spanish is on the curriculum.",
-                      note: "American English: Spanish is in the curriculum.",
-                    ),
+                        text:
+                            "Steve answered curtly and turned his back on me."),
                     ExampleSentenceKurdish(
-                        text: "ئیسپانی لە پڕۆگرامەکەدایە بۆ خوێندندایە."),
+                        text: "ستیڤ بێ‌ڕێزانە وەڵامی دایەوە و پشتی لێم لرد."),
                   ],
                 ),
               ),
@@ -382,10 +376,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums2("en-GB"),
+                    onPressed: () => speakcurtlys2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums2("en-US"),
+                    onPressed: () => speakcurtlys2("en-US"),
                   ),
                 ],
               ),
@@ -439,9 +433,9 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curriculum (Derived forms: curriculums, curricula)
-1. An integrated course of academic studies (= course of study, program [N. Amer], programme [Brit, Cdn], syllabus)
-"he was admitted to a new curriculum at the university";
+- Adverb: curtly 
+1. In a curt, abrupt and discourteous manner (= short, shortly)
+"he told me curtly to get on with it";
 """,
   );
 
@@ -474,8 +468,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l554kV12Wuo?t=',
-    startSeconds: 407,
+    videoId: 'https://youtu.be/lf5MT9kGs6g?t=',
+    startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +493,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zUbod5t_2oM?t=',
-    startSeconds: 478,
+    videoId: 'https://youtu.be/3Ohp9y-M6bg?t=',
+    startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +518,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vdiiIaKSSPA?t=',
-    startSeconds: 118,
+    videoId: 'https://youtu.be/TewAbpe8RAg?t=',
+    startSeconds: 1188,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +543,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/15SILwg5ehc?t=',
-    startSeconds: 124,
+    videoId: 'https://youtu.be/K1_qzg-2E1A?t=',
+    startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +568,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_zZxCVBi7-k?t=',
-    startSeconds: 1436,
+    videoId: 'https://youtu.be/JkPwLmr55oI?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +593,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_vwSrfw85S4?t=',
-    startSeconds: 519,
+    videoId: 'https://youtu.be/qd9Gbh-u-VM?t=',
+    startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +618,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/adx4of7Pnvo?t=',
-    startSeconds: 198,
+    videoId: 'https://youtu.be/i74CY3QDwO0?t=',
+    startSeconds: 529,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

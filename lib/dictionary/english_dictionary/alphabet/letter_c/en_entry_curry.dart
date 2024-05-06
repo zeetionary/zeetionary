@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycurriculum extends StatefulWidget {
-  const EnglishEntrycurriculum({super.key});
+class EnglishEntrycurry extends StatefulWidget {
+  const EnglishEntrycurry({super.key});
 
   @override
-  State<EnglishEntrycurriculum> createState() => _EnglishEntrycurriculumState();
+  State<EnglishEntrycurry> createState() => _EnglishEntrycurryState();
 }
 
-class _EnglishEntrycurriculumState extends State<EnglishEntrycurriculum> {
+class _EnglishEntrycurryState extends State<EnglishEntrycurry> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "curriculum");
+    return const EntryTitle(word: "curry");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: curriculum");
+    return const AlsoEnglish(word: "also: curry");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUK: /ˈkʌri/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurry(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("curry"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakcurriculum("en-GB"),
+      onPressed: () => speakcurry("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /kəˈrɪkjələm/");
+    return const IPAofEnglish(text: "IpaUS: /ˈkɜːri/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculum(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurry(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("curriculum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("curry"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakcurriculum("en-US"),
+      onPressed: () => speakcurry("en-US"),
     );
   }
 }
@@ -216,110 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcurriculums1(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The school curriculum should be as broad as possible."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcurriculums2(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Spanish is on the curriculum."); // DOPSUM: CHANGE TEXT
+        .speak("Would you like some more curry?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums3(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums4(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums5(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums6(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums7(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums8(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums9(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums10(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums11(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums12(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcurriculums13(String languageCode) async {
-    // DOPSUM: CHANGE speakcurriculum
+  Future<void> speakcurrys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcurriculums1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcurrys1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcurrys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcurry
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcurrys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,62 +329,32 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: وانەنامە، بەرنامە، بەرنامەی خوێندن (خوێندنگا، کۆلێژ و هتد)
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) تەواوی ئەو بابەتانەی لە کۆرسێکدا هەن یان بەشێکن لە خوێندنی قوتابخانە، کۆلێژ، هتد"),
+                  "١. (ناو، کردار) جۆرە خواردنێکی باشووری ئاسیا کە لە گۆشت، سەوزە، هتد پێکدێت و لە سۆسی تووندا لێدەنرێت، و زۆرجار لەگەڵ برنج دەخورێت؛ درووستکردنی ئەم خواردنە بە گۆشت، سەوزە، هتد"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The school curriculum should be as broad as possible."),
+                        text: "Would you like some more curry?"),
                     ExampleSentenceKurdish(
-                        text:
-                            "وانەنامەی خوێندنگاکە دەکرێت هەتا بکرێت فراوان بێت."),
+                        text: "حەزت بە هەندێک کەری زیاتر هەیە؟"),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "curriculum", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "curry", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums1("en-GB"),
+                    onPressed: () => speakcurrys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                      text: "Spanish is on the curriculum.",
-                      note: "American English: Spanish is in the curriculum.",
-                    ),
-                    ExampleSentenceKurdish(
-                        text: "ئیسپانی لە پڕۆگرامەکەدایە بۆ خوێندندایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakcurriculums2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakcurriculums2("en-US"),
+                    onPressed: () => speakcurrys1("en-US"),
                   ),
                 ],
               ),
@@ -439,9 +408,17 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curriculum (Derived forms: curriculums, curricula)
-1. An integrated course of academic studies (= course of study, program [N. Amer], programme [Brit, Cdn], syllabus)
-"he was admitted to a new curriculum at the university";
+- Noun: curry (Derived forms: curries)
+1. (East Indian cookery) a pungent dish of vegetables or meats flavoured with curry powder and usually eaten with rice
+
+- Verb: curry (Derived forms: currying, curried, curries)
+1. (cooking) season with a mixture of spices; typical of Indian cooking
+ 
+2. Treat by incorporating fat
+"curry tanned leather"
+ 
+3. Give a neat appearance to (= dress, groom)
+"curry the horses";
 """,
   );
 
@@ -474,8 +451,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l554kV12Wuo?t=',
-    startSeconds: 407,
+    videoId: 'https://youtu.be/QhMO5SSmiaA?t=',
+    startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +476,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zUbod5t_2oM?t=',
-    startSeconds: 478,
+    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    startSeconds: 185,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +501,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vdiiIaKSSPA?t=',
-    startSeconds: 118,
+    videoId: 'https://youtu.be/sxt4YCIsn2I?t=',
+    startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +526,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/15SILwg5ehc?t=',
-    startSeconds: 124,
+    videoId: 'https://youtu.be/1oSuoFwPX4E?t=',
+    startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +551,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_zZxCVBi7-k?t=',
-    startSeconds: 1436,
+    videoId: 'https://youtu.be/ihwAF-zahsA?t=',
+    startSeconds: 815,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +576,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_vwSrfw85S4?t=',
-    startSeconds: 519,
+    videoId: 'https://youtu.be/-lkCsKXAxfo?t=',
+    startSeconds: 531,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +601,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/adx4of7Pnvo?t=',
-    startSeconds: 198,
+    videoId: 'https://youtu.be/ZMaW6TamNAc?t=',
+    startSeconds: 497,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

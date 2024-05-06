@@ -199,6 +199,7 @@ class EnglishEntrycaretaker extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) کەسێک کە کاری چاودێریکردنی بینایەکە"),
+                          const AlsoEnglishckb(word: "ھەروەھا: custodian"),
                           Row(
                             children: [
                               const Expanded(

@@ -1121,6 +1121,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٨. (ناو) کڕینی خزمەتگوزاری و کاڵا لە فرۆشگایەک یان بازرگانییەک لە لایەن خەڵکییەوە"),
+                          const AlsoEnglishckb(word: "ھەروەھا: custom"),
                           Row(
                             children: [
                               const Expanded(

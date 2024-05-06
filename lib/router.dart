@@ -4152,7 +4152,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_custom_built.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_customer.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_customs.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cut.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -8982,7 +8982,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-custom-built": (_) => const MaterialPage(child: EnglishEntrycustombuilt()),
   "/english-customer": (_) => const MaterialPage(child: EnglishEntrycustomer()),
   "/english-customs": (_) => const MaterialPage(child: EnglishEntrycustoms()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-cut": (_) => const MaterialPage(child: EnglishEntrycut()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

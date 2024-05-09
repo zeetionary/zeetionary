@@ -364,7 +364,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("First, cut a long piece of string."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts18(String languageCode) async {
@@ -372,7 +373,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He cut four thick slices from the loaf."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts19(String languageCode) async {
@@ -380,7 +382,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I cut them all a piece of birthday cake."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts20(String languageCode) async {
@@ -396,7 +399,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Workmen cut a hole in the pipe."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts22(String languageCode) async {
@@ -404,7 +408,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The climbers cut steps in the ice."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts23(String languageCode) async {
@@ -412,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This knife won't cut."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts24(String languageCode) async {
@@ -420,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Sandstone cuts easily."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts25(String languageCode) async {
@@ -428,7 +433,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Buyers will bargain hard to cut the cost of the house they want."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts26(String languageCode) async {
@@ -436,7 +442,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His salary has been cut by ten per cent."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts27(String languageCode) async {
@@ -444,7 +451,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Bank of England has cut interest rates to 1.5 per cent."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts28(String languageCode) async {
@@ -452,7 +460,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Could you cut your essay from 5 000 to 3 000 words?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts29(String languageCode) async {
@@ -460,7 +469,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts2900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We have managed to cut our costs drastically."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts30(String languageCode) async {
@@ -477,7 +487,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The President has promised to cut taxes significantly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts32(String languageCode) async {
@@ -485,7 +496,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The injured driver had to be cut from the wreckage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts33(String languageCode) async {
@@ -493,7 +505,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Two survivors were cut free after being trapped for twenty minutes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts34(String languageCode) async {
@@ -501,7 +514,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The swimsuit was cut high in the leg."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts35(String languageCode) async {
@@ -509,7 +523,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This scene was cut from the final version of the movie."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts36(String languageCode) async {
@@ -517,7 +532,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You can cut and paste between different programs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts37(String languageCode) async {
@@ -525,7 +541,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Cut the chatter and get on with your work!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts38(String languageCode) async {
@@ -533,7 +550,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She has cut all ties with her family."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts39(String languageCode) async {
@@ -541,7 +559,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts3900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has refused to cut links with these companies."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts40(String languageCode) async {
@@ -558,7 +577,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The director shouted ‘Cut!’"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts42(String languageCode) async {
@@ -566,7 +586,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The scene cuts from the bedroom to the street."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts43(String languageCode) async {
@@ -574,7 +595,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's always cutting class."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts44(String languageCode) async {
@@ -582,7 +603,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His cruel remarks cut her deeply."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts45(String languageCode) async {
@@ -590,7 +612,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("When did she cut her first tooth?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts46(String languageCode) async {
@@ -598,7 +621,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Blood poured from the deep cut on his arm."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts47(String languageCode) async {
@@ -606,7 +630,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Clean the cut and cover it to prevent infection."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts48(String languageCode) async {
@@ -614,7 +639,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has a small cut on his finger."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts49(String languageCode) async {
@@ -622,7 +648,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts4900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "One man was attacked and suffered cuts to his face."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts50(String languageCode) async {
@@ -639,7 +666,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She suffered only minor cuts and grazes as a result of the accident."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts52(String languageCode) async {
@@ -647,7 +675,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Using sharp scissors, make a small cut in the material."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts53(String languageCode) async {
@@ -655,7 +684,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The company has made another round of job cuts this year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts54(String languageCode) async {
@@ -663,7 +693,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They announced cuts in public spending."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts55(String languageCode) async {
@@ -671,7 +702,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The cuts will come into effect next May."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts56(String languageCode) async {
@@ -679,7 +711,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Your hair could do with a cut."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts57(String languageCode) async {
@@ -687,7 +720,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Despite its simplicity, the dress stood out due to its elegant cut."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts58(String languageCode) async {
@@ -695,7 +729,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They were rewarded with a cut of 5% from the profits."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts59(String languageCode) async {
@@ -703,7 +738,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts5900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He takes a cut of the profits."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts60(String languageCode) async {
@@ -720,7 +756,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts6100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The director objected to the cuts ordered by the censor."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts62(String languageCode) async {
@@ -728,7 +765,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts6200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Several scenes had been removed in the cut of the movie shown at the festival."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts63(String languageCode) async {
@@ -736,7 +774,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts6300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We're working on the first cut of next year's budget."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts64(String languageCode) async {
@@ -744,7 +783,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcuts6400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Sirloin is the most expensive cut of beef."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcuts65(String languageCode) async {
@@ -1408,14 +1448,16 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (کردار) پێنناسە"),
+          const DefinitionKurdish(
+              text: "٤. (کردار) لابردنی شتێک یان بەشێکی بە چەقۆیەک، هتد"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "speakcuts1700"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                    ExampleSentenceEnglish(
+                        text: "First, cut a long piece of string."),
+                    ExampleSentenceKurdish(text: "سەرەتا، تاڵێکی درێژ ببڕە."),
                   ],
                 ),
               ),
@@ -1427,6 +1469,1330 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                   CustomIconButtonAmerican(
                     onPressed: () => speakcuts17("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He cut four thick slices from the loaf."),
+                    ExampleSentenceKurdish(
+                        text: "چوار پارچەی ئەستووری لە سەموونەکە بڕی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts18("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts18("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                      text: "I cut them all a piece of birthday cake.",
+                      note:
+                          "also: I cut a piece of birthday cake for them all.",
+                    ),
+                    ExampleSentenceKurdish(
+                        text: "پارچەیەکم لە کێکی لەدایکبوون بڕی بۆ هەموویان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Shall I cut you a piece of cake?"),
+                    ExampleSentenceKurdish(text: "پارچەیەک کێکت بۆ ببڕم."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٥. (کردار) درووستکردنی شتێک بە داتاشین یان لێبڕین لێی بە چەقۆ، هتد"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Workmen cut a hole in the pipe."),
+                    ExampleSentenceKurdish(
+                        text: "کرێکارەکان کونێکیان کردە بۆرییەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The climbers cut steps in the ice."),
+                    ExampleSentenceKurdish(
+                        text: "شاخەوانان جێ هەنگاویان دەکردەوە لە سەهۆڵەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts22("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (کردار) کە دەکرێت شت ببڕێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "This knife won't cut."),
+                    ExampleSentenceKurdish(text: "ئەم چەقۆیە شت نابڕێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts23("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts23("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٧. (کردار) کە دەکرێت ببڕدرێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Sandstone cuts easily."),
+                    ExampleSentenceKurdish(text: "بەردەلم بە ئاسانی دەبڕدرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts24("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts24("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٨. (کردار) کەمکردنەوەی شتێک بە بڕینی لێی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Buyers will bargain hard to cut the cost of the house they want."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کڕیاران سەودای زۆر دەکەن بۆ کەمکردنەوەی نرخی ئەو خانووەی دەیانەوێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts25("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts25("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "His salary has been cut by ten per cent."),
+                    ExampleSentenceKurdish(
+                        text: "مووچەکەی بە ڕێژەی دە لە سەد کەمکراوەتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts26("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts26("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The President has promised to cut taxes significantly."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "سەرۆک بەڵێنی داوە ڕێژەی باج بە ئاستێکی زۆر کەم بکاتەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts31("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts31("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The Bank of England has cut interest rates to 1.5 per cent."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "بانکی ئینگلتەرە ڕێژەی دووی کەمکردووەتەوە بۆ ١,٥ لە سەد."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts27("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts27("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Could you cut your essay from 5 000 to 3 000 words?"),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "دەتوانیت وتارەکەت لە ٥٠٠٠ وشەوە بۆ ٣٠٠٠ وشە کەم بکەیتەوە؟"),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts28("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts28("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "We have managed to cut our costs drastically."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "توانیومانە خەرجییەکانمان بە ئاستێکی زۆر کەم بکەینەوە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts29("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts29("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The price has been cut from €250 to €175."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "نرخەکە لە ٢٥٠ یۆرۆوە کەمکراوەتەوە بۆ ١٧٥ یۆرۆ."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts30("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts30("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٩. (کردار) ڕێگەدان بەوەی کە کەسێک لە شوێنێک هەڵبێت بە بڕینی حەبلێک، شتێک، هتد کە ڕێگری لێ دەکات"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The injured driver had to be cut from the wreckage."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شۆفێرە بریندارەکە دەبوو لە لەت‌وکوتەکە دەربهێندرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts32("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts32("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Two survivors were cut free after being trapped for twenty minutes."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕزگاربووان ئازادکران لە دوای ئەوەی بۆ بیست خولەک گیریان خواردبوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts33("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts33("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٠. (کردار) دیزاین کردن و بڕینی پارچە جلێک بە شێوەیەکی دیاریکراو"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The swimsuit was cut high in the leg."),
+                    ExampleSentenceKurdish(
+                        text: "جلە مەلەکە لە لاقدا بەرز دیزاین کرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts34("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts34("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١١. (کردار) سڕینەوەی شتێک لە شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "This scene was cut from the final version of the movie."),
+                    ExampleSentenceKurdish(
+                        text: "ئەم دیمەنە لە کۆتا ڤێرژنی فیلمەکە بڕدرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts35("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts35("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٢. (کردار) لابردنی پارچە نووسینێک لە کۆمپیوتەرێک و دانانی لە شوێنێکی دیکە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "You can cut and paste between different programs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەتوانیت نووسین ببڕیت و بیلکێنیت لە پڕۆگرامی جیاوازدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts36("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts36("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٣. (کردار) بۆ گوتن بە کەسێک بۆ ئەوەی لە کردنی شتێک بوەستێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Cut the chatter and get on with your work!"),
+                    ExampleSentenceKurdish(
+                        text: "واز لە چەنەدان بێنە و دەست بە کار بکە!"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts37("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts37("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٤. (کردار) بە تەواوی کۆتاییهێنان بە پەیوەندی یان گفتوگۆ لەگەڵ کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She has cut all ties with her family."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەموو پەیوەندییەکانی لەگەڵ خێزانەکەی کۆتایی پێهێناوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts38("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts38("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He has refused to cut links with these companies."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕەتیکردووەتەوە پەیوەندی لەگەڵ ئەم کۆمپانیانەدا بپچڕێنێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts39("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts39("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "١٥. (کردار) ئامادەکردنی فیلمێک بە سڕینەوەی ژمارەیەک بەشی یان گۆڕینی ڕیزبەندییان"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The movie was a cut by John Green."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "فیلمەکە لەلایەن جۆن گرینەوە کاری دەستکاری بۆ کرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts40("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts40("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٦. (کردار) وەستان لە وێنە گرتن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The director shouted ‘Cut!’"),
+                    ExampleSentenceKurdish(
+                        text: "دەرهێنەرەکە هاواری کرد 'بوەستن!'"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts41("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts41("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "١٧. (کردار) جوڵان بە خێرایی لە دیمەنێکەوە بۆ یەکێکی دیکە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The scene cuts from the bedroom to the street."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دیمەنەکە بەخێرایی دەچێت لە ژووری خەوەوە بۆ سەر شەقام."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts42("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts42("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٨. (کردار) نەچوون بۆ وانەی خوێندن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He's always cutting class."),
+                    ExampleSentenceKurdish(
+                        text: "هەمیشە لە وانەکان دووردەکەوێتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts43("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts43("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "١٩. (کردار) ئازاردانی دەروونی کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "His cruel remarks cut her deeply."),
+                    ExampleSentenceKurdish(
+                        text: "لێدوانە بێ‌بەزەییەکانی بە قووڵی برینداری کرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts44("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts44("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢٠. (کردار) دەرکردنی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "When did she cut her first tooth?"),
+                    ExampleSentenceKurdish(text: "کەی یەکەم ددانی دەرکرد؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts45("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts45("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢١. (ناو) برینێک کە بە شتێکی تیژ درووست بووە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Blood poured from the deep cut on his arm."),
+                    ExampleSentenceKurdish(
+                        text: "خوێن چۆڕەی کرد لە برینە قووڵەکەی باڵی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts46("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts46("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Clean the cut and cover it to prevent infection."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "برینەکە پاک بکەوە بۆ ئەوەی لە هەوکردن بیپارێزی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts47("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts47("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text: "He has a small cut on his finger."),
+                            ExampleSentenceKurdish(
+                                text: "برینێکی بچووک لەسەر پەنجەی هەیە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts48("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts48("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "One man was attacked and suffered cuts to his face."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "پیاوێک هێرشی کرایە سەر و برینێکی بەرکەوت لەسەر ڕووخساری."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts49("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts49("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text: "She got a bad cut over her right eye."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "تووشی برینێکی خراپ بوو لەسەر چاوی چەپی."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts50("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts50("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "She suffered only minor cuts and grazes as a result of the accident."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "تەنها تووشی برینی بچووک و داڕووشان بوویەوە لە ئەنجامی ڕووداوەکە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakcuts51("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakcuts51("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٢. (ناو) کونێک لە شتێکدا کە بە شتێکی تیژ درووستکراوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Using sharp scissors, make a small cut in the material."),
+                    ExampleSentenceKurdish(
+                        text: "بە مەقەستی تیژ کونێکی بچووک بکە پارچەکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts52("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts52("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢٣. (ناو) کەمکردنەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The company has made another round of job cuts this year."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کۆمپانیاکە قۆناغێکی دیکەی کەمکردنەوەی کاری دەستپێکردووە بۆ ئەمساڵ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts53("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts53("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "They announced cuts in public spending."),
+                    ExampleSentenceKurdish(
+                        text: "کەمکردنەوەیان لە خەرجی گشتیدا ڕاگەیاند."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts54("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts54("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The cuts will come into effect next May."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کەمکردنەوەکان ئایاری داهاتوو دەچنە قۆناغی جێبەجێکردنەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts55("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts55("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢٤. (ناو) بڕینی قژی کەسێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Your hair could do with a cut (= it is too long)."),
+                    ExampleSentenceKurdish(text: "پرچت پێویستی بە بڕینێکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts56("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts56("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٥. (ناو) دیزاین و شێوازی جلێک بەهۆی شێوەی بڕینی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Despite its simplicity, the dress stood out due to its elegant cut."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سەرەڕای سادەییەکەی، جلەکە بەرچاو کەوت بەهۆی دیزاینە شۆخەکەی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts57("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts57("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢٦. (ناو) بڕێک لە شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "They were rewarded with a cut of 5% from the profits."),
+                    ExampleSentenceKurdish(
+                        text: "خەڵات کران بە پشکی ٥٪ لە قازانجەکان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts58("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts58("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He takes a cut of the profits."),
+                    ExampleSentenceKurdish(text: "بەشێک لە قازانجەکان دەبات."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts59("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts59("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "By the time the organizers have had their cut, there won't be much left."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تا ئەوکاتەی ڕێکخەران پشکی خۆیان دەبەن زۆر نامێنێتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts60("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts60("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٧. (ناو) بڕینی فیلمێک، شانۆیەک، پارچە نووسینێک، هتد"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The director objected to the cuts ordered by the censor."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەرهێنەرەک وەستایەوە دژ بەو بڕینانەی کە لەلایەن چاودێرەکەوە بڕیاری لێدرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts61("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts61("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢٨. (ناو) وەشانێکی شتێک کە درووستکراوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Several scenes had been removed in the cut of the movie shown at the festival."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ژمارەیەک دیمەن سڕدراوەتەوە لەو وەشانەی فیلمەکە کە لە فیستیڤاڵەکە پیشاندرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts62("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts62("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "We're working on the first cut of next year's budget."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کار لەسەر یەکەم وەشانی بودجەی ساڵی داهاتوو دەکەین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts63("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts63("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢٩. (ناو) پارچە گۆشتێک کە لە بەشێکی دیاریکراوی ئاژەڵێک بڕدراوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Sirloin is the most expensive cut of beef."),
+                    ExampleSentenceKurdish(
+                        text: "سیرلۆین گرانترین پارچە گۆشتی مانگایە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakcuts64("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakcuts64("en-US"),
                   ),
                 ],
               ),

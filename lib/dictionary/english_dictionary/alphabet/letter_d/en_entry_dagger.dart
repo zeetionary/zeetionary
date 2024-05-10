@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryd extends StatefulWidget {
-  const EnglishEntryd({super.key});
+class EnglishEntrydagger extends StatefulWidget {
+  const EnglishEntrydagger({super.key});
 
   @override
-  State<EnglishEntryd> createState() => _EnglishEntrydState();
+  State<EnglishEntrydagger> createState() => _EnglishEntrydaggerState();
 }
 
-class _EnglishEntrydState extends State<EnglishEntryd> {
+class _EnglishEntrydaggerState extends State<EnglishEntrydagger> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "d");
+    return const EntryTitle(word: "dagger");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: d");
+    return const AlsoEnglish(word: "also: dagger");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /diː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdæɡə(r)/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdagger(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dagger"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakd("en-GB"),
+      onPressed: () => speakdagger("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /diː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdæɡər/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdagger(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dagger"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakd("en-US"),
+      onPressed: () => speakdagger("en-US"),
     );
   }
 }
@@ -216,109 +216,110 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakds1(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers1(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("‘Dog’ begins with (a) D/‘D’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Each man was armed with both sword and dagger."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds2(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers2(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He got (a) D in geography."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His hand dropped to the dagger tucked into his belt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds3(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers3(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds4(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers4(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds5(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers5(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds6(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers6(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds7(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers7(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds8(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers8(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds9(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers9(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds10(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers10(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds11(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers11(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds12(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers12(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds13(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaggers13(String languageCode) async {
+    // DOPSUM: CHANGE speakdagger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaggers1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,45 +330,48 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//         const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: خەنجێر، خەنجەر، کێرد، تووژگ، کالانی
+"""),
           const DefinitionKurdish(
-              text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
+              text: "١. (ناو) چەقۆیەکی بچووکی تیژ کە وەک چەک بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "‘Dog’ begins with (a) D/‘D’."),
-                    ExampleSentenceKurdish(text: "'Dog' بە 'D' دەستپێدەکات."),
+                        text: "Each man was armed with both sword and dagger."),
+                    ExampleSentenceKurdish(
+                        text: "هەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "d", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "dagger", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds1("en-GB"),
+                    onPressed: () => speakdaggers1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds1("en-US"),
+                    onPressed: () => speakdaggers1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) ئەنجامی خوێندکارێک کە وەریدەگرێت کە زۆرباش نییە"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He got (a) D in geography."),
-                    ExampleSentenceKurdish(text: "لە جوگرافیا D وەرگرت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "His hand dropped to the dagger tucked into his belt."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەستی برد بۆ خەنجەرەکەی کە لە قایشەکەیدا شاردرابوویەوە."),
                   ],
                 ),
               ),
@@ -375,10 +379,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds2("en-GB"),
+                    onPressed: () => speakdaggers2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds2("en-US"),
+                    onPressed: () => speakdaggers2("en-US"),
                   ),
                 ],
               ),
@@ -432,16 +436,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: d (Derived forms: ds)
-1. The 4th letter of the Roman alphabet (= D)
-
-- Adjective: d 
-1. Denoting a quantity consisting of 500 items or units (= five hundred, 500)
-
-- Noun: D (Derived forms: Ds)
-1. A fat-soluble vitamin that prevents rickets (= vitamin D, calciferol, viosterol, ergocalciferol, cholecalciferol)
+- Noun: dagger (Derived forms: daggers)
+1. A short knife with a pointed blade used for piercing or stabbing (= sticker)
  
-2. The cardinal number that is the product of one hundred and five (= five hundred, 500)
+2. A character used in printing to indicate a second cross reference or footnote when the asterisk has already been used (= obelisk)
 """,
   );
 
@@ -474,8 +472,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X9ReRV0MNnQ?t=',
-    startSeconds: 1754,
+    videoId: 'https://youtu.be/oD9BaNAH-eE',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +497,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hc693Ac_kIM?t=',
-    startSeconds: 949,
+    videoId: 'https://youtu.be/p0l8cjl3bKE?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +522,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cT0PRiGYn58?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/afCZMw1jBHw?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +547,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ezcJoi1SZ2M?t=',
-    startSeconds: 109,
+    videoId: 'https://youtu.be/jscljZv_sd0?t=',
+    startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +572,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHtlu3SdQLM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/w2n_rGecQ24',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +597,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-bqtpvm0Cg?t=',
-    startSeconds: 3069,
+    videoId: 'https://youtu.be/djitMmDIVA8?t=',
+    startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +622,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AyZNnxLGGlw?t=',
-    startSeconds: 2652,
+    videoId: 'https://youtu.be/Er1cqGfs46M?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryd extends StatefulWidget {
-  const EnglishEntryd({super.key});
+class EnglishEntrydabble extends StatefulWidget {
+  const EnglishEntrydabble({super.key});
 
   @override
-  State<EnglishEntryd> createState() => _EnglishEntrydState();
+  State<EnglishEntrydabble> createState() => _EnglishEntrydabbleState();
 }
 
-class _EnglishEntrydState extends State<EnglishEntryd> {
+class _EnglishEntrydabbleState extends State<EnglishEntrydabble> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "d");
+    return const EntryTitle(word: "dabble");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: d");
+    return const AlsoEnglish(word: "also: dabble");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /diː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdæbl/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabble(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dabble"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakd("en-GB"),
+      onPressed: () => speakdabble("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /diː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdæbl/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabble(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("dabble"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakd("en-US"),
+      onPressed: () => speakdabble("en-US"),
     );
   }
 }
@@ -216,109 +216,111 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakds1(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles1(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She is a talented musician but is content to just dabble."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdabbles2(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("‘Dog’ begins with (a) D/‘D’."); // DOPSUM: CHANGE TEXT
+        .speak("He dabbles in local politics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds2(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles3(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He got (a) D in geography."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She dabbled her toes in the river."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds3(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles4(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds4(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles5(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds5(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles6(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds6(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles7(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds7(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles8(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds8(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles9(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds9(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles10(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds10(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles11(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds11(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles12(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds12(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdabbles13(String languageCode) async {
+    // DOPSUM: CHANGE speakdabble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds13(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdabbles1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,45 +331,49 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//         const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: پڕژاندن، پاشین، شێ دان
+"""),
           const DefinitionKurdish(
-              text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
+              text: "١. (کردار) بەژداریکردن لە چالاکییەک، وەرزشێک، هتد"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "‘Dog’ begins with (a) D/‘D’."),
-                    ExampleSentenceKurdish(text: "'Dog' بە 'D' دەستپێدەکات."),
+                        text:
+                            "She is a talented musician but is content to just dabble."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "میوزیکژەنێکی بەهرەدارە، بەڵام ڕازییە بەوەی تەنها بەختی تاقی بکاتەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "d", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "dabble", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds1("en-GB"),
+                    onPressed: () => speakdabbles1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds1("en-US"),
+                    onPressed: () => speakdabbles1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) ئەنجامی خوێندکارێک کە وەریدەگرێت کە زۆرباش نییە"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He got (a) D in geography."),
-                    ExampleSentenceKurdish(text: "لە جوگرافیا D وەرگرت."),
+                    ExampleSentenceEnglish(
+                        text: "He dabbles in local politics."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە هەڵبژاردنە خۆجێییەکان بەختی خۆی تاقی دەکاتەوە."),
                   ],
                 ),
               ),
@@ -375,10 +381,38 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds2("en-GB"),
+                    onPressed: () => speakdabbles2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds2("en-US"),
+                    onPressed: () => speakdabbles2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (کردار) ڕاوەشاندنی دەست و قاچت لە ئاودا"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She dabbled her toes in the river."),
+                    ExampleSentenceKurdish(
+                        text: "پەنجەی لە ڕووبارەکەدا ڕاوەشاند."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdabbles3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdabbles3("en-US"),
                   ),
                 ],
               ),
@@ -432,16 +466,16 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: d (Derived forms: ds)
-1. The 4th letter of the Roman alphabet (= D)
-
-- Adjective: d 
-1. Denoting a quantity consisting of 500 items or units (= five hundred, 500)
-
-- Noun: D (Derived forms: Ds)
-1. A fat-soluble vitamin that prevents rickets (= vitamin D, calciferol, viosterol, ergocalciferol, cholecalciferol)
+- Verb: dabble (Derived forms: dabbling, dabbles, dabbled)
+1. Dip a foot or hand briefly into a liquid
  
-2. The cardinal number that is the product of one hundred and five (= five hundred, 500)
+2. Play in or as if in water, as of small children (= paddle, splash around)
+ 
+3. Work with in an amateurish manner (= smatter, play around)
+"She dabbles in astronomy";
+ 
+4. Bob forward and under so as to feed off the bottom of a body of water
+"dabbling ducks"
 """,
   );
 
@@ -474,8 +508,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X9ReRV0MNnQ?t=',
-    startSeconds: 1754,
+    videoId: 'https://youtu.be/hCwQw0r_uW4?t=',
+    startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +533,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hc693Ac_kIM?t=',
-    startSeconds: 949,
+    videoId: 'https://youtu.be/qg2nGY1aqlg?t=',
+    startSeconds: 1059,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +558,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cT0PRiGYn58?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/I8dQfQekmcs?t=',
+    startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +583,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ezcJoi1SZ2M?t=',
-    startSeconds: 109,
+    videoId: 'https://youtu.be/FhlXZrUVzQQ?t=',
+    startSeconds: 806,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +608,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHtlu3SdQLM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/wT2boMk4JIQ?t=',
+    startSeconds: 830,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +633,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-bqtpvm0Cg?t=',
-    startSeconds: 3069,
+    videoId: 'https://youtu.be/_3tdqQR8j28?t=',
+    startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +658,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AyZNnxLGGlw?t=',
-    startSeconds: 2652,
+    videoId: 'https://youtu.be/mUpzRwfRzoU?t=',
+    startSeconds: 443,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

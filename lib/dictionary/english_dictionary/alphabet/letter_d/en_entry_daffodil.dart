@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryd extends StatefulWidget {
-  const EnglishEntryd({super.key});
+class EnglishEntrydaffodil extends StatefulWidget {
+  const EnglishEntrydaffodil({super.key});
 
   @override
-  State<EnglishEntryd> createState() => _EnglishEntrydState();
+  State<EnglishEntrydaffodil> createState() => _EnglishEntrydaffodilState();
 }
 
-class _EnglishEntrydState extends State<EnglishEntryd> {
+class _EnglishEntrydaffodilState extends State<EnglishEntrydaffodil> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "d");
+    return const EntryTitle(word: "daffodil");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: d");
+    return const AlsoEnglish(word: "also: daffodil");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /diː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdæfədɪl/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodil(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daffodil"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakd("en-GB"),
+      onPressed: () => speakdaffodil("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /diː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdæfədɪl/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodil(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daffodil"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakd("en-US"),
+      onPressed: () => speakdaffodil("en-US"),
     );
   }
 }
@@ -216,109 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakds1(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils1(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("‘Dog’ begins with (a) D/‘D’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds2(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils2(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He got (a) D in geography."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds3(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils3(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds4(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils4(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds5(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils5(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds6(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils6(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds7(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils7(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds8(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils8(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds9(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils9(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds10(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils10(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds11(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils11(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds12(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils12(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds13(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaffodils13(String languageCode) async {
+    // DOPSUM: CHANGE speakdaffodil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaffodils1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,56 +329,34 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//         const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: (گوڵی) نێزگز، نەرگس، نێرگس، نێرگسەزەردە
+"""),
           const DefinitionKurdish(
-              text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
+              text:
+                  "١. (ناو) گوڵێکی بەهاری زەرد کە لە شێوەی زوڕنایە لە شێوەدا و سمبولی نیشتیمانی وێڵزە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "‘Dog’ begins with (a) D/‘D’."),
-                    ExampleSentenceKurdish(text: "'Dog' بە 'D' دەستپێدەکات."),
+                        text:
+                            "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پەڕەی گەشی زەردی نێرگز سمبولی دووبارە ژیانەوە و سەرەتایەکی تازەیە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "d", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "daffodil", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds1("en-GB"),
+                    onPressed: () => speakdaffodils1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) ئەنجامی خوێندکارێک کە وەریدەگرێت کە زۆرباش نییە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "He got (a) D in geography."),
-                    ExampleSentenceKurdish(text: "لە جوگرافیا D وەرگرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakds2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakds2("en-US"),
+                    onPressed: () => speakdaffodils1("en-US"),
                   ),
                 ],
               ),
@@ -432,16 +410,8 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: d (Derived forms: ds)
-1. The 4th letter of the Roman alphabet (= D)
-
-- Adjective: d 
-1. Denoting a quantity consisting of 500 items or units (= five hundred, 500)
-
-- Noun: D (Derived forms: Ds)
-1. A fat-soluble vitamin that prevents rickets (= vitamin D, calciferol, viosterol, ergocalciferol, cholecalciferol)
- 
-2. The cardinal number that is the product of one hundred and five (= five hundred, 500)
+- Noun: daffodil (Derived forms: daffodils)
+1. Any of numerous varieties of Narcissus plants having showy often yellow flowers with a trumpet-shaped central crown (= Narcissus pseudonarcissus, daff [informal])
 """,
   );
 
@@ -474,8 +444,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X9ReRV0MNnQ?t=',
-    startSeconds: 1754,
+    videoId: 'https://youtu.be/7SreJ5sgEYw?t=',
+    startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +469,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hc693Ac_kIM?t=',
-    startSeconds: 949,
+    videoId: 'https://youtu.be/aHTRMB0vQVg?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +494,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cT0PRiGYn58?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/FPflWdsCRdE',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +519,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ezcJoi1SZ2M?t=',
-    startSeconds: 109,
+    videoId: 'https://youtu.be/TQCy9vVgtxQ?t=',
+    startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +544,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHtlu3SdQLM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/BHIkAMCMS1g?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +569,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-bqtpvm0Cg?t=',
-    startSeconds: 3069,
+    videoId: 'https://youtu.be/okfIjqpOHTA?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +594,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AyZNnxLGGlw?t=',
-    startSeconds: 2652,
+    videoId: 'https://youtu.be/RZH9dCxqf2o?t=',
+    startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryd extends StatefulWidget {
-  const EnglishEntryd({super.key});
+class EnglishEntrydaily extends StatefulWidget {
+  const EnglishEntrydaily({super.key});
 
   @override
-  State<EnglishEntryd> createState() => _EnglishEntrydState();
+  State<EnglishEntrydaily> createState() => _EnglishEntrydailyState();
 }
 
-class _EnglishEntrydState extends State<EnglishEntryd> {
+class _EnglishEntrydailyState extends State<EnglishEntrydaily> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "d");
+    return const EntryTitle(word: "daily");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: d");
+    return const AlsoEnglish(word: "also: daily");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /diː/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdeɪli/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaily(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daily"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakd("en-GB"),
+      onPressed: () => speakdaily("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /diː/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdeɪli/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakd(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdaily(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("d"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daily"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakd("en-US"),
+      onPressed: () => speakdaily("en-US"),
     );
   }
 }
@@ -216,109 +216,116 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakds1(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys1(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Many people still read a daily newspaper."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys2(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The daily routine is the same for all prisoners."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys3(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Keep a record of your daily activities."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys4(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There are daily flights from Dublin to Barcelona."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys5(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The simple things of daily living are often the biggest challenges for him."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys6(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("They charge a daily rate."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys7(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The machines are inspected twice daily."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdailys8(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("‘Dog’ begins with (a) D/‘D’."); // DOPSUM: CHANGE TEXT
+        .speak("The temperature was recorded daily."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds2(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys9(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He got (a) D in geography."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The story was in all the dailies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds3(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys10(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdailys1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds4(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys11(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdailys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds5(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys12(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdailys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakds6(String languageCode) async {
-    // DOPSUM: CHANGE speakd
+  Future<void> speakdailys13(String languageCode) async {
+    // DOPSUM: CHANGE speakdaily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds600"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds7(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds700"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds8(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds800"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds9(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds900"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds10(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1000"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds11(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds12(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakds13(String languageCode) async {
-    // DOPSUM: CHANGE speakd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakds1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdailys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -329,45 +336,48 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//         const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: ڕۆژانە، هەرڕۆژ، هەرڕۆژە، ڕۆژبەڕۆژ، ڕۆژەڤ، هەموو ڕۆژێ دەردەچێ، هەموو ڕۆژێکی حەوتوو 
+"""),
           const DefinitionKurdish(
-              text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
+              text: "١. (ھاوەڵناو) کە هەموو ڕۆژێک ڕوودەدات"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "‘Dog’ begins with (a) D/‘D’."),
-                    ExampleSentenceKurdish(text: "'Dog' بە 'D' دەستپێدەکات."),
+                        text: "Many people still read a daily newspaper."),
+                    ExampleSentenceKurdish(
+                        text: "زۆر کەس هێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "d", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "daily", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds1("en-GB"),
+                    onPressed: () => speakdailys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds1("en-US"),
+                    onPressed: () => speakdailys1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) ئەنجامی خوێندکارێک کە وەریدەگرێت کە زۆرباش نییە"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He got (a) D in geography."),
-                    ExampleSentenceKurdish(text: "لە جوگرافیا D وەرگرت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The daily routine is the same for all prisoners."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "The daily routine is the same for all prisoners.."),
                   ],
                 ),
               ),
@@ -375,10 +385,209 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakds2("en-GB"),
+                    onPressed: () => speakdailys2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakds2("en-US"),
+                    onPressed: () => speakdailys2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Keep a record of your daily activities."),
+                            ExampleSentenceKurdish(
+                                text: "تۆمارێکی چالاکییەکانی ڕۆژانەت ڕابگرە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdailys3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdailys3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "There are daily flights from Dublin to Barcelona."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "گەشتی ڕۆژانە هەیە لە دبلنەوە بۆ بارشەلۆنە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdailys4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdailys4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "The simple things of daily living are often the biggest challenges for him."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "سادەترین شتەکانی ژیانی ڕۆژانە گەورەترین کێشەکانن بۆ ئەو."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdailys5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdailys5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (ھاوەڵناو) پەیوەندیدار بە کاری یەک ڕۆژ"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "They charge a daily rate."),
+                    ExampleSentenceKurdish(
+                        text: "پارە بەشێوەی ڕۆژانە وەردەگرن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdailys6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdailys6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ھاوەڵکار) هەموو ڕۆژێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The machines are inspected twice daily."),
+                    ExampleSentenceKurdish(
+                        text: "ئامێرەکان دوو جار لە ڕۆژێکدا دەپشکندرێن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdailys7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdailys7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The temperature was recorded daily."),
+                    ExampleSentenceKurdish(
+                        text: "پلەی گەرمیم بەشێوەی ڕۆژانە تۆماردەکرا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdailys8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdailys8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٤. (ناو) ڕۆژنامەیەک کە هەموو ڕۆژێک جگە لە یەکشەممان بڵاودەکرێتەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The story was in all the dailies."),
+                    ExampleSentenceKurdish(
+                        text: "بابەتەکە لەسەر هەموو ڕۆژنامە ڕۆژانەییەکان بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdailys9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdailys9("en-US"),
                   ),
                 ],
               ),
@@ -432,16 +641,22 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: d (Derived forms: ds)
-1. The 4th letter of the Roman alphabet (= D)
-
-- Adjective: d 
-1. Denoting a quantity consisting of 500 items or units (= five hundred, 500)
-
-- Noun: D (Derived forms: Ds)
-1. A fat-soluble vitamin that prevents rickets (= vitamin D, calciferol, viosterol, ergocalciferol, cholecalciferol)
+- Adverb: daily 
+1. Every day; without missing a day
+"he stops by daily"
  
-2. The cardinal number that is the product of one hundred and five (= five hundred, 500)
+2. Gradually and progressively (= day by day)
+"his health weakened daily";
+
+- Noun: daily (Derived forms: dailies)
+1. A newspaper that is published every day
+
+- Adjective: daily 
+1. Of or belonging to or occurring every day (= day-to-day, day-by-day, day-after-day)
+"a daily paper"; "daily routine";
+ 
+2. Appropriate for ordinary or routine occasions (= casual, everyday)
+"daily clothes";
 """,
   );
 
@@ -474,8 +689,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X9ReRV0MNnQ?t=',
-    startSeconds: 1754,
+    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    startSeconds: 1135,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -499,8 +714,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hc693Ac_kIM?t=',
-    startSeconds: 949,
+    videoId: 'https://youtu.be/nyf7wNn5fw8?t=',
+    startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -524,8 +739,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cT0PRiGYn58?t=',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/EzD5TsF8eC0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -549,8 +764,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ezcJoi1SZ2M?t=',
-    startSeconds: 109,
+    videoId: 'https://youtu.be/0rBEQjXg7Ak?t=',
+    startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -574,8 +789,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHtlu3SdQLM?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/VVq2pA6dm2A?t=',
+    startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -599,8 +814,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-bqtpvm0Cg?t=',
-    startSeconds: 3069,
+    videoId: 'https://youtu.be/1B9Kng2BN7s?t=',
+    startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -624,8 +839,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AyZNnxLGGlw?t=',
-    startSeconds: 2652,
+    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    startSeconds: 1712,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

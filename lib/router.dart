@@ -4198,20 +4198,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daily.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dainty.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daintily.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dairy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daisy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dale.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dam.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dame.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damnation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dampness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dampen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damson.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dance.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -11708,20 +11707,19 @@ final loggedInRoute = RouteMap(routes: {
   "/english-daily": (_) => const MaterialPage(child: EnglishEntrydaily()),
   "/english-dainty": (_) => const MaterialPage(child: EnglishEntrydainty()),
   "/english-daintily": (_) => const MaterialPage(child: EnglishEntrydaintily()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-dairy": (_) => const MaterialPage(child: EnglishEntrydairy()),
+  "/english-daisy": (_) => const MaterialPage(child: EnglishEntrydaisy()),
+  "/english-dale": (_) => const MaterialPage(child: EnglishEntrydale()),
+  "/english-dam": (_) => const MaterialPage(child: EnglishEntrydam()),
+  "/english-damage": (_) => const MaterialPage(child: EnglishEntrydamage()),
+  "/english-dame": (_) => const MaterialPage(child: EnglishEntrydame()),
+  "/english-damn": (_) => const MaterialPage(child: EnglishEntrydamn()),
+  "/english-damnation": (_) => const MaterialPage(child: EnglishEntrydamnation()),
+  "/english-dampness": (_) => const MaterialPage(child: EnglishEntrydampness()),
+  "/english-dampen": (_) => const MaterialPage(child: EnglishEntrydampen()),
+  "/english-damper": (_) => const MaterialPage(child: EnglishEntrydamper()),
+  "/english-damson": (_) => const MaterialPage(child: EnglishEntrydamson()),
+  "/english-dance": (_) => const MaterialPage(child: EnglishEntrydance()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

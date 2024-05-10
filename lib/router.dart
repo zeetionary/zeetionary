@@ -4211,27 +4211,26 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damper.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_damson.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dance.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dancer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dancing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dandelion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dandruff.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_danger.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dangerous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dangerously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dangle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dank.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dare.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daredevil.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daring.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_daringly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dark.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darken.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darkly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darkness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darling.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darmstadtium.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_darn.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -11720,26 +11719,26 @@ final loggedInRoute = RouteMap(routes: {
   "/english-damper": (_) => const MaterialPage(child: EnglishEntrydamper()),
   "/english-damson": (_) => const MaterialPage(child: EnglishEntrydamson()),
   "/english-dance": (_) => const MaterialPage(child: EnglishEntrydance()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-dancer": (_) => const MaterialPage(child: EnglishEntrydancer()),
+  "/english-dancing": (_) => const MaterialPage(child: EnglishEntrydancing()),
+  "/english-dandelion": (_) => const MaterialPage(child: EnglishEntrydandelion()),
+  "/english-dandruff": (_) => const MaterialPage(child: EnglishEntrydandruff()),
+  "/english-danger": (_) => const MaterialPage(child: EnglishEntrydanger()),
+  "/english-dangerous": (_) => const MaterialPage(child: EnglishEntrydangerous()),
+  "/english-dangerously": (_) => const MaterialPage(child: EnglishEntrydangerously()),
+  "/english-dangle": (_) => const MaterialPage(child: EnglishEntrydangle()),
+  "/english-dank": (_) => const MaterialPage(child: EnglishEntrydank()),
+  "/english-dare": (_) => const MaterialPage(child: EnglishEntrydare()),
+  "/english-daredevil": (_) => const MaterialPage(child: EnglishEntrydaredevil()),
+  "/english-daring": (_) => const MaterialPage(child: EnglishEntrydaring()),
+  "/english-daringly": (_) => const MaterialPage(child: EnglishEntrydaringly()),
+  "/english-dark": (_) => const MaterialPage(child: EnglishEntrydark()),
+  "/english-darken": (_) => const MaterialPage(child: EnglishEntrydarken()),
+  "/english-darkly": (_) => const MaterialPage(child: EnglishEntrydarkly()),
+  "/english-darkness": (_) => const MaterialPage(child: EnglishEntrydarkness()),
+  "/english-darling": (_) => const MaterialPage(child: EnglishEntrydarling()),
+  "/english-darmstadtium": (_) => const MaterialPage(child: EnglishEntrydarmstadtium()),
+  "/english-darn": (_) => const MaterialPage(child: EnglishEntrydarn()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

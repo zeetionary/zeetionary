@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydarn extends StatefulWidget {
-  const EnglishEntrydarn({super.key});
+class EnglishEntrydeadly extends StatefulWidget {
+  const EnglishEntrydeadly({super.key});
 
   @override
-  State<EnglishEntrydarn> createState() => _EnglishEntrydarnState();
+  State<EnglishEntrydeadly> createState() => _EnglishEntrydeadlyState();
 }
 
-class _EnglishEntrydarnState extends State<EnglishEntrydarn> {
+class _EnglishEntrydeadlyState extends State<EnglishEntrydeadly> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "darn");
+    return const EntryTitle(word: "deadly");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: darn");
+    return const AlsoEnglish(word: "also: deadly");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɑːn/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdedli/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadly(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deadly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdarn("en-GB"),
+      onPressed: () => speakdeadly("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɑːrn/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdedli/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadly(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deadly"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdarn("en-US"),
+      onPressed: () => speakdeadly("en-US"),
     );
   }
 }
@@ -216,111 +216,115 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarns1(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys1(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She still darns the holes in her socks."); // DOPSUM: CHANGE TEXT
+        "He was charged with possession of a deadly weapon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns2(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys2(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She runs her finger over the darn to check its smoothness."); // DOPSUM: CHANGE TEXT
+        "The cobra is one of the world's deadliest snakes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns3(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys3(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Why don't you switch the darn thing off and listen to me!"); // DOPSUM: CHANGE TEXT
+        "The terrorists have chosen to play a deadly game with the civilian population."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns4(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys4(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You had a darn good try."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We sat in deadly silence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns5(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys5(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's darn cold tonight."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They are deadly enemies."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns6(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys6(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The missile found its target with deadly accuracy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns7(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys7(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His aim is deadly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns8(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys8(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The man possessed an absolutely deadly charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns9(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys9(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The lecture was absolutely deadly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns10(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys10(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I thought she was joking but she was deadly serious."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns11(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys11(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeadlys1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns12(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys12(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeadlys1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns13(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeadlys13(String languageCode) async {
+    // DOPSUM: CHANGE speakdeadly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeadlys1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -332,38 +336,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دوورینەوە، دروونەوە، جێگای دوورینەوە، خاوەن‌مردوو، خوداگرتوو، یەکجار، سەرپاک، سەرومڕ
+کوردی: کوشندە، مەرگاوی، قڕتێخەر، تیابەر، مەرگ‌بار،	(دوژمنایەتی) خوێنی، قەستەسەر، ئاشتەوەنەبوو، قیناوی، ڕقاوی، توندوتیژ،	کاریگەر، پرباندۆر، کارا،	وەکوو مردوو، مردووئاسا،	ماندووکەر، وەڕەس‌کەر، ناخۆش،	یەکجار،	(گوناهـ) گەورە، یەکجار، وەکوو مردوو
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) چاککردنەوەی کونێک لە پارچەیەکدا بە دوورینەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She still darns the holes in her socks."),
-                    ExampleSentenceKurdish(
-                        text: "هێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) شوێنێک کە دوورینەوەی بۆ کراوە"),
+              text:
+                  "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری هەیە"),
           Row(
             children: [
               const Expanded(
@@ -371,77 +348,20 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "She runs her finger over the darn to check its smoothness."),
+                            "He was charged with possession of a deadly weapon."),
                     ExampleSentenceKurdish(
-                        text:
-                            "پەنجەی دەهێنێت بەسەر دوورینەوەکەدا بۆ پشکنینی لووسیەکەی."),
+                        text: "تاوانبارکرا بە هەڵگرتنی چەکی کوشندە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "deadly", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns2("en-GB"),
+                    onPressed: () => speakdeadlys1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) وەک جنێوێکی بچووک بەکاردێت بۆ جەختکردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why don't you switch the darn thing off and listen to me!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی ئەو شتە نەفرەتییە ناکوژێنیتەوە و گوێم بۆ ڕابگری!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ھاوەڵکار) وەک جنێوێکی بچووک بەکاردێت بۆ گوتنی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You had a darn good try."),
-                    ExampleSentenceKurdish(text: "هەوڵێکی زۆر باشت دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns4("en-US"),
+                    onPressed: () => speakdeadlys1("en-US"),
                   ),
                 ],
               ),
@@ -453,8 +373,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It's darn cold tonight."),
-                    ExampleSentenceKurdish(text: "ئەمشەو زۆر ساردە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The cobra is one of the world's deadliest snakes."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کوبرا یەکێکە لە هەرە کوشندەترین مارەکانی جیهان."),
                   ],
                 ),
               ),
@@ -462,10 +386,226 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns5("en-GB"),
+                    onPressed: () => speakdeadlys2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns5("en-US"),
+                    onPressed: () => speakdeadlys2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The terrorists have chosen to play a deadly game with the civilian population."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تیرۆریستەکان بڕیاریان داوە یارییەکی کوشندە لەگەڵ دانیشتووانە مەدەنییەکە بکەن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ھاوەڵناو) بە ئاستێکی زۆر"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "We sat in deadly silence."),
+                    ExampleSentenceKurdish(
+                        text: "لە بێ دەنگییەکی تەواودا دانیشتین."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "They are deadly enemies (= are full of hatred for each other)."),
+                    ExampleSentenceKurdish(text: "دووژمنی سەرسەختن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The missile found its target with deadly accuracy."),
+                    ExampleSentenceKurdish(
+                        text: "مووشەکەکە گەشت ئامانجەکەی بە وردیی تەواوەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ھاوەڵناو) تەواو کاریگەر؛ بەشێوەیەک کە بەرگری بەرامبەری ناکرێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "His aim is deadly (= so accurate that he can kill easily)."),
+                    ExampleSentenceKurdish(text: "ئامانجەکەی کوشندەیە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The man possessed an absolutely deadly charm."),
+                    ExampleSentenceKurdish(
+                        text: "پیاوەکە خاوەنی جوانییەکی تەواو بێ هاوتا بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (ھاوەڵناو) زۆر بێزارکەر"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The lecture was absolutely deadly."),
+                    ExampleSentenceKurdish(text: "وانەکە تەواو بێزارکەر بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (ھاوەڵکار) تا ئاستێکی زۆر"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "I thought she was joking but she was deadly serious."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وام بیرکردەوە کە گاڵتە دەکات بەڵام تەواو جدی بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeadlys10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeadlys10("en-US"),
                   ),
                 ],
               ),
@@ -519,20 +659,30 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: darn (Derived forms: darns)
-1. Something of little value (= damn, hoot, red cent [N. Amer], shucks, tinker's damn [US, informal], tinker's dam [US, informal])
-"his promise is not worth a darn";
+- Adjective: deadly (Derived forms: deadliest, deadlier)
+1. Causing or capable of causing death (= deathly, mortal)
+"a deadly enemy";
  
-2. Sewing that repairs a worn or torn hole (especially in a garment) (= mend, patch)
-"her stockings had several darns";
+2. Of an instrument of certain death (= lethal)
+"deadly poisons";
+ 
+3. Extremely poisonous or injurious; producing venom (= venomous, virulent)
+"deadly snakes";
+ 
+4. (theology) involving loss of divine grace or spiritual death (= mortal)
+"the seven deadly sins";
+ 
+5. Exceedingly harmful (= baneful, pernicious, pestilent)
+ 
+6. (of a disease) having a rapid course and violent effect
+ 
+7. [informal] So lacking in interest as to cause mental weariness (= boring, deadening, dull, ho-hum [informal], irksome, slow, tedious, tiresome, wearisome, unamusing, draggy [informal], mind-numbing)
 
-- Verb: darn (Derived forms: darning, darned, darns)
-1. Repair by sewing
-"darn socks"
-
- -Interjection: darn 
-Usage: informal
-1. Exclamation of annoyance (= blast, bother [Brit], botheration, bummer [informal], curses, dang [N. Amer, informal], damn, damnation, dammit [informal], damn it [informal], dash [Brit, informal], durn [US, dialect], drat [informal], hang [informal], tarnation [N. Amer, informal], shoot [N. Amer, informal])
+- Adverb: deadly 
+1. As if dead (= lifelessly)
+ 
+2. (used as intensives) excessively (= madly, insanely, deucedly, devilishly)
+"deadly dull"; "deadly earnest"; 
 """,
   );
 
@@ -565,8 +715,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
-    startSeconds: 591,
+    videoId: 'https://youtu.be/fZJGTevM3QI?t=',
+    startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -590,8 +740,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
-    startSeconds: 649,
+    videoId: 'https://youtu.be/wir7jmefyec?t=',
+    startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -615,8 +765,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
-    startSeconds: 284,
+    videoId: 'https://youtu.be/HgbxUMx3JWA?t=',
+    startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -640,8 +790,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
-    startSeconds: 2136,
+    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    startSeconds: 1146,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -665,8 +815,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xdSscBpl97M?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/NeZ4yXyzUG0?t=',
+    startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -690,8 +840,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
-    startSeconds: 240,
+    videoId: 'https://youtu.be/lsbcN9-jU1Y?t=',
+    startSeconds: 1512,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -715,8 +865,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syH0oN_B4g0?t=',
-    startSeconds: 645,
+    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

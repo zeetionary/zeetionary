@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydarn extends StatefulWidget {
-  const EnglishEntrydarn({super.key});
+class EnglishEntrydaub extends StatefulWidget {
+  const EnglishEntrydaub({super.key});
 
   @override
-  State<EnglishEntrydarn> createState() => _EnglishEntrydarnState();
+  State<EnglishEntrydaub> createState() => _EnglishEntrydaubState();
 }
 
-class _EnglishEntrydarnState extends State<EnglishEntrydarn> {
+class _EnglishEntrydaubState extends State<EnglishEntrydaub> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "darn");
+    return const EntryTitle(word: "daub");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: darn");
+    return const AlsoEnglish(word: "also: daub");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɑːn/");
+    return const IPAofEnglish(text: "IpaUK: /dɔːb/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaub(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daub"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdarn("en-GB"),
+      onPressed: () => speakdaub("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɑːrn/");
+    return const IPAofEnglish(text: "IpaUS: /dɔːb/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaub(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("daub"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdarn("en-US"),
+      onPressed: () => speakdaub("en-US"),
     );
   }
 }
@@ -216,111 +216,112 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarns1(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs1(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She still darns the holes in her socks."); // DOPSUM: CHANGE TEXT
+        "The walls of the building were daubed with red paint."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns2(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs2(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She runs her finger over the darn to check its smoothness."); // DOPSUM: CHANGE TEXT
+        "They used spray paint to daub slogans on the walls."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns3(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs3(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Why don't you switch the darn thing off and listen to me!"); // DOPSUM: CHANGE TEXT
+        "The walls of the ancient house were made of wattle and daub."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns4(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs4(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You had a darn good try."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He noticed a daub of sauce on his shirt sleeve."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns5(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs5(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's darn cold tonight."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns6(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs6(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns7(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs7(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns8(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs8(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns9(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs9(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns10(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs10(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns11(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs11(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns12(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs12(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns13(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdaubs13(String languageCode) async {
+    // DOPSUM: CHANGE speakdaub
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdaubs1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -331,39 +332,14 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: دوورینەوە، دروونەوە، جێگای دوورینەوە، خاوەن‌مردوو، خوداگرتوو، یەکجار، سەرپاک، سەرومڕ
-"""),
+//         const KurdishVocabulary(text: """
+// کوردی: وێنەکێشی فشە، کەچەوێنەکێشی
+// 2	سواخ
+// 3	بڕێکی کەم، نەختەڵانێ، تۆزاڵێ
+// """),
           const DefinitionKurdish(
-              text: "١. (کردار) چاککردنەوەی کونێک لە پارچەیەکدا بە دوورینەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She still darns the holes in her socks."),
-                    ExampleSentenceKurdish(
-                        text: "هێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "darn", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) شوێنێک کە دوورینەوەی بۆ کراوە"),
+              text:
+                  "١. (کردار) بڵاوکردنەوەی شتێکی وەک بۆیە، قوڕ، هتد بەسەر شتێکی تردا"),
           Row(
             children: [
               const Expanded(
@@ -371,77 +347,20 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "She runs her finger over the darn to check its smoothness."),
+                            "The walls of the building were daubed with red paint."),
                     ExampleSentenceKurdish(
-                        text:
-                            "پەنجەی دەهێنێت بەسەر دوورینەوەکەدا بۆ پشکنینی لووسیەکەی."),
+                        text: "دیوارەکانی بیناکان بە بۆیە سواخ دران."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "daub", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns2("en-GB"),
+                    onPressed: () => speakdaubs1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) وەک جنێوێکی بچووک بەکاردێت بۆ جەختکردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why don't you switch the darn thing off and listen to me!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی ئەو شتە نەفرەتییە ناکوژێنیتەوە و گوێم بۆ ڕابگری!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ھاوەڵکار) وەک جنێوێکی بچووک بەکاردێت بۆ گوتنی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You had a darn good try."),
-                    ExampleSentenceKurdish(text: "هەوڵێکی زۆر باشت دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns4("en-US"),
+                    onPressed: () => speakdaubs1("en-US"),
                   ),
                 ],
               ),
@@ -453,8 +372,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It's darn cold tonight."),
-                    ExampleSentenceKurdish(text: "ئەمشەو زۆر ساردە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "They used spray paint to daub slogans on the walls."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بۆیەیەکی سپرەییان بەکارهێنا بۆ هەڵسوانی سلۆگان لەسەر دیوارەکە."),
                   ],
                 ),
               ),
@@ -462,10 +385,71 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns5("en-GB"),
+                    onPressed: () => speakdaubs2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns5("en-US"),
+                    onPressed: () => speakdaubs2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) تێکەڵەیەکی قوڕ کە لە ڕابردوودا بەکاردەهات بۆ درووستکردنی دیوار"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The walls of the ancient house were made of wattle and daub."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "خانووەکانی ماڵە کۆنەکان لە چیخ و قوڕ درووستکرابوون."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdaubs3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdaubs3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) کەمێک لە مادەیەک، بۆ نموونە بۆیەیەک، کە بە خراپی بڵاوکراوەتەوە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "He noticed a daub of sauce on his shirt sleeve."),
+                    ExampleSentenceKurdish(
+                        text: "سەرنجی نەختێک سۆسی دا لەسەر قۆڵی جلەکەی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdaubs4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdaubs4("en-US"),
                   ),
                 ],
               ),
@@ -519,20 +503,23 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: darn (Derived forms: darns)
-1. Something of little value (= damn, hoot, red cent [N. Amer], shucks, tinker's damn [US, informal], tinker's dam [US, informal])
-"his promise is not worth a darn";
+- Noun: daub (Derived forms: daubs)
+1. Material used to daub walls
  
-2. Sewing that repairs a worn or torn hole (especially in a garment) (= mend, patch)
-"her stockings had several darns";
+2. A blemish made by dirt (= smudge, spot, blot, smear, smirch, slur)
+"he had a daub on his cheek";
+ 
+3. An unskillful painting
 
-- Verb: darn (Derived forms: darning, darned, darns)
-1. Repair by sewing
-"darn socks"
-
- -Interjection: darn 
-Usage: informal
-1. Exclamation of annoyance (= blast, bother [Brit], botheration, bummer [informal], curses, dang [N. Amer, informal], damn, damnation, dammit [informal], damn it [informal], dash [Brit, informal], durn [US, dialect], drat [informal], hang [informal], tarnation [N. Amer, informal], shoot [N. Amer, informal])
+- Verb: daub (Derived forms: daubing, daubs, daubed)
+1. (masonry) coat with plaster (= plaster)
+"daub the wall";
+ 
+2. Apply to a surface
+"daub paint onto the wall"
+ 
+3. Cover (a surface) by smearing (a substance) over it (= smear)
+"daub the ceiling with plaster";
 """,
   );
 
@@ -565,8 +552,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
-    startSeconds: 591,
+    videoId: 'https://youtu.be/AdZ9kGwqkTM?t=',
+    startSeconds: 540,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -590,8 +577,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
-    startSeconds: 649,
+    videoId: 'https://youtu.be/Xl2_0WsXT2k?t=',
+    startSeconds: 1299,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -615,8 +602,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
-    startSeconds: 284,
+    videoId: 'https://youtu.be/Cq02zqJlibw?t=',
+    startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -640,8 +627,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
-    startSeconds: 2136,
+    videoId: 'https://youtu.be/eCsKCbl4Fr8?t=',
+    startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -665,8 +652,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xdSscBpl97M?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/-Qvalm8D9uM?t=',
+    startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -690,8 +677,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
-    startSeconds: 240,
+    videoId: 'https://youtu.be/0-Rpo8jzb_Q?t=',
+    startSeconds: 653,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -715,8 +702,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syH0oN_B4g0?t=',
-    startSeconds: 645,
+    videoId: 'https://youtu.be/IhO1XlHVNUA?t=',
+    startSeconds: 752,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

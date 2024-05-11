@@ -192,7 +192,7 @@ class EnglishEntryconcur extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ھاوبیر بوون، ھاوڕا بوون، ڕێکەوتن، ڕازی بوون
+کوردی: ھاوبیر بوون، ھاوڕا بوون، ڕێککەوتن، ڕازی بوون
 """),
                           const DefinitionKurdish(text: "١. (کردار) ڕازی بوون"),
                           Row(

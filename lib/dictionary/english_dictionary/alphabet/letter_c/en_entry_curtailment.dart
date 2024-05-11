@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The policy included insurance against cancellation or curtailment of the holiday."),
                     ExampleSentenceKurdish(
                         text:
-                            "ڕێکەوتنەکە دڵنیایی لەخۆدەگرت دژ بە هەڵوەشاندنەوە یان کورتکردنەوەی پشووەکە."),
+                            "ڕێککەوتنەکە دڵنیایی لەخۆدەگرت دژ بە هەڵوەشاندنەوە یان کورتکردنەوەی پشووەکە."),
                   ],
                 ),
               ),

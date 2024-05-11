@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydarn extends StatefulWidget {
-  const EnglishEntrydarn({super.key});
+class EnglishEntrydeaf extends StatefulWidget {
+  const EnglishEntrydeaf({super.key});
 
   @override
-  State<EnglishEntrydarn> createState() => _EnglishEntrydarnState();
+  State<EnglishEntrydeaf> createState() => _EnglishEntrydeafState();
 }
 
-class _EnglishEntrydarnState extends State<EnglishEntrydarn> {
+class _EnglishEntrydeafState extends State<EnglishEntrydeaf> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "darn");
+    return const EntryTitle(word: "deaf");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: darn");
+    return const AlsoEnglish(word: "also: deaf");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɑːn/");
+    return const IPAofEnglish(text: "IpaUK: /def/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeaf(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deaf"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdarn("en-GB"),
+      onPressed: () => speakdeaf("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɑːrn/");
+    return const IPAofEnglish(text: "IpaUS: /def/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarn(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeaf(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("darn"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deaf"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdarn("en-US"),
+      onPressed: () => speakdeaf("en-US"),
     );
   }
 }
@@ -216,111 +216,114 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdarns1(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs1(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She was born deaf."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdeafs2(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She still darns the holes in her socks."); // DOPSUM: CHANGE TEXT
+        "Many of these children are profoundly deaf."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns2(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs3(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She runs her finger over the darn to check its smoothness."); // DOPSUM: CHANGE TEXT
+        "She spoke loudly because her mother was a little deaf."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns3(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs4(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Why don't you switch the darn thing off and listen to me!"); // DOPSUM: CHANGE TEXT
+        "Standing next to the machine all day left her deaf in one ear."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns4(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs5(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You had a darn good try."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Many of the TV programmes are broadcast with subtitles for the deaf."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns5(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs6(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's darn cold tonight."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was deaf to my requests for help."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns6(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs7(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The committee remained deaf to our suggestions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns7(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs8(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns8(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs9(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns9(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs10(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns10(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs11(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns11(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs12(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdarns12(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
+  Future<void> speakdeafs13(String languageCode) async {
+    // DOPSUM: CHANGE speakdeaf
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1200"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdarns13(String languageCode) async {
-    // DOPSUM: CHANGE speakdarn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdarns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeafs1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -332,116 +335,28 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دوورینەوە، دروونەوە، جێگای دوورینەوە، خاوەن‌مردوو، خوداگرتوو، یەکجار، سەرپاک، سەرومڕ
+کوردی: کەڕ، نەبیس، نەبیست، بێ‌گوێ، نەژنەوا،	کەمتەرخەم، بێ‌خەیاڵ، لامسەرلا، بێ‌دەربەست، گوێ‌پێ‌نەدەر
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) چاککردنەوەی کونێک لە پارچەیەکدا بە دوورینەوە"),
+              text: "١. (ھاوەڵناو) کەڕ؛ نەبوونی توانای بیستن"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text: "She still darns the holes in her socks."),
-                    ExampleSentenceKurdish(
-                        text: "هێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە."),
+                    ExampleSentenceEnglish(text: "She was born deaf."),
+                    ExampleSentenceKurdish(text: "بە کەڕی لەدایکبوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "darn", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "deaf", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns1("en-GB"),
+                    onPressed: () => speakdeafs1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) شوێنێک کە دوورینەوەی بۆ کراوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She runs her finger over the darn to check its smoothness."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پەنجەی دەهێنێت بەسەر دوورینەوەکەدا بۆ پشکنینی لووسیەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns2("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns2("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ھاوەڵناو) وەک جنێوێکی بچووک بەکاردێت بۆ جەختکردنەوە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Why don't you switch the darn thing off and listen to me!"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بۆچی ئەو شتە نەفرەتییە ناکوژێنیتەوە و گوێم بۆ ڕابگری!"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns3("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ھاوەڵکار) وەک جنێوێکی بچووک بەکاردێت بۆ گوتنی زۆر"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "You had a darn good try."),
-                    ExampleSentenceKurdish(text: "هەوڵێکی زۆر باشت دا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdarns4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdarns4("en-US"),
+                    onPressed: () => speakdeafs1("en-US"),
                   ),
                 ],
               ),
@@ -453,8 +368,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It's darn cold tonight."),
-                    ExampleSentenceKurdish(text: "ئەمشەو زۆر ساردە."),
+                    ExampleSentenceEnglish(
+                        text: "Many of these children are profoundly deaf."),
+                    ExampleSentenceKurdish(
+                        text: "زۆرێک لەم منداڵانە تا ئاستێکی زۆر کەڕن."),
                   ],
                 ),
               ),
@@ -462,10 +379,151 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdarns5("en-GB"),
+                    onPressed: () => speakdeafs2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdarns5("en-US"),
+                    onPressed: () => speakdeafs2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "She spoke loudly because her mother was a little deaf."),
+                    ExampleSentenceKurdish(
+                        text: "بە بەرزی قسەی دەکرد چونکە دایکی کەمێک کەڕ بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeafs3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeafs3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Standing next to the machine all day left her deaf in one ear."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وەستان لە تەنیشت ئامێرەکە بۆ تەواوی ڕۆژ وایلێکرد لە گوێیەکدا کەڕ بێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeafs4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeafs4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٢. (ناو) ئەو کەسانەی کە ناتوانن ببیستن"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Many of the TV programmes are broadcast with subtitles for the deaf."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆرێک لە پڕۆگرامەکانی تەلەفیزیۆن پەخش دەکرێن بە ژێرنووسەوە بە کەسانی کەڕ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeafs5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeafs5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (ھاوەڵناو) نەبوونی ئامادەیی بۆ گوێگرتن یان سەرنجدان"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He was deaf to my requests for help."),
+                    ExampleSentenceKurdish(
+                        text: "کەڕ بوو لە بەرامبەر هەوڵەکانم بۆ یارمەتی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeafs6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeafs6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The committee remained deaf to our suggestions."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لیژنەکە وەک کەڕ مایەوە لە بەرامبەر داواکانماندا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdeafs7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdeafs7("en-US"),
                   ),
                 ],
               ),
@@ -519,20 +577,15 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: darn (Derived forms: darns)
-1. Something of little value (= damn, hoot, red cent [N. Amer], shucks, tinker's damn [US, informal], tinker's dam [US, informal])
-"his promise is not worth a darn";
+- Adjective: deaf (Derived forms: deafer, deafest)
+1. Lacking or deprived of the sense of hearing wholly or in part
  
-2. Sewing that repairs a worn or torn hole (especially in a garment) (= mend, patch)
-"her stockings had several darns";
+2. (usually followed by 'to') unwilling or refusing to pay heed (= indifferent)
+"deaf to her warnings";
 
-- Verb: darn (Derived forms: darning, darned, darns)
-1. Repair by sewing
-"darn socks"
-
- -Interjection: darn 
-Usage: informal
-1. Exclamation of annoyance (= blast, bother [Brit], botheration, bummer [informal], curses, dang [N. Amer, informal], damn, damnation, dammit [informal], damn it [informal], dash [Brit, informal], durn [US, dialect], drat [informal], hang [informal], tarnation [N. Amer, informal], shoot [N. Amer, informal])
+- Noun: deaf (Derived forms: deafs)
+1. People who have severe hearing impairments
+"many of the deaf use sign language"
 """,
   );
 
@@ -565,8 +618,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
-    startSeconds: 591,
+    videoId: 'https://youtu.be/J8ZOttyAs9Y?t=',
+    startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -590,8 +643,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
-    startSeconds: 649,
+    videoId: 'https://youtu.be/VYJtb2YXae8?t=',
+    startSeconds: 612,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -615,8 +668,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
-    startSeconds: 284,
+    videoId: 'https://youtu.be/v1desDduz5M?t=',
+    startSeconds: 167,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -640,8 +693,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
-    startSeconds: 2136,
+    videoId: 'https://youtu.be/hSmNg2WGXeQ',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -665,8 +718,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xdSscBpl97M?t=',
-    startSeconds: 269,
+    videoId: 'https://youtu.be/h8VHaNeuw3o?t=',
+    startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -690,8 +743,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
-    startSeconds: 240,
+    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    startSeconds: 2060,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -715,8 +768,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syH0oN_B4g0?t=',
-    startSeconds: 645,
+    videoId: 'https://youtu.be/5qArvBdHkJA?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -797,7 +797,7 @@ class EnglishEntrycase extends StatelessWidget {
                                                     "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی کیبۆرد."),
+                                                    "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی تەختەکلیل."),
                                           ],
                                         ),
                                       ),

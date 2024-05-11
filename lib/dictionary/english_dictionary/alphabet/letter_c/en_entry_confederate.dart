@@ -274,7 +274,7 @@ class EnglishEntryconfederate extends StatelessWidget {
                                             "The confederate states collaborated on a trade agreement to benefit all members."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وڵاتە ھاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێکەوتنی بازرگانی بۆ سوودمەندی ھەموو لایەنەکان."),
+                                            "وڵاتە ھاوپەیمانەکان پێکەوە کاریان کرد لەسەر ڕێککەوتنی بازرگانی بۆ سوودمەندی ھەموو لایەنەکان."),
                                   ],
                                 ),
                               ),

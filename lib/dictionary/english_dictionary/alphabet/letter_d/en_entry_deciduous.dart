@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydecidedly extends StatefulWidget {
-  const EnglishEntrydecidedly({super.key});
+class EnglishEntrydeciduous extends StatefulWidget {
+  const EnglishEntrydeciduous({super.key});
 
   @override
-  State<EnglishEntrydecidedly> createState() => _EnglishEntrydecidedlyState();
+  State<EnglishEntrydeciduous> createState() => _EnglishEntrydeciduousState();
 }
 
-class _EnglishEntrydecidedlyState extends State<EnglishEntrydecidedly> {
+class _EnglishEntrydeciduousState extends State<EnglishEntrydeciduous> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "decidedly");
+    return const EntryTitle(word: "deciduous");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: decidedly");
+    return const AlsoEnglish(word: "also: deciduous");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɪˈsaɪdɪdli/");
+    return const IPAofEnglish(text: "IpaUK: /dɪˈsɪdʒuəs/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedly(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduous(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decidedly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deciduous"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdecidedly("en-GB"),
+      onPressed: () => speakdeciduous("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɪˈsaɪdɪdli/");
+    return const IPAofEnglish(text: "IpaUS: /dɪˈsɪdʒuəs/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedly(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduous(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decidedly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("deciduous"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdecidedly("en-US"),
+      onPressed: () => speakdeciduous("en-US"),
     );
   }
 }
@@ -216,110 +216,109 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Amy was looking decidedly worried."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecidedlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss1(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She decidedly said that she was innocent."); // DOPSUM: CHANGE TEXT
+        "The forest was a mix of evergreen and deciduous trees."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss2(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss3(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss4(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss5(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss6(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss7(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss8(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss9(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss10(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss11(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdeciduouss12(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdeciduouss1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdeciduouss13(String languageCode) async {
+    // DOPSUM: CHANGE speakdeciduous
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdeciduouss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -331,63 +330,63 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێ‌بڕاوانە، شێلگیرانە، بێ‌گومان، بێ شک و دوودڵی، بە دڵنیایی‌یەوە
+کوردی: (لەمەڕ دار یان دەوەنێ) وەریو، گەڵاوەریو، گەڵاڕێز، گەڵاوەرێن، هەڵوەریو، کەوتوو، سەرعەرزکەوتوو
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) بە دڵنیایی و ئاشکرایی"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Amy was looking decidedly worried."),
-                    ExampleSentenceKurdish(
-                        text: "ئەیمی بە ئاشکرایی نیگەران دیار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "decidedly", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys1("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
           const DefinitionKurdish(
-              text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە ئەوە دەردەخات کە دڵنیا و سووریت لەسەر شتێک"),
+              text: "١. (ھاوەڵناو) درەختێک کە هەموو ساڵێک گەڵاکانی دەوەرێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She decidedly said that she was innocent."),
+                        text:
+                            "The forest was a mix of evergreen and deciduous trees."),
                     ExampleSentenceKurdish(
-                        text: "بە دڵنیاییەوە گوتی کە بێ‌تاوانە."),
+                        text:
+                            "دارستانەکە تێکەڵەیەک لە درەختی هەمیشە سەوز و گەڵاوەریو بوو."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(),
+              const CustomSizedBoxForTTS(), // With short examples define "deciduous", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys2("en-GB"),
+                    onPressed: () => speakdeciduouss1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys2("en-US"),
+                    onPressed: () => speakdeciduouss1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdeciduouss200"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdeciduouss2("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdeciduouss2("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
         ],
       ),
     );
@@ -436,15 +435,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: decidedly 
-1. Without question and beyond doubt (= unquestionably, emphatically, definitely, in spades, by all odds)
-"it was decidedly too expensive";
+- Adjective: deciduous 
+1. (of teeth, antlers, etc.) being shed at the end of a period of growth
+"deciduous teeth"
  
-2. Showing firm determination or purpose (= resolutely)
-"she decidedly refused to look at him or speak to him";
- 
-3. With firmness of purpose (= decisively, resolutely)
-"'I will come along,' she said decidedly";
+2. (of plants and shrubs) shedding foliage at the end of the growing season
 """,
   );
 
@@ -477,8 +472,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a7wC2M0b5u0?t=',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/PhQksV8fbKw?t=',
+    startSeconds: 1674,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -502,8 +497,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KhBxCx11eck?t=',
-    startSeconds: 623,
+    videoId: 'https://youtu.be/rT9IJXuHbKs?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -527,8 +522,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
-    startSeconds: 1358,
+    videoId: 'https://youtu.be/i10v-5a9X0M?t=',
+    startSeconds: 1034,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -552,8 +547,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3hurvRBoYgM?t=',
-    startSeconds: 568,
+    videoId: 'https://youtu.be/R0NdFvRqZ10?t=',
+    startSeconds: 485,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -577,8 +572,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4qGQnw5iEZ8?t=',
-    startSeconds: 593,
+    videoId: 'https://youtu.be/y7gLvEYoBu0?t=',
+    startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -602,8 +597,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/APwwGy4GzK8?t=',
-    startSeconds: 92,
+    videoId: 'https://youtu.be/rWH4XGO1KSU?t=',
+    startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -627,8 +622,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oYBq6tgx_5M?t=',
-    startSeconds: 735,
+    videoId: 'https://youtu.be/QUGJPZ1a308?t=',
+    startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

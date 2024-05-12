@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydecidedly extends StatefulWidget {
-  const EnglishEntrydecidedly({super.key});
+class EnglishEntrydecimal extends StatefulWidget {
+  const EnglishEntrydecimal({super.key});
 
   @override
-  State<EnglishEntrydecidedly> createState() => _EnglishEntrydecidedlyState();
+  State<EnglishEntrydecimal> createState() => _EnglishEntrydecimalState();
 }
 
-class _EnglishEntrydecidedlyState extends State<EnglishEntrydecidedly> {
+class _EnglishEntrydecimalState extends State<EnglishEntrydecimal> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "decidedly");
+    return const EntryTitle(word: "decimal");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: decidedly");
+    return const AlsoEnglish(word: "also: decimal");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɪˈsaɪdɪdli/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdesɪml/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedly(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimal(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decidedly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decimal"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdecidedly("en-GB"),
+      onPressed: () => speakdecimal("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɪˈsaɪdɪdli/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdesɪml/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedly(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimal(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decidedly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decimal"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdecidedly("en-US"),
+      onPressed: () => speakdecimal("en-US"),
     );
   }
 }
@@ -216,110 +216,112 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecidedlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Amy was looking decidedly worried."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdecidedlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals1(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She decidedly said that she was innocent."); // DOPSUM: CHANGE TEXT
+        "Three fifths expressed as a decimal is 0.6."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals2(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you calculate the result to two decimal places, that should minimize any possible errors."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals3(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The decimal 0.61 stands for 61 hundredths."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals4(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The computer converts the data from decimal to binary."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals5(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals6(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals7(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals8(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals9(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals10(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals11(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdecidedlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecidedly
+  Future<void> speakdecimals12(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdecidedlys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecimals1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdecimals13(String languageCode) async {
+    // DOPSUM: CHANGE speakdecimal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdecimals1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,30 +332,34 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: لێ‌بڕاوانە، شێلگیرانە، بێ‌گومان، بێ شک و دوودڵی، بە دڵنیایی‌یەوە
-"""),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) بە دڵنیایی و ئاشکرایی"),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+          const DefinitionKurdish(
+              text: "١. (هاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
+          const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Amy was looking decidedly worried."),
+                        text:
+                            "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors."),
                     ExampleSentenceKurdish(
-                        text: "ئەیمی بە ئاشکرایی نیگەران دیار بوو."),
+                        text:
+                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری هەر هەڵەیەک کەم بکاتەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "decidedly", please follow LX instructions
+              const CustomSizedBoxForTTS(),
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys1("en-GB"),
+                    onPressed: () => speakdecimals2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys1("en-US"),
+                    onPressed: () => speakdecimals2("en-US"),
                   ),
                 ],
               ),
@@ -362,16 +368,41 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە ئەوە دەردەخات کە دڵنیا و سووریت لەسەر شتێک"),
+                  "٢. (ناو) ڕێژەیەک (ژمارەیەکی کەمتر لە یەک) کە بە فاریزەیەک پیشاندەدرێت لەگەڵ ژمارەی دیکە بەدوایدا"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "She decidedly said that she was innocent."),
+                        text: "Three fifths expressed as a decimal is 0.6."),
                     ExampleSentenceKurdish(
-                        text: "بە دڵنیاییەوە گوتی کە بێ‌تاوانە."),
+                        text: "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "decimal", please follow LX instructions
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecimals1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecimals1("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ), // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "The decimal 0.61 stands for 61 hundredths."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد."),
                   ],
                 ),
               ),
@@ -379,10 +410,41 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdecidedlys2("en-GB"),
+                    onPressed: () => speakdecimals3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdecidedlys2("en-US"),
+                    onPressed: () => speakdecimals3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) سیستەمێکی ژمارەیی کە بە کەرتی دەیان یان دەیەمینەکان دەژمێرێت"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The computer converts the data from decimal to binary."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کۆمپیوتەر زانیارییەکان لە دەییەوە بۆ دوانەیی دەگۆڕێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecimals4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecimals4("en-US"),
                   ),
                 ],
               ),
@@ -436,15 +498,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: decidedly 
-1. Without question and beyond doubt (= unquestionably, emphatically, definitely, in spades, by all odds)
-"it was decidedly too expensive";
+- Adjective: decimal 
+1. Numbered or proceeding by tens; based on ten (= denary)
+"the decimal system";
+
+- Noun: decimal (Derived forms: decimals)
+1. A proper fraction whose denominator is a power of 10 (= decimal fraction)
  
-2. Showing firm determination or purpose (= resolutely)
-"she decidedly refused to look at him or speak to him";
- 
-3. With firmness of purpose (= decisively, resolutely)
-"'I will come along,' she said decidedly";
+2. A number in the decimal system
 """,
   );
 
@@ -477,8 +538,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a7wC2M0b5u0?t=',
-    startSeconds: 69,
+    videoId: 'https://youtu.be/ltOkMlHrGPc?t=',
+    startSeconds: 673,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -502,8 +563,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KhBxCx11eck?t=',
-    startSeconds: 623,
+    videoId: 'https://youtu.be/Ot4qdCs54ZE?t=',
+    startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -527,8 +588,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
-    startSeconds: 1358,
+    videoId: 'https://youtu.be/bVlTXIVCDSY?t=',
+    startSeconds: 1038,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -552,8 +613,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3hurvRBoYgM?t=',
-    startSeconds: 568,
+    videoId: 'https://youtu.be/LXkO4HdQXdo?t=',
+    startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -577,8 +638,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4qGQnw5iEZ8?t=',
-    startSeconds: 593,
+    videoId: 'https://youtu.be/LmpAntNjPj0?t=',
+    startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -602,8 +663,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/APwwGy4GzK8?t=',
-    startSeconds: 92,
+    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    startSeconds: 11440,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -627,8 +688,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oYBq6tgx_5M?t=',
-    startSeconds: 735,
+    videoId: 'https://youtu.be/tRaq4aYPzCc?t=',
+    startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

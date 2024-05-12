@@ -4317,8 +4317,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_decide.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_decided.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_decidedly.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deciduous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_decimal.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -11825,8 +11825,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-decide": (_) => const MaterialPage(child: EnglishEntrydecide()),
   "/english-decided": (_) => const MaterialPage(child: EnglishEntrydecided()),
   "/english-decidedly": (_) => const MaterialPage(child: EnglishEntrydecidedly()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-deciduous": (_) => const MaterialPage(child: EnglishEntrydeciduous()),
+  "/english-decimal": (_) => const MaterialPage(child: EnglishEntrydecimal()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntryDOPSUM()),

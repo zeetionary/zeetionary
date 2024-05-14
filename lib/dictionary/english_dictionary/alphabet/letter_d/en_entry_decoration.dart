@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydecline extends StatefulWidget {
-  const EnglishEntrydecline({super.key});
+class EnglishEntrydecoration extends StatefulWidget {
+  const EnglishEntrydecoration({super.key});
 
   @override
-  State<EnglishEntrydecline> createState() => _EnglishEntrydeclineState();
+  State<EnglishEntrydecoration> createState() => _EnglishEntrydecorationState();
 }
 
-class _EnglishEntrydeclineState extends State<EnglishEntrydecline> {
+class _EnglishEntrydecorationState extends State<EnglishEntrydecoration> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "decline");
+    return const EntryTitle(word: "decoration");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: decline");
+    return const AlsoEnglish(word: "also: decoration");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɪˈklaɪn/");
+    return const IPAofEnglish(text: "IpaUK: /ˌdekəˈreɪʃn/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecline(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecoration(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decoration"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdecline("en-GB"),
+      onPressed: () => speakdecoration("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɪˈklaɪn/");
+    return const IPAofEnglish(text: "IpaUS: /ˌdekəˈreɪʃn/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdecline(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecoration(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("decline"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("decoration"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdecline("en-US"),
+      onPressed: () => speakdecoration("en-US"),
     );
   }
 }
@@ -216,118 +216,115 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdeclines1(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations1(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Support for the party continues to decline."); // DOPSUM: CHANGE TEXT
+        "Halloween decorations hung from every corner."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines2(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations2(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Sales of milk declined by 4 per cent."); // DOPSUM: CHANGE TEXT
+        .speak("We made our own decorations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines3(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The city declined in importance in the nineteenth century."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeclines4(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations3(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Her health began to decline."); // DOPSUM: CHANGE TEXT
+        .speak("Floral decorations adorned the church."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines5(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations4(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I offered to give them a lift but they declined."); // DOPSUM: CHANGE TEXT
+        "Ornate decorations embellish the statues."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines6(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We politely declined her invitation."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdeclines7(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations5(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She declined a second glass of wine and called for a taxi."); // DOPSUM: CHANGE TEXT
+        "Rings are worn both for decoration and also as signs of status."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines8(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations6(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Their spokesman declined to comment on the allegations."); // DOPSUM: CHANGE TEXT
+        "An Oscar was given for the art direction and set decoration."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines9(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations7(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "There has been a 5 per cent decline in student numbers."); // DOPSUM: CHANGE TEXT
+        "His jacket was heavy with military decorations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines10(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations8(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They have experienced decades of economic decline."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecorations800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines11(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations9(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecorations900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines12(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations10(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecorations1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdeclines13(String languageCode) async {
-    // DOPSUM: CHANGE speakdecline
+  Future<void> speakdecorations11(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeclines1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdecorations1100"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdecorations12(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdecorations1200"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdecorations13(String languageCode) async {
+    // DOPSUM: CHANGE speakdecoration
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdecorations1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -339,30 +336,32 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەم‌بوونەوە، داشکان، هاتنەخوارێ، داچوون، داکەوتن، داقنین، تیاچوون، نەمان، نزمەوەبوون، فاق‌دان، فشەڵ‌هێنان، پاش‌داچوون، دانەدواوە، لێژبوونەوە، داخزان، دابەزین، پووکانەوە، پووچانەوە
+کوردی: جوان‌کردن، ڕازاندنەوە، خەمڵاندن، ماڵ‌ڕاخستن، نەخشاندن، کەل‌وپەل یان شتی ڕازاندنەوە، شت‌ومەکی جوان‌کردن،	میداڵ یان نیشان (ی شانازی)،	ڕەنگ‌کردن (ی خانووبەرە، لێدانی کاغەز بە دیوار، میچ و هتد بۆ جوانی)، نەخش‌ونیگار، شت‌ومەکی جوان‌کردن یان ڕازاندنەوە، جوانەمەنی
 """),
           const DefinitionKurdish(
-              text: "١. (کردار) کەمبوون، بچووکبوون، لاوازبوون، هتد"),
+              text:
+                  "١. (ناو) شتێک کە وا لە شتێک دەکات جوان دەربکەوێت لە بۆنەی تایبەتدا"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Support for the party continues to decline."),
+                        text: "Halloween decorations hung from every corner."),
                     ExampleSentenceKurdish(
-                        text: "پشتیوانی بۆ پارتەکە بەردەوامە لە لاوازبوون."),
+                        text:
+                            "ڕازاندنەوەی هاڵۆوین لە هەموو سوچێک شۆڕبووبوونەوە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "decline", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "decoration", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdeclines1("en-GB"),
+                    onPressed: () => speakdecorations1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines1("en-US"),
+                    onPressed: () => speakdecorations1("en-US"),
                   ),
                 ],
               ),
@@ -377,9 +376,8 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "Sales of milk declined by 4 per cent."),
-                    ExampleSentenceKurdish(
-                        text: "فرۆشی شیر بە ٤ لە سەد کەمی کرد."),
+                        text: "We made our own decorations."),
+                    ExampleSentenceKurdish(text: "ڕازاندنەوەی خۆمان ئەنجامدا."),
                   ],
                 ),
               ),
@@ -387,10 +385,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdeclines2("en-GB"),
+                    onPressed: () => speakdecorations2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines2("en-US"),
+                    onPressed: () => speakdecorations2("en-US"),
                   ),
                 ],
               ),
@@ -403,10 +401,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The city declined in importance in the nineteenth century."),
+                        text: "Floral decorations adorned the church."),
                     ExampleSentenceKurdish(
-                        text: "شارەکە لە گرنگیدا دواکەوت لە سەدەی نۆزدەیەمدا."),
+                        text: "ڕازاندنەوەی گوڵ کڵێساکەی ڕازاندبوویەوە."),
                   ],
                 ),
               ),
@@ -414,147 +411,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdeclines3("en-GB"),
+                    onPressed: () => speakdecorations3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Her health began to decline."),
-                    ExampleSentenceKurdish(
-                        text: "تەندرووستی دەستی بە لاوازبوون کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (کردار) بەڕێزەوە ڕەتکردنەوەی کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I offered to give them a lift but they declined."),
-                    ExampleSentenceKurdish(
-                        text: "پێشنیازی گەیاندنم بۆ کردن بەڵام ڕەتیان کردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We politely declined her invitation."),
-                    ExampleSentenceKurdish(
-                        text: "بەڕێزەوە بانگهێشتەکەیمان ڕەتکردەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines6("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She declined a second glass of wine and called for a taxi."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دووەم گڵاس بیرەی ڕەتکردەوە و داوای تەکسییەکی کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their spokesman declined to comment on the allegations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وتەبێژەکەیان ڕەتیکردەوە لێدوان لەسەر تۆمەتەکان بدات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdeclines8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines8("en-US"),
+                    onPressed: () => speakdecorations3("en-US"),
                   ),
                 ],
               ),
@@ -563,18 +423,16 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٣. (ناو) دابەزینی بەردەوامی بەها، ژمارە، کوالێتی، هتد ـی شتێک"),
+                  "٢. (ناو) شێوەیەک کە بۆ شتێک زیاد دەکرێت و وادەکات سادە نەبێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "There has been a 5 per cent decline in student numbers."),
+                        text: "Ornate decorations embellish the statues."),
                     ExampleSentenceKurdish(
-                        text:
-                            "٥ لە سەد کەمبوون لە ژمارەی خوێندکاران ڕوویداوە."),
+                        text: "ڕازاندنەوەی نەخشێندراو پەیکەرەکان جوان دەکەن."),
                   ],
                 ),
               ),
@@ -582,10 +440,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdeclines9("en-GB"),
+                    onPressed: () => speakdecorations4("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines9("en-US"),
+                    onPressed: () => speakdecorations4("en-US"),
                   ),
                 ],
               ),
@@ -599,10 +457,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "They have experienced decades of economic decline."),
+                            "Rings are worn both for decoration and also as signs of status."),
                     ExampleSentenceKurdish(
                         text:
-                            "ئەزموونی دەیان ساڵ لاوازبوونی ئابوورییان کردووە."),
+                            "ئەڵقە لە پەنجە دەکرێت بۆ جوانی و وەک ئاماژەیەک بە پێگە."),
                   ],
                 ),
               ),
@@ -610,10 +468,68 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdeclines10("en-GB"),
+                    onPressed: () => speakdecorations5("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdeclines10("en-US"),
+                    onPressed: () => speakdecorations5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ناو) شێوەی ڕازاندنەوەی شتێک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "An Oscar was given for the art direction and set decoration."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "خەڵاتاتێکی ئۆسکار درا بۆ دەرهێنانی هونەری و ڕازاندنەوەی سەرشانۆکە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecorations6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecorations6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٤. (ناو) خەڵاتێک کە بە کەسێک دەدرێت وەک شانازییەک"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "His jacket was heavy with military decorations."),
+                    ExampleSentenceKurdish(
+                        text: "چاکەتەکەی پڕ لە مەدالیای سەربازی بوو."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecorations7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecorations7("en-US"),
                   ),
                 ],
               ),
@@ -667,35 +583,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: decline (Derived forms: declined, declines, declining)
-1. Grow worse (= worsen)
-"Conditions in the slum declined";
+- Noun: decoration (Derived forms: decorations)
+1. Something used to beautify (= ornament, ornamentation)
  
-2. Not accept as true (= refuse, reject, pass up, turn down)
+2. An award for winning a championship or commemorating some other event (= laurel wreath, medal, medallion, palm, ribbon)
  
-3. Show unwillingness towards (= refuse)
-"he declined to join the group on a hike";
- 
-4. Grow smaller (= go down, wane)
-"Interest in the project declined";
- 
-5. Go down
-"The roof declines here"
- 
-6. Fall in value (= slump, correct)
-"prices declined";
- 
-7. Inflect for number, gender, case, etc.
-"in many languages, speakers decline nouns, pronouns, and adjectives"
-
-- Noun: decline (Derived forms: declines)
-1. Change toward something smaller or lower (= diminution)
- 
-2. A condition inferior to an earlier condition; a gradual falling off from a better state; decline (= declination)
- 
-3. A gradual decrease; as of stored charge or current (= decay)
- 
-4. A downward slope or bend (= descent, declivity, fall, declination, declension, downslope)
+3. The act of decorating something (in the hope of making it more attractive) 
 """,
   );
 
@@ -728,8 +621,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
-    startSeconds: 1273,
+    videoId: 'https://youtu.be/y1sF6ZeASU0?t=',
+    startSeconds: 746,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -753,8 +646,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
-    startSeconds: 4143,
+    videoId: 'https://youtu.be/LIn8jwTAJpg?t=',
+    startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -778,8 +671,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hoihoGGdQ4U?t=',
-    startSeconds: 56,
+    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -803,8 +696,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JR3z8lq2cNM?t=',
-    startSeconds: 719,
+    videoId: 'https://youtu.be/Yaui2pL26ZQ?t=',
+    startSeconds: 620,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -828,8 +721,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CqkhjL3WvWQ?t=',
-    startSeconds: 214,
+    videoId: 'https://youtu.be/n4bucphC9r4?t=',
+    startSeconds: 723,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -853,8 +746,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THIGSnMP3io?t=',
-    startSeconds: 1256,
+    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    startSeconds: 1623,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -878,8 +771,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIo2Ie1HwHY?t=',
-    startSeconds: 304,
+    videoId: 'https://youtu.be/0ST4_hmop9Y?t=',
+    startSeconds: 1589,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

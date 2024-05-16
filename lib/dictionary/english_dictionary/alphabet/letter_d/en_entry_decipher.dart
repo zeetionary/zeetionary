@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She quickly deciphered the whole message."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She quickly deciphered the whole message."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeciphers3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Can anyone decipher his handwriting?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Can anyone decipher his handwriting?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeciphers4(String languageCode) async {
@@ -332,7 +334,8 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: ڕەمز دۆزینەوە، ئاشکرا کردن، دۆزینەوە
 // """),
-          const DefinitionKurdish(text: "١. (کردار) گۆڕینی شتێک لە زمانی کۆدەوە بۆ زمانێکی ئاسایی"),
+          const DefinitionKurdish(
+              text: "١. (کردار) گۆڕینی شتێک لە زمانی کۆدەوە بۆ زمانێکی ئاسایی"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They were able to decipher the French military codes."),
-                    ExampleSentenceKurdish(text: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن."),
+                    ExampleSentenceKurdish(
+                        text: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن."),
                   ],
                 ),
               ),
@@ -358,16 +362,16 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She quickly deciphered the whole message."),
-                    ExampleSentenceKurdish(text: "بە خێرایی لە تەواوی پەیامەکە تێگەشت."),
+                    ExampleSentenceEnglish(
+                        text: "She quickly deciphered the whole message."),
+                    ExampleSentenceKurdish(
+                        text: "بە خێرایی لە تەواوی پەیامەکە تێگەشت."),
                   ],
                 ),
               ),
@@ -385,13 +389,16 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) سەرکەوتن لە دۆزینەوەی واتای شتێک کە سەختە بۆ تێگەشتن یان خوێندنەوە"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (کردار) سەرکەوتن لە دۆزینەوەی واتای شتێک کە سەختە بۆ تێگەشتن یان خوێندنەوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Can anyone decipher his handwriting?"),
+                    ExampleSentenceEnglish(
+                        text: "Can anyone decipher his handwriting?"),
                     ExampleSentenceKurdish(text: "کەس لە دەستوخەتی تێدەگات؟"),
                   ],
                 ),

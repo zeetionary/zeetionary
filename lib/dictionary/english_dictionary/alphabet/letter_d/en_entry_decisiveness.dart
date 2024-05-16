@@ -14,7 +14,8 @@ class EnglishEntrydecisiveness extends StatefulWidget {
   const EnglishEntrydecisiveness({super.key});
 
   @override
-  State<EnglishEntrydecisiveness> createState() => _EnglishEntrydecisivenessState();
+  State<EnglishEntrydecisiveness> createState() =>
+      _EnglishEntrydecisivenessState();
 }
 
 class _EnglishEntrydecisivenessState extends State<EnglishEntrydecisiveness> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She handled the situation with decisiveness and courage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She handled the situation with decisiveness and courage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecisivenesss3(String languageCode) async {
@@ -332,7 +334,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سووربوون، شێلگیری، یەکلایی‌کەرەوەیی، بەلایێک‌داخەری، بێ‌چەندوچۆنی، بێ‌ئەملاوئەولابوون
 """),
-          const DefinitionKurdish(text: "١. (ناو) توانای بڕیاردان بە خێرایی و وریاییەوە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) توانای بڕیاردان بە خێرایی و وریاییەوە"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "All her decisiveness disappeared when she met Mark."),
-                    ExampleSentenceKurdish(text: "هەموو سووربوونی نەما کە مارکی بینی."),
+                    ExampleSentenceKurdish(
+                        text: "هەموو سووربوونی نەما کە مارکی بینی."),
                   ],
                 ),
               ),
@@ -358,16 +362,17 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She handled the situation with decisiveness and courage."),
-                    ExampleSentenceKurdish(text: "بە شێلگیری و بوێرانە مامەڵەی لەگەڵ دۆخەکە کرد."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "She handled the situation with decisiveness and courage."),
+                    ExampleSentenceKurdish(
+                        text: "بە شێلگیری و بوێرانە مامەڵەی لەگەڵ دۆخەکە کرد."),
                   ],
                 ),
               ),

@@ -337,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (هاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
-          const DividerSentences(),
           Row(
             children: [
               const Expanded(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Populations of endangered animals have been decimated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Populations of endangered animals have been decimated."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecimates3(String languageCode) async {
@@ -330,9 +331,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) کوشتنی ژمارەیەکی زۆر لە ڕووەک، ئاژەڵ، یان مرۆڤ لە ناوچەیەکی دیاریکراودا"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) کوشتنی ژمارەیەکی زۆر لە ڕووەک، ئاژەڵ، یان مرۆڤ لە ناوچەیەکی دیاریکراودا"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The rabbit population was decimated by the disease."),
-                    ExampleSentenceKurdish(text: "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون."),
+                    ExampleSentenceKurdish(
+                        text: "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون."),
                   ],
                 ),
               ),
@@ -358,16 +362,17 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Populations of endangered animals have been decimated."),
-                    ExampleSentenceKurdish(text: "ڕێژەی ئاژەڵە مەترسی‌لەسەرەکان قڕی تێخراوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Populations of endangered animals have been decimated."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێژەی ئاژەڵە مەترسی‌لەسەرەکان قڕی تێخراوە."),
                   ],
                 ),
               ),
@@ -384,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          
         ],
       ),
     );

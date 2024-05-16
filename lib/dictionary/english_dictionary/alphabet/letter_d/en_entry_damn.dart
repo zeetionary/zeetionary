@@ -882,7 +882,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی دەیڵێتر"),
-          const DividerSentences(),
           Row(
             children: [
               const Expanded(

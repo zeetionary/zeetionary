@@ -14,7 +14,8 @@ class EnglishEntrydeathwarrant extends StatefulWidget {
   const EnglishEntrydeathwarrant({super.key});
 
   @override
-  State<EnglishEntrydeathwarrant> createState() => _EnglishEntrydeathwarrantState();
+  State<EnglishEntrydeathwarrant> createState() =>
+      _EnglishEntrydeathwarrantState();
 }
 
 class _EnglishEntrydeathwarrantState extends State<EnglishEntrydeathwarrant> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The king refused to sign the death warrant for his old friend."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The king refused to sign the death warrant for his old friend."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeathwarrants3(String languageCode) async {
@@ -332,16 +334,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دەستووری کوشتن، فەرمانی هەڵواسین یان لەداردان
 """),
-          const DefinitionKurdish(text: "١. (ناو) بەڵگەنامەیەکی فەرمی کە دەڵێت کەسێک دەبێت بکوژرێت بۆ تاوانێک کە ئەنجامی داوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) بەڵگەنامەیەکی فەرمی کە دەڵێت کەسێک دەبێت بکوژرێت بۆ تاوانێک کە ئەنجامی داوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The president signed the death warrant."),
-                    ExampleSentenceKurdish(text: "سەرۆک سزای مەرگەکەی پەسەند کرد."),
+                        text: "The president signed the death warrant."),
+                    ExampleSentenceKurdish(
+                        text: "سەرۆک سزای مەرگەکەی پەسەند کرد."),
                   ],
                 ),
               ),
@@ -358,16 +362,18 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The king refused to sign the death warrant for his old friend."),
-                    ExampleSentenceKurdish(text: "پاشا ڕەتیکردەوە سزای مەرگی هاوڕێ کۆنەکەی واژۆ بکات."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The king refused to sign the death warrant for his old friend."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پاشا ڕەتیکردەوە سزای مەرگی هاوڕێ کۆنەکەی واژۆ بکات."),
                   ],
                 ),
               ),

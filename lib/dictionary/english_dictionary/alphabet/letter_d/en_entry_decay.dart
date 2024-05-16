@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The smell of death and decay hung over the town."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The smell of death and decay hung over the town."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecays3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My dentist could not find any signs of decay."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "My dentist could not find any signs of decay."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecays4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This government promises to reverse industrial decay."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This government promises to reverse industrial decay."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecays5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Sugar makes your teeth decay."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Sugar makes your teeth decay."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecays6(String languageCode) async {
@@ -262,7 +266,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The role of the royal family has been decaying for some time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The role of the royal family has been decaying for some time."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecays7(String languageCode) async {
@@ -332,7 +337,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: خراپ‌بوون، گەنین، گنخان، ڕزین، پووان، دافەوتان، داقەنین، خورانەوە، ڕەش‌داگەڕان،	(فیزیک) لێک‌بوونەوە، لێک‌هەڵوەشان،	وێران‌بوون، کاول‌بوون، تێک‌دران، تێکچوون، داشکان، داچوون، داخزان، لێژەوەبوون، هەڵتەکان، لێ‌کەوتن، داکەوتن، داشکان، هاتنەخوارێ، پووکانەوە،	تیاچوون، قڕتێ‌کەوتن، لەنێوچوون، نەمان،	لاوازبوون، سستی، پێچوون
 """),
-          const DefinitionKurdish(text: "١. (ناو) لەناوچوون بە هۆکاری سرووشتی یان نەبوونی گرنگی‌پێدان"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) لەناوچوون بە هۆکاری سرووشتی یان نەبوونی گرنگی‌پێدان"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +348,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The landlord had let the building fall into decay."),
-                    ExampleSentenceKurdish(text: "خاوەنەکە هێشتی بیناکە دابڕزێت."),
+                    ExampleSentenceKurdish(
+                        text: "خاوەنەکە هێشتی بیناکە دابڕزێت."),
                   ],
                 ),
               ),
@@ -358,16 +366,18 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The smell of death and decay hung over the town."),
-                    ExampleSentenceKurdish(text: "بۆنی مەرگ و گەنین باڵی بەسەر شارۆچکەکەدا کێشابوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The smell of death and decay hung over the town."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بۆنی مەرگ و گەنین باڵی بەسەر شارۆچکەکەدا کێشابوو."),
                   ],
                 ),
               ),
@@ -386,113 +396,117 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "My dentist could not find any signs of decay."),
-          ExampleSentenceKurdish(
-          text: "پزیشکە ددانەکەم هیچ ئاماژەیەکی داڕزانی نەدۆزییەوە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakdecays3("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakdecays3("en-US"),
-          ),
-          ],
-          ),
-          ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) پڕۆسەی داڕووخانی کۆمەڵگایەک، دامەزراوەیەک، سیستەمێک، هتد"),
-          Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "This government promises to reverse industrial decay."),
-          ExampleSentenceKurdish(
-          text: "حکومەت بەڵێنی داوە ڕێگر بێت لە داڕووخانی پیشەسازی."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakdecays4("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakdecays4("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "My dentist could not find any signs of decay."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پزیشکە ددانەکەم هیچ ئاماژەیەکی داڕزانی نەدۆزییەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecays3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecays3("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (کردار) کەم کەم لەناوبردن بە پڕۆسەی سرووشتی"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) پڕۆسەی داڕووخانی کۆمەڵگایەک، دامەزراوەیەک، سیستەمێک، هتد"),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "Sugar makes your teeth decay."),
-          ExampleSentenceKurdish(
-          text: "شەکر وا دەکات ددانت دابڕزێت."),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "This government promises to reverse industrial decay."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "حکومەت بەڵێنی داوە ڕێگر بێت لە داڕووخانی پیشەسازی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecays4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecays4("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakdecays5("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakdecays5("en-US"),
-          ),
-          ],
-          ),
-          ],
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: "٣. (کردار) کەم کەم لەناوبردن بە پڕۆسەی سرووشتی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Sugar makes your teeth decay."),
+                    ExampleSentenceKurdish(
+                        text: "شەکر وا دەکات ددانت دابڕزێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecays5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecays5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerSentences(),
           Row(
-          children: [
-          const Expanded(
-          child: Column(
-          children: [
-          ExampleSentenceEnglish(
-          text:
-          "The role of the royal family has been decaying for some time."),
-          ExampleSentenceKurdish(
-          text: "ئەرکی خێزانی شاهانە بۆ ماوەیەک دەبێت کاڵ بووەتەوە."),
-          ],
-          ),
-          ),
-          const CustomSizedBoxForTTS(),
-          Column(
-          children: [
-          CustomIconButtonBritish(
-          onPressed: () => speakdecays6("en-GB"),
-          ),
-          CustomIconButtonAmerican(
-          onPressed: () => speakdecays6("en-US"),
-          ),
-          ],
-          ),
-          ],
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The role of the royal family has been decaying for some time."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەرکی خێزانی شاهانە بۆ ماوەیەک دەبێت کاڵ بووەتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdecays6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdecays6("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٤. (کردار) داڕزانی بینایەک"),

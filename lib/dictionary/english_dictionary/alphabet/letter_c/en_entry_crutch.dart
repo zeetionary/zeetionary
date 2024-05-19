@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                 ],
                 onTap: () {
-                  Routemaster.of(context).push("/english-crutch/crotch");
+                  Routemaster.of(context).push("/english-depreciate/deprecate");
                 },
               ),
             ],

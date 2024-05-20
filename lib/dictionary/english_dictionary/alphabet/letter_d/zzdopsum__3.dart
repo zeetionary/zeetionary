@@ -508,6 +508,8 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
@@ -532,6 +534,8 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
@@ -556,6 +560,8 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [

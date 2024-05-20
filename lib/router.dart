@@ -4561,16 +4561,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_descendant.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_descent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_describe.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_description.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_descriptive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_desecrate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_desecration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_desert.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deserter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_desertion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_desert_island.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deserve.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_design.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -12071,16 +12071,16 @@ final loggedInRoute = RouteMap(routes: {
   "/english-descendant": (_) => const MaterialPage(child: EnglishEntrydescendant()),
   "/english-descent": (_) => const MaterialPage(child: EnglishEntrydescent()),
   "/english-describe": (_) => const MaterialPage(child: EnglishEntrydescribe()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
+  "/english-description": (_) => const MaterialPage(child: EnglishEntrydescription()),
+  "/english-descriptive": (_) => const MaterialPage(child: EnglishEntrydescriptive()),
+  "/english-desecrate": (_) => const MaterialPage(child: EnglishEntrydesecrate()),
+  "/english-desecration": (_) => const MaterialPage(child: EnglishEntrydesecration()),
+  "/english-desert": (_) => const MaterialPage(child: EnglishEntrydesert()),
+  "/english-deserter": (_) => const MaterialPage(child: EnglishEntrydeserter()),
+  "/english-desertion": (_) => const MaterialPage(child: EnglishEntrydesertion()),
+  "/english-desert-island": (_) => const MaterialPage(child: EnglishEntrydesertisland()),
+  "/english-deserve": (_) => const MaterialPage(child: EnglishEntrydeserve()),
+  "/english-design": (_) => const MaterialPage(child: EnglishEntrydesign()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),

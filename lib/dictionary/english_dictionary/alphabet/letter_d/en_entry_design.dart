@@ -221,7 +221,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakdesigns100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The basic design of the car is very similar to that of earlier models."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns2(String languageCode) async {
@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The system has a fundamental design flaw."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns3(String languageCode) async {
@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The magazine will appear in a new design from next month."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns4(String languageCode) async {
@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The machine's unique design prevents it from overheating."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns5(String languageCode) async {
@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("One of our main design goals was to make the product easy to use."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns6(String languageCode) async {
@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'm doing a course in art and design."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns7(String languageCode) async {
@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Digital design tools are essential."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns8(String languageCode) async {
@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The car wouldn't win any design awards, but it's very reliable."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns9(String languageCode) async {
@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's done some design work for us in the past."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns10(String languageCode) async {
@@ -293,7 +293,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He has created some new and original designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns11(String languageCode) async {
@@ -301,7 +301,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The original designs were stolen."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns12(String languageCode) async {
@@ -309,7 +309,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There are several laws protecting the ownership of industrial designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns13(String languageCode) async {
@@ -317,7 +317,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The tiles come in a huge range of colours and designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns14(String languageCode) async {
@@ -325,7 +325,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The building has intricate geometric designs on several of the walls."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns15(String languageCode) async {
@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It is all part of his grand design."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns16(String languageCode) async {
@@ -341,7 +341,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("It happened—whether by accident or design—that the two of them were left alone after all the others had gone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns17(String languageCode) async {
@@ -349,7 +349,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Had it happened by accident or by design?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns18(String languageCode) async {
@@ -357,7 +357,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He designed and built his own house."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns19(String languageCode) async {
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The blocks were specially designed and manufactured in Italy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns20(String languageCode) async {
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Could you design us a poster?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns21(String languageCode) async {
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The method is specifically designed for use in small groups."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns22(String languageCode) async {
@@ -389,7 +389,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesigns2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The museum is Missouri's first museum designed specifically for contemporary art."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdesigns23(String languageCode) async {
+    // DOPSUM: CHANGE speakdesign
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The system is designed to alert drivers to traffic jams ahead."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -401,16 +409,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دیزاین، نەخش، نەخش‌کێشی،	پلان، گەڵاڵە، نەخشە، تەگبیر،	نیاز، خەیاڵ، مەبەست،	نەخشی جوانی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
+          const DefinitionKurdish(text: "١. (ناو) شێوازی دانانی شتێک کە بە شێوەیەک دانراوە کە جوان دەربکەوێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "// speakdesigns100"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                    ExampleSentenceEnglish(text: "The basic design of the car is very similar to that of earlier models."),
+                    ExampleSentenceKurdish(text: "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا."),
                   ],
                 ),
               ),
@@ -429,520 +437,553 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns2("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The system has a fundamental design flaw."),
+                    ExampleSentenceKurdish(text: "سیستەمەکە هەڵەیەکی سەرەکیی دیزاینی تێدایە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns2("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns300"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns3("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns3("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The magazine will appear in a new design from next month."),
+                    ExampleSentenceKurdish(text: "گۆڤارەکە لە مانگی داهاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns3("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns400"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns4("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns4("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The machine's unique design prevents it from overheating."),
+                    ExampleSentenceKurdish(text: "دیزاینی ناوازەی ئامێرەکە لە گەرمبوون دەیپارێزێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns4("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns4("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns500"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns5("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns5("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "One of our main design goals was to make the product easy to use."),
+                    ExampleSentenceKurdish(text: "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرهەمەکە ئاسان بکەین بۆ بەکارهێنان."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns5("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns5("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٢. (ناو) هونەر یان پڕۆسەی کاری دیزاین"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I'm doing a course in art and design."),
+                    ExampleSentenceKurdish(text: "کۆرسێک لەسەر هونەر و دیزاین ئەنجام دەدەم."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Digital design tools are essential."),
+                    ExampleSentenceKurdish(text: "ئامرازەکانی دیزاینی دیجیتاڵ زۆر گرنگن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The car wouldn't win any design awards, but it's very reliable."),
+                    ExampleSentenceKurdish(text: "ئۆۆتمبێلەکە هیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns8("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns8("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "She's done some design work for us in the past."),
+                    ExampleSentenceKurdish(text: "لە ڕابردوودا هەندێک کاری دیزاینی بۆمان کردووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت هەندێک دیزاین درووست بکرێت"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He has created some new and original designs."),
+                    ExampleSentenceKurdish(text: "هەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns10("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The original designs were stolen."),
+                    ExampleSentenceKurdish(text: "دیزاینە ڕەسەنەکان دزران."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns11("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "There are several laws protecting the ownership of industrial designs."),
+                    ExampleSentenceKurdish(text: "ژمارەیەک یاسا هەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (ناو) شێوە دیزاینێک"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The tiles come in a huge range of colours and designs."),
+                    ExampleSentenceKurdish(text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین هەن."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The building has intricate geometric designs on several of the walls."),
+                    ExampleSentenceKurdish(text: "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی هەیە لە هەندێک لاوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns14("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (ناو) پلان یان مەبەست"),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns600"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns6("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns6("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "It is all part of his grand design."),
+                    ExampleSentenceKurdish(text: "هەمووی بەشێکن لە پلانە گەورەکەی."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns15("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns15("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."),
+                    ExampleSentenceKurdish(text: "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە هەردووکاین مانەوە بە تەنهایی لە دوای ئەوەی هەموو ئەوانی دیکە ڕۆشتبوون."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns16("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns16("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Had it happened by accident or by design?"),
+                    ExampleSentenceKurdish(text: "بە ڕێکەوت یان مەبەست ڕوویدا؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns17("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns17("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٦. (کردار) دیزاینکردنی شتێک"),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns700"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns7("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns7("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He designed and built his own house."),
+                    ExampleSentenceKurdish(text: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns18("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns18("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The blocks were specially designed and manufactured in Italy."),
+                    ExampleSentenceKurdish(text: "بلۆکەکان بە تایبەتی لە ئیتالیا دیزاین و درووستکرابوون."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns19("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns19("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "Could you design us a poster?"),
+                    ExampleSentenceKurdish(text: "دەتوانیت پۆستەرێکمان بۆ دیزاین بکەیت؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns20("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns20("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، هتد زۆرجار بۆ مەبەستێک، بەکارهێنانێک"),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns800"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns8("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns8("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns900"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns9("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns9("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1000"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns10("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns10("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1100"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns11("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns11("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns12("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns12("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1300"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns13("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns13("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1400"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns14("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns14("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1500"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns15("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns15("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1600"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns16("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns16("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1700"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns17("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns17("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1800"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns18("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns18("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns1900"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns19("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns19("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns2000"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns20("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns20("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns2100"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns21("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns21("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesigns2200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesigns22("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesigns22("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The method is specifically designed for use in small groups."),
+                    ExampleSentenceKurdish(text: "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارهێنان لە گرووپی بچووکدا."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns21("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns21("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The museum is Missouri's first museum designed specifically for contemporary art."),
+                    ExampleSentenceKurdish(text: "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ هونەری سەردەمیانە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns22("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns22("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "The system is designed to alert drivers to traffic jams ahead."),
+                    ExampleSentenceKurdish(text: "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی هاتووچۆ."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdesigns23("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdesigns23("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ],
       ),
     );
@@ -1065,8 +1106,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/0SYKA00eFWY?t=',
+    startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1090,8 +1131,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    startSeconds: 870,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1115,8 +1156,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/ldBUUKRQR9M',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1140,8 +1181,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/7RdH38CoT_E?t=',
+    startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1165,8 +1206,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/CtD3pwzfFFI',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1190,8 +1231,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/ZNo-M1ldPZ8?t=',
+    startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1215,8 +1256,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/NuL6TMYVuDs?t=',
+    startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1240,7 +1281,6 @@ class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
   });
-// speakdesigns100
 
   @override
   Widget build(BuildContext context) {

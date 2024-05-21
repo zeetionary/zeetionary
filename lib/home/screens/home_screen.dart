@@ -135,7 +135,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                         ),
                       ),
                       child: Image.asset(
-                        'assets/images/zeetionary_one.png',
+                        'assets/images/google.png',
                       ),
                     ),
                   ],

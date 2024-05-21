@@ -10,14 +10,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydesperate extends StatefulWidget {
-  const EnglishEntrydesperate({super.key});
+class EnglishEntrydespite extends StatefulWidget {
+  const EnglishEntrydespite({super.key});
 
   @override
-  State<EnglishEntrydesperate> createState() => _EnglishEntrydesperateState();
+  State<EnglishEntrydespite> createState() => _EnglishEntrydespiteState();
 }
 
-class _EnglishEntrydesperateState extends State<EnglishEntrydesperate> {
+class _EnglishEntrydespiteState extends State<EnglishEntrydespite> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -94,7 +94,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "desperate");
+    return const EntryTitle(word: "despite");
   }
 }
 
@@ -105,7 +105,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: desperate");
+    return const AlsoEnglish(word: "also: despite");
   }
 }
 
@@ -132,7 +132,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈdespərət/");
+    return const IPAofEnglish(text: "IpaUK: /dɪˈspaɪt/");
   }
 }
 
@@ -143,18 +143,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdesperate(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespite(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("desperate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("despite"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdesperate("en-GB"),
+      onPressed: () => speakdespite("en-GB"),
     );
   }
 }
@@ -182,7 +182,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈdespərət/");
+    return const IPAofEnglish(text: "IpaUS: /dɪˈspaɪt/");
   }
 }
 
@@ -193,18 +193,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdesperate(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespite(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("desperate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("despite"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdesperate("en-US"),
+      onPressed: () => speakdespite("en-US"),
     );
   }
 }
@@ -216,196 +216,185 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdesperates1(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites1(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The prisoners grew increasingly desperate."); // DOPSUM: CHANGE TEXT
+        "Her voice was shaking despite all her efforts to control it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates2(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites2(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Stores are getting desperate after two years of poor sales."); // DOPSUM: CHANGE TEXT
+        "Despite applying for hundreds of jobs, he is still out of work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates3(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites3(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I heard sounds of a desperate struggle in the next room."); // DOPSUM: CHANGE TEXT
+        "She was good at physics despite the fact that she found it boring."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates4(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites4(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I was starting to get desperate."); // DOPSUM: CHANGE TEXT
+        .speak("He had to laugh despite himself."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates5(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites5(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She felt utterly desperate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates6(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites6(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The sudden loss of his money had made him desperate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates7(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites7(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He made a desperate bid for freedom."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates8(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites8(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She clung to the edge in a desperate attempt to save herself."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates9(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites9(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Doctors were fighting a desperate battle to save the little girl's life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates10(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites10(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I'm desperate for a coffee."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates11(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites11(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was so desperate for a job he would have done anything."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates12(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites12(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I was absolutely desperate to see her."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates13(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites13(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They face a desperate shortage of clean water."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates14(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites14(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("His financial situation was desperate."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates15(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites15(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had died in desperate poverty."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates16(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites16(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates17(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites17(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates18(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites18(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates19(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites19(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates20(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites20(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Stores are getting desperate after two years of poor sales.0"); // DOPSUM: CHANGE TEXT
+        "Despite applying for hundreds of jobs, he is still out of work.0"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates21(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites21(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites2100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdesperates22(String languageCode) async {
-    // DOPSUM: CHANGE speakdesperate
+  Future<void> speakdespites22(String languageCode) async {
+    // DOPSUM: CHANGE speakdespite
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesperates2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdespites2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -417,31 +406,33 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەس‌لەگیان‌بەرداو، چارەنەماو، بێچارە، زۆربۆهاتوو، گیرکردوو، ناچار، داماو،	لە حەیبەتا، لە ڕووی ناچاری‌یەوە یان داماوی‌یەوە،	مەترسی‌دار، پڕمەترسی،	یەکجار خراپ، زۆر، شپرزە، سەخت، ئاستەم، توند، توندوتیژ، بەزەبروزەنگ، بێ‌بەزەیی‌یانە، توندوتیژانە،	چاولەدەس، موحتاج، حەوەجێ‌تێ‌کەوتوو،	هیوابڕاو، دڵسارد، دەس‌شواردوو، دلساردانە، لە حەیبەت،	(تێکۆشان) بێ‌ئەنجام، بێهوودە
+کوردی: دوژمنایەتی، ڕق، کینە، قین،	سووکایەتی، بێ‌حورمەتی، بێ‌ڕێزی، سەرەڕای، بێجگەلە، سەرباری، لەگەڵ ئەمەش‌دا
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵناو) بێ‌هیوا و ئامادەیی بۆ کردنی هەر شتێک بەبێ گرنگیدان بە مەترسی"),
+                  "١. (ئامراز) بۆ وتنی ئەوەی شتێک ڕاستە یان ڕوویداوە سەرەڕای ئەوەی شتێکی دیکە ڕەنگە ڕوویدابێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The prisoners grew increasingly desperate."),
+                        text:
+                            "Her voice was shaking despite all her efforts to control it."),
                     ExampleSentenceKurdish(
-                        text: "زیندانییەکان کەم‌کەم هیوابڕاو بوون."),
+                        text:
+                            "دەنگی دەلەرزی سەرەڕای هەموو هەوڵەکانی بۆ کۆنترۆڵکردنی."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "desperate", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "despite", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdesperates1("en-GB"),
+                    onPressed: () => speakdespites1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates1("en-US"),
+                    onPressed: () => speakdespites1("en-US"),
                   ),
                 ],
               ),
@@ -457,10 +448,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Stores are getting desperate after two years of poor sales."),
+                            "Despite applying for hundreds of jobs, he is still out of work."),
                     ExampleSentenceKurdish(
                         text:
-                            "فرۆشگاکان موحتاج بوونە لە دوای دوو ساڵ لە فرۆشی خراپ."),
+                            "سەرەڕای ناردنی داخوازی بۆ سەدان کار، هێشتا بێکارە."),
                   ],
                 ),
               ),
@@ -468,10 +459,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdesperates2("en-GB"),
+                    onPressed: () => speakdespites2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates2("en-US"),
+                    onPressed: () => speakdespites2("en-US"),
                   ),
                 ],
               ),
@@ -487,10 +478,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "I heard sounds of a desperate struggle in the next room."),
+                            "She was good at physics despite the fact that she found it boring."),
                     ExampleSentenceKurdish(
-                        text:
-                            "گوێم لە دەنگی هەوڵدانێکی ناچاری بوو لە ژوورەکەی دیکە."),
+                        text: "لە فیزیادا باش بوو سەرەڕای ئەوەی ڕقی لێی بوو."),
                   ],
                 ),
               ),
@@ -498,94 +488,10 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdesperates3("en-GB"),
+                    onPressed: () => speakdespites3("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was starting to get desperate."),
-                    ExampleSentenceKurdish(
-                        text: "دەستم دەکرد بەوەی بێچارە بم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates4("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She felt utterly desperate."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو هەستی بە بێهوودەیی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates5("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The sudden loss of his money had made him desperate."),
-                    ExampleSentenceKurdish(
-                        text: "لەدەستدانی لەناکاوی پارەکەی بێچارەی کردبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates6("en-US"),
+                    onPressed: () => speakdespites3("en-US"),
                   ),
                 ],
               ),
@@ -593,7 +499,8 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: "٢. (ھاوەڵناو) کارێک کە هیوای سەرکەوتنی کەمە"),
+              text:
+                  "٢. (ئامراز) بۆ وتنی ئەوەی شتێک ڕوویدا ئەگەرچی کەسێک نەیویست"),
           // const DividerSentences(),
           Row(
             children: [
@@ -601,9 +508,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "He made a desperate bid for freedom."),
+                        text: "He had to laugh despite himself."),
                     ExampleSentenceKurdish(
-                        text: "هەوڵێکی بێهوودەی دا بۆ سەرکەوتن."),
+                        text: "پێویست بوو پێ بکەنێت دژ بە ویستی خۆی."),
                   ],
                 ),
               ),
@@ -611,236 +518,24 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdesperates7("en-GB"),
+                    onPressed: () => speakdespites4("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates7("en-US"),
+                    onPressed: () => speakdespites4("en-US"),
                   ),
                 ],
               ),
             ],
           ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She clung to the edge in a desperate attempt to save herself."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خۆی بە قەراغەکەدا ڕاگرت لە هەوڵێکی بێهوودەدا بۆ ڕزگارکردنی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Doctors were fighting a desperate battle to save the little girl's life."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پزیشکان لە هەوڵێکی بێهوودەدا هەوڵیان دەدا ژیانی کچە بچووکەکە ڕزگاربکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates9("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates9("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ھاوەڵناو) ویستنی زۆری شتێک"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I'm desperate for a coffee."),
-                    ExampleSentenceKurdish(text: "موحتاجی کارێکم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates10("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He was so desperate for a job he would have done anything."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "زۆر چاولەدەست بوو بۆ کارێک کە هەموو شتێکی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates11("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I was absolutely desperate to see her."),
-                    ExampleSentenceKurdish(text: "تەواو موحتاجی بینینی بووم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates12("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ھاوەڵناو) تەواو جدی یان مەترسیدار"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They face a desperate shortage of clean water."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی کەماسییەکی توندی ئاوی پاک بوونەتەوە.-"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates13("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates13("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "His financial situation was desperate."),
-                    ExampleSentenceKurdish(text: "دۆخی دارایی شلۆق بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates14("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had died in desperate poverty."),
-                    ExampleSentenceKurdish(text: "لە هەژارییەکی سەختدا مرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdesperates15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdesperates15("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates1600"),
+          //           ExampleSentenceEnglish(text: "speakdespites500"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -849,10 +544,62 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates16("en-GB"),
+          //           onPressed: () => speakdespites5("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates16("en-US"),
+          //           onPressed: () => speakdespites5("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites600"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites6("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites6("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites700"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites7("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites7("en-US"),
           //         ),
           //       ],
           //     ),
@@ -864,7 +611,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates1700"),
+          //           ExampleSentenceEnglish(text: "speakdespites800"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -873,10 +620,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates17("en-GB"),
+          //           onPressed: () => speakdespites8("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates17("en-US"),
+          //           onPressed: () => speakdespites8("en-US"),
           //         ),
           //       ],
           //     ),
@@ -888,7 +635,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates1800"),
+          //           ExampleSentenceEnglish(text: "speakdespites900"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -897,10 +644,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates18("en-GB"),
+          //           onPressed: () => speakdespites9("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates18("en-US"),
+          //           onPressed: () => speakdespites9("en-US"),
           //         ),
           //       ],
           //     ),
@@ -912,7 +659,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates1900"),
+          //           ExampleSentenceEnglish(text: "speakdespites1000"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -921,10 +668,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates19("en-GB"),
+          //           onPressed: () => speakdespites10("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates19("en-US"),
+          //           onPressed: () => speakdespites10("en-US"),
           //         ),
           //       ],
           //     ),
@@ -936,7 +683,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "Stores are getting desperate after two years of poor sales.0"),
+          //           ExampleSentenceEnglish(text: "speakdespites1100"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -945,10 +692,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates20("en-GB"),
+          //           onPressed: () => speakdespites11("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates20("en-US"),
+          //           onPressed: () => speakdespites11("en-US"),
           //         ),
           //       ],
           //     ),
@@ -960,7 +707,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates2100"),
+          //           ExampleSentenceEnglish(text: "speakdespites1200"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -969,10 +716,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates21("en-GB"),
+          //           onPressed: () => speakdespites12("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates21("en-US"),
+          //           onPressed: () => speakdespites12("en-US"),
           //         ),
           //       ],
           //     ),
@@ -984,7 +731,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdesperates2200"),
+          //           ExampleSentenceEnglish(text: "speakdespites1300"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -993,10 +740,226 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdesperates22("en-GB"),
+          //           onPressed: () => speakdespites13("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdesperates22("en-US"),
+          //           onPressed: () => speakdespites13("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1400"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites14("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites14("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1500"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites15("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites15("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1600"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites16("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites16("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1700"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites17("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites17("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1800"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites18("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites18("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites1900"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites19("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites19("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "Despite applying for hundreds of jobs, he is still out of work.0"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites20("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites20("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites2100"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites21("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites21("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdespites2200"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdespites22("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdespites22("en-US"),
           //         ),
           //       ],
           //     ),
@@ -1050,28 +1013,16 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: desperate 
-1. Arising from or marked by despair or loss of hope (= despairing)
-"a desperate cry for help"; "helpless and desperate--as if at the end of his tether"; "her desperate screams";
- 
-2. Desperately determined (= do-or-die)
-"desperate revolutionaries";
- 
-3. (of persons) dangerously reckless or violent as from urgency or despair
-"a desperate criminal"; "taken hostage of desperate men"
- 
-4. Showing extreme courage; especially of actions courageously undertaken in desperation as a last resort (= heroic)
-"made a last desperate attempt to reach the climber"; "the desperate gallantry of our naval task forces marked the turning point in the Pacific war";
- 
-5. Showing extreme urgency or intensity especially because of great need or desire
-"felt a desperate urge to confess"; "a desperate need for recognition"
- 
-6. Fraught with extreme danger; nearly hopeless (= dire)
-"a desperate illness"; "on all fronts the Allies were in a desperate situation due to lack of materiel";
+- Preposition: despite
+1. Regardless of, in defiance of (= in spite of, notwithstanding)
+"went shopping despite the bad weather";
 
-- Noun: desperate (Derived forms: desperates)
-1. A person who is frightened and in need of help
-"they prey on the hopes of the desperate"
+- Noun: despite (Derived forms: despites)
+1. Lack of respect accompanied by a feeling of intense dislike (= contempt, disdain, scorn)
+"the despite in which outsiders were held is legendary";
+ 
+2. Contemptuous disregard
+"she wanted neither favour nor despite"
 """,
   );
 
@@ -1104,8 +1055,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
-    startSeconds: 928,
+    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1129,8 +1080,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
-    startSeconds: 596,
+    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1154,8 +1105,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
-    startSeconds: 1028,
+    videoId: 'https://youtu.be/PL1j8UQJ2Qg',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1179,8 +1130,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
-    startSeconds: 873,
+    videoId: 'https://youtu.be/5HoaJBJ7hM4?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1204,8 +1155,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wknSc6HRUMI?t=',
-    startSeconds: 195,
+    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    startSeconds: 2076,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1229,8 +1180,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
-    startSeconds: 420,
+    videoId: 'https://youtu.be/W0zW71lW62E',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1254,8 +1205,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
-    startSeconds: 1582,
+    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    startSeconds: 990,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -4625,47 +4625,47 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_determined.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deterrent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detest.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detestable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dethrone.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detonate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detonation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detonator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detour.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detoxification.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detriment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_detrimental.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deuce.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devalue.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devaluation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devastate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devastation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_develop.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_developer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_development.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deviate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_deviation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_device.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devil.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devils_advocate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devise.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devoid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devolution.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devote.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devoted.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devotee.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devotion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devour.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_devout.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dew.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dewy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dewdrop.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dexterity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dexterous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diabetes.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diabetic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diabolical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagnose.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -12135,47 +12135,47 @@ final loggedInRoute = RouteMap(routes: {
   "/english-determined": (_) => const MaterialPage(child: EnglishEntrydetermined()),
   "/english-deterrent": (_) => const MaterialPage(child: EnglishEntrydeterrent()),
   "/english-detest": (_) => const MaterialPage(child: EnglishEntrydetest()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
+  "/english-detestable": (_) => const MaterialPage(child: EnglishEntrydetestable()),
+  "/english-dethrone": (_) => const MaterialPage(child: EnglishEntrydethrone()),
+  "/english-detonate": (_) => const MaterialPage(child: EnglishEntrydetonate()),
+  "/english-detonation": (_) => const MaterialPage(child: EnglishEntrydetonation()),
+  "/english-detonator": (_) => const MaterialPage(child: EnglishEntrydetonator()),
+  "/english-detour": (_) => const MaterialPage(child: EnglishEntrydetour()),
+  "/english-detoxification": (_) => const MaterialPage(child: EnglishEntrydetoxification()),
+  "/english-detriment": (_) => const MaterialPage(child: EnglishEntrydetriment()),
+  "/english-detrimental": (_) => const MaterialPage(child: EnglishEntrydetrimental()),
+  "/english-deuce": (_) => const MaterialPage(child: EnglishEntrydeuce()),
+  "/english-devalue": (_) => const MaterialPage(child: EnglishEntrydevalue()),
+  "/english-devaluation": (_) => const MaterialPage(child: EnglishEntrydevaluation()),
+  "/english-devastate": (_) => const MaterialPage(child: EnglishEntrydevastate()),
+  "/english-devastation": (_) => const MaterialPage(child: EnglishEntrydevastation()),
+  "/english-develop": (_) => const MaterialPage(child: EnglishEntrydevelop()),
+  "/english-developer": (_) => const MaterialPage(child: EnglishEntrydeveloper()),
+  "/english-development": (_) => const MaterialPage(child: EnglishEntrydevelopment()),
+  "/english-deviate": (_) => const MaterialPage(child: EnglishEntrydeviate()),
+  "/english-deviation": (_) => const MaterialPage(child: EnglishEntrydeviation()),
+  "/english-device": (_) => const MaterialPage(child: EnglishEntrydevice()),
+  "/english-devil": (_) => const MaterialPage(child: EnglishEntrydevil()),
+  "/english-devils-advocate": (_) => const MaterialPage(child: EnglishEntrydevilsadvocate()),
+  "/english-devious": (_) => const MaterialPage(child: EnglishEntrydevious()),
+  "/english-devise": (_) => const MaterialPage(child: EnglishEntrydevise()),
+  "/english-devoid": (_) => const MaterialPage(child: EnglishEntrydevoid()),
+  "/english-devolution": (_) => const MaterialPage(child: EnglishEntrydevolution()),
+  "/english-devote": (_) => const MaterialPage(child: EnglishEntrydevote()),
+  "/english-devoted": (_) => const MaterialPage(child: EnglishEntrydevoted()),
+  "/english-devotee": (_) => const MaterialPage(child: EnglishEntrydevotee()),
+  "/english-devotion": (_) => const MaterialPage(child: EnglishEntrydevotion()),
+  "/english-devour": (_) => const MaterialPage(child: EnglishEntrydevour()),
+  "/english-devout": (_) => const MaterialPage(child: EnglishEntrydevout()),
+  "/english-dew": (_) => const MaterialPage(child: EnglishEntrydew()),
+  "/english-dewy": (_) => const MaterialPage(child: EnglishEntrydewy()),
+  "/english-dewdrop": (_) => const MaterialPage(child: EnglishEntrydewdrop()),
+  "/english-dexterity": (_) => const MaterialPage(child: EnglishEntrydexterity()),
+  "/english-dexterous": (_) => const MaterialPage(child: EnglishEntrydexterous()),
+  "/english-diabetes": (_) => const MaterialPage(child: EnglishEntrydiabetes()),
+  "/english-diabetic": (_) => const MaterialPage(child: EnglishEntrydiabetic()),
+  "/english-diabolical": (_) => const MaterialPage(child: EnglishEntrydiabolical()),
+  "/english-diagnose": (_) => const MaterialPage(child: EnglishEntrydiagnose()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),

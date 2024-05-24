@@ -4666,36 +4666,36 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diabetic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diabolical.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagnose.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagnosis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagnostic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagonal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagonally.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagram.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diagrammatic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dialling_tone.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dialect.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dialogue.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dialogue_box.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diameter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diametrically.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diamond.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diamond_jubilee.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diaphragm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diarrhoea.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dice.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictatorial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictatorship.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dictionary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_die.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diesel.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_diet.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_differ.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart';
@@ -12176,36 +12176,36 @@ final loggedInRoute = RouteMap(routes: {
   "/english-diabetic": (_) => const MaterialPage(child: EnglishEntrydiabetic()),
   "/english-diabolical": (_) => const MaterialPage(child: EnglishEntrydiabolical()),
   "/english-diagnose": (_) => const MaterialPage(child: EnglishEntrydiagnose()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
+  "/english-diagnosis": (_) => const MaterialPage(child: EnglishEntrydiagnosis()),
+  "/english-diagnostic": (_) => const MaterialPage(child: EnglishEntrydiagnostic()),
+  "/english-diagonal": (_) => const MaterialPage(child: EnglishEntrydiagonal()),
+  "/english-diagonally": (_) => const MaterialPage(child: EnglishEntrydiagonally()),
+  "/english-diagram": (_) => const MaterialPage(child: EnglishEntrydiagram()),
+  "/english-diagrammatic": (_) => const MaterialPage(child: EnglishEntrydiagrammatic()),
+  "/english-dial": (_) => const MaterialPage(child: EnglishEntrydial()),
+  "/english-dialling-tone": (_) => const MaterialPage(child: EnglishEntrydiallingtone()),
+  "/english-dialect": (_) => const MaterialPage(child: EnglishEntrydialect()),
+  "/english-dialogue": (_) => const MaterialPage(child: EnglishEntrydialogue()),
+  "/english-dialogue-box": (_) => const MaterialPage(child: EnglishEntrydialoguebox()),
+  "/english-diameter": (_) => const MaterialPage(child: EnglishEntrydiameter()),
+  "/english-diametrically": (_) => const MaterialPage(child: EnglishEntrydiametrically()),
+  "/english-diamond": (_) => const MaterialPage(child: EnglishEntrydiamond()),
+  "/english-diamond-jubilee": (_) => const MaterialPage(child: EnglishEntrydiamondjubilee()),
+  "/english-diaphragm": (_) => const MaterialPage(child: EnglishEntrydiaphragm()),
+  "/english-diarrhoea": (_) => const MaterialPage(child: EnglishEntrydiarrhoea()),
+  "/english-diary": (_) => const MaterialPage(child: EnglishEntrydiary()),
+  "/english-dice": (_) => const MaterialPage(child: EnglishEntrydice()),
+  "/english-dictate": (_) => const MaterialPage(child: EnglishEntrydictate()),
+  "/english-dictation": (_) => const MaterialPage(child: EnglishEntrydictation()),
+  "/english-dictator": (_) => const MaterialPage(child: EnglishEntrydictator()),
+  "/english-dictatorial": (_) => const MaterialPage(child: EnglishEntrydictatorial()),
+  "/english-dictatorship": (_) => const MaterialPage(child: EnglishEntrydictatorship()),
+  "/english-diction": (_) => const MaterialPage(child: EnglishEntrydiction()),
+  "/english-dictionary": (_) => const MaterialPage(child: EnglishEntrydictionary()),
+  "/english-die": (_) => const MaterialPage(child: EnglishEntrydie()),
+  "/english-diesel": (_) => const MaterialPage(child: EnglishEntrydiesel()),
+  "/english-diet": (_) => const MaterialPage(child: EnglishEntrydiet()),
+  "/english-differ": (_) => const MaterialPage(child: EnglishEntrydiffer()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => const MaterialPage(child: EnglishEntry()),

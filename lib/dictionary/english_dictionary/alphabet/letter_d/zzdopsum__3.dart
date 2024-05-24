@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdopsum1s1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdopsum1s14(String languageCode) async {
+  Future<void> speakdopsum1s14(String languageCode) async {
     // DOPSUM: CHANGE speakdopsum1
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -2300,6 +2300,8 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
   // rrrrrrrrrrrrrrrrrrrrrrrrrrrr ررررررررررررررررررررررررر
 
   
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [

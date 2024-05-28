@@ -674,7 +674,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: crisp (Derived forms: crisper, crispest)
+- Adjective: crisp (derived forms: crisper, crispest)
 1. Tender and brittle (= crispy, crunchy)
 "crisp potato chips";
  
@@ -694,11 +694,11 @@ ${englishMeaningConst.text}
  
 7. (of hair) in small tight curls (= frizzly, frizzy, kinky, nappy)
 
-- Noun: crisp (Derived forms: crisps)
+- Noun: crisp (derived forms: crisps)
 Usage: Brit (N. Amer: potato chip)
 1. A thin crisp slice of potato fried in deep fat (= chip [N. Amer], potato chip [N. Amer], Saratoga chip, potato crisp [Brit])
 
-- Verb: crisp (Derived forms: crisps, crisping, crisped)
+- Verb: crisp (derived forms: crisps, crisping, crisped)
 1. (cooking) make brown and crisp by heating (= crispen, toast)
 "crisp potatoes";
  
@@ -735,7 +735,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zrJYW08beVE',
+    videoId: 'zrJYW08beVE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -760,7 +760,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YwWnJxyvKFk?t=',
+    videoId: 'YwWnJxyvKFk',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -785,7 +785,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kj6Mj3ocf10',
+    videoId: 'Kj6Mj3ocf10',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -810,7 +810,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/96rh6zoigeY',
+    videoId: '96rh6zoigeY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -835,7 +835,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D8BXYIZ_7sE?t=',
+    videoId: 'D8BXYIZ_7sE',
     startSeconds: 1337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -860,7 +860,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5NgxKJI7l3E',
+    videoId: '5NgxKJI7l3E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -885,7 +885,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ORPYMcDIY8I?t=',
+    videoId: 'ORPYMcDIY8I',
     startSeconds: 851,
     autoPlay: true,
     params: const YoutubePlayerParams(

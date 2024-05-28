@@ -438,11 +438,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deadlock (Derived forms: deadlocks)
+- Noun: deadlock (derived forms: deadlocks)
 1. A situation in which no progress can be made or no advancement is possible (= dead end, impasse, stalemate, standstill)
 "reached a deadlock on the negotiations";
 
-- Verb: deadlock (Derived forms: deadlocked, deadlocking, deadlocks)
+- Verb: deadlock (derived forms: deadlocked, deadlocking, deadlocks)
 1. Cause or to come to a deadlock
 """,
   );
@@ -476,7 +476,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    videoId: 'hRSGxw2AQnk',
     startSeconds: 813,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wrsUbwKGuko?t=',
+    videoId: 'wrsUbwKGuko',
     startSeconds: 2690,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X1ncuW-bLsw?t=',
+    videoId: 'X1ncuW-bLsw',
     startSeconds: 3241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HGOBQPFzWKo?t=',
+    videoId: 'HGOBQPFzWKo',
     startSeconds: 20616,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SgiXLwTAyXU?t=',
+    videoId: 'SgiXLwTAyXU',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zsd3YH3vGS0?t=',
+    videoId: 'zsd3YH3vGS0',
     startSeconds: 883,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mzvHYBgD-tI?t=',
+    videoId: 'mzvHYBgD-tI',
     startSeconds: 670,
     autoPlay: true,
     params: const YoutubePlayerParams(

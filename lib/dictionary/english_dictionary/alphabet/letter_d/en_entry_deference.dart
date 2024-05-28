@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The flags were lowered out of deference to the bereaved family."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The flags were lowered out of deference to the bereaved family."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeferences3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeferences1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeferences14(String languageCode) async {
+  Future<void> speakdeferences14(String languageCode) async {
     // DOPSUM: CHANGE speakdeference
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The flags were lowered out of deference to the bereaved family.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The flags were lowered out of deference to the bereaved family.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeferences21(String languageCode) async {
@@ -404,7 +406,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ڕێزلێنان، حورمەت، ڕێز، ڕوومەت، بەقسەکردن، لەبەرچاوگرتن، دڵ‌ڕاگرتن
 """),
-          const DefinitionKurdish(text: "١. (ناو) ڕەفتارێک کە ڕێزلێگرتن پیشان دەدات"),
+          const DefinitionKurdish(
+              text: "١. (ناو) ڕەفتارێک کە ڕێزلێگرتن پیشان دەدات"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The women wore veils in deference to the customs of the country."),
-                    ExampleSentenceKurdish(text: "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The flags were lowered out of deference to the bereaved family."),
-                    ExampleSentenceKurdish(text: "ئاڵاکان نزمکرانەوە وەک ڕێزێک بۆ خانەوادە تازیەبارەکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The flags were lowered out of deference to the bereaved family."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئاڵاکان نزمکرانەوە وەک ڕێزێک بۆ خانەوادە تازیەبارەکە."),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deference (Derived forms: deferences)
+- Noun: deference (derived forms: deferences)
 1. A courteous expression (by word or deed) of esteem or regard (= respect)
 "his deference to her wishes was very flattering";
  
@@ -1028,7 +1037,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ccin6oZfTyI?t=',
+    videoId: 'ccin6oZfTyI',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1062,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eJ-WJssJgdg?t=',
+    videoId: 'eJ-WJssJgdg',
     startSeconds: 2822,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1087,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/urOP5TtYc1E?t=',
+    videoId: 'urOP5TtYc1E',
     startSeconds: 1013,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1112,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PnO7pL-QWyc?t=',
+    videoId: 'PnO7pL-QWyc',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1137,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DOgjmkKUIDs?t=',
+    videoId: 'DOgjmkKUIDs',
     startSeconds: 870,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1162,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TDMd40a-A4c?t=',
+    videoId: 'TDMd40a-A4c',
     startSeconds: 657,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1187,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VHDYZfLXS6Q?t=',
+    videoId: 'VHDYZfLXS6Q',
     startSeconds: 989,
     autoPlay: true,
     params: const YoutubePlayerParams(

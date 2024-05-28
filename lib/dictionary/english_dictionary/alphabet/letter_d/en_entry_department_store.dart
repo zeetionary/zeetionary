@@ -14,10 +14,12 @@ class EnglishEntrydepartmentstore extends StatefulWidget {
   const EnglishEntrydepartmentstore({super.key});
 
   @override
-  State<EnglishEntrydepartmentstore> createState() => _EnglishEntrydepartmentstoreState();
+  State<EnglishEntrydepartmentstore> createState() =>
+      _EnglishEntrydepartmentstoreState();
 }
 
-class _EnglishEntrydepartmentstoreState extends State<EnglishEntrydepartmentstore> {
+class _EnglishEntrydepartmentstoreState
+    extends State<EnglishEntrydepartmentstore> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepartmentstores1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepartmentstores14(String languageCode) async {
+  Future<void> speakdepartmentstores14(String languageCode) async {
     // DOPSUM: CHANGE speakdepartmentstore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: گەورەدووکان، فرۆشگەی گەورە، فرۆشگای چەندبەشە، کەڵەفرۆشگا
 """),
-          const DefinitionKurdish(text: "١. (ناو) فرۆشگایەکی گەورە کە بەسەر چەندین بەشدا دابەش بووە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) فرۆشگایەکی گەورە کە بەسەر چەندین بەشدا دابەش بووە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The department store downtown has three floors."),
-                    ExampleSentenceKurdish(text: "فرۆشگاکەی ناوجەرگەی شار سێ نهۆمی هەیە."),
+                    ExampleSentenceKurdish(
+                        text: "فرۆشگاکەی ناوجەرگەی شار سێ نهۆمی هەیە."),
                   ],
                 ),
               ),
@@ -988,7 +993,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: department store (Derived forms: department stores)
+- Noun: department store (derived forms: department stores)
 1. A large retail store organized into departments offering a variety of merchandise; commonly part of a retail chain (= emporium)
 """,
   );
@@ -1022,7 +1027,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1052,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qQ01eLt_bxo?t=',
+    videoId: 'qQ01eLt_bxo',
     startSeconds: 555,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1077,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ht7MNqZT_hU?t=',
+    videoId: 'ht7MNqZT_hU',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1102,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FaCeZsOOKEY?t=',
+    videoId: 'FaCeZsOOKEY',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1127,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Df3u46xBVMY?t=',
+    videoId: 'Df3u46xBVMY',
     startSeconds: 185,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1152,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UrkPC81_QfU?t=',
+    videoId: 'UrkPC81_QfU',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1177,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nV7ekK30-e8?t=',
+    videoId: 'nV7ekK30-e8',
     startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(

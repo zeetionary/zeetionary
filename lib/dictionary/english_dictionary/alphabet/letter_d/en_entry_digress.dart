@@ -404,7 +404,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: لادان، دەرپەڕین، دەرباز بوون، بڕ لێدان
 """),
-          const DefinitionKurdish(text: "١. (کردار) قسەکردن لەسەر شتێک کە پەیوەندیدار نییە بە بابەتی سەرەکی ئەوەی قسەی لەسەر دەکەیت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) قسەکردن لەسەر شتێک کە پەیوەندیدار نییە بە بابەتی سەرەکی ئەوەی قسەی لەسەر دەکەیت"),
           Row(
             children: [
               const Expanded(
@@ -1026,7 +1028,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: digress (Derived forms: digressed, digresses, digressing)
+- Verb: digress (derived forms: digressed, digresses, digressing)
 1. Lose clarity or turn aside especially from the main subject of attention or course of argument in writing, thinking, or speaking (= stray, divagate, wander)
 "She always digresses when telling a story"; "Don't digress when you give a lecture";
  
@@ -1063,7 +1065,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3n99jqOdeSw?t=',
+    videoId: '3n99jqOdeSw',
     startSeconds: 905,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1088,7 +1090,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hCsPV0eiqxg?t=',
+    videoId: 'hCsPV0eiqxg',
     startSeconds: 1187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1113,7 +1115,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 941,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1138,7 +1140,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iQ190Bf-6J0?t=',
+    videoId: 'iQ190Bf-6J0',
     startSeconds: 637,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1165,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/80ULDtPkUQg?t=',
+    videoId: '80ULDtPkUQg',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1190,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e-V_MDVgISo?t=',
+    videoId: 'e-V_MDVgISo',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1215,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jJA3dYwIB3s?t=',
+    videoId: 'jJA3dYwIB3s',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(

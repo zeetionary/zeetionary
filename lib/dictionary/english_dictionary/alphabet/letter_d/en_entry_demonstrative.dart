@@ -1009,7 +1009,7 @@ ${englishMeaningConst.text}
 2. Given to or marked by the open expression of emotion
 "an affectionate and demonstrative family"
 
-- Noun: demonstrative (Derived forms: demonstratives)
+- Noun: demonstrative (derived forms: demonstratives)
 1. A pronoun that points out an intended referent (= demonstrative pronoun)
 """,
   );
@@ -1043,7 +1043,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8uXhQnWgj4?t=',
+    videoId: 'W8uXhQnWgj4',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1068,7 +1068,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FCZ06Sfr9Cg?t=',
+    videoId: 'FCZ06Sfr9Cg',
     startSeconds: 1292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1093,7 +1093,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l6bwqt-jjdQ?t=',
+    videoId: 'l6bwqt-jjdQ',
     startSeconds: 1146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1118,7 +1118,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/23dArPpXgCM?t=',
+    videoId: '23dArPpXgCM',
     startSeconds: 1814,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1143,7 +1143,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dp6W7g9no0w?t=',
+    videoId: 'Dp6W7g9no0w',
     startSeconds: 646,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1168,7 +1168,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KtW4reb6zXQ?t=',
+    videoId: 'KtW4reb6zXQ',
     startSeconds: 1610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1193,7 +1193,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dVp1HD0NTn4?t=',
+    videoId: 'dVp1HD0NTn4',
     startSeconds: 953,
     autoPlay: true,
     params: const YoutubePlayerParams(

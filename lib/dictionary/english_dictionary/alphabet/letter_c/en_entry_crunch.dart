@@ -648,7 +648,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crunch (Derived forms: crunches)
+- Noun: crunch (derived forms: crunches)
 1. The sound of something crunching
 "he heard the crunch of footsteps on the gravel path"
  
@@ -657,7 +657,7 @@ ${englishMeaningConst.text}
  
 3. The act of crushing (= crush, compaction)
 
-- Verb: crunch (Derived forms: crunching, crunches, crunched)
+- Verb: crunch (derived forms: crunching, crunches, crunched)
 1. Make a crushing noise (= scranch [dialect], scraunch [dialect], crackle, scrunch)
 "his shoes were crunching on the gravel";
  
@@ -700,7 +700,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -725,7 +725,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -750,7 +750,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    videoId: 'Fr-qagv7ig0',
     startSeconds: 778,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -775,7 +775,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1p8r-2ffK_c?t=',
+    videoId: '1p8r-2ffK_c',
     startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -800,7 +800,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-zvVWpf_FzQ?t=',
+    videoId: '-zvVWpf_FzQ',
     startSeconds: 591,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -825,7 +825,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
+    videoId: 'f7QWMUCMYOE',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -850,7 +850,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hQT7PN4Tzsg?t=',
+    videoId: 'hQT7PN4Tzsg',
     startSeconds: 755,
     autoPlay: true,
     params: const YoutubePlayerParams(

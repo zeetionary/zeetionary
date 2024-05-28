@@ -935,7 +935,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crush (Derived forms: crushed, crushing, crushes)
+- Verb: crush (derived forms: crushed, crushing, crushes)
 1. Use force to compress, making out of normal shape or condition (= squash, squelch, mash, squeeze, squidge [informal], squish [informal])
 "crush an aluminium can";
  
@@ -959,7 +959,7 @@ ${englishMeaningConst.text}
 8. Become injured, broken, or distorted by pressure
 "The plastic bottle crushed against the wall"
 
-- Noun: crush (Derived forms: crushes)
+- Noun: crush (derived forms: crushes)
 1. Leather that has had its grain pattern accentuated (= crushed leather)
  
 2. A dense crowd of people (= jam, press)
@@ -999,7 +999,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tK-tq3OfPF8?t=',
+    videoId: 'tK-tq3OfPF8',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1024,7 +1024,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1485,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1049,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lsFPbgK1v9I?t=',
+    videoId: 'lsFPbgK1v9I',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 968,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVQxvthAcLU?t=',
+    videoId: 'xVQxvthAcLU',
     startSeconds: 820,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/10FiSsim_a4?t=',
+    videoId: '10FiSsim_a4',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(

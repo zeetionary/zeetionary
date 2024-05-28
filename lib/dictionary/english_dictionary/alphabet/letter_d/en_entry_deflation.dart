@@ -998,7 +998,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deflation (Derived forms: deflations)
+- Noun: deflation (derived forms: deflations)
 1. (geology) the erosion of soil as a consequence of sand and dust and loose rocks being removed by the wind
 "a constant deflation of the desert landscape"
  
@@ -1037,7 +1037,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-VwTemdXec?t=',
+    videoId: 'r-VwTemdXec',
     startSeconds: 1109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1062,7 +1062,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mEpgo14jwSk?t=',
+    videoId: 'mEpgo14jwSk',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1087,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IlTp6wRkXuY?t=',
+    videoId: 'IlTp6wRkXuY',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1112,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5E_DIPttHuE?t=',
+    videoId: '5E_DIPttHuE',
     startSeconds: 278,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1137,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ycY8U9darow?t=',
+    videoId: 'ycY8U9darow',
     startSeconds: 426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1162,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EgeV0n9L2es?t=',
+    videoId: 'EgeV0n9L2es',
     startSeconds: 824,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1187,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ayOS3iRgoUk?t=',
+    videoId: 'ayOS3iRgoUk',
     startSeconds: 1747,
     autoPlay: true,
     params: const YoutubePlayerParams(

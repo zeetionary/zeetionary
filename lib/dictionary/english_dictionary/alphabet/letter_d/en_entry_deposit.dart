@@ -1047,7 +1047,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deposit (Derived forms: deposits, deposited, depositing)
+- Verb: deposit (derived forms: deposits, deposited, depositing)
 1. Put, fix, force, or implant (= lodge, wedge, stick)
 "deposit a bullet in the table";
  
@@ -1057,7 +1057,7 @@ ${englishMeaningConst.text}
 3. Put (something somewhere) firmly (= situate, fix, posit)
 "deposit the suitcase on the bench";
 
-- Noun: deposit (Derived forms: deposits)
+- Noun: deposit (derived forms: deposits)
 1. The phenomenon of sediment or gravel accumulating (= sedimentation, alluviation)
  
 2. Matter that has been deposited by some natural process (= sediment)
@@ -1108,7 +1108,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1133,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TVKNpjnqeg0?t=',
+    videoId: 'TVKNpjnqeg0',
     startSeconds: 814,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1158,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 538,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1183,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ImoP-Apzrsg?t=',
+    videoId: 'ImoP-Apzrsg',
     startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1208,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ao2Jfm35XeE?t=',
+    videoId: 'ao2Jfm35XeE',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1233,7 +1233,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gi3HnqetpLw?t=',
+    videoId: 'Gi3HnqetpLw',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1258,7 +1258,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BztMgcNgobk?t=',
+    videoId: 'BztMgcNgobk',
     startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(

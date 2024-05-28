@@ -14,7 +14,8 @@ class EnglishEntrydiscourtesy extends StatefulWidget {
   const EnglishEntrydiscourtesy({super.key});
 
   @override
-  State<EnglishEntrydiscourtesy> createState() => _EnglishEntrydiscourtesyState();
+  State<EnglishEntrydiscourtesy> createState() =>
+      _EnglishEntrydiscourtesyState();
 }
 
 class _EnglishEntrydiscourtesyState extends State<EnglishEntrydiscourtesy> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Being late is a discourtesy to your colleagues."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Being late is a discourtesy to your colleagues."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscourtesys3(String languageCode) async {
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They felt they had been treated with discourtesy."),
-                    ExampleSentenceKurdish(text: "وایان هەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وایان هەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە."),
                   ],
                 ),
               ),
@@ -438,8 +442,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Being late is a discourtesy to your colleagues."),
-                    ExampleSentenceKurdish(text: "درەنگ کەوتن بێڕێزییە بە هاوکارەکانت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Being late is a discourtesy to your colleagues."),
+                    ExampleSentenceKurdish(
+                        text: "درەنگ کەوتن بێڕێزییە بە هاوکارەکانت."),
                   ],
                 ),
               ),
@@ -1024,7 +1031,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discourtesy (Derived forms: discourtesies)
+- Noun: discourtesy (derived forms: discourtesies)
 1. An expression of lack of respect (= disrespect)
  
 2. A manner that is rude and insulting (= rudeness)
@@ -1062,7 +1069,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NnoFj2cMRLY?t=',
+    videoId: 'NnoFj2cMRLY',
     startSeconds: 309,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1094,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DlAbdnRQCTg?t=',
+    videoId: 'DlAbdnRQCTg',
     startSeconds: 636,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1119,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VNMPkbMM288?t=',
+    videoId: 'VNMPkbMM288',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1144,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R7hK5_Rj--8?t=',
+    videoId: 'R7hK5_Rj--8',
     startSeconds: 3403,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1169,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LrWR0Kh2NL0?t=',
+    videoId: 'LrWR0Kh2NL0',
     startSeconds: 1435,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1194,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MbJHP2CrAiw?t=',
+    videoId: 'MbJHP2CrAiw',
     startSeconds: 199,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1219,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3-TAOorQ-Ig?t=',
+    videoId: '3-TAOorQ-Ig',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(

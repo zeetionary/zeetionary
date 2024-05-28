@@ -14,7 +14,8 @@ class EnglishEntrydevastation extends StatefulWidget {
   const EnglishEntrydevastation({super.key});
 
   @override
-  State<EnglishEntrydevastation> createState() => _EnglishEntrydevastationState();
+  State<EnglishEntrydevastation> createState() =>
+      _EnglishEntrydevastationState();
 }
 
 class _EnglishEntrydevastationState extends State<EnglishEntrydevastation> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cost of the devastation could run to £6 million."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The cost of the devastation could run to £6 million."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdevastations3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdevastations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdevastations14(String languageCode) async {
+  Future<void> speakdevastations14(String languageCode) async {
     // DOPSUM: CHANGE speakdevastation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -411,9 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The bomb caused widespread devastation."),
-                    ExampleSentenceKurdish(text: "بۆمبەکە بوو بە هۆکاری وێرانبوونی گەورە."),
+                        text: "The bomb caused widespread devastation."),
+                    ExampleSentenceKurdish(
+                        text: "بۆمبەکە بوو بە هۆکاری وێرانبوونی گەورە."),
                   ],
                 ),
               ),
@@ -438,8 +440,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The cost of the devastation could run to £6 million."),
-                    ExampleSentenceKurdish(text: "تێچووی وێرانبوونەکە دەکرێت بگات نە ٦ ملیۆن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The cost of the devastation could run to £6 million."),
+                    ExampleSentenceKurdish(
+                        text: "تێچووی وێرانبوونەکە دەکرێت بگات نە ٦ ملیۆن."),
                   ],
                 ),
               ),
@@ -994,7 +999,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: devastation (Derived forms: devastations)
+- Noun: devastation (derived forms: devastations)
 1. The state of being decayed or destroyed (= desolation)
  
 2. The feeling of being confounded or overwhelmed
@@ -1037,7 +1042,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    videoId: 'tExo3ovEBWQ',
     startSeconds: 1022,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1062,7 +1067,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vGQQbulRUjY?t=',
+    videoId: 'vGQQbulRUjY',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1092,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J_n1FZaKzF8?t=',
+    videoId: 'J_n1FZaKzF8',
     startSeconds: 1115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1117,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/abmzSFY0I1k?t=',
+    videoId: 'abmzSFY0I1k',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1142,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s4Y3dlTDAxw?t=',
+    videoId: 's4Y3dlTDAxw',
     startSeconds: 779,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1167,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3oBCtTv6yOw?t=',
+    videoId: '3oBCtTv6yOw',
     startSeconds: 401,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1192,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-JkcZRBUNtw?t=',
+    videoId: '-JkcZRBUNtw',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(

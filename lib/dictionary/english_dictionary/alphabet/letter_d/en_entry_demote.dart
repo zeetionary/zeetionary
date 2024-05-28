@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The captain was demoted for failing to fulfil his duties."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The captain was demoted for failing to fulfil his duties."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemotes3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemotes1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemotes14(String languageCode) async {
+  Future<void> speakdemotes14(String languageCode) async {
     // DOPSUM: CHANGE speakdemote
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The captain was demoted for failing to fulfil his duties.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The captain was demoted for failing to fulfil his duties.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemotes21(String languageCode) async {
@@ -402,9 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) دابەزاندنی پێگەی کەسێک، زۆرجار وەک سزا"),
+          const DefinitionKurdish(
+              text: "١. (کردار) دابەزاندنی پێگەی کەسێک، زۆرجار وەک سزا"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The American people have been demoted from citizens to consumers."),
-                    ExampleSentenceKurdish(text: "خەڵکی ئەمریکا لە هاوڵاتییەوە کراون بە بەکارهێنەر."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "خەڵکی ئەمریکا لە هاوڵاتییەوە کراون بە بەکارهێنەر."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The captain was demoted (to sergeant) for failing to fulfil his duties."),
-                    ExampleSentenceKurdish(text: "کاپتنەکە پلەی دابەزێندرا بۆ شکستهێنان لە بەجێهێنانی ئەرکەکانی."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The captain was demoted (to sergeant) for failing to fulfil his duties."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کاپتنەکە پلەی دابەزێندرا بۆ شکستهێنان لە بەجێهێنانی ئەرکەکانی."),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: demote (Derived forms: demoted, demotes, demoting)
+- Verb: demote (derived forms: demoted, demotes, demoting)
 1. Assign to a lower position; reduce in rank (= bump, relegate, break, kick downstairs)
 "She was demoted because she always speaks up";
 """,
@@ -1023,7 +1032,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    videoId: 'gQmiqmxJMtA',
     startSeconds: 7261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1048,7 +1057,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZM57oTu9Ng?t=',
+    videoId: 'zZM57oTu9Ng',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1073,7 +1082,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rm9t94mpkjo?t=',
+    videoId: 'Rm9t94mpkjo',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1107,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PfEa1zFDeNY?t=',
+    videoId: 'PfEa1zFDeNY',
     startSeconds: 517,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1132,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fG8SwAFQFuU?t=',
+    videoId: 'fG8SwAFQFuU',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1148,7 +1157,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Aunrx86kmnw?t=',
+    videoId: 'Aunrx86kmnw',
     startSeconds: 493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1173,7 +1182,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T-h3iU7ujn4?t=',
+    videoId: 'T-h3iU7ujn4',
     startSeconds: 599,
     autoPlay: true,
     params: const YoutubePlayerParams(

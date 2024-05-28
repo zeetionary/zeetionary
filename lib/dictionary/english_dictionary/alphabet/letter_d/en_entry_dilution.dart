@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Tests are underway to see whether two dilutions of this vaccine are effective."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Tests are underway to see whether two dilutions of this vaccine are effective."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilutions3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This is a serious dilution of their election promises."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This is a serious dilution of their election promises."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilutions4(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تراوکردن، تراواندن، تەنک‌کردن، تەنکاندن، ڕوون‌کردنەوە، تراوی،	لاوازکردن، سست‌کردن، سستاندن، لاوازاندن، نزم‌کردنەوە
 """),
-          const DefinitionKurdish(text: "١. (ناو) لاوازکردنی شلەیەک بە زیادکردنی ئاو یان شلەیەکی دیکە بۆی"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) لاوازکردنی شلەیەک بە زیادکردنی ئاو یان شلەیەکی دیکە بۆی"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The drug's effectiveness is decreased by dilution."),
-                    ExampleSentenceKurdish(text: "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی."),
+                    ExampleSentenceKurdish(
+                        text: "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Tests are underway to see whether two dilutions of this vaccine are effective."),
-                    ExampleSentenceKurdish(text: "تاقیکردنەوە خەریکە دەکرێت کە ئایا دووجار تراواندنی ئەم ڤاکسینە کاریگەرە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Tests are underway to see whether two dilutions of this vaccine are effective."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تاقیکردنەوە خەریکە دەکرێت کە ئایا دووجار تراواندنی ئەم ڤاکسینە کاریگەرە."),
                   ],
                 ),
               ),
@@ -457,15 +466,20 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) لاوازکردن یان کەمکردنی کاریگەری شتێک"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) لاوازکردن یان کەمکردنی کاریگەری شتێک"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "This is a serious dilution of their election promises."),
-                    ExampleSentenceKurdish(text: "ئەمە لاوازکردنێکی جدی بەڵێنەکانی هەڵبژاردنیانە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "This is a serious dilution of their election promises."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەمە لاوازکردنێکی جدی بەڵێنەکانی هەڵبژاردنیانە."),
                   ],
                 ),
               ),
@@ -1024,7 +1038,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dilution (Derived forms: dilutions)
+- Noun: dilution (derived forms: dilutions)
 1. A diluted solution
  
 2. Weakening (reducing the concentration) by the addition of water or a thinner
@@ -1060,7 +1074,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gXR9D9ZXllg?t=',
+    videoId: 'gXR9D9ZXllg',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1099,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxREm3s1scA?t=',
+    videoId: 'DxREm3s1scA',
     startSeconds: 3565,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1124,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ELEAsGoP-5I?t=',
+    videoId: 'ELEAsGoP-5I',
     startSeconds: 2052,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1149,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZZxnDCJTOxs?t=',
+    videoId: 'ZZxnDCJTOxs',
     startSeconds: 1896,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1174,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GHa3rxmSi1c?t=',
+    videoId: 'GHa3rxmSi1c',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1199,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/feHnfZ7Tsyc?t=',
+    videoId: 'feHnfZ7Tsyc',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1224,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pdcrJ5V7YKM?t=',
+    videoId: 'pdcrJ5V7YKM',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(

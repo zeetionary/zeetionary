@@ -1738,7 +1738,7 @@ ${englishMeaningConst.text}
  
 9. An estimate, based on previous dealings, of a person's or an organization's ability to fulfil their financial commitments (= credit rating)
 
-- Verb: credit (Derived forms: credited, credits, crediting)
+- Verb: credit (derived forms: credited, credits, crediting)
 1. Give someone credit for something
 "We credited her for saving our jobs"
  
@@ -1781,7 +1781,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eyMKA4d35dg',
+    videoId: 'eyMKA4d35dg',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1806,7 +1806,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QCdqHswGS5A',
+    videoId: 'QCdqHswGS5A',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1831,7 +1831,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s1SaD-gSZO4',
+    videoId: 's1SaD-gSZO4',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1856,7 +1856,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AFS6saV981Q',
+    videoId: 'AFS6saV981Q',
     startSeconds: 862,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1881,7 +1881,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xtwar56r4Lg',
+    videoId: 'Xtwar56r4Lg',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1906,7 +1906,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/II-OP6vdMs8',
+    videoId: 'II-OP6vdMs8',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1931,7 +1931,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TOzQrOPrjwk',
+    videoId: 'TOzQrOPrjwk',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1037,7 +1037,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: depression (Derived forms: depressions)
+- Noun: depression (derived forms: depressions)
 1. A mental state characterized by a pessimistic sense of inadequacy and a despondent lack of activity
  
 2. A long-term economic state characterized by unemployment and low prices and low levels of trade and investment (= slump, economic crisis)
@@ -1093,7 +1093,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9QrlDWKP6lg?t=',
+    videoId: '9QrlDWKP6lg',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1118,7 +1118,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    videoId: '-cPdImejxEQ',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1143,7 +1143,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 1059,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1168,7 +1168,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q8HRGiUeZwc?t=',
+    videoId: 'q8HRGiUeZwc',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1193,7 +1193,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p3O6bKdPLbw?t=',
+    videoId: 'p3O6bKdPLbw',
     startSeconds: 2825,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1218,7 +1218,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Va_XMMR4R2I?t=',
+    videoId: 'Va_XMMR4R2I',
     startSeconds: 405,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1243,7 +1243,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6a4hMyiwBo?t=',
+    videoId: 'x6a4hMyiwBo',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(

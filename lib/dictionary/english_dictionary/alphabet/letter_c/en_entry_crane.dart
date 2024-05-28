@@ -469,11 +469,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crane (Derived forms: craning, craned, cranes)
+- Verb: crane (derived forms: craning, craned, cranes)
 1. Stretch (the neck) so as to see better (= stretch out)
 "The women craned their necks to see the President drive by";
 
-- Noun: crane (Derived forms: cranes)
+- Noun: crane (derived forms: cranes)
 1. A tall mechanical lifting device, often used for lifting heavy loads for industrial or construction purposes
  
 2. Large long-necked wading bird of marshes and plains in many parts of the world
@@ -516,7 +516,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZgD-dYsNtOk',
+    videoId: 'ZgD-dYsNtOk',
     startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CEw9vLiR6x4',
+    videoId: 'CEw9vLiR6x4',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ihla4rV3Ckc',
+    videoId: 'ihla4rV3Ckc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Ukid-oCQc4',
+    videoId: '6Ukid-oCQc4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-507pXEXB_k',
+    videoId: '-507pXEXB_k',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RwtQi1TAFRc',
+    videoId: 'RwtQi1TAFRc',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dn8u6-wbCJk?t=',
+    videoId: 'Dn8u6-wbCJk',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

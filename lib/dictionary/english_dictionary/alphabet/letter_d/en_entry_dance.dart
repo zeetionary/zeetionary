@@ -733,7 +733,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dance (Derived forms: dances, dancing, danced)
+- Verb: dance (derived forms: dances, dancing, danced)
 1. (dancing) move in a pattern; usually to musical accompaniment; do or perform a dance (= trip the light fantastic, trip the light fantastic toe)
 "My husband and I like to dance at home to the radio";
  
@@ -743,7 +743,7 @@ ${englishMeaningConst.text}
 3. Skip, leap, or move up and down or sideways
 "Dancing flames"; "The children danced with joy"
 
-- Noun: dance (Derived forms: dances)
+- Noun: dance (derived forms: dances)
 1. Taking a series of rhythmical steps (and movements) in time to music (= dancing, terpsichore, saltation)
  
 2. The art of dancing
@@ -783,7 +783,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -808,7 +808,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -833,7 +833,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fdQ_ltsODF8',
+    videoId: 'fdQ_ltsODF8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -858,7 +858,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PdrbNKXMzvg?t=',
+    videoId: 'PdrbNKXMzvg',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -883,7 +883,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EzD5TsF8eC0?t=',
+    videoId: 'EzD5TsF8eC0',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -908,7 +908,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4brSh0g4uK8?t=',
+    videoId: '4brSh0g4uK8',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -933,7 +933,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4brSh0g4uK8?t=',
+    videoId: '4brSh0g4uK8',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(

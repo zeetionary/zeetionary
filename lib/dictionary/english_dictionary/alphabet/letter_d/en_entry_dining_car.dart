@@ -404,16 +404,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: (شەمەندەفەر) واگۆنی خواردنگە یا نان‌خواردن
 """),
-          const DefinitionKurdish(text: "١. (ناو) واگۆنێکی شەمەندەفەر کە خواردنی تێدا دەخورێت"),
+          const DefinitionKurdish(
+              text: "١. (ناو) واگۆنێکی شەمەندەفەر کە خواردنی تێدا دەخورێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "He sat by the window in the dining car."),
+                    ExampleSentenceKurdish(
                         text:
-                            "He sat by the window in the dining car."),
-                    ExampleSentenceKurdish(text: "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت."),
+                            "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت."),
                   ],
                 ),
               ),
@@ -1024,7 +1026,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dining car (Derived forms: dining cars)
+- Noun: dining car (derived forms: dining cars)
 1. A passenger car where food is served in transit (= diner [N. Amer], dining compartment, buffet car)
 """,
   );
@@ -1058,7 +1060,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ajbooXnvsE8?t=',
+    videoId: 'ajbooXnvsE8',
     startSeconds: 380,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1085,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fYSfG_6Sv5g?t=',
+    videoId: 'fYSfG_6Sv5g',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1110,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q-alaq0ayXk?t=',
+    videoId: 'Q-alaq0ayXk',
     startSeconds: 94,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1135,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xvU3UghOhCY?t=',
+    videoId: 'xvU3UghOhCY',
     startSeconds: 425,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1160,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WMnm4C9V0FY?t=',
+    videoId: 'WMnm4C9V0FY',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1185,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BtHLwjo4C3I?t=',
+    videoId: 'BtHLwjo4C3I',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1210,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gc90_zUeVU4?t=',
+    videoId: 'gc90_zUeVU4',
     startSeconds: 856,
     autoPlay: true,
     params: const YoutubePlayerParams(

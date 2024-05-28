@@ -439,7 +439,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cyberspace (Derived forms: cyberspaces)
+- Noun: cyberspace (derived forms: cyberspaces)
 1. A computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange (= internet, net, Internet)
 """,
   );
@@ -473,7 +473,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vogFFqbkbIQ?t=',
+    videoId: 'vogFFqbkbIQ',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/I5Wxh-rCzrY?t=',
+    videoId: 'I5Wxh-rCzrY',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sG1USv9b2PQ?t=',
+    videoId: 'sG1USv9b2PQ',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i9InAbpM7mU?t=',
+    videoId: 'i9InAbpM7mU',
     startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EH6vE97qIP4?t=',
+    videoId: 'EH6vE97qIP4',
     startSeconds: 2511,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/219YybX66MY?t=',
+    videoId: '219YybX66MY',
     startSeconds: 1307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NkD7FS6nxuA?t=',
+    videoId: 'NkD7FS6nxuA',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(

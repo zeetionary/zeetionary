@@ -1389,7 +1389,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cry (Derived forms: cried, crying, cries)
+- Verb: cry (derived forms: cried, crying, cries)
 1. Utter a sudden loud cry (= shout, shout out, call, yell, scream, holler [informal], hollo [non-standard], squall)
 "she cried with pain when the doctor inserted the needle";
  
@@ -1411,7 +1411,7 @@ ${englishMeaningConst.text}
 7. Bring into a particular state by crying
 "The little boy cried himself to sleep"
 
-- Noun: cry (Derived forms: cries)
+- Noun: cry (derived forms: cries)
 1. A loud utterance; often in protest or opposition (= outcry, call, yell, shout, vociferation)
 "the speaker was interrupted by loud cries from the rear of the audience";
  
@@ -1458,7 +1458,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1483,7 +1483,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1508,7 +1508,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1533,7 +1533,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1558,7 +1558,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NCLZi2Rn_ug?t=',
+    videoId: 'NCLZi2Rn_ug',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1583,7 +1583,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 1782,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1608,7 +1608,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nITZooG6ij8?t=',
+    videoId: 'nITZooG6ij8',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(

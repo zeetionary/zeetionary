@@ -11,640 +11,643 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrydarmstadtium extends StatefulWidget {
-const EnglishEntrydarmstadtium({super.key});
+  const EnglishEntrydarmstadtium({super.key});
 
-@override
-State<EnglishEntrydarmstadtium> createState() => _EnglishEntrydarmstadtiumState();
+  @override
+  State<EnglishEntrydarmstadtium> createState() =>
+      _EnglishEntrydarmstadtiumState();
 }
 
 class _EnglishEntrydarmstadtiumState extends State<EnglishEntrydarmstadtium> {
-@override
-Widget build(BuildContext context) {
-  return DefaultTabController(
-    length: 3,
-    child: Scaffold(
-      appBar: const ZeetionaryAppbar(),
-      body: NestedScrollView(
-        headerSliverBuilder: (context, innerBoxIsScrolled) {
-          return [
-            const SliverAppBar(
-              pinned: true,
-              floating: true,
-              expandedHeight: 220.0,
-              flexibleSpace: FlexibleSpaceBar(
-                background: EntryAndIPA(),
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: EntryAndIPA(),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
               ),
-              automaticallyImplyLeading: false,
-              bottom: TabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-            ),
-          ];
-        },
-        body: TabBarView(
-          children: [
-            const EnglishMeaning(),
-            KurdishMeaning(),
-            const YoutubeVideos(),
-          ],
+            ];
+          },
+          body: TabBarView(
+            children: [
+              const EnglishMeaning(),
+              KurdishMeaning(),
+              const YoutubeVideos(),
+            ],
+          ),
         ),
       ),
-    ),
-  );
-}
+    );
+  }
 }
 
 class EntryAndIPA extends StatelessWidget {
-const EntryAndIPA({
-  super.key,
-});
+  const EntryAndIPA({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const SingleChildScrollView(
-    child: Column(
-      children: [
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                TitleOfEntry(),
-              ],
-            ),
-            // TitleOfEntryAlso(),
-            IpaUK(),
-            IpaUS(),
-          ],
-        ),
-      ],
-    ),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        children: [
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  TitleOfEntry(),
+                ],
+              ),
+              // TitleOfEntryAlso(),
+              IpaUK(),
+              IpaUS(),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 class TitleOfEntry extends StatelessWidget {
-const TitleOfEntry({
-  super.key,
-});
+  const TitleOfEntry({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const EntryTitle(word: "darmstadtium");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const EntryTitle(word: "darmstadtium");
+  }
 }
 
 class TitleOfEntryAlso extends StatelessWidget {
-const TitleOfEntryAlso({
-  super.key,
-});
+  const TitleOfEntryAlso({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const AlsoEnglish(word: "also: darmstadtium");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const AlsoEnglish(word: "also: darmstadtium");
+  }
 }
 
 class IpaUK extends StatelessWidget {
-const IpaUK({
-  super.key,
-});
+  const IpaUK({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return Row(
-    children: [
-      TTSUK(),
-      const IpaUKtext(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUK(),
+        const IpaUKtext(),
+      ],
+    );
+  }
 }
 
 class IpaUKtext extends StatelessWidget {
-const IpaUKtext({
-  super.key,
-});
+  const IpaUKtext({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const IPAofEnglish(text: "IpaUK: /ˈdɑːmʃtætiəm/");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUK: /ˈdɑːmʃtætiəm/");
+  }
 }
 
 class TTSUK extends StatelessWidget {
-TTSUK({
-  super.key,
-});
+  TTSUK({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakdarmstadtium(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("darmstadtium"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtium(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("darmstadtium"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return CustomIconButtonBritish(
-    onPressed: () => speakdarmstadtium("en-GB"),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonBritish(
+      onPressed: () => speakdarmstadtium("en-GB"),
+    );
+  }
 }
 
 class IpaUS extends StatelessWidget {
-const IpaUS({
-  super.key,
-});
+  const IpaUS({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return Row(
-    children: [
-      TTSUS(),
-      const IpaUStext(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        TTSUS(),
+        const IpaUStext(),
+      ],
+    );
+  }
 }
 
 class IpaUStext extends StatelessWidget {
-const IpaUStext({
-  super.key,
-});
+  const IpaUStext({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return const IPAofEnglish(text: "IpaUS: /ˈdɑːrmʃtætiəm/");
-}
+  @override
+  Widget build(BuildContext context) {
+    return const IPAofEnglish(text: "IpaUS: /ˈdɑːrmʃtætiəm/");
+  }
 }
 
 class TTSUS extends StatelessWidget {
-TTSUS({
-  super.key,
-});
+  TTSUS({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakdarmstadtium(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("darmstadtium"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtium(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("darmstadtium"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return CustomIconButtonAmerican(
-    onPressed: () => speakdarmstadtium("en-US"),
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return CustomIconButtonAmerican(
+      onPressed: () => speakdarmstadtium("en-US"),
+    );
+  }
 }
 
 class KurdishMeaning extends StatelessWidget {
-KurdishMeaning({
-  super.key,
-});
+  KurdishMeaning({
+    super.key,
+  });
 
-final FlutterTts flutterTts = FlutterTts();
+  final FlutterTts flutterTts = FlutterTts();
 
-Future<void> speakdarmstadtiums1(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak(
-      "Darmstadtium is a radioactive element that is produced artificially."); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums1(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Darmstadtium is a radioactive element that is produced artificially."); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums2(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums200"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums2(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums200"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums3(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums300"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums3(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums300"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums4(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums400"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums4(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums400"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums5(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums500"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums5(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums500"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums6(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums600"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums6(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums600"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums7(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums700"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums7(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums700"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums8(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums800"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums8(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums800"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums9(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums900"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums9(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums900"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums10(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums1000"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums10(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums1000"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums11(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums1100"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums11(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums1100"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums12(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums1200"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums12(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums1200"); // DOPSUM: CHANGE TEXT
+  }
 
-Future<void> speakdarmstadtiums13(String languageCode) async {
-  // DOPSUM: CHANGE speakdarmstadtium
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.setPitch(1.0);
-  await flutterTts.setSpeechRate(0.5);
-  await flutterTts.speak("speakdarmstadtiums1300"); // DOPSUM: CHANGE TEXT
-}
+  Future<void> speakdarmstadtiums13(String languageCode) async {
+    // DOPSUM: CHANGE speakdarmstadtium
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakdarmstadtiums1300"); // DOPSUM: CHANGE TEXT
+  }
 
-@override
-Widget build(BuildContext context) {
-  return SingleChildScrollView(
-    // DOPSUM: KURDISH MEANING
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.end,
-      children: [
-        const DividerDefinition(),
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      // DOPSUM: KURDISH MEANING
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          const DividerDefinition(),
 //         const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-        const DefinitionKurdish(text: "١. (ناو) توخمێکی کیمیایی"),
-        Row(
-          children: [
-            const Expanded(
-              child: Column(
+          const DefinitionKurdish(text: "١. (ناو) توخمێکی کیمیایی"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "Darmstadtium is a radioactive element that is produced artificially."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(), // With short examples define "darmstadtium", please follow LX instructions
+              Column(
                 children: [
-                  ExampleSentenceEnglish(
-                      text:
-                          "Darmstadtium is a radioactive element that is produced artificially."),
-                  ExampleSentenceKurdish(text: "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت."),
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdarmstadtiums1("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdarmstadtiums1("en-US"),
+                  ),
                 ],
               ),
-            ),
-            const CustomSizedBoxForTTS(), // With short examples define "darmstadtium", please follow LX instructions
-            Column(
-              children: [
-                CustomIconButtonBritish(
-                  onPressed: () => speakdarmstadtiums1("en-GB"),
-                ),
-                CustomIconButtonAmerican(
-                  onPressed: () => speakdarmstadtiums1("en-US"),
-                ),
-              ],
-            ),
-          ],
-        ),
-      ],
-    ),
-  );
-}
+            ],
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 // DOPSUM: ENGLISH MEANING
 
 class EnglishMeaning extends StatefulWidget {
-const EnglishMeaning({super.key});
+  const EnglishMeaning({super.key});
 
-@override
-State<EnglishMeaning> createState() => _EnglishMeaningState();
+  @override
+  State<EnglishMeaning> createState() => _EnglishMeaningState();
 }
 
 class _EnglishMeaningState extends State<EnglishMeaning> {
-FlutterTts flutterTts = FlutterTts();
-bool isSpeaking = false;
+  FlutterTts flutterTts = FlutterTts();
+  bool isSpeaking = false;
 
-Future<void> startSpeaking(
-    String languageCode, EnglishMeaningConst englishMeaningConst) async {
-  // Extract text from EnglishMeaningConst and store it in textToSpeak
-  String textToSpeak = """
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    // Extract text from EnglishMeaningConst and store it in textToSpeak
+    String textToSpeak = """
 ${englishMeaningConst.text}
 """;
 
-  await flutterTts.setLanguage(languageCode);
-  await flutterTts.speak(textToSpeak);
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
 
-  // Update the state to reflect that TTS is in progress
-  setState(() {
-    isSpeaking = true;
-  });
-}
+    // Update the state to reflect that TTS is in progress
+    setState(() {
+      isSpeaking = true;
+    });
+  }
 
 // Function to stop TTS
-Future<void> stopSpeaking() async {
-  await flutterTts.stop();
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
 
-  // Update the state to reflect that TTS is stopped
-  setState(() {
-    isSpeaking = false;
-  });
-}
+    // Update the state to reflect that TTS is stopped
+    setState(() {
+      isSpeaking = false;
+    });
+  }
 
 // Create an instance of EnglishMeaningConst with the desired text
-final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-  text: """
-- Noun: darmstadtium (Derived forms: darmstadtiums)
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: darmstadtium (derived forms: darmstadtiums)
 1. A radioactive transuranic element, with atomic number 110 (= Ds, element 110, atomic number 110)
 """,
-);
-
-@override
-Widget build(BuildContext context) {
-  return SingleChildScrollView(
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const DividerDefinition(),
-        // Using the EnglishButtonTTS class
-        EnglishButtonTTS(
-          onBritishPressed: (languageCode) =>
-              startSpeaking(languageCode, englishMeaningConst),
-          onAmericanPressed: (languageCode) =>
-              startSpeaking(languageCode, englishMeaningConst),
-          onStopPressed: stopSpeaking,
-        ),
-        // Speaker icon for American English
-        englishMeaningConst,
-      ],
-    ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const DividerDefinition(),
+          // Using the EnglishButtonTTS class
+          EnglishButtonTTS(
+            onBritishPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onAmericanPressed: (languageCode) =>
+                startSpeaking(languageCode, englishMeaningConst),
+            onStopPressed: stopSpeaking,
+          ),
+          // Speaker icon for American English
+          englishMeaningConst,
+        ],
+      ),
+    );
+  }
 }
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedend extends StatelessWidget {
-YoutubeEmbeddedend({super.key});
+  YoutubeEmbeddedend({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/qiC67HrmpSs?t=',
-  startSeconds: 92,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignEnd(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'qiC67HrmpSs',
+    startSeconds: 92,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedone extends StatelessWidget {
-YoutubeEmbeddedone({super.key});
+  YoutubeEmbeddedone({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/3Tp2lfnA_UI?t=',
-  startSeconds: 386,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: '3Tp2lfnA_UI',
+    startSeconds: 386,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-YoutubeEmbeddedtwo({super.key});
+  YoutubeEmbeddedtwo({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/UbjZgxIjQfk?t=',
-  startSeconds: 142,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'UbjZgxIjQfk',
+    startSeconds: 142,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-YoutubeEmbeddedthree({super.key});
+  YoutubeEmbeddedthree({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/eP45h03_QYs?t=',
-  startSeconds: 997,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'eP45h03_QYs',
+    startSeconds: 997,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-YoutubeEmbeddedfour({super.key});
+  YoutubeEmbeddedfour({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/i6jc3f5tseI?t=',
-  startSeconds: 3298,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'i6jc3f5tseI',
+    startSeconds: 3298,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-YoutubeEmbeddedfive({super.key});
+  YoutubeEmbeddedfive({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'PUT_VID',
-  startSeconds: 222222222222222,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-YoutubeEmbeddedsix({super.key});
+  YoutubeEmbeddedsix({super.key});
 
-final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'PUT_VID',
-  startSeconds: 222222222222222,
-  autoPlay: true,
-  params: const YoutubePlayerParams(
-    enableCaption: true,
-    captionLanguage: 'en',
-    showControls: false,
-    strictRelatedVideos: true,
-  ),
-);
-
-@override
-Widget build(BuildContext context) {
-  return Scaffold(
-    body: SingleChildScrollView(
-      child: YouTubeContainerDesignNew(controller: _controller),
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
     ),
   );
-}
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
 }
 
 class YoutubeVideos extends StatelessWidget {
-const YoutubeVideos({
-  super.key,
-});
+  const YoutubeVideos({
+    super.key,
+  });
 
-@override
-Widget build(BuildContext context) {
-  return YouTubeScroller(
-    children: [
-      YoutubeEmbeddedone(),
-      YoutubeEmbeddedtwo(),
-      YoutubeEmbeddedthree(),
-      YoutubeEmbeddedfour(),
-      // YoutubeEmbeddedfive(),
-      // YoutubeEmbeddedsix(),
-      // YoutubeEmbeddedseven(),
-      // YoutubeEmbeddedeight(),
-      // YoutubeEmbeddednine(),
-      // YoutubeEmbeddedten(),
-      // YoutubeEmbeddedeleven(),
-      // YoutubeEmbeddedtwelve(),
-      // YoutubeEmbeddedthirteen(),
-      // YoutubeEmbeddeddfourteen(),
-      // YoutubeEmbeddedfifteen(),
-      // YoutubeEmbeddeddsixteen(),
-      // YoutubeEmbeddeddseventeen(),
-      // YoutubeEmbeddeddeighteen(),
-      // YoutubeEmbeddeddnineteen(),
-      // YoutubeEmbeddedtwenty(),
-      // YoutubeEmbeddedmulti(),
-      YoutubeEmbeddedend(),
-    ],
-  );
-}
+  @override
+  Widget build(BuildContext context) {
+    return YouTubeScroller(
+      children: [
+        YoutubeEmbeddedone(),
+        YoutubeEmbeddedtwo(),
+        YoutubeEmbeddedthree(),
+        YoutubeEmbeddedfour(),
+        // YoutubeEmbeddedfive(),
+        // YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedseven(),
+        // YoutubeEmbeddedeight(),
+        // YoutubeEmbeddednine(),
+        // YoutubeEmbeddedten(),
+        // YoutubeEmbeddedeleven(),
+        // YoutubeEmbeddedtwelve(),
+        // YoutubeEmbeddedthirteen(),
+        // YoutubeEmbeddeddfourteen(),
+        // YoutubeEmbeddedfifteen(),
+        // YoutubeEmbeddeddsixteen(),
+        // YoutubeEmbeddeddseventeen(),
+        // YoutubeEmbeddeddeighteen(),
+        // YoutubeEmbeddeddnineteen(),
+        // YoutubeEmbeddedtwenty(),
+        // YoutubeEmbeddedmulti(),
+        YoutubeEmbeddedend(),
+      ],
+    );
+  }
 }
 
 // end WORD_WEB

@@ -465,7 +465,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crib (Derived forms: cribs)
+- Noun: crib (derived forms: cribs)
 1. [N. Amer] Baby bed with high sides made of slats (= cot [Brit])
  
 2. A literal translation used in studying a foreign language (often used illicitly) (= pony [N. Amer], trot)
@@ -476,7 +476,7 @@ ${englishMeaningConst.text}
  
 5. A card game (usually for two players) in which each player is dealt six cards and discards one or two (= cribbage)
 
-- Verb: crib (Derived forms: cribs, cribbing, cribbed)
+- Verb: crib (derived forms: cribs, cribbing, cribbed)
 1. Use a crib, as in an exam
  
 2. (crime) take unauthorized (intellectual material)
@@ -515,7 +515,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TGD_yekngP8?t=',
+    videoId: 'TGD_yekngP8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XXLrpSa3Gvw?t=',
+    videoId: 'XXLrpSa3Gvw',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/13yOq4NflB0',
+    videoId: '13yOq4NflB0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cH5vxljYdOE?t=',
+    videoId: 'cH5vxljYdOE',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TRt96IZETxE?t=',
+    videoId: 'TRt96IZETxE',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tp-aDk9IS_Y?t=',
+    videoId: 'tp-aDk9IS_Y',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 139,
     autoPlay: true,
     params: const YoutubePlayerParams(

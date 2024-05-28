@@ -606,7 +606,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cruise (Derived forms: cruising, cruises, cruised)
+- Verb: cruise (derived forms: cruising, cruises, cruised)
 1. (driving) drive around aimlessly but ostentatiously and at leisure
 "She cruised the neighbourhood in her new convertible"
  
@@ -619,7 +619,7 @@ ${englishMeaningConst.text}
 4. Look for a sexual partner in a public place
 "The men were cruising the park"
 
-- Noun: cruise (Derived forms: cruises)
+- Noun: cruise (derived forms: cruises)
 1. An ocean trip taken for pleasure (= sail)
 """,
   );
@@ -653,7 +653,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0zvGMdNfCmI',
+    videoId: '0zvGMdNfCmI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -678,7 +678,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RVIHl7NoCPw?t=',
+    videoId: 'RVIHl7NoCPw',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -703,7 +703,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Ff1FM-k_gc?t=',
+    videoId: '6Ff1FM-k_gc',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -728,7 +728,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hx3WEW05GE4?t=',
+    videoId: 'hx3WEW05GE4',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -753,7 +753,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wVFgPGx6WRc?t=',
+    videoId: 'wVFgPGx6WRc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -778,7 +778,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J1k2NLDBq8U?t=',
+    videoId: 'J1k2NLDBq8U',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -803,7 +803,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mubmRIh50Zg?t=',
+    videoId: 'mubmRIh50Zg',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

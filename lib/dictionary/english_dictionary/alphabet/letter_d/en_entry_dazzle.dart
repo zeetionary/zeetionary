@@ -499,14 +499,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dazzle (Derived forms: dazzling, dazzles, dazzled)
+- Verb: dazzle (derived forms: dazzling, dazzles, dazzled)
 1. To cause someone to lose clear vision, especially from intense light (= bedazzle, daze)
 "She was dazzled by the bright headlights";
  
 2. Amaze or bewilder, as with brilliant wit or intellect or skill
 "Her arguments dazzled everyone"; "The dancer dazzled the audience with his turns and jumps"
 
-- Noun: dazzle (Derived forms: dazzles)
+- Noun: dazzle (derived forms: dazzles)
 1. Brightness enough to blind partially and temporarily
 """,
   );
@@ -540,7 +540,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fU-8Rg4CgeI?t=',
+    videoId: 'fU-8Rg4CgeI',
     startSeconds: 1140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CUvLQFeSkDI?t=',
+    videoId: 'CUvLQFeSkDI',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HZryl5nJr00?t=',
+    videoId: 'HZryl5nJr00',
     startSeconds: 178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RM9GY-n6PEA?t=',
+    videoId: 'RM9GY-n6PEA',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iG2LLUTp1P0?t=',
+    videoId: 'iG2LLUTp1P0',
     startSeconds: 365,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Umf1U1IGB40?t=',
+    videoId: 'Umf1U1IGB40',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kAp9lPRbmoc?t=',
+    videoId: 'kAp9lPRbmoc',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(

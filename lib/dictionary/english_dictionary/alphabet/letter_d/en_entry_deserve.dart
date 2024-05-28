@@ -1005,7 +1005,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deserve (Derived forms: deserving, deserves, deserved)
+- Verb: deserve (derived forms: deserving, deserves, deserved)
 1. Be worthy of or entitled to, e.g. because of hard work or skills demonstrated (= merit)
 "You deserve a promotion after all the hard work you have done";
 """,
@@ -1040,7 +1040,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 481,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1065,7 +1065,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j1BfO7VlIw4?t=',
+    videoId: 'j1BfO7VlIw4',
     startSeconds: 1178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1090,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kXShLPXfWZA?t=',
+    videoId: 'kXShLPXfWZA',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1115,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KJy7T24rhg0?t=',
+    videoId: 'KJy7T24rhg0',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1140,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mi5g74O-E5M?t=',
+    videoId: 'Mi5g74O-E5M',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1165,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1190,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(

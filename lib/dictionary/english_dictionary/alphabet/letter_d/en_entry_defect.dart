@@ -639,7 +639,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: defect (Derived forms: defects)
+- Noun: defect (derived forms: defects)
 1. An imperfection in a bodily system
 "visual defects"; "this device permits detection of defects in the lungs"
  
@@ -652,7 +652,7 @@ ${englishMeaningConst.text}
 4. A mark or flaw that spoils the appearance of something (especially on a person's body) (= blemish, mar)
 "a facial defect";
 
-- Verb: defect (Derived forms: defects, defecting, defected)
+- Verb: defect (derived forms: defects, defecting, defected)
 1. Leave (a cause, a country or an army), often in order to join the opposing cause, country, or army (= desert)
 """,
   );
@@ -686,7 +686,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 761,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -711,7 +711,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p3O6bKdPLbw?t=',
+    videoId: 'p3O6bKdPLbw',
     startSeconds: 3429,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -736,7 +736,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JR3z8lq2cNM?t=',
+    videoId: 'JR3z8lq2cNM',
     startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -761,7 +761,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFQFKVFLuOA?t=',
+    videoId: 'EFQFKVFLuOA',
     startSeconds: 1113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -786,7 +786,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yrj2iSuI38?t=',
+    videoId: '9yrj2iSuI38',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -811,7 +811,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V2ec7EE0pB8?t=',
+    videoId: 'V2ec7EE0pB8',
     startSeconds: 878,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -836,7 +836,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q-nWA0WeF98?t=',
+    videoId: 'Q-nWA0WeF98',
     startSeconds: 2132,
     autoPlay: true,
     params: const YoutubePlayerParams(

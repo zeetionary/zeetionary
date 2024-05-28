@@ -1069,7 +1069,7 @@ ${englishMeaningConst.text}
 6. Fraught with extreme danger; nearly hopeless (= dire)
 "a desperate illness"; "on all fronts the Allies were in a desperate situation due to lack of materiel";
 
-- Noun: desperate (Derived forms: desperates)
+- Noun: desperate (derived forms: desperates)
 1. A person who is frightened and in need of help
 "they prey on the hopes of the desperate"
 """,
@@ -1104,7 +1104,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 928,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1129,7 +1129,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-CJ4eUhE3Lw?t=',
+    videoId: '-CJ4eUhE3Lw',
     startSeconds: 596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1154,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1028,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1179,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 873,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1204,7 +1204,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wknSc6HRUMI?t=',
+    videoId: 'wknSc6HRUMI',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1229,7 +1229,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 420,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1254,7 +1254,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    videoId: 'yRmOWcWdQAo',
     startSeconds: 1582,
     autoPlay: true,
     params: const YoutubePlayerParams(

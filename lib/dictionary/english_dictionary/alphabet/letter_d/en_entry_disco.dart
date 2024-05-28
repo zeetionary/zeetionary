@@ -1032,12 +1032,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disco (Derived forms: discos)
+- Noun: disco (derived forms: discos)
 1. A public dance hall for dancing to recorded popular music (= discotheque)
  
 2. Popular dance music (especially in the late 1970s); melodic with a regular bass beat; intended mainly for dancing at discotheques (= disco music)
 
-- Verb: disco (Derived forms: discoed, discos, discoing)
+- Verb: disco (derived forms: discoed, discos, discoing)
 1. Dance to disco music
 """,
   );
@@ -1071,7 +1071,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ua48ElgQi_Y?t=',
+    videoId: 'Ua48ElgQi_Y',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1096,7 +1096,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-eB2wNaloz8?t=',
+    videoId: '-eB2wNaloz8',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1121,7 +1121,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 1020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1146,7 +1146,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9SQeFvp4rY0?t=',
+    videoId: '9SQeFvp4rY0',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1171,7 +1171,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1FUNNNfrteU?t=',
+    videoId: '1FUNNNfrteU',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1196,7 +1196,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rIScVoMg_fg?t=',
+    videoId: 'rIScVoMg_fg',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1221,7 +1221,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oHNRRGx-yOE?t=',
+    videoId: 'oHNRRGx-yOE',
     startSeconds: 411,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He deplored the fact that these criminals were treated by many as heroes and martyrs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He deplored the fact that these criminals were treated by many as heroes and martyrs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeplores3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeplores1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeplores14(String languageCode) async {
+  Future<void> speakdeplores14(String languageCode) async {
     // DOPSUM: CHANGE speakdeplore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He deplored the fact that these criminals were treated by many as heroes and martyrs.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He deplored the fact that these criminals were treated by many as heroes and martyrs.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeplores21(String languageCode) async {
@@ -402,9 +404,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) سەرزەنشتکردنی شتێک بەهۆی ئەوەی خراپە"),
+          const DefinitionKurdish(
+              text: "١. (کردار) سەرزەنشتکردنی شتێک بەهۆی ئەوەی خراپە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Like everyone else, I deplore and condemn this killing."),
-                    ExampleSentenceKurdish(text: "وەک هەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وەک هەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He deplored the fact that these criminals were treated by many as heroes and martyrs."),
-                    ExampleSentenceKurdish(text: "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەهید مامەڵەیان لەگەڵ کرا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He deplored the fact that these criminals were treated by many as heroes and martyrs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەو ڕاستییەی شەرمەزار کرد کە ئەم تاوانبارانە وەک پاڵەوان و شەهید مامەڵەیان لەگەڵ کرا."),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deplore (Derived forms: deplored, deplores, deploring)
+- Verb: deplore (derived forms: deplored, deplores, deploring)
 1. Express strong condemnation of
 "We deplore the government's treatment of political prisoners"
  
@@ -1026,7 +1035,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bBiyK-l510I?t=',
+    videoId: 'bBiyK-l510I',
     startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1051,7 +1060,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5RVlCvBd21w?t=',
+    videoId: '5RVlCvBd21w',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1076,7 +1085,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kx0_wqwnl1I?t=',
+    videoId: 'kx0_wqwnl1I',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1101,7 +1110,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EEMVO7WOI6E?t=',
+    videoId: 'EEMVO7WOI6E',
     startSeconds: 482,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1126,7 +1135,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O8Ss0qmVFZA?t=',
+    videoId: 'O8Ss0qmVFZA',
     startSeconds: 1095,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1151,7 +1160,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wNgaIBn_nSg?t=',
+    videoId: 'wNgaIBn_nSg',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1176,7 +1185,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lzLm2e0Fztw?t=',
+    videoId: 'lzLm2e0Fztw',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(

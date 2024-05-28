@@ -527,14 +527,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cue (Derived forms: cues)
+- Noun: cue (derived forms: cues)
 1. A stimulus that provides information about what to do (= discriminative stimulus)
  
 2. An actor's line that serves as a signal for some following action or speech
  
 3. Sports implement consisting of a tapering rod used to strike a cue ball in pool or billiards (= cue stick, pool cue, pool stick)
 
-- Verb: cue (Derived forms: cues, cuing, cueing, cued)
+- Verb: cue (derived forms: cues, cuing, cueing, cued)
 1. Assist (somebody acting or reciting) by suggesting the next words of something forgotten or imperfectly learned (= prompt, remind)
  
 2. (pool, billiards, etc) take aim at the cue ball and hit it with the cue
@@ -570,7 +570,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
+    videoId: 'CaaJyRvvaq8',
     startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lDeFSOUHdH4?t=',
+    videoId: 'lDeFSOUHdH4',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uKO6MidWggs?t=',
+    videoId: 'uKO6MidWggs',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PAptGxzuCZ8?t=',
+    videoId: 'PAptGxzuCZ8',
     startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K3xznCimClI?t=',
+    videoId: 'K3xznCimClI',
     startSeconds: 799,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -695,7 +695,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BxuJBZU2hgE?t=',
+    videoId: 'BxuJBZU2hgE',
     startSeconds: 443,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -720,7 +720,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QoqjGUIk5NE?t=',
+    videoId: 'QoqjGUIk5NE',
     startSeconds: 3305,
     autoPlay: true,
     params: const YoutubePlayerParams(

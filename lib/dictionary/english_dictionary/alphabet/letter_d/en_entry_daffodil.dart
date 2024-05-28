@@ -410,7 +410,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: daffodil (Derived forms: daffodils)
+- Noun: daffodil (derived forms: daffodils)
 1. Any of numerous varieties of Narcissus plants having showy often yellow flowers with a trumpet-shaped central crown (= Narcissus pseudonarcissus, daff [informal])
 """,
   );
@@ -444,7 +444,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7SreJ5sgEYw?t=',
+    videoId: '7SreJ5sgEYw',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aHTRMB0vQVg?t=',
+    videoId: 'aHTRMB0vQVg',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FPflWdsCRdE',
+    videoId: 'FPflWdsCRdE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TQCy9vVgtxQ?t=',
+    videoId: 'TQCy9vVgtxQ',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BHIkAMCMS1g?t=',
+    videoId: 'BHIkAMCMS1g',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/okfIjqpOHTA?t=',
+    videoId: 'okfIjqpOHTA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RZH9dCxqf2o?t=',
+    videoId: 'RZH9dCxqf2o',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(

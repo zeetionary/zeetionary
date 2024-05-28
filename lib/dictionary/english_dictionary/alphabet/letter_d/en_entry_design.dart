@@ -221,7 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The basic design of the car is very similar to that of earlier models."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The basic design of the car is very similar to that of earlier models."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns2(String languageCode) async {
@@ -229,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The system has a fundamental design flaw."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The system has a fundamental design flaw."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns3(String languageCode) async {
@@ -237,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The magazine will appear in a new design from next month."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The magazine will appear in a new design from next month."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns4(String languageCode) async {
@@ -245,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The machine's unique design prevents it from overheating."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The machine's unique design prevents it from overheating."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns5(String languageCode) async {
@@ -253,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("One of our main design goals was to make the product easy to use."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "One of our main design goals was to make the product easy to use."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns6(String languageCode) async {
@@ -261,7 +266,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm doing a course in art and design."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I'm doing a course in art and design."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns7(String languageCode) async {
@@ -269,7 +275,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Digital design tools are essential."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Digital design tools are essential."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns8(String languageCode) async {
@@ -277,7 +284,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The car wouldn't win any design awards, but it's very reliable."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The car wouldn't win any design awards, but it's very reliable."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns9(String languageCode) async {
@@ -285,7 +293,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She's done some design work for us in the past."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She's done some design work for us in the past."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns10(String languageCode) async {
@@ -293,7 +302,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He has created some new and original designs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has created some new and original designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns11(String languageCode) async {
@@ -301,7 +311,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The original designs were stolen."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The original designs were stolen."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns12(String languageCode) async {
@@ -309,7 +320,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There are several laws protecting the ownership of industrial designs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There are several laws protecting the ownership of industrial designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns13(String languageCode) async {
@@ -317,7 +329,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The tiles come in a huge range of colours and designs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The tiles come in a huge range of colours and designs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns14(String languageCode) async {
@@ -325,7 +338,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The building has intricate geometric designs on several of the walls."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The building has intricate geometric designs on several of the walls."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns15(String languageCode) async {
@@ -333,7 +347,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It is all part of his grand design."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It is all part of his grand design."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns16(String languageCode) async {
@@ -341,7 +356,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It happened—whether by accident or design—that the two of them were left alone after all the others had gone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns17(String languageCode) async {
@@ -349,7 +365,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Had it happened by accident or by design?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Had it happened by accident or by design?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns18(String languageCode) async {
@@ -357,7 +374,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He designed and built his own house."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He designed and built his own house."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns19(String languageCode) async {
@@ -365,7 +383,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The blocks were specially designed and manufactured in Italy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The blocks were specially designed and manufactured in Italy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns20(String languageCode) async {
@@ -373,7 +392,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Could you design us a poster?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Could you design us a poster?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns21(String languageCode) async {
@@ -381,7 +401,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The method is specifically designed for use in small groups."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The method is specifically designed for use in small groups."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns22(String languageCode) async {
@@ -389,7 +410,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The museum is Missouri's first museum designed specifically for contemporary art."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The museum is Missouri's first museum designed specifically for contemporary art."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesigns23(String languageCode) async {
@@ -397,7 +419,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The system is designed to alert drivers to traffic jams ahead."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The system is designed to alert drivers to traffic jams ahead."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -411,14 +434,20 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دیزاین، نەخش، نەخش‌کێشی،	پلان، گەڵاڵە، نەخشە، تەگبیر،	نیاز، خەیاڵ، مەبەست،	نەخشی جوانی
 """),
-          const DefinitionKurdish(text: "١. (ناو) شێوازی دانانی شتێک کە بە شێوەیەک دانراوە کە جوان دەربکەوێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) شێوازی دانانی شتێک کە بە شێوەیەک دانراوە کە جوان دەربکەوێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The basic design of the car is very similar to that of earlier models."),
-                    ExampleSentenceKurdish(text: "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The basic design of the car is very similar to that of earlier models."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا."),
                   ],
                 ),
               ),
@@ -443,8 +472,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The system has a fundamental design flaw."),
-                    ExampleSentenceKurdish(text: "سیستەمەکە هەڵەیەکی سەرەکیی دیزاینی تێدایە."),
+                    ExampleSentenceEnglish(
+                        text: "The system has a fundamental design flaw."),
+                    ExampleSentenceKurdish(
+                        text: "سیستەمەکە هەڵەیەکی سەرەکیی دیزاینی تێدایە."),
                   ],
                 ),
               ),
@@ -469,8 +500,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The magazine will appear in a new design from next month."),
-                    ExampleSentenceKurdish(text: "گۆڤارەکە لە مانگی داهاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The magazine will appear in a new design from next month."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گۆڤارەکە لە مانگی داهاتووەوە بە دیزاینێکی تازەوە بڵاودەبێتەوە."),
                   ],
                 ),
               ),
@@ -495,8 +530,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The machine's unique design prevents it from overheating."),
-                    ExampleSentenceKurdish(text: "دیزاینی ناوازەی ئامێرەکە لە گەرمبوون دەیپارێزێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The machine's unique design prevents it from overheating."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دیزاینی ناوازەی ئامێرەکە لە گەرمبوون دەیپارێزێت."),
                   ],
                 ),
               ),
@@ -521,8 +560,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "One of our main design goals was to make the product easy to use."),
-                    ExampleSentenceKurdish(text: "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرهەمەکە ئاسان بکەین بۆ بەکارهێنان."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "One of our main design goals was to make the product easy to use."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "یەکێک لە ئامانجە سەرەکییەکانی دیزاینمان ئەوە بوو کە بەرهەمەکە ئاسان بکەین بۆ بەکارهێنان."),
                   ],
                 ),
               ),
@@ -540,15 +583,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) هونەر یان پڕۆسەی کاری دیزاین"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) هونەر یان پڕۆسەی کاری دیزاین"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I'm doing a course in art and design."),
-                    ExampleSentenceKurdish(text: "کۆرسێک لەسەر هونەر و دیزاین ئەنجام دەدەم."),
+                    ExampleSentenceEnglish(
+                        text: "I'm doing a course in art and design."),
+                    ExampleSentenceKurdish(
+                        text: "کۆرسێک لەسەر هونەر و دیزاین ئەنجام دەدەم."),
                   ],
                 ),
               ),
@@ -573,8 +619,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Digital design tools are essential."),
-                    ExampleSentenceKurdish(text: "ئامرازەکانی دیزاینی دیجیتاڵ زۆر گرنگن."),
+                    ExampleSentenceEnglish(
+                        text: "Digital design tools are essential."),
+                    ExampleSentenceKurdish(
+                        text: "ئامرازەکانی دیزاینی دیجیتاڵ زۆر گرنگن."),
                   ],
                 ),
               ),
@@ -597,8 +645,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The car wouldn't win any design awards, but it's very reliable."),
-                    ExampleSentenceKurdish(text: "ئۆۆتمبێلەکە هیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The car wouldn't win any design awards, but it's very reliable."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئۆۆتمبێلەکە هیچ خەڵاتێکی دیزیان ناباتەوە، بەڵام تەواو پشت‌پێ‌بەستراوە."),
                   ],
                 ),
               ),
@@ -621,8 +673,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She's done some design work for us in the past."),
-                    ExampleSentenceKurdish(text: "لە ڕابردوودا هەندێک کاری دیزاینی بۆمان کردووە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "She's done some design work for us in the past."),
+                    ExampleSentenceKurdish(
+                        text: "لە ڕابردوودا هەندێک کاری دیزاینی بۆمان کردووە."),
                   ],
                 ),
               ),
@@ -640,15 +695,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت هەندێک دیزاین درووست بکرێت"),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت هەندێک دیزاین درووست بکرێت"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He has created some new and original designs."),
-                    ExampleSentenceKurdish(text: "هەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
+                    ExampleSentenceEnglish(
+                        text: "He has created some new and original designs."),
+                    ExampleSentenceKurdish(
+                        text: "هەندێک دیزاینی تازە و ڕەسەنی درووستکردووە."),
                   ],
                 ),
               ),
@@ -671,7 +730,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The original designs were stolen."),
+                    ExampleSentenceEnglish(
+                        text: "The original designs were stolen."),
                     ExampleSentenceKurdish(text: "دیزاینە ڕەسەنەکان دزران."),
                   ],
                 ),
@@ -695,8 +755,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "There are several laws protecting the ownership of industrial designs."),
-                    ExampleSentenceKurdish(text: "ژمارەیەک یاسا هەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "There are several laws protecting the ownership of industrial designs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ژمارەیەک یاسا هەن بۆ پاراستنی خاوەندارێتی دیزاینی پیشەسازی."),
                   ],
                 ),
               ),
@@ -721,8 +785,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The tiles come in a huge range of colours and designs."),
-                    ExampleSentenceKurdish(text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین هەن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The tiles come in a huge range of colours and designs."),
+                    ExampleSentenceKurdish(
+                        text: "کاشییەکان بە ژمارەیەکی زۆر ڕەنگ و دیزاین هەن."),
                   ],
                 ),
               ),
@@ -745,8 +812,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The building has intricate geometric designs on several of the walls."),
-                    ExampleSentenceKurdish(text: "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی هەیە لە هەندێک لاوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The building has intricate geometric designs on several of the walls."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی هەیە لە هەندێک لاوە."),
                   ],
                 ),
               ),
@@ -771,8 +842,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It is all part of his grand design."),
-                    ExampleSentenceKurdish(text: "هەمووی بەشێکن لە پلانە گەورەکەی."),
+                    ExampleSentenceEnglish(
+                        text: "It is all part of his grand design."),
+                    ExampleSentenceKurdish(
+                        text: "هەمووی بەشێکن لە پلانە گەورەکەی."),
                   ],
                 ),
               ),
@@ -795,8 +868,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."),
-                    ExampleSentenceKurdish(text: "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە هەردووکاین مانەوە بە تەنهایی لە دوای ئەوەی هەموو ئەوانی دیکە ڕۆشتبوون."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "It happened—whether by accident or design—that the two of them were left alone after all the others had gone."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "چی بە ڕێکەوت یان پلان، ئەوە ڕوویدا کە هەردووکاین مانەوە بە تەنهایی لە دوای ئەوەی هەموو ئەوانی دیکە ڕۆشتبوون."),
                   ],
                 ),
               ),
@@ -819,8 +896,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Had it happened by accident or by design?"),
-                    ExampleSentenceKurdish(text: "بە ڕێکەوت یان مەبەست ڕوویدا؟"),
+                    ExampleSentenceEnglish(
+                        text: "Had it happened by accident or by design?"),
+                    ExampleSentenceKurdish(
+                        text: "بە ڕێکەوت یان مەبەست ڕوویدا؟"),
                   ],
                 ),
               ),
@@ -845,8 +924,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He designed and built his own house."),
-                    ExampleSentenceKurdish(text: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا."),
+                    ExampleSentenceEnglish(
+                        text: "He designed and built his own house."),
+                    ExampleSentenceKurdish(
+                        text: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا."),
                   ],
                 ),
               ),
@@ -869,8 +950,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The blocks were specially designed and manufactured in Italy."),
-                    ExampleSentenceKurdish(text: "بلۆکەکان بە تایبەتی لە ئیتالیا دیزاین و درووستکرابوون."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The blocks were specially designed and manufactured in Italy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بلۆکەکان بە تایبەتی لە ئیتالیا دیزاین و درووستکرابوون."),
                   ],
                 ),
               ),
@@ -893,8 +978,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Could you design us a poster?"),
-                    ExampleSentenceKurdish(text: "دەتوانیت پۆستەرێکمان بۆ دیزاین بکەیت؟"),
+                    ExampleSentenceEnglish(
+                        text: "Could you design us a poster?"),
+                    ExampleSentenceKurdish(
+                        text: "دەتوانیت پۆستەرێکمان بۆ دیزاین بکەیت؟"),
                   ],
                 ),
               ),
@@ -912,15 +999,21 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، هتد زۆرجار بۆ مەبەستێک، بەکارهێنانێک"),
+          const DefinitionKurdish(
+              text:
+                  "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، هتد زۆرجار بۆ مەبەستێک، بەکارهێنانێک"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The method is specifically designed for use in small groups."),
-                    ExampleSentenceKurdish(text: "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارهێنان لە گرووپی بچووکدا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The method is specifically designed for use in small groups."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕێگاکە بەتایبەتی دیزاین کراوە بۆ بەکارهێنان لە گرووپی بچووکدا."),
                   ],
                 ),
               ),
@@ -943,8 +1036,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The museum is Missouri's first museum designed specifically for contemporary art."),
-                    ExampleSentenceKurdish(text: "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ هونەری سەردەمیانە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The museum is Missouri's first museum designed specifically for contemporary art."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "مۆزەخانەکە یەکەم مۆزەخانەی میزۆرییە بەتایبەت دیزاین کراوە بۆ هونەری سەردەمیانە."),
                   ],
                 ),
               ),
@@ -966,8 +1063,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The system is designed to alert drivers to traffic jams ahead."),
-                    ExampleSentenceKurdish(text: "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی هاتووچۆ."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The system is designed to alert drivers to traffic jams ahead."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سیستەمەکە دیزاین کراوە بە ئاگادارکردنەوەی شۆفێران لە قەرەباڵغی هاتووچۆ."),
                   ],
                 ),
               ),
@@ -1032,7 +1133,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: design (Derived forms: designs, designing, designed)
+- Verb: design (derived forms: designs, designing, designed)
 1. Make or work out a plan for; devise (= plan, project, contrive)
 "design a new sales strategy";
  
@@ -1054,7 +1155,7 @@ ${englishMeaningConst.text}
 7. Intend or have as a purpose
 "She designed to go far in the world of business"
 
-- Noun: design (Derived forms: designs)
+- Noun: design (derived forms: designs)
 1. The act of working out the form of something (as by making a sketch, outline or plan) (= designing)
 "he contributed to the design of a new instrument";
  
@@ -1106,7 +1207,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0SYKA00eFWY?t=',
+    videoId: '0SYKA00eFWY',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1131,7 +1232,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 870,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1156,7 +1257,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ldBUUKRQR9M',
+    videoId: 'ldBUUKRQR9M',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1181,7 +1282,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7RdH38CoT_E?t=',
+    videoId: '7RdH38CoT_E',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1206,7 +1307,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtD3pwzfFFI',
+    videoId: 'CtD3pwzfFFI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1231,7 +1332,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZNo-M1ldPZ8?t=',
+    videoId: 'ZNo-M1ldPZ8',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1256,7 +1357,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NuL6TMYVuDs?t=',
+    videoId: 'NuL6TMYVuDs',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(

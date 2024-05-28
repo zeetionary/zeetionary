@@ -14,8 +14,7 @@ class EnglishEntrydeficiency extends StatefulWidget {
   const EnglishEntrydeficiency({super.key});
 
   @override
-  State<EnglishEntrydeficiency> createState() =>
-      _EnglishEntrydeficiencyState();
+  State<EnglishEntrydeficiency> createState() => _EnglishEntrydeficiencyState();
 }
 
 class _EnglishEntrydeficiencyState extends State<EnglishEntrydeficiency> {
@@ -249,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The deficiencies in their argument are easy to spot."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The deficiencies in their argument are easy to spot."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeficiencys5(String languageCode) async {
@@ -504,8 +504,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The deficiencies in their argument are easy to spot."),
-                    ExampleSentenceKurdish(text: "لاوازی بۆچوونەکانیان ئاسانە ببینرێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The deficiencies in their argument are easy to spot."),
+                    ExampleSentenceKurdish(
+                        text: "لاوازی بۆچوونەکانیان ئاسانە ببینرێت."),
                   ],
                 ),
               ),
@@ -1002,7 +1005,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deficiency (Derived forms: deficiencies)
+- Noun: deficiency (derived forms: deficiencies)
 1. The state of needing something that is absent or unavailable (= lack, want)
 "water is the critical deficiency in desert regions";
  
@@ -1040,7 +1043,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o9zCgPtsups?t=',
+    videoId: 'o9zCgPtsups',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1065,7 +1068,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 366,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1093,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XeHl5Y7m1xM?t=',
+    videoId: 'XeHl5Y7m1xM',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1118,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IM31fgkxn2I?t=',
+    videoId: 'IM31fgkxn2I',
     startSeconds: 273,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1143,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FTKP0Y9MVus?t=',
+    videoId: 'FTKP0Y9MVus',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1168,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ha2mLz-Xdpg?t=',
+    videoId: 'ha2mLz-Xdpg',
     startSeconds: 633,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1193,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pt56IC8gDZ4?t=',
+    videoId: 'pt56IC8gDZ4',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(

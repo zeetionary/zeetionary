@@ -993,7 +993,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: depot (Derived forms: depots)
+- Noun: depot (derived forms: depots)
 1. Station where transport vehicles load or unload passengers or goods (= terminal, terminus)
  
 2. A depository for goods (= storehouse, entrepot, storage, store)
@@ -1032,7 +1032,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FSHITL5oedk?t=',
+    videoId: 'FSHITL5oedk',
     startSeconds: 691,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1057,7 +1057,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3n99jqOdeSw',
+    videoId: '3n99jqOdeSw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1082,7 +1082,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MuqdoGzksTk?t=',
+    videoId: 'MuqdoGzksTk',
     startSeconds: 1533,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1107,7 +1107,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8-mpsqjPMj4?t=',
+    videoId: '8-mpsqjPMj4',
     startSeconds: 522,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1132,7 +1132,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVrv6cEPYRM',
+    videoId: 'GVrv6cEPYRM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1157,7 +1157,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syGME_XtHkg',
+    videoId: 'syGME_XtHkg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1182,7 +1182,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C7p_XfNLCDU?t=',
+    videoId: 'C7p_XfNLCDU',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(

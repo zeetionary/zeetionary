@@ -1016,7 +1016,7 @@ ${englishMeaningConst.text}
 1. Make a depression into (= indent)
 "The bicycle dented my car";
 
-- Noun: dent (Derived forms: dented, denting, dents)
+- Noun: dent (derived forms: dented, denting, dents)
 1. An appreciable consequence (especially a lessening)
 "it made a dent in my bank account"
  
@@ -1055,7 +1055,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gfOMFa5RZaE?t=',
+    videoId: 'gfOMFa5RZaE',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1080,7 +1080,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h0IPcqF2q9U?t=',
+    videoId: 'h0IPcqF2q9U',
     startSeconds: 1158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1105,7 +1105,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    videoId: '-cPdImejxEQ',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1130,7 +1130,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVwp-BfarxI?t=',
+    videoId: 'kVwp-BfarxI',
     startSeconds: 618,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1155,7 +1155,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaaJyRvvaq8?t=',
+    videoId: 'CaaJyRvvaq8',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1180,7 +1180,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oj4ueoyfpeU?t=',
+    videoId: 'Oj4ueoyfpeU',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1205,7 +1205,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QyL9P1ccy-w?t=',
+    videoId: 'QyL9P1ccy-w',
     startSeconds: 517,
     autoPlay: true,
     params: const YoutubePlayerParams(

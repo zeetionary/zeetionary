@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was horribly disfigured by burns."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She was horribly disfigured by burns."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisfigures3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This part of the old town has been disfigured by ugly new buildings."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This part of the old town has been disfigured by ugly new buildings."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisfigures4(String languageCode) async {
@@ -404,16 +406,17 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: لە شکڵ بردن، لە قەوارە بردن، بێنماکردن
 // """),
-          const DefinitionKurdish(text: "١. (کردار) شێواندنی شێوەی کەسێک، شتێک، یان شوێنێک"),
+          const DefinitionKurdish(
+              text: "١. (کردار) شێواندنی شێوەی کەسێک، شتێک، یان شوێنێک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Her face was disfigured by a long red scar."),
-                    ExampleSentenceKurdish(text: "ڕووخساری شێوا بە برینێکی درێژی سوور."),
+                        text: "Her face was disfigured by a long red scar."),
+                    ExampleSentenceKurdish(
+                        text: "ڕووخساری شێوا بە برینێکی درێژی سوور."),
                   ],
                 ),
               ),
@@ -438,7 +441,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She was horribly disfigured by burns."),
+                    ExampleSentenceEnglish(
+                        text: "She was horribly disfigured by burns."),
                     ExampleSentenceKurdish(text: "تەواو شێوابوو بە سووتاوی."),
                   ],
                 ),
@@ -464,8 +468,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "This part of the old town has been disfigured by ugly new buildings."),
-                    ExampleSentenceKurdish(text: "ئەم بەشەی شار شێوێندراوە بە بینای تازەی ناشرین."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "This part of the old town has been disfigured by ugly new buildings."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەم بەشەی شار شێوێندراوە بە بینای تازەی ناشرین."),
                   ],
                 ),
               ),
@@ -1024,7 +1032,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disfigure (Derived forms: disfigured, disfiguring, disfigures)
+- Verb: disfigure (derived forms: disfigured, disfiguring, disfigures)
 1. Mar or spoil the appearance of (= deface, blemish)
 "The vandals disfigured the statue";
 """,
@@ -1059,7 +1067,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CtWqv0Z3ErM?t=',
+    videoId: 'CtWqv0Z3ErM',
     startSeconds: 903,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1092,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8X1xYpPmKvA?t=',
+    videoId: '8X1xYpPmKvA',
     startSeconds: 4284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1117,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5hos7hv1Cn8?t=',
+    videoId: '5hos7hv1Cn8',
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1142,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-gNqECgR-Vk?t=',
+    videoId: '-gNqECgR-Vk',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1167,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pZbN1x_wgq8?t=',
+    videoId: 'pZbN1x_wgq8',
     startSeconds: 620,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1192,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_F-pCDnM_fI?t=',
+    videoId: '_F-pCDnM_fI',
     startSeconds: 322,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1217,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kY9ephCHqp0?t=',
+    videoId: 'kY9ephCHqp0',
     startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(

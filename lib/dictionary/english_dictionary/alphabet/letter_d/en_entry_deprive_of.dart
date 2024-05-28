@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Why should you deprive yourself of such simple pleasures?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Why should you deprive yourself of such simple pleasures?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepriveofs3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepriveofs1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepriveofs14(String languageCode) async {
+  Future<void> speakdepriveofs14(String languageCode) async {
     // DOPSUM: CHANGE speakdepriveof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Why should you deprive yourself of such simple pleasures?0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Why should you deprive yourself of such simple pleasures?0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepriveofs21(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: بێ بەر کردن، بێ بەش کردن
 // """),
-          const DefinitionKurdish(text: "١. (کاری لێکدراو) ڕێگری لە کەسێک کە شتێکی هەبێت یان بیکات"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کاری لێکدراو) ڕێگری لە کەسێک کە شتێکی هەبێت یان بیکات"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They were imprisoned and deprived of their basic rights."),
-                    ExampleSentenceKurdish(text: "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران."),
                   ],
                 ),
               ),
@@ -438,8 +444,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Why should you deprive yourself of such simple pleasures?"),
-                    ExampleSentenceKurdish(text: "بۆچی دەبێت خۆت لە خۆشی وەها سادە بێبەری بکەیت؟"),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Why should you deprive yourself of such simple pleasures?"),
+                    ExampleSentenceKurdish(
+                        text: "بۆچی دەبێت خۆت لە خۆشی وەها سادە بێبەری بکەیت؟"),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Phrasal verb: deprive of (Derived forms: depriving of, deprives of, deprived of)
+- Phrasal verb: deprive of (derived forms: depriving of, deprives of, deprived of)
 1. Take away possessions, function, power or title (= strip, divest)
 "The Nazis deprived the Jews of all their assets"; 
  
@@ -1025,7 +1034,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Poe76zLndr8?t=',
+    videoId: 'Poe76zLndr8',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1050,7 +1059,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qS_VWG3JEZg?t=',
+    videoId: 'qS_VWG3JEZg',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1075,7 +1084,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TNIYnbj5edw?t=',
+    videoId: 'TNIYnbj5edw',
     startSeconds: 786,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1109,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/76eGLHYOKBQ?t=',
+    videoId: '76eGLHYOKBQ',
     startSeconds: 750,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1125,7 +1134,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6N5Fk7xbeH4?t=',
+    videoId: '6N5Fk7xbeH4',
     startSeconds: 595,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1150,7 +1159,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9Xp8lyxpw9c?t=',
+    videoId: '9Xp8lyxpw9c',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1175,7 +1184,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kkAkx6vDff8?t=',
+    videoId: 'kkAkx6vDff8',
     startSeconds: 1579,
     autoPlay: true,
     params: const YoutubePlayerParams(

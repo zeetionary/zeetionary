@@ -641,7 +641,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: curse (Derived forms: cursing, cursed, curses)
+- Verb: curse (derived forms: cursing, cursed, curses)
 1. Utter obscenities or profanities (= cuss [informal], blaspheme, swear, imprecate, eff [Brit, informal], eff and blind [Brit])
 "The drunken men were cursing loudly in the street";
  
@@ -654,7 +654,7 @@ ${englishMeaningConst.text}
 4. Exclude from a church or a religious community (= excommunicate, unchurch)
 "The gay priest was cursed when he married his partner";
 
-- Noun: curse (Derived forms: curses)
+- Noun: curse (derived forms: curses)
 1. Profane or obscene expression usually of surprise or anger (= curse word, expletive, oath, swearing, swearword, cuss [informal], cussword [N. Amer, informal])
 "curses were deleted";
  
@@ -699,7 +699,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D0x2dgpBDzc?t=',
+    videoId: 'D0x2dgpBDzc',
     startSeconds: 1339,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 992,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lsFPbgK1v9I?t=',
+    videoId: 'lsFPbgK1v9I',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -774,7 +774,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CzaJoyxRETQ?t=',
+    videoId: 'CzaJoyxRETQ',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -799,7 +799,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qjqh9UVfNNk?t=',
+    videoId: 'qjqh9UVfNNk',
     startSeconds: 705,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -824,7 +824,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4eGtKyc68Qw?t=',
+    videoId: '4eGtKyc68Qw',
     startSeconds: 605,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -849,7 +849,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f7QWMUCMYOE?t=',
+    videoId: 'f7QWMUCMYOE',
     startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(

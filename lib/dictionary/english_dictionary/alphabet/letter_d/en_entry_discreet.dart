@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A discreet glance at the clock told me the interview had lasted an hour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A discreet glance at the clock told me the interview had lasted an hour."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscreets3(String languageCode) async {
@@ -404,7 +405,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: هۆشیار، قایم‌کار، کارقایم، ئاگادار، ژیر، دووربین، تێگەیشتوو، بەفکر، بەبیر، ئاگادارانە، ژیرانە،	کەم‌قسە، دەم‌قورس، سڕپۆش،	نهێنی، پەنامەکی
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) وریا لەوەی دەیڵێیت یان دەیکەیت، بۆ ئەوەی شتێک بە نهێنی بهێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) وریا لەوەی دەیڵێیت یان دەیکەیت، بۆ ئەوەی شتێک بە نهێنی بهێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He was always very discreet about his love affairs."),
-                    ExampleSentenceKurdish(text: "هەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "A discreet glance at the clock told me the interview had lasted an hour."),
-                    ExampleSentenceKurdish(text: "نیگایەکی وریایانە لە کاتژمێرەکە پیشانی دام کە چاوپێکەوتنەکە یەک کاتژمێری خایاندبوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "A discreet glance at the clock told me the interview had lasted an hour."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نیگایەکی وریایانە لە کاتژمێرەکە پیشانی دام کە چاوپێکەوتنەکە یەک کاتژمێری خایاندبوو."),
                   ],
                 ),
               ),
@@ -1024,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: discreet (Derived forms: discreeter, discreetest)
+- Adjective: discreet (derived forms: discreeter, discreetest)
 1. Marked by prudence or modesty and wise self-restraint
 "his trusted discreet aide"; "a discreet, finely wrought gold necklace"
  
@@ -1065,7 +1074,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lex6USTugUU?t=',
+    videoId: 'lex6USTugUU',
     startSeconds: 1280,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1099,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1124,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PmlRbfSavbI?t=',
+    videoId: 'PmlRbfSavbI',
     startSeconds: 729,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1149,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VgYm5fpMBYo?t=',
+    videoId: 'VgYm5fpMBYo',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1174,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qdph7XaOUL8?t=',
+    videoId: 'qdph7XaOUL8',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1199,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rdt5-S5ZaYo?t=',
+    videoId: 'rdt5-S5ZaYo',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1215,7 +1224,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3yFujN0G28o?t=',
+    videoId: '3yFujN0G28o',
     startSeconds: 685,
     autoPlay: true,
     params: const YoutubePlayerParams(

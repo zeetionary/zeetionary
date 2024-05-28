@@ -1089,7 +1089,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cure (Derived forms: curing, cured, cures)
+- Verb: cure (derived forms: curing, cured, cures)
 1. (medicine) provide a cure for, make healthy again (= bring around, heal)
 "The treatment cured the boy's acne";
  
@@ -1102,7 +1102,7 @@ ${englishMeaningConst.text}
 4. Be or become preserved
 "the apricots cure in the sun"
 
-- Noun: cure (Derived forms: cures)
+- Noun: cure (derived forms: cures)
 1. A medicine or therapy that cures disease or relieves pain (= remedy, curative, therapeutic)
 """,
   );
@@ -1136,7 +1136,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 1173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1161,7 +1161,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1186,7 +1186,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qsYUDM15T8U?t=',
+    videoId: 'qsYUDM15T8U',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1211,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 1771,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1236,7 +1236,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mcZdTvOqmvI?t=',
+    videoId: 'mcZdTvOqmvI',
     startSeconds: 882,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1261,7 +1261,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1286,7 +1286,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2l5sBLhUCY?t=',
+    videoId: 'l2l5sBLhUCY',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(

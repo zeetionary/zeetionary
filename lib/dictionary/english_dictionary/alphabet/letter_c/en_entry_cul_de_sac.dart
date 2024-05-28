@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cul de sac (Derived forms: cul de sacs, culs de sac)
+- Noun: cul de sac (derived forms: cul de sacs, culs de sac)
 1. A passage with access only at one end (= cul, dead end)
  
 2. A street with only one way in or out (= blind alley, dead-end street, impasse)
@@ -471,7 +471,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8PJGIEz5YJ4?t=',
+    videoId: '8PJGIEz5YJ4',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kOd19ljsklQ?t=',
+    videoId: 'kOd19ljsklQ',
     startSeconds: 385,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZMu7_Xpp1SM?t=',
+    videoId: 'ZMu7_Xpp1SM',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QlIcb_PKoTQ?t=',
+    videoId: 'QlIcb_PKoTQ',
     startSeconds: 546,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UsKtLoHRi4k?t=',
+    videoId: 'UsKtLoHRi4k',
     startSeconds: 1466,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vW678sFdwLw?t=',
+    videoId: 'vW678sFdwLw',
     startSeconds: 1330,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SfsCniN7Nsc?t=',
+    videoId: 'SfsCniN7Nsc',
     startSeconds: 666,
     autoPlay: true,
     params: const YoutubePlayerParams(

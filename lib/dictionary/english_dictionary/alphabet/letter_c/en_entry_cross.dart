@@ -1869,7 +1869,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cross (Derived forms: crossed, crosses, crossing)
+- Verb: cross (derived forms: crossed, crosses, crossing)
 1. Travel across or pass over (= traverse, track, cover, pass over, get over, get across, cut through, cut across)
 "The caravan crossed almost 100 miles each day";
  
@@ -1894,7 +1894,7 @@ ${englishMeaningConst.text}
 8. Breed animals or plants using parents of different races and varieties (= crossbreed, hybridize, hybridise [Brit], interbreed)
 "cross a horse and a donkey";
 
-- Adjective: cross (Derived forms: crosser, crossest)
+- Adjective: cross (derived forms: crosser, crossest)
 1. Annoyed and irritable (= crabbed, crabby, fussy, grouchy [informal], grumpy, bad-tempered, ill-tempered, arsey [Brit, informal])
  
 2. Feeling or showing anger (= angry)
@@ -1902,7 +1902,7 @@ ${englishMeaningConst.text}
 3. Extending or lying across; in a crosswise direction; at right angles to the long axis (= transverse, transversal, thwartwise [archaic], thwartways [archaic])
 "cross members should be all steel";
 
-- Noun: cross (Derived forms: crosses)
+- Noun: cross (derived forms: crosses)
 1. A wooden structure consisting of an upright post with a transverse piece
  
 2. A marking that consists of lines that cross each other (= crisscross, mark)
@@ -1951,7 +1951,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eyMKA4d35dg?t=',
+    videoId: 'eyMKA4d35dg',
     startSeconds: 431,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1976,7 +1976,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 555,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2001,7 +2001,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6DK0yrF_ffU?t=',
+    videoId: '6DK0yrF_ffU',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2026,7 +2026,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_mu1kQqkl1E?t=',
+    videoId: '_mu1kQqkl1E',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2051,7 +2051,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Stl6OZo7wzg?t=',
+    videoId: 'Stl6OZo7wzg',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2076,7 +2076,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nYzTbmDpLNg?t=',
+    videoId: 'nYzTbmDpLNg',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2101,7 +2101,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 491,
     autoPlay: true,
     params: const YoutubePlayerParams(

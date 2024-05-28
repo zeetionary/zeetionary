@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was convicted of hiding deserters."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was convicted of hiding deserters."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeserters2(String languageCode) async {
@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeserters1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeserters14(String languageCode) async {
+  Future<void> speakdeserters14(String languageCode) async {
     // DOPSUM: CHANGE speakdeserter
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,16 +404,17 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سەربازی هەڵاتوو یان ڕاکردوو
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا هەڵهاتووە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا هەڵهاتووە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "He was convicted of hiding deserters."),
-                    ExampleSentenceKurdish(text: "تاوانبارکرا بە شاردنەوەی هەڵهاتووان."),
+                        text: "He was convicted of hiding deserters."),
+                    ExampleSentenceKurdish(
+                        text: "تاوانبارکرا بە شاردنەوەی هەڵهاتووان."),
                   ],
                 ),
               ),
@@ -988,7 +989,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deserter (Derived forms: deserters)
+- Noun: deserter (derived forms: deserters)
 1. A disloyal person who betrays or deserts his cause or religion or political party or friend etc. (= apostate, renegade, turncoat, recreant [archaic], ratter)
  
 2. (military) a person who abandons their duty (as on a military post) (= defector)
@@ -1024,7 +1025,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sV6uuMAnJUE?t=',
+    videoId: 'sV6uuMAnJUE',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1050,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p-L0WIQsi5o?t=',
+    videoId: 'p-L0WIQsi5o',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1075,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iZx04fmxdfA?t=',
+    videoId: 'iZx04fmxdfA',
     startSeconds: 619,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1100,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j4kI2h3iotA?t=',
+    videoId: 'j4kI2h3iotA',
     startSeconds: 2025,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1125,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CRZhAonfTZs?t=',
+    videoId: 'CRZhAonfTZs',
     startSeconds: 2638,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1150,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CTsLdVvMev8?t=',
+    videoId: 'CTsLdVvMev8',
     startSeconds: 290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1175,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8V4bPy4w3Hc?t=',
+    videoId: '8V4bPy4w3Hc',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(

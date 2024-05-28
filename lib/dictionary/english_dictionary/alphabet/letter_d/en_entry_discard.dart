@@ -1035,11 +1035,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: discard (Derived forms: discards, discarding, discarded)
+- Verb: discard (derived forms: discards, discarding, discarded)
 1. Throw or cast away (= fling, toss, toss out, toss away, chuck out, cast aside, dispose, throw out, cast out, throw away, cast away, put away)
 "discard your worries";
 
-- Noun: discard (Derived forms: discards)
+- Noun: discard (derived forms: discards)
 1. Anything that is cast aside or discarded
  
 2. (cards) the act of throwing out a useless card or of failing to follow suit
@@ -1077,7 +1077,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
+    videoId: 'T48_SrFCdaQ',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1102,7 +1102,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 1078,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1127,7 +1127,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjySnrspD7E?t=',
+    videoId: 'gjySnrspD7E',
     startSeconds: 1724,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1152,7 +1152,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
+    videoId: 'Sbp_EeBk-As',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1177,7 +1177,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6dv8zJiggBs?t=',
+    videoId: '6dv8zJiggBs',
     startSeconds: 668,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1202,7 +1202,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y__v0aEgzO0?t=',
+    videoId: 'y__v0aEgzO0',
     startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1227,7 +1227,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UrkPC81_QfU?t=',
+    videoId: 'UrkPC81_QfU',
     startSeconds: 1421,
     autoPlay: true,
     params: const YoutubePlayerParams(

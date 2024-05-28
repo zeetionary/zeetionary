@@ -14,7 +14,8 @@ class EnglishEntrydemilitarize extends StatefulWidget {
   const EnglishEntrydemilitarize({super.key});
 
   @override
-  State<EnglishEntrydemilitarize> createState() => _EnglishEntrydemilitarizeState();
+  State<EnglishEntrydemilitarize> createState() =>
+      _EnglishEntrydemilitarizeState();
 }
 
 class _EnglishEntrydemilitarizeState extends State<EnglishEntrydemilitarize> {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemilitarizes1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemilitarizes14(String languageCode) async {
+  Future<void> speakdemilitarizes14(String languageCode) async {
     // DOPSUM: CHANGE speakdemilitarize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +405,8 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: غەیرە نیزامی کردن، غەیرە نیزامی بوون
 // """),
-          const DefinitionKurdish(text: "١. (کردار) کشاندنەوەی سوپا لە ناوچەیەک"),
+          const DefinitionKurdish(
+              text: "١. (کردار) کشاندنەوەی سوپا لە ناوچەیەک"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "A demilitarized zone has been created on the border between the warring countries."),
-                    ExampleSentenceKurdish(text: "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا."),
                   ],
                 ),
               ),
@@ -988,7 +992,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: demilitarize (Derived forms: demilitarizing, demilitarizes, demilitarized)
+- Verb: demilitarize (derived forms: demilitarizing, demilitarizes, demilitarized)
 1. Do away with the military organization and potential of (= demilitarise [Brit])
  
 2. Remove offensive capability from (= disarm, demilitarise [Brit])
@@ -1024,7 +1028,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Tv3DFbFAM8A?t=',
+    videoId: 'Tv3DFbFAM8A',
     startSeconds: 2066,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1053,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iaqcwyZPuKg?t=',
+    videoId: 'iaqcwyZPuKg',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1078,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jU7eFUJqzeQ?t=',
+    videoId: 'jU7eFUJqzeQ',
     startSeconds: 1247,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1103,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fe509BFCxYE?t=',
+    videoId: 'fe509BFCxYE',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1128,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/feL0TV7EbgA?t=',
+    videoId: 'feL0TV7EbgA',
     startSeconds: 1464,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1153,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t6u5xPJaW2s?t=',
+    videoId: 't6u5xPJaW2s',
     startSeconds: 2068,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1178,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QCALPys24RQ?t=',
+    videoId: 'QCALPys24RQ',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(

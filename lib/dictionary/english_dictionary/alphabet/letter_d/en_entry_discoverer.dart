@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I was the lucky discoverer of a very valuable painting."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I was the lucky discoverer of a very valuable painting."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscoverers3(String languageCode) async {
@@ -404,7 +405,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دۆزەر، دۆزەرەوە
 """),
-          const DefinitionKurdish(text: "١. (ناو) یەکەم کەس کە شتێک یان شوێنیک دەدۆزێتەوە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) یەکەم کەس کە شتێک یان شوێنیک دەدۆزێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They were the discoverers of the structure of DNA."),
-                    ExampleSentenceKurdish(text: "دۆزەرەوەی پێکهاتەی دی‌ئێن‌ئەی بوون."),
+                    ExampleSentenceKurdish(
+                        text: "دۆزەرەوەی پێکهاتەی دی‌ئێن‌ئەی بوون."),
                   ],
                 ),
               ),
@@ -431,15 +434,21 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کەسێک کە شتێکی شارەوە دەدۆزێتەوە یان شتێک بە ڕێکەوت دەدۆزێتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) کەسێک کە شتێکی شارەوە دەدۆزێتەوە یان شتێک بە ڕێکەوت دەدۆزێتەوە"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I was the lucky discoverer of a very valuable painting."),
-                    ExampleSentenceKurdish(text: "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەهام دۆزییەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I was the lucky discoverer of a very valuable painting."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەو بەبەختە بووم کە کە تابلۆیەکی زۆر گرانبەهام دۆزییەوە."),
                   ],
                 ),
               ),
@@ -1024,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discoverer (Derived forms: discoverers)
+- Noun: discoverer (derived forms: discoverers)
 1. Someone who is the first to think of or make something (= inventor, artificer)
  
 2. Someone who is the first to observe something (= finder, spotter)
@@ -1060,7 +1069,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mbJVYN0w6rg?t=',
+    videoId: 'mbJVYN0w6rg',
     startSeconds: 305,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1094,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zrv1EDIqHkY?t=',
+    videoId: 'Zrv1EDIqHkY',
     startSeconds: 1166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1119,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lctv_pyT62o?t=',
+    videoId: 'lctv_pyT62o',
     startSeconds: 923,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1144,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g0agm6awGvc?t=',
+    videoId: 'g0agm6awGvc',
     startSeconds: 1078,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1169,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/219YybX66MY?t=',
+    videoId: '219YybX66MY',
     startSeconds: 3241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1194,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dsCjRjA4O7Y?t=',
+    videoId: 'dsCjRjA4O7Y',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1219,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MMwpkO9hPbQ?t=',
+    videoId: 'MMwpkO9hPbQ',
     startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(

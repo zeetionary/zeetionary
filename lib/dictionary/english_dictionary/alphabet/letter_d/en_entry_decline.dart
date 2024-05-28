@@ -665,7 +665,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: decline (Derived forms: declined, declines, declining)
+- Verb: decline (derived forms: declined, declines, declining)
 1. Grow worse (= worsen)
 "Conditions in the slum declined";
  
@@ -686,7 +686,7 @@ ${englishMeaningConst.text}
 7. Inflect for number, gender, case, etc.
 "in many languages, speakers decline nouns, pronouns, and adjectives"
 
-- Noun: decline (Derived forms: declines)
+- Noun: decline (derived forms: declines)
 1. Change toward something smaller or lower (= diminution)
  
 2. A condition inferior to an earlier condition; a gradual falling off from a better state; decline (= declination)
@@ -726,7 +726,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 1273,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -751,7 +751,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 4143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -776,7 +776,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hoihoGGdQ4U?t=',
+    videoId: 'hoihoGGdQ4U',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -801,7 +801,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JR3z8lq2cNM?t=',
+    videoId: 'JR3z8lq2cNM',
     startSeconds: 719,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -826,7 +826,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CqkhjL3WvWQ?t=',
+    videoId: 'CqkhjL3WvWQ',
     startSeconds: 214,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -851,7 +851,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/THIGSnMP3io?t=',
+    videoId: 'THIGSnMP3io',
     startSeconds: 1256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -876,7 +876,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OIo2Ie1HwHY?t=',
+    videoId: 'OIo2Ie1HwHY',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(

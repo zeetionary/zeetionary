@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The disc jockey at the club kept the crowd dancing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The disc jockey at the club kept the crowd dancing."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscjockeys3(String languageCode) async {
@@ -402,9 +403,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کەسێک کە کاری لێدانی میوزیکی بەناوبانگە لەسەر تەلەفیزیۆن، ڕادیۆ، یانەیەک، ئاهەنگێک، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەسێک کە کاری لێدانی میوزیکی بەناوبانگە لەسەر تەلەفیزیۆن، ڕادیۆ، یانەیەک، ئاهەنگێک، هتد"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The disc jockey played the latest hits at the party."),
-                    ExampleSentenceKurdish(text: "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاهەنگەکە لێدا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاهەنگەکە لێدا."),
                   ],
                 ),
               ),
@@ -438,8 +443,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The disc jockey at the club kept the crowd dancing."),
-                    ExampleSentenceKurdish(text: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا هێشتەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The disc jockey at the club kept the crowd dancing."),
+                    ExampleSentenceKurdish(
+                        text: "دی‌جەیی یانەکە جەماوەرەکەی لە سەمادا هێشتەوە."),
                   ],
                 ),
               ),
@@ -1024,11 +1032,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disc-jockey (Derived forms: disc-jockeys, disc-jockeyed, disc-jockeying)
+- Verb: disc-jockey (derived forms: disc-jockeys, disc-jockeyed, disc-jockeying)
 1. Comment on music to be played (= disk-jockey [N. Amer], DJ, deejay [informal])
 "He has a job disc-jockeying on the weekend";
 
-- Noun: disc jockey (Derived forms: disc jockeys)
+- Noun: disc jockey (derived forms: disc jockeys)
 1. A person who announces and plays popular recorded music (= disk jockey [N. Amer], d.j. [informal], DJ, jock [informal], selecta [Brit, informal], deejay [informal])
 """,
   );
@@ -1062,7 +1070,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ve8LCQgBtTM?t=',
+    videoId: 've8LCQgBtTM',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1095,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o1qRzKuskK0?t=',
+    videoId: 'o1qRzKuskK0',
     startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1120,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GuoFW2yAD7g?t=',
+    videoId: 'GuoFW2yAD7g',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1145,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nhapXNTzdQI?t=',
+    videoId: 'nhapXNTzdQI',
     startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1170,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XrEWqBZAV4w?t=',
+    videoId: 'XrEWqBZAV4w',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1195,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xTvxa0Rlhpg?t=',
+    videoId: 'xTvxa0Rlhpg',
     startSeconds: 1387,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1220,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qv2RhmWmccw?t=',
+    videoId: 'Qv2RhmWmccw',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -632,7 +632,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: creep (Derived forms: crept, creeping, creeps)
+- Verb: creep (derived forms: crept, creeping, creeps)
 1. Move slowly; in the case of people or animals with the body near the ground (=crawl)
 "The crocodile was creeping along the riverbed";
  
@@ -644,7 +644,7 @@ ${englishMeaningConst.text}
  
 4. Change or develop gradually
 
-- Noun: creep (Derived forms: creeps)
+- Noun: creep (derived forms: creeps)
 1. [informal] Someone unpleasantly strange or eccentric (= weirdo [informal], weirdie [informal], weirdy [informal])
  
 2. A slow longitudinal movement or deformation
@@ -687,7 +687,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wNsZEqpKUA',
+    videoId: '_wNsZEqpKUA',
     startSeconds: 1118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -712,7 +712,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +737,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rRymSi8SmqA',
+    videoId: 'rRymSi8SmqA',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -762,7 +762,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 836,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -787,7 +787,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ObqbX1eLTwo',
+    videoId: 'ObqbX1eLTwo',
     startSeconds: 681,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -812,7 +812,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mcZdTvOqmvI',
+    videoId: 'mcZdTvOqmvI',
     startSeconds: 1003,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -837,7 +837,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kElsSj8hky4',
+    videoId: 'kElsSj8hky4',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdespots1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdespots14(String languageCode) async {
+  Future<void> speakdespots14(String languageCode) async {
     // DOPSUM: CHANGE speakdespot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +404,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: حاکم یان حوکم‌ڕانی زۆردار، دەسەڵات‌داری زاڵم، ملهوڕ، سەرکوتکار، دەسەڵات‌داری سەرەڕۆ (و بەزەبروزەنگ)، خوێن‌ڕێژ
 """),
-          const DefinitionKurdish(text: "١. (ناو) سەرکردەیەک بە دەسەڵاتێکی زۆرەوە، بەتایبەتی یەکێک کە بە دڕندانە بەکاری دێنێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) سەرکردەیەک بە دەسەڵاتێکی زۆرەوە، بەتایبەتی یەکێک کە بە دڕندانە بەکاری دێنێت"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "It is the story of a military coup which brings a brutal despot to power."),
-                    ExampleSentenceKurdish(text: "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات."),
                   ],
                 ),
               ),
@@ -994,7 +998,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: despot (Derived forms: despots)
+- Noun: despot (derived forms: despots)
 1. A cruel and oppressive dictator (= tyrant, autocrat)
 "the propagandistic iconography of a despot";
 """,
@@ -1029,7 +1033,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XB2W_kw62u8?t=',
+    videoId: 'XB2W_kw62u8',
     startSeconds: 1785,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1054,7 +1058,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r8olVKzLpXY?t=',
+    videoId: 'r8olVKzLpXY',
     startSeconds: 455,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1079,7 +1083,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7heWIuEJcS4?t=',
+    videoId: '7heWIuEJcS4',
     startSeconds: 370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1104,7 +1108,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/De6rFH8oKsI?t=',
+    videoId: 'De6rFH8oKsI',
     startSeconds: 578,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1129,7 +1133,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9u0i9azXi_E?t=',
+    videoId: '9u0i9azXi_E',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1158,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g_2FZ-V_4zs?t=',
+    videoId: 'g_2FZ-V_4zs',
     startSeconds: 819,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1183,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3zgJ1Cb99uA?t=',
+    videoId: '3zgJ1Cb99uA',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(

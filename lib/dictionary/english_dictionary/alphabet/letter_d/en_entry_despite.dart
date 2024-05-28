@@ -1017,7 +1017,7 @@ ${englishMeaningConst.text}
 1. Regardless of, in defiance of (= in spite of, notwithstanding)
 "went shopping despite the bad weather";
 
-- Noun: despite (Derived forms: despites)
+- Noun: despite (derived forms: despites)
 1. Lack of respect accompanied by a feeling of intense dislike (= contempt, disdain, scorn)
 "the despite in which outsiders were held is legendary";
  
@@ -1055,7 +1055,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a_TSR_v07m0?t=',
+    videoId: 'a_TSR_v07m0',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1080,7 +1080,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1105,7 +1105,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PL1j8UQJ2Qg',
+    videoId: 'PL1j8UQJ2Qg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1130,7 +1130,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5HoaJBJ7hM4?t=',
+    videoId: '5HoaJBJ7hM4',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1155,7 +1155,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 2076,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1180,7 +1180,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W0zW71lW62E',
+    videoId: 'W0zW71lW62E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1205,7 +1205,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 990,
     autoPlay: true,
     params: const YoutubePlayerParams(

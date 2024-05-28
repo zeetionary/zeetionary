@@ -14,7 +14,8 @@ class EnglishEntrydesertisland extends StatefulWidget {
   const EnglishEntrydesertisland({super.key});
 
   @override
-  State<EnglishEntrydesertisland> createState() => _EnglishEntrydesertislandState();
+  State<EnglishEntrydesertisland> createState() =>
+      _EnglishEntrydesertislandState();
 }
 
 class _EnglishEntrydesertislandState extends State<EnglishEntrydesertisland> {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdesertislands1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdesertislands14(String languageCode) async {
+  Future<void> speakdesertislands14(String languageCode) async {
     // DOPSUM: CHANGE speakdesertisland
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -402,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) دوورگەیەکی چۆڵ"),
           Row(
@@ -413,7 +414,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Robinson Crusoe is cast away on a desert island for 28 years."),
-                    ExampleSentenceKurdish(text: "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێهێڵدرا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێهێڵدرا."),
                   ],
                 ),
               ),
@@ -994,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: desert island (Derived forms: desert islands)
+- Noun: desert island (derived forms: desert islands)
 1. a tropical island where no people live
 """,
   );
@@ -1028,7 +1031,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qBJQteFrDAc?t=',
+    videoId: 'qBJQteFrDAc',
     startSeconds: 883,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1056,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XRIO32m5gDA?t=',
+    videoId: 'XRIO32m5gDA',
     startSeconds: 1086,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1081,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BiLqUn-Sx2I?t=',
+    videoId: 'BiLqUn-Sx2I',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1106,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_ZDEWVJan0s?t=',
+    videoId: '_ZDEWVJan0s',
     startSeconds: 1428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1131,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lvAMfzzssUY?t=',
+    videoId: 'lvAMfzzssUY',
     startSeconds: 783,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1156,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OAgY5zlZW5k?t=',
+    videoId: 'OAgY5zlZW5k',
     startSeconds: 1121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1181,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EPOpL2cP-sQ?t=',
+    videoId: 'EPOpL2cP-sQ',
     startSeconds: 202,
     autoPlay: true,
     params: const YoutubePlayerParams(

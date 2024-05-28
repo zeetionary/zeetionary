@@ -997,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: delve (Derived forms: delved, delves, delving)
+- Verb: delve (derived forms: delved, delves, delving)
 1. Reach into, rummage in or look in
 "delve in the drawer"
  
@@ -1034,7 +1034,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
+    videoId: 'oI_X2cMHNe0',
     startSeconds: 1336,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1059,7 +1059,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NuBt9A2iMGA?t=',
+    videoId: 'NuBt9A2iMGA',
     startSeconds: 933,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1084,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CjiKlLE3NuI?t=',
+    videoId: 'CjiKlLE3NuI',
     startSeconds: 666,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1109,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vS0TuIPoeBs?t=',
+    videoId: 'vS0TuIPoeBs',
     startSeconds: 727,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1134,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SHfqtaa0VI8?t=',
+    videoId: 'SHfqtaa0VI8',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1159,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RDM2bMrid8Q?t=',
+    videoId: 'RDM2bMrid8Q',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1184,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TsNvYjJ_JcE?t=',
+    videoId: 'TsNvYjJ_JcE',
     startSeconds: 569,
     autoPlay: true,
     params: const YoutubePlayerParams(

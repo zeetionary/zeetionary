@@ -14,10 +14,12 @@ class EnglishEntrydisembarkation extends StatefulWidget {
   const EnglishEntrydisembarkation({super.key});
 
   @override
-  State<EnglishEntrydisembarkation> createState() => _EnglishEntrydisembarkationState();
+  State<EnglishEntrydisembarkation> createState() =>
+      _EnglishEntrydisembarkationState();
 }
 
-class _EnglishEntrydisembarkationState extends State<EnglishEntrydisembarkation> {
+class _EnglishEntrydisembarkationState
+    extends State<EnglishEntrydisembarkation> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -230,7 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("On disembarkation he was immediately arrested."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "On disembarkation he was immediately arrested."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisembarkations3(String languageCode) async {
@@ -404,7 +407,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دابەزین، پیادەبوون، دابەزاندن، پیادەکردن،	داگرتن، خاڵی‌کردن، بەتاڵ‌کردن
 """),
-          const DefinitionKurdish(text: "١. (ناو) دابەزین لە وەسیلەیەکی گواستنەوە، بەتایبەتی کەشتی یان فڕۆکە، لە کۆتایی گەشتێکدا"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) دابەزین لە وەسیلەیەکی گواستنەوە، بەتایبەتی کەشتی یان فڕۆکە، لە کۆتایی گەشتێکدا"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +418,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Please assemble on the deck for disembarkation."),
-                    ExampleSentenceKurdish(text: "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین."),
                   ],
                 ),
               ),
@@ -438,8 +445,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "On disembarkation he was immediately arrested."),
-                    ExampleSentenceKurdish(text: "لەگەڵ دابەزیندا ڕاستەوخۆ دەستگیرکرا."),
+                    ExampleSentenceEnglish(
+                        text: "On disembarkation he was immediately arrested."),
+                    ExampleSentenceKurdish(
+                        text: "لەگەڵ دابەزیندا ڕاستەوخۆ دەستگیرکرا."),
                   ],
                 ),
               ),
@@ -1024,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disembarkation (Derived forms: disembarkations)
+- Noun: disembarkation (derived forms: disembarkations)
 1. The act of passengers and crew getting off of a ship or aircraft (= debarkation, disembarkment)
 """,
   );
@@ -1058,7 +1067,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/110pBFsOvqs?t=',
+    videoId: '110pBFsOvqs',
     startSeconds: 551,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1092,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7XY5jhEFwF8?t=',
+    videoId: '7XY5jhEFwF8',
     startSeconds: 555,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1117,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UGSo2U-TvBs?t=',
+    videoId: 'UGSo2U-TvBs',
     startSeconds: 602,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1142,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LnpWwKh-WA4?t=',
+    videoId: 'LnpWwKh-WA4',
     startSeconds: 1175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1167,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vvIUAExGUjI?t=',
+    videoId: 'vvIUAExGUjI',
     startSeconds: 365,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1192,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RWSK4B9hFms?t=',
+    videoId: 'RWSK4B9hFms',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1217,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d-MZuy8Fw4o?t=',
+    videoId: 'd-MZuy8Fw4o',
     startSeconds: 303,
     autoPlay: true,
     params: const YoutubePlayerParams(

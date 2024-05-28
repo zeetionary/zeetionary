@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Crack is a highly potent and addictive derivative of cocaine."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Crack is a highly potent and addictive derivative of cocaine."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivatives3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I found the novel derivative. I had expected more."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I found the novel derivative. I had expected more."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivatives4(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakderivatives1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakderivatives14(String languageCode) async {
+  Future<void> speakderivatives14(String languageCode) async {
     // DOPSUM: CHANGE speakderivative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Crack is a highly potent and addictive derivative of cocaine.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Crack is a highly potent and addictive derivative of cocaine.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivatives21(String languageCode) async {
@@ -404,16 +407,17 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: (لێ)وەرگیراو، (لێ)هەڵگیراو، لێ‌وەبوو،	وشەی داڕێژراو،	وشەی داڕێژراو یان وەرگرتە،	جۆرێ سەرمایەنانەوە
 """),
-          const DefinitionKurdish(text: "١. (ناو) وشەیەک یان شتێک کە لە شتێکی دیکەوە وەرگیردراوە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) وشەیەک یان شتێک کە لە شتێکی دیکەوە وەرگیردراوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "‘Happiness’ is a derivative of ‘happy’."),
-                    ExampleSentenceKurdish(text: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە."),
+                        text: "‘Happiness’ is a derivative of ‘happy’."),
+                    ExampleSentenceKurdish(
+                        text: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە."),
                   ],
                 ),
               ),
@@ -438,8 +442,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Crack is a highly potent and addictive derivative of cocaine."),
-                    ExampleSentenceKurdish(text: "کراک تەواو بەهێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Crack is a highly potent and addictive derivative of cocaine."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کراک تەواو بەهێزە و وەرگیراوێکی ئاڵوودەکاری کۆکاینە."),
                   ],
                 ),
               ),
@@ -457,15 +465,20 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە لە شتێکی تر وەرگیردراوە"),
+          const DefinitionKurdish(
+              text: "٢. (ھاوەڵناو) کە لە شتێکی تر وەرگیردراوە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I found the novel derivative. I had expected more."),
-                    ExampleSentenceKurdish(text: "ڕۆمانەکەم بە لەبەرگیراوە کەوتە بەرچاو. چاوەڕێی زیاترم دەکرد."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I found the novel derivative. I had expected more."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆمانەکەم بە لەبەرگیراوە کەوتە بەرچاو. چاوەڕێی زیاترم دەکرد."),
                   ],
                 ),
               ),
@@ -992,7 +1005,7 @@ ${englishMeaningConst.text}
 1. Derived from, based on or imitating something else
 "a derivative process"; "a highly derivative prose style"
 
-- Noun: derivative (Derived forms: derivatives)
+- Noun: derivative (derived forms: derivatives)
 1. The result of mathematical differentiation; the instantaneous change of one quantity relative to another; df(x)/dx (= derived function, differential coefficient, differential, first derivative)
  
 2. A compound obtained from, or regarded as derived from, another compound
@@ -1033,7 +1046,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NNnIGh9g6fA?t=',
+    videoId: 'NNnIGh9g6fA',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1058,7 +1071,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wPclF09XnDk?t=',
+    videoId: 'wPclF09XnDk',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1096,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k8fsVzyj-PA?t=',
+    videoId: 'k8fsVzyj-PA',
     startSeconds: 295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1121,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eWHN7pBRzIo?t=',
+    videoId: 'eWHN7pBRzIo',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1146,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w_kRA9Qe1w0?t=',
+    videoId: 'w_kRA9Qe1w0',
     startSeconds: 886,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1171,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ha2mLz-Xdpg?t=',
+    videoId: 'ha2mLz-Xdpg',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1196,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rMM5Ya-dclY?t=',
+    videoId: 'rMM5Ya-dclY',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(

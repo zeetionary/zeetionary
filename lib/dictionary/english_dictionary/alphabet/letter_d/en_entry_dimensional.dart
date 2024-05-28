@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 586,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    videoId: '3RkhZgRNC1k',
     startSeconds: 1811,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-PSgBCQpEt8?t=',
+    videoId: '-PSgBCQpEt8',
     startSeconds: 582,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/blOrY-nEGaE?t=',
+    videoId: 'blOrY-nEGaE',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1174,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CupbRr2m_sM?t=',
+    videoId: 'CupbRr2m_sM',
     startSeconds: 521,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1199,7 +1199,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 1300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1224,7 +1224,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3KC32Vymo0Q?t=',
+    videoId: '3KC32Vymo0Q',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(

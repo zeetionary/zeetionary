@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The police demarcated the city into eighteen geographical divisions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police demarcated the city into eighteen geographical divisions."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemarcates3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemarcates1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemarcates14(String languageCode) async {
+  Future<void> speakdemarcates14(String languageCode) async {
     // DOPSUM: CHANGE speakdemarcate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The police demarcated the city into eighteen geographical divisions.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police demarcated the city into eighteen geographical divisions.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemarcates21(String languageCode) async {
@@ -413,7 +415,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Plots of land have been demarcated by barbed wire."),
-                    ExampleSentenceKurdish(text: "پارچە زەوی بە تەلی دڕکاوی کێشراون."),
+                    ExampleSentenceKurdish(
+                        text: "پارچە زەوی بە تەلی دڕکاوی کێشراون."),
                   ],
                 ),
               ),
@@ -438,8 +441,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The police demarcated the city into eighteen geographical divisions."),
-                    ExampleSentenceKurdish(text: "پۆلیس شارەکەی کرد بە هەشت یەکەی جوگرافییەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The police demarcated the city into eighteen geographical divisions."),
+                    ExampleSentenceKurdish(
+                        text: "پۆلیس شارەکەی کرد بە هەشت یەکەی جوگرافییەوە."),
                   ],
                 ),
               ),
@@ -988,7 +994,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: demarcate (Derived forms: demarcated, demarcates, demarcating)
+- Verb: demarcate (derived forms: demarcated, demarcates, demarcating)
 1. Separate clearly, as if by boundaries (= demark)
  
 2. Set, mark, or draw the boundaries of something (= delimit, delimitate, demark)
@@ -1024,7 +1030,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3_Z2AnIpgOc?t=',
+    videoId: '3_Z2AnIpgOc',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1055,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vvvicd07zCs?t=',
+    videoId: 'Vvvicd07zCs',
     startSeconds: 270,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1080,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gu9RIGGXeNo?t=',
+    videoId: 'gu9RIGGXeNo',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1105,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ug5qvNAJyvQ?t=',
+    videoId: 'ug5qvNAJyvQ',
     startSeconds: 444,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1130,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C0Db7gcLieI?t=',
+    videoId: 'C0Db7gcLieI',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1155,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jcqf4XOP6cQ?t=',
+    videoId: 'Jcqf4XOP6cQ',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1180,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-8jN-Suxos0?t=',
+    videoId: '-8jN-Suxos0',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(

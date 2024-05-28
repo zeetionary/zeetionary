@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdetainees1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdetainees14(String languageCode) async {
+  Future<void> speakdetainees14(String languageCode) async {
     // DOPSUM: CHANGE speakdetainee
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -413,7 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The detainee can make a formal complaint after release."),
-                    ExampleSentenceKurdish(text: "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی."),
                   ],
                 ),
               ),
@@ -994,7 +996,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: detainee (Derived forms: detainees)
+- Noun: detainee (derived forms: detainees)
 1. Some held in custody (= political detainee)
 """,
   );
@@ -1028,7 +1030,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ri2Aj44PA8E?t=',
+    videoId: 'ri2Aj44PA8E',
     startSeconds: 1283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1055,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/syQhuq7BnT4?t=',
+    videoId: 'syQhuq7BnT4',
     startSeconds: 366,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1080,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IvNc9yDox8U?t=',
+    videoId: 'IvNc9yDox8U',
     startSeconds: 832,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1105,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vS7hMricwm0?t=',
+    videoId: 'vS7hMricwm0',
     startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1130,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BKHPTHx0ScQ?t=',
+    videoId: 'BKHPTHx0ScQ',
     startSeconds: 624,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1155,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xXtPkL4RGOA?t=',
+    videoId: 'xXtPkL4RGOA',
     startSeconds: 787,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1180,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IDXBKvaoXHc?t=',
+    videoId: 'IDXBKvaoXHc',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(

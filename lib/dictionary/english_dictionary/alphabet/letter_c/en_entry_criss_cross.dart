@@ -497,13 +497,13 @@ ${englishMeaningConst.text}
 - Adjective: criss-cross 
 1. Marked with crossing lines (= criss-crossed)
 
-- Noun: criss-cross (Derived forms: criss-crossing, criss-crosses, criss-crossed)
+- Noun: criss-cross (derived forms: criss-crossing, criss-crosses, criss-crossed)
 1. A marking that consists of lines that cross each other (= cross, mark)
 
 - Adverb: criss-cross 
 1. Crossing one another in opposite directions
 
-- Verb: criss-cross (Derived forms: criss-crossing, criss-crosses, criss-crossed)
+- Verb: criss-cross (derived forms: criss-crossing, criss-crosses, criss-crossed)
 1. Cross in a pattern, often random
  
 2. Mark with or consist of a pattern of crossed lines
@@ -543,7 +543,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iogjPsCceqc?t=',
+    videoId: 'iogjPsCceqc',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wjaIRPAxGgA?t=',
+    videoId: 'wjaIRPAxGgA',
     startSeconds: 440,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8eO8pPQs7Tk?t=',
+    videoId: '8eO8pPQs7Tk',
     startSeconds: 544,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cqjn3mup1So?t=',
+    videoId: 'cqjn3mup1So',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pEFVxxNyFKA?t=',
+    videoId: 'pEFVxxNyFKA',
     startSeconds: 40,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BYl8SUYHNnM?t=',
+    videoId: 'BYl8SUYHNnM',
     startSeconds: 426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -693,7 +693,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yd1JhZzoS6A?t=',
+    videoId: 'yd1JhZzoS6A',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(

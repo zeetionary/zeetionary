@@ -1010,7 +1010,7 @@ ${englishMeaningConst.text}
 - Adjective: delineate 
 1. Represented accurately or precisely (= delineated)
 
-- Verb: delineate (Derived forms: delineated, delineates, delineating)
+- Verb: delineate (derived forms: delineated, delineates, delineating)
 1. Show the form or outline of (= define)
 "The tree was clearly delineated by the light";
  
@@ -1053,7 +1053,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dLYUc5t6wag?t=',
+    videoId: 'dLYUc5t6wag',
     startSeconds: 742,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rxbTsZbKdaM?t=',
+    videoId: 'rxbTsZbKdaM',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2u5xTfP0K78?t=',
+    videoId: '2u5xTfP0K78',
     startSeconds: 877,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-5XKeaSjZq4?t=',
+    videoId: '-5XKeaSjZq4',
     startSeconds: 886,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-eqcnPq2xdE?t=',
+    videoId: '-eqcnPq2xdE',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iO5mfbpq16A?t=',
+    videoId: 'iO5mfbpq16A',
     startSeconds: 328,
     autoPlay: true,
     params: const YoutubePlayerParams(

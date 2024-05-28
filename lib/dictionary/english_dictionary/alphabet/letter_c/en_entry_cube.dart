@@ -520,7 +520,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cube (Derived forms: cubes)
+- Noun: cube (derived forms: cubes)
 1. A hexahedron with six equal squares as faces (= regular hexahedron)
  
 2. A three-dimensional shape with six square or rectangular sides (= block)
@@ -531,7 +531,7 @@ ${englishMeaningConst.text}
  
 5. A block in the (approximate) shape of a cube (= square block)
 
-- Verb: cube (Derived forms: cubing, cubes, cubed)
+- Verb: cube (derived forms: cubing, cubes, cubed)
 1. (arithmetic) raise to the third power
  
 2. Cut into cubes (= dice)
@@ -568,7 +568,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j1CzQVEJJiw?t=',
+    videoId: 'j1CzQVEJJiw',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fsv8aQBKYTU?t=',
+    videoId: 'fsv8aQBKYTU',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YPBd3pZ_ZgI?t=',
+    videoId: 'YPBd3pZ_ZgI',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 504,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v6yg4ImnYwA?t=',
+    videoId: 'v6yg4ImnYwA',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -693,7 +693,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X5oD_thIk3c?t=',
+    videoId: 'X5oD_thIk3c',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -718,7 +718,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7EnWiGYT1g4?t=',
+    videoId: '7EnWiGYT1g4',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(

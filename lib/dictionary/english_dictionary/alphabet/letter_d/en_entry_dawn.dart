@@ -598,7 +598,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dawn (Derived forms: dawns)
+- Noun: dawn (derived forms: dawns)
 1. The first light of day (= dawning, morning, aurora, first light, daybreak, break of day, break of the day, dayspring, sunrise, sunup, cockcrow)
 "we got up before dawn";
  
@@ -608,7 +608,7 @@ ${englishMeaningConst.text}
 3. An opening time period
 "it was the dawn of the Roman Empire"
 
-- Verb: dawn (Derived forms: dawned, dawns, dawning)
+- Verb: dawn (derived forms: dawned, dawns, dawning)
 1. Become clear or enter one's consciousness or emotions (= click, get through, come home, get across, sink in, penetrate, fall into place)
 "It dawned on him that she had betrayed him";
  
@@ -649,7 +649,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_spuxXnul0U?t=',
+    videoId: '_spuxXnul0U',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
+    videoId: 'VS6tnF31zr4',
     startSeconds: 955,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -699,7 +699,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cqidD7kVnxY?t=',
+    videoId: 'cqidD7kVnxY',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-K5OjAkiEA?t=',
+    videoId: 'J-K5OjAkiEA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/helhqdNlWhg?t=',
+    videoId: 'helhqdNlWhg',
     startSeconds: 624,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -774,7 +774,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IesIsKMjB4Y?t=',
+    videoId: 'IesIsKMjB4Y',
     startSeconds: 366,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -799,7 +799,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qQ01eLt_bxo?t=',
+    videoId: 'qQ01eLt_bxo',
     startSeconds: 1533,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1072,7 +1072,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dip (Derived forms: dipping, dipped, dips)
+- Verb: dip (derived forms: dipping, dipped, dips)
 1. Immerse briefly into a liquid so as to wet, coat, or saturate (= dunk, souse, plunge, douse)
 "dip the brush into the paint";
  
@@ -1112,7 +1112,7 @@ ${englishMeaningConst.text}
 14. Scoop up by plunging one's hand or a ladle below the surface
 "dip water out of a container"
 
-- Noun: dip (Derived forms: dips)
+- Noun: dip (derived forms: dips)
 1. A depression in an otherwise level surface
 "there was a dip in the road"
  
@@ -1164,7 +1164,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2GsK5feFt1U?t=',
+    videoId: '2GsK5feFt1U',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1189,7 +1189,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DesEUpFgGrQ?t=',
+    videoId: 'DesEUpFgGrQ',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1214,7 +1214,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gmr41ht2Sq4?t=',
+    videoId: 'gmr41ht2Sq4',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1239,7 +1239,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R8MAW6N1Jhk?t=',
+    videoId: 'R8MAW6N1Jhk',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1264,7 +1264,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7V71_7X-DAo?t=',
+    videoId: '7V71_7X-DAo',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1289,7 +1289,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1SO0uvexcew?t=',
+    videoId: '1SO0uvexcew',
     startSeconds: 580,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1314,7 +1314,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(

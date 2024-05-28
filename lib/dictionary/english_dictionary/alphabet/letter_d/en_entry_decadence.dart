@@ -332,7 +332,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: داچوون، داکەوتن، لێکەوتن، داڕزان، شپرزەبوون، داشکان، هاتنەخوارێ، پووکانەوە، تیاچوون، نەمان، لێکەوتن، نزمەوەبوون، پاش‌داچوون، لێژبوونەوە، داخزان، دابەزین
 """),
-          const DefinitionKurdish(text: "١. (ناو) هەڵسوکەوت، ڕەفتار، هتد کە ڕۆچوونی ستانداردی ئەخلاقی پیشان دەدەن لەگەڵ خۆشی نەک شتی گرنگ"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) هەڵسوکەوت، ڕەفتار، هتد کە ڕۆچوونی ستانداردی ئەخلاقی پیشان دەدەن لەگەڵ خۆشی نەک شتی گرنگ"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The artist's paintings captured the decadence of society in the early 20th century."),
-                    ExampleSentenceKurdish(text: "تابلۆی هونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تابلۆی هونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا."),
                   ],
                 ),
               ),
@@ -432,7 +436,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: decadence (Derived forms: decadences)
+- Noun: decadence (derived forms: decadences)
 1. The state of being degenerate in mental or moral qualities (= degeneracy, degeneration, decadency)
  
 2. Indulgence in sensual pleasures; excessive or immoral activities involving sex, alcohol, food, or drugs (= debauchery)
@@ -468,7 +472,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dCfVThaUrlw?t=',
+    videoId: 'dCfVThaUrlw',
     startSeconds: 1154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +497,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/44fjX-rgJ7s?t=',
+    videoId: '44fjX-rgJ7s',
     startSeconds: 318,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +522,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Og_XYDDyguc?t=',
+    videoId: 'Og_XYDDyguc',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +547,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9c_Tn4dnGIU?t=',
+    videoId: '9c_Tn4dnGIU',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +572,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WIW10E1xAOI?t=',
+    videoId: 'WIW10E1xAOI',
     startSeconds: 574,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +597,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JSg6eOmgvW8?t=',
+    videoId: 'JSg6eOmgvW8',
     startSeconds: 1520,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +622,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-_PU0cRZ9wg?t=',
+    videoId: '-_PU0cRZ9wg',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(

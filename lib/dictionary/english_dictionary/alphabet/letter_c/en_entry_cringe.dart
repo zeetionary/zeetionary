@@ -498,13 +498,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cringe (Derived forms: cringing, cringes, cringed)
+- Verb: cringe (derived forms: cringing, cringes, cringed)
 1. Draw back, as with fear or pain (= flinch, squinch [N. Amer], funk, shrink, wince, recoil, quail, blench)
 "she cringed when they showed the slaughtering of the calf";
  
 2. Show submission or fear (= fawn, crawl, cower, grovel)
 
-- Noun: cringe (Derived forms: cringes)
+- Noun: cringe (derived forms: cringes)
 1. Some event or object that causes embarrassment and shame
  
 2. A posture or gesture of shrinking or recoiling.
@@ -540,7 +540,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4KujK_19VDk?t=',
+    videoId: '4KujK_19VDk',
     startSeconds: 581,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CL5ZykiqpC4?t=',
+    videoId: 'CL5ZykiqpC4',
     startSeconds: 2332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4hAE7xl6O5Y?t=',
+    videoId: '4hAE7xl6O5Y',
     startSeconds: 3301,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ucSIizxML10?t=',
+    videoId: 'ucSIizxML10',
     startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BP0vZrB-uQk?t=',
+    videoId: 'BP0vZrB-uQk',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G1FLUuDKRYI?t=',
+    videoId: 'G1FLUuDKRYI',
     startSeconds: 761,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TODFXrJTDlc?t=',
+    videoId: 'TODFXrJTDlc',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(

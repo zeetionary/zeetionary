@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They wished to disengage themselves from these policies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They wished to disengage themselves from these policies."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisengages3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We saw the booster rockets disengage and fall into the sea."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We saw the booster rockets disengage and fall into the sea."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisengages4(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: ڕەها کردن، ڕزگار کردن
 // """),
-          const DefinitionKurdish(text: "١. (کردار) ئازادکردنی کەسێک/شتێک لەو کەسەی/شتەی کە گرتوویەتی"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) ئازادکردنی کەسێک/شتێک لەو کەسەی/شتەی کە گرتوویەتی"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "She gently disengaged herself from her sleeping son."),
-                    ExampleSentenceKurdish(text: "بە هێواشی خۆی کردەوە لە کوڕە نووستووەکەی."),
+                    ExampleSentenceKurdish(
+                        text: "بە هێواشی خۆی کردەوە لە کوڕە نووستووەکەی."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "They wished to disengage themselves from these policies."),
-                    ExampleSentenceKurdish(text: "(خوازراوی) بەهیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "They wished to disengage themselves from these policies."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "(خوازراوی) بەهیوابوون خۆیان لەم سیاسەتانە بێبەری بکەن."),
                   ],
                 ),
               ),
@@ -464,8 +473,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "We saw the booster rockets disengage and fall into the sea."),
-                    ExampleSentenceKurdish(text: "ڕۆکێتە خێراکەرەکانمان دەبینی کە لێدەبوونەوە و دەکەوتنە ناو دەریا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "We saw the booster rockets disengage and fall into the sea."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕۆکێتە خێراکەرەکانمان دەبینی کە لێدەبوونەوە و دەکەوتنە ناو دەریا."),
                   ],
                 ),
               ),
@@ -1024,7 +1037,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disengage (Derived forms: disengaged, disengages, disengaging)
+- Verb: disengage (derived forms: disengaged, disengages, disengaging)
 1. Release from something that holds fast, connects, or entangles (= withdraw)
 "disengage the gears"; "I want to disengage myself from his influence";
  
@@ -1065,7 +1078,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vojsscI61Sk?t=',
+    videoId: 'vojsscI61Sk',
     startSeconds: 946,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1103,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HAnw168huqA?t=',
+    videoId: 'HAnw168huqA',
     startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1128,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v9tM_YHvhuA?t=',
+    videoId: 'v9tM_YHvhuA',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1153,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9nF0K2nJ7N8?t=',
+    videoId: '9nF0K2nJ7N8',
     startSeconds: 1023,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1178,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cIYSPwAwQVI?t=',
+    videoId: 'cIYSPwAwQVI',
     startSeconds: 767,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1203,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A1uYhkMRLWg?t=',
+    videoId: 'A1uYhkMRLWg',
     startSeconds: 1090,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1215,7 +1228,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l9HfiYOmsPk?t=',
+    videoId: 'l9HfiYOmsPk',
     startSeconds: 1551,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cross-examination (Derived forms: cross-examinations)
+- Noun: cross-examination (derived forms: cross-examinations)
 1. (law) close questioning of a hostile witness in a court of law to discredit or throw a new light on the testimony already provided in direct examination
 "the witness remained collected throughout the cross-examination"
 """,
@@ -441,7 +441,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HAnw168huqA?t=',
+    videoId: 'HAnw168huqA',
     startSeconds: 3141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1GgD0CpMkyA?t=',
+    videoId: '1GgD0CpMkyA',
     startSeconds: 1903,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xu6ZRWp9rA4?t=',
+    videoId: 'xu6ZRWp9rA4',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FCZ06Sfr9Cg?t=',
+    videoId: 'FCZ06Sfr9Cg',
     startSeconds: 1064,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X1ncuW-bLsw?t=',
+    videoId: 'X1ncuW-bLsw',
     startSeconds: 3336,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/om6BMBhhoPo?t=',
+    videoId: 'om6BMBhhoPo',
     startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OCR1vsdLsxc?t=',
+    videoId: 'OCR1vsdLsxc',
     startSeconds: 1143,
     autoPlay: true,
     params: const YoutubePlayerParams(

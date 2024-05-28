@@ -992,7 +992,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: demography (Derived forms: demographies)
+- Noun: demography (derived forms: demographies)
 1. The branch of sociology that studies the characteristics of human populations (= human ecology)
 """,
   );
@@ -1026,7 +1026,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nEnklxGAmak?t=',
+    videoId: 'nEnklxGAmak',
     startSeconds: 2849,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1051,7 +1051,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1AOm17ZUVI?t=',
+    videoId: 'b1AOm17ZUVI',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1076,7 +1076,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z_72a0J25cI?t=',
+    videoId: 'Z_72a0J25cI',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1101,7 +1101,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r6tRp-zRUJs?t=',
+    videoId: 'r6tRp-zRUJs',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1126,7 +1126,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pzXJi9-1SUs?t=',
+    videoId: 'pzXJi9-1SUs',
     startSeconds: 695,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1151,7 +1151,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dhQe6tnU2jY?t=',
+    videoId: 'dhQe6tnU2jY',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1176,7 +1176,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pQorwSbpD5k?t=',
+    videoId: 'pQorwSbpD5k',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(

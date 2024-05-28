@@ -4336,740 +4336,740 @@ class _DictionaryScreenEnglishState
     "cynically",
     "cynicism",
     "cypher",
-    // "cypress",
-    // "cyst",
-    // "cystitis",
-    // "d",
-    // "d.",
-    // "dab",
-    // "dabble",
-    // "dachshund",
-    // "dad",
-    // "daddy",
-    // "daffodil",
-    // "daft",
-    // "dagger",
-    // "daily",
-    // "dainty",
-    // "daintily",
-    // "dairy",
-    // "daisy",
-    // "dale",
-    // "dam",
-    // "damage",
-    // "dame",
-    // "damn",
-    // "damnation",
-    // "damp",
-    // "dampness",
-    // "dampen",
-    // "damper",
-    // "damson",
-    // "dance",
-    // "dancer",
-    // "dancing",
-    // "dandelion",
-    // "dandruff",
-    // "danger",
-    // "dangerous",
-    // "dangerously",
-    // "dangle",
-    // "dank",
-    // "dare",
-    // "daredevil",
-    // "daring",
-    // "daringly",
-    // "dark",
-    // "darken",
-    // "darkly",
-    // "darkness",
-    // "darling",
-    // "darmstadtium",
-    // "darn",
-    // "dart",
-    // "dash",
-    // "dashing",
-    // "dashboard",
-    // "data",
-    // "database",
-    // "data processing",
-    // "date",
-    // "dated",
-    // "daub",
-    // "daughter",
-    // "daughter-in-law",
-    // "daunting",
-    // "dawdle",
-    // "dawn",
-    // "day",
-    // "daybreak",
-    // "daydream",
-    // "daylight",
-    // "daytime",
-    // "in a daze",
-    // "dazed",
-    // "dazzle",
-    // "DDT",
-    // "dead",
-    // "dead end",
-    // "deadline",
-    // "dead loss",
-    // "deaden",
-    // "deadlock",
-    // "deadly",
-    // "deaf",
-    // "deaf mute",
-    // "deafness",
-    // "deafen",
-    // "deal",
-    // "dealer",
-    // "dealing",
-    // "dean",
-    // "dear",
-    // "dearly",
-    // "dearth",
-    // "death",
-    // "deathly",
-    // "the death penalty",
-    // "death trap",
-    // "death warrant",
-    // "debacle",
-    // "debase",
-    // "debasement",
-    // "debate",
-    // "debatable",
-    // "debauched",
-    // "debauchery",
-    // "debilitating",
-    // "debit",
-    // "debit card",
-    // "debris",
-    // "debt",
-    // "debtor",
-    // "debut",
-    // "decade",
-    // "decadent",
-    // "decadence",
-    // "decaffeinated",
-    // "decant",
-    // "decanter",
-    // "decapitate",
-    // "decay",
-    // "deceased",
-    // "deceit",
-    // "deceitful",
-    // "deceitfully",
-    // "deceitfulness",
-    // "deceive",
-    // "deceiver",
-    // "December",
-    // "decency",
-    // "decent",
-    // "decently",
-    // "deception",
-    // "deceptive",
-    // "deceptively",
-    // "decibel",
-    // "decide",
-    // "decided",
-    // "decidedly",
-    // "deciduous",
-    // "decimal",
-    // "decimal point",
-    // "decimalize",
-    // "decimalization",
-    // "decimate",
-    // // "decimation,
-    // "decipher",
-    // "decision",
-    // "decisive",
-    // "decisively",
-    // "decisiveness",
-    // "deck",
-    // "deckchair",
-    // "decking",
-    // "declaration",
-    // "declare",
-    // "decline",
-    // "declutter",
-    // "decode",
-    // "decompose",
-    // "decomposition",
-    // "decor",
-    // "decorate",
-    // "decoration",
-    // "decorative",
-    // "decorator",
-    // "decoy",
-    // "decrease",
-    // "decree",
-    // "decrepit",
-    // "dedicate",
-    // "dedicated",
-    // "dedication",
-    // "deduce",
-    // "deduct",
-    // "deductible",
-    // "deduction",
-    // "deed",
-    // "deem",
-    // "deep",
-    // "deep freeze",
-    // "deep-rooted",
-    // "deep-seated",
-    // "deeply",
-    // "deep vein thrombosis",
-    // "deepen",
-    // "deer",
-    // "deface",
-    // "defame",
-    // "defamation",
-    // "default",
-    // "defaulter",
-    // "defeat",
-    // "defect",
-    // "defective",
-    // "defection",
-    // "defector",
-    // "defence",
-    // "defenceless",
-    // "defend",
-    // "defendant",
-    // "defender",
-    // "defensible",
-    // "defensive",
-    // "defensively",
-    // "defer",
-    // "deference",
-    // "defiance",
-    // "defiant",
-    // "defiantly",
-    // "defibrillator",
-    // "deficiency",
-    // "deficient",
-    // "deficit",
-    // "defile",
-    // "define",
-    // "definable",
-    // "definite",
-    // "definite article",
-    // "definitely",
-    // "definition",
-    // "definitive",
-    // "deflate",
-    // "deflation",
-    // "deflect",
-    // "deflection",
-    // "deform",
-    // "deformity",
-    // "defraud",
-    // "defrost",
-    // "deft",
-    // "deftly",
-    // "deftness",
-    // "defunct",
-    // "defuse",
-    // "defy",
-    // "degenerate",
-    // "degrade",
-    // "degradation",
-    // "degree",
-    // "dehydrate",
-    // "deice",
-    // "de-ice",
-    // "deign",
-    // "deity",
-    // "dejected",
-    // "dejection",
-    // "delay",
-    // "delectable",
-    // "delegate",
-    // "delegation",
-    // "delete",
-    // "deletion",
-    // "deliberate",
-    // "deliberately",
-    // "deliberation",
-    // "delicacy",
-    // "delicate",
-    // "delicately",
-    // "delicatessen",
-    // "delicious",
-    // "delight",
-    // "delighted",
-    // "delightful",
-    // "delightfully",
-    // "delineate",
-    // "delinquent",
-    // "delinquency",
-    // "delirious",
-    // "deliriously",
-    // "delirium",
-    // "deliver",
-    // "delivery",
-    // "delta",
-    // "delude",
-    // "deluge",
-    // "delusion",
-    // "deluxe",
-    // "delve",
-    // "Dem",
-    // "demand",
-    // "demanding",
-    // "demarcate",
-    // "demarcation",
-    // "demean",
-    // "demeanour",
-    // "demented",
-    // "demerara sugar",
-    // "demilitarize",
-    // "demise",
-    // "demist",
-    // "democracy",
-    // "democrat",
-    // "democratic",
-    // "democratically",
-    // "demographic",
-    // "demography",
-    // "demographer",
-    // "demolish",
-    // "demolition",
-    // "demon",
-    // "demonic",
-    // "demonise",
-    // "demonisation",
-    // "demonstrable",
-    // "demonstrably",
-    // "demonstrate",
-    // "demonstrator",
-    // "demonstration",
-    // "demonstrative",
-    // "demoralize",
-    // "demote",
-    // "demure",
-    // "demurely",
-    // "den",
-    // "denationalize",
-    // "denationalization",
-    // "denial",
-    // "denigrate",
-    // "denim",
-    // "denomination",
-    // "denominational",
-    // "denominator",
-    // "denote",
-    // "denounce",
-    // "dense",
-    // "densely",
-    // "density",
-    // "dent",
-    // "dental",
-    // "dentist",
-    // "dentistry",
-    // "denunciation",
-    // "deny",
-    // "deodorant",
-    // "depart",
-    // "department",
-    // "department store",
-    // "departure",
-    // "depend on",
-    // "depend upon",
-    // "dependable",
-    // "dependant",
-    // "dependence",
-    // "dependent",
-    // "depict",
-    // "depiction",
-    // "deplete",
-    // "depletion",
-    // "deplore",
-    // "deplorable",
-    // "deploy",
-    // "deport",
-    // "deportation",
-    // "depose",
-    // "deposit",
-    // "deposit account",
-    // "depot",
-    // "depraved",
-    // "depravity",
-    // "deprecate",
-    // "depreciation",
-    // "depreciate",
-    // "depress",
-    // "depressing",
-    // "depression",
-    // "deprive of",
-    // "deprivation",
-    // "deprived",
-    // "depth",
-    // "deputation",
-    // "deputize",
-    // "deputy",
-    // "derail",
-    // "derailment",
-    // "deranged",
-    // "derelict",
-    // "dereliction",
-    // "derision",
-    // "derisory",
-    // "derivation",
-    // "derivative",
-    // "derive from",
-    // "derogatory",
-    // "derrick",
-    // "descend",
-    // "descendant",
-    // "descent",
-    // "describe",
-    // "description",
-    // "descriptive",
-    // "desecrate",
-    // "desecration",
-    // "desert",
-    // "deserter",
-    // "desertion",
-    // "desert island",
-    // "deserve",
-    // "design",
-    // "designate",
-    // "designer",
-    // "desirable",
-    // "desirability",
-    // "desire",
-    // "desist",
-    // "desk",
-    // "desktop",
-    // "desktop computer",
-    // "desktop publishing",
-    // "desolate",
-    // "desolation",
-    // "despair",
-    // "despatch",
-    // "desperate",
-    // "desperately",
-    // "desperation",
-    // "despicable",
-    // "despise",
-    // "despite",
-    // "despondent",
-    // "despondency",
-    // "despondently",
-    // "despot",
-    // "despotic",
-    // "dessert",
-    // "dessertspoon",
-    // "destination",
-    // "destined",
-    // "destiny",
-    // "destitute",
-    // "destitution",
-    // "destroy",
-    // "destroyer",
-    // "destruction",
-    // "destructive",
-    // "detach",
-    // "detached",
-    // "detachment",
-    // "detail",
-    // "detain",
-    // "detainee",
-    // "detect",
-    // "detection",
-    // "detective",
-    // "detector",
-    // "detention",
-    // "deter",
-    // "detergent",
-    // "deteriorate",
-    // "deterioration",
-    // "determination",
-    // "determine",
-    // "determined",
-    // "deterrent",
-    // "detest",
-    // "detestable",
-    // "dethrone",
-    // "detonate",
-    // "detonation",
-    // "detonator",
-    // "detour",
-    // "detox",
-    // "detoxification",
-    // "detriment",
-    // "detrimental",
-    // "deuce",
-    // "devalue",
-    // "devaluation",
-    // "devastate",
-    // "devastation",
-    // "develop",
-    // "developer",
-    // "development",
-    // "deviate",
-    // "deviation",
-    // "device",
-    // "devil",
-    // "devil's advocate",
-    // "devious",
-    // "devise",
-    // "devoid",
-    // "devolution",
-    // "devote",
-    // "devoted",
-    // "devotee",
-    // "devotion",
-    // "devour",
-    // "devout",
-    // "dew",
-    // "dewdrop",
-    // "dewy",
-    // "dexterity",
-    // "dexterous",
-    // "diabetes",
-    // "diabetic",
-    // "diabolical",
-    // "diagnose",
-    // "diagnosis",
-    // "diagnostic",
-    // "diagonal",
-    // "diagonally",
-    // "diagram",
-    // "diagrammatic",
-    // "dial",
-    // "dialect",
-    // "dialling tone",
-    // "dialogue",
-    // "dialogue box",
-    // "diameter",
-    // "diametrically",
-    // "diamond",
-    // "diamond jubilee",
-    // "diaper",
-    // "diaphragm",
-    // "diarrhoea",
-    // "diary",
-    // "dice",
-    // "dictate",
-    // "dictation",
-    // "dictator",
-    // "dictatorial",
-    // "dictatorship",
-    // "diction",
-    // "dictionary",
-    // "did",
-    // "die",
-    // "diesel",
-    // "diet",
-    // "differ",
-    // "difference",
-    // "different",
-    // "differentiate",
-    // "difficult",
-    // "difficulty",
-    // "diffidence",
-    // "diffident",
-    // "diffuse",
-    // "diffusion",
-    // "dig",
-    // "digest",
-    // "digit",
-    // "digital",
-    // "digitalize",
-    // "digitize",
-    // "dignified",
-    // "dignitary",
-    // "dignity",
-    // "digress",
-    // "digression",
-    // "dike",
-    // "dilapidated",
-    // "dilate",
-    // "dilemma",
-    // "diligence",
-    // "diligent",
-    // "diligently",
-    // "dilute",
-    // "dilution",
-    // "dim",
-    // "dimly",
-    // "dimness",
-    // "dime",
-    // "dimension",
-    // "dimensional",
-    // "diminish",
-    // "diminutive",
-    // "dimple",
-    // "din",
-    // "dine",
-    // "dining car",
-    // "dining room",
-    // "dinghy",
-    // "dingy",
-    // "dinginess",
-    // "dinner",
-    // "dinner jacket",
-    // "dinosaur",
-    // "diocese",
-    // "dip",
-    // "diphtheria",
-    // "diphthong",
-    // "diploma",
-    // "diplomacy",
-    // "diplomat",
-    // "diplomatic",
-    // "diplomatically",
-    // "dire",
-    // "direct",
-    // "direct current",
-    // "direct debit",
-    // "directness",
-    // "direct object",
-    // "direct speech",
-    // "direction",
-    // "directive",
-    // "directly",
-    // "director",
-    // "directorship",
-    // "directory",
-    // "dirt",
-    // "dirt cheap",
-    // "dirty",
-    // "disability",
-    // "disable",
-    // "disabled",
-    // "disablement",
-    // "disabuse",
-    // "disadvantage",
-    // "disadvantaged",
-    // "disadvantageous",
-    // "disagree",
-    // "disagreeable",
-    // "disagreeably",
-    // "disagreement",
-    // "disappear",
-    // "disappearance",
-    // "disappoint",
-    // "disappointed",
-    // "disappointing",
-    // "disappointingly",
-    // "disappointment",
-    // "disapprove",
-    // "disapproval",
-    // "disarm",
-    // "disarmament",
-    // "disarray",
-    // "disassociate",
-    // "disaster",
-    // "disastrous",
-    // "disastrously",
-    // "disband",
-    // "disbelieve",
-    // "disbelief",
-    // "disc",
-    // "disc jockey",
-    // "discard",
-    // "discern",
-    // "discernible",
-    // "discerning",
-    // "discernment",
-    // "disciple",
-    // "discipline",
-    // "disclaim",
-    // "disclose",
-    // "disclosure",
-    // "disco",
-    // "discolour",
-    // "discoloration",
-    // "discomfort",
-    // "disconcert",
-    // "disconnect",
-    // "disconnected",
-    // "disconsolate",
-    // "disconsolately",
-    // "discontent",
-    // "discontented",
-    // "discontentment",
-    // "discontinue",
-    // "discord",
-    // "discordant",
-    // "discotheque",
-    // "discount",
-    // "discourage",
-    // "discouragement",
-    // "discourse",
-    // "discourteous",
-    // "discourteously",
-    // "discourtesy",
-    // "discover",
-    // "discoverer",
-    // "discovery",
-    // "discredit",
-    // "discreet",
-    // "discreetly",
-    // "discrepancy",
-    // "discretion",
-    // "discriminate",
-    // "discriminating",
-    // "discrimination",
-    // "discus",
-    // "discuss",
-    // "discussion",
-    // "disdain",
-    // "disdainful",
-    // "disease",
-    // "diseased",
-    // "disembark",
-    // "disembarkation",
-    // "disenchanted",
-    // "disengage",
-    // "disentangle",
-    // "disfigure",
-    // "disfigurement",
-    // "disgorge",
-    // "disgrace",
-    // "disgraceful",
-    // "disgruntled",
-    // "disguise",
-    // "disgust",
-    // "disgusted",
-    // "disgusting",
-    // "dish",
-    // "dishcloth",
-    // "dishwasher",
-    // "dishearten",
-    // "dishevelled",
-    // "dishonest",
-    // "dishonestly",
-    // "dishonesty",
-    // "dishonour",
-    // "dishonourable",
-    // "disillusion",
-    // "disillusioned",
-    // "disillusionment",
-    // "disinclined",
-    // "disinfect",
-    // "disinfectant",
-    // "disinformation",
-    // "disinherit",
-    // "disintegrate",
-    // "disintegration",
-    // "disinterested",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "cypress",
+    "cyst",
+    "cystitis",
+    "d",
+    "d.",
+    "dab",
+    "dabble",
+    "dachshund",
+    "dad",
+    "daddy",
+    "daffodil",
+    "daft",
+    "dagger",
+    "daily",
+    "dainty",
+    "daintily",
+    "dairy",
+    "daisy",
+    "dale",
+    "dam",
+    "damage",
+    "dame",
+    "damn",
+    "damnation",
+    "damp",
+    "dampness",
+    "dampen",
+    "damper",
+    "damson",
+    "dance",
+    "dancer",
+    "dancing",
+    "dandelion",
+    "dandruff",
+    "danger",
+    "dangerous",
+    "dangerously",
+    "dangle",
+    "dank",
+    "dare",
+    "daredevil",
+    "daring",
+    "daringly",
+    "dark",
+    "darken",
+    "darkly",
+    "darkness",
+    "darling",
+    "darmstadtium",
+    "darn",
+    "dart",
+    "dash",
+    "dashing",
+    "dashboard",
+    "data",
+    "database",
+    "data processing",
+    "date",
+    "dated",
+    "daub",
+    "daughter",
+    "daughter-in-law",
+    "daunting",
+    "dawdle",
+    "dawn",
+    "day",
+    "daybreak",
+    "daydream",
+    "daylight",
+    "daytime",
+    "in a daze",
+    "dazed",
+    "dazzle",
+    "DDT",
+    "dead",
+    "dead end",
+    "deadline",
+    "dead loss",
+    "deaden",
+    "deadlock",
+    "deadly",
+    "deaf",
+    "deaf mute",
+    "deafness",
+    "deafen",
+    "deal",
+    "dealer",
+    "dealing",
+    "dean",
+    "dear",
+    "dearly",
+    "dearth",
+    "death",
+    "deathly",
+    "the death penalty",
+    "death trap",
+    "death warrant",
+    "debacle",
+    "debase",
+    "debasement",
+    "debate",
+    "debatable",
+    "debauched",
+    "debauchery",
+    "debilitating",
+    "debit",
+    "debit card",
+    "debris",
+    "debt",
+    "debtor",
+    "debut",
+    "decade",
+    "decadent",
+    "decadence",
+    "decaffeinated",
+    "decant",
+    "decanter",
+    "decapitate",
+    "decay",
+    "deceased",
+    "deceit",
+    "deceitful",
+    "deceitfully",
+    "deceitfulness",
+    "deceive",
+    "deceiver",
+    "December",
+    "decency",
+    "decent",
+    "decently",
+    "deception",
+    "deceptive",
+    "deceptively",
+    "decibel",
+    "decide",
+    "decided",
+    "decidedly",
+    "deciduous",
+    "decimal",
+    "decimal point",
+    "decimalize",
+    "decimalization",
+    "decimate",
+    // "decimation,
+    "decipher",
+    "decision",
+    "decisive",
+    "decisively",
+    "decisiveness",
+    "deck",
+    "deckchair",
+    "decking",
+    "declaration",
+    "declare",
+    "decline",
+    "declutter",
+    "decode",
+    "decompose",
+    "decomposition",
+    "decor",
+    "decorate",
+    "decoration",
+    "decorative",
+    "decorator",
+    "decoy",
+    "decrease",
+    "decree",
+    "decrepit",
+    "dedicate",
+    "dedicated",
+    "dedication",
+    "deduce",
+    "deduct",
+    "deductible",
+    "deduction",
+    "deed",
+    "deem",
+    "deep",
+    "deep freeze",
+    "deep-rooted",
+    "deep-seated",
+    "deeply",
+    "deep vein thrombosis",
+    "deepen",
+    "deer",
+    "deface",
+    "defame",
+    "defamation",
+    "default",
+    "defaulter",
+    "defeat",
+    "defect",
+    "defective",
+    "defection",
+    "defector",
+    "defence",
+    "defenceless",
+    "defend",
+    "defendant",
+    "defender",
+    "defensible",
+    "defensive",
+    "defensively",
+    "defer",
+    "deference",
+    "defiance",
+    "defiant",
+    "defiantly",
+    "defibrillator",
+    "deficiency",
+    "deficient",
+    "deficit",
+    "defile",
+    "define",
+    "definable",
+    "definite",
+    "definite article",
+    "definitely",
+    "definition",
+    "definitive",
+    "deflate",
+    "deflation",
+    "deflect",
+    "deflection",
+    "deform",
+    "deformity",
+    "defraud",
+    "defrost",
+    "deft",
+    "deftly",
+    "deftness",
+    "defunct",
+    "defuse",
+    "defy",
+    "degenerate",
+    "degrade",
+    "degradation",
+    "degree",
+    "dehydrate",
+    "deice",
+    "de-ice",
+    "deign",
+    "deity",
+    "dejected",
+    "dejection",
+    "delay",
+    "delectable",
+    "delegate",
+    "delegation",
+    "delete",
+    "deletion",
+    "deliberate",
+    "deliberately",
+    "deliberation",
+    "delicacy",
+    "delicate",
+    "delicately",
+    "delicatessen",
+    "delicious",
+    "delight",
+    "delighted",
+    "delightful",
+    "delightfully",
+    "delineate",
+    "delinquent",
+    "delinquency",
+    "delirious",
+    "deliriously",
+    "delirium",
+    "deliver",
+    "delivery",
+    "delta",
+    "delude",
+    "deluge",
+    "delusion",
+    "deluxe",
+    "delve",
+    "Dem",
+    "demand",
+    "demanding",
+    "demarcate",
+    "demarcation",
+    "demean",
+    "demeanour",
+    "demented",
+    "demerara sugar",
+    "demilitarize",
+    "demise",
+    "demist",
+    "democracy",
+    "democrat",
+    "democratic",
+    "democratically",
+    "demographic",
+    "demography",
+    "demographer",
+    "demolish",
+    "demolition",
+    "demon",
+    "demonic",
+    "demonise",
+    "demonisation",
+    "demonstrable",
+    "demonstrably",
+    "demonstrate",
+    "demonstrator",
+    "demonstration",
+    "demonstrative",
+    "demoralize",
+    "demote",
+    "demure",
+    "demurely",
+    "den",
+    "denationalize",
+    "denationalization",
+    "denial",
+    "denigrate",
+    "denim",
+    "denomination",
+    "denominational",
+    "denominator",
+    "denote",
+    "denounce",
+    "dense",
+    "densely",
+    "density",
+    "dent",
+    "dental",
+    "dentist",
+    "dentistry",
+    "denunciation",
+    "deny",
+    "deodorant",
+    "depart",
+    "department",
+    "department store",
+    "departure",
+    "depend on",
+    "depend upon",
+    "dependable",
+    "dependant",
+    "dependence",
+    "dependent",
+    "depict",
+    "depiction",
+    "deplete",
+    "depletion",
+    "deplore",
+    "deplorable",
+    "deploy",
+    "deport",
+    "deportation",
+    "depose",
+    "deposit",
+    "deposit account",
+    "depot",
+    "depraved",
+    "depravity",
+    "deprecate",
+    "depreciation",
+    "depreciate",
+    "depress",
+    "depressing",
+    "depression",
+    "deprive of",
+    "deprivation",
+    "deprived",
+    "depth",
+    "deputation",
+    "deputize",
+    "deputy",
+    "derail",
+    "derailment",
+    "deranged",
+    "derelict",
+    "dereliction",
+    "derision",
+    "derisory",
+    "derivation",
+    "derivative",
+    "derive from",
+    "derogatory",
+    "derrick",
+    "descend",
+    "descendant",
+    "descent",
+    "describe",
+    "description",
+    "descriptive",
+    "desecrate",
+    "desecration",
+    "desert",
+    "deserter",
+    "desertion",
+    "desert island",
+    "deserve",
+    "design",
+    "designate",
+    "designer",
+    "desirable",
+    "desirability",
+    "desire",
+    "desist",
+    "desk",
+    "desktop",
+    "desktop computer",
+    "desktop publishing",
+    "desolate",
+    "desolation",
+    "despair",
+    "despatch",
+    "desperate",
+    "desperately",
+    "desperation",
+    "despicable",
+    "despise",
+    "despite",
+    "despondent",
+    "despondency",
+    "despondently",
+    "despot",
+    "despotic",
+    "dessert",
+    "dessertspoon",
+    "destination",
+    "destined",
+    "destiny",
+    "destitute",
+    "destitution",
+    "destroy",
+    "destroyer",
+    "destruction",
+    "destructive",
+    "detach",
+    "detached",
+    "detachment",
+    "detail",
+    "detain",
+    "detainee",
+    "detect",
+    "detection",
+    "detective",
+    "detector",
+    "detention",
+    "deter",
+    "detergent",
+    "deteriorate",
+    "deterioration",
+    "determination",
+    "determine",
+    "determined",
+    "deterrent",
+    "detest",
+    "detestable",
+    "dethrone",
+    "detonate",
+    "detonation",
+    "detonator",
+    "detour",
+    "detox",
+    "detoxification",
+    "detriment",
+    "detrimental",
+    "deuce",
+    "devalue",
+    "devaluation",
+    "devastate",
+    "devastation",
+    "develop",
+    "developer",
+    "development",
+    "deviate",
+    "deviation",
+    "device",
+    "devil",
+    "devil's advocate",
+    "devious",
+    "devise",
+    "devoid",
+    "devolution",
+    "devote",
+    "devoted",
+    "devotee",
+    "devotion",
+    "devour",
+    "devout",
+    "dew",
+    "dewdrop",
+    "dewy",
+    "dexterity",
+    "dexterous",
+    "diabetes",
+    "diabetic",
+    "diabolical",
+    "diagnose",
+    "diagnosis",
+    "diagnostic",
+    "diagonal",
+    "diagonally",
+    "diagram",
+    "diagrammatic",
+    "dial",
+    "dialect",
+    "dialling tone",
+    "dialogue",
+    "dialogue box",
+    "diameter",
+    "diametrically",
+    "diamond",
+    "diamond jubilee",
+    "diaper",
+    "diaphragm",
+    "diarrhoea",
+    "diary",
+    "dice",
+    "dictate",
+    "dictation",
+    "dictator",
+    "dictatorial",
+    "dictatorship",
+    "diction",
+    "dictionary",
+    "did",
+    "die",
+    "diesel",
+    "diet",
+    "differ",
+    "difference",
+    "different",
+    "differentiate",
+    "difficult",
+    "difficulty",
+    "diffidence",
+    "diffident",
+    "diffuse",
+    "diffusion",
+    "dig",
+    "digest",
+    "digit",
+    "digital",
+    "digitalize",
+    "digitize",
+    "dignified",
+    "dignitary",
+    "dignity",
+    "digress",
+    "digression",
+    "dike",
+    "dilapidated",
+    "dilate",
+    "dilemma",
+    "diligence",
+    "diligent",
+    "diligently",
+    "dilute",
+    "dilution",
+    "dim",
+    "dimly",
+    "dimness",
+    "dime",
+    "dimension",
+    "dimensional",
+    "diminish",
+    "diminutive",
+    "dimple",
+    "din",
+    "dine",
+    "dining car",
+    "dining room",
+    "dinghy",
+    "dingy",
+    "dinginess",
+    "dinner",
+    "dinner jacket",
+    "dinosaur",
+    "diocese",
+    "dip",
+    "diphtheria",
+    "diphthong",
+    "diploma",
+    "diplomacy",
+    "diplomat",
+    "diplomatic",
+    "diplomatically",
+    "dire",
+    "direct",
+    "direct current",
+    "direct debit",
+    "directness",
+    "direct object",
+    "direct speech",
+    "direction",
+    "directive",
+    "directly",
+    "director",
+    "directorship",
+    "directory",
+    "dirt",
+    "dirt cheap",
+    "dirty",
+    "disability",
+    "disable",
+    "disabled",
+    "disablement",
+    "disabuse",
+    "disadvantage",
+    "disadvantaged",
+    "disadvantageous",
+    "disagree",
+    "disagreeable",
+    "disagreeably",
+    "disagreement",
+    "disappear",
+    "disappearance",
+    "disappoint",
+    "disappointed",
+    "disappointing",
+    "disappointingly",
+    "disappointment",
+    "disapprove",
+    "disapproval",
+    "disarm",
+    "disarmament",
+    "disarray",
+    "disassociate",
+    "disaster",
+    "disastrous",
+    "disastrously",
+    "disband",
+    "disbelieve",
+    "disbelief",
+    "disc",
+    "disc jockey",
+    "discard",
+    "discern",
+    "discernible",
+    "discerning",
+    "discernment",
+    "disciple",
+    "discipline",
+    "disclaim",
+    "disclose",
+    "disclosure",
+    "disco",
+    "discolour",
+    "discoloration",
+    "discomfort",
+    "disconcert",
+    "disconnect",
+    "disconnected",
+    "disconsolate",
+    "disconsolately",
+    "discontent",
+    "discontented",
+    "discontentment",
+    "discontinue",
+    "discord",
+    "discordant",
+    "discotheque",
+    "discount",
+    "discourage",
+    "discouragement",
+    "discourse",
+    "discourteous",
+    "discourteously",
+    "discourtesy",
+    "discover",
+    "discoverer",
+    "discovery",
+    "discredit",
+    "discreet",
+    "discreetly",
+    "discrepancy",
+    "discretion",
+    "discriminate",
+    "discriminating",
+    "discrimination",
+    "discus",
+    "discuss",
+    "discussion",
+    "disdain",
+    "disdainful",
+    "disease",
+    "diseased",
+    "disembark",
+    "disembarkation",
+    "disenchanted",
+    "disengage",
+    "disentangle",
+    "disfigure",
+    "disfigurement",
+    "disgorge",
+    "disgrace",
+    "disgraceful",
+    "disgruntled",
+    "disguise",
+    "disgust",
+    "disgusted",
+    "disgusting",
+    "dish",
+    "dishcloth",
+    "dishwasher",
+    "dishearten",
+    "dishevelled",
+    "dishonest",
+    "dishonestly",
+    "dishonesty",
+    "dishonour",
+    "dishonourable",
+    "disillusion",
+    "disillusioned",
+    "disillusionment",
+    "disinclined",
+    "disinfect",
+    "disinfectant",
+    "disinformation",
+    "disinherit",
+    "disintegrate",
+    "disintegration",
+    "disinterested",
+    "disk",
+    "disk drive",
+    "diskette",
+    "dislike",
+    "dislocate",
+    "dislocation",
+    "dislodge",
+    "disloyal",
+    "disloyally",
+    "disloyalty",
+    "dismal",
+    "dismally",
+    "dismantle",
+    // "dismay",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -22284,3877 +22284,3877 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-pancake");
                   }
-                  // if (wordsEnglish == "crescendo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crescendo");
-                  // }
-                  // if (wordsEnglish == "cress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cress");
-                  // }
-                  // if (wordsEnglish == "crest") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crest");
-                  // }
-                  // if (wordsEnglish == "crestfallen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crestfallen");
-                  // }
-                  // if (wordsEnglish == "Creutzfeldt-Jakob disease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-creutzfeldt-jakob-disease");
-                  // }
-                  // if (wordsEnglish == "crevasse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crevasse");
-                  // }
-                  // if (wordsEnglish == "crevice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crevice");
-                  // }
-                  // if (wordsEnglish == "crew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crew");
-                  // }
-                  // if (wordsEnglish == "crib") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crib");
-                  // }
-                  // if (wordsEnglish == "crick") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crick");
-                  // }
-                  // if (wordsEnglish == "cricket") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cricket");
-                  // }
-                  // if (wordsEnglish == "cricketer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cricketer");
-                  // }
-                  // if (wordsEnglish == "crime") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crime");
-                  // }
-                  // if (wordsEnglish == "criminal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criminal");
-                  // }
-                  // if (wordsEnglish == "criminally") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criminally");
-                  // }
-                  // if (wordsEnglish == "crimson") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crimson");
-                  // }
-                  // if (wordsEnglish == "cringe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cringe");
-                  // }
-                  // if (wordsEnglish == "crinkle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crinkle");
-                  // }
-                  // if (wordsEnglish == "cripple") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cripple");
-                  // }
-                  // if (wordsEnglish == "crisis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crisis");
-                  // }
-                  // if (wordsEnglish == "crisp") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crisp");
-                  // }
-                  // if (wordsEnglish == "crisply") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crisply");
-                  // }
-                  // if (wordsEnglish == "crispness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crispness");
-                  // }
-                  // if (wordsEnglish == "crispy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crisp");
-                  // }
-                  // if (wordsEnglish == "criss-cross") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criss-cross");
-                  // }
-                  // if (wordsEnglish == "criterion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criterion");
-                  // }
-                  // if (wordsEnglish == "critic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-critic");
-                  // }
-                  // if (wordsEnglish == "critical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-critical");
-                  // }
-                  // if (wordsEnglish == "critically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-critically");
-                  // }
-                  // if (wordsEnglish == "criticism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criticism");
-                  // }
-                  // if (wordsEnglish == "criticize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-criticize");
-                  // }
-                  // if (wordsEnglish == "critique") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-critique");
-                  // }
-                  // if (wordsEnglish == "croak") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-croak");
-                  // }
-                  // if (wordsEnglish == "crockery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crockery");
-                  // }
-                  // if (wordsEnglish == "crocodile") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crocodile");
-                  // }
-                  // if (wordsEnglish == "crocus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crocus");
-                  // }
-                  // if (wordsEnglish == "croissant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-croissant");
-                  // }
-                  // if (wordsEnglish == "crony") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crony");
-                  // }
-                  // if (wordsEnglish == "crook") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crook");
-                  // }
-                  // if (wordsEnglish == "crooked") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crooked");
-                  // }
-                  // if (wordsEnglish == "crookedly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crookedly");
-                  // }
-                  // if (wordsEnglish == "crop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crop");
-                  // }
-                  // if (wordsEnglish == "croquet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-croquet");
-                  // }
-                  // if (wordsEnglish == "cross") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross");
-                  // }
-                  // if (wordsEnglish == "crossly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossly");
-                  // }
-                  // if (wordsEnglish == "crossness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossness");
-                  // }
-                  // if (wordsEnglish == "crossbow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossbow");
-                  // }
-                  // if (wordsEnglish == "cross-breed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-breed");
-                  // }
-                  // if (wordsEnglish == "cross-check") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-check");
-                  // }
-                  // if (wordsEnglish == "cross-country") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-country");
-                  // }
-                  // if (wordsEnglish == "cross-examine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-examine");
-                  // }
-                  // if (wordsEnglish == "cross-examination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-examination");
-                  // }
-                  // if (wordsEnglish == "cross-eyed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-eyed");
-                  // }
-                  // if (wordsEnglish == "crossfire") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossfire");
-                  // }
-                  // if (wordsEnglish == "crossing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossing");
-                  // }
-                  // if (wordsEnglish == "cross-legged") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-legged");
-                  // }
-                  // if (wordsEnglish == "crosspiece") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crosspiece");
-                  // }
-                  // if (wordsEnglish == "cross-reference") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-reference");
-                  // }
-                  // if (wordsEnglish == "crossroads") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossroads");
-                  // }
-                  // if (wordsEnglish == "cross section") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cross-section");
-                  // }
-                  // if (wordsEnglish == "crosswind") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crosswind");
-                  // }
-                  // if (wordsEnglish == "crossword") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crossword");
-                  // }
-                  // if (wordsEnglish == "crotch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crotch");
-                  // }
-                  // if (wordsEnglish == "crouch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crouch");
-                  // }
-                  // if (wordsEnglish == "croupier") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-croupier");
-                  // }
-                  // if (wordsEnglish == "crow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crow");
-                  // }
-                  // if (wordsEnglish == "crow's feet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crows-feet");
-                  // }
-                  // if (wordsEnglish == "crow's nest") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crows-nest");
-                  // }
-                  // if (wordsEnglish == "crowbar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crowbar");
-                  // }
-                  // if (wordsEnglish == "crowd") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crowd");
-                  // }
-                  // if (wordsEnglish == "crowded") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crowded");
-                  // }
-                  // if (wordsEnglish == "crown") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crown");
-                  // }
-                  // if (wordsEnglish == "crowning") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crowning");
-                  // }
-                  // if (wordsEnglish == "crucial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crucial");
-                  // }
-                  // if (wordsEnglish == "crucially") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crucially");
-                  // }
-                  // if (wordsEnglish == "crucifix") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crucifix");
-                  // }
-                  // if (wordsEnglish == "crucifixion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crucifixion");
-                  // }
-                  // if (wordsEnglish == "crucify") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crucify");
-                  // }
-                  // if (wordsEnglish == "crude") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crude");
-                  // }
-                  // if (wordsEnglish == "crudely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crudely");
-                  // }
-                  // if (wordsEnglish == "cruel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruel");
-                  // }
-                  // if (wordsEnglish == "cruelly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruelly");
-                  // }
-                  // if (wordsEnglish == "cruelty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruelty");
-                  // }
-                  // if (wordsEnglish == "cruet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruet");
-                  // }
-                  // if (wordsEnglish == "cruise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruise");
-                  // }
-                  // if (wordsEnglish == "cruise missile") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cruise-missile");
-                  // }
-                  // if (wordsEnglish == "crumb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crumb");
-                  // }
-                  // if (wordsEnglish == "crumble") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crumble");
-                  // }
-                  // if (wordsEnglish == "crumbly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crumbly");
-                  // }
-                  // if (wordsEnglish == "crumple") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crumple");
-                  // }
-                  // if (wordsEnglish == "crunch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crunch");
-                  // }
-                  // if (wordsEnglish == "crusade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crusade");
-                  // }
-                  // if (wordsEnglish == "crusader") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crusader");
-                  // }
-                  // if (wordsEnglish == "crush") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crush");
-                  // }
-                  // if (wordsEnglish == "crust") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crust");
-                  // }
-                  // if (wordsEnglish == "crusty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crusty");
-                  // }
-                  // if (wordsEnglish == "crustacean") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crustacean");
-                  // }
-                  // if (wordsEnglish == "crutch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crutch");
-                  // }
-                  // if (wordsEnglish == "crux") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crux");
-                  // }
-                  // if (wordsEnglish == "cry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cry");
-                  // }
-                  // if (wordsEnglish == "crybaby") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crybaby");
-                  // }
-                  // if (wordsEnglish == "crypt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crypt");
-                  // }
-                  // if (wordsEnglish == "cryptic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cryptic");
-                  // }
-                  // if (wordsEnglish == "crystal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crystal");
-                  // }
-                  // if (wordsEnglish == "crystalline") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crystalline");
-                  // }
-                  // if (wordsEnglish == "crystallize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-crystallize");
-                  // }
-                  // if (wordsEnglish == "cub") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cub");
-                  // }
-                  // if (wordsEnglish == "cubbyhole") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cubbyhole");
-                  // }
-                  // if (wordsEnglish == "cube") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cube");
-                  // }
-                  // if (wordsEnglish == "cubic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cubic");
-                  // }
-                  // if (wordsEnglish == "cubicle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cubicle");
-                  // }
-                  // if (wordsEnglish == "cuckoo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuckoo");
-                  // }
-                  // if (wordsEnglish == "cucumber") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cucumber");
-                  // }
-                  // if (wordsEnglish == "cud") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cud");
-                  // }
-                  // if (wordsEnglish == "cuddle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuddle");
-                  // }
-                  // if (wordsEnglish == "cuddly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuddly");
-                  // }
-                  // if (wordsEnglish == "cudgel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cudgel");
-                  // }
-                  // if (wordsEnglish == "cue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cue");
-                  // }
-                  // if (wordsEnglish == "cuff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuff");
-                  // }
-                  // if (wordsEnglish == "handcuff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-handcuff");
-                  // }
-                  // if (wordsEnglish == "handcuffs") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-handcuffs");
-                  // }
-                  // if (wordsEnglish == "cufflink") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cufflink");
-                  // }
-                  // if (wordsEnglish == "cuisine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuisine");
-                  // }
-                  // if (wordsEnglish == "cul-de-sac") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cul-de-sac");
-                  // }
-                  // if (wordsEnglish == "culinary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culinary");
-                  // }
-                  // if (wordsEnglish == "culminate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culminate");
-                  // }
-                  // if (wordsEnglish == "culmination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culmination");
-                  // }
-                  // if (wordsEnglish == "culpable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culpable");
-                  // }
-                  // if (wordsEnglish == "culpability") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culpability");
-                  // }
-                  // if (wordsEnglish == "culpably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culpably");
-                  // }
-                  // if (wordsEnglish == "culprit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culprit");
-                  // }
-                  // if (wordsEnglish == "cult") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cult");
-                  // }
-                  // if (wordsEnglish == "cultivate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cultivate");
-                  // }
-                  // if (wordsEnglish == "cultivated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cultivated");
-                  // }
-                  // if (wordsEnglish == "cultivation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cultivation");
-                  // }
-                  // if (wordsEnglish == "culture") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culture");
-                  // }
-                  // if (wordsEnglish == "cultural") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cultural");
-                  // }
-                  // if (wordsEnglish == "cultured") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cultured");
-                  // }
-                  // if (wordsEnglish == "culture shock") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-culture-shock");
-                  // }
-                  // if (wordsEnglish == "cumbersome") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cumbersome");
-                  // }
-                  // if (wordsEnglish == "cumulative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cumulative");
-                  // }
-                  // if (wordsEnglish == "cunning") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cunning");
-                  // }
-                  // if (wordsEnglish == "cunningly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cunningly");
-                  // }
-                  // if (wordsEnglish == "cunt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cunt");
-                  // }
-                  // if (wordsEnglish == "cup") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cup");
-                  // }
-                  // if (wordsEnglish == "cupful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cupful");
-                  // }
-                  // if (wordsEnglish == "cupboard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cupboard");
-                  // }
-                  // if (wordsEnglish == "curable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curable");
-                  // }
-                  // if (wordsEnglish == "curate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curate");
-                  // }
-                  // if (wordsEnglish == "curator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curator");
-                  // }
-                  // if (wordsEnglish == "curative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curative");
-                  // }
-                  // if (wordsEnglish == "curb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curb");
-                  // }
-                  // if (wordsEnglish == "curd") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curd");
-                  // }
-                  // if (wordsEnglish == "curdle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curdle");
-                  // }
-                  // if (wordsEnglish == "cure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cure");
-                  // }
-                  // if (wordsEnglish == "curfew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curfew");
-                  // }
-                  // if (wordsEnglish == "curio") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curio");
-                  // }
-                  // if (wordsEnglish == "curiosity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curiosity");
-                  // }
-                  // if (wordsEnglish == "curious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curious");
-                  // }
-                  // if (wordsEnglish == "curiously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curiously");
-                  // }
-                  // if (wordsEnglish == "curl") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curl");
-                  // }
-                  // if (wordsEnglish == "curly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curly");
-                  // }
-                  // if (wordsEnglish == "currant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-currant");
-                  // }
-                  // if (wordsEnglish == "currency") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-currency");
-                  // }
-                  // if (wordsEnglish == "current") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-current");
-                  // }
-                  // if (wordsEnglish == "current account") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-current-account");
-                  // }
-                  // if (wordsEnglish == "currently") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-currently");
-                  // }
-                  // if (wordsEnglish == "curriculum") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curriculum");
-                  // }
-                  // if (wordsEnglish == "curriculum vitae") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curriculum-vitae");
-                  // }
-                  // if (wordsEnglish == "CV") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curriculum-vitae");
-                  // }
-                  // if (wordsEnglish == "curry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curry");
-                  // }
-                  // if (wordsEnglish == "curried") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curried");
-                  // }
-                  // if (wordsEnglish == "curse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curse");
-                  // }
-                  // if (wordsEnglish == "cursed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cursed");
-                  // }
-                  // if (wordsEnglish == "cursor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cursor");
-                  // }
-                  // if (wordsEnglish == "cursory") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cursory");
-                  // }
-                  // if (wordsEnglish == "cursorily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cursorily");
-                  // }
-                  // if (wordsEnglish == "curt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curt");
-                  // }
-                  // if (wordsEnglish == "curtly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtly");
-                  // }
-                  // if (wordsEnglish == "curtness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtness");
-                  // }
-                  // if (wordsEnglish == "curtail") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtail");
-                  // }
-                  // if (wordsEnglish == "curtailment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtailment");
-                  // }
-                  // if (wordsEnglish == "curtain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtain");
-                  // }
-                  // if (wordsEnglish == "net curtain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-net-curtain");
-                  // }
-                  // if (wordsEnglish == "curtsy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curtsy");
-                  // }
-                  // if (wordsEnglish == "curve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-curve");
-                  // }
-                  // if (wordsEnglish == "cushion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cushion");
-                  // }
-                  // if (wordsEnglish == "cushy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cushy");
-                  // }
-                  // if (wordsEnglish == "custard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custard");
-                  // }
-                  // if (wordsEnglish == "custodian") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custodian");
-                  // }
-                  // if (wordsEnglish == "custody") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custody");
-                  // }
-                  // if (wordsEnglish == "custom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custom");
-                  // }
-                  // if (wordsEnglish == "customary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-customary");
-                  // }
-                  // if (wordsEnglish == "custom-built") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custom-built");
-                  // }
-                  // if (wordsEnglish == "custom-made") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-custom-built");
-                  // }
-                  // if (wordsEnglish == "customer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-customer");
-                  // }
-                  // if (wordsEnglish == "customs") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-customs");
-                  // }
-                  // if (wordsEnglish == "cut") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cut");
-                  // }
-                  // if (wordsEnglish == "cutback") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutback");
-                  // }
-                  // if (wordsEnglish == "cut-out") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cut-out");
-                  // }
-                  // if (wordsEnglish == "cut-price") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cut-price");
-                  // }
-                  // if (wordsEnglish == "cute") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cute");
-                  // }
-                  // if (wordsEnglish == "cutely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutely");
-                  // }
-                  // if (wordsEnglish == "cuteness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuteness");
-                  // }
-                  // if (wordsEnglish == "cuticle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cuticle");
-                  // }
-                  // if (wordsEnglish == "cutlery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutlery");
-                  // }
-                  // if (wordsEnglish == "cutlet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutlet");
-                  // }
-                  // if (wordsEnglish == "cutter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutter");
-                  // }
-                  // if (wordsEnglish == "cut-throat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cut-throat");
-                  // }
-                  // if (wordsEnglish == "cutting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cutting");
-                  // }
-                  // if (wordsEnglish == "cyanide") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyanide");
-                  // }
-                  // if (wordsEnglish == "cyber-") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyber");
-                  // }
-                  // if (wordsEnglish == "cybercafe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cybercafe");
-                  // }
-                  // if (wordsEnglish == "cyberspace") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyberspace");
-                  // }
-                  // if (wordsEnglish == "cybersquatting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cybersquatting");
-                  // }
-                  // if (wordsEnglish == "cycle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cycle");
-                  // }
-                  // if (wordsEnglish == "cyclical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyclical");
-                  // }
-                  // if (wordsEnglish == "cyclic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyclical");
-                  // }
-                  // if (wordsEnglish == "cyclist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyclist");
-                  // }
-                  // if (wordsEnglish == "cyclone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyclone");
-                  // }
-                  // if (wordsEnglish == "cyclonic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyclonic");
-                  // }
-                  // if (wordsEnglish == "cygnet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cygnet");
-                  // }
-                  // if (wordsEnglish == "cylinder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cylinder");
-                  // }
-                  // if (wordsEnglish == "cylindrical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cylindrical");
-                  // }
-                  // if (wordsEnglish == "cymbal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cymbal");
-                  // }
-                  // if (wordsEnglish == "cynic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cynic");
-                  // }
-                  // if (wordsEnglish == "cynical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cynical");
-                  // }
-                  // if (wordsEnglish == "cynically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cynically");
-                  // }
-                  // if (wordsEnglish == "cynicism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cynicism");
-                  // }
-                  // if (wordsEnglish == "cypress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cypress");
-                  // }
-                  // if (wordsEnglish == "cyst") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cyst");
-                  // }
-                  // if (wordsEnglish == "cystitis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cystitis");
-                  // }
-                  // if (wordsEnglish == "czar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-tsar");
-                  // }
-                  // if (wordsEnglish == "czarina") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-tsar");
-                  // }
-                  // if (wordsEnglish == "tsar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-tsar");
-                  // }
-                  // if (wordsEnglish == "tsarina") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-tsar");
-                  // }
-                  // if (wordsEnglish == "d") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-d");
-                  // }
-                  // if (wordsEnglish == "d.") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-d-two");
-                  // }
-                  // if (wordsEnglish == "dab") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dab");
-                  // }
-                  // if (wordsEnglish == "dabble") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dabble");
-                  // }
-                  // if (wordsEnglish == "dachshund") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dachshund");
-                  // }
-                  // if (wordsEnglish == "dad") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-father");
-                  // }
-                  // if (wordsEnglish == "daddy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-father");
-                  // }
-                  // if (wordsEnglish == "daffodil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daffodil");
-                  // }
-                  // if (wordsEnglish == "daft") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daft");
-                  // }
-                  // if (wordsEnglish == "dagger") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dagger");
-                  // }
-                  // if (wordsEnglish == "daily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daily");
-                  // }
-                  // if (wordsEnglish == "dainty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dainty");
-                  // }
-                  // if (wordsEnglish == "daintily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daintily");
-                  // }
-                  // if (wordsEnglish == "dairy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dairy");
-                  // }
-                  // if (wordsEnglish == "daisy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daisy");
-                  // }
-                  // if (wordsEnglish == "dale") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dale");
-                  // }
-                  // if (wordsEnglish == "dam") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dam");
-                  // }
-                  // if (wordsEnglish == "damage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-damage");
-                  // }
-                  // if (wordsEnglish == "dame") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dame");
-                  // }
-                  // if (wordsEnglish == "damn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-damn");
-                  // }
-                  // if (wordsEnglish == "damnation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-damnation");
-                  // }
-                  // if (wordsEnglish == "dampness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dampness");
-                  // }
-                  // if (wordsEnglish == "dampen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dampen");
-                  // }
-                  // if (wordsEnglish == "damper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-damper");
-                  // }
-                  // if (wordsEnglish == "damson") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-damson");
-                  // }
-                  // if (wordsEnglish == "dance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dance");
-                  // }
-                  // if (wordsEnglish == "dancer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dancer");
-                  // }
-                  // if (wordsEnglish == "dancing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dancing");
-                  // }
-                  // if (wordsEnglish == "dandelion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dandelion");
-                  // }
-                  // if (wordsEnglish == "dandruff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dandruff");
-                  // }
-                  // if (wordsEnglish == "danger") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-danger");
-                  // }
-                  // if (wordsEnglish == "dangerous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dangerous");
-                  // }
-                  // if (wordsEnglish == "dangerously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dangerously");
-                  // }
-                  // if (wordsEnglish == "dangle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dangle");
-                  // }
-                  // if (wordsEnglish == "dank") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dank");
-                  // }
-                  // if (wordsEnglish == "dare") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dare");
-                  // }
-                  // if (wordsEnglish == "daredevil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daredevil");
-                  // }
-                  // if (wordsEnglish == "daring") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daring");
-                  // }
-                  // if (wordsEnglish == "daringly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daringly");
-                  // }
-                  // if (wordsEnglish == "dark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dark");
-                  // }
-                  // if (wordsEnglish == "darken") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darken");
-                  // }
-                  // if (wordsEnglish == "darkly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darkly");
-                  // }
-                  // if (wordsEnglish == "darkness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darkness");
-                  // }
-                  // if (wordsEnglish == "darling") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darling");
-                  // }
-                  // if (wordsEnglish == "darmstadtium") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darmstadtium");
-                  // }
-                  // if (wordsEnglish == "darn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-darn");
-                  // }
-                  // if (wordsEnglish == "dart") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dart");
-                  // }
-                  // if (wordsEnglish == "dash") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dash");
-                  // }
-                  // if (wordsEnglish == "dashing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dashing");
-                  // }
-                  // if (wordsEnglish == "dashboard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dashboard");
-                  // }
-                  // if (wordsEnglish == "data") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-data");
-                  // }
-                  // if (wordsEnglish == "database") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-database");
-                  // }
-                  // if (wordsEnglish == "data processing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-data-processing");
-                  // }
-                  // if (wordsEnglish == "date") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-date");
-                  // }
-                  // if (wordsEnglish == "dated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dated");
-                  // }
-                  // if (wordsEnglish == "daub") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daub");
-                  // }
-                  // if (wordsEnglish == "daughter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daughter");
-                  // }
-                  // if (wordsEnglish == "daughter-in-law") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daughter-in-law");
-                  // }
-                  // if (wordsEnglish == "daunting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daunting");
-                  // }
-                  // if (wordsEnglish == "dawdle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dawdle");
-                  // }
-                  // if (wordsEnglish == "dawn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dawn");
-                  // }
-                  // if (wordsEnglish == "day") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-day");
-                  // }
-                  // if (wordsEnglish == "daybreak") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daybreak");
-                  // }
-                  // if (wordsEnglish == "daydream") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daydream");
-                  // }
-                  // if (wordsEnglish == "daylight") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daylight");
-                  // }
-                  // if (wordsEnglish == "daytime") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-daytime");
-                  // }
-                  // if (wordsEnglish == "in a daze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-in-a-daze");
-                  // }
-                  // if (wordsEnglish == "dazed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dazed");
-                  // }
-                  // if (wordsEnglish == "dazzle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dazzle");
-                  // }
-                  // if (wordsEnglish == "DDT") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ddt");
-                  // }
-                  // if (wordsEnglish == "dead") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dead");
-                  // }
-                  // if (wordsEnglish == "dead end") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dead-end");
-                  // }
-                  // if (wordsEnglish == "deadline") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deadline");
-                  // }
-                  // if (wordsEnglish == "dead loss") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dead-loss");
-                  // }
-                  // if (wordsEnglish == "deaden") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deaden");
-                  // }
-                  // if (wordsEnglish == "deadlock") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deadlock");
-                  // }
-                  // if (wordsEnglish == "deadly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deadly");
-                  // }
-                  // if (wordsEnglish == "deaf") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deaf");
-                  // }
-                  // if (wordsEnglish == "deaf mute") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deaf-mute");
-                  // }
-                  // if (wordsEnglish == "deafness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deafness");
-                  // }
-                  // if (wordsEnglish == "deafen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deafen");
-                  // }
-                  // if (wordsEnglish == "deal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deal");
-                  // }
-                  // if (wordsEnglish == "dealer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dealer");
-                  // }
-                  // if (wordsEnglish == "dealing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dealing");
-                  // }
-                  // if (wordsEnglish == "dean") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dean");
-                  // }
-                  // if (wordsEnglish == "dear") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dear");
-                  // }
-                  // if (wordsEnglish == "dearly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dearly");
-                  // }
-                  // if (wordsEnglish == "dearth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dearth");
-                  // }
-                  // if (wordsEnglish == "death") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-death");
-                  // }
-                  // if (wordsEnglish == "deathly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deathly");
-                  // }
-                  // if (wordsEnglish == "the death penalty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-death-penalty");
-                  // }
-                  // if (wordsEnglish == "death trap") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-death-trap");
-                  // }
-                  // if (wordsEnglish == "death warrant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-death-warrant");
-                  // }
-                  // if (wordsEnglish == "debacle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debacle");
-                  // }
-                  // if (wordsEnglish == "debase") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debase");
-                  // }
-                  // if (wordsEnglish == "debasement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debasement");
-                  // }
-                  // if (wordsEnglish == "debate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debate");
-                  // }
-                  // if (wordsEnglish == "debatable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debatable");
-                  // }
-                  // if (wordsEnglish == "debauched") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debauched");
-                  // }
-                  // if (wordsEnglish == "debauchery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debauchery");
-                  // }
-                  // if (wordsEnglish == "debilitating") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debilitating");
-                  // }
-                  // if (wordsEnglish == "debit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debit");
-                  // }
-                  // if (wordsEnglish == "debris") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debris");
-                  // }
-                  // if (wordsEnglish == "debt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debt");
-                  // }
-                  // if (wordsEnglish == "debtor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debtor");
-                  // }
-                  // if (wordsEnglish == "debut") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-debut");
-                  // }
-                  // if (wordsEnglish == "decade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decade");
-                  // }
-                  // if (wordsEnglish == "decadent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decadent");
-                  // }
-                  // if (wordsEnglish == "decadence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decadence");
-                  // }
-                  // if (wordsEnglish == "decaffeinated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decaffeinated");
-                  // }
-                  // if (wordsEnglish == "decant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decant");
-                  // }
-                  // if (wordsEnglish == "decanter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decanter");
-                  // }
-                  // if (wordsEnglish == "decapitate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decapitate");
-                  // }
-                  // if (wordsEnglish == "decay") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decay");
-                  // }
-                  // if (wordsEnglish == "deceased") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceased");
-                  // }
-                  // if (wordsEnglish == "deceit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceit");
-                  // }
-                  // if (wordsEnglish == "deceitful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceitful");
-                  // }
-                  // if (wordsEnglish == "deceitfully") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceitfully");
-                  // }
-                  // if (wordsEnglish == "deceitfulness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceitfulness");
-                  // }
-                  // if (wordsEnglish == "deceive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceive");
-                  // }
-                  // if (wordsEnglish == "deceiver") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceiver");
-                  // }
-                  // if (wordsEnglish == "December") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-december");
-                  // }
-                  // if (wordsEnglish == "decent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decent");
-                  // }
-                  // if (wordsEnglish == "decently") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decently");
-                  // }
-                  // if (wordsEnglish == "decency") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decency");
-                  // }
-                  // if (wordsEnglish == "deception") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deception");
-                  // }
-                  // if (wordsEnglish == "deceptive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceptive");
-                  // }
-                  // if (wordsEnglish == "deceptively") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deceptively");
-                  // }
-                  // if (wordsEnglish == "decibel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decibel");
-                  // }
-                  // if (wordsEnglish == "decide") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decide");
-                  // }
-                  // if (wordsEnglish == "decided") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decided");
-                  // }
-                  // if (wordsEnglish == "decidedly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decidedly");
-                  // }
-                  // if (wordsEnglish == "deciduous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deciduous");
-                  // }
-                  // if (wordsEnglish == "decimal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decimal");
-                  // }
-                  // if (wordsEnglish == "decimalize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decimalize");
-                  // }
-                  // if (wordsEnglish == "decimalization") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decimalization");
-                  // }
-                  // if (wordsEnglish == "decimal point") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decimal-point");
-                  // }
-                  // if (wordsEnglish == "decimate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decimate");
-                  // }
-                  // if (wordsEnglish == "decipher") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decipher");
-                  // }
-                  // if (wordsEnglish == "decision") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decision");
-                  // }
-                  // if (wordsEnglish == "decisive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decisive");
-                  // }
-                  // if (wordsEnglish == "decisively") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decisively");
-                  // }
-                  // if (wordsEnglish == "decisiveness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decisiveness");
-                  // }
-                  // if (wordsEnglish == "deck") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deck");
-                  // }
-                  // if (wordsEnglish == "deckchair") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deckchair");
-                  // }
-                  // if (wordsEnglish == "decking") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decking");
-                  // }
-                  // if (wordsEnglish == "declare") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-declare");
-                  // }
-                  // if (wordsEnglish == "declaration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-declaration");
-                  // }
-                  // if (wordsEnglish == "decline") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decline");
-                  // }
-                  // if (wordsEnglish == "declutter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-declutter");
-                  // }
-                  // if (wordsEnglish == "decode") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decode");
-                  // }
-                  // if (wordsEnglish == "decompose") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decompose");
-                  // }
-                  // if (wordsEnglish == "decomposition") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decomposition");
-                  // }
-                  // if (wordsEnglish == "decor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decor");
-                  // }
-                  // if (wordsEnglish == "decorate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decorate");
-                  // }
-                  // if (wordsEnglish == "decoration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decoration");
-                  // }
-                  // if (wordsEnglish == "decorative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decorative");
-                  // }
-                  // if (wordsEnglish == "decorator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decorator");
-                  // }
-                  // if (wordsEnglish == "decoy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decoy");
-                  // }
-                  // if (wordsEnglish == "decrease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decrease");
-                  // }
-                  // if (wordsEnglish == "decree") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decree");
-                  // }
-                  // if (wordsEnglish == "decrepit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-decrepit");
-                  // }
-                  // if (wordsEnglish == "dedicate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dedicate");
-                  // }
-                  // if (wordsEnglish == "dedicated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dedicated");
-                  // }
-                  // if (wordsEnglish == "dedication") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dedication");
-                  // }
-                  // if (wordsEnglish == "deduce") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deduce");
-                  // }
-                  // if (wordsEnglish == "deduct") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deduct");
-                  // }
-                  // if (wordsEnglish == "deductible") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deductible");
-                  // }
-                  // if (wordsEnglish == "deduction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deduction");
-                  // }
-                  // if (wordsEnglish == "deed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deed");
-                  // }
-                  // if (wordsEnglish == "deem") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deem");
-                  // }
-                  // if (wordsEnglish == "deep") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deep");
-                  // }
-                  // if (wordsEnglish == "deeply") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deeply");
-                  // }
-                  // if (wordsEnglish == "deep vein thrombosis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deep-vein-thrombosis");
-                  // }
-                  // if (wordsEnglish == "deep freeze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-freezer");
-                  // }
-                  // if (wordsEnglish == "deep-seated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deep-rooted");
-                  // }
-                  // if (wordsEnglish == "deep-rooted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deep-rooted");
-                  // }
-                  // if (wordsEnglish == "deepen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deepen");
-                  // }
-                  // if (wordsEnglish == "deer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deer");
-                  // }
-                  // if (wordsEnglish == "deface") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deface");
-                  // }
-                  // if (wordsEnglish == "defame") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defame");
-                  // }
-                  // if (wordsEnglish == "defamation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defamation");
-                  // }
-                  // if (wordsEnglish == "default") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-default");
-                  // }
-                  // if (wordsEnglish == "defaulter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defaulter");
-                  // }
-                  // if (wordsEnglish == "defeat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defeat");
-                  // }
-                  // if (wordsEnglish == "defect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defect");
-                  // }
-                  // if (wordsEnglish == "defective") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defective");
-                  // }
-                  // if (wordsEnglish == "defection") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defection");
-                  // }
-                  // if (wordsEnglish == "defector") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defector");
-                  // }
-                  // if (wordsEnglish == "defence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defence");
-                  // }
-                  // if (wordsEnglish == "defenceless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defenceless");
-                  // }
-                  // if (wordsEnglish == "defend") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defend");
-                  // }
-                  // if (wordsEnglish == "defendant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defendant");
-                  // }
-                  // if (wordsEnglish == "defender") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defender");
-                  // }
-                  // if (wordsEnglish == "defensible") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defensible");
-                  // }
-                  // if (wordsEnglish == "defensive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defensive");
-                  // }
-                  // if (wordsEnglish == "defensively") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defensively");
-                  // }
-                  // if (wordsEnglish == "defer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defer");
-                  // }
-                  // if (wordsEnglish == "deference") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deference");
-                  // }
-                  // if (wordsEnglish == "defiance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defiance");
-                  // }
-                  // if (wordsEnglish == "defiant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defiant");
-                  // }
-                  // if (wordsEnglish == "defiantly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defiantly");
-                  // }
-                  // if (wordsEnglish == "defibrillator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defibrillator");
-                  // }
-                  // if (wordsEnglish == "deficiency") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deficiency");
-                  // }
-                  // if (wordsEnglish == "deficient") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deficient");
-                  // }
-                  // if (wordsEnglish == "deficit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deficit");
-                  // }
-                  // if (wordsEnglish == "defile") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defile");
-                  // }
-                  // if (wordsEnglish == "define") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-define");
-                  // }
-                  // if (wordsEnglish == "definable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definable");
-                  // }
-                  // if (wordsEnglish == "definite") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definite");
-                  // }
-                  // if (wordsEnglish == "definite article") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definite-article");
-                  // }
-                  // if (wordsEnglish == "definitely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definitely");
-                  // }
-                  // if (wordsEnglish == "definition") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definition");
-                  // }
-                  // if (wordsEnglish == "definitive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-definitive");
-                  // }
-                  // if (wordsEnglish == "deflate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deflate");
-                  // }
-                  // if (wordsEnglish == "deflation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deflation");
-                  // }
-                  // if (wordsEnglish == "deflect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deflect");
-                  // }
-                  // if (wordsEnglish == "deflection") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deflection");
-                  // }
-                  // if (wordsEnglish == "deform") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deform");
-                  // }
-                  // if (wordsEnglish == "deformity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deformity");
-                  // }
-                  // if (wordsEnglish == "defraud") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defraud");
-                  // }
-                  // if (wordsEnglish == "defrost") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defrost");
-                  // }
-                  // if (wordsEnglish == "deft") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deft");
-                  // }
-                  // if (wordsEnglish == "deftly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deftly");
-                  // }
-                  // if (wordsEnglish == "deftness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deftness");
-                  // }
-                  // if (wordsEnglish == "defunct") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defunct");
-                  // }
-                  // if (wordsEnglish == "defuse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defuse");
-                  // }
-                  // if (wordsEnglish == "defy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-defy");
-                  // }
-                  // if (wordsEnglish == "degenerate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-degenerate");
-                  // }
-                  // if (wordsEnglish == "degrade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-degrade");
-                  // }
-                  // if (wordsEnglish == "degradation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-degradation");
-                  // }
-                  // if (wordsEnglish == "degree") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-degree");
-                  // }
-                  // if (wordsEnglish == "dehydrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dehydrate");
-                  // }
-                  // if (wordsEnglish == "de-ice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deice");
-                  // }
-                  // if (wordsEnglish == "deign") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deign");
-                  // }
-                  // if (wordsEnglish == "deity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deity");
-                  // }
-                  // if (wordsEnglish == "dejected") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dejected");
-                  // }
-                  // if (wordsEnglish == "dejection") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dejection");
-                  // }
-                  // if (wordsEnglish == "delay") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delay");
-                  // }
-                  // if (wordsEnglish == "delectable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delectable");
-                  // }
-                  // if (wordsEnglish == "delegate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delegate");
-                  // }
-                  // if (wordsEnglish == "delegation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delegation");
-                  // }
-                  // if (wordsEnglish == "delete") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delete");
-                  // }
-                  // if (wordsEnglish == "deletion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deletion");
-                  // }
-                  // if (wordsEnglish == "deliberate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deliberate");
-                  // }
-                  // if (wordsEnglish == "deliberately") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deliberately");
-                  // }
-                  // if (wordsEnglish == "deliberation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deliberation");
-                  // }
-                  // if (wordsEnglish == "delicacy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicacy");
-                  // }
-                  // if (wordsEnglish == "delicate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicate");
-                  // }
-                  // if (wordsEnglish == "delicately") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicately");
-                  // }
-                  // if (wordsEnglish == "delicately") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicately");
-                  // }
-                  // if (wordsEnglish == "delicatessen") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicatessen");
-                  // }
-                  // if (wordsEnglish == "delicious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delicious");
-                  // }
-                  // if (wordsEnglish == "delight") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delight");
-                  // }
-                  // if (wordsEnglish == "delightful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delightful");
-                  // }
-                  // if (wordsEnglish == "delightfully") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delightfully");
-                  // }
-                  // if (wordsEnglish == "delighted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delighted");
-                  // }
-                  // if (wordsEnglish == "delineate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delineate");
-                  // }
-                  // if (wordsEnglish == "delinquent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delinquent");
-                  // }
-                  // if (wordsEnglish == "delinquency") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delinquency");
-                  // }
-                  // if (wordsEnglish == "delirious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delirious");
-                  // }
-                  // if (wordsEnglish == "deliriously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deliriously");
-                  // }
-                  // if (wordsEnglish == "delirium") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delirium");
-                  // }
-                  // if (wordsEnglish == "deliver") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deliver");
-                  // }
-                  // if (wordsEnglish == "delivery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delivery");
-                  // }
-                  // if (wordsEnglish == "delta") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delta");
-                  // }
-                  // if (wordsEnglish == "delude") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delude");
-                  // }
-                  // if (wordsEnglish == "deluge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deluge");
-                  // }
-                  // if (wordsEnglish == "delusion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delusion");
-                  // }
-                  // if (wordsEnglish == "deluxe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deluxe");
-                  // }
-                  // if (wordsEnglish == "delve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-delve");
-                  // }
-                  // if (wordsEnglish == "Dem") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-democrat");
-                  // }
-                  // if (wordsEnglish == "demand") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demand");
-                  // }
-                  // if (wordsEnglish == "demanding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demanding");
-                  // }
-                  // if (wordsEnglish == "demarcate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demarcate");
-                  // }
-                  // if (wordsEnglish == "demarcation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demarcation");
-                  // }
-                  // if (wordsEnglish == "demean") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demean");
-                  // }
-                  // if (wordsEnglish == "demeanour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demeanour");
-                  // }
-                  // if (wordsEnglish == "demented") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demented");
-                  // }
-                  // if (wordsEnglish == "demerara sugar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demerara-sugar");
-                  // }
-                  // if (wordsEnglish == "demilitarize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demilitarize");
-                  // }
-                  // if (wordsEnglish == "demise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demise");
-                  // }
-                  // if (wordsEnglish == "demist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demist");
-                  // }
-                  // if (wordsEnglish == "democracy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-democracy");
-                  // }
-                  // if (wordsEnglish == "democrat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-democrat");
-                  // }
-                  // if (wordsEnglish == "democratic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-democratic");
-                  // }
-                  // if (wordsEnglish == "democratically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-democratically");
-                  // }
-                  // if (wordsEnglish == "demographic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demographic");
-                  // }
-                  // if (wordsEnglish == "demography") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demography");
-                  // }
-                  // if (wordsEnglish == "demographer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demographer");
-                  // }
-                  // if (wordsEnglish == "demolish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demolish");
-                  // }
-                  // if (wordsEnglish == "demolition") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demolition");
-                  // }
-                  // if (wordsEnglish == "demon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demon");
-                  // }
-                  // if (wordsEnglish == "demonic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonic");
-                  // }
-                  // if (wordsEnglish == "demonise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonise");
-                  // }
-                  // if (wordsEnglish == "demonisation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonisation");
-                  // }
-                  // if (wordsEnglish == "demonstrable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstrable");
-                  // }
-                  // if (wordsEnglish == "demonstrably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstrably");
-                  // }
-                  // if (wordsEnglish == "demonstrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstrate");
-                  // }
-                  // if (wordsEnglish == "demonstrator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstrator");
-                  // }
-                  // if (wordsEnglish == "demonstration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstration");
-                  // }
-                  // if (wordsEnglish == "demonstrative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demonstrative");
-                  // }
-                  // if (wordsEnglish == "demoralize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demoralize");
-                  // }
-                  // if (wordsEnglish == "demote") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demote");
-                  // }
-                  // if (wordsEnglish == "demure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demure");
-                  // }
-                  // if (wordsEnglish == "demurely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-demurely");
-                  // }
-                  // if (wordsEnglish == "den") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-den");
-                  // }
-                  // if (wordsEnglish == "denationalize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denationalize");
-                  // }
-                  // if (wordsEnglish == "denationalization") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denationalization");
-                  // }
-                  // if (wordsEnglish == "denial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denial");
-                  // }
-                  // if (wordsEnglish == "denigrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denigrate");
-                  // }
-                  // if (wordsEnglish == "denim") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denim");
-                  // }
-                  // if (wordsEnglish == "denomination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denomination");
-                  // }
-                  // if (wordsEnglish == "denominational") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denominational");
-                  // }
-                  // if (wordsEnglish == "denominator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denominator");
-                  // }
-                  // if (wordsEnglish == "denote") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denote");
-                  // }
-                  // if (wordsEnglish == "denounce") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denounce");
-                  // }
-                  // if (wordsEnglish == "dense") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dense");
-                  // }
-                  // if (wordsEnglish == "densely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-densely");
-                  // }
-                  // if (wordsEnglish == "density") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-density");
-                  // }
-                  // if (wordsEnglish == "dent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dent");
-                  // }
-                  // if (wordsEnglish == "dental") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dental");
-                  // }
-                  // if (wordsEnglish == "dentist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dentist");
-                  // }
-                  // if (wordsEnglish == "dentistry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dentistry");
-                  // }
-                  // if (wordsEnglish == "denunciation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-denunciation");
-                  // }
-                  // if (wordsEnglish == "deny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deny");
-                  // }
-                  // if (wordsEnglish == "deodorant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deodorant");
-                  // }
-                  // if (wordsEnglish == "depart") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depart");
-                  // }
-                  // if (wordsEnglish == "department") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-department");
-                  // }
-                  // if (wordsEnglish == "department store") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-department-store");
-                  // }
-                  // if (wordsEnglish == "departure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-departure");
-                  // }
-                  // if (wordsEnglish == "depend on") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depend-on");
-                  // }
-                  // if (wordsEnglish == "depend upon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depend-on");
-                  // }
-                  // if (wordsEnglish == "dependable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dependable");
-                  // }
-                  // if (wordsEnglish == "dependant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dependant");
-                  // }
-                  // if (wordsEnglish == "dependence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dependence");
-                  // }
-                  // if (wordsEnglish == "dependent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dependent");
-                  // }
-                  // if (wordsEnglish == "depict") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depict");
-                  // }
-                  // if (wordsEnglish == "depiction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depiction");
-                  // }
-                  // if (wordsEnglish == "deplete") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deplete");
-                  // }
-                  // if (wordsEnglish == "depletion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depletion");
-                  // }
-                  // if (wordsEnglish == "deplore") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deplore");
-                  // }
-                  // if (wordsEnglish == "deplorable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deplorable");
-                  // }
-                  // if (wordsEnglish == "deploy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deploy");
-                  // }
-                  // if (wordsEnglish == "deport") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deport");
-                  // }
-                  // if (wordsEnglish == "deportation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deportation");
-                  // }
-                  // if (wordsEnglish == "depose") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depose");
-                  // }
-                  // if (wordsEnglish == "deposit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deposit");
-                  // }
-                  // if (wordsEnglish == "deposit account") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deposit-account");
-                  // }
-                  // if (wordsEnglish == "depot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depot");
-                  // }
-                  // if (wordsEnglish == "depraved") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depraved");
-                  // }
-                  // if (wordsEnglish == "depravity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depravity");
-                  // }
-                  // if (wordsEnglish == "deprecate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deprecate");
-                  // }
-                  // if (wordsEnglish == "depreciation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depreciation");
-                  // }
-                  // if (wordsEnglish == "depreciate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depreciate");
-                  // }
-                  // if (wordsEnglish == "depress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depress");
-                  // }
-                  // if (wordsEnglish == "depressing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depressing");
-                  // }
-                  // if (wordsEnglish == "depression") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depression");
-                  // }
-                  // if (wordsEnglish == "deprive of") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deprive_of");
-                  // }
-                  // if (wordsEnglish == "deprivation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deprivation");
-                  // }
-                  // if (wordsEnglish == "deprived") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deprived");
-                  // }
-                  // if (wordsEnglish == "depth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-depth");
-                  // }
-                  // if (wordsEnglish == "deputation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deputation");
-                  // }
-                  // if (wordsEnglish == "deputize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deputize");
-                  // }
-                  // if (wordsEnglish == "deputy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deputy");
-                  // }
-                  // if (wordsEnglish == "derail") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derail");
-                  // }
-                  // if (wordsEnglish == "derailment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derailment");
-                  // }
-                  // if (wordsEnglish == "deranged") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deranged");
-                  // }
-                  // if (wordsEnglish == "derelict") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derelict");
-                  // }
-                  // if (wordsEnglish == "dereliction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dereliction");
-                  // }
-                  // if (wordsEnglish == "derision") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derision");
-                  // }
-                  // if (wordsEnglish == "derisory") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derisory");
-                  // }
-                  // if (wordsEnglish == "derivation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derivation");
-                  // }
-                  // if (wordsEnglish == "derivative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derivative");
-                  // }
-                  // if (wordsEnglish == "derive from") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derive-from");
-                  // }
-                  // if (wordsEnglish == "derogatory") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derogatory");
-                  // }
-                  // if (wordsEnglish == "derrick") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-derrick");
-                  // }
-                  // if (wordsEnglish == "descend") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-descend");
-                  // }
-                  // if (wordsEnglish == "descendant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-descendant");
-                  // }
-                  // if (wordsEnglish == "descent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-descent");
-                  // }
-                  // if (wordsEnglish == "describe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-describe");
-                  // }
-                  // if (wordsEnglish == "description") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-description");
-                  // }
-                  // if (wordsEnglish == "descriptive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-descriptive");
-                  // }
-                  // if (wordsEnglish == "desecrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desecrate");
-                  // }
-                  // if (wordsEnglish == "desecration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desecration");
-                  // }
-                  // if (wordsEnglish == "desert") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desert");
-                  // }
-                  // if (wordsEnglish == "deserter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deserter");
-                  // }
-                  // if (wordsEnglish == "desertion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desertion");
-                  // }
-                  // if (wordsEnglish == "desert island") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desert-island");
-                  // }
-                  // if (wordsEnglish == "deserve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deserve");
-                  // }
-                  // if (wordsEnglish == "design") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-design");
-                  // }
-                  // if (wordsEnglish == "designer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-designer");
-                  // }
-                  // if (wordsEnglish == "designate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-designate");
-                  // }
-                  // if (wordsEnglish == "desirable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desirable");
-                  // }
-                  // if (wordsEnglish == "desirability") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desirability");
-                  // }
-                  // if (wordsEnglish == "desire") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desire");
-                  // }
-                  // if (wordsEnglish == "desist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desist");
-                  // }
-                  // if (wordsEnglish == "desk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desk");
-                  // }
-                  // if (wordsEnglish == "desktop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desktop");
-                  // }
-                  // if (wordsEnglish == "desktop computer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desktop");
-                  // }
-                  // if (wordsEnglish == "desktop publishing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desktop-publishing");
-                  // }
-                  // if (wordsEnglish == "desolate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desolate");
-                  // }
-                  // if (wordsEnglish == "desolation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desolation");
-                  // }
-                  // if (wordsEnglish == "despair") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despair");
-                  // }
-                  // if (wordsEnglish == "despatch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dispatch");
-                  // }
-                  // if (wordsEnglish == "desperate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desperate");
-                  // }
-                  // if (wordsEnglish == "desperately") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desperately");
-                  // }
-                  // if (wordsEnglish == "desperation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-desperation");
-                  // }
-                  // if (wordsEnglish == "despicable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despicable");
-                  // }
-                  // if (wordsEnglish == "despise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despise");
-                  // }
-                  // if (wordsEnglish == "despite") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despite");
-                  // }
-                  // if (wordsEnglish == "despondent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despondent");
-                  // }
-                  // if (wordsEnglish == "despondency") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despondency");
-                  // }
-                  // if (wordsEnglish == "despondently") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despondently");
-                  // }
-                  // if (wordsEnglish == "despot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despot");
-                  // }
-                  // if (wordsEnglish == "despotic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-despotic");
-                  // }
-                  // if (wordsEnglish == "dessert") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dessert");
-                  // }
-                  // if (wordsEnglish == "dessertspoon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dessertspoon");
-                  // }
-                  // if (wordsEnglish == "destination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destination");
-                  // }
-                  // if (wordsEnglish == "destined") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destined");
-                  // }
-                  // if (wordsEnglish == "destiny") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destiny");
-                  // }
-                  // if (wordsEnglish == "destitute") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destitute");
-                  // }
-                  // if (wordsEnglish == "destitution") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destitution");
-                  // }
-                  // if (wordsEnglish == "destroy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destroy");
-                  // }
-                  // if (wordsEnglish == "destroyer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destroyer");
-                  // }
-                  // if (wordsEnglish == "destruction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destruction");
-                  // }
-                  // if (wordsEnglish == "destructive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-destructive");
-                  // }
-                  // if (wordsEnglish == "detach") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detach");
-                  // }
-                  // if (wordsEnglish == "detached") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detached");
-                  // }
-                  // if (wordsEnglish == "detachment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detachment");
-                  // }
-                  // if (wordsEnglish == "detail") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detail");
-                  // }
-                  // if (wordsEnglish == "detain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detain");
-                  // }
-                  // if (wordsEnglish == "detainee") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detainee");
-                  // }
-                  // if (wordsEnglish == "detect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detect");
-                  // }
-                  // if (wordsEnglish == "detection") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detection");
-                  // }
-                  // if (wordsEnglish == "detective") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detective");
-                  // }
-                  // if (wordsEnglish == "detector") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detector");
-                  // }
-                  // if (wordsEnglish == "detention") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detention");
-                  // }
-                  // if (wordsEnglish == "deter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deter");
-                  // }
-                  // if (wordsEnglish == "detergent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detergent");
-                  // }
-                  // if (wordsEnglish == "deteriorate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deteriorate");
-                  // }
-                  // if (wordsEnglish == "deterioration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deterioration");
-                  // }
-                  // if (wordsEnglish == "determination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-determination");
-                  // }
-                  // if (wordsEnglish == "determine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-determine");
-                  // }
-                  // if (wordsEnglish == "determined") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-determined");
-                  // }
-                  // if (wordsEnglish == "deterrent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deterrent");
-                  // }
-                  // if (wordsEnglish == "detest") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detest");
-                  // }
-                  // if (wordsEnglish == "detestable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detestable");
-                  // }
-                  // if (wordsEnglish == "dethrone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dethrone");
-                  // }
-                  // if (wordsEnglish == "detonate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detonate");
-                  // }
-                  // if (wordsEnglish == "detonation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detonation");
-                  // }
-                  // if (wordsEnglish == "detonator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detonator");
-                  // }
-                  // if (wordsEnglish == "detour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detour");
-                  // }
-                  // if (wordsEnglish == "detoxification") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detoxification");
-                  // }
-                  // if (wordsEnglish == "detox") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detoxification");
-                  // }
-                  // if (wordsEnglish == "detriment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detriment");
-                  // }
-                  // if (wordsEnglish == "detrimental") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-detrimental");
-                  // }
-                  // if (wordsEnglish == "deuce") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deuce");
-                  // }
-                  // if (wordsEnglish == "devalue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devalue");
-                  // }
-                  // if (wordsEnglish == "devaluation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devaluation");
-                  // }
-                  // if (wordsEnglish == "devastate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devastate");
-                  // }
-                  // if (wordsEnglish == "devastation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devastation");
-                  // }
-                  // if (wordsEnglish == "develop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-develop");
-                  // }
-                  // if (wordsEnglish == "developer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-developer");
-                  // }
-                  // if (wordsEnglish == "development") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-development");
-                  // }
-                  // if (wordsEnglish == "deviate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deviate");
-                  // }
-                  // if (wordsEnglish == "deviation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-deviation");
-                  // }
-                  // if (wordsEnglish == "device") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-device");
-                  // }
-                  // if (wordsEnglish == "devil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devil");
-                  // }
-                  // if (wordsEnglish == "devil's advocate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devils-advocate");
-                  // }
-                  // if (wordsEnglish == "devious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devious");
-                  // }
-                  // if (wordsEnglish == "devise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devise");
-                  // }
-                  // if (wordsEnglish == "devoid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devoid");
-                  // }
-                  // if (wordsEnglish == "devolution") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devolution");
-                  // }
-                  // if (wordsEnglish == "devote") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devote");
-                  // }
-                  // if (wordsEnglish == "devoted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devoted");
-                  // }
-                  // if (wordsEnglish == "devotee") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devotee");
-                  // }
-                  // if (wordsEnglish == "devotion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devotion");
-                  // }
-                  // if (wordsEnglish == "devour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devour");
-                  // }
-                  // if (wordsEnglish == "devout") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-devout");
-                  // }
-                  // if (wordsEnglish == "dew") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dew");
-                  // }
-                  // if (wordsEnglish == "dewy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dewy");
-                  // }
-                  // if (wordsEnglish == "dewdrop") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dewdrop");
-                  // }
-                  // if (wordsEnglish == "dexterity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dexterity");
-                  // }
-                  // if (wordsEnglish == "dexterous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dexterous");
-                  // }
-                  // if (wordsEnglish == "diabetes") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diabetes");
-                  // }
-                  // if (wordsEnglish == "diabetic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diabetic");
-                  // }
-                  // if (wordsEnglish == "diabolical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diabolical");
-                  // }
-                  // if (wordsEnglish == "diagnose") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagnose");
-                  // }
-                  // if (wordsEnglish == "diagnosis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagnosis");
-                  // }
-                  // if (wordsEnglish == "diagnostic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagnostic");
-                  // }
-                  // if (wordsEnglish == "diagonal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagonal");
-                  // }
-                  // if (wordsEnglish == "diagonally") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagonally");
-                  // }
-                  // if (wordsEnglish == "diagram") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagram");
-                  // }
-                  // if (wordsEnglish == "diagrammatic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diagrammatic");
-                  // }
-                  // if (wordsEnglish == "dial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dial");
-                  // }
-                  // if (wordsEnglish == "dialling tone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dialling-tone");
-                  // }
-                  // if (wordsEnglish == "dialect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dialect");
-                  // }
-                  // if (wordsEnglish == "dialogue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dialogue");
-                  // }
-                  // if (wordsEnglish == "dialogue box") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dialogue-box");
-                  // }
-                  // if (wordsEnglish == "diameter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diameter");
-                  // }
-                  // if (wordsEnglish == "diametrically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diametrically");
-                  // }
-                  // if (wordsEnglish == "diamond") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diamond");
-                  // }
-                  // if (wordsEnglish == "diamond jubilee") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diamond-jubilee");
-                  // }
-                  // if (wordsEnglish == "diaper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-nappy");
-                  // }
-                  // if (wordsEnglish == "diaphragm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diaphragm");
-                  // }
-                  // if (wordsEnglish == "diarrhoea") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diarrhoea");
-                  // }
-                  // if (wordsEnglish == "diary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diary");
-                  // }
-                  // if (wordsEnglish == "dice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dice");
-                  // }
-                  // if (wordsEnglish == "dictate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictate");
-                  // }
-                  // if (wordsEnglish == "dictation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictation");
-                  // }
-                  // if (wordsEnglish == "dictator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictator");
-                  // }
-                  // if (wordsEnglish == "dictatorial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictatorial");
-                  // }
-                  // if (wordsEnglish == "dictatorship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictatorship");
-                  // }
-                  // if (wordsEnglish == "diction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diction");
-                  // }
-                  // if (wordsEnglish == "dictionary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dictionary");
-                  // }
-                  // if (wordsEnglish == "did") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-do");
-                  // }
-                  // if (wordsEnglish == "die") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-die");
-                  // }
-                  // if (wordsEnglish == "diesel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diesel");
-                  // }
-                  // if (wordsEnglish == "diet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diet");
-                  // }
-                  // if (wordsEnglish == "differ") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-differ");
-                  // }
-                  // if (wordsEnglish == "difference") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-difference");
-                  // }
-                  // if (wordsEnglish == "different") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-different");
-                  // }
-                  // if (wordsEnglish == "differentiate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-differentiate");
-                  // }
-                  // if (wordsEnglish == "difficult") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-difficult");
-                  // }
-                  // if (wordsEnglish == "difficulty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-difficulty");
-                  // }
-                  // if (wordsEnglish == "diffident") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diffident");
-                  // }
-                  // if (wordsEnglish == "diffidence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diffidence");
-                  // }
-                  // if (wordsEnglish == "diffuse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diffuse");
-                  // }
-                  // if (wordsEnglish == "diffusion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diffusion");
-                  // }
-                  // if (wordsEnglish == "dig") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dig");
-                  // }
-                  // if (wordsEnglish == "digest") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digest");
-                  // }
-                  // if (wordsEnglish == "digit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digit");
-                  // }
-                  // if (wordsEnglish == "digital") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digital");
-                  // }
-                  // if (wordsEnglish == "digitize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digitize");
-                  // }
-                  // if (wordsEnglish == "digitalize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digitize");
-                  // }
-                  // if (wordsEnglish == "dignified") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dignified");
-                  // }
-                  // if (wordsEnglish == "dignitary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dignitary");
-                  // }
-                  // if (wordsEnglish == "dignity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dignity");
-                  // }
-                  // if (wordsEnglish == "digress") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digress");
-                  // }
-                  // if (wordsEnglish == "digression") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-digression");
-                  // }
-                  // if (wordsEnglish == "dike") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dyke");
-                  // }
-                  // if (wordsEnglish == "dilapidated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dilapidated");
-                  // }
-                  // if (wordsEnglish == "dilate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dilate");
-                  // }
-                  // if (wordsEnglish == "dilemma") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dilemma");
-                  // }
-                  // if (wordsEnglish == "diligent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diligent");
-                  // }
-                  // if (wordsEnglish == "diligence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diligence");
-                  // }
-                  // if (wordsEnglish == "diligently") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diligently");
-                  // }
-                  // if (wordsEnglish == "dilute") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dilute");
-                  // }
-                  // if (wordsEnglish == "dilution") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dilution");
-                  // }
-                  // if (wordsEnglish == "dim") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dim");
-                  // }
-                  // if (wordsEnglish == "dimly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dimly");
-                  // }
-                  // if (wordsEnglish == "dimness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dimness");
-                  // }
-                  // if (wordsEnglish == "dime") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dime");
-                  // }
-                  // if (wordsEnglish == "dimension") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dimension");
-                  // }
-                  // if (wordsEnglish == "dimensional") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dimensional");
-                  // }
-                  // if (wordsEnglish == "diminish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diminish");
-                  // }
-                  // if (wordsEnglish == "diminutive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diminutive");
-                  // }
-                  // if (wordsEnglish == "dimple") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dimple");
-                  // }
-                  // if (wordsEnglish == "din") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-din");
-                  // }
-                  // if (wordsEnglish == "dine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dine");
-                  // }
-                  // if (wordsEnglish == "dining car") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dining-car");
-                  // }
-                  // if (wordsEnglish == "dining room") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dining-room");
-                  // }
-                  // if (wordsEnglish == "dinghy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinghy");
-                  // }
-                  // if (wordsEnglish == "dingy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dingy");
-                  // }
-                  // if (wordsEnglish == "dinginess") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinginess");
-                  // }
-                  // if (wordsEnglish == "dinner") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinner");
-                  // }
-                  // if (wordsEnglish == "dinner jacket") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinner-jacket");
-                  // }
-                  // if (wordsEnglish == "tuxedo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinner-jacket");
-                  // }
-                  // if (wordsEnglish == "dinosaur") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dinosaur");
-                  // }
-                  // if (wordsEnglish == "diocese") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diocese");
-                  // }
-                  // if (wordsEnglish == "dip") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dip");
-                  // }
-                  // if (wordsEnglish == "diphtheria") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diphtheria");
-                  // }
-                  // if (wordsEnglish == "diphthong") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diphthong");
-                  // }
-                  // if (wordsEnglish == "diploma") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diploma");
-                  // }
-                  // if (wordsEnglish == "diplomacy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diplomacy");
-                  // }
-                  // if (wordsEnglish == "diplomat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diplomat");
-                  // }
-                  // if (wordsEnglish == "diplomatic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diplomatic");
-                  // }
-                  // if (wordsEnglish == "diplomatically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diplomatically");
-                  // }
-                  // if (wordsEnglish == "dire") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dire");
-                  // }
-                  // if (wordsEnglish == "direct") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direct");
-                  // }
-                  // if (wordsEnglish == "direct current") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direct-current");
-                  // }
-                  // if (wordsEnglish == "direct debit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direct-debit");
-                  // }
-                  // if (wordsEnglish == "directness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-directness");
-                  // }
-                  // if (wordsEnglish == "direct object") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direct-object");
-                  // }
-                  // if (wordsEnglish == "direct speech") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direct-speech");
-                  // }
-                  // if (wordsEnglish == "direction") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-direction");
-                  // }
-                  // if (wordsEnglish == "directive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-directive");
-                  // }
-                  // if (wordsEnglish == "directly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-directly");
-                  // }
-                  // if (wordsEnglish == "director") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-director");
-                  // }
-                  // if (wordsEnglish == "directorship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-directorship");
-                  // }
-                  // if (wordsEnglish == "directory") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-directory");
-                  // }
-                  // if (wordsEnglish == "dirt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dirt");
-                  // }
-                  // if (wordsEnglish == "dirt cheap") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dirt-cheap");
-                  // }
-                  // if (wordsEnglish == "dirty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dirty");
-                  // }
-                  // if (wordsEnglish == "disable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disable");
-                  // }
-                  // if (wordsEnglish == "disability") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disability");
-                  // }
-                  // if (wordsEnglish == "disabled") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disabled");
-                  // }
-                  // if (wordsEnglish == "disablement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disablement");
-                  // }
-                  // if (wordsEnglish == "disabuse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disabuse");
-                  // }
-                  // if (wordsEnglish == "disadvantage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disadvantage");
-                  // }
-                  // if (wordsEnglish == "disadvantaged") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disadvantaged");
-                  // }
-                  // if (wordsEnglish == "disadvantageous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disadvantageous");
-                  // }
-                  // if (wordsEnglish == "disagree") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disagree");
-                  // }
-                  // if (wordsEnglish == "disagreeable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disagreeable");
-                  // }
-                  // if (wordsEnglish == "disagreeably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disagreeably");
-                  // }
-                  // if (wordsEnglish == "disagreement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disagreement");
-                  // }
-                  // if (wordsEnglish == "disappear") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappear");
-                  // }
-                  // if (wordsEnglish == "disappearance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappearance");
-                  // }
-                  // if (wordsEnglish == "disappoint") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappoint");
-                  // }
-                  // if (wordsEnglish == "disappointed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappointed");
-                  // }
-                  // if (wordsEnglish == "disappointing") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappointing");
-                  // }
-                  // if (wordsEnglish == "disappointingly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappointingly");
-                  // }
-                  // if (wordsEnglish == "disappointment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disappointment");
-                  // }
-                  // if (wordsEnglish == "disapprove") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disapprove");
-                  // }
-                  // if (wordsEnglish == "disapproval") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disapproval");
-                  // }
-                  // if (wordsEnglish == "disarm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disarm");
-                  // }
-                  // if (wordsEnglish == "disarmament") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disarmament");
-                  // }
-                  // if (wordsEnglish == "disarray") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disarray");
-                  // }
-                  // if (wordsEnglish == "disassociate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dissociate");
-                  // }
-                  // if (wordsEnglish == "disaster") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disaster");
-                  // }
-                  // if (wordsEnglish == "disastrous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disastrous");
-                  // }
-                  // if (wordsEnglish == "disastrously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disastrously");
-                  // }
-                  // if (wordsEnglish == "disband") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disband");
-                  // }
-                  // if (wordsEnglish == "disbelieve") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disbelieve");
-                  // }
-                  // if (wordsEnglish == "disbelief") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disbelief");
-                  // }
-                  // if (wordsEnglish == "disc") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disc");
-                  // }
-                  // if (wordsEnglish == "disc jockey") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disc-jockey");
-                  // }
-                  // if (wordsEnglish == "discard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discard");
-                  // }
-                  // if (wordsEnglish == "discern") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discern");
-                  // }
-                  // if (wordsEnglish == "discernible") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discernible");
-                  // }
-                  // if (wordsEnglish == "discerning") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discerning");
-                  // }
-                  // if (wordsEnglish == "discernment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discernment");
-                  // }
-                  // if (wordsEnglish == "disciple") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disciple");
-                  // }
-                  // if (wordsEnglish == "discipline") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discipline");
-                  // }
-                  // if (wordsEnglish == "disclaim") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disclaim");
-                  // }
-                  // if (wordsEnglish == "disclose") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disclose");
-                  // }
-                  // if (wordsEnglish == "disclosure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disclosure");
-                  // }
-                  // if (wordsEnglish == "disco") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disco");
-                  // }
-                  // if (wordsEnglish == "discolour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discolour");
-                  // }
-                  // if (wordsEnglish == "discoloration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discoloration");
-                  // }
-                  // if (wordsEnglish == "discoloration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discoloration");
-                  // }
-                  // if (wordsEnglish == "discomfort") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discomfort");
-                  // }
-                  // if (wordsEnglish == "disconcert") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disconcert");
-                  // }
-                  // if (wordsEnglish == "disconnect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disconnect");
-                  // }
-                  // if (wordsEnglish == "disconnected") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disconnected");
-                  // }
-                  // if (wordsEnglish == "disconsolate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disconsolate");
-                  // }
-                  // if (wordsEnglish == "disconsolately") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disconsolately");
-                  // }
-                  // if (wordsEnglish == "discontent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discontent");
-                  // }
-                  // if (wordsEnglish == "discontentment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discontent");
-                  // }
-                  // if (wordsEnglish == "discontented") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discontented");
-                  // }
-                  // if (wordsEnglish == "discontinue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discontinue");
-                  // }
-                  // if (wordsEnglish == "discord") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discord");
-                  // }
-                  // if (wordsEnglish == "discordant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discordant");
-                  // }
-                  // if (wordsEnglish == "discotheque") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disco");
-                  // }
-                  // if (wordsEnglish == "discount") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discount");
-                  // }
-                  // if (wordsEnglish == "discourage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discourage");
-                  // }
-                  // if (wordsEnglish == "discouragement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discouragement");
-                  // }
-                  // if (wordsEnglish == "discourse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discourse");
-                  // }
-                  // if (wordsEnglish == "discourteous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discourteous");
-                  // }
-                  // if (wordsEnglish == "discourteously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discourteously");
-                  // }
-                  // if (wordsEnglish == "discourtesy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discourtesy");
-                  // }
-                  // if (wordsEnglish == "discover") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discover");
-                  // }
-                  // if (wordsEnglish == "discoverer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discoverer");
-                  // }
-                  // if (wordsEnglish == "discovery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discovery");
-                  // }
-                  // if (wordsEnglish == "discredit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discredit");
-                  // }
-                  // if (wordsEnglish == "discreet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discreet");
-                  // }
-                  // if (wordsEnglish == "discreetly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discreetly");
-                  // }
-                  // if (wordsEnglish == "discrepancy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discrepancy");
-                  // }
-                  // if (wordsEnglish == "discretion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discretion");
-                  // }
-                  // if (wordsEnglish == "discriminate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discriminate");
-                  // }
-                  // if (wordsEnglish == "discriminating") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discriminating");
-                  // }
-                  // if (wordsEnglish == "discrimination") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discrimination");
-                  // }
-                  // if (wordsEnglish == "discus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discus");
-                  // }
-                  // if (wordsEnglish == "discuss") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discuss");
-                  // }
-                  // if (wordsEnglish == "discussion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-discussion");
-                  // }
-                  // if (wordsEnglish == "disdain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disdain");
-                  // }
-                  // if (wordsEnglish == "disdainful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disdainful");
-                  // }
-                  // if (wordsEnglish == "disease") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disease");
-                  // }
-                  // if (wordsEnglish == "diseased") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-diseased");
-                  // }
-                  // if (wordsEnglish == "disembark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disembark");
-                  // }
-                  // if (wordsEnglish == "disembarkation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disembarkation");
-                  // }
-                  // if (wordsEnglish == "disenchanted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disenchanted");
-                  // }
-                  // if (wordsEnglish == "disengage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disengage");
-                  // }
-                  // if (wordsEnglish == "disentangle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disentangle");
-                  // }
-                  // if (wordsEnglish == "disfigure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disfigure");
-                  // }
-                  // if (wordsEnglish == "disfigurement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disfigurement");
-                  // }
-                  // if (wordsEnglish == "disgorge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgorge");
-                  // }
-                  // if (wordsEnglish == "disgrace") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgrace");
-                  // }
-                  // if (wordsEnglish == "disgraceful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgraceful");
-                  // }
-                  // if (wordsEnglish == "disgruntled") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgruntled");
-                  // }
-                  // if (wordsEnglish == "disguise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disguise");
-                  // }
-                  // if (wordsEnglish == "disgust") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgust");
-                  // }
-                  // if (wordsEnglish == "disgusted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgusted");
-                  // }
-                  // if (wordsEnglish == "disgusting") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disgusting");
-                  // }
-                  // if (wordsEnglish == "dish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dish");
-                  // }
-                  // if (wordsEnglish == "dishcloth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishcloth");
-                  // }
-                  // if (wordsEnglish == "dishwasher") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishwasher");
-                  // }
-                  // if (wordsEnglish == "dishearten") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishearten");
-                  // }
-                  // if (wordsEnglish == "dishevelled") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishevelled");
-                  // }
-                  // if (wordsEnglish == "dishonest") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishonest");
-                  // }
-                  // if (wordsEnglish == "dishonestly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishonestly");
-                  // }
-                  // if (wordsEnglish == "dishonesty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishonesty");
-                  // }
-                  // if (wordsEnglish == "dishonour") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishonour");
-                  // }
-                  // if (wordsEnglish == "dishonourable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-dishonourable");
-                  // }
-                  // if (wordsEnglish == "disillusion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disillusion");
-                  // }
-                  // if (wordsEnglish == "disillusioned") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disillusioned");
-                  // }
-                  // if (wordsEnglish == "disillusionment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disillusionment");
-                  // }
-                  // if (wordsEnglish == "disinclined") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinclined");
-                  // }
-                  // if (wordsEnglish == "disinfect") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinfect");
-                  // }
-                  // if (wordsEnglish == "disinfectant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinfectant");
-                  // }
-                  // if (wordsEnglish == "disinformation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinformation");
-                  // }
-                  // if (wordsEnglish == "disinherit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinherit");
-                  // }
-                  // if (wordsEnglish == "disintegrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disintegrate");
-                  // }
-                  // if (wordsEnglish == "disintegration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disintegration");
-                  // }
-                  // if (wordsEnglish == "disinterested") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-disinterested");
-                  // }
-                  // if (wordsEnglish == "uninterested") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-uninterested");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  if (wordsEnglish == "crescendo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crescendo");
+                  }
+                  if (wordsEnglish == "cress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cress");
+                  }
+                  if (wordsEnglish == "crest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crest");
+                  }
+                  if (wordsEnglish == "crestfallen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crestfallen");
+                  }
+                  if (wordsEnglish == "Creutzfeldt-Jakob disease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-creutzfeldt-jakob-disease");
+                  }
+                  if (wordsEnglish == "crevasse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crevasse");
+                  }
+                  if (wordsEnglish == "crevice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crevice");
+                  }
+                  if (wordsEnglish == "crew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crew");
+                  }
+                  if (wordsEnglish == "crib") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crib");
+                  }
+                  if (wordsEnglish == "crick") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crick");
+                  }
+                  if (wordsEnglish == "cricket") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cricket");
+                  }
+                  if (wordsEnglish == "cricketer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cricketer");
+                  }
+                  if (wordsEnglish == "crime") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crime");
+                  }
+                  if (wordsEnglish == "criminal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criminal");
+                  }
+                  if (wordsEnglish == "criminally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criminally");
+                  }
+                  if (wordsEnglish == "crimson") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crimson");
+                  }
+                  if (wordsEnglish == "cringe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cringe");
+                  }
+                  if (wordsEnglish == "crinkle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crinkle");
+                  }
+                  if (wordsEnglish == "cripple") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cripple");
+                  }
+                  if (wordsEnglish == "crisis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crisis");
+                  }
+                  if (wordsEnglish == "crisp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crisp");
+                  }
+                  if (wordsEnglish == "crisply") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crisply");
+                  }
+                  if (wordsEnglish == "crispness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crispness");
+                  }
+                  if (wordsEnglish == "crispy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crisp");
+                  }
+                  if (wordsEnglish == "criss-cross") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criss-cross");
+                  }
+                  if (wordsEnglish == "criterion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criterion");
+                  }
+                  if (wordsEnglish == "critic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-critic");
+                  }
+                  if (wordsEnglish == "critical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-critical");
+                  }
+                  if (wordsEnglish == "critically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-critically");
+                  }
+                  if (wordsEnglish == "criticism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criticism");
+                  }
+                  if (wordsEnglish == "criticize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-criticize");
+                  }
+                  if (wordsEnglish == "critique") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-critique");
+                  }
+                  if (wordsEnglish == "croak") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-croak");
+                  }
+                  if (wordsEnglish == "crockery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crockery");
+                  }
+                  if (wordsEnglish == "crocodile") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crocodile");
+                  }
+                  if (wordsEnglish == "crocus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crocus");
+                  }
+                  if (wordsEnglish == "croissant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-croissant");
+                  }
+                  if (wordsEnglish == "crony") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crony");
+                  }
+                  if (wordsEnglish == "crook") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crook");
+                  }
+                  if (wordsEnglish == "crooked") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crooked");
+                  }
+                  if (wordsEnglish == "crookedly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crookedly");
+                  }
+                  if (wordsEnglish == "crop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crop");
+                  }
+                  if (wordsEnglish == "croquet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-croquet");
+                  }
+                  if (wordsEnglish == "cross") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross");
+                  }
+                  if (wordsEnglish == "crossly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossly");
+                  }
+                  if (wordsEnglish == "crossness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossness");
+                  }
+                  if (wordsEnglish == "crossbow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossbow");
+                  }
+                  if (wordsEnglish == "cross-breed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-breed");
+                  }
+                  if (wordsEnglish == "cross-check") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-check");
+                  }
+                  if (wordsEnglish == "cross-country") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-country");
+                  }
+                  if (wordsEnglish == "cross-examine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-examine");
+                  }
+                  if (wordsEnglish == "cross-examination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-examination");
+                  }
+                  if (wordsEnglish == "cross-eyed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-eyed");
+                  }
+                  if (wordsEnglish == "crossfire") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossfire");
+                  }
+                  if (wordsEnglish == "crossing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossing");
+                  }
+                  if (wordsEnglish == "cross-legged") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-legged");
+                  }
+                  if (wordsEnglish == "crosspiece") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crosspiece");
+                  }
+                  if (wordsEnglish == "cross-reference") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-reference");
+                  }
+                  if (wordsEnglish == "crossroads") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossroads");
+                  }
+                  if (wordsEnglish == "cross section") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cross-section");
+                  }
+                  if (wordsEnglish == "crosswind") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crosswind");
+                  }
+                  if (wordsEnglish == "crossword") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crossword");
+                  }
+                  if (wordsEnglish == "crotch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crotch");
+                  }
+                  if (wordsEnglish == "crouch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crouch");
+                  }
+                  if (wordsEnglish == "croupier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-croupier");
+                  }
+                  if (wordsEnglish == "crow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crow");
+                  }
+                  if (wordsEnglish == "crow's feet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crows-feet");
+                  }
+                  if (wordsEnglish == "crow's nest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crows-nest");
+                  }
+                  if (wordsEnglish == "crowbar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crowbar");
+                  }
+                  if (wordsEnglish == "crowd") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crowd");
+                  }
+                  if (wordsEnglish == "crowded") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crowded");
+                  }
+                  if (wordsEnglish == "crown") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crown");
+                  }
+                  if (wordsEnglish == "crowning") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crowning");
+                  }
+                  if (wordsEnglish == "crucial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crucial");
+                  }
+                  if (wordsEnglish == "crucially") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crucially");
+                  }
+                  if (wordsEnglish == "crucifix") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crucifix");
+                  }
+                  if (wordsEnglish == "crucifixion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crucifixion");
+                  }
+                  if (wordsEnglish == "crucify") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crucify");
+                  }
+                  if (wordsEnglish == "crude") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crude");
+                  }
+                  if (wordsEnglish == "crudely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crudely");
+                  }
+                  if (wordsEnglish == "cruel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruel");
+                  }
+                  if (wordsEnglish == "cruelly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruelly");
+                  }
+                  if (wordsEnglish == "cruelty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruelty");
+                  }
+                  if (wordsEnglish == "cruet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruet");
+                  }
+                  if (wordsEnglish == "cruise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruise");
+                  }
+                  if (wordsEnglish == "cruise missile") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cruise-missile");
+                  }
+                  if (wordsEnglish == "crumb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crumb");
+                  }
+                  if (wordsEnglish == "crumble") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crumble");
+                  }
+                  if (wordsEnglish == "crumbly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crumbly");
+                  }
+                  if (wordsEnglish == "crumple") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crumple");
+                  }
+                  if (wordsEnglish == "crunch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crunch");
+                  }
+                  if (wordsEnglish == "crusade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crusade");
+                  }
+                  if (wordsEnglish == "crusader") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crusader");
+                  }
+                  if (wordsEnglish == "crush") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crush");
+                  }
+                  if (wordsEnglish == "crust") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crust");
+                  }
+                  if (wordsEnglish == "crusty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crusty");
+                  }
+                  if (wordsEnglish == "crustacean") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crustacean");
+                  }
+                  if (wordsEnglish == "crutch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crutch");
+                  }
+                  if (wordsEnglish == "crux") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crux");
+                  }
+                  if (wordsEnglish == "cry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cry");
+                  }
+                  if (wordsEnglish == "crybaby") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crybaby");
+                  }
+                  if (wordsEnglish == "crypt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crypt");
+                  }
+                  if (wordsEnglish == "cryptic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cryptic");
+                  }
+                  if (wordsEnglish == "crystal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crystal");
+                  }
+                  if (wordsEnglish == "crystalline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crystalline");
+                  }
+                  if (wordsEnglish == "crystallize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-crystallize");
+                  }
+                  if (wordsEnglish == "cub") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cub");
+                  }
+                  if (wordsEnglish == "cubbyhole") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cubbyhole");
+                  }
+                  if (wordsEnglish == "cube") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cube");
+                  }
+                  if (wordsEnglish == "cubic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cubic");
+                  }
+                  if (wordsEnglish == "cubicle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cubicle");
+                  }
+                  if (wordsEnglish == "cuckoo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuckoo");
+                  }
+                  if (wordsEnglish == "cucumber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cucumber");
+                  }
+                  if (wordsEnglish == "cud") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cud");
+                  }
+                  if (wordsEnglish == "cuddle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuddle");
+                  }
+                  if (wordsEnglish == "cuddly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuddly");
+                  }
+                  if (wordsEnglish == "cudgel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cudgel");
+                  }
+                  if (wordsEnglish == "cue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cue");
+                  }
+                  if (wordsEnglish == "cuff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuff");
+                  }
+                  if (wordsEnglish == "handcuff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-handcuff");
+                  }
+                  if (wordsEnglish == "handcuffs") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-handcuffs");
+                  }
+                  if (wordsEnglish == "cufflink") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cufflink");
+                  }
+                  if (wordsEnglish == "cuisine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuisine");
+                  }
+                  if (wordsEnglish == "cul-de-sac") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cul-de-sac");
+                  }
+                  if (wordsEnglish == "culinary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culinary");
+                  }
+                  if (wordsEnglish == "culminate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culminate");
+                  }
+                  if (wordsEnglish == "culmination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culmination");
+                  }
+                  if (wordsEnglish == "culpable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culpable");
+                  }
+                  if (wordsEnglish == "culpability") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culpability");
+                  }
+                  if (wordsEnglish == "culpably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culpably");
+                  }
+                  if (wordsEnglish == "culprit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culprit");
+                  }
+                  if (wordsEnglish == "cult") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cult");
+                  }
+                  if (wordsEnglish == "cultivate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cultivate");
+                  }
+                  if (wordsEnglish == "cultivated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cultivated");
+                  }
+                  if (wordsEnglish == "cultivation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cultivation");
+                  }
+                  if (wordsEnglish == "culture") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culture");
+                  }
+                  if (wordsEnglish == "cultural") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cultural");
+                  }
+                  if (wordsEnglish == "cultured") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cultured");
+                  }
+                  if (wordsEnglish == "culture shock") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-culture-shock");
+                  }
+                  if (wordsEnglish == "cumbersome") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cumbersome");
+                  }
+                  if (wordsEnglish == "cumulative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cumulative");
+                  }
+                  if (wordsEnglish == "cunning") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cunning");
+                  }
+                  if (wordsEnglish == "cunningly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cunningly");
+                  }
+                  if (wordsEnglish == "cunt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cunt");
+                  }
+                  if (wordsEnglish == "cup") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cup");
+                  }
+                  if (wordsEnglish == "cupful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cupful");
+                  }
+                  if (wordsEnglish == "cupboard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cupboard");
+                  }
+                  if (wordsEnglish == "curable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curable");
+                  }
+                  if (wordsEnglish == "curate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curate");
+                  }
+                  if (wordsEnglish == "curator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curator");
+                  }
+                  if (wordsEnglish == "curative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curative");
+                  }
+                  if (wordsEnglish == "curb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curb");
+                  }
+                  if (wordsEnglish == "curd") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curd");
+                  }
+                  if (wordsEnglish == "curdle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curdle");
+                  }
+                  if (wordsEnglish == "cure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cure");
+                  }
+                  if (wordsEnglish == "curfew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curfew");
+                  }
+                  if (wordsEnglish == "curio") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curio");
+                  }
+                  if (wordsEnglish == "curiosity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curiosity");
+                  }
+                  if (wordsEnglish == "curious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curious");
+                  }
+                  if (wordsEnglish == "curiously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curiously");
+                  }
+                  if (wordsEnglish == "curl") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curl");
+                  }
+                  if (wordsEnglish == "curly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curly");
+                  }
+                  if (wordsEnglish == "currant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-currant");
+                  }
+                  if (wordsEnglish == "currency") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-currency");
+                  }
+                  if (wordsEnglish == "current") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-current");
+                  }
+                  if (wordsEnglish == "current account") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-current-account");
+                  }
+                  if (wordsEnglish == "currently") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-currently");
+                  }
+                  if (wordsEnglish == "curriculum") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curriculum");
+                  }
+                  if (wordsEnglish == "curriculum vitae") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curriculum-vitae");
+                  }
+                  if (wordsEnglish == "CV") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curriculum-vitae");
+                  }
+                  if (wordsEnglish == "curry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curry");
+                  }
+                  if (wordsEnglish == "curried") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curried");
+                  }
+                  if (wordsEnglish == "curse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curse");
+                  }
+                  if (wordsEnglish == "cursed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cursed");
+                  }
+                  if (wordsEnglish == "cursor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cursor");
+                  }
+                  if (wordsEnglish == "cursory") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cursory");
+                  }
+                  if (wordsEnglish == "cursorily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cursorily");
+                  }
+                  if (wordsEnglish == "curt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curt");
+                  }
+                  if (wordsEnglish == "curtly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtly");
+                  }
+                  if (wordsEnglish == "curtness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtness");
+                  }
+                  if (wordsEnglish == "curtail") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtail");
+                  }
+                  if (wordsEnglish == "curtailment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtailment");
+                  }
+                  if (wordsEnglish == "curtain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtain");
+                  }
+                  if (wordsEnglish == "net curtain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-net-curtain");
+                  }
+                  if (wordsEnglish == "curtsy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curtsy");
+                  }
+                  if (wordsEnglish == "curve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-curve");
+                  }
+                  if (wordsEnglish == "cushion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cushion");
+                  }
+                  if (wordsEnglish == "cushy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cushy");
+                  }
+                  if (wordsEnglish == "custard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custard");
+                  }
+                  if (wordsEnglish == "custodian") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custodian");
+                  }
+                  if (wordsEnglish == "custody") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custody");
+                  }
+                  if (wordsEnglish == "custom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custom");
+                  }
+                  if (wordsEnglish == "customary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-customary");
+                  }
+                  if (wordsEnglish == "custom-built") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custom-built");
+                  }
+                  if (wordsEnglish == "custom-made") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-custom-built");
+                  }
+                  if (wordsEnglish == "customer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-customer");
+                  }
+                  if (wordsEnglish == "customs") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-customs");
+                  }
+                  if (wordsEnglish == "cut") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cut");
+                  }
+                  if (wordsEnglish == "cutback") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutback");
+                  }
+                  if (wordsEnglish == "cut-out") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cut-out");
+                  }
+                  if (wordsEnglish == "cut-price") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cut-price");
+                  }
+                  if (wordsEnglish == "cute") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cute");
+                  }
+                  if (wordsEnglish == "cutely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutely");
+                  }
+                  if (wordsEnglish == "cuteness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuteness");
+                  }
+                  if (wordsEnglish == "cuticle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cuticle");
+                  }
+                  if (wordsEnglish == "cutlery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutlery");
+                  }
+                  if (wordsEnglish == "cutlet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutlet");
+                  }
+                  if (wordsEnglish == "cutter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutter");
+                  }
+                  if (wordsEnglish == "cut-throat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cut-throat");
+                  }
+                  if (wordsEnglish == "cutting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cutting");
+                  }
+                  if (wordsEnglish == "cyanide") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyanide");
+                  }
+                  if (wordsEnglish == "cyber-") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyber");
+                  }
+                  if (wordsEnglish == "cybercafe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cybercafe");
+                  }
+                  if (wordsEnglish == "cyberspace") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyberspace");
+                  }
+                  if (wordsEnglish == "cybersquatting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cybersquatting");
+                  }
+                  if (wordsEnglish == "cycle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cycle");
+                  }
+                  if (wordsEnglish == "cyclical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyclical");
+                  }
+                  if (wordsEnglish == "cyclic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyclical");
+                  }
+                  if (wordsEnglish == "cyclist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyclist");
+                  }
+                  if (wordsEnglish == "cyclone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyclone");
+                  }
+                  if (wordsEnglish == "cyclonic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyclonic");
+                  }
+                  if (wordsEnglish == "cygnet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cygnet");
+                  }
+                  if (wordsEnglish == "cylinder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cylinder");
+                  }
+                  if (wordsEnglish == "cylindrical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cylindrical");
+                  }
+                  if (wordsEnglish == "cymbal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cymbal");
+                  }
+                  if (wordsEnglish == "cynic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cynic");
+                  }
+                  if (wordsEnglish == "cynical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cynical");
+                  }
+                  if (wordsEnglish == "cynically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cynically");
+                  }
+                  if (wordsEnglish == "cynicism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cynicism");
+                  }
+                  if (wordsEnglish == "cypress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cypress");
+                  }
+                  if (wordsEnglish == "cyst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cyst");
+                  }
+                  if (wordsEnglish == "cystitis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cystitis");
+                  }
+                  if (wordsEnglish == "czar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-tsar");
+                  }
+                  if (wordsEnglish == "czarina") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-tsar");
+                  }
+                  if (wordsEnglish == "tsar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-tsar");
+                  }
+                  if (wordsEnglish == "tsarina") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-tsar");
+                  }
+                  if (wordsEnglish == "d") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-d");
+                  }
+                  if (wordsEnglish == "d.") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-d-two");
+                  }
+                  if (wordsEnglish == "dab") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dab");
+                  }
+                  if (wordsEnglish == "dabble") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dabble");
+                  }
+                  if (wordsEnglish == "dachshund") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dachshund");
+                  }
+                  if (wordsEnglish == "dad") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-father");
+                  }
+                  if (wordsEnglish == "daddy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-father");
+                  }
+                  if (wordsEnglish == "daffodil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daffodil");
+                  }
+                  if (wordsEnglish == "daft") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daft");
+                  }
+                  if (wordsEnglish == "dagger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dagger");
+                  }
+                  if (wordsEnglish == "daily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daily");
+                  }
+                  if (wordsEnglish == "dainty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dainty");
+                  }
+                  if (wordsEnglish == "daintily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daintily");
+                  }
+                  if (wordsEnglish == "dairy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dairy");
+                  }
+                  if (wordsEnglish == "daisy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daisy");
+                  }
+                  if (wordsEnglish == "dale") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dale");
+                  }
+                  if (wordsEnglish == "dam") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dam");
+                  }
+                  if (wordsEnglish == "damage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-damage");
+                  }
+                  if (wordsEnglish == "dame") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dame");
+                  }
+                  if (wordsEnglish == "damn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-damn");
+                  }
+                  if (wordsEnglish == "damnation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-damnation");
+                  }
+                  if (wordsEnglish == "dampness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dampness");
+                  }
+                  if (wordsEnglish == "dampen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dampen");
+                  }
+                  if (wordsEnglish == "damper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-damper");
+                  }
+                  if (wordsEnglish == "damson") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-damson");
+                  }
+                  if (wordsEnglish == "dance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dance");
+                  }
+                  if (wordsEnglish == "dancer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dancer");
+                  }
+                  if (wordsEnglish == "dancing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dancing");
+                  }
+                  if (wordsEnglish == "dandelion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dandelion");
+                  }
+                  if (wordsEnglish == "dandruff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dandruff");
+                  }
+                  if (wordsEnglish == "danger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-danger");
+                  }
+                  if (wordsEnglish == "dangerous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dangerous");
+                  }
+                  if (wordsEnglish == "dangerously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dangerously");
+                  }
+                  if (wordsEnglish == "dangle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dangle");
+                  }
+                  if (wordsEnglish == "dank") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dank");
+                  }
+                  if (wordsEnglish == "dare") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dare");
+                  }
+                  if (wordsEnglish == "daredevil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daredevil");
+                  }
+                  if (wordsEnglish == "daring") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daring");
+                  }
+                  if (wordsEnglish == "daringly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daringly");
+                  }
+                  if (wordsEnglish == "dark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dark");
+                  }
+                  if (wordsEnglish == "darken") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darken");
+                  }
+                  if (wordsEnglish == "darkly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darkly");
+                  }
+                  if (wordsEnglish == "darkness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darkness");
+                  }
+                  if (wordsEnglish == "darling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darling");
+                  }
+                  if (wordsEnglish == "darmstadtium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darmstadtium");
+                  }
+                  if (wordsEnglish == "darn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-darn");
+                  }
+                  if (wordsEnglish == "dart") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dart");
+                  }
+                  if (wordsEnglish == "dash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dash");
+                  }
+                  if (wordsEnglish == "dashing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dashing");
+                  }
+                  if (wordsEnglish == "dashboard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dashboard");
+                  }
+                  if (wordsEnglish == "data") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-data");
+                  }
+                  if (wordsEnglish == "database") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-database");
+                  }
+                  if (wordsEnglish == "data processing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-data-processing");
+                  }
+                  if (wordsEnglish == "date") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-date");
+                  }
+                  if (wordsEnglish == "dated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dated");
+                  }
+                  if (wordsEnglish == "daub") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daub");
+                  }
+                  if (wordsEnglish == "daughter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daughter");
+                  }
+                  if (wordsEnglish == "daughter-in-law") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daughter-in-law");
+                  }
+                  if (wordsEnglish == "daunting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daunting");
+                  }
+                  if (wordsEnglish == "dawdle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dawdle");
+                  }
+                  if (wordsEnglish == "dawn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dawn");
+                  }
+                  if (wordsEnglish == "day") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-day");
+                  }
+                  if (wordsEnglish == "daybreak") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daybreak");
+                  }
+                  if (wordsEnglish == "daydream") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daydream");
+                  }
+                  if (wordsEnglish == "daylight") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daylight");
+                  }
+                  if (wordsEnglish == "daytime") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-daytime");
+                  }
+                  if (wordsEnglish == "in a daze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-in-a-daze");
+                  }
+                  if (wordsEnglish == "dazed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dazed");
+                  }
+                  if (wordsEnglish == "dazzle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dazzle");
+                  }
+                  if (wordsEnglish == "DDT") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ddt");
+                  }
+                  if (wordsEnglish == "dead") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dead");
+                  }
+                  if (wordsEnglish == "dead end") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dead-end");
+                  }
+                  if (wordsEnglish == "deadline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deadline");
+                  }
+                  if (wordsEnglish == "dead loss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dead-loss");
+                  }
+                  if (wordsEnglish == "deaden") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deaden");
+                  }
+                  if (wordsEnglish == "deadlock") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deadlock");
+                  }
+                  if (wordsEnglish == "deadly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deadly");
+                  }
+                  if (wordsEnglish == "deaf") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deaf");
+                  }
+                  if (wordsEnglish == "deaf mute") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deaf-mute");
+                  }
+                  if (wordsEnglish == "deafness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deafness");
+                  }
+                  if (wordsEnglish == "deafen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deafen");
+                  }
+                  if (wordsEnglish == "deal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deal");
+                  }
+                  if (wordsEnglish == "dealer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dealer");
+                  }
+                  if (wordsEnglish == "dealing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dealing");
+                  }
+                  if (wordsEnglish == "dean") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dean");
+                  }
+                  if (wordsEnglish == "dear") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dear");
+                  }
+                  if (wordsEnglish == "dearly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dearly");
+                  }
+                  if (wordsEnglish == "dearth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dearth");
+                  }
+                  if (wordsEnglish == "death") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-death");
+                  }
+                  if (wordsEnglish == "deathly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deathly");
+                  }
+                  if (wordsEnglish == "the death penalty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-death-penalty");
+                  }
+                  if (wordsEnglish == "death trap") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-death-trap");
+                  }
+                  if (wordsEnglish == "death warrant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-death-warrant");
+                  }
+                  if (wordsEnglish == "debacle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debacle");
+                  }
+                  if (wordsEnglish == "debase") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debase");
+                  }
+                  if (wordsEnglish == "debasement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debasement");
+                  }
+                  if (wordsEnglish == "debate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debate");
+                  }
+                  if (wordsEnglish == "debatable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debatable");
+                  }
+                  if (wordsEnglish == "debauched") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debauched");
+                  }
+                  if (wordsEnglish == "debauchery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debauchery");
+                  }
+                  if (wordsEnglish == "debilitating") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debilitating");
+                  }
+                  if (wordsEnglish == "debit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debit");
+                  }
+                  if (wordsEnglish == "debris") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debris");
+                  }
+                  if (wordsEnglish == "debt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debt");
+                  }
+                  if (wordsEnglish == "debtor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debtor");
+                  }
+                  if (wordsEnglish == "debut") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-debut");
+                  }
+                  if (wordsEnglish == "decade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decade");
+                  }
+                  if (wordsEnglish == "decadent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decadent");
+                  }
+                  if (wordsEnglish == "decadence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decadence");
+                  }
+                  if (wordsEnglish == "decaffeinated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decaffeinated");
+                  }
+                  if (wordsEnglish == "decant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decant");
+                  }
+                  if (wordsEnglish == "decanter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decanter");
+                  }
+                  if (wordsEnglish == "decapitate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decapitate");
+                  }
+                  if (wordsEnglish == "decay") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decay");
+                  }
+                  if (wordsEnglish == "deceased") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceased");
+                  }
+                  if (wordsEnglish == "deceit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceit");
+                  }
+                  if (wordsEnglish == "deceitful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceitful");
+                  }
+                  if (wordsEnglish == "deceitfully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceitfully");
+                  }
+                  if (wordsEnglish == "deceitfulness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceitfulness");
+                  }
+                  if (wordsEnglish == "deceive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceive");
+                  }
+                  if (wordsEnglish == "deceiver") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceiver");
+                  }
+                  if (wordsEnglish == "December") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-december");
+                  }
+                  if (wordsEnglish == "decent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decent");
+                  }
+                  if (wordsEnglish == "decently") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decently");
+                  }
+                  if (wordsEnglish == "decency") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decency");
+                  }
+                  if (wordsEnglish == "deception") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deception");
+                  }
+                  if (wordsEnglish == "deceptive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceptive");
+                  }
+                  if (wordsEnglish == "deceptively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deceptively");
+                  }
+                  if (wordsEnglish == "decibel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decibel");
+                  }
+                  if (wordsEnglish == "decide") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decide");
+                  }
+                  if (wordsEnglish == "decided") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decided");
+                  }
+                  if (wordsEnglish == "decidedly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decidedly");
+                  }
+                  if (wordsEnglish == "deciduous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deciduous");
+                  }
+                  if (wordsEnglish == "decimal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decimal");
+                  }
+                  if (wordsEnglish == "decimalize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decimalize");
+                  }
+                  if (wordsEnglish == "decimalization") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decimalization");
+                  }
+                  if (wordsEnglish == "decimal point") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decimal-point");
+                  }
+                  if (wordsEnglish == "decimate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decimate");
+                  }
+                  if (wordsEnglish == "decipher") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decipher");
+                  }
+                  if (wordsEnglish == "decision") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decision");
+                  }
+                  if (wordsEnglish == "decisive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decisive");
+                  }
+                  if (wordsEnglish == "decisively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decisively");
+                  }
+                  if (wordsEnglish == "decisiveness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decisiveness");
+                  }
+                  if (wordsEnglish == "deck") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deck");
+                  }
+                  if (wordsEnglish == "deckchair") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deckchair");
+                  }
+                  if (wordsEnglish == "decking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decking");
+                  }
+                  if (wordsEnglish == "declare") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-declare");
+                  }
+                  if (wordsEnglish == "declaration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-declaration");
+                  }
+                  if (wordsEnglish == "decline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decline");
+                  }
+                  if (wordsEnglish == "declutter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-declutter");
+                  }
+                  if (wordsEnglish == "decode") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decode");
+                  }
+                  if (wordsEnglish == "decompose") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decompose");
+                  }
+                  if (wordsEnglish == "decomposition") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decomposition");
+                  }
+                  if (wordsEnglish == "decor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decor");
+                  }
+                  if (wordsEnglish == "decorate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decorate");
+                  }
+                  if (wordsEnglish == "decoration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decoration");
+                  }
+                  if (wordsEnglish == "decorative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decorative");
+                  }
+                  if (wordsEnglish == "decorator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decorator");
+                  }
+                  if (wordsEnglish == "decoy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decoy");
+                  }
+                  if (wordsEnglish == "decrease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decrease");
+                  }
+                  if (wordsEnglish == "decree") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decree");
+                  }
+                  if (wordsEnglish == "decrepit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-decrepit");
+                  }
+                  if (wordsEnglish == "dedicate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dedicate");
+                  }
+                  if (wordsEnglish == "dedicated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dedicated");
+                  }
+                  if (wordsEnglish == "dedication") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dedication");
+                  }
+                  if (wordsEnglish == "deduce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deduce");
+                  }
+                  if (wordsEnglish == "deduct") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deduct");
+                  }
+                  if (wordsEnglish == "deductible") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deductible");
+                  }
+                  if (wordsEnglish == "deduction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deduction");
+                  }
+                  if (wordsEnglish == "deed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deed");
+                  }
+                  if (wordsEnglish == "deem") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deem");
+                  }
+                  if (wordsEnglish == "deep") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deep");
+                  }
+                  if (wordsEnglish == "deeply") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deeply");
+                  }
+                  if (wordsEnglish == "deep vein thrombosis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deep-vein-thrombosis");
+                  }
+                  if (wordsEnglish == "deep freeze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-freezer");
+                  }
+                  if (wordsEnglish == "deep-seated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deep-rooted");
+                  }
+                  if (wordsEnglish == "deep-rooted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deep-rooted");
+                  }
+                  if (wordsEnglish == "deepen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deepen");
+                  }
+                  if (wordsEnglish == "deer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deer");
+                  }
+                  if (wordsEnglish == "deface") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deface");
+                  }
+                  if (wordsEnglish == "defame") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defame");
+                  }
+                  if (wordsEnglish == "defamation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defamation");
+                  }
+                  if (wordsEnglish == "default") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-default");
+                  }
+                  if (wordsEnglish == "defaulter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defaulter");
+                  }
+                  if (wordsEnglish == "defeat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defeat");
+                  }
+                  if (wordsEnglish == "defect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defect");
+                  }
+                  if (wordsEnglish == "defective") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defective");
+                  }
+                  if (wordsEnglish == "defection") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defection");
+                  }
+                  if (wordsEnglish == "defector") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defector");
+                  }
+                  if (wordsEnglish == "defence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defence");
+                  }
+                  if (wordsEnglish == "defenceless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defenceless");
+                  }
+                  if (wordsEnglish == "defend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defend");
+                  }
+                  if (wordsEnglish == "defendant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defendant");
+                  }
+                  if (wordsEnglish == "defender") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defender");
+                  }
+                  if (wordsEnglish == "defensible") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defensible");
+                  }
+                  if (wordsEnglish == "defensive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defensive");
+                  }
+                  if (wordsEnglish == "defensively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defensively");
+                  }
+                  if (wordsEnglish == "defer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defer");
+                  }
+                  if (wordsEnglish == "deference") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deference");
+                  }
+                  if (wordsEnglish == "defiance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defiance");
+                  }
+                  if (wordsEnglish == "defiant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defiant");
+                  }
+                  if (wordsEnglish == "defiantly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defiantly");
+                  }
+                  if (wordsEnglish == "defibrillator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defibrillator");
+                  }
+                  if (wordsEnglish == "deficiency") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deficiency");
+                  }
+                  if (wordsEnglish == "deficient") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deficient");
+                  }
+                  if (wordsEnglish == "deficit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deficit");
+                  }
+                  if (wordsEnglish == "defile") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defile");
+                  }
+                  if (wordsEnglish == "define") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-define");
+                  }
+                  if (wordsEnglish == "definable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definable");
+                  }
+                  if (wordsEnglish == "definite") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definite");
+                  }
+                  if (wordsEnglish == "definite article") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definite-article");
+                  }
+                  if (wordsEnglish == "definitely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definitely");
+                  }
+                  if (wordsEnglish == "definition") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definition");
+                  }
+                  if (wordsEnglish == "definitive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-definitive");
+                  }
+                  if (wordsEnglish == "deflate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deflate");
+                  }
+                  if (wordsEnglish == "deflation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deflation");
+                  }
+                  if (wordsEnglish == "deflect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deflect");
+                  }
+                  if (wordsEnglish == "deflection") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deflection");
+                  }
+                  if (wordsEnglish == "deform") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deform");
+                  }
+                  if (wordsEnglish == "deformity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deformity");
+                  }
+                  if (wordsEnglish == "defraud") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defraud");
+                  }
+                  if (wordsEnglish == "defrost") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defrost");
+                  }
+                  if (wordsEnglish == "deft") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deft");
+                  }
+                  if (wordsEnglish == "deftly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deftly");
+                  }
+                  if (wordsEnglish == "deftness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deftness");
+                  }
+                  if (wordsEnglish == "defunct") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defunct");
+                  }
+                  if (wordsEnglish == "defuse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defuse");
+                  }
+                  if (wordsEnglish == "defy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-defy");
+                  }
+                  if (wordsEnglish == "degenerate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-degenerate");
+                  }
+                  if (wordsEnglish == "degrade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-degrade");
+                  }
+                  if (wordsEnglish == "degradation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-degradation");
+                  }
+                  if (wordsEnglish == "degree") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-degree");
+                  }
+                  if (wordsEnglish == "dehydrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dehydrate");
+                  }
+                  if (wordsEnglish == "de-ice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deice");
+                  }
+                  if (wordsEnglish == "deign") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deign");
+                  }
+                  if (wordsEnglish == "deity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deity");
+                  }
+                  if (wordsEnglish == "dejected") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dejected");
+                  }
+                  if (wordsEnglish == "dejection") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dejection");
+                  }
+                  if (wordsEnglish == "delay") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delay");
+                  }
+                  if (wordsEnglish == "delectable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delectable");
+                  }
+                  if (wordsEnglish == "delegate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delegate");
+                  }
+                  if (wordsEnglish == "delegation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delegation");
+                  }
+                  if (wordsEnglish == "delete") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delete");
+                  }
+                  if (wordsEnglish == "deletion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deletion");
+                  }
+                  if (wordsEnglish == "deliberate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deliberate");
+                  }
+                  if (wordsEnglish == "deliberately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deliberately");
+                  }
+                  if (wordsEnglish == "deliberation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deliberation");
+                  }
+                  if (wordsEnglish == "delicacy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicacy");
+                  }
+                  if (wordsEnglish == "delicate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicate");
+                  }
+                  if (wordsEnglish == "delicately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicately");
+                  }
+                  if (wordsEnglish == "delicately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicately");
+                  }
+                  if (wordsEnglish == "delicatessen") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicatessen");
+                  }
+                  if (wordsEnglish == "delicious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delicious");
+                  }
+                  if (wordsEnglish == "delight") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delight");
+                  }
+                  if (wordsEnglish == "delightful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delightful");
+                  }
+                  if (wordsEnglish == "delightfully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delightfully");
+                  }
+                  if (wordsEnglish == "delighted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delighted");
+                  }
+                  if (wordsEnglish == "delineate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delineate");
+                  }
+                  if (wordsEnglish == "delinquent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delinquent");
+                  }
+                  if (wordsEnglish == "delinquency") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delinquency");
+                  }
+                  if (wordsEnglish == "delirious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delirious");
+                  }
+                  if (wordsEnglish == "deliriously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deliriously");
+                  }
+                  if (wordsEnglish == "delirium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delirium");
+                  }
+                  if (wordsEnglish == "deliver") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deliver");
+                  }
+                  if (wordsEnglish == "delivery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delivery");
+                  }
+                  if (wordsEnglish == "delta") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delta");
+                  }
+                  if (wordsEnglish == "delude") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delude");
+                  }
+                  if (wordsEnglish == "deluge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deluge");
+                  }
+                  if (wordsEnglish == "delusion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delusion");
+                  }
+                  if (wordsEnglish == "deluxe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deluxe");
+                  }
+                  if (wordsEnglish == "delve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-delve");
+                  }
+                  if (wordsEnglish == "Dem") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-democrat");
+                  }
+                  if (wordsEnglish == "demand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demand");
+                  }
+                  if (wordsEnglish == "demanding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demanding");
+                  }
+                  if (wordsEnglish == "demarcate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demarcate");
+                  }
+                  if (wordsEnglish == "demarcation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demarcation");
+                  }
+                  if (wordsEnglish == "demean") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demean");
+                  }
+                  if (wordsEnglish == "demeanour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demeanour");
+                  }
+                  if (wordsEnglish == "demented") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demented");
+                  }
+                  if (wordsEnglish == "demerara sugar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demerara-sugar");
+                  }
+                  if (wordsEnglish == "demilitarize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demilitarize");
+                  }
+                  if (wordsEnglish == "demise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demise");
+                  }
+                  if (wordsEnglish == "demist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demist");
+                  }
+                  if (wordsEnglish == "democracy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-democracy");
+                  }
+                  if (wordsEnglish == "democrat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-democrat");
+                  }
+                  if (wordsEnglish == "democratic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-democratic");
+                  }
+                  if (wordsEnglish == "democratically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-democratically");
+                  }
+                  if (wordsEnglish == "demographic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demographic");
+                  }
+                  if (wordsEnglish == "demography") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demography");
+                  }
+                  if (wordsEnglish == "demographer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demographer");
+                  }
+                  if (wordsEnglish == "demolish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demolish");
+                  }
+                  if (wordsEnglish == "demolition") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demolition");
+                  }
+                  if (wordsEnglish == "demon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demon");
+                  }
+                  if (wordsEnglish == "demonic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonic");
+                  }
+                  if (wordsEnglish == "demonise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonise");
+                  }
+                  if (wordsEnglish == "demonisation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonisation");
+                  }
+                  if (wordsEnglish == "demonstrable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstrable");
+                  }
+                  if (wordsEnglish == "demonstrably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstrably");
+                  }
+                  if (wordsEnglish == "demonstrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstrate");
+                  }
+                  if (wordsEnglish == "demonstrator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstrator");
+                  }
+                  if (wordsEnglish == "demonstration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstration");
+                  }
+                  if (wordsEnglish == "demonstrative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demonstrative");
+                  }
+                  if (wordsEnglish == "demoralize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demoralize");
+                  }
+                  if (wordsEnglish == "demote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demote");
+                  }
+                  if (wordsEnglish == "demure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demure");
+                  }
+                  if (wordsEnglish == "demurely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-demurely");
+                  }
+                  if (wordsEnglish == "den") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-den");
+                  }
+                  if (wordsEnglish == "denationalize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denationalize");
+                  }
+                  if (wordsEnglish == "denationalization") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denationalization");
+                  }
+                  if (wordsEnglish == "denial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denial");
+                  }
+                  if (wordsEnglish == "denigrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denigrate");
+                  }
+                  if (wordsEnglish == "denim") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denim");
+                  }
+                  if (wordsEnglish == "denomination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denomination");
+                  }
+                  if (wordsEnglish == "denominational") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denominational");
+                  }
+                  if (wordsEnglish == "denominator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denominator");
+                  }
+                  if (wordsEnglish == "denote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denote");
+                  }
+                  if (wordsEnglish == "denounce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denounce");
+                  }
+                  if (wordsEnglish == "dense") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dense");
+                  }
+                  if (wordsEnglish == "densely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-densely");
+                  }
+                  if (wordsEnglish == "density") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-density");
+                  }
+                  if (wordsEnglish == "dent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dent");
+                  }
+                  if (wordsEnglish == "dental") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dental");
+                  }
+                  if (wordsEnglish == "dentist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dentist");
+                  }
+                  if (wordsEnglish == "dentistry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dentistry");
+                  }
+                  if (wordsEnglish == "denunciation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-denunciation");
+                  }
+                  if (wordsEnglish == "deny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deny");
+                  }
+                  if (wordsEnglish == "deodorant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deodorant");
+                  }
+                  if (wordsEnglish == "depart") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depart");
+                  }
+                  if (wordsEnglish == "department") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-department");
+                  }
+                  if (wordsEnglish == "department store") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-department-store");
+                  }
+                  if (wordsEnglish == "departure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-departure");
+                  }
+                  if (wordsEnglish == "depend on") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depend-on");
+                  }
+                  if (wordsEnglish == "depend upon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depend-on");
+                  }
+                  if (wordsEnglish == "dependable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dependable");
+                  }
+                  if (wordsEnglish == "dependant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dependant");
+                  }
+                  if (wordsEnglish == "dependence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dependence");
+                  }
+                  if (wordsEnglish == "dependent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dependent");
+                  }
+                  if (wordsEnglish == "depict") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depict");
+                  }
+                  if (wordsEnglish == "depiction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depiction");
+                  }
+                  if (wordsEnglish == "deplete") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deplete");
+                  }
+                  if (wordsEnglish == "depletion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depletion");
+                  }
+                  if (wordsEnglish == "deplore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deplore");
+                  }
+                  if (wordsEnglish == "deplorable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deplorable");
+                  }
+                  if (wordsEnglish == "deploy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deploy");
+                  }
+                  if (wordsEnglish == "deport") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deport");
+                  }
+                  if (wordsEnglish == "deportation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deportation");
+                  }
+                  if (wordsEnglish == "depose") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depose");
+                  }
+                  if (wordsEnglish == "deposit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deposit");
+                  }
+                  if (wordsEnglish == "deposit account") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deposit-account");
+                  }
+                  if (wordsEnglish == "depot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depot");
+                  }
+                  if (wordsEnglish == "depraved") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depraved");
+                  }
+                  if (wordsEnglish == "depravity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depravity");
+                  }
+                  if (wordsEnglish == "deprecate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deprecate");
+                  }
+                  if (wordsEnglish == "depreciation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depreciation");
+                  }
+                  if (wordsEnglish == "depreciate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depreciate");
+                  }
+                  if (wordsEnglish == "depress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depress");
+                  }
+                  if (wordsEnglish == "depressing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depressing");
+                  }
+                  if (wordsEnglish == "depression") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depression");
+                  }
+                  if (wordsEnglish == "deprive of") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deprive_of");
+                  }
+                  if (wordsEnglish == "deprivation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deprivation");
+                  }
+                  if (wordsEnglish == "deprived") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deprived");
+                  }
+                  if (wordsEnglish == "depth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-depth");
+                  }
+                  if (wordsEnglish == "deputation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deputation");
+                  }
+                  if (wordsEnglish == "deputize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deputize");
+                  }
+                  if (wordsEnglish == "deputy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deputy");
+                  }
+                  if (wordsEnglish == "derail") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derail");
+                  }
+                  if (wordsEnglish == "derailment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derailment");
+                  }
+                  if (wordsEnglish == "deranged") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deranged");
+                  }
+                  if (wordsEnglish == "derelict") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derelict");
+                  }
+                  if (wordsEnglish == "dereliction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dereliction");
+                  }
+                  if (wordsEnglish == "derision") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derision");
+                  }
+                  if (wordsEnglish == "derisory") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derisory");
+                  }
+                  if (wordsEnglish == "derivation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derivation");
+                  }
+                  if (wordsEnglish == "derivative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derivative");
+                  }
+                  if (wordsEnglish == "derive from") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derive-from");
+                  }
+                  if (wordsEnglish == "derogatory") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derogatory");
+                  }
+                  if (wordsEnglish == "derrick") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-derrick");
+                  }
+                  if (wordsEnglish == "descend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-descend");
+                  }
+                  if (wordsEnglish == "descendant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-descendant");
+                  }
+                  if (wordsEnglish == "descent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-descent");
+                  }
+                  if (wordsEnglish == "describe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-describe");
+                  }
+                  if (wordsEnglish == "description") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-description");
+                  }
+                  if (wordsEnglish == "descriptive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-descriptive");
+                  }
+                  if (wordsEnglish == "desecrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desecrate");
+                  }
+                  if (wordsEnglish == "desecration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desecration");
+                  }
+                  if (wordsEnglish == "desert") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desert");
+                  }
+                  if (wordsEnglish == "deserter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deserter");
+                  }
+                  if (wordsEnglish == "desertion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desertion");
+                  }
+                  if (wordsEnglish == "desert island") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desert-island");
+                  }
+                  if (wordsEnglish == "deserve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deserve");
+                  }
+                  if (wordsEnglish == "design") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-design");
+                  }
+                  if (wordsEnglish == "designer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-designer");
+                  }
+                  if (wordsEnglish == "designate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-designate");
+                  }
+                  if (wordsEnglish == "desirable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desirable");
+                  }
+                  if (wordsEnglish == "desirability") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desirability");
+                  }
+                  if (wordsEnglish == "desire") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desire");
+                  }
+                  if (wordsEnglish == "desist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desist");
+                  }
+                  if (wordsEnglish == "desk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desk");
+                  }
+                  if (wordsEnglish == "desktop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desktop");
+                  }
+                  if (wordsEnglish == "desktop computer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desktop");
+                  }
+                  if (wordsEnglish == "desktop publishing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desktop-publishing");
+                  }
+                  if (wordsEnglish == "desolate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desolate");
+                  }
+                  if (wordsEnglish == "desolation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desolation");
+                  }
+                  if (wordsEnglish == "despair") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despair");
+                  }
+                  if (wordsEnglish == "despatch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dispatch");
+                  }
+                  if (wordsEnglish == "desperate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desperate");
+                  }
+                  if (wordsEnglish == "desperately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desperately");
+                  }
+                  if (wordsEnglish == "desperation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-desperation");
+                  }
+                  if (wordsEnglish == "despicable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despicable");
+                  }
+                  if (wordsEnglish == "despise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despise");
+                  }
+                  if (wordsEnglish == "despite") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despite");
+                  }
+                  if (wordsEnglish == "despondent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despondent");
+                  }
+                  if (wordsEnglish == "despondency") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despondency");
+                  }
+                  if (wordsEnglish == "despondently") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despondently");
+                  }
+                  if (wordsEnglish == "despot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despot");
+                  }
+                  if (wordsEnglish == "despotic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-despotic");
+                  }
+                  if (wordsEnglish == "dessert") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dessert");
+                  }
+                  if (wordsEnglish == "dessertspoon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dessertspoon");
+                  }
+                  if (wordsEnglish == "destination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destination");
+                  }
+                  if (wordsEnglish == "destined") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destined");
+                  }
+                  if (wordsEnglish == "destiny") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destiny");
+                  }
+                  if (wordsEnglish == "destitute") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destitute");
+                  }
+                  if (wordsEnglish == "destitution") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destitution");
+                  }
+                  if (wordsEnglish == "destroy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destroy");
+                  }
+                  if (wordsEnglish == "destroyer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destroyer");
+                  }
+                  if (wordsEnglish == "destruction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destruction");
+                  }
+                  if (wordsEnglish == "destructive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-destructive");
+                  }
+                  if (wordsEnglish == "detach") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detach");
+                  }
+                  if (wordsEnglish == "detached") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detached");
+                  }
+                  if (wordsEnglish == "detachment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detachment");
+                  }
+                  if (wordsEnglish == "detail") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detail");
+                  }
+                  if (wordsEnglish == "detain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detain");
+                  }
+                  if (wordsEnglish == "detainee") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detainee");
+                  }
+                  if (wordsEnglish == "detect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detect");
+                  }
+                  if (wordsEnglish == "detection") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detection");
+                  }
+                  if (wordsEnglish == "detective") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detective");
+                  }
+                  if (wordsEnglish == "detector") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detector");
+                  }
+                  if (wordsEnglish == "detention") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detention");
+                  }
+                  if (wordsEnglish == "deter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deter");
+                  }
+                  if (wordsEnglish == "detergent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detergent");
+                  }
+                  if (wordsEnglish == "deteriorate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deteriorate");
+                  }
+                  if (wordsEnglish == "deterioration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deterioration");
+                  }
+                  if (wordsEnglish == "determination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-determination");
+                  }
+                  if (wordsEnglish == "determine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-determine");
+                  }
+                  if (wordsEnglish == "determined") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-determined");
+                  }
+                  if (wordsEnglish == "deterrent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deterrent");
+                  }
+                  if (wordsEnglish == "detest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detest");
+                  }
+                  if (wordsEnglish == "detestable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detestable");
+                  }
+                  if (wordsEnglish == "dethrone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dethrone");
+                  }
+                  if (wordsEnglish == "detonate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detonate");
+                  }
+                  if (wordsEnglish == "detonation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detonation");
+                  }
+                  if (wordsEnglish == "detonator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detonator");
+                  }
+                  if (wordsEnglish == "detour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detour");
+                  }
+                  if (wordsEnglish == "detoxification") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detoxification");
+                  }
+                  if (wordsEnglish == "detox") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detoxification");
+                  }
+                  if (wordsEnglish == "detriment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detriment");
+                  }
+                  if (wordsEnglish == "detrimental") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-detrimental");
+                  }
+                  if (wordsEnglish == "deuce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deuce");
+                  }
+                  if (wordsEnglish == "devalue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devalue");
+                  }
+                  if (wordsEnglish == "devaluation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devaluation");
+                  }
+                  if (wordsEnglish == "devastate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devastate");
+                  }
+                  if (wordsEnglish == "devastation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devastation");
+                  }
+                  if (wordsEnglish == "develop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-develop");
+                  }
+                  if (wordsEnglish == "developer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-developer");
+                  }
+                  if (wordsEnglish == "development") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-development");
+                  }
+                  if (wordsEnglish == "deviate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deviate");
+                  }
+                  if (wordsEnglish == "deviation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-deviation");
+                  }
+                  if (wordsEnglish == "device") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-device");
+                  }
+                  if (wordsEnglish == "devil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devil");
+                  }
+                  if (wordsEnglish == "devil's advocate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devils-advocate");
+                  }
+                  if (wordsEnglish == "devious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devious");
+                  }
+                  if (wordsEnglish == "devise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devise");
+                  }
+                  if (wordsEnglish == "devoid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devoid");
+                  }
+                  if (wordsEnglish == "devolution") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devolution");
+                  }
+                  if (wordsEnglish == "devote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devote");
+                  }
+                  if (wordsEnglish == "devoted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devoted");
+                  }
+                  if (wordsEnglish == "devotee") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devotee");
+                  }
+                  if (wordsEnglish == "devotion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devotion");
+                  }
+                  if (wordsEnglish == "devour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devour");
+                  }
+                  if (wordsEnglish == "devout") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-devout");
+                  }
+                  if (wordsEnglish == "dew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dew");
+                  }
+                  if (wordsEnglish == "dewy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dewy");
+                  }
+                  if (wordsEnglish == "dewdrop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dewdrop");
+                  }
+                  if (wordsEnglish == "dexterity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dexterity");
+                  }
+                  if (wordsEnglish == "dexterous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dexterous");
+                  }
+                  if (wordsEnglish == "diabetes") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diabetes");
+                  }
+                  if (wordsEnglish == "diabetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diabetic");
+                  }
+                  if (wordsEnglish == "diabolical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diabolical");
+                  }
+                  if (wordsEnglish == "diagnose") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagnose");
+                  }
+                  if (wordsEnglish == "diagnosis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagnosis");
+                  }
+                  if (wordsEnglish == "diagnostic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagnostic");
+                  }
+                  if (wordsEnglish == "diagonal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagonal");
+                  }
+                  if (wordsEnglish == "diagonally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagonally");
+                  }
+                  if (wordsEnglish == "diagram") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagram");
+                  }
+                  if (wordsEnglish == "diagrammatic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diagrammatic");
+                  }
+                  if (wordsEnglish == "dial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dial");
+                  }
+                  if (wordsEnglish == "dialling tone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dialling-tone");
+                  }
+                  if (wordsEnglish == "dialect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dialect");
+                  }
+                  if (wordsEnglish == "dialogue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dialogue");
+                  }
+                  if (wordsEnglish == "dialogue box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dialogue-box");
+                  }
+                  if (wordsEnglish == "diameter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diameter");
+                  }
+                  if (wordsEnglish == "diametrically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diametrically");
+                  }
+                  if (wordsEnglish == "diamond") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diamond");
+                  }
+                  if (wordsEnglish == "diamond jubilee") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diamond-jubilee");
+                  }
+                  if (wordsEnglish == "diaper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-nappy");
+                  }
+                  if (wordsEnglish == "diaphragm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diaphragm");
+                  }
+                  if (wordsEnglish == "diarrhoea") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diarrhoea");
+                  }
+                  if (wordsEnglish == "diary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diary");
+                  }
+                  if (wordsEnglish == "dice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dice");
+                  }
+                  if (wordsEnglish == "dictate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictate");
+                  }
+                  if (wordsEnglish == "dictation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictation");
+                  }
+                  if (wordsEnglish == "dictator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictator");
+                  }
+                  if (wordsEnglish == "dictatorial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictatorial");
+                  }
+                  if (wordsEnglish == "dictatorship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictatorship");
+                  }
+                  if (wordsEnglish == "diction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diction");
+                  }
+                  if (wordsEnglish == "dictionary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dictionary");
+                  }
+                  if (wordsEnglish == "did") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-do");
+                  }
+                  if (wordsEnglish == "die") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-die");
+                  }
+                  if (wordsEnglish == "diesel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diesel");
+                  }
+                  if (wordsEnglish == "diet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diet");
+                  }
+                  if (wordsEnglish == "differ") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-differ");
+                  }
+                  if (wordsEnglish == "difference") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-difference");
+                  }
+                  if (wordsEnglish == "different") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-different");
+                  }
+                  if (wordsEnglish == "differentiate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-differentiate");
+                  }
+                  if (wordsEnglish == "difficult") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-difficult");
+                  }
+                  if (wordsEnglish == "difficulty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-difficulty");
+                  }
+                  if (wordsEnglish == "diffident") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diffident");
+                  }
+                  if (wordsEnglish == "diffidence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diffidence");
+                  }
+                  if (wordsEnglish == "diffuse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diffuse");
+                  }
+                  if (wordsEnglish == "diffusion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diffusion");
+                  }
+                  if (wordsEnglish == "dig") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dig");
+                  }
+                  if (wordsEnglish == "digest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digest");
+                  }
+                  if (wordsEnglish == "digit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digit");
+                  }
+                  if (wordsEnglish == "digital") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digital");
+                  }
+                  if (wordsEnglish == "digitize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digitize");
+                  }
+                  if (wordsEnglish == "digitalize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digitize");
+                  }
+                  if (wordsEnglish == "dignified") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dignified");
+                  }
+                  if (wordsEnglish == "dignitary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dignitary");
+                  }
+                  if (wordsEnglish == "dignity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dignity");
+                  }
+                  if (wordsEnglish == "digress") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digress");
+                  }
+                  if (wordsEnglish == "digression") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-digression");
+                  }
+                  if (wordsEnglish == "dike") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dyke");
+                  }
+                  if (wordsEnglish == "dilapidated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dilapidated");
+                  }
+                  if (wordsEnglish == "dilate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dilate");
+                  }
+                  if (wordsEnglish == "dilemma") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dilemma");
+                  }
+                  if (wordsEnglish == "diligent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diligent");
+                  }
+                  if (wordsEnglish == "diligence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diligence");
+                  }
+                  if (wordsEnglish == "diligently") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diligently");
+                  }
+                  if (wordsEnglish == "dilute") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dilute");
+                  }
+                  if (wordsEnglish == "dilution") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dilution");
+                  }
+                  if (wordsEnglish == "dim") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dim");
+                  }
+                  if (wordsEnglish == "dimly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dimly");
+                  }
+                  if (wordsEnglish == "dimness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dimness");
+                  }
+                  if (wordsEnglish == "dime") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dime");
+                  }
+                  if (wordsEnglish == "dimension") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dimension");
+                  }
+                  if (wordsEnglish == "dimensional") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dimensional");
+                  }
+                  if (wordsEnglish == "diminish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diminish");
+                  }
+                  if (wordsEnglish == "diminutive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diminutive");
+                  }
+                  if (wordsEnglish == "dimple") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dimple");
+                  }
+                  if (wordsEnglish == "din") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-din");
+                  }
+                  if (wordsEnglish == "dine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dine");
+                  }
+                  if (wordsEnglish == "dining car") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dining-car");
+                  }
+                  if (wordsEnglish == "dining room") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dining-room");
+                  }
+                  if (wordsEnglish == "dinghy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinghy");
+                  }
+                  if (wordsEnglish == "dingy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dingy");
+                  }
+                  if (wordsEnglish == "dinginess") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinginess");
+                  }
+                  if (wordsEnglish == "dinner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinner");
+                  }
+                  if (wordsEnglish == "dinner jacket") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinner-jacket");
+                  }
+                  if (wordsEnglish == "tuxedo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinner-jacket");
+                  }
+                  if (wordsEnglish == "dinosaur") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dinosaur");
+                  }
+                  if (wordsEnglish == "diocese") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diocese");
+                  }
+                  if (wordsEnglish == "dip") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dip");
+                  }
+                  if (wordsEnglish == "diphtheria") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diphtheria");
+                  }
+                  if (wordsEnglish == "diphthong") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diphthong");
+                  }
+                  if (wordsEnglish == "diploma") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diploma");
+                  }
+                  if (wordsEnglish == "diplomacy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diplomacy");
+                  }
+                  if (wordsEnglish == "diplomat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diplomat");
+                  }
+                  if (wordsEnglish == "diplomatic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diplomatic");
+                  }
+                  if (wordsEnglish == "diplomatically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diplomatically");
+                  }
+                  if (wordsEnglish == "dire") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dire");
+                  }
+                  if (wordsEnglish == "direct") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direct");
+                  }
+                  if (wordsEnglish == "direct current") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direct-current");
+                  }
+                  if (wordsEnglish == "direct debit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direct-debit");
+                  }
+                  if (wordsEnglish == "directness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-directness");
+                  }
+                  if (wordsEnglish == "direct object") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direct-object");
+                  }
+                  if (wordsEnglish == "direct speech") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direct-speech");
+                  }
+                  if (wordsEnglish == "direction") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-direction");
+                  }
+                  if (wordsEnglish == "directive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-directive");
+                  }
+                  if (wordsEnglish == "directly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-directly");
+                  }
+                  if (wordsEnglish == "director") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-director");
+                  }
+                  if (wordsEnglish == "directorship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-directorship");
+                  }
+                  if (wordsEnglish == "directory") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-directory");
+                  }
+                  if (wordsEnglish == "dirt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dirt");
+                  }
+                  if (wordsEnglish == "dirt cheap") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dirt-cheap");
+                  }
+                  if (wordsEnglish == "dirty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dirty");
+                  }
+                  if (wordsEnglish == "disable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disable");
+                  }
+                  if (wordsEnglish == "disability") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disability");
+                  }
+                  if (wordsEnglish == "disabled") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disabled");
+                  }
+                  if (wordsEnglish == "disablement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disablement");
+                  }
+                  if (wordsEnglish == "disabuse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disabuse");
+                  }
+                  if (wordsEnglish == "disadvantage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disadvantage");
+                  }
+                  if (wordsEnglish == "disadvantaged") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disadvantaged");
+                  }
+                  if (wordsEnglish == "disadvantageous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disadvantageous");
+                  }
+                  if (wordsEnglish == "disagree") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disagree");
+                  }
+                  if (wordsEnglish == "disagreeable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disagreeable");
+                  }
+                  if (wordsEnglish == "disagreeably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disagreeably");
+                  }
+                  if (wordsEnglish == "disagreement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disagreement");
+                  }
+                  if (wordsEnglish == "disappear") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappear");
+                  }
+                  if (wordsEnglish == "disappearance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappearance");
+                  }
+                  if (wordsEnglish == "disappoint") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappoint");
+                  }
+                  if (wordsEnglish == "disappointed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappointed");
+                  }
+                  if (wordsEnglish == "disappointing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappointing");
+                  }
+                  if (wordsEnglish == "disappointingly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappointingly");
+                  }
+                  if (wordsEnglish == "disappointment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disappointment");
+                  }
+                  if (wordsEnglish == "disapprove") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disapprove");
+                  }
+                  if (wordsEnglish == "disapproval") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disapproval");
+                  }
+                  if (wordsEnglish == "disarm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disarm");
+                  }
+                  if (wordsEnglish == "disarmament") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disarmament");
+                  }
+                  if (wordsEnglish == "disarray") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disarray");
+                  }
+                  if (wordsEnglish == "disassociate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dissociate");
+                  }
+                  if (wordsEnglish == "disaster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disaster");
+                  }
+                  if (wordsEnglish == "disastrous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disastrous");
+                  }
+                  if (wordsEnglish == "disastrously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disastrously");
+                  }
+                  if (wordsEnglish == "disband") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disband");
+                  }
+                  if (wordsEnglish == "disbelieve") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disbelieve");
+                  }
+                  if (wordsEnglish == "disbelief") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disbelief");
+                  }
+                  if (wordsEnglish == "disc") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disc");
+                  }
+                  if (wordsEnglish == "disc jockey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disc-jockey");
+                  }
+                  if (wordsEnglish == "discard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discard");
+                  }
+                  if (wordsEnglish == "discern") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discern");
+                  }
+                  if (wordsEnglish == "discernible") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discernible");
+                  }
+                  if (wordsEnglish == "discerning") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discerning");
+                  }
+                  if (wordsEnglish == "discernment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discernment");
+                  }
+                  if (wordsEnglish == "disciple") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disciple");
+                  }
+                  if (wordsEnglish == "discipline") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discipline");
+                  }
+                  if (wordsEnglish == "disclaim") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disclaim");
+                  }
+                  if (wordsEnglish == "disclose") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disclose");
+                  }
+                  if (wordsEnglish == "disclosure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disclosure");
+                  }
+                  if (wordsEnglish == "disco") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disco");
+                  }
+                  if (wordsEnglish == "discolour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discolour");
+                  }
+                  if (wordsEnglish == "discoloration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discoloration");
+                  }
+                  if (wordsEnglish == "discoloration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discoloration");
+                  }
+                  if (wordsEnglish == "discomfort") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discomfort");
+                  }
+                  if (wordsEnglish == "disconcert") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disconcert");
+                  }
+                  if (wordsEnglish == "disconnect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disconnect");
+                  }
+                  if (wordsEnglish == "disconnected") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disconnected");
+                  }
+                  if (wordsEnglish == "disconsolate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disconsolate");
+                  }
+                  if (wordsEnglish == "disconsolately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disconsolately");
+                  }
+                  if (wordsEnglish == "discontent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discontent");
+                  }
+                  if (wordsEnglish == "discontentment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discontent");
+                  }
+                  if (wordsEnglish == "discontented") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discontented");
+                  }
+                  if (wordsEnglish == "discontinue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discontinue");
+                  }
+                  if (wordsEnglish == "discord") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discord");
+                  }
+                  if (wordsEnglish == "discordant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discordant");
+                  }
+                  if (wordsEnglish == "discotheque") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disco");
+                  }
+                  if (wordsEnglish == "discount") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discount");
+                  }
+                  if (wordsEnglish == "discourage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discourage");
+                  }
+                  if (wordsEnglish == "discouragement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discouragement");
+                  }
+                  if (wordsEnglish == "discourse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discourse");
+                  }
+                  if (wordsEnglish == "discourteous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discourteous");
+                  }
+                  if (wordsEnglish == "discourteously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discourteously");
+                  }
+                  if (wordsEnglish == "discourtesy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discourtesy");
+                  }
+                  if (wordsEnglish == "discover") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discover");
+                  }
+                  if (wordsEnglish == "discoverer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discoverer");
+                  }
+                  if (wordsEnglish == "discovery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discovery");
+                  }
+                  if (wordsEnglish == "discredit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discredit");
+                  }
+                  if (wordsEnglish == "discreet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discreet");
+                  }
+                  if (wordsEnglish == "discreetly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discreetly");
+                  }
+                  if (wordsEnglish == "discrepancy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discrepancy");
+                  }
+                  if (wordsEnglish == "discretion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discretion");
+                  }
+                  if (wordsEnglish == "discriminate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discriminate");
+                  }
+                  if (wordsEnglish == "discriminating") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discriminating");
+                  }
+                  if (wordsEnglish == "discrimination") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discrimination");
+                  }
+                  if (wordsEnglish == "discus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discus");
+                  }
+                  if (wordsEnglish == "discuss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discuss");
+                  }
+                  if (wordsEnglish == "discussion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-discussion");
+                  }
+                  if (wordsEnglish == "disdain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disdain");
+                  }
+                  if (wordsEnglish == "disdainful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disdainful");
+                  }
+                  if (wordsEnglish == "disease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disease");
+                  }
+                  if (wordsEnglish == "diseased") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-diseased");
+                  }
+                  if (wordsEnglish == "disembark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disembark");
+                  }
+                  if (wordsEnglish == "disembarkation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disembarkation");
+                  }
+                  if (wordsEnglish == "disenchanted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disenchanted");
+                  }
+                  if (wordsEnglish == "disengage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disengage");
+                  }
+                  if (wordsEnglish == "disentangle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disentangle");
+                  }
+                  if (wordsEnglish == "disfigure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disfigure");
+                  }
+                  if (wordsEnglish == "disfigurement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disfigurement");
+                  }
+                  if (wordsEnglish == "disgorge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgorge");
+                  }
+                  if (wordsEnglish == "disgrace") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgrace");
+                  }
+                  if (wordsEnglish == "disgraceful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgraceful");
+                  }
+                  if (wordsEnglish == "disgruntled") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgruntled");
+                  }
+                  if (wordsEnglish == "disguise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disguise");
+                  }
+                  if (wordsEnglish == "disgust") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgust");
+                  }
+                  if (wordsEnglish == "disgusted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgusted");
+                  }
+                  if (wordsEnglish == "disgusting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disgusting");
+                  }
+                  if (wordsEnglish == "dish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dish");
+                  }
+                  if (wordsEnglish == "dishcloth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishcloth");
+                  }
+                  if (wordsEnglish == "dishwasher") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishwasher");
+                  }
+                  if (wordsEnglish == "dishearten") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishearten");
+                  }
+                  if (wordsEnglish == "dishevelled") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishevelled");
+                  }
+                  if (wordsEnglish == "dishonest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishonest");
+                  }
+                  if (wordsEnglish == "dishonestly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishonestly");
+                  }
+                  if (wordsEnglish == "dishonesty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishonesty");
+                  }
+                  if (wordsEnglish == "dishonour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishonour");
+                  }
+                  if (wordsEnglish == "dishonourable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dishonourable");
+                  }
+                  if (wordsEnglish == "disillusion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disillusion");
+                  }
+                  if (wordsEnglish == "disillusioned") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disillusioned");
+                  }
+                  if (wordsEnglish == "disillusionment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disillusionment");
+                  }
+                  if (wordsEnglish == "disinclined") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinclined");
+                  }
+                  if (wordsEnglish == "disinfect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinfect");
+                  }
+                  if (wordsEnglish == "disinfectant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinfectant");
+                  }
+                  if (wordsEnglish == "disinformation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinformation");
+                  }
+                  if (wordsEnglish == "disinherit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinherit");
+                  }
+                  if (wordsEnglish == "disintegrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disintegrate");
+                  }
+                  if (wordsEnglish == "disintegration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disintegration");
+                  }
+                  if (wordsEnglish == "disinterested") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disinterested");
+                  }
+                  if (wordsEnglish == "uninterested") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-uninterested");
+                  }
+                  if (wordsEnglish == "disjointed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disjointed");
+                  }
+                  if (wordsEnglish == "disk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disk");
+                  }
+                  if (wordsEnglish == "disk drive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disk-drive");
+                  }
+                  if (wordsEnglish == "diskette") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-floppy-disk");
+                  }
+                  if (wordsEnglish == "dislike") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dislike");
+                  }
+                  if (wordsEnglish == "dislocate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dislocate");
+                  }
+                  if (wordsEnglish == "dislocation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dislocation");
+                  }
+                  if (wordsEnglish == "dislodge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dislodge");
+                  }
+                  if (wordsEnglish == "disloyal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disloyal");
+                  }
+                  if (wordsEnglish == "disloyally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disloyally");
+                  }
+                  if (wordsEnglish == "disloyalty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-disloyalty");
+                  }
+                  if (wordsEnglish == "dismal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dismal");
+                  }
+                  if (wordsEnglish == "dismally") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dismally");
+                  }
+                  if (wordsEnglish == "dismantle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-dismantle");
+                  }
+                  // if (wordsEnglish == "dismay") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push("/english-dismay");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

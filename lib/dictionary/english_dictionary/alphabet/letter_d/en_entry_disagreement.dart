@@ -1043,7 +1043,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disagreement (Derived forms: disagreements)
+- Noun: disagreement (derived forms: disagreements)
 1. A conflict of people's opinions, actions or characters (= dissension, dissonance)
  
 2. A difference between conflicting facts, claims or opinions (= discrepancy, divergence, variance)
@@ -1082,7 +1082,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
+    videoId: 'Sbp_EeBk-As',
     startSeconds: 1506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1107,7 +1107,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cw5gCoIbUbg?t=',
+    videoId: 'cw5gCoIbUbg',
     startSeconds: 747,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1132,7 +1132,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
+    videoId: 'kBdfcR-8hEY',
     startSeconds: 2555,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1157,7 +1157,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m0aG6urHpSI?t=',
+    videoId: 'm0aG6urHpSI',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1182,7 +1182,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vchJnrZgz-4?t=',
+    videoId: 'vchJnrZgz-4',
     startSeconds: 1024,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1207,7 +1207,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6wm-NtMkqz8?t=',
+    videoId: '6wm-NtMkqz8',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1232,7 +1232,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1h12uwyMZY0?t=',
+    videoId: '1h12uwyMZY0',
     startSeconds: 281,
     autoPlay: true,
     params: const YoutubePlayerParams(

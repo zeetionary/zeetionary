@@ -14,10 +14,12 @@ class EnglishEntrydiamondjubilee extends StatefulWidget {
   const EnglishEntrydiamondjubilee({super.key});
 
   @override
-  State<EnglishEntrydiamondjubilee> createState() => _EnglishEntrydiamondjubileeState();
+  State<EnglishEntrydiamondjubilee> createState() =>
+      _EnglishEntrydiamondjubileeState();
 }
 
-class _EnglishEntrydiamondjubileeState extends State<EnglishEntrydiamondjubilee> {
+class _EnglishEntrydiamondjubileeState
+    extends State<EnglishEntrydiamondjubilee> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شەستەمین ساڵ‌وەگەڕ، شەستەمین ساڵیاد
 """),
-          const DefinitionKurdish(text: "١. (ناو) شەستەمین ساڵیادی بۆنەیەکی گرنگ، بەتایبەتی بوون بە پاشا یان شاژن"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) شەستەمین ساڵیادی بۆنەیەکی گرنگ، بەتایبەتی بوون بە پاشا یان شاژن"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated."),
-                    ExampleSentenceKurdish(text: "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diamond jubilee (Derived forms: diamond jubilees)
+- Noun: diamond jubilee (derived forms: diamond jubilees)
 1. An anniversary celebrating the passage of 60 years
 """,
   );
@@ -1058,7 +1064,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5bJB-dt3hps?t=',
+    videoId: '5bJB-dt3hps',
     startSeconds: 1466,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1089,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sLGW4e1rqig?t=',
+    videoId: 'sLGW4e1rqig',
     startSeconds: 802,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1114,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nS3diY3evJ0?t=',
+    videoId: 'nS3diY3evJ0',
     startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1139,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/__jg98sdg_Q?t=',
+    videoId: '__jg98sdg_Q',
     startSeconds: 1759,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1164,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q1nMUhAb-t8?t=',
+    videoId: 'Q1nMUhAb-t8',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1189,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IKpmiE95c20?t=',
+    videoId: 'IKpmiE95c20',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1214,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FMKnms7r5GE?t=',
+    videoId: 'FMKnms7r5GE',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(

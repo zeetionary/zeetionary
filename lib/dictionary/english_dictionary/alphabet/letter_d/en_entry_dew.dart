@@ -1028,11 +1028,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dew (Derived forms: dews)
+- Noun: dew (derived forms: dews)
 1. Water that has condensed on a cool surface overnight from water vapour in the air
 "in the morning the grass was wet with dew"
 
-- Verb: dew (Derived forms: dews, dewing, dewed)
+- Verb: dew (derived forms: dews, dewing, dewed)
 1. Wet with, or as if with, dew; moisten
 """,
   );
@@ -1066,7 +1066,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 405,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1091,7 +1091,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wkFKf-YnzvY?t=',
+    videoId: 'wkFKf-YnzvY',
     startSeconds: 632,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1116,7 +1116,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fVuxhp4TWNs?t=',
+    videoId: 'fVuxhp4TWNs',
     startSeconds: 141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1141,7 +1141,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GdxePMF2zkM',
+    videoId: 'GdxePMF2zkM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1166,7 +1166,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LcpHJWc7WoA?t=',
+    videoId: 'LcpHJWc7WoA',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1191,7 +1191,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/em5t8bScq9s?t=',
+    videoId: 'em5t8bScq9s',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1216,7 +1216,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K31aMhU3Wx0?t=',
+    videoId: 'K31aMhU3Wx0',
     startSeconds: 1312,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The bus disgorged a crowd of noisy children."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bus disgorged a crowd of noisy children."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisgorges3(String languageCode) async {
@@ -404,16 +405,17 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ڕشانەوە، خاڵی کردن، بەتاڵ کردن
 """),
-          const DefinitionKurdish(text: "١. (کردار) ڕژاندنە دەرەوەی شتێک بە ڕێژەیەکی زۆر"),
+          const DefinitionKurdish(
+              text: "١. (کردار) ڕژاندنە دەرەوەی شتێک بە ڕێژەیەکی زۆر"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The pipe disgorges sewage into the sea."),
-                    ExampleSentenceKurdish(text: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە."),
+                        text: "The pipe disgorges sewage into the sea."),
+                    ExampleSentenceKurdish(
+                        text: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە."),
                   ],
                 ),
               ),
@@ -431,15 +433,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) هاتنە دەرەوەی خەڵکی لە وەسیلەیەکی گواستنەوە"),
+          const DefinitionKurdish(
+              text: "٢. (کردار) هاتنە دەرەوەی خەڵکی لە وەسیلەیەکی گواستنەوە"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The bus disgorged a crowd of noisy children."),
-                    ExampleSentenceKurdish(text: "پاسەکە ژمارەیەک لە منداڵی دەنگبەرزی لێ دابەزیە خوارەوە."),
+                    ExampleSentenceEnglish(
+                        text: "The bus disgorged a crowd of noisy children."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پاسەکە ژمارەیەک لە منداڵی دەنگبەرزی لێ دابەزیە خوارەوە."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disgorge (Derived forms: disgorged, disgorges, disgorging)
+- Verb: disgorge (derived forms: disgorged, disgorges, disgorging)
 1. Cause or allow (a solid substance) to flow or run out or over (= spill, shed)
 "disgorge the beans all over the table";
  
@@ -1062,7 +1068,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Z1p7TMPXFM?t=',
+    videoId: '7Z1p7TMPXFM',
     startSeconds: 1144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1093,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lBYxXSUDV8o?t=',
+    videoId: 'lBYxXSUDV8o',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1118,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y0Oa4Lp5fLE?t=',
+    videoId: 'Y0Oa4Lp5fLE',
     startSeconds: 3751,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1143,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QlttS0N7uVA?t=',
+    videoId: 'QlttS0N7uVA',
     startSeconds: 393,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1168,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/41gFZ1fmTuM?t=',
+    videoId: '41gFZ1fmTuM',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1193,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aM9gaLMiuuM?t=',
+    videoId: 'aM9gaLMiuuM',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1218,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kw1evJgGwtw?t=',
+    videoId: 'Kw1evJgGwtw',
     startSeconds: 1077,
     autoPlay: true,
     params: const YoutubePlayerParams(

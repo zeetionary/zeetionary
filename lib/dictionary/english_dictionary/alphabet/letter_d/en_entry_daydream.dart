@@ -441,10 +441,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: daydream  (Derived forms: daydreams)
+- Noun: daydream  (derived forms: daydreams)
 1. Absentminded dreaming while awake (= reverie, revery, daydreaming, oneirism, air castle, castle in the air, castle in Spain)
 
-- Verb: daydream (Derived forms: daydreamed, daydreaming, daydreams, daydreamt)
+- Verb: daydream (derived forms: daydreamed, daydreaming, daydreams, daydreamt)
 1. Have a daydream; indulge in a fantasy (= dream, woolgather, stargaze)
  
 2. Have dreamlike musings or fantasies while awake (= moon)
@@ -481,7 +481,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/otNh9bTjXWg?t=',
+    videoId: 'otNh9bTjXWg',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dNKQYjsxgPU?t=',
+    videoId: 'dNKQYjsxgPU',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1CpanQiK5Jo?t=',
+    videoId: '1CpanQiK5Jo',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K0j2dlBMzUs?t=',
+    videoId: 'K0j2dlBMzUs',
     startSeconds: 788,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iuTM4h0xzAE?t=',
+    videoId: 'iuTM4h0xzAE',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZhJ-LAQ6e_Y?t=',
+    videoId: 'ZhJ-LAQ6e_Y',
     startSeconds: 117,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ROP45rjvOHg?t=',
+    videoId: 'ROP45rjvOHg',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1035,13 +1035,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disarray (Derived forms: disarrays)
+- Noun: disarray (derived forms: disarrays)
 1. A mental state characterized by a lack of clear and orderly thought and behaviour (= confusion, mental confusion, confusedness, muddiness)
 "a disarray of impressions";
  
 2. Untidiness (especially of clothing and appearance) (= disorderliness)
 
-- Verb: disarray (Derived forms: disarraying, disarrayed, disarrays)
+- Verb: disarray (derived forms: disarraying, disarrayed, disarrays)
 1. Bring disorder to (= disorder)
 """,
   );
@@ -1075,7 +1075,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    videoId: 'hRSGxw2AQnk',
     startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1100,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1125,7 +1125,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oiLdWXLXDeA?t=',
+    videoId: 'oiLdWXLXDeA',
     startSeconds: 1325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1150,7 +1150,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhQksV8fbKw?t=',
+    videoId: 'PhQksV8fbKw',
     startSeconds: 1143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1175,7 +1175,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pzvbUpKU4eE?t=',
+    videoId: 'pzvbUpKU4eE',
     startSeconds: 887,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1200,7 +1200,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6EPR4Ux-U6k?t=',
+    videoId: '6EPR4Ux-U6k',
     startSeconds: 1076,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1225,7 +1225,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQ8JOsc3-wU?t=',
+    videoId: 'LQ8JOsc3-wU',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(

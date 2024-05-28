@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: damper (Derived forms: dampers)
+- Noun: damper (derived forms: dampers)
 1. A movable iron plate that regulates the draft in a stove, chimney or furnace
  
 2. A device that decreases the amplitude of electronic, mechanical, acoustical, or aerodynamic oscillations (= muffler)
@@ -542,7 +542,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fxGI8r8vAFk?t=',
+    videoId: 'fxGI8r8vAFk',
     startSeconds: 347,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b2keggxa0cY?t=',
+    videoId: 'b2keggxa0cY',
     startSeconds: 336,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5krBzh1hJWg?t=',
+    videoId: '5krBzh1hJWg',
     startSeconds: 940,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NZLbTuBDhJg?t=',
+    videoId: 'NZLbTuBDhJg',
     startSeconds: 547,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KGqexebCcUo?t=',
+    videoId: 'KGqexebCcUo',
     startSeconds: 323,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sCBFxf8WDw?t=',
+    videoId: '0sCBFxf8WDw',
     startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V7707zEX9X4?t=',
+    videoId: 'V7707zEX9X4',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(

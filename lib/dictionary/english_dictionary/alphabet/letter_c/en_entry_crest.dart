@@ -584,7 +584,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crest (Derived forms: crests)
+- Noun: crest (derived forms: crests)
 1. The top line of a hill, mountain, or wave
  
 2. The highest or extreme point of something (usually a mountain or hill) (= peak, crown, top, tip, summit)
@@ -596,7 +596,7 @@ ${englishMeaningConst.text}
  
 5. A showy growth of e.g. feathers or skin on the head of a bird or other animal
 
-- Verb: crest (Derived forms: crests, crested, cresting)
+- Verb: crest (derived forms: crests, crested, cresting)
 1. Lie at the top of (= cap)
 "Snow crested the mountains";
  
@@ -634,7 +634,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -659,7 +659,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P10p7ALXkcU?t=',
+    videoId: 'P10p7ALXkcU',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -684,7 +684,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/58XEfDtU0Z4?t=',
+    videoId: '58XEfDtU0Z4',
     startSeconds: 966,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -709,7 +709,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4g52041zGOY?t=',
+    videoId: '4g52041zGOY',
     startSeconds: 278,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -734,7 +734,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YZoZr_m9WLU?t=',
+    videoId: 'YZoZr_m9WLU',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -759,7 +759,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/twAP3buj9Og?t=',
+    videoId: 'twAP3buj9Og',
     startSeconds: 361,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -784,7 +784,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nJ-ehbVQYxI?t=',
+    videoId: 'nJ-ehbVQYxI',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(

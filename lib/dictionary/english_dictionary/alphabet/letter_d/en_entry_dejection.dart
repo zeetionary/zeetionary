@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She made no effort to hide her dejection."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She made no effort to hide her dejection."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdejections3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdejections1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdejections14(String languageCode) async {
+  Future<void> speakdejections14(String languageCode) async {
     // DOPSUM: CHANGE speakdejection
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She made no effort to hide her dejection.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She made no effort to hide her dejection.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdejections21(String languageCode) async {
@@ -411,9 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "She sat in the corner in utter dejection."),
-                    ExampleSentenceKurdish(text: "لە سووچێکدا بە دڵتەنگی تەواو دانیشتبوو."),
+                        text: "She sat in the corner in utter dejection."),
+                    ExampleSentenceKurdish(
+                        text: "لە سووچێکدا بە دڵتەنگی تەواو دانیشتبوو."),
                   ],
                 ),
               ),
@@ -438,8 +440,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She made no effort to hide her dejection."),
-                    ExampleSentenceKurdish(text: "هیچ هەوڵێکی نەدا بێزارییەکەی بشارێتەوە."),
+                    ExampleSentenceEnglish(
+                        text: "She made no effort to hide her dejection."),
+                    ExampleSentenceKurdish(
+                        text: "هیچ هەوڵێکی نەدا بێزارییەکەی بشارێتەوە."),
                   ],
                 ),
               ),
@@ -988,7 +992,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dejection (Derived forms: dejections)
+- Noun: dejection (derived forms: dejections)
 1. A state of melancholy depression
  
 2. Solid excretory product evacuated from the bowels (= fecal matter [N. Amer], faecal matter [Brit, Cdn], feces [N. Amer], faeces [Brit, Cdn], BM, stool, ordure)
@@ -1024,7 +1028,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S72vvfBTQws?t=',
+    videoId: 'S72vvfBTQws',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1053,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M97tgY5ZlMg?t=',
+    videoId: 'M97tgY5ZlMg',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1078,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fuSTZx_IuhM?t=',
+    videoId: 'fuSTZx_IuhM',
     startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1103,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mHGzSwBckiY?t=',
+    videoId: 'mHGzSwBckiY',
     startSeconds: 6578,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1128,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JsSHH6ZzI1w?t=',
+    videoId: 'JsSHH6ZzI1w',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1153,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QGHT__82v_k?t=',
+    videoId: 'QGHT__82v_k',
     startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1178,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IULwA0UNJP8?t=',
+    videoId: 'IULwA0UNJP8',
     startSeconds: 610,
     autoPlay: true,
     params: const YoutubePlayerParams(

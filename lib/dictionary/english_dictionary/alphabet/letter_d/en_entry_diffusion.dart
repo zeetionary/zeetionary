@@ -1039,7 +1039,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diffusion (Derived forms: diffusions)
+- Noun: diffusion (derived forms: diffusions)
 1. (physics) the process in which there is movement of a substance from an area of high concentration of that substance to an area of lower concentration
  
 2. (mythology) the spread of social institutions (and myths and skills) from one society to another
@@ -1080,7 +1080,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0gNauGdOkro?t=',
+    videoId: '0gNauGdOkro',
     startSeconds: 623,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1105,7 +1105,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0gNauGdOkro?t=',
+    videoId: '0gNauGdOkro',
     startSeconds: 618,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1130,7 +1130,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TnS32KV8L-Q?t=',
+    videoId: 'TnS32KV8L-Q',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1155,7 +1155,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ba-HMvDn_vU?t=',
+    videoId: 'ba-HMvDn_vU',
     startSeconds: 3069,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1180,7 +1180,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A5w-dEgIU1M?t=',
+    videoId: 'A5w-dEgIU1M',
     startSeconds: 780,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1205,7 +1205,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PPg1Nvv7zTM?t=',
+    videoId: 'PPg1Nvv7zTM',
     startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1230,7 +1230,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SVcsDDABEkM?t=',
+    videoId: 'SVcsDDABEkM',
     startSeconds: 558,
     autoPlay: true,
     params: const YoutubePlayerParams(

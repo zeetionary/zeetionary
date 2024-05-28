@@ -1029,7 +1029,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discourse (Derived forms: discourses)
+- Noun: discourse (derived forms: discourses)
 1. Extended verbal expression in speech or writing
  
 2. (church service) an address of a religious nature (usually delivered during a church service) (= sermon, preaching)
@@ -1037,7 +1037,7 @@ ${englishMeaningConst.text}
 3. An extended communication (often interactive) dealing with some particular topic (= discussion, treatment)
 "the book contains an excellent discourse of modal logic";
 
-- Verb: discourse (Derived forms: discoursed, discourses, discoursing)
+- Verb: discourse (derived forms: discoursed, discourses, discoursing)
 1. To consider or examine in speech or writing (= talk about, discuss)
 "The author discourses the different aspects of this question";
  
@@ -1076,7 +1076,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jrHz8Bti6FY?t=',
+    videoId: 'jrHz8Bti6FY',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1101,7 +1101,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4I-p8vjQ95s?t=',
+    videoId: '4I-p8vjQ95s',
     startSeconds: 544,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1126,7 +1126,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 6648,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1151,7 +1151,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6HEheIozS5c?t=',
+    videoId: '6HEheIozS5c',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1176,7 +1176,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aTMsfOcHiJg?t=',
+    videoId: 'aTMsfOcHiJg',
     startSeconds: 955,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1201,7 +1201,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5CRD9pmqa7s?t=',
+    videoId: '5CRD9pmqa7s',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1226,7 +1226,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K2zbN3AuHG8?t=',
+    videoId: 'K2zbN3AuHG8',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

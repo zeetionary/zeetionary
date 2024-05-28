@@ -14,10 +14,12 @@ class EnglishEntrydisinformation extends StatefulWidget {
   const EnglishEntrydisinformation({super.key});
 
   @override
-  State<EnglishEntrydisinformation> createState() => _EnglishEntrydisinformationState();
+  State<EnglishEntrydisinformation> createState() =>
+      _EnglishEntrydisinformationState();
 }
 
-class _EnglishEntrydisinformationState extends State<EnglishEntrydisinformation> {
+class _EnglishEntrydisinformationState
+    extends State<EnglishEntrydisinformation> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -230,7 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They claimed there was an official disinformation campaign by the government."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They claimed there was an official disinformation campaign by the government."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisinformations3(String languageCode) async {
@@ -402,9 +405,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) زانیاریی هەڵە کە بە ئەنقەست بڵاودەکرێتەوە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) زانیاریی هەڵە کە بە ئەنقەست بڵاودەکرێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The government launched a campaign of propaganda and disinformation."),
-                    ExampleSentenceKurdish(text: "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد."),
                   ],
                 ),
               ),
@@ -438,8 +444,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "They claimed there was an official disinformation campaign by the government."),
-                    ExampleSentenceKurdish(text: "بانگەشەی ئەوەیان دەکرد کە کەمپینێکی فەرمی چەواشەکاری لەلایەن حکومەتەوە هەبوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "They claimed there was an official disinformation campaign by the government."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بانگەشەی ئەوەیان دەکرد کە کەمپینێکی فەرمی چەواشەکاری لەلایەن حکومەتەوە هەبوو."),
                   ],
                 ),
               ),
@@ -1024,7 +1034,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disinformation (Derived forms: disinformations)
+- Noun: disinformation (derived forms: disinformations)
 1. Misinformation that is deliberately disseminated in order to influence or confuse rivals (foreign enemies or business competitors etc.)
 """,
   );
@@ -1058,7 +1068,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 617,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1093,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 952,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1118,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/knjliFs3gR8?t=',
+    videoId: 'knjliFs3gR8',
     startSeconds: 757,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1143,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pzvbUpKU4eE?t=',
+    videoId: 'pzvbUpKU4eE',
     startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1168,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S5LrQv496Iw?t=',
+    videoId: 'S5LrQv496Iw',
     startSeconds: 480,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1193,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3HrDf6nra-I?t=',
+    videoId: '3HrDf6nra-I',
     startSeconds: 585,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1218,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bolyiGMcjBs?t=',
+    videoId: 'bolyiGMcjBs',
     startSeconds: 528,
     autoPlay: true,
     params: const YoutubePlayerParams(

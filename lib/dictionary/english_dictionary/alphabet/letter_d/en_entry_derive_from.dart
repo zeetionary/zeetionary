@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Wealth and position in society derived largely from land ownership."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Wealth and position in society derived largely from land ownership."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivefroms3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He derived great pleasure from painting."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He derived great pleasure from painting."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivefroms4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We can derive some comfort from this fact."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We can derive some comfort from this fact."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivefroms5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The new drug is derived from fish oil."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The new drug is derived from fish oil."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivefroms6(String languageCode) async {
@@ -321,7 +325,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakderivefroms1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakderivefroms14(String languageCode) async {
+  Future<void> speakderivefroms14(String languageCode) async {
     // DOPSUM: CHANGE speakderivefrom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Wealth and position in society derived largely from land ownership.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Wealth and position in society derived largely from land ownership.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivefroms21(String languageCode) async {
@@ -404,7 +409,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سەرچاوە گرتن، وەرگیراوە لە، لێ پەیدا کردن، ئاکام وەرگرتن
 """),
-          const DefinitionKurdish(text: "١. (کاری لێکدراو) سەرچاوە گرتن لە شتێکەوە"),
+          const DefinitionKurdish(
+              text: "١. (کاری لێکدراو) سەرچاوە گرتن لە شتێکەوە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +419,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The word ‘politics’ is derived from a Greek word meaning ‘city’."),
-                    ExampleSentenceKurdish(text: "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات."),
                   ],
                 ),
               ),
@@ -438,8 +446,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Wealth and position in society derived largely from land ownership."),
-                    ExampleSentenceKurdish(text: "سامان و پێگە لە کۆمەڵگادا بەزۆری لە خاوەندارێتی زەوییەوە وەردەگردرێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Wealth and position in society derived largely from land ownership."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سامان و پێگە لە کۆمەڵگادا بەزۆری لە خاوەندارێتی زەوییەوە وەردەگردرێت."),
                   ],
                 ),
               ),
@@ -457,15 +469,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کاری لێکدراو) وەرگرتنی شتێک لە شتێکەوە"),
+          const DefinitionKurdish(
+              text: "٢. (کاری لێکدراو) وەرگرتنی شتێک لە شتێکەوە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He derived great pleasure from painting."),
-                    ExampleSentenceKurdish(text: "چێژی زۆری لە نیگارکێشانەوە وەردەگرت."),
+                    ExampleSentenceEnglish(
+                        text: "He derived great pleasure from painting."),
+                    ExampleSentenceKurdish(
+                        text: "چێژی زۆری لە نیگارکێشانەوە وەردەگرت."),
                   ],
                 ),
               ),
@@ -488,8 +503,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "We can derive some comfort from this fact."),
-                    ExampleSentenceKurdish(text: "دەتوانین کەمێک ئارامی لەم ڕاستییەوە وەربگرین."),
+                    ExampleSentenceEnglish(
+                        text: "We can derive some comfort from this fact."),
+                    ExampleSentenceKurdish(
+                        text: "دەتوانین کەمێک ئارامی لەم ڕاستییەوە وەربگرین."),
                   ],
                 ),
               ),
@@ -507,15 +524,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (کاری لێکدراو) وەرگرتنی مادەیەک لە شتێکەوە"),
+          const DefinitionKurdish(
+              text: "٣. (کاری لێکدراو) وەرگرتنی مادەیەک لە شتێکەوە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The new drug is derived from fish oil."),
-                    ExampleSentenceKurdish(text: "مادە تازەکە لە ڕۆنی ماسییەوە وەرگیردراوە."),
+                    ExampleSentenceEnglish(
+                        text: "The new drug is derived from fish oil."),
+                    ExampleSentenceKurdish(
+                        text: "مادە تازەکە لە ڕۆنی ماسییەوە وەرگیردراوە."),
                   ],
                 ),
               ),
@@ -1026,7 +1046,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NHiqsrYkcuk?t=',
+    videoId: 'NHiqsrYkcuk',
     startSeconds: 549,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1051,7 +1071,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j9h2-ZVDLB8?t=',
+    videoId: 'j9h2-ZVDLB8',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1076,7 +1096,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    videoId: '4Nr1AgIfajI',
     startSeconds: 1045,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1101,7 +1121,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KDGJmzqvKTg?t=',
+    videoId: 'KDGJmzqvKTg',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1126,7 +1146,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NG4Ws74RV04?t=',
+    videoId: 'NG4Ws74RV04',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1151,7 +1171,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DnuHzHHwqAw?t=',
+    videoId: 'DnuHzHHwqAw',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1176,7 +1196,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sJG-rXBbmCc?t=',
+    videoId: 'sJG-rXBbmCc',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1044,7 +1044,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disclose (Derived forms: discloses, disclosed, disclosing)
+- Verb: disclose (derived forms: discloses, disclosed, disclosing)
 1. Make known to the public information that was previously known only to a few people or that was meant to be kept a secret (= unwrap, let on, bring out, reveal, discover, expose, divulge, break, give away, let out, uncover, lay bare)
 "The auction house would not disclose the price at which the van Gogh had sold";
  
@@ -1082,7 +1082,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cY4e0uvp7uI?t=',
+    videoId: 'cY4e0uvp7uI',
     startSeconds: 1415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1107,7 +1107,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-lkCsKXAxfo?t=',
+    videoId: '-lkCsKXAxfo',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1132,7 +1132,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1157,7 +1157,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GsK5NaSCkho?t=',
+    videoId: 'GsK5NaSCkho',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1182,7 +1182,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N4wW85WZMJQ?t=',
+    videoId: 'N4wW85WZMJQ',
     startSeconds: 760,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1207,7 +1207,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9ZsORyZa8tI?t=',
+    videoId: '9ZsORyZa8tI',
     startSeconds: 964,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1232,7 +1232,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FCZ06Sfr9Cg?t=',
+    videoId: 'FCZ06Sfr9Cg',
     startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(

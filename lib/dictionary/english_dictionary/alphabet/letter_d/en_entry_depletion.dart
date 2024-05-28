@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepletions1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepletions14(String languageCode) async {
+  Future<void> speakdepletions14(String languageCode) async {
     // DOPSUM: CHANGE speakdepletion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +404,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: کەم‌بوونەوە، چۆڕەلێ‌هاتن، تەواوبوون،	خاڵی‌کردن، بەتاڵ‌کردن، هەڵچۆڕاندن،	خوێن‌گرتن
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک بەشی پێویستی لێ نەماوەتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک بەشی پێویستی لێ نەماوەتەوە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Increased expenditure has caused a depletion in our funds."),
-                    ExampleSentenceKurdish(text: "خەرجی زۆرمان بووە بەهۆی نەمانی بودجەمان."),
+                    ExampleSentenceKurdish(
+                        text: "خەرجی زۆرمان بووە بەهۆی نەمانی بودجەمان."),
                   ],
                 ),
               ),
@@ -988,7 +991,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: depletion (Derived forms: depletions)
+- Noun: depletion (derived forms: depletions)
 1. The act of decreasing something markedly
  
 2. The state of being depleted
@@ -1024,7 +1027,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1052,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaLOiGEDPJQ?t=',
+    videoId: 'CaLOiGEDPJQ',
     startSeconds: 308,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1077,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3YTfhJmh1I?t=',
+    videoId: 's3YTfhJmh1I',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1102,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kVOTPAxrrP4?t=',
+    videoId: 'kVOTPAxrrP4',
     startSeconds: 842,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1127,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DkS1pkKpILY?t=',
+    videoId: 'DkS1pkKpILY',
     startSeconds: 4750,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1152,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N1Epc01uJC8?t=',
+    videoId: 'N1Epc01uJC8',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1177,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OXhEBfK3Njc?t=',
+    videoId: 'OXhEBfK3Njc',
     startSeconds: 890,
     autoPlay: true,
     params: const YoutubePlayerParams(

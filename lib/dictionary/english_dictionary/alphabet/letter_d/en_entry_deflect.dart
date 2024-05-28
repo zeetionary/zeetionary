@@ -1021,7 +1021,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deflect (Derived forms: deflected, deflects, deflecting)
+- Verb: deflect (derived forms: deflected, deflects, deflecting)
 1. Prevent the occurrence of; prevent from happening; to protect from or to keep away anything undesirable; to ward off (= debar, forefend, forfend, obviate, avert, head off, stave off, fend off, avoid, ward off)
 "deflect a strike";
  
@@ -1066,7 +1066,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    videoId: '-cPdImejxEQ',
     startSeconds: 198,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1091,7 +1091,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4I-p8vjQ95s?t=',
+    videoId: '4I-p8vjQ95s',
     startSeconds: 521,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1116,7 +1116,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C0mDENSW3VQ?t=',
+    videoId: 'C0mDENSW3VQ',
     startSeconds: 208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1141,7 +1141,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yphxh5L8YbQ?t=',
+    videoId: 'Yphxh5L8YbQ',
     startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1166,7 +1166,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gruxiih9J_k?t=',
+    videoId: 'gruxiih9J_k',
     startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1191,7 +1191,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3KC32Vymo0Q?t=',
+    videoId: '3KC32Vymo0Q',
     startSeconds: 851,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1216,7 +1216,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Q1U20n3LIy4?t=',
+    videoId: 'Q1U20n3LIy4',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(

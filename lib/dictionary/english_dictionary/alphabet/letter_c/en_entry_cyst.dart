@@ -407,7 +407,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cyst (Derived forms: cysts)
+- Noun: cyst (derived forms: cysts)
 1. A closed sac that develops abnormally in some body structure
  
 2. A small anatomically normal sac or bladderlike structure (especially one containing fluid) (= vesicle)
@@ -443,7 +443,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/c6n0rFMsVh0?t=',
+    videoId: 'c6n0rFMsVh0',
     startSeconds: 1343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/93yMNNyaTzg?t=',
+    videoId: '93yMNNyaTzg',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8zFEppGYEKA?t=',
+    videoId: '8zFEppGYEKA',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JE5TdcST0LI?t=',
+    videoId: 'JE5TdcST0LI',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IpN_wAlYZSs?t=',
+    videoId: 'IpN_wAlYZSs',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wiMqAbHc8I8?t=',
+    videoId: 'wiMqAbHc8I8',
     startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gcYRpOIUElU?t=',
+    videoId: 'gcYRpOIUElU',
     startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(

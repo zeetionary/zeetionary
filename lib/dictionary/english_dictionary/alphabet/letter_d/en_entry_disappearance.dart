@@ -14,7 +14,8 @@ class EnglishEntrydisappearance extends StatefulWidget {
   const EnglishEntrydisappearance({super.key});
 
   @override
-  State<EnglishEntrydisappearance> createState() => _EnglishEntrydisappearanceState();
+  State<EnglishEntrydisappearance> createState() =>
+      _EnglishEntrydisappearanceState();
 }
 
 class _EnglishEntrydisappearanceState extends State<EnglishEntrydisappearance> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("For the past century we have witnessed the disappearance of many species of plants and animals from our planet."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "For the past century we have witnessed the disappearance of many species of plants and animals from our planet."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappearances3(String languageCode) async {
@@ -413,7 +415,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Police are investigating the disappearance of a young woman."),
-                    ExampleSentenceKurdish(text: "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن."),
+                    ExampleSentenceKurdish(
+                        text: "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن."),
                   ],
                 ),
               ),
@@ -438,8 +441,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "For the past century we have witnessed the disappearance of many species of plants and animals from our planet."),
-                    ExampleSentenceKurdish(text: "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە هەسارەکەمان."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "For the past century we have witnessed the disappearance of many species of plants and animals from our planet."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە سەدەی ڕابردوودا لەناوچوونی ژمارەیەکی زۆر لە ڕووەک و ئاژەڵمان دیوە لە هەسارەکەمان."),
                   ],
                 ),
               ),
@@ -1024,7 +1031,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disappearance (Derived forms: disappearances)
+- Noun: disappearance (derived forms: disappearances)
 1. The act of leaving secretly or without explanation (= disappearing)
  
 2. The event of passing out of sight
@@ -1065,7 +1072,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VS6tnF31zr4?t=',
+    videoId: 'VS6tnF31zr4',
     startSeconds: 1277,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1097,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZ_xhkg32nk?t=',
+    videoId: 'OZ_xhkg32nk',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1122,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GkgXRyScubI?t=',
+    videoId: 'GkgXRyScubI',
     startSeconds: 559,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1147,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    videoId: 'y4DTW4B3Sjs',
     startSeconds: 708,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1172,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cMBrvHsFD_8?t=',
+    videoId: 'cMBrvHsFD_8',
     startSeconds: 1643,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1197,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Q1FzhMY8FQ?t=',
+    videoId: '4Q1FzhMY8FQ',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1215,7 +1222,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y__v0aEgzO0',
+    videoId: 'y__v0aEgzO0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

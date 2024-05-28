@@ -441,11 +441,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cross-breed (Derived forms: cross-breeds)
+- Noun: cross-breed (derived forms: cross-breeds)
 1. (genetics) an organism that is the offspring of genetically dissimilar parents or stock; especially offspring produced by breeding plants or animals of different varieties or breeds or species (= hybrid, cross)
 "a mule is a cross-breed between a horse and a donkey";
 
-- Verb: cross-breed (Derived forms: crossbred, cross-breeding, cross-breeds)
+- Verb: cross-breed (derived forms: crossbred, cross-breeding, cross-breeds)
 1. Breed animals or plants using parents of different races and varieties (= cross, hybridize, hybridise [Brit], interbreed)
 "Mendel tried cross-breeding";
 """,
@@ -480,7 +480,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0J3RQCVXLcA?t=',
+    videoId: '0J3RQCVXLcA',
     startSeconds: 398,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3kr7C2L6AUA?t=',
+    videoId: '3kr7C2L6AUA',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uq4Vi8PyBFM?t=',
+    videoId: 'uq4Vi8PyBFM',
     startSeconds: 1316,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9kXAx58mSvo?t=',
+    videoId: '9kXAx58mSvo',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4B-KnwrUUgE?t=',
+    videoId: '4B-KnwrUUgE',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IejpU9fpX5s?t=',
+    videoId: 'IejpU9fpX5s',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z-7ZZ2zVWM4?t=',
+    videoId: 'z-7ZZ2zVWM4',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(

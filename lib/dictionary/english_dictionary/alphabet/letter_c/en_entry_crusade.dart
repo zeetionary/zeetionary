@@ -499,17 +499,17 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crusade (Derived forms: crusades)
+- Noun: crusade (derived forms: crusades)
 1. A series of actions advancing a principle or tending toward a particular end (= campaign, cause, drive, movement, effort)
 "he supported populist crusades";
 
-- Verb: crusade (Derived forms: crusades, crusaded, crusading)
+- Verb: crusade (derived forms: crusades, crusaded, crusading)
 1. Exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for (= fight, press, campaign, push, agitate)
 "She is crusading for women's rights";
  
 2. Go on a crusade; fight a holy war
 
-- Noun: Crusade (Derived forms: Crusades)
+- Noun: Crusade (derived forms: Crusades)
 1. Any of the more or less continuous military expeditions in the 11th to 13th centuries when Christian powers of Europe tried to recapture the Holy Land from the Muslims
 """,
   );
@@ -543,7 +543,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n9xhJrPXop4?t=',
+    videoId: 'n9xhJrPXop4',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cln0J87vulU?t=',
+    videoId: 'Cln0J87vulU',
     startSeconds: 1072,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 1075,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +618,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aTDG16Mh2_w?t=',
+    videoId: 'aTDG16Mh2_w',
     startSeconds: 490,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -643,7 +643,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omPJV-hWBTg?t=',
+    videoId: 'omPJV-hWBTg',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -668,7 +668,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/auPYOsBejK4?t=',
+    videoId: 'auPYOsBejK4',
     startSeconds: 1028,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -693,7 +693,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IaOeVgZ-wc?t=',
+    videoId: '4IaOeVgZ-wc',
     startSeconds: 821,
     autoPlay: true,
     params: const YoutubePlayerParams(

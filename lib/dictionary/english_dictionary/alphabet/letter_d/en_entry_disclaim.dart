@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She disclaimed any knowledge of her husband's whereabouts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She disclaimed any knowledge of her husband's whereabouts."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisclaims3(String languageCode) async {
@@ -404,7 +405,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: رەت کردن، نکۆڵی کردن، حاشا کردن
 """),
-          const DefinitionKurdish(text: "١. (کردار) بە فەرمی گوتنی ئەوەی کە هیچ زانیاریت لەسەر شتێک نییە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) بە فەرمی گوتنی ئەوەی کە هیچ زانیاریت لەسەر شتێک نییە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The rebels disclaimed all responsibility for the explosion."),
-                    ExampleSentenceKurdish(text: "یاخیبووەکان نکۆڵییان لە هەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "یاخیبووەکان نکۆڵییان لە هەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She disclaimed any knowledge of her husband's whereabouts."),
-                    ExampleSentenceKurdish(text: "نکۆڵی لە هە رزانیارییەک کرد سەبارەت بە شوێنی هاوسەرەکەی."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "She disclaimed any knowledge of her husband's whereabouts."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نکۆڵی لە هە رزانیارییەک کرد سەبارەت بە شوێنی هاوسەرەکەی."),
                   ],
                 ),
               ),
@@ -1024,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disclaim (Derived forms: disclaimed, disclaiming, disclaims)
+- Verb: disclaim (derived forms: disclaimed, disclaiming, disclaims)
 1. Renounce a legal claim or title to
  
 2. Make a disclaimer about
@@ -1061,7 +1070,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cIYSPwAwQVI?t=',
+    videoId: 'cIYSPwAwQVI',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1086,7 +1095,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Z1p7TMPXFM?t=',
+    videoId: '7Z1p7TMPXFM',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1111,7 +1120,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wwzFB_UjtVQ?t=',
+    videoId: 'wwzFB_UjtVQ',
     startSeconds: 7354,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1136,7 +1145,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_RtUt0RsGMc?t=',
+    videoId: '_RtUt0RsGMc',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1161,7 +1170,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JBUzAeQGWpA?t=',
+    videoId: 'JBUzAeQGWpA',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1186,7 +1195,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Pt51e3U7IY?t=',
+    videoId: '2Pt51e3U7IY',
     startSeconds: 1086,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1220,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ukkE2UP8K9M?t=',
+    videoId: 'ukkE2UP8K9M',
     startSeconds: 894,
     autoPlay: true,
     params: const YoutubePlayerParams(

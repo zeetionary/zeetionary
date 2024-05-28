@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The car was found to have defective brakes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The car was found to have defective brakes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefectives3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her hearing was found to be slightly defective."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her hearing was found to be slightly defective."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefectives4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His vision is severely defective."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His vision is severely defective."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefectives5(String languageCode) async {
@@ -341,7 +344,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "If the goods are defective you should get a full refund."),
-                    ExampleSentenceKurdish(text: "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت."),
                   ],
                 ),
               ),
@@ -364,8 +369,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The car was found to have defective brakes."),
-                    ExampleSentenceKurdish(text: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری هەیە."),
+                    ExampleSentenceEnglish(
+                        text: "The car was found to have defective brakes."),
+                    ExampleSentenceKurdish(
+                        text: "زانرا ئۆتۆمبێلەکە وەستێنەری کێشەداری هەیە."),
                   ],
                 ),
               ),
@@ -383,14 +390,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) هەبوونی کێشەیەک لە ئەندامی جەستەدا یان لە شێوازی کارکردنیدا"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ھاوەڵناو) هەبوونی کێشەیەک لە ئەندامی جەستەدا یان لە شێوازی کارکردنیدا"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Her hearing was found to be slightly defective."),
-                    ExampleSentenceKurdish(text: "بیستنی وابینرا کە کەمێک کێشەی هەبێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Her hearing was found to be slightly defective."),
+                    ExampleSentenceKurdish(
+                        text: "بیستنی وابینرا کە کەمێک کێشەی هەبێت."),
                   ],
                 ),
               ),
@@ -413,8 +425,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "His vision is severely defective."),
-                    ExampleSentenceKurdish(text: "بینایی وابینرا تەواو کێشەی هەبێت."),
+                    ExampleSentenceEnglish(
+                        text: "His vision is severely defective."),
+                    ExampleSentenceKurdish(
+                        text: "بینایی وابینرا تەواو کێشەی هەبێت."),
                   ],
                 ),
               ),
@@ -921,7 +935,7 @@ ${englishMeaningConst.text}
 3. Not working properly (= bad)
 "a defective appliance";
 
-- Noun: defective (Derived forms: defectives)
+- Noun: defective (derived forms: defectives)
 1. A person or thing considered to be defective
 """,
   );
@@ -955,7 +969,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DMVWW-bmKwQ?t=',
+    videoId: 'DMVWW-bmKwQ',
     startSeconds: 399,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -980,7 +994,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kTaYet07Ioo?t=',
+    videoId: 'kTaYet07Ioo',
     startSeconds: 472,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1005,7 +1019,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZOvyn72x6kQ?t=',
+    videoId: 'ZOvyn72x6kQ',
     startSeconds: 516,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1030,7 +1044,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hA95iw4B2jg?t=',
+    videoId: 'hA95iw4B2jg',
     startSeconds: 1026,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1055,7 +1069,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z83I2tz5UzM?t=',
+    videoId: 'Z83I2tz5UzM',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1080,7 +1094,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AUaJ8pDlxi8?t=',
+    videoId: 'AUaJ8pDlxi8',
     startSeconds: 1275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1105,7 +1119,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F1w80BW8sjc?t=',
+    videoId: 'F1w80BW8sjc',
     startSeconds: 2174,
     autoPlay: true,
     params: const YoutubePlayerParams(

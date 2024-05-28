@@ -999,7 +999,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deuce (Derived forms: deuces)
+- Noun: deuce (derived forms: deuces)
 1. A tie in tennis or table tennis that requires winning two successive points to win the game
  
 2. The cardinal number that is the sum of one and one or a numeral representing this number (= two, 2, II)
@@ -1040,7 +1040,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1j_k5WCFShQ?t=',
+    videoId: '1j_k5WCFShQ',
     startSeconds: 596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1065,7 +1065,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BuX6-lvUwd0?t=',
+    videoId: 'BuX6-lvUwd0',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1090,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ki4Fbctwnjs?t=',
+    videoId: 'ki4Fbctwnjs',
     startSeconds: 1041,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1115,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pox7SbWbhCc?t=',
+    videoId: 'pox7SbWbhCc',
     startSeconds: 235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1140,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OnjI-FBdRTQ?t=',
+    videoId: 'OnjI-FBdRTQ',
     startSeconds: 12487,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1165,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ExaoAv95D4I?t=',
+    videoId: 'ExaoAv95D4I',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1190,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wNqxKmPNgko?t=',
+    videoId: 'wNqxKmPNgko',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(

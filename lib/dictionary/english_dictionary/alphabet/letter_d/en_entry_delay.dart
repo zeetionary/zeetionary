@@ -1023,7 +1023,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: delay (Derived forms: delays, delaying, delayed)
+- Verb: delay (derived forms: delays, delaying, delayed)
 1. Cause to be slowed down or delayed (= detain, hold up)
 "Traffic was delayed by the bad weather"; "she delayed the work that she didn't want to perform";
  
@@ -1035,7 +1035,7 @@ ${englishMeaningConst.text}
 4. Slow the growth or development of (= check, retard)
 "The brain damage will delay the child's language development";
 
-- Noun: delay (Derived forms: delays)
+- Noun: delay (derived forms: delays)
 1. Time during which some action is awaited (= hold, time lag, postponement, wait)
 "instant replay caused too long a delay";
  
@@ -1072,7 +1072,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 896,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1097,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QiKZYt9070U?t=',
+    videoId: 'QiKZYt9070U',
     startSeconds: 427,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1122,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    videoId: '-L7o6HtX8Vg',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1147,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jUodZ6HqvnY?t=',
+    videoId: 'jUodZ6HqvnY',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1172,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pon4Zux5MaQ?t=',
+    videoId: 'Pon4Zux5MaQ',
     startSeconds: 515,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1197,7 +1197,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjySnrspD7E?t=',
+    videoId: 'gjySnrspD7E',
     startSeconds: 2801,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1222,7 +1222,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 1879,
     autoPlay: true,
     params: const YoutubePlayerParams(

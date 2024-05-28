@@ -498,13 +498,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: debut (Derived forms: debuts)
+- Noun: debut (derived forms: debuts)
 1. The act of starting something for the first time; introducing something new (= initiation, founding, foundation, institution, origination, creation, innovation, introduction, instauration, first appearance, launching, unveiling, entry)
 "they looked forward to the debut of their new product line";
 
 2. The presentation of a debutante in society
 
-- Verb: debut (Derived forms: debuts, debuting, debuted)
+- Verb: debut (derived forms: debuts, debuting, debuted)
 1. (performing arts) present for the first time to the public
 "The band debuts a new song or two each month"
  
@@ -545,7 +545,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9sRQQRiltrE?t=',
+    videoId: '9sRQQRiltrE',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wMmy2MlH55U?t=',
+    videoId: 'wMmy2MlH55U',
     startSeconds: 654,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HgbxUMx3JWA?t=',
+    videoId: 'HgbxUMx3JWA',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxRUuGqqMG4?t=',
+    videoId: 'HxRUuGqqMG4',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 1183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -695,7 +695,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BD44SVoCIFo?t=',
+    videoId: 'BD44SVoCIFo',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1019,7 +1019,7 @@ ${englishMeaningConst.text}
 2. Crushed by grief
 "depressed and desolate of soul"; "a low desolate wail"
 
-- Verb: desolate (Derived forms: desolating, desolates, desolated)
+- Verb: desolate (derived forms: desolating, desolates, desolated)
 1. Leave someone who needs or counts on you; leave in the lurch (= abandon, forsake [literary], desert)
  
 2. Reduce in population (= depopulate)
@@ -1058,7 +1058,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1083,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7DW2itgNYHo?t=',
+    videoId: '7DW2itgNYHo',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1108,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RZt7kE7PZMQ?t=',
+    videoId: 'RZt7kE7PZMQ',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1133,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LwZIxGAG8xA?t=',
+    videoId: 'LwZIxGAG8xA',
     startSeconds: 386,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1158,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NcRifDitRnU?t=',
+    videoId: 'NcRifDitRnU',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1183,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W_E9wivFlpE?t=',
+    videoId: 'W_E9wivFlpE',
     startSeconds: 559,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1208,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaOwcYLGTMo?t=',
+    videoId: 'CaOwcYLGTMo',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

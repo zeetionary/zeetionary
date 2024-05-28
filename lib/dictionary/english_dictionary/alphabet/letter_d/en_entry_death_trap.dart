@@ -332,7 +332,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تەڵەی مەرگ، داوی مردن یان مەرگ، شوێنی سەرەخۆرە، شوێنی پڕمەترسی
 """),
-          const DefinitionKurdish(text: "١. (ناو) بینایەک، ئۆتۆمبێلێک، هتد کە زۆر مەترسیدارە و دەکرێت ببێتە هۆکاری مەرگ"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) بینایەک، ئۆتۆمبێلێک، هتد کە زۆر مەترسیدارە و دەکرێت ببێتە هۆکاری مەرگ"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +343,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The cars blocking the exits could turn this place into a death trap."),
-                    ExampleSentenceKurdish(text: "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ."),
                   ],
                 ),
               ),
@@ -432,7 +436,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deathtrap (Derived forms: deathtraps)
+- Noun: deathtrap (derived forms: deathtraps)
 1. Any structure that is very unsafe; where people are likely to be killed
 """,
   );
@@ -466,7 +470,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n9xhJrPXop4?t=',
+    videoId: 'n9xhJrPXop4',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +495,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bcdEFos9YQQ?t=',
+    videoId: 'bcdEFos9YQQ',
     startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +520,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zh4c5IrllBg?t=',
+    videoId: 'Zh4c5IrllBg',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +545,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TVseHEk5_1E?t=',
+    videoId: 'TVseHEk5_1E',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +570,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y-SnB10ihD4?t=',
+    videoId: 'Y-SnB10ihD4',
     startSeconds: 649,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +595,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rArpyMXT2ew?t=',
+    videoId: 'rArpyMXT2ew',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +620,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eFReTj2KsM0?t=',
+    videoId: 'eFReTj2KsM0',
     startSeconds: 759,
     autoPlay: true,
     params: const YoutubePlayerParams(

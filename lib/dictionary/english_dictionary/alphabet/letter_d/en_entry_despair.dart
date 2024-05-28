@@ -1011,14 +1011,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: despair (Derived forms: despairs)
+- Noun: despair (derived forms: despairs)
 1. A state in which all hope is lost or absent (= desperation)
 "in the depths of despair"; "they were rescued from despair at the last minute";
  
 2. The feeling that everything is wrong and nothing will turn out well
 "they moaned in despair and dismay"; "one harsh word would send her into the depths of despair"
 
-- Verb: despair (Derived forms: despairs, despairing, despaired)
+- Verb: despair (derived forms: despairs, despairing, despaired)
 1. Abandon hope; give up hope; lose heart
 "Don't despair--help is on the way!"
 """,
@@ -1053,7 +1053,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D0x2dgpBDzc?t=',
+    videoId: 'D0x2dgpBDzc',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    videoId: 'y4DTW4B3Sjs',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9GR3XSuInYE?t=',
+    videoId: '9GR3XSuInYE',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UG61a5vjxuI?t=',
+    videoId: 'UG61a5vjxuI',
     startSeconds: 1153,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ir3eJ1t13fk?t=',
+    videoId: 'Ir3eJ1t13fk',
     startSeconds: 2328,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JTB5T5aldNo?t=',
+    videoId: 'JTB5T5aldNo',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U6OhuqD4w1k?t=',
+    videoId: 'U6OhuqD4w1k',
     startSeconds: 1356,
     autoPlay: true,
     params: const YoutubePlayerParams(

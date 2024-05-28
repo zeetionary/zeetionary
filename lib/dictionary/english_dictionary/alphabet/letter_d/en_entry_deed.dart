@@ -495,13 +495,13 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deed (Derived forms: deeds)
+- Noun: deed (derived forms: deeds)
 1. (law) a legal document signed and sealed and delivered to effect a transfer of property and to show the legal right to possess it (= deed of conveyance, title)
 "he signed the deed";
  
 2. Something that people do or cause to happen (= act, human action, human activity)
 
-- Verb: deed (Derived forms: deeded, deeds, deeding)
+- Verb: deed (derived forms: deeded, deeds, deeding)
 Usage: N. Amer
 1. Transfer real property by deed 
 "He deeded over the mineral rights to some fellas from Denver"
@@ -537,7 +537,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cee6883w2Nk?t=',
+    videoId: 'cee6883w2Nk',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OgFcz6klaeg?t=',
+    videoId: 'OgFcz6klaeg',
     startSeconds: 462,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OPEh7UWmfDc?t=',
+    videoId: 'OPEh7UWmfDc',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -637,7 +637,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YCnFYvL17v4?t=',
+    videoId: 'YCnFYvL17v4',
     startSeconds: 1304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -662,7 +662,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VFR37y1-81M?t=',
+    videoId: 'VFR37y1-81M',
     startSeconds: 941,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -687,7 +687,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jGEYGevx13s?t=',
+    videoId: 'jGEYGevx13s',
     startSeconds: 729,
     autoPlay: true,
     params: const YoutubePlayerParams(

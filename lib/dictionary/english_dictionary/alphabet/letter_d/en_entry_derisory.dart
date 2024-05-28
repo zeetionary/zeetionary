@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They offered us a derisory £50 a week."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They offered us a derisory £50 a week."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderisorys2(String languageCode) async {
@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakderisorys1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakderisorys14(String languageCode) async {
+  Future<void> speakderisorys14(String languageCode) async {
     // DOPSUM: CHANGE speakderisory
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -402,18 +402,21 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر بچووک یان بێ‌بەها کە شایەنی بیرکردنەوە نییە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) زۆر بچووک یان بێ‌بەها کە شایەنی بیرکردنەوە نییە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "They offered us a derisory £50 a week."),
+                    ExampleSentenceKurdish(
                         text:
-                            "They offered us a derisory £50 a week."),
-                    ExampleSentenceKurdish(text: "٥٠ پاوەند گاڵتەجاڕانەیان بۆ هەفتەیەکیان پێمان پێشکەس کرد."),
+                            "٥٠ پاوەند گاڵتەجاڕانەیان بۆ هەفتەیەکیان پێمان پێشکەس کرد."),
                   ],
                 ),
               ),
@@ -1045,7 +1048,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VeXlXamiKRQ?t=',
+    videoId: 'VeXlXamiKRQ',
     startSeconds: 724,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1070,7 +1073,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qHEpWlyaKy0?t=',
+    videoId: 'qHEpWlyaKy0',
     startSeconds: 2916,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1095,7 +1098,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TwiSCSgl288?t=',
+    videoId: 'TwiSCSgl288',
     startSeconds: 1381,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1120,7 +1123,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lh3a-lrVtGk?t=',
+    videoId: 'lh3a-lrVtGk',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1145,7 +1148,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mGQ4kFV2hr4?t=',
+    videoId: 'mGQ4kFV2hr4',
     startSeconds: 640,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1170,7 +1173,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yuU4mq2-B5s?t=',
+    videoId: 'yuU4mq2-B5s',
     startSeconds: 1621,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1195,7 +1198,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oUVg2yeXt1w?t=',
+    videoId: 'oUVg2yeXt1w',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(

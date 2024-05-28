@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You shouldn't denigrate people just because they have different beliefs from you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You shouldn't denigrate people just because they have different beliefs from you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdenigrates3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdenigrates1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdenigrates14(String languageCode) async {
+  Future<void> speakdenigrates14(String languageCode) async {
     // DOPSUM: CHANGE speakdenigrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You shouldn't denigrate people just because they have different beliefs from you.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You shouldn't denigrate people just because they have different beliefs from you.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdenigrates21(String languageCode) async {
@@ -404,16 +406,17 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: پەڵەدار کردن، ڕەش کردن، ناوزڕاندن
 // """),
-          const DefinitionKurdish(text: "١. (کردار) سەرزەنشتکردنی کەسێک بە نادادی"),
+          const DefinitionKurdish(
+              text: "١. (کردار) سەرزەنشتکردنی کەسێک بە نادادی"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "I didn't intend to denigrate her achievements."),
-                    ExampleSentenceKurdish(text: "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە."),
+                        text: "I didn't intend to denigrate her achievements."),
+                    ExampleSentenceKurdish(
+                        text: "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە."),
                   ],
                 ),
               ),
@@ -438,8 +441,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "You shouldn't denigrate people just because they have different beliefs from you."),
-                    ExampleSentenceKurdish(text: "نابێت سەرزەنشتی خەڵکی بکەیت تەنها لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان هەیە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "You shouldn't denigrate people just because they have different beliefs from you."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نابێت سەرزەنشتی خەڵکی بکەیت تەنها لەبەر ئەوەی بیرکردنەوەی جیاواز لە تۆیان هەیە."),
                   ],
                 ),
               ),
@@ -988,7 +995,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: denigrate (Derived forms: denigrated, denigrates, denigrating)
+- Verb: denigrate (derived forms: denigrated, denigrates, denigrating)
 1. Cause to seem less serious; play down (= minimize, belittle, derogate, minimise [Brit])
 "Don't denigrate his influence";
  
@@ -1025,7 +1032,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DUppu5IxEY4?t=',
+    videoId: 'DUppu5IxEY4',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1050,7 +1057,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LQ6EXYXF58Q?t=',
+    videoId: 'LQ6EXYXF58Q',
     startSeconds: 1126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1075,7 +1082,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AYxKRoONrfY?t=',
+    videoId: 'AYxKRoONrfY',
     startSeconds: 3533,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1107,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CKNYcYYvfv4?t=',
+    videoId: 'CKNYcYYvfv4',
     startSeconds: 1248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1125,7 +1132,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FE7h9DnA38E?t=',
+    videoId: 'FE7h9DnA38E',
     startSeconds: 1267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1150,7 +1157,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H32z45o0WxA?t=',
+    videoId: 'H32z45o0WxA',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1175,7 +1182,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DMB785atM7k?t=',
+    videoId: 'DMB785atM7k',
     startSeconds: 1439,
     autoPlay: true,
     params: const YoutubePlayerParams(

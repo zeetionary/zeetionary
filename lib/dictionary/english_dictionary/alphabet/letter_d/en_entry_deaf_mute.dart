@@ -439,7 +439,7 @@ ${englishMeaningConst.text}
 - Adjective: deaf-mute 
 1. Lacking the sense of hearing and the ability to speak (= deaf-and-dumb)
 
-Noun: deaf mute (Derived forms: deaf-mutes)
+Noun: deaf mute (derived forms: deaf-mutes)
 1. A deaf person who is unable to speak (= mute, deaf-and-dumb person)
 """,
   );
@@ -473,7 +473,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2IlGNlDtEok?t=',
+    videoId: '2IlGNlDtEok',
     startSeconds: 454,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oot_P8Tw6II?t=',
+    videoId: 'oot_P8Tw6II',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l1oayQVW9rw?t=',
+    videoId: 'l1oayQVW9rw',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KvwUMfNCqBk?t=',
+    videoId: 'KvwUMfNCqBk',
     startSeconds: 2259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TvLaJl5TmB4?t=',
+    videoId: 'TvLaJl5TmB4',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4VX-u72r1oQ?t=',
+    videoId: '4VX-u72r1oQ',
     startSeconds: 263,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3FbmtHgz538?t=',
+    videoId: '3FbmtHgz538',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(

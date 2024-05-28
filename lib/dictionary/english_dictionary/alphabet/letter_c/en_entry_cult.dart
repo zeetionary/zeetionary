@@ -442,7 +442,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cult (Derived forms: cults)
+- Noun: cult (derived forms: cults)
 1. Followers of an unorthodox, extremist, or false religion or sect who often live outside of conventional society under the direction of a charismatic leader
  
 2. Followers of an exclusive system of beliefs and practices
@@ -491,7 +491,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 1128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhNUjg9X4g8?t=',
+    videoId: 'PhNUjg9X4g8',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 1816,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qjqh9UVfNNk?t=',
+    videoId: 'qjqh9UVfNNk',
     startSeconds: 731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XEZfGlyLQnA?t=',
+    videoId: 'XEZfGlyLQnA',
     startSeconds: 727,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjySnrspD7E?t=',
+    videoId: 'gjySnrspD7E',
     startSeconds: 2181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    videoId: '5R65skWdg7Y',
     startSeconds: 2143,
     autoPlay: true,
     params: const YoutubePlayerParams(

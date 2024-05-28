@@ -1036,10 +1036,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disillusion (Derived forms: disillusions)
+- Noun: disillusion (derived forms: disillusions)
 1. Disappointment on finding out that something is not as good as hoped, or that previous beliefs were false (= disenchantment, disillusionment)
 
-- Verb: disillusion (Derived forms: disillusioned, disillusioning, disillusions)
+- Verb: disillusion (derived forms: disillusioned, disillusioning, disillusions)
 1. Cause someone to understand that something they previously believed is false or overly optimistic (= disenchant)
 """,
   );
@@ -1073,7 +1073,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pLwHTqU2r_Y?t=',
+    videoId: 'pLwHTqU2r_Y',
     startSeconds: 1225,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1098,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1123,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J-piNPoWoYc?t=',
+    videoId: 'J-piNPoWoYc',
     startSeconds: 1501,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1148,7 +1148,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1dhvry6E0jA?t=',
+    videoId: '1dhvry6E0jA',
     startSeconds: 644,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1173,7 +1173,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pMHUMxSfn3I?t=',
+    videoId: 'pMHUMxSfn3I',
     startSeconds: 219,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1198,7 +1198,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4_tCDYhUyqQ?t=',
+    videoId: '4_tCDYhUyqQ',
     startSeconds: 850,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1223,7 +1223,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8St36RjHd2E?t=',
+    videoId: '8St36RjHd2E',
     startSeconds: 1692,
     autoPlay: true,
     params: const YoutubePlayerParams(

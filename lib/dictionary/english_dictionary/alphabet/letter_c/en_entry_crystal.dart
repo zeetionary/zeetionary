@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crystal (Derived forms: crystals)
+- Noun: crystal (derived forms: crystals)
 1. A solid formed by the solidification of a chemical and having a highly regular atomic structure
  
 2. A crystalline element used as a component in various electronic devices
@@ -576,7 +576,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y1sF6ZeASU0?t=',
+    videoId: 'y1sF6ZeASU0',
     startSeconds: 1494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +601,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -626,7 +626,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O7yfx0ejELg?t=',
+    videoId: 'O7yfx0ejELg',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -651,7 +651,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fzzxozmuj4I?t=',
+    videoId: 'Fzzxozmuj4I',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -676,7 +676,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KV67v0XqGPg',
+    videoId: 'KV67v0XqGPg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -701,7 +701,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    videoId: 'lGSOWwUvJiU',
     startSeconds: 225,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -726,7 +726,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(

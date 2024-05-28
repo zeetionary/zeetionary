@@ -406,10 +406,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: pancake (Derived forms: pancakes)
+- Noun: pancake (derived forms: pancakes)
 1. A flat cake of thin batter fried on both sides on a griddle (= battercake, flannel cake [US], flannel-cake [US], flapcake [N. Amer], flapjack [N. Amer], griddlecake, hotcake, hot cake)
 
-- Verb: pancake (Derived forms: pancaking, pancaked, pancakes)
+- Verb: pancake (derived forms: pancaking, pancaked, pancakes)
 1. Make flat or flatter (= flatten)
 "pancake a road";
  
@@ -449,7 +449,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2_kRmS6y8A?t=',
+    videoId: 'E2_kRmS6y8A',
     startSeconds: 2179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/79PF840SYrE?t=',
+    videoId: '79PF840SYrE',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CmtVK9B7TUw',
+    videoId: 'CmtVK9B7TUw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CmtVK9B7TUw',
+    videoId: 'CmtVK9B7TUw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8dsSREXKP8?t=',
+    videoId: 'W8dsSREXKP8',
     startSeconds: 625,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rir1m-rj-KE?t=',
+    videoId: 'rir1m-rj-KE',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XWO6QBge5T4?t=',
+    videoId: 'XWO6QBge5T4',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(

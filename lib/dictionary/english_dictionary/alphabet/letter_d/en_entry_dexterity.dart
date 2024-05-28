@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She handled the discussion with dexterity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She handled the discussion with dexterity."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdexteritys3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He answered the reporters' questions with all the dexterity of a politician."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He answered the reporters' questions with all the dexterity of a politician."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdexteritys4(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdexteritys1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdexteritys14(String languageCode) async {
+  Future<void> speakdexteritys14(String languageCode) async {
     // DOPSUM: CHANGE speakdexterity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +406,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شارەزایی، زیرەکی، دەس‌ڕاهاتوویی، دەس‌چابوکی، تەڕدەسی، ڕەقاسی، وەستایی، دەس‌سووکی
 """),
-          const DefinitionKurdish(text: "١. (ناو) شارەزایی لە بەکارهێنانی دەست و مێشک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) شارەزایی لە بەکارهێنانی دەست و مێشک"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "You need good manual dexterity to be a dentist."),
-                    ExampleSentenceKurdish(text: "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاهاتوویی هەیە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاهاتوویی هەیە."),
                   ],
                 ),
               ),
@@ -438,7 +443,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She handled the discussion with dexterity."),
+                    ExampleSentenceEnglish(
+                        text: "She handled the discussion with dexterity."),
                     ExampleSentenceKurdish(text: "باسەکەی بە شارەزایی ڕاگرت."),
                   ],
                 ),
@@ -464,8 +470,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He answered the reporters' questions with all the dexterity of a politician."),
-                    ExampleSentenceKurdish(text: "وەڵامی پرسیاری پەیامنێرانی دایەوە بە شارەزایی تەواوی سیاسەتمەدارێکەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He answered the reporters' questions with all the dexterity of a politician."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وەڵامی پرسیاری پەیامنێرانی دایەوە بە شارەزایی تەواوی سیاسەتمەدارێکەوە."),
                   ],
                 ),
               ),
@@ -1024,7 +1034,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dexterity (Derived forms: dexterities)
+- Noun: dexterity (derived forms: dexterities)
 1. Adroitness in using the hands (= manual dexterity, sleight)
 "he can do any sort of work requiring handiness and dexterity";
 """,
@@ -1059,7 +1069,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/05gCLHlpzTU?t=',
+    videoId: '05gCLHlpzTU',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1094,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6QDvJ7Vtfac?t=',
+    videoId: '6QDvJ7Vtfac',
     startSeconds: 128,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1119,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j6tbG6b6xRg?t=',
+    videoId: 'j6tbG6b6xRg',
     startSeconds: 837,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1144,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/15D_LWIguL8?t=',
+    videoId: '15D_LWIguL8',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1169,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xc4YH0nv_90?t=',
+    videoId: 'Xc4YH0nv_90',
     startSeconds: 367,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1194,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xc4YH0nv_90?t=',
+    videoId: 'Xc4YH0nv_90',
     startSeconds: 363,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1219,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EobNj9QwVSA?t=',
+    videoId: 'EobNj9QwVSA',
     startSeconds: 687,
     autoPlay: true,
     params: const YoutubePlayerParams(

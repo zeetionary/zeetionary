@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
 - Adjective: deductible 
 1. (tax) acceptable as a deduction (especially as a tax deduction)
 
-- Noun: deductible (Derived forms: deductibles)
+- Noun: deductible (derived forms: deductibles)
 1. (taxes) an amount that can be deducted (especially for the purposes of calculating income tax)
  
 2. A clause in an insurance policy that relieves the insurer of responsibility to pay the initial loss up to a stated amount
@@ -504,7 +504,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ot4qdCs54ZE?t=',
+    videoId: 'Ot4qdCs54ZE',
     startSeconds: 450,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0sazcZ8wwZc?t=',
+    videoId: '0sazcZ8wwZc',
     startSeconds: 384,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NG4Ws74RV04?t=',
+    videoId: 'NG4Ws74RV04',
     startSeconds: 2138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -579,7 +579,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xfQBkdLa6fo?t=',
+    videoId: 'xfQBkdLa6fo',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -604,7 +604,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFL6qRIJZ_Y?t=',
+    videoId: 'hFL6qRIJZ_Y',
     startSeconds: 8204,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hHNUoW37oZk?t=',
+    videoId: 'hHNUoW37oZk',
     startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,7 +654,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DO5x_tJBn7w?t=',
+    videoId: 'DO5x_tJBn7w',
     startSeconds: 669,
     autoPlay: true,
     params: const YoutubePlayerParams(

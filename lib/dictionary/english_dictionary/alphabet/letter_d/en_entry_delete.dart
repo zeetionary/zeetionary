@@ -1005,7 +1005,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: delete (Derived forms: deleting, deleted, deletes)
+- Verb: delete (derived forms: deleting, deleted, deletes)
 1. Remove or make invisible (= cancel)
 "Please delete my name from your list";
  
@@ -1015,7 +1015,7 @@ ${englishMeaningConst.text}
 3. Cut or eliminate (= edit, blue-pencil)
 "she deleted the juiciest scenes";
 
-- Noun: delete (Derived forms: deletes)
+- Noun: delete (derived forms: deletes)
 1. (computing) key on a computer keyboard for deleting text or other objects that are selected or at the current cursor position (= delete key)
 """,
   );
@@ -1049,7 +1049,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzcBwCmS_tc?t=',
+    videoId: 'MzcBwCmS_tc',
     startSeconds: 529,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s5eILKG5oSE?t=',
+    videoId: 's5eILKG5oSE',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mHSwTm5OCOo?t=',
+    videoId: 'mHSwTm5OCOo',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UjMojh4L_pg?t=',
+    videoId: 'UjMojh4L_pg',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wAg-6qbEGbU?t=',
+    videoId: 'wAg-6qbEGbU',
     startSeconds: 114,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1174,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-kXEHmBlnpE?t=',
+    videoId: '-kXEHmBlnpE',
     startSeconds: 784,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1199,7 +1199,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sqGAXdjgDF4?t=',
+    videoId: 'sqGAXdjgDF4',
     startSeconds: 1138,
     autoPlay: true,
     params: const YoutubePlayerParams(

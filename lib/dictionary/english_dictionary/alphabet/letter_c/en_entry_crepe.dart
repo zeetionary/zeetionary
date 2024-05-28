@@ -489,14 +489,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crepe (Derived forms: crepes)
+- Noun: crepe (derived forms: crepes)
 1. Paper with a crinkled texture; usually coloured and used for decorations (= crêpe paper, crêpe)
  
 2. Small very thin pancake (= crape, French pancake, crêpe)
  
 3. A soft thin light fabric with a crinkled surface (= crape, crêpe)
 
-- Verb: crepe (Derived forms: crêping, crêpes, crepes, creping, creped)
+- Verb: crepe (derived forms: crêping, crêpes, crepes, creping, creped)
 1. Cover or drape with crape (= crape, crêpe)
 "crepe the mirror";
 """,

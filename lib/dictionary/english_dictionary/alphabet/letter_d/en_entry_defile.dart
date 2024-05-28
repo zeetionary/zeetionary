@@ -1002,7 +1002,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: defile (Derived forms: defiled, defiles, defiling)
+- Verb: defile (derived forms: defiled, defiles, defiling)
 1. Spoil, spot, stain, or pollute (= foul, befoul, maculate [literary])
 "The townspeople defiled the river by emptying raw sewage into it";
  
@@ -1015,7 +1015,7 @@ ${englishMeaningConst.text}
 4. Make dirty or spotty, as by exposure to air (= tarnish, stain, maculate [literary], sully, soil)
 "The silver was defiled by the long exposure to the air";
 
-- Noun: defile (Derived forms: defiles)
+- Noun: defile (derived forms: defiles)
 1. A narrow pass (especially one between mountains) (= gorge)
 """,
   );
@@ -1049,7 +1049,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJ0Hfc8hvpE?t=',
+    videoId: 'LJ0Hfc8hvpE',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qz3J_hGZqrU',
+    videoId: 'qz3J_hGZqrU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w1iGQHQGA2o?t=',
+    videoId: 'w1iGQHQGA2o',
     startSeconds: 595,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GgtMz6ZVFE0?t=',
+    videoId: 'GgtMz6ZVFE0',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/67cWZ8c2Tbw?t=',
+    videoId: '67cWZ8c2Tbw',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1174,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gpS5BecjlD8?t=',
+    videoId: 'gpS5BecjlD8',
     startSeconds: 3041,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1199,7 +1199,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IBegL_V6AA?t=',
+    videoId: '4IBegL_V6AA',
     startSeconds: 1049,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She had applied for deferred admission to college."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had applied for deferred admission to college."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefers3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The decision has been deferred indefinitely."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The decision has been deferred indefinitely."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefers4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We will defer to whatever the committee decides."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We will defer to whatever the committee decides."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefers5(String languageCode) async {
@@ -262,7 +265,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I have to defer to my boss on important decisions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I have to defer to my boss on important decisions."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefers7(String languageCode) async {
@@ -321,7 +325,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdefers1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdefers14(String languageCode) async {
+  Future<void> speakdefers14(String languageCode) async {
     // DOPSUM: CHANGE speakdefer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She had applied for deferred admission to college.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had applied for deferred admission to college.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefers21(String languageCode) async {
@@ -404,7 +409,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: وەدوا خستن، پاش خستن، خۆ بەدەستەوە دان
 """),
-          const DefinitionKurdish(text: "١. (کردار) دواخستنی شتێک تاوەکو کاتێکی دواتر"),
+          const DefinitionKurdish(
+              text: "١. (کردار) دواخستنی شتێک تاوەکو کاتێکی دواتر"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +419,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The department deferred the decision for six months."),
-                    ExampleSentenceKurdish(text: "بەشەکە بڕیارەکەی بۆ هەفتەیەک دواخست."),
+                    ExampleSentenceKurdish(
+                        text: "بەشەکە بڕیارەکەی بۆ هەفتەیەک دواخست."),
                   ],
                 ),
               ),
@@ -438,8 +445,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She had applied for deferred admission to college."),
-                    ExampleSentenceKurdish(text: "داوای دواخستنی چوونە کۆلێژی کردبوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "She had applied for deferred admission to college."),
+                    ExampleSentenceKurdish(
+                        text: "داوای دواخستنی چوونە کۆلێژی کردبوو."),
                   ],
                 ),
               ),
@@ -464,8 +474,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The decision has been deferred indefinitely."),
-                    ExampleSentenceKurdish(text: "بڕیارەکە بۆ کاتێکی نادیار دواخراوە."),
+                    ExampleSentenceEnglish(
+                        text: "The decision has been deferred indefinitely."),
+                    ExampleSentenceKurdish(
+                        text: "بڕیارەکە بۆ کاتێکی نادیار دواخراوە."),
                   ],
                 ),
               ),
@@ -483,14 +495,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) ڕازی بوون بە بڕیاری کەسێک یان بیرکردنەوەی چونکە ڕێزی دەگریت"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (کردار) ڕازی بوون بە بڕیاری کەسێک یان بیرکردنەوەی چونکە ڕێزی دەگریت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "We will defer to whatever the committee decides."),
-                    ExampleSentenceKurdish(text: "پابەند دەبین بەوەی لیژنەکە بڕیاری لەسەر دەدات."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "We will defer to whatever the committee decides."),
+                    ExampleSentenceKurdish(
+                        text: "پابەند دەبین بەوەی لیژنەکە بڕیاری لەسەر دەدات."),
                   ],
                 ),
               ),
@@ -513,7 +530,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I defer to (= accept) your judgment."),
+                    ExampleSentenceEnglish(
+                        text: "I defer to (= accept) your judgment."),
                     ExampleSentenceKurdish(text: "بڕیارت پەسەند دەکەم."),
                   ],
                 ),
@@ -537,8 +555,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I have to defer to my boss on important decisions."),
-                    ExampleSentenceKurdish(text: "دەبێت قایل بم لەگەڵ بەڕێوەبەرەکەم لە بڕیارە گرنگەکاندا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I have to defer to my boss on important decisions."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەبێت قایل بم لەگەڵ بەڕێوەبەرەکەم لە بڕیارە گرنگەکاندا."),
                   ],
                 ),
               ),
@@ -987,7 +1009,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: defer (Derived forms: defers, deferring, deferred)
+- Verb: defer (derived forms: defers, deferring, deferred)
 1. Hold back to a later time (= postpone, prorogue, hold over, put over, table [N. Amer], shelve, set back, remit, put off)
 "let's defer the exam";
  
@@ -1025,7 +1047,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nyVOi3X53bk?t=',
+    videoId: 'nyVOi3X53bk',
     startSeconds: 877,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1050,7 +1072,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Vm282YvOGw?t=',
+    videoId: '7Vm282YvOGw',
     startSeconds: 1978,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1075,7 +1097,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bTYV7aFC6KE?t=',
+    videoId: 'bTYV7aFC6KE',
     startSeconds: 607,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1122,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_STJoxd9mxk?t=',
+    videoId: '_STJoxd9mxk',
     startSeconds: 827,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1125,7 +1147,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cBpGq-vDr2Y?t=',
+    videoId: 'cBpGq-vDr2Y',
     startSeconds: 532,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1150,7 +1172,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ccin6oZfTyI?t=',
+    videoId: 'ccin6oZfTyI',
     startSeconds: 350,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1175,7 +1197,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pO-L9mo06CQ?t=',
+    videoId: 'pO-L9mo06CQ',
     startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(

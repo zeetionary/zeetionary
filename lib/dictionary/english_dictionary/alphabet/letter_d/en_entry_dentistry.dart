@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Where did Dr. Yee study dentistry?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Where did Dr. Yee study dentistry?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdentistrys2(String languageCode) async {
@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdentistrys1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdentistrys14(String languageCode) async {
+  Future<void> speakdentistrys14(String languageCode) async {
     // DOPSUM: CHANGE speakdentistry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,16 +404,18 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: دوکتورێتی ددان، نۆژدارێتی ددان، پزشکێتی ددان
 // """),
-          const DefinitionKurdish(text: "١. (ناو) لێکۆڵینەوەی پزیشکیانەی دەم و ددان؛ کاری پزیشكی ددان"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) لێکۆڵینەوەی پزیشکیانەی دەم و ددان؛ کاری پزیشكی ددان"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Where did Dr. Yee study dentistry?"),
-                    ExampleSentenceKurdish(text: "دکتۆر یی لە کوێ دانسازی خوێند؟"),
+                        text: "Where did Dr. Yee study dentistry?"),
+                    ExampleSentenceKurdish(
+                        text: "دکتۆر یی لە کوێ دانسازی خوێند؟"),
                   ],
                 ),
               ),
@@ -988,7 +990,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dentistry (Derived forms: dentistries)
+- Noun: dentistry (derived forms: dentistries)
 1. The branch of medicine dealing with the anatomy and development and diseases of the teeth (= dental medicine, odontology)
 """,
   );
@@ -1022,7 +1024,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jGrp_qIoGFM?t=',
+    videoId: 'jGrp_qIoGFM',
     startSeconds: 1610,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1049,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3HrDf6nra-I?t=',
+    videoId: '3HrDf6nra-I',
     startSeconds: 924,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1074,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nuQvi2ObGGg?t=',
+    videoId: 'nuQvi2ObGGg',
     startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1099,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wwzFB_UjtVQ?t=',
+    videoId: 'wwzFB_UjtVQ',
     startSeconds: 1785,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1124,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LTydy0lH33k?t=',
+    videoId: 'LTydy0lH33k',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1149,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QCQ_d0NOF4g?t=',
+    videoId: 'QCQ_d0NOF4g',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1174,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/foMDfVJTIGc?t=',
+    videoId: 'foMDfVJTIGc',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(

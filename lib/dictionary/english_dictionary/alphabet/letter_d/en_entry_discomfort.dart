@@ -1056,12 +1056,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discomfort (Derived forms: discomforts)
+- Noun: discomfort (derived forms: discomforts)
 1. The state of being tense and feeling pain (= uncomfortableness)
  
 2. An uncomfortable feeling of mental painfulness or distress (= soreness, irritation)
 
-- Verb: discomfort (Derived forms: discomforted, discomforting, discomforts)
+- Verb: discomfort (derived forms: discomforted, discomforting, discomforts)
 1. Make to feel uncomfortable
 """,
   );
@@ -1095,7 +1095,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-6vzjjIrRK8?t=',
+    videoId: '-6vzjjIrRK8',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1120,7 +1120,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DWmGArQBtFI?t=',
+    videoId: 'DWmGArQBtFI',
     startSeconds: 346,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1145,7 +1145,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    videoId: 'EFkyxzJtiv4',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1170,7 +1170,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tMNxgi_0eKA?t=',
+    videoId: 'tMNxgi_0eKA',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1195,7 +1195,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DHD1-2P94DI?t=',
+    videoId: 'DHD1-2P94DI',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1220,7 +1220,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4U-u4CsnygA?t=',
+    videoId: '4U-u4CsnygA',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1245,7 +1245,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nWZMfPP34g8?t=',
+    videoId: 'nWZMfPP34g8',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(

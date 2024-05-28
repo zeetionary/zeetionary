@@ -648,7 +648,7 @@ ${englishMeaningConst.text}
 2. Gradually and progressively (= day by day)
 "his health weakened daily";
 
-- Noun: daily (Derived forms: dailies)
+- Noun: daily (derived forms: dailies)
 1. A newspaper that is published every day
 
 - Adjective: daily 
@@ -689,7 +689,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 1135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -714,7 +714,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nyf7wNn5fw8?t=',
+    videoId: 'nyf7wNn5fw8',
     startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -739,7 +739,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EzD5TsF8eC0',
+    videoId: 'EzD5TsF8eC0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -764,7 +764,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0rBEQjXg7Ak?t=',
+    videoId: '0rBEQjXg7Ak',
     startSeconds: 151,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -789,7 +789,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VVq2pA6dm2A?t=',
+    videoId: 'VVq2pA6dm2A',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -814,7 +814,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1B9Kng2BN7s?t=',
+    videoId: '1B9Kng2BN7s',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -839,7 +839,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 1712,
     autoPlay: true,
     params: const YoutubePlayerParams(

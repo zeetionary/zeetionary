@@ -993,7 +993,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: derision (Derived forms: derisions)
+- Noun: derision (derived forms: derisions)
 1. Contemptuous laughter
  
 2. The act of deriding or treating with contempt (= ridicule)
@@ -1029,7 +1029,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rRTp8yOxTg4?t=',
+    videoId: 'rRTp8yOxTg4',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1054,7 +1054,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kElsSj8hky4?t=',
+    videoId: 'kElsSj8hky4',
     startSeconds: 214,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1079,7 +1079,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fY2CF-T05qY?t=',
+    videoId: 'fY2CF-T05qY',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1104,7 +1104,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tkLZYEIslWM?t=',
+    videoId: 'tkLZYEIslWM',
     startSeconds: 482,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1129,7 +1129,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r5cqa9V0mUo?t=',
+    videoId: 'r5cqa9V0mUo',
     startSeconds: 894,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1154,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m7r96TYUEME?t=',
+    videoId: 'm7r96TYUEME',
     startSeconds: 1647,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1179,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5aJCDdxqoQw?t=',
+    videoId: '5aJCDdxqoQw',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(

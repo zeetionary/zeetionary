@@ -511,7 +511,7 @@ ${englishMeaningConst.text}
 7. Lessen in force or effect (= damp, soften, weaken, break)
 "dampen a shock";
 
-8. Derived forms: dampens, dampening, dampened
+8. derived forms: dampens, dampening, dampened
 """,
   );
 
@@ -544,7 +544,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Df3u46xBVMY?t=',
+    videoId: 'Df3u46xBVMY',
     startSeconds: 487,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y3eR8QLPjlc?t=',
+    videoId: 'y3eR8QLPjlc',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O9xfUh2KOso?t=',
+    videoId: 'O9xfUh2KOso',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/81JUjBvEHtw?t=',
+    videoId: '81JUjBvEHtw',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +644,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yiZ9gVCqF0Y?t=',
+    videoId: 'yiZ9gVCqF0Y',
     startSeconds: 312,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -669,7 +669,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    videoId: 'gQmiqmxJMtA',
     startSeconds: 6018,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -694,7 +694,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s2jvjUjD7VA?t=',
+    videoId: 's2jvjUjD7VA',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(

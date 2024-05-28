@@ -1031,7 +1031,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deviate (Derived forms: deviated, deviates, deviating)
+- Verb: deviate (derived forms: deviated, deviates, deviating)
 1. Turn aside; turn away from (= divert)
  
 2. Be at variance with; be out of line with (= vary, diverge, depart)
@@ -1039,7 +1039,7 @@ ${englishMeaningConst.text}
 3. Cause to turn away from a previous or expected course
 "The river was deviated to prevent flooding"
 
-- Noun: deviate (Derived forms: deviates)
+- Noun: deviate (derived forms: deviates)
 1. A person whose behaviour deviates from what is acceptable especially in sexual behaviour (= pervert, deviant, degenerate, perve [informal], perv [informal])
 
 - Adjective: deviate 
@@ -1077,7 +1077,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JmWfY4nb6oM?t=',
+    videoId: 'JmWfY4nb6oM',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1102,7 +1102,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kuOEpC4u6Tg?t=',
+    videoId: 'kuOEpC4u6Tg',
     startSeconds: 504,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1127,7 +1127,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bUmULlGACEI?t=',
+    videoId: 'bUmULlGACEI',
     startSeconds: 495,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1152,7 +1152,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/08mwXICY4JM?t=',
+    videoId: '08mwXICY4JM',
     startSeconds: 204,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1177,7 +1177,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DijwynHk37Q?t=',
+    videoId: 'DijwynHk37Q',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1202,7 +1202,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tILIeNjbH1E?t=',
+    videoId: 'tILIeNjbH1E',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1227,7 +1227,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/udNXMAflbU8?t=',
+    videoId: 'udNXMAflbU8',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -413,7 +413,7 @@ ${englishMeaningConst.text}
 1. Causing a sensation as of things crawling on your skin (= creepy, crawly [informal])
 "I had a creepy-crawly feeling"; "They landed on a planet filled with huge, creepy-crawly insects";
 
-- Noun: creepy-crawly (Derived forms: creepy-crawlies)
+- Noun: creepy-crawly (derived forms: creepy-crawlies)
 1. An animal that creeps or crawls (such as worms or spiders or insects)
 """,
   );
@@ -447,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7EWs5QBv6_w',
+    videoId: '7EWs5QBv6_w',
     startSeconds: 45,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S3R4k7YlEXc',
+    videoId: 'S3R4k7YlEXc',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JEtnR5Nnbe4',
+    videoId: 'JEtnR5Nnbe4',
     startSeconds: 979,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3ELo1zykAGU',
+    videoId: '3ELo1zykAGU',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qs0KSEynPRc',
+    videoId: 'Qs0KSEynPRc',
     startSeconds: 940,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3ELo1zykAGU',
+    videoId: '3ELo1zykAGU',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bbz2p55C1HM',
+    videoId: 'bbz2p55C1HM',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(

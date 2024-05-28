@@ -467,11 +467,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crinkle (Derived forms: crinkles)
+- Noun: crinkle (derived forms: crinkles)
 1. A slight depression or fold in the smoothness of a surface (= wrinkle, furrow, crease, seam, line)
 "ironing gets rid of most crinkles";
 
-- Verb: crinkle (Derived forms: crinkled, crinkles, crinkling)
+- Verb: crinkle (derived forms: crinkled, crinkles, crinkling)
 1. Become wrinkled, crumpled or creased (= rumple, crumple, wrinkle, crease)
 "This fabric won't crinkle";
  
@@ -509,7 +509,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rEdl2Uetpvo?t=',
+    videoId: 'rEdl2Uetpvo',
     startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +534,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 930,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +559,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6btmJSRueE?t=',
+    videoId: 'x6btmJSRueE',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +584,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bV9f3DE4LlM?t=',
+    videoId: 'bV9f3DE4LlM',
     startSeconds: 228,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -609,7 +609,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTk9HnIwEYU?t=',
+    videoId: 'pTk9HnIwEYU',
     startSeconds: 282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -634,7 +634,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GVP8qLK_8Ig?t=',
+    videoId: 'GVP8qLK_8Ig',
     startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -659,7 +659,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hKtKOzrFBfI?t=',
+    videoId: 'hKtKOzrFBfI',
     startSeconds: 929,
     autoPlay: true,
     params: const YoutubePlayerParams(

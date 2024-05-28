@@ -884,7 +884,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dash (Derived forms: dashed, dashes, dashing)
+- Verb: dash (derived forms: dashed, dashes, dashing)
 1. Run or move very quickly or hastily (= dart, scoot [informal], scud, flash, shoot, whip [informal])
 "She dashed into the yard";
  
@@ -903,7 +903,7 @@ ${englishMeaningConst.text}
 6. Add an enlivening or altering element to
 "blue paint dashed with white"
 
-- Noun: dash (Derived forms: dashes)
+- Noun: dash (derived forms: dashes)
 1. Distinctive and stylish elegance (= elan, flair, panache, style, élan)
 "he wooed her with the confident dash of a cavalry officer";
  
@@ -959,7 +959,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QiKZYt9070U?t=',
+    videoId: 'QiKZYt9070U',
     startSeconds: 458,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -984,7 +984,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 618,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1009,7 +1009,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 1295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1034,7 +1034,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 821,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1059,7 +1059,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1084,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D8tPkb98Fkk?t=',
+    videoId: 'D8tPkb98Fkk',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1109,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Gxrwh4zGPg?t=',
+    videoId: '1Gxrwh4zGPg',
     startSeconds: 649,
     autoPlay: true,
     params: const YoutubePlayerParams(

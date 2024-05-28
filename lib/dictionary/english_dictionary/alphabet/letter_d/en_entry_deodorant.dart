@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She uses deodorant every morning."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She uses deodorant every morning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeodorants2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most people apply deodorant to their armpits."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most people apply deodorant to their armpits."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeodorants3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeodorants1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeodorants14(String languageCode) async {
+  Future<void> speakdeodorants14(String languageCode) async {
     // DOPSUM: CHANGE speakdeodorant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most people apply deodorant to their armpits.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most people apply deodorant to their armpits.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeodorants21(String languageCode) async {
@@ -404,16 +406,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دەرمانی بۆنبڕ، بۆنبڕە، بۆگەنبەر، بۆن‌خۆش‌کەر
 """),
-          const DefinitionKurdish(text: "١. (ناو) مادەیەک کە خەڵکی لە جەستەیان دەدەن بۆ نەهێشتنی بۆنی ناخۆش"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) مادەیەک کە خەڵکی لە جەستەیان دەدەن بۆ نەهێشتنی بۆنی ناخۆش"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "She uses deodorant every morning."),
-                    ExampleSentenceKurdish(text: "هەموو بەیانییەک بۆنبر بەکاردێنێت."),
+                        text: "She uses deodorant every morning."),
+                    ExampleSentenceKurdish(
+                        text: "هەموو بەیانییەک بۆنبر بەکاردێنێت."),
                   ],
                 ),
               ),
@@ -438,8 +442,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Most people apply deodorant to their armpits."),
-                    ExampleSentenceKurdish(text: "زۆر کەس بۆنبڕ لە بنباڵیان دەدەن."),
+                    ExampleSentenceEnglish(
+                        text: "Most people apply deodorant to their armpits."),
+                    ExampleSentenceKurdish(
+                        text: "زۆر کەس بۆنبڕ لە بنباڵیان دەدەن."),
                   ],
                 ),
               ),
@@ -988,7 +994,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deodorant (Derived forms: deodorants)
+- Noun: deodorant (derived forms: deodorants)
 1. A toiletry applied to the skin in order to mask unpleasant odours (= deodourant)
 """,
   );
@@ -1022,7 +1028,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/57htei0Xw1E',
+    videoId: '57htei0Xw1E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1053,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/57htei0Xw1E?t=',
+    videoId: '57htei0Xw1E',
     startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1078,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XMCZEJVlyRY?t=',
+    videoId: 'XMCZEJVlyRY',
     startSeconds: 888,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1103,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5MwEBEq2Axw?t=',
+    videoId: '5MwEBEq2Axw',
     startSeconds: 920,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1128,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/31ed421173k?t=',
+    videoId: '31ed421173k',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1153,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rntW9mjrgbU?t=',
+    videoId: 'rntW9mjrgbU',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1178,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rOZcb32K6Lc?t=',
+    videoId: 'rOZcb32K6Lc',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1189,7 +1189,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crown (Derived forms: crowning, crowned, crowns)
+- Verb: crown (derived forms: crowning, crowned, crowns)
 1. Invest with regal power; enthrone (= coronate)
 "The prince was crowned in Westminster Abbey";
  
@@ -1202,7 +1202,7 @@ ${englishMeaningConst.text}
 4. Put an enamel cover on
 "crown my teeth"
 
-- Noun: crown (Derived forms: crowns)
+- Noun: crown (derived forms: crowns)
 1. The part of a tooth above the gum that is covered with enamel
  
 2. A wreath or garland worn on the head to signify victory
@@ -1227,7 +1227,7 @@ ${englishMeaningConst.text}
  
 11. The centre of a cambered road (= crest)
 
-- Noun: Crown (Derived forms: Crowns)
+- Noun: Crown (derived forms: Crowns)
 1. The Crown (or the reigning monarch) as the symbol of the power and authority of a monarchy
 "the colonies revolted against the Crown"
 """,
@@ -1262,7 +1262,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Iwa39iZ0zHo?t=',
+    videoId: 'Iwa39iZ0zHo',
     startSeconds: 1241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1287,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2A1VhtcDYNQ?t=',
+    videoId: '2A1VhtcDYNQ',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1312,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kZLKLQwsh6A?t=',
+    videoId: 'kZLKLQwsh6A',
     startSeconds: 483,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1337,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9sjyMZfijFI?t=',
+    videoId: '9sjyMZfijFI',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1362,7 +1362,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1387,7 +1387,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D-2799Y07Zc?t=',
+    videoId: 'D-2799Y07Zc',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1412,7 +1412,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1183,
     autoPlay: true,
     params: const YoutubePlayerParams(

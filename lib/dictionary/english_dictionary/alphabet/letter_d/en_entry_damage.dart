@@ -1345,14 +1345,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: damage (Derived forms: damaging, damages, damaged)
+- Verb: damage (derived forms: damaging, damages, damaged)
 1. Inflict damage upon
 "The snow damaged the roof"; "She damaged the car when she hit the tree"
  
 2. Suffer or be susceptible to damage
 "These fine china cups damage easily"
 
-- Noun: damage  (Derived forms: damages)
+- Noun: damage  (derived forms: damages)
 1. The occurrence of a change for the worse (= harm, impairment)
  
 2. (military) loss of military equipment (= equipment casualty)
@@ -1395,7 +1395,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hS2x1zl4rn0?t=',
+    videoId: 'hS2x1zl4rn0',
     startSeconds: 773,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1420,7 +1420,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MAnvn25URvc?t=',
+    videoId: 'MAnvn25URvc',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1445,7 +1445,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L6tVjqfIXFY?t=',
+    videoId: 'L6tVjqfIXFY',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1470,7 +1470,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jtWcq3zLfo?t=',
+    videoId: '0jtWcq3zLfo',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1495,7 +1495,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hW69OIdAey0?t=',
+    videoId: 'hW69OIdAey0',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1520,7 +1520,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NFtQOxjWfaA?t=',
+    videoId: 'NFtQOxjWfaA',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1545,7 +1545,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XG8b7WhANNA?t=',
+    videoId: 'XG8b7WhANNA',
     startSeconds: 487,
     autoPlay: true,
     params: const YoutubePlayerParams(

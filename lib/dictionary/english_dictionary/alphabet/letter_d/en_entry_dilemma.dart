@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The digital era brings new ethical dilemmas for journalists."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The digital era brings new ethical dilemmas for journalists."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilemmas3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(" They were caught in a real dilemma."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak(" They were caught in a real dilemma."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilemmas4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She faced a dilemma about whether to accept the offer or not."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She faced a dilemma about whether to accept the offer or not."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilemmas5(String languageCode) async {
@@ -404,7 +407,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دوڕیانە، بارودۆخی ئاستەم، چەڵەمە، تەنگ‌وچەڵەمە، کێشە، گێرەوکێشە، گرفت، ئاستەنگ، تەنگانە؛ بارودۆخی ئاستەم، هەل‌ومەرجی دژوار، ڕەوش یان کاودانی ئاستەم،	(لۆژیک) دیلێما، دەلیما
 """),
-          const DefinitionKurdish(text: "١. (ناو) دۆخێک کە کێشە درووست دەکات، بەتایبەتی یەکێک کە دەبێت لە نێوان دوو هەڵبژاردەی وەک یەک گرنگدا هەڵبژاردن بکەیت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) دۆخێک کە کێشە درووست دەکات، بەتایبەتی یەکێک کە دەبێت لە نێوان دوو هەڵبژاردەی وەک یەک گرنگدا هەڵبژاردن بکەیت"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +418,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "I could see no way of resolving this moral dilemma."),
-                    ExampleSentenceKurdish(text: "نەمدەتوانی هیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەمدەتوانی هیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم."),
                   ],
                 ),
               ),
@@ -438,8 +445,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The digital era brings new ethical dilemmas for journalists."),
-                    ExampleSentenceKurdish(text: "سەردەمی دیجیتاڵی ئاستەنگی ڕەوشتی تازە بۆ ڕۆژنامەنووسان درووست دەکات."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The digital era brings new ethical dilemmas for journalists."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سەردەمی دیجیتاڵی ئاستەنگی ڕەوشتی تازە بۆ ڕۆژنامەنووسان درووست دەکات."),
                   ],
                 ),
               ),
@@ -464,7 +475,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: " They were caught in a real dilemma."),
+                    ExampleSentenceEnglish(
+                        text: " They were caught in a real dilemma."),
                     ExampleSentenceKurdish(text: "کەوتنە گرفتێکی تەواوەوە."),
                   ],
                 ),
@@ -490,8 +502,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "She faced a dilemma about whether to accept the offer or not."),
-                    ExampleSentenceKurdish(text: "کەوتە دوڕیانێکەوە کە ئایا پێشنیارەکە پەسەند بکات یان نا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "She faced a dilemma about whether to accept the offer or not."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کەوتە دوڕیانێکەوە کە ئایا پێشنیارەکە پەسەند بکات یان نا."),
                   ],
                 ),
               ),
@@ -1024,7 +1040,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dilemma (Derived forms: dilemmas)
+- Noun: dilemma (derived forms: dilemmas)
 1. State of uncertainty or perplexity especially as requiring a choice between equally unfavourable options (= quandary)
 "the secretaries wept crocodile tears over the manager's dilemma";
 """,
@@ -1059,7 +1075,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1100,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
+    videoId: 'Uhh_An7FGek',
     startSeconds: 399,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1125,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kBdfcR-8hEY?t=',
+    videoId: 'kBdfcR-8hEY',
     startSeconds: 1484,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1150,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y9nBhv0lq1s?t=',
+    videoId: 'y9nBhv0lq1s',
     startSeconds: 1494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1175,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tZktTdGHaJY?t=',
+    videoId: 'tZktTdGHaJY',
     startSeconds: 1342,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1200,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hCsPV0eiqxg?t=',
+    videoId: 'hCsPV0eiqxg',
     startSeconds: 1400,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1225,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xrY8Qfjh5t8?t=',
+    videoId: 'xrY8Qfjh5t8',
     startSeconds: 531,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -14,7 +14,8 @@ class EnglishEntrydeprivation extends StatefulWidget {
   const EnglishEntrydeprivation({super.key});
 
   @override
-  State<EnglishEntrydeprivation> createState() => _EnglishEntrydeprivationState();
+  State<EnglishEntrydeprivation> createState() =>
+      _EnglishEntrydeprivationState();
 }
 
 class _EnglishEntrydeprivationState extends State<EnglishEntrydeprivation> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They used sleep deprivation as a form of torture."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They used sleep deprivation as a form of torture."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeprivations3(String languageCode) async {
@@ -238,7 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There were food shortages and other deprivations during the Civil War."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There were food shortages and other deprivations during the Civil War."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeprivations4(String languageCode) async {
@@ -321,7 +324,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeprivations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeprivations14(String languageCode) async {
+  Future<void> speakdeprivations14(String languageCode) async {
     // DOPSUM: CHANGE speakdeprivation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They used sleep deprivation as a form of torture.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They used sleep deprivation as a form of torture.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeprivations21(String languageCode) async {
@@ -404,7 +408,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بێ‌بەشی، بێ‌بەرێتی، بێ‌بەهرەیی، بێ‌پاری، بێ‌بەهرەکردن، بەش‌بڕاوی، نەبوونی، هەژاری، دەستەنگی، نەداری، فەقیری،	لەدەس‌دان، لەکیس‌چوون،	لابردن، لەسەرکارلادان، لادان، دەرکردن
 """),
-          const DefinitionKurdish(text: "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، هتد"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +419,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Many of the people suffered severe deprivation."),
-                    ExampleSentenceKurdish(text: "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون."),
+                    ExampleSentenceKurdish(
+                        text: "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون."),
                   ],
                 ),
               ),
@@ -438,8 +445,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "They used sleep deprivation as a form of torture."),
-                    ExampleSentenceKurdish(text: "دابڕین لە خەو وەک جۆرێک لە سزا بەکاردێنن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "They used sleep deprivation as a form of torture."),
+                    ExampleSentenceKurdish(
+                        text: "دابڕین لە خەو وەک جۆرێک لە سزا بەکاردێنن."),
                   ],
                 ),
               ),
@@ -464,8 +474,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "There were food shortages and other deprivations during the Civil War."),
-                    ExampleSentenceKurdish(text: "کەمی خۆراک و نەبوونی دیکە هەبوون لەماوی جەنگەکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "There were food shortages and other deprivations during the Civil War."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کەمی خۆراک و نەبوونی دیکە هەبوون لەماوی جەنگەکە."),
                   ],
                 ),
               ),
@@ -988,7 +1002,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deprivation (Derived forms: deprivations)
+- Noun: deprivation (derived forms: deprivations)
 1. A state of extreme poverty (= privation, want, neediness)
  
 2. The disadvantage that results from losing something (= loss)
@@ -1028,7 +1042,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NUzDLpSkQTg?t=',
+    videoId: 'NUzDLpSkQTg',
     startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1067,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8eq2vGEEbB4?t=',
+    videoId: '8eq2vGEEbB4',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1092,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 3824,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1117,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kHTcoPoAnys?t=',
+    videoId: 'kHTcoPoAnys',
     startSeconds: 698,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1142,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kRr9LQ7mZ_A?t=',
+    videoId: 'kRr9LQ7mZ_A',
     startSeconds: 599,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1167,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aCPNlZ7bvRc?t=',
+    videoId: 'aCPNlZ7bvRc',
     startSeconds: 182,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1192,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
+    videoId: 'Uhh_An7FGek',
     startSeconds: 790,
     autoPlay: true,
     params: const YoutubePlayerParams(

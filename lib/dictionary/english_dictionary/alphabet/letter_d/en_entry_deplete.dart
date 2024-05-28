@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Food supplies were severely depleted."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Food supplies were severely depleted."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepletes3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepletes1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepletes14(String languageCode) async {
+  Future<void> speakdepletes14(String languageCode) async {
     // DOPSUM: CHANGE speakdeplete
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Food supplies were severely depleted.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Food supplies were severely depleted.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepletes21(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: خاڵی کردن، بەتاڵ کردن، بۆش کردن
 """),
-          const DefinitionKurdish(text: "١. (کردار) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک کە بەشی پێویستی نامێنێتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) کەمکردنەوەی شتێک بە ڕێژەیەکی زۆر بەشێوەیەک کە بەشی پێویستی نامێنێتەوە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Our cash reserves are being depleted at an alarming rate."),
-                    ExampleSentenceKurdish(text: "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە."),
                   ],
                 ),
               ),
@@ -438,8 +444,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Food supplies were severely depleted."),
-                    ExampleSentenceKurdish(text: "ئازووقەی خواردنمان بەڕێژەیەکی زۆر بەتاڵ بووبوو."),
+                    ExampleSentenceEnglish(
+                        text: "Food supplies were severely depleted."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئازووقەی خواردنمان بەڕێژەیەکی زۆر بەتاڵ بووبوو."),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deplete (Derived forms: depleting, depletes, depleted)
+- Verb: deplete (derived forms: depleting, depletes, depleted)
 1. Use (resources or materials) over time in order to function (= consume, eat up, use up, eat, exhaust, run through, wipe out)
 """,
   );
@@ -1022,7 +1031,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/weZ_BoMptLI?t=',
+    videoId: 'weZ_BoMptLI',
     startSeconds: 358,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1056,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vhmtoAYVRSo?t=',
+    videoId: 'vhmtoAYVRSo',
     startSeconds: 156,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1081,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HWB3VhIPWrU?t=',
+    videoId: 'HWB3VhIPWrU',
     startSeconds: 797,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1106,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaLOiGEDPJQ?t=',
+    videoId: 'CaLOiGEDPJQ',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1131,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oeyt2zVqCG8?t=',
+    videoId: 'oeyt2zVqCG8',
     startSeconds: 807,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1156,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DqHctQwqgQ0?t=',
+    videoId: 'DqHctQwqgQ0',
     startSeconds: 218,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1181,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-iqiRCQWRmA?t=',
+    videoId: '-iqiRCQWRmA',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(

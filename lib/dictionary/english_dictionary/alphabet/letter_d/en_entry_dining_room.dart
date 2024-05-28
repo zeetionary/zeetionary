@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The dining room seats up to 60 guests."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The dining room seats up to 60 guests."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiningrooms2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiningrooms3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This room has a dual purpose, serving as both a study and a dining room."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This room has a dual purpose, serving as both a study and a dining room."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiningrooms4(String languageCode) async {
@@ -411,9 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The dining room seats up to 60 guests."),
-                    ExampleSentenceKurdish(text: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی هەیە."),
+                        text: "The dining room seats up to 60 guests."),
+                    ExampleSentenceKurdish(
+                        text: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی هەیە."),
                   ],
                 ),
               ),
@@ -438,8 +440,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."),
-                    ExampleSentenceKurdish(text: "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی هەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی هەیە لە سەرەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The house has a kitchen, living room and dining room downstairs and three bedrooms and a bathroom upstairs."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "خانووەکە چێشتخانەیەک، ژوورێکی میوان و ژوورێکی نانخواردنی هەیە لە خوارەوە و سێ ژووری نووستن و گەرماوێکی هەیە لە سەرەوە."),
                   ],
                 ),
               ),
@@ -464,8 +470,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "This room has a dual purpose, serving as both a study and a dining room."),
-                    ExampleSentenceKurdish(text: "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، هەم وەک شوێنی خوێندنەوە و هەم وەک ژووری نانخواردن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "This room has a dual purpose, serving as both a study and a dining room."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەم ژوورە بۆ دوو مەبەست بەکاردێت، هەم وەک شوێنی خوێندنەوە و هەم وەک ژووری نانخواردن."),
                   ],
                 ),
               ),
@@ -1024,7 +1034,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dining room (Derived forms: dining rooms)
+- Noun: dining room (derived forms: dining rooms)
 1. A room used for dining (= dining-room)
 """,
   );
@@ -1058,7 +1068,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yjhibJ-OqxE?t=',
+    videoId: 'yjhibJ-OqxE',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1093,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 219,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1118,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PqpCeiYycVM?t=',
+    videoId: 'PqpCeiYycVM',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1143,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D-qQneOnJl0?t=',
+    videoId: 'D-qQneOnJl0',
     startSeconds: 252,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1168,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vx09_4cEzlM?t=',
+    videoId: 'vx09_4cEzlM',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1193,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    videoId: 'Hw1X5oFPgro',
     startSeconds: 349,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1218,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NGbFtTYQpus?t=',
+    videoId: 'NGbFtTYQpus',
     startSeconds: 449,
     autoPlay: true,
     params: const YoutubePlayerParams(

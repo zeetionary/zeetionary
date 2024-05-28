@@ -640,7 +640,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curve (Derived forms: curves)
+- Noun: curve (derived forms: curves)
 1. A smooth line containing no straight portions and no sharp angles (= curved shape)
  
 2. A line on a graph representing data
@@ -651,7 +651,7 @@ ${englishMeaningConst.text}
  
 5. Curved segment (of a road, river or railway track etc.) (= bend)
 
-- Verb: curve (Derived forms: curved, curves, curving)
+- Verb: curve (derived forms: curved, curves, curving)
 1. Turn sharply; change direction abruptly (= swerve, sheer, trend, veer, slue, slew, cut)
 "The motorbike curved to the right";
  
@@ -698,7 +698,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FHJ3CMWnVxY?t=',
+    videoId: 'FHJ3CMWnVxY',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -723,7 +723,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 264,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -748,7 +748,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -773,7 +773,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 754,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -798,7 +798,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8FpPSMIB4uA?t=',
+    videoId: '8FpPSMIB4uA',
     startSeconds: 1819,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -823,7 +823,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IgF3OX8nT0w?t=',
+    videoId: 'IgF3OX8nT0w',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -848,7 +848,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wao0_uB4Zw4?t=',
+    videoId: 'Wao0_uB4Zw4',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -14,7 +14,8 @@ class EnglishEntrydirectdebit extends StatefulWidget {
   const EnglishEntrydirectdebit({super.key});
 
   @override
-  State<EnglishEntrydirectdebit> createState() => _EnglishEntrydirectdebitState();
+  State<EnglishEntrydirectdebit> createState() =>
+      _EnglishEntrydirectdebitState();
 }
 
 class _EnglishEntrydirectdebitState extends State<EnglishEntrydirectdebit> {
@@ -132,7 +133,8 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dəˌrekt ˈdebɪt/,  /daɪˌrekt ˈdebɪt/");
+    return const IPAofEnglish(
+        text: "IpaUK: /dəˌrekt ˈdebɪt/,  /daɪˌrekt ˈdebɪt/");
   }
 }
 
@@ -182,7 +184,8 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dəˌrekt ˈdebɪt/,  /daɪˌrekt ˈdebɪt/");
+    return const IPAofEnglish(
+        text: "IpaUS: /dəˌrekt ˈdebɪt/,  /daɪˌrekt ˈdebɪt/");
   }
 }
 
@@ -221,8 +224,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We pay all our bills by direct debit."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We pay all our bills by direct debit."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdirectdebits2(String languageCode) async {
@@ -404,16 +407,19 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: پێدانی ڕاستەوخۆی قەرز
 """),
-          const DefinitionKurdish(text: "١. (ناو) داوایەک لە بانکەکەت کە ڕێگا بدات بە کەسێک یان دامەزراوەیەک کە پارە لە هەژمارەکەت دەربکات لە کاتێکی دیاریکراودا، بۆ نموونە بۆ کڕینی خزمەتگوزارییەک بە مانگانە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) داوایەک لە بانکەکەت کە ڕێگا بدات بە کەسێک یان دامەزراوەیەک کە پارە لە هەژمارەکەت دەربکات لە کاتێکی دیاریکراودا، بۆ نموونە بۆ کڕینی خزمەتگوزارییەک بە مانگانە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "We pay all our bills by direct debit."),
+                    ExampleSentenceKurdish(
                         text:
-                            "We pay all our bills by direct debit."),
-                    ExampleSentenceKurdish(text: "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ."),
+                            "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: direct debit (Derived forms: direct debits)
+- Noun: direct debit (derived forms: direct debits)
 Usage: UK
 1. System for making regular payments directly from a bank account
 """,
@@ -1059,7 +1065,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lwk9zHEjzLQ?t=',
+    videoId: 'Lwk9zHEjzLQ',
     startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1090,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RwF-ml1eYTk?t=',
+    videoId: 'RwF-ml1eYTk',
     startSeconds: 547,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1115,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SirJSqoen8Y?t=',
+    videoId: 'SirJSqoen8Y',
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1140,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/43RbGMj6ql8?t=',
+    videoId: '43RbGMj6ql8',
     startSeconds: 685,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1165,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ptb_RVHjnJg?t=',
+    videoId: 'Ptb_RVHjnJg',
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1190,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oduH8nj3cu4?t=',
+    videoId: 'oduH8nj3cu4',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1215,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tc-frd1yFqQ?t=',
+    videoId: 'tc-frd1yFqQ',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(

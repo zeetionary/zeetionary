@@ -14,7 +14,8 @@ class EnglishEntrydisablement extends StatefulWidget {
   const EnglishEntrydisablement({super.key});
 
   @override
-  State<EnglishEntrydisablement> createState() => _EnglishEntrydisablementState();
+  State<EnglishEntrydisablement> createState() =>
+      _EnglishEntrydisablementState();
 }
 
 class _EnglishEntrydisablementState extends State<EnglishEntrydisablement> {
@@ -413,7 +414,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The insurance policy covers sudden death or disablement."),
-                    ExampleSentenceKurdish(text: "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت."),
                   ],
                 ),
               ),
@@ -1024,7 +1027,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disablement (Derived forms: disablements)
+- Noun: disablement (derived forms: disablements)
 1. The condition of being unable to perform as a consequence of physical or mental unfitness (= disability, handicap, impairment)
 """,
   );
@@ -1058,7 +1061,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fb7ml56XTAo?t=',
+    videoId: 'Fb7ml56XTAo',
     startSeconds: 585,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1086,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K3ABGbDjwWE?t=',
+    videoId: 'K3ABGbDjwWE',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1111,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KsbSLysb0Cc?t=',
+    videoId: 'KsbSLysb0Cc',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1136,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HmR6N-ZB9_A?t=',
+    videoId: 'HmR6N-ZB9_A',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1161,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IP68SLEa8RY?t=',
+    videoId: 'IP68SLEa8RY',
     startSeconds: 1675,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1186,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vonPixV3pJQ?t=',
+    videoId: 'vonPixV3pJQ',
     startSeconds: 2511,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1211,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VeC1dbeLXOw?t=',
+    videoId: 'VeC1dbeLXOw',
     startSeconds: 568,
     autoPlay: true,
     params: const YoutubePlayerParams(

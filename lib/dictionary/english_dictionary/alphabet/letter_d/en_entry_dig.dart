@@ -1057,7 +1057,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dig (Derived forms: digs, dug, digging)
+- Verb: dig (derived forms: digs, dug, digging)
 1. Turn up, loosen, or remove earth (= delve [archaic], cut into, turn over)
 "Dig we must";
  
@@ -1082,7 +1082,7 @@ ${englishMeaningConst.text}
 8. [informal] Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, grasp, compass, apprehend)
 "Do you dig the meaning of this letter?";
 
-- Noun: dig (Derived forms: digs)
+- Noun: dig (derived forms: digs)
 1. (archeology) the site of an archeological exploration (= excavation, archeological site)
 "they set up camp next to the dig";
  
@@ -1129,7 +1129,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DPZzrlFCD_I?t=',
+    videoId: 'DPZzrlFCD_I',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1154,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AtI7g6ax7rI?t=',
+    videoId: 'AtI7g6ax7rI',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1179,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1204,7 +1204,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 1229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1229,7 +1229,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aAByKcPJ5NQ?t=',
+    videoId: 'aAByKcPJ5NQ',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1254,7 +1254,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lGSOWwUvJiU?t=',
+    videoId: 'lGSOWwUvJiU',
     startSeconds: 363,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1279,7 +1279,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XlHzvTEstz8?t=',
+    videoId: 'XlHzvTEstz8',
     startSeconds: 306,
     autoPlay: true,
     params: const YoutubePlayerParams(

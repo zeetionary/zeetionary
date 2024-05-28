@@ -1064,7 +1064,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disguise (Derived forms: disguises)
+- Noun: disguise (derived forms: disguises)
 1. An outward semblance that misrepresents the true nature of something (= camouflage)
 "the theatrical notion of disguise is always associated with catastrophe in his stories";
  
@@ -1073,7 +1073,7 @@ ${englishMeaningConst.text}
 3. The act of concealing the identity of something by modifying its appearance (= camouflage)
 "he is a master of disguise";
 
-- Verb: disguise (Derived forms: disguised, disguises, disguising)
+- Verb: disguise (derived forms: disguised, disguises, disguising)
 1. Make unrecognizable (= mask)
 "We disguised our faces before robbing the bank";
  
@@ -1136,7 +1136,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    videoId: '4J0xFUyz1nw',
     startSeconds: 376,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1161,7 +1161,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9QrlDWKP6lg',
+    videoId: '9QrlDWKP6lg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1186,7 +1186,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsxmyL7TUJg?t=',
+    videoId: 'tsxmyL7TUJg',
     startSeconds: 798,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1211,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QiKZYt9070U?t=',
+    videoId: 'QiKZYt9070U',
     startSeconds: 746,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1236,7 +1236,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PkUg89kLLBE?t=',
+    videoId: 'PkUg89kLLBE',
     startSeconds: 1403,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1261,7 +1261,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 684,
     autoPlay: true,
     params: const YoutubePlayerParams(

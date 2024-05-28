@@ -410,7 +410,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بەئانقەست، ئاگادارانە، لەرووی مەبەستەوە، بەمەبەست، هەڵسەنگێنراو، لێکەوەدراو، بێ‌پەلە(پەل)،	لەسەرەخۆ، مەند، هێدی، هێمن
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) بە ئەنقەست نەک بەڕێکەوت"),
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵناو) بە ئەنقەست نەک بەڕێکەوت"),
           Row(
             children: [
               const Expanded(
@@ -449,7 +450,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text: "The emphasis on Europe was quite deliberate."),
                     ExampleSentenceKurdish(
-                        text: "سەرنجدانان لەسەر ئەورووپا تەواو بە ئەنقەست بوو."),
+                        text:
+                            "سەرنجدانان لەسەر ئەورووپا تەواو بە ئەنقەست بوو."),
                   ],
                 ),
               ),
@@ -1023,7 +1025,7 @@ ${englishMeaningConst.text}
 3. Unhurried and with care and dignity (= careful, measured)
 "with all deliberate speed";
 
-- Verb: deliberate (Derived forms: deliberates, deliberating, deliberated)
+- Verb: deliberate (derived forms: deliberates, deliberating, deliberated)
 1. Think about carefully; weigh (= consider, debate, moot, turn over)
 "They deliberated the possibility of a strike";
  
@@ -1060,7 +1062,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pck5JcnkYYs?t=',
+    videoId: 'Pck5JcnkYYs',
     startSeconds: 1889,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1087,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 5813,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1112,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U38i32CpYow?t=',
+    videoId: 'U38i32CpYow',
     startSeconds: 1216,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1137,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OhV3wb_FVEE?t=',
+    videoId: 'OhV3wb_FVEE',
     startSeconds: 1558,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1162,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fHsa9DqmId8?t=',
+    videoId: 'fHsa9DqmId8',
     startSeconds: 523,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1187,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQcwgZbgLj4?t=',
+    videoId: 'NQcwgZbgLj4',
     startSeconds: 1687,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1212,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    videoId: 'LJNtfyq3TDE',
     startSeconds: 811,
     autoPlay: true,
     params: const YoutubePlayerParams(

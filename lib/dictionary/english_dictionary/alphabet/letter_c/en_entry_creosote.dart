@@ -410,12 +410,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: creosote (Derived forms: creosotes)
+- Noun: creosote (derived forms: creosotes)
 1. A colourless or yellowish oily liquid obtained by distillation of wood tar; used as an antiseptic
  
 2. A dark oily liquid obtained by distillation of coal tar; used as a preservative for wood (= coal-tar creosote)
 
-- Verb: creosote (Derived forms: creosoting, creosotes, creosoted)
+- Verb: creosote (derived forms: creosoting, creosotes, creosoted)
 1. Treat with creosote
 "creosoted wood"
 """,
@@ -450,7 +450,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fIM6943BSRA',
+    videoId: 'fIM6943BSRA',
     startSeconds: 639,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ul-WtsPH8s0',
+    videoId: 'Ul-WtsPH8s0',
     startSeconds: 2,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pGZ39yYxeBk',
+    videoId: 'pGZ39yYxeBk',
     startSeconds: 191,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_XvgdNQsmVE',
+    videoId: '_XvgdNQsmVE',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fhoL-JpIx2w',
+    videoId: 'fhoL-JpIx2w',
     startSeconds: 2655,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -575,7 +575,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jCN__OAHiIQ',
+    videoId: 'jCN__OAHiIQ',
     startSeconds: 657,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -600,7 +600,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aks7VwwPfjw',
+    videoId: 'aks7VwwPfjw',
     startSeconds: 752,
     autoPlay: true,
     params: const YoutubePlayerParams(

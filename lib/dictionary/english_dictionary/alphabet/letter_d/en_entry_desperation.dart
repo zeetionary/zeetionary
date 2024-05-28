@@ -14,7 +14,8 @@ class EnglishEntrydesperation extends StatefulWidget {
   const EnglishEntrydesperation({super.key});
 
   @override
-  State<EnglishEntrydesperation> createState() => _EnglishEntrydesperationState();
+  State<EnglishEntrydesperation> createState() =>
+      _EnglishEntrydesperationState();
 }
 
 class _EnglishEntrydesperationState extends State<EnglishEntrydesperation> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In desperation, she called Louise and asked for her help."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In desperation, she called Louise and asked for her help."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesperations3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdesperations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdesperations14(String languageCode) async {
+  Future<void> speakdesperations14(String languageCode) async {
     // DOPSUM: CHANGE speakdesperation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In desperation, she called Louise and asked for her help.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In desperation, she called Louise and asked for her help.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesperations21(String languageCode) async {
@@ -411,9 +414,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "There was a note of desperation in his voice."),
-                    ExampleSentenceKurdish(text: "ئاماژەیەکی ناچاری لە دەنگیدا هەبوو."),
+                        text: "There was a note of desperation in his voice."),
+                    ExampleSentenceKurdish(
+                        text: "ئاماژەیەکی ناچاری لە دەنگیدا هەبوو."),
                   ],
                 ),
               ),
@@ -438,8 +441,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "In desperation, she called Louise and asked for her help."),
-                    ExampleSentenceKurdish(text: "لە ناچاریدا، بانگی لویزی کرد و داوای یارمەتیی کرد."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "In desperation, she called Louise and asked for her help."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە ناچاریدا، بانگی لویزی کرد و داوای یارمەتیی کرد."),
                   ],
                 ),
               ),
@@ -994,7 +1001,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: desperation (Derived forms: desperations)
+- Noun: desperation (derived forms: desperations)
 1. A state in which all hope is lost or absent (= despair)
 "courage born of desperation";
  
@@ -1032,7 +1039,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1057,7 +1064,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4J0xFUyz1nw?t=',
+    videoId: '4J0xFUyz1nw',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1082,7 +1089,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 1526,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1107,7 +1114,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fgvdl87lqc8?t=',
+    videoId: 'Fgvdl87lqc8',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1132,7 +1139,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7xRit3yRim0?t=',
+    videoId: '7xRit3yRim0',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1157,7 +1164,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SsuWS6yE478?t=',
+    videoId: 'SsuWS6yE478',
     startSeconds: 1265,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1182,7 +1189,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hwRni344t84?t=',
+    videoId: 'hwRni344t84',
     startSeconds: 864,
     autoPlay: true,
     params: const YoutubePlayerParams(

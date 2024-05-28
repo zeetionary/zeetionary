@@ -406,7 +406,7 @@ Future<void> stopSpeaking() async {
 // Create an instance of EnglishMeaningConst with the desired text
 final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
   text: """
-- Noun: tsar (Derived forms: tsars)
+- Noun: tsar (derived forms: tsars)
 1. A male monarch or emperor (especially of Russia prior to 1917) (= czar, tzar)
  
 2. An official given powers to regulate or oversee a specific policy area (= czar, tzar)
@@ -443,7 +443,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
 YoutubeEmbeddedend({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+  videoId: 'Cqbleas1mmo',
   startSeconds: 94,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 YoutubeEmbeddedone({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/mY3SEMTROas?t=',
+  videoId: 'mY3SEMTROas',
   startSeconds: 705,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 YoutubeEmbeddedtwo({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+  videoId: 'Xzv84ZdtlE0',
   startSeconds: 1677,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 YoutubeEmbeddedthree({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/b1reY72ktEc?t=',
+  videoId: 'b1reY72ktEc',
   startSeconds: 37,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 YoutubeEmbeddedfour({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/fs1CIrwg5zU?t=',
+  videoId: 'fs1CIrwg5zU',
   startSeconds: 106,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 YoutubeEmbeddedfive({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/CaOwcYLGTMo?t=',
+  videoId: 'CaOwcYLGTMo',
   startSeconds: 189,
   autoPlay: true,
   params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 YoutubeEmbeddedsix({super.key});
 
 final _controller = YoutubePlayerController.fromVideoId(
-  videoId: 'https://youtu.be/NZOHQwzA0bM?t=',
+  videoId: 'NZOHQwzA0bM',
   startSeconds: 368,
   autoPlay: true,
   params: const YoutubePlayerParams(

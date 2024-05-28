@@ -231,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Shares continued to depreciate on the stock markets today."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Shares continued to depreciate on the stock markets today."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepreciates3(String languageCode) async {
@@ -322,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepreciates1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepreciates14(String languageCode) async {
+  Future<void> speakdepreciates14(String languageCode) async {
     // DOPSUM: CHANGE speakdepreciate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -375,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Shares continued to depreciate on the stock markets today.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Shares continued to depreciate on the stock markets today.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepreciates21(String languageCode) async {
@@ -405,7 +407,8 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: کەم نرخ کردن، کەم بایخ کردن
 // """),
-          const DefinitionKurdish(text: "١. (کردار) لەدەستدانی نرخ لە ماوەیەکدا"),
+          const DefinitionKurdish(
+              text: "١. (کردار) لەدەستدانی نرخ لە ماوەیەکدا"),
           Row(
             children: [
               const Expanded(
@@ -414,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "New cars start to depreciate as soon as they are on the road."),
-                    ExampleSentenceKurdish(text: "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات هەرکە دەچێتە سەر شەقام."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات هەرکە دەچێتە سەر شەقام."),
                   ],
                 ),
               ),
@@ -439,8 +444,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Shares continued to depreciate on the stock markets today."),
-                    ExampleSentenceKurdish(text: "پشکەکان ئەمڕۆ بەردەوام بوون لە دابەزین لە بازاڕی بۆرسەدا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Shares continued to depreciate on the stock markets today."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پشکەکان ئەمڕۆ بەردەوام بوون لە دابەزین لە بازاڕی بۆرسەدا."),
                   ],
                 ),
               ),
@@ -1010,7 +1019,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: depreciate (Derived forms: depreciates, depreciated, depreciating)
+- Verb: depreciate (derived forms: depreciates, depreciated, depreciating)
 1. Belittle (= deprecate, vilipend)
  
 2. Lower the value of something
@@ -1050,7 +1059,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0p8CO6j9U-M?t=',
+    videoId: '0p8CO6j9U-M',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1075,7 +1084,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oAADFdfa-G4?t=',
+    videoId: 'oAADFdfa-G4',
     startSeconds: 1103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1109,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QkuAvC3zHEc?t=',
+    videoId: 'QkuAvC3zHEc',
     startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1125,7 +1134,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5kZRY5xlP6Y?t=',
+    videoId: '5kZRY5xlP6Y',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1150,7 +1159,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/70rQqQAc_q0?t=',
+    videoId: '70rQqQAc_q0',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1175,7 +1184,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xvtVSGpKdto?t=',
+    videoId: 'xvtVSGpKdto',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1200,7 +1209,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/28yrkIzVXys?t=',
+    videoId: '28yrkIzVXys',
     startSeconds: 1356,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -472,7 +472,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cutting (Derived forms: cuttings)
+- Noun: cutting (derived forms: cuttings)
 1. The activity of selecting the scenes to be shown and putting them together to create a film (= film editing)
  
 2. A part (sometimes a root or leaf or bud) removed from a plant to propagate a new plant through rooting or grafting (= slip)
@@ -541,7 +541,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sKDHedsVA94?t=',
+    videoId: 'sKDHedsVA94',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pdipblQmgnw?t=',
+    videoId: 'pdipblQmgnw',
     startSeconds: 363,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Jm8EOmNnvA?t=',
+    videoId: '7Jm8EOmNnvA',
     startSeconds: 493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4eUnKqUFXHE?t=',
+    videoId: '4eUnKqUFXHE',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ogfyJICT9aI?t=',
+    videoId: 'ogfyJICT9aI',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/25IO32AxGq4?t=',
+    videoId: '25IO32AxGq4',
     startSeconds: 452,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -691,7 +691,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3kr7C2L6AUA?t=',
+    videoId: '3kr7C2L6AUA',
     startSeconds: 96,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The LP was made defunct by the arrival of the CD."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The LP was made defunct by the arrival of the CD."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefuncts3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("These machines are now considered defunct."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These machines are now considered defunct."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefuncts4(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdefuncts1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdefuncts14(String languageCode) async {
+  Future<void> speakdefuncts14(String languageCode) async {
     // DOPSUM: CHANGE speakdefunct
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The LP was made defunct by the arrival of the CD.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The LP was made defunct by the arrival of the CD.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefuncts21(String languageCode) async {
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He wrote many articles for the now sadly defunct newspaper, the Daily Correspondent."),
-                    ExampleSentenceKurdish(text: "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە."),
                   ],
                 ),
               ),
@@ -438,8 +443,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The LP was made defunct by the arrival of the CD."),
-                    ExampleSentenceKurdish(text: "ئێڵ‌پی لەکارخرا بە گەشتنی سی‌دی."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The LP was made defunct by the arrival of the CD."),
+                    ExampleSentenceKurdish(
+                        text: "ئێڵ‌پی لەکارخرا بە گەشتنی سی‌دی."),
                   ],
                 ),
               ),
@@ -464,8 +472,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "These machines are now considered defunct."),
-                    ExampleSentenceKurdish(text: "ئەم ئامێرانە لە ئێستادا بە بێ‌بڕەو دادەنرێن."),
+                    ExampleSentenceEnglish(
+                        text: "These machines are now considered defunct."),
+                    ExampleSentenceKurdish(
+                        text: "ئەم ئامێرانە لە ئێستادا بە بێ‌بڕەو دادەنرێن."),
                   ],
                 ),
               ),
@@ -1026,7 +1036,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tExo3ovEBWQ?t=',
+    videoId: 'tExo3ovEBWQ',
     startSeconds: 1989,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1051,7 +1061,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
+    videoId: 'fn--IVarumw',
     startSeconds: 1428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1076,7 +1086,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-obKX-mqjXQ?t=',
+    videoId: '-obKX-mqjXQ',
     startSeconds: 1847,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1101,7 +1111,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tjkW06zHfgA?t=',
+    videoId: 'tjkW06zHfgA',
     startSeconds: 297,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1126,7 +1136,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWh7goEjkcI?t=',
+    videoId: 'qWh7goEjkcI',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1151,7 +1161,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W6aDNutZoB0?t=',
+    videoId: 'W6aDNutZoB0',
     startSeconds: 495,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1176,7 +1186,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ua0-5FZ2Eww?t=',
+    videoId: 'ua0-5FZ2Eww',
     startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(

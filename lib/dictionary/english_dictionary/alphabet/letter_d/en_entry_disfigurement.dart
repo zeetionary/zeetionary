@@ -14,7 +14,8 @@ class EnglishEntrydisfigurement extends StatefulWidget {
   const EnglishEntrydisfigurement({super.key});
 
   @override
-  State<EnglishEntrydisfigurement> createState() => _EnglishEntrydisfigurementState();
+  State<EnglishEntrydisfigurement> createState() =>
+      _EnglishEntrydisfigurementState();
 }
 
 class _EnglishEntrydisfigurementState extends State<EnglishEntrydisfigurement> {
@@ -404,7 +405,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ناحەزی، ناشیرینی، ناڕێکی، تێکچوویی، شێوان، لەشێوەکەوتوویی
 """),
-          const DefinitionKurdish(text: "١. (ناو) زیان گەیاندن بە شێوەی کەسێک، شتێک، یان شوێنێک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) زیان گەیاندن بە شێوەی کەسێک، شتێک، یان شوێنێک"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He suffered permanent disfigurement in the fire."),
-                    ExampleSentenceKurdish(text: "لە ئاگرەکەدا تووشی شێوانی هەمیشەیی بوو."),
+                    ExampleSentenceKurdish(
+                        text: "لە ئاگرەکەدا تووشی شێوانی هەمیشەیی بوو."),
                   ],
                 ),
               ),
@@ -1024,7 +1027,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disfigurement (Derived forms: disfigurements)
+- Noun: disfigurement (derived forms: disfigurements)
 1. An appearance that has been spoiled or is misshapen (= disfiguration, deformity)
 "there were distinguishing disfigurements on the suspect's back";
  
@@ -1062,7 +1065,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cH8HKqHw6DQ?t=',
+    videoId: 'cH8HKqHw6DQ',
     startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1090,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j0iOuOMh_JE?t=',
+    videoId: 'j0iOuOMh_JE',
     startSeconds: 1089,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1115,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fJZFxUoKNxM?t=',
+    videoId: 'fJZFxUoKNxM',
     startSeconds: 271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1140,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pmwC4YI0D2A?t=',
+    videoId: 'pmwC4YI0D2A',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1165,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VlpxsiMUkZg?t=',
+    videoId: 'VlpxsiMUkZg',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1190,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhgn8sYw8gg?t=',
+    videoId: 'Uhgn8sYw8gg',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1215,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BlgTQN-esjM?t=',
+    videoId: 'BlgTQN-esjM',
     startSeconds: 234,
     autoPlay: true,
     params: const YoutubePlayerParams(

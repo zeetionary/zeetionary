@@ -14,7 +14,8 @@ class EnglishEntrydirectcurrent extends StatefulWidget {
   const EnglishEntrydirectcurrent({super.key});
 
   @override
-  State<EnglishEntrydirectcurrent> createState() => _EnglishEntrydirectcurrentState();
+  State<EnglishEntrydirectcurrent> createState() =>
+      _EnglishEntrydirectcurrentState();
 }
 
 class _EnglishEntrydirectcurrentState extends State<EnglishEntrydirectcurrent> {
@@ -132,7 +133,8 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dəˌrekt ˈkʌrənt/,  /daɪˌrekt ˈkʌrənt/");
+    return const IPAofEnglish(
+        text: "IpaUK: /dəˌrekt ˈkʌrənt/,  /daɪˌrekt ˈkʌrənt/");
   }
 }
 
@@ -182,7 +184,8 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dəˌrekt ˈkɜːrənt/,  /daɪˌrekt ˈkɜːrənt/");
+    return const IPAofEnglish(
+        text: "IpaUS: /dəˌrekt ˈkɜːrənt/,  /daɪˌrekt ˈkɜːrənt/");
   }
 }
 
@@ -230,7 +233,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Flashlights operate on direct current."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Flashlights operate on direct current."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdirectcurrents3(String languageCode) async {
@@ -402,18 +406,21 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنها بە یەک ئاراستەدا دەچێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنها بە یەک ئاراستەدا دەچێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "Solar panels produce direct current for homes."),
+                    ExampleSentenceKurdish(
                         text:
-                            "Solar panels produce direct current for homes."),
-                    ExampleSentenceKurdish(text: "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن."),
+                            "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن."),
                   ],
                 ),
               ),
@@ -438,8 +445,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Flashlights operate on direct current."),
-                    ExampleSentenceKurdish(text: "فلاشلایت بە تەزووی ڕاستەوخۆ کاردەکەن."),
+                    ExampleSentenceEnglish(
+                        text: "Flashlights operate on direct current."),
+                    ExampleSentenceKurdish(
+                        text: "فلاشلایت بە تەزووی ڕاستەوخۆ کاردەکەن."),
                   ],
                 ),
               ),
@@ -1024,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: direct current (Derived forms: direct currents)
+- Noun: direct current (derived forms: direct currents)
 1. An electric current that flows in one direction steadily (= DC, direct electric current)
 """,
   );
@@ -1058,7 +1067,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pLcqJ2DclEg?t=',
+    videoId: 'pLcqJ2DclEg',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1092,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TdUK6RPdIrA?t=',
+    videoId: 'TdUK6RPdIrA',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1117,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qs2QcycggWU?t=',
+    videoId: 'qs2QcycggWU',
     startSeconds: 367,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1142,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/io9k0gNj7c4?t=',
+    videoId: 'io9k0gNj7c4',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1167,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j-HFSre2Z7w?t=',
+    videoId: 'j-HFSre2Z7w',
     startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1192,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uFzuRm3wCDk?t=',
+    videoId: 'uFzuRm3wCDk',
     startSeconds: 586,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1217,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/69GbSRVLj_Y?t=',
+    videoId: '69GbSRVLj_Y',
     startSeconds: 941,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1767,7 +1767,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: discharge (Derived forms: discharged, discharges, discharging)
+- Verb: discharge (derived forms: discharged, discharges, discharging)
 1. Allow or require to leave (a patient from hospital, from police custody, etc.)
  
 2. Release from obligations or duties (= free)
@@ -1798,7 +1798,7 @@ ${englishMeaningConst.text}
 12. Pronounce not guilty of criminal charges (= acquit, assoil [archaic], clear, exonerate, exculpate)
 "The suspect was discharged of the murder charges";
 
-- Noun: discharge (Derived forms: discharges)
+- Noun: discharge (derived forms: discharges)
 1. The termination of someone's employment (leaving them free to depart) (= dismissal, dismission, firing, liberation, release, sack, sacking, heave-ho [informal], chuck [Brit, informal], the axe [informal], severance, the boot [informal], the chop [Brit, informal])
  
 2. The act of releasing gas, liquid etc.
@@ -1851,7 +1851,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L1HCG3BGK8I?t=',
+    videoId: 'L1HCG3BGK8I',
     startSeconds: 300,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1876,7 +1876,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hCsPV0eiqxg?t=',
+    videoId: 'hCsPV0eiqxg',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1901,7 +1901,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yXjN5ln-2TQ?t=',
+    videoId: 'yXjN5ln-2TQ',
     startSeconds: 394,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1926,7 +1926,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_rBO8neWw04?t=',
+    videoId: '_rBO8neWw04',
     startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1951,7 +1951,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KIxg2zxg1CQ?t=',
+    videoId: 'KIxg2zxg1CQ',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1976,7 +1976,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NZLbTuBDhJg?t=',
+    videoId: 'NZLbTuBDhJg',
     startSeconds: 474,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -2001,7 +2001,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7zpojhD4hpI?t=',
+    videoId: '7zpojhD4hpI',
     startSeconds: 715,
     autoPlay: true,
     params: const YoutubePlayerParams(

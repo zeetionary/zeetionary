@@ -14,7 +14,8 @@ class EnglishEntrydestitution extends StatefulWidget {
   const EnglishEntrydestitution({super.key});
 
   @override
-  State<EnglishEntrydestitution> createState() => _EnglishEntrydestitutionState();
+  State<EnglishEntrydestitution> createState() =>
+      _EnglishEntrydestitutionState();
 }
 
 class _EnglishEntrydestitutionState extends State<EnglishEntrydestitution> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Destitution has become a major problem in the capital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Destitution has become a major problem in the capital."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdestitutions3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdestitutions1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdestitutions14(String languageCode) async {
+  Future<void> speakdestitutions14(String languageCode) async {
     // DOPSUM: CHANGE speakdestitution
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Destitution has become a major problem in the capital.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Destitution has become a major problem in the capital.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdestitutions21(String languageCode) async {
@@ -404,16 +407,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: هەژاری، نەداری، دەس‌تەنگی، فەقیری، بەلەنگازی، دەس‌کورتی
 """),
-          const DefinitionKurdish(text: "١. (ناو) دۆخی نەبوونی پارە، خۆراک، و پێداویستییە سەرەکییەکانی دیکەی ژیان"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) دۆخی نەبوونی پارە، خۆراک، و پێداویستییە سەرەکییەکانی دیکەی ژیان"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "They both died in poverty and destitution."),
-                    ExampleSentenceKurdish(text: "هەردووکیان لە هەژاری و نەداریدا مردن."),
+                        text: "They both died in poverty and destitution."),
+                    ExampleSentenceKurdish(
+                        text: "هەردووکیان لە هەژاری و نەداریدا مردن."),
                   ],
                 ),
               ),
@@ -438,8 +443,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Destitution has become a major problem in the capital."),
-                    ExampleSentenceKurdish(text: "هەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Destitution has become a major problem in the capital."),
+                    ExampleSentenceKurdish(
+                        text: "هەژاری بووە بە کێشەیەکی گەورە لە پایتەختدا."),
                   ],
                 ),
               ),
@@ -994,7 +1002,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: destitution (Derived forms: destitutions)
+- Noun: destitution (derived forms: destitutions)
 1. A state without friends, money or prospects
 "she laid her case of destitution before him in a very moving letter"
 """,
@@ -1029,7 +1037,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HZq_HjKCRB4?t=',
+    videoId: 'HZq_HjKCRB4',
     startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1054,7 +1062,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YZAibo7eiik?t=',
+    videoId: 'YZAibo7eiik',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1079,7 +1087,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yhK1ylCeoPo?t=',
+    videoId: 'yhK1ylCeoPo',
     startSeconds: 1471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1104,7 +1112,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEfPkQDC-Ug?t=',
+    videoId: 'DEfPkQDC-Ug',
     startSeconds: 416,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1129,7 +1137,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8xpnCiF4im0?t=',
+    videoId: '8xpnCiF4im0',
     startSeconds: 10205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1162,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6-Od2lnsiHs?t=',
+    videoId: '6-Od2lnsiHs',
     startSeconds: 6655,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1187,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4IYisDTeycY?t=',
+    videoId: '4IYisDTeycY',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(

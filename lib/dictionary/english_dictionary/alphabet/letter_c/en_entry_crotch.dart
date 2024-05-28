@@ -416,7 +416,7 @@ ${englishMeaningConst.text}
  
 External sex organ
 - genitalia, genital organ, genitals, private parts, privates
-Derived forms: crotches
+derived forms: crotches
 """,
   );
 
@@ -449,7 +449,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AdYaTa_lOf4?t=',
+    videoId: 'AdYaTa_lOf4',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/48I41WruLnQ?t=',
+    videoId: '48I41WruLnQ',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_p7CjbVkN1w?t=',
+    videoId: '_p7CjbVkN1w',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dFuh6m9Itxc?t=',
+    videoId: 'dFuh6m9Itxc',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d8Q6sc2bRu4?t=',
+    videoId: 'd8Q6sc2bRu4',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DfyDMMKDyWI?t=',
+    videoId: 'DfyDMMKDyWI',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RaFKwxfi2Eg?t=',
+    videoId: 'RaFKwxfi2Eg',
     startSeconds: 193,
     autoPlay: true,
     params: const YoutubePlayerParams(

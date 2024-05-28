@@ -14,10 +14,12 @@ class EnglishEntrydesktoppublishing extends StatefulWidget {
   const EnglishEntrydesktoppublishing({super.key});
 
   @override
-  State<EnglishEntrydesktoppublishing> createState() => _EnglishEntrydesktoppublishingState();
+  State<EnglishEntrydesktoppublishing> createState() =>
+      _EnglishEntrydesktoppublishingState();
 }
 
-class _EnglishEntrydesktoppublishingState extends State<EnglishEntrydesktoppublishing> {
+class _EnglishEntrydesktoppublishingState
+    extends State<EnglishEntrydesktoppublishing> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -294,7 +296,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1000"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings11(String languageCode) async {
@@ -302,7 +305,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1100"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings12(String languageCode) async {
@@ -310,7 +314,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1200"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings13(String languageCode) async {
@@ -318,15 +323,17 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdesktoppublishings14(String languageCode) async {
+  Future<void> speakdesktoppublishings14(String languageCode) async {
     // DOPSUM: CHANGE speakdesktoppublishing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1400"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings15(String languageCode) async {
@@ -334,7 +341,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1500"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings16(String languageCode) async {
@@ -342,7 +350,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1600"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings17(String languageCode) async {
@@ -350,7 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1700"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings18(String languageCode) async {
@@ -358,7 +368,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1800"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings19(String languageCode) async {
@@ -366,7 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings1900"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings20(String languageCode) async {
@@ -374,7 +386,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings2000"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings21(String languageCode) async {
@@ -382,7 +395,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings2100"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesktoppublishings22(String languageCode) async {
@@ -390,7 +404,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdesktoppublishings2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdesktoppublishings2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -404,7 +419,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: بڵاوکردنەوەی کامپیوتێری، بڵاوکردنەوەی سەرمیزی
 // """),
-          const DefinitionKurdish(text: "١. (ناو) بەکارهێنانی کۆمپیوتەرێکی بچووک بۆ بڵاوکردنەوەی کتێب، گۆڤار، یان بابەتی چاپکراو"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) بەکارهێنانی کۆمپیوتەرێکی بچووک بۆ بڵاوکردنەوەی کتێب، گۆڤار، یان بابەتی چاپکراو"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +430,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Desktop publishing helped them design the magazine."),
-                    ExampleSentenceKurdish(text: "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە."),
                   ],
                 ),
               ),
@@ -1028,7 +1047,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mpayqVGmKyo?t=',
+    videoId: 'mpayqVGmKyo',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1072,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gk-9Fd2mEnI?t=',
+    videoId: 'Gk-9Fd2mEnI',
     startSeconds: 516,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1097,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OLGVBBp_VfY?t=',
+    videoId: 'OLGVBBp_VfY',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1122,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BxL7-XLGfDg?t=',
+    videoId: 'BxL7-XLGfDg',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1147,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zcpPg4xHD8o?t=',
+    videoId: 'zcpPg4xHD8o',
     startSeconds: 291,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1172,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ZaisnU19ik?t=',
+    videoId: '4ZaisnU19ik',
     startSeconds: 464,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1197,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wc3JoMwVqL4?t=',
+    videoId: 'wc3JoMwVqL4',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(

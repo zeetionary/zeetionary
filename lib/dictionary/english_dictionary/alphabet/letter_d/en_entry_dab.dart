@@ -521,7 +521,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dab (Derived forms: dabbed, dabbing, dabs)
+- Verb: dab (derived forms: dabbed, dabbing, dabs)
 1. Apply (usually a liquid) to a surface (= swab, swob)
 "dab the wall with paint";
  
@@ -532,7 +532,7 @@ ${englishMeaningConst.text}
  
 4. To perform a dance move in which the dancer simultaneously drops the head while raising an arm and the elbow in a gesture that has been noted to resemble sneezing
 
-- Noun: dab (Derived forms: dabs)
+- Noun: dab (derived forms: dabs)
 1. A light touch or stroke (= tap, pat)
  
 2. A small quantity of something moist or liquid (= splash, splatter)
@@ -571,7 +571,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99i-Uo7rIpw?t=',
+    videoId: '99i-Uo7rIpw',
     startSeconds: 683,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SEZu7K5tGxw?t=',
+    videoId: 'SEZu7K5tGxw',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N4kvtt2T_6Y?t=',
+    videoId: 'N4kvtt2T_6Y',
     startSeconds: 84,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -646,7 +646,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EHJNGdFll4o?t=',
+    videoId: 'EHJNGdFll4o',
     startSeconds: 1083,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -671,7 +671,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TLdK0cjb8JU?t=',
+    videoId: 'TLdK0cjb8JU',
     startSeconds: 331,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -696,7 +696,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PYS3UZFPJWI?t=',
+    videoId: 'PYS3UZFPJWI',
     startSeconds: 950,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -721,7 +721,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q1NbmG5Ks9k?t=',
+    videoId: 'q1NbmG5Ks9k',
     startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(

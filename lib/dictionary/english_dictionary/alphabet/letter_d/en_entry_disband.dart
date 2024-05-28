@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The committee formally disbanded in August."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The committee formally disbanded in August."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisbands3(String languageCode) async {
@@ -402,9 +403,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) ڕێگری لە کەسێک/شتێک کە وەک گرووپێک کار بکات"),
+          const DefinitionKurdish(
+              text: "١. (کردار) ڕێگری لە کەسێک/شتێک کە وەک گرووپێک کار بکات"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They set about disbanding the terrorist groups."),
-                    ExampleSentenceKurdish(text: "دەستیان بە هەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەستیان بە هەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد."),
                   ],
                 ),
               ),
@@ -438,8 +442,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The committee formally disbanded in August."),
-                    ExampleSentenceKurdish(text: "لیژنەکە بە فەرمی لە ئابدا هەڵوەشایەوە."),
+                    ExampleSentenceEnglish(
+                        text: "The committee formally disbanded in August."),
+                    ExampleSentenceKurdish(
+                        text: "لیژنەکە بە فەرمی لە ئابدا هەڵوەشایەوە."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disband (Derived forms: disbanded, disbanding, disbands)
+- Verb: disband (derived forms: disbanded, disbanding, disbands)
 1. Cause to break up or cease to function
 "the principal disbanded the political student organization"
  
@@ -1062,7 +1068,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b1reY72ktEc?t=',
+    videoId: 'b1reY72ktEc',
     startSeconds: 572,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1093,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NpBPm0b9deQ?t=',
+    videoId: 'NpBPm0b9deQ',
     startSeconds: 1057,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1118,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BuX6-lvUwd0?t=',
+    videoId: 'BuX6-lvUwd0',
     startSeconds: 864,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1143,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7eM7pb5M5DU?t=',
+    videoId: '7eM7pb5M5DU',
     startSeconds: 2020,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1168,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1193,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eGIkGo-lGm0?t=',
+    videoId: 'eGIkGo-lGm0',
     startSeconds: 1501,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1218,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pv-c70rrKZI?t=',
+    videoId: 'pv-c70rrKZI',
     startSeconds: 997,
     autoPlay: true,
     params: const YoutubePlayerParams(

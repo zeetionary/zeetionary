@@ -14,7 +14,8 @@ class EnglishEntrydisillusioned extends StatefulWidget {
   const EnglishEntrydisillusioned({super.key});
 
   @override
-  State<EnglishEntrydisillusioned> createState() => _EnglishEntrydisillusionedState();
+  State<EnglishEntrydisillusioned> createState() =>
+      _EnglishEntrydisillusionedState();
 }
 
 class _EnglishEntrydisillusionedState extends State<EnglishEntrydisillusioned> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I feel utterly disillusioned by his refusal to take any action."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I feel utterly disillusioned by his refusal to take any action."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisillusioneds3(String languageCode) async {
@@ -404,15 +406,16 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ناهومێد، دڵ‌سارد، تێ‌شکاو، دڵ‌شکست، باڵ‌شکاو، بێ‌هیوا
 """),
-          const DefinitionKurdish(text: "١. (ناو) نائومێد بەهۆی ئەوەی ئەو کەسەی بەهای هەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەها دیارن"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) نائومێد بەهۆی ئەوەی ئەو کەسەی بەهای هەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەها دیارن"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "I soon became disillusioned with the job."),
+                        text: "I soon became disillusioned with the job."),
                     ExampleSentenceKurdish(text: "زوو نائومێد بووم لە کارەکە."),
                   ],
                 ),
@@ -438,8 +441,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I feel utterly disillusioned by his refusal to take any action."),
-                    ExampleSentenceKurdish(text: "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ هەر هەنگاونانێک."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I feel utterly disillusioned by his refusal to take any action."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تەواو نائومێد بووم بە ڕەتکردنەوەی بۆ هەر هەنگاونانێک."),
                   ],
                 ),
               ),
@@ -1059,7 +1066,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F73w_WGXq3E?t=',
+    videoId: 'F73w_WGXq3E',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1091,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qRNOAdXL99U?t=',
+    videoId: 'qRNOAdXL99U',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1116,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4hAE7xl6O5Y?t=',
+    videoId: '4hAE7xl6O5Y',
     startSeconds: 2835,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1141,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RV827UzwwgQ?t=',
+    videoId: 'RV827UzwwgQ',
     startSeconds: 795,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1166,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AF8d72mA41M?t=',
+    videoId: 'AF8d72mA41M',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1191,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FCZ06Sfr9Cg?t=',
+    videoId: 'FCZ06Sfr9Cg',
     startSeconds: 815,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1216,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-UY-KkPY3vc?t=',
+    videoId: '-UY-KkPY3vc',
     startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(

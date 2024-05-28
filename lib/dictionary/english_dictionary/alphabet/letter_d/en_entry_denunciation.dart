@@ -14,7 +14,8 @@ class EnglishEntrydenunciation extends StatefulWidget {
   const EnglishEntrydenunciation({super.key});
 
   @override
-  State<EnglishEntrydenunciation> createState() => _EnglishEntrydenunciationState();
+  State<EnglishEntrydenunciation> createState() =>
+      _EnglishEntrydenunciationState();
 }
 
 class _EnglishEntrydenunciationState extends State<EnglishEntrydenunciation> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("All parties joined in bitter denunciation of the terrorists."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All parties joined in bitter denunciation of the terrorists."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdenunciations3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdenunciations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdenunciations14(String languageCode) async {
+  Future<void> speakdenunciations14(String languageCode) async {
     // DOPSUM: CHANGE speakdenunciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("All parties joined in bitter denunciation of the terrorists.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All parties joined in bitter denunciation of the terrorists.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdenunciations21(String languageCode) async {
@@ -404,7 +407,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ناپەسندکردن، ڕووڕەش‌کردن، سووک‌کردن، شەرمەزارکردن، داڕزاندن،	تاوانبارکردن، گوناهبارکردن، گومانبارکردن،	ئاگادار (وریا)کردنەوە،	ڕەخنە،	زەم‌کردن، ناوزڕاندن
 """),
-          const DefinitionKurdish(text: "١. (ناو) سەرزەنشتکردنی توندی کەسێک/شتێک بە گشتی"),
+          const DefinitionKurdish(
+              text: "١. (ناو) سەرزەنشتکردنی توندی کەسێک/شتێک بە گشتی"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The bishop made an angry denunciation of the government's policies."),
-                    ExampleSentenceKurdish(text: "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد."),
+                    ExampleSentenceKurdish(
+                        text: "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد."),
                   ],
                 ),
               ),
@@ -438,8 +443,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "All parties joined in bitter denunciation of the terrorists."),
-                    ExampleSentenceKurdish(text: "هەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "All parties joined in bitter denunciation of the terrorists."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەموو پارتەکان یەکیان گرت لە سەرکۆنەی توندی تیرۆریستان."),
                   ],
                 ),
               ),
@@ -988,7 +997,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: denunciation (Derived forms: denunciations)
+- Noun: denunciation (derived forms: denunciations)
 1. A public act of denouncing (= denouncement)
 """,
   );
@@ -1022,7 +1031,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j4kI2h3iotA?t=',
+    videoId: 'j4kI2h3iotA',
     startSeconds: 1176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1056,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Solb9uA-tgQ?t=',
+    videoId: 'Solb9uA-tgQ',
     startSeconds: 19700,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1081,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KqfcpNrcGb0?t=',
+    videoId: 'KqfcpNrcGb0',
     startSeconds: 781,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1106,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbLYSehJLyc?t=',
+    videoId: 'LbLYSehJLyc',
     startSeconds: 412,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1131,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tq_hK1Yg4Cw?t=',
+    videoId: 'tq_hK1Yg4Cw',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1156,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HGEMscZE5dY?t=',
+    videoId: 'HGEMscZE5dY',
     startSeconds: 606,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1181,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NBe5qbnkqoM?t=',
+    videoId: 'NBe5qbnkqoM',
     startSeconds: 224,
     autoPlay: true,
     params: const YoutubePlayerParams(

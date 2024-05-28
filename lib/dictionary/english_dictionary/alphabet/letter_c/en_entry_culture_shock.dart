@@ -440,7 +440,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: culture shock (Derived forms: culture shocks)
+- Noun: culture shock (derived forms: culture shocks)
 1. A condition of disorientation affecting someone who is suddenly exposed to an unfamiliar culture or way of life or set of attitudes
 """,
   );
@@ -474,7 +474,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cffELv3X1ik?t=',
+    videoId: 'cffELv3X1ik',
     startSeconds: 905,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-YR2TxHkb4c?t=',
+    videoId: '-YR2TxHkb4c',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/As7ADZTOaCM?t=',
+    videoId: 'As7ADZTOaCM',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DO5x_tJBn7w?t=',
+    videoId: 'DO5x_tJBn7w',
     startSeconds: 133,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -574,7 +574,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Y63dBBlHlSk?t=',
+    videoId: 'Y63dBBlHlSk',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -599,7 +599,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4I-FfNsRz4g?t=',
+    videoId: '4I-FfNsRz4g',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -624,7 +624,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h9lSZlDJAC0?t=',
+    videoId: 'h9lSZlDJAC0',
     startSeconds: 2324,
     autoPlay: true,
     params: const YoutubePlayerParams(

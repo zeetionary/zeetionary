@@ -1033,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: devise (Derived forms: devises, devised, devising)
+- Verb: devise (derived forms: devises, devised, devising)
 1. Come up with (an idea, plan, explanation, theory, or principle) after a mental effort (= invent, contrive, excogitate, formulate, forge)
 "devise a way to measure the speed of light";
  
@@ -1042,7 +1042,7 @@ ${englishMeaningConst.text}
  
 3. Give by will, especially real property
 
-- Noun: devise (Derived forms: devises)
+- Noun: devise (derived forms: devises)
 1. A will disposing of real property
  
 2. (law) a gift of real property by will
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7xRit3yRim0?t=',
+    videoId: '7xRit3yRim0',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qtlPTE-UmY4?t=',
+    videoId: 'qtlPTE-UmY4',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVQFRJFge3E?t=',
+    videoId: 'lVQFRJFge3E',
     startSeconds: 634,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kS6YJJfBYag?t=',
+    videoId: 'kS6YJJfBYag',
     startSeconds: 847,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fBTjbGfHx0s?t=',
+    videoId: 'fBTjbGfHx0s',
     startSeconds: 2438,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0num7Zb4iu4?t=',
+    videoId: '0num7Zb4iu4',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1228,7 +1228,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wMXN6-hZZzA?t=',
+    videoId: 'wMXN6-hZZzA',
     startSeconds: 415,
     autoPlay: true,
     params: const YoutubePlayerParams(

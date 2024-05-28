@@ -1052,7 +1052,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: devil (Derived forms: devils)
+- Noun: devil (derived forms: devils)
 1. An evil supernatural being (= fiend, demon, daemon, daimon)
  
 2. A word used in exclamations of confusion (= deuce, dickens)
@@ -1063,7 +1063,7 @@ ${englishMeaningConst.text}
  
 4. A cruel wicked and inhuman person (= monster, fiend, demon, ogre)
 
-- Verb: devil (Derived forms: devilled, devilling, deviled, deviling, devils)
+- Verb: devil (derived forms: devilled, devilling, deviled, deviling, devils)
 1. Cause annoyance in; disturb, especially by minor irritations (= annoy, rag, get to, bother, get at [informal], irritate, rile, nark [Brit, slang], nettle, gravel [US], vex, chafe, tick off [informal], roil [N. Amer])
 "Mosquitoes buzzing in my ear really devils me";
 
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4j2PUwO_puQ',
+    videoId: '4j2PUwO_puQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QviXK6tmBEg?t=',
+    videoId: 'QviXK6tmBEg',
     startSeconds: 830,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GQizG6U6DLQ?t=',
+    videoId: 'GQizG6U6DLQ',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hBr0_Emf0p8?t=',
+    videoId: 'hBr0_Emf0p8',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-HyHZsa79LU?t=',
+    videoId: '-HyHZsa79LU',
     startSeconds: 825,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1228,7 +1228,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hq_SYzstXag?t=',
+    videoId: 'Hq_SYzstXag',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1253,7 +1253,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CHZX6tbajPQ?t=',
+    videoId: 'CHZX6tbajPQ',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(

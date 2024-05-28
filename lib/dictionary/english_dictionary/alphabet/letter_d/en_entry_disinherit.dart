@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Are you worried that your father might disinherit you if you go off the tracks again?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Are you worried that your father might disinherit you if you go off the tracks again?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisinherits3(String languageCode) async {
@@ -402,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) بێبەشکردن لە میراتی"),
           Row(
@@ -411,9 +412,10 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "He threatened to disinherit his eldest son."),
+                    ExampleSentenceKurdish(
                         text:
-                            "He threatened to disinherit his eldest son."),
-                    ExampleSentenceKurdish(text: "هەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات."),
+                            "هەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات."),
                   ],
                 ),
               ),
@@ -438,8 +440,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Are you worried that your father might disinherit you if you go off the tracks again?"),
-                    ExampleSentenceKurdish(text: "لەوە ناترسیت کە باوکت لەوانەیە لە میراتی بێبەشت بکات ئەگەر دووبارە لە ڕێگا لا بدەیت؟"),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Are you worried that your father might disinherit you if you go off the tracks again?"),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەوە ناترسیت کە باوکت لەوانەیە لە میراتی بێبەشت بکات ئەگەر دووبارە لە ڕێگا لا بدەیت؟"),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disinherit (Derived forms: disinherited, disinheriting, disinherits)
+- Verb: disinherit (derived forms: disinherited, disinheriting, disinherits)
 1. Prevent deliberately (as by making a will) from inheriting (= disown)
 "You cannot disinherit a child simply by failing to mention that child in your will";
 """,
@@ -1059,7 +1065,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f2kEGj-S1Tc?t=',
+    videoId: 'f2kEGj-S1Tc',
     startSeconds: 322,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1090,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TSDjeTgXZlw?t=',
+    videoId: 'TSDjeTgXZlw',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1115,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l9hFxE2GlmU?t=',
+    videoId: 'l9hFxE2GlmU',
     startSeconds: 434,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1140,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/njSSCBjnsbU?t=',
+    videoId: 'njSSCBjnsbU',
     startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1165,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zu7jurElcIM?t=',
+    videoId: 'Zu7jurElcIM',
     startSeconds: 2367,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1190,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YNAMmdHp210?t=',
+    videoId: 'YNAMmdHp210',
     startSeconds: 209,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1215,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JyAWnZdtPYs?t=',
+    videoId: 'JyAWnZdtPYs',
     startSeconds: 1302,
     autoPlay: true,
     params: const YoutubePlayerParams(

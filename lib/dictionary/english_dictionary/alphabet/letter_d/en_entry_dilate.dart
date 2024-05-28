@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her eyes dilated with fear."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Her eyes dilated with fear."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilates2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The medication dilates blood vessels."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The medication dilates blood vessels."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilates3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The patient’s pupils were dilated."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The patient’s pupils were dilated."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdilates4(String languageCode) async {
@@ -402,18 +404,18 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) گەورەبوون، فراوانبوون، یان زیاتر کرانەوە"),
+          const DefinitionKurdish(
+              text: "١. (کردار) گەورەبوون، فراوانبوون، یان زیاتر کرانەوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Her eyes dilated with fear."),
-                    ExampleSentenceKurdish(text: "چاوەکانی لە ترسدا گەورە بوون."),
+                    ExampleSentenceEnglish(text: "Her eyes dilated with fear."),
+                    ExampleSentenceKurdish(
+                        text: "چاوەکانی لە ترسدا گەورە بوون."),
                   ],
                 ),
               ),
@@ -438,8 +440,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The medication dilates blood vessels."),
-                    ExampleSentenceKurdish(text: "دەرمانەکە موولوولەکانی خوێنی فراوان دەکرد."),
+                    ExampleSentenceEnglish(
+                        text: "The medication dilates blood vessels."),
+                    ExampleSentenceKurdish(
+                        text: "دەرمانەکە موولوولەکانی خوێنی فراوان دەکرد."),
                   ],
                 ),
               ),
@@ -464,8 +468,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The patient’s pupils were dilated."),
-                    ExampleSentenceKurdish(text: "بیلبیلەکانی چاوی نەخۆشەکە گەورەبوون."),
+                    ExampleSentenceEnglish(
+                        text: "The patient’s pupils were dilated."),
+                    ExampleSentenceKurdish(
+                        text: "بیلبیلەکانی چاوی نەخۆشەکە گەورەبوون."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dilate (Derived forms: dilated, dilating, dilates)
+- Verb: dilate (derived forms: dilated, dilating, dilates)
 1. Become wider (= distend)
 "His pupils were dilated";
  
@@ -1061,7 +1067,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QcUey-DVYjk?t=',
+    videoId: 'QcUey-DVYjk',
     startSeconds: 1092,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1086,7 +1092,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 4726,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1111,7 +1117,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0IoJBV29zMg?t=',
+    videoId: '0IoJBV29zMg',
     startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1136,7 +1142,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pQC3ErD1YwE?t=',
+    videoId: 'pQC3ErD1YwE',
     startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1161,7 +1167,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/znwUCNrjpD4?t=',
+    videoId: 'znwUCNrjpD4',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1186,7 +1192,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ty-m4pm8oog?t=',
+    videoId: 'Ty-m4pm8oog',
     startSeconds: 601,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1217,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6J5ZJJs7H8g?t=',
+    videoId: '6J5ZJJs7H8g',
     startSeconds: 586,
     autoPlay: true,
     params: const YoutubePlayerParams(

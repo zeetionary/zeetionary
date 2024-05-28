@@ -341,7 +341,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "There was a dearth of reliable information on the subject."),
-                    ExampleSentenceKurdish(text: "کەماسی زانیاری باوەڕپێکراو هەبوو لەسەر بابەتەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کەماسی زانیاری باوەڕپێکراو هەبوو لەسەر بابەتەکە."),
                   ],
                 ),
               ),
@@ -432,7 +434,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dearth (Derived forms: dearths)
+- Noun: dearth (derived forms: dearths)
 1. An acute insufficiency (= famine, shortage)
  
 2. An insufficient quantity or number (= paucity)
@@ -468,7 +470,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NQcwgZbgLj4?t=',
+    videoId: 'NQcwgZbgLj4',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +495,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0e8woEkKmG8?t=',
+    videoId: '0e8woEkKmG8',
     startSeconds: 2833,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +520,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EobNj9QwVSA?t=',
+    videoId: 'EobNj9QwVSA',
     startSeconds: 508,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +545,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DBG1Wgg32Ok?t=',
+    videoId: 'DBG1Wgg32Ok',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +570,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tYrdMjVXyNg?t=',
+    videoId: 'tYrdMjVXyNg',
     startSeconds: 7227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +595,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U9jirFqex6g?t=',
+    videoId: 'U9jirFqex6g',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +620,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eoWcQUjNM8o?t=',
+    videoId: 'eoWcQUjNM8o',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(

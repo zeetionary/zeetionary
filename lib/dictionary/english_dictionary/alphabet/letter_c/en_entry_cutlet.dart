@@ -407,7 +407,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cutlet (Derived forms: cutlets)
+- Noun: cutlet (derived forms: cutlets)
 1. Thin slice of meat (especially veal) usually fried or broiled (= scallop, scollop, escallop, escalope)
 """,
   );
@@ -441,7 +441,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FDVrM929s70?t=',
+    videoId: 'FDVrM929s70',
     startSeconds: 205,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VnXu22HZBNQ?t=',
+    videoId: 'VnXu22HZBNQ',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8MK4DK1lgdE?t=',
+    videoId: '8MK4DK1lgdE',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e5WJ5_0Z7Ww?t=',
+    videoId: 'e5WJ5_0Z7Ww',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZrR0VbqNdW8?t=',
+    videoId: 'ZrR0VbqNdW8',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_wRA47V3abk?t=',
+    videoId: '_wRA47V3abk',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lF2sKFnuALw?t=',
+    videoId: 'lF2sKFnuALw',
     startSeconds: 1124,
     autoPlay: true,
     params: const YoutubePlayerParams(

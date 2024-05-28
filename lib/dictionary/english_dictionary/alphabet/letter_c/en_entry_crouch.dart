@@ -457,11 +457,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crouch (Derived forms: crouched, crouches, crouching)
+- Verb: crouch (derived forms: crouched, crouches, crouching)
 1. Take a low static position with bent knees, esp. to hide, be underneath something or be nearer the ground (= crouch down, scooch)
 "crouch down to hide behind the low wall";
 
-- Noun: crouch (Derived forms: crouches)
+- Noun: crouch (derived forms: crouches)
 1. The act of bending low with the limbs close to the body
 """,
   );
@@ -495,7 +495,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 749,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uN84HhcdIws?t=',
+    videoId: 'uN84HhcdIws',
     startSeconds: 737,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ltOkMlHrGPc?t=',
+    videoId: 'ltOkMlHrGPc',
     startSeconds: 726,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bzKiLgtOMt4?t=',
+    videoId: 'bzKiLgtOMt4',
     startSeconds: 706,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D6V85qfsu3g?t=',
+    videoId: 'D6V85qfsu3g',
     startSeconds: 1219,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HL4RQb-ROA?t=',
+    videoId: '8HL4RQb-ROA',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8jNs5G88TiI?t=',
+    videoId: '8jNs5G88TiI',
     startSeconds: 251,
     autoPlay: true,
     params: const YoutubePlayerParams(

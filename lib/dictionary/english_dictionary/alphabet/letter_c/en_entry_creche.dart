@@ -408,7 +408,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crèche (Derived forms: crèches)
+- Noun: crèche (derived forms: crèches)
 1. [Brit] A nursery for the supervision of preschool children while the parents work (= day nursery, day care center [US], nursery, day care centre [Brit, Cdn])
  
 2. A representation of Christ's nativity in the stable at Bethlehem
@@ -446,7 +446,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VyZjX2e7Kx8',
+    videoId: 'VyZjX2e7Kx8',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3rHxgKI97s4',
+    videoId: '3rHxgKI97s4',
     startSeconds: 1110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dBxy0X53kyw',
+    videoId: 'dBxy0X53kyw',
     startSeconds: 757,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2BJSiErRSU',
+    videoId: 'E2BJSiErRSU',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lyVdRKA-UVQ',
+    videoId: 'lyVdRKA-UVQ',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EhTCcsZ4tOs',
+    videoId: 'EhTCcsZ4tOs',
     startSeconds: 1909,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RydqJ1j3E-M',
+    videoId: 'RydqJ1j3E-M',
     startSeconds: 2576,
     autoPlay: true,
     params: const YoutubePlayerParams(

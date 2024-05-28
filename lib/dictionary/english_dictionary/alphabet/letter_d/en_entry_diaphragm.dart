@@ -404,16 +404,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ناوپەنچک، پەردە، تەڕاف،	(بۆ سکپڕبوون) دەزگا،	(گیانەوەرناسی و ڕووەک‌ناسی) پەردە، دیوار، دیوارە، پەڕە،	(بڵیندگۆ و...) پەردەی لەرینەوە
 """),
-          const DefinitionKurdish(text: "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی هەناسەدان بەکاردێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی هەناسەدان بەکاردێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The diaphragm contracts when you inhale."),
-                    ExampleSentenceKurdish(text: "ناوپەنچک گرژدەبێتەوە کە هەناسە دەمژیت."),
+                        text: "The diaphragm contracts when you inhale."),
+                    ExampleSentenceKurdish(
+                        text: "ناوپەنچک گرژدەبێتەوە کە هەناسە دەمژیت."),
                   ],
                 ),
               ),
@@ -1025,7 +1027,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diaphragm (Derived forms: diaphragms)
+- Noun: diaphragm (derived forms: diaphragms)
 1. A mechanical device in a camera that controls size of aperture of the lens (= stop)
 "the new cameras adjust the diaphragm automatically";
  
@@ -1066,7 +1068,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pFEB0chiuJA?t=',
+    videoId: 'pFEB0chiuJA',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1091,7 +1093,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/el84efC10oE?t=',
+    videoId: 'el84efC10oE',
     startSeconds: 214,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1116,7 +1118,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 4786,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1141,7 +1143,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DroTM9SqcWI?t=',
+    videoId: 'DroTM9SqcWI',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1166,7 +1168,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cg10exNmf7I?t=',
+    videoId: 'Cg10exNmf7I',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1191,7 +1193,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uIsg5x19Xu8?t=',
+    videoId: 'uIsg5x19Xu8',
     startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1216,7 +1218,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RFsFZdpb6GY?t=',
+    videoId: 'RFsFZdpb6GY',
     startSeconds: 748,
     autoPlay: true,
     params: const YoutubePlayerParams(

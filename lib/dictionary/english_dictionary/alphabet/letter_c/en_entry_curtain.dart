@@ -753,7 +753,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curtain (Derived forms: curtains)
+- Noun: curtain (derived forms: curtains)
 1. Hanging cloth used as a blind (especially for a window) (= drape, drapery, mantle, pall)
  
 2. Any barrier to communication or vision
@@ -761,7 +761,7 @@ ${englishMeaningConst.text}
  
 3. A large piece of cloth that hangs between the audience and the stage in a theatre, raised at the start of a performance
 
-- Verb: curtain (Derived forms: curtaining, curtains, curtained)
+- Verb: curtain (derived forms: curtaining, curtains, curtained)
 1. Provide with drapery
 "curtain the bedrooms"
 """,
@@ -796,7 +796,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 1752,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -821,7 +821,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mcZdTvOqmvI?t=',
+    videoId: 'mcZdTvOqmvI',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -846,7 +846,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 402,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -871,7 +871,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0jltioeaEyY?t=',
+    videoId: '0jltioeaEyY',
     startSeconds: 993,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -896,7 +896,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FSHITL5oedk?t=',
+    videoId: 'FSHITL5oedk',
     startSeconds: 985,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -921,7 +921,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tpOsDC0KNjw?t=',
+    videoId: 'tpOsDC0KNjw',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -946,7 +946,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SDb34WhFs3k?t=',
+    videoId: 'SDb34WhFs3k',
     startSeconds: 89,
     autoPlay: true,
     params: const YoutubePlayerParams(

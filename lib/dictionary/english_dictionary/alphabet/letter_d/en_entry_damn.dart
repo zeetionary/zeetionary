@@ -987,7 +987,7 @@ ${englishMeaningConst.text}
 2. Expletive used informally as an intensifier (= blasted, blame [N. Amer], blamed, blessed, damned, darned, deuced, goddam, goddamn, goddamned, infernal, dashed [Brit, informal], doggone [N. Amer, informal])
 "he's a damn (or goddam or goddamned) fool";
 
-- Verb: damn (Derived forms: damns, damning, damned)
+- Verb: damn (derived forms: damns, damning, damned)
 1. Wish harm upon; invoke evil upon (= curse, beshrew [archaic], bedamn [archaic], anathemize, anathemise [Brit], imprecate, maledict [archaic], doggone [N. Amer, informal], dang [N. Amer, informal])
 "The bad witch damned the child";
  
@@ -1000,7 +1000,7 @@ ${englishMeaningConst.text}
 1. Extremely (= bloody, all-fired, all-firedly [US, informal])
 "you are damn right";
 
-- Noun: damn (Derived forms: damns)
+- Noun: damn (derived forms: damns)
 1. Something of little value (= darn, hoot, red cent [N. Amer], shucks, tinker's damn [US, informal], tinker's dam [US, informal])
 "his promise is not worth a damn";
 
@@ -1039,7 +1039,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XZVHmRvfDHM',
+    videoId: 'XZVHmRvfDHM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1064,7 +1064,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tuqqRnej8vo?t=',
+    videoId: 'tuqqRnej8vo',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1089,7 +1089,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G4BxOhJOmUw?t=',
+    videoId: 'G4BxOhJOmUw',
     startSeconds: 401,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1114,7 +1114,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pto9L7kjuSM?t=',
+    videoId: 'Pto9L7kjuSM',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1139,7 +1139,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j-zCKl_eda4?t=',
+    videoId: 'j-zCKl_eda4',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1164,7 +1164,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8wewPn7TZfs?t=',
+    videoId: '8wewPn7TZfs',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1189,7 +1189,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xtwar56r4Lg?t=',
+    videoId: 'Xtwar56r4Lg',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(

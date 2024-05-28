@@ -14,7 +14,8 @@ class EnglishEntrydisinfectant extends StatefulWidget {
   const EnglishEntrydisinfectant({super.key});
 
   @override
-  State<EnglishEntrydisinfectant> createState() => _EnglishEntrydisinfectantState();
+  State<EnglishEntrydisinfectant> createState() =>
+      _EnglishEntrydisinfectantState();
 }
 
 class _EnglishEntrydisinfectantState extends State<EnglishEntrydisinfectant> {
@@ -402,9 +403,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) مادەیەکی پاککەرەوە کە بەکتریا دەکوژێت"),
+          const DefinitionKurdish(
+              text: "١. (ناو) مادەیەکی پاککەرەوە کە بەکتریا دەکوژێت"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Hospitals use strong disinfectants for cleaning."),
-                    ExampleSentenceKurdish(text: "نەخۆشخانەکان دژە بەکتریای بەهێز بەکاردەهێنن بۆ پاککردنەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەخۆشخانەکان دژە بەکتریای بەهێز بەکاردەهێنن بۆ پاککردنەوە."),
                   ],
                 ),
               ),
@@ -1028,7 +1032,7 @@ ${englishMeaningConst.text}
 1. Preventing infection by inhibiting the growth or action of microorganisms (= bactericidal, germicidal)
 "disinfectant chemicals can be used to disinfect and, in some cases, sterilize";
 
-- Noun: disinfectant (Derived forms: disinfectants)
+- Noun: disinfectant (derived forms: disinfectants)
 1. An agent (as heat, radiation or a chemical) that destroys microorganisms that might carry disease (= germicide, antimicrobic, antimicrobial)
 """,
   );
@@ -1062,7 +1066,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lrj0c3Ta-Tg?t=',
+    videoId: 'Lrj0c3Ta-Tg',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1087,7 +1091,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mor1CNii1VY?t=',
+    videoId: 'mor1CNii1VY',
     startSeconds: 35,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1112,7 +1116,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u11DK9kMp5Y?t=',
+    videoId: 'u11DK9kMp5Y',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1137,7 +1141,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z36OznHFIt4?t=',
+    videoId: 'Z36OznHFIt4',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1166,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uW56CL0pk0g?t=',
+    videoId: 'uW56CL0pk0g',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1191,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TZkuQUCUYgM?t=',
+    videoId: 'TZkuQUCUYgM',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1216,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    videoId: 'E2rtQFAibEA',
     startSeconds: 6731,
     autoPlay: true,
     params: const YoutubePlayerParams(

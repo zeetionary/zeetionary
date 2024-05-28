@@ -1040,7 +1040,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dictatorship (Derived forms: dictatorships)
+- Noun: dictatorship (derived forms: dictatorships)
 1. A form of government in which the ruler is an absolute dictator (not restricted by a constitution, laws or opposition etc.) (= absolutism, authoritarianism, Caesarism, despotism, monocracy, one-man rule, shogunate, Stalinism, totalitarianism, tyranny)
 """,
   );
@@ -1074,7 +1074,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hEBEeKABgWQ?t=',
+    videoId: 'hEBEeKABgWQ',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1099,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6ycu9kysDow?t=',
+    videoId: '6ycu9kysDow',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1124,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sq9WodYz8-I?t=',
+    videoId: 'sq9WodYz8-I',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1149,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DY0pBfmsV-M',
+    videoId: 'DY0pBfmsV-M',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1174,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/11s7JwQ2Z50?t=',
+    videoId: '11s7JwQ2Z50',
     startSeconds: 172,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1199,7 +1199,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hkxf4SC_SBk?t=',
+    videoId: 'Hkxf4SC_SBk',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1224,7 +1224,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uLwCrhmcIjo?t=',
+    videoId: 'uLwCrhmcIjo',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(

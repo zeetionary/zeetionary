@@ -738,7 +738,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: culture (Derived forms: cultures)
+- Noun: culture (derived forms: cultures)
 1. (archeology) a particular society at a particular time and place (= civilization, civilisation [Brit])
 "early Mayan culture";
  
@@ -758,7 +758,7 @@ ${englishMeaningConst.text}
 7. The raising of plants or animals
 "the culture of oysters"
 
-- Verb: culture (Derived forms: cultured, cultures, culturing)
+- Verb: culture (derived forms: cultured, cultures, culturing)
 1. Grow in a special preparation
 "optimal conditions for culturing stem cell lines"
 """,
@@ -793,7 +793,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4VSx2E7WE50?t=',
+    videoId: '4VSx2E7WE50',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -818,7 +818,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -843,7 +843,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -868,7 +868,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -893,7 +893,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xXvgT-AgLAo?t=',
+    videoId: 'xXvgT-AgLAo',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -918,7 +918,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D2ZvUJrMZio?t=',
+    videoId: 'D2ZvUJrMZio',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -943,7 +943,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    videoId: 'Fr-qagv7ig0',
     startSeconds: 897,
     autoPlay: true,
     params: const YoutubePlayerParams(

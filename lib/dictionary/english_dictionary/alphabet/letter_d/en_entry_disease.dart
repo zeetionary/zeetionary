@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Smoking increases the risk of heart disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Smoking increases the risk of heart disease."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiseases3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It is not known what causes the disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It is not known what causes the disease."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiseases4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He suffers from a rare blood disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He suffers from a rare blood disease."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiseases5(String languageCode) async {
@@ -254,7 +257,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Greed is a disease of modern society."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Greed is a disease of modern society."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiseases6(String languageCode) async {
@@ -404,7 +408,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: نەخۆشی، ناساخی، دەرد، عیلەت
 """),
-          const DefinitionKurdish(text: "١. (ناو) نەخۆشییەک کە تووشی مرۆڤ، ئاژەڵان، یان ڕووەک دەبێت و زۆرجار بەهۆی تووشبوونەوەیە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) نەخۆشییەک کە تووشی مرۆڤ، ئاژەڵان، یان ڕووەک دەبێت و زۆرجار بەهۆی تووشبوونەوەیە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +419,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "In 19th century England, infectious diseases were the principal cause of death."),
-                    ExampleSentenceKurdish(text: "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان هۆکاری سەرەکیی مردن بوون."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان هۆکاری سەرەکیی مردن بوون."),
                   ],
                 ),
               ),
@@ -438,8 +446,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Smoking increases the risk of heart disease."),
-                    ExampleSentenceKurdish(text: "جگەرەکێشان مەترسی نەخۆشی دڵ زیاد دەکات."),
+                    ExampleSentenceEnglish(
+                        text: "Smoking increases the risk of heart disease."),
+                    ExampleSentenceKurdish(
+                        text: "جگەرەکێشان مەترسی نەخۆشی دڵ زیاد دەکات."),
                   ],
                 ),
               ),
@@ -464,8 +474,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It is not known what causes the disease."),
-                    ExampleSentenceKurdish(text: "نەزانراوە چی دەبێتە هۆکاری نەخۆشییەکە."),
+                    ExampleSentenceEnglish(
+                        text: "It is not known what causes the disease."),
+                    ExampleSentenceKurdish(
+                        text: "نەزانراوە چی دەبێتە هۆکاری نەخۆشییەکە."),
                   ],
                 ),
               ),
@@ -490,8 +502,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He suffers from a rare blood disease."),
-                    ExampleSentenceKurdish(text: "بەدەست نەخۆشییەکی دەگمەنی خوێنەوە دەناڵێنێت."),
+                    ExampleSentenceEnglish(
+                        text: "He suffers from a rare blood disease."),
+                    ExampleSentenceKurdish(
+                        text: "بەدەست نەخۆشییەکی دەگمەنی خوێنەوە دەناڵێنێت."),
                   ],
                 ),
               ),
@@ -509,15 +523,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) شتێک کە هەڵەیە لە کەسێکدا، کۆمەڵگەیەکدا، هتد"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) شتێک کە هەڵەیە لە کەسێکدا، کۆمەڵگەیەکدا، هتد"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Greed is a disease of modern society."),
-                    ExampleSentenceKurdish(text: "تەماح نەخۆشییەکی کۆمەڵگای سەردەمە."),
+                    ExampleSentenceEnglish(
+                        text: "Greed is a disease of modern society."),
+                    ExampleSentenceKurdish(
+                        text: "تەماح نەخۆشییەکی کۆمەڵگای سەردەمە."),
                   ],
                 ),
               ),
@@ -1024,7 +1041,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disease (Derived forms: diseases)
+- Noun: disease (derived forms: diseases)
 1. An impairment of health or a condition of abnormal functioning
 "science has given us new tools to fight disease"
 """,
@@ -1059,7 +1076,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1101,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mx8JkGHaGUI?t=',
+    videoId: 'Mx8JkGHaGUI',
     startSeconds: 319,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1126,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sAiTuitN5b8?t=',
+    videoId: 'sAiTuitN5b8',
     startSeconds: 169,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1151,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lBROOVRZV0I',
+    videoId: 'lBROOVRZV0I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1176,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Aq_V72m93W0?t=',
+    videoId: 'Aq_V72m93W0',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1201,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xVx3j7lvszE?t=',
+    videoId: 'xVx3j7lvszE',
     startSeconds: 1010,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1226,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NZFwnReyXC0?t=',
+    videoId: 'NZFwnReyXC0',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(

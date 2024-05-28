@@ -445,10 +445,10 @@ ${englishMeaningConst.text}
 3. (especially of the face) reddened or suffused with or as if with blood from emotion or exertion (= red, reddened, red-faced, flushed)
 "crimson with fury"; "flushed (or crimson) with embarrassment";
 
-- Noun: crimson (Derived forms: crimsons)
+- Noun: crimson (derived forms: crimsons)
 1. A deep and vivid red colour (= ruby, deep red)
 
-- Verb: crimson (Derived forms: crimsoned, crimsons, crimsoning)
+- Verb: crimson (derived forms: crimsoned, crimsons, crimsoning)
 1. Turn red, as if in embarrassment or shame (= blush, flush, redden)
 "The girl crimsoned when a young man whistled as she walked by";
 """,
@@ -483,7 +483,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fE4Z5hFLrqI?t=',
+    videoId: 'fE4Z5hFLrqI',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -508,7 +508,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PtkqwslbLY8?t=',
+    videoId: 'PtkqwslbLY8',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -533,7 +533,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U_dDpmoQjqg?t=',
+    videoId: 'U_dDpmoQjqg',
     startSeconds: 1102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -558,7 +558,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z0SzIkheaFg?t=',
+    videoId: 'Z0SzIkheaFg',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -583,7 +583,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/okKiieF0oM4?t=',
+    videoId: 'okKiieF0oM4',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -608,7 +608,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l3xmc0pzzJI?t=',
+    videoId: 'l3xmc0pzzJI',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -633,7 +633,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tILIeNjbH1E?t=',
+    videoId: 'tILIeNjbH1E',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(

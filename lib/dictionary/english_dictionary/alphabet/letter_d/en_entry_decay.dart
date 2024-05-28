@@ -584,7 +584,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: decay (Derived forms: decayed, decaying, decays)
+- Verb: decay (derived forms: decayed, decaying, decays)
 1. (physics) lose a stored charge, magnetic flux, or current (= disintegrate, decompose)
 "the particles decayed during the nuclear fission process";
  
@@ -594,7 +594,7 @@ ${englishMeaningConst.text}
 3. Undergo decay or decomposition
 "The body started to decay and needed to be cremated"
 
-- Noun: decay (Derived forms: decays)
+- Noun: decay (derived forms: decays)
 1. The process of gradually becoming inferior
  
 2. A gradual decrease; as of stored charge or current (= decline)
@@ -637,7 +637,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pon4Zux5MaQ?t=',
+    videoId: 'Pon4Zux5MaQ',
     startSeconds: 443,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -662,7 +662,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DxL2HoqLbyA?t=',
+    videoId: 'DxL2HoqLbyA',
     startSeconds: 968,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -687,7 +687,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 312,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -712,7 +712,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S3ksC_8jGuc?t=',
+    videoId: 'S3ksC_8jGuc',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +737,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4DTW4B3Sjs?t=',
+    videoId: 'y4DTW4B3Sjs',
     startSeconds: 1179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -762,7 +762,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OgFcz6klaeg?t=',
+    videoId: 'OgFcz6klaeg',
     startSeconds: 430,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -787,7 +787,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6etTERFUlUI?t=',
+    videoId: '6etTERFUlUI',
     startSeconds: 660,
     autoPlay: true,
     params: const YoutubePlayerParams(

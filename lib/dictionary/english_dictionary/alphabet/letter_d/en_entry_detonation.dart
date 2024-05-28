@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdetonations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdetonations14(String languageCode) async {
+  Future<void> speakdetonations14(String languageCode) async {
     // DOPSUM: CHANGE speakdetonation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -413,7 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Underground nuclear detonations are believed to have been carried out."),
-                    ExampleSentenceKurdish(text: "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن."),
                   ],
                 ),
               ),
@@ -994,7 +996,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: detonation (Derived forms: detonations)
+- Noun: detonation (derived forms: detonations)
 1. A violent release of energy caused by a chemical or nuclear reaction (= explosion, blowup, blow-up)
  
 2. The act of detonating an explosive
@@ -1030,7 +1032,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HdSjyTBPef4?t=',
+    videoId: 'HdSjyTBPef4',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1055,7 +1057,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E7uGvsT_nnM?t=',
+    videoId: 'E7uGvsT_nnM',
     startSeconds: 386,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1080,7 +1082,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KAL6BUl6-rM?t=',
+    videoId: 'KAL6BUl6-rM',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1105,7 +1107,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fs1CIrwg5zU?t=',
+    videoId: 'fs1CIrwg5zU',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1130,7 +1132,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EqBhF9yNNAw?t=',
+    videoId: 'EqBhF9yNNAw',
     startSeconds: 794,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1155,7 +1157,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3E17wr77ffM?t=',
+    videoId: '3E17wr77ffM',
     startSeconds: 855,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1180,7 +1182,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Oid4FlNR83Y?t=',
+    videoId: 'Oid4FlNR83Y',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(

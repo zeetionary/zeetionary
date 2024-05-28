@@ -413,7 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "It is very helpful for a language teacher to have good diction."),
-                    ExampleSentenceKurdish(text: "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت."),
                   ],
                 ),
               ),
@@ -1024,7 +1026,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diction (Derived forms: dictions)
+- Noun: diction (derived forms: dictions)
 1. The articulation of speech regarded from the point of view of its intelligibility to the audience (= enunciation)
  
 2. The manner in which something is expressed in words (= wording, phrasing, phraseology, choice of words, verbiage, wordage)
@@ -1060,7 +1062,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MXu5cK5q-Z8?t=',
+    videoId: 'MXu5cK5q-Z8',
     startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1087,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3GLBEBCwqp4?t=',
+    videoId: '3GLBEBCwqp4',
     startSeconds: 739,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1112,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ojJWyxtZtec?t=',
+    videoId: 'ojJWyxtZtec',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1137,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kFp1jgcci7k?t=',
+    videoId: 'kFp1jgcci7k',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1162,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3GLBEBCwqp4?t=',
+    videoId: '3GLBEBCwqp4',
     startSeconds: 739,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1187,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3ZC08-QjCgA?t=',
+    videoId: '3ZC08-QjCgA',
     startSeconds: 659,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1212,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A7-mRL3XNog?t=',
+    videoId: 'A7-mRL3XNog',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(

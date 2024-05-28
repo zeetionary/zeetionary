@@ -404,7 +404,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: مرۆڤی پایەبەرز، بنیادەمی گەورە یان بەشەوکەت
 """),
-          const DefinitionKurdish(text: "١. (ناو) کەسێک کە پێگەیەکی گرنگی هەیە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) کەسێک کە پێگەیەکی گرنگی هەیە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +414,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The Prime Minister will be meeting local dignitaries and visiting places of work."),
-                    ExampleSentenceKurdish(text: "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات."),
                   ],
                 ),
               ),
@@ -1024,7 +1027,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dignitary (Derived forms: dignitaries)
+- Noun: dignitary (derived forms: dignitaries)
 1. An important or influential person; someone of high rank or holder of an important office (= very important person, VIP, high-up, panjandrum, high muckamuck [N. Amer])
 """,
   );
@@ -1058,7 +1061,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EexZjx3YOuQ?t=',
+    videoId: 'EexZjx3YOuQ',
     startSeconds: 2510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1086,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZqSONHVilTM?t=',
+    videoId: 'ZqSONHVilTM',
     startSeconds: 267,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1111,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XwCGVulU3FA?t=',
+    videoId: 'XwCGVulU3FA',
     startSeconds: 529,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1136,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QIjIvvHGJ9E?t=',
+    videoId: 'QIjIvvHGJ9E',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1161,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8o_TBQ_gIIU?t=',
+    videoId: '8o_TBQ_gIIU',
     startSeconds: 1936,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1186,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r74qCVCTfRI?t=',
+    videoId: 'r74qCVCTfRI',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1211,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rx3ZpyjcVs4?t=',
+    videoId: 'rx3ZpyjcVs4',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(

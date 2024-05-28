@@ -998,7 +998,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deputation (Derived forms: deputations)
+- Noun: deputation (derived forms: deputations)
 1. A group of representatives or delegates (= commission, delegation, delegacy, mission)
  
 2. Authorizing subordinates to make certain decisions (= delegating, delegation, relegating, relegation)
@@ -1034,7 +1034,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fYrWHikkvXU?t=',
+    videoId: 'fYrWHikkvXU',
     startSeconds: 1760,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1059,7 +1059,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a1Z7U9ywLSs?t=',
+    videoId: 'a1Z7U9ywLSs',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1084,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZPsEchRWZgM?t=',
+    videoId: 'ZPsEchRWZgM',
     startSeconds: 1040,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1109,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gI264W4eXpU?t=',
+    videoId: 'gI264W4eXpU',
     startSeconds: 1244,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1134,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X7W3-QssjCQ?t=',
+    videoId: 'X7W3-QssjCQ',
     startSeconds: 917,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1159,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yQL_CQdEfYk?t=',
+    videoId: 'yQL_CQdEfYk',
     startSeconds: 521,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1184,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3WOSFPCQlaI?t=',
+    videoId: '3WOSFPCQlaI',
     startSeconds: 6660,
     autoPlay: true,
     params: const YoutubePlayerParams(

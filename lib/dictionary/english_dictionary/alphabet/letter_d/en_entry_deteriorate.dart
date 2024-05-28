@@ -14,7 +14,8 @@ class EnglishEntrydeteriorate extends StatefulWidget {
   const EnglishEntrydeteriorate({super.key});
 
   @override
-  State<EnglishEntrydeteriorate> createState() => _EnglishEntrydeteriorateState();
+  State<EnglishEntrydeteriorate> createState() =>
+      _EnglishEntrydeteriorateState();
 }
 
 class _EnglishEntrydeteriorateState extends State<EnglishEntrydeteriorate> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They had to cope with deteriorating weather conditions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They had to cope with deteriorating weather conditions."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeteriorates3(String languageCode) async {
@@ -238,7 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The discussion quickly deteriorated into an angry argument."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The discussion quickly deteriorated into an angry argument."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeteriorates4(String languageCode) async {
@@ -246,7 +249,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The unrest rapidly deteriorated into civil war."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The unrest rapidly deteriorated into civil war."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeteriorates5(String languageCode) async {
@@ -321,7 +325,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeteriorates1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeteriorates14(String languageCode) async {
+  Future<void> speakdeteriorates14(String languageCode) async {
     // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +378,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They had to cope with deteriorating weather conditions.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They had to cope with deteriorating weather conditions.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeteriorates21(String languageCode) async {
@@ -413,7 +418,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Her health deteriorated rapidly, and she died shortly afterwards."),
-                    ExampleSentenceKurdish(text: "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد."),
                   ],
                 ),
               ),
@@ -438,8 +445,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "They had to cope with deteriorating weather conditions."),
-                    ExampleSentenceKurdish(text: "پێویست بوو بەرگەی دۆخی خراپتری کەشوهەوا بگرن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "They had to cope with deteriorating weather conditions."),
+                    ExampleSentenceKurdish(
+                        text: "پێویست بوو بەرگەی دۆخی خراپتری کەشوهەوا بگرن."),
                   ],
                 ),
               ),
@@ -464,8 +474,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The discussion quickly deteriorated into an angry argument."),
-                    ExampleSentenceKurdish(text: "باسەکە زوو توندتر بوو بۆ مشتومڕی گەرم."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The discussion quickly deteriorated into an angry argument."),
+                    ExampleSentenceKurdish(
+                        text: "باسەکە زوو توندتر بوو بۆ مشتومڕی گەرم."),
                   ],
                 ),
               ),
@@ -490,8 +503,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The unrest rapidly deteriorated into civil war."),
-                    ExampleSentenceKurdish(text: "ئاژاوەکە بە خێرایی تەشەنەی کرد بۆ شەڕی ناوخۆ."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The unrest rapidly deteriorated into civil war."),
+                    ExampleSentenceKurdish(
+                        text: "ئاژاوەکە بە خێرایی تەشەنەی کرد بۆ شەڕی ناوخۆ."),
                   ],
                 ),
               ),
@@ -994,7 +1010,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deteriorate (Derived forms: deteriorates, deteriorating, deteriorated)
+- Verb: deteriorate (derived forms: deteriorates, deteriorating, deteriorated)
 1. Become worse or disintegrate
 "His mind deteriorated"
  
@@ -1032,7 +1048,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3ewyEF3Wd9M?t=',
+    videoId: '3ewyEF3Wd9M',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1057,7 +1073,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ktlTxC4QG8g?t=',
+    videoId: 'ktlTxC4QG8g',
     startSeconds: 334,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1082,7 +1098,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jTRC_FMzLoo?t=',
+    videoId: 'jTRC_FMzLoo',
     startSeconds: 350,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1107,7 +1123,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Rz8BPRFeiA?t=',
+    videoId: '4Rz8BPRFeiA',
     startSeconds: 214,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1132,7 +1148,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fBTjbGfHx0s?t=',
+    videoId: 'fBTjbGfHx0s',
     startSeconds: 1666,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1157,7 +1173,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DbhuZFVqAqc?t=',
+    videoId: 'DbhuZFVqAqc',
     startSeconds: 931,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1182,7 +1198,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z0SzIkheaFg?t=',
+    videoId: 'Z0SzIkheaFg',
     startSeconds: 753,
     autoPlay: true,
     params: const YoutubePlayerParams(

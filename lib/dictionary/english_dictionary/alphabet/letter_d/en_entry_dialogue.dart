@@ -1048,7 +1048,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dialogue (Derived forms: dialogues)
+- Noun: dialogue (derived forms: dialogues)
 1. A conversation between two persons (= dialog [US], duologue)
  
 2. The lines spoken by characters in drama or fiction (= dialog [US])
@@ -1059,7 +1059,7 @@ ${englishMeaningConst.text}
 4. A discussion intended to produce an agreement (= negotiation, talks)
 "they disagreed but kept an open dialogue";
 
-- Verb: dialogue (Derived forms: dialogued, dialogues, dialoguing)
+- Verb: dialogue (derived forms: dialogued, dialogues, dialoguing)
 Usage: N. Amer
 1. Have a conversation, discussion or negotiation
 """,
@@ -1094,7 +1094,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 636,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1119,7 +1119,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6btmJSRueE?t=',
+    videoId: 'x6btmJSRueE',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1144,7 +1144,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hOUGNGWmN0k?t=',
+    videoId: 'hOUGNGWmN0k',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1169,7 +1169,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/anbBwpoI9TI?t=',
+    videoId: 'anbBwpoI9TI',
     startSeconds: 571,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1194,7 +1194,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UO3N_PRIgX0?t=',
+    videoId: 'UO3N_PRIgX0',
     startSeconds: 369,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1219,7 +1219,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3RkhZgRNC1k?t=',
+    videoId: '3RkhZgRNC1k',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1244,7 +1244,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fGMCjELDyUY?t=',
+    videoId: 'fGMCjELDyUY',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(

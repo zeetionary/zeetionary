@@ -442,10 +442,10 @@ ${englishMeaningConst.text}
 - Adjective: crescendo 
 1. (music) gradually increasing in volume
 
-- Noun: crescendo (Derived forms: crescendi, crescendos)
+- Noun: crescendo (derived forms: crescendi, crescendos)
 1. (music) a gradual increase in loudness
 
-- Verb: crescendo (Derived forms: crescendoed, crescendoes, crescendoing)
+- Verb: crescendo (derived forms: crescendoed, crescendoes, crescendoing)
 1. Grow louder
 "The music crescendoes here"
 """,
@@ -480,7 +480,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qc0vRRJuQic?t=',
+    videoId: 'Qc0vRRJuQic',
     startSeconds: 237,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBFMysfLlJU?t=',
+    videoId: 'HBFMysfLlJU',
     startSeconds: 1184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1-EFj8UPhyc?t=',
+    videoId: '1-EFj8UPhyc',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NU4MgeOb-cc?t=',
+    videoId: 'NU4MgeOb-cc',
     startSeconds: 859,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mjokznAUg9U?t=',
+    videoId: 'mjokznAUg9U',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_dXakYvOPdM?t=',
+    videoId: '_dXakYvOPdM',
     startSeconds: 4536,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4-H6Qincyhg?t=',
+    videoId: '4-H6Qincyhg',
     startSeconds: 281,
     autoPlay: true,
     params: const YoutubePlayerParams(

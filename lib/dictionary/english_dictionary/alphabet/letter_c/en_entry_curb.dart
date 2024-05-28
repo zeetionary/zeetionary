@@ -526,7 +526,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curb (Derived forms: curbs)
+- Noun: curb (derived forms: curbs)
 1. [US] An edge between a pavement and a roadway consisting of a line of curbstones (usually forming part of a gutter) (= curbing [N. Amer], kerb [Brit])
  
 2. A horse's bit with an attached chain or strap to check the horse (= curb bit)
@@ -534,7 +534,7 @@ ${englishMeaningConst.text}
 3. The act of restraining power, action or limiting excess (= bridle, check)
 "his common sense is a curb to his quick temper";
 
-- Verb: curb (Derived forms: curbs, curbing, curbed)
+- Verb: curb (derived forms: curbs, curbing, curbed)
 1. Lessen the intensity of; temper; hold in restraint; hold or keep within limits (= control, hold in, hold, contain, check, moderate, mod [informal])
 "curb your anger";
  
@@ -578,7 +578,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -603,7 +603,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 1084,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -628,7 +628,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -653,7 +653,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 460,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -678,7 +678,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JTslqcXsFd4?t=',
+    videoId: 'JTslqcXsFd4',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -703,7 +703,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwodL8z2EtE?t=',
+    videoId: 'AwodL8z2EtE',
     startSeconds: 2571,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -728,7 +728,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ot4qdCs54ZE?t=',
+    videoId: 'Ot4qdCs54ZE',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(

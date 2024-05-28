@@ -14,10 +14,12 @@ class EnglishEntrydeepveinthrombosis extends StatefulWidget {
   const EnglishEntrydeepveinthrombosis({super.key});
 
   @override
-  State<EnglishEntrydeepveinthrombosis> createState() => _EnglishEntrydeepveinthrombosisState();
+  State<EnglishEntrydeepveinthrombosis> createState() =>
+      _EnglishEntrydeepveinthrombosisState();
 }
 
-class _EnglishEntrydeepveinthrombosisState extends State<EnglishEntrydeepveinthrombosis> {
+class _EnglishEntrydeepveinthrombosisState
+    extends State<EnglishEntrydeepveinthrombosis> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -230,7 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss200"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss3(String languageCode) async {
@@ -238,7 +241,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss300"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss4(String languageCode) async {
@@ -246,7 +250,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss400"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss400"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss5(String languageCode) async {
@@ -254,7 +259,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss500"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss500"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss6(String languageCode) async {
@@ -262,7 +268,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss600"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss600"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss7(String languageCode) async {
@@ -270,7 +277,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss700"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss700"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss8(String languageCode) async {
@@ -278,7 +286,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss800"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss800"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss9(String languageCode) async {
@@ -286,7 +295,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss900"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss900"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss10(String languageCode) async {
@@ -294,7 +304,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss1000"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss11(String languageCode) async {
@@ -302,7 +313,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss1100"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss12(String languageCode) async {
@@ -310,7 +322,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss1200"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdeepveinthrombosiss13(String languageCode) async {
@@ -318,7 +331,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdeepveinthrombosiss1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("speakdeepveinthrombosiss1300"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -330,9 +344,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) جۆرێک نەخۆشی سەخت کە دەبێتە هۆکاری مەیینی خوێن"),
+          const DefinitionKurdish(
+              text: "١. (ناو) جۆرێک نەخۆشی سەخت کە دەبێتە هۆکاری مەیینی خوێن"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +356,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Passengers on long-haul flights are being warned about the risks of deep vein thrombosis."),
-                    ExampleSentenceKurdish(text: "گەشتیارانی سەر گەشتە دوورەکان ئاگادار دەکرێنەوە سەبارەت بە مەترسییەکانی دی‌ڤی‌تی."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گەشتیارانی سەر گەشتە دوورەکان ئاگادار دەکرێنەوە سەبارەت بە مەترسییەکانی دی‌ڤی‌تی."),
                   ],
                 ),
               ),
@@ -492,7 +509,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gCBl9LmdN1k?t=',
+    videoId: 'gCBl9LmdN1k',
     startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +534,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ongemnfm2xc?t=',
+    videoId: 'Ongemnfm2xc',
     startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +559,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1iFMKp1ANao?t=',
+    videoId: '1iFMKp1ANao',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +584,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k_fw1qDB8Uw?t=',
+    videoId: 'k_fw1qDB8Uw',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +609,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r-_aUuwewYc?t=',
+    videoId: 'r-_aUuwewYc',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +634,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cNez34YrksU?t=',
+    videoId: 'cNez34YrksU',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +659,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/penymCATrbQ?t=',
+    videoId: 'penymCATrbQ',
     startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(

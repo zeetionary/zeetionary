@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdewdrops1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdewdrops14(String languageCode) async {
+  Future<void> speakdewdrops14(String languageCode) async {
     // DOPSUM: CHANGE speakdewdrop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,16 +404,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دڵۆپی ئاونگ، تنۆکی شەونم یان قەراو
 """),
-          const DefinitionKurdish(text: "١. (ناو) دڵۆپە ئاوێک کە شەوان درووست دەبێت؛ دڵۆپەی شلەیەک"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) دڵۆپە ئاوێک کە شەوان درووست دەبێت؛ دڵۆپەی شلەیەک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The flower petals were covered in dewdrops."),
-                    ExampleSentenceKurdish(text: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون."),
+                        text: "The flower petals were covered in dewdrops."),
+                    ExampleSentenceKurdish(
+                        text: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون."),
                   ],
                 ),
               ),
@@ -1024,7 +1026,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dewdrop (Derived forms: dewdrops)
+- Noun: dewdrop (derived forms: dewdrops)
 1. A drop of dew
 """,
   );
@@ -1058,7 +1060,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uaJfExPF9EA?t=',
+    videoId: 'uaJfExPF9EA',
     startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1083,7 +1085,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uaJfExPF9EA?t=',
+    videoId: 'uaJfExPF9EA',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1108,7 +1110,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ob--rFunqEY?t=',
+    videoId: 'Ob--rFunqEY',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1133,7 +1135,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X7QlhPOFQO4?t=',
+    videoId: 'X7QlhPOFQO4',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1158,7 +1160,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vs7lZrSEe14?t=',
+    videoId: 'vs7lZrSEe14',
     startSeconds: 457,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1183,7 +1185,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R4cnbqJ_6Pg?t=',
+    videoId: 'R4cnbqJ_6Pg',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1208,7 +1210,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aoCyprLMnJ0?t=',
+    videoId: 'aoCyprLMnJ0',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -580,7 +580,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dam (Derived forms: dams)
+- Noun: dam (derived forms: dams)
 1. A barrier constructed to contain the flow of water or to keep out the sea (= dike, dyke)
  
 2. A metric unit of length equal to ten meters (= decameter [US], dekameter [US], decametre [Brit, Cdn], dekametre [Brit, Cdn], dkm [Brit])
@@ -589,7 +589,7 @@ ${englishMeaningConst.text}
  
 4. (dentistry) a device to prevent a tooth from getting wet, consisting of a rubber sheet held with a band
 
-- Verb: dam (Derived forms: dammed, dams, damming)
+- Verb: dam (derived forms: dammed, dams, damming)
 1. Obstruct with, or as if with, a dam (= dam up)
 "dam the gorges of the Yangtse River";
 """,
@@ -624,7 +624,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8FpPSMIB4uA',
+    videoId: '8FpPSMIB4uA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -649,7 +649,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JXK9DC3Y2MU?t=',
+    videoId: 'JXK9DC3Y2MU',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -674,7 +674,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jxNM4DGBRMU?t=',
+    videoId: 'jxNM4DGBRMU',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -699,7 +699,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V5Fn-OU-A7I?t=',
+    videoId: 'V5Fn-OU-A7I',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -724,7 +724,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ekUROM87vTA?t=',
+    videoId: 'ekUROM87vTA',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -749,7 +749,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w4FB9Omjn94?t=',
+    videoId: 'w4FB9Omjn94',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -774,7 +774,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BCY0SPOFpE?t=',
+    videoId: '_BCY0SPOFpE',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -14,10 +14,12 @@ class EnglishEntrydisappointment extends StatefulWidget {
   const EnglishEntrydisappointment({super.key});
 
   @override
-  State<EnglishEntrydisappointment> createState() => _EnglishEntrydisappointmentState();
+  State<EnglishEntrydisappointment> createState() =>
+      _EnglishEntrydisappointmentState();
 }
 
-class _EnglishEntrydisappointmentState extends State<EnglishEntrydisappointment> {
+class _EnglishEntrydisappointmentState
+    extends State<EnglishEntrydisappointment> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -230,7 +232,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("To our great disappointment, it rained every day of the trip."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "To our great disappointment, it rained every day of the trip."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappointments3(String languageCode) async {
@@ -238,7 +241,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He found it difficult to hide his disappointment when she didn't arrive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He found it difficult to hide his disappointment when she didn't arrive."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappointments4(String languageCode) async {
@@ -246,7 +250,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Disappointment gripped her."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Disappointment gripped her."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappointments5(String languageCode) async {
@@ -254,7 +259,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("That new restaurant was a big disappointment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "That new restaurant was a big disappointment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappointments6(String languageCode) async {
@@ -262,7 +268,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I always felt I was a disappointment to my father."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I always felt I was a disappointment to my father."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisappointments7(String languageCode) async {
@@ -413,7 +420,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Book early for the show to avoid disappointment."),
-                    ExampleSentenceKurdish(text: "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی."),
                   ],
                 ),
               ),
@@ -438,8 +447,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "To our great disappointment, it rained every day of the trip."),
-                    ExampleSentenceKurdish(text: "بە جێگای نائومێدی زۆرمان، تەواوی ڕۆژانی گەشتەکە باران باری."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "To our great disappointment, it rained every day of the trip."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە جێگای نائومێدی زۆرمان، تەواوی ڕۆژانی گەشتەکە باران باری."),
                   ],
                 ),
               ),
@@ -464,8 +477,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He found it difficult to hide his disappointment when she didn't arrive."),
-                    ExampleSentenceKurdish(text: "بە سەختی زانی کە نائومێدیی بشارێتەوە کە ئەو نەگەشت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He found it difficult to hide his disappointment when she didn't arrive."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە سەختی زانی کە نائومێدیی بشارێتەوە کە ئەو نەگەشت."),
                   ],
                 ),
               ),
@@ -491,7 +508,8 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(text: "Disappointment gripped her."),
-                    ExampleSentenceKurdish(text: "نائومێدی باڵی بەسەر کێشابوو."),
+                    ExampleSentenceKurdish(
+                        text: "نائومێدی باڵی بەسەر کێشابوو."),
                   ],
                 ),
               ),
@@ -509,15 +527,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) کەسێک/شتێک کە جێگای نائومێدییە"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) کەسێک/شتێک کە جێگای نائومێدییە"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "That new restaurant was a big disappointment."),
-                    ExampleSentenceKurdish(text: "چێشتخانە تازەکە نائومێدییەکی گەورە بوو."),
+                    ExampleSentenceEnglish(
+                        text: "That new restaurant was a big disappointment."),
+                    ExampleSentenceKurdish(
+                        text: "چێشتخانە تازەکە نائومێدییەکی گەورە بوو."),
                   ],
                 ),
               ),
@@ -542,8 +563,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I always felt I was a disappointment to my father."),
-                    ExampleSentenceKurdish(text: "هەمیشە وام هەستکرد کە نائومێدی بووم بۆ باوکم."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I always felt I was a disappointment to my father."),
+                    ExampleSentenceKurdish(
+                        text: "هەمیشە وام هەستکرد کە نائومێدی بووم بۆ باوکم."),
                   ],
                 ),
               ),
@@ -1024,7 +1048,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disappointment (Derived forms: disappointments)
+- Noun: disappointment (derived forms: disappointments)
 1. A feeling of dissatisfaction that results when your expectations are not realized (= letdown, sell [Brit, informal])
 "his hopes were so high he was doomed to disappointment";
  
@@ -1061,7 +1085,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D0x2dgpBDzc?t=',
+    videoId: 'D0x2dgpBDzc',
     startSeconds: 338,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1086,7 +1110,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1652,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1111,7 +1135,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    videoId: 'EFkyxzJtiv4',
     startSeconds: 342,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1136,7 +1160,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9yjZpBq1XBE?t=',
+    videoId: '9yjZpBq1XBE',
     startSeconds: 2475,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1161,7 +1185,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ma0b6h4s5bY?t=',
+    videoId: 'Ma0b6h4s5bY',
     startSeconds: 162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1186,7 +1210,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fHsa9DqmId8?t=',
+    videoId: 'fHsa9DqmId8',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1211,7 +1235,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OgFcz6klaeg?t=',
+    videoId: 'OgFcz6klaeg',
     startSeconds: 929,
     autoPlay: true,
     params: const YoutubePlayerParams(

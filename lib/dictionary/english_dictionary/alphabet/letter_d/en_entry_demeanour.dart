@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her demeanour seemed perfectly normal despite the shock."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her demeanour seemed perfectly normal despite the shock."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemeanours3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was surprised by her calm demeanour."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was surprised by her calm demeanour."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemeanours4(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemeanours1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemeanours14(String languageCode) async {
+  Future<void> speakdemeanours14(String languageCode) async {
     // DOPSUM: CHANGE speakdemeanour
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her demeanour seemed perfectly normal despite the shock.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her demeanour seemed perfectly normal despite the shock.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemeanours21(String languageCode) async {
@@ -413,7 +416,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He maintained a professional demeanour throughout."),
-                    ExampleSentenceKurdish(text: "تەواوی ماوەکە هەڵسوکەوتی پڕۆفیشناڵانەی پاراست."),
+                    ExampleSentenceKurdish(
+                        text: "تەواوی ماوەکە هەڵسوکەوتی پڕۆفیشناڵانەی پاراست."),
                   ],
                 ),
               ),
@@ -438,8 +442,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Her demeanour seemed perfectly normal despite the shock."),
-                    ExampleSentenceKurdish(text: "سەرەڕای شۆکەکە هەڵسوکەوتی تەواو ئاسایی دیاربووە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Her demeanour seemed perfectly normal despite the shock."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سەرەڕای شۆکەکە هەڵسوکەوتی تەواو ئاسایی دیاربووە."),
                   ],
                 ),
               ),
@@ -464,8 +472,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He was surprised by her calm demeanour."),
-                    ExampleSentenceKurdish(text: "سەرسام بوو بە هەڵسوکەوتی ئاسایی ئەو."),
+                    ExampleSentenceEnglish(
+                        text: "He was surprised by her calm demeanour."),
+                    ExampleSentenceKurdish(
+                        text: "سەرسام بوو بە هەڵسوکەوتی ئاسایی ئەو."),
                   ],
                 ),
               ),
@@ -988,7 +998,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: demeanour (Derived forms: demeanours)
+- Noun: demeanour (derived forms: demeanours)
 Usage: Brit, Cdn (US: demeanor)
 1. (behavioral attributes) the way a person behaves toward other people (= demeanor [US], behavior [US], behaviour [Brit, Cdn], conduct, deportment)
 "her dignified demeanour";
@@ -1024,7 +1034,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uqIhHDuE62g?t=',
+    videoId: 'uqIhHDuE62g',
     startSeconds: 489,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1049,7 +1059,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kMYZ3fUlZFA?t=',
+    videoId: 'kMYZ3fUlZFA',
     startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1074,7 +1084,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eNnXd2HzV5Y?t=',
+    videoId: 'eNnXd2HzV5Y',
     startSeconds: 466,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1099,7 +1109,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C8zuYjv4Moc?t=',
+    videoId: 'C8zuYjv4Moc',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1124,7 +1134,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xbakWIl8nKI?t=',
+    videoId: 'xbakWIl8nKI',
     startSeconds: 832,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1149,7 +1159,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aW0-r2GsMjg?t=',
+    videoId: 'aW0-r2GsMjg',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1174,7 +1184,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VvVK11qqwKI?t=',
+    videoId: 'VvVK11qqwKI',
     startSeconds: 941,
     autoPlay: true,
     params: const YoutubePlayerParams(

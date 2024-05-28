@@ -909,7 +909,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: dear (Derived forms: dearer, dearest)
+- Adjective: dear (derived forms: dearer, dearest)
 1. Dearly loved (= beloved, darling)
  
 2. With or in a close or intimate relationship (= good, near)
@@ -923,7 +923,7 @@ ${englishMeaningConst.text}
  
 5. A formal way of addressing somebody at the beginning of a letter or email
 
-- Noun: dear (Derived forms: dears)
+- Noun: dear (derived forms: dears)
 1. Someone who is loved (used as term of endearment) (= beloved, dearest, honey [informal], love, darling, sweetheart, sugar [informal], baby [informal], duck [Brit, informal], hon [informal])
  
 2. A sweet innocent mild-mannered person (especially a child) (= lamb)
@@ -970,7 +970,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
+    videoId: 'Kou7ur5xt_4',
     startSeconds: 424,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -995,7 +995,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3YltYCrPZos?t=',
+    videoId: '3YltYCrPZos',
     startSeconds: 166,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1020,7 +1020,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nRafaCcfrcI?t=',
+    videoId: 'nRafaCcfrcI',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1045,7 +1045,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KJy7T24rhg0?t=',
+    videoId: 'KJy7T24rhg0',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1070,7 +1070,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 607,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1095,7 +1095,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NDjNX3nEfYo?t=',
+    videoId: 'NDjNX3nEfYo',
     startSeconds: 606,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1120,7 +1120,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 572,
     autoPlay: true,
     params: const YoutubePlayerParams(

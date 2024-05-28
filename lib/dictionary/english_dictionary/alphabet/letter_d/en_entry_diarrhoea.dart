@@ -404,16 +404,18 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سکەشۆرە، زگەشۆرە، ڕەوانی، زگچوون، سکچوون، هەڵتوڕان، بەلەفیڕە، فیڕە
 """),
-          const DefinitionKurdish(text: "١. (ناو) نەخۆشییەک کە دەبێت هۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) نەخۆشییەک کە دەبێت هۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Symptoms include diarrhoea and vomiting."),
-                    ExampleSentenceKurdish(text: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن."),
+                        text: "Symptoms include diarrhoea and vomiting."),
+                    ExampleSentenceKurdish(
+                        text: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن."),
                   ],
                 ),
               ),
@@ -1024,7 +1026,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diarrhoea (Derived forms: diarrhoeas)
+- Noun: diarrhoea (derived forms: diarrhoeas)
 Usage: Brit, Cdn (US: diarrhea)
 1. Frequent and watery bowel movements; can be a symptom of infection or food poisoning or colitis or a gastrointestinal tumour (= diarrhea [N. Amer], looseness of the bowels, looseness)
 """,
@@ -1059,7 +1061,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xWyqD_C9YV4?t=',
+    videoId: 'xWyqD_C9YV4',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1086,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9-8pkESUztc?t=',
+    videoId: '9-8pkESUztc',
     startSeconds: 152,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1111,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y2k_NWOlo5A?t=',
+    videoId: 'y2k_NWOlo5A',
     startSeconds: 789,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1136,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gTKeB8BnzPY?t=',
+    videoId: 'gTKeB8BnzPY',
     startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1161,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8d2FQhplCCI?t=',
+    videoId: '8d2FQhplCCI',
     startSeconds: 843,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1186,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aAnw9560Z4U?t=',
+    videoId: 'aAnw9560Z4U',
     startSeconds: 165,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1211,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WSWjfVjquf0?t=',
+    videoId: 'WSWjfVjquf0',
     startSeconds: 584,
     autoPlay: true,
     params: const YoutubePlayerParams(

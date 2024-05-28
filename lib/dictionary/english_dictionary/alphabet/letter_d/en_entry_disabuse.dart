@@ -402,9 +402,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (کردار) گوتن بە کەسێک کە ئەوەی پێیوایە ڕاستە لەڕاستیدا هەڵەیە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (کردار) گوتن بە کەسێک کە ئەوەی پێیوایە ڕاستە لەڕاستیدا هەڵەیە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He thought that all women liked children, but she soon disabused him of that idea."),
-                    ExampleSentenceKurdish(text: "وای بیردەکردەوە کە هەموو ژنان حەزیان لە منداڵە، بەڵام ئەو هەر زوو خستییە هەڵەوە لەسەر ئەو بیرۆکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وای بیردەکردەوە کە هەموو ژنان حەزیان لە منداڵە، بەڵام ئەو هەر زوو خستییە هەڵەوە لەسەر ئەو بیرۆکە."),
                   ],
                 ),
               ),
@@ -1024,7 +1028,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disabuse (Derived forms: disabused, disabuses, disabusing)
+- Verb: disabuse (derived forms: disabused, disabuses, disabusing)
 1. Free somebody (from an erroneous belief)
 "On beginning this history of England, the reader must disabuse himself of one conception"
 """,
@@ -1059,7 +1063,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/InIIc6WAJJU?t=',
+    videoId: 'InIIc6WAJJU',
     startSeconds: 935,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1088,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XLlHeud8ocQ?t=',
+    videoId: 'XLlHeud8ocQ',
     startSeconds: 2501,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1113,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fWCAT2ussZM',
+    videoId: 'fWCAT2ussZM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1138,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vd2dtkMINIw?t=',
+    videoId: 'vd2dtkMINIw',
     startSeconds: 2896,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1163,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kvwhUIoaiN0?t=',
+    videoId: 'kvwhUIoaiN0',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1188,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aEHM59cvDM0?t=',
+    videoId: 'aEHM59cvDM0',
     startSeconds: 532,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1213,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aK-Ixma0OuM?t=',
+    videoId: 'aK-Ixma0OuM',
     startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(

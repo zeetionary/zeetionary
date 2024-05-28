@@ -501,7 +501,7 @@ ${englishMeaningConst.text}
 1. Numbered or proceeding by tens; based on ten (= denary)
 "the decimal system";
 
-- Noun: decimal (Derived forms: decimals)
+- Noun: decimal (derived forms: decimals)
 1. A proper fraction whose denominator is a power of 10 (= decimal fraction)
  
 2. A number in the decimal system
@@ -537,7 +537,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ltOkMlHrGPc?t=',
+    videoId: 'ltOkMlHrGPc',
     startSeconds: 673,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +562,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ot4qdCs54ZE?t=',
+    videoId: 'Ot4qdCs54ZE',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +587,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bVlTXIVCDSY?t=',
+    videoId: 'bVlTXIVCDSY',
     startSeconds: 1038,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +612,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LXkO4HdQXdo?t=',
+    videoId: 'LXkO4HdQXdo',
     startSeconds: 113,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -637,7 +637,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LmpAntNjPj0?t=',
+    videoId: 'LmpAntNjPj0',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -662,7 +662,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gQmiqmxJMtA?t=',
+    videoId: 'gQmiqmxJMtA',
     startSeconds: 11440,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -687,7 +687,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tRaq4aYPzCc?t=',
+    videoId: 'tRaq4aYPzCc',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(

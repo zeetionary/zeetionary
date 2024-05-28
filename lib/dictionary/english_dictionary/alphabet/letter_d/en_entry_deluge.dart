@@ -1015,7 +1015,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: deluge (Derived forms: deluges)
+- Noun: deluge (derived forms: deluges)
 1. An overwhelming number or amount (= flood, inundation, torrent)
 "a deluge of requests";
  
@@ -1025,7 +1025,7 @@ ${englishMeaningConst.text}
 3. The rising of a body of water and its overflowing onto normally dry land (= flood, inundation, alluvion)
 "plains fertilized by annual deluges";
 
-- Verb: deluge (Derived forms: deluged, deluges, deluging)
+- Verb: deluge (derived forms: deluged, deluges, deluging)
 1. Fill quickly beyond capacity; as with a liquid (= flood, inundate, swamp)
 "The images deluged his mind";
  
@@ -1064,7 +1064,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ErPsyBUCijM?t=',
+    videoId: 'ErPsyBUCijM',
     startSeconds: 2668,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1089,7 +1089,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UvjSXBqQe4A?t=',
+    videoId: 'UvjSXBqQe4A',
     startSeconds: 544,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1114,7 +1114,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BPGgyputhpA?t=',
+    videoId: 'BPGgyputhpA',
     startSeconds: 1914,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1139,7 +1139,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_rBO8neWw04?t=',
+    videoId: '_rBO8neWw04',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1164,7 +1164,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eXaIpTj3vOs?t=',
+    videoId: 'eXaIpTj3vOs',
     startSeconds: 800,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1189,7 +1189,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xPG3_8m1NQA?t=',
+    videoId: 'xPG3_8m1NQA',
     startSeconds: 391,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1214,7 +1214,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TzhH77l1e-g?t=',
+    videoId: 'TzhH77l1e-g',
     startSeconds: 609,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He stared at me in disbelief."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He stared at me in disbelief."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisbeliefs2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He raised his eyebrows in disbelief."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He raised his eyebrows in disbelief."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisbeliefs3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My mouth dropped open in disbelief."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("My mouth dropped open in disbelief."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisbeliefs4(String languageCode) async {
@@ -404,15 +406,15 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: بێ‌باوەڕی، بێ‌بڕوایی
 // """),
-          const DefinitionKurdish(text: "١. (ناو) نەبوونی توانای باوەڕکردن بە شتێک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) نەبوونی توانای باوەڕکردن بە شتێک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "He stared at me in disbelief."),
+                        text: "He stared at me in disbelief."),
                     ExampleSentenceKurdish(text: "بە گومانەوە لێی دەڕوانیم."),
                   ],
                 ),
@@ -438,7 +440,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He raised his eyebrows in disbelief."),
+                    ExampleSentenceEnglish(
+                        text: "He raised his eyebrows in disbelief."),
                     ExampleSentenceKurdish(text: "برۆی لە گوماندا بەرزکردەوە."),
                   ],
                 ),
@@ -464,7 +467,8 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "My mouth dropped open in disbelief."),
+                    ExampleSentenceEnglish(
+                        text: "My mouth dropped open in disbelief."),
                     ExampleSentenceKurdish(text: "لە بێ‌باوەڕیدا دەمم داچەقی."),
                   ],
                 ),
@@ -1024,7 +1028,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: disbelief (Derived forms: disbeliefs)
+- Noun: disbelief (derived forms: disbeliefs)
 1. Doubt about the truth of something (= incredulity, skepticism [N. Amer], mental rejection, scepticism [Brit, Cdn])
  
 2. A rejection of belief (= unbelief)
@@ -1060,7 +1064,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-6vzjjIrRK8?t=',
+    videoId: '-6vzjjIrRK8',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1089,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R_fZjGm2OrM?t=',
+    videoId: 'R_fZjGm2OrM',
     startSeconds: 343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1114,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    videoId: '5R65skWdg7Y',
     startSeconds: 797,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1139,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U38i32CpYow?t=',
+    videoId: 'U38i32CpYow',
     startSeconds: 589,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1164,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/n7WH7A2v7OU?t=',
+    videoId: 'n7WH7A2v7OU',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1189,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cw5gCoIbUbg?t=',
+    videoId: 'cw5gCoIbUbg',
     startSeconds: 426,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1214,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qVfJheBp7Ys?t=',
+    videoId: 'qVfJheBp7Ys',
     startSeconds: 759,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The government was reluctant to disarm."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The government was reluctant to disarm."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisarms3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He disarmed her immediately by apologizing profusely."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He disarmed her immediately by apologizing profusely."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisarms4(String languageCode) async {
@@ -411,9 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Most of the rebels were captured and disarmed."),
-                    ExampleSentenceKurdish(text: "زۆرێک لە یاخییەکان گیران و چەککران."),
+                        text: "Most of the rebels were captured and disarmed."),
+                    ExampleSentenceKurdish(
+                        text: "زۆرێک لە یاخییەکان گیران و چەککران."),
                   ],
                 ),
               ),
@@ -431,15 +433,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) کەمکردنەوەی قەبارەی سوپایەک، یان سەندنی هەموو چەکێک لێیان، بەتایبەتی چەکی ئەتۆمی"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (کردار) کەمکردنەوەی قەبارەی سوپایەک، یان سەندنی هەموو چەکێک لێیان، بەتایبەتی چەکی ئەتۆمی"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The government was reluctant to disarm."),
-                    ExampleSentenceKurdish(text: "حکومەتەکە نابەدڵ بوو بۆ چەکداماڵین."),
+                    ExampleSentenceEnglish(
+                        text: "The government was reluctant to disarm."),
+                    ExampleSentenceKurdish(
+                        text: "حکومەتەکە نابەدڵ بوو بۆ چەکداماڵین."),
                   ],
                 ),
               ),
@@ -457,15 +463,20 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (کردار) هێورکردنەوەی کەسێک کە کەمتر تووڕە بێت"),
+          const DefinitionKurdish(
+              text: "٣. (کردار) هێورکردنەوەی کەسێک کە کەمتر تووڕە بێت"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He disarmed her immediately by apologizing profusely."),
-                    ExampleSentenceKurdish(text: "زوو هێوری کردەوە بە بەتەواوی داوای لێبووردن کردن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He disarmed her immediately by apologizing profusely."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "زوو هێوری کردەوە بە بەتەواوی داوای لێبووردن کردن."),
                   ],
                 ),
               ),
@@ -1024,7 +1035,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: disarm (Derived forms: disarmed, disarms, disarming)
+- Verb: disarm (derived forms: disarmed, disarms, disarming)
 1. Remove offensive capability from (= demilitarize, demilitarise [Brit])
  
 2. Make less hostile; win over
@@ -1063,7 +1074,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_zSw1OgD8Rc?t=',
+    videoId: '_zSw1OgD8Rc',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1088,7 +1099,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PkUg89kLLBE?t=',
+    videoId: 'PkUg89kLLBE',
     startSeconds: 255,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1113,7 +1124,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OP7l1n_8Lh4?t=',
+    videoId: 'OP7l1n_8Lh4',
     startSeconds: 431,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1138,7 +1149,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7Quhnm-Z8A?t=',
+    videoId: 'H7Quhnm-Z8A',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1174,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pLwHTqU2r_Y?t=',
+    videoId: 'pLwHTqU2r_Y',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1199,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BbaiH17hOU?t=',
+    videoId: '_BbaiH17hOU',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1224,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AdZ9kGwqkTM?t=',
+    videoId: 'AdZ9kGwqkTM',
     startSeconds: 301,
     autoPlay: true,
     params: const YoutubePlayerParams(

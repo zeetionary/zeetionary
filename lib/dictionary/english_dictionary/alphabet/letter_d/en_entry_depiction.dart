@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I disapprove of the depiction of violence on television."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I disapprove of the depiction of violence on television."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepictions3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepictions1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepictions14(String languageCode) async {
+  Future<void> speakdepictions14(String languageCode) async {
     // DOPSUM: CHANGE speakdepiction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I disapprove of the depiction of violence on television.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I disapprove of the depiction of violence on television.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepictions21(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: وێنە، باس‌کردن، باسکرد،	پیشان‌دان
 """),
-          const DefinitionKurdish(text: "١. (ناو) پیشاندانی کەسێک/شتێک بە شێوەیەکی دیاریکراو بە وشە یان وێنە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) پیشاندانی کەسێک/شتێک بە شێوەیەکی دیاریکراو بە وشە یان وێنە"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "They object to the movie's depiction of gay people."),
-                    ExampleSentenceKurdish(text: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی."),
+                    ExampleSentenceKurdish(
+                        text: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی."),
                   ],
                 ),
               ),
@@ -438,8 +443,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I disapprove of the depiction of violence on television."),
-                    ExampleSentenceKurdish(text: "دژ بە وێناکردنی توندوتیژیم لەسەر تەلەفیزیۆن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I disapprove of the depiction of violence on television."),
+                    ExampleSentenceKurdish(
+                        text: "دژ بە وێناکردنی توندوتیژیم لەسەر تەلەفیزیۆن."),
                   ],
                 ),
               ),
@@ -988,7 +996,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: depiction (Derived forms: depictions)
+- Noun: depiction (derived forms: depictions)
 1. A graphic or vivid verbal description (= word picture, word-painting, delineation, picture, characterization, characterisation [Brit])
 "too often the narrative was interrupted by long word depictions";
  
@@ -1029,7 +1037,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q9-_MLoLQ4Y?t=',
+    videoId: 'q9-_MLoLQ4Y',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1054,7 +1062,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8zpMXObd7oo?t=',
+    videoId: '8zpMXObd7oo',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1079,7 +1087,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g40U31jX0tY?t=',
+    videoId: 'g40U31jX0tY',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1104,7 +1112,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bld5p1qGV-Y?t=',
+    videoId: 'bld5p1qGV-Y',
     startSeconds: 502,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1129,7 +1137,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    videoId: 'mY3SEMTROas',
     startSeconds: 1682,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1154,7 +1162,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CURLWPCxe-c?t=',
+    videoId: 'CURLWPCxe-c',
     startSeconds: 304,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1179,7 +1187,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
+    videoId: 'Sbp_EeBk-As',
     startSeconds: 1540,
     autoPlay: true,
     params: const YoutubePlayerParams(

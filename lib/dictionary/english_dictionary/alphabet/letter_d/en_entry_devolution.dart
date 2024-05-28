@@ -1033,7 +1033,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: devolution (Derived forms: devolutions)
+- Noun: devolution (derived forms: devolutions)
 1. The process of declining from a higher to a lower level of effective power, vitality or essential quality (= degeneration)
  
 2. (government) the delegation of authority (especially from a central to a regional government) (= devolvement)
@@ -1069,7 +1069,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4bxI803q6i8?t=',
+    videoId: '4bxI803q6i8',
     startSeconds: 219,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1094,7 +1094,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8UVUnUnWfHI?t=',
+    videoId: '8UVUnUnWfHI',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1119,7 +1119,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Iiny1GrfhYM?t=',
+    videoId: 'Iiny1GrfhYM',
     startSeconds: 1007,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1144,7 +1144,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hKPqNgCI5F4?t=',
+    videoId: 'hKPqNgCI5F4',
     startSeconds: 250,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1169,7 +1169,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JBqcxu5mGok?t=',
+    videoId: 'JBqcxu5mGok',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1194,7 +1194,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YYPAFqQgbqE?t=',
+    videoId: 'YYPAFqQgbqE',
     startSeconds: 660,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1219,7 +1219,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PoLYTxLMUqw?t=',
+    videoId: 'PoLYTxLMUqw',
     startSeconds: 629,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -413,7 +413,7 @@ ${englishMeaningConst.text}
 1. Presumptuously daring (= temerarious)
 "a daredevil test pilot having the right stuff";
 
-- Noun: daredevil (Derived forms: daredevils)
+- Noun: daredevil (derived forms: daredevils)
 1. A reckless impetuous irresponsible person (= madcap, hothead, swashbuckler, lunatic, harum-scarum)
 """,
   );
@@ -447,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W2hRTTTpmr8?t=',
+    videoId: 'W2hRTTTpmr8',
     startSeconds: 1248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Kbr7PPXpX6c?t=',
+    videoId: 'Kbr7PPXpX6c',
     startSeconds: 296,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1MnD8z4n63k?t=',
+    videoId: '1MnD8z4n63k',
     startSeconds: 524,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fNJI2A0v8yI?t=',
+    videoId: 'fNJI2A0v8yI',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9plfckcV3pw?t=',
+    videoId: '9plfckcV3pw',
     startSeconds: 475,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ElQdUHSXkME?t=',
+    videoId: 'ElQdUHSXkME',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L_LwqMOVHlc?t=',
+    videoId: 'L_LwqMOVHlc',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(

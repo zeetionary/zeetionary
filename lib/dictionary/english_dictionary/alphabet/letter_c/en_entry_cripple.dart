@@ -499,14 +499,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cripple (Derived forms: crippling, cripples, crippled)
+- Verb: cripple (derived forms: crippling, cripples, crippled)
 1. Deprive of strength or efficiency; make useless or worthless (= stultify)
 "This measure crippled our efforts";
  
 2. Deprive of the use of a limb, especially a leg (= lame)
 "The accident has crippled her for life";
 
-- Noun: cripple (Derived forms: cripples)
+- Noun: cripple (derived forms: cripples)
 1. Someone who is unable to walk normally because of an injury or disability to the legs or back
 """,
   );
@@ -540,7 +540,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    videoId: 'hRSGxw2AQnk',
     startSeconds: 1163,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -565,7 +565,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
+    videoId: 'b4wRdoWpw0w',
     startSeconds: 333,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jwZBl6KQojM?t=',
+    videoId: 'jwZBl6KQojM',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IyUN6UquxjQ?t=',
+    videoId: 'IyUN6UquxjQ',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PLGM_eQHl3Y?t=',
+    videoId: 'PLGM_eQHl3Y',
     startSeconds: 395,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CEQTo9usai4?t=',
+    videoId: 'CEQTo9usai4',
     startSeconds: 341,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hG0ROjzgEA0?t=',
+    videoId: 'hG0ROjzgEA0',
     startSeconds: 1380,
     autoPlay: true,
     params: const YoutubePlayerParams(

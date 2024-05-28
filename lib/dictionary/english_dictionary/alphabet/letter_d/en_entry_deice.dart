@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdeices1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdeices14(String languageCode) async {
+  Future<void> speakdeices14(String languageCode) async {
     // DOPSUM: CHANGE speakdeice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) لێکردنەوەی سەهۆڵ لە شتێک"),
           Row(
@@ -413,7 +413,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "I de-ice the car windows every morning in winter."),
-                    ExampleSentenceKurdish(text: "هەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەموو بەیانییەک لە زستاناندا پەنجەرەی ئۆتۆمبێلەکە پاکدەکەمەوە."),
                   ],
                 ),
               ),
@@ -988,7 +990,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deice (Derived forms: de-icing, de-ices, deicing, de-iced, deices, deiced)
+- Verb: deice (derived forms: de-icing, de-ices, deicing, de-iced, deices, deiced)
 1. Make or become free of frost or ice (= defrost, de-ice)
 "deice the car window";
 """,
@@ -1023,7 +1025,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JD292_jEvKk?t=',
+    videoId: 'JD292_jEvKk',
     startSeconds: 1850,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1048,7 +1050,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1fAN8fOoqsc?t=',
+    videoId: '1fAN8fOoqsc',
     startSeconds: 1731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1073,7 +1075,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OuI9MgB00TA?t=',
+    videoId: 'OuI9MgB00TA',
     startSeconds: 616,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1100,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vci6H1Fh6UU?t=',
+    videoId: 'vci6H1Fh6UU',
     startSeconds: 1287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1125,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJBWsIdxGz8?t=',
+    videoId: 'qJBWsIdxGz8',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1148,7 +1150,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zyZf_Sl5q1M?t=',
+    videoId: 'zyZf_Sl5q1M',
     startSeconds: 188,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1173,7 +1175,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/unFt3vHU40Q?t=',
+    videoId: 'unFt3vHU40Q',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("An accurate diagnosis was made after a series of tests."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "An accurate diagnosis was made after a series of tests."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiagnosiss3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They are using new methods of diagnosis."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They are using new methods of diagnosis."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiagnosiss4(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdiagnosiss1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdiagnosiss14(String languageCode) async {
+  Future<void> speakdiagnosiss14(String languageCode) async {
     // DOPSUM: CHANGE speakdiagnosis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,16 +406,17 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دەس‌نیشان‌کردن، پێ‌پێبردن، ڕێ‌پێبردن، تێگەیشتن، سەردەرکردن، پێ‌زانین
 """),
-          const DefinitionKurdish(text: "١. (ناو) دیاری کردنی هۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) دیاری کردنی هۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "They are waiting for the doctor's diagnosis."),
-                    ExampleSentenceKurdish(text: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن."),
+                        text: "They are waiting for the doctor's diagnosis."),
+                    ExampleSentenceKurdish(
+                        text: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن."),
                   ],
                 ),
               ),
@@ -438,8 +441,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "An accurate diagnosis was made after a series of tests."),
-                    ExampleSentenceKurdish(text: "دەستنیشانکردنێکی درووست ئەنجامدرا لە دوای زنجیرەیەک لە پشکنین."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "An accurate diagnosis was made after a series of tests."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دەستنیشانکردنێکی درووست ئەنجامدرا لە دوای زنجیرەیەک لە پشکنین."),
                   ],
                 ),
               ),
@@ -464,8 +471,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "They are using new methods of diagnosis."),
-                    ExampleSentenceKurdish(text: "ڕێگای تازەی دەستنیشانکردن بەکاردێنن."),
+                    ExampleSentenceEnglish(
+                        text: "They are using new methods of diagnosis."),
+                    ExampleSentenceKurdish(
+                        text: "ڕێگای تازەی دەستنیشانکردن بەکاردێنن."),
                   ],
                 ),
               ),
@@ -1060,7 +1069,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qsYUDM15T8U?t=',
+    videoId: 'qsYUDM15T8U',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1094,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gEVUncUq9As?t=',
+    videoId: 'gEVUncUq9As',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1119,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zad6v8ZHzdg?t=',
+    videoId: 'Zad6v8ZHzdg',
     startSeconds: 814,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1144,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dph7FUCjvLM?t=',
+    videoId: 'dph7FUCjvLM',
     startSeconds: 467,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1169,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6a4hMyiwBo?t=',
+    videoId: 'x6a4hMyiwBo',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1194,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sbp_EeBk-As?t=',
+    videoId: 'Sbp_EeBk-As',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1210,7 +1219,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hw1X5oFPgro?t=',
+    videoId: 'Hw1X5oFPgro',
     startSeconds: 1773,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -554,7 +554,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crease (Derived forms: creases)
+- Noun: crease (derived forms: creases)
 1. An angular or rounded shape made by folding (= fold, plication, flexure, crimp, bend)
 "a crease in his trousers";
  
@@ -563,7 +563,7 @@ ${englishMeaningConst.text}
  
 3. A Malayan dagger with a wavy blade (= kris, creese [archaic])
 
-- Verb: crease (Derived forms: creases, creased, creasing)
+- Verb: crease (derived forms: creases, creased, creasing)
 1. Make wrinkled or creased (= furrow, wrinkle)
 "crease one's brow";
  
@@ -607,7 +607,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sf7NfCe3_5Y',
+    videoId: 'sf7NfCe3_5Y',
     startSeconds: 476,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -632,7 +632,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw',
+    videoId: 'fn--IVarumw',
     startSeconds: 920,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -657,7 +657,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbPw9AlVKVM',
+    videoId: 'LbPw9AlVKVM',
     startSeconds: 1235,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -682,7 +682,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KbNRvWfndjA',
+    videoId: 'KbNRvWfndjA',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -707,7 +707,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tZBk_Hb-X0w',
+    videoId: 'tZBk_Hb-X0w',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -732,7 +732,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/at-xZA5U1ps',
+    videoId: 'at-xZA5U1ps',
     startSeconds: 681,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -757,7 +757,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O4EDlEdVPfo',
+    videoId: 'O4EDlEdVPfo',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Hot weather always depresses me."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Hot weather always depresses me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepresss2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What depresses me most is that I never see you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "What depresses me most is that I never see you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepresss3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It depresses me to see so many students drop put of school."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It depresses me to see so many students drop put of school."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepresss4(String languageCode) async {
@@ -246,7 +248,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The recession has depressed the housing market."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The recession has depressed the housing market."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepresss5(String languageCode) async {
@@ -321,7 +324,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdepresss1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdepresss14(String languageCode) async {
+  Future<void> speakdepresss14(String languageCode) async {
     // DOPSUM: CHANGE speakdepress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What depresses me most is that I never see you.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "What depresses me most is that I never see you.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdepresss21(String languageCode) async {
@@ -411,9 +415,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Hot weather always depresses me."),
-                    ExampleSentenceKurdish(text: "کەشی گەرم هەمیشە بێزارم دەکات."),
+                        text: "Hot weather always depresses me."),
+                    ExampleSentenceKurdish(
+                        text: "کەشی گەرم هەمیشە بێزارم دەکات."),
                   ],
                 ),
               ),
@@ -438,8 +442,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "What depresses me most is that I never see you."),
-                    ExampleSentenceKurdish(text: "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە هەرگیز ناتبینم."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "What depresses me most is that I never see you."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەوەی زۆرترین بێزارم دەکات ئەوەیە کە هەرگیز ناتبینم."),
                   ],
                 ),
               ),
@@ -464,8 +472,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It depresses me to see so many students drop put of school."),
-                    ExampleSentenceKurdish(text: "ئەوە بێزارم دەکات کە ئەو هەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "It depresses me to see so many students drop put of school."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەوە بێزارم دەکات کە ئەو هەموو خوێندکارە دەبینم لە قوتابخانە دەردەچن."),
                   ],
                 ),
               ),
@@ -483,15 +495,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، هتد"),
+          const DefinitionKurdish(
+              text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، هتد"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The recession has depressed the housing market."),
-                    ExampleSentenceKurdish(text: "قەیرانەکە بازاڕی خانووبەرەی ناچالاک کردووە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The recession has depressed the housing market."),
+                    ExampleSentenceKurdish(
+                        text: "قەیرانەکە بازاڕی خانووبەرەی ناچالاک کردووە."),
                   ],
                 ),
               ),
@@ -988,7 +1004,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: depress (Derived forms: depressed, depresses, depressing)
+- Verb: depress (derived forms: depressed, depresses, depressing)
 1. Lower someone's spirits; make downhearted (= deject, cast down, get down, dismay, dispirit, demoralize, demoralise [Brit])
 "The news depressed her";
  
@@ -1035,7 +1051,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 259,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1060,7 +1076,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E44kFkyl_Y8?t=',
+    videoId: 'E44kFkyl_Y8',
     startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1085,7 +1101,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KM0ZV1X9o7o?t=',
+    videoId: 'KM0ZV1X9o7o',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1110,7 +1126,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0CYYfSGTcyY?t=',
+    videoId: '0CYYfSGTcyY',
     startSeconds: 1042,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1135,7 +1151,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LzDhpEInMIg?t=',
+    videoId: 'LzDhpEInMIg',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1160,7 +1176,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iyD6UKPbLE0?t=',
+    videoId: 'iyD6UKPbLE0',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1185,7 +1201,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fLLB4QCudYk?t=',
+    videoId: 'fLLB4QCudYk',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(

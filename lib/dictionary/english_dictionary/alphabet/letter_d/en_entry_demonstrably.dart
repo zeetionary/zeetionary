@@ -14,7 +14,8 @@ class EnglishEntrydemonstrably extends StatefulWidget {
   const EnglishEntrydemonstrably({super.key});
 
   @override
-  State<EnglishEntrydemonstrably> createState() => _EnglishEntrydemonstrablyState();
+  State<EnglishEntrydemonstrably> createState() =>
+      _EnglishEntrydemonstrablyState();
 }
 
 class _EnglishEntrydemonstrablyState extends State<EnglishEntrydemonstrably> {
@@ -221,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "That's demonstrably untrue!"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That's demonstrably untrue!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemonstrablys2(String languageCode) async {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemonstrablys3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemonstrablys1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemonstrablys14(String languageCode) async {
+  Future<void> speakdemonstrablys14(String languageCode) async {
     // DOPSUM: CHANGE speakdemonstrably
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdemonstrablys21(String languageCode) async {
@@ -404,16 +407,17 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: لەسەلماندن‌هاتووانە، بە شێوەیێ کە بسەلمێنرێ
 // """),
-          const DefinitionKurdish(text: "١. (ھاوەڵکار) بەشێوەیەک کە دەکرێت ببینرێت یان بسەلمێندرێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵکار) بەشێوەیەک کە دەکرێت ببینرێت یان بسەلمێندرێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "That's demonstrably untrue!"),
-                    ExampleSentenceKurdish(text: "ئەوە لەسەلماندن‌هاتووانە ناڕستە!"),
+                    ExampleSentenceEnglish(text: "That's demonstrably untrue!"),
+                    ExampleSentenceKurdish(
+                        text: "ئەوە لەسەلماندن‌هاتووانە ناڕستە!"),
                   ],
                 ),
               ),
@@ -438,8 +442,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."),
-                    ExampleSentenceKurdish(text: "هەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌هاتووانە گەرمتر دەبن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The Arctic regions of North America, Europe, and much of Russia are all becoming demonstrably warmer."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هەرێمە ئارکتیکەکانی ئەمریکای باکوور و ئەورووپا و زۆرێک لە ڕووسیا لەسەلماندن‌هاتووانە گەرمتر دەبن."),
                   ],
                 ),
               ),
@@ -1023,7 +1031,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z3P0kTcM8iw?t=',
+    videoId: 'z3P0kTcM8iw',
     startSeconds: 573,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1048,7 +1056,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9P1IVQJdVvE?t=',
+    videoId: '9P1IVQJdVvE',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1073,7 +1081,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/We2MsKE5e3c?t=',
+    videoId: 'We2MsKE5e3c',
     startSeconds: 279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1106,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5udtSQ-LtM0?t=',
+    videoId: '5udtSQ-LtM0',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1131,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QqPvGXHMmxI?t=',
+    videoId: 'QqPvGXHMmxI',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1148,7 +1156,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2OQu9q70YkE?t=',
+    videoId: '2OQu9q70YkE',
     startSeconds: 938,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1173,7 +1181,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tiGMX6-7VFE?t=',
+    videoId: 'tiGMX6-7VFE',
     startSeconds: 261,
     autoPlay: true,
     params: const YoutubePlayerParams(

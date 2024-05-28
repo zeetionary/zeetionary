@@ -443,7 +443,7 @@ ${englishMeaningConst.text}
 2. Marked by excessive self-indulgence and moral decay (= fin-de-siecle, fin-de-siècle)
 "a decadent life of excessive money and no sense of responsibility";
 
-- Noun: decadent (Derived forms: decadents)
+- Noun: decadent (derived forms: decadents)
 1. A person who has fallen into a decadent state (morally or artistically)
 """,
   );
@@ -477,7 +477,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Xf858oNEak?t=',
+    videoId: '6Xf858oNEak',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -502,7 +502,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_dH5MsC_rtM?t=',
+    videoId: '_dH5MsC_rtM',
     startSeconds: 332,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Uhh_An7FGek?t=',
+    videoId: 'Uhh_An7FGek',
     startSeconds: 1274,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XEOzx3_C0oo?t=',
+    videoId: 'XEOzx3_C0oo',
     startSeconds: 436,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AJAkMojjOWg?t=',
+    videoId: 'AJAkMojjOWg',
     startSeconds: 776,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6eslIRo9als?t=',
+    videoId: '6eslIRo9als',
     startSeconds: 387,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +627,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qjubq284yVk?t=',
+    videoId: 'qjubq284yVk',
     startSeconds: 1207,
     autoPlay: true,
     params: const YoutubePlayerParams(

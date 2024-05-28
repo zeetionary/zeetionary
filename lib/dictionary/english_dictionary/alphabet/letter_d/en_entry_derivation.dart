@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The derivation of laws requires careful observation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The derivation of laws requires careful observation."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivations3(String languageCode) async {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakderivations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakderivations14(String languageCode) async {
+  Future<void> speakderivations14(String languageCode) async {
     // DOPSUM: CHANGE speakderivation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +375,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The derivation of laws requires careful observation.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The derivation of laws requires careful observation.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakderivations21(String languageCode) async {
@@ -404,7 +406,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: داڕشتن، (لێ)وەرگرتن، لێ‌بوونەوە،	بنەڕەت، ماک، ڕیشە، ڕەگ، ڕەچەڵەک، بنەچەک، سەرچاوە، ژێدەر، بناوان،	یەکەمین شێوە و واتای وشە،	وشەی داڕێژراو،	ئەنجام‌گیری، بۆ دەرکەوتن،	دەرکێشان، دەرهێنان، هەڵێنجان
 """),
-          const DefinitionKurdish(text: "١. (ناو) بنەچەی شتێک، بەتایبەتی وشەیەک"),
+          const DefinitionKurdish(
+              text: "١. (ناو) بنەچەی شتێک، بەتایبەتی وشەیەک"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Does anyone know the derivation of the word “OK”?"),
-                    ExampleSentenceKurdish(text: "هیچ کەس بنەچەی وشەی 'OK' دەزانێت؟"),
+                    ExampleSentenceKurdish(
+                        text: "هیچ کەس بنەچەی وشەی 'OK' دەزانێت؟"),
                   ],
                 ),
               ),
@@ -431,15 +435,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) بەدەستخستنی شتێک لە سەرچاوەیەکەوە"),
+          const DefinitionKurdish(
+              text: "٢. (ناو) بەدەستخستنی شتێک لە سەرچاوەیەکەوە"),
           const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The derivation of laws requires careful observation."),
-                    ExampleSentenceKurdish(text: "بەدەستخستنی یاسا پێویستی بە توێژینەوەی وردە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The derivation of laws requires careful observation."),
+                    ExampleSentenceKurdish(
+                        text: "بەدەستخستنی یاسا پێویستی بە توێژینەوەی وردە."),
                   ],
                 ),
               ),
@@ -988,7 +996,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: derivation (Derived forms: derivations)
+- Noun: derivation (derived forms: derivations)
 1. The source or origin from which something derives (i.e. comes or issues)
 "he prefers shoes of Italian derivation"; "music of Turkish derivation"
  
@@ -1038,7 +1046,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/A5w-dEgIU1M?t=',
+    videoId: 'A5w-dEgIU1M',
     startSeconds: 1213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1063,7 +1071,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wdP_UDSsuro?t=',
+    videoId: 'wdP_UDSsuro',
     startSeconds: 1178,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1088,7 +1096,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8aBdJQhwKz0?t=',
+    videoId: '8aBdJQhwKz0',
     startSeconds: 475,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1113,7 +1121,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x1-SibwIPM4?t=',
+    videoId: 'x1-SibwIPM4',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1138,7 +1146,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8TJQhQ2GZ0Y?t=',
+    videoId: '8TJQhQ2GZ0Y',
     startSeconds: 3781,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1171,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QeUMFo8sODk?t=',
+    videoId: 'QeUMFo8sODk',
     startSeconds: 373,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1196,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cy8r7WSuT1I?t=',
+    videoId: 'cy8r7WSuT1I',
     startSeconds: 786,
     autoPlay: true,
     params: const YoutubePlayerParams(

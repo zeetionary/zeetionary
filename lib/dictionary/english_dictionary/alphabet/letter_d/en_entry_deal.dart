@@ -669,7 +669,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: deal (Derived forms: dealt, dealing, deals)
+- Verb: deal (derived forms: dealt, dealing, deals)
 1. Act on verbally or in some form of artistic expression (= cover, treat, handle, plow [N. Amer], address, plough [Brit, Cdn])
 "This book deals with incest";
  
@@ -703,7 +703,7 @@ ${englishMeaningConst.text}
 12. Sell (especially of illegal material)
 "deal hashish"
 
-- Noun: deal (Derived forms: deals)
+- Noun: deal (derived forms: deals)
 1. A particular instance of buying or selling (= trade, business deal, transaction)
 "it was a package deal"; "he's a master of the business deal";
  
@@ -760,7 +760,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VrKW58MS12g?t=',
+    videoId: 'VrKW58MS12g',
     startSeconds: 467,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -785,7 +785,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XZVHmRvfDHM?t=',
+    videoId: 'XZVHmRvfDHM',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -810,7 +810,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ozsgl_sLnHQ?t=',
+    videoId: 'ozsgl_sLnHQ',
     startSeconds: 3401,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -835,7 +835,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gmr41ht2Sq4?t=',
+    videoId: 'gmr41ht2Sq4',
     startSeconds: 143,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -860,7 +860,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gmr41ht2Sq4?t=',
+    videoId: 'gmr41ht2Sq4',
     startSeconds: 138,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -885,7 +885,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DTvS9lvRxZ8?t=',
+    videoId: 'DTvS9lvRxZ8',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -910,7 +910,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 693,
     autoPlay: true,
     params: const YoutubePlayerParams(

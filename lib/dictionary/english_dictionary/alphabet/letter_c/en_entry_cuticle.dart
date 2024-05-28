@@ -409,7 +409,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cuticle (Derived forms: cuticles)
+- Noun: cuticle (derived forms: cuticles)
 1. The dead skin at the base of a fingernail or toenail
  
 2. The outer layer of the skin covering the exterior body surface of vertebrates (= epidermis)
@@ -447,7 +447,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y3eR8QLPjlc?t=',
+    videoId: 'y3eR8QLPjlc',
     startSeconds: 381,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KTe9yvjIrRQ?t=',
+    videoId: 'KTe9yvjIrRQ',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gbk4OElVdCU?t=',
+    videoId: 'Gbk4OElVdCU',
     startSeconds: 396,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yis52iAkYlQ?t=',
+    videoId: 'yis52iAkYlQ',
     startSeconds: 580,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/quouML5-UZI?t=',
+    videoId: 'quouML5-UZI',
     startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ubHbLqYrwrw?t=',
+    videoId: 'ubHbLqYrwrw',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tDkcUIpCzzU?t=',
+    videoId: 'tDkcUIpCzzU',
     startSeconds: 503,
     autoPlay: true,
     params: const YoutubePlayerParams(

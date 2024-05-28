@@ -712,7 +712,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: curl (Derived forms: curled, curling, curls)
+- Verb: curl (derived forms: curled, curling, curls)
 1. Form a curl, curve, or kink (= curve, kink)
 "the cigar smoke curled up at the ceiling";
  
@@ -726,7 +726,7 @@ ${englishMeaningConst.text}
  
 5. (sport) play the Scottish game of curling
 
-- Noun: curl (Derived forms: curls)
+- Noun: curl (derived forms: curls)
 1. A round shape formed by a series of concentric circles (as formed by leaves or flower petals) (= coil, whorl, roll, curlicue, ringlet, gyre, scroll)
  
 2. Lock of hair in the shape of a spiral or curl (= whorl, ringlet)
@@ -765,7 +765,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    videoId: 'lVoGZiL-kns',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -790,7 +790,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tsk9c7KF76E?t=',
+    videoId: 'tsk9c7KF76E',
     startSeconds: 882,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -815,7 +815,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HB0CZ_5sPPw?t=',
+    videoId: 'HB0CZ_5sPPw',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -840,7 +840,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/P8m-KThvtxA?t=',
+    videoId: 'P8m-KThvtxA',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -865,7 +865,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CXvG2CBJ3SE?t=',
+    videoId: 'CXvG2CBJ3SE',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -890,7 +890,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pTysrwci0pU?t=',
+    videoId: 'pTysrwci0pU',
     startSeconds: 490,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -915,7 +915,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WUjVPIEtJd0?t=',
+    videoId: 'WUjVPIEtJd0',
     startSeconds: 1302,
     autoPlay: true,
     params: const YoutubePlayerParams(

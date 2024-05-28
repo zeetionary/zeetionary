@@ -14,7 +14,8 @@ class EnglishEntrydecimalpoint extends StatefulWidget {
   const EnglishEntrydecimalpoint({super.key});
 
   @override
-  State<EnglishEntrydecimalpoint> createState() => _EnglishEntrydecimalpointState();
+  State<EnglishEntrydecimalpoint> createState() =>
+      _EnglishEntrydecimalpointState();
 }
 
 class _EnglishEntrydecimalpointState extends State<EnglishEntrydecimalpoint> {
@@ -332,7 +333,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: خاڵی دەیی
 // """),
-          const DefinitionKurdish(text: "١. (ناو) فاریزەیەک/خاڵێک کە لە لە دوای ژمارەیەک دادەنرێت بۆ جیاکردنەوەی ژمارەی سەرەکی لە ژمارەکانی دوای فاریزەکە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) فاریزەیەک/خاڵێک کە لە لە دوای ژمارەیەک دادەنرێت بۆ جیاکردنەوەی ژمارەی سەرەکی لە ژمارەکانی دوای فاریزەکە"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "To divide by ten, move the decimal point one place to the left."),
-                    ExampleSentenceKurdish(text: "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە."),
                   ],
                 ),
               ),
@@ -432,7 +437,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: decimal point (Derived forms: decimal points)
+- Noun: decimal point (derived forms: decimal points)
 1. The dot at the left of a decimal fraction (= percentage point, point)
 """,
   );
@@ -466,7 +471,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tRaq4aYPzCc?t=',
+    videoId: 'tRaq4aYPzCc',
     startSeconds: 74,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +496,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W4DnmTEHQug?t=',
+    videoId: 'W4DnmTEHQug',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +521,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nRnuY1Vao0o?t=',
+    videoId: 'nRnuY1Vao0o',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +546,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AvXXkB2jic0?t=',
+    videoId: 'AvXXkB2jic0',
     startSeconds: 592,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +571,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0RA_B5p2JYg?t=',
+    videoId: '0RA_B5p2JYg',
     startSeconds: 301,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +596,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nUHEPmg0sPo?t=',
+    videoId: 'nUHEPmg0sPo',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +621,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x1kv3oKoZkQ?t=',
+    videoId: 'x1kv3oKoZkQ',
     startSeconds: 498,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -643,7 +643,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cream (Derived forms: creams)
+- Noun: cream (derived forms: creams)
 1. The part of milk containing the butterfat
  
 2. Toiletry consisting of any of various substances in the form of a thick liquid that have a soothing and moisturizing effect when applied to the skin (= ointment, emollient)
@@ -653,7 +653,7 @@ ${englishMeaningConst.text}
  
 4. An off-white, very pale yellow colour
 
-- Verb: cream (Derived forms: creaming, creamed, creams)
+- Verb: cream (derived forms: creaming, creamed, creams)
 1. (cooking) make creamy by beating
 "Cream the butter"
  
@@ -702,7 +702,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vxDGHG07aD8',
+    videoId: 'vxDGHG07aD8',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -727,7 +727,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ky3KiiUK_D0',
+    videoId: 'ky3KiiUK_D0',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -752,7 +752,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_Ywix3NTrLE',
+    videoId: '_Ywix3NTrLE',
     startSeconds: 621,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -777,7 +777,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3lCl76SMZ8k',
+    videoId: '3lCl76SMZ8k',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -802,7 +802,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LWRXYp4u9bM',
+    videoId: 'LWRXYp4u9bM',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -827,7 +827,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3C6l4dJn3ck',
+    videoId: '3C6l4dJn3ck',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -852,7 +852,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qRnhsFbSLkg',
+    videoId: 'qRnhsFbSLkg',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(

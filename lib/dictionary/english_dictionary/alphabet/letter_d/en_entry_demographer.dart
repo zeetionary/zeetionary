@@ -14,7 +14,8 @@ class EnglishEntrydemographer extends StatefulWidget {
   const EnglishEntrydemographer({super.key});
 
   @override
-  State<EnglishEntrydemographer> createState() => _EnglishEntrydemographerState();
+  State<EnglishEntrydemographer> createState() =>
+      _EnglishEntrydemographerState();
 }
 
 class _EnglishEntrydemographerState extends State<EnglishEntrydemographer> {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemographers1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemographers14(String languageCode) async {
+  Future<void> speakdemographers14(String languageCode) async {
     // DOPSUM: CHANGE speakdemographer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -404,7 +405,9 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: دێمۆگرافێر، دیمۆگرافێر، حەشیمەت‌ناس
 // """),
-          const DefinitionKurdish(text: "١. (ناو) کەسێک کە لێکۆڵینەوە دەکات لە گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کەسێک کە لێکۆڵینەوە دەکات لە گۆڕانی ژمارەی لەدایکبوون، مردن، نەخۆشی، هتد"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +416,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Demographers predict that 20–30% of this cohort of women will remain childless."),
-                    ExampleSentenceKurdish(text: "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە."),
                   ],
                 ),
               ),
@@ -988,7 +993,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: demographer (Derived forms: demographers)
+- Noun: demographer (derived forms: demographers)
 1. A scientist who studies the growth and density of populations and their vital statistics (= demographist, population scientist)
 """,
   );
@@ -1022,7 +1027,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HJ56MYa9W8M?t=',
+    videoId: 'HJ56MYa9W8M',
     startSeconds: 512,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1052,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PkJlTKUaF3Q?t=',
+    videoId: 'PkJlTKUaF3Q',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1077,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/teBgznnPpXM?t=',
+    videoId: 'teBgznnPpXM',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1102,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5IVT-Rn5qTc?t=',
+    videoId: '5IVT-Rn5qTc',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1127,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pQorwSbpD5k?t=',
+    videoId: 'pQorwSbpD5k',
     startSeconds: 104,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1152,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1yKvwOydZFw?t=',
+    videoId: '1yKvwOydZFw',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1177,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ACVNt7PqVaE?t=',
+    videoId: 'ACVNt7PqVaE',
     startSeconds: 90,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -625,7 +625,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crap (Derived forms: craps)
+- Noun: crap (derived forms: craps)
 Usage: vulgar
 1. Obscene term for faeces
  
@@ -634,12 +634,12 @@ Usage: vulgar
  
 3. Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], junk [informal], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
 
-- Verb: crap (Derived forms: crapping, craps, crapped)
+- Verb: crap (derived forms: crapping, craps, crapped)
 Usage: vulgar
 1. Have a bowel movement (= stool, defecate, ca-ca [N. Amer, informal], make [informal], defaecate [Brit, rare], poop [N. Amer, informal])
 "The dog had crapped in the flower beds";
 
-- Adjective: crap (Derived forms: crappest, crapper)
+- Adjective: crap (derived forms: crappest, crapper)
 Usage: vulgar
 1. [Brit, vulgar] Of very poor quality; flimsy (= bum [informal], cheap, cheesy [informal], chintzy [N. Amer, informal], crummy [informal], punk [N. Amer, informal], sleazy [archaic], tinny [archaic], tacky [informal], crumby [informal])
 
@@ -677,7 +677,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DesEUpFgGrQ',
+    videoId: 'DesEUpFgGrQ',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -702,7 +702,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1aHVa2jT3n4',
+    videoId: '1aHVa2jT3n4',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -727,7 +727,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dfuPBC-v5NE',
+    videoId: 'dfuPBC-v5NE',
     startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -752,7 +752,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -777,7 +777,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 733,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -802,7 +802,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 717,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -827,7 +827,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 717,
     autoPlay: true,
     params: const YoutubePlayerParams(

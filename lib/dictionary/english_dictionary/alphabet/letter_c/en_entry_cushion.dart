@@ -588,7 +588,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cushion (Derived forms: cushions)
+- Noun: cushion (derived forms: cushions)
 1. A soft bag filled with air or a mass of padding such as feathers or foam rubber etc.
  
 2. A mechanical damper; absorbs energy of sudden impulses (= shock absorber, shock, damper)
@@ -596,7 +596,7 @@ ${englishMeaningConst.text}
  
 3. The layer of air that supports a hovercraft or similar vehicle
 
-- Verb: cushion (Derived forms: cushioned, cushioning, cushions)
+- Verb: cushion (derived forms: cushioned, cushioning, cushions)
 1. Protect from impact (= buffer, soften)
 "cushion the blow";
 """,
@@ -631,7 +631,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VyEf4EBXe8o?t=',
+    videoId: 'VyEf4EBXe8o',
     startSeconds: 726,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nsnyl8llfH4?t=',
+    videoId: 'nsnyl8llfH4',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kTaYet07Ioo?t=',
+    videoId: 'kTaYet07Ioo',
     startSeconds: 801,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hUBsxCcJeUc?t=',
+    videoId: 'hUBsxCcJeUc',
     startSeconds: 379,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wao0_uB4Zw4?t=',
+    videoId: 'Wao0_uB4Zw4',
     startSeconds: 867,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -756,7 +756,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cY4e0uvp7uI?t=',
+    videoId: 'cY4e0uvp7uI',
     startSeconds: 1029,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -781,7 +781,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H3_mVryqXpU?t=',
+    videoId: 'H3_mVryqXpU',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(

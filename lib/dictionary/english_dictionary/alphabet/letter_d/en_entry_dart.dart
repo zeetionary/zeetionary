@@ -558,7 +558,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dart (Derived forms: darted, darting, darts)
+- Verb: dart (derived forms: darted, darting, darts)
 1. Move along rapidly and lightly; skim or dart (= flit, flutter, fleet)
 "The hummingbird darted among the branches";
  
@@ -568,7 +568,7 @@ ${englishMeaningConst.text}
 3. Move with sudden speed
 "His forefinger darted in all directions as he spoke"
 
-- Noun: dart (Derived forms: darts)
+- Noun: dart (derived forms: darts)
 1. A small narrow pointed missile that is thrown or shot
  
 2. A tapered tuck made in dressmaking
@@ -606,7 +606,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_RSojioTtUU?t=',
+    videoId: '_RSojioTtUU',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QyL9P1ccy-w?t=',
+    videoId: 'QyL9P1ccy-w',
     startSeconds: 525,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B35E8QleVhg?t=',
+    videoId: 'B35E8QleVhg',
     startSeconds: 168,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vOO_lXAEra0?t=',
+    videoId: 'vOO_lXAEra0',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YAk52yAJkJ8?t=',
+    videoId: 'YAk52yAJkJ8',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -731,7 +731,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SkGIr2qUz-4?t=',
+    videoId: 'SkGIr2qUz-4',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -756,7 +756,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/apDoJkfR85A?t=',
+    videoId: 'apDoJkfR85A',
     startSeconds: 727,
     autoPlay: true,
     params: const YoutubePlayerParams(

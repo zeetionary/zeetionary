@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Plastic tends to discolour with age."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Plastic tends to discolour with age."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscolours2(String languageCode) async {
@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The pipes were beginning to rust, discolouring the water."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The pipes were beginning to rust, discolouring the water."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdiscolours3(String languageCode) async {
@@ -402,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) تێکدانی ڕەنگی شتێک"),
           Row(
@@ -411,9 +412,10 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
+                        text: "Plastic tends to discolour with age."),
+                    ExampleSentenceKurdish(
                         text:
-                            "Plastic tends to discolour with age."),
-                    ExampleSentenceKurdish(text: "پلاستیک مەیلی هەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت."),
+                            "پلاستیک مەیلی هەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت."),
                   ],
                 ),
               ),
@@ -438,8 +440,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The pipes were beginning to rust, discolouring the water."),
-                    ExampleSentenceKurdish(text: "بۆرییەکان دەستیان بە ژەنگگرتن دەکرد و ڕەنگی ئاوەکەیان پیس دەکرد."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The pipes were beginning to rust, discolouring the water."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بۆرییەکان دەستیان بە ژەنگگرتن دەکرد و ڕەنگی ئاوەکەیان پیس دەکرد."),
                   ],
                 ),
               ),
@@ -1024,7 +1030,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: discolour (Derived forms: discoloured, discolouring, discolours)
+- Verb: discolour (derived forms: discoloured, discolouring, discolours)
 Usage: Brit, Cdn (US: discolor)
 1. Lose colour or turn colourless (= discolor [US])
 "The painting discoloured";
@@ -1066,7 +1072,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OztV-JHNVbY?t=',
+    videoId: 'OztV-JHNVbY',
     startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1091,7 +1097,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/roCX0AfBseQ?t=',
+    videoId: 'roCX0AfBseQ',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1116,7 +1122,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kTaYet07Ioo?t=',
+    videoId: 'kTaYet07Ioo',
     startSeconds: 1148,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1141,7 +1147,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ndqjxhi7uZs?t=',
+    videoId: 'ndqjxhi7uZs',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1166,7 +1172,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NWGVFi-213w?t=',
+    videoId: 'NWGVFi-213w',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1191,7 +1197,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kOd19ljsklQ?t=',
+    videoId: 'kOd19ljsklQ',
     startSeconds: 901,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1216,7 +1222,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6O9SwocyKQ?t=',
+    videoId: 'x6O9SwocyKQ',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(

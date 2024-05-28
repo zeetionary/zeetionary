@@ -1042,7 +1042,7 @@ ${englishMeaningConst.text}
 1. Showing the way by conducting or leading; imposing direction on (= directing, directional, guiding)
 "felt his mother's directive arm around him";
 
-- Noun: directive (Derived forms: directives)
+- Noun: directive (derived forms: directives)
 1. A pronouncement encouraging or banning some activity
 "the boss loves to send us directives"
 """,
@@ -1077,7 +1077,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PhQksV8fbKw?t=',
+    videoId: 'PhQksV8fbKw',
     startSeconds: 794,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1102,7 +1102,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H7Quhnm-Z8A?t=',
+    videoId: 'H7Quhnm-Z8A',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1127,7 +1127,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RgpJPVoDZf8?t=',
+    videoId: 'RgpJPVoDZf8',
     startSeconds: 949,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1152,7 +1152,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pLcqJ2DclEg?t=',
+    videoId: 'pLcqJ2DclEg',
     startSeconds: 780,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1177,7 +1177,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KK3Yr80lPOY?t=',
+    videoId: 'KK3Yr80lPOY',
     startSeconds: 927,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1202,7 +1202,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E2rtQFAibEA?t=',
+    videoId: 'E2rtQFAibEA',
     startSeconds: 895,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1227,7 +1227,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vs5YAa6Mxow?t=',
+    videoId: 'Vs5YAa6Mxow',
     startSeconds: 615,
     autoPlay: true,
     params: const YoutubePlayerParams(

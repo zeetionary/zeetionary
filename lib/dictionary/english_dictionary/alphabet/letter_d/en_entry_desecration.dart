@@ -14,7 +14,8 @@ class EnglishEntrydesecration extends StatefulWidget {
   const EnglishEntrydesecration({super.key});
 
   @override
-  State<EnglishEntrydesecration> createState() => _EnglishEntrydesecrationState();
+  State<EnglishEntrydesecration> createState() =>
+      _EnglishEntrydesecrationState();
 }
 
 class _EnglishEntrydesecrationState extends State<EnglishEntrydesecration> {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("People were horrified at the desecration of the cemetery."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "People were horrified at the desecration of the cemetery."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesecrations3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdesecrations1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdesecrations14(String languageCode) async {
+  Future<void> speakdesecrations14(String languageCode) async {
     // DOPSUM: CHANGE speakdesecration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("People were horrified at the desecration of the cemetery.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "People were horrified at the desecration of the cemetery.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdesecrations21(String languageCode) async {
@@ -404,7 +407,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سووکایەتی‌پێ‌کردن، قسەپێ‌وتن، بێ‌ڕێزی‌پێ‌کردن، بێ‌حورمەتی‌پێ‌کردن، پیس‌کردن، لێوەدان، تێوەدان، گڵاوکردن
 """),
-          const DefinitionKurdish(text: "١. (ناو) زیان گەیاندن یان بێڕێزی کردن"),
+          const DefinitionKurdish(
+              text: "١. (ناو) زیان گەیاندن یان بێڕێزی کردن"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "Desecration of sacred sites and objects was widespread."),
-                    ExampleSentenceKurdish(text: "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو."),
+                    ExampleSentenceKurdish(
+                        text: "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو."),
                   ],
                 ),
               ),
@@ -438,8 +443,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "People were horrified at the desecration of the cemetery."),
-                    ExampleSentenceKurdish(text: "خەڵکی تاسان بە تێکدانی گۆڕستانەکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "People were horrified at the desecration of the cemetery."),
+                    ExampleSentenceKurdish(
+                        text: "خەڵکی تاسان بە تێکدانی گۆڕستانەکە."),
                   ],
                 ),
               ),
@@ -988,7 +996,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: desecration (Derived forms: desecrations)
+- Noun: desecration (derived forms: desecrations)
 1. Blasphemous behaviour; the act of depriving something of its sacred character (= profanation, blasphemy, sacrilege)
 "desecration of the Holy Sabbath";
 """,
@@ -1023,7 +1031,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HBFMysfLlJU?t=',
+    videoId: 'HBFMysfLlJU',
     startSeconds: 2141,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1048,7 +1056,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BztMgcNgobk?t=',
+    videoId: 'BztMgcNgobk',
     startSeconds: 1819,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1073,7 +1081,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7csEy0k0pDc?t=',
+    videoId: '7csEy0k0pDc',
     startSeconds: 1712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1098,7 +1106,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dAY7k0DPIuU?t=',
+    videoId: 'dAY7k0DPIuU',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1123,7 +1131,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1VeQZ3XBMHk?t=',
+    videoId: '1VeQZ3XBMHk',
     startSeconds: 186,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1148,7 +1156,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GE77fY8Jz4Y?t=',
+    videoId: 'GE77fY8Jz4Y',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1173,7 +1181,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kvLSDHWYTmQ?t=',
+    videoId: 'kvLSDHWYTmQ',
     startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -1085,7 +1085,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discipline (Derived forms: disciplines)
+- Noun: discipline (derived forms: disciplines)
 1. A branch of knowledge (= subject, subject area, subject field, field, field of study, study, bailiwick)
 "in what discipline is his doctorate?";
  
@@ -1100,7 +1100,7 @@ ${englishMeaningConst.text}
 5. The act of disciplining (= correction)
 "the offenders deserved the harsh discipline they received";
 
-- Verb: discipline (Derived forms: disciplining, disciplined, disciplines)
+- Verb: discipline (derived forms: disciplining, disciplined, disciplines)
 1. Develop (a child's or animal's) behaviour by instruction and practice; especially to teach self-control (= train, check, condition)
 "Parents must discipline their children";
  
@@ -1138,7 +1138,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/q8HRGiUeZwc?t=',
+    videoId: 'q8HRGiUeZwc',
     startSeconds: 249,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1163,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_0RTH57v66I?t=',
+    videoId: '_0RTH57v66I',
     startSeconds: 930,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1188,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b_rjBWmc1iQ?t=',
+    videoId: 'b_rjBWmc1iQ',
     startSeconds: 3099,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1213,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SwQhKFMxmDY?t=',
+    videoId: 'SwQhKFMxmDY',
     startSeconds: 836,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1238,7 +1238,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xpv-sEKl1B4?t=',
+    videoId: 'Xpv-sEKl1B4',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1263,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-C3CjOkF-jY?t=',
+    videoId: '-C3CjOkF-jY',
     startSeconds: 803,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1288,7 +1288,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G_FUmf0T8YI?t=',
+    videoId: 'G_FUmf0T8YI',
     startSeconds: 712,
     autoPlay: true,
     params: const YoutubePlayerParams(

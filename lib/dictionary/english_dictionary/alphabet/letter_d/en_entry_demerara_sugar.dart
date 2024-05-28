@@ -14,7 +14,8 @@ class EnglishEntrydemerarasugar extends StatefulWidget {
   const EnglishEntrydemerarasugar({super.key});
 
   @override
-  State<EnglishEntrydemerarasugar> createState() => _EnglishEntrydemerarasugarState();
+  State<EnglishEntrydemerarasugar> createState() =>
+      _EnglishEntrydemerarasugarState();
 }
 
 class _EnglishEntrydemerarasugarState extends State<EnglishEntrydemerarasugar> {
@@ -321,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdemerarasugars1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdemerarasugars14(String languageCode) async {
+  Future<void> speakdemerarasugars14(String languageCode) async {
     // DOPSUM: CHANGE speakdemerarasugar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -402,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (ناو) جۆرە شەکرێکی زبری قاوەیی"),
           Row(
@@ -411,9 +412,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "I sprinkled Demerara sugar on my yogurt."),
-                    ExampleSentenceKurdish(text: "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا."),
+                        text: "I sprinkled Demerara sugar on my yogurt."),
+                    ExampleSentenceKurdish(
+                        text: "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا."),
                   ],
                 ),
               ),
@@ -988,7 +989,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: demerara sugar (Derived forms: demerara sugars)
+- Noun: demerara sugar (derived forms: demerara sugars)
 1. Light brown cane sugar; originally from Guyana (= demerara)
 """,
   );
@@ -1022,7 +1023,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pdcrJ5V7YKM?t=',
+    videoId: 'pdcrJ5V7YKM',
     startSeconds: 109,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1047,7 +1048,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ygrgkc0rYd8?t=',
+    videoId: 'ygrgkc0rYd8',
     startSeconds: 478,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1072,7 +1073,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VqANgtxKLbM?t=',
+    videoId: 'VqANgtxKLbM',
     startSeconds: 226,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1097,7 +1098,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r_yBqWHtWMo?t=',
+    videoId: 'r_yBqWHtWMo',
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1122,7 +1123,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x_eQ1sieEyE?t=',
+    videoId: 'x_eQ1sieEyE',
     startSeconds: 262,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1147,7 +1148,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8hpD5strtzM?t=',
+    videoId: '8hpD5strtzM',
     startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1172,7 +1173,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0D3DPepWaqE?t=',
+    videoId: '0D3DPepWaqE',
     startSeconds: 108,
     autoPlay: true,
     params: const YoutubePlayerParams(

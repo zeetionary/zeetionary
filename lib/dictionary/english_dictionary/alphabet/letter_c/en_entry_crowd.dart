@@ -751,14 +751,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crowd (Derived forms: crowds)
+- Noun: crowd (derived forms: crowds)
 A large number of things or people considered together
 "a crowd of insects assembled around the flowers"
  
 2. An informal body of friends (= crew, gang, bunch)
 "he still hangs out with the same crowd";
 
-- Verb: crowd (Derived forms: crowds, crowding, crowded)
+- Verb: crowd (derived forms: crowds, crowding, crowded)
 1. Cause to herd, drive, or crowd together (= herd)
 "We crowded the children into a spare classroom";
  
@@ -802,7 +802,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C_B09FZwSbA?t=',
+    videoId: 'C_B09FZwSbA',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -827,7 +827,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l31zZHfSUjA?t=',
+    videoId: 'l31zZHfSUjA',
     startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -852,7 +852,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Jm6CnP8CsCw?t=',
+    videoId: 'Jm6CnP8CsCw',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -877,7 +877,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 1485,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -902,7 +902,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8HEfIJlcFbs?t=',
+    videoId: '8HEfIJlcFbs',
     startSeconds: 102,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -927,7 +927,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -952,7 +952,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    videoId: '9TugA_z5vQE',
     startSeconds: 1244,
     autoPlay: true,
     params: const YoutubePlayerParams(

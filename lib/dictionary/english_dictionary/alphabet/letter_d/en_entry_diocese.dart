@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The diocese covers the northern part of the state."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The diocese covers the northern part of the state."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdioceses3(String languageCode) async {
@@ -404,16 +405,17 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی: مەڵبەندی (ژێر دەسەڵاتی) سەرقەشە یان ئۆسقۆف، سەرقەشەنشین
 // """),
-          const DefinitionKurdish(text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی هەیە"),
+          const DefinitionKurdish(
+              text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی هەیە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "There are fifty churches in the diocese."),
-                    ExampleSentenceKurdish(text: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا هەیە."),
+                        text: "There are fifty churches in the diocese."),
+                    ExampleSentenceKurdish(
+                        text: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا هەیە."),
                   ],
                 ),
               ),
@@ -438,8 +440,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The diocese covers the northern part of the state."),
-                    ExampleSentenceKurdish(text: "قەڵەمڕەوی قەشەکە باکووری ویلایەتەکە دەگرێتەوە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The diocese covers the northern part of the state."),
+                    ExampleSentenceKurdish(
+                        text: "قەڵەمڕەوی قەشەکە باکووری ویلایەتەکە دەگرێتەوە."),
                   ],
                 ),
               ),
@@ -1024,7 +1029,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: diocese (Derived forms: dioceses)
+- Noun: diocese (derived forms: dioceses)
 1. The territorial jurisdiction of a bishop (= bishopric, episcopate)
 "the recent visitation of the bishop to his diocese";
 """,
@@ -1059,7 +1064,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1C3iFrC-dRw?t=',
+    videoId: '1C3iFrC-dRw',
     startSeconds: 1126,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1089,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DOgjmkKUIDs?t=',
+    videoId: 'DOgjmkKUIDs',
     startSeconds: 772,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1114,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uNm0d7-OLKY?t=',
+    videoId: 'uNm0d7-OLKY',
     startSeconds: 1170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1139,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QJfAorE860M?t=',
+    videoId: 'QJfAorE860M',
     startSeconds: 483,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1164,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T1uNZvZg72o?t=',
+    videoId: 'T1uNZvZg72o',
     startSeconds: 1045,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1189,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ceE4QCa8alc?t=',
+    videoId: 'ceE4QCa8alc',
     startSeconds: 514,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1214,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/z3uvnwBMTdY?t=',
+    videoId: 'z3uvnwBMTdY',
     startSeconds: 6353,
     autoPlay: true,
     params: const YoutubePlayerParams(

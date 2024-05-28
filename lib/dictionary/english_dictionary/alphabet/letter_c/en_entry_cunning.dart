@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cunning (Derived forms: cunningest, cunninger)
+- Adjective: cunning (derived forms: cunningest, cunninger)
 1. Attractive especially by means of smallness, prettiness or quaintness (= cute)
 "cunning kittens"; "a cunning baby";
  
@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 3. Showing inventiveness and skill (= clever, ingenious)
 "the cunning manoeuvres leading to his success";
 
-- Noun: cunning (Derived forms: cunnings)
+- Noun: cunning (derived forms: cunnings)
 1. Shrewdness as demonstrated by being skilled in deception (= craft, craftiness, foxiness, guile, slyness, wiliness)
  
 2. Crafty artfulness (especially in deception)
@@ -565,7 +565,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jrHz8Bti6FY?t=',
+    videoId: 'jrHz8Bti6FY',
     startSeconds: 149,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/axcPoS2sF0E?t=',
+    videoId: 'axcPoS2sF0E',
     startSeconds: 413,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ShztTxOS8YE?t=',
+    videoId: 'ShztTxOS8YE',
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oHSehKtDyoI?t=',
+    videoId: 'oHSehKtDyoI',
     startSeconds: 1121,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b5fNif_WGdc?t=',
+    videoId: 'b5fNif_WGdc',
     startSeconds: 593,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4l8M3dQlUwg?t=',
+    videoId: '4l8M3dQlUwg',
     startSeconds: 2295,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -715,7 +715,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gGCZ96ayj_4?t=',
+    videoId: 'gGCZ96ayj_4',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(

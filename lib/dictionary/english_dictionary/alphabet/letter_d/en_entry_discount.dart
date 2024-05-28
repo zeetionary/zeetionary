@@ -1067,7 +1067,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: discount (Derived forms: discounts)
+- Noun: discount (derived forms: discounts)
 1. A reduction in the selling price of something (= price reduction, deduction)
  
 2. Interest on an annual basis deducted in advance on a loan (= discount rate, bank discount)
@@ -1076,7 +1076,7 @@ ${englishMeaningConst.text}
  
 4. An amount or percentage deducted (= deduction)
 
-- Verb: discount (Derived forms: discounted, discounts, discounting)
+- Verb: discount (derived forms: discounted, discounts, discounting)
 1. Bar from attention or consideration (= dismiss, disregard, brush aside, brush off [informal], push aside, ignore)
  
 2. Give a reduction in price on
@@ -1113,7 +1113,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI',
+    videoId: 'zqllxbPWKNI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1138,7 +1138,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aFK7T7SjXRU?t=',
+    videoId: 'aFK7T7SjXRU',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1163,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    videoId: 'toVfvRhWbj8',
     startSeconds: 1370,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1188,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lLBmElR0Luw?t=',
+    videoId: 'lLBmElR0Luw',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1213,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EBRVeki7zKo?t=',
+    videoId: 'EBRVeki7zKo',
     startSeconds: 526,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1238,7 +1238,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WPU5kWz9gcg',
+    videoId: 'WPU5kWz9gcg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1263,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NpBPm0b9deQ?t=',
+    videoId: 'NpBPm0b9deQ',
     startSeconds: 907,
     autoPlay: true,
     params: const YoutubePlayerParams(

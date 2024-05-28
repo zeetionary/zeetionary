@@ -610,7 +610,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crook (Derived forms: crooks)
+- Noun: crook (derived forms: crooks)
 1. [informal] Someone who has committed a crime or has been legally convicted of a crime (= criminal, felon, outlaw, malefactor [formal], crim [Brit, informal])
  
 2. A long staff with one end being hook shaped (= shepherd's crook)
@@ -618,7 +618,7 @@ ${englishMeaningConst.text}
 3. A circular segment of a curve (= bend, twist, turn)
 "a crook in the path";
 
-- Verb: crook (Derived forms: crooking, crooks, crooked)
+- Verb: crook (derived forms: crooking, crooks, crooked)
 1. Bend or cause to bend (= curve)
 "He crooked his index finger";
 
@@ -658,7 +658,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 2105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -683,7 +683,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oHSehKtDyoI?t=',
+    videoId: 'oHSehKtDyoI',
     startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -708,7 +708,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L878W_WrTx8?t=',
+    videoId: 'L878W_WrTx8',
     startSeconds: 587,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -733,7 +733,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/czzktlf07qw?t=',
+    videoId: 'czzktlf07qw',
     startSeconds: 159,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -758,7 +758,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UYAnkdhe9KE?t=',
+    videoId: 'UYAnkdhe9KE',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -783,7 +783,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JPg-L5kJuOc?t=',
+    videoId: 'JPg-L5kJuOc',
     startSeconds: 131,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -808,7 +808,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lMpGRNv0Mm4?t=',
+    videoId: 'lMpGRNv0Mm4',
     startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(

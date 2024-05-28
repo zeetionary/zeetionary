@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The question asks you to decimalize the fraction 7/8."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The question asks you to decimalize the fraction 7/8."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdecimalizes3(String languageCode) async {
@@ -330,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(text: "١. (کردار) گۆڕین بۆ کەرتی دەیی"),
           Row(
@@ -341,7 +342,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The metric system decimalizes measurements for ease of use."),
-                    ExampleSentenceKurdish(text: "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارهێنان."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارهێنان."),
                   ],
                 ),
               ),
@@ -359,14 +362,20 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) دەربڕینی بڕێک بە کەرتی دەیی نەک ئەوەی کە نووسراوە"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (کردار) دەربڕینی بڕێک بە کەرتی دەیی نەک ئەوەی کە نووسراوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The question asks you to decimalize the fraction 7/8."),
-                    ExampleSentenceKurdish(text: "پرسیارەکە داوا دەکات ٧/٨ بە کەرتی دەیی دەرببڕیت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The question asks you to decimalize the fraction 7/8."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پرسیارەکە داوا دەکات ٧/٨ بە کەرتی دەیی دەرببڕیت."),
                   ],
                 ),
               ),
@@ -431,7 +440,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: decimalize (Derived forms: decimalizing, decimalizes, decimalized)
+- Verb: decimalize (derived forms: decimalizing, decimalizes, decimalized)
 1. Change from fractions to decimals (= decimalise [Brit])
 "Stock prices will be decimalized in the year 2000";
  
@@ -469,7 +478,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bEVreXVDxoE?t=',
+    videoId: 'bEVreXVDxoE',
     startSeconds: 704,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +503,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qVXa3_MISzY?t=',
+    videoId: 'qVXa3_MISzY',
     startSeconds: 1539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +528,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3wfeC_u_2Dg?t=',
+    videoId: '3wfeC_u_2Dg',
     startSeconds: 999,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +553,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ee4Rb7KdhDg?t=',
+    videoId: 'Ee4Rb7KdhDg',
     startSeconds: 1303,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +578,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O5nehns2h3o?t=',
+    videoId: 'O5nehns2h3o',
     startSeconds: 453,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +603,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YCJ99liapCQ?t=',
+    videoId: 'YCJ99liapCQ',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +628,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PCwwp4zunh8?t=',
+    videoId: 'PCwwp4zunh8',
     startSeconds: 280,
     autoPlay: true,
     params: const YoutubePlayerParams(

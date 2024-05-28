@@ -441,11 +441,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: curate (Derived forms: curates)
+- Noun: curate (derived forms: curates)
 1. A person authorized to conduct religious worship (= minister of religion, minister, parson, pastor, rector)
 "clergymen are usually called curates in Protestant churches";
 
-- Verb: curate (Derived forms: curated, curates, curating)
+- Verb: curate (derived forms: curated, curates, curating)
 1. Organize or administer a museum, collection or exhibition; act as a curator
 """,
   );
@@ -479,7 +479,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1j_k5WCFShQ?t=',
+    videoId: '1j_k5WCFShQ',
     startSeconds: 337,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nJ-ehbVQYxI?t=',
+    videoId: 'nJ-ehbVQYxI',
     startSeconds: 367,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HPv1GQ6ojcE?t=',
+    videoId: 'HPv1GQ6ojcE',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vUbIA9zjTSs?t=',
+    videoId: 'vUbIA9zjTSs',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -579,7 +579,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xZwXr3RwldY?t=',
+    videoId: 'xZwXr3RwldY',
     startSeconds: 420,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -604,7 +604,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8q8LsYbDCmM?t=',
+    videoId: '8q8LsYbDCmM',
     startSeconds: 364,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RRuovINxpPc?t=',
+    videoId: 'RRuovINxpPc',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crumble (Derived forms: crumbled, crumbles, crumbling)
+- Verb: crumble (derived forms: crumbled, crumbles, crumbling)
 1. Fall apart (= crumple, tumble, break down, collapse)
 "the building crumbled after the explosion";
  
@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
 3. Fall into decay or ruin (= decay, dilapidate)
 "The unoccupied house started to crumble";
 
-- Noun: crumble (Derived forms: crumbles)
+- Noun: crumble (derived forms: crumbles)
 Usage: Brit
 1. A baked fruit pudding topped with a crumbly mixture of flour and fat (and possibly other things, e.g. oats)
 """,
@@ -564,7 +564,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRSGxw2AQnk?t=',
+    videoId: 'hRSGxw2AQnk',
     startSeconds: 631,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +589,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQ4hvLqNfqo?t=',
+    videoId: 'FQ4hvLqNfqo',
     startSeconds: 905,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +614,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cCP9vjp4kSg?t=',
+    videoId: 'cCP9vjp4kSg',
     startSeconds: 1043,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -639,7 +639,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6ta_sftSfIw?t=',
+    videoId: '6ta_sftSfIw',
     startSeconds: 348,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -664,7 +664,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MoBvV12C58?t=',
+    videoId: '6MoBvV12C58',
     startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -689,7 +689,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l2FuvKTyRMQ?t=',
+    videoId: 'l2FuvKTyRMQ',
     startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -714,7 +714,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Rz8BPRFeiA?t=',
+    videoId: '4Rz8BPRFeiA',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(

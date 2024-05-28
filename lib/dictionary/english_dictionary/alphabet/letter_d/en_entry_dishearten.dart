@@ -221,8 +221,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't let this defeat dishearten you."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Don't let this defeat dishearten you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisheartens2(String languageCode) async {
@@ -404,16 +404,17 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دڵسارد کردن، ناهومێد کردن، بێ هیوا کردن
 """),
-          const DefinitionKurdish(text: "١. (کردار) واکردن لە کەسێک کە هیوا ورە لەدەست بدات"),
+          const DefinitionKurdish(
+              text: "١. (کردار) واکردن لە کەسێک کە هیوا ورە لەدەست بدات"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Don't let this defeat dishearten you."),
-                    ExampleSentenceKurdish(text: "مەهێڵە ئەم شکستە نائومێدت بکات."),
+                        text: "Don't let this defeat dishearten you."),
+                    ExampleSentenceKurdish(
+                        text: "مەهێڵە ئەم شکستە نائومێدت بکات."),
                   ],
                 ),
               ),
@@ -1024,7 +1025,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: dishearten (Derived forms: disheartened, disheartening, disheartens)
+- Verb: dishearten (derived forms: disheartened, disheartening, disheartens)
 1. Take away the enthusiasm of (= put off)
 "But what was there to dishearten the spirit?";
 """,
@@ -1059,7 +1060,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m51pwx02GAQ?t=',
+    videoId: 'm51pwx02GAQ',
     startSeconds: 996,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1084,7 +1085,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fP2WUnBjmkk?t=',
+    videoId: 'fP2WUnBjmkk',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1109,7 +1110,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ax5HMhJOJVg?t=',
+    videoId: 'Ax5HMhJOJVg',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1134,7 +1135,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cjHis42UQew?t=',
+    videoId: 'cjHis42UQew',
     startSeconds: 3308,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1159,7 +1160,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J9j-bVDrGdI?t=',
+    videoId: 'J9j-bVDrGdI',
     startSeconds: 2536,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1184,7 +1185,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6yjKcTauOpI?t=',
+    videoId: '6yjKcTauOpI',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1209,7 +1210,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xc0oEXFnSOU?t=',
+    videoId: 'xc0oEXFnSOU',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(

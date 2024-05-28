@@ -1038,7 +1038,7 @@ ${englishMeaningConst.text}
  
 2. Having an oblique or slanted direction (= aslant, aslope, slanted, slanting, sloped, sloping)
 
-- Noun: diagonal (Derived forms: diagonals)
+- Noun: diagonal (derived forms: diagonals)
 1. (geometry) a straight line connecting any two vertices of a polygon that are not adjacent
  
 2. A line or cut across a fabric that is not at right angles to a side of the fabric (= bias)
@@ -1081,7 +1081,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    videoId: 'Gv4Af83KFrE',
     startSeconds: 1748,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1106,7 +1106,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V3NGBo2M1Ps?t=',
+    videoId: 'V3NGBo2M1Ps',
     startSeconds: 350,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1131,7 +1131,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HVlQkiQ7uOg?t=',
+    videoId: 'HVlQkiQ7uOg',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1156,7 +1156,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MLVcmQ62luE?t=',
+    videoId: 'MLVcmQ62luE',
     startSeconds: 487,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1181,7 +1181,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fop2oskTug8?t=',
+    videoId: 'Fop2oskTug8',
     startSeconds: 254,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1206,7 +1206,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MoBvV12C58?t=',
+    videoId: '6MoBvV12C58',
     startSeconds: 677,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1231,7 +1231,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g5ymJNLURRI?t=',
+    videoId: 'g5ymJNLURRI',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(

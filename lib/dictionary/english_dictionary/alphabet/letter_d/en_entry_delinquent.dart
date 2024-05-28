@@ -1019,7 +1019,7 @@ ${englishMeaningConst.text}
 3. Past due; not paid at the scheduled time (= overdue)
 "a delinquent account";
 
-- Noun: delinquent (Derived forms: delinquents)
+- Noun: delinquent (derived forms: delinquents)
 1. A young offender (= juvenile delinquent)
 """,
   );
@@ -1053,7 +1053,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5BmmMibZE8s?t=',
+    videoId: '5BmmMibZE8s',
     startSeconds: 275,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7eM7pb5M5DU?t=',
+    videoId: '7eM7pb5M5DU',
     startSeconds: 1974,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CjiKlLE3NuI?t=',
+    videoId: 'CjiKlLE3NuI',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Wu4t0qaUiNs?t=',
+    videoId: 'Wu4t0qaUiNs',
     startSeconds: 1529,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZoZT8-HqI64?t=',
+    videoId: 'ZoZT8-HqI64',
     startSeconds: 285,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0H5QZvOqlJM?t=',
+    videoId: '0H5QZvOqlJM',
     startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HQlB4jSy-3Q?t=',
+    videoId: 'HQlB4jSy-3Q',
     startSeconds: 1295,
     autoPlay: true,
     params: const YoutubePlayerParams(

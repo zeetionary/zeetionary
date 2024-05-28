@@ -1048,7 +1048,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dial (Derived forms: dials)
+- Noun: dial (derived forms: dials)
 1. The face of a timepiece; graduated to show the hours
  
 2. The control on a radio or television set that is used for tuning
@@ -1057,7 +1057,7 @@ ${englishMeaningConst.text}
  
 4. A disc on a telephone that is rotated a fixed distance for each number called (= telephone dial)
 
-- Verb: dial (Derived forms: dials, dialling, dialed, dialing, dialled)
+- Verb: dial (derived forms: dials, dialling, dialed, dialing, dialled)
 1. Operate a dial to select a telephone number
 "You must take the receiver off the hook before you dial"
  
@@ -1095,7 +1095,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r16Rz2J5IZo?t=',
+    videoId: 'r16Rz2J5IZo',
     startSeconds: 548,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1120,7 +1120,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ky3KiiUK_D0?t=',
+    videoId: 'ky3KiiUK_D0',
     startSeconds: 229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1145,7 +1145,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V6TyZj4gkYQ?t=',
+    videoId: 'V6TyZj4gkYQ',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1170,7 +1170,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hRutt2rzBEQ?t=',
+    videoId: 'hRutt2rzBEQ',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1195,7 +1195,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SDb34WhFs3k?t=',
+    videoId: 'SDb34WhFs3k',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1220,7 +1220,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NV4SGkt81EY?t=',
+    videoId: 'NV4SGkt81EY',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1245,7 +1245,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ltOkMlHrGPc?t=',
+    videoId: 'ltOkMlHrGPc',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -231,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The festival is heavily dependent on sponsorship for its success."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The festival is heavily dependent on sponsorship for its success."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents3(String languageCode) async {
@@ -239,7 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("74% of people in the survey were at least partially dependent on their cars."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "74% of people in the survey were at least partially dependent on their cars."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents4(String languageCode) async {
@@ -247,7 +249,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Small companies are dependent upon the local economy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Small companies are dependent upon the local economy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents5(String languageCode) async {
@@ -255,7 +258,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's very easy to become dependent on sleeping pills."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's very easy to become dependent on sleeping pills."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents6(String languageCode) async {
@@ -263,7 +267,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A child's development is dependent on many factors."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A child's development is dependent on many factors."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents7(String languageCode) async {
@@ -271,7 +276,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The price is dependent on how many extras you choose."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The price is dependent on how many extras you choose."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents8(String languageCode) async {
@@ -279,7 +285,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The word ‘because’ forces the clause to be dependent on some other main clause."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The word ‘because’ forces the clause to be dependent on some other main clause."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents9(String languageCode) async {
@@ -322,7 +329,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdependents1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdependents14(String languageCode) async {
+  Future<void> speakdependents14(String languageCode) async {
     // DOPSUM: CHANGE speakdependent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -375,7 +382,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The festival is heavily dependent on sponsorship for its success.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The festival is heavily dependent on sponsorship for its success.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdependents21(String languageCode) async {
@@ -405,7 +413,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بەستە، بەستراو، پێوەبەند، دیبەند، بەندەوار، پەیوەست، پێوەبەستراو، بەند، ناسەربەخۆ، پاشکۆ، سەربەدی، ژێردەست، ملکەچ، سەربە (شتێ بوو)، پشت‌پێ‌بەستراو،	نان‌خۆر،	گیرۆدە
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێویستی بە کەسێک/شتێک بۆ ڕزگاربوون یان سەرکەوتوو بوون"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) پێویستی بە کەسێک/شتێک بۆ ڕزگاربوون یان سەرکەوتوو بوون"),
           Row(
             children: [
               const Expanded(
@@ -414,7 +424,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "You can't be dependent on your parents all your life."),
-                    ExampleSentenceKurdish(text: "ناکرێت هەموو ژیانت پشت بە دایبابت ببەستیت."),
+                    ExampleSentenceKurdish(
+                        text: "ناکرێت هەموو ژیانت پشت بە دایبابت ببەستیت."),
                   ],
                 ),
               ),
@@ -439,8 +450,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The festival is heavily dependent on sponsorship for its success."),
-                    ExampleSentenceKurdish(text: "فیستیڤاڵەکە تەواو پشتبەستووە بە سپۆنسەر بۆ سەرکەوتنی."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The festival is heavily dependent on sponsorship for its success."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "فیستیڤاڵەکە تەواو پشتبەستووە بە سپۆنسەر بۆ سەرکەوتنی."),
                   ],
                 ),
               ),
@@ -465,8 +480,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "74% of people in the survey were at least partially dependent on their cars."),
-                    ExampleSentenceKurdish(text: "٧٤٪ ـی ئەو کەسانەی سەرژمێری کران تا ڕادەیەک کەمێک پشتبەستوو بوون ئۆتۆمبێلەکانیان."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "74% of people in the survey were at least partially dependent on their cars."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "٧٤٪ ـی ئەو کەسانەی سەرژمێری کران تا ڕادەیەک کەمێک پشتبەستوو بوون ئۆتۆمبێلەکانیان."),
                   ],
                 ),
               ),
@@ -491,8 +510,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Small companies are dependent upon the local economy."),
-                    ExampleSentenceKurdish(text: "کۆمپانیا بچووکەکان پشت بە ئابووری خۆجێیی دەبەستن."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Small companies are dependent upon the local economy."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کۆمپانیا بچووکەکان پشت بە ئابووری خۆجێیی دەبەستن."),
                   ],
                 ),
               ),
@@ -516,8 +539,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "It's very easy to become dependent on sleeping pills."),
-                    ExampleSentenceKurdish(text: "زۆر ئاسانە ئاڵوودە بیت بە حەبی خەو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "It's very easy to become dependent on sleeping pills."),
+                    ExampleSentenceKurdish(
+                        text: "زۆر ئاسانە ئاڵوودە بیت بە حەبی خەو."),
                   ],
                 ),
               ),
@@ -542,8 +568,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "A child's development is dependent on many factors."),
-                    ExampleSentenceKurdish(text: "گەشەی منداڵ پشت بە زۆر فاکتەر دەبەستێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "A child's development is dependent on many factors."),
+                    ExampleSentenceKurdish(
+                        text: "گەشەی منداڵ پشت بە زۆر فاکتەر دەبەستێت."),
                   ],
                 ),
               ),
@@ -566,8 +595,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The price is dependent on how many extras you choose."),
-                    ExampleSentenceKurdish(text: "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر هەڵدەبژێریت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The price is dependent on how many extras you choose."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نرخەکە پشت دەبەستێت بەوەی چەند دانەی زیاتر هەڵدەبژێریت."),
                   ],
                 ),
               ),
@@ -585,14 +618,19 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٤. (ناو) پاڕستە؛ ڕستەیەک کە پشت بە یەکێکی دیکە دەبەستێت"),
+          const DefinitionKurdish(
+              text: "٤. (ناو) پاڕستە؛ ڕستەیەک کە پشت بە یەکێکی دیکە دەبەستێت"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The word ‘because’ forces the clause to be dependent on some other main clause."),
-                    ExampleSentenceKurdish(text: "وشەی 'because' بڕگەکە ناچار دەکات پشت بە یەکێکی دیکەی سەرەکی ببەستێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The word ‘because’ forces the clause to be dependent on some other main clause."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "وشەی 'because' بڕگەکە ناچار دەکات پشت بە یەکێکی دیکەی سەرەکی ببەستێت."),
                   ],
                 ),
               ),
@@ -1031,7 +1069,7 @@ ${englishMeaningConst.text}
  
 6. Addicted to a drug (= drug-addicted, hooked [informal], strung-out)
 
-- Noun: dependent (Derived forms: dependents)
+- Noun: dependent (derived forms: dependents)
 1. A person who relies on another person for support (especially financial support) (= dependant [Brit])
 """,
   );
@@ -1065,7 +1103,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FgT3GCsJteA',
+    videoId: 'FgT3GCsJteA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1128,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5R65skWdg7Y?t=',
+    videoId: '5R65skWdg7Y',
     startSeconds: 3105,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1153,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7EZ87bIvCOM?t=',
+    videoId: '7EZ87bIvCOM',
     startSeconds: 506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1178,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rr2XfL_df3o?t=',
+    videoId: 'rr2XfL_df3o',
     startSeconds: 1162,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1203,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vMZfyEy_jpI?t=',
+    videoId: 'vMZfyEy_jpI',
     startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1228,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zVqFAMOtwaI?t=',
+    videoId: 'zVqFAMOtwaI',
     startSeconds: 329,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1215,7 +1253,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Tv5z7N5hYgw?t=',
+    videoId: 'Tv5z7N5hYgw',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(

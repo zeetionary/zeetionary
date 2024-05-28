@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Recent changes in policy have resulted in large-scale defection from the party."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Recent changes in policy have resulted in large-scale defection from the party."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdefections3(String languageCode) async {
@@ -332,7 +333,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: گەڕانەوە، هەڵگەڕانەوە، وازهێنان، دەس‌هەڵگرتن، چۆڵ‌کردن، بەجێ‌هێشتن، بادانەوە،	پەیمان‌شکێنی، بێ‌بەڵێنی،	پەنابەرێتی،	ڕاکردن، هەڵاتن، چوونەنێو دوژمنەوە،	نەبوون، کەمی، کەم‌وکووڕی، ناتەواوی
 """),
-          const DefinitionKurdish(text: "١. (ناو) کاری جێهێشتنی پارتێکی سیاسی، وڵاتێک، هتد بۆ پەیوەندیکردن بە یەکێکی دیکەوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) کاری جێهێشتنی پارتێکی سیاسی، وڵاتێک، هتد بۆ پەیوەندیکردن بە یەکێکی دیکەوە"),
           Row(
             children: [
               const Expanded(
@@ -341,7 +344,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "There have been several defections from the ruling party."),
-                    ExampleSentenceKurdish(text: "ژمارەیەک هەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ژمارەیەک هەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە."),
                   ],
                 ),
               ),
@@ -364,8 +369,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Recent changes in policy have resulted in large-scale defection from the party."),
-                    ExampleSentenceKurdish(text: "گۆڕانە تازەکان لە سیاسەتدا بووە بەهۆی هەڵگەڕانەوەی گەورە لە پارتەکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Recent changes in policy have resulted in large-scale defection from the party."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "گۆڕانە تازەکان لە سیاسەتدا بووە بەهۆی هەڵگەڕانەوەی گەورە لە پارتەکە."),
                   ],
                 ),
               ),
@@ -914,7 +923,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: defection (Derived forms: defections)
+- Noun: defection (derived forms: defections)
 1. Withdrawing support or help despite allegiance or responsibility (= desertion, abandonment)
  
 2. The state of having rejected your affiliation, religious or political beliefs, or principles (often in favour of opposing beliefs or causes) (= apostasy, renunciation)
@@ -950,7 +959,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0H5QZvOqlJM?t=',
+    videoId: '0H5QZvOqlJM',
     startSeconds: 1070,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -975,7 +984,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hmlV1cx9ZHk?t=',
+    videoId: 'hmlV1cx9ZHk',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1000,7 +1009,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mScpHTIi-kM?t=',
+    videoId: 'mScpHTIi-kM',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1025,7 +1034,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NPtBkw5uD-0?t=',
+    videoId: 'NPtBkw5uD-0',
     startSeconds: 4343,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1050,7 +1059,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3AgCDkiKlhE?t=',
+    videoId: '3AgCDkiKlhE',
     startSeconds: 458,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1075,7 +1084,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4dtM5YHjpWQ?t=',
+    videoId: '4dtM5YHjpWQ',
     startSeconds: 493,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1100,7 +1109,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rnk1EqnzIwc?t=',
+    videoId: 'Rnk1EqnzIwc',
     startSeconds: 1233,
     autoPlay: true,
     params: const YoutubePlayerParams(

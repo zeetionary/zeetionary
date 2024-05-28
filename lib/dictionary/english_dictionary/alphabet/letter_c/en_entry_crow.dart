@@ -550,7 +550,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: crow (Derived forms: crowed, crowing, crows)
+- Verb: crow (derived forms: crowed, crowing, crows)
 1. Dwell on with satisfaction (= gloat, triumph)
  
 2. Express pleasure verbally
@@ -559,14 +559,14 @@ ${englishMeaningConst.text}
 3. Utter shrill sounds
 "The cocks crowed all morning"
 
-- Noun: crow (Derived forms: crows)
+- Noun: crow (derived forms: crows)
 1. A black bird having a raucous call
  
 2. The cry of a cock (or an imitation of it)
  
 3. An instance of boastful talk (= brag, bragging, crowing, vaporing [US], line-shooting, gasconade [archaic], vapouring [Brit, Cdn])
 
-- Noun: Crow (Derived forms: Crows)
+- Noun: Crow (derived forms: Crows)
 1. A member of the Siouan people formerly living in eastern Montana (= Crow Nation)
  
 2. A small quadrilateral constellation in the Southern Hemisphere near Virgo (= Corvus)
@@ -604,7 +604,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OoHXmiIejVE?t=',
+    videoId: 'OoHXmiIejVE',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ixYVFZnNl6s?t=',
+    videoId: 'ixYVFZnNl6s',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,7 +654,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gPS6ZMAqzKE?t=',
+    videoId: 'gPS6ZMAqzKE',
     startSeconds: 174,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -679,7 +679,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NSFUhMfRm8E',
+    videoId: 'NSFUhMfRm8E',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -704,7 +704,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tJuYL3nPINM?t=',
+    videoId: 'tJuYL3nPINM',
     startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -729,7 +729,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V-1E83Y2fps?t=',
+    videoId: 'V-1E83Y2fps',
     startSeconds: 590,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -754,7 +754,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CvKgIQVi5ds?t=',
+    videoId: 'CvKgIQVi5ds',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(

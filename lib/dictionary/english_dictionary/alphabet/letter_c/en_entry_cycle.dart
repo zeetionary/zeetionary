@@ -748,7 +748,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cycle (Derived forms: cycles)
+- Noun: cycle (derived forms: cycles)
 1. An interval during which a recurring sequence of events occurs (= rhythm, round)
 "the never-ending cycle of the seasons";
  
@@ -765,7 +765,7 @@ ${englishMeaningConst.text}
  
 6. A wheeled vehicle that has two wheels and is moved by foot pedals (= bicycle, bike)
 
-- Verb: cycle (Derived forms: cycling, cycles, cycled)
+- Verb: cycle (derived forms: cycling, cycles, cycled)
 1. Cause to go through a recurring sequence
 "cycle the laundry in this washing program"
  
@@ -812,7 +812,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtp6b76pMak?t=',
+    videoId: 'dtp6b76pMak',
     startSeconds: 563,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -837,7 +837,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
+    videoId: 'bHIhgxav9LY',
     startSeconds: 552,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -862,7 +862,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SrDEtSlqJC4?t=',
+    videoId: 'SrDEtSlqJC4',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -887,7 +887,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wir7jmefyec?t=',
+    videoId: 'wir7jmefyec',
     startSeconds: 474,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -912,7 +912,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRmOWcWdQAo?t=',
+    videoId: 'yRmOWcWdQAo',
     startSeconds: 989,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -937,7 +937,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
+    videoId: 'T48_SrFCdaQ',
     startSeconds: 258,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -962,7 +962,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1j_k5WCFShQ?t=',
+    videoId: '1j_k5WCFShQ',
     startSeconds: 286,
     autoPlay: true,
     params: const YoutubePlayerParams(

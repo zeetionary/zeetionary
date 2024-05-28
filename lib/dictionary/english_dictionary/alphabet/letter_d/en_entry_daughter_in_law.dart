@@ -231,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She welcomed her daughter-in-law into the family with open arms."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She welcomed her daughter-in-law into the family with open arms."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdaughterinlaws3(String languageCode) async {
@@ -371,8 +372,7 @@ class KurdishMeaning extends StatelessWidget {
                         text:
                             "She welcomed her daughter-in-law into the family with open arms."),
                     ExampleSentenceKurdish(
-                        text:
-                            "بە باوەشی کراوەوە بەخێرهاتنی بووکەکەیی کرد."),
+                        text: "بە باوەشی کراوەوە بەخێرهاتنی بووکەکەیی کرد."),
                   ],
                 ),
               ),
@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          
         ],
       ),
     );
@@ -438,7 +437,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: daughter-in-law (= Derived forms: daughters-in-law)
+- Noun: daughter-in-law (= derived forms: daughters-in-law)
 1. The wife of your son
 """,
   );
@@ -472,7 +471,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nyVOi3X53bk?t=',
+    videoId: 'nyVOi3X53bk',
     startSeconds: 1115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +496,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tKZ2ILu_EMc?t=',
+    videoId: 'tKZ2ILu_EMc',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +521,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bh9S5KOOCd0?t=',
+    videoId: 'bh9S5KOOCd0',
     startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +546,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TVzrKOSjkJs?t=',
+    videoId: 'TVzrKOSjkJs',
     startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +571,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DGZKSfR8d58?t=',
+    videoId: 'DGZKSfR8d58',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +596,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lS9HUh7SoCI?t=',
+    videoId: 'lS9HUh7SoCI',
     startSeconds: 221,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +621,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nBVqAvX0uR4?t=',
+    videoId: 'nBVqAvX0uR4',
     startSeconds: 865,
     autoPlay: true,
     params: const YoutubePlayerParams(

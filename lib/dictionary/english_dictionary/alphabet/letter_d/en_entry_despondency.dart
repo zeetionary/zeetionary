@@ -14,7 +14,8 @@ class EnglishEntrydespondency extends StatefulWidget {
   const EnglishEntrydespondency({super.key});
 
   @override
-  State<EnglishEntrydespondency> createState() => _EnglishEntrydespondencyState();
+  State<EnglishEntrydespondency> createState() =>
+      _EnglishEntrydespondencyState();
 }
 
 class _EnglishEntrydespondencyState extends State<EnglishEntrydespondency> {
@@ -221,8 +222,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Life's not all gloom and despondency."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Life's not all gloom and despondency."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdespondencys2(String languageCode) async {
@@ -230,7 +231,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A mood of despondency had set in."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A mood of despondency had set in."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdespondencys3(String languageCode) async {
@@ -321,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("speakdespondencys1300"); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakdespondencys14(String languageCode) async {
+  Future<void> speakdespondencys14(String languageCode) async {
     // DOPSUM: CHANGE speakdespondency
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -374,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A mood of despondency had set in.0"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A mood of despondency had set in.0"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdespondencys21(String languageCode) async {
@@ -411,9 +414,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Life's not all gloom and despondency."),
-                    ExampleSentenceKurdish(text: "ژیان هەموو پەژارەیی و خەفەتباری نییە."),
+                        text: "Life's not all gloom and despondency."),
+                    ExampleSentenceKurdish(
+                        text: "ژیان هەموو پەژارەیی و خەفەتباری نییە."),
                   ],
                 ),
               ),
@@ -438,8 +441,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "A mood of despondency had set in."),
-                    ExampleSentenceKurdish(text: "کەشێکی خەفەتباری هاتبووە ئاراوە."),
+                    ExampleSentenceEnglish(
+                        text: "A mood of despondency had set in."),
+                    ExampleSentenceKurdish(
+                        text: "کەشێکی خەفەتباری هاتبووە ئاراوە."),
                   ],
                 ),
               ),
@@ -994,7 +999,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: despondency (Derived forms: despondencies)
+- Noun: despondency (derived forms: despondencies)
 1. Feeling downcast and disheartened and hopeless (= despondence, heartsickness, disconsolateness)
 """,
   );
@@ -1028,7 +1033,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K0j2dlBMzUs?t=',
+    videoId: 'K0j2dlBMzUs',
     startSeconds: 1257,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1053,7 +1058,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ty-m4pm8oog?t=',
+    videoId: 'Ty-m4pm8oog',
     startSeconds: 470,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1078,7 +1083,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1UEkH15wjNc?t=',
+    videoId: '1UEkH15wjNc',
     startSeconds: 419,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1103,7 +1108,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bbziw22vVfE?t=',
+    videoId: 'Bbziw22vVfE',
     startSeconds: 18404,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1128,7 +1133,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/caUMtmxa5E8?t=',
+    videoId: 'caUMtmxa5E8',
     startSeconds: 265,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1153,7 +1158,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8EM_cfYcDjY?t=',
+    videoId: '8EM_cfYcDjY',
     startSeconds: 691,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1178,7 +1183,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PGC9O0O4-fw?t=',
+    videoId: 'PGC9O0O4-fw',
     startSeconds: 164,
     autoPlay: true,
     params: const YoutubePlayerParams(

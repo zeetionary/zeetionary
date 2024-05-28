@@ -1054,7 +1054,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: dish (Derived forms: dishes)
+- Noun: dish (derived forms: dishes)
 1. A shallow open container for holding or serving food
 "we gave them a set of dishes for a wedding present"
  
@@ -1073,7 +1073,7 @@ ${englishMeaningConst.text}
  
 7. [Brit, informal] A very attractive or seductive looking woman (= smasher [Brit, informal], stunner [informal], knockout [informal], beauty, ravisher, sweetheart, peach [informal], lulu [informal], looker [informal], mantrap [informal], patootie [US, informal], babe [informal], honey [informal], hotty [informal], fox [informal], hottie [informal])
 
-- Verb: dish (Derived forms: dishes, dishing, dished)
+- Verb: dish (derived forms: dishes, dishing, dished)
 1. Provide (usually but not necessarily food) (= serve, serve up, dish out, dish up)
 "She dished out the soup at 8 P.M."; "We dish up meals for the homeless";
  
@@ -1113,7 +1113,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UUQBvROVuXw?t=',
+    videoId: 'UUQBvROVuXw',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1138,7 +1138,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DPZzrlFCD_I?t=',
+    videoId: 'DPZzrlFCD_I',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1163,7 +1163,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 1007,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1188,7 +1188,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 170,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1213,7 +1213,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cxHwQl9pNM?t=',
+    videoId: '3cxHwQl9pNM',
     startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1238,7 +1238,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/roCX0AfBseQ?t=',
+    videoId: 'roCX0AfBseQ',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1263,7 +1263,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AwhBTrzzqeg?t=',
+    videoId: 'AwhBTrzzqeg',
     startSeconds: 311,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -510,7 +510,7 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crutch (Derived forms: crutches)
+- Noun: crutch (derived forms: crutches)
 1. A wooden or metal staff that fits under the armpit and reaches to the ground; used by disabled person while walking
  
 2. Anything that serves as an expedient
@@ -547,7 +547,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p3O6bKdPLbw?t=',
+    videoId: 'p3O6bKdPLbw',
     startSeconds: 2793,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -572,7 +572,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cY4e0uvp7uI?t=',
+    videoId: 'cY4e0uvp7uI',
     startSeconds: 939,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +597,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LL_JCVWWaeA?t=',
+    videoId: 'LL_JCVWWaeA',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +622,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t5k7feqZUD0?t=',
+    videoId: 't5k7feqZUD0',
     startSeconds: 510,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -647,7 +647,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U8ebSpLAO0U?t=',
+    videoId: 'U8ebSpLAO0U',
     startSeconds: 204,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -672,7 +672,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bOR8c2z3sSk?t=',
+    videoId: 'bOR8c2z3sSk',
     startSeconds: 2006,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -697,7 +697,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tIVoCh6Znfg?t=',
+    videoId: 'tIVoCh6Znfg',
     startSeconds: 453,
     autoPlay: true,
     params: const YoutubePlayerParams(

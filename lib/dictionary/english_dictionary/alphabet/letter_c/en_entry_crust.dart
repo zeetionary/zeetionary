@@ -549,14 +549,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crust (Derived forms: crusts)
+- Noun: crust (derived forms: crusts)
 1. The outer layer of the Earth (= Earth's crust)
  
 2. A hard outer layer that covers something (= incrustation, encrustation)
  
 3. The trait of being rude and impertinent; inclined to take liberties (= gall, impertinence, impudence, insolence, cheekiness, freshness)
 
-- Verb: crust (Derived forms: crusts, crusting, crusted)
+- Verb: crust (derived forms: crusts, crusting, crusted)
 1. Form a crust or form into a crust
 "The bread crusted in the oven"
 """,
@@ -591,7 +591,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2L7hhxT-pck?t=',
+    videoId: '2L7hhxT-pck',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 1098,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h4CyhQqAPpk?t=',
+    videoId: 'h4CyhQqAPpk',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -666,7 +666,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uia5mqvTeh4?t=',
+    videoId: 'uia5mqvTeh4',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -691,7 +691,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Yaui2pL26ZQ?t=',
+    videoId: 'Yaui2pL26ZQ',
     startSeconds: 227,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -716,7 +716,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M6XiFKB7j0w?t=',
+    videoId: 'M6XiFKB7j0w',
     startSeconds: 747,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -741,7 +741,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V4Uuxg6jmbo?t=',
+    videoId: 'V4Uuxg6jmbo',
     startSeconds: 559,
     autoPlay: true,
     params: const YoutubePlayerParams(

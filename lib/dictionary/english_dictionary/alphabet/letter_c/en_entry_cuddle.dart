@@ -491,14 +491,14 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cuddle (Derived forms: cuddled, cuddling, cuddles)
+- Verb: cuddle (derived forms: cuddled, cuddling, cuddles)
 1. Hold (a person or thing) close, as for affection, comfort, or warmth
 "I cuddled the baby"
  
 2. Move or arrange oneself in a comfortable and cosy position (= snuggle, nestle, nest, nuzzle, draw close, cosy [Brit, Cdn], cozy [N. Amer], cozy up [N. Amer], cosy up [Brit, Cdn])
 "We cuddled against each other to keep warm";
 
-- Noun: cuddle (Derived forms: cuddles)
+- Noun: cuddle (derived forms: cuddles)
 1. A close and affectionate (and often prolonged) embrace (= nestle, snuggle)
 """,
   );
@@ -532,7 +532,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fU1L780mPiM?t=',
+    videoId: 'fU1L780mPiM',
     startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +557,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3miuxAnawmM?t=',
+    videoId: '3miuxAnawmM',
     startSeconds: 439,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +582,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qSmyimnMOBo?t=',
+    videoId: 'qSmyimnMOBo',
     startSeconds: 674,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +607,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_JZxFm4MXMI?t=',
+    videoId: '_JZxFm4MXMI',
     startSeconds: 132,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -632,7 +632,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kWN-CiUaHtQ?t=',
+    videoId: 'kWN-CiUaHtQ',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -657,7 +657,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/w5zV_GusqvQ?t=',
+    videoId: 'w5zV_GusqvQ',
     startSeconds: 492,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -682,7 +682,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PW2duKZChA8?t=',
+    videoId: 'PW2duKZChA8',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -437,12 +437,12 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: crater (Derived forms: craters)
+- Noun: crater (derived forms: craters)
 1. A bowl-shaped geological formation at the top of a volcano (= volcanic crater)
  
 2. A bowl-shaped depression formed by the impact of a meteorite or bomb
 
-- Verb: crater (Derived forms: cratering, craters, cratered)
+- Verb: crater (derived forms: cratering, craters, cratered)
 1. To crash or fall
  
 2. Form craters
@@ -481,7 +481,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IdwscvE9OWs',
+    videoId: 'IdwscvE9OWs',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -506,7 +506,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8wZalVOqVRI',
+    videoId: '8wZalVOqVRI',
     startSeconds: 1066,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -531,7 +531,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lTE2LmziZ30',
+    videoId: 'lTE2LmziZ30',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vDirAG4wx90',
+    videoId: 'vDirAG4wx90',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L1ORdFb_fa4',
+    videoId: 'L1ORdFb_fa4',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ipJ63Ax7T_k',
+    videoId: 'ipJ63Ax7T_k',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Na_BkGTjC7E',
+    videoId: 'Na_BkGTjC7E',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(

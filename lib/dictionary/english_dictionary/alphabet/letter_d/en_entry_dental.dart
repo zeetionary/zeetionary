@@ -1006,7 +1006,7 @@ ${englishMeaningConst.text}
 3. (phonetics) made with the tongue touching the teeth
 "dental fricative"
 
-- Noun: dental (Derived forms: dentals)
+- Noun: dental (derived forms: dentals)
 1. A consonant articulated with the tip of the tongue near the gum ridge (= alveolar consonant, dental consonant, alveolar)
 """,
   );
@@ -1040,7 +1040,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/klVYeJx6a5I',
+    videoId: 'klVYeJx6a5I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1065,7 +1065,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YO11xA-qEwE?t=',
+    videoId: 'YO11xA-qEwE',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1090,7 +1090,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PO4pWDhCVP0?t=',
+    videoId: 'PO4pWDhCVP0',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1115,7 +1115,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lULu7K8T5Uc?t=',
+    videoId: 'lULu7K8T5Uc',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1140,7 +1140,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9Yvm7w2SdqA',
+    videoId: '9Yvm7w2SdqA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1165,7 +1165,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sp2oInwk028?t=',
+    videoId: 'sp2oInwk028',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1190,7 +1190,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/liHdPYaMkaU?t=',
+    videoId: 'liHdPYaMkaU',
     startSeconds: 229,
     autoPlay: true,
     params: const YoutubePlayerParams(

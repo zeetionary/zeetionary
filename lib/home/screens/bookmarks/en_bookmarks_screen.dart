@@ -167,6 +167,7 @@ class _EnglishfavouritesScreenState
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
       "aback": "/bookmarks-screen/aback",
+      "deer": "/bookmarks-screen/deer",
     };
 
     final routeName = screenRoutes[word];

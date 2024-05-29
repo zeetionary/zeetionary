@@ -63,7 +63,7 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
       drawer: MyDrawer(textSize: textSize),
       child: Scaffold(
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(37.0),
+          preferredSize: const Size.fromHeight(40.0),
           child: AppBar(
             // backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
             // centerTitle: true,
@@ -207,6 +207,25 @@ class MyDrawer extends StatelessWidget {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      ListTile(
+                        title: Text(
+                          "Q & A",
+                          style: TextStyle(
+                            fontSize: textSize + 3,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                        ),
+                        leading: Icon(
+                          Icons.quiz,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                        onTap: () {
+                          Routemaster.of(context).push('/english-subreddit');
+                        },
+                      ),
                       const SizedBox(
                         height: 5,
                       ),

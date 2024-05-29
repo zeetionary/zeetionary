@@ -44,7 +44,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
-  static const double _defaultHeight = 44.0;
+  static const double _defaultHeight = 60.0;
 }
 
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {

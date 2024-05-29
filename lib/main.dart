@@ -17,26 +17,61 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/router.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
+// import 'package:http/http.dart' as http;
+// import 'dart:convert';
+
 // flutter clean AND flutter clean -v AND flutter doctor
-// flutter pub get
-// flutter channel stable
-// flutter run AND flutter run --release -v
-// ADB uninstall com.example.zeetionary
-// flutter upgrade AND flutter upgrade -v
+// flutter pub global activate devtools
 // flutter pub cache repair -v (Disclaimer: It will download each and every version of all the packages)
+// dart pub cache repair
+// dart pub global activate flutterfire_cli
+// flutter pub global activate flutterfire_cli
+// dart pub cache clean
+// flutter pub uotdated
+// flutter pub upgrade
+// flutter pub upgrade --major-versions
+// flutter pub get
+
+// ADB uninstall com.example.zeetionary
+
+// flutter channel stable
+// flutter upgrade
+// flutter upgrade force
+// flutter upgrade -v
+
 // taskkill /f /im dart*
 // taskkill /f /im adb* (You can run "adb kill-server" too)
 // flutter doctor --android-licenses
-// flutter pub upgrade --major-versions
+// flutter doctor -v
+
 
 // run https://docs.flutter.dev/testing/build-modes
 // https://stackoverflow.com/questions/50645703/how-to-get-apk-and-ipa-file-from-flutter
+
 // flutter run (debug mode)
+// flutter run AND flutter run --release -v
 // flutter run --release (release mode)
 // flutter build apk
+// flutter build apk -vv
 // flutter build apk --release (to get release build on your storage)
-// flutter build apk --release --target-platform=android-arm64 (personnal: https://chat.openai.com/c/bdfb4143-cb74-41c8-8d40-89ad7ee74cf3)
+
+// flutter build apk --release --target-platform=android-arm64
+// flutter build apk --release --target-platform=android-arm64 --verbose
+// flutter build apk --release --target-platform=android-arm64 --stacktrace
+// flutter build apk --release --target-platform=android-arm64 --info
+// flutter build apk --release --target-platform=android-arm64 --scan
+// flutter build apk --release --target-platform=android-arm64 --debug
+
+// flutter build apk --release --target-platform=android-arm64 --no-tree-shake-icons
+// flutter build apk --release --target-platform=android-arm64 --no-tree-shake-icons --verbose
+// flutter build apk --release --target-platform=android-arm64 --no-tree-shake-icons --stacktrace
 // flutter run --profile
+
+// update services.gradle.org/distributions/gradle in gradle-wrapper.properties
+// update org.jetbrains.kotlin.android
+// update ext.kotlin_version
+// update com.google.gms:google-services
+// update com.android.tools.build:gradle https://stackoverflow.com/questions/70545646/could-not-find-com-android-tools-buildgradle7-3-3-error-found-in-build-gradle
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -58,6 +93,7 @@ class MyApp extends ConsumerStatefulWidget {
   const MyApp({super.key});
 
   @override
+  // _MyAppState createState() => _MyAppState();
   ConsumerState<ConsumerStatefulWidget> createState() {
     return _MyAppState();
   }

@@ -248,7 +248,6 @@ class _QuestionCardState extends ConsumerState<QuestionCard> {
                 child: ElevatedButton(
                   onPressed: () => widget.onAnswerSelected(option),
                   style: ElevatedButton.styleFrom(
-                    // ignore: deprecated_member_use
                     backgroundColor: Colors.transparent,
                     elevation: 0,
                     shape: RoundedRectangleBorder(

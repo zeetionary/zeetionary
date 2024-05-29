@@ -28,7 +28,6 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     bool confirmClear = await showDialog(
-      // ignore: use_build_context_synchronously
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
@@ -80,7 +79,6 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
 
       setState(() {});
 
-      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.ltr,

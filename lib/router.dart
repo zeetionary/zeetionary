@@ -6,13 +6,15 @@ import 'package:routemaster/routemaster.dart';
 
 import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
-// import 'package:zeetionary/home/screens/english_learning/english_learning.dart';
-import 'package:zeetionary/quiz/quiz_screen.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_notifier.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
+// import 'package:zeetionary/main.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-import 'package:zeetionary/home/screens/home_screen_two.dart';
+import 'package:zeetionary/home/screens/home_screen_three.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
@@ -5936,8 +5938,7 @@ final loggedOutRoute = RouteMap(routes: {
 });
 
 final loggedInRoute = RouteMap(routes: {
-  
-  "/": (_) => const MaterialPage(child: HomeScreenTwo()),
+  "/": (_) => const MaterialPage(child: HomeScreenThree()),
   // '/post/:id': (route) {
   //             final postId = route.pathParameters['id']!;
   //             final postJson = route.queryParameters['post']!;
@@ -5945,6 +5946,9 @@ final loggedInRoute = RouteMap(routes: {
   //             final accessToken = route.queryParameters['token']!;
   //             return MaterialPage(child: PostDetail(post, accessToken, postId));
   //           },
+  // '/post/:id': (route) => MaterialPage(
+  //     child: RedditComments(postId: route.pathParameters['id']!),
+  //   ),
   // others // others // others
   // others // others // others
   // others // others // others

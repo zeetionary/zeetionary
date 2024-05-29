@@ -100,6 +100,8 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 class ZeetionaryAppbarStyle extends ConsumerStatefulWidget {
   const ZeetionaryAppbarStyle({super.key});
 
+  // invalid use of private API
+
   @override
   ConsumerState<ConsumerStatefulWidget> createState() =>
       _ZeetionaryAppbarStyleState();

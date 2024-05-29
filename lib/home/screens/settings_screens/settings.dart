@@ -75,7 +75,6 @@ class TextSizeState extends StateNotifier<double> {
       }
     } catch (error) {
       // If an error occurs, print it and set the state to the default text size
-      // ignore: avoid_print
       print('Error loading text size: $error');
       state = 15.0;
     }

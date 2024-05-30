@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
@@ -159,61 +160,111 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
       appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
           ? const Center(child: CircularProgressIndicator())
-          : ListView.builder(
-              itemCount: _posts.length + 1,
-              itemBuilder: (context, index) {
-                if (index == _posts.length) {
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(
-                        vertical: 10.0, horizontal: 10.0),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 8.0),
-                      child: ElevatedButton(
-                        onPressed: _isLoading
-                            ? null
-                            : () => _loadPosts(loadMore: true),
-                        child: _isLoading
-                            ? const CircularProgressIndicator()
-                            : Text(
-                                'Load More',
-                                style: TextStyle(
-                                  color: Colors.red,
-                                  fontSize: textSize + 2,
-                                ),
-                              ),
+          : CustomScrollView(
+              slivers: [
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.only(
+                        top: 6, left: 6.0, right: 10, bottom: 6),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10.0),
+                        color:
+                            Theme.of(context).highlightColor.withOpacity(0.08),
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Learn from native Anglophones',
+                          style: TextStyle(
+                            color: Theme.of(context).highlightColor,
+                            fontSize: textSize + 4,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ),
                     ),
-                  );
-                }
-                final post = _posts[index]['data'];
-                return Card(
-                  margin: const EdgeInsets.all(8.0),
-                  child: ListTile(
-                    title: Text(
-                      post['title'],
-                      style: TextStyle(fontSize: textSize + 1),
-                    ),
-                    subtitle: post['thumbnail'] != null &&
-                            post['thumbnail'] != '' &&
-                            post['thumbnail'] != 'self'
-                        ? Padding(
-                            padding: const EdgeInsets.all(6.0),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(18.0),
-                              child: Image.network(
-                                post['thumbnail'],
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          )
-                        : null,
-                    onTap: () {
-                      Routemaster.of(context)
-                          .push('/english-subreddit/post/${post['id']}');
-                    },
                   ),
-                );
-              },
+                ),
+                SliverList(
+                  delegate: SliverChildBuilderDelegate(
+                    (context, index) {
+                      if (index == _posts.length) {
+                        return Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 8.0),
+                          child: ElevatedButton(
+                            onPressed: _isLoading
+                                ? null
+                                : () => _loadPosts(loadMore: true),
+                            child: _isLoading
+                                ? const CircularProgressIndicator()
+                                : Text(
+                                    'Load More',
+                                    style: TextStyle(
+                                      color: Theme.of(context).highlightColor,
+                                      fontSize: textSize + 2,
+                                    ),
+                                  ),
+                          ),
+                        );
+                      }
+                      final post = _posts[index]['data'];
+                      return Padding(
+                        padding: const EdgeInsets.only(
+                            top: 6, left: 6.0, right: 10, bottom: 6),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Theme.of(context)
+                                .primaryColor
+                                .withOpacity(0.01),
+                            border: Border.all(
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.5),
+                              width: 1.0,
+                            ),
+                            borderRadius:
+                                const BorderRadius.all(Radius.circular(8.0)),
+                          ),
+                          child: Card(
+                            margin: const EdgeInsets.all(8.0),
+                            child: ListTile(
+                              title: Text(
+                                post['title'],
+                                style: TextStyle(fontSize: textSize + 2),
+                              ),
+                              subtitle: post['thumbnail'] != null &&
+                                      post['thumbnail'] != '' &&
+                                      post['thumbnail'] != 'self'
+                                  ? Padding(
+                                      padding: const EdgeInsets.only(
+                                          top: 20.0,
+                                          left: 6.0,
+                                          right: 6.0,
+                                          bottom: 6.0),
+                                      child: ClipRRect(
+                                        borderRadius:
+                                            BorderRadius.circular(18.0),
+                                        child: Image.network(
+                                          post['thumbnail'],
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                    )
+                                  : null,
+                              onTap: () {
+                                Routemaster.of(context).push(
+                                    '/english-subreddit/post/${post['id']}');
+                              },
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                    childCount: _posts.length + 1,
+                  ),
+                ),
+              ],
             ),
     );
   }
@@ -267,15 +318,37 @@ class RedditComments extends ConsumerWidget {
                         post['title'],
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: textSize + 3,
+                          fontSize: textSize + 2,
                         ),
                       ),
                       const SizedBox(height: 10),
-                      Text(
-                        post['selftext'] ?? '',
-                        style: TextStyle(
-                          fontSize: textSize + 2,
+                      ListTile(
+                        title: MarkdownBody(
+                          data: post['selftext'] ?? '',
+                          styleSheet: MarkdownStyleSheet(
+                            p: TextStyle(
+                              fontSize: textSize + 2,
+                            ),
+                          ),
                         ),
+                        // subtitle: post['thumbnail'] != null &&
+                        //         post['thumbnail'] != '' &&
+                        //         post['thumbnail'] != 'self'
+                        //     ? Padding(
+                        //         padding: const EdgeInsets.only(
+                        //             top: 20.0,
+                        //             left: 6.0,
+                        //             right: 6.0,
+                        //             bottom: 6.0),
+                        //         child: ClipRRect(
+                        //           borderRadius: BorderRadius.circular(18.0),
+                        //           child: Image.network(
+                        //             post['thumbnail'],
+                        //             fit: BoxFit.cover,
+                        //           ),
+                        //         ),
+                        //       )
+                        //     : null,
                       ),
                       if (post['url_overridden_by_dest'] != null &&
                           post['post_hint'] == 'image')
@@ -287,8 +360,8 @@ class RedditComments extends ConsumerWidget {
                       Text(
                         'Answers',
                         style: TextStyle(
-                          fontSize: textSize + 3,
-                          color: Colors.red,
+                          fontSize: textSize + 2,
+                          color: Theme.of(context).highlightColor,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -298,7 +371,7 @@ class RedditComments extends ConsumerWidget {
                           child: Text(
                             'No answers yet',
                             style: TextStyle(
-                              color: Colors.red,
+                              color: Theme.of(context).highlightColor,
                               fontSize: textSize + 2,
                             ),
                           ),
@@ -308,20 +381,38 @@ class RedditComments extends ConsumerWidget {
                 ),
                 ...comments.map((comment) {
                   final data = comment['data'];
-                  return Card(
-                    margin: const EdgeInsets.all(8.0),
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            data['body'],
-                            style: TextStyle(
-                              fontSize: textSize + 2,
-                            ),
+                  return Padding(
+                    padding: const EdgeInsets.only(
+                        top: 6, left: 6.0, right: 10, bottom: 6),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).primaryColor.withOpacity(0.01),
+                        border: Border.all(
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.5),
+                          width: 1.0,
+                        ),
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(8.0)),
+                      ),
+                      child: Card(
+                        margin: const EdgeInsets.all(8.0),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              MarkdownBody(
+                                data: data['body'],
+                                styleSheet: MarkdownStyleSheet(
+                                  p: TextStyle(
+                                    fontSize: textSize + 2,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
-                        ],
+                        ),
                       ),
                     ),
                   );

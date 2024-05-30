@@ -17,18 +17,14 @@ class Pallete {
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
-      const Color.fromARGB(113, 244, 67, 54); // fromARGB(110, 162, 239, 20);
-  // static var tabsbackgroundColor =
-  //     const Color.fromARGB(110, 162, 239, 20); // fromARGB(110, 162, 239, 20);
+      const Color.fromARGB(113, 244, 67, 54);
 
-  // Themes
   static var darkModeAppTheme = ThemeData.dark(useMaterial3: true).copyWith(
     scaffoldBackgroundColor: blackColor,
     cardColor: greyColor,
-    highlightColor: redColor.withOpacity(0.7),
+    highlightColor: yellowColor.withOpacity(0.7),
     appBarTheme: const AppBarTheme(
       backgroundColor: blackColor,
-      // elevation: 3,
       iconTheme: IconThemeData(
         color: whiteColor,
       ),
@@ -37,8 +33,6 @@ class Pallete {
       backgroundColor: blackColor,
     ),
     primaryColor: whiteColor,
-    // backgroundColor:
-    //     drawerColor, // will be used as alternative background color
   );
 
   static var lightModeAppTheme = ThemeData.light(useMaterial3: true).copyWith(

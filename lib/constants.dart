@@ -1423,7 +1423,7 @@ class EnglishMeaningConst extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider);
 
     return SingleChildScrollView(
       child: Padding(
@@ -1441,7 +1441,7 @@ class EnglishMeaningConst extends ConsumerWidget {
               child: Text(
                 text,
                 style:
-                    TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
+                    TextStyle(fontSize: textSize + 2, fontWeight: FontWeight.w400),
               ),
             ),
           ],

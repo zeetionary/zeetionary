@@ -519,7 +519,7 @@ class KurdishDictionary extends StatelessWidget {
             onTapWord(words[index]);
           },
           onKurdishFavourite: () => onKurdishFavourite(
-              words[index]), // Use the passed value for favouriting
+              words[index]),
           isKurdishFavouriteed: kurdishfavourites.contains(words[index]),
         );
       },

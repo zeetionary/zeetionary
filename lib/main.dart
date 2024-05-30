@@ -11,7 +11,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/core/common/error_text.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-import 'package:zeetionary/router.dart';
+import 'package:zeetionary/router/router_main.dart';
 
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
@@ -60,6 +60,7 @@ import 'package:zeetionary/router.dart';
 // flutter build apk --release --no-tree-shake-icons
 
 // flutter build apk --release --target-platform=android-arm64
+// flutter build apk --release --target-platform=android-arm64 --split-per-abi
 // flutter build apk --release --target-platform=android-arm64 --verbose
 // flutter build apk --release --target-platform=android-arm64 --stacktrace
 // flutter build apk --release --target-platform=android-arm64 --info
@@ -73,6 +74,15 @@ import 'package:zeetionary/router.dart';
 // flutter build appbundle
 // flutter build appbundle --release --no-tree-shake-icons
 // flutter build appbundle --verbose
+
+// flutter build apk --analyze-size
+// flutter build apk --release --target-platform=android-arm64 --analyze-size
+// flutter build apk --analyze-size
+// flutter build appbundle --analyze-size
+// flutter build ios --analyze-size
+// flutter build linux --analyze-size
+// flutter build macos --analyze-size
+// flutter build windows --analyze-size
 
 // update services.gradle.org/distributions/gradle in gradle-wrapper.properties
 // update org.jetbrains.kotlin.android

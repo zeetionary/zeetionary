@@ -178,7 +178,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                 'Load More',
                                 style: TextStyle(
                                   color: Colors.red,
-                                  fontSize: textSize + 3,
+                                  fontSize: textSize + 2,
                                 ),
                               ),
                       ),
@@ -189,21 +189,15 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                 return Card(
                   margin: const EdgeInsets.all(8.0),
                   child: ListTile(
-                    title: Column(
-                      children: [
-                        Text(
-                          post['title'],
-                          style: TextStyle(fontSize: textSize + 2),
-                        ),
-                        const SizedBox(height: 18.0),
-                      ],
+                    title: Text(
+                      post['title'],
+                      style: TextStyle(fontSize: textSize + 1),
                     ),
                     subtitle: post['thumbnail'] != null &&
                             post['thumbnail'] != '' &&
                             post['thumbnail'] != 'self'
                         ? Padding(
-                            padding:
-                                const EdgeInsets.symmetric(horizontal: 8.0),
+                            padding: const EdgeInsets.all(6.0),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(18.0),
                               child: Image.network(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
-import 'package:zeetionary/router/router_exports_one.dart';
+// import 'package:zeetionary/router/router_exports_one.dart';
 
 //
 //
@@ -16,7 +16,7 @@ import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/home/screens/home_screen_three.dart';
 
-
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
@@ -5972,7 +5972,7 @@ final Map<String, PageBuilder> routes = {
   "/english-abbot": (_) => _blP(const EnglishEntryabbot()),
   "/english-abbreviate": (_) => _blP(const EnglishEntryabbreviate()),
   "/english-abbreviation": (_) => _blP(const EnglishEntryabbreviation()),
-  "/english-abdicate": (_) => _blP(EnglishEntryabdicate()),
+  "/english-abdicate": (_) => _blP(const EnglishEntryabdicate()),
   "/english-abdication": (_) => _blP(EnglishEntryabdication()),
   "/english-abdomen": (_) => _blP(EnglishEntryabdomen()),
   "/english-abdominal": (_) => _blP(EnglishEntryabdominal()),
@@ -10894,16 +10894,16 @@ final Map<String, PageBuilder> routes = {
 // history
 // history
 // history
-  "/history-screen/aback": (_) => _blP(EnglishEntryaback()),
-  "/history-screen/deer": (_) => _blP(EnglishEntrydeer()),
+  "/history-screen/aback": (_) => _blP(const EnglishEntryaback()),
+  "/history-screen/deer": (_) => _blP(const EnglishEntrydeer()),
 // bookmarks
 // bookmarks
 // bookmarks
 // bookmarks
 // bookmarks
 // bookmarks
-  "/bookmarks-screen/aback": (_) => _blP(EnglishEntryaback()),
-  "/bookmarks-screen/deer": (_) => _blP(EnglishEntrydeer()),
+  "/bookmarks-screen/aback": (_) => _blP(const EnglishEntryaback()),
+  "/bookmarks-screen/deer": (_) => _blP(const EnglishEntrydeer()),
   // end end end end end
   // end end end end end
   // end end end end end

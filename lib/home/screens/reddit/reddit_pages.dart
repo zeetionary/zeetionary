@@ -175,7 +175,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Learn from native Anglophones',
+                          'Learn from Anglophones',
                           style: TextStyle(
                             color: Theme.of(context).highlightColor,
                             fontSize: textSize + 4,

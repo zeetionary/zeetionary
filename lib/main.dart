@@ -48,6 +48,12 @@ import 'package:zeetionary/router.dart';
 // flutter run --release -v
 
 // flutter build apk
+// flutter build apk --verbose
+// flutter run apk --stacktrace
+// flutter run apk release --stacktrace
+// flutter build apk --info
+// flutter build apk --split-per-abi
+// flutter build apk --split-per-abi --no-tree-shake-icons
 // flutter build apk -vv
 // flutter build apk --release (to get release build on your storage)
 // flutter build apk --no-tree-shake-icons

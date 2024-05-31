@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                             "The cow elephant's tusks were shorter compared to those of the bull elephants."),
                     ExampleSentenceKurdish(
                         text:
-                            "عاجەکانی فیلی مێینە کورتترد بوون بەراورد بە ئەوانەی فیلی نێرە."),
+                            "عاجەکانی فیلی مێینە کورتتر بوون بەراورد بە ئەوانەی فیلی نێرە."),
                   ],
                 ),
               ),

@@ -54,12 +54,12 @@ class CustomTabBarHistory extends ConsumerWidget {
     return Container(
       height: textSize,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12.0),
+        color: Theme.of(context).primaryColor.withOpacity(0.01),
         border: Border.all(
-          color: Theme.of(context).primaryColor.withOpacity(0.08),
+          color: Theme.of(context).primaryColor.withOpacity(0.3),
           width: 1.0,
-          style: BorderStyle.solid,
         ),
+        borderRadius: const BorderRadius.all(Radius.circular(8.0)),
       ),
       child: TabBar(
         isScrollable: true,

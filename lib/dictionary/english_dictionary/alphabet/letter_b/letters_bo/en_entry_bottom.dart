@@ -902,7 +902,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                             "Put your clothes in the bottom drawer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جلەکانت بخە چەکمەجەکەی خوارەوە."),
+                                            "جلەکانت بخە کەشەوەکەی خوارەوە."),
                                   ],
                                 ),
                               ),

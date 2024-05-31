@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
-// import 'package:zeetionary/router/router_exports_one.dart';
+import 'package:zeetionary/router/router_exports_one.dart';
 
 //
 //
@@ -9875,37 +9875,36 @@ final Map<String, PageBuilder> routes = {
   "/english-dismally": (_) => _blP(const EnglishEntrydismally()),
   "/english-dismantle": (_) => _blP(const EnglishEntrydismantle()),
   "/english-dismay": (_) => _blP(const EnglishEntrydismay()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-// history
-// history
-// history
-// history
-// history
-// history
-// history
-// history
-// history
+  "/english-dismember": (_) => _blP(const EnglishEntrydismember()),
+  "/english-dismiss": (_) => _blP(const EnglishEntrydismiss()),
+  "/english-dismissal": (_) => _blP(const EnglishEntrydismissal()),
+  "/english-disobedient": (_) => _blP(const EnglishEntrydisobedient()),
+  "/english-disobedience": (_) => _blP(const EnglishEntrydisobedience()),
+  "/english-disobediently": (_) => _blP(const EnglishEntrydisobediently()),
+  "/english-disobey": (_) => _blP(const EnglishEntrydisobey()),
+  "/english-disorder": (_) => _blP(const EnglishEntrydisorder()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // history
+  // history
+  // history
+  // history
+  // history
+  // history
   "/history-screen/aback": (_) => _blP(const EnglishEntryaback()),
   "/history-screen/deer": (_) => _blP(const EnglishEntrydeer()),
-// bookmarks
-// bookmarks
-// bookmarks
-// bookmarks
-// bookmarks
-// bookmarks
+  // bookmarks
+  // bookmarks
+  // bookmarks
+  // bookmarks
+  // bookmarks
+  // bookmarks
   "/bookmarks-screen/aback": (_) => _blP(const EnglishEntryaback()),
   "/bookmarks-screen/deer": (_) => _blP(const EnglishEntrydeer()),
   // end end end end end

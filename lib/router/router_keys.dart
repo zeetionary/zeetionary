@@ -11,6 +11,8 @@ import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 // import 'package:zeetionary/home/screens/reddit/reddit_notifier.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_grammar.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_vocabulary.dart';
 // import 'package:zeetionary/main.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
@@ -4923,13 +4925,24 @@ MaterialPage _blP(Widget child) => MaterialPage(child: child);
 
 final Map<String, PageBuilder> routes = {
   "/": (_) => _blP(const HomeScreenThree()),
+  //
+  //
+  //
+  '/english-subreddit': (_) => _blP(const RedditFeed()),
+  '/english-subreddit/reddit-grammar': (_) => _blP(const RedditGrammar()),
+  '/english-subreddit/reddit-vocabulary': (_) => _blP(const RedditVocabulary()),
+  //
+  //
+  //
   '/english-subreddit/post/:id': (route) =>
       MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  '/english-subreddit/reddit-grammar/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  '/english-subreddit/reddit-vocabulary/post/:id': (route) => MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
 // others
 // others
 // others
 // '/english-post-details': (_) => _blP(const PostDetail(post: post, accessToken: accessToken)),
-  '/english-subreddit': (_) => _blP(const RedditFeed()),
   "/history-screen": (_) => _blP(const HistoryScreen()),
   "/bookmarks-screen": (_) => _blP(const BookmarksScreen()),
   "/tts-screen": (_) => _blP(const TTSPage()),

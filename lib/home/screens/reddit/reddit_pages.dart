@@ -171,16 +171,63 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                         borderRadius: BorderRadius.circular(10.0),
                         color:
                             Theme.of(context).highlightColor.withOpacity(0.08),
+                        border: Border.all(
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.3),
+                          width: 1.0,
+                        ),
                       ),
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          'Learn from Anglophones',
-                          style: TextStyle(
-                            color: Theme.of(context).highlightColor,
-                            fontSize: textSize + 4,
-                            fontWeight: FontWeight.bold,
-                          ),
+                        child: Column(
+                          children: [
+                            Directionality(
+                              textDirection: TextDirection.rtl,
+                              child: Text(
+                                'Learn from Anglophones',
+                                textAlign: TextAlign.right,
+                                style: TextStyle(
+                                  color: Theme.of(context).highlightColor,
+                                  fontSize: textSize + 4,
+                                  // fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 15),
+                            Row(
+                              children: [
+                                ElevatedButton(
+                                  onPressed: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/reddit-grammar');
+                                  },
+                                  child: Text(
+                                    'Grammar',
+                                    style: TextStyle(
+                                      color: Theme.of(context).highlightColor,
+                                      fontSize: textSize + 1,
+                                      // fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 15),
+                                ElevatedButton(
+                                  onPressed: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/reddit-vocabulary');
+                                  },
+                                  child: Text(
+                                    'Vocabulary',
+                                    style: TextStyle(
+                                      color: Theme.of(context).highlightColor,
+                                      fontSize: textSize + 1,
+                                      // fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -220,7 +267,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                             border: Border.all(
                               color: Theme.of(context)
                                   .primaryColor
-                                  .withOpacity(0.5),
+                                  .withOpacity(0.3),
                               width: 1.0,
                             ),
                             borderRadius:
@@ -389,7 +436,7 @@ class RedditComments extends ConsumerWidget {
                         color: Theme.of(context).primaryColor.withOpacity(0.01),
                         border: Border.all(
                           color:
-                              Theme.of(context).primaryColor.withOpacity(0.5),
+                              Theme.of(context).primaryColor.withOpacity(0.3),
                           width: 1.0,
                         ),
                         borderRadius:

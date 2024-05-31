@@ -11,9 +11,11 @@ class Pallete {
   // Colors
   static const blackColor = Color.fromARGB(255, 20, 20, 20); // primary color
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color
-  static const drawerColor = Color.fromRGBO(18, 18, 18, 1);
+  static const drawerColor = Colors.black;
   static const whiteColor = Colors.white;
   static const yellowColor = Colors.yellow;
+  static var lightBlueColorDark = Colors.lightBlue.shade100;
+  static var lightBlueColorLight = Colors.lightBlue.shade900;
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
@@ -22,7 +24,7 @@ class Pallete {
   static var darkModeAppTheme = ThemeData.dark(useMaterial3: true).copyWith(
     scaffoldBackgroundColor: blackColor,
     cardColor: greyColor,
-    highlightColor: yellowColor.withOpacity(0.7),
+    highlightColor: lightBlueColorDark,
     appBarTheme: const AppBarTheme(
       backgroundColor: blackColor,
       iconTheme: IconThemeData(
@@ -38,7 +40,7 @@ class Pallete {
   static var lightModeAppTheme = ThemeData.light(useMaterial3: true).copyWith(
     scaffoldBackgroundColor: whiteColor,
     cardColor: greyColor,
-    highlightColor: blueColor,
+    highlightColor: lightBlueColorLight,
     appBarTheme: const AppBarTheme(
       backgroundColor: whiteColor,
       // elevation: 3,

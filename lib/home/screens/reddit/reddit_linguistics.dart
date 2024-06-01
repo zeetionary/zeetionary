@@ -233,37 +233,64 @@ class _RedditLinguisticsState extends ConsumerState<RedditLinguistics> {
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(8.0)),
                           ),
-                          child: Card(
-                            margin: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text(
-                                post['title'],
-                                style: TextStyle(fontSize: textSize + 2),
-                              ),
-                              subtitle: post['thumbnail'] != null &&
-                                      post['thumbnail'] != '' &&
-                                      post['thumbnail'] != 'self'
-                                  ? Padding(
-                                      padding: const EdgeInsets.only(
-                                          top: 20.0,
-                                          left: 6.0,
-                                          right: 6.0,
-                                          bottom: 6.0),
-                                      child: ClipRRect(
-                                        borderRadius:
-                                            BorderRadius.circular(18.0),
-                                        child: Image.network(
-                                          post['thumbnail'],
-                                          fit: BoxFit.cover,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Card(
+                                margin: const EdgeInsets.all(8.0),
+                                child: ListTile(
+                                  title: Text(
+                                    post['title'],
+                                    style: TextStyle(fontSize: textSize + 2),
+                                  ),
+                                  subtitle: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      if (post['thumbnail'] != null &&
+                                          post['thumbnail'] != '' &&
+                                          post['thumbnail'] != 'self')
+                                        Padding(
+                                          padding: const EdgeInsets.only(
+                                              top: 20.0,
+                                              left: 6.0,
+                                              right: 6.0,
+                                              bottom: 6.0),
+                                          child: ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(18.0),
+                                            child: Image.network(
+                                              post['thumbnail'],
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                        ),
+                                      Padding(
+                                        padding: const EdgeInsets.only(
+                                            left: 16.0, bottom: 8.0, top: 8.0),
+                                        child: Text(
+                                          post['num_comments'] > 0
+                                              ? 'Discussed'
+                                              : 'Not discussed',
+                                          style: TextStyle(
+                                            color: post['num_comments'] > 0
+                                                ? Colors
+                                                    .green // Set to green if there are comments
+                                                : Colors
+                                                    .red, // Set to red if there are no comments
+                                            fontSize: textSize,
+                                          ),
                                         ),
                                       ),
-                                    )
-                                  : null,
-                              onTap: () {
-                                Routemaster.of(context).push(
-                                    '/english-subreddit/reddit-linguistics/post/${post['id']}');
-                              },
-                            ),
+                                    ],
+                                  ),
+                                  onTap: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/reddit-linguistics/post/${post['id']}');
+                                  },
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       );

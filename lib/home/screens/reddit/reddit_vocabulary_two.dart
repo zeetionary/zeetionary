@@ -114,7 +114,8 @@ class RedditVocabularyTwo extends ConsumerStatefulWidget {
   const RedditVocabularyTwo({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _RedditVocabularyTwoState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _RedditVocabularyTwoState();
 }
 
 class _RedditVocabularyTwoState extends ConsumerState<RedditVocabularyTwo> {
@@ -225,43 +226,65 @@ class _RedditVocabularyTwoState extends ConsumerState<RedditVocabularyTwo> {
                             border: Border.all(
                               color: Theme.of(context)
                                   .primaryColor
-                                  .withOpacity(0.3),
+                                  .withOpacity(0.5),
                               width: 1.0,
                             ),
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(8.0)),
                           ),
-                          child: Card(
-                            margin: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text(
-                                post['title'],
-                                style: TextStyle(fontSize: textSize + 2),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment
+                                .start, // Aligns children to the start
+                            children: [
+                              Card(
+                                margin: const EdgeInsets.all(8.0),
+                                child: ListTile(
+                                  title: Text(
+                                    post['title'],
+                                    style: TextStyle(fontSize: textSize + 2),
+                                  ),
+                                  subtitle: post['thumbnail'] != null &&
+                                          post['thumbnail'] != '' &&
+                                          post['thumbnail'] != 'self'
+                                      ? Padding(
+                                          padding: const EdgeInsets.only(
+                                              top: 20.0,
+                                              left: 6.0,
+                                              right: 6.0,
+                                              bottom: 6.0),
+                                          child: ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(18.0),
+                                            child: Image.network(
+                                              post['thumbnail'],
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                        )
+                                      : null,
+                                  onTap: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/reddit-vocabulary-two/post/${post['id']}');
+                                  },
+                                ),
                               ),
-                              subtitle: post['thumbnail'] != null &&
-                                      post['thumbnail'] != '' &&
-                                      post['thumbnail'] != 'self'
-                                  ? Padding(
-                                      padding: const EdgeInsets.only(
-                                          top: 20.0,
-                                          left: 6.0,
-                                          right: 6.0,
-                                          bottom: 6.0),
-                                      child: ClipRRect(
-                                        borderRadius:
-                                            BorderRadius.circular(18.0),
-                                        child: Image.network(
-                                          post['thumbnail'],
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    )
-                                  : null,
-                              onTap: () {
-                                Routemaster.of(context).push(
-                                    '/english-subreddit/reddit-vocabulary-two/post/${post['id']}');
-                              },
-                            ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 16.0, bottom: 8.0, top: 8.0),
+                                child: Text(
+                                  post['num_comments'] > 0
+                                      ? 'Discussed'
+                                      : 'Not discussed',
+                                  style: TextStyle(
+                                    color: post['num_comments'] > 0
+                                        ? Colors
+                                            .green // Set to green if there are comments
+                                        : const Color.fromARGB(182, 255, 0, 0),
+                                    fontSize: textSize,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       );
@@ -274,4 +297,3 @@ class _RedditVocabularyTwoState extends ConsumerState<RedditVocabularyTwo> {
     );
   }
 }
-

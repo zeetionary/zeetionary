@@ -185,7 +185,7 @@ class _RedditGrammarState extends ConsumerState<RedditGrammar> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Learn grammar',
+                          'EFL grammar',
                           style: TextStyle(
                             color: Theme.of(context).highlightColor,
                             fontSize: textSize + 4,
@@ -236,37 +236,59 @@ class _RedditGrammarState extends ConsumerState<RedditGrammar> {
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(8.0)),
                           ),
-                          child: Card(
-                            margin: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text(
-                                post['title'],
-                                style: TextStyle(fontSize: textSize + 2),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment
+                                .start, // Aligns children to the start
+                            children: [
+                              Card(
+                                margin: const EdgeInsets.all(8.0),
+                                child: ListTile(
+                                  title: Text(
+                                    post['title'],
+                                    style: TextStyle(fontSize: textSize + 2),
+                                  ),
+                                  subtitle: post['thumbnail'] != null &&
+                                          post['thumbnail'] != '' &&
+                                          post['thumbnail'] != 'self'
+                                      ? Padding(
+                                          padding: const EdgeInsets.only(
+                                              top: 20.0,
+                                              left: 6.0,
+                                              right: 6.0,
+                                              bottom: 6.0),
+                                          child: ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(18.0),
+                                            child: Image.network(
+                                              post['thumbnail'],
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                        )
+                                      : null,
+                                  onTap: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/reddit-grammar/post/${post['id']}');
+                                  },
+                                ),
                               ),
-                              subtitle: post['thumbnail'] != null &&
-                                      post['thumbnail'] != '' &&
-                                      post['thumbnail'] != 'self'
-                                  ? Padding(
-                                      padding: const EdgeInsets.only(
-                                          top: 20.0,
-                                          left: 6.0,
-                                          right: 6.0,
-                                          bottom: 6.0),
-                                      child: ClipRRect(
-                                        borderRadius:
-                                            BorderRadius.circular(18.0),
-                                        child: Image.network(
-                                          post['thumbnail'],
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    )
-                                  : null,
-                              onTap: () {
-                                Routemaster.of(context).push(
-                                    '/english-subreddit/reddit-grammar/post/${post['id']}');
-                              },
-                            ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 16.0, bottom: 8.0, top: 8.0),
+                                child: Text(
+                                  post['num_comments'] > 0
+                                      ? 'Discussed'
+                                      : 'Not discussed',
+                                  style: TextStyle(
+                                    color: post['num_comments'] > 0
+                                        ? Colors
+                                            .green // Set to green if there are comments
+                                        : const Color.fromARGB(182, 255, 0, 0),
+                                    fontSize: textSize,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       );

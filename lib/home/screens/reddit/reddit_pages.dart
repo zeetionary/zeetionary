@@ -192,7 +192,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                 style: TextStyle(
                                   color: Theme.of(context).highlightColor,
                                   fontSize: textSize + 4,
-                                  // fontWeight: FontWeight.bold,
                                 ),
                               ),
                             ),
@@ -211,7 +210,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -226,7 +224,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -241,7 +238,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -256,7 +252,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -271,7 +266,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -286,7 +280,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -301,7 +294,6 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                       style: TextStyle(
                                         color: Theme.of(context).highlightColor,
                                         fontSize: textSize - 3,
-                                        // fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                   ),
@@ -354,37 +346,59 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                             borderRadius:
                                 const BorderRadius.all(Radius.circular(8.0)),
                           ),
-                          child: Card(
-                            margin: const EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text(
-                                post['title'],
-                                style: TextStyle(fontSize: textSize + 2),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment
+                                .start, // Align children to the start
+                            children: [
+                              Card(
+                                margin: const EdgeInsets.all(8.0),
+                                child: ListTile(
+                                  title: Text(
+                                    post['title'],
+                                    style: TextStyle(fontSize: textSize + 2),
+                                  ),
+                                  subtitle: post['thumbnail'] != null &&
+                                          post['thumbnail'] != '' &&
+                                          post['thumbnail'] != 'self'
+                                      ? Padding(
+                                          padding: const EdgeInsets.only(
+                                              top: 20.0,
+                                              left: 6.0,
+                                              right: 6.0,
+                                              bottom: 6.0),
+                                          child: ClipRRect(
+                                            borderRadius:
+                                                BorderRadius.circular(18.0),
+                                            child: Image.network(
+                                              post['thumbnail'],
+                                              fit: BoxFit.cover,
+                                            ),
+                                          ),
+                                        )
+                                      : null,
+                                  onTap: () {
+                                    Routemaster.of(context).push(
+                                        '/english-subreddit/post/${post['id']}');
+                                  },
+                                ),
                               ),
-                              subtitle: post['thumbnail'] != null &&
-                                      post['thumbnail'] != '' &&
-                                      post['thumbnail'] != 'self'
-                                  ? Padding(
-                                      padding: const EdgeInsets.only(
-                                          top: 20.0,
-                                          left: 6.0,
-                                          right: 6.0,
-                                          bottom: 6.0),
-                                      child: ClipRRect(
-                                        borderRadius:
-                                            BorderRadius.circular(18.0),
-                                        child: Image.network(
-                                          post['thumbnail'],
-                                          fit: BoxFit.cover,
-                                        ),
-                                      ),
-                                    )
-                                  : null,
-                              onTap: () {
-                                Routemaster.of(context).push(
-                                    '/english-subreddit/post/${post['id']}');
-                              },
-                            ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                    left: 16.0, bottom: 8.0, top: 8.0),
+                                child: Text(
+                                  post['num_comments'] > 0
+                                      ? 'Discussed'
+                                      : 'Not discussed',
+                                  style: TextStyle(
+                                    color: post['num_comments'] > 0
+                                        ? Colors
+                                            .green // Set to green if there are comments
+                                        : const Color.fromARGB(182, 255, 0, 0),
+                                    fontSize: textSize,
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       );
@@ -460,10 +474,23 @@ class RedditComments extends ConsumerWidget {
             final post = snapshot.data![0] as Map<String, dynamic>;
             List<dynamic> comments = snapshot.data![1] as List<dynamic>;
 
-            // Filter out comments that include "Thank you for your submission"
+            // Define phrases to filter out
+            const phrasesToFilter = [
+              "Thank you for your submission",
+              "[removed]",
+              "Discussion flair",
+              "and this action was performed automatically",
+            ];
+
+            // Filter out comments that include any of the phrases in phrasesToFilter
             comments = comments.where((comment) {
               final data = comment['data'];
-              return !data['body'].contains("Thank you for your submission");
+              for (var phrase in phrasesToFilter) {
+                if (data['body'].contains(phrase)) {
+                  return false;
+                }
+              }
+              return true;
             }).toList();
 
             return ListView(
@@ -576,11 +603,11 @@ class RedditComments extends ConsumerWidget {
                       ),
                       if (comments.isEmpty)
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(18.0),
                           child: Text(
-                            'No answers yet',
+                            'No discussion here',
                             style: TextStyle(
-                              color: Theme.of(context).highlightColor,
+                              color: const Color.fromARGB(182, 255, 0, 0),
                               fontSize: textSize + 2,
                             ),
                           ),

@@ -7,8 +7,6 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-// feed of r/EnglishLearning vocabulary flair
-
 // Define your RedditState class
 class RedditState {
   final String? accessToken;
@@ -73,7 +71,7 @@ class RedditNotifier extends StateNotifier<RedditState> {
       return data['children']
           .where((post) =>
               !post['data']['stickied'] &&
-              post['data']['link_flair_text'] == '⭐️ Vocabulary / Semantics')
+              post['data']['link_flair_text'] == '🗣 Discussion / Debates')
           .toList();
     } else {
       throw Exception('Failed to load posts');
@@ -116,16 +114,16 @@ final redditProvider =
   return RedditNotifier();
 });
 
-// Define your RedditVocabulary widget
-class RedditVocabulary extends ConsumerStatefulWidget {
-  const RedditVocabulary({super.key});
+// Define your RedditDiscussion widget
+class RedditDiscussion extends ConsumerStatefulWidget {
+  const RedditDiscussion({super.key});
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() =>
-      _RedditVocabularyState();
+      _RedditDiscussionState();
 }
 
-class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
+class _RedditDiscussionState extends ConsumerState<RedditDiscussion> {
   List<dynamic> _posts = [];
   bool _isLoading = false;
 
@@ -188,7 +186,7 @@ class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Learn vocabulary',
+                          'English Discussion',
                           style: TextStyle(
                             color: Theme.of(context).highlightColor,
                             fontSize: textSize + 4,
@@ -267,7 +265,7 @@ class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
                                   : null,
                               onTap: () {
                                 Routemaster.of(context).push(
-                                    '/english-subreddit/reddit-vocabulary/post/${post['id']}');
+                                    '/english-subreddit/reddit-discussion/post/${post['id']}');
                               },
                             ),
                           ),

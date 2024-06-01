@@ -7,24 +7,8 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-// feed of r/EnglishLearning vocabulary flair
+// feed of r/grammar
 
-// Define your RedditState class
-class RedditState {
-  final String? accessToken;
-  final String? after;
-
-  RedditState({this.accessToken, this.after});
-
-  RedditState copyWith({String? accessToken, String? after}) {
-    return RedditState(
-      accessToken: accessToken ?? this.accessToken,
-      after: after ?? this.after,
-    );
-  }
-}
-
-// Define your RedditNotifier class
 class RedditNotifier extends StateNotifier<RedditState> {
   RedditNotifier() : super(RedditState());
 
@@ -59,8 +43,8 @@ class RedditNotifier extends StateNotifier<RedditState> {
     if (state.accessToken == null) await fetchAccessToken();
 
     final url = loadMore && state.after != null
-        ? 'https://oauth.reddit.com/r/EnglishLearning/hot?after=${state.after}'
-        : 'https://oauth.reddit.com/r/EnglishLearning/hot';
+        ? 'https://oauth.reddit.com/r/asklinguistics/hot?after=${state.after}'
+        : 'https://oauth.reddit.com/r/asklinguistics/hot';
 
     final response = await http.get(
       Uri.parse(url),
@@ -71,9 +55,7 @@ class RedditNotifier extends StateNotifier<RedditState> {
       final data = json.decode(response.body)['data'];
       state = state.copyWith(after: data['after']);
       return data['children']
-          .where((post) =>
-              !post['data']['stickied'] &&
-              post['data']['link_flair_text'] == '⭐️ Vocabulary / Semantics')
+          .where((post) => !post['data']['stickied'])
           .toList();
     } else {
       throw Exception('Failed to load posts');
@@ -110,22 +92,34 @@ class RedditNotifier extends StateNotifier<RedditState> {
   }
 }
 
-// Define your provider
+class RedditState {
+  final String? accessToken;
+  final String? after;
+
+  RedditState({this.accessToken, this.after});
+
+  RedditState copyWith({String? accessToken, String? after}) {
+    return RedditState(
+      accessToken: accessToken ?? this.accessToken,
+      after: after ?? this.after,
+    );
+  }
+}
+
 final redditProvider =
     StateNotifierProvider<RedditNotifier, RedditState>((ref) {
   return RedditNotifier();
 });
 
-// Define your RedditVocabulary widget
-class RedditVocabulary extends ConsumerStatefulWidget {
-  const RedditVocabulary({super.key});
+class RedditLinguistics extends ConsumerStatefulWidget {
+  const RedditLinguistics({super.key});
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() =>
-      _RedditVocabularyState();
+      _RedditLinguisticsState();
 }
 
-class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
+class _RedditLinguisticsState extends ConsumerState<RedditLinguistics> {
   List<dynamic> _posts = [];
   bool _isLoading = false;
 
@@ -188,7 +182,7 @@ class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Learn vocabulary',
+                          'Learn linguistics',
                           style: TextStyle(
                             color: Theme.of(context).highlightColor,
                             fontSize: textSize + 4,
@@ -233,7 +227,7 @@ class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
                             border: Border.all(
                               color: Theme.of(context)
                                   .primaryColor
-                                  .withOpacity(0.5),
+                                  .withOpacity(0.3),
                               width: 1.0,
                             ),
                             borderRadius:
@@ -267,7 +261,7 @@ class _RedditVocabularyState extends ConsumerState<RedditVocabulary> {
                                   : null,
                               onTap: () {
                                 Routemaster.of(context).push(
-                                    '/english-subreddit/reddit-vocabulary/post/${post['id']}');
+                                    '/english-subreddit/reddit-linguistics/post/${post['id']}');
                               },
                             ),
                           ),

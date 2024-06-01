@@ -7,6 +7,9 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+
+// feed of r/EnglishLearning
 
 class RedditNotifier extends StateNotifier<RedditState> {
   RedditNotifier() : super(RedditState());
@@ -194,39 +197,117 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                               ),
                             ),
                             const SizedBox(height: 15),
-                            Row(
-                              children: [
-                                ElevatedButton(
-                                  onPressed: () {
-                                    Routemaster.of(context).push(
-                                        '/english-subreddit/reddit-grammar');
-                                  },
-                                  child: Text(
-                                    'Grammar',
-                                    style: TextStyle(
-                                      color: Theme.of(context).highlightColor,
-                                      fontSize: textSize + 1,
-                                      // fontWeight: FontWeight.bold,
+                            SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                children: [
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-discussion');
+                                    },
+                                    child: Text(
+                                      'English Discussion',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
-                                ),
-                                const SizedBox(width: 15),
-                                ElevatedButton(
-                                  onPressed: () {
-                                    Routemaster.of(context).push(
-                                        '/english-subreddit/reddit-vocabulary');
-                                  },
-                                  child: Text(
-                                    'Vocabulary',
-                                    style: TextStyle(
-                                      color: Theme.of(context).highlightColor,
-                                      fontSize: textSize + 1,
-                                      // fontWeight: FontWeight.bold,
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-grammar');
+                                    },
+                                    child: Text(
+                                      'EFL Grammar',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
-                            ),
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-grammar-two');
+                                    },
+                                    child: Text(
+                                      'Native Grammar',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-vocabulary-two');
+                                    },
+                                    child: Text(
+                                      'Vocabulary',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-vocabulary-three');
+                                    },
+                                    child: Text(
+                                      'Advanced vocabulary',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-etymology');
+                                    },
+                                    child: Text(
+                                      'Etymology',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(width: 15),
+                                  ElevatedButton(
+                                    onPressed: () {
+                                      Routemaster.of(context).push(
+                                          '/english-subreddit/reddit-linguistics');
+                                    },
+                                    child: Text(
+                                      'Linguistics',
+                                      style: TextStyle(
+                                        color: Theme.of(context).highlightColor,
+                                        fontSize: textSize - 3,
+                                        // fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            )
                           ],
                         ),
                       ),
@@ -325,6 +406,31 @@ class RedditComments extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
+    final FlutterTts flutterTts = FlutterTts();
+
+    Future<void> speakBritish(String text) async {
+      await flutterTts.setLanguage("en-GB");
+      await flutterTts.setPitch(1.0);
+      await flutterTts.speak(text);
+    }
+
+    Future<void> speakAmerican(String text) async {
+      await flutterTts.setLanguage("en-US");
+      await flutterTts.setPitch(1.0);
+      await flutterTts.speak(text);
+    }
+
+    Future<void> stop() async {
+      await flutterTts.stop();
+    }
+
+    // Future<void> forward() async {
+    //   // Add functionality to move forward in the text (if supported)
+    // }
+
+    // Future<void> backward() async {
+    //   // Add functionality to move backward in the text (if supported)
+    // }
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -352,7 +458,13 @@ class RedditComments extends ConsumerWidget {
             );
           } else {
             final post = snapshot.data![0] as Map<String, dynamic>;
-            final comments = snapshot.data![1] as List<dynamic>;
+            List<dynamic> comments = snapshot.data![1] as List<dynamic>;
+
+            // Filter out comments that include "Thank you for your submission"
+            comments = comments.where((comment) {
+              final data = comment['data'];
+              return !data['body'].contains("Thank you for your submission");
+            }).toList();
 
             return ListView(
               children: [
@@ -369,33 +481,83 @@ class RedditComments extends ConsumerWidget {
                         ),
                       ),
                       const SizedBox(height: 10),
-                      ListTile(
-                        title: MarkdownBody(
-                          data: post['selftext'] ?? '',
-                          styleSheet: MarkdownStyleSheet(
-                            p: TextStyle(
-                              fontSize: textSize + 2,
+                      Column(
+                        children: [
+                          Row(
+                            children: [
+                              // IconButton(
+                              //   icon: const Icon(Icons.fast_rewind),
+                              //   onPressed: () => backward(),
+                              // ),
+                              IconButton(
+                                icon: Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: Colors.blue, width: 1.0),
+                                  ),
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: Colors.blue,
+                                    size: textSize - 3,
+                                  ),
+                                ),
+                                onPressed: () =>
+                                    speakBritish(post['selftext'] ?? ''),
+                              ),
+                              IconButton(
+                                icon: Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: const Color.fromARGB(
+                                            182, 255, 0, 0),
+                                        width: 1.0),
+                                  ),
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: const Color.fromARGB(182, 255, 0, 0),
+                                    size: textSize - 3,
+                                  ),
+                                ),
+                                onPressed: () =>
+                                    speakAmerican(post['selftext'] ?? ''),
+                              ),
+                              IconButton(
+                                icon: Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    border: Border.all(
+                                        color: Colors.blue, width: 1.0),
+                                  ),
+                                  padding: const EdgeInsets.all(6.0),
+                                  child: Icon(
+                                    Icons.pause,
+                                    color: Colors.blue,
+                                    size: textSize - 3,
+                                  ),
+                                ),
+                                onPressed: () => stop(),
+                              ),
+                              // IconButton(
+                              //   icon: const Icon(Icons.fast_forward),
+                              //   onPressed: () => forward(),
+                              // ),
+                            ],
+                          ),
+                          ListTile(
+                            title: MarkdownBody(
+                              data: post['selftext'] ?? '',
+                              styleSheet: MarkdownStyleSheet(
+                                p: TextStyle(
+                                  fontSize: textSize + 2,
+                                ),
+                              ),
                             ),
                           ),
-                        ),
-                        // subtitle: post['thumbnail'] != null &&
-                        //         post['thumbnail'] != '' &&
-                        //         post['thumbnail'] != 'self'
-                        //     ? Padding(
-                        //         padding: const EdgeInsets.only(
-                        //             top: 20.0,
-                        //             left: 6.0,
-                        //             right: 6.0,
-                        //             bottom: 6.0),
-                        //         child: ClipRRect(
-                        //           borderRadius: BorderRadius.circular(18.0),
-                        //           child: Image.network(
-                        //             post['thumbnail'],
-                        //             fit: BoxFit.cover,
-                        //           ),
-                        //         ),
-                        //       )
-                        //     : null,
+                        ],
                       ),
                       if (post['url_overridden_by_dest'] != null &&
                           post['post_hint'] == 'image')
@@ -449,13 +611,86 @@ class RedditComments extends ConsumerWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              MarkdownBody(
-                                data: data['body'],
-                                styleSheet: MarkdownStyleSheet(
-                                  p: TextStyle(
-                                    fontSize: textSize + 2,
+                              Column(
+                                children: [
+                                  Center(
+                                    child: Row(
+                                      children: [
+                                        // IconButton(
+                                        //   icon: const Icon(Icons.fast_rewind),
+                                        //   onPressed: () => backward(),
+                                        // ),
+                                        IconButton(
+                                          icon: Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              border: Border.all(
+                                                  color: Colors.blue,
+                                                  width: 1.0),
+                                            ),
+                                            padding: const EdgeInsets.all(6.0),
+                                            child: Icon(
+                                              Icons.play_arrow,
+                                              color: Colors.blue,
+                                              size: textSize - 3,
+                                            ),
+                                          ),
+                                          onPressed: () =>
+                                              speakBritish(data['body']),
+                                        ),
+                                        IconButton(
+                                          icon: Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              border: Border.all(
+                                                  color: const Color.fromARGB(
+                                                      182, 255, 0, 0),
+                                                  width: 1.0),
+                                            ),
+                                            padding: const EdgeInsets.all(6.0),
+                                            child: Icon(
+                                              Icons.play_arrow,
+                                              color: const Color.fromARGB(
+                                                  182, 255, 0, 0),
+                                              size: textSize - 3,
+                                            ),
+                                          ),
+                                          onPressed: () => speakAmerican(
+                                              post['selftext'] ?? ''),
+                                        ),
+                                        IconButton(
+                                          icon: Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                              border: Border.all(
+                                                  color: Colors.blue,
+                                                  width: 1.0),
+                                            ),
+                                            padding: const EdgeInsets.all(6.0),
+                                            child: Icon(
+                                              Icons.pause,
+                                              color: Colors.blue,
+                                              size: textSize - 3,
+                                            ),
+                                          ),
+                                          onPressed: () => stop(),
+                                        ),
+                                        // IconButton(
+                                        //   icon: const Icon(Icons.fast_forward),
+                                        //   onPressed: () => forward(),
+                                        // ),
+                                      ],
+                                    ),
                                   ),
-                                ),
+                                  MarkdownBody(
+                                    data: data['body'],
+                                    styleSheet: MarkdownStyleSheet(
+                                      p: TextStyle(
+                                        fontSize: textSize + 2,
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
@@ -472,3 +707,26 @@ class RedditComments extends ConsumerWidget {
     );
   }
 }
+
+
+
+
+
+// subtitle: post['thumbnail'] != null &&
+                        //         post['thumbnail'] != '' &&
+                        //         post['thumbnail'] != 'self'
+                        //     ? Padding(
+                        //         padding: const EdgeInsets.only(
+                        //             top: 20.0,
+                        //             left: 6.0,
+                        //             right: 6.0,
+                        //             bottom: 6.0),
+                        //         child: ClipRRect(
+                        //           borderRadius: BorderRadius.circular(18.0),
+                        //           child: Image.network(
+                        //             post['thumbnail'],
+                        //             fit: BoxFit.cover,
+                        //           ),
+                        //         ),
+                        //       )
+                        //     : null,

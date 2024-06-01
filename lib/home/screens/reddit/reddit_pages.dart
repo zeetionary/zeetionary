@@ -708,10 +708,6 @@ class RedditComments extends ConsumerWidget {
   }
 }
 
-
-
-
-
 // subtitle: post['thumbnail'] != null &&
                         //         post['thumbnail'] != '' &&
                         //         post['thumbnail'] != 'self'

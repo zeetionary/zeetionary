@@ -896,7 +896,7 @@ class KurdishVocabulary extends ConsumerWidget {
           text,
           style: TextStyle(
             fontSize: textSize + 4, // change size back to + 2
-            fontWeight: FontWeight.w800,
+            // fontWeight: FontWeight.w800,
           ),
           textAlign: TextAlign.right,
           textDirection: TextDirection.rtl,

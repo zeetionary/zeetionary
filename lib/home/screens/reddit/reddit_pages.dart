@@ -655,8 +655,8 @@ class RedditComments extends ConsumerWidget {
                                               size: textSize - 3,
                                             ),
                                           ),
-                                          onPressed: () => speakAmerican(
-                                              post['selftext'] ?? ''),
+                                          onPressed: () =>
+                                              speakAmerican(data['body']),
                                         ),
                                         IconButton(
                                           icon: Container(

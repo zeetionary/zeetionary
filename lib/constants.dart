@@ -96,7 +96,6 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 //     );
 //   }
 // }
-
 class ZeetionaryAppbarStyle extends ConsumerStatefulWidget {
   const ZeetionaryAppbarStyle({super.key});
 
@@ -1083,7 +1082,7 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
   @override
   // Widget build(BuildContext context, WidgetRef ref) {
   Widget build(BuildContext context) {
-    final textSize = ref.watch(textSizeProvider) + 1;
+    final textSize = ref.watch(textSizeProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
@@ -1105,7 +1104,7 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                   child: Text(
                     widget.text,
                     style: TextStyle(
-                      fontSize: textSize,
+                      fontSize: textSize + 1,
                       fontWeight: FontWeight.w400,
                     ),
                     textDirection: TextDirection.ltr,
@@ -1116,8 +1115,8 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize:
-                      textSize, // Optional: Adjust size for flush appearance
+                  iconSize: textSize +
+                      1, // Optional: Adjust size for flush appearance
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;
@@ -1209,7 +1208,7 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
   @override
   // Widget build(BuildContext context, WidgetRef ref) {
   Widget build(BuildContext context) {
-    final textSize = ref.watch(textSizeProvider) + 1;
+    final textSize = ref.watch(textSizeProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
@@ -1222,8 +1221,8 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize:
-                      textSize, // Optional: Adjust size for flush appearance
+                  iconSize: textSize +
+                      1, // Optional: Adjust size for flush appearance
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;
@@ -1250,7 +1249,7 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                     child: Text(
                       widget.text,
                       style: TextStyle(
-                        fontSize: textSize,
+                        fontSize: textSize + 1,
                         fontWeight: FontWeight.w400,
                       ),
                       textDirection: TextDirection.rtl,
@@ -1338,7 +1337,7 @@ class CustomIconButtonBritish extends ConsumerWidget {
         child: Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: textSize - 6, 
+          size: textSize - 6,
         ),
       ),
       onPressed: onPressed,
@@ -1440,8 +1439,8 @@ class EnglishMeaningConst extends ConsumerWidget {
               },
               child: Text(
                 text,
-                style:
-                    TextStyle(fontSize: textSize + 2, fontWeight: FontWeight.w400),
+                style: TextStyle(
+                    fontSize: textSize + 2, fontWeight: FontWeight.w400),
               ),
             ),
           ],
@@ -1835,4 +1834,115 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       ),
     );
   }
+}
+
+// database below
+// database below
+// database below
+// database below
+// database below
+// database below
+// database below
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+// Define a provider for text size
+// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+
+// Define a function to highlight English keywords
+
+// Define a provider for text size
+// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+
+// Define a function to highlight English keywords
+
+Widget highlightEnglishKeywords(
+    BuildContext context, WidgetRef ref, String text, List<String> keywords) {
+  final textSize = ref.watch(textSizeProvider);
+  final textSpans = <TextSpan>[];
+  final lowerCaseText = text.toLowerCase();
+
+  int start = 0;
+  for (final word in keywords) {
+    final wordLowerCase = word.toLowerCase();
+    int index = lowerCaseText.indexOf(wordLowerCase, start);
+    while (index != -1) {
+      if (index > start) {
+        textSpans.add(TextSpan(text: text.substring(start, index)));
+      }
+      textSpans.add(TextSpan(
+        text: text.substring(index, index + word.length),
+        style: TextStyle(backgroundColor: Colors.yellow, fontSize: textSize),
+      ));
+      start = index + word.length;
+      index = lowerCaseText.indexOf(wordLowerCase, start);
+    }
+  }
+
+  if (start < text.length) {
+    textSpans.add(TextSpan(text: text.substring(start)));
+  }
+
+  return RichText(
+    text: TextSpan(
+      style:
+          TextStyle(color: Theme.of(context).primaryColor, fontSize: textSize),
+      children: textSpans,
+    ),
+  );
+}
+
+// Define a function to highlight French keywords
+Widget highlightFrenchKeywords(
+    BuildContext context, WidgetRef ref, String text, List<String> keywords) {
+  final textSize = ref.watch(textSizeProvider);
+  final textSpans = <TextSpan>[];
+  final lowerCaseText = text.toLowerCase();
+
+  int start = 0;
+  for (final word in keywords) {
+    final wordLowerCase = word.toLowerCase();
+    int index = lowerCaseText.indexOf(wordLowerCase, start);
+    while (index != -1) {
+      if (index > start) {
+        textSpans.add(TextSpan(text: text.substring(start, index)));
+      }
+      textSpans.add(TextSpan(
+        text: text.substring(index, index + word.length),
+        style: TextStyle(
+          backgroundColor: Colors.blue,
+          fontSize: textSize + 1,
+          fontWeight: FontWeight.w400,
+        ),
+      ));
+      start = index + word.length;
+      index = lowerCaseText.indexOf(wordLowerCase, start);
+    }
+  }
+
+  if (start < text.length) {
+    textSpans.add(TextSpan(text: text.substring(start)));
+  }
+
+  return Padding(
+    padding: const EdgeInsets.symmetric(horizontal: 10.0),
+    child: RichText(
+      text: TextSpan(
+        style: TextStyle(
+          color: Theme.of(context).primaryColor,
+          fontSize: textSize + 1,
+          fontWeight: FontWeight.w400,
+        ),
+        children: textSpans,
+      ),
+    ),
+  );
 }

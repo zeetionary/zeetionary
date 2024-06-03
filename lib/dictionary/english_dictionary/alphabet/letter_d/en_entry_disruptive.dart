@@ -230,7 +230,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He warned that her presence was potentially disruptive."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He warned that her presence was potentially disruptive."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisruptives3(String languageCode) async {
@@ -238,7 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Printing in 3D is a disruptive technology which may transform manufacturing."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Printing in 3D is a disruptive technology which may transform manufacturing."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdisruptives4(String languageCode) async {
@@ -404,7 +406,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تێکدەر، گێرەشێوێن، خومەشێوێنکە، شێوێنەر
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەبێتە هۆکاری کێشە بەشێوەیەک کە شتێک بە ئاسایی نەتوانێت بەرەو پێشەوە بچێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) کە دەبێتە هۆکاری کێشە بەشێوەیەک کە شتێک بە ئاسایی نەتوانێت بەرەو پێشەوە بچێت"),
           Row(
             children: [
               const Expanded(
@@ -413,7 +417,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "She had a disruptive influence on the rest of the class."),
-                    ExampleSentenceKurdish(text: "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە هەبوو."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە هەبوو."),
                   ],
                 ),
               ),
@@ -438,8 +444,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He warned that her presence was potentially disruptive."),
-                    ExampleSentenceKurdish(text: "ئاگاداری ئەوەی دا کە بوونی لەوێ ئەکرا مایەی گێرەشێوێنی بێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He warned that her presence was potentially disruptive."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئاگاداری ئەوەی دا کە بوونی لەوێ ئەکرا مایەی گێرەشێوێنی بێت."),
                   ],
                 ),
               ),
@@ -457,15 +467,21 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) تازە و ڕەسەن بەشێوەیەک کە کاریگەری گەورەی دەبێت لەسەر شێوەی کردنی شتێک"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ھاوەڵناو) تازە و ڕەسەن بەشێوەیەک کە کاریگەری گەورەی دەبێت لەسەر شێوەی کردنی شتێک"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Printing in 3D is a disruptive technology which may transform manufacturing."),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "Printing in 3D is a disruptive technology which may transform manufacturing."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "چاپی سێ دووری تەکنەلۆژیایەکی داهێنەرانەیە کە دەکرێت پیشەسازیی بەرهەمهێنان بگۆڕێت."),
                   ],
                 ),
               ),

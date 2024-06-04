@@ -51,7 +51,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    SentencesIconForTab(), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(),
                     VideoIconForTab(),
                   ],
                 ),
@@ -82,7 +82,7 @@ class SentencesFromDatabase extends StatefulWidget {
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   List<Map<String, dynamic>> sentences = [];
   List<String> keywords = ['dopsum1'];
-  String keywordLanguage = 'english'; // Can be 'english' or 'french'
+  String keywordLanguage = 'english';
 
   FlutterTts flutterTts = FlutterTts();
 

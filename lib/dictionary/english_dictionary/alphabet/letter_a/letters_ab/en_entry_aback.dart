@@ -51,7 +51,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
-                    Icon(Icons.list), // New tab for SentencesFromDatabase
+                    SentencesIconForTab(), // New tab for SentencesFromDatabase
                     VideoIconForTab(),
                   ],
                 ),
@@ -62,7 +62,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
-              SentencesFromDatabase(), // New SentencesFromDatabase tab
+              const SentencesFromDatabase(), // New SentencesFromDatabase tab
               const YoutubeVideos(),
             ],
           ),
@@ -75,16 +75,13 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
 class SentencesFromDatabase extends StatefulWidget {
   const SentencesFromDatabase({super.key});
 
-  // @override
-  // _SentencesFromDatabaseState createState() => _SentencesFromDatabaseState();
-
   @override
-State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
+  State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['are'];
+  List<String> keywords = ['good'];
   String keywordLanguage = 'english'; // Can be 'english' or 'french'
 
   FlutterTts flutterTts = FlutterTts();
@@ -101,7 +98,8 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 
   void _fetchSentences() {
-    final data = SentenceDatabase.instance.filterSentencesByKeywords(keywords, keywordLanguage);
+    final data = SentenceDatabase.instance
+        .filterSentencesByKeywords(keywords, keywordLanguage);
     setState(() {
       sentences = data;
     });
@@ -126,37 +124,34 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
                     final englishSentence = sentences[index]['english'];
                     final frenchSentence = sentences[index]['french'];
 
-                    return Row(
+                    return Column(
                       children: [
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              highlightEnglishKeywords(context, ref, englishSentence, keywords),
-                              Directionality(
-                                textDirection: TextDirection.rtl,
-                                child: Align(
-                                  alignment: Alignment.topRight,
-                                  child: highlightFrenchKeywords(context, ref, frenchSentence, keywords),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Column(
+                        Row(
                           children: [
-                            CustomIconButtonBritish(
-                              onPressed: () {
-                                _speak(englishSentence, 'en-GB');
-                              },
+                            SentencesFromDatabaseWidget(
+                              englishSentence: englishSentence,
+                              keywords: keywords,
+                              frenchSentence: frenchSentence,
                             ),
-                            CustomIconButtonAmerican(
-                              onPressed: () {
-                                _speak(englishSentence, 'en-US');
-                              },
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () {
+                                    _speak(englishSentence, 'en-GB');
+                                  },
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () {
+                                    _speak(englishSentence, 'en-US');
+                                  },
+                                ),
+                              ],
                             ),
                           ],
                         ),
+                        // Add the divider here
+                        if (index < sentences.length - 1)
+                          const DividerSentences(),
                       ],
                     );
                   },

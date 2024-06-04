@@ -490,6 +490,18 @@ class VideoIconForTab extends ConsumerWidget {
   }
 }
 
+class SentencesIconForTab extends ConsumerWidget {
+  const SentencesIconForTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 5;
+    return Icon(Icons.list, size: textSize + 3);
+  }
+}
+
 class KurdIconForTab extends ConsumerWidget {
   const KurdIconForTab({
     super.key,
@@ -1864,6 +1876,10 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
 
 // Define a function to highlight English keywords
 
+// Define a provider for text size
+// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+
+// Define a function to highlight English keywords
 Widget highlightEnglishKeywords(
     BuildContext context, WidgetRef ref, String text, List<String> keywords) {
   final textSize = ref.watch(textSizeProvider);
@@ -1880,7 +1896,9 @@ Widget highlightEnglishKeywords(
       }
       textSpans.add(TextSpan(
         text: text.substring(index, index + word.length),
-        style: TextStyle(backgroundColor: Colors.yellow, fontSize: textSize),
+        style: TextStyle(
+            backgroundColor: Colors.yellow.withOpacity(0.4),
+            fontSize: textSize),
       ));
       start = index + word.length;
       index = lowerCaseText.indexOf(wordLowerCase, start);
@@ -1918,10 +1936,8 @@ Widget highlightFrenchKeywords(
       textSpans.add(TextSpan(
         text: text.substring(index, index + word.length),
         style: TextStyle(
-          backgroundColor: Colors.blue,
-          fontSize: textSize + 1,
-          fontWeight: FontWeight.w400,
-        ),
+            backgroundColor: Colors.yellow.withOpacity(0.4),
+            fontSize: textSize),
       ));
       start = index + word.length;
       index = lowerCaseText.indexOf(wordLowerCase, start);
@@ -1932,17 +1948,47 @@ Widget highlightFrenchKeywords(
     textSpans.add(TextSpan(text: text.substring(start)));
   }
 
-  return Padding(
-    padding: const EdgeInsets.symmetric(horizontal: 10.0),
-    child: RichText(
-      text: TextSpan(
-        style: TextStyle(
-          color: Theme.of(context).primaryColor,
-          fontSize: textSize + 1,
-          fontWeight: FontWeight.w400,
-        ),
-        children: textSpans,
-      ),
+  return RichText(
+    text: TextSpan(
+      style:
+          TextStyle(color: Theme.of(context).primaryColor, fontSize: textSize),
+      children: textSpans,
     ),
   );
+}
+
+class SentencesFromDatabaseWidget extends ConsumerWidget {
+  const SentencesFromDatabaseWidget({
+    super.key,
+    required this.englishSentence,
+    required this.keywords,
+    required this.frenchSentence,
+  });
+
+  final englishSentence;
+  final List<String> keywords;
+  final frenchSentence;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            highlightEnglishKeywords(context, ref, englishSentence, keywords),
+            Directionality(
+              textDirection: TextDirection.rtl,
+              child: Align(
+                alignment: Alignment.topRight,
+                child: highlightFrenchKeywords(
+                    context, ref, frenchSentence, keywords),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
 }

@@ -43,9 +43,15 @@ class SentenceDatabase {
   }
 
   Future<void> initialize() async {
-    await insertSentence('Hello, how are you?', 'Bonjour, comment ça va?');
-    await insertSentence('Good morning', 'Bonjour');
-    await insertSentence('Welcome to the app', 'Bienvenue dans l\'application');
+    await insertSentence("Hello, how are you?", "سڵاو، چۆنیت؟'");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good mornjing!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
+    await insertSentence("Good morning!", "بەیانی باش!");
     await fetchSentences();
   }
 
@@ -65,7 +71,8 @@ class SentenceDatabase {
     sentences = data;
   }
 
-  List<Map<String, dynamic>> filterSentencesByKeywords(List<String> keywords, String language) {
+  List<Map<String, dynamic>> filterSentencesByKeywords(
+      List<String> keywords, String language) {
     final filteredSentences = <Map<String, dynamic>>[];
 
     for (var sentence in sentences) {
@@ -73,7 +80,8 @@ class SentenceDatabase {
           ? sentence['english'].toLowerCase()
           : sentence['french'].toLowerCase();
       if (keywords.any((keyword) => text.contains(keyword.toLowerCase()))) {
-        if (!filteredSentences.any((s) => s['english'] == sentence['english'])) {
+        if (!filteredSentences
+            .any((s) => s['english'] == sentence['english'])) {
           filteredSentences.add(sentence);
         }
       }

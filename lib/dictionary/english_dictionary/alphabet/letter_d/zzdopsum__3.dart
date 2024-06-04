@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -19,9 +21,19 @@ class EnglishEntrydopsum1 extends StatefulWidget {
 
 class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
   @override
+  void initState() {
+    super.initState();
+    _initDatabase();
+  }
+
+  Future<void> _initDatabase() async {
+    await SentenceDatabase.instance.initialize();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
@@ -39,6 +51,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
+                    SentencesIconForTab(), // New tab for SentencesFromDatabase
                     VideoIconForTab(),
                   ],
                 ),
@@ -49,10 +62,104 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
             children: [
               const EnglishMeaning(),
               KurdishMeaning(),
+              const SentencesFromDatabase(), // New SentencesFromDatabase tab
               const YoutubeVideos(),
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class SentencesFromDatabase extends StatefulWidget {
+  const SentencesFromDatabase({super.key});
+
+  @override
+  State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
+}
+
+class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
+  List<Map<String, dynamic>> sentences = [];
+  List<String> keywords = ['dopsum1'];
+  String keywordLanguage = 'english'; // Can be 'english' or 'french'
+
+  FlutterTts flutterTts = FlutterTts();
+
+  @override
+  void initState() {
+    super.initState();
+    _initDatabase();
+  }
+
+  Future<void> _initDatabase() async {
+    await SentenceDatabase.instance.initialize();
+    _fetchSentences();
+  }
+
+  void _fetchSentences() {
+    final data = SentenceDatabase.instance
+        .filterSentencesByKeywords(keywords, keywordLanguage);
+    setState(() {
+      sentences = data;
+    });
+  }
+
+  Future<void> _speak(String text, String language) async {
+    await flutterTts.setLanguage(language);
+    await flutterTts.speak(text);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Consumer(
+        builder: (context, ref, child) {
+          return Column(
+            children: [
+              Expanded(
+                child: ListView.builder(
+                  itemCount: sentences.length,
+                  itemBuilder: (context, index) {
+                    final englishSentence = sentences[index]['english'];
+                    final frenchSentence = sentences[index]['french'];
+
+                    return Column(
+                      children: [
+                        Row(
+                          children: [
+                            SentencesFromDatabaseWidget(
+                              englishSentence: englishSentence,
+                              keywords: keywords,
+                              frenchSentence: frenchSentence,
+                            ),
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () {
+                                    _speak(englishSentence, 'en-GB');
+                                  },
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () {
+                                    _speak(englishSentence, 'en-US');
+                                  },
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        // Add the divider here
+                        if (index < sentences.length - 1)
+                          const DividerSentences(),
+                      ],
+                    );
+                  },
+                ),
+              ),
+            ],
+          );
+        },
       ),
     );
   }

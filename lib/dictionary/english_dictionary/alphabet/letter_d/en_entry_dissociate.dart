@@ -81,7 +81,7 @@ class SentencesFromDatabase extends StatefulWidget {
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['dissociate'];
+  List<String> keywords = ['dissociat'];
   String keywordLanguage = 'english';
 
   FlutterTts flutterTts = FlutterTts();

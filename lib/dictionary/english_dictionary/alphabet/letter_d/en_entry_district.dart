@@ -12,14 +12,14 @@ import 'package:zeetionary/dictionary/database_sentences.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydistinctly extends StatefulWidget {
-  const EnglishEntrydistinctly({super.key});
+class EnglishEntrydistrict extends StatefulWidget {
+  const EnglishEntrydistrict({super.key});
 
   @override
-  State<EnglishEntrydistinctly> createState() => _EnglishEntrydistinctlyState();
+  State<EnglishEntrydistrict> createState() => _EnglishEntrydistrictState();
 }
 
-class _EnglishEntrydistinctlyState extends State<EnglishEntrydistinctly> {
+class _EnglishEntrydistrictState extends State<EnglishEntrydistrict> {
   @override
   void initState() {
     super.initState();
@@ -81,7 +81,7 @@ class SentencesFromDatabase extends StatefulWidget {
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['distinctly'];
+  List<String> keywords = ['district'];
   String keywordLanguage = 'english';
 
   FlutterTts flutterTts = FlutterTts();
@@ -201,7 +201,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "distinctly");
+    return const EntryTitle(word: "district");
   }
 }
 
@@ -212,7 +212,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: distinctly");
+    return const AlsoEnglish(word: "also: district");
   }
 }
 
@@ -239,7 +239,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /dɪˈstɪŋktli/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdɪstrɪkt/");
   }
 }
 
@@ -250,18 +250,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdistinctly(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistrict(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinctly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("district"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdistinctly("en-GB"),
+      onPressed: () => speakdistrict("en-GB"),
     );
   }
 }
@@ -289,7 +289,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /dɪˈstɪŋktli/");
+    return const IPAofEnglish(text: "IpaUS: /ˈdɪstrɪkt/");
   }
 }
 
@@ -300,18 +300,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdistinctly(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistrict(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("distinctly"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("district"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdistinctly("en-US"),
+      onPressed: () => speakdistrict("en-US"),
     );
   }
 }
@@ -323,185 +323,187 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdistinctlys1(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts1(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Every city has its central business district."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdistricts2(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I distinctly heard someone calling me."); // DOPSUM: CHANGE TEXT
+        .speak("The house is in a historic district."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys2(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts3(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He could remember everything very distinctly."); // DOPSUM: CHANGE TEXT
+        "The hotel is located within Beijing's business district."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys3(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts4(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The two techniques are distinctly different."); // DOPSUM: CHANGE TEXT
+        "They redrew districts to make sure Republican candidates would win."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys4(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts5(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is distinctly possible that she will lose."); // DOPSUM: CHANGE TEXT
+        "The hospital is only responsible for patients within its own district."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys5(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts6(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He looked distinctly uncomfortable."); // DOPSUM: CHANGE TEXT
+        .speak("It's a heavily Democratic district."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys6(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts7(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He represented his district in Congress."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys7(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts8(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys8(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts9(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys9(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts10(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts_1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys10(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts11(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys_1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys11(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts12(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys12(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts13(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys13(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts14(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys14(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts15(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys15(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts16(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys16(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts17(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys17(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts18(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys18(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts19(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys19(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts20(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts_2000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys20(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts21(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys_2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts2100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdistinctlys21(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
+  Future<void> speakdistricts22(String languageCode) async {
+    // DOPSUM: CHANGE speakdistrict
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdistinctlys22(String languageCode) async {
-    // DOPSUM: CHANGE speakdistinctly
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdistinctlys2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdistricts2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -513,38 +515,39 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بە ئاشکرایی، بە ڕاشکاوی، بە شێوەیەکی دیار یان لەبەرچاو
+کوردی: ناوچە، دەڤەر، ناوان، مەڵبەند، هەرێم
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاسانی یان ڕوونی دەبیسترێت، دەبینرێت، هەستی پێدەکرێت، هتد"),
+                  "١. (ناو) ناوچەیەکی وڵاتێک یان شارۆچکەیەک کە تایبەتمەندی تەیبەتی هەیە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "I distinctly heard someone calling me."),
+                        text: "Every city has its central business district."),
                     ExampleSentenceKurdish(
-                        text: "بە ڕوونی گوێم لە کەسێک بوو بانگی کردم."),
+                        text:
+                            "هەموو شارێک مەڵبەندی ناوەندی بازرگانی خۆی هەیە."),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "distinctly", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "district", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys1("en-GB"),
+                    onPressed: () => speakdistricts1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys1("en-US"),
+                    onPressed: () => speakdistricts1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -552,9 +555,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "He could remember everything very distinctly."),
+                        text: "The house is in a historic district."),
                     ExampleSentenceKurdish(
-                        text: "دەیتوانی زۆر بە ڕوونی هەموو شتێکی بیربێتەوە."),
+                        text: "خانووەکە لە مەڵبەندێکی مێژووییە."),
                   ],
                 ),
               ),
@@ -562,10 +565,39 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys2("en-GB"),
+                    onPressed: () => speakdistricts2("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys2("en-US"),
+                    onPressed: () => speakdistricts2("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            "The hotel is located within Beijing's business district."),
+                    ExampleSentenceKurdish(
+                        text: "هوتێلەکە لە مەڵبەندی بازرگانیی بەیجینگە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdistricts3("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdistricts3("en-US"),
                   ),
                 ],
               ),
@@ -574,7 +606,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  "٢. (ھاوەڵکار) بەشێوەیەک کە بە ڕوونی خاسیەتێکی تێدایە کە دەبینرێت"),
+                  "٢. (ناو) یەکێک لەو ناوچانەی وڵاتێک، شارۆچکەیەک، یان ویلایەتێکی بەسەردا دابەشکراوە و سنووری فەرمی خۆیی هەیە"),
           // const DividerSentences(),
           Row(
             children: [
@@ -582,9 +614,11 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "The two techniques are distinctly different."),
+                        text:
+                            "They redrew districts to make sure Republican candidates would win."),
                     ExampleSentenceKurdish(
-                        text: "دوو تەکنیکەکە بە ئاشکرا جیاوازن."),
+                        text:
+                            "سنووری دەڤەرەکانیان دووبارە کێشایەوە بۆ ئەوەی دڵنیایی بکەنەوە کە بەربژێرەکانی کۆمارییەکان دەبەنەوە."),
                   ],
                 ),
               ),
@@ -592,45 +626,17 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys3("en-GB"),
+                    onPressed: () => speakdistricts4("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys3("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ھاوەڵکار) بە ئاستێکی ئێجگار زۆر یا بە دڵنیایی"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "It is distinctly possible that she will lose."),
-                    ExampleSentenceKurdish(text: "زۆر ڕێ تێدەچێت کە بدۆڕێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys4("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys4("en-US"),
+                    onPressed: () => speakdistricts4("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -638,8 +644,11 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "He looked distinctly uncomfortable."),
-                    ExampleSentenceKurdish(text: "زۆر ناڕەحەت دیاربوو."),
+                        text:
+                            "The hospital is only responsible for patients within its own district."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "نەخۆشخانەکە بەرپرسە تەنها بۆ ئەو نەخۆشانەی کە لە دەڤەرەکەی خۆیدان."),
                   ],
                 ),
               ),
@@ -647,24 +656,80 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdistinctlys5("en-GB"),
+                    onPressed: () => speakdistricts5("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdistinctlys5("en-US"),
+                    onPressed: () => speakdistricts5("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "It's a heavily Democratic district."),
+                    ExampleSentenceKurdish(
+                        text: "دەڤەرێکی تەواو سەر بە پارتی دیموکراتە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdistricts6("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdistricts6("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "He represented his district in Congress."),
+                    ExampleSentenceKurdish(
+                        text: "نوێنەرایەتی دەڤەرەکەیی دەکرد."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdistricts7("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdistricts7("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys600"),
+          //           ExampleSentenceEnglish(text: "speakdistricts800"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -673,24 +738,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys6("en-GB"),
+          //           onPressed: () => speakdistricts8("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys6("en-US"),
+          //           onPressed: () => speakdistricts8("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys700"),
+          //           ExampleSentenceEnglish(text: "speakdistricts900"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -699,24 +764,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys7("en-GB"),
+          //           onPressed: () => speakdistricts9("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys7("en-US"),
+          //           onPressed: () => speakdistricts9("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys800"),
+          //           ExampleSentenceEnglish(text: "speakdistricts_1000"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -725,24 +790,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys8("en-GB"),
+          //           onPressed: () => speakdistricts10("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys8("en-US"),
+          //           onPressed: () => speakdistricts10("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys900"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1100"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -751,24 +816,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys9("en-GB"),
+          //           onPressed: () => speakdistricts11("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys9("en-US"),
+          //           onPressed: () => speakdistricts11("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys_1000"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1200"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -777,24 +842,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys10("en-GB"),
+          //           onPressed: () => speakdistricts12("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys10("en-US"),
+          //           onPressed: () => speakdistricts12("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1100"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1300"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -803,24 +868,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys11("en-GB"),
+          //           onPressed: () => speakdistricts13("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys11("en-US"),
+          //           onPressed: () => speakdistricts13("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1200"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1400"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -829,24 +894,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys12("en-GB"),
+          //           onPressed: () => speakdistricts14("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys12("en-US"),
+          //           onPressed: () => speakdistricts14("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1300"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1500"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -855,24 +920,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys13("en-GB"),
+          //           onPressed: () => speakdistricts15("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys13("en-US"),
+          //           onPressed: () => speakdistricts15("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1400"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1600"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -881,24 +946,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys14("en-GB"),
+          //           onPressed: () => speakdistricts16("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys14("en-US"),
+          //           onPressed: () => speakdistricts16("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1500"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1700"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -907,24 +972,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys15("en-GB"),
+          //           onPressed: () => speakdistricts17("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys15("en-US"),
+          //           onPressed: () => speakdistricts17("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1600"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1800"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -933,24 +998,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys16("en-GB"),
+          //           onPressed: () => speakdistricts18("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys16("en-US"),
+          //           onPressed: () => speakdistricts18("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1700"),
+          //           ExampleSentenceEnglish(text: "speakdistricts1900"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -959,24 +1024,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys17("en-GB"),
+          //           onPressed: () => speakdistricts19("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys17("en-US"),
+          //           onPressed: () => speakdistricts19("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1800"),
+          //           ExampleSentenceEnglish(text: "speakdistricts_2000"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -985,24 +1050,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys18("en-GB"),
+          //           onPressed: () => speakdistricts20("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys18("en-US"),
+          //           onPressed: () => speakdistricts20("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys1900"),
+          //           ExampleSentenceEnglish(text: "speakdistricts2100"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -1011,24 +1076,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys19("en-GB"),
+          //           onPressed: () => speakdistricts21("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys19("en-US"),
+          //           onPressed: () => speakdistricts21("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys_2000"),
+          //           ExampleSentenceEnglish(text: "speakdistricts2200"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -1037,62 +1102,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys20("en-GB"),
+          //           onPressed: () => speakdistricts22("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys20("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys2100"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys21("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys21("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵکار) پێنناسە"),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: "speakdistinctlys2200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdistinctlys22("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdistinctlys22("en-US"),
+          //           onPressed: () => speakdistricts22("en-US"),
           //         ),
           //       ],
           //     ),
@@ -1146,15 +1159,11 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: distinctly 
-1. Clear to the mind; with distinct mental discernment (= clearly)
-"it's distinctly possible";
- 
-2، In a distinct and distinguishable manner
-"the subtleties of this distinctly British occasion"
- 
-3. To a distinct degree
-"urbanization in Spain is distinctly correlated with a fall in reproductive rate"
+- Noun: district (Derived forms: districts)
+1. A region marked off for administrative or other purposes (= territory, territorial dominion, dominion)
+
+- Verb: district (Derived forms: districts, districting, districted)
+1. Regulate housing in; of certain areas of towns (= zone)
 """,
   );
 
@@ -1187,8 +1196,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L1kYZHnHS0E?t=',
-    startSeconds: 126,
+    videoId: 'https://youtu.be/Fr-qagv7ig0?t=',
+    startSeconds: 605,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1212,8 +1221,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cee6883w2Nk?t=',
-    startSeconds: 589,
+    videoId: 'https://youtu.be/XXhc5UTxv5I?t=',
+    startSeconds: 260,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1237,8 +1246,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gqibxjObZ-I?t=',
-    startSeconds: 813,
+    videoId: 'https://youtu.be/B_pFS_1NRKc?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1262,8 +1271,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6DYgImG1CKo?t=',
-    startSeconds: 677,
+    videoId: 'https://youtu.be/-RjJtO51ykY?t=',
+    startSeconds: 872,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1287,8 +1296,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ShMRAN78598?t=',
-    startSeconds: 45,
+    videoId: 'https://youtu.be/de94jBAyLIk?t=',
+    startSeconds: 32,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1312,8 +1321,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pLxVuQK9FSY?t=',
-    startSeconds: 672,
+    videoId: 'https://youtu.be/-oHGafLPvEE?t=',
+    startSeconds: 2497,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1337,8 +1346,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gR9izDp89c0?t=',
-    startSeconds: 444,
+    videoId: 'https://youtu.be/pzvbUpKU4eE?t=',
+    startSeconds: 378,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

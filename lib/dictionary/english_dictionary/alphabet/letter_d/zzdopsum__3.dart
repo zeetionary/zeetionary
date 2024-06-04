@@ -1133,7 +1133,7 @@ ${englishMeaningConst.text}
     text: """
 
 speakdopsum1 EnglishEntrydopsum1
-WORD_WEB dopsum1 haʊʊʊʊʊʊʊ4
+WORD_WEB dopsum1 dopsum1 haʊʊʊʊʊʊʊ4
 """,
   );
 

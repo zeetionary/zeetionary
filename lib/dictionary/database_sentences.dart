@@ -205,6 +205,1469 @@ class SentenceDatabase {
     await insertSentence("I pack my backpack with my books and homework.",
         "KURDISH_KURDISH_KURDISH");
     await insertSentence(
+        "Hey, how's it going? Nice weather we're having today.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'll take a large coffee, please, with room for milk.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Gotta catch the subway; it's always crowded during rush hour.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Can you believe the traffic on the FDR Drive?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Sorry, I'm running late for a meeting uptown.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's grab lunch at that new deli around the corner.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to swing by the bank on my lunch break.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The rent in this city is ridiculously high, isn't it?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting friends for dinner in Greenwich Village tonight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I love strolling through Central Park on weekends, so relaxing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you catch the latest exhibit at MoMA?", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ugh, I forgot my umbrella again, and it's raining.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you tried the bagels from that bodega on the corner?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Excuse me, do you have a minute to answer a survey?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm craving some authentic New York-style pizza right now.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's check out that new rooftop bar in Brooklyn tonight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to do laundry; my hamper's overflowing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm feeling a bit under the weather today, might stay in.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you seen Hamilton yet? It's supposed to be amazing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I've been binge-watching this new series on Netflix lately.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I should really get back into my yoga routine.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Could you pass me the MetroCard? Mine's out of funds.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I've got tickets to a Broadway show next weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Sorry, I can't make it to happy hour tonight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm on a strict budget this month, gotta watch my spending.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm trying out this new vegan restaurant for lunch today.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's grab a cab; I'm too tired to walk.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Are you going to the farmers' market in Union Square tomorrow?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'll be out of town next weekend, visiting family upstate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Have you tried that new matcha place in SoHo?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm thinking of taking a day trip to Coney Island soon.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I can't decide between the salmon or the steak for dinner.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Wow, this city never sleeps, there's always something happening.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm feeling so drained after that long subway commute.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to renew my gym membership; it's been months.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending a gallery opening in Chelsea this evening.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go see the sunset from the Brooklyn Bridge.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm so glad spring is finally here; the city looks beautiful.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the street fair happening in the Village?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to return these library books before they're overdue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the gym to work off that big brunch.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Can you recommend a good dry cleaner in the neighborhood?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I love walking through the West Village; it's so charming.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I've been meaning to try that new workout class everyone's talking about.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the bakery to pick up some fresh baguettes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'll be out of town for the long weekend, heading to the Hamptons.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's take a stroll along the High Line this afternoon.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sorry, I can't make it to the party tonight; I have a deadline.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the drugstore to pick up some cold medicine.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm meeting a client for lunch at Le Bernardin.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to stop by the post office to mail these packages.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's catch a matinee at the theater this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the gym to get in a quick workout.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting friends for brunch at my favorite spot in Williamsburg.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm heading to the Bronx Zoo with my family this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to schedule a dentist appointment for next week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the market to pick up some fresh produce.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting a friend for drinks at a speakeasy downtown.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the tailor to pick up my alterations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to call the landlord about the leaky faucet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the pet store to buy food for my cat.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting coworkers for happy hour at a rooftop bar.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to book a reservation for dinner tonight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm heading to the gym to meet with my personal trainer.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the park to meet friends for a picnic.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting a date for drinks at a trendy cocktail bar.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the museum to see the new exhibit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm heading to the bookstore to pick up a new novel.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the salon to get a haircut.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm meeting my book club for coffee at a local café.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the library to study for my exam.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the movie theater to see the latest blockbuster.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm heading to the bakery to buy a birthday cake.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting a friend for lunch at a sushi restaurant.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the gym to do some cardio.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the grocery store to buy ingredients for dinner.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm heading to the beach to catch some sun.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm meeting coworkers for a team-building activity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the hardware store to buy some tools.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm heading to the farmers' market to buy organic produce.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting friends for brunch at a bottomless mimosa spot.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the pharmacy to pick up a prescription.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm meeting a friend for dinner at a trendy new restaurant.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the barbershop to get a shave.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm heading to the mall to do some shopping.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the theater to see a play.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm meeting coworkers for a brainstorming session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to the coffee shop to get a latte.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, everyone! Let's get started with today's lesson.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Please take out your textbooks and turn to page 50.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Does anyone have any questions about the homework assignment?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Remember to raise your hand before speaking, please.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's review the material we covered yesterday before moving on.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Great job on your presentations yesterday; I was impressed.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to submit your essays by the end of the week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please pass your homework assignments to the front of the class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work on these math problems together as a group.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take a few minutes to review your notes before the quiz.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can summarize the main points of the reading for us?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Don't forget about the upcoming field trip next week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Keep up the good work, and don't be afraid to ask for help.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to use proper citation format for your research papers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's have a respectful discussion about the topic at hand.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Your participation in class discussions is greatly appreciated.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Please put away your phones and focus on the lesson.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Congratulations to those who made the honor roll this semester.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's practice our vocabulary words with a quick quiz.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to proofread your essays before turning them in.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can explain the difference between mitosis and meiosis?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take a moment to reflect on what you've learned so far.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Remember to show your work on the math problems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's try to think critically about the text we're reading.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Don't hesitate to come see me during office hours if you need extra help.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please keep the classroom clean and tidy at all times.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take your time on the exam and read each question carefully.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to respect your classmates' opinions during discussions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work on improving our writing skills this semester.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can tell me the significance of the Battle of Gettysburg?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Make sure to bring your textbooks to class tomorrow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's do a quick review of the material before the test.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Keep up the good work, and don't give up when things get tough.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to use evidence to support your arguments in essays.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can give an example of a simile from the reading?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take a break if you're feeling overwhelmed; self-care is important.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's have a debate on the pros and cons of social media.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to study your vocabulary words for the quiz tomorrow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please don't interrupt when someone else is speaking.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work on our public speaking skills with a class presentation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take a moment to appreciate how far you've come this semester.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Who can explain the scientific method to the class?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please turn off your cell phones and put them away during class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's practice active listening during today's lecture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to cite your sources properly in your research papers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Who can define the term 'manifest destiny' for us?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's brainstorm ideas for our next class project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to get a good night's sleep before the exam.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please be respectful of your classmates' personal space.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's take a few minutes to meditate and relax before starting class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to check your email for important announcements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Who can tell me the main causes of the Civil War?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Take a moment to reflect on your goals for this semester.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please don't hesitate to ask for clarification if something is unclear.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work on improving our grammar and punctuation skills.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to proofread your work before submitting it.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can summarize the plot of the novel we're reading?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's have a group discussion about the themes of the play.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to bring your materials to class every day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please be respectful of others' opinions, even if you disagree.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's try to stay focused and engaged during class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take breaks and stretch if you're feeling tired.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Who can identify the main characters in the story?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to review your notes before the final exam.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please don't forget to turn in your permission slips for the field trip.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's take a moment to appreciate the diversity in our classroom.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Remember to be kind to yourself and others.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can explain the concept of photosynthesis to the class?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to eat a healthy breakfast before coming to school.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please raise your hand if you need help with anything.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's try to make the most of our time together.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to stay organized and manage your time effectively.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who can tell me the capital of France?", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, how are you feeling today?", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's discuss your symptoms and medical history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Please undress and I'll be with you shortly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's start by checking your blood pressure and heart rate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'd like to perform a physical examination; please lie down.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Can you describe the pain you're experiencing in more detail?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We may need to run some tests to determine the cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'll need to take some blood samples for analysis.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm going to listen to your lungs and heart now.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you experienced any recent changes in your health?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay hydrated and get plenty of rest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some lifestyle changes that may improve your health.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to prescribe some medication to help alleviate your symptoms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please take these antibiotics as directed and follow up with me in a week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's schedule a follow-up appointment to monitor your progress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'd like to refer you to a specialist for further evaluation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("It's important to stay proactive about your health.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm here to answer any questions or concerns you may have.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take your medication with food to avoid stomach upset.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some dietary changes that may benefit you.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Make sure to get plenty of exercise and fresh air.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to write you a prescription for physical therapy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go over the results of your tests together.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I recommend getting an annual flu shot to protect yourself.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Please avoid smoking and limit your alcohol intake.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to recommend some relaxation techniques to help manage stress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'd like to refer you to a nutritionist to help with meal planning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to get enough sleep each night for optimal health.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to recommend a few supplements to support your immune system.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Please let me know if you experience any side effects from the medication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to prioritize self-care and listen to your body.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work together to create a personalized treatment plan for you.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to refer you to a physical therapist for further evaluation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take breaks and practice deep breathing exercises throughout the day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to prescribe a stronger pain medication to help manage your symptoms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay consistent with your medication regimen.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some coping strategies for dealing with chronic pain.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to recommend some stretches to help alleviate muscle tension.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'd like to refer you to a counselor to help with emotional support.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to stay hydrated and avoid caffeine before bedtime.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to write you a prescription for a sleep aid to help with insomnia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's schedule a follow-up appointment to monitor your progress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I recommend keeping a symptom journal to track your progress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take your medication at the same time every day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some alternative treatment options that may be beneficial.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to refer you to a specialist for further evaluation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay proactive about your health and well-being.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to schedule regular check-ups with your primary care physician.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm here to support you every step of the way.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take breaks and practice mindfulness throughout the day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to recommend a few supplements to support your immune system.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some lifestyle changes that may improve your symptoms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'd like to refer you to a physical therapist for further evaluation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to get plenty of rest and avoid strenuous activities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to prescribe a stronger medication to help manage your pain.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay consistent with your treatment plan.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work together to create a personalized plan that works for you.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I recommend scheduling regular massages to help alleviate muscle tension.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to prioritize self-care and listen to your body's needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to refer you to a specialist for further evaluation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss some relaxation techniques to help manage stress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Make sure to get enough sleep each night for optimal health.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to recommend a few supplements to support your overall well-being.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay proactive about your health and wellness.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's schedule a follow-up appointment to monitor your progress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I recommend scheduling regular check-ups with your primary care physician.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Remember to take breaks and practice deep breathing exercises throughout the day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to write you a prescription for a stronger medication to help manage your symptoms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "It's important to stay consistent with your medication regimen.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work together to create a treatment plan that meets your needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm here to support you every step of the way.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, class! Are we ready to learn about history?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Today, we're going to talk about dinosaurs and what they ate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's start by looking at some pictures of different dinosaurs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Can anyone tell me the name of this dinosaur?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's learn about the first people who lived on Earth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "These are called cavemen or cavewomen; they lived in caves.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's pretend we're cavemen and draw on the walls with chalk.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's learn about ancient Egypt and the pyramids.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Did you know the pyramids are over 4,000 years old?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's build our own pyramids with blocks and see how tall we can make them.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's talk about knights and castles in the medieval times.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Knights wore armor to protect themselves in battles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's pretend to be knights and march around the classroom.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's learn about famous explorers who sailed the seas.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Christopher Columbus discovered America over 500 years ago.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's make paper boats and pretend to sail across the ocean.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's talk about the pioneers who traveled west in covered wagons.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "They settled in new lands and built towns and schools.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's build our own covered wagons out of cardboard boxes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Finally, let's learn about famous leaders like Abraham Lincoln.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Abraham Lincoln was the president who ended slavery.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's make top hats and pretend to give speeches like Lincoln.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Great job, class! You're all history experts now.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, class! Today, we're diving into the fascinating world of geography.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's start by discussing the difference between physical and human geography.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Physical geography explores Earth's natural features like mountains, rivers, and climates.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Human geography focuses on how people interact with their environment, including population, culture, and economics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Can anyone name the seven continents of the world?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's talk about the major oceans and seas that surround them.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you know that the Pacific Ocean is the largest and deepest ocean on Earth?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's explore different types of maps, such as political, physical, and thematic maps.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Maps are essential tools for understanding our world's landscapes and features.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's discuss latitude and longitude lines and how they help us locate places on Earth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Latitude measures distance north and south of the equator, while longitude measures east and west of the Prime Meridian.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's examine the concept of regions and how they're defined by physical, cultural, or economic characteristics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "For example, the Amazon Rainforest is a distinct region known for its biodiversity and lush vegetation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the topic of climate and how it influences the distribution of plants, animals, and people.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore different climate zones like tropical, temperate, and polar regions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discuss the impact of human activities on the environment, such as deforestation, pollution, and urbanization.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Geography plays a crucial role in understanding and addressing global environmental issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's examine the concept of globalization and its effects on trade, migration, and cultural exchange.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advancements in transportation and communication have connected people and economies around the world.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's take a virtual tour of different countries and explore their physical and cultural landscapes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about iconic landmarks, historical sites, and diverse cultures.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Finally, let's discuss the importance of geographic literacy in today's interconnected world.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Understanding geography helps us make informed decisions about environmental conservation, economic development, and social issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Great job, class! Keep exploring the world around you.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Welcome back to class, everyone! Let's continue our exploration of school subjects.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Today, we're delving into the fascinating world of literature and language arts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's analyze classic works of literature and explore their themes, characters, and symbolism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Can anyone identify different literary genres like fiction, poetry, and drama?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's dive into grammar and learn about parts of speech like nouns, verbs, and adjectives.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll practice writing sentences and paragraphs to improve our communication skills.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of mathematics and explore its various branches like algebra, geometry, and calculus.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mathematics is the language of patterns and relationships; let's unlock its mysteries together.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's solve equations, calculate geometric shapes, and explore mathematical concepts through real-world applications.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's embark on a scientific voyage and discover the wonders of biology, chemistry, and physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore the building blocks of life, chemical reactions, and the laws of motion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's conduct experiments, make observations, and unleash our curiosity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's immerse ourselves in the world of history and social studies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll journey through time, exploring ancient civilizations, world wars, and modern-day geopolitics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's analyze primary sources, examine historical events, and learn from the lessons of the past.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's journey into the realm of geography and study Earth's landscapes, climates, and cultures.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore continents, oceans, and regions, uncovering the interconnectedness of our planet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's explore the vibrant world of art and music.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll study famous artists, composers, and artistic movements, unleashing our creativity through various mediums.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's experiment with different techniques, styles, and musical instruments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the world of physical education and health.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about the importance of exercise, nutrition, and mental well-being.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's stay active, eat healthy, and prioritize self-care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of technology and computer science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore coding, digital literacy, and the impact of technology on society.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's develop our problem-solving skills and embrace the digital age.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's venture into the world of foreign languages.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn to communicate in different languages, explore diverse cultures, and broaden our horizons.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's practice speaking, reading, and writing in our chosen language.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's explore the world of business and economics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about supply and demand, entrepreneurship, and financial literacy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's develop our critical thinking skills and prepare for the world of work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's journey into the realm of psychology and sociology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore the human mind, behavior, and social interactions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's examine psychological theories, conduct experiments, and analyze social phenomena.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's dive into the world of environmental science and sustainability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about ecosystems, climate change, and conservation efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's explore ways to protect our planet and create a sustainable future.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of philosophy and ethics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore fundamental questions about existence, morality, and the meaning of life.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's engage in thoughtful discussions and ponder life's big questions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the world of engineering and technology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore innovations in robotics, renewable energy, and aerospace.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's design, build, and innovate for a better tomorrow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of culinary arts and nutrition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about food preparation, cooking techniques, and the importance of a balanced diet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's experiment with different recipes and flavors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's explore the world of journalism and media studies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about news reporting, media ethics, and the power of storytelling.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's analyze media messages and become critical consumers of information.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of law and political science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore the principles of justice, governance, and human rights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's study the Constitution, debate current events, and advocate for change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the world of astronomy and space exploration.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about celestial bodies, galaxies, and the mysteries of the universe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's gaze at the stars, ponder the cosmos, and dream of interstellar travel.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of anthropology and archaeology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore human origins, cultures, and ancient civilizations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's dig into the past, uncovering artifacts and unraveling history's mysteries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's explore the world of fashion design and textiles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about clothing construction, fashion trends, and the art of expression through style.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's sketch, sew, and create our own fashion statements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of theater and performing arts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore the magic of stagecraft, acting techniques, and the power of storytelling through drama.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's rehearse, perform, and bring characters to life on stage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the world of education and pedagogy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about teaching methodologies, learning theories, and the art of instruction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's inspire, motivate, and empower future generations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of sports management and athletics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore sports psychology, coaching strategies, and the business of sports.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's train, compete, and strive for excellence on and off the field.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's explore the world of medicine and healthcare.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about the human body, disease prevention, and patient care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's study anatomy, conduct medical research, and work towards a healthier world.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of literature and creative writing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore the power of words, storytelling techniques, and the art of expression through writing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's write poems, stories, and essays that captivate and inspire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Now, let's delve into the world of mathematics and computer science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll explore mathematical concepts, algorithms, and the beauty of problem-solving.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's program, calculate, and innovate for a brighter future.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Next, let's journey into the realm of environmental science and sustainability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We'll learn about ecosystems, climate change, and the importance of conservation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, everyone! Let's start our study session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'll meet you all at the library after lunch.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Did you finish the reading for our seminar tomorrow?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's grab a table in the common room to work on our group project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Who's presenting our research findings at the conference next week?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm feeling a bit overwhelmed with all these assignments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you heard about the lecture series happening on campus?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's organize a study group for the midterm exam.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to schedule a meeting with my advisor to discuss my thesis.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Are you going to the guest lecture on political science tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you see the announcement about the internship fair?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I have a meeting with my professor during office hours.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's grab coffee at the student cafe before class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Have you visited the art museum on campus yet?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's reserve a study room at the library for our group.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm looking for volunteer opportunities in the community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Can you help me with this math problem?", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's review our notes from last week's lecture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm thinking of auditing a class in the psychology department.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you attending the networking event tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's join the debate club; they have a meeting on Wednesday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm feeling stressed about the upcoming exams.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go for a run around the campus track.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the student protest happening tomorrow?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to finish my application for the summer research program.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's meet at the student center after class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you checked out the new exhibit at the science museum?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm going to the career services office to update my resume.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's sign up for the photography workshop next weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I have a meeting with my study group at the library.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you going to the poetry reading tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to buy a new textbook for my history class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's organize a fundraiser for the local charity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending a lecture on climate change this afternoon.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you seen the latest issue of the student newspaper?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm applying for a research grant for my thesis project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go to the gym for a workout session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the scholarship opportunities for international students?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to renew my student ID card at the administration office.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's attend the film screening at the student theater.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I have a meeting with my academic advisor tomorrow morning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you going to the career fair next week?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to schedule a meeting with my group for our presentation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's join the environmental club; they have a meeting on Thursday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending a seminar on public policy this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you checked out the new study lounge in the dorm?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to finalize my course schedule for next semester.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's go to the bookstore to buy some school supplies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a panel discussion on campus diversity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's meet at the campus quad for a picnic lunch.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the lecture series on artificial intelligence?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm volunteering at the local homeless shelter this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's attend the theater production at the student center.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I have a meeting with my research advisor this afternoon.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you going to the astronomy club meeting tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to submit my application for the study abroad program.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go to the library to reserve a study room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm attending a workshop on academic writing skills.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you checked out the latest issue of the literary magazine?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to buy tickets for the orchestra concert next week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's organize a fundraiser for the student scholarship fund.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a panel discussion on campus sustainability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's meet at the student lounge for a group discussion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the internship opportunities at the local hospital?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm volunteering at the animal shelter this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's attend the poetry slam at the student cafe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I have a meeting with my thesis advisor tomorrow morning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you going to the coding workshop tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to submit my research paper for publication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's go to the campus bookstore to buy some textbooks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a seminar on human rights this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Have you checked out the latest issue of the science journal?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I need to buy a new laptop for my coding class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's organize a study group for the upcoming exams.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending a lecture on quantum physics this afternoon.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's meet at the student center for a group study session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the internship opportunities at the tech company?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm volunteering at the food bank this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's attend the jazz concert at the student theater.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I have a meeting with my research group tomorrow morning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you going to the robotics club meeting tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I need to submit my application for the entrepreneurship program.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's go to the campus gym for a workout session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a panel discussion on campus diversity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Good morning, fellow Democrats! Let's make this week count.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We have a lot of important issues to address this week.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's focus on spreading awareness about our party's values and principles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Are you attending the town hall meeting tonight?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's make sure everyone is registered to vote.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm calling my representatives to advocate for progressive policies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to stay united and work towards common goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you see the latest policy proposal from our party leaders?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm volunteering for a local campaign this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's engage with voters on social media to promote our candidates.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the fundraiser for our local candidate on Friday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We need to mobilize our grassroots supporters.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you read the latest article about our party's platform?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm donating to our party's campaign fund this month.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's reach out to undecided voters and share our vision for the future.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a phone bank to encourage voter turnout.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to fight for social justice and equality for all.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the rally for environmental protection next week?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm canvassing door-to-door to talk to voters about our candidates.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's support progressive candidates at all levels of government.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to stand up against discrimination and bigotry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the debate watch party at our local Democratic club.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's promote policies that prioritize working families.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm writing letters to the editor to highlight important issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to protect reproductive rights and women's healthcare.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you see the latest polling data for our candidates?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm hosting a voter registration drive in my community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work to protect voting rights and combat voter suppression.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm volunteering to drive voters to the polls on Election Day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to invest in education and affordable healthcare.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you attend the training session on campaign organizing?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm organizing a community forum to discuss economic inequality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's push for criminal justice reform and police accountability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("I'm attending the LGBTQ+ rights rally this weekend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We need to fight for fair wages and workers' rights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a letter-writing campaign to elected officials.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's support candidates who prioritize climate action and clean energy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm organizing a fundraiser for immigrant rights advocacy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to hold corporations accountable for their actions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Did you see the latest ad from our party's campaign?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a march for racial justice next Saturday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's advocate for comprehensive immigration reform.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the healthcare town hall to discuss Medicare for All.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to protect and expand access to affordable housing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm calling on Congress to pass common-sense gun safety legislation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's fight for voting rights for all Americans.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a community clean-up event this Sunday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to support policies that address income inequality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the rally for climate action at the state capitol?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the virtual fundraiser for our party's candidates.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's promote policies that support small businesses and entrepreneurship.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm hosting a meet-and-greet with our local candidates.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to ensure access to quality education for every child.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you see the latest endorsement for our party's candidates?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm volunteering to help seniors with mail-in voting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's advocate for affordable childcare and paid family leave.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the protest against police brutality on Friday.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We need to fight for fair and equitable taxation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you read the latest op-ed from our party leaders?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm organizing a phone bank to contact undecided voters.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's support policies that protect the rights of workers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the virtual town hall on climate change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to advocate for criminal justice reform and ending mass incarceration.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the rally for reproductive rights next week?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm volunteering to help register voters at the farmers' market.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's push for policies that address systemic racism and inequality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a virtual panel discussion on immigration reform.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to support candidates who will fight for affordable healthcare.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you attend the training session on grassroots organizing?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm hosting a fundraiser for our party's candidates at my home.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's work to protect and expand access to voting for marginalized communities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the training session on voter outreach strategies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to push back against efforts to suppress the vote.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you see the latest campaign ad from our party's candidates?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm volunteering to help with get-out-the-vote efforts on Election Day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's support progressive candidates who will fight for working families.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm attending the virtual rally for racial justice and police reform.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to mobilize our supporters and get out the vote.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Did you hear about the protest against cuts to social services?",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "I'm participating in a letter-writing campaign to elected officials.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
         "I double-check to make sure I have everything I need.",
         "KURDISH_KURDISH_KURDISH");
     await insertSentence("I zip up my backpack and sling it over my shoulder.",
@@ -11222,6 +12685,3505 @@ class SentenceDatabase {
         "Space agencies are exploring the possibility of mining asteroids for valuable resources.",
         "KURDISH_KURDISH_KURDISH");
     await insertSentence(
+        "She walked through the quiet forest, feeling the soft crunch of leaves beneath her feet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The sun set over the horizon, casting a warm, golden glow across the ocean.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "A gentle breeze blew through the open window, carrying the scent of blooming flowers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He carefully placed the final piece of the puzzle, completing the picture of a serene landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The old library was filled with the comforting smell of aged paper and leather-bound books.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "A soft melody played in the background, creating a calming atmosphere in the bustling café.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The cat stretched lazily on the windowsill, basking in the afternoon sunlight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "They huddled around the campfire, sharing stories and laughter under the starry night sky.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The city skyline was illuminated by the shimmering lights of countless skyscrapers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "A sense of peace washed over her as she listened to the gentle waves lapping against the shore.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously organized her collection of vintage stamps with great care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He endeavored to solve the complex mathematical equation in record time.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The artist sculpted a magnificent statue from a block of marble.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She yearned for a sense of adventure and embarked on a long journey.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He deciphered the ancient script with astonishing accuracy and speed.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The chef concocted an exquisite dish using rare and exotic ingredients.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She navigated the treacherous waters with unwavering confidence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The detective scrutinized the evidence to find a crucial clue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lamented the loss of his cherished childhood home deeply.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The writer aspired to create a timeless masterpiece with every word.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The student diligently researched the topic for her thesis paper.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The botanist cultivated a rare species of orchid in her greenhouse.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He facilitated the negotiation between the two conflicting parties.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The architect envisioned a futuristic building made entirely of glass.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered through the challenges to achieve her ambitious goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He advocated for environmental conservation at the international summit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The musician improvised a beautiful melody during the live performance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She reminisced about her travels through the picturesque countryside.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He anticipated the challenges that lay ahead in his new position.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The teacher inspired her students to strive for academic excellence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously documented the results of the scientific experiment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The poet crafted a poignant sonnet that moved everyone to tears.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He manipulated the data to reveal hidden patterns and trends.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The athlete excelled in her performance at the national championship.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She negotiated a favorable deal for her company’s new partnership.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He endeavored to make a significant impact in his chosen field.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The designer conceptualized a unique and innovative fashion line.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She deciphered the complex instructions with relative ease.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He orchestrated a successful event that everyone enjoyed immensely.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The engineer optimized the system to improve its efficiency.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She deliberated carefully before making the final decision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He augmented his income by taking on freelance projects.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The scientist hypothesized a new theory based on recent findings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She facilitated a workshop on effective communication skills.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He navigated the dense forest using only a compass and a map.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The journalist corroborated the story with multiple reliable sources.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She advocated for equal rights and social justice tirelessly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lamented the missed opportunities with a heavy heart.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The artist meticulously restored the damaged painting to its former glory.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered despite the numerous obstacles in her path.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He anticipated the market trends and adjusted his strategy accordingly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The author crafted a compelling narrative that captivated readers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She cultivated a thriving vegetable garden in her backyard.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He manipulated the controls with precision to land the plane safely.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The manager delegated tasks to ensure the project’s timely completion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously planned every detail of the elaborate wedding.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He scrutinized the financial reports to identify any discrepancies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The scholar elucidated the complex concepts during the lecture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She negotiated a substantial pay raise after demonstrating her value.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He improvised a solution to the unexpected problem during the presentation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The teacher fostered a love of learning in her young students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She facilitated a successful merger between the two companies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He envisioned a future where technology and humanity coexisted harmoniously.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The chef concocted a delicious new recipe that became an instant hit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She documented her travels in a beautifully illustrated journal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He orchestrated a symphony that resonated with audiences worldwide.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The scientist meticulously documented her groundbreaking research findings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She anticipated the needs of her clients and tailored her services accordingly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He deciphered the encrypted message using advanced cryptography techniques.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The entrepreneur ventured into a new industry with great enthusiasm.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously crafted handmade jewelry with intricate designs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He scrutinized the contract before signing to avoid any legal pitfalls.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The teacher inspired a sense of curiosity and wonder in her students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered through the rigorous training program to achieve her dreams.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He navigated the complex legal system with the help of a skilled attorney.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The artist envisioned a bold new project that pushed the boundaries of creativity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She facilitated a community meeting to address local concerns.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He meticulously planned his retirement to ensure financial stability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The researcher hypothesized a connection between diet and longevity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She negotiated a truce between the two warring factions diplomatically.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He augmented his skill set by enrolling in advanced courses.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The engineer optimized the design for better performance and durability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She deliberated over the ethical implications of her decision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He orchestrated a rescue mission to save the stranded hikers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The novelist crafted an intricate plot that kept readers guessing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She cultivated a network of professional contacts in her industry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He scrutinized the blueprints to identify any potential flaws.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The historian meticulously documented the events leading up to the war.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She anticipated the company’s growth and planned for expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He improvised a clever solution to the technical glitch.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The manager delegated responsibilities to her capable team members.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously recorded the data from the experiment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He envisioned a society where everyone had access to education.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The chef concocted a fusion dish that blended different culinary traditions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She documented the wildlife she encountered during her expedition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He orchestrated a charity event to raise funds for a good cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The scientist hypothesized a new approach to combat climate change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered through the demanding program to earn her degree.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He navigated the treacherous mountain pass with expertise.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The writer aspired to create a work that would leave a lasting impact.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She meticulously organized the event to ensure everything went smoothly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He scrutinized the results to determine the accuracy of the test.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The teacher fostered an environment of mutual respect and cooperation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She facilitated a support group for new parents.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He anticipated the challenges of the new project and prepared accordingly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The artist sculpted a piece that captured the essence of human emotion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She yearned for the tranquility of her childhood home.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He deciphered the clues to solve the mystery.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The chef meticulously prepared the ingredients for the gourmet meal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She navigated the city’s bustling streets with confidence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He passionately pursued his dreams despite numerous obstacles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She perceived a slight change in the atmosphere as she entered the room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He procrastinated on his assignments, leading to last-minute stress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She pondered the implications of her decision for hours.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He proposed a bold new initiative during the meeting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She prided herself on her attention to detail in her work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He predicted the stock market crash with remarkable accuracy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persisted in her efforts to learn the difficult piano piece.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He propelled the project forward with his innovative ideas.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She polished her presentation until it was flawless.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He paralleled his findings with existing research to draw conclusions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She petitioned the government for more funding for education.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He plummeted into the icy waters without hesitation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She procured rare ingredients for the exclusive dinner event.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He portrayed the character with depth and authenticity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She perused the documents carefully before signing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He pacified the crowd with his calming words.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She penetrated the market with her groundbreaking product.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He predicted the outcome based on previous experiences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persuaded her colleagues to support her proposal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He punctuated his speech with humor to keep the audience engaged.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She piloted the new software implementation at her company.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He partitioned the large dataset into manageable segments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She pacified her crying baby with a gentle lullaby.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He participated actively in the community outreach programs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She practiced diligently to perfect her performance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He patronized the local businesses to support the economy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She perceived the subtle differences between the two paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He preempted any issues by planning meticulously.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered through the challenging project until it was complete.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He pioneered a new technique in digital marketing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She personalized the customer experience to increase satisfaction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He prioritized his health by maintaining a balanced diet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She polished her skills through continuous practice.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He prepared the team for the upcoming competition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She predicted a successful outcome based on her analysis.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He preserved the historic building with great care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She prompted her friend to take action on the issue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He pacified the tense situation with a diplomatic approach.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She portrayed a sense of calm despite the chaos around her.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He participated in the international conference as a keynote speaker.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She produced an award-winning documentary on climate change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He prescribed a detailed action plan for the project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She praised her team for their hard work and dedication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He partnered with a local charity to help those in need.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She pursued excellence in every aspect of her career.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He positioned himself as an expert in his field.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She polished the silverware until it shone brightly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He perpetuated the family tradition with pride.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She published a groundbreaking article in a prestigious journal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He persuaded the board to approve the new initiative.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She prevented a potential crisis with her quick thinking.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He predicted a rise in demand for eco-friendly products.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She prompted a lively discussion during the meeting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He presented his findings at the annual conference.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She persevered in her studies despite facing many challenges.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He piloted the drone over the vast landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She polished her argument before the debate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He perceived the tension in the room and addressed it calmly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She patronized the arts by attending local theater productions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He processed the information quickly and efficiently.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She prioritized her tasks to meet the tight deadline.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He portrayed the protagonist with great skill.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She performed her duties with unwavering dedication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He pioneered research in renewable energy sources.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She planned the event down to the smallest detail.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He prepared a comprehensive report on the issue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She praised the team's efforts in achieving their goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He petitioned for a change in the outdated policy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She preserved the delicate artifacts with utmost care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He provided valuable insights during the discussion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She perused the latest literature on the subject.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He prevented further damage by acting swiftly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She persevered in her quest for knowledge.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He predicted the team's victory with confidence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She polished her resume before applying for the job.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He piloted the spacecraft through the asteroid field.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She perceived an opportunity where others saw a challenge.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He perpetuated the myth with his elaborate stories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She planned a surprise party for her best friend.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He prompted the team to think creatively about the problem.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She prioritized her family above everything else.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He proposed a novel solution to the recurring issue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She participated in the marathon to raise awareness.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He produced a series of informative videos on the topic.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She prepared a delicious meal for her guests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He pacified the angry customer with a generous refund.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She published her first novel to critical acclaim.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He pursued his passion for photography with vigor.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She petitioned for more green spaces in the urban area.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He partnered with international organizations for the project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She preserved the ancient manuscripts in a climate-controlled room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He provided assistance to the disaster-stricken area.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She performed her role in the play with great enthusiasm.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He practiced the piano daily to improve his skills.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She predicted the weather using sophisticated models.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He proposed a new theory in his scientific paper.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He navigated the arid desert with an unyielding determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She wore an alabaster gown that shimmered in the moonlight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The aloof professor rarely engaged in casual conversations with students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He admired the ancient architecture of the grand cathedral.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She possessed an altruistic nature, always helping those in need.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He had an astute understanding of the market trends.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The ambiance of the room was augmented by the soft candlelight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She faced the arduous task with unwavering resolve.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lived in an affluent neighborhood with sprawling mansions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was known for her amiable personality and welcoming smile.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The austere decor of the room reflected his minimalist tastes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He exhibited an audacious spirit, unafraid of taking risks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was an avid reader, always lost in a book.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He admired her articulate manner of speaking.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The artist created an abstract painting that puzzled many.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She felt an acute pain in her side and decided to see a doctor.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an ardent supporter of the environmental movement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She appreciated the arboreal landscape surrounding her home.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He had an almost archaic sense of honor and duty.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She felt an inexplicable connection to the arcane symbols.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He was known for his acerbic wit and sharp comments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The politician's adamant stance on the issue caused controversy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She had an admirable work ethic that inspired her colleagues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He enjoyed the arcadian beauty of the countryside.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Her anecdotes were always amusing and captivating.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He felt an abject fear when he saw the approaching storm.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was an astute observer, noticing every small detail.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He wore an antiquated watch that had belonged to his grandfather.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She had an amiable disposition that endeared her to everyone.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He described the alpine scenery with great enthusiasm.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was known for her altruistic efforts in the community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("His aplomb in the face of danger was remarkable.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She faced the daunting challenge with aplomb.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an agile dancer, moving with grace and precision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The ambience of the old library was serene and inviting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She lived in an abysmal apartment with poor lighting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He admired her adept handling of complex situations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an amicable relationship with her coworkers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an avid collector of rare stamps.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The acerbic tone of his voice revealed his displeasure.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She felt an abiding love for the city of her birth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an agile thinker, quick to come up with solutions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She described the ambience of the restaurant as enchanting.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He felt an acute sense of loss after his pet passed away.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was known for her adept skill in negotiations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He admired her abstemious lifestyle and self-control.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She felt an abject loneliness after moving to the new city.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He had an acerbic sense of humor that not everyone appreciated.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was an ardent fan of classical music.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He possessed an amiable charm that won over everyone.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an aesthetic appreciation for fine art.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He faced the arduous journey with determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was known for her assiduous attention to detail.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He admired the arcane knowledge of the ancient scholars.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was an avaricious collector of rare artifacts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lived an ascetic lifestyle, free from material desires.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She felt an acute awareness of her surroundings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He admired her astute observations and insights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an airy, ethereal quality about her.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He was an avid supporter of the local sports team.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She lived in an austere, sparsely furnished apartment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He possessed an almost aloof demeanor.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She admired the artist's avant-garde style.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He had an astringent personality that was difficult to warm to.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was an articulate speaker, captivating her audience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He faced the adverse conditions with resilience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She felt an almost arcane connection to the ancient ruins.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He was known for his assiduous work ethic.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She had an adroit way of handling delicate situations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He admired her altruistic efforts to help the homeless.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was known for her astute business acumen.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He had an avid interest in historical documentaries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She faced the abysmal conditions with courage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lived in an affluent suburb with tree-lined streets.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She felt an acute need to prove herself.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an agile athlete, excelling in multiple sports.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She described the atmosphere as airy and light.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He faced the arduous task with fortitude.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an aesthetic sense that was unparalleled.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He was an ardent believer in equal rights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She was known for her amicable interactions with others.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He lived in an almost ascetic simplicity.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She felt an abiding commitment to her cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was known for his acerbic criticism of modern art.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She faced the adverse weather with determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He was an advocate for archaic language preservation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an admirable dedication to her family.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He faced the abject poverty of his childhood with resilience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She had an adroit ability to solve complex problems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He admired the arboreal beauty of the park.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She was known for her avant-garde fashion sense.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "He had an almost altruistic devotion to his students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("She faced the arduous climb with determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("He was an avid participant in community events.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "She had an aesthetic appreciation for the finer things in life.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Opulent surroundings inspired feelings of awe and wonder.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obliging staff immediately attended to every guest's need.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ominous clouds indicated the approach of a severe storm.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Obstinate behavior impeded progress on the project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Occasional interruptions irritated the focused writer.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Obscure references intrigued the literary scholars.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Official documents invalidated the previous agreement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Oily surfaces increased the risk of slipping hazards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Omnipresent technology infiltrated daily life seamlessly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Onerous tasks intimidated the new employees.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Opaque glass isolated the meeting room from outside noise.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Oblivious pedestrians impeded traffic flow during rush hour.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ornate designs illustrated the architect's unique vision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Optimistic forecasts invigorated the sales team.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outstanding achievements impressed the board members.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Olfactory senses identified the fragrant aroma immediately.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ongoing conflicts instigated discussions about peace treaties.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Onerous regulations impeded the company's expansion plans.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Original ideas invigorated the creative brainstorming session.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ominous sounds indicated the presence of nearby wildlife.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Orthodox methods inhibited innovative solutions in the lab.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Oblique hints intrigued the curious audience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Overcast skies implied a dreary day ahead.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obsessive attention to detail improved the final product.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Omnipotent leaders imposed strict rules without consultation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Oversized furniture inhibited easy movement in the small room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Overwhelming evidence implicated the suspect in the crime.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Occasional setbacks invigorated the team's determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Omnivorous habits influenced the chef's diverse menu.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ornamental features embellished the grand entrance hall.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ongoing renovations interrupted the regular office schedule.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outlandish costumes inspired awe at the themed party.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Outdated policies inhibited progress and innovation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Optimistic leaders instilled confidence in the team.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outspoken critics influenced public opinion significantly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obsolete equipment impeded the factory's productivity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Organic produce improved the restaurant's reputation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Open-minded attitudes increased the effectiveness of the debate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Obligatory meetings interfered with the workflow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Objective analysis improved the decision-making process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Onerous duties intimidated the inexperienced workers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Overwhelming support invigorated the charitable cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Orchestrated efforts illustrated the team's coordination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Oblivious drivers imperiled pedestrian safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outstanding service impressed the discerning clientele.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ongoing education improved professional skills continuously.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ostentatious displays indicated the owner's wealth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obstinate resistance impeded diplomatic negotiations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Opportune moments inspired spontaneous celebrations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Occasional praise invigorated the student's motivation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Opaque curtains isolated the room from bright sunlight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Objective research illuminated the obscure topic.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Optimal conditions increased the crop yield substantially.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Omniscient narrators intrigued readers with their insights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Oily rags ignited the fire hazardously.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outdated software inhibited the company's efficiency.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ongoing developments influenced the market trends.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obligatory tasks interrupted the employee's workflow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Obscure terminology intimidated the novice learners.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Orthogonal approaches improved the problem-solving process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ominous headlines incited public fear and concern.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Opulent decor impressed the visiting dignitaries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obnoxious behavior irritated the conference attendees.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ornate carvings illustrated the artisan's skill.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outdated practices inhibited progress in the industry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ongoing training improved the employees' competencies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Occasional rainfall invigorated the arid landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Optimal lighting improved the artwork's visibility.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Overbearing management impeded team creativity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Occult themes intrigued the curious researchers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Outlandish claims incited widespread skepticism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Oversized sculptures impressed the museum visitors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Oral traditions illustrated the community's rich history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ongoing debates influenced the legislative process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Offensive remarks instigated a heated argument.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obtrusive advertisements interrupted the online experience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Outstanding performance impressed the audience greatly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Onerous responsibilities intimidated the junior staff.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Official endorsements improved the campaign's credibility.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Obstinate attitudes impeded compromise and resolution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Opportune discoveries inspired further research.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ongoing challenges invigorated the team's spirit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Obscure facts illuminated the historical narrative.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Opulent lifestyles indicated immense wealth and luxury.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ostentatious gestures impressed the attendees at the gala.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Outspoken activists influenced the policy changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ordinary routines improved with innovative technology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Optimistic projections invigorated investor confidence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Onerous demands intimidated the service providers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Omnipresent advertisements influenced consumer behavior.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Official sanctions impeded international trade.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ongoing renovations improved the building's infrastructure.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Orthodox doctrines inhibited progressive thought.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ornate decorations illustrated the festive spirit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Objective findings illuminated the scientific study.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful paintings filled the entire gallery space.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Calm waters facilitated smooth sailing for the boat.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chilly winds forced the hikers to wear thicker coats.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Crystal chandeliers fascinated the guests at the banquet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Crowded marketplaces fostered a sense of community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Careful planning finalized the event details perfectly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cheerful music filled the air at the lively festival.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cozy blankets furnished the cabin for the winter.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Curious artifacts fascinated the museum visitors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Compact cars flooded the city streets during rush hour.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming gardens flourished in the spring sunshine.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Creepy shadows flitted across the old mansion's walls.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cluttered desks frustrated the diligent employees.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Classic novels fueled the students' imaginations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clever advertisements fascinated potential customers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ceramic tiles finished the elegant kitchen design.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Colorful fireworks filled the night sky spectacularly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chronic delays frustrated the passengers waiting for the train.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Crisp leaves fell gently from the autumn trees.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Concrete structures fortified the city's defenses.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming cafes fostered a welcoming atmosphere.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Contemporary artworks filled the modern gallery.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cold drinks refreshed the guests at the summer party.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Calm voices facilitated a peaceful negotiation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cerulean skies framed the picturesque landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Comprehensive manuals facilitated the training process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable chairs filled the conference room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chilly breezes forced everyone to wear jackets.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Challenging puzzles fascinated the keen solvers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cautious drivers followed the speed limits strictly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Coastal views framed the luxurious resort.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Civic duties fulfilled the citizens' sense of responsibility.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Confident speakers filled the auditorium with their voices.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Curved arches framed the entrance to the grand building.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Countless books filled the library shelves.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming anecdotes fascinated the dinner guests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cluttered rooms frustrated the organizers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful tapestries furnished the medieval castle.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Careful analyses facilitated the project's success.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming boutiques filled the city's narrow streets.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chirping birds filled the tranquil morning air.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cold hands fumbled with the car keys.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Crowded trains forced commuters to stand.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Compelling arguments fueled the lively debate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chiseled statues framed the museum's grand entrance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable sofas furnished the cozy living room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ceramic vases filled the shelves of the antique store.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chaotic scenes flustered the emergency responders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Crisp apples filled the basket at the farmer's market.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clear skies facilitated the perfect day for a picnic.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Classic cars filled the vintage car show.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Challenging trails fatigued the experienced hikers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Creeping vines framed the garden's stone pathway.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cheerful flowers filled the spring garden.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Crisp white linens furnished the elegant dining table.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chilly evenings forced the campers to light a fire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Colorful balloons filled the party venue.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Confident predictions fueled investor optimism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Curious expressions filled the children's faces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clean lines framed the minimalist architectural design.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming stories fascinated the young readers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Calm seas facilitated a relaxing boat trip.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Concrete plans finalized the construction project's timeline.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Comfortable mattresses filled the hotel's luxurious rooms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Compelling evidence fortified the prosecutor's case.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Curious sculptures fascinated the art students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Compact discs filled the shelves in the music store.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful posters filled the classroom walls.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chic boutiques fostered a sense of high fashion in the city.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clever solutions facilitated the project's success.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Challenging courses filled the university curriculum.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cold fronts frequently changed the weather patterns.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Classic films filled the theater's weekend schedule.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Custom-made furniture furnished the newly renovated house.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cheerful volunteers fostered a positive community spirit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Comprehensive guides facilitated the tourists' exploration.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Careful measurements finalized the tailor's design.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clean water fountains filled the park's public spaces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Calming aromas filled the spa with a relaxing ambiance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Challenging exams fatigued the diligent students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable cushions furnished the lounge area.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful murals filled the city's urban spaces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Charming traditions fostered a sense of cultural heritage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chilly temperatures forced the hikers to turn back early.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Curious exhibits fascinated the science fair visitors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Comprehensive plans facilitated the company's expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ceramic mugs filled the cozy coffee shop.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Coordinated efforts fostered the rescue mission's success.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clear instructions facilitated the assembly process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cool breezes filled the evening air, refreshing everyone.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cultural festivals fostered community engagement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Custom artwork filled the gallery's latest exhibition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming anecdotes fascinated the literature class.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chilled beverages filled the picnic basket.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Concrete barriers fortified the protest site.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Curious minds fueled the scientific research.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cozy cottages framed the lakeside view.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable shoes facilitated the long hike.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clean energy sources fueled the city's power grid.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Challenging workouts fatigued the athletes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Classic recipes filled the cookbook's pages.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chirping crickets filled the summer night.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Compelling performances filled the theater with applause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Colorful fabrics furnished the interior designer's studio.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cold waves frequently flooded the coastal areas.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming melodies filled the concert hall.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clever tactics facilitated the team's victory.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Crisp photographs filled the album with memories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cheerful greetings fostered a welcoming atmosphere.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Challenging riddles fascinated the puzzle enthusiasts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Coordinated movements facilitated the dance performance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Curious expressions filled the museum's interactive exhibits.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ceramic plates filled the elegant dining set.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Chilled air filtered through the open windows.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable blankets filled the bedroom with warmth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful lights filled the holiday decorations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Confident strides filled the runway during the fashion show.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chilly mornings forced everyone to bundle up tightly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Custom-built shelves furnished the home library.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comprehensive data facilitated the research study.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clear visions fueled the entrepreneur's drive.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Classic novels filled the book club's reading list.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cozy nooks furnished the quaint bookstore.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Challenging climbs fatigued the mountaineers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cold compresses facilitated the athlete's recovery.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Colorful costumes filled the stage during the play.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cherished memories filled the old photo album.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Curious designs fascinated the architecture students.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Ceremonial dances fostered cultural appreciation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Charming accents filled the international festival.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable seats filled the movie theater.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Crisp mornings fostered a sense of rejuvenation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Confidential files filled the secure cabinet.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Creative workshops facilitated artistic expression.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Colorful fireworks filled the night sky with brilliance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Challenging puzzles fascinated the escape room enthusiasts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Coordinated patterns filled the fabric of the quilt.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cheerful laughter filled the playground.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Chilly rain forced the picnic indoors.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Clever disguises facilitated the spy's mission.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Curious onlookers filled the city's bustling streets.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Cerulean waters framed the tropical paradise.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Comfortable sandals facilitated the beach walk.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Crowded shelves filled the bustling bookstore.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diversionary tactics fooled the enemy forces completely.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Visionary ideas fueled the innovative tech startup.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Extraordinary sculptures filled the modern art museum.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Stationary bicycles facilitated the gym's cardio workouts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Customary greetings fostered a sense of tradition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mercenary soldiers fought fiercely in the foreign land.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Revolutionary inventions filled the patent office.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Volitionary efforts facilitated the charitable event.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Precautionary measures forestalled potential risks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Missionary activities fostered religious education.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Illusionary effects fascinated the magic show audience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sedentary lifestyles fostered numerous health issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Functionary roles filled the bureaucratic offices.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Disciplinary actions fostered a sense of order.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Visionary leaders fostered significant social changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Subsidiary companies facilitated global expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Extraordinary performances filled the award show.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Honorary degrees filled the university's recognition ceremony.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Complementary colors filled the artist's palette.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Incendiary remarks fueled the heated debate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Stationary objects furnished the office space.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Volitionary decisions influenced the project's direction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Veterinary clinics facilitated pet healthcare needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Complementary beverages filled the conference tables.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Illusionary dreams fascinated the fantasy writers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Extraordinary efforts facilitated the project's completion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Precautionary warnings forestalled the imminent dangers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Missionary journeys filled the explorer's journal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Functionary duties facilitated the smooth running of operations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Disciplinary policies fostered a respectful environment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mercenary tactics filled the medieval war strategies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Honorary titles filled the noble family's history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Visionary artwork filled the avant-garde gallery.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diversionary activities entertained the restless children.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Stationary supplies furnished the well-organized office.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Subsidiary branches facilitated the corporation's growth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Complementary skills fostered a successful collaboration.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Veterinary services facilitated the animal rescue efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Extraordinary talents filled the talent show lineup.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Revolutionary theories fueled the academic discussion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Precautionary locks forestalled unauthorized access.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Illusionary techniques fascinated the special effects artists.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sedentary behavior fostered a need for more physical activity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Volitionary choices influenced the ethical debate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Functionary paperwork filled the administrative desk.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Complementary therapies fostered holistic healing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Missionary schools facilitated educational outreach.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Visionary concepts fueled the design project's innovation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Extraordinary landscapes filled the travel magazine.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Mercenary forces facilitated the swift conquest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Honorary memberships filled the exclusive club.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Revolutionary movements fostered political change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Complementary amenities filled the luxury hotel.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Precautionary steps forestalled potential issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Disciplinary committees facilitated the adherence to rules.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Incendiary speeches fueled the social unrest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sedentary jobs fostered the need for ergonomic furniture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diversionary routes facilitated smoother traffic flow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Visionary proposals filled the planning committee's agenda.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Extraordinary artifacts filled the history museum.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Honorary awards fostered a sense of achievement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Complementary snacks filled the break room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Veterinary care facilitated the recovery of the injured animals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Disciplinary hearings filled the legal department's schedule.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Volitionary acts fostered a sense of community service.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Incendiary devices forestalled by quick police action.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Stationary targets facilitated the archery practice.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Illusionary paintings filled the optical illusion exhibit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mercenary contracts facilitated the private security arrangements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Revolutionary designs fueled the fashion industry's trends.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Functionary tasks filled the daily routine of the clerks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Precautionary measures forestalled any safety breaches.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Honorary plaques filled the university's hall of fame.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diversionary maneuvers facilitated the strategic withdrawal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Subsidiary businesses facilitated the conglomerate's revenue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Extraordinary sights filled the travel itinerary.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Complementary gifts fostered customer loyalty.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Missionary expeditions facilitated cultural exchanges.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Visionary literature filled the speculative fiction genre.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Stationary clouds framed the picturesque landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Volitionary contributions fostered the success of the fundraiser.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Revolutionary experiments filled the scientific journal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Complementary technologies facilitated the smart home setup.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Illusionary fears fostered anxiety among the villagers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Honorary guests filled the banquet hall with prestige.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Sedentary routines fostered a sense of monotony.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Extraordinary musicians filled the concert hall with melodies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Disciplinary guidelines facilitated the code of conduct.",
+        "KURDISH_KURDISH_KURDISH");
+
+    await insertSentence(
+        "Adaptable strategies swiftly transformed the company's fortunes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amendable plans consistently improved throughout the project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable determination frequently propelled the athlete forward.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adorable puppies eagerly bounded across the yard playfully.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Applicable regulations uniformly governed the new procedures strictly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Attainable goals gradually motivated the team towards excellence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Affordable housing inevitably drew many families to the area.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable technologies seamlessly integrated into the existing infrastructure.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Accusatory tones deliberately escalated the tension in the room.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Actionable insights promptly drove the decision-making process.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advisable precautions cautiously minimized the potential risks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Appreciable differences significantly influenced the research outcomes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable leadership consistently inspired the entire organization.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Achievable objectives gradually increased the team's productivity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amiable discussions often fostered a collaborative environment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adjustable mechanisms efficiently regulated the machine's operation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Audible alarms instantly alerted the security personnel.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Accessible information rapidly informed the public about the changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acknowledgable facts fundamentally shaped the scientific conclusions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Agricultural innovations remarkably boosted the farm's yield annually.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable models continually evolved to meet market demands.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Avoidable mistakes frequently disrupted the workflow.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Arable land significantly enhanced the region's agricultural potential.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Articulable points clearly conveyed the speaker's arguments persuasively.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable courage consistently defined the firefighter's career.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acceptable behavior uniformly adhered to the company's standards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alterable settings easily customized the user experience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Appreciable growth steadily increased the company's market share.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Attainable benchmarks incrementally motivated the employees.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authentic voices genuinely resonated with the diverse audience.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Affordable solutions effectively addressed the pressing issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Aesthetic designs beautifully enhanced the architectural appeal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable policies readily accommodated the unexpected challenges.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Agonizable dilemmas constantly plagued the protagonist's journey.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acknowledgable achievements publicly recognized the students' efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable patience gradually resolved the contentious disputes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adjustable parameters precisely controlled the experimental conditions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amenable personalities often facilitated smooth negotiations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Anticipable results reliably guided the strategic planning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Astoundable audiences continuously marveled at the magician's tricks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Appreciable talent evidently shone through the artist's work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advantageable positions strategically improved the company's standing.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable systems promptly responded to the changing requirements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authentic experiences deeply enriched the travelers' adventures.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable resilience persistently characterized the survivor's spirit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Appetizable dishes delightfully satisfied the gourmet's palate.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advisable measures effectively prevented potential hazards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amendable drafts continually improved with each revision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Achievable milestones consistently advanced the project's progress.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amenable suggestions readily incorporated into the final design.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Articulable feedback constructively improved the service quality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acknowledgeable contributions significantly enhanced the team's performance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adorable children joyfully played in the vibrant playground.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Affectionable gestures warmly conveyed the parents' love.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Accessible resources greatly supported the researchers' work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acquirable skills undoubtedly benefited the job applicants.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advantageable traits prominently featured in the candidate's profile.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable software seamlessly upgraded the system's capabilities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authentic ingredients richly flavored the traditional dishes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Avoidable conflicts preferably resolved through dialogue.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acknowledgable milestones meaningfully marked the company's history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Affable hosts generously welcomed the international guests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable generosity profoundly impacted the local community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acquirable knowledge continually expanded the students' horizons.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Aesthetically pleasing designs subtly enhanced the product's appeal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adjustable features effortlessly tailored the application to user needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Ambitable goals realistically set for the ambitious project.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advisable actions prudently mitigated the emerging risks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adorable decorations charmingly adorned the festive occasion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Agonizable choices perpetually haunted the decision-makers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Accessible facilities inclusively served the diverse population.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Applicable theories rigorously tested through empirical studies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable frameworks flexibly supported the dynamic requirements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amendable contracts readily adjusted to reflect the new terms.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Astoundable crowds eagerly anticipated the breathtaking performance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authentic narratives deeply connected with the readers' emotions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Attainable heights symbolically represented the aspirational goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advisable interventions proactively addressed the critical issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable discipline consistently maintained throughout the rigorous training.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amendable budgets sensibly allocated the financial resources.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advantageable conditions favorably influenced the experimental outcomes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amiable interactions positively reinforced the collaborative spirit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Applicable techniques systematically improved the process efficiency.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Accessible venues comfortably accommodated the large gatherings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Articulable objectives clearly communicated the strategic vision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adaptable schedules smoothly accommodated the unforeseen changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adorable moments fondly remembered by the close-knit family.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acknowledgable successes prominently celebrated at the award ceremony.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Anticipable challenges carefully planned for in advance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Adjustable components easily modified to suit the specific needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Acquirable assets strategically strengthened the investment portfolio.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Affectionable bonds genuinely nurtured among the team members.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Admirable traits consistently demonstrated by the dedicated volunteers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amendable agreements mutually beneficial for all parties involved.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Aesthetically pleasing landscapes beautifully captured by the photographer.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Napoleon Bonaparte, a strategic military leader, meticulously engineered numerous formidable campaigns.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leonardo da Vinci, an illustrious polymath, ingeniously pioneered advancements in both art and science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Curie, a distinguished physicist, rigorously researched radioactive elements with groundbreaking results.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's discern the nuances between these concepts to gain a comprehensive understanding.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We must elucidate the distinctions between these phenomena to avoid confusion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By scrutinizing the subtleties, we can effectively differentiate between these elements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's delineate the divergences in their characteristics to grasp their individual essence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through careful analysis, we can demarcate the boundaries between these entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's parse the intricacies to discern the disparate qualities of each.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By delving into the specifics, we can discriminate between these disparate entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's dissect the components to discern the divergent attributes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's scrutinize the data to extract valuable insights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We must collaborate to attain our common goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's facilitate discussions to foster understanding and cooperation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We need to evaluate the options before making a decision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our network to mobilize support for the cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Efforts to automate the process have streamlined operations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's cultivate a culture of inclusivity and diversity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aim to attract top talent to advance our mission.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's negotiate with stakeholders to reach a mutually beneficial agreement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Efforts to automate manual tasks have increased efficiency.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's demonstrate our commitment through action.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aspire to achieve excellence in all endeavors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's navigate the challenges with resilience and determination.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for policies that promote equality and justice.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's innovate to stay ahead of the competition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to captivate our audience with compelling storytelling.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our resources to address pressing issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate challenges but remain steadfast in our goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's collaborate with other organizations to amplify our impact.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for measures to alleviate poverty and inequality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's communicate our vision with clarity and conviction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We appreciate your efforts to advance the cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the effectiveness of our strategies regularly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We anticipate changes and adapt accordingly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's demonstrate our commitment through concrete actions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aspire to inspire others through our work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's cultivate a culture of continuous learning and growth.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for policies that promote sustainability and conservation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the potential risks before proceeding.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to accelerate progress towards our objectives.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's demonstrate empathy and compassion in our interactions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to empower individuals to reach their full potential.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's advocate for policies that prioritize public health and safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate challenges but remain undeterred in our mission.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's collaborate with local communities to address their needs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to achieve measurable results through our efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the impact of our initiatives on the community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate objections but remain confident in our stance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's navigate the complexities with prudence and foresight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to create a better future for generations to come.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's advocate for measures to protect the environment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to alleviate suffering and promote human dignity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's collaborate with experts to develop innovative solutions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate resistance but remain committed to our cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our network to mobilize support for change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aspire to lead by example and inspire others.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the feasibility of our proposed solutions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for policies that promote economic prosperity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's cultivate a sense of belonging and community.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to foster collaboration and cooperation among stakeholders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's communicate our message with clarity and impact.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We appreciate your dedication to advancing the cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the long-term implications of our decisions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to create a more just and equitable society.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our resources to address systemic issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate opposition but remain steadfast in our beliefs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's collaborate with policymakers to enact meaningful change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for measures to protect human rights and dignity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the potential benefits of our proposed actions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aim to inspire others to join us in our efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's cultivate a spirit of resilience and perseverance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to make a positive difference in the world.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's communicate our values with authenticity and integrity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We appreciate your support in furthering our goals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the effectiveness of our advocacy efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We anticipate challenges but remain optimistic about the future.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our network to mobilize resources and support.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We aim to build bridges and foster understanding.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's collaborate with allies to amplify our impact.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for policies that promote social justice and equality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the potential risks and benefits of our actions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to create a more sustainable and inclusive world.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's navigate the complexities with wisdom and discernment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("We appreciate your commitment to our shared mission.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's evaluate the feasibility of our proposed solutions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to empower individuals to advocate for change.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's cultivate a culture of empathy and solidarity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aspire to inspire others to join us in our efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's communicate our message with clarity and conviction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We appreciate your contributions to advancing the cause.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Let's evaluate the long-term impact of our actions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We aim to create meaningful change through collective action.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's activate our resources to address pressing issues.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "We advocate for policies that prioritize the well-being of all.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Books are windows to new worlds, offering boundless knowledge.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Birds in the sanctuary sing melodies that soothe the soul.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bushes in the garden bloom with vibrant colors in the spring.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Businesses in the community thrive when supported by local patrons.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Babies in the nursery giggle and coo, bringing joy to all.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Balloons at the celebration danced in the breeze, brightening the sky.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bells in the church tower chimed, marking the passage of time.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bicycles in the garage await their next adventure on the trails.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bedsheets in the linen closet are neatly folded, ready for use.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Brains in the laboratory buzz with activity as researchers work.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bottles in the pantry clink together as shelves are rearranged.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bunk beds in the cabin provide cozy sleeping quarters for campers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bricks in the wall form a sturdy barrier against the elements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Beaches along the coast beckon with their sandy shores and crashing waves.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Baskets in the market overflow with fresh fruits and vegetables.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Benches in the park offer weary travelers a place to rest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Boots in the closet are polished and ready for the hiking trip.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bars in the city buzz with activity as nightlife comes alive.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bridges in the cityscape span rivers and connect communities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Booksellers in the bookstore help customers find their next read.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Backpacks in the classroom are stuffed with books and supplies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Blankets in the living room provide warmth on chilly evenings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bugs in the garden pollinate flowers and keep ecosystems in balance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Beads in the craft store come in a rainbow of colors and sizes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Buds on the trees burst forth in spring, signaling new beginnings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bands in the parade march proudly, playing lively tunes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Balloons at the party float gracefully, adding color to the festivities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bushels of apples in the orchard are ripe for picking in the autumn.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bats in the attic flutter about, seeking refuge during the day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bays in the harbor are filled with boats, bobbing gently on the water.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bracelets in the jewelry box sparkle in the sunlight.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Blossoms on the bushes perfume the air with their sweet fragrance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Blossoms on the cherry trees paint the landscape in shades of pink and white.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Barns on the farm shelter animals and store equipment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Books in the library transport readers to far-off lands and distant times.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Boulders in the riverbed create rapids and eddies as water rushes past.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bangles on the dancer's wrist jingle with each graceful movement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Berries in the garden ripen under the warm summer sun.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bridesmaids in the wedding party help the bride prepare for her big day.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Beakers in the laboratory are filled with colorful liquids and bubbling solutions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Banners on the walls display messages of unity and solidarity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Baskets in the bakery overflow with freshly baked bread and pastries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bushes in the park provide shelter for birds and small animals.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bridges in the cityscape offer stunning views of the skyline and river below.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Bottles in the recycling bin clink together as they're emptied into the truck.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Beads on the necklace shimmer in the candlelight, catching the eye of onlookers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Barnacles on the dock cling to the wooden pilings, creating a textured surface.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Balloons at the festival sway in the breeze, adding a festive touch to the event.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Blossoms on the trees herald the arrival of spring, filling the air with their fragrance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through meticulous examination, we can ascertain the disparities between these phenomena.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a journey of discernment to unravel the complexities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By engaging in critical analysis, we can delineate the distinctions between these entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's delve into the intricacies to discern the multifaceted differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through rigorous scrutiny, we can distinguish between these disparate elements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's engage in a process of differentiation to uncover the underlying disparities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By engaging in comparative analysis, we can delineate the variations between these entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's delve into the nuances to elucidate the discernible differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through comprehensive examination, we can decipher the divergent qualities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a quest for clarity to discern the disparate characteristics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By meticulously examining the details, we can discriminate between these disparate entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's explore the intricacies to unravel the subtle distinctions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through careful scrutiny, we can ascertain the disparate attributes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's engage in a process of differentiation to elucidate the distinctions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By parsing the intricacies, we can discern the subtle differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a journey of analysis to unravel the complexities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through rigorous examination, we can delineate the divergent qualities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's delve into the nuances to discern the multifaceted differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By engaging in critical analysis, we can discriminate between these disparate elements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a process of discernment to unravel the intricacies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through meticulous examination, we can ascertain the disparities between these phenomena.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's delve into the intricacies to discern the multifaceted differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By engaging in comprehensive analysis, we can delineate the distinctions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a journey of differentiation to unravel the complexities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Through careful scrutiny, we can dissect the components to discern the divergent attributes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's engage in a process of discernment to elucidate the discernible differences.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "By parsing the intricacies, we can discriminate between these disparate entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Let's embark on a quest for clarity to ascertain the disparities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mahatma Gandhi, a visionary political leader, peacefully orchestrated India's monumental independence movement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Niccolò Machiavelli, an astute political theorist, profoundly influenced political strategy with his seminal writings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cleopatra, a captivating queen, deftly navigated complex political alliances to preserve Egypt's sovereignty.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Isaac Newton, a preeminent mathematician, formulated revolutionary laws that fundamentally transformed physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Florence Nightingale, a pioneering nurse, systematically reformed medical practices with exceptional dedication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Socrates, a foundational philosopher, persistently questioned societal norms to cultivate intellectual discourse.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Elizabeth I, an influential monarch, adeptly steered England through a transformative golden age.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Albert Einstein, a renowned theoretical physicist, profoundly reshaped our understanding of the universe with his theories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Amelia Earhart, a trailblazing aviator, courageously challenged gender norms by setting numerous flight records.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Galileo Galilei, an innovative astronomer, valiantly advocated for heliocentric theory despite fierce opposition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "William Shakespeare, a masterful playwright, timelessly enriched literature with his profound and enduring works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Nelson Mandela, a stalwart anti-apartheid leader, relentlessly pursued justice, ultimately dismantling systemic racism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Jane Austen, a keen novelist, astutely depicted societal dynamics with her incisive and enduring literature.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander the Great, an unparalleled conqueror, expansively forged one of history's largest empires.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Joan of Arc, a revered heroine, courageously led French forces to pivotal victories during the Hundred Years' War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Charles Darwin, an eminent naturalist, meticulously developed the groundbreaking theory of evolution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Frida Kahlo, a seminal painter, vividly expressed personal and cultural identity through her captivating artwork.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mozart, a prodigious composer, indelibly influenced classical music with his prolific and masterful compositions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Harriet Tubman, an unwavering abolitionist, fearlessly liberated countless slaves via the Underground Railroad.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Vincent van Gogh, an enigmatic artist, poignantly captured human emotion in his visually striking paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Susan B. Anthony, a fervent suffragist, tirelessly campaigned for women's rights and societal equality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Johannes Gutenberg, an inventive printer, revolutionized information dissemination with his movable-type printing press.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Thomas Edison, a prolific inventor, continually transformed modern life with his groundbreaking innovations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Winston Churchill, a steadfast statesman, resolutely guided Britain through the harrowing trials of World War II.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Victoria, a powerful monarch, oversaw an era of immense industrial, cultural, and territorial expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Martin Luther King Jr., an impassioned civil rights leader, eloquently championed nonviolent resistance to racial injustice.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Antoinette, a controversial queen, epitomized the complexities of monarchy during the French Revolution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Archimedes, a brilliant mathematician, ingeniously advanced understanding in geometry, physics, and engineering.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clara Barton, a dedicated nurse, compassionately founded the American Red Cross and revolutionized emergency care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Galileo Galilei, a pioneering astronomer, boldly challenged the geocentric model with empirical observations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Confucius, a sagacious philosopher, profoundly shaped Chinese thought with his teachings on ethics and governance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Rosa Parks, a resolute activist, famously catalyzed the Civil Rights Movement by refusing to surrender her bus seat.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander Fleming, a pioneering biologist, fortuitously discovered penicillin, revolutionizing medical treatment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Hammurabi, a historic king, codified one of the earliest and most comprehensive sets of laws in human history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Thomas Jefferson, an influential statesman, meticulously authored the Declaration of Independence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Louis Pasteur, a groundbreaking microbiologist, innovatively developed vaccines and pasteurization techniques.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Hypatia, an erudite philosopher, significantly contributed to mathematics and astronomy in ancient Alexandria.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Simón Bolívar, a revolutionary leader, tirelessly fought for and achieved independence for several South American nations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Michelangelo, a masterful artist, exquisitely sculpted and painted works that remain unparalleled in beauty and influence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sitting Bull, a formidable Lakota leader, valiantly resisted U.S. government policies and defended his people's way of life.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Florence Nightingale, a trailblazing nurse, fundamentally reformed hospital sanitation practices.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Benjamin Franklin, a versatile polymath, significantly impacted American history through his inventions and diplomacy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Empress Dowager Cixi, a powerful regent, adeptly navigated and influenced the late Qing dynasty's political landscape.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Genghis Khan, a fearsome conqueror, expansively unified the Mongol tribes into a formidable empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sophocles, an illustrious playwright, profoundly enriched Greek drama with his tragic masterpieces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Catherine the Great, an astute empress, substantially modernized Russia with her ambitious reforms and cultural patronage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "John Locke, an influential philosopher, profoundly impacted modern political theory with his writings on liberty and governance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marco Polo, an intrepid explorer, extensively chronicled his extraordinary travels through Asia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Hatshepsut, an ambitious pharaoh, notably expanded Egypt's trade networks and monumental architecture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Nicolaus Copernicus, a pioneering astronomer, radically proposed the heliocentric model of the solar system.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Eleanor Roosevelt, an indefatigable advocate, tirelessly championed human rights and social justice worldwide.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Herodotus, a foundational historian, meticulously documented the ancient world in his extensive writings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leon Trotsky, a fervent revolutionary, played a pivotal role in the Bolshevik Revolution and early Soviet state formation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "John F. Kennedy, a charismatic president, vigorously led the United States through a crucial period of the Cold War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Elizabeth Blackwell, a pioneering physician, tenaciously became the first woman to receive a medical degree in the United States.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "John Muir, a passionate naturalist, ardently advocated for the preservation of wilderness and national parks.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Voltaire, an incisive writer, eloquently criticized societal injustices through his satirical works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Imhotep, an ingenious architect, designed the first pyramids and profoundly influenced ancient Egyptian architecture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alfred Nobel, an inventive chemist, notably established the Nobel Prizes with his amassed fortune from inventing dynamite.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Harriet Beecher Stowe, a compelling author, passionately wrote 'Uncle Tom's Cabin,' galvanizing anti-slavery sentiment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Louisa May Alcott, a talented novelist, richly portrayed family life and women's experiences in her enduring works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "David Livingstone, an intrepid explorer, meticulously mapped uncharted regions of Africa and advocated against the slave trade.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Beethoven, a masterful composer, profoundly transformed classical music with his innovative symphonies and sonatas.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Isabella I, a formidable monarch, decisively unified Spain and sponsored Christopher Columbus's voyages.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Homer, an epic poet, timelessly narrated the legendary tales of the Iliad and the Odyssey.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clive Staples Lewis, a prolific writer, profoundly influenced modern literature with his imaginative works and theological writings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "William the Conqueror, a decisive ruler, fundamentally reshaped England with his Norman conquest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Johann Sebastian Bach, a virtuoso composer, meticulously crafted complex and beautiful Baroque music.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Indira Gandhi, a resilient prime minister, vigorously led India through significant political and social changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Pythagoras, a foundational mathematician, significantly contributed to geometry and philosophical thought.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Georgia O'Keeffe, a pioneering artist, vividly captured the essence of American landscapes with her unique style.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Robert the Bruce, a valiant king, heroically secured Scotland's independence through decisive battles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Franz Kafka, an enigmatic writer, profoundly explored existential themes in his surreal and influential works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Helen Keller, a remarkable advocate, passionately championed the rights of the disabled despite her own profound challenges.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Otto von Bismarck, a shrewd statesman, skillfully unified Germany and shaped its powerful presence in Europe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Anne Frank, a poignant diarist, indelibly recorded her harrowing experiences during the Holocaust.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Andrew Carnegie, a prolific industrialist, generously funded public libraries and education with his vast fortune.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Nefertiti, an influential queen, prominently featured in Egyptian art and politics during her reign.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "James Watt, an inventive engineer, dramatically improved the steam engine, fueling the Industrial Revolution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander Graham Bell, an inventive scientist, famously revolutionized communication with the invention of the telephone.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Jean-Jacques Rousseau, an influential philosopher, profoundly impacted modern thought with his writings on education and society.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Clara Schumann, a gifted pianist, significantly contributed to the Romantic era of music through her performances and compositions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alfred the Great, a wise king, effectively defended England against Viking invasions and promoted learning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Henrietta Lacks, an unsung hero, posthumously contributed to medical science through the immortal HeLa cells derived from her body.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sappho, an acclaimed poet, vividly expressed deep emotion and personal experiences in her lyric poetry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Salvador Dalí, a surrealist artist, dramatically redefined modern art with his imaginative and eccentric works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leonardo da Vinci, an illustrious polymath, ingeniously pioneered advancements in both art and science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Curie, a distinguished physicist, rigorously researched radioactive elements with groundbreaking results.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Isaac Newton, a preeminent mathematician, formulated revolutionary laws that fundamentally transformed physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Galileo Galilei, an innovative astronomer, valiantly advocated for heliocentric theory despite fierce opposition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Vincent van Gogh, an enigmatic artist, poignantly captured human emotion in his visually striking paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Albert Einstein, a renowned theoretical physicist, profoundly reshaped our understanding of the universe with his theories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Michelangelo, a masterful artist, exquisitely sculpted and painted works that remain unparalleled in beauty and influence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Galileo Galilei, a pioneering astronomer, boldly challenged the geocentric model with empirical observations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Florence Nightingale, a pioneering nurse, systematically reformed medical practices with exceptional dedication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander Fleming, a pioneering biologist, fortuitously discovered penicillin, revolutionizing medical treatment.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Louis Pasteur, a groundbreaking microbiologist, innovatively developed vaccines and pasteurization techniques.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Thomas Edison, a prolific inventor, continually transformed modern life with his groundbreaking innovations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Curie, a tireless chemist, meticulously isolated radioactive isotopes, winning two Nobel Prizes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leonardo da Vinci, a Renaissance genius, intricately designed visionary machines and painted masterpieces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Johannes Kepler, a brilliant astronomer, accurately described planetary motion with his laws.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Claude Monet, an impressionist painter, skillfully captured the fleeting effects of light and color.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "James Watson, a molecular biologist, famously co-discovered the double helix structure of DNA.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Frida Kahlo, a seminal painter, vividly expressed personal and cultural identity through her captivating artwork.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Charles Darwin, an eminent naturalist, meticulously developed the groundbreaking theory of evolution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Nicolaus Copernicus, a pioneering astronomer, radically proposed the heliocentric model of the solar system.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Pablo Picasso, an innovative artist, profoundly transformed modern art with his pioneering cubism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Rosalind Franklin, a pivotal scientist, crucially contributed to understanding DNA's structure with her X-ray diffraction images.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Georgia O'Keeffe, a pioneering artist, vividly captured the essence of American landscapes with her unique style.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Max Planck, a theoretical physicist, fundamentally developed quantum theory, earning the Nobel Prize.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Andy Warhol, a leading figure in pop art, cleverly used mass media imagery to critique consumer culture.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Richard Feynman, a theoretical physicist, brilliantly advanced quantum electrodynamics and particle physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Salvador Dalí, a surrealist artist, dramatically redefined modern art with his imaginative and eccentric works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Jane Goodall, a primatologist, profoundly expanded our understanding of chimpanzees through her immersive research.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Henri Matisse, a fauvist painter, dynamically used color and form to revolutionize modern art.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Gregor Mendel, a geneticist, meticulously discovered the foundational laws of inheritance through pea plant experiments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Jackson Pollock, an abstract expressionist, energetically revolutionized painting with his drip technique.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Edwin Hubble, an astronomer, significantly expanded our knowledge of the universe by discovering its continual expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Rembrandt, a baroque artist, masterfully depicted human emotion and dramatic lighting in his portraits.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander Graham Bell, an inventive scientist, famously revolutionized communication with the invention of the telephone.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Johannes Gutenberg, an inventive printer, revolutionized information dissemination with his movable-type printing press.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Caravaggio, a baroque painter, dramatically employed chiaroscuro to enhance emotional intensity in his works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Tharp, a geologist, remarkably mapped the ocean floor, revealing the mid-ocean ridge and plate tectonics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marc Chagall, a modernist artist, poetically blended reality and fantasy in his evocative paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Niels Bohr, a physicist, significantly advanced atomic structure understanding and quantum mechanics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Auguste Rodin, a sculptor, vividly captured movement and emotion in his expressive works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "James Clerk Maxwell, a physicist, fundamentally unified electricity and magnetism with his electromagnetic theory.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diego Rivera, a muralist, powerfully depicted social and political themes in his large-scale public works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Curie, a dedicated scientist, profoundly impacted science with her discovery of radioactivity and its applications.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "David Hockney, a contemporary artist, innovatively combined traditional techniques with modern technology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Dmitri Mendeleev, a chemist, systematically organized elements into the periodic table, predicting future discoveries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Henri Rousseau, a post-impressionist, vividly portrayed exotic landscapes and dreamlike scenes in his paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Francis Crick, a molecular biologist, crucially co-discovered the structure of DNA with James Watson.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Edvard Munch, an expressionist, hauntingly depicted human angst and emotion in 'The Scream.'",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Erwin Schrödinger, a physicist, profoundly influenced quantum mechanics with his wave equation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mark Rothko, an abstract expressionist, intensely conveyed emotion through his color field paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Werner Heisenberg, a physicist, crucially developed the uncertainty principle in quantum mechanics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Henri de Toulouse-Lautrec, a post-impressionist, vividly captured Parisian nightlife in his evocative works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Robert Hooke, a scientist, extensively contributed to biology, physics, and architecture with his pioneering research.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Georgia O'Keeffe, a modernist, beautifully depicted flowers and southwestern landscapes with her distinctive style.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Albert Einstein, a theoretical physicist, transformed our understanding of time and space with his theory of relativity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Pierre-Auguste Renoir, an impressionist, delicately portrayed light and movement in his vibrant paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Antoine Lavoisier, a chemist, methodically established the law of conservation of mass, revolutionizing chemistry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Vincent van Gogh, a post-impressionist, intensely conveyed emotion and color in his iconic works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Michael Faraday, a scientist, significantly advanced our understanding of electromagnetism and electrochemistry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leonardo da Vinci, a Renaissance polymath, seamlessly blended art and science with his diverse talents and inventions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Skłodowska Curie, a physicist, tirelessly pioneered research in radioactivity, winning two Nobel Prizes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Gustav Klimt, a symbolist painter, richly adorned his works with gold leaf and intricate patterns.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Gregor Mendel, a geneticist, meticulously discovered the foundational principles of heredity through pea plant experiments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Claude Monet, an impressionist, masterfully captured fleeting moments of light and color in his paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Nikola Tesla, an inventor, profoundly influenced modern electricity with his alternating current system.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Jackson Pollock, an abstract expressionist, dynamically revolutionized painting with his drip technique.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Rosalind Franklin, a biophysicist, crucially contributed to understanding DNA's structure through her X-ray diffraction images.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Paul Cézanne, a post-impressionist, profoundly bridged the gap between 19th-century impressionism and 20th-century cubism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Thomas Edison, an inventor, tirelessly developed countless devices that transformed everyday life.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Frida Kahlo, a surrealist painter, vividly explored personal and cultural identity in her introspective works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Enrico Fermi, a physicist, significantly advanced nuclear physics and developed the first nuclear reactor.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Henri Matisse, a fauvist, boldly used color and form to create revolutionary and vibrant art.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander Fleming, a biologist, fortuitously discovered penicillin, revolutionizing the treatment of bacterial infections.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Georgia O'Keeffe, a modernist painter, richly captured the essence of American landscapes and flora.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "James Watson, a molecular biologist, famously co-discovered the double helix structure of DNA.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Michelangelo, a Renaissance sculptor, magnificently captured the human form in his enduring masterpieces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Charles Darwin, a naturalist, meticulously developed the theory of evolution by natural selection.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Edgar Degas, an impressionist, exquisitely depicted ballet dancers and everyday life in his works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Stephen Hawking, a theoretical physicist, profoundly advanced our understanding of black holes and cosmology.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Salvador Dalí, a surrealist painter, dramatically redefined modern art with his imaginative and eccentric works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Richard Feynman, a theoretical physicist, brilliantly advanced quantum electrodynamics and particle physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mary Cassatt, an impressionist, intimately portrayed the lives of women and children in her paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Isaac Newton, a mathematician, formulated the laws of motion and universal gravitation, revolutionizing physics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Joan Miró, a surrealist, whimsically combined abstract forms and bright colors in his playful works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Robert Oppenheimer, a physicist, led the Manhattan Project, significantly advancing nuclear science.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Leonardo da Vinci, a visionary artist and inventor, seamlessly blended art and science with his diverse talents.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Pablo Picasso, an avant-garde artist, profoundly transformed modern art with his innovative cubism.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Niels Bohr, a physicist, significantly advanced atomic structure understanding and quantum mechanics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Claude Monet, an impressionist, masterfully captured fleeting moments of light and color in his paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Louis Pasteur, a biologist, innovatively developed vaccines and pasteurization techniques.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Mark Rothko, an abstract expressionist, intensely conveyed emotion through his color field paintings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marie Curie, a dedicated scientist, profoundly impacted science with her discovery of radioactivity and its applications.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Diego Rivera, a muralist, powerfully depicted social and political themes in his large-scale public works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Corporate governance rules stringently ensure ethical conduct and accountability in businesses.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Strict rules regarding waste disposal effectively mitigate environmental pollution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Academic institutions rigorously enforce rules to maintain academic integrity and fairness.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Taxation rules intricately outline the obligations of individuals and corporations to fund public services.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Building codes comprehensively detail safety rules to protect residents and workers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Regulatory agencies vigilantly monitor compliance with financial rules to prevent fraud and abuse.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Sports leagues uniformly apply rules to ensure fair play and competition among teams.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Legal systems meticulously define rules to uphold justice and order in society.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "International trade rules facilitate equitable exchanges between countries while protecting domestic interests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Employment contracts clearly delineate rules to safeguard both employee rights and employer responsibilities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Healthcare regulations strictly enforce rules to maintain patient safety and care standards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Traffic laws universally prescribe rules to manage road use and prevent accidents.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Consumer protection laws stringently establish rules to prevent exploitation and ensure product safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Immigration policies explicitly state rules to manage the flow of people across borders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "School districts enforce rules to foster a conducive learning environment and student discipline.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Intellectual property laws meticulously define rules to protect creators' rights and innovations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Zoning regulations comprehensively outline rules to manage land use and urban development.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Corporate compliance programs diligently ensure adherence to legal and ethical rules.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Maritime laws globally enforce rules to govern activities on international waters.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Antitrust laws rigorously impose rules to prevent monopolies and promote competition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Privacy regulations stringently establish rules to protect individuals' personal information.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Professional associations uphold strict rules to maintain standards within their fields.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Judicial review processes carefully scrutinize rules to ensure they align with constitutional principles.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Environmental policies systematically enforce rules to conserve natural resources and biodiversity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Licensing boards vigilantly apply rules to ensure practitioners meet required standards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Contract law intricately defines rules to govern agreements and their enforcement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Corporate bylaws meticulously set forth rules to guide internal governance and decision-making.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Public health guidelines enforce rules to manage disease outbreaks and protect community well-being.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Broadcasting regulations strictly impose rules to manage content and maintain public decency standards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Insurance policies clearly outline rules to manage risk and provide coverage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Election laws comprehensively detail rules to ensure fair and democratic voting processes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cybersecurity policies enforce stringent rules to protect data and prevent unauthorized access.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Trade unions advocate for rules to protect workers' rights and improve labor conditions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Patent laws meticulously establish rules to incentivize innovation and protect inventions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Educational accreditation bodies rigorously enforce rules to ensure institutional quality and standards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Animal welfare regulations stringently impose rules to ensure humane treatment and care.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Telecommunications regulations comprehensively outline rules to manage spectrum use and competition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Public safety ordinances enforce rules to manage community hazards and emergency responses.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Transport regulations meticulously define rules to ensure the safety and efficiency of public and private transit.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Human rights organizations advocate for global rules to protect individuals' freedoms and dignity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Corporate social responsibility guidelines encourage voluntary adherence to ethical rules.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Military protocols strictly enforce rules to govern conduct and operations in armed forces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Banking regulations rigorously impose rules to ensure financial stability and consumer protection.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Data protection laws meticulously set forth rules to manage the handling and security of personal data.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Food safety regulations stringently enforce rules to ensure the quality and safety of food products.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Energy policies systematically establish rules to manage resources and promote sustainability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Pharmaceutical regulations strictly apply rules to ensure the safety and efficacy of drugs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Workplace safety laws comprehensively detail rules to protect employees from hazards.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Copyright laws meticulously define rules to protect the creative works of authors and artists.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Disaster response plans enforce rules to manage relief efforts and ensure public safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Family law intricately establishes rules to govern domestic relations and custody matters.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Public utilities regulations strictly enforce rules to ensure reliable and fair service provision.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Medical ethics guidelines rigorously outline rules to guide the professional conduct of healthcare providers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Landlord-tenant laws meticulously detail rules to protect the rights and responsibilities of both parties.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Tourism regulations comprehensively establish rules to manage visitor impact and preserve cultural heritage.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Public procurement policies strictly enforce rules to ensure transparency and fairness in government contracts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Art conservation guidelines meticulously outline rules to preserve and restore cultural artifacts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Scientific research protocols rigorously apply rules to ensure ethical conduct and valid results.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Public speaking rules, such as time limits and content guidelines, maintain order and relevance in forums.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Recreational fishing rules stringently enforce catch limits and seasons to protect fish populations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Corporate reporting standards meticulously define rules for financial transparency and accountability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Prison regulations strictly apply rules to manage inmate conduct and facility operations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Advertising laws rigorously enforce rules to prevent false claims and ensure truthful promotion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Library policies clearly outline rules to manage the use and lending of resources.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Event management guidelines strictly establish rules to ensure safety and order during public gatherings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Veterinary practice regulations comprehensively detail rules to ensure animal health and professional conduct.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Discrimination laws stringently enforce rules to protect individuals from unfair treatment based on various attributes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Urban planning policies meticulously set forth rules to guide the development and use of land.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Election campaign rules rigorously impose limits and requirements to ensure fair competition.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Marine conservation regulations stringently enforce rules to protect ocean ecosystems and species.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Intellectual property enforcement meticulously applies rules to prevent piracy and infringement.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Media censorship laws strictly impose rules to control and manage the dissemination of information.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Health and safety codes rigorously outline rules to protect public well-being in various settings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Competition laws meticulously enforce rules to prevent anti-competitive practices and promote fairness.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Financial reporting standards strictly establish rules for the accurate and consistent presentation of financial data.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Substance control regulations stringently impose rules to manage the use and distribution of controlled substances.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Energy efficiency standards rigorously outline rules to promote sustainable consumption and production.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Water quality regulations stringently enforce rules to ensure safe and clean drinking water.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Consumer credit laws meticulously establish rules to protect borrowers and regulate lending practices.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Product liability laws rigorously enforce rules to hold manufacturers accountable for safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Child protection laws stringently impose rules to safeguard the welfare and rights of minors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Construction safety standards rigorously outline rules to prevent accidents and ensure worker safety.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Environmental impact assessment regulations meticulously set forth rules to evaluate and mitigate project effects.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Intellectual freedom policies rigorously outline rules to protect the right to access and express ideas.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Broadcast standards stringently enforce rules to manage content and maintain public decency.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Labor laws meticulously establish rules to regulate working conditions and protect workers' rights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Academic standards rigorously outline rules to ensure educational quality and integrity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Export control regulations stringently enforce rules to manage the trade of sensitive technologies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Conflict of interest policies rigorously outline rules to prevent undue influence and ensure impartiality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Municipal codes meticulously establish rules to govern local community standards and behavior.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Climate change policies stringently impose rules to mitigate environmental impact and promote sustainability.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Healthcare accreditation standards rigorously outline rules to ensure quality and safety in medical facilities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cyber ethics guidelines stringently enforce rules to govern conduct and security in digital spaces.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Land use regulations meticulously set forth rules to manage development and conservation efforts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Art exhibition policies rigorously outline rules to ensure the preservation and proper display of works.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Julius Caesar, a formidable Roman general, adeptly expanded the Roman Republic's territory through conquest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Alexander the Great, a brilliant Macedonian military leader, rapidly established one of the largest empires in history.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Genghis Khan, a ruthless Mongol ruler, efficiently unified the Mongol tribes and conquered vast regions of Asia and Europe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Napoleon Bonaparte, a strategic French military leader, dramatically altered European politics through his expansive campaigns.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cleopatra VII, a shrewd Egyptian queen, skillfully navigated political alliances to maintain her kingdom's autonomy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Charlemagne, a visionary Frankish king, effectively united much of Western Europe under the Carolingian Empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Elizabeth I, a resilient English monarch, successfully defended her nation against the Spanish Armada.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Attila the Hun, a fearsome nomadic leader, aggressively expanded his empire across Europe with relentless invasions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "George Washington, an esteemed American general, led the Continental Army to victory during the Revolutionary War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Catherine the Great, an influential Russian empress, profoundly modernized Russia and expanded its borders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Richard the Lionheart, a valiant English king, famously led the Third Crusade to reclaim the Holy Land.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Shaka Zulu, a formidable African warrior king, effectively united the Zulu tribes through innovative military tactics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Frederick the Great, a strategic Prussian king, adeptly expanded and consolidated Prussian territories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Peter the Great, a transformative Russian czar, ambitiously modernized Russia and expanded its empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Victoria, a long-reigning British monarch, presided over an era of industrial, cultural, and colonial expansion.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Meiji, a forward-thinking Japanese ruler, rapidly transformed Japan into a modern industrial power.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Otto von Bismarck, a shrewd German statesman, skillfully unified the German states into a powerful empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Louis XIV, an absolute French monarch, lavishly built the Palace of Versailles and expanded French influence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Joan of Arc, a fearless French heroine, valiantly led troops to lift the Siege of Orléans during the Hundred Years' War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Hannibal Barca, a brilliant Carthaginian general, famously crossed the Alps to challenge Rome in the Second Punic War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Henry VIII, a controversial English ruler, fundamentally altered the church-state relationship by establishing the Church of England.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Isabella I, a determined Spanish monarch, sponsored Columbus's voyages, initiating the age of exploration.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Suleiman the Magnificent, a powerful Ottoman sultan, significantly expanded the empire and presided over its golden age.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Leonidas I, a legendary Spartan king, heroically led his troops at the Battle of Thermopylae against overwhelming odds.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Philip II of Spain, a devout Catholic ruler, aggressively sought to strengthen his empire and enforce religious unity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Czar Nicholas II, the last Russian emperor, faced immense turmoil leading to the Russian Revolution and his abdication.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Simon Bolivar, a visionary South American liberator, decisively led independence movements across several nations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Cyrus the Great, a pioneering Persian ruler, established the vast and influential Achaemenid Empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Qin Shi Huang, the first unifier of China, meticulously built the Great Wall and standardized various systems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Alfred the Great, a wise English monarch, successfully defended his kingdom against Viking invasions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Empress Theodora, a powerful Byzantine empress, significantly influenced imperial policies and championed women's rights.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Justinian I, a Byzantine ruler, comprehensively codified Roman law and embarked on ambitious building projects.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Harald Hardrada, a fierce Norse ruler, boldly sought to claim the English throne, leading to the Battle of Stamford Bridge.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Hatshepsut, an influential Egyptian pharaoh, successfully expanded trade routes and commissioned grand building projects.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Gustavus Adolphus, a strategic Swedish king, effectively led his nation during the Thirty Years' War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Ashoka the Great, a transformative Indian ruler, embraced Buddhism and promoted non-violence after a bloody conquest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Charlemagne, a revered European ruler, significantly shaped the cultural and political landscape of medieval Europe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Leonidas I, a legendary Spartan warrior, valiantly defended Greece against the Persian invasion at Thermopylae.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Richard III, a controversial English monarch, notoriously met his end at the Battle of Bosworth Field.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King William the Conqueror, a formidable Norman ruler, successfully invaded and transformed England after the Battle of Hastings.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Akbar the Great, a tolerant Mughal ruler, notably fostered religious harmony and expanded his empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Ramses II, a powerful Egyptian pharaoh, ambitiously built monumental structures and secured military victories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Boudica, a fierce British tribal leader, courageously led a revolt against Roman occupation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Solomon, a wise and wealthy Israeli monarch, famously built the First Temple and promoted prosperity.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King David, a revered Israeli king, established Jerusalem as the political and religious center of his kingdom.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Nebuchadnezzar II, a powerful Babylonian ruler, magnificently rebuilt Babylon and commissioned the Hanging Gardens.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Hammurabi, an influential Babylonian king, codified a comprehensive set of laws known as the Code of Hammurabi.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Hadrian, a strategic Roman leader, famously built Hadrian's Wall to fortify the empire's northern boundary.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Mansa Musa, a wealthy Malian ruler, lavishly displayed his empire's riches during his pilgrimage to Mecca.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Thutmose III, a formidable Egyptian pharaoh, successfully led military campaigns to expand his empire's borders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Constantine the Great, a pivotal Roman ruler, embraced Christianity and established Constantinople.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Zenobia, a resilient Syrian queen, boldly challenged Roman authority before her eventual defeat.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King John of England, a controversial monarch, reluctantly signed the Magna Carta, limiting royal power.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Canute the Great, a wise Danish ruler, adeptly governed a vast North Sea Empire encompassing England and Scandinavia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Afonso I, a transformative Kongo ruler, embraced Christianity and established strong ties with Portugal.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Kangxi, a long-reigning Qing dynasty ruler, effectively expanded and consolidated Chinese territory.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Louis IX, a pious French king, led two crusades and was later canonized as Saint Louis.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Shaka Zulu, a revolutionary African leader, dramatically transformed the Zulu Kingdom through military innovation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Alfred the Great, a scholarly English ruler, successfully defended his realm from Viking invasions and promoted education.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Moctezuma II, a powerful Aztec leader, faced the devastating Spanish conquest led by Hernán Cortés.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Hammurabi, a pioneering Babylonian ruler, established one of the earliest and most comprehensive legal codes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Trajan, a capable Roman ruler, led the empire to its greatest territorial extent through military conquests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Henry IV of France, a pragmatic ruler, enacted the Edict of Nantes to promote religious tolerance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Marcus Aurelius, a stoic philosopher-king, adeptly governed Rome while writing his Meditations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King David, a heroic Israeli leader, famously defeated Goliath and established Jerusalem as his capital.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Elizabeth II, a long-reigning British monarch, witnessed and adapted to immense social and political changes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Ashurbanipal, an erudite Assyrian ruler, famously established a vast library in Nineveh.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Hirohito, a Japanese ruler during WWII, witnessed his nation's transformation post-war into a peaceful power.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Harald Fairhair, a legendary Norse ruler, is credited with unifying Norway under his reign.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Edward I, a formidable English monarch, effectively expanded his realm through military campaigns in Wales and Scotland.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Jimmu, the legendary first emperor of Japan, is traditionally regarded as the founder of the Japanese imperial line.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Hammurabi, an influential Mesopotamian ruler, is best known for his codification of ancient laws.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Leopold II, a controversial Belgian ruler, notoriously exploited the Congo Free State for personal gain.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Richard I, known as Richard the Lionheart, led the Third Crusade and became a symbol of medieval chivalry.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Menelik II of Ethiopia, a strategic ruler, successfully repelled Italian colonial ambitions at the Battle of Adwa.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Philip II of Macedon, a strategic ruler, laid the groundwork for his son Alexander's vast conquests.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Mary I of England, a determined monarch, attempted to restore Catholicism during her turbulent reign.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Charles I of England, a controversial ruler, faced civil war and was ultimately executed by Parliament.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Akihito of Japan, a modernizing monarch, abdicated the throne in favor of his son in 2019.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Bhumibol Adulyadej of Thailand, a revered monarch, was the world's longest-reigning head of state at the time of his death.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Akbar the Great, an innovative Mughal ruler, promoted cultural and religious integration in his empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Louis XVI of France, an ill-fated monarch, faced the French Revolution and was executed during its radical phase.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King William III of England, a constitutional monarch, accepted the Bill of Rights, limiting royal power.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Meiji of Japan, a transformative ruler, led the Meiji Restoration, modernizing Japan rapidly.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Gustav II Adolph of Sweden, a military genius, played a crucial role in the Thirty Years' War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Queen Anne of Great Britain, a key ruler, oversaw the union of England and Scotland into a single kingdom.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Emperor Ashoka the Great, a pivotal Indian ruler, embraced Buddhism and spread its teachings across Asia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "King Henry V of England, a renowned warrior king, secured a famous victory at the Battle of Agincourt.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
         "AI algorithms are used in predictive policing to analyze data and identify potential criminal activity.",
         "KURDISH_KURDISH_KURDISH");
     await insertSentence(
@@ -11232,6 +16194,237 @@ class SentenceDatabase {
         "KURDISH_KURDISH_KURDISH");
     await insertSentence(
         "AI in agriculture is used for tasks such as crop monitoring, pest control, and yield prediction.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Constitutional monarchies, such as those found in the United Kingdom and Japan, blend traditional monarchy with democratic governance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Federal republics, like the United States and Germany, divide power between a central government and individual states or regions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Parliamentary democracies, including India and Canada, feature a system where the executive branch derives its legitimacy from and is accountable to the legislature.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Unitary states, such as France and China, concentrate power in a central government with limited autonomy for subnational entities.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Absolute monarchies, exemplified by Saudi Arabia and Brunei, vest supreme authority in a single ruler without constitutional limitations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Socialist republics, like Cuba and Vietnam, prioritize collective ownership of the means of production and central planning.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Federal states, such as Australia and Brazil, distribute power between a central government and constituent states or territories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Constitutional republics, including France and South Africa, have a system of government where officials are elected by the people and bound by a constitution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Parliamentary monarchies, such as Spain and Sweden, feature a monarch as head of state with a parliamentary system of government.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Presidential democracies, like the United States and Brazil, have a system where the president is both head of state and head of government.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authoritarian regimes, such as North Korea and Belarus, concentrate political power in the hands of a single leader or small group.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Constitutional theocracies, like Iran and Vatican City, blend religious authority with a legal framework governed by a constitution.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Democratic socialist states, such as Norway and Denmark, combine democratic governance with policies aimed at reducing economic inequality.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Federal parliamentary democracies, including Australia and Canada, combine elements of federalism with a parliamentary system of government.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Confederations, like Switzerland and the European Union, consist of sovereign states that delegate some powers to a central authority while retaining independence.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Constitutional monarchies with devolved governments, such as the United Kingdom and Spain, grant varying degrees of autonomy to regions or constituent countries within their borders.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Unitary states with regional autonomy, exemplified by China and Spain, delegate certain powers to subnational entities while maintaining overall authority at the national level.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Federal republics with strong executive powers, like Russia and Mexico, feature a president with significant authority over both the central government and regional administrations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Authoritarian states with pseudo-democratic institutions, such as Russia and Venezuela, maintain the façade of democratic processes while concentrating power in the hands of a ruling elite.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Federal states with asymmetric governance structures, like India and Belgium, grant different levels of autonomy to different constituent units based on historical, cultural, or political factors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Countries like Japan and the United Kingdom have constitutional monarchies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Germany and the United States are federal republics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("India and Canada have parliamentary democracies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "France and China are unitary states.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Saudi Arabia and Brunei have absolute monarchies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Cuba and Vietnam are socialist republics.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Australia and Brazil are federal states.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "France and South Africa are constitutional republics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Spain and Sweden have parliamentary monarchies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The United States and Brazil are presidential republics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("North Korea and Belarus are authoritarian regimes.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Iran and Vatican City are constitutional theocracies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Norway and Denmark are democratic socialist states.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Australia and Canada are federal parliamentary democracies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Russia and Mexico are federal republics.", "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Belgium and the Netherlands are constitutional monarchies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Israel and Italy are parliamentary republics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Switzerland and the European Union are confederations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Spain and Ethiopia have autonomous regions.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Saudi Arabia and Qatar are absolute monarchies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Israel and the Netherlands have proportional representation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Germany and Switzerland use mixed-member proportional representation.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "France and South Korea have semi-presidential systems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("China and Spain have centralized governments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Germany and Turkey have threshold requirements.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Sweden and Denmark have ceremonial monarchs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Hungary and Mexico have mixed electoral systems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The United Kingdom and Spain have devolved administrations.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Switzerland and some U.S. states have direct democracy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Malaysia and Kuwait have elective monarchs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The United States and Brazil have executive presidencies.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Italy and Spain have regional parliaments.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Israel and South Africa have closed party lists.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The United States and India have special status territories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Vietnam and Cuba have one-party dominance.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The United Kingdom and Japan have ceremonial monarchs.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "France and the United States have direct elections for heads of state.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "Canada and Australia have regional parliaments and governors.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Russia and Kazakhstan have dominant-party systems.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("The United Kingdom and Sweden have reserve powers.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence("Germany and New Zealand have overhang seats.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Ottoman Empire, spanning three continents, left a lasting legacy.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Austro-Hungarian Empire, a diverse union, dissolved after World War I.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Byzantine Empire, with Constantinople as its capital, endured centuries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Inca Empire, stretching along the Andes, boasted impressive engineering.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Aztec Empire, with advanced cities, succumbed to Spanish conquest.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Mongol Empire, under Genghis Khan, conquered vast Eurasian territories.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The British Empire, at its peak, controlled territories across the globe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Roman Empire, known for its legions, shaped Western civilization.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Soviet Union, a superpower, dissolved in 1991, ending the Cold War.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Persian Empire, with rich culture, influenced ancient Mesopotamia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Holy Roman Empire, a complex entity, spanned Central Europe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Mughal Empire, renowned for its art, ruled over the Indian subcontinent.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Ottoman Empire, with its sultans, ruled for over six centuries.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Byzantine Empire, with its Orthodox Christianity, bridged East and West.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Mayan Empire, with intricate cities, developed advanced agricultural practices.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Inca Empire, known for Machu Picchu, ruled Andean highlands.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Aztec Empire, with its capital Tenochtitlan, flourished in Mesoamerica.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Mongol Empire, under Kublai Khan, controlled the largest land empire.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The British Empire, with its colonies, shaped modern geopolitics.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Roman Empire, with its laws, architecture, and engineering, influenced Europe.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Soviet Union, with its socialist ideology, competed with the West.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Persian Empire, with its diverse culture, ruled for millennia.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Holy Roman Empire, with its emperors, saw religious and political conflicts.",
+        "KURDISH_KURDISH_KURDISH");
+    await insertSentence(
+        "The Mughal Empire, with its Taj Mahal, reached its zenith in architecture.",
         "KURDISH_KURDISH_KURDISH");
     await insertSentence(
         "The Mars Perseverance rover is a robotic rover that landed on Mars in February 2021 to search for signs of ancient life and collect samples for return to Earth.",
@@ -11790,3 +16983,59 @@ class SentenceDatabase {
     db.close();
   }
 }
+ // crosswords
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 
+ // 

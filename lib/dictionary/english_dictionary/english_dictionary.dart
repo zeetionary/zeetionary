@@ -409,7 +409,7 @@ class _DictionaryScreenEnglishState
             child: SizedBox(
               height: 60,
               child: TextField(
-                enableInteractiveSelection: false,
+                // enableInteractiveSelection: false,
                 controller: _searchController,
                 onChanged: filterResults,
                 decoration: InputDecoration(
@@ -417,6 +417,7 @@ class _DictionaryScreenEnglishState
                       ? ''
                       : shuffledWords[_shuffleCurrentIndex],
                   hintStyle: TextStyle(fontSize: textSize),
+                  border: const OutlineInputBorder(),
                   prefixIcon: Icon(Icons.search, size: textSize + 5),
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -441,7 +442,6 @@ class _DictionaryScreenEnglishState
                       ),
                     ],
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),

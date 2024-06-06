@@ -34,6 +34,7 @@ import 'package:zeetionary/home/screens/home_screen_three.dart';
 
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandoned.dart';
@@ -4979,6 +4980,7 @@ final Map<String, PageBuilder> routes = {
   "/bookmarks-screen": (_) => _blP(const BookmarksScreen()),
   "/tts-screen": (_) => _blP(const TTSPage()),
   "/grammar-screen": (_) => _blP(const GrammarScreen()),
+  "/english-sentences-page": (_) => _blP(const SentencesPage()),
   "/settings-screen": (_) => _blP(const SettingsPage()),
   '/quiz-screen': (_) => _blP(const QuizScreen()),
 // '/quiz-screen': (_) => _blP(const QuizScreen(currentTheme: ThemeData.light())),

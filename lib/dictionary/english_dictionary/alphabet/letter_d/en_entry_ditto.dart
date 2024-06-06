@@ -329,7 +329,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In lists, \"ditto\" (\"\) is used as a symbol to mean \"the same\" and avoid repeating words."); // DOPSUM: CHANGE TEXT
+        "In lists, \"ditto\" (\") is used as a symbol to mean \"the same\" and avoid repeating words."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdittos2(String languageCode) async {
@@ -522,7 +522,7 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "In lists, \"ditto\" (\"\) is used as a symbol to mean \"the same\" and avoid repeating words."),
+                            "In lists, \"ditto\" (\") is used as a symbol to mean \"the same\" and avoid repeating words."),
                     ExampleSentenceKurdish(
                         text:
                             "لە لیستدا دیتۆ وەک سمبولێک بەکاردێت بۆ دووربوون لە دووبارەکردنەوەی وشە."),

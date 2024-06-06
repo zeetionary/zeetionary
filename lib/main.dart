@@ -12,7 +12,7 @@ import 'package:zeetionary/firebase/core/common/error_text.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/router/router_main.dart';
-
+import 'package:zeetionary/dictionary/database_sentences.dart';
 // import 'package:http/http.dart' as http;
 // import 'dart:convert';
 
@@ -90,15 +90,16 @@ import 'package:zeetionary/router/router_main.dart';
 // update com.google.gms:google-services
 // update com.android.tools.build:gradle https://stackoverflow.com/questions/70545646/could-not-find-com-android-tools-buildgradle7-3-3-error-found-in-build-gradle
 
-void main() async {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await SharedPreferences.getInstance(); // Ensure preferences are loaded
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(
       widgetsBinding: widgetsBinding); // Preserve to show the splash screen
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
   runApp(
     const ProviderScope(
       child: MyApp(),
@@ -126,11 +127,22 @@ class _MyAppState extends ConsumerState<MyApp> {
     // This is where you can initialize the resources needed by your app while
     // the splash screen is displayed.
     print('ready in 2...');
-    await Future.delayed(const Duration(seconds: 1));
-    print('ready in 1...');
-    await Future.delayed(const Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 2));
     print('go!');
     FlutterNativeSplash.remove();
+    await initializeDatabase(); // Initialize database after splash screen is removed
+  }
+
+  Future<void> initializeDatabase() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool? isInstalled = prefs.getBool('isDatabaseInstalled');
+
+    if (isInstalled != null && isInstalled) {
+      final database = SentenceDatabase.instance;
+      await database.initialize();
+    } else {
+      // Handle the case where the database is not installed if needed
+    }
   }
 
   @override

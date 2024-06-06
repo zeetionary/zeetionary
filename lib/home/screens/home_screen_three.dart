@@ -4,6 +4,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
+import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/theme/pallete.dart';
@@ -13,7 +14,8 @@ class HomeScreenThree extends ConsumerStatefulWidget {
   const HomeScreenThree({super.key});
 
   @override
-  ConsumerState<ConsumerStatefulWidget> createState() => _HomeScreenThreeState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _HomeScreenThreeState();
 }
 
 class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
@@ -22,6 +24,7 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
   static final List<Widget> _widgetOptions = <Widget>[
     const DictionaryScreenEnglish(),
     const DictionaryScreenKurdish(),
+    const SentencesPage(),
     const GrammarScreen(),
   ];
 
@@ -112,7 +115,6 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
             ],
           ),
         ),
-        
         body: _widgetOptions[_selectedIndex],
         bottomNavigationBar: NavigationBar(
           selectedIndex: _selectedIndex,
@@ -125,6 +127,10 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
             NavigationDestination(
               icon: Icon(Icons.bookmark, size: textSize + 10),
               label: 'کوردی',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.search, size: textSize + 10),
+              label: 'Sentences',
             ),
             NavigationDestination(
               icon: Icon(Icons.school, size: textSize + 10),
@@ -174,8 +180,7 @@ class MyDrawer extends StatelessWidget {
                       color: Theme.of(context).primaryColor.withOpacity(0.01),
                       borderRadius: BorderRadius.circular(55.0),
                       border: Border.all(
-                        color:
-                            Theme.of(context).primaryColor.withOpacity(0.02),
+                        color: Theme.of(context).primaryColor.withOpacity(0.02),
                         width: 1.0,
                       ),
                     ),
@@ -224,6 +229,25 @@ class MyDrawer extends StatelessWidget {
                         ),
                         onTap: () {
                           Routemaster.of(context).push('/english-subreddit');
+                        },
+                      ),
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      ListTile(
+                        title: Text(
+                          "Sentences",
+                          style: TextStyle(
+                            fontSize: textSize + 3,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                        ),
+                        leading: Icon(
+                          Icons.search,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                        onTap: () {
+                          Routemaster.of(context).push('/english-sentences-page');
                         },
                       ),
                       const SizedBox(

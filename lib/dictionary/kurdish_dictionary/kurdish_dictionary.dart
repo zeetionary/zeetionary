@@ -428,7 +428,7 @@ class _DictionaryScreenKurdishState
               child: SizedBox(
                 height: 60,
                 child: TextField(
-                  enableInteractiveSelection: false,
+                  // enableInteractiveSelection: false,
                   controller: _searchController,
                   onChanged: filterResults,
                   decoration: InputDecoration(

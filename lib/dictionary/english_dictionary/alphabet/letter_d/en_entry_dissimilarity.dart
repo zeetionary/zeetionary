@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
@@ -16,7 +16,8 @@ class EnglishEntrydissimilarity extends StatefulWidget {
   const EnglishEntrydissimilarity({super.key});
 
   @override
-  State<EnglishEntrydissimilarity> createState() => _EnglishEntrydissimilarityState();
+  State<EnglishEntrydissimilarity> createState() =>
+      _EnglishEntrydissimilarityState();
 }
 
 class _EnglishEntrydissimilarityState extends State<EnglishEntrydissimilarity> {
@@ -80,33 +81,28 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['dissimilarity'];
-  String keywordLanguage = 'english';
-
-  FlutterTts flutterTts = FlutterTts();
+  final String keyword = "dissimilarity";
+  late FlutterTts flutterTts;
+  List<Map<String, dynamic>> filteredSentences = [];
 
   @override
   void initState() {
     super.initState();
-    _initDatabase();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    fetchSentences();
   }
 
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
-    _fetchSentences();
-  }
-
-  void _fetchSentences() {
-    final data = SentenceDatabase.instance
-        .filterSentencesByKeywords(keywords, keywordLanguage);
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
     setState(() {
-      sentences = data;
+      filteredSentences = sentences;
     });
   }
 
-  Future<void> _speak(String text, String language) async {
-    await flutterTts.setLanguage(language);
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
     await flutterTts.speak(text);
   }
 
@@ -115,53 +111,80 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return Column(
-            children: [
-              Expanded(
-                child: ListView.builder(
-                  itemCount: sentences.length,
-                  itemBuilder: (context, index) {
-                    final englishSentence = sentences[index]['english'];
-                    final frenchSentence = sentences[index]['french'];
-
-                    return Column(
-                      children: [
-                        Row(
-                          children: [
-                            SentencesFromDatabaseWidget(
-                              englishSentence: englishSentence,
-                              keywords: keywords,
-                              frenchSentence: frenchSentence,
-                            ),
-                            Column(
+          return ListView.builder(
+            itemCount: filteredSentences.length,
+            itemBuilder: (context, index) {
+              final sentence = filteredSentences[index];
+              return SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Column(
                               children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-GB');
-                                  },
+                                Align(
+                                  alignment: Alignment.topLeft,
+                                  child: DatabaseUtils.instance.highlightText(
+                                    sentence['english'].toString(),
+                                    keyword,
+                                    ref,
+                                  ),
                                 ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-US');
-                                  },
+                                Directionality(
+                                  textDirection: TextDirection.rtl,
+                                  child: Align(
+                                    alignment: Alignment.topRight,
+                                    child: DatabaseUtils.instance.highlightText(
+                                      sentence['french'].toString(),
+                                      keyword,
+                                      ref,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
-                          ],
-                        ),
-                        // Add the divider here
-                        if (index < sentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    );
-                  },
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                            children: [
+                              CustomIconButtonBritish(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-GB",
+                                ),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-US",
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      if (filteredSentences.length > 1 &&
+                          index != filteredSentences.length - 1)
+                        const DividerSentences(),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              );
+            },
           );
         },
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    flutterTts.stop();
+    super.dispose();
   }
 }
 
@@ -511,7 +534,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: جیاوازی، فەرق، لێک‌نەچوویی، ناچونیەکی، لەیەکترنەچوویی، شێوەی یەک‌ترنەداوی، ناهاوشێوەیی، ناهاوجۆری، نەیەکی
 """),
-          const DefinitionKurdish(text: "١. (ناو) ئەوەی کە لەگەڵ کەسێک/شتێک هاوشێوە نەبیت، خاسیەتێک کە دوو شت لە یەکدی جیادەکاتەوە"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) ئەوەی کە لەگەڵ کەسێک/شتێک هاوشێوە نەبیت، خاسیەتێک کە دوو شت لە یەکدی جیادەکاتەوە"),
           Row(
             children: [
               const Expanded(
@@ -520,7 +545,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "It is easy to point out dissimilarities between the two cases."),
-                    ExampleSentenceKurdish(text: "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت."),
                   ],
                 ),
               ),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
@@ -16,10 +16,12 @@ class EnglishEntrydistinguishable extends StatefulWidget {
   const EnglishEntrydistinguishable({super.key});
 
   @override
-  State<EnglishEntrydistinguishable> createState() => _EnglishEntrydistinguishableState();
+  State<EnglishEntrydistinguishable> createState() =>
+      _EnglishEntrydistinguishableState();
 }
 
-class _EnglishEntrydistinguishableState extends State<EnglishEntrydistinguishable> {
+class _EnglishEntrydistinguishableState
+    extends State<EnglishEntrydistinguishable> {
   @override
   void initState() {
     super.initState();
@@ -80,33 +82,28 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['distinguishable'];
-  String keywordLanguage = 'english';
-
-  FlutterTts flutterTts = FlutterTts();
+  final String keyword = "distinguishable";
+  late FlutterTts flutterTts;
+  List<Map<String, dynamic>> filteredSentences = [];
 
   @override
   void initState() {
     super.initState();
-    _initDatabase();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    fetchSentences();
   }
 
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
-    _fetchSentences();
-  }
-
-  void _fetchSentences() {
-    final data = SentenceDatabase.instance
-        .filterSentencesByKeywords(keywords, keywordLanguage);
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
     setState(() {
-      sentences = data;
+      filteredSentences = sentences;
     });
   }
 
-  Future<void> _speak(String text, String language) async {
-    await flutterTts.setLanguage(language);
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
     await flutterTts.speak(text);
   }
 
@@ -115,53 +112,80 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return Column(
-            children: [
-              Expanded(
-                child: ListView.builder(
-                  itemCount: sentences.length,
-                  itemBuilder: (context, index) {
-                    final englishSentence = sentences[index]['english'];
-                    final frenchSentence = sentences[index]['french'];
-
-                    return Column(
-                      children: [
-                        Row(
-                          children: [
-                            SentencesFromDatabaseWidget(
-                              englishSentence: englishSentence,
-                              keywords: keywords,
-                              frenchSentence: frenchSentence,
-                            ),
-                            Column(
+          return ListView.builder(
+            itemCount: filteredSentences.length,
+            itemBuilder: (context, index) {
+              final sentence = filteredSentences[index];
+              return SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Column(
                               children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-GB');
-                                  },
+                                Align(
+                                  alignment: Alignment.topLeft,
+                                  child: DatabaseUtils.instance.highlightText(
+                                    sentence['english'].toString(),
+                                    keyword,
+                                    ref,
+                                  ),
                                 ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-US');
-                                  },
+                                Directionality(
+                                  textDirection: TextDirection.rtl,
+                                  child: Align(
+                                    alignment: Alignment.topRight,
+                                    child: DatabaseUtils.instance.highlightText(
+                                      sentence['french'].toString(),
+                                      keyword,
+                                      ref,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
-                          ],
-                        ),
-                        // Add the divider here
-                        if (index < sentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    );
-                  },
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                            children: [
+                              CustomIconButtonBritish(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-GB",
+                                ),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-US",
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      if (filteredSentences.length > 1 &&
+                          index != filteredSentences.length - 1)
+                        const DividerSentences(),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              );
+            },
           );
         },
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    flutterTts.stop();
+    super.dispose();
   }
 }
 
@@ -337,7 +361,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There are at least 20 distinguishable dialects of the language just on the south island."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There are at least 20 distinguishable dialects of the language just on the south island."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdistinguishables3(String languageCode) async {
@@ -511,7 +536,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شیاوی لێک‌کردنەوە، شیاوی ناسینەوە، دیاری دەکرێ، دەناسرێتەوە،	جیاواز، جیا
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەکرێت بە جیاواز لە شتێکی دیکە دابندرێت"),
+          const DefinitionKurdish(
+              text: "١. (ھاوەڵناو) کە دەکرێت بە جیاواز لە شتێکی دیکە دابندرێت"),
           Row(
             children: [
               const Expanded(
@@ -520,7 +546,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "The male bird is easily distinguishable from the female."),
-                    ExampleSentenceKurdish(text: "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە."),
                   ],
                 ),
               ),
@@ -545,8 +573,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "There are at least 20 distinguishable dialects of the language just on the south island."),
-                    ExampleSentenceKurdish(text: "بە لایەنی کەمەوە ٢٠ شێوەزاری جیاکراوەی زمانەکە هەیە تەنها لە دوورگەی باشوور."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "There are at least 20 distinguishable dialects of the language just on the south island."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "بە لایەنی کەمەوە ٢٠ شێوەزاری جیاکراوەی زمانەکە هەیە تەنها لە دوورگەی باشوور."),
                   ],
                 ),
               ),

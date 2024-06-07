@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
@@ -80,33 +80,28 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  List<Map<String, dynamic>> sentences = [];
-  List<String> keywords = ['dodgy'];
-  String keywordLanguage = 'english';
-
-  FlutterTts flutterTts = FlutterTts();
+  final String keyword = "dodgy";
+  late FlutterTts flutterTts;
+  List<Map<String, dynamic>> filteredSentences = [];
 
   @override
   void initState() {
     super.initState();
-    _initDatabase();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    fetchSentences();
   }
 
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
-    _fetchSentences();
-  }
-
-  void _fetchSentences() {
-    final data = SentenceDatabase.instance
-        .filterSentencesByKeywords(keywords, keywordLanguage);
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
     setState(() {
-      sentences = data;
+      filteredSentences = sentences;
     });
   }
 
-  Future<void> _speak(String text, String language) async {
-    await flutterTts.setLanguage(language);
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
     await flutterTts.speak(text);
   }
 
@@ -115,53 +110,80 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return Column(
-            children: [
-              Expanded(
-                child: ListView.builder(
-                  itemCount: sentences.length,
-                  itemBuilder: (context, index) {
-                    final englishSentence = sentences[index]['english'];
-                    final frenchSentence = sentences[index]['french'];
-
-                    return Column(
-                      children: [
-                        Row(
-                          children: [
-                            SentencesFromDatabaseWidget(
-                              englishSentence: englishSentence,
-                              keywords: keywords,
-                              frenchSentence: frenchSentence,
-                            ),
-                            Column(
+          return ListView.builder(
+            itemCount: filteredSentences.length,
+            itemBuilder: (context, index) {
+              final sentence = filteredSentences[index];
+              return SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Column(
                               children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-GB');
-                                  },
+                                Align(
+                                  alignment: Alignment.topLeft,
+                                  child: DatabaseUtils.instance.highlightText(
+                                    sentence['english'].toString(),
+                                    keyword,
+                                    ref,
+                                  ),
                                 ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () {
-                                    _speak(englishSentence, 'en-US');
-                                  },
+                                Directionality(
+                                  textDirection: TextDirection.rtl,
+                                  child: Align(
+                                    alignment: Alignment.topRight,
+                                    child: DatabaseUtils.instance.highlightText(
+                                      sentence['french'].toString(),
+                                      keyword,
+                                      ref,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
-                          ],
-                        ),
-                        // Add the divider here
-                        if (index < sentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    );
-                  },
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                            children: [
+                              CustomIconButtonBritish(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-GB",
+                                ),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakEnglish(
+                                  sentence['english'].toString(),
+                                  languageCode: "en-US",
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      if (filteredSentences.length > 1 &&
+                          index != filteredSentences.length - 1)
+                        const DividerSentences(),
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              );
+            },
           );
         },
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    flutterTts.stop();
+    super.dispose();
   }
 }
 
@@ -337,7 +359,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I don't want to get involved in anything dodgy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I don't want to get involved in anything dodgy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdodgys3(String languageCode) async {
@@ -345,7 +368,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I can't play—I've got a dodgy knee."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I can't play—I've got a dodgy knee."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdodgys4(String languageCode) async {
@@ -353,7 +377,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The marriage had been distinctly dodgy for a long time."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The marriage had been distinctly dodgy for a long time."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdodgys5(String languageCode) async {
@@ -361,7 +386,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(" you get into any dodgy situations, call me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        " you get into any dodgy situations, call me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdodgys6(String languageCode) async {
@@ -511,7 +537,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: فێڵاوی، تەڵەکەباز، زۆڵ،	پڕمەترسی، مەترسی‌دار، سەخت، ئاسێ،	لێ‌ڕانەبینراو
 """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) کە وادەردەکەوێت گوماناوی و تەڵەکەبازانە بێت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ھاوەڵناو) کە وادەردەکەوێت گوماناوی و تەڵەکەبازانە بێت"),
           Row(
             children: [
               const Expanded(
@@ -520,7 +548,9 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "He made a lot of money, using some very dodgy methods."),
-                    ExampleSentenceKurdish(text: "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە."),
                   ],
                 ),
               ),
@@ -545,8 +575,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I don't want to get involved in anything dodgy."),
-                    ExampleSentenceKurdish(text: "نامەوێت لە هیچ شتێکی گوماناوی بەژدار بم."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "I don't want to get involved in anything dodgy."),
+                    ExampleSentenceKurdish(
+                        text: "نامەوێت لە هیچ شتێکی گوماناوی بەژدار بم."),
                   ],
                 ),
               ),
@@ -564,15 +597,18 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە باش کارناکات یان لە دۆخێکی باش نییە"),
+          const DefinitionKurdish(
+              text: "٢. (ھاوەڵناو) کە باش کارناکات یان لە دۆخێکی باش نییە"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "I can't play—I've got a dodgy knee."),
-                    ExampleSentenceKurdish(text: "ناتوانم یاری بکەم، لاقێکی سستم هەیە."),
+                    ExampleSentenceEnglish(
+                        text: "I can't play—I've got a dodgy knee."),
+                    ExampleSentenceKurdish(
+                        text: "ناتوانم یاری بکەم، لاقێکی سستم هەیە."),
                   ],
                 ),
               ),
@@ -597,8 +633,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The marriage had been distinctly dodgy for a long time."),
-                    ExampleSentenceKurdish(text: "هاوسەرگیرییەکە بۆ ماوەیەکی زۆر بووبوو کە تەواو ناکارا بوو."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The marriage had been distinctly dodgy for a long time."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "هاوسەرگیرییەکە بۆ ماوەیەکی زۆر بووبوو کە تەواو ناکارا بوو."),
                   ],
                 ),
               ),
@@ -623,8 +663,11 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: " you get into any dodgy situations, call me."),
-                    ExampleSentenceKurdish(text: "ئەگەر کەوتیتە هەر دۆخێکی مەترسیدارەوە، پەیوەندیم پێوە بکە."),
+                    ExampleSentenceEnglish(
+                        text: " you get into any dodgy situations, call me."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "ئەگەر کەوتیتە هەر دۆخێکی مەترسیدارەوە، پەیوەندیم پێوە بکە."),
                   ],
                 ),
               ),

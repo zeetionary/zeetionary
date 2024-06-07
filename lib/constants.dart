@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Add this import for Clipboard
 import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:zeetionary/dictionary/database_sentences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/questions/question_screen.dart';
 // import 'package:zeetionary/quiz/quiz_screen.dart';
@@ -1866,129 +1867,52 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
 //
 //
 
-// Define a provider for text size
-// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+class DatabaseUtils {
+  static final DatabaseUtils instance = DatabaseUtils._init();
 
-// Define a function to highlight English keywords
+  DatabaseUtils._init();
 
-// Define a provider for text size
-// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+  Future<List<Map<String, dynamic>>> fetchFilteredSentences(
+      {required String keyword}) async {
+    final database = SentenceDatabase.instance;
+    await database.initialize();
+    final allSentences = database.sentences;
 
-// Define a function to highlight English keywords
+    return allSentences.where((sentence) {
+      final english = sentence['english'].toString().toLowerCase();
+      final french = sentence['french'].toString().toLowerCase();
+      return english.contains(keyword) || french.contains(keyword);
+    }).toList();
+  }
 
-// Define a provider for text size
-// final textSizeProvider = StateProvider<double>((ref) => 16.0);
+  RichText highlightText(String text, String keyword, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    List<TextSpan> spans = [];
+    int start = 0;
+    int index = text.toLowerCase().indexOf(keyword);
 
-// Define a function to highlight English keywords
-Widget highlightEnglishKeywords(
-    BuildContext context, WidgetRef ref, String text, List<String> keywords) {
-  final textSize = ref.watch(textSizeProvider);
-  final textSpans = <TextSpan>[];
-  final lowerCaseText = text.toLowerCase();
-
-  int start = 0;
-  for (final word in keywords) {
-    final wordLowerCase = word.toLowerCase();
-    int index = lowerCaseText.indexOf(wordLowerCase, start);
     while (index != -1) {
       if (index > start) {
-        textSpans.add(TextSpan(text: text.substring(start, index)));
+        spans.add(TextSpan(text: text.substring(start, index)));
       }
-      textSpans.add(TextSpan(
-        text: text.substring(index, index + word.length),
+      spans.add(TextSpan(
+        text: text.substring(index, index + keyword.length),
         style: TextStyle(
-            backgroundColor: Colors.yellow.withOpacity(0.4),
-            fontSize: textSize),
-      ));
-      start = index + word.length;
-      index = lowerCaseText.indexOf(wordLowerCase, start);
-    }
-  }
-
-  if (start < text.length) {
-    textSpans.add(TextSpan(text: text.substring(start)));
-  }
-
-  return RichText(
-    text: TextSpan(
-      style:
-          TextStyle(color: Theme.of(context).primaryColor, fontSize: textSize),
-      children: textSpans,
-    ),
-  );
-}
-
-// Define a function to highlight French keywords
-Widget highlightFrenchKeywords(
-    BuildContext context, WidgetRef ref, String text, List<String> keywords) {
-  final textSize = ref.watch(textSizeProvider);
-  final textSpans = <TextSpan>[];
-  final lowerCaseText = text.toLowerCase();
-
-  int start = 0;
-  for (final word in keywords) {
-    final wordLowerCase = word.toLowerCase();
-    int index = lowerCaseText.indexOf(wordLowerCase, start);
-    while (index != -1) {
-      if (index > start) {
-        textSpans.add(TextSpan(text: text.substring(start, index)));
-      }
-      textSpans.add(TextSpan(
-        text: text.substring(index, index + word.length),
-        style: TextStyle(
-            backgroundColor: Colors.yellow.withOpacity(0.4),
-            fontSize: textSize),
-      ));
-      start = index + word.length;
-      index = lowerCaseText.indexOf(wordLowerCase, start);
-    }
-  }
-
-  if (start < text.length) {
-    textSpans.add(TextSpan(text: text.substring(start)));
-  }
-
-  return RichText(
-    text: TextSpan(
-      style:
-          TextStyle(color: Theme.of(context).primaryColor, fontSize: textSize),
-      children: textSpans,
-    ),
-  );
-}
-
-class SentencesFromDatabaseWidget extends ConsumerWidget {
-  const SentencesFromDatabaseWidget({
-    super.key,
-    required this.englishSentence,
-    required this.keywords,
-    required this.frenchSentence,
-  });
-
-  final englishSentence;
-  final List<String> keywords;
-  final frenchSentence;
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            highlightEnglishKeywords(context, ref, englishSentence, keywords),
-            Directionality(
-              textDirection: TextDirection.rtl,
-              child: Align(
-                alignment: Alignment.topRight,
-                child: highlightFrenchKeywords(
-                    context, ref, frenchSentence, keywords),
-              ),
-            ),
-          ],
+          backgroundColor: Colors.yellowAccent.withOpacity(0.3),
+          fontSize: textSize + 1,
         ),
-      ),
-    );
+      ));
+      start = index + keyword.length;
+      index = text.toLowerCase().indexOf(keyword, start);
+    }
+    if (start < text.length) {
+      spans.add(TextSpan(text: text.substring(start)));
+    }
+
+    return RichText(
+        text: TextSpan(
+      style: TextStyle(fontSize: textSize + 1),
+      children: spans,
+    ));
   }
 }

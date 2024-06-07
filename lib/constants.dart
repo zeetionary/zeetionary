@@ -1128,8 +1128,7 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize: textSize +
-                      1, // Optional: Adjust size for flush appearance
+                  iconSize: textSize + 1,
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;
@@ -1893,7 +1892,9 @@ class DatabaseUtils {
 
     while (index != -1) {
       if (index > start) {
-        spans.add(TextSpan(text: text.substring(start, index)));
+        spans.add(TextSpan(
+            style: TextStyle(fontSize: textSize + 1),
+            text: text.substring(start, index)));
       }
       spans.add(TextSpan(
         text: text.substring(index, index + keyword.length),
@@ -1906,7 +1907,12 @@ class DatabaseUtils {
       index = text.toLowerCase().indexOf(keyword, start);
     }
     if (start < text.length) {
-      spans.add(TextSpan(text: text.substring(start)));
+      spans.add(
+        TextSpan(
+          style: TextStyle(fontSize: textSize + 1),
+          text: text.substring(start),
+        ),
+      );
     }
 
     return RichText(

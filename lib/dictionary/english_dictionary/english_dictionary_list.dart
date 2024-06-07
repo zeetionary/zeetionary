@@ -5163,7 +5163,26 @@ final List<String> allWordsEnglish = [
   "dog-eared",
   "doghouse",
   "dog-tired",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "dogged", // dogged
+  "doggedly", // doggedly
+  "dogma", // dogma
+  "dogmatic", // dogmatic
+  "dogmatically", // dogmatically
+  "dogsbody", // dogsbody
+  "doldrums", // doldrums
+  "dole", // dole
+  "doleful", // doleful
+  "dolefully", // dolefully
+  "doll", // doll
+  "dollar", // dollar
+  "dollop", // dollop
+  "dolphin", // dolphin
+  "domain", // domain
+  "domain name",
+  "dome",
+  "domestic",
+  "domesticated",
+  "domestic science",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

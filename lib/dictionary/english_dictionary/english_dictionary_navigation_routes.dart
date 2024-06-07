@@ -5134,12 +5134,6 @@ final Map<String, String> wordRoutes = {
   "dive": "/english-dive",
   "diver": "/english-diver",
   "diving board": "/english-diving-board",
-  
-
-
-
-
-
 
   "diverge": "/english-diverge",
   "divergence": "/english-divergence",
@@ -5198,8 +5192,26 @@ final Map<String, String> wordRoutes = {
   "dog-eared": "/english-dog-eared",
   "doghouse": "/english-doghouse",
   "dog-tired": "/english-dog-tired",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "dogged": "/english-dogged",
+  "doggedly": "/english-doggedly",
+  "dogma": "/english-dogma",
+  "dogmatic": "/english-dogmatic",
+  "dogmatically": "/english-dogmatically",
+  "dogsbody": "/english-dogsbody",
+  "doldrums": "/english-doldrums",
+  "dole": "/english-dole",
+  "doleful": "/english-doleful",
+  "dolefully": "/english-dolefully",
+  "doll": "/english-doll",
+  "dollar": "/english-dollar",
+  "dollop": "/english-dollop",
+  "dolphin": "/english-dolphin",
+  "domain": "/english-domain",
+  "domain name": "/english-domain-name",
+  "dome": "/english-dome",
+  "domestic": "/english-domestic",
+  "domesticated": "/english-domesticated",
+  "domestic science": "/english-domestic-science",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

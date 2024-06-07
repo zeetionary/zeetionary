@@ -163,7 +163,12 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
                 return Column(
                   children: [
                     ListTile(
-                      title: Text(sentence['english'].toString()),
+                      title: Text(
+                        sentence['english'].toString(),
+                        style: TextStyle(
+                          fontSize: textSize,
+                        ),
+                      ),
                       subtitle: Directionality(
                           textDirection: TextDirection.rtl,
                           child: Text(

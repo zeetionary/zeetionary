@@ -121,6 +121,12 @@ class _MyAppState extends ConsumerState<MyApp> {
   void initState() {
     super.initState(); // Initialize splash screen
     initialization();
+    _initDatabase(); // Initialize the database
+  }
+
+  Future<void> _initDatabase() async {
+    await SentenceDatabase.instance.initialize();
+    print('Database initialized');
   }
 
   void initialization() async {

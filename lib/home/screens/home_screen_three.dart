@@ -234,25 +234,25 @@ class MyDrawer extends StatelessWidget {
                       const SizedBox(
                         height: 5,
                       ),
-                      ListTile(
-                        title: Text(
-                          "Sentences",
-                          style: TextStyle(
-                            fontSize: textSize + 3,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                        ),
-                        leading: Icon(
-                          Icons.search,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                        onTap: () {
-                          Routemaster.of(context).push('/english-sentences-page');
-                        },
-                      ),
-                      const SizedBox(
-                        height: 5,
-                      ),
+                      // ListTile(
+                      //   title: Text(
+                      //     "Sentences",
+                      //     style: TextStyle(
+                      //       fontSize: textSize + 3,
+                      //       color: Theme.of(context).primaryColor,
+                      //     ),
+                      //   ),
+                      //   leading: Icon(
+                      //     Icons.search,
+                      //     color: Theme.of(context).primaryColor,
+                      //   ),
+                      //   onTap: () {
+                      //     Routemaster.of(context).push('/english-sentences-page');
+                      //   },
+                      // ),
+                      // const SizedBox(
+                      //   height: 5,
+                      // ),
                       ListTile(
                         title: Text(
                           "Quiz",

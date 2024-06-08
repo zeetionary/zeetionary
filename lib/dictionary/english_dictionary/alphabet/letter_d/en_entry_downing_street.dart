@@ -11,15 +11,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrysowningstreet extends StatefulWidget {
-  const EnglishEntrysowningstreet({super.key});
+class EnglishEntrydowningstreet extends StatefulWidget {
+  const EnglishEntrydowningstreet({super.key});
 
   @override
-  State<EnglishEntrysowningstreet> createState() =>
-      _EnglishEntrysowningstreetState();
+  State<EnglishEntrydowningstreet> createState() =>
+      _EnglishEntrydowningstreetState();
 }
 
-class _EnglishEntrysowningstreetState extends State<EnglishEntrysowningstreet> {
+class _EnglishEntrydowningstreetState extends State<EnglishEntrydowningstreet> {
   @override
   void initState() {
     super.initState();

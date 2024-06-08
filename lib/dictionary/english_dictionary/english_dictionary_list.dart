@@ -5252,7 +5252,13 @@ final List<String> allWordsEnglish = [
   "downhearted", // english-downhearted
   "downhill", // english-downhill
   "Downing Street",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "download", // download
+"downloadable", // downloadable
+"downpour", // downpour
+"downright", // downright
+"downs", // downs
+"downspout", // downspout
+  "Down's syndrome",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

@@ -3,7 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -23,11 +22,6 @@ class _EnglishEntrydomainState extends State<EnglishEntrydomain> {
   @override
   void initState() {
     super.initState();
-    _initDatabase();
-  }
-
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
   }
 
   @override
@@ -110,71 +104,76 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return ListView.builder(
-            itemCount: filteredSentences.length,
-            itemBuilder: (context, index) {
-              final sentence = filteredSentences[index];
-              return SingleChildScrollView(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              children: [
-                                Align(
-                                  alignment: Alignment.topLeft,
-                                  child: DatabaseUtils.instance.highlightText(
-                                    sentence['english'].toString(),
-                                    keyword,
-                                    ref,
-                                  ),
-                                ),
-                                Directionality(
-                                  textDirection: TextDirection.rtl,
-                                  child: Align(
-                                    alignment: Alignment.topRight,
+          if (filteredSentences.isEmpty) {
+            return const NoSentencesFromDatabase();
+          } else {
+            return ListView.builder(
+              itemCount: filteredSentences.length,
+              itemBuilder: (context, index) {
+                final sentence = filteredSentences[index];
+                return SingleChildScrollView(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
                                     child: DatabaseUtils.instance.highlightText(
-                                      sentence['french'].toString(),
+                                      sentence['english'].toString(),
                                       keyword,
                                       ref,
                                     ),
                                   ),
+                                  Directionality(
+                                    textDirection: TextDirection.rtl,
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child:
+                                          DatabaseUtils.instance.highlightText(
+                                        sentence['french'].toString(),
+                                        keyword,
+                                        ref,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const CustomSizedBoxForTTS(),
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-GB",
+                                  ),
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-US",
+                                  ),
                                 ),
                               ],
                             ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                            children: [
-                              CustomIconButtonBritish(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-GB",
-                                ),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-US",
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      if (filteredSentences.length > 1 &&
-                          index != filteredSentences.length - 1)
-                        const DividerSentences(),
-                    ],
+                          ],
+                        ),
+                        if (filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1)
+                          const DividerSentences(),
+                      ],
+                    ),
                   ),
-                ),
-              );
-            },
-          );
+                );
+              },
+            );
+          }
         },
       ),
     );
@@ -350,8 +349,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Financial matters are her domain."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Financial matters are her domain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdomains2(String languageCode) async {
@@ -359,7 +358,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Physics used to be very much a male domain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Physics used to be very much a male domain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdomains3(String languageCode) async {
@@ -367,7 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The company bought a new domain ending in ‘.com’ for their website."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The company bought a new domain ending in ‘.com’ for their website."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdomains4(String languageCode) async {
@@ -375,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Spice Islands were within the Spanish domains."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Spice Islands were within the Spanish domains."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdomains5(String languageCode) async {
@@ -533,15 +535,15 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: مەڵبەند، ناوچەی ژێر دەسەڵاتی حکومەت و هتد،	زەوی‌وزار، زەوی، مڵک،	بوار، پانتایی، ئاقار، زەمینە، مەڵبەند،	زانست، ئاگایی، شارەزایی
 """),
-          const DefinitionKurdish(text: "١. (ناو) بوارێکی زانست و زانیاری یان چالاکی"),
+          const DefinitionKurdish(
+              text: "١. (ناو) بوارێکی زانست و زانیاری یان چالاکی"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "Financial matters are her domain."),
+                        text: "Financial matters are her domain."),
                     ExampleSentenceKurdish(text: "بابەتی دارایی بوارەکەیەتی."),
                   ],
                 ),
@@ -567,8 +569,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "Physics used to be very much a male domain."),
-                    ExampleSentenceKurdish(text: "فیزیا وەها باوبوو کە بواری پیاوان بێت."),
+                    ExampleSentenceEnglish(
+                        text: "Physics used to be very much a male domain."),
+                    ExampleSentenceKurdish(
+                        text: "فیزیا وەها باوبوو کە بواری پیاوان بێت."),
                   ],
                 ),
               ),
@@ -586,15 +590,21 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (ناو) ژمارەیەک وێبسایت لەسەر ئینتەرنێت کە هەمان کۆتاییان هەیە، بۆ نموونە کۆتایی .com"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (ناو) ژمارەیەک وێبسایت لەسەر ئینتەرنێت کە هەمان کۆتاییان هەیە، بۆ نموونە کۆتایی .com"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The company bought a new domain ending in ‘.com’ for their website."),
-                    ExampleSentenceKurdish(text: "کۆمپانیاکە دۆمەینێکی تازەی کڕی بۆ وێبسایتەکەیان کە بە .com کۆتایی دێت."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The company bought a new domain ending in ‘.com’ for their website."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "کۆمپانیاکە دۆمەینێکی تازەی کڕی بۆ وێبسایتەکەیان کە بە .com کۆتایی دێت."),
                   ],
                 ),
               ),
@@ -612,15 +622,21 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ناو) زەوی‌وزار کە لەلایەن هەمان کەس، حکومەت، هتد خاوەندارێتی دەکرێت"),
+          const DefinitionKurdish(
+              text:
+                  "٣. (ناو) زەوی‌وزار کە لەلایەن هەمان کەس، حکومەت، هتد خاوەندارێتی دەکرێت"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The Spice Islands were within the Spanish domains."),
-                    ExampleSentenceKurdish(text: "دوورگەکانی سپایس لەژێر هەژموونی ئیسپانیادا بوون."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "The Spice Islands were within the Spanish domains."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "دوورگەکانی سپایس لەژێر هەژموونی ئیسپانیادا بوون."),
                   ],
                 ),
               ),

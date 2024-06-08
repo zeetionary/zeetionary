@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -23,12 +22,12 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
   @override
   void initState() {
     super.initState();
-    _initDatabase();
+    // _initDatabase();
   }
 
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
-  }
+  // Future<void> _initDatabase() async {
+  //   await SentenceDatabase.instance.initialize();
+  // }
 
   @override
   Widget build(BuildContext context) {

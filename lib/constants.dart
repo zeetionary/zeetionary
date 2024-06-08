@@ -1922,3 +1922,16 @@ class DatabaseUtils {
     ));
   }
 }
+
+class NoSentencesFromDatabase extends StatelessWidget {
+  const NoSentencesFromDatabase({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const Center(
+      child: Text('Sorry, no results found from database'),
+    );
+  }
+}

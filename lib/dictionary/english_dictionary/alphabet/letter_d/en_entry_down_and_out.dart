@@ -3,7 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -23,11 +22,6 @@ class _EnglishEntrydownandoutState extends State<EnglishEntrydownandout> {
   @override
   void initState() {
     super.initState();
-    _initDatabase();
-  }
-
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
   }
 
   @override
@@ -110,71 +104,76 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return ListView.builder(
-            itemCount: filteredSentences.length,
-            itemBuilder: (context, index) {
-              final sentence = filteredSentences[index];
-              return SingleChildScrollView(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              children: [
-                                Align(
-                                  alignment: Alignment.topLeft,
-                                  child: DatabaseUtils.instance.highlightText(
-                                    sentence['english'].toString(),
-                                    keyword,
-                                    ref,
-                                  ),
-                                ),
-                                Directionality(
-                                  textDirection: TextDirection.rtl,
-                                  child: Align(
-                                    alignment: Alignment.topRight,
+          if (filteredSentences.isEmpty) {
+            return const NoSentencesFromDatabase();
+          } else {
+            return ListView.builder(
+              itemCount: filteredSentences.length,
+              itemBuilder: (context, index) {
+                final sentence = filteredSentences[index];
+                return SingleChildScrollView(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
                                     child: DatabaseUtils.instance.highlightText(
-                                      sentence['french'].toString(),
+                                      sentence['english'].toString(),
                                       keyword,
                                       ref,
                                     ),
                                   ),
+                                  Directionality(
+                                    textDirection: TextDirection.rtl,
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child:
+                                          DatabaseUtils.instance.highlightText(
+                                        sentence['french'].toString(),
+                                        keyword,
+                                        ref,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const CustomSizedBoxForTTS(),
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-GB",
+                                  ),
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-US",
+                                  ),
                                 ),
                               ],
                             ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                            children: [
-                              CustomIconButtonBritish(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-GB",
-                                ),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-US",
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      if (filteredSentences.length > 1 &&
-                          index != filteredSentences.length - 1)
-                        const DividerSentences(),
-                    ],
+                          ],
+                        ),
+                        if (filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1)
+                          const DividerSentences(),
+                      ],
+                    ),
                   ),
-                ),
-              );
-            },
-          );
+                );
+              },
+            );
+          }
         },
       ),
     );
@@ -351,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakdownandouts100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
+        "Nobody loves you when you're down and out."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdownandouts2(String languageCode) async {
@@ -531,18 +530,19 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-          const DefinitionKurdish(text: "١. (ناو) بەبێ پارە، ماڵ، و کار، و ژیانکردن لە شەقامەکان"),
+          const DefinitionKurdish(
+              text: "١. (ناو) بەبێ پارە، ماڵ، و کار، و ژیانکردن لە شەقامەکان"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "// speakdownandouts100000000000000000000000000000000"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+                        text: "Nobody loves you when you're down and out."),
+                    ExampleSentenceKurdish(
+                        text: "کە دەربەدەریت کەس خۆشی ناوێیت."),
                   ],
                 ),
               ),

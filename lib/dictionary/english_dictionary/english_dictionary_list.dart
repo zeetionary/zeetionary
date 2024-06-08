@@ -5244,9 +5244,14 @@ final List<String> allWordsEnglish = [
   "dowdy", // dowdy",
   "down", // down,
   "down-and-out",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "down-to-earth",
+  "down payment",
+  "downcast", // english-downcast
+  "downfall", // english-downfall
+  "downgrade", // english-downgrade
+  "downhearted", // english-downhearted
+  "downhill", // english-downhill
+  "Downing Street",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

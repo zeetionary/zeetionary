@@ -3,7 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:zeetionary/dictionary/database_sentences.dart';
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -23,11 +22,6 @@ class _EnglishEntrydoomState extends State<EnglishEntrydoom> {
   @override
   void initState() {
     super.initState();
-    _initDatabase();
-  }
-
-  Future<void> _initDatabase() async {
-    await SentenceDatabase.instance.initialize();
   }
 
   @override
@@ -110,71 +104,76 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
     return Scaffold(
       body: Consumer(
         builder: (context, ref, child) {
-          return ListView.builder(
-            itemCount: filteredSentences.length,
-            itemBuilder: (context, index) {
-              final sentence = filteredSentences[index];
-              return SingleChildScrollView(
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              children: [
-                                Align(
-                                  alignment: Alignment.topLeft,
-                                  child: DatabaseUtils.instance.highlightText(
-                                    sentence['english'].toString(),
-                                    keyword,
-                                    ref,
-                                  ),
-                                ),
-                                Directionality(
-                                  textDirection: TextDirection.rtl,
-                                  child: Align(
-                                    alignment: Alignment.topRight,
+          if (filteredSentences.isEmpty) {
+            return const NoSentencesFromDatabase();
+          } else {
+            return ListView.builder(
+              itemCount: filteredSentences.length,
+              itemBuilder: (context, index) {
+                final sentence = filteredSentences[index];
+                return SingleChildScrollView(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
                                     child: DatabaseUtils.instance.highlightText(
-                                      sentence['french'].toString(),
+                                      sentence['english'].toString(),
                                       keyword,
                                       ref,
                                     ),
                                   ),
+                                  Directionality(
+                                    textDirection: TextDirection.rtl,
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child:
+                                          DatabaseUtils.instance.highlightText(
+                                        sentence['french'].toString(),
+                                        keyword,
+                                        ref,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const CustomSizedBoxForTTS(),
+                            Column(
+                              children: [
+                                CustomIconButtonBritish(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-GB",
+                                  ),
+                                ),
+                                CustomIconButtonAmerican(
+                                  onPressed: () => speakEnglish(
+                                    sentence['english'].toString(),
+                                    languageCode: "en-US",
+                                  ),
                                 ),
                               ],
                             ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                            children: [
-                              CustomIconButtonBritish(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-GB",
-                                ),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakEnglish(
-                                  sentence['english'].toString(),
-                                  languageCode: "en-US",
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      if (filteredSentences.length > 1 &&
-                          index != filteredSentences.length - 1)
-                        const DividerSentences(),
-                    ],
+                          ],
+                        ),
+                        if (filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1)
+                          const DividerSentences(),
+                      ],
+                    ),
                   ),
-                ),
-              );
-            },
-          );
+                );
+              },
+            );
+          }
         },
       ),
     );
@@ -350,8 +349,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had a sense of impending doom."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had a sense of impending doom."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdooms2(String languageCode) async {
@@ -359,7 +358,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He sealed his own doom by having an affair with another woman."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He sealed his own doom by having an affair with another woman."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdooms3(String languageCode) async {
@@ -367,7 +367,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The plan was doomed to failure."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The plan was doomed to failure."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdooms4(String languageCode) async {
@@ -375,7 +376,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The marriage was doomed from the start."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The marriage was doomed from the start."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdooms5(String languageCode) async {
@@ -533,7 +535,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: چارەنووس، چارەنووسی ڕەش،	تیاچوون، نەمان، مردن، سەرنانەوە، لەنێوچوون، فەوتان، مەرگ
 """),
-          const DefinitionKurdish(text: "١. (ناو) مردن یان لەناوچوون؛ هەر ڕووداوێکی ناخۆش کە ناتوانیت لێی دووربیت"),
+          const DefinitionKurdish(
+              text:
+                  "١. (ناو) مردن یان لەناوچوون؛ هەر ڕووداوێکی ناخۆش کە ناتوانیت لێی دووربیت"),
           Row(
             children: [
               const Expanded(
@@ -542,7 +546,8 @@ class KurdishMeaning extends StatelessWidget {
                     ExampleSentenceEnglish(
                         text:
                             "She had a sense of impending doom (= felt that something very bad was going to happen)."),
-                    ExampleSentenceKurdish(text: "هەستێکی بۆ کارەساتێکی بەپەلە هەبوو."),
+                    ExampleSentenceKurdish(
+                        text: "هەستێکی بۆ کارەساتێکی بەپەلە هەبوو."),
                   ],
                 ),
               ),
@@ -567,8 +572,12 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "He sealed his own doom by having an affair with another woman."),
-                    ExampleSentenceKurdish(text: "لەناوچوونی خۆی کۆتایی پێهێنا بە هەبوونی پەیوەندیی سێکسی لەگەڵ ژنێکی دیکە."),
+                    ExampleSentenceEnglish(
+                        text:
+                            "He sealed his own doom by having an affair with another woman."),
+                    ExampleSentenceKurdish(
+                        text:
+                            "لەناوچوونی خۆی کۆتایی پێهێنا بە هەبوونی پەیوەندیی سێکسی لەگەڵ ژنێکی دیکە."),
                   ],
                 ),
               ),
@@ -586,15 +595,20 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٢. (کردار) ئەوە دڵنیابکەیتەوە کە کەسێک دەمرێت، شکست دەهێنێت، ئازار دەکێشێت، هتد"),
+          const DefinitionKurdish(
+              text:
+                  "٢. (کردار) ئەوە دڵنیابکەیتەوە کە کەسێک دەمرێت، شکست دەهێنێت، ئازار دەکێشێت، هتد"),
           // const DividerSentences(),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The plan was doomed to failure.", note: "Similar: The plan was doomed to fail."),
-                    ExampleSentenceKurdish(text: "پلانەکە دڵنیایی هەبوو کە شکست دەهێنێت."),
+                    ExampleSentenceEnglish(
+                        text: "The plan was doomed to failure.",
+                        note: "Similar: The plan was doomed to fail."),
+                    ExampleSentenceKurdish(
+                        text: "پلانەکە دڵنیایی هەبوو کە شکست دەهێنێت."),
                   ],
                 ),
               ),
@@ -619,8 +633,10 @@ class KurdishMeaning extends StatelessWidget {
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(text: "The marriage was doomed from the start."),
-                    ExampleSentenceKurdish(text: "هاوسەرگیرییەکە لە سەرەتاوە کۆتایی هاتبوو."),
+                    ExampleSentenceEnglish(
+                        text: "The marriage was doomed from the start."),
+                    ExampleSentenceKurdish(
+                        text: "هاوسەرگیرییەکە لە سەرەتاوە کۆتایی هاتبوو."),
                   ],
                 ),
               ),

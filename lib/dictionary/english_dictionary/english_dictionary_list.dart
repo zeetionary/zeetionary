@@ -5103,9 +5103,6 @@ final List<String> allWordsEnglish = [
   "dive", // dive()),
   "diver", // diver()),
   "diving board",
-
-
-
   "diverge", // diverge()),
   "divergence", // divergence()),
   "divergent", // divergent()),
@@ -5183,6 +5180,77 @@ final List<String> allWordsEnglish = [
   "domestic",
   "domesticated",
   "domestic science",
+  "dominance", // dominance
+  "dominant", // dominant
+  "dominate", // dominate
+  "domination", // domination
+  "domineering", // domineering
+  "dominion", // dominion
+  "domino", // domino
+  "don", // don
+  "donate", // donate
+  "donation", // donation
+  "done", // done
+  "donkey", // donkey
+  "donor", // donor
+  "doodle", // doodle
+  "doom", // doom
+  "doomed", // doomed
+  "doomsday", // doomsday
+  "door", // door
+  "doorbell", // doorbell
+  "doorstep", // doorstep
+  "doorway", // doorway
+  "dope", // dope
+  "dopey", // dopey
+  "dormant", // dormant
+  "dormitory", // dormitory
+  "dormouse", // dormouse
+  "dosage", // dosage
+  "dose", // dose
+  "doss", // doss
+  "dosshouse", // dosshouse
+  "dossier", // dossier
+  "dot", // dot
+  "dot-com", // dotcom
+  "dotage", // dotage
+  "double", // double
+  "double bass",
+  "double chin",
+  "double-dealing",
+  "double-decker",
+  "double Dutch",
+  "double-barrelled",
+  "double-book",
+  "double-book",
+  "double-breasted",
+  "double-check",
+  "double-click",
+  "double-cross",
+  "double-edged",
+  "double glazing",
+  "double-jointed",
+  "double-quick",
+  "doubly", // doubly",
+  "doubt", // doubt",
+  "doubtful", // doubtful",
+  "doubtless", // doubtless",
+  "dough", // dough",
+  "doughnut", // doughnut",
+  "douse", // douse",
+  "dove", // dove",
+  "dovecot", // dovecot",
+  "dovetail", // dovetail",
+  "dowdy", // dowdy",
+  "down", // down,
+  "down-and-out",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -5221,6 +5289,7 @@ final List<String> allWordsEnglish = [
   "pancake",
   "phone box",
   "puma",
+  "residence hall",
   "take something amiss",
   "telephone box",
   "trade name",

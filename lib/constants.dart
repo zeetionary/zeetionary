@@ -843,8 +843,13 @@ class IPAofEnglish extends ConsumerWidget {
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('IPA copied'),
+            SnackBar(
+              content: Text(
+                'IPA copied',
+                style: TextStyle(
+                  fontSize: textSize + 1,
+                ),
+              ),
             ),
           );
         },
@@ -896,10 +901,15 @@ class KurdishVocabulary extends ConsumerWidget {
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
+            SnackBar(
               content: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Text('وشەوواتا لەبەرگیرایەوە'),
+                child: Text(
+                  'وشەوواتا لەبەرگیرایەوە',
+                  style: TextStyle(
+                    fontSize: textSize + 1,
+                  ),
+                ),
               ),
             ),
           );
@@ -918,43 +928,157 @@ class KurdishVocabulary extends ConsumerWidget {
   }
 }
 
-class DefinitionKurdish extends ConsumerWidget {
+class DefinitionKurdish extends ConsumerStatefulWidget {
   final String text;
+  final String? note;
+  // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
 
-  const DefinitionKurdish({super.key, required this.text});
+  const DefinitionKurdish({super.key, required this.text, this.note});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _DefinitionKurdishState();
+}
+
+class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
+    with SingleTickerProviderStateMixin {
+  bool _showNote = false;
+
+  @override
+  // Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider);
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
-      child: GestureDetector(
-        // Wrap Text with GestureDetector
-        onLongPress: () {
-          Clipboard.setData(ClipboardData(text: text));
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Directionality(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisSize: MainAxisSize.max, // Ensure Row takes minimum width
+            children: [
+              if (widget.note != null && widget.note!.isNotEmpty)
+                IconButton(
+                  padding: EdgeInsets.zero,
+                  iconSize: textSize +
+                      1, // Optional: Adjust size for flush appearance
+                  onPressed: () {
+                    setState(() {
+                      _showNote = !_showNote;
+                    });
+                  },
+                  icon: Icon(_showNote ? Icons.expand_less : Icons.note_alt),
+                ),
+              Expanded(
+                child: Align(
+                  alignment: Alignment.topRight,
+                  child: GestureDetector(
+                    // Wrap Text with GestureDetector
+                    onLongPress: () {
+                      Clipboard.setData(ClipboardData(text: widget.text));
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: Text(
+                              'پێناسەی کوردی لەبەرگیرایەوە',
+                              style: TextStyle(
+                                fontSize: textSize + 1,
+                              ),
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                    child: Text(
+                      widget.text,
+                      style: TextStyle(
+                        fontSize: textSize + 2,
+                        fontWeight: FontWeight.w500,
+                      ),
+                      textDirection: TextDirection.rtl,
+                      textAlign: TextAlign.right,
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          if (_showNote && widget.note != null && widget.note!.isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Text('پێناسەی کوردی لەبەرگیرایەوە'),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.18),
+                      width: 1.0,
+                    ),
+                    borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Directionality(
+                      textDirection: TextDirection.rtl,
+                      child: Text(
+                        '${widget.note}',
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
+                        style: TextStyle(
+                          fontSize: textSize + 2,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               ),
             ),
-          );
-        },
-        child: Text(
-          text,
-          style: TextStyle(
-            fontSize: textSize + 2,
-            fontWeight: FontWeight.w500,
-          ),
-          textAlign: TextAlign.right,
-          textDirection: TextDirection.rtl,
-        ),
+        ],
       ),
     );
   }
 }
+
+// class DefinitionKurdish extends ConsumerWidget {
+//   final String text;
+
+//   const DefinitionKurdish({super.key, required this.text});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final textSize = ref.watch(textSizeProvider);
+
+//     return Padding(
+//       padding: const EdgeInsets.symmetric(horizontal: 10.0),
+//       child: GestureDetector(
+//         // Wrap Text with GestureDetector
+//         onLongPress: () {
+//           Clipboard.setData(ClipboardData(text: text));
+//           ScaffoldMessenger.of(context).showSnackBar(
+//             const SnackBar(
+//               content: Directionality(
+//                 textDirection: TextDirection.rtl,
+//                 child: Text('پێناسەی کوردی لەبەرگیرایەوە'),
+//               ),
+//             ),
+//           );
+//         },
+//         child: Text(
+//           text,
+//           style: TextStyle(
+//             fontSize: textSize + 2,
+//             fontWeight: FontWeight.w500,
+//           ),
+//           textAlign: TextAlign.right,
+//           textDirection: TextDirection.rtl,
+//         ),
+//       ),
+//     );
+//   }
+// }
 
 class LinkInfo {
   final int start;
@@ -1111,7 +1235,14 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                   onLongPress: () {
                     Clipboard.setData(ClipboardData(text: widget.text));
                     ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text('English sentence copied')),
+                      SnackBar(
+                        content: Text(
+                          'English sentence copied',
+                          style: TextStyle(
+                            fontSize: textSize + 1,
+                          ),
+                        ),
+                      ),
                     );
                   },
                   child: Text(
@@ -1153,9 +1284,13 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Note: ${widget.note}',
+                    '${widget.note}',
                     textDirection: TextDirection.ltr,
                     textAlign: TextAlign.left,
+                    style: TextStyle(
+                      fontSize: textSize + 1,
+                      fontWeight: FontWeight.w400,
+                    ),
                   ),
                 ),
               ),
@@ -1250,10 +1385,15 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                     onLongPress: () {
                       Clipboard.setData(ClipboardData(text: widget.text));
                       ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
+                        SnackBar(
                           content: Directionality(
                             textDirection: TextDirection.rtl,
-                            child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
+                            child: Text(
+                              'ڕستەی کوردی لەبەرگیرایەوە',
+                              style: TextStyle(
+                                fontSize: textSize + 1,
+                              ),
+                            ),
                           ),
                         ),
                       );
@@ -1291,9 +1431,13 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                     child: Directionality(
                       textDirection: TextDirection.rtl,
                       child: Text(
-                        'تێبینی: ${widget.note}',
+                        '${widget.note}',
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
+                        style: TextStyle(
+                          fontSize: textSize + 1,
+                          fontWeight: FontWeight.w400,
+                        ),
                       ),
                     ),
                   ),
@@ -1446,7 +1590,13 @@ class EnglishMeaningConst extends ConsumerWidget {
               onLongPress: () {
                 Clipboard.setData(ClipboardData(text: text));
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('English meaning copied')),
+                  SnackBar(
+                      content: Text(
+                    'English meaning copied',
+                    style: TextStyle(
+                      fontSize: textSize + 1,
+                    ),
+                  )),
                 );
               },
               child: Text(

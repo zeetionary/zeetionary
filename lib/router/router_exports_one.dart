@@ -320,22 +320,22 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dreamless.dart' show EnglishEntrydreamless;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dreamlike.dart' show EnglishEntrydreamlike;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dreamy.dart' show EnglishEntrydreamy;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drearily.dart' show EnglishEntrydrearily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dreariness.dart' show EnglishEntrydreariness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dreary.dart' show EnglishEntrydreary;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dredge.dart' show EnglishEntrydredge;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dredger.dart' show EnglishEntrydredger;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dregs.dart' show EnglishEntrydregs;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drench.dart' show EnglishEntrydrench;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dress.dart' show EnglishEntrydress;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dressmaker.dart' show EnglishEntrydressmaker;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dress_rehearsal.dart' show EnglishEntrydressrehearsal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dresser.dart' show EnglishEntrydresser;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dressing.dart' show EnglishEntrydressing;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dressing_gown.dart' show EnglishEntrydressinggown; // ffffffffffffffffffffff dressing gown
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dressing_table.dart' show EnglishEntrydressingtable; ////// fffffffff dressing table
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dribble.dart' show EnglishEntrydribble;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drift.dart' show EnglishEntrydrift;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;

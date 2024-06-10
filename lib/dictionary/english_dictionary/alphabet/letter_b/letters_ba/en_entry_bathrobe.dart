@@ -183,6 +183,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) جلی ماڵەوە کە بەسەر جلی تردا لەبەردەکرێت"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: dressing gown"),
                           Row(
                             children: [
                               const Expanded(
@@ -193,7 +194,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                                             "He was wearing a bathrobe and slippers when I answered the door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
+                                            "جلی ماڵەوەی لەبەربوو و سۆلی لەپێبوو کە دەرگاکەم کردەوە."),
                                   ],
                                 ),
                               ),

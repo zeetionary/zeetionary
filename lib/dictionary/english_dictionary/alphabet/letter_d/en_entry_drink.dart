@@ -11,14 +11,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydrift extends StatefulWidget {
-  const EnglishEntrydrift({super.key});
+class EnglishEntrydrink extends StatefulWidget {
+  const EnglishEntrydrink({super.key});
 
   @override
-  State<EnglishEntrydrift> createState() => _EnglishEntrydriftState();
+  State<EnglishEntrydrink> createState() => _EnglishEntrydrinkState();
 }
 
-class _EnglishEntrydriftState extends State<EnglishEntrydrift> {
+class _EnglishEntrydrinkState extends State<EnglishEntrydrink> {
   @override
   void initState() {
     super.initState();
@@ -74,7 +74,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "drift";
+  final String keyword = "drink";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -222,7 +222,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "drift");
+    return const EntryTitle(word: "drink");
   }
 }
 
@@ -233,7 +233,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: drift");
+    return const AlsoEnglish(word: "also: drink");
   }
 }
 
@@ -260,7 +260,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /drɪft/");
+    return const IPAofEnglish(text: "IpaUK: /drɪŋk/");
   }
 }
 
@@ -271,18 +271,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdrift(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrink(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drift"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drink"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakdrift("en-GB"),
+      onPressed: () => speakdrink("en-GB"),
     );
   }
 }
@@ -310,7 +310,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /drɪft/");
+    return const IPAofEnglish(text: "IpaUS: /drɪŋk/");
   }
 }
 
@@ -321,18 +321,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdrift(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrink(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("drift"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("drink"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakdrift("en-US"),
+      onPressed: () => speakdrink("en-US"),
     );
   }
 }
@@ -344,198 +344,192 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdrifts1(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks1(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Can I have a drink?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks2(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Do you want a drink?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks3(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Passengers were left without food and drink for hours."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks4(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We were offered free drinks to make up for the wait."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks5(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She took a drink from the glass and then put it down."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks6(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Clouds drifted across the sky."); // DOPSUM: CHANGE TEXT
+        .speak("They went for a drink together."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts2(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks7(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A cool breeze drifted through the open window."); // DOPSUM: CHANGE TEXT
+        "Are you coming for a drink with us after work?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts3(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks8(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There were free drinks at the bar for everyone."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks9(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He's got a drink problem."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks10(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Would you like to come for drinks on Sunday?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks11(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I don't drink coffee."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks12(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Smoke drifted across the room."); // DOPSUM: CHANGE TEXT
+        .speak("What would you like to drink?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts4(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The crowd drifted away from the scene of the accident."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts5(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "People began to drift back to their houses."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts6(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I didn't intend to be a teacher—I just drifted into it."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts7(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The conversation drifted onto politics."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts8(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks13(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Finally she drifted into sleep."); // DOPSUM: CHANGE TEXT
+        .speak("In hot weather, drink plenty of water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts9(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The injured man tried to speak but soon drifted into unconsciousness."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts10(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some roads are closed because of drifting."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts11(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He criticized the rightward drift of the party."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts12(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Action is needed to prevent a drift into lawlessness."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts13(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "No attempts were being made to halt the drift towards war."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts14(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks14(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Remember to allow for drift."); // DOPSUM: CHANGE TEXT
+        .speak("She drank from a tall glass."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts15(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks15(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He doesn't drink."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakdrinks16(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He knew the hidden drifts in that part of the river."); // DOPSUM: CHANGE TEXT
+        "She's been drinking heavily since she lost her job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts16(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks17(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The road was blocked by deep drifts of snow."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Don't drink and drive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts17(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks18(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Plant daffodils in informal drifts."); // DOPSUM: CHANGE TEXT
+        .speak("I think he's drunk too much."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts18(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks19(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you catch my drift?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdrinks1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts19(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks20(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My German isn't very good, but I got the drift of what she said."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdrinks_2000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts20(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks21(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrifts_2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdrinks2100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakdrifts21(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
+  Future<void> speakdrinks22(String languageCode) async {
+    // DOPSUM: CHANGE speakdrink
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrifts2100"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakdrifts22(String languageCode) async {
-    // DOPSUM: CHANGE speakdrift
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdrifts2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakdrinks2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -547,96 +541,159 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جووڵە، جووڵانەوەی بەخاوی، تەکان (کەم‌کەم)، تەوژم، ڕاماڵین، ڕادان،	کەڵەکە، تۆپەڵە، ڕادراوە، ڕاماڵراوە، ڕاماڵە، کۆما، کۆگا، کۆمای ڕادراو بە با، باڕاماڵک (بەتایبەت زیخ، بەفر و هتد)، سەهۆڵی ئاوماڵک،	ئەسکەنە،	مەبەست، خەیاڵ، نیاز، نێوەرۆک، کاکڵ، واتا، مانا،	داشکانەوە، مەیل، تێندێنسی،	(فڕۆکە و ...) لادان، ڕادان،	سەبر، چاوەڕوانی،	لێ‌خوڕین، ڕاپێچ‌دان (ئاژەڵ)،	ڕەهەندی لاوەکی، لاڕەهەند،	(زمانەوانی) گۆڕان، گۆڕان‌کاری
+کوردی: ئاوی خواردنەوە،	خواردنەوەی ئەڵکۆڵی، ئارەق، ئارەق‌خواردنەوە،	قوم، گوڵپ، فڕ، دەریا، زەریا، زرێ،	گۆم، زەریاچە
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (کردار) ئەوەی کە بە هێواشی و لەسەرخۆیی بەسەر ئاو یان بە هەوادا بجوڵێیت"),
+          const DefinitionKurdish(text: "١. (ناو) شلەی خواردنەوە"),
           Row(
             children: [
               const Expanded(
                 child: Column(
                   children: [
-                    ExampleSentenceEnglish(
-                        text: "Clouds drifted across the sky."),
-                    ExampleSentenceKurdish(
-                        text: "هەورەکان بە ئاسماندا دەسووڕانەوە."),
+                    ExampleSentenceEnglish(text: "Can I have a drink?"),
+                    ExampleSentenceKurdish(text: "خواردنەوەیەکم پێ دەدەیت؟"),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "drift", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "drink", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts1("en-GB"),
+                    onPressed: () => speakdrinks1("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts1("en-US"),
+                    onPressed: () => speakdrinks1("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          Column(
             children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A cool breeze drifted through the open window."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سریوەیەکی سارد بە پەنجەرە کراوەکەدا هاتە ژوورەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
+              MyExpansionTile(
                 children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts2("en-GB"),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text: "Do you want a drink?"),
+                            ExampleSentenceKurdish(
+                                text: "خواردنەوەیەکت دەوێت؟"),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdrinks2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdrinks2("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts2("en-US"),
+                  // const DividerDefinition(),
+                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "Passengers were left without food and drink for hours."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "گەشتیاران بۆ چەندین کاتژمێر بەبێ خواردن و خواردنەوە هێڵدرانەوە؟"),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdrinks3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdrinks3("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Smoke drifted across the room."),
-                    ExampleSentenceKurdish(
-                        text: "دووکەڵ بە ژوورەکەدا هاتووچۆی بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts3("en-GB"),
+                  // const DividerDefinition(),
+                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "We were offered free drinks to make up for the wait."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "خواردنەوەی بێبەرامبەرمان پێدرا بۆ قەرەبووکردنەوەی چاوەڕوانییەکە."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdrinks4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdrinks4("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts3("en-US"),
+                  // const DividerDefinition(),
+                  // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+                  const DividerSentences(),
+                  Row(
+                    children: [
+                      const Expanded(
+                        child: Column(
+                          children: [
+                            ExampleSentenceEnglish(
+                                text:
+                                    "She took a drink from the glass and then put it down."),
+                            ExampleSentenceKurdish(
+                                text:
+                                    "خواردنەوەیەکی بە گڵاسەکە خواردەوە و داینا."),
+                          ],
+                        ),
+                      ),
+                      const CustomSizedBoxForTTS(),
+                      Column(
+                        children: [
+                          CustomIconButtonBritish(
+                            onPressed: () => speakdrinks5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                            onPressed: () => speakdrinks5("en-US"),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ],
               ),
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (کردار) چوون بۆ شوێنێک بەهێواشی، یان جوڵان بە ناویدا"),
+          const DefinitionKurdish(text: "٢. (ناو) خواردنەوەی کحوولی"),
           // const DividerSentences(),
           Row(
             children: [
@@ -644,10 +701,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "The crowd drifted away from the scene of the accident."),
+                        text: "They went for a drink together."),
                     ExampleSentenceKurdish(
-                        text: "جەماوەرەکە بڵاوەیان لە ڕووداوەکە کرد."),
+                        text: "پێکەوە چوون بۆ خواردنەوەیەک."),
                   ],
                 ),
               ),
@@ -655,17 +711,17 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts4("en-GB"),
+                    onPressed: () => speakdrinks6("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts4("en-US"),
+                    onPressed: () => speakdrinks6("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -673,9 +729,9 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text: "People began to drift back to their houses."),
+                        text: "Are you coming for a drink with us after work?"),
                     ExampleSentenceKurdish(
-                        text: "خەڵکی دەستیان کرد بە چوونەوە بۆ ماڵەکانیان."),
+                        text: "لە دوای کار لەگەڵمان دێیت بۆ خواردنەوەیەک؟"),
                   ],
                 ),
               ),
@@ -683,106 +739,17 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts5("en-GB"),
+                    onPressed: () => speakdrinks7("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts5("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٣. (کردار) کردنی شتێک، یان ئەوەی ڕووبدات یان بگۆڕێت بەبێ مەبەست یان پلانێکی دیاریکراو"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I didn't intend to be a teacher—I just drifted into it."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "مەبەستم نەبوو ببم بە مامۆستا ـ تەنها ئەوەبوو تێکەوتم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts6("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts6("en-US"),
+                    onPressed: () => speakdrinks7("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
-          const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The conversation drifted onto politics."),
-                    ExampleSentenceKurdish(
-                        text: "گفتوگۆکە خۆی کێشا/درێژەی کێشا بۆ سیاسەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts7("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts7("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٤. (کردار) چوون لە دۆخێکەوە بۆ یەکێکی دیکە بەبێ ئەوەی هەستی پێبکەیت"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Finally she drifted into sleep."),
-                    ExampleSentenceKurdish(text: "لەکۆتاییدا کەوتە خەو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts8("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts8("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -791,10 +758,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "The injured man tried to speak but soon drifted into unconsciousness."),
+                            "There were free drinks at the bar for everyone."),
                     ExampleSentenceKurdish(
                         text:
-                            "پیاوە بریندارەکە هەوڵیدا قسەبکات بەڵام هەرزوو بێ‌هۆش کەوت."),
+                            "لە باڕەکە خواردنەوەی بێبەرامبەر بۆ هەموان هەبوو."),
                   ],
                 ),
               ),
@@ -802,76 +769,206 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts9("en-GB"),
+                    onPressed: () => speakdrinks8("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts9("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٥. (کردار) تۆپەڵبوون بەهۆی باوە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Some roads are closed because of drifting."),
-                    ExampleSentenceKurdish(
-                        text: "هەندێک ڕێگا بەهۆی تۆپەڵبوونەوە داخراون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts10("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts10("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٦. (ناو) جوڵەیەکی هێواش و لەسەرخۆ لە شوێنێکەوە بۆ شوێنێکی دیکە؛ گۆڕانێک یان پەرەسەندنێکی لەسەرەخۆ لە دۆخێکەوە بۆ دۆخێکی دیکە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He criticized the rightward drift of the party."),
-                    ExampleSentenceKurdish(
-                        text: "ڕەخنەی لە چوونی پارتەکە بۆ ڕاستڕەوی گرت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts11("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts11("en-US"),
+                    onPressed: () => speakdrinks8("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He's got a drink problem."),
+                    ExampleSentenceKurdish(
+                        text: "کێشەی خواردنەوەی هەیە (ئاڵوودەیە پێی)."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks9("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks9("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٣. (ناو) بۆنەیەکی خواردنەوەی کحوولی"),
+          // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "Would you like to come for drinks on Sunday?"),
+                    ExampleSentenceKurdish(
+                        text: "دەتەوێت یەکشەممە بێیت بۆ خواردنەوە؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks10("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks10("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٤. (کردار) خواردنەوەی شتێکی شلە"),
+          // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "I don't drink coffee."),
+                    ExampleSentenceKurdish(text: "قاوە ناخۆمەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks11("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks11("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "What would you like to drink?"),
+                    ExampleSentenceKurdish(text: "حەزت بە چییە بیخۆیتەوە؟"),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks12("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks12("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "In hot weather, drink plenty of water."),
+                    ExampleSentenceKurdish(
+                        text: "لە کەشی گەرمدا، ئاوێکی زۆر بخۆرەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks13("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks13("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: "She drank from a tall glass."),
+                    ExampleSentenceKurdish(text: "لە گڵاسێکی درێژ خواردییەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks14("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks14("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: "٥. (کردار) خواردنەوەی مادەی کحوولی"),
+          // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(text: "He doesn't drink."),
+                    ExampleSentenceKurdish(text: "ناخواتەوە."),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdrinks15("en-GB"),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdrinks15("en-US"),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -880,9 +977,10 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "Action is needed to prevent a drift into lawlessness."),
+                            "She's been drinking heavily since she lost her job."),
                     ExampleSentenceKurdish(
-                        text: "هەنگاونان پێویستە بۆ ڕێگری لە پاشاگەردانی."),
+                        text:
+                            "لەوەتەی کارەکەی لەدەستداوە ئێجگار زۆر دەخواتەوە."),
                   ],
                 ),
               ),
@@ -890,17 +988,17 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts12("en-GB"),
+                    onPressed: () => speakdrinks16("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts12("en-US"),
+                    onPressed: () => speakdrinks16("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -909,9 +1007,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            "No attempts were being made to halt the drift towards war."),
+                            "Don't drink and drive (= drive a car after drinking alcohol)."),
                     ExampleSentenceKurdish(
-                        text: "هیچ هەوڵێک نەدەدرا بۆ سەرکێشان بۆ ناو جەنگ."),
+                        text: "شۆفێری مەکە لەگەڵ خواردنەوە."),
                   ],
                 ),
               ),
@@ -919,164 +1017,17 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts13("en-GB"),
+                    onPressed: () => speakdrinks17("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts13("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٦. (ناو) جوڵەی کەشتی یان فڕۆکە دوور لە ئاراستەکەی بەهۆی باوە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Remember to allow for drift."),
-                    ExampleSentenceKurdish(
-                        text: "بیرت بێت حساب بۆ بایەکە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts14("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts14("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: "٨. (ناو) جوڵەی ئاو یان هەوا"),
-          // const DividerSentences(),
-          const AlsoEnglishckb(word: "ھەروەھا: current"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He knew the hidden drifts in that part of the river."),
-                    ExampleSentenceKurdish(
-                        text: "شەپۆلە شاراوەکانی ئەو بەشەی ڕووبارەکەی دەزانی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts15("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts15("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  "٩. (ناو) تۆپەڵێکی گەورە لە شتێک، بەتایبەتی بەفر، کە بەهۆی باوە درووست بووە"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The road was blocked by deep drifts of snow."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێگاکە داخراو بوو بەهۆی تۆپەڵبوونی گەورەی بەفرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts16("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "١٠. (ناو) ڕێژەیەکی زۆر لە شتێک، بەتایبەتی گوڵ"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Plant daffodils in informal drifts."),
-                    ExampleSentenceKurdish(
-                        text: "نێرگزەکان لە گرووپی ناڕێکدا بچێنە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts17("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts17("en-US"),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "١١. (ناو) واتای گشتی شتێک کە کەسێک دەیڵێت یان دەینووسێت"),
-          // const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Do you catch my drift?"),
-                    ExampleSentenceKurdish(text: "کاکڵی قسەکەم وەرگرتم؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakdrifts18("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts18("en-US"),
+                    onPressed: () => speakdrinks17("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           const DividerSentences(),
           Row(
             children: [
@@ -1084,11 +1035,8 @@ class KurdishMeaning extends StatelessWidget {
                 child: Column(
                   children: [
                     ExampleSentenceEnglish(
-                        text:
-                            "My German isn't very good, but I got the drift of what she said."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەڵمانییەکەم زۆرباش نییە، بەڵام مەبەستی ئەوەم وەرگرت کە گوتی."),
+                        text: "I think he's drunk too much."),
+                    ExampleSentenceKurdish(text: "پێموایە زۆری خواردووەتەوە."),
                   ],
                 ),
               ),
@@ -1096,24 +1044,24 @@ class KurdishMeaning extends StatelessWidget {
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakdrifts19("en-GB"),
+                    onPressed: () => speakdrinks18("en-GB"),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakdrifts19("en-US"),
+                    onPressed: () => speakdrinks18("en-US"),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdrifts_2000"),
+          //           ExampleSentenceEnglish(text: "speakdrinks1900"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -1122,24 +1070,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdrifts20("en-GB"),
+          //           onPressed: () => speakdrinks19("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdrifts20("en-US"),
+          //           onPressed: () => speakdrinks19("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdrifts2100"),
+          //           ExampleSentenceEnglish(text: "speakdrinks_2000"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -1148,24 +1096,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdrifts21("en-GB"),
+          //           onPressed: () => speakdrinks20("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdrifts21("en-US"),
+          //           onPressed: () => speakdrinks20("en-US"),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو) پێنناسە"),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: "speakdrifts2200"),
+          //           ExampleSentenceEnglish(text: "speakdrinks2100"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
@@ -1174,10 +1122,36 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakdrifts22("en-GB"),
+          //           onPressed: () => speakdrinks21("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdrifts22("en-US"),
+          //           onPressed: () => speakdrinks21("en-US"),
+          //         ),
+          //       ],
+          //     ),
+          //   ],
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: "ژممارە. (کردار) پێنناسە"),
+          // const DividerSentences(),
+          // Row(
+          //   children: [
+          //     const Expanded(
+          //       child: Column(
+          //         children: [
+          //           ExampleSentenceEnglish(text: "speakdrinks2200"),
+          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          //         ],
+          //       ),
+          //     ),
+          //     const CustomSizedBoxForTTS(),
+          //     Column(
+          //       children: [
+          //         CustomIconButtonBritish(
+          //           onPressed: () => speakdrinks22("en-GB"),
+          //         ),
+          //         CustomIconButtonAmerican(
+          //           onPressed: () => speakdrinks22("en-US"),
           //         ),
           //       ],
           //     ),
@@ -1231,54 +1205,37 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: drift (Derived forms: drifted, drifting, drifts)
-1. Be in motion due to some air or water current (= float, be adrift, blow)
-"the boat drifted on the lake"; "the shipwrecked boat drifted away from the shore";
+- Verb: drink (Derived forms: drank, drunk, drinking, drinks)
+1. Take in liquids (= imbibe)
+"The children like to drink soda"; "The patient must drink several litres each day";
  
-2. Wander from a direct course or at random (= stray, err)
-"don't drift from the set course";
+2. Consume alcohol (= hit the bottle [informal], booze [informal], fuddle)
+"We were up drinking all night";
  
-3. Move about aimlessly or without any fixed destination (= roll, wander, swan [informal], stray, tramp, roam, cast, ramble, rove, range, vagabond [archaic])
-"the labourers drift from one town to the next";
+3. Propose a toast to (= toast, pledge, salute, wassail [archaic])
+"Let's drink to the New Year";
  
-4. Vary or move from a fixed point or course
-"stock prices are drifting higher"
+4. Be fascinated or spell-bound by; pay close attention to (= drink in)
+"The mother drinks in every word of her son on the stage";
  
-5. Live unhurriedly, irresponsibly, or freely (= freewheel)
-"My son drifted around for years in California before going to law school";
- 
-6. Move in an unhurried fashion
-"The unknown young man drifted among the invited guests"
- 
-7. Cause to be carried by a current
-"drift the boats downstream"
- 
-8. Drive slowly and far afield for grazing
-"drift the cattle herds westwards"
- 
-9. Be subject to fluctuation
-"The stock market drifted upward"
- 
-10. Be piled up in banks or heaps by the force of wind or a current
-"snow drifting several feet high"; "sand drifting like snow"
+5. Drink excessive amounts of alcohol; be an alcoholic (= tope [archaic])
+"The husband drinks and beats his wife";
 
-- Noun: drift (Derived forms: drifts)
-1. A force that moves something along (= impetus, impulsion)
+- Noun: drink (Derived forms: drinks)
+1. A single serving of a beverage
+"I asked for a hot drink"; "likes a drink before dinner"
  
-2. The gradual departure from an intended course due to external influences (as a ship or plane)
+2. The act of drinking alcoholic beverages to excess (= drinking, boozing, drunkenness, crapulence)
+"drink was his downfall";
  
-3. A process of linguistic change over a period of time
+3. Any liquid suitable for drinking (= beverage, drinkable, potable)
+"may I take your drink order?";
  
-4. A large mass of material that is heaped up by the wind or by water currents
+4. Any large deep body of water
+"he jumped into the drink and had to be rescued"
  
-5. A general tendency to change (as of opinion) (= trend, movement)
-"not openly liberal but that is the drift of the book";
- 
-6. The pervading meaning or tenor (= purport)
-"caught the general drift of the conversation";
- 
-7. (mining) a horizontal (or nearly horizontal) passageway in a mine (= heading, gallery)
-"they dug a drift parallel with the vein";
+5. The act of swallowing (= swallow, deglutition [technical])
+"he took a drink of his beer and smacked his lips";
 """,
   );
 
@@ -1311,8 +1268,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bHIhgxav9LY?t=',
-    startSeconds: 394,
+    videoId: 'https://youtu.be/N7hlIbJkvUQ?t=',
+    startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1336,8 +1293,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Pl8AJAt3TDg?t=',
-    startSeconds: 271,
+    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    startSeconds: 2673,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1361,8 +1318,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T48_SrFCdaQ?t=',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/2GsK5feFt1U?t=',
+    startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1386,8 +1343,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mncCR3wehF8?t=',
-    startSeconds: 218,
+    videoId: 'https://youtu.be/F-Z3qNeZyTU?t=',
+    startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1411,8 +1368,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/j3o6RLBehlc?t=',
-    startSeconds: 563,
+    videoId: 'https://youtu.be/GlPaFt6C56Y?t=',
+    startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1436,8 +1393,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Am1lDj2mUVY?t=',
-    startSeconds: 1438,
+    videoId: 'https://youtu.be/1fjawd7uF4U?t=',
+    startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1461,8 +1418,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oI_X2cMHNe0?t=',
-    startSeconds: 183,
+    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    startSeconds: 639,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

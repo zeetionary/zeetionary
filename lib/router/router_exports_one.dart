@@ -689,10 +689,10 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drip_dry.dart' show EnglishEntrydripdry; // ffff drip-dry
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dripping.dart' show EnglishEntrydripping;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drive.dart' show EnglishEntrydrive;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
-// export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drive_by.dart' show EnglishEntrydriveby; // ffff drive-by
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_drive_in.dart' show EnglishEntrydrivein; // ffff drive-in
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_driver.dart' show EnglishEntrydriver;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_driving_licence.dart' show EnglishEntrydrivinglicence; // ffff driving licence
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;
 // export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_DOPSUM.dart' show EnglishEntry;

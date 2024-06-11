@@ -1887,6 +1887,7 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١٩. (ناو) ڕێگایەک کە لەسەر ڕێگای گشتییەوە دێت بەرەو خانوویەک"),
           // const DividerSentences(),
+          const AlsoEnglishckb(word: "ھەروەھا: driveway"),
           Row(
             children: [
               const Expanded(

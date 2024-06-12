@@ -257,6 +257,7 @@ class EnglishEntrycleaner extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) شوێنێک کە تێیدا جلوبەرگ، پەردە، ھتد دەشۆردرێت، بە تایبەتی بە مادەی کیمیایی"),
+                          const AlsoEnglishckb(word: "ھەروەھا: dry-cleaner’s"),
                           Row(
                             children: [
                               const Expanded(

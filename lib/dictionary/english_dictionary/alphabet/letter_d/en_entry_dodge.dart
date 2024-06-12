@@ -540,6 +540,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (کردار) بەخێرایی جوڵان بە لایەکدا بۆ ئەوەی لە کەسێک/شتێک دووربکەویتەوە"),
+          const AlsoEnglishckb(word: "ھەروەھا: duck"),
           Row(
             children: [
               const Expanded(

@@ -11,14 +11,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryduet extends StatefulWidget {
-  const EnglishEntryduet({super.key});
+class EnglishEntryduplicate extends StatefulWidget {
+  const EnglishEntryduplicate({super.key});
 
   @override
-  State<EnglishEntryduet> createState() => _EnglishEntryduetState();
+  State<EnglishEntryduplicate> createState() => _EnglishEntryduplicateState();
 }
 
-class _EnglishEntryduetState extends State<EnglishEntryduet> {
+class _EnglishEntryduplicateState extends State<EnglishEntryduplicate> {
   @override
   void initState() {
     super.initState();
@@ -74,7 +74,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "duet";
+  final String keyword = "duplicate";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -222,7 +222,7 @@ class TitleOfEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const EntryTitle(word: "duet");
+    return const EntryTitle(word: "duplicate");
   }
 }
 
@@ -233,7 +233,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: duet");
+    return const AlsoEnglish(word: "also: duplicate");
   }
 }
 
@@ -260,7 +260,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /djuˈet/");
+    return const IPAofEnglish(text: "IpaUK: /ˈdjuːplɪkeɪt/");
   }
 }
 
@@ -271,18 +271,18 @@ class TTSUK extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakduet(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicate(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duplicate"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakduet("en-GB" ""),
+      onPressed: () => speakduplicate("en-GB" ""),
     );
   }
 }
@@ -310,7 +310,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /duˈet/");
+    return const IPAofEnglish(text: "IpaUS: /ˈduːplɪkeɪt/");
   }
 }
 
@@ -321,18 +321,18 @@ class TTSUS extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakduet(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicate(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("duet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("duplicate"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonAmerican(
-      onPressed: () => speakduet("en-US" ""),
+      onPressed: () => speakduplicate("en-US" ""),
     );
   }
 }
@@ -344,181 +344,187 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakduets1(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates1(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The host of the show did a duet with one of the guests."); // DOPSUM: CHANGE TEXT
+        "Please keep the duplicated form and send us the original."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets2(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates2(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The documents had been duplicated."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets3(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates3(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Parenthood is an experience nothing else can duplicate."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets4(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates4(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There's no point in duplicating work already done."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets5(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates5(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The thieves were equipped with duplicate keys to the safe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets6(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates6(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Books may be disposed of if they are duplicates."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets7(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates7(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets700"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Is this a duplicate or the original?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets8(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates8(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets9(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates9(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets10(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates10(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets_1000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates_1000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets11(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates11(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets12(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates12(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1200"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets13(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates13(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1300"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1300"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets14(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates14(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1400"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1400"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets15(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates15(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1500"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1500"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets16(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates16(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1600"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1600"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets17(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates17(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1700"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1700"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets18(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates18(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1800"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1800"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets19(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates19(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets1900"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates1900"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets20(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates20(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets_2000"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates_2000"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets21(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates21(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets2100"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates2100"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakduets22(String languageCode) async {
-    // DOPSUM: CHANGE speakduet
+  Future<void> speakduplicates22(String languageCode) async {
+    // DOPSUM: CHANGE speakduplicate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakduets2200"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakduplicates2200"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -529,13 +535,11 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
+          const KurdishVocabulary(text: """
+کوردی: دووبەرامبەر، دووئەوندە، دووچەندان، دووباد،	وەکوویەک، وەک‌یەک، هاوشێوە، هاوتا، هاوجووت، دەقاودەق، لێکچوو،	دووپەڕی، دووڕوونووسی،	دوانەیی، جووت
+"""),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) نمایشێک لەلایەن دوو گۆرانیبێژ یان میوزیکژەن؛ پارچە میوزیکێک کە بۆ دوو کەسە"""),
-          const AlsoEnglishckb(word: "ھەروەھا: duo"),
+              text: """١. (کردار) لەبەرگرتنەوەی شتێک بە تەواوی"""),
           Row(
             children: [
               const Expanded(
@@ -543,35 +547,215 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """The host of the show did a duet with one of the guests."""),
+                            """Please keep the duplicated form and send us the original."""),
                     ExampleSentenceKurdish(
                         text:
-                            """میوانداری نمایشەکە دوێتێکی لەگەڵ یەکێک لە میوانەکان ئەنجامدا."""),
+                            """تکایە دانە لەبەرگیراوەکە ببە و ڕەسەنەکەمان بدەوە."""),
                   ],
                 ),
               ),
-              const CustomSizedBoxForTTS(), // With short examples define "duet", please follow LX instructions
+              const CustomSizedBoxForTTS(), // With short examples define "duplicate", please follow LX instructions
               Column(
                 children: [
                   CustomIconButtonBritish(
-                    onPressed: () => speakduets1("en-GB" ""),
+                    onPressed: () => speakduplicates1("en-GB" ""),
                   ),
                   CustomIconButtonAmerican(
-                    onPressed: () => speakduets1("en-US" ""),
+                    onPressed: () => speakduplicates1("en-US" ""),
                   ),
                 ],
               ),
             ],
           ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: """The documents had been duplicated."""),
+                    ExampleSentenceKurdish(
+                        text: """بەڵهەنامەکان لەبەرگیراونەتەوە."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates2("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates2("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (کردار) دووبارە کردنەوەی شتێک، بەتایبەتی کە پێویست نییە"""),
+          // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            """Parenthood is an experience nothing else can duplicate."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """دایک و باوکێتی ئەزموونێکە کە جێگەی ناگیردرێتەوە."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates3("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates3("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            """There's no point in duplicating work already done."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """هیچ هۆکارێک نییە بۆ دووبارەکردنەوەی شتێک کە پێشوەختە کراوە."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates4("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates4("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٣. (هاوەڵناو) لەبەرگیراوەی شتێکی دیکە"""),
+          // const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            """The thieves were equipped with duplicate keys to the safe."""),
+                    ExampleSentenceKurdish(
+                        text: """دزەکان کلیلی لەبەرگیراوەی قاسەکەیان پێبوو."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates5("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates5("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٤. (ناو) شتێک کە لەبەرگیراوەی شتی دیکەیە"""),
+          // const DividerSentences(),
+          const AlsoEnglishckb(word: "ھەروەھا: copy"),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text:
+                            """Books may be disposed of if they are duplicates."""),
+                    ExampleSentenceKurdish(
+                        text:
+                            """کتێب دەکرێت فڕێ بدرێت ئەگەر لەبەرگیراوە بن."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates6("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates6("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: """Is this a duplicate or the original?"""),
+                    ExampleSentenceKurdish(
+                        text: """ئەمە لەبەرگیراوەیە یان ڕەسەنە؟"""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakduplicates7("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakduplicates7("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets200"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates800"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -580,24 +764,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets2("en-GB"""),
+          //           onPressed: () => speakduplicates8("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets2("en-US"""),
+          //           onPressed: () => speakduplicates8("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets300"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates900"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -606,24 +790,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets3("en-GB"""),
+          //           onPressed: () => speakduplicates9("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets3("en-US"""),
+          //           onPressed: () => speakduplicates9("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets400"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates_1000"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -632,24 +816,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets4("en-GB"""),
+          //           onPressed: () => speakduplicates10("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets4("en-US"""),
+          //           onPressed: () => speakduplicates10("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets500"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1100"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -658,24 +842,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets5("en-GB"""),
+          //           onPressed: () => speakduplicates11("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets5("en-US"""),
+          //           onPressed: () => speakduplicates11("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets600"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1200"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -684,24 +868,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets6("en-GB"""),
+          //           onPressed: () => speakduplicates12("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets6("en-US"""),
+          //           onPressed: () => speakduplicates12("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets700"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1300"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -710,24 +894,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets7("en-GB"""),
+          //           onPressed: () => speakduplicates13("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets7("en-US"""),
+          //           onPressed: () => speakduplicates13("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets800"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1400"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -736,24 +920,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets8("en-GB"""),
+          //           onPressed: () => speakduplicates14("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets8("en-US"""),
+          //           onPressed: () => speakduplicates14("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets900"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1500"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -762,24 +946,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets9("en-GB"""),
+          //           onPressed: () => speakduplicates15("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets9("en-US"""),
+          //           onPressed: () => speakduplicates15("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets_1000"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1600"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -788,24 +972,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets10("en-GB"""),
+          //           onPressed: () => speakduplicates16("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets10("en-US"""),
+          //           onPressed: () => speakduplicates16("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1100"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1700"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -814,24 +998,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets11("en-GB"""),
+          //           onPressed: () => speakduplicates17("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets11("en-US"""),
+          //           onPressed: () => speakduplicates17("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1200"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1800"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -840,24 +1024,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets12("en-GB"""),
+          //           onPressed: () => speakduplicates18("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets12("en-US"""),
+          //           onPressed: () => speakduplicates18("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1300"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates1900"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -866,24 +1050,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets13("en-GB"""),
+          //           onPressed: () => speakduplicates19("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets13("en-US"""),
+          //           onPressed: () => speakduplicates19("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1400"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates_2000"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -892,24 +1076,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets14("en-GB"""),
+          //           onPressed: () => speakduplicates20("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets14("en-US"""),
+          //           onPressed: () => speakduplicates20("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1500"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates2100"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -918,24 +1102,24 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets15("en-GB"""),
+          //           onPressed: () => speakduplicates21("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets15("en-US"""),
+          //           onPressed: () => speakduplicates21("en-US"""),
           //         ),
           //       ],
           //     ),
           //   ],
           // ),
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1600"""),
+          //           ExampleSentenceEnglish(text: """speakduplicates2200"""),
           //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
           //         ],
           //       ),
@@ -944,166 +1128,10 @@ class KurdishMeaning extends StatelessWidget {
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets16("en-GB"""),
+          //           onPressed: () => speakduplicates22("en-GB"""),
           //         ),
           //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakduets2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakduets22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakduets22("en-US"""),
+          //           onPressed: () => speakduplicates22("en-US"""),
           //         ),
           //       ],
           //     ),
@@ -1157,20 +1185,30 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: duet (Derived forms: duets)
-1. Two items of the same kind (= couple, pair, twosome, twain, brace, span, yoke, couplet, distich, duo, dyad, duad)
+- Verb: duplicate (Derived forms: duplicated, duplicating, duplicates)
+1. Make, do or perform again (= reduplicate, double, repeat, replicate)
+"He could never duplicate his brilliant performance of the magic trick";
  
-2. Two performers or singers who perform together (= duette, duo)
+2. Duplicate or match (= twin, parallel)
+"The polished surface duplicated his face and chest in reverse";
  
-3. A pair who associate with one another (= couple, twosome, duo)
-"the engaged duet";
+3. Make a duplicate or duplicates of
+"Could you please duplicate this letter for me?"
  
-4. A musical composition for two performers (= duette, duo)
- 
-5. (ballet) a dance for two people (usually a ballerina and a danseur noble) (= pas de deux)
+4. Increase twofold (= double)
 
-- Verb: duet (Derived forms: duetted, duetting, duets)
-1. Play a duet
+- Noun: duplicate (Derived forms: duplicates)
+1. Something additional of the same kind (= extra)
+"he always carried duplicates in case of an emergency";
+ 
+2. A copy that corresponds to an original exactly (= duplication)
+"he made a duplicate for the files";
+
+- Adjective: duplicate 
+1. Identically copied from an original
+"a duplicate key"
+ 
+2. Being the same, or having similar design, colour, etc, as another (= matching, twin, twinned)
 """,
   );
 
@@ -1203,8 +1241,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aGwOseIfP-Q?t=',
-    startSeconds: 37,
+    videoId: 'https://youtu.be/mtWDLLtxoHY?t=',
+    startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1228,8 +1266,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/u9clJZZS99A?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/esJkln9wAEg?t=',
+    startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1253,8 +1291,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/utmiYfpSzWs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/fZaS4WiexCQ?t=',
+    startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1278,8 +1316,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o1j3yQKi1Rc',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1Cw-vODp-8Y?t=',
+    startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1303,8 +1341,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DH5ltATXvL0?t=',
-    startSeconds: 12,
+    videoId: 'https://youtu.be/bc5BnTYRgx8?t=',
+    startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1328,8 +1366,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
-    startSeconds: 1065,
+    videoId: 'https://youtu.be/EI-ToB0tG9A?t=',
+    startSeconds: 570,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1353,8 +1391,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/poS7rZ7-_RU?t=',
-    startSeconds: 66,
+    videoId: 'https://youtu.be/CZbEQsKLRZQ?t=',
+    startSeconds: 582,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

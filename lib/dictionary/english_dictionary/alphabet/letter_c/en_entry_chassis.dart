@@ -191,7 +191,7 @@ class EnglishEntrychassis extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: چوارچێوە، چێوە، لاشەبەست، لاشەبەند، پەیکەر، شاسی، داروبەند، لاشەی ماشێن، قاوخ (وەک تەلەفیزیۆن و ڕادیۆ)
+کوردی: چوارچێوە، چێوە، لاشەبەست، لاشەبەند، پەیکەر، شاسی، داروبەند، لاشەی ئۆتۆمبێل، قاوخ (وەک تەلەفیزیۆن و ڕادیۆ)
 """),
                           const DefinitionKurdish(
                               text:

@@ -333,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەربەست، پێبەند، خۆبەستە،	(کامپیوتێر) تایبەتی 
+کوردی: دەربەست، پێبەند، خۆبەستە،	(کۆمپیوتەر) تایبەتی 
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) هەوڵدانی زۆر بۆ شتێک چونکە زۆر گرنگە بۆت"),

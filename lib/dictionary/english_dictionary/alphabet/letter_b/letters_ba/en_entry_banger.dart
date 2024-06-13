@@ -155,7 +155,7 @@ class EnglishEntrybanger extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: شڕەماشێن، داشقەشکاو، کەلاکەماشێن، کەلاکەکەر، چەپەڕەشڕ
+کوردی: شڕەئۆتۆمبێل، داشقەشکاو، کەلاکەئۆتۆمبێل، کەلاکەکەر، چەپەڕەشڕ
 """),
                           const DefinitionKurdish(
                               text:

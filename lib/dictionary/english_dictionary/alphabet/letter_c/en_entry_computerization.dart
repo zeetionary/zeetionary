@@ -209,7 +209,7 @@ class EnglishEntrycomputerization extends StatelessWidget {
                                             "As industry was modernized by computerization, workers' skills became outdated."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکامپیوتێری، شارەزایی کرێکاران بێ‌سوود بوو."),
+                                            "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکۆمپیوتەری، شارەزایی کرێکاران بێ‌سوود بوو."),
                                   ],
                                 ),
                               ),

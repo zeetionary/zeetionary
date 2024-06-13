@@ -192,7 +192,7 @@ class EnglishEntryconvertible extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: لەگۆڕین‌هاتوو، دەگۆڕێت، ماشێنی سەر(یان میچ)قەدکراو، ماشێنی میچ‌نووشتاو
+کوردی: لەگۆڕین‌هاتوو، دەگۆڕێت، ئۆتۆمبێلی سەر(یان میچ)قەدکراو، ئۆتۆمبێلی میچ‌نووشتاو
 """),
                           const DefinitionKurdish(
                               text:

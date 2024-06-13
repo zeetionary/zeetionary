@@ -350,7 +350,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "// speakdukes100000000000000000000000000000000"); // DOPSUM: CHANGE TEXT
+        "They claim to be descendants of a French duke."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdukes2(String languageCode) async {
@@ -358,7 +358,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdukes200"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The duke is desirous of meeting you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakdukes3(String languageCode) async {
@@ -530,9 +531,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نازناو، میر، بەگ، خان
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) پیاوێکی خانەدان لە بەرزترین پلە، یان دەسەڵاتداری دەوڵەتێکی بچووک"""),
           Row(
             children: [
               const Expanded(
@@ -540,8 +543,9 @@ class KurdishMeaning extends StatelessWidget {
                   children: [
                     ExampleSentenceEnglish(
                         text:
-                            """// speakdukes100000000000000000000000000000000"""),
-                    ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
+                            """They claim to be descendants of a French duke."""),
+                    ExampleSentenceKurdish(
+                        text: """بانگەشەی ئەوە دەکەن نەوەی میرێک بن."""),
                   ],
                 ),
               ),
@@ -560,30 +564,32 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdukes200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdukes2("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdukes2("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerSentences(),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  children: [
+                    ExampleSentenceEnglish(
+                        text: """The duke is desirous of meeting you."""),
+                    ExampleSentenceKurdish(
+                        text: """میر ئارەزووی بینینتی هەیە."""),
+                  ],
+                ),
+              ),
+              const CustomSizedBoxForTTS(),
+              Column(
+                children: [
+                  CustomIconButtonBritish(
+                    onPressed: () => speakdukes2("en-GB" ""),
+                  ),
+                  CustomIconButtonAmerican(
+                    onPressed: () => speakdukes2("en-US" ""),
+                  ),
+                ],
+              ),
+            ],
+          ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
@@ -1152,9 +1158,10 @@ ${englishMeaningConst.text}
 // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakduke EnglishEntryduke
-WORD_WEB duke duke /duːk/
+- Noun: duke (Derived forms: dukes)
+1. A British peer of the highest rank
+ 
+2. A nobleman (in various countries) of high rank
 """,
   );
 
@@ -1187,8 +1194,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/awBM-t-cFQo?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1212,8 +1219,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/7F6WYqzGURk?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1237,8 +1244,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Jvxc2jsY9SQ?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1262,8 +1269,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/8ukll8-pp64?t=',
+    startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1287,8 +1294,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/k6P3XhbufTo?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1312,8 +1319,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/QjveCvqxiRo?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -1337,9 +1344,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-// speakdukes100000000000000000000000000000000
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/2FzSLpQkRJQ?t=',
+    startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

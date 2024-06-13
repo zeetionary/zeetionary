@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
-// کوردی: بڵاوکردنەوەی کامپیوتێری، بڵاوکردنەوەی سەرمیزی
+// کوردی: بڵاوکردنەوەی کۆمپیوتەری، بڵاوکردنەوەی سەرمیزی
 // """),
           const DefinitionKurdish(
               text:

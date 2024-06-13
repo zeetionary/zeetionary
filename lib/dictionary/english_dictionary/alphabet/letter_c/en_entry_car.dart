@@ -198,7 +198,7 @@ class EnglishEntrycar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ئۆتۆمبێل، ماشێن، مەکینە
+کوردی: ئۆتۆمبێل، ئۆتۆمبێل، مەکینە
 """),
                           const DefinitionKurdish(text: "١. (ناو) ئۆتۆمبێل"),
                           Row(

@@ -193,7 +193,7 @@ class EnglishEntrycontrivance extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: دەزگا، ئامێر، ئامراز، ئاموور، وەسیلە، ماشێن،	پلان‌دانان، بەرنامەداڕێژی،	فێڵ، تەڵەکە، دھۆ،	داھێنەری، توانایی داھێنان
+کوردی: دەزگا، ئامێر، ئامراز، ئاموور، وەسیلە، ئۆتۆمبێل،	پلان‌دانان، بەرنامەداڕێژی،	فێڵ، تەڵەکە، دھۆ،	داھێنەری، توانایی داھێنان
 """),
                           const DefinitionKurdish(
                               text:

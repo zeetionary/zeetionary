@@ -192,7 +192,7 @@ class EnglishEntryconveyor extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: ماشێن، ڕاگوێزەر،	(ماف) بەنێوکەر، ڕاگوێزەر،	قایش یا تەسمەی ڕاگوێستن، بەندی ڕاگوێستن
+کوردی: ئۆتۆمبێل، ڕاگوێزەر،	(ماف) بەنێوکەر، ڕاگوێزەر،	قایش یا تەسمەی ڕاگوێستن، بەندی ڕاگوێستن
 """),
                           const DefinitionKurdish(
                               text:

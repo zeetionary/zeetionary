@@ -196,7 +196,7 @@ class EnglishEntryconsole extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: میزی فەرمان، تەختی فەرمان، تەخت یان میزی کۆنتڕۆڵ،	دۆڵاب، سنووق، میز (تەلەفیزیۆن، کامپیوتێر، ڤیدیۆ و ھتد)
+// کوردی: میزی فەرمان، تەختی فەرمان، تەخت یان میزی کۆنتڕۆڵ،	دۆڵاب، سنووق، میز (تەلەفیزیۆن، کۆمپیوتەر، ڤیدیۆ و ھتد)
 // """),
                           const DefinitionKurdish(
                               text:

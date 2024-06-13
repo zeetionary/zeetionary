@@ -191,7 +191,7 @@ class EnglishEntrycontraption extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
-// کوردی: دەزگا یان ماشێنی سەیر (و سەمەرە)، کەڵەکەتڕێ
+// کوردی: دەزگا یان ئۆتۆمبێلی سەیر (و سەمەرە)، کەڵەکەتڕێ
 // """),
                           const DefinitionKurdish(
                               text:

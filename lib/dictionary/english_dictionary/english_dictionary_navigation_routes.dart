@@ -5368,7 +5368,7 @@ final Map<String, String> wordRoutes = {
   "drier": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-dryer",
   "drily": "/english-dryly",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "sand dune": "/english-dune",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

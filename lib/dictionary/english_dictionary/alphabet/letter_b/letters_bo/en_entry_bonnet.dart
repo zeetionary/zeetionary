@@ -145,7 +145,7 @@ class EnglishEntrybonnet extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const KurdishVocabulary(text: """
-کوردی: کاپووت (ماشێن)، کڵاوە، سەر دووکەڵ‌کێش، کڵاوی ژێرچەناگە (مناڵ)، کڵاوی بێ‌لێوار، کڵاوی (پەڕداری) داب‌ودەستووری سوورپێستەکان
+کوردی: کاپووت (ئۆتۆمبێل)، کڵاوە، سەر دووکەڵ‌کێش، کڵاوی ژێرچەناگە (مناڵ)، کڵاوی بێ‌لێوار، کڵاوی (پەڕداری) داب‌ودەستووری سوورپێستەکان
 """),
                           const DefinitionKurdish(
                               text:

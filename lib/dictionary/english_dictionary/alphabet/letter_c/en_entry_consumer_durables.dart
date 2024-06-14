@@ -198,6 +198,9 @@ class EnglishEntryconsumerdurables extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو کەلووپەلانەی کە بۆ ماوەیەکی زۆر بەردەوام دەبن لە دوای کڕینیان، بۆ نموونە ئۆتۆمبێل، تەلەفیزیۆن، ھتد"),
+                          const AlsoEnglishckb(
+                              word: "ھەروەھا: durable goods، durables"),
+
                           Row(
                             children: [
                               const Expanded(

@@ -3268,6 +3268,7 @@ final List<String> allWordsEnglish = [
   "comfort",
   "comfortable",
   "comfortably",
+  "comforter",
   "comic",
   "comic strip",
   "comical",
@@ -5326,23 +5327,131 @@ final List<String> allWordsEnglish = [
   "dress", // dress
   "dressmaker", // dressmaker
   "dress rehearsal",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "dresser", // dresser
+  "dressing", // dressing
+  "dressing gown", // dressing-gown // ffff dressing gown
+  "dressing table", // dressing-table // ffff dressing table
+  "dribble", // dribble
   "drier",
+  "drift", // drift
+  "drifter", // drifter
+  "drill", // drill
   "drily",
+  "drink", // drink
+  "drinkable", // drinkable
+  "drinker", // drinker
+  "drip", // drip
+  "drip-dry", // drip-dry // ffff drip-dry
+  "dripping", // dripping
+  "drive", // drive
+  "drive-by", // drive-by // ffff drive-by
+  "drive-in", // drive-in // ffff drive-in
+  "driver", // driver
   "driveway",
+  "driving licence", // driving-licence // ffff driving licence
+  "driving test", // driving-test // ffff driving test
+  "drivel", // drivel
+  "drizzle", // drizzle
+  "drone", // drone
+  "drool", // drool
+  "droop", // droop
+  "drop", // drop
+  "drop cloth",
+  "drop-down menu", // drop-down-menu // ffff drop-down menu
+  "dropout", // dropout
+  "droppings", // droppings
+  "drought", // drought
+  "drove", // drove
+  "drown", // drown
+  "drowsily", // drowsily
+  "drowsiness", // drowsiness
+  "drowsy", // drowsy
+  "drudge", // drudge
+  "drudgery", // drudgery
+  "drug", // drug
+  "drugstore", // drugstore
+  "drum", // drum
+  "drummer", // drummer
+  "drumstick", // drumstick
+  "drunk", // drunk
+  "drunken", // drunken
+  "drunkenness", // drunkenness
+  "dry", // dry
+  "dry-clean", // dry-clean // ffff dry-clean
   "dry-cleaner’s",
+  "dry-cleaning", // dry-cleaning // ffff dry-cleaning
+  "dry dock", // dry-dock // ffff dry dock
+  "dryer", // dryer
+  "dryly", // dryly
+  "dryness", // dryness
+  "dry rot", // dry-rot // ffff dry rot
+  "dual", // dual
+  "dual carriageway", // dual-carriageway // فففف dual carriageway
+  "dub", // dub
+  "dubious", // dubious
+  "dubiously", // dubiously
+  "duchess", // duchess
+  "duchy", // duchy
+  "duck", // duck
+  "duckling", // duckling
+  "duct", // duct
+  "dud", // dud
+  "due", // due
+  "duel", // duel
+  "duet", // duet
+  "duffel coat", // duffel-coat // فففف duffel coat
+  "dugout", // dugout
+  "duke", // duke
+  "dukedom", // dukedom
+  "dull", // dull
+  "dullness", // dullness
+  "dully", // dully
+  "duly", // duly
+  "dumb", // dumb
+  "dumbly", // dumbly
+  "dumbness", // dumbness
+  "dumbfounded", // dumbfounded
+  "dummy", // dummy
+  "dummy run", // dummy-run // ffff dummy run
+  "dump", // dump
+  "dumper truck", // dumper-truck // فففف dumper truck
+  "dumpling", // dumpling
+  "dumpy", // dumpy
+  "dunce", // dunce
+  "dune", // dune
+  "dung", // dung
+  "dungarees", // dungarees
+  "dungeon", // dungeon
+  "dunk", // dunk
+  "duo", // duo
+  "dupe", // dupe
+  "duplex", // duplex
+  "duplicate", // duplicate
+  "duplication", // duplication
+  "durable", // durable
+  "durables",
+  "durable-goods", // durable-goods // ffff durable-goods
+  "duration", // duration
+  "duress", // duress
+  "during", // during
+  "dusk", // dusk
+  "dusky", // dusky
+  "dust", // dust
+  "dustbin", // dustbin
+  "dust bowl", // dust-bowl // فففف dust bowl
+  "dustcart", // dustcart
+  "duster", // duster
+  "dust jacket", // dust-jacket // فففف dust jacket
+  "dustman", // dustman
+  "dustpan", // dustpan
+  "dust sheet", // dust-sheet // فففف dust sheet
+  "dusty", // dusty
+  "duty", // duty
+  "dutiful", // dutiful
+  "dutifully", // dutifully
+  "duty-free", // duty-free // فففف duty-free
+  "duvet", // duvet
+  "DVD", // dvd // فففف DVD
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -5361,7 +5470,16 @@ final List<String> allWordsEnglish = [
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
